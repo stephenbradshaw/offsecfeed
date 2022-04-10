@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-09T00:59:58.143Z</updated>
+    <updated>2022-04-10T01:03:06.676Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Tool: myjson-filter.py]]></title>
+        <id>http://blog.didierstevens.com/?p=9027</id>
+        <link href="https://blog.didierstevens.com/2022/04/09/new-tool-myjson-filter-py/"/>
+        <updated>2022-04-09T08:50:25.000Z</updated>
+        <summary type="html"><![CDATA[A couple of my tools can produce JSON output, using my own format (myjson). This output can then be piped into another tool, like strings.py or file-magic.py. I’m now releasing a tool that can be put into a command pipe to filter the JSON data: myjson-filter.py For example, here I use myjson-filter.py to remove all […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Azure Arc: Manage on-prem Windows Server VMs with Azure Resource Manager]]></title>
         <id>https://4sysops.com/?p=1565083</id>
@@ -876,28 +886,6 @@ Install Windows Subsystem for Linux (WSL) in Windows 11 first appeared on 4sysop
         <summary type="html"><![CDATA[For anyone who's used the Web Security Academy before, you'll be pretty familiar with the format. For those of you who haven't had the pleasure, the process goes a little bit like this: Select a set o]]></summary>
         <author>
             <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sync passwords with KeePass to OneDrive, Google Drive, and Dropbox]]></title>
-        <id>https://4sysops.com/?p=1564711</id>
-        <link href="https://4sysops.com/archives/sync-passwords-with-keepass-to-onedrive-google-drive-and-dropbox/"/>
-        <updated>2022-03-11T04:57:13.000Z</updated>
-        <summary type="html"><![CDATA[KeePass is an open-source password manager used to house passwords and other information. However, using modern cloud storage and security technologies, you can use KeePass in a hybrid approach to access passwords securely across devices using cloud drives such as Dropbox, OneDrive and Google Drive.
-Sync passwords with KeePass to OneDrive, Google Drive, and Dropbox first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting a use-after-free in Windows Common Logging File System (CLFS)]]></title>
-        <id>https://blog.exodusintel.com/?p=1931</id>
-        <link href="https://blog.exodusintel.com/2022/03/10/exploiting-a-use-after-free-in-windows-common-logging-file-system-clfs/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=exploiting-a-use-after-free-in-windows-common-logging-file-system-clfs"/>
-        <updated>2022-03-10T17:47:04.000Z</updated>
-        <summary type="html"><![CDATA[By Arav Garg Overview This post analyzes a use-after-free vulnerability in clfs.sys, the kernel driver that implements the Common Logging File System, a general-purpose logging service that can be used by user-space and kernel-space processes in Windows. A method to exploit this vulnerability to achieve privilege escalation in Windows is also outlined. Along with two ... Read more Exploiting a use-after-free in Windows Common Logging File System (CLFS)
-The post Exploiting a use-after-free in Windows Common Logging File System (CLFS) appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
         </author>
     </entry>
 </feed>
