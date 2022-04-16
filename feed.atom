@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-15T01:03:24.657Z</updated>
+    <updated>2022-04-16T01:01:04.443Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chrome: Manage extensions with PowerShell]]></title>
+        <id>https://4sysops.com/?p=1565178</id>
+        <link href="https://4sysops.com/archives/chrome-manage-extensions-with-powershell/"/>
+        <updated>2022-04-15T12:28:33.000Z</updated>
+        <summary type="html"><![CDATA[In this article, you will learn how you can manage extensions in Google's web browser Chrome in your organization. With the help of a PowerShell script, you can install Chrome managed extensions in your network either through Intune or any RMM software that supports scripts.
+Chrome: Manage extensions with PowerShell first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Robert Pearman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Frozen Heart vulnerability in Bulletproofs]]></title>
+        <id>https://blog.trailofbits.com/?p=101911</id>
+        <link href="https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/"/>
+        <updated>2022-04-15T11:00:52.000Z</updated>
+        <summary type="html"><![CDATA[By Jim Miller In part 1 of this series, we disclosed critical vulnerabilities that break the soundness of multiple implementations of zero-knowledge proof systems. This class of vulnerability, which we dubbed Frozen Heart, is caused by insecure implementations of the Fiat-Shamir transformation that allow malicious users to forge proofs for random statements. In part 2, […]]]></summary>
+        <author>
+            <name>James Miller</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers]]></title>
         <id>https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html</id>
@@ -888,47 +909,6 @@ When you consider how to leverage an arbitrary file delete on Windows, two great
 Most critical Windows OS files are locked down with DACLs that prevent modification even by SYSTEM. Instead, most OS files are owned by TrustedInstaller, and only that account has permission to modify them. (Exercise for the reader: Find the critical Windows OS files that can still be deleted or overwritten…]]></summary>
         <author>
             <name>Simon Zuckerbraun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using Azure AD dynamic groups for Microsoft 365 resources]]></title>
-        <id>https://4sysops.com/?p=1564809</id>
-        <link href="https://4sysops.com/archives/using-dynamic-groups-for-microsoft-365-resources/"/>
-        <updated>2022-03-17T10:20:49.000Z</updated>
-        <summary type="html"><![CDATA[Azure AD supports so-called dynamic groups. A dynamic group can comprise devices or users on which you set query rules to determine their membership. These groups can then be used throughout your Microsoft 365 tenancy to provide access to resources, with a few exceptions for Microsoft Exchange Online.
-Using Azure AD dynamic groups for Microsoft 365 resources first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Robert Pearman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ukraine-Russia Conflict – Cyber Resource Center]]></title>
-        <id>https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center</id>
-        <link href="https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center?msc=rss"/>
-        <updated>2022-03-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Access resources to help your organization navigate the cyber risk surrounding the Russia-Ukraine conflict.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shifting from Penetration Testing to Red Team and Purple Team]]></title>
-        <id>https://www.sans.org/blog/shifting-from-penetration-testing-to-red-team-and-purple-team</id>
-        <link href="https://www.sans.org/blog/shifting-from-penetration-testing-to-red-team-and-purple-team?msc=rss"/>
-        <updated>2022-03-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How do I transition from a Penetration Testing mentality to Red Team mentality and should I focus on Purple Teaming first?]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tool Release – ScoutSuite 5.11.0]]></title>
-        <id>https://research.nccgroup.com/?p=15222</id>
-        <link href="https://research.nccgroup.com/2022/03/16/tool-release-scoutsuite-5-11-0/"/>
-        <updated>2022-03-16T17:39:58.000Z</updated>
-        <summary type="html"><![CDATA[We’re proud to announce the release of a new version of our open-source, multi-cloud auditing tool ScoutSuite (on Github)! The most significant improvements and features added include: Core Improved CLI options, test coverage and some dependencies AWS Added new findings for multiple services Bug fixes Added ARNs for all resources Azure Added new findings Bug … Continue reading Tool Release – ScoutSuite 5.11.0 →]]></summary>
-        <author>
-            <name>Alessandro Fanio González</name>
         </author>
     </entry>
 </feed>
