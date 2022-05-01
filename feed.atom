@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-30T01:16:00.886Z</updated>
+    <updated>2022-05-01T01:27:23.685Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quickpost: Machine Code Infinite Loop]]></title>
+        <id>http://blog.didierstevens.com/?p=9064</id>
+        <link href="https://blog.didierstevens.com/2022/04/30/quickpost-machine-code-infinite-loop/"/>
+        <updated>2022-04-30T08:04:25.000Z</updated>
+        <summary type="html"><![CDATA[Someone asked me what the byte sequence is for an infinite loop in x86 machine code (it’s something you could use while debugging, for example). That byte sequence is just 2 bytes long: EB FE. It’s something you can check with nasm, for example. File jump-infinite-loop.asm: nasm jump-infinite-loop.asm -l jump-infinite-loop.lst File jump-infinite-loop.lst: Quickpost info]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adventures in the land of BumbleBee – a new malicious loader]]></title>
         <id>https://research.nccgroup.com/?p=15699</id>
@@ -1073,17 +1083,6 @@ The post Hunting for Spring Core Exploitation appeared first on Praetorian.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Use PsExec and PowerShell together]]></title>
-        <id>https://4sysops.com/?p=1564990</id>
-        <link href="https://4sysops.com/archives/use-psexec-and-powershell-together/"/>
-        <updated>2022-04-01T08:31:45.000Z</updated>
-        <summary type="html"><![CDATA[In my previous article, we discussed how to use PsExec. As promised, today we will discuss the various use cases in which you can use PsExec and PowerShell together, working as a team.
-Use PsExec and PowerShell together first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Passive-aggressive scan checks]]></title>
         <id>passive-aggressive-scan-checks</id>
         <link href="https://portswigger.net/blog/passive-aggressive-scan-checks"/>
@@ -1091,56 +1090,6 @@ Use PsExec and PowerShell together first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[Here at PortSwigger, our goal is to enable the world to secure the web. Our scanner sits at the core of this value - quickly surfacing issues and vulnerabilities that may be present in a web applicati]]></summary>
         <author>
             <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overview of Content Published in March]]></title>
-        <id>http://blog.didierstevens.com/?p=8985</id>
-        <link href="https://blog.didierstevens.com/2022/04/01/overview-of-content-published-in-march-7/"/>
-        <updated>2022-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Here is an overview of content I published in March: Blog posts: Update: oledump.py Version 0.0.64 New Tool: xlsbdump.py spring4shell Capture File YouTube videos: TShark & Multiple IP Addresses Maldoc Cleaned by Anti-Virus Videoblog posts: YARA?s Console Module MSBuild & Cobalt Strike Quick & Dirty Shellcode Analysis ? CVE-2017-11882 TShark & Multiple IP Addresses Maldoc […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ukraine-Russia Conflict – Cyber Resource Center]]></title>
-        <id>https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center</id>
-        <link href="https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center?msc=rss"/>
-        <updated>2022-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Access resources to help your organization navigate the cyber risk surrounding the Russia-Ukraine conflict.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[spring4shell Capture File]]></title>
-        <id>http://blog.didierstevens.com/?p=8977</id>
-        <link href="https://blog.didierstevens.com/2022/03/31/spring4shell-capture-file/"/>
-        <updated>2022-03-31T19:13:38.000Z</updated>
-        <summary type="html"><![CDATA[If you are interested, I’ve put a spring4shell exploit capture file on my GitHub. It might trigger your AV, like Defender (Defender triggers on the webshell code). First HTTP request in the capture file, is just a test query. Second HTTP request is the exploit that drops a webshell. Third HTTP request is using that […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FORCEDENTRY: Sandbox Escape]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html"/>
-        <updated>2022-03-31T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ol{margin:0;padding:0}table td,table th{padding:0}.c16{padding-top:16pt;padding-bottom:4pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c11{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c7{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:italic}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Courier New";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:"Arial";font-style:normal}.c4{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Home-Grown Red Team: Let’s Evade AV And Run Lazagne]]></title>
-        <id>https://medium.com/p/af97e035de22</id>
-        <link href="https://assume-breach.medium.com/homegrown-red-team-lets-evade-av-and-run-lazagne-af97e035de22?source=rss-fe83402397b0------2"/>
-        <updated>2022-03-31T15:03:16.000Z</updated>
-        <summary type="html"><![CDATA[What is Lazagne?]]></summary>
-        <author>
-            <name>assume-breach</name>
         </author>
     </entry>
 </feed>

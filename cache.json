@@ -171,16 +171,6 @@
           "wordCount": 6442,
           "title": "CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrv4IkZXgNv7MttlFFE1Gyyr2MQx0T4gzNAybXi3vsMhwT30WK_KaX1pF2zQKPLBoSU5Dtz3tG3yxJqaaE13leIBcnAFOb_HE8FFdy5yMOvoP0a_cB-IDi__SaWH4xL0czURYqdLtxvcKVSAysO0s8lOLrKykDEKEv1Z9fr0wQ7SOCDBcr5pgC-OoHcw/w1200-h630-p-k-no-nu/image2%20%281%29.png"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html",
-          "author": null,
-          "description": "ol{margin:0;padding:0}table td,table th{padding:0}.c16{padding-top:16pt;padding-bottom:4pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c11{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c7{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:italic}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Courier New\";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:\"Arial\";font-style:normal}.c4{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font…",
-          "link": "https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html",
-          "publishedOn": "2022-03-31T16:00:00.000Z",
-          "wordCount": 3568,
-          "title": "FORCEDENTRY: Sandbox Escape",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiju_-thk9djtuTJr7kWQuOIF8O3xydoja-FIW5gcwq9s1TGTtvobsRcyQ9_TFbXhta_6I9VQj0u8hyJfLixzGgmOFT4jy3UAcV31MT24-p_vwCGpotG5jQdna1PxNHW3EaSN4d1cQ_vpXAKKWy1V5us-ZlEvUkN5dAq-KjgQFLcQ97jglBLYky_lqs2w/w1200-h630-p-k-no-nu/image1.png"
         }
       ]
     },
@@ -225,6 +215,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=9064",
+          "author": "Didier Stevens",
+          "description": "Someone asked me what the byte sequence is for an infinite loop in x86 machine code (it’s something you could use while debugging, for example). That byte sequence is just 2 bytes long: EB FE. It’s something you can check with nasm, for example. File jump-infinite-loop.asm: nasm jump-infinite-loop.asm -l jump-infinite-loop.lst File jump-infinite-loop.lst: Quickpost info",
+          "link": "https://blog.didierstevens.com/2022/04/30/quickpost-machine-code-infinite-loop/",
+          "publishedOn": "2022-04-30T08:04:25.000Z",
+          "wordCount": 928,
+          "title": "Quickpost: Machine Code Infinite Loop",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=9074",
           "author": "Didier Stevens",
@@ -304,26 +304,6 @@
           "wordCount": 1166,
           "title": "Power Consumption Of A Philips Hue lamp In Off State",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/04/20220403-184603.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=8985",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in March: Blog posts: Update: oledump.py Version 0.0.64 New Tool: xlsbdump.py spring4shell Capture File YouTube videos: TShark & Multiple IP Addresses Maldoc Cleaned by Anti-Virus Videoblog posts: YARA?s Console Module MSBuild & Cobalt Strike Quick & Dirty Shellcode Analysis ? CVE-2017-11882 TShark & Multiple IP Addresses Maldoc […]",
-          "link": "https://blog.didierstevens.com/2022/04/01/overview-of-content-published-in-march-7/",
-          "publishedOn": "2022-04-01T00:00:00.000Z",
-          "wordCount": 1016,
-          "title": "Overview of Content Published in March",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=8977",
-          "author": "Didier Stevens",
-          "description": "If you are interested, I’ve put a spring4shell exploit capture file on my GitHub. It might trigger your AV, like Defender (Defender triggers on the webshell code). First HTTP request in the capture file, is just a test query. Second HTTP request is the exploit that drops a webshell. Third HTTP request is using that […]",
-          "link": "https://blog.didierstevens.com/2022/03/31/spring4shell-capture-file/",
-          "publishedOn": "2022-03-31T19:13:38.000Z",
-          "wordCount": 938,
-          "title": "spring4shell Capture File",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2022/03/20220331-210818.png"
         }
       ]
     },
@@ -1089,16 +1069,6 @@
           "wordCount": 2978,
           "title": "Turn on Windows 10 Tamper Protection for Microsoft Defender",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/The-Defender-dashboard-shows-incidents-relating-to-tamper-protection-600x394.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1564990",
-          "author": "Surender Kumar",
-          "description": "In my previous article, we discussed how to use PsExec. As promised, today we will discuss the various use cases in which you can use PsExec and PowerShell together, working as a team.\nUse PsExec and PowerShell together first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/use-psexec-and-powershell-together/",
-          "publishedOn": "2022-04-01T08:31:45.000Z",
-          "wordCount": 3730,
-          "title": "Use PsExec and PowerShell together",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/Running-PsExec-within-a-PowerShell-script-on-multiple-remote-computers-600x318.png"
         }
       ]
     },
@@ -1271,16 +1241,6 @@
           "publishedOn": "2022-04-04T00:00:00.000Z",
           "wordCount": 2643,
           "title": "A Look Into ICS612: ICS Cybersecurity In-Depth: Part 2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center",
-          "author": null,
-          "description": "Access resources to help your organization navigate the cyber risk surrounding the Russia-Ukraine conflict.",
-          "link": "https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center?msc=rss",
-          "publishedOn": "2022-04-01T00:00:00.000Z",
-          "wordCount": 2541,
-          "title": "Ukraine-Russia Conflict – Cyber Resource Center",
           "imageUrl": null
         }
       ]
@@ -1487,16 +1447,6 @@
           "wordCount": 1400,
           "title": "Home-Grown Red Team: Internal Windows Phishing With Pickl3 And InsideMan",
           "imageUrl": "https://miro.medium.com/max/980/1*h4gbaYuVyAq7RTuR2zx4KQ.png"
-        },
-        {
-          "id": "https://medium.com/p/af97e035de22",
-          "author": "assume-breach",
-          "description": "What is Lazagne?",
-          "link": "https://assume-breach.medium.com/homegrown-red-team-lets-evade-av-and-run-lazagne-af97e035de22?source=rss-fe83402397b0------2",
-          "publishedOn": "2022-03-31T15:03:16.000Z",
-          "wordCount": 1435,
-          "title": "Home-Grown Red Team: Let’s Evade AV And Run Lazagne",
-          "imageUrl": "https://miro.medium.com/max/593/1*15LetPQLQe23S9gf8gJaVA.png"
         }
       ]
     }

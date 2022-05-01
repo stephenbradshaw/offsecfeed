@@ -59,6 +59,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-30 datetime="2022-04-30T08:04:25.000Z">2022-04-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-30 datetime="2022-04-30T08:04:25.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Didier Stevens</button>
+                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;9064"
+                        open
+                      >
+                        <summary class="article-expander__title">Quickpost: Machine Code Infinite Loop</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/04/30/quickpost-machine-code-infinite-loop/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Someone asked me what the byte sequence is for an infinite loop in x86 machine code (it’s something you could use while debugging, for example). That byte sequence is just 2 bytes long: EB FE. It’s something you can check with nasm, for example. File jump-infinite-loop.asm: nasm jump-infinite-loop.asm -l jump-infinite-loop.lst File jump-infinite-loop.lst: Quickpost info</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-29 datetime="2022-04-29T10:54:58.000Z">2022-04-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-29 datetime="2022-04-29T10:54:58.000Z"></time>
           </button>
@@ -3790,46 +3838,11 @@ The post Hunting for Spring Core Exploitation appeared first on Praetorian.</spa
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-01 datetime="2022-04-01T08:31:45.000Z">2022-04-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-01 datetime="2022-04-01T08:31:45.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-01 datetime="2022-04-01T08:00:00.000Z">2022-04-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-01 datetime="2022-04-01T08:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1564990"
-                        open
-                      >
-                        <summary class="article-expander__title">Use PsExec and PowerShell together</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/use-psexec-and-powershell-together/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2022/04/Running-PsExec-within-a-PowerShell-script-on-multiple-remote-computers-600x318.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In my previous article, we discussed how to use PsExec. As promised, today we will discuss the various use cases in which you can use PsExec and PowerShell together, working as a team.
-Use PsExec and PowerShell together first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -3864,195 +3877,12 @@ Use PsExec and PowerShell together first appeared on 4sysops.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Didier Stevens</button>
-                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;8985"
-                        open
-                      >
-                        <summary class="article-expander__title">Overview of Content Published in March</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/04/01/overview-of-content-published-in-march-7/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Here is an overview of content I published in March: Blog posts: Update: oledump.py Version 0.0.64 New Tool: xlsbdump.py spring4shell Capture File YouTube videos: TShark &amp; Multiple IP Addresses Maldoc Cleaned by Anti-Virus Videoblog posts: YARA?s Console Module MSBuild &amp; Cobalt Strike Quick &amp; Dirty Shellcode Analysis ? CVE-2017-11882 TShark &amp; Multiple IP Addresses Maldoc […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SANS Blog</button>
-                  <a class="source-heading__link" href="https://www.sans.org/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center"
-                        open
-                      >
-                        <summary class="article-expander__title">Ukraine-Russia Conflict – Cyber Resource Center</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sans.org/blog/ukraine-russia-conflict-cyber-resource-center?msc&#x3D;rss">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Access resources to help your organization navigate the cyber risk surrounding the Russia-Ukraine conflict.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-31 datetime="2022-03-31T19:13:38.000Z">2022-03-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-31 datetime="2022-03-31T19:13:38.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Didier Stevens</button>
-                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;8977"
-                        open
-                      >
-                        <summary class="article-expander__title">spring4shell Capture File</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/03/31/spring4shell-capture-file/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://didierstevens.files.wordpress.com/2022/03/20220331-210818.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>If you are interested, I’ve put a spring4shell exploit capture file on my GitHub. It might trigger your AV, like Defender (Defender triggers on the webshell code). First HTTP request in the capture file, is just a test query. Second HTTP request is the exploit that drops a webshell. Third HTTP request is using that […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Project Zero</button>
-                  <a class="source-heading__link" href="https://googleprojectzero.blogspot.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html"
-                        open
-                      >
-                        <summary class="article-expander__title">FORCEDENTRY: Sandbox Escape</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiju_-thk9djtuTJr7kWQuOIF8O3xydoja-FIW5gcwq9s1TGTtvobsRcyQ9_TFbXhta_6I9VQj0u8hyJfLixzGgmOFT4jy3UAcV31MT24-p_vwCGpotG5jQdna1PxNHW3EaSN4d1cQ_vpXAKKWy1V5us-ZlEvUkN5dAq-KjgQFLcQ97jglBLYky_lqs2w/w1200-h630-p-k-no-nu/image1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ol{margin:0;padding:0}table td,table th{padding:0}.c16{padding-top:16pt;padding-bottom:4pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c11{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c7{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:italic}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Courier New&quot;;font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:&quot;Arial&quot;;font-style:normal}.c4{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Stories by assume-breach on Medium</button>
-                  <a class="source-heading__link" href="https://medium.com/@assume-breach?source&#x3D;rss-fe83402397b0------2">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/p/af97e035de22"
-                        open
-                      >
-                        <summary class="article-expander__title">Home-Grown Red Team: Let’s Evade AV And Run Lazagne</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://assume-breach.medium.com/homegrown-red-team-lets-evade-av-and-run-lazagne-af97e035de22?source&#x3D;rss-fe83402397b0------2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/max/593/1*15LetPQLQe23S9gf8gJaVA.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>What is Lazagne?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/2248496006">
-        <time id="build-timestamp" datetime="2022-04-30T01:16:00.859Z">2022-04-30T01:16:00.859Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/2251797705">
+        <time id="build-timestamp" datetime="2022-05-01T01:27:23.657Z">2022-05-01T01:27:23.657Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
