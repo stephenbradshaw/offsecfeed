@@ -121,16 +121,6 @@
           "wordCount": 8658,
           "title": "CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5UykytcJVVshEICfc5vF3q6iAkVDug6bFDyqEnEef_apkVCB-AsGKCFPMqa6XZ2RoKPqjuU1CNiWBd4mszC0lGCNmSSby9dVqg_g3VCBM3cJodxCNij4Bqarp7ULqGkonXHyIEne3Uy6s1YcFUvfKmWlBSAvf8axjiw-4mJftHeL39CqTHjHTQ6TjnA/w1200-h630-p-k-no-nu/image1%20%283%29.png"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c5{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.c10{color:#434343;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:\"Arial\";font-style:normal}.c2{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.c0…",
-          "link": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
-          "publishedOn": "2022-04-07T16:08:00.000Z",
-          "wordCount": 6442,
-          "title": "CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrv4IkZXgNv7MttlFFE1Gyyr2MQx0T4gzNAybXi3vsMhwT30WK_KaX1pF2zQKPLBoSU5Dtz3tG3yxJqaaE13leIBcnAFOb_HE8FFdy5yMOvoP0a_cB-IDi__SaWH4xL0czURYqdLtxvcKVSAysO0s8lOLrKykDEKEv1Z9fr0wQ7SOCDBcr5pgC-OoHcw/w1200-h630-p-k-no-nu/image2%20%281%29.png"
         }
       ]
     },
@@ -157,6 +147,16 @@
       "feedUrl": "https://malicious.link/post/index.xml",
       "siteUrl": "https://malicious.link/post/",
       "articles": [
+        {
+          "id": "https://malicious.link/post/2022/beautiful-basics-lesson-01/",
+          "author": null,
+          "description": "Lessons Learned\nSlides\nLesson 1\nLesson 2\nLesson 3\nLesson 4\nLesson 5\nLesson 6\nLesson 7\nLesson 8\nLesson 9\nLesson 10\nLesson 11\nLesson 1 - YOU could be “Legacy”\nStop thinking that just because it did or didn’t work X way when you learned it, it still does or doesn’t. That could be 20 years ago. Technology changes faster than you do.\n\nI guess that’s a bit mean for a title but here’s the thing:\nOne of the greatest yet most challenging things about doing any job in technology is staying current. Everyone struggles to stay up to date with as much of what is going on around you. Many people specialize, which makes it easier to stay up to date with a specific thing. Yet that can lead to tunnel vision as well.\nAll I’m trying to say here is that sometimes, the person with the least amount of “experience” in a given technology field is going to have the most open mind to what is possible. No matter how long you have been in cyber security or technology in general, you should consider your knowledge on a specific topic a point in time piece of information. At that exact moment in your life, that fact was true. This doesn’t mean that it stays that way.\nTake passwords for example. Everyone said “8 character passwords are secure” for decades. I’m still hearing that. Or “never write your passwords down”. This is just one example. “Never use X software, it’s insecure”, is it still?. One of the ways I stay “current” is by always challenging my knowledge of how I think things should work vs how they do.\nThis is why during my keynote I noted when and where I leaned these lessons, there is every possibility I am complete off base with all of them. This is also why it’s my beautiful basics lesson #1. Something to always keep top of mind.",
+          "link": "https://malicious.link/post/2022/beautiful-basics-lesson-01/",
+          "publishedOn": "2022-05-07T06:00:00.000Z",
+          "wordCount": 364,
+          "title": "Beautiful Basics: Lesson 1",
+          "imageUrl": null
+        },
         {
           "id": "https://malicious.link/post/2022/beautiful-basics/",
           "author": null,
@@ -401,17 +401,6 @@
           "title": "The April 2022 Security Update Review",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:624efcca99d235398b4956bf",
-          "author": "Hossein Lotfi",
-          "description": "Memory corruption vulnerabilities have been well known for a long time and programmers have developed various methods to prevent them. One type of memory corruption that is very hard to prevent is the use-after-free and the reason is that it has too many faces! Since it cannot be associated with any specific pattern in source code, it is not trivial to eliminate this vulnerability class. In this blog, a use-after-free vulnerability in Mozilla Firefox will be explained which has been assigned CVE-2022-26381. The Mozilla bug entry 1756793 is still closed to the public as of this writing, but the Zero Day Initiative advisory page ZDI-22-502 can provide a bit more information.\nWhat Is a Use-After-Free Vulnerability?\nA use-after-free (UAF) vulnerability happens when a pointer to a freed object …",
-          "link": "https://www.thezdi.com/blog/2022/4/7/cve-2022-26381-gone-by-others-triggering-a-uaf-in-firefox",
-          "publishedOn": "2022-04-07T15:51:30.000Z",
-          "wordCount": null,
-          "title": "CVE-2022-26381: Gone by others! Triggering a UAF in Firefox",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -529,16 +518,6 @@
           "publishedOn": "2022-04-12T14:06:46.000Z",
           "wordCount": 5464,
           "title": "A brief look at Windows telemetry: CIT aka Customer Interaction Tracker",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=15501",
-          "author": "Jennifer Fernick",
-          "description": "During the autumn of 2021, Google engaged NCC Group to perform a review of the Android 12 Enterprise API to evaluate its compliance with the Security Technical Implementation Guides (STIG) matrix provided by Google. This assessment was also performed with reference to the Common Criteria Protection Profile for Mobile Device Fundamentals (PPMDF), from which the … Continue reading Public Report – Google Enterprise API Security Assessment →",
-          "link": "https://research.nccgroup.com/2022/04/07/public-report-google-enterprise-api-security-assessment/",
-          "publishedOn": "2022-04-07T20:06:20.000Z",
-          "wordCount": 227,
-          "title": "Public Report – Google Enterprise API Security Assessment",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
         }
       ]
@@ -1070,16 +1049,6 @@
           "wordCount": 2534,
           "title": "Microsoft Office 365 Message Encryption: Encrypt email in Microsoft 365",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/Creating-a-new-mail-flow-rule-to-apply-Microsoft-Office-365-Message-Encryption-600x408.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1565083",
-          "author": "Brandon Lee",
-          "description": "Azure Arc allows organizations to extend the Azure Resource Manager control plane from the public cloud to their on-premises environments so that they can manage these resources like they natively existed in Azure and utilize services like Automanage. This provides functions such as remediation of configuration drifts, setting up backup and monitoring, and hotpatching Windows Server.\nAzure Arc: Manage on-prem Windows Server VMs with Azure Resource Manager first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/azure-arc-manage-on-prem-windows-server-vms-with-azure-resource-manager/",
-          "publishedOn": "2022-04-08T09:39:46.000Z",
-          "wordCount": 2539,
-          "title": "Azure Arc: Manage on-prem Windows Server VMs with Azure Resource Manager",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/Enable-Automanage-on-an-existing-machine-600x342.png"
         }
       ]
     },
