@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-11T01:17:50.219Z</updated>
+    <updated>2022-05-12T01:13:41.594Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability]]></title>
+        <id>https://blog.exodusintel.com/?p=1984</id>
+        <link href="https://blog.exodusintel.com/2022/05/11/d-link-dir-1260-getdevicesettings-pre-auth-command-injection-vulnerability/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=d-link-dir-1260-getdevicesettings-pre-auth-command-injection-vulnerability"/>
+        <updated>2022-05-11T17:59:08.000Z</updated>
+        <summary type="html"><![CDATA[EIP-3b20d7b3 A command injection vulnerability exists within the web management interface of the D-Link DIR-1260 Wi-Fi router that allows for unauthenticated attackers to execute arbitrary commands on the device with root privileges. The flaw specifically exists within the SetDest/Dest/Target arguments to the GetDeviceSettings form. The management interface is accessible over HTTP and HTTPS on the local ... Read more D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability
+The post D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability appeared first on Exodus Intelligence.]]></summary>
+        <author>
+            <name>Exodus Intel VRT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Putting Things in Context | Timelining Threat Campaigns]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=66799</id>
+        <link href="https://www.sentinelone.com/labs/putting-things-in-context-timelining-threat-campaigns/"/>
+        <updated>2022-05-11T16:05:43.000Z</updated>
+        <summary type="html"><![CDATA[Visualizing data is integral to threat research. See how we used this timeline analysis tool to track activity in the Ukrainian cyber conflict.]]></summary>
+        <author>
+            <name>Tom Hegel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Azure AD certificate-based user authentication]]></title>
+        <id>https://4sysops.com/?p=1565708</id>
+        <link href="https://4sysops.com/archives/azure-ad-certificate-based-user-authentication/"/>
+        <updated>2022-05-11T13:59:49.000Z</updated>
+        <summary type="html"><![CDATA[Certificate-based authentication is an extremely robust and secure mechanism for validating a user's identity. However, until recently, you had to deploy Active Directory Federation Services (AD FS) to make it available for Azure AD. Microsoft has recently introduced an Azure AD certificate-based authentication service (Azure CBA), which significantly simplifies implementing certificate-based authentication.
+Azure AD certificate-based user authentication first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Earn $200K by fuzzing for a weekend: Part 2]]></title>
+        <id>https://secret.club/2022/05/11/fuzzing-solana-2.html</id>
+        <link href="https://secret.club/2022/05/11/fuzzing-solana-2.html"/>
+        <updated>2022-05-11T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Below are the writeups for two vulnerabilities I discovered in Solana rBPF, a self-described “Rust virtual machine and JIT compiler for eBPF programs”. These vulnerabilities were responsibly disclosed according to Solana’s Security Policy and I have permission from the engineers and from the Solana Head of Business Development to publish these vulnerabilities as shown below.]]></summary>
+        <author>
+            <name>secret club</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Earn $200K by fuzzing for a weekend: Part 1]]></title>
+        <id>https://secret.club/2022/05/11/fuzzing-solana.html</id>
+        <link href="https://secret.club/2022/05/11/fuzzing-solana.html"/>
+        <updated>2022-05-11T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[By applying well-known fuzzing techniques to a popular target, I found several bugs that in total yielded over $200K in bounties. In this article I will demonstrate how powerful fuzzing can be when applied to software which has not yet faced sufficient testing.]]></summary>
+        <author>
+            <name>secret club</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Instance Metadata Services (IMDS)]]></title>
+        <id>https://www.sans.org/blog/cloud-instance-metadata-services-imds-</id>
+        <link href="https://www.sans.org/blog/cloud-instance-metadata-services-imds-?msc=rss"/>
+        <updated>2022-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A misunderstood but deeply important feature to lock down when deploying workloads in cloud. Learn about Cloud Instance Metadata Services (IMDS) in this blog post.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release of Technical Report into the AMD Security Processor]]></title>
         <id>https://googleprojectzero.blogspot.com/2022/05/release-of-technical-report-into-amd.html</id>
@@ -508,6 +570,16 @@ Lesson 11]]></summary>
         <summary type="html"><![CDATA[Someone asked me what the byte sequence is for an infinite loop in x86 machine code (it’s something you could use while debugging, for example). That byte sequence is just 2 bytes long: EB FE. It’s something you can check with nasm, for example. File jump-infinite-loop.asm: nasm jump-infinite-loop.asm -l jump-infinite-loop.lst File jump-infinite-loop.lst: Quickpost info]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Year to I/O Ring: What Changed?]]></title>
+        <id>https://windows-internals.com/?p=452766</id>
+        <link href="https://windows-internals.com/one-year-to-i-o-ring-what-changed/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=one-year-to-i-o-ring-what-changed"/>
+        <updated>2022-04-29T22:09:20.000Z</updated>
+        <summary type="html"><![CDATA[[…]]]></summary>
+        <author>
+            <name>Yarden Shafir</name>
         </author>
     </entry>
     <entry>
@@ -1332,50 +1404,6 @@ The post SecureAuth Recognizes Chris Hawley at Unisys as Identity Access Managem
         <summary type="html"><![CDATA[“Customer Interaction Tracker” is one of the telemetry systems that exist within Windows, responsible for tracking interaction with the system and applications. We provide an overview and means to parse as a data source to aid forensic investigations.]]></summary>
         <author>
             <name>Erik Schamper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2022-25165: Privilege Escalation to SYSTEM in AWS VPN Client]]></title>
-        <id>https://rhinosecuritylabs.com/?p=24446</id>
-        <link href="https://rhinosecuritylabs.com/aws/cve-2022-25165-aws-vpn-client/"/>
-        <updated>2022-04-12T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The post CVE-2022-25165: 
-Privilege Escalation to SYSTEM in AWS VPN Client appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>David Yesland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Conditional Access policies not working in Google Chrome]]></title>
-        <id>https://4sysops.com/?p=1565066</id>
-        <link href="https://4sysops.com/archives/azure-conditional-access-policies-not-working-in-google-chrome/"/>
-        <updated>2022-04-12T09:21:58.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft offers many solutions and services to defend your Microsoft 365 tenancy. One of the most touted features available in Azure AD Premium P1 (and higher) is Azure Conditional Access. Conditional Access allows you to set policies that determine what type of devices, which users, and under what conditions a request to access a service may be allowed or blocked.
-Azure Conditional Access policies not working in Google Chrome first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Robert Pearman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-3 and Phishing Attacks]]></title>
-        <id>https://embracethered.com/blog/posts/2022/gpt-3-ai-and-phishing-attacks/</id>
-        <link href="https://embracethered.com/blog/posts/2022/gpt-3-ai-and-phishing-attacks/"/>
-        <updated>2022-04-11T15:00:43.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we’ll examine how GPT-3 could be used by red teams or adversaries to perform successful phishing attacks. We’ll also discuss some potential countermeasures that organizations can take to protect themselves against this type of threat.
-What is GPT-3? GPT-3 is a neural network-based machine learning system that was developed by OpenAI, a research lab focused on artificial intelligence. It is designed to generate text that sounds realistic and human-like, and it has been trained on a large corpus of text, including billions of words from the internet.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Office 365 Message Encryption: Encrypt email in Microsoft 365]]></title>
-        <id>https://4sysops.com/?p=1565060</id>
-        <link href="https://4sysops.com/archives/microsoft-office-365-message-encryption-encrypt-email-in-microsoft-365/"/>
-        <updated>2022-04-11T14:56:46.000Z</updated>
-        <summary type="html"><![CDATA[Customers using Exchange Online can take advantage of Microsoft Office 365 Message Encryption (Microsoft OME) as an online service built into Microsoft Azure Rights Management (Azure RMS) to encrypt Office 365 email messages and various attachments.
-Microsoft Office 365 Message Encryption: Encrypt email in Microsoft 365 first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>
