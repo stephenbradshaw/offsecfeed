@@ -121,16 +121,6 @@
           "wordCount": 6268,
           "title": "The More You Know, The More You Know You Don’t Know",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM4gCoxLJVRGTOOAa0G44m0K7JF0hFFDI02iBV7REJruq3uiZof8wNylU1aNxOte2oEhhj_5JM9tS0VOwgA-eiKIaQ_DdmTQtlC9OUKSRA6kes4_d_-BKyeZsJ2bxISU2HJmZRG-_kVtKguVM8-eo7mbHl1_zs8DUGnY5mD-BiWYz6ayl472_aq7G_wQ/w1200-h630-p-k-no-nu/image1.png"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.BGLtzooHlW-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.BGLtzooHlW-c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.BGLtzooHlW-c10{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-fa…",
-          "link": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html",
-          "publishedOn": "2022-04-14T15:58:00.000Z",
-          "wordCount": 8658,
-          "title": "CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5UykytcJVVshEICfc5vF3q6iAkVDug6bFDyqEnEef_apkVCB-AsGKCFPMqa6XZ2RoKPqjuU1CNiWBd4mszC0lGCNmSSby9dVqg_g3VCBM3cJodxCNij4Bqarp7ULqGkonXHyIEne3Uy6s1YcFUvfKmWlBSAvf8axjiw-4mJftHeL39CqTHjHTQ6TjnA/w1200-h630-p-k-no-nu/image1%20%283%29.png"
         }
       ]
     },
@@ -206,6 +196,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=9102",
+          "author": "Didier Stevens",
+          "description": "This new version of oledump.py brings support for user defined properties and an update to plugin plugin_msg_summary.py Office documents with VSTO applications have user defined properties. These properties can be extracted with my plugin plugin_medata.py, but not with the current version of olefile.However, the development version of olefile can be used to extract these properties. […]",
+          "link": "https://blog.didierstevens.com/2022/05/14/update-oledump-py-version-0-0-67/",
+          "publishedOn": "2022-05-14T10:12:03.000Z",
+          "wordCount": 937,
+          "title": "Update: oledump.py Version 0.0.67",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2022/05/20220514-114514.png"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=9111",
           "author": "Didier Stevens",
@@ -391,7 +391,18 @@
       "title": "Tyranid's Lair",
       "feedUrl": "https://www.tiraniddo.dev/feeds/posts/default",
       "siteUrl": "https://www.tiraniddo.dev/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.tiraniddo.dev/2022/05/exploiting-rbcd-using-normal-user.html",
+          "author": null,
+          "description": "* Caveats apply.\nResource Based Constrained Delegate (RBCD) privilege escalation, described by Elad Shamir in the \"Wagging the Dog\" blog post is a devious way of exploiting Kerberos to elevate privileged on a local  Windows machine. All it requires is write access to local computer's domain account to modify the msDS-AllowedToActOnBehalfOfOtherIdentity LDAP attribute to add another account's SID. You can then use that account with the Services For User (S4U) protocols to get a Kerberos service ticket for the local machine as any user on the domain including local administrators. From there you can create a new service or whatever else you need to do.\nThe key is how you write to the LDAP server under the local computer's domain account. There's been various approaches usually abusing authen…",
+          "link": "https://www.tiraniddo.dev/2022/05/exploiting-rbcd-using-normal-user.html",
+          "publishedOn": "2022-05-14T02:29:00.004Z",
+          "wordCount": 1591,
+          "title": "Exploiting RBCD Using a Normal User Account*",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Zero Day Initiative - Blog",
@@ -746,16 +757,6 @@
           "wordCount": 3417,
           "title": "The Frozen Heart vulnerability in PlonK",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2022/04/Frozen-Heart-7.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=101911",
-          "author": "James Miller",
-          "description": "By Jim Miller In part 1 of this series, we disclosed critical vulnerabilities that break the soundness of multiple implementations of zero-knowledge proof systems. This class of vulnerability, which we dubbed Frozen Heart, is caused by insecure implementations of the Fiat-Shamir transformation that allow malicious users to forge proofs for random statements. In part 2, […]",
-          "link": "https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/",
-          "publishedOn": "2022-04-15T11:00:52.000Z",
-          "wordCount": 2396,
-          "title": "The Frozen Heart vulnerability in Bulletproofs",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2022/04/Frozen-Heart-No-BG-300x278.png"
         }
       ]
     },
@@ -1068,26 +1069,6 @@
           "wordCount": 2008,
           "title": "Create and read SCVMM custom properties with PowerShell and the VMM Console",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/New-custom-properties-600x365.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1565178",
-          "author": "Robert Pearman",
-          "description": "In this article, you will learn how you can manage extensions in Google's web browser Chrome in your organization. With the help of a PowerShell script, you can install Chrome managed extensions in your network either through Intune or any RMM software that supports scripts.\nChrome: Manage extensions with PowerShell first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/chrome-manage-extensions-with-powershell/",
-          "publishedOn": "2022-04-15T12:28:33.000Z",
-          "wordCount": 2154,
-          "title": "Chrome: Manage extensions with PowerShell",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/Chrome-extensions-before-management-is-enabled-600x213.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1565239",
-          "author": "Brandon Lee",
-          "description": "Password managers help users juggle numerous accounts and passwords with ease compared to memorizing multiple accounts. Most users will not only want to have the passwords available for their Windows workstation, but also on their mobile device. How can we sync KeePass for Windows with Android and iOS?\nSync KeePass for Windows with Android and iOS first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/sync-keepass-for-windows-with-android-and-ios/",
-          "publishedOn": "2022-04-14T13:58:34.000Z",
-          "wordCount": 2417,
-          "title": "Sync KeePass for Windows with Android and iOS",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/Overview-of-syncing-KeePass-between-Windows-PCs-iPhone-and-Android-600x513.png"
         }
       ]
     },
@@ -1386,6 +1367,17 @@
       "siteUrl": "https://www.redteamjournal.com/blog/",
       "articles": [
         {
+          "id": "6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:627fedf0a121b024e468bca9",
+          "author": "Red Team Journal",
+          "description": "For better or worse, however, not everyone processes conflict and \r\ncompetition the same way. This is where things get interesting (and \r\npotentially dangerous).",
+          "link": "https://www.redteamjournal.com/blog/dragon-knight-intro",
+          "publishedOn": "2022-05-14T17:59:12.000Z",
+          "wordCount": null,
+          "title": "Dragon and Knight",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62754bb5027928567d854223",
           "author": "Red Team Journal",
           "description": "Our intent with FRAME is to bind the functions of model-based red teaming \r\nto security risk awareness across the extended enterprise. Among other \r\nthings, we’re intentionally expanding the field of vision to include \r\nstrategic and operational functions.",
@@ -1533,16 +1525,6 @@
           "wordCount": 1305,
           "title": "SecureAuth Latest Release Delivers Enhanced Passwordless Authentication with Improved User Experience",
           "imageUrl": "https://www.secureauth.com/wp-content/uploads/2022/04/22.02-social-3.jpg"
-        },
-        {
-          "id": "https://www.secureauth.com/?post_type=blog&p=42226",
-          "author": "jendres",
-          "description": "SecureAuth and Enterprise Strategy Group (ESG) recently issued an identity and access management report – “Securing the Identity Perimeter with Defense in Depth.” In today’s on-demand webinar, SecureAuth’s CEO Paul Trulove and Jack Poller Senior Analyst at ESG discussed the findings and provided insights into the trends in the market about passwordless continuous authentication and […]\nThe post Balancing Friction with Security: Future of Passwordless Technology appeared first on SecureAuth.",
-          "link": "https://www.secureauth.com/blog/balancing-friction-with-security-future-of-passwordless-technology-webinar/",
-          "publishedOn": "2022-04-15T00:04:37.000Z",
-          "wordCount": 929,
-          "title": "Balancing Friction with Security: Future of Passwordless Technology",
-          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2022/04/esg-social-webinar-blog.jpg"
         }
       ]
     },

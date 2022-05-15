@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-14T01:28:16.825Z</updated>
+    <updated>2022-05-15T01:22:18.711Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Dragon and Knight]]></title>
+        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:627fedf0a121b024e468bca9</id>
+        <link href="https://www.redteamjournal.com/blog/dragon-knight-intro"/>
+        <updated>2022-05-14T17:59:12.000Z</updated>
+        <summary type="html"><![CDATA[For better or worse, however, not everyone processes conflict and 
+competition the same way. This is where things get interesting (and 
+potentially dangerous).]]></summary>
+        <author>
+            <name>Red Team Journal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: oledump.py Version 0.0.67]]></title>
+        <id>http://blog.didierstevens.com/?p=9102</id>
+        <link href="https://blog.didierstevens.com/2022/05/14/update-oledump-py-version-0-0-67/"/>
+        <updated>2022-05-14T10:12:03.000Z</updated>
+        <summary type="html"><![CDATA[This new version of oledump.py brings support for user defined properties and an update to plugin plugin_msg_summary.py Office documents with VSTO applications have user defined properties. These properties can be extracted with my plugin plugin_medata.py, but not with the current version of olefile.However, the development version of olefile can be used to extract these properties. […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting RBCD Using a Normal User Account*]]></title>
+        <id>https://www.tiraniddo.dev/2022/05/exploiting-rbcd-using-normal-user.html</id>
+        <link href="https://www.tiraniddo.dev/2022/05/exploiting-rbcd-using-normal-user.html"/>
+        <updated>2022-05-14T02:29:00.004Z</updated>
+        <summary type="html"><![CDATA[* Caveats apply.
+Resource Based Constrained Delegate (RBCD) privilege escalation, described by Elad Shamir in the "Wagging the Dog" blog post is a devious way of exploiting Kerberos to elevate privileged on a local  Windows machine. All it requires is write access to local computer's domain account to modify the msDS-AllowedToActOnBehalfOfOtherIdentity LDAP attribute to add another account's SID. You can then use that account with the Services For User (S4U) protocols to get a Kerberos service ticket for the local machine as any user on the domain including local administrators. From there you can create a new service or whatever else you need to do.
+The key is how you write to the LDAP server under the local computer's domain account. There's been various approaches usually abusing authen…]]></summary>
+        <author>
+            <name>Tyranid's Lair</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[IIS Failed Request Tracing]]></title>
         <id>https://4sysops.com/?p=1565592</id>
@@ -1299,59 +1333,6 @@ Create and read SCVMM custom properties with PowerShell and the VMM Console firs
         <summary type="html"><![CDATA[This new version of cut-bytes.py adds access to the read data for Python expressions in prefix and suffix options. cut-bytes_V0_0_14.zip (http)MD5: EC3434DAAEE06C6F35BD57B77F86833FSHA256: BCCCE7A73C921BD2CC195155A3A709FBAD7ADC0A267288A4F7F58695A2F103D1]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome: Manage extensions with PowerShell]]></title>
-        <id>https://4sysops.com/?p=1565178</id>
-        <link href="https://4sysops.com/archives/chrome-manage-extensions-with-powershell/"/>
-        <updated>2022-04-15T12:28:33.000Z</updated>
-        <summary type="html"><![CDATA[In this article, you will learn how you can manage extensions in Google's web browser Chrome in your organization. With the help of a PowerShell script, you can install Chrome managed extensions in your network either through Intune or any RMM software that supports scripts.
-Chrome: Manage extensions with PowerShell first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Robert Pearman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Frozen Heart vulnerability in Bulletproofs]]></title>
-        <id>https://blog.trailofbits.com/?p=101911</id>
-        <link href="https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/"/>
-        <updated>2022-04-15T11:00:52.000Z</updated>
-        <summary type="html"><![CDATA[By Jim Miller In part 1 of this series, we disclosed critical vulnerabilities that break the soundness of multiple implementations of zero-knowledge proof systems. This class of vulnerability, which we dubbed Frozen Heart, is caused by insecure implementations of the Fiat-Shamir transformation that allow malicious users to forge proofs for random statements. In part 2, […]]]></summary>
-        <author>
-            <name>James Miller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Balancing Friction with Security: Future of Passwordless Technology]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=42226</id>
-        <link href="https://www.secureauth.com/blog/balancing-friction-with-security-future-of-passwordless-technology-webinar/"/>
-        <updated>2022-04-15T00:04:37.000Z</updated>
-        <summary type="html"><![CDATA[SecureAuth and Enterprise Strategy Group (ESG) recently issued an identity and access management report – “Securing the Identity Perimeter with Defense in Depth.” In today’s on-demand webinar, SecureAuth’s CEO Paul Trulove and Jack Poller Senior Analyst at ESG discussed the findings and provided insights into the trends in the market about passwordless continuous authentication and […]
-The post Balancing Friction with Security: Future of Passwordless Technology appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>jendres</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html"/>
-        <updated>2022-04-14T15:58:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.BGLtzooHlW-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.BGLtzooHlW-c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,"Courier New";font-style:normal}.BGLtzooHlW-c10{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-fa…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sync KeePass for Windows with Android and iOS]]></title>
-        <id>https://4sysops.com/?p=1565239</id>
-        <link href="https://4sysops.com/archives/sync-keepass-for-windows-with-android-and-ios/"/>
-        <updated>2022-04-14T13:58:34.000Z</updated>
-        <summary type="html"><![CDATA[Password managers help users juggle numerous accounts and passwords with ease compared to memorizing multiple accounts. Most users will not only want to have the passwords available for their Windows workstation, but also on their mobile device. How can we sync KeePass for Windows with Android and iOS?
-Sync KeePass for Windows with Android and iOS first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>
