@@ -148,6 +148,16 @@
       "siteUrl": "https://malicious.link/post/",
       "articles": [
         {
+          "id": "https://malicious.link/post/2022/ldapsearch-reference/",
+          "author": null,
+          "description": "ldapsearch is a extremely powerful tool, especially for Windows Active Directory enumeration. It’s one of my primary tools when performing pentesting or red teaming against an environment with Active Directory, but also comes in quiet handy to know as many times it can come default installed or part of a base image, so its a bit Living-Off-The-Land-esq. Another point towards ldapsearch is that it’s easy to forget that Active Directory isn’t the only LDAP server in most environments and the ability to utilize a tool like this can come in extremely handy.\nIf you want to find Active Directory LDAP servers, use the following command:\n$ dig -t SRV _ldap._tcp.dc._msdcs.sittingduck.info\n\n\nBasic Usage\n-x Basic Authentication, you usually use this if you are going to include a username and password…",
+          "link": "https://malicious.link/post/2022/ldapsearch-reference/",
+          "publishedOn": "2022-05-14T16:00:00.000Z",
+          "wordCount": 2318,
+          "title": "LDAPSearch Reference",
+          "imageUrl": null
+        },
+        {
           "id": "https://malicious.link/post/2022/beautiful-basics-lesson-02/",
           "author": null,
           "description": "Lessons Learned\nSlides\nLesson 1\nLesson 2\nLesson 3\nLesson 4\nLesson 5\nLesson 6\nLesson 7\nLesson 8\nLesson 9\nLesson 10\nLesson 11\nLesson 2 - Least Privilege\nNo one should have administrative access. All elevated access should be checked out when you need it and checked back in (automatically if possible). Just like UAC. MFA should be required, proximity or push based. And every use of a break glass account should be highly monitored\n\nI think “Least Privilege” has been harped on at least … you know what, let me wager that you can’t find a single infosec or hacking conference from 2000 until now (2022) that doesn’t have 4 talks with the words “least privilege” in the talk. But maybe a handful out of all of those talks tell you how to accomplish such a feat.\nThe Goal\nLets talk about the goal first …",
@@ -196,6 +206,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=9109",
+          "author": "Didier Stevens",
+          "description": "This new version of base64dump adds decoding of netbios name encoding with lowercase letters. base64dump_V0_0_21.zip (http)MD5: 5701B6D9691E366ED5E2EE6D06689012SHA256: BE939E0225C83319A31A096DA29C1CA9D3C575DCCE9C1795814B335BD0871E92",
+          "link": "https://blog.didierstevens.com/2022/05/15/update-base64dump-py-version-0-0-21/",
+          "publishedOn": "2022-05-15T18:37:12.000Z",
+          "wordCount": 826,
+          "title": "Update: base64dump.py Version 0.0.21",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=9102",
           "author": "Didier Stevens",
@@ -295,16 +315,6 @@
           "wordCount": 880,
           "title": "Update: 1768.py Version 0.0.13",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/04/20220417-174231.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9037",
-          "author": "Didier Stevens",
-          "description": "This new version of cut-bytes.py adds access to the read data for Python expressions in prefix and suffix options. cut-bytes_V0_0_14.zip (http)MD5: EC3434DAAEE06C6F35BD57B77F86833FSHA256: BCCCE7A73C921BD2CC195155A3A709FBAD7ADC0A267288A4F7F58695A2F103D1",
-          "link": "https://blog.didierstevens.com/2022/04/16/update-cut-bytes-py-version-0-0-14/",
-          "publishedOn": "2022-04-16T08:10:18.000Z",
-          "wordCount": 885,
-          "title": "Update: cut-bytes.py Version 0.0.14",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -1294,18 +1304,18 @@
       "siteUrl": "https://blog.xpnsec.com/",
       "articles": [
         {
-          "id": "https://blog.xpnsec.com/ntlmquic/",
+          "id": "https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/",
           "author": null,
-          "description": "In this post, we'll dig into just how SMB over QUIC works, answer some of the immediate questions around which attacks are feasible, and show how we can repurpose some existing tooling to capture NTLM handshakes.",
-          "link": "https://blog.xpnsec.com/ntlmquic/",
-          "publishedOn": "2022-04-11T03:00:00.000Z",
-          "wordCount": 1941,
-          "title": "NTLMquic",
+          "description": "With the leaking of code signing certificates and exploits for vulnerable drivers becoming common occurrences, adversaries are adopting the kernel as their new playground. And with Microsoft making technologies like Virtualization Based Security (VBS) and Hypervisor Code Integrity (HVCI) available, I wanted to take some time to understand just how vulnerable endpoints are when faced with an attacker set on escaping to Ring-0.",
+          "link": "https://blog.xpnsec.com/gcioptions-in-a-virtualized-world/",
+          "publishedOn": "2022-05-15T06:43:29.000Z",
+          "wordCount": 2409,
+          "title": "g_CiOptions in a Virtualized World",
           "enclosure": {
-            "url": "https://res.cloudinary.com/xpnsec/image/upload/v1649588246/NTLMquic/title_z2fvkf.png",
+            "url": "https://res.cloudinary.com/xpnsec/image/upload/v1652620667/g_cioptions-in-a-virtualized-world/title_j4oc4r.png",
             "type": "image"
           },
-          "imageUrl": "https://res.cloudinary.com/xpnsec/image/upload/v1649588246/NTLMquic/title_z2fvkf.png"
+          "imageUrl": "https://res.cloudinary.com/xpnsec/image/upload/v1652620667/g_cioptions-in-a-virtualized-world/title_j4oc4r.png"
         }
       ]
     },
