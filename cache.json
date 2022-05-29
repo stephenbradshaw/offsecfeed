@@ -118,6 +118,26 @@
       "siteUrl": "https://malicious.link/post/",
       "articles": [
         {
+          "id": "https://malicious.link/post/2022/beautiful-basics-lesson-03/",
+          "author": null,
+          "description": "Lessons Learned\nSlides\nLesson 1\nLesson 2\nLesson 3\nLesson 4\nLesson 5\nLesson 6\nLesson 7\nLesson 8\nLesson 9\nLesson 10\nLesson 11\nLesson 3 - Detection Reality\nPeople and Honey tokens are THE BEST detective tool you have.\nGo buy a Thinkst Canary, they detect me more than any multi-million dollar EDR. Period.\n\nLet me clarify something quickly before I get roasted. I am not saying that EDR (Endpoint Detection and Response) agents don’t have a place, it’s just that they have taken over for Anti-Virus for being mostly preventative and response oriented. Do EDRs detect things? Sure, but in my pentesting and red teaming experience they rarely catch any of the actions I do outside of touching LSASS. Which to be fair, is what a lot of malware and APT actors do. But it won’t stay that way, and Sysmon is f…",
+          "link": "https://malicious.link/post/2022/beautiful-basics-lesson-03/",
+          "publishedOn": "2022-05-28T08:00:00.000Z",
+          "wordCount": 744,
+          "title": "Beautiful Basics: Lesson 3",
+          "imageUrl": null
+        },
+        {
+          "id": "https://malicious.link/post/2022/blocking-iso-mounting/",
+          "author": null,
+          "description": "Recently I’ve been hearing about malware mounting ISOs as a method of bypassing AV and EDR. For example this article from Bleeping Computer - “Uptick Seen in ISO Email Attachments Delivering Malware” posted December 23rd, 2019, or DARK Reading - “ChromeLoader Malware Hijacks Browsers with ISO Files” posted May 27th, 2022.\nThe problem I found with these articles and many like it didn’t really offer any sort of method to protect yourself or you company from ISO mounted malware, so I went to try to find a solution myself (couldn’t be that hard right?). Turns out that if you google for “Stop Windows from Mounting ISOs” or something similar you get a bunch of MSDN articles for people trying to solve the same issue for one reason or another.\nAfter a lot of googling I found this article on Winaer…",
+          "link": "https://malicious.link/post/2022/blocking-iso-mounting/",
+          "publishedOn": "2022-05-27T08:00:00.000Z",
+          "wordCount": 567,
+          "title": "Blocking ISO mounting",
+          "imageUrl": null
+        },
+        {
           "id": "https://malicious.link/post/2022/ldapsearch-reference/",
           "author": null,
           "description": "ldapsearch is a extremely powerful tool, especially for Windows Active Directory enumeration. It’s one of my primary tools when performing pentesting or red teaming against an environment with Active Directory, but also comes in quiet handy to know as many times it can come default installed or part of a base image, so its a bit Living-Off-The-Land-esq. Another point towards ldapsearch is that it’s easy to forget that Active Directory isn’t the only LDAP server in most environments and the ability to utilize a tool like this can come in extremely handy.\nIf you want to find Active Directory LDAP servers, use the following command:\n$ dig -t SRV _ldap._tcp.dc._msdcs.sittingduck.info\n\n\nBasic Usage\n-x Basic Authentication, you usually use this if you are going to include a username and password…",
@@ -304,16 +324,6 @@
           "publishedOn": "2022-04-30T08:04:25.000Z",
           "wordCount": 928,
           "title": "Quickpost: Machine Code Infinite Loop",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9074",
-          "author": "Didier Stevens",
-          "description": "This new version of oledump.py brings a new plugin (plugin_metadata) and Python 3 fixes for 2 plugins (plugin_msi and plugin_ppt). The new plugin is actually an old unpublished plugin, that I updated recently. This plugin parses Office document metadata as defined in document [MS-OLEPS]. I started to write this in 2015 to parse the metadata […]",
-          "link": "https://blog.didierstevens.com/2022/04/29/update-oledump-py-version-0-0-65/",
-          "publishedOn": "2022-04-29T09:05:55.000Z",
-          "wordCount": 927,
-          "title": "Update: oledump.py Version 0.0.65",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
@@ -652,16 +662,6 @@
           "wordCount": 1409,
           "title": "North Korea’s Lazarus: their initial access trade-craft using social media and social engineering",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=15699",
-          "author": "RIFT: Research and Intelligence Fusion Team",
-          "description": "BUMBLEBEE is a new malicious loader that is being used by several threat actors and has been observed to download different malicious samples. This post provides our initial analysis",
-          "link": "https://research.nccgroup.com/2022/04/29/adventures-in-the-land-of-bumblebee-a-new-malicious-loader/",
-          "publishedOn": "2022-04-29T10:54:58.000Z",
-          "wordCount": 1409,
-          "title": "Adventures in the land of BumbleBee – a new malicious loader",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2022/04/ImageNew.png"
         }
       ]
     },
@@ -1110,16 +1110,6 @@
           "wordCount": 2004,
           "title": "Configuring SSO between Active Directory and Azure using pass-through authentication",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/05/Pass-through-authentication-process-600x401.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1565485",
-          "author": "Surender Kumar",
-          "description": "In this second post in my series about Hyper-V management with PowerShell I will explain how to create a Hyper-V virtual switch with PowerShell. In my previous post I explained how to install Hyper-V with PowerShell.\nVirtual switch types\nCreate a Hyper-V virtual switch with PowerShell first appeared on 4sysops.",
-          "link": "https://4sysops.com/wiki/create-a-hyper-v-virtual-switch-with-powershell/",
-          "publishedOn": "2022-04-29T07:40:47.000Z",
-          "wordCount": 892,
-          "title": "Create a Hyper-V virtual switch with PowerShell",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/04/List-network-adapters-using-PowerShell.png"
         }
       ]
     },
@@ -1374,16 +1364,6 @@
           "wordCount": 2336,
           "title": "Vulnerability Management Resources",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/primer-on-neurodiversity-in-cybersecurity",
-          "author": null,
-          "description": "",
-          "link": "https://www.sans.org/blog/primer-on-neurodiversity-in-cybersecurity?msc=rss",
-          "publishedOn": "2022-04-29T00:00:00.000Z",
-          "wordCount": 2177,
-          "title": "A Primer on Neurodiversity in Cybersecurity",
-          "imageUrl": null
         }
       ]
     },
@@ -1391,7 +1371,18 @@
       "title": "Embrace The Red",
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2022/hacker-shell-prompts/",
+          "author": null,
+          "description": "As the saying goes, a picture is worth a thousand words.\nIn order to improve your documentation and uplevel red team and pentest reporting, it’s useful to add date and time information to screenshots and script logs.\nThis helps the Blue Team (and yourself) reviewing past activity, reports and when deconflicting activity is required. Depending on the shell that is used there are different ways to go about it. Let’s cover three common ones.",
+          "link": "https://embracethered.com/blog/posts/2022/hacker-shell-prompts/",
+          "publishedOn": "2022-05-28T21:00:54.000Z",
+          "wordCount": 331,
+          "title": "Customized Hacker Shell Prompts",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Pentest Blog",
@@ -1732,16 +1723,6 @@
           "publishedOn": "2022-05-02T09:52:43.000Z",
           "wordCount": null,
           "title": "Girls Day at NVISO Encourages Young Guests To Find Their Dream Job",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=11089",
-          "author": "didiernviso",
-          "description": "VSTO Office files are Office document files linked to a Visual Studio Office File application. When opened, they launch a custom .NET application. There are various ways to achieve this, including methods to serve the VSTO files via an external web server. An article was recently published on the creation of these document files for … Continue reading Analyzing VSTO Office Files →",
-          "link": "https://blog.nviso.eu/2022/04/29/analyzing-vsto-office-files/",
-          "publishedOn": "2022-04-29T09:25:29.000Z",
-          "wordCount": null,
-          "title": "Analyzing VSTO Office Files",
           "imageUrl": null
         }
       ]
