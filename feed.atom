@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-08T01:06:47.850Z</updated>
+    <updated>2022-06-09T01:10:25.346Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Managed Identity Attack Paths, Part 3: Function Apps]]></title>
+        <id>https://medium.com/p/300065251cbe</id>
+        <link href="https://posts.specterops.io/managed-identity-attack-paths-part-3-function-apps-300065251cbe?source=rss----f05f8696e3cc---4"/>
+        <updated>2022-06-08T16:47:22.000Z</updated>
+        <summary type="html"><![CDATA[In Part 3 we are looking at Function Apps.]]></summary>
+        <author>
+            <name>Andy Robbins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-26937: Microsoft Windows Network File System NLM Portmap Stack Buffer Overflow]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:629fa447624c4f682b17f379</id>
+        <link href="https://www.thezdi.com/blog/2022/6/7/cve-2022-26937-microsoft-windows-network-file-system-nlm-portmap-stack-buffer-overflow"/>
+        <updated>2022-06-08T14:27:35.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Jason McFadyen of the Trend Micro Research Team detail a recently patched code execution vulnerability in the Microsoft Windows operating system. The bug was originally discovered and reported to Microsoft by Yuki Chen. A stack buffer overflow vulnerability exists in Windows Network File System. A remote attacker can exploit this vulnerability by sending specially crafted RPC packets to a server, resulting in code execution in the context of SYSTEM. The following is a portion of their write-up covering CVE-2022-26937, with a few minimal modifications.
+A stack buffer overflow vulnerability exists in Windows Network File System. The vulnerability is due to improper handling of crafted RPC …]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New SecureAuth Begins Now with Arculix]]></title>
+        <id>https://www.secureauth.com/?post_type=blog&amp;p=44303</id>
+        <link href="https://www.secureauth.com/blog/the-new-secureauth-begins-now-with-arculix/"/>
+        <updated>2022-06-08T13:00:23.000Z</updated>
+        <summary type="html"><![CDATA[With Arculix, SecureAuth’s next-gen platform, we’ve totally reimagined how identity and access management should be implemented. The SecureAuth you needed in 2005 isn’t the SecureAuth you need today. Arculix is architected and designed to make it simpler for administrators to apply modern authentication journeys, where users must access on-premise and cloud resources from anywhere and […]
+The post The New SecureAuth Begins Now with Arculix appeared first on SecureAuth.]]></summary>
+        <author>
+            <name>Joan Fronske</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deactivating search highlights in Windows 10/11 using Group Policy]]></title>
+        <id>https://4sysops.com/?p=1566216</id>
+        <link href="https://4sysops.com/archives/deactivating-search-highlights-in-windows-10-11-using-group-policy/"/>
+        <updated>2022-06-08T12:07:57.000Z</updated>
+        <summary type="html"><![CDATA[Search highlights display a colorful icon in the Windows 10 search bar. If you hover the mouse over the icon, a news overview of a selected topic opens. In Windows 11 22H2, this is integrated directly into the search field. However, the feature can be deactivated using a GPO.
+Deactivating search highlights in Windows 10/11 using Group Policy first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Instructor Spotlight: Doc Blackburn]]></title>
         <id>https://www.sans.org/blog/instructor-spotlight-doc-blackburn</id>
@@ -1329,28 +1372,6 @@ For May, Adobe released five bulletins addressing 18 CVEs in Adobe CloudFusion, 
         <summary type="html"><![CDATA[A Security Survey on How to Close Your Organization's Attack Resistance Gap]]></summary>
         <author>
             <name>Tim Matthews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to check the PowerShell version]]></title>
-        <id>https://4sysops.com/?p=1565689</id>
-        <link href="https://4sysops.com/wiki/how-to-check-the-powershell-version/"/>
-        <updated>2022-05-10T09:59:14.000Z</updated>
-        <summary type="html"><![CDATA[It is important for an administrator to know what Windows PowerShell and PowerShell edition and version are installed on a system, especially due to script compatibility. This article covers all the ways to check the PowerShell version on Windows, Linux, and MacOS and offers tips and tricks. I will also discuss the changes in PowerShell 7 and PowerShell 7.2.
-How to check the PowerShell version first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reflections on World Password Day: Are You Going Passwordless Yet?]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=42560</id>
-        <link href="https://www.secureauth.com/blog/reflections-on-world-password-day-are-you-going-passwordless-yet/"/>
-        <updated>2022-05-09T15:00:43.000Z</updated>
-        <summary type="html"><![CDATA[With all the talk about the growing obsolescence of passwords, it may seem strange that there exists such a thing as World Password Day. Aren’t we trying to move away from, rather than center on, passwords? This is, in fact, the real purpose of World Password Day: to draw attention to the increasing vulnerability of […]
-The post Reflections on World Password Day: Are You Going Passwordless Yet? appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>Joan Fronske</name>
         </author>
     </entry>
 </feed>
