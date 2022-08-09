@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-08T03:56:47.450Z</updated>
+    <updated>2022-08-09T00:50:25.324Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Implementing the Castryck-Decru SIDH Key Recovery Attack in SageMath]]></title>
+        <id>https://research.nccgroup.com/?p=16638</id>
+        <link href="https://research.nccgroup.com/2022/08/08/implementing-the-castryck-decru-sidh-key-recovery-attack-in-sagemath/"/>
+        <updated>2022-08-08T21:44:48.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Last weekend (July 30th) a truly incredible piece of mathematical/cryptanalysis research was put onto eprint. Wouter Castryck and Thomas Decru of KU Leuven published a paper “An efficient key recovery attack on SIDH (preliminary version)” describing a new attack on the Supersingular Isogeny Diffie-Hellman (SIDH) protocol together with a corresponding proof-of-concept implementation. SIDH is … Continue reading Implementing the Castryck-Decru SIDH Key Recovery Attack in SageMath →]]></summary>
+        <author>
+            <name>Giacomo Pope</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exchange impersonation: Grant permissions to service accounts]]></title>
+        <id>https://4sysops.com/?p=1567111</id>
+        <link href="https://4sysops.com/archives/exchange-impersonation-grant-permissions-to-service-accounts/"/>
+        <updated>2022-08-08T19:33:25.000Z</updated>
+        <summary type="html"><![CDATA[Many organizations use software that needs access to users' mailboxes. In this case, it makes sense to assign the necessary permissions centrally. Exchange provides the impersonation role for this, which can act on behalf of the respective users.
+Exchange impersonation: Grant permissions to service accounts first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Roland Eich</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Week of Data Dumps, Part 7 – registry]]></title>
         <id>https://www.hexacorn.com/blog/?p=8195</id>
@@ -1102,36 +1123,6 @@ So, I thought it be quite fitting to do another post in the Offensive BPF series
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Month of PowerShell - Offensive PowerShell with Metasploit Meterpreter]]></title>
-        <id>https://www.sans.org/blog/offensive-powershell-metasploit-meterpreter</id>
-        <link href="https://www.sans.org/blog/offensive-powershell-metasploit-meterpreter?msc=rss"/>
-        <updated>2022-07-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article we look at how Metasploit Meterpreter can integrate PowerShell for extensible attacks in a red team or pen test engagement.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring SCCM by Unobfuscating Network Access Accounts]]></title>
-        <id>https://blog.xpnsec.com/unobfuscating-network-access-accounts/</id>
-        <link href="https://blog.xpnsec.com/unobfuscating-network-access-accounts/"/>
-        <updated>2022-07-09T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this post we'll explore just how SCCM uses its HTTP API to initialise a client, take a look at how Network Access Accounts are retrieved from SCCM, and see how we can decrypt these credentials without having to go anywhere near DPAPI.]]></summary>
-        <author>
-            <name>XPN InfoSec Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[simple_listener.py]]></title>
-        <id>http://blog.didierstevens.com/?p=9307</id>
-        <link href="https://blog.didierstevens.com/2022/07/09/simple_listener-py/"/>
-        <updated>2022-07-09T21:05:20.000Z</updated>
-        <summary type="html"><![CDATA[This is the release of simple_listener.py, a Python program that can accept TCP and UDP connections and react according to its configuration. It has evolved from my beta program tcp-honeypot.py, that I will no longer maintain. Everything you could do with tcp-honeypot, can be done with simple_listener. I use simple_listener now whenever I need a […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The New Age of Giant Monsters]]></title>
         <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:628bb77ff0db7f17b969bf1d</id>
         <link href="https://www.redteamjournal.com/blog/new-age-of-giant-monsters"/>
@@ -1166,17 +1157,6 @@ competition the same way. This is where things get interesting (and
 potentially dangerous).]]></summary>
         <author>
             <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability]]></title>
-        <id>https://blog.exodusintel.com/?p=1984</id>
-        <link href="https://blog.exodusintel.com/2022/05/11/d-link-dir-1260-getdevicesettings-pre-auth-command-injection-vulnerability/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=d-link-dir-1260-getdevicesettings-pre-auth-command-injection-vulnerability"/>
-        <updated>2022-05-11T17:59:08.000Z</updated>
-        <summary type="html"><![CDATA[EIP-3b20d7b3 A command injection vulnerability exists within the web management interface of the D-Link DIR-1260 Wi-Fi router that allows for unauthenticated attackers to execute arbitrary commands on the device with root privileges. The flaw specifically exists within the SetDest/Dest/Target arguments to the GetDeviceSettings form. The management interface is accessible over HTTP and HTTPS on the local ... Read more D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability
-The post D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
         </author>
     </entry>
 </feed>

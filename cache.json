@@ -254,16 +254,6 @@
           "wordCount": 2875,
           "title": "Quickpost: Standby Power Consumption Of My USB Chargers",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/07/screen03.bmp"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9307",
-          "author": "Didier Stevens",
-          "description": "This is the release of simple_listener.py, a Python program that can accept TCP and UDP connections and react according to its configuration. It has evolved from my beta program tcp-honeypot.py, that I will no longer maintain. Everything you could do with tcp-honeypot, can be done with simple_listener. I use simple_listener now whenever I need a […]",
-          "link": "https://blog.didierstevens.com/2022/07/09/simple_listener-py/",
-          "publishedOn": "2022-07-09T21:05:20.000Z",
-          "wordCount": 2640,
-          "title": "simple_listener.py",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -439,6 +429,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=16638",
+          "author": "Giacomo Pope",
+          "description": "Introduction Last weekend (July 30th) a truly incredible piece of mathematical/cryptanalysis research was put onto eprint. Wouter Castryck and Thomas Decru of KU Leuven published a paper “An efficient key recovery attack on SIDH (preliminary version)” describing a new attack on the Supersingular Isogeny Diffie-Hellman (SIDH) protocol together with a corresponding proof-of-concept implementation. SIDH is … Continue reading Implementing the Castryck-Decru SIDH Key Recovery Attack in SageMath →",
+          "link": "https://research.nccgroup.com/2022/08/08/implementing-the-castryck-decru-sidh-key-recovery-attack-in-sagemath/",
+          "publishedOn": "2022-08-08T21:44:48.000Z",
+          "wordCount": 9531,
+          "title": "Implementing the Castryck-Decru SIDH Key Recovery Attack in SageMath",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=16620",
           "author": "RIFT: Research and Intelligence Fusion Team",
@@ -619,18 +619,7 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com",
-      "articles": [
-        {
-          "id": "https://blog.exodusintel.com/?p=1984",
-          "author": "Exodus Intel VRT",
-          "description": "EIP-3b20d7b3 A command injection vulnerability exists within the web management interface of the D-Link DIR-1260 Wi-Fi router that allows for unauthenticated attackers to execute arbitrary commands on the device with root privileges. The flaw specifically exists within the SetDest/Dest/Target arguments to the GetDeviceSettings form. The management interface is accessible over HTTP and HTTPS on the local ... Read more D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability\nThe post D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2022/05/11/d-link-dir-1260-getdevicesettings-pre-auth-command-injection-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=d-link-dir-1260-getdevicesettings-pre-auth-command-injection-vulnerability",
-          "publishedOn": "2022-05-11T17:59:08.000Z",
-          "wordCount": 197,
-          "title": "D-Link DIR-1260 GetDeviceSettings Pre-Auth Command Injection Vulnerability",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "markitzeroday.com",
@@ -720,6 +709,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1567111",
+          "author": "Roland Eich",
+          "description": "Many organizations use software that needs access to users' mailboxes. In this case, it makes sense to assign the necessary permissions centrally. Exchange provides the impersonation role for this, which can act on behalf of the respective users.\nExchange impersonation: Grant permissions to service accounts first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/exchange-impersonation-grant-permissions-to-service-accounts/",
+          "publishedOn": "2022-08-08T19:33:25.000Z",
+          "wordCount": 9555,
+          "title": "Exchange impersonation: Grant permissions to service accounts",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2018/07/PowerShell-Social.png"
+        },
         {
           "id": "https://4sysops.com/?p=1567100",
           "author": "Dan Greenhaus",
@@ -1333,16 +1332,6 @@
           "wordCount": 4569,
           "title": "Month of PowerShell: Threat Hunting with PowerShell Differential Analysis",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/offensive-powershell-metasploit-meterpreter",
-          "author": null,
-          "description": "In this article we look at how Metasploit Meterpreter can integrate PowerShell for extensible attacks in a red team or pen test engagement.",
-          "link": "https://www.sans.org/blog/offensive-powershell-metasploit-meterpreter?msc=rss",
-          "publishedOn": "2022-07-10T00:00:00.000Z",
-          "wordCount": 5231,
-          "title": "Month of PowerShell - Offensive PowerShell with Metasploit Meterpreter",
-          "imageUrl": null
         }
       ]
     },
@@ -1384,22 +1373,7 @@
       "title": "XPN InfoSec Blog",
       "feedUrl": "https://blog.xpnsec.com/rss/",
       "siteUrl": "https://blog.xpnsec.com/",
-      "articles": [
-        {
-          "id": "https://blog.xpnsec.com/unobfuscating-network-access-accounts/",
-          "author": null,
-          "description": "In this post we'll explore just how SCCM uses its HTTP API to initialise a client, take a look at how Network Access Accounts are retrieved from SCCM, and see how we can decrypt these credentials without having to go anywhere near DPAPI.",
-          "link": "https://blog.xpnsec.com/unobfuscating-network-access-accounts/",
-          "publishedOn": "2022-07-09T23:00:00.000Z",
-          "wordCount": 2358,
-          "title": "Exploring SCCM by Unobfuscating Network Access Accounts",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/xpnsec/image/upload/v1657398884/unobfuscating-network-access-accounts/image17_pwgkt7.png",
-            "type": "image"
-          },
-          "imageUrl": "https://res.cloudinary.com/xpnsec/image/upload/v1657398884/unobfuscating-network-access-accounts/image17_pwgkt7.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Stories by Cedric Owens on Medium",
