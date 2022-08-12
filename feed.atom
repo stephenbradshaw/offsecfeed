@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-11T00:44:37.715Z</updated>
+    <updated>2022-08-12T00:42:45.968Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Disclosure Timelines for Bugs Resulting from Incomplete Patches]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62eaac22d55b06120db85e4a</id>
+        <link href="https://www.thezdi.com/blog/2022/8/11/new-disclosure-timelines-for-bugs-from-faulty-patches"/>
+        <updated>2022-08-11T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today at the Black Hat USA conference, we announced some new disclosure timelines. Our standard 120-day disclosure timeline for most vulnerabilities remains, but for bug reports that result from faulty or incomplete patches, we will use a shorter timeline. Moving forward, the ZDI will adopt a tiered approach based on the severity of the bug and the efficacy of the original fix. The first tier will be a 30-day timeframe for most Critical-rated cases where exploitation is detected or expected. The second level will be a 60-day interval for Critical- and High-severity bugs where the patch offers some protections. Finally, there will be a 90-day period for other severities where no imminent exploitation is expected. As with our normal timelines, extensions will be limited and granted on a case…]]></summary>
+        <author>
+            <name>Brian Gorenc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run Windows Terminal as admin]]></title>
+        <id>https://4sysops.com/?p=1567153</id>
+        <link href="https://4sysops.com/archives/run-windows-terminal-as-admin/"/>
+        <updated>2022-08-11T15:55:51.000Z</updated>
+        <summary type="html"><![CDATA[Like with cmd.exe or PowerShell, you often have to run Windows Terminal as admin to execute commands that need elevated privileges. In Windows Terminal, you can configure the elevation of privileges for an individual shell or for all shells. However, you have to expect some inconsistencies and peculiarities.
+Run Windows Terminal as admin first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting DNS implants: Old kitten, new tricks – A Saitama Case Study]]></title>
+        <id>https://research.nccgroup.com/?p=16708</id>
+        <link href="https://research.nccgroup.com/2022/08/11/detecting-dns-implants-old-kitten-new-tricks-a-saitama-case-study/"/>
+        <updated>2022-08-11T15:20:24.000Z</updated>
+        <summary type="html"><![CDATA[Max Groot & Ruud van Luijk TL;DR A recently uncovered malware sample dubbed ‘Saitama’ was uncovered by security firm Malwarebytes in a weaponized document, possibly targeted towards the Jordan government. This Saitama implant uses DNS as its sole Command and Control channel and utilizes long sleep times and (sub)domain randomization to evade detection. As no … Continue reading Detecting DNS implants: Old kitten, new tricks – A Saitama Case Study  →]]></summary>
+        <author>
+            <name>Max Groot</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The quantum state of Linux kernel garbage collection CVE-2021-0920 (Part I)]]></title>
         <id>https://googleprojectzero.blogspot.com/2022/08/the-quantum-state-of-linux-kernel.html</id>
@@ -1181,50 +1212,6 @@ rot.]]></summary>
         <summary type="html"><![CDATA[Offensive tooling built upon the .NET framework and its runtime environment, the Common Language Runtime (CLR), is an important part of…]]></summary>
         <author>
             <name>Jack Ullrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netsh winsock reset: If the internet is not working]]></title>
-        <id>https://4sysops.com/?p=1566742</id>
-        <link href="https://4sysops.com/archives/netsh-winsock-reset-if-the-internet-is-not-working/"/>
-        <updated>2022-07-13T10:46:31.000Z</updated>
-        <summary type="html"><![CDATA[If the internet is not working on a Windows PC where everything related to networking is properly configured, the command netsh winsock reset might save your day. Furthermore, this command will also help you fix the Windows Sockets registry entries required for network connectivity are missing error that is shown when you run Windows network diagnostics.
-Netsh winsock reset: If the internet is not working first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting started with Terraform in Azure]]></title>
-        <id>https://4sysops.com/?p=1566727</id>
-        <link href="https://4sysops.com/archives/terraform-in-azure/"/>
-        <updated>2022-07-13T02:11:37.000Z</updated>
-        <summary type="html"><![CDATA[HashiCorp Terraform is an open-source Infrastructure as Code (IaC) tool that enables deploying resources on-premises and to the cloud. You can build, modify, and version your environment using an efficient deployment process. In this Getting Started tutorial, I'll introduce to the basic Terraform concepts, and you'll deploy your first Terraform configuration in Azure.
-Getting started with Terraform in Azure first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Jeff Brown</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Month of PowerShell - Working with the Event Log, Part 1]]></title>
-        <id>https://www.sans.org/blog/working-with-event-log-part-1</id>
-        <link href="https://www.sans.org/blog/working-with-event-log-part-1?msc=rss"/>
-        <updated>2022-07-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article we look at working with the Windows event log using PowerShell.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The July 2022 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62cd9a1400c7d16f05e29860</id>
-        <link href="https://www.thezdi.com/blog/2022/7/12/the-july-2022-security-update-review"/>
-        <updated>2022-07-12T17:26:43.000Z</updated>
-        <summary type="html"><![CDATA[It’s once again Patch Tuesday, which means the latest security updates from Adobe and Microsoft have arrived. Take a break from your regularly scheduled activities and join us as we review the details of their latest security offerings.
-Adobe Patches for July 2022
-For July, Adobe addressed 27 CVEs in four patches for Acrobat and Reader, Photoshop, RoboHelp, and Adobe Character Animator. A total of 24 of these bugs were reported through the ZDI program. The update for Acrobat and Reader addresses a combination of 22 different Critical- and Important-rated bugs. The most severe of these could allow code execution if an attacker convinces a target to open a specially crafted PDF document. While there are no active attacks noted, Adobe does list this as a Priority 2 deployment rating. The upda…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
         </author>
     </entry>
 </feed>

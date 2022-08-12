@@ -380,6 +380,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62eaac22d55b06120db85e4a",
+          "author": "Brian Gorenc",
+          "description": "Today at the Black Hat USA conference, we announced some new disclosure timelines. Our standard 120-day disclosure timeline for most vulnerabilities remains, but for bug reports that result from faulty or incomplete patches, we will use a shorter timeline. Moving forward, the ZDI will adopt a tiered approach based on the severity of the bug and the efficacy of the original fix. The first tier will be a 30-day timeframe for most Critical-rated cases where exploitation is detected or expected. The second level will be a 60-day interval for Critical- and High-severity bugs where the patch offers some protections. Finally, there will be a 90-day period for other severities where no imminent exploitation is expected. As with our normal timelines, extensions will be limited and granted on a case…",
+          "link": "https://www.thezdi.com/blog/2022/8/11/new-disclosure-timelines-for-bugs-from-faulty-patches",
+          "publishedOn": "2022-08-11T19:00:00.000Z",
+          "wordCount": null,
+          "title": "New Disclosure Timelines for Bugs Resulting from Incomplete Patches",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62ea9641816a3c749cba539d",
           "author": "Dustin Childs",
           "description": "It’s the second Tuesday of the month, and the last second Tuesday before Black Hat and DEFCON, which means Microsoft and Adobe have released their latest security fixes. Take a break from packing (if you’re headed to hacker summer camp) or your normal activities and join us as we review the details of their latest patches and updates.\nAdobe Patches for August 2022\nFor August, Adobe addressed 25 CVEs in five patches for Adobe Acrobat and Reader, Commerce, Illustrator, FrameMaker, and Adobe Premier Elements. A total of 13 of these bugs were reported through the ZDI program. The update for Acrobat and Reader addresses three Critical-rated and four Important-rated bugs. The critical vulnerabilities could allow code execution if an attacker could convince a user to open a specially crafted file…",
@@ -422,17 +433,6 @@
           "title": "CVE-2022-30136: Microsoft Windows Network File System v4 Remote Code Execution Vulnerability",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62cd9a1400c7d16f05e29860",
-          "author": "Dustin Childs",
-          "description": "It’s once again Patch Tuesday, which means the latest security updates from Adobe and Microsoft have arrived. Take a break from your regularly scheduled activities and join us as we review the details of their latest security offerings.\nAdobe Patches for July 2022\nFor July, Adobe addressed 27 CVEs in four patches for Acrobat and Reader, Photoshop, RoboHelp, and Adobe Character Animator. A total of 24 of these bugs were reported through the ZDI program. The update for Acrobat and Reader addresses a combination of 22 different Critical- and Important-rated bugs. The most severe of these could allow code execution if an attacker convinces a target to open a specially crafted PDF document. While there are no active attacks noted, Adobe does list this as a Priority 2 deployment rating. The upda…",
-          "link": "https://www.thezdi.com/blog/2022/7/12/the-july-2022-security-update-review",
-          "publishedOn": "2022-07-12T17:26:43.000Z",
-          "wordCount": null,
-          "title": "The July 2022 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -471,6 +471,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=16708",
+          "author": "Max Groot",
+          "description": "Max Groot & Ruud van Luijk TL;DR A recently uncovered malware sample dubbed ‘Saitama’ was uncovered by security firm Malwarebytes in a weaponized document, possibly targeted towards the Jordan government. This Saitama implant uses DNS as its sole Command and Control channel and utilizes long sleep times and (sub)domain randomization to evade detection. As no … Continue reading Detecting DNS implants: Old kitten, new tricks – A Saitama Case Study  →",
+          "link": "https://research.nccgroup.com/2022/08/11/detecting-dns-implants-old-kitten-new-tricks-a-saitama-case-study/",
+          "publishedOn": "2022-08-11T15:20:24.000Z",
+          "wordCount": 4520,
+          "title": "Detecting DNS implants: Old kitten, new tricks – A Saitama Case Study",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2022/08/01_int_to_string.png"
+        },
         {
           "id": "https://research.nccgroup.com/?p=16638",
           "author": "Giacomo Pope",
@@ -773,6 +783,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1567153",
+          "author": "Wolfgang Sommergut",
+          "description": "Like with cmd.exe or PowerShell, you often have to run Windows Terminal as admin to execute commands that need elevated privileges. In Windows Terminal, you can configure the elevation of privileges for an individual shell or for all shells. However, you have to expect some inconsistencies and peculiarities.\nRun Windows Terminal as admin first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/run-windows-terminal-as-admin/",
+          "publishedOn": "2022-08-11T15:55:51.000Z",
+          "wordCount": 9734,
+          "title": "Run Windows Terminal as admin",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/08/Run-all-shells-as-admin-by-configuring-the-default-values-600x338.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1567140",
           "author": "Leos Marek",
           "description": "Robocopy (Robust File Copy) is a command line folder and file replication tool available as a standard Windows feature since Windows Server 2008. The goal of this post is to give you a quick start guide by providing some Robocopy examples.\nRobocopy usage examples first appeared on 4sysops.",
@@ -971,26 +991,6 @@
           "wordCount": 10224,
           "title": "Install PyAutoGUI for Windows GUI automation",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/07/Installing-the-PyAutoGui-module-with-PIP-600x438.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1566742",
-          "author": "Surender Kumar",
-          "description": "If the internet is not working on a Windows PC where everything related to networking is properly configured, the command netsh winsock reset might save your day. Furthermore, this command will also help you fix the Windows Sockets registry entries required for network connectivity are missing error that is shown when you run Windows network diagnostics.\nNetsh winsock reset: If the internet is not working first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/netsh-winsock-reset-if-the-internet-is-not-working/",
-          "publishedOn": "2022-07-13T10:46:31.000Z",
-          "wordCount": 10275,
-          "title": "Netsh winsock reset: If the internet is not working",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/07/Viewing-the-registry-keys-related-to-the-Winsock-Catalog-600x320.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1566727",
-          "author": "Jeff Brown",
-          "description": "HashiCorp Terraform is an open-source Infrastructure as Code (IaC) tool that enables deploying resources on-premises and to the cloud. You can build, modify, and version your environment using an efficient deployment process. In this Getting Started tutorial, I'll introduce to the basic Terraform concepts, and you'll deploy your first Terraform configuration in Azure.\nGetting started with Terraform in Azure first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/terraform-in-azure/",
-          "publishedOn": "2022-07-13T02:11:37.000Z",
-          "wordCount": 11398,
-          "title": "Getting started with Terraform in Azure",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/07/Displaying-the-Terraform-output-600x268.png"
         }
       ]
     },
@@ -1354,16 +1354,6 @@
           "publishedOn": "2022-07-14T00:00:00.000Z",
           "wordCount": 2704,
           "title": "DFIR Sneak Peek Course Animations | FOR585: Smartphone Forensic Analysis In-Depth",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/working-with-event-log-part-1",
-          "author": null,
-          "description": "In this article we look at working with the Windows event log using PowerShell.",
-          "link": "https://www.sans.org/blog/working-with-event-log-part-1?msc=rss",
-          "publishedOn": "2022-07-13T00:00:00.000Z",
-          "wordCount": 5926,
-          "title": "Month of PowerShell - Working with the Event Log, Part 1",
           "imageUrl": null
         }
       ]
