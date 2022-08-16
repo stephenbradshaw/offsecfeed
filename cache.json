@@ -60,7 +60,7 @@
     {
       "title": "Sevro Security",
       "feedUrl": "https://sevrosecurity.com/feed/",
-      "siteUrl": "https://sevrosecurity.com",
+      "siteUrl": "https://sevrosecurity.com/",
       "articles": []
     },
     {
@@ -318,7 +318,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -331,18 +331,7 @@
       "title": "Tyranid's Lair",
       "feedUrl": "https://www.tiraniddo.dev/feeds/posts/default",
       "siteUrl": "https://www.tiraniddo.dev/",
-      "articles": [
-        {
-          "id": "https://www.tiraniddo.dev/2022/07/access-checking-active-directory.html",
-          "author": null,
-          "description": "Like many Windows related technologies Active Directory uses a security descriptor and the access check process to determine what access a user has to parts of the directory. Each object in the directory contains an nTSecurityDescriptor attribute which stores the binary representation of the security descriptor. When a user accesses the object through LDAP the remote user's token is used with the security descriptor to determine if they have the rights to perform the operation they're requesting.\nWeak security descriptors is a common misconfiguration that could result in the entire domain being compromised. Therefore it's important for an administrator to be able to find and remediate security weaknesses. Unfortunately Microsoft doesn't provide a means for an administrator to audit the sec…",
-          "link": "https://www.tiraniddo.dev/2022/07/access-checking-active-directory.html",
-          "publishedOn": "2022-07-17T04:49:00.000Z",
-          "wordCount": 3539,
-          "title": "Access Checking Active Directory",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Zero Day Initiative - Blog",
@@ -732,6 +721,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1567184",
+          "author": "Wolfgang Sommergut",
+          "description": "In addition to the virus scanner, Microsoft Defender offers other security functions. These include the reduction of the attack surface, which hardens applications such as Office, browsers, and Adobe Reader. The feature is not active by default and can be configured via group policies or PowerShell.\nConfigure attack surface reduction in Microsoft Defender using Group Policy or PowerShell first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/configure-attack-surface-reduction-in-microsoft-defender-using-group-policy-or-powershell/",
+          "publishedOn": "2022-08-15T12:55:49.000Z",
+          "wordCount": 10315,
+          "title": "Configure attack surface reduction in Microsoft Defender using Group Policy or PowerShell",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/08/Define-ASR-exclusions-via-group-policies-600x417.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1567168",
           "author": "Vignesh Mudliar",
           "description": "Email security is important for every Microsoft 365 tenant, and the configuration of quarantine policies is a critical part of this. Every Microsoft 365 administrator has to decide the manner in which their tenant will react to spam, phishing, and malicious content in emails. One possible action is to quarantine such emails. In this post, you will learn the technicalities of configuring quarantine policies in Microsoft 365.\nConfigure Quarantine Policies in Microsoft 365 first appeared on 4sysops.",
@@ -1076,6 +1075,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-dfir-summit-2022",
+          "author": null,
+          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS DFIR Summit 2022",
+          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-dfir-summit-2022?msc=rss",
+          "publishedOn": "2022-08-09T00:00:00.000Z",
+          "wordCount": 2884,
+          "title": "A Visual Summary of SANS DFIR Summit 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/mapping-sans-for578-coverage-to-the-mandiant-cti-core-competencies-framework",
           "author": null,
           "description": "",
@@ -1253,16 +1262,6 @@
           "publishedOn": "2022-07-18T00:00:00.000Z",
           "wordCount": 4730,
           "title": "Month of PowerShell - Working with the Event Log, Part 4 - Tweaking Event Log Settings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/merging-two-files-understanding-foreach",
-          "author": null,
-          "description": "A routine task (merging two files) leads us down the path of developing a better understanding of the ForEach command in PowerShell.",
-          "link": "https://www.sans.org/blog/merging-two-files-understanding-foreach?msc=rss",
-          "publishedOn": "2022-07-17T00:00:00.000Z",
-          "wordCount": 4417,
-          "title": "Month of PowerShell: Merging Two Files (Understanding ForEach)",
           "imageUrl": null
         }
       ]

@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-15T00:45:22.092Z</updated>
+    <updated>2022-08-16T00:53:02.345Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Configure attack surface reduction in Microsoft Defender using Group Policy or PowerShell]]></title>
+        <id>https://4sysops.com/?p=1567184</id>
+        <link href="https://4sysops.com/archives/configure-attack-surface-reduction-in-microsoft-defender-using-group-policy-or-powershell/"/>
+        <updated>2022-08-15T12:55:49.000Z</updated>
+        <summary type="html"><![CDATA[In addition to the virus scanner, Microsoft Defender offers other security functions. These include the reduction of the attack surface, which hardens applications such as Office, browsers, and Adobe Reader. The feature is not active by default and can be configured via group policies or PowerShell.
+Configure attack surface reduction in Microsoft Defender using Group Policy or PowerShell first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Database Integrity Vulnerabilities in Boeing’s Onboard Performance Tool]]></title>
         <id>https://www.pentestpartners.com/?p=25530</id>
@@ -152,6 +163,16 @@ For August, Adobe addressed 25 CVEs in five patches for Adobe Acrobat and Reader
 The post Thinking Outside the Mailbox: Modernized Phishing Techniques appeared first on Praetorian.]]></summary>
         <author>
             <name>emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Visual Summary of SANS DFIR Summit 2022]]></title>
+        <id>https://www.sans.org/blog/a-visual-summary-of-sans-dfir-summit-2022</id>
+        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-dfir-summit-2022?msc=rss"/>
+        <updated>2022-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS DFIR Summit 2022]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1074,27 +1095,6 @@ How to change Remote Desktop port (RDP port) using PowerShell first appeared on 
         <link href="https://www.sans.org/blog/working-with-the-event-log-part-4-tweaking-event-log-settings?msc=rss"/>
         <updated>2022-07-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this final part of this series on working with the event log in PowerShell, we look at tips and commands for tweaking event log settings.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Access Checking Active Directory]]></title>
-        <id>https://www.tiraniddo.dev/2022/07/access-checking-active-directory.html</id>
-        <link href="https://www.tiraniddo.dev/2022/07/access-checking-active-directory.html"/>
-        <updated>2022-07-17T04:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Like many Windows related technologies Active Directory uses a security descriptor and the access check process to determine what access a user has to parts of the directory. Each object in the directory contains an nTSecurityDescriptor attribute which stores the binary representation of the security descriptor. When a user accesses the object through LDAP the remote user's token is used with the security descriptor to determine if they have the rights to perform the operation they're requesting.
-Weak security descriptors is a common misconfiguration that could result in the entire domain being compromised. Therefore it's important for an administrator to be able to find and remediate security weaknesses. Unfortunately Microsoft doesn't provide a means for an administrator to audit the sec…]]></summary>
-        <author>
-            <name>Tyranid's Lair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Month of PowerShell: Merging Two Files (Understanding ForEach)]]></title>
-        <id>https://www.sans.org/blog/merging-two-files-understanding-foreach</id>
-        <link href="https://www.sans.org/blog/merging-two-files-understanding-foreach?msc=rss"/>
-        <updated>2022-07-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A routine task (merging two files) leads us down the path of developing a better understanding of the ForEach command in PowerShell.]]></summary>
         <author>
             <name>SANS Blog</name>
         </author>
