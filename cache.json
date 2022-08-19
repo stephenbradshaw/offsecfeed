@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/fef1e09d3174",
+          "author": "Jared Atkinson",
+          "description": "Part 5: Expanding the Operation Graph",
+          "link": "https://posts.specterops.io/on-detection-tactical-to-functional-fef1e09d3174?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2022-08-18T16:43:39.000Z",
+          "wordCount": 7573,
+          "title": "On Detection: Tactical to Functional",
+          "imageUrl": "https://miro.medium.com/max/1200/1*bpgcQo0H6Mq3JfgGshVnLA.png"
+        },
+        {
           "id": "https://medium.com/p/5ff667af633b",
           "author": "Jared Atkinson",
           "description": "Part 4: Compound Functions",
@@ -54,16 +64,6 @@
           "wordCount": 3095,
           "title": "Encrypting Strings at Compile Time",
           "imageUrl": "https://miro.medium.com/max/680/1*m8KrRNdISrhF8x-zY57N3Q.png"
-        },
-        {
-          "id": "https://medium.com/p/d71da6505720",
-          "author": "Jared Atkinson",
-          "description": "Part 1: Discovering API Function Usage through Source Code Review",
-          "link": "https://posts.specterops.io/on-detection-tactical-to-functional-d71da6505720?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2022-07-19T16:11:57.000Z",
-          "wordCount": 9085,
-          "title": "On Detection: Tactical to Functional",
-          "imageUrl": "https://miro.medium.com/max/1120/1*0ah2TjEmk3aQiw1e4d4aPw.png"
         }
       ]
     },
@@ -202,7 +202,7 @@
           "description": "Some new features that help with analyzing memory dumps. Here is the analysis of a VMware vmem file: There’s a new sanity check, determining if an extracted configuration is OK or not OK (NOK). A config passes the sanity check if it contains a valid payload type and a valid public key. Configurations that don’t […]",
           "link": "https://blog.didierstevens.com/2022/08/17/update-1768-py-version-0-0-15/",
           "publishedOn": "2022-08-17T22:30:30.000Z",
-          "wordCount": 2803,
+          "wordCount": 2800,
           "title": "Update: 1768.py Version 0.0.15",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/08/20220818-000311.png"
         },
@@ -255,16 +255,6 @@
           "wordCount": 2873,
           "title": "Update: oledump.py Version 0.0.69",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/07/20220723-093156.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9338",
-          "author": "Didier Stevens",
-          "description": "This new version adds a sort function to sort email addresses by domain first. sortcanon_V0_0_2.zip (http)MD5: ED6DBE384707778E765C9BD6B6880C05SHA256: 190922F347AC1B32D0CE503D1763F27A250D9BFDD15CB911EA4435BAB7E69CD3",
-          "link": "https://blog.didierstevens.com/2022/07/20/update-sortcanon-version-0-0-2/",
-          "publishedOn": "2022-07-20T00:00:00.000Z",
-          "wordCount": 2584,
-          "title": "Update: sortcanon Version 0.0.2",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -349,6 +339,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62fd3fbdcea0b95fd2ab97ee",
+          "author": "Hossein Lotfi",
+          "description": "Vulnerabilities and exploits in common targets like browsers are often associated with memory safety issues. Typically this involves either a direct error in memory management or a way to corrupt internal object state in the JavaScript engine. One way to eliminate such memory safety issues is to use a memory-safe language such as Rust or even JavaScript itself. At Pwn2Own Vancouver 2022, Manfred Paul compromised the Mozilla Firefox browser using a full chain exploit that broke the mold. Although his exploit used some memory corruptions, the vulnerable code was written in a memory-safe programming language: JavaScript! In fact, both vulnerabilities used in the chain were related to one rather notorious language aspect of JavaScript – prototypes. In this blog, we will look at the first vulne…",
+          "link": "https://www.thezdi.com/blog/2022/8/17/but-you-told-me-you-were-safe-attacking-the-mozilla-firefox-renderer-part-1",
+          "publishedOn": "2022-08-18T15:31:41.000Z",
+          "wordCount": null,
+          "title": "But You Told Me You Were Safe: Attacking the Mozilla Firefox Renderer (Part 1)",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62eaac22d55b06120db85e4a",
           "author": "Brian Gorenc",
           "description": "Today at the Black Hat USA conference, we announced some new disclosure timelines. Our standard 120-day disclosure timeline for most vulnerabilities remains, but for bug reports that result from faulty or incomplete patches, we will use a shorter timeline. Moving forward, the ZDI will adopt a tiered approach based on the severity of the bug and the efficacy of the original fix. The first tier will be a 30-day timeframe for most Critical-rated cases where exploitation is detected or expected. The second level will be a 60-day interval for Critical- and High-severity bugs where the patch offers some protections. Finally, there will be a 90-day period for other severities where no imminent exploitation is expected. As with our normal timelines, extensions will be limited and granted on a case…",
@@ -378,17 +379,6 @@
           "publishedOn": "2022-07-27T15:14:05.000Z",
           "wordCount": null,
           "title": "Looking at Patch Gap Vulnerabilities in the VMware ESXi TCP/IP Stack",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62c5e40cff5ee026bef5b5fd",
-          "author": "Piotr Bazydło",
-          "description": "Back in 2021, I stumbled upon a proof of concept describing an arbitrary file read vulnerability in the Ivanti Avalanche mobile device management tool. As I was not aware of this product, I decided to take a quick look at the vendor’s website to learn more:\n“Avalanche Enterprise Mobile Device Management manages some of the most demanding, high-profile supply chain mobility solutions in the world. So, we understand the pressure you're under to maximize worker (and device) uptime.”\n“Manage all mobile devices in one place. Smartphones, barcode scanners, wearables and more—configure, deploy, update, and maintain them all in one system.”\n“30,000 organizations. Over 10 million devices.”\nAs the product specification seemed to be both intriguing and encouraging, I decided to give it a shot and loo…",
-          "link": "https://www.thezdi.com/blog/2022/7/19/riding-the-inforail-to-exploit-ivanti-avalanche",
-          "publishedOn": "2022-07-19T13:59:45.000Z",
-          "wordCount": null,
-          "title": "Riding the InfoRail to Exploit Ivanti Avalanche",
           "itunes": {},
           "imageUrl": null
         }
@@ -507,6 +497,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=3910",
+          "author": "emmaline",
+          "description": "I’ve written previously about how I believe a team’s expertise and talent are the most important factors in determining the success of a cybersecurity program. I’d like to elaborate a bit more on how I think that is affecting the marketplace for cybersecurity expertise and what it means for people operations. To summarize my previous […]\nThe post Part 3 – Trends in the Cybersecurity Talent Marketplace in the Face of Sustained Shortages appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/marketplace-talent-shortage/",
+          "publishedOn": "2022-08-18T13:58:48.000Z",
+          "wordCount": 1557,
+          "title": "Part 3 – Trends in the Cybersecurity Talent Marketplace in the Face of Sustained Shortages",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
+        },
         {
           "id": "https://www.praetorian.com/?p=4132",
           "author": "emmaline",
@@ -762,12 +762,22 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1567229",
+          "author": "Surender Kumar",
+          "description": "Did you ever try to attach a file larger than 20 MB in Outlook? If so, you probably received this error message: The file you're attaching is bigger than the server allows. Try putting the file in a shared location and sending a link instead. In this post, you will learn how tot increase the Outlook attachment size limit.\nIncrease the Outlook attachment size limit first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/how-to-increase-the-attachment-size-limit-in-outlook/",
+          "publishedOn": "2022-08-18T19:25:20.000Z",
+          "wordCount": 9863,
+          "title": "Increase the Outlook attachment size limit",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/08/Creating-the-MaximumAttachmentSize-registry-value-using-Group-Policy-600x310.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1567211",
           "author": "Robert Pearman",
           "description": "Managing Google Chrome using Group Policy is not a new idea. Because Microsoft Edge, as you may know, is based on Chromium, you can update your Group Policies to manage Edge as well.\nManage Google Chrome or Microsoft Edge with Group Policy first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/manage-google-chrome-or-microsoft-edge-with-group-policy/",
           "publishedOn": "2022-08-17T12:28:23.000Z",
-          "wordCount": 9743,
+          "wordCount": 9784,
           "title": "Manage Google Chrome or Microsoft Edge with Group Policy",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/08/Microsoft-Edge-Group-Policy-settings-600x387.png"
         },
@@ -1111,7 +1121,7 @@
           "description": "We’ve seen increased threats including ransomware and tailored ICS-specific attacks against engineering control systems.  As such the shift has also changed the security job tasks, security roles, and knowledge required to now perform ICS security for the protection of these engineering processes in today’s threat landscape.",
           "link": "https://www.sans.org/blog/developing-ics-ot-engineering-cyber-defense-teams?msc=rss",
           "publishedOn": "2022-08-17T00:00:00.000Z",
-          "wordCount": 4438,
+          "wordCount": 4448,
           "title": "Developing ICS/OT Engineering Cyber Defense Teams",
           "imageUrl": null
         },
@@ -1283,16 +1293,6 @@
           "publishedOn": "2022-07-21T00:00:00.000Z",
           "wordCount": 2789,
           "title": "Month of PowerShell: Working with Kilobytes, Megabytes, and Gigabytes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/using-the-grouping-operator",
-          "author": null,
-          "description": "In this article we look at how the PowerShell grouping operator works and how to use it instead of declaring a temporary variable to access an object's properties and methods.",
-          "link": "https://www.sans.org/blog/using-the-grouping-operator?msc=rss",
-          "publishedOn": "2022-07-20T00:00:00.000Z",
-          "wordCount": 4658,
-          "title": "Month of PowerShell - Using The Grouping Operator (a.k.a. What are all these ()?)",
           "imageUrl": null
         }
       ]
@@ -1506,6 +1506,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=12049",
+          "author": "Jeroen Beckers",
+          "description": "Some time ago I wrote some articles on how to Man-In-The-Middle Flutter on iOS, Android (ARM) and Android (ARM64). Those posts were quite popular and I often went back to copy those scripts myself. Last week, however, we received a Flutter application where the script wouldn’t work anymore. As we had the source code, it … Continue reading Intercept Flutter traffic on iOS and Android (HTTP/HTTPS/Dio Pinning) →",
+          "link": "https://blog.nviso.eu/2022/08/18/intercept-flutter-traffic-on-ios-and-android-http-https-dio-pinning/",
+          "publishedOn": "2022-08-18T15:54:01.000Z",
+          "wordCount": 2854,
+          "title": "Intercept Flutter traffic on iOS and Android (HTTP/HTTPS/Dio Pinning)",
+          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2020/09/cropped-NVISO-Logo-Square.png?fit=459%2C459&ssl=1"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=12164",
           "author": "Oliver Bachtik",
           "description": "In this blogpost we are going to look into hooks, how to find them, and how to restore the original functions.",
@@ -1514,16 +1524,6 @@
           "wordCount": 3145,
           "title": "Finding hooks with windbg",
           "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/07/trampoline.png?fit=482%2C391&ssl=1"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=12059",
-          "author": "Sasja Reynaert",
-          "description": "In this blog post, we will perform a deep analysis into GootLoader, malware which is known to deliver several types of payloads, such as Kronos trojan, REvil, IcedID, GootKit payloads and in this case Cobalt Strike. In our analysis we’ll be using the initial malware sample itself together with some malware artifacts from the system … Continue reading Analysis of a trojanized jQuery script: GootLoader unleashed →",
-          "link": "https://blog.nviso.eu/2022/07/20/analysis-of-a-trojanized-jquery-script-gootloader-unleashed/",
-          "publishedOn": "2022-07-20T08:00:00.000Z",
-          "wordCount": 3432,
-          "title": "Analysis of a trojanized jQuery script: GootLoader unleashed",
-          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/07/image-20.png?fit=945%2C513&ssl=1"
         }
       ]
     }
