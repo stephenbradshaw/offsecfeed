@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-26T00:48:38.267Z</updated>
+    <updated>2022-08-27T00:42:50.575Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Join Server Core to an Active Directory (AD) domain]]></title>
+        <id>https://4sysops.com/?p=1567419</id>
+        <link href="https://4sysops.com/archives/join-server-core-to-an-active-directory-ad-domain/"/>
+        <updated>2022-08-26T17:49:47.000Z</updated>
+        <summary type="html"><![CDATA[When you install Windows Server Core in your environment, there is no GUI or desktop experience to manage it. Admins who switch to Server Core from the desktop experience often face a slight learning curve. In this article, I will show you how to join a Server Core machine to an Active Directory (AD) domain with SConfig, PowerShell, or the command prompt.
+Join Server Core to an Active Directory (AD) domain first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Living off the land, AD CS style]]></title>
+        <id>https://www.pentestpartners.com/?p=25633</id>
+        <link href="https://www.pentestpartners.com/security-blog/living-off-the-land-ad-cs-style/"/>
+        <updated>2022-08-26T05:10:32.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Unless you have been living under a rock for the last year or so,  Active Directory Certificate Services (AD CS) abuse continues to be a hot topic in offensive […]
+Living off the land, AD CS style first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Ceri Coburn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tool Release – JWT-Reauth]]></title>
         <id>https://research.nccgroup.com/?p=13399</id>
@@ -958,58 +980,6 @@ Free SquaredUp Community Dashboard Server for PowerShell first appeared on 4syso
         <summary type="html"><![CDATA[By Troy Sargent, Blockchain Security Engineer You think you’ve found a critical bug in a Solidity smart contract that, if exploited, could drain a widely used cryptocurrency exchange’s funds. To confirm that it’s really a bug, you need to figure out the value at an obscure storage slot that has no getter method. Adrenaline courses […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benefits Entering Cloud]]></title>
-        <id>https://www.sans.org/blog/benefits-entering-cloud</id>
-        <link href="https://www.sans.org/blog/benefits-entering-cloud?msc=rss"/>
-        <updated>2022-07-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Join the SANS Institute at the 2022 Cloud Security Exchange as we bring together technical security leaders from Google Cloud Platform (GCP) and Microsoft Azure.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Month of PowerShell - PowerShell Remoting, Part 1]]></title>
-        <id>https://www.sans.org/blog/powershell-remoting-part-1</id>
-        <link href="https://www.sans.org/blog/powershell-remoting-part-1?msc=rss"/>
-        <updated>2022-07-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we discuss perhaps the most immediately-valuable feature in PowerShell for Windows administrators, the ability to run PowerShell commands on remote systems.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Troubleshooting “a domain controller could not be contacted”]]></title>
-        <id>https://4sysops.com/?p=1566918</id>
-        <link href="https://4sysops.com/archives/troubleshooting-a-domain-controller-could-not-be-contacted/"/>
-        <updated>2022-07-27T15:39:06.000Z</updated>
-        <summary type="html"><![CDATA[When you open tools such as Group Policy Management or AD Users and Computers, it might happen that these tools do not find the domain. Network problems in general and DNS problems in particular are almost always responsible for this. The IPv6 configuration plays a special role here.
-Troubleshooting “a domain controller could not be contacted” first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking at Patch Gap Vulnerabilities in the VMware ESXi TCP/IP Stack]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62dee8a816c55b377901d682</id>
-        <link href="https://www.thezdi.com/blog/2022/7/25/looking-at-patch-gap-vulnerabilities-in-the-vmware-esxi-tcpip-stack"/>
-        <updated>2022-07-27T15:14:05.000Z</updated>
-        <summary type="html"><![CDATA[Over the last few years, multiple VMware ESXi remote, unauthenticated code execution vulnerabilities have been publicly disclosed. Some were also found to be exploited in the wild. Since these bugs were found in ESXi’s implementation of the SLP service, VMware provided workarounds to turn off the service. VMware also disabled the service by default starting with ESX 7.0 Update 2c. In this blog post, we explore another remotely reachable attack surface: ESXi’s TCP/IP stack implemented as a VMkernel module. The most interesting outcome of this analysis is that ESXi’s TCP/IP stack is based on FreeBSD 8.2 and does not include security patches for the vulnerabilities disclosed over the years since that release of FreeBSD. 
-This result also prompted us to analyze the nature of vulnerabilities di…]]></summary>
-        <author>
-            <name>Reno Robert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Framing without iframes]]></title>
-        <id>framing-without-iframes</id>
-        <link href="https://portswigger.net/research/framing-without-iframes"/>
-        <updated>2022-07-27T14:57:48.000Z</updated>
-        <summary type="html"><![CDATA[Whilst testing for XSS vectors, we found some new ways of framing a web site that don't use the iframe element. Naturally, we've updated our XSS cheat sheet to document them. We discovered that Chrome]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
         </author>
     </entry>
     <entry>

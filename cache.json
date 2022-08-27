@@ -83,16 +83,6 @@
           "wordCount": 7331,
           "title": "Browser-Powered Desync Attacks: A New Frontier in HTTP Request Smuggling",
           "imageUrl": "https://portswigger.net/cms/images/bd/41/25b7-twittercard-browser-powered_desync_attacks_twitter.jpg"
-        },
-        {
-          "id": "framing-without-iframes",
-          "author": null,
-          "description": "Whilst testing for XSS vectors, we found some new ways of framing a web site that don't use the iframe element. Naturally, we've updated our XSS cheat sheet to document them. We discovered that Chrome",
-          "link": "https://portswigger.net/research/framing-without-iframes",
-          "publishedOn": "2022-07-27T14:57:48.000Z",
-          "wordCount": 928,
-          "title": "Framing without iframes",
-          "imageUrl": "https://portswigger.net/cms/images/90/a7/2c0c-twittercard-framing-without-iframes--twitter.jpg"
         }
       ]
     },
@@ -318,17 +308,6 @@
           "publishedOn": "2022-08-09T17:31:23.000Z",
           "wordCount": null,
           "title": "The August 2022 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:62dee8a816c55b377901d682",
-          "author": "Reno Robert",
-          "description": "Over the last few years, multiple VMware ESXi remote, unauthenticated code execution vulnerabilities have been publicly disclosed. Some were also found to be exploited in the wild. Since these bugs were found in ESXi’s implementation of the SLP service, VMware provided workarounds to turn off the service. VMware also disabled the service by default starting with ESX 7.0 Update 2c. In this blog post, we explore another remotely reachable attack surface: ESXi’s TCP/IP stack implemented as a VMkernel module. The most interesting outcome of this analysis is that ESXi’s TCP/IP stack is based on FreeBSD 8.2 and does not include security patches for the vulnerabilities disclosed over the years since that release of FreeBSD. \nThis result also prompted us to analyze the nature of vulnerabilities di…",
-          "link": "https://www.thezdi.com/blog/2022/7/25/looking-at-patch-gap-vulnerabilities-in-the-vmware-esxi-tcpip-stack",
-          "publishedOn": "2022-07-27T15:14:05.000Z",
-          "wordCount": null,
-          "title": "Looking at Patch Gap Vulnerabilities in the VMware ESXi TCP/IP Stack",
           "itunes": {},
           "imageUrl": null
         }
@@ -732,6 +711,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1567419",
+          "author": "Surender Kumar",
+          "description": "When you install Windows Server Core in your environment, there is no GUI or desktop experience to manage it. Admins who switch to Server Core from the desktop experience often face a slight learning curve. In this article, I will show you how to join a Server Core machine to an Active Directory (AD) domain with SConfig, PowerShell, or the command prompt.\nJoin Server Core to an Active Directory (AD) domain first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/join-server-core-to-an-active-directory-ad-domain/",
+          "publishedOn": "2022-08-26T17:49:47.000Z",
+          "wordCount": 10600,
+          "title": "Join Server Core to an Active Directory (AD) domain",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/08/Join-Server-Core-to-the-AD-domain-using-PowerShell-600x242.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1567383",
           "author": "Brandon Lee",
           "description": "Windows Fax Server has been around for quite some time and is still part of Windows Server 2022. So what does it take to install and configure Windows Fax Server in Windows Server 2022?\nInstall Windows Fax Server in Windows Server 2022 first appeared on 4sysops.",
@@ -940,16 +929,6 @@
           "wordCount": 10307,
           "title": "Free SquaredUp Community Dashboard Server for PowerShell",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/07/Example-dashboard-displayed-after-SquaredUp-Community-Dashboard-Server-installation-600x366.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1566918",
-          "author": "Wolfgang Sommergut",
-          "description": "When you open tools such as Group Policy Management or AD Users and Computers, it might happen that these tools do not find the domain. Network problems in general and DNS problems in particular are almost always responsible for this. The IPv6 configuration plays a special role here.\nTroubleshooting “a domain controller could not be contacted” first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/troubleshooting-a-domain-controller-could-not-be-contacted/",
-          "publishedOn": "2022-07-27T15:39:06.000Z",
-          "wordCount": 9934,
-          "title": "Troubleshooting “a domain controller could not be contacted”",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/07/Netsh-shows-whether-a-DNS-server-has-been-assigned-manually-or-dynamically-600x362.png"
         }
       ]
     },
@@ -1058,6 +1037,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=25633",
+          "author": "Ceri Coburn",
+          "description": "Introduction Unless you have been living under a rock for the last year or so,  Active Directory Certificate Services (AD CS) abuse continues to be a hot topic in offensive […]\nLiving off the land, AD CS style first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/living-off-the-land-ad-cs-style/",
+          "publishedOn": "2022-08-26T05:10:32.000Z",
+          "wordCount": 3903,
+          "title": "Living off the land, AD CS style",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=19697",
           "author": "JP Milne",
@@ -1213,26 +1202,6 @@
           "publishedOn": "2022-07-29T00:00:00.000Z",
           "wordCount": 3869,
           "title": "Month of PowerShell - Renaming Groups of Files",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/benefits-entering-cloud",
-          "author": null,
-          "description": "Join the SANS Institute at the 2022 Cloud Security Exchange as we bring together technical security leaders from Google Cloud Platform (GCP) and Microsoft Azure.",
-          "link": "https://www.sans.org/blog/benefits-entering-cloud?msc=rss",
-          "publishedOn": "2022-07-28T00:00:00.000Z",
-          "wordCount": 3352,
-          "title": "Benefits Entering Cloud",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/powershell-remoting-part-1",
-          "author": null,
-          "description": "In this article, we discuss perhaps the most immediately-valuable feature in PowerShell for Windows administrators, the ability to run PowerShell commands on remote systems.",
-          "link": "https://www.sans.org/blog/powershell-remoting-part-1?msc=rss",
-          "publishedOn": "2022-07-28T00:00:00.000Z",
-          "wordCount": 3660,
-          "title": "Month of PowerShell - PowerShell Remoting, Part 1",
           "imageUrl": null
         }
       ]
