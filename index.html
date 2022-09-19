@@ -59,6 +59,183 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-19 datetime="2022-09-19T00:00:00.000Z">2022-09-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-19 datetime="2022-09-19T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Didier Stevens</button>
+                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;9519"
+                        open
+                      >
+                        <summary class="article-expander__title">Update: strings.py Version 0.0.8</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/09/19/update-strings-py-version-0-0-8/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This version of my strings.py program adds option -N to select strings that end with a NUL character (C-strings). strings_V0_0_8.zip (http)MD5: 29015239E6385FFA63C2E33755C34CD9SHA256: 449AC9AA39A464D7C5883DED3FE9CB21A2E8E700F7763AD4199C25D37DCBD296</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-18 datetime="2022-09-18T15:00:01.000Z">2022-09-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-18 datetime="2022-09-18T15:00:01.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Embrace The Red</button>
+                  <a class="source-heading__link" href="https://embracethered.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://embracethered.com/blog/posts/2022/gospray-active-directory-ldap-password-spraying/"
+                        open
+                      >
+                        <summary class="article-expander__title">gospray - Simple LDAP bind-based password spray tool</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://embracethered.com/blog/posts/2022/gospray-active-directory-ldap-password-spraying/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>On a network and need credentials? Try password spraying the domain controller directly.
+A few years ago, I wrote this password spray tool called gospray that was used succesfully in a couple of engagements since. It does an LDAP bind directly against the domain controller to validate credentials. This doesn’t require an SMB server (or other servers) as target. So, it’s pretty quiet and number of concurrent Go routines is configurable.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Didier Stevens</button>
+                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;9508"
+                        open
+                      >
+                        <summary class="article-expander__title">New Tool: split-overlap.py</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/09/18/new-tool-split-overlap-py/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://didierstevens.files.wordpress.com/2022/09/20220918-140804.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>split-overlap.py is a tool to split a binary file in parts of a given size. For example: split-overlap.py 1000 test.data When test.data is a binary file with size 2500 bytes, the above command will create 2 files of 1000 bytes and one file of 500 bytes. It’s also possible to split a file with some […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-17 datetime="2022-09-17T00:00:00.000Z">2022-09-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-17 datetime="2022-09-17T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Security Research</button>
+                  <a class="source-heading__link" href="https://mrd0x.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mrd0x.com/stealing-tokens-from-office-applications/"
+                        open
+                      >
+                        <summary class="article-expander__title">Stealing Access Tokens From Office Desktop Applications</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mrd0x.com/stealing-tokens-from-office-applications/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Dumping tokens from Microsoft Office desktop applications&#x27; memory</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-16 datetime="2022-09-16T15:26:26.000Z">2022-09-16</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-16 datetime="2022-09-16T15:26:26.000Z"></time>
           </button>
@@ -3469,141 +3646,6 @@ Configuration Items in Configuration Manager (SCCM, MECM) first appeared on 4sys
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-19 datetime="2022-08-19T23:41:31.000Z">2022-08-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-19 datetime="2022-08-19T23:41:31.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hexacorn</button>
-                  <a class="source-heading__link" href="https://www.hexacorn.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hexacorn.com/blog/?p&#x3D;8139"
-                        open
-                      >
-                        <summary class="article-expander__title">What to know, what to learn? What are useful skills for cyber in 2022?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hexacorn.com/blog/2022/08/19/what-to-know-what-to-learn-what-are-useful-skills-for-cyber-in-2022/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>~12 years ago I felt I am on the top of the (blue side of cyber) world. I knew Windows forensics pretty well, Linux forensics far less, but with some […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hexacorn.com/blog/?p&#x3D;8199"
-                        open
-                      >
-                        <summary class="article-expander__title">Password as a (Yara) Service</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hexacorn.com/blog/2022/08/19/password-as-a-yara-service/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In a recent Twitter exchange with Tim I mentioned my earlier post in which I described a practice of crypto code copypasting being quite prevalent. Such practice is problematic of […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1567252"
-                        open
-                      >
-                        <summary class="article-expander__title">Manage Defender Antivirus using Intune</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/manage-defender-antivirus-using-intune/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2022/08/Create-Endpoint-security-antivirus-policies-600x380.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Defender Antivirus is Microsoft&#x27;s built-in antivirus, available in Windows 10/11 and Windows Server. You can manage this security component using Group Policies, PowerShell, or the Settings app. However, reporting and monitoring capabilities are only provided via the subscription-based Defender for Endpoint. Alternatively, you can use Intune for this purpose.
-Manage Defender Antivirus using Intune first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NCC Group Research</button>
-                  <a class="source-heading__link" href="https://research.nccgroup.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.nccgroup.com/?p&#x3D;16889"
-                        open
-                      >
-                        <summary class="article-expander__title">Back in Black: Unlocking a LockBit 3.0 Ransomware Attack</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.nccgroup.com/2022/08/19/back-in-black-unlocking-a-lockbit-3-0-ransomware-attack/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://research.nccgroup.com/wp-content/uploads/2022/08/image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This post explores some of the TTPs employed by a threat actor who were observed deploying LockBit 3.0 ransomware during an incident response engagement.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-01 datetime="2022-08-01T13:02:57.000Z">2022-08-01</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-01 datetime="2022-08-01T13:02:57.000Z"></time>
           </button>
@@ -3928,8 +3970,8 @@ rot.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3075371385">
-        <time id="build-timestamp" datetime="2022-09-18T00:53:26.660Z">2022-09-18T00:53:26.660Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3079265216">
+        <time id="build-timestamp" datetime="2022-09-19T00:51:16.217Z">2022-09-19T00:51:16.217Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

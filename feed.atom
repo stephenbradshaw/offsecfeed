@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-18T00:53:26.686Z</updated>
+    <updated>2022-09-19T00:51:16.244Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: strings.py Version 0.0.8]]></title>
+        <id>http://blog.didierstevens.com/?p=9519</id>
+        <link href="https://blog.didierstevens.com/2022/09/19/update-strings-py-version-0-0-8/"/>
+        <updated>2022-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This version of my strings.py program adds option -N to select strings that end with a NUL character (C-strings). strings_V0_0_8.zip (http)MD5: 29015239E6385FFA63C2E33755C34CD9SHA256: 449AC9AA39A464D7C5883DED3FE9CB21A2E8E700F7763AD4199C25D37DCBD296]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gospray - Simple LDAP bind-based password spray tool]]></title>
+        <id>https://embracethered.com/blog/posts/2022/gospray-active-directory-ldap-password-spraying/</id>
+        <link href="https://embracethered.com/blog/posts/2022/gospray-active-directory-ldap-password-spraying/"/>
+        <updated>2022-09-18T15:00:01.000Z</updated>
+        <summary type="html"><![CDATA[On a network and need credentials? Try password spraying the domain controller directly.
+A few years ago, I wrote this password spray tool called gospray that was used succesfully in a couple of engagements since. It does an LDAP bind directly against the domain controller to validate credentials. This doesn’t require an SMB server (or other servers) as target. So, it’s pretty quiet and number of concurrent Go routines is configurable.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Tool: split-overlap.py]]></title>
+        <id>http://blog.didierstevens.com/?p=9508</id>
+        <link href="https://blog.didierstevens.com/2022/09/18/new-tool-split-overlap-py/"/>
+        <updated>2022-09-18T12:19:40.000Z</updated>
+        <summary type="html"><![CDATA[split-overlap.py is a tool to split a binary file in parts of a given size. For example: split-overlap.py 1000 test.data When test.data is a binary file with size 2500 bytes, the above command will create 2 files of 1000 bytes and one file of 500 bytes. It’s also possible to split a file with some […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stealing Access Tokens From Office Desktop Applications]]></title>
+        <id>https://mrd0x.com/stealing-tokens-from-office-applications/</id>
+        <link href="https://mrd0x.com/stealing-tokens-from-office-applications/"/>
+        <updated>2022-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dumping tokens from Microsoft Office desktop applications' memory]]></summary>
+        <author>
+            <name>Security Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Change Windows startup programs with Sysinternals Autoruns]]></title>
         <id>https://4sysops.com/?p=1567711</id>
@@ -970,47 +1011,6 @@ Configuration Items in Configuration Manager (SCCM, MECM) first appeared on 4sys
         <summary type="html"><![CDATA[Introduction Concise Binary Object Representation (CBOR), the binary equivalent to JavaScript Object Notation (JSON), is ideal for storing a configuration to a shellcode/stager/loader. I’ve always wanted support for text-only compression to store API strings and URLs. CBOR currently doesn’t support … Continue reading →]]></summary>
         <author>
             <name>odzhan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What to know, what to learn? What are useful skills for cyber in 2022?]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8139</id>
-        <link href="https://www.hexacorn.com/blog/2022/08/19/what-to-know-what-to-learn-what-are-useful-skills-for-cyber-in-2022/"/>
-        <updated>2022-08-19T23:41:31.000Z</updated>
-        <summary type="html"><![CDATA[~12 years ago I felt I am on the top of the (blue side of cyber) world. I knew Windows forensics pretty well, Linux forensics far less, but with some […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Password as a (Yara) Service]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8199</id>
-        <link href="https://www.hexacorn.com/blog/2022/08/19/password-as-a-yara-service/"/>
-        <updated>2022-08-19T21:43:01.000Z</updated>
-        <summary type="html"><![CDATA[In a recent Twitter exchange with Tim I mentioned my earlier post in which I described a practice of crypto code copypasting being quite prevalent. Such practice is problematic of […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manage Defender Antivirus using Intune]]></title>
-        <id>https://4sysops.com/?p=1567252</id>
-        <link href="https://4sysops.com/archives/manage-defender-antivirus-using-intune/"/>
-        <updated>2022-08-19T19:16:44.000Z</updated>
-        <summary type="html"><![CDATA[Defender Antivirus is Microsoft's built-in antivirus, available in Windows 10/11 and Windows Server. You can manage this security component using Group Policies, PowerShell, or the Settings app. However, reporting and monitoring capabilities are only provided via the subscription-based Defender for Endpoint. Alternatively, you can use Intune for this purpose.
-Manage Defender Antivirus using Intune first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Back in Black: Unlocking a LockBit 3.0 Ransomware Attack]]></title>
-        <id>https://research.nccgroup.com/?p=16889</id>
-        <link href="https://research.nccgroup.com/2022/08/19/back-in-black-unlocking-a-lockbit-3-0-ransomware-attack/"/>
-        <updated>2022-08-19T14:30:21.000Z</updated>
-        <summary type="html"><![CDATA[This post explores some of the TTPs employed by a threat actor who were observed deploying LockBit 3.0 ransomware during an incident response engagement.]]></summary>
-        <author>
-            <name>RIFT: Research and Intelligence Fusion Team</name>
         </author>
     </entry>
     <entry>
