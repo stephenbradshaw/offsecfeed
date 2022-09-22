@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-21T00:54:46.681Z</updated>
+    <updated>2022-09-22T00:52:23.519Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quickpost: Tuning The Electric Energy Consumption Of My TV]]></title>
+        <id>http://blog.didierstevens.com/?p=9528</id>
+        <link href="https://blog.didierstevens.com/2022/09/22/quickpost-tuning-the-electric-energy-consumption-of-my-tv/"/>
+        <updated>2022-09-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TLDR: reducing the sound volume level of our TV has no (significant) impact on its electric energy consumption, but reducing the back-lighting does. Here in Belgium, mainstream media is full of news with tips to reduce energy consumption. Some good tips, some bad tips … That’s mainstream media for you 🙂 Recently, there was an […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inserting data into other processes’ address space, part 1a]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8225</id>
+        <link href="https://www.hexacorn.com/blog/2022/09/21/inserting-data-into-other-processes-address-space-part-1a/"/>
+        <updated>2022-09-21T22:05:59.000Z</updated>
+        <summary type="html"><![CDATA[I never thought I will write the part 1a of my old post, but here it is. As usual, I have not explored the below topic in-depth, but have certainly […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MindShaRE: Analyzing BSD Kernels for Uninitialized Memory Disclosures using Binary Ninja]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6328da69c8594d3c90669eab</id>
+        <link href="https://www.thezdi.com/blog/2022/9/19/mindshare-analyzing-bsd-kernels-with-binary-ninja"/>
+        <updated>2022-09-21T16:39:45.000Z</updated>
+        <summary type="html"><![CDATA[Disclosure of uninitialized memory is one of the common problems faced when copying data across trust boundaries. This can happen between the hypervisor and guest OS, kernel and user space, or across the network. The most common bug pattern noticed among these cases is where a structure or union is allocated in memory, and some of the fields or padding bytes are not initialized before copying it across trust boundaries. The question is, is it possible to perform variant analysis of such bugs?
+The idea here is to perform a control flow insensitive analysis to track all memory store operations statically. Any memory region never written to is identified as uninitialized when the data from it is copied across trust boundaries.
+Generalizing the code pattern for analysis
+Consider the case of CV…]]></summary>
+        <author>
+            <name>Reno Robert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sentry: App monitoring for DevOps environments]]></title>
+        <id>https://4sysops.com/?p=1567765</id>
+        <link href="https://4sysops.com/archives/sentry-app-monitoring-for-devops-environments/"/>
+        <updated>2022-09-21T15:49:12.000Z</updated>
+        <summary type="html"><![CDATA[Sentry is an app monitoring tool for DevOps environments  that is based on a stack of products such as Snuba, Kafka, and Nginx. It features proactive application monitoring to ensure that issues are addressed before they disrupt production environment.
+Sentry: App monitoring for DevOps environments first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Andrea Borghi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Automation for Active Directory, Microsoft 365, and Google Workspace with ManageEngine ADManager Plus]]></title>
         <id>https://4sysops.com/?p=1567752</id>
@@ -1043,17 +1087,6 @@ As d…]]></summary>
 Microsoft Graph: A single (PowerShell) API for Microsoft’s cloud services first appeared on 4sysops.]]></summary>
         <author>
             <name>Roland Eich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Configuration Items in Configuration Manager (SCCM, MECM)]]></title>
-        <id>https://4sysops.com/?p=1567289</id>
-        <link href="https://4sysops.com/archives/configuration-items-in-configuration-manager-sccm-mecm/"/>
-        <updated>2022-08-22T16:44:02.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Endpoint Configuration Manager (MECM), formerly System Center Configuration Manager (SCCM) is systems management software that comes with several compliance-related features, including the ability to deploy configuration baselines (CBs) and configuration items (CIs) to ensure that the endpoints in your environment remain compliant with your organization's security policies. In this guide, I will show you how to create CIs and BIs, run compliance reports, and, if applicable, remediation scripts.
-Configuration Items in Configuration Manager (SCCM, MECM) first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Alexander Pazik</name>
         </author>
     </entry>
     <entry>
