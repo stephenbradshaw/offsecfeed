@@ -44,16 +44,6 @@
           "wordCount": 6317,
           "title": "Get your SOCKS on with gTunnel",
           "imageUrl": "https://miro.medium.com/max/600/0*PtLij5HFGHchWZNp"
-        },
-        {
-          "id": "https://medium.com/p/3e5bbe7a20c0",
-          "author": "Andy Robbins",
-          "description": "In Part 1 of this series, we looked at how to port functionality from the Azure GUI to PowerShell. Specifically, we looked at how to…",
-          "link": "https://posts.specterops.io/automating-azure-abuse-research-part-2-3e5bbe7a20c0?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2022-08-31T14:53:23.000Z",
-          "wordCount": 4177,
-          "title": "Automating Azure Abuse Research — Part 2",
-          "imageUrl": "https://miro.medium.com/max/1200/0*OnH59sftWM-MuGa0"
         }
       ]
     },
@@ -103,16 +93,6 @@
           "wordCount": 1326,
           "title": "How to turn security research into profit: a CL.0 case study",
           "imageUrl": "https://portswigger.net/cms/images/66/10/90ce-twittercard-twitter_(1).png"
-        },
-        {
-          "id": "using-hackability-to-uncover-a-chrome-infoleak",
-          "author": null,
-          "description": "I've been hacking browsers for over 15 years and one of the challenges I set myself was to find a SOP bypass or info leak in every major browser. Chrome was the last browser standing…until now. This p",
-          "link": "https://portswigger.net/research/using-hackability-to-uncover-a-chrome-infoleak",
-          "publishedOn": "2022-09-01T13:00:00.000Z",
-          "wordCount": 1122,
-          "title": "Using Hackability to uncover a Chrome infoleak",
-          "imageUrl": "https://portswigger.net/cms/images/d2/6a/ee5e-twittercard-uncover_a_chrome_infoleak_twitter.jpg"
         }
       ]
     },
@@ -528,6 +508,26 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=17614",
+          "author": "RIFT: Research and Intelligence Fusion Team",
+          "description": "This blog looks to build on the work of other security research done by SecureWorks and PwC with firsthand experience of TTPs used in a recent incident where ShadowPad was deployed. ShadowPad is a modular remote access trojan (RAT) which is thought to be used almost exclusively by China-Based threat actors.",
+          "link": "https://research.nccgroup.com/2022/09/30/a-glimpse-into-the-shadowy-realm-of-a-chinese-apt-detailed-analysis-of-a-shadowpad-intrusion/",
+          "publishedOn": "2022-09-30T08:40:24.000Z",
+          "wordCount": 5265,
+          "title": "A glimpse into the shadowy realm of a Chinese APT: detailed analysis of a ShadowPad intrusion",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
+        {
+          "id": "https://research.nccgroup.com/?p=17225",
+          "author": "balazs.bucsay",
+          "description": "In 2015 Raphael Mudge released an article [1] that detailed that versions of mimikatz released after 8th of October, 2015 had a new module that was utilising certain types of external USB devices to flash lights in different colours if mimikatz was executed. The technique presented in the article required certain kind of busylights that … Continue reading Detecting Mimikatz with Busylight →",
+          "link": "https://research.nccgroup.com/2022/09/30/detecting-mimikatz-with-busylight/",
+          "publishedOn": "2022-09-30T08:00:00.000Z",
+          "wordCount": 2931,
+          "title": "Detecting Mimikatz with Busylight",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2022/09/5.png"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=17588",
           "author": "Jennifer Fernick",
           "description": "Six years ago, NCC Group researchers Tim Newsham and Jesse Hertz released TriforceAFL – an extension of the American Fuzzy Lop (AFL) fuzzer which supports full-system fuzzing using QEMU – but unfortunately the associated whitepaper for this work was never published. Today, we’re releasing it for the curious reader and historical archives alike. While fuzzing … Continue reading Whitepaper – Project Triforce: Run AFL On Everything (2017) →",
@@ -635,26 +635,6 @@
           "publishedOn": "2022-09-01T15:29:59.000Z",
           "wordCount": 2248,
           "title": "Conference Talks – September/October 2022",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=16956",
-          "author": "Cedric Halbronn",
-          "description": "Introduction netlink and nf_tables Overview Sets Expressions Set Expressions Stateful Expressions Expressions of Interest nft_lookup nft_dynset nft_connlimit Vulnerability Discovery CVE-2022-32250 Analysis Set Creation Set Deactivation Initial Limited UAF Write Exploitation Building an Initial Plan Offsets We Can Write at Into the UAF Chunk Hunting for Replacement Objects What Pointer Do We Want to Arbitrary Free? … Continue reading SETTLERS OF NETLINK: Exploiting a limited UAF in nf_tables (CVE-2022-32250) →",
-          "link": "https://research.nccgroup.com/2022/09/01/settlers-of-netlink-exploiting-a-limited-uaf-in-nf_tables-cve-2022-32250/",
-          "publishedOn": "2022-09-01T08:56:41.000Z",
-          "wordCount": 15252,
-          "title": "SETTLERS OF NETLINK: Exploiting a limited UAF in nf_tables (CVE-2022-32250)",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=16915",
-          "author": "David Young",
-          "description": "At present all major operating system kernels are written in C/C++, languages which provide no or minimal assistance in avoiding common security problems. Modern languages such as Rust provide better security guarantees by default and prevent many of the common classes of memory safety security bugs. In this post we will take a brief look … Continue reading Writing FreeBSD Kernel Modules in Rust →",
-          "link": "https://research.nccgroup.com/2022/08/31/writing-freebsd-kernel-modules-in-rust/",
-          "publishedOn": "2022-08-31T14:51:28.000Z",
-          "wordCount": 4346,
-          "title": "Writing FreeBSD Kernel Modules in Rust",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
         }
       ]
@@ -919,6 +899,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1567947",
+          "author": "Brandon Lee",
+          "description": "As hosts come online and go offline, there is a constant churn of hosts communicating on a local area network (LAN). Scanning networks with an IP scanner allows IT, network admins, and SecOps professionals to see which IPs are communicating and what types of devices occupy which IP addresses. It also helps to spot rogue, unsanctioned hosts that may be connected to the network. Several network IP scanners are freely available for download and help network administrators and IT admins discover devices on the network and manage IP resources. Let's look at the following tools:\nFree network IP scanners first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/free-network-ip-scanners/",
+          "publishedOn": "2022-09-30T17:07:17.000Z",
+          "wordCount": 10536,
+          "title": "Free network IP scanners",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/09/Free-IP-scanner-by-Eusing-600x451.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1567934",
           "author": "Surender Kumar",
           "description": "If you are responsible for managing Hyper-V in your organization, you should know about the advantages and disadvantages of the top six Hyper-V management tools.\nTop 6 Hyper-V management tools first appeared on 4sysops.",
@@ -1127,16 +1117,6 @@
           "wordCount": 11388,
           "title": "Directory Services Restore Mode: DSRM password reset, recover Active Directory",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/09/We-cant-sign-you-in-with-this-credential-because-your-domain-isnt-available-600x337.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1567476",
-          "author": "Wolfgang Sommergut",
-          "description": "Admins can prompt users to change their password at their next login. While it is easy to see the status of the corresponding attribute in AD Users and Computers, the procedure with PowerShell is a bit tricky. On the other hand, enforcing a password change with PowerShell is quite simple.\nFind AD accounts with ChangePasswordAtLogon, set and enforce password change with PowerShell first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/find-ad-accounts-with-changepasswordatlogon-set-and-enforce-password-change-with-powershell/",
-          "publishedOn": "2022-08-31T14:06:29.000Z",
-          "wordCount": 9784,
-          "title": "Find AD accounts with ChangePasswordAtLogon, set and enforce password change with PowerShell",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/08/Check-user-accounts-for-the-PasswordLastSet-value-600x339.png"
         }
       ]
     },
@@ -1185,6 +1165,16 @@
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=25859",
+          "author": "David Lodge",
+          "description": "There is no excerpt because this is a protected post.\nProtected: Readback Vulnerability first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/readback-vulnerability/",
+          "publishedOn": "2022-09-30T09:21:40.000Z",
+          "wordCount": 992,
+          "title": "Protected: Readback Vulnerability",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=25809",
           "author": "Joe Lovett",
           "description": "TL;DR The Reolink RLC-520A PoE camera obfuscates its HTTP communication by encrypting the POST body data. This level of security does defend against opportunistic attackers but falls short when defending […]\nAttacking Encrypted HTTP Communications first appeared on Pen Test Partners.",
@@ -1231,6 +1221,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/emulate-shellcode-radare2",
+          "author": null,
+          "description": "If you are troubleshooting custom shellcode, you need to work through the instructions patiently and deliberately. This article looks at how to emulate 32-bit ARM shellcode on an x86_64 Ubuntu system.",
+          "link": "https://www.sans.org/blog/emulate-shellcode-radare2?msc=rss",
+          "publishedOn": "2022-09-30T00:00:00.000Z",
+          "wordCount": 6312,
+          "title": "Emulate Shellcode with Radare2",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/new-sans-automation-course-sec673-advanced-information-security-automation-with-python",
           "author": null,
@@ -1734,16 +1734,6 @@
           "wordCount": 2121,
           "title": "Announcing the 2021-22 Synack Acropolis, Legends and Featured Envoy Mentors",
           "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/08/awards-blog-image-850x440-2022-1.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=14516",
-          "author": "Kirsten Gibson",
-          "description": "It’s natural to wonder who makes up the Synack Red Team (SRT), our dedicated team of 1,500+ security researchers, and how they ended up finding vulnerabilities in our customers’ IT systems (with permission, of course).  Companies want assurance they’re not opening the front door to just anybody. Much like you wouldn’t want a stranger in […]\nThe post Building Trust with a Vetted Team of Security Researchers appeared first on Synack.",
-          "link": "https://www.synack.com/blog/building-trust-with-a-vetted-team-of-security-researchers/",
-          "publishedOn": "2022-08-31T17:36:57.000Z",
-          "wordCount": 1947,
-          "title": "Building Trust with a Vetted Team of Security Researchers",
-          "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/08/antoine-schibler-KF3Ty-K6NVA-unsplash-scaled.jpg"
         }
       ]
     }
