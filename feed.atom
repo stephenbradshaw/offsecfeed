@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-16T01:00:49.128Z</updated>
+    <updated>2022-10-17T01:03:52.474Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TTP Diaries: SSH Agent Hijacking]]></title>
+        <id>https://embracethered.com/blog/posts/2022/ttp-diaries-ssh-agent-hijacking/</id>
+        <link href="https://embracethered.com/blog/posts/2022/ttp-diaries-ssh-agent-hijacking/"/>
+        <updated>2022-10-16T18:30:29.000Z</updated>
+        <summary type="html"><![CDATA[There are some neat TTPs that I don’t use frequently, and if the time arises, I need to dig up details again. So, I figured to write some of them down, starting with SSH Agent Hijacking.
+What is SSH Agent Hijacking? Short story, if you have keys added to an SSH Agent an adversary with root permissions can use them. If you forward the SSH Agent to another host, an adversary with root permission on that other host can exploit and leverage your keys as well.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is Ansible Galaxy?]]></title>
         <id>https://4sysops.com/?p=1568223</id>
@@ -1118,27 +1129,6 @@ A few years ago, I wrote this password spray tool called gospray that was used s
         <summary type="html"><![CDATA[split-overlap.py is a tool to split a binary file in parts of a given size. For example: split-overlap.py 1000 test.data When test.data is a binary file with size 2500 bytes, the above command will create 2 files of 1000 bytes and one file of 500 bytes. It’s also possible to split a file with some […]]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stealing Access Tokens From Office Desktop Applications]]></title>
-        <id>https://mrd0x.com/stealing-tokens-from-office-applications/</id>
-        <link href="https://mrd0x.com/stealing-tokens-from-office-applications/"/>
-        <updated>2022-09-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dumping tokens from Microsoft Office desktop applications' memory]]></summary>
-        <author>
-            <name>Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Change Windows startup programs with Sysinternals Autoruns]]></title>
-        <id>https://4sysops.com/?p=1567711</id>
-        <link href="https://4sysops.com/archives/change-windows-startup-programs-with-sysinternals-autoruns/"/>
-        <updated>2022-09-16T15:26:26.000Z</updated>
-        <summary type="html"><![CDATA[Did you know there are more than 200 configuration locations for Windows startup programs? These are often used to launch malicious software without user interaction. In this post, you will learn how to discover and change Windows startup programs with Sysinternals autoruns.
-Change Windows startup programs with Sysinternals Autoruns first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Leos Marek</name>
         </author>
     </entry>
     <entry>
