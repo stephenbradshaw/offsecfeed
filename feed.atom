@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-17T01:03:52.474Z</updated>
+    <updated>2022-10-18T00:59:47.169Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[WAM BAM - Recovering Web Tokens From Office]]></title>
+        <id>https://blog.xpnsec.com/wam-bam/</id>
+        <link href="https://blog.xpnsec.com/wam-bam/"/>
+        <updated>2022-10-17T17:40:29.000Z</updated>
+        <summary type="html"><![CDATA[This post looks at the recent trend of pulling Azure tokens from Office process memory and tries to identify just how these tokens were loaded, how Office handles a Microsoft Account (MSA), and how we can recover cached credentials from the Token Broker Cache.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploits Explained: A Spy’s Perspective On Your Network]]></title>
+        <id>https://www.synack.com/?p=15293</id>
+        <link href="https://www.synack.com/blog/exploits-explained-a-spys-perspective-on-your-network/"/>
+        <updated>2022-10-17T14:33:43.000Z</updated>
+        <summary type="html"><![CDATA[Jeremiah Roe is a Synack Solutions Architect forthe Federal and DoD space and We’re In! Podcast host. As a solutions architect, he helps organizations understand and implement effective security from an offensive perspective. He has an extensive background including work in the Marine Corps, network penetration testing, red team operations, wargaming and threat modeling. What […]
+The post Exploits Explained: A Spy’s Perspective On Your Network appeared first on Synack.]]></summary>
+        <author>
+            <name>Jeremiah Roe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Configuring the cloud clipboard in Windows 10/11 with Group Policy and PowerShell]]></title>
+        <id>https://4sysops.com/?p=1568247</id>
+        <link href="https://4sysops.com/archives/configuring-the-cloud-clipboard-in-windows-1011-with-group-policy-and-powershell/"/>
+        <updated>2022-10-17T12:55:46.000Z</updated>
+        <summary type="html"><![CDATA[In Windows 10 1809, Microsoft introduced a clipboard with multiple entries and added the ability to sync its contents among several devices. This cloud clipboard poses certain security risks, such as data leakage. However, it can be restricted by using Group Policy.
+Configuring the cloud clipboard in Windows 10/11 with Group Policy and PowerShell first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Toner Deaf – Printing your next persistence (Hexacon 2022)]]></title>
+        <id>https://research.nccgroup.com/?p=17751</id>
+        <link href="https://research.nccgroup.com/2022/10/17/toner-deaf-printing-your-next-persistence-hexacon-2022/"/>
+        <updated>2022-10-17T08:13:17.000Z</updated>
+        <summary type="html"><![CDATA[On Friday 14th of October 2022 Alex Plaskett (@alexjplaskett) and Cedric Halbronn (@saidelike) presented Toner Deaf – Printing your next persistence at Hexacon 2022. This talk demonstrated remote over the network exploitation of a Lexmark printer and persistence across both firmware updates and reboots. The slides for this talk are now available here: The full … Continue reading Toner Deaf – Printing your next persistence (Hexacon 2022) →]]></summary>
+        <author>
+            <name>Alex Plaskett</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TTP Diaries: SSH Agent Hijacking]]></title>
         <id>https://embracethered.com/blog/posts/2022/ttp-diaries-ssh-agent-hijacking/</id>
@@ -1119,16 +1161,6 @@ Get updates for Windows Server 2022 in WSUS first appeared on 4sysops.]]></summa
 A few years ago, I wrote this password spray tool called gospray that was used succesfully in a couple of engagements since. It does an LDAP bind directly against the domain controller to validate credentials. This doesn’t require an SMB server (or other servers) as target. So, it’s pretty quiet and number of concurrent Go routines is configurable.]]></summary>
         <author>
             <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Tool: split-overlap.py]]></title>
-        <id>http://blog.didierstevens.com/?p=9508</id>
-        <link href="https://blog.didierstevens.com/2022/09/18/new-tool-split-overlap-py/"/>
-        <updated>2022-09-18T12:19:40.000Z</updated>
-        <summary type="html"><![CDATA[split-overlap.py is a tool to split a binary file in parts of a given size. For example: split-overlap.py 1000 test.data When test.data is a binary file with size 2500 bytes, the above command will create 2 files of 1000 bytes and one file of 500 bytes. It’s also possible to split a file with some […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>
