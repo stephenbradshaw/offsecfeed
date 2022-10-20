@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-19T01:01:18.948Z</updated>
+    <updated>2022-10-20T00:55:53.488Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ghostwriter v3.1 Now Available]]></title>
+        <id>https://medium.com/p/47cfcccd6b02</id>
+        <link href="https://posts.specterops.io/ghostwriter-v3-1-now-available-47cfcccd6b02?source=rss----f05f8696e3cc---4"/>
+        <updated>2022-10-19T16:02:15.000Z</updated>
+        <summary type="html"><![CDATA[Ghostwriter v3.1 is now available! This release introduces several new features along with a host of minor improvements.]]></summary>
+        <author>
+            <name>Christopher Maddalena</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The State of Vulnerabilities in 2022]]></title>
+        <id>https://bishopfox.com/blog/vulnerabilities-2022</id>
+        <link href="https://bishopfox.com/blog/vulnerabilities-2022"/>
+        <updated>2022-10-19T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Is your organization concerned with security vulnerabilities? Read on as we examine publicly disclosed reports to understand the most frequent vulnerability types, the highest-disclosed bounties, and more.]]></summary>
+        <author>
+            <name>Carlos Yanez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-3236: Sophos Firewall User Portal and Web Admin Code Injection]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63485beb0002466f71875024</id>
+        <link href="https://www.thezdi.com/blog/2022/10/19/cve-2022-3236-sophos-firewall-user-portal-and-web-admin-code-injection"/>
+        <updated>2022-10-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched code injection vulnerability in the Sophos Firewall. The bug is due to improper validation of JSON keys submitted in the “JSON” parameter sent to the Controller endpoint. Successful exploitation of this vulnerability could result in remote code execution with the privileges of the root user. The following is a portion of their write-up covering CVE-2022-3236, with a few minimal modifications.
+Sophos recently patched a code injection vulnerability in Sophos Firewall v19.0 MR1 (19.0.1) and previous. This vulnerability is due to improper validation of JSON keys submitted in the “json” parameter sent to the Controlle…]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTTP/3 connection contamination: an upcoming threat?]]></title>
+        <id>http-3-connection-contamination</id>
+        <link href="https://portswigger.net/research/http-3-connection-contamination"/>
+        <updated>2022-10-19T13:28:09.000Z</updated>
+        <summary type="html"><![CDATA[I recently documented a dangerous reverse-proxy behaviour called first-request routing, which enables host-header attacks on back-end systems. In this post, I'll show how first-request routing also en]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UserAccountControl attribute: Checking and configuring security settings for Active Directory accounts]]></title>
+        <id>https://4sysops.com/?p=1568274</id>
+        <link href="https://4sysops.com/archives/useraccountcontrol-attribute-checking-and-configuring-security-settings-for-active-directory-accounts/"/>
+        <updated>2022-10-19T11:30:57.000Z</updated>
+        <summary type="html"><![CDATA[The UserAccountControl attribute can be used to configure several account settings in Active Directory. This applies, for example, to the expiration date of passwords or to Kerberos delegation. An AD audit should check this attribute regularly. This can be done using PowerShell, and there is a cmdlet for changing flags.
+UserAccountControl attribute: Checking and configuring security settings for Active Directory accounts first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Office Online Server Remote Code Execution]]></title>
+        <id>https://www.mdsec.co.uk/?p=3163</id>
+        <link href="https://www.mdsec.co.uk/2022/10/microsoft-office-online-server-remote-code-execution/"/>
+        <updated>2022-10-19T08:26:28.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft’s Office Online Server is the next generation of Office Web Apps Server; it provides a browser based viewer/editor for Word, PowerPoint, Excel and OneNote documents. The product can be...
+The post Microsoft Office Online Server Remote Code Execution appeared first on MDSec.]]></summary>
+        <author>
+            <name>Admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moto E20 Readback Vulnerability]]></title>
+        <id>https://www.pentestpartners.com/?p=25859</id>
+        <link href="https://www.pentestpartners.com/security-blog/moto-e20-readback-vulnerability/"/>
+        <updated>2022-10-19T05:21:40.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR The Motorola E20 is an entry-level smartphone that uses a Unisoc system-on-chip. Motorola holds around 10% of the US smartphone market, though the sales of the E20 as a […]
+Moto E20 Readback Vulnerability first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>David Lodge</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Our new scanner for Text4Shell]]></title>
         <id>https://blog.silentsignal.eu/?p=1796</id>
@@ -1183,27 +1257,6 @@ Automation for Active Directory, Microsoft 365, and Google Workspace with Manage
 The post Developing a Hidden Virtual File System Capability That Emulates the Uroburos Rootkit appeared first on Praetorian.]]></summary>
         <author>
             <name>emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: My Python Templates Version 0.0.8]]></title>
-        <id>http://blog.didierstevens.com/?p=9524</id>
-        <link href="https://blog.didierstevens.com/2022/09/20/update-my-python-templates-version-0-0-8/"/>
-        <updated>2022-09-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update adds the option –trim to template process-text-files.py. python-templates_V0_0_8.zip (http)MD5: 6C845823BB8AC4DB42993B994E93AF66SHA256: 20EC1E6540DF31939686CA4B54C5312DF3724EB756B16BA724722C3196BDF93F]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get updates for Windows Server 2022 in WSUS]]></title>
-        <id>https://4sysops.com/?p=1567734</id>
-        <link href="https://4sysops.com/archives/get-updates-for-windows-server-2022-in-wsus/"/>
-        <updated>2022-09-19T16:23:53.000Z</updated>
-        <summary type="html"><![CDATA[In the past, Microsoft set up a separate product in WSUS for each version of Windows Server; this meant that admins could easily subscribe to the respective updates. This no longer applies to Windows Server 2022, which shares updates with Azure Stack HCI. The Azure editions of Server 2022 are not covered by them.
-Get updates for Windows Server 2022 in WSUS first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
         </author>
     </entry>
     <entry>
