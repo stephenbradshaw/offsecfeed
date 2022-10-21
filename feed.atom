@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-20T00:55:53.488Z</updated>
+    <updated>2022-10-21T00:55:11.466Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PenTest Magazine Open Source Toolkit: ropci]]></title>
+        <id>https://embracethered.com/blog/posts/2022/ropci-pentest-magazine-open-source-tools/</id>
+        <link href="https://embracethered.com/blog/posts/2022/ropci-pentest-magazine-open-source-tools/"/>
+        <updated>2022-10-20T16:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Great news!
+An article about ropci is in the latest open issue of the Pentest Magazine!
+
+The article has a lot more info then my ropci blog post or the info on the ropci Github repo.
+Get your copy and check it out! It also has an article about Nuclei, one of my favorite tools.
+Cheers.
+Link: https://pentestmag.com/product/pentest-open-source-pentesting-toolkit]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ROPC - So, you think you have MFA?]]></title>
+        <id>https://embracethered.com/blog/posts/2022/ropci-so-you-think-you-have-mfa-azure-ad/</id>
+        <link href="https://embracethered.com/blog/posts/2022/ropci-so-you-think-you-have-mfa-azure-ad/"/>
+        <updated>2022-10-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post will highlight a pattern I have seen across multiple production Microsoft Azure Active Directory tenants which led to MFA bypasses using ROPC.
+The key take-away: Always enforce MFA! Sounds easy, but there are often misconfigurations and unexpected exceptions. So, test your own AAD tenant for ROPC based MFA bypass opportunities.
+Github: https://github.com/wunderwuzzi23/ropci
+Update: The latest open issue of Pentest Magazine has a ropci article. Check it out.
+What is ROPC?]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bypassing Mimecast URL and File Inspection]]></title>
+        <id>https://www.netspi.com/?p=28656</id>
+        <link href="https://www.netspi.com/blog/technical/social-engineering/bypassing-mimecast-email-defenses/"/>
+        <updated>2022-10-20T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how we successfully bypassed Mimecast URL and file inspection features and worked with the email security company to remediate the issues.
+The post Bypassing Mimecast URL and File Inspection appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Patrick Sayler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resilient storage with Storage Spaces]]></title>
+        <id>https://4sysops.com/?p=1568304</id>
+        <link href="https://4sysops.com/archives/resilient-storage-with-storage-spaces/"/>
+        <updated>2022-10-20T10:12:56.000Z</updated>
+        <summary type="html"><![CDATA[Historically, businesses have used RAID technologies to avoid data loss when disks fail. However, Windows Server offers a pure software-based alternative for resilient storage called Storage Spaces. It combines internal and attached drives to a single storage pool, where you can create virtual volumes. This feature supports multiple options for data redundancy.
+Resilient storage with Storage Spaces first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Social Engineering dos and don’ts]]></title>
+        <id>https://www.pentestpartners.com/?p=26030</id>
+        <link href="https://www.pentestpartners.com/security-blog/social-engineering-dos-and-donts/"/>
+        <updated>2022-10-20T05:03:15.000Z</updated>
+        <summary type="html"><![CDATA[Another day, another success at sneaking into a building and pretending to be staff. I do so love drinking other people’s expensive office coffee. No fruit bowls though. Close, but […]
+Social Engineering dos and don’ts first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Tom Roberts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ghostwriter v3.1 Now Available]]></title>
         <id>https://medium.com/p/47cfcccd6b02</id>
@@ -1235,28 +1298,6 @@ Consider the case of CV…]]></summary>
 Sentry: App monitoring for DevOps environments first appeared on 4sysops.]]></summary>
         <author>
             <name>Andrea Borghi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automation for Active Directory, Microsoft 365, and Google Workspace with ManageEngine ADManager Plus]]></title>
-        <id>https://4sysops.com/?p=1567752</id>
-        <link href="https://4sysops.com/archives/automation-for-active-directory-microsoft-365-and-google-workspace-with-manageengine-admanager-plus/"/>
-        <updated>2022-09-20T14:45:55.000Z</updated>
-        <summary type="html"><![CDATA[Learn how ManageEngine ADManager Plus allows easy management for on-premises Active Directory and cloud applications, such as Microsoft 365 and Google Workspace, as well as easy Active Directory automation and permission delegation.
-Automation for Active Directory, Microsoft 365, and Google Workspace with ManageEngine ADManager Plus first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developing a Hidden Virtual File System Capability That Emulates the Uroburos Rootkit]]></title>
-        <id>https://www.praetorian.com/?p=4153</id>
-        <link href="https://www.praetorian.com/blog/developing-a-vfs-that-emulates-uroburos-rootkit/"/>
-        <updated>2022-09-20T13:50:07.000Z</updated>
-        <summary type="html"><![CDATA[A few years ago, I read the “Uroburos: The Snake Rootkit” [1] paper written by Artem Baranov and Deresz and was captivated by the hidden kernel-mode Virtual File System (VFS) functionality implemented within Uroburos. Later, I decided to learn Windows device driver programming and thought replicating this functionality within my own rootkit would be an […]
-The post Developing a Hidden Virtual File System Capability That Emulates the Uroburos Rootkit appeared first on Praetorian.]]></summary>
-        <author>
-            <name>emmaline</name>
         </author>
     </entry>
     <entry>
