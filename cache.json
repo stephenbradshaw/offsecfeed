@@ -220,16 +220,6 @@
           "wordCount": 2725,
           "title": "Taking A Look At PNG Files with pngdump.py Beta Version 0.0.3",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/09/20220925-200951.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9528",
-          "author": "Didier Stevens",
-          "description": "TLDR: reducing the sound volume level of our TV has no (significant) impact on its electric energy consumption, but reducing the back-lighting does. Here in Belgium, mainstream media is full of news with tips to reduce energy consumption. Some good tips, some bad tips … That’s mainstream media for you 🙂 Recently, there was an […]",
-          "link": "https://blog.didierstevens.com/2022/09/22/quickpost-tuning-the-electric-energy-consumption-of-my-tv/",
-          "publishedOn": "2022-09-22T00:00:00.000Z",
-          "wordCount": 3097,
-          "title": "Quickpost: Tuning The Electric Energy Consumption Of My TV",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2022/09/20220921-162243.png"
         }
       ]
     },
@@ -238,6 +228,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/making-things-right",
+          "author": "HackerOne",
+          "description": "Did you know HackerOne has had a Make It Right fund for years?\nOften, programs and hackers come to agreeable solutions on reports according to in",
+          "link": "https://www.hackerone.com/hackerone-community-blog/making-things-right",
+          "publishedOn": "2022-10-21T13:00:40.000Z",
+          "wordCount": 1413,
+          "title": "Making Things Right",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/H1-3493_TouristOuting-553.jpg"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/meeting-mediation-team-h1-702",
           "author": "HackerOne",
@@ -374,17 +374,6 @@
           "title": "The October 2022 Security Update Review",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6328da69c8594d3c90669eab",
-          "author": "Reno Robert",
-          "description": "Disclosure of uninitialized memory is one of the common problems faced when copying data across trust boundaries. This can happen between the hypervisor and guest OS, kernel and user space, or across the network. The most common bug pattern noticed among these cases is where a structure or union is allocated in memory, and some of the fields or padding bytes are not initialized before copying it across trust boundaries. The question is, is it possible to perform variant analysis of such bugs?\nThe idea here is to perform a control flow insensitive analysis to track all memory store operations statically. Any memory region never written to is identified as uninitialized when the data from it is copied across trust boundaries.\nGeneralizing the code pattern for analysis\nConsider the case of CV…",
-          "link": "https://www.thezdi.com/blog/2022/9/19/mindshare-analyzing-bsd-kernels-with-binary-ninja",
-          "publishedOn": "2022-09-21T16:39:45.000Z",
-          "wordCount": null,
-          "title": "MindShaRE: Analyzing BSD Kernels for Uninitialized Memory Disclosures using Binary Ninja",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -410,7 +399,28 @@
       "title": "Grsecurity Blog RSS Feed",
       "feedUrl": "https://grsecurity.net/blog.rss",
       "siteUrl": "https://www.grsecurity.net/blog.rss",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.grsecurity.net/exploiting_and_defending_against_same_type_object_reuse.php",
+          "author": null,
+          "description": "This blog covers a difficult-to-defend subclass of use-after-free vulnerabilities in the Linux kernel, grsecurity's defense for it, and why our defense required compiler plugin involvement.  Included PoC exploits demonstrate the power and simplicity of this kind of vulnerability, as well as the effectiveness of grsecurity's defense.",
+          "link": "https://www.grsecurity.net/exploiting_and_defending_against_same_type_object_reuse.php",
+          "publishedOn": "2022-10-21T04:00:00.000Z",
+          "wordCount": 4077,
+          "title": "Canary in the Kernel Mine: Exploiting and Defending Against Same-Type Object Reuse",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.grsecurity.net/exploiting_and_defending_against_same_type_object_reuse.php",
+          "author": null,
+          "description": "This blog covers a difficult-to-defend subclass of use-after-free vulnerabilities in the Linux kernel, grsecurity's defense for it, and why our defense required compiler plugin involvement.  Included PoC exploits demonstrate the power and simplicity of this kind of vulnerability, as well as the effectiveness of grsecurity's defense.",
+          "link": "https://www.grsecurity.net/exploiting_and_defending_against_same_type_object_reuse.php",
+          "publishedOn": "2022-10-21T04:00:00.000Z",
+          "wordCount": 4077,
+          "title": "Canary in the Kernel Mine: Exploiting and Defending Against Same-Type Object Reuse",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Zeta-Two.com",
@@ -739,16 +749,6 @@
           "wordCount": 1142,
           "title": "ZTH-CH4: Hook & Sling - Phishing For Gold",
           "imageUrl": "https://blog.zsec.uk/content/images/2022/09/FdcAjLyWAAAWQyO.jpeg"
-        },
-        {
-          "id": "632bb8838180697158e6932c",
-          "author": "Andy Gill",
-          "description": "This short blog post explains what each tool does and overviews the use/reason for the release. Release of AutoPoC and SandboxSpy.",
-          "link": "https://blog.zsec.uk/honeypoc-release/",
-          "publishedOn": "2022-09-22T02:09:45.000Z",
-          "wordCount": 868,
-          "title": "HoneyPoC is Dead - Long Live Disinformation",
-          "imageUrl": "https://blog.zsec.uk/content/images/2022/09/20220802_001445.jpg"
         }
       ]
     },
@@ -1013,16 +1013,6 @@
           "wordCount": 10115,
           "title": "How to install the PfSense firewall on a virtual machine",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/09/PfSense-GUI-mode-600x319.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1567765",
-          "author": "Andrea Borghi",
-          "description": "Sentry is an app monitoring tool for DevOps environments  that is based on a stack of products such as Snuba, Kafka, and Nginx. It features proactive application monitoring to ensure that issues are addressed before they disrupt production environment.\nSentry: App monitoring for DevOps environments first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/sentry-app-monitoring-for-devops-environments/",
-          "publishedOn": "2022-09-21T15:49:12.000Z",
-          "wordCount": 9932,
-          "title": "Sentry: App monitoring for DevOps environments",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/09/Sentry-App-monitoring-for-DevOps-600x338.png"
         }
       ]
     },
@@ -1055,16 +1045,6 @@
           "publishedOn": "2022-10-01T23:43:03.000Z",
           "wordCount": 6568,
           "title": "Dealing with alert fatigue, Part 1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8225",
-          "author": "adam",
-          "description": "I never thought I will write the part 1a of my old post, but here it is. As usual, I have not explored the below topic in-depth, but have certainly […]",
-          "link": "https://www.hexacorn.com/blog/2022/09/21/inserting-data-into-other-processes-address-space-part-1a/",
-          "publishedOn": "2022-09-21T22:05:59.000Z",
-          "wordCount": 5594,
-          "title": "Inserting data into other processes’ address space, part 1a",
           "imageUrl": null
         }
       ]
@@ -1101,6 +1081,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=26055",
+          "author": "Ken Munro",
+          "description": "Way back when… We started our journey back in the day when the IoT was in its infancy. Our first published research was in June 2015 with a post about […]\nEffecting positive change in the Internet of Things first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/effecting-positive-change-in-the-internet-of-things/",
+          "publishedOn": "2022-10-21T05:30:49.000Z",
+          "wordCount": 1915,
+          "title": "Effecting positive change in the Internet of Things",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=26030",
           "author": "Tom Roberts",
@@ -1169,16 +1159,6 @@
           "publishedOn": "2022-09-28T05:28:40.000Z",
           "wordCount": 2923,
           "title": "Attacking Encrypted HTTP Communications",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=25777",
-          "author": "Jan Masters",
-          "description": "How cleartext session tokens are stored in an unsecured directory that can be stolen and used to impersonate a Teams user. TL;DR Microsoft Teams stores unencrypted session tokens and cached […]\nYou can’t stop me. MS Teams session hijacking and bypass first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/you-cant-stop-me-ms-teams-session-hijacking-and-bypass/",
-          "publishedOn": "2022-09-22T05:09:54.000Z",
-          "wordCount": 2068,
-          "title": "You can’t stop me. MS Teams session hijacking and bypass",
           "imageUrl": null
         }
       ]
@@ -1336,46 +1316,6 @@
           "publishedOn": "2022-09-26T00:00:00.000Z",
           "wordCount": 2597,
           "title": "NEW DFIR COURSE IN DEVELOPMENT | FOR548: eDiscovery: Tactics for Conquering the Data Minefield",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/sans-cloud-security-curriculum",
-          "author": null,
-          "description": "Blog outlining the new SANS Institute Cloud Security Curriculum",
-          "link": "https://www.sans.org/blog/sans-cloud-security-curriculum?msc=rss",
-          "publishedOn": "2022-09-22T00:00:00.000Z",
-          "wordCount": null,
-          "title": "SANS Cloud Security Curriculum",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/the-five-most-dangerous-new-attack-techniques",
-          "author": null,
-          "description": "Previous RSA Conference keynote presentations on the most dangerous new attack techniques in use today and how to prepare for the future.",
-          "link": "https://www.sans.org/blog/the-five-most-dangerous-new-attack-techniques?msc=rss",
-          "publishedOn": "2022-09-22T00:00:00.000Z",
-          "wordCount": 3155,
-          "title": "The Five Most Dangerous New Attack Techniques",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum",
-          "author": null,
-          "description": "Summary of SANS Cybersecurity Leadership Curriculum which is developing cyber security managers and leaders worldwide.",
-          "link": "https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum?msc=rss",
-          "publishedOn": "2022-09-22T00:00:00.000Z",
-          "wordCount": 4867,
-          "title": "SANS Cybersecurity Leadership Curriculum",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/sans-dfir-course-for577-linux-incident-response-analysis",
-          "author": null,
-          "description": "Linux powers a vast range of business-critical systems across the globe. From webservers to database platforms, to network hardware to security appliances, Linux can often be found “under the hood” making sure the system just keeps working. FOR577: Linux Incident Response & Analysis course gives incident responders and forensic investigators the knowledge they need to understand how the systems work, how attackers compromise environments and how to respond and investigate in an effective manner.",
-          "link": "https://www.sans.org/blog/sans-dfir-course-for577-linux-incident-response-analysis?msc=rss",
-          "publishedOn": "2022-09-22T00:00:00.000Z",
-          "wordCount": 2458,
-          "title": "NEW SANS DFIR COURSE | FOR577: LINUX Incident Response & Analysis",
           "imageUrl": null
         }
       ]
@@ -1698,9 +1638,9 @@
       ]
     },
     {
-      "title": "Synack Blog | Synack",
+      "title": "Synack Blog – Synack",
       "feedUrl": "https://www.synack.com/blog/feed/",
-      "siteUrl": "https://www.synack.com/blog/",
+      "siteUrl": "https://www.synack.com",
       "articles": [
         {
           "id": "https://www.synack.com/?p=15358",
