@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-25T01:03:38.712Z</updated>
+    <updated>2022-10-26T00:50:54.962Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stranger Strings: An exploitable flaw in SQLite]]></title>
+        <id>https://blog.trailofbits.com/?p=102981</id>
+        <link href="https://blog.trailofbits.com/2022/10/25/sqlite-vulnerability-july-2022-library-api/"/>
+        <updated>2022-10-25T11:30:10.000Z</updated>
+        <summary type="html"><![CDATA[By Andreas Kellas Trail of Bits is publicly disclosing CVE-2022-35737, which affects applications that use the SQLite library API. CVE-2022-35737 was introduced in SQLite version 1.0.12 (released on October 17, 2000) and fixed in release 3.39.2 (released on July 21, 2022). CVE-2022-35737 is exploitable on 64-bit systems, and exploitability depends on how the program is […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The dangers of trust policies in AWS]]></title>
+        <id>https://blog.nviso.eu/?p=12616</id>
+        <link href="https://blog.nviso.eu/2022/10/25/the-dangers-of-trust-policies-in-aws/"/>
+        <updated>2022-10-25T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Everyone that has used Amazon Web Services (AWS) knows that the cloud environment has a unique way of granting access to users and resources. This is done by allowing users and/or resources to temporarily assume roles. These kinds of actions are possible because of trust policies that are assigned to those roles. A trust … Continue reading The dangers of trust policies in AWS →]]></summary>
+        <author>
+            <name>Max Mangelschots</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Configure Defender SmartScreen, activate enhanced phishing protection]]></title>
+        <id>https://4sysops.com/?p=1568352</id>
+        <link href="https://4sysops.com/archives/configure-defender-smartscreen-activate-enhanced-phishing-protection/"/>
+        <updated>2022-10-25T06:08:55.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft includes several Windows security components under the term "Defender." One of them is Defender SmartScreen, which aims to protect users from visiting dangerous websites and downloading malicious programs. In Windows 11 2022, additional protection against password theft was added.
+Configure Defender SmartScreen, activate enhanced phishing protection first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Atlassian Jira Align, Version 10.107.4 Advisory]]></title>
         <id>https://bishopfox.com/blog/jira-align-advisory</id>
@@ -1144,46 +1175,6 @@ The post A Flexible Way to Pentest Continuously: Synack90 appeared first on Syna
 Configuring Defender Antivirus: Exclusions, real-time protection, scans, and remediations first appeared on 4sysops.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZTH-CH4: Hook & Sling - Phishing For Gold]]></title>
-        <id>5cf5c22a4581ca5ebe2263be</id>
-        <link href="https://blog.zsec.uk/phishing-explained/"/>
-        <updated>2022-09-26T09:41:48.000Z</updated>
-        <summary type="html"><![CDATA[To this date, phishing is one of the most prevalent first stages of entry to an organisation, a lot of threat actors]]></summary>
-        <author>
-            <name>Andy Gill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The World’s Best Cyber Security Training Just Got Even Better]]></title>
-        <id>https://www.sans.org/blog/new-ondemand-announcement</id>
-        <link href="https://www.sans.org/blog/new-ondemand-announcement?msc=rss"/>
-        <updated>2022-09-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The launch of the new SANS OnDemand platform brings new features, improves usability, and boosts accessibility. Learn more, and take it for a test drive with a free course demo.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NEW DFIR COURSE IN DEVELOPMENT | FOR548: eDiscovery: Tactics for Conquering the Data Minefield]]></title>
-        <id>https://www.sans.org/blog/new-dfir-course-for548-ediscovery-tactics-for-conquering-the-data-minefield</id>
-        <link href="https://www.sans.org/blog/new-dfir-course-for548-ediscovery-tactics-for-conquering-the-data-minefield?msc=rss"/>
-        <updated>2022-09-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[FOR548: eDiscovery: Tactics for Conquering the Data Minefield course will teach students the controls put in place to govern the eDiscovery process, where and how the data is stored and how best to satisfy the collection requirements imposed upon them and their organizations]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taking A Look At PNG Files with pngdump.py Beta Version 0.0.3]]></title>
-        <id>http://blog.didierstevens.com/?p=9556</id>
-        <link href="https://blog.didierstevens.com/2022/09/25/taking-a-look-at-png-files-with-pngdump-py-beta-version-0-0-3/"/>
-        <updated>2022-09-25T20:10:41.000Z</updated>
-        <summary type="html"><![CDATA[Here’s a new beta version of my tool pngdump.py, a tool to analyze PNG files. I took a look at all files on MalwareBazaar with a PNG tag, and made updates to pngdump.py to handle them. I found 3 types of “PNG” files. First, files spoofing PNG files: files that are not PNG files, but […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>
