@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-02T00:54:36.435Z</updated>
+    <updated>2022-11-03T00:49:55.828Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hacker AFK: the_arch_angel]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/hacker-afk-thearchangel</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-afk-thearchangel"/>
+        <updated>2022-11-02T15:03:34.000Z</updated>
+        <summary type="html"><![CDATA[Today's hacker the_arch_angel 
+JXoaT: What was your first experience with hacking growing up? 
+the_arch_angel: I actually didn't do any]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gregor Samsa: Exploiting Java's XML Signature Verification]]></title>
+        <id>https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html"/>
+        <updated>2022-11-02T11:41:00.008Z</updated>
+        <summary type="html"><![CDATA[By Felix Wilhelm, Project Zero
+
+Earlier this year, I discovered a surprising attack surface hidden deep inside Java’s standard library: A custom JIT compiler processing untrusted XSLT programs, exposed to remote attackers during XML signature verification. This post discusses CVE-2022-34169, an integer truncation bug in this JIT compiler resulting in arbitrary code execution in many Java-based web applications and identity providers that support the SAML single-sign-on standard. 
+OpenJDK fixed the discussed issue in July 2022. The Apache BCEL project used by Xalan-J, the origin of the vulnerable code, released a patch in September 2022. 
+
+While the vulnerability discussed in this post has been patched , vendors and users should expect further vulnerabilities in SAML.
+
+From a security resea…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I Found My Next Mission In Cybersecurity]]></title>
+        <id>https://www.synack.com/?p=15655</id>
+        <link href="https://www.synack.com/blog/how-i-found-my-next-mission-in-cybersecurity/"/>
+        <updated>2022-11-02T07:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Trevor Granger is a Technical Manager in Operations, Federal. He has 18 years of service and is currently in Officer Training School for the Air Force. I was a freshman in high school when September 11th, 2001 happened. I will never forget my principal’s somber voice on the intercom telling us matter-of-factly that a terrorist […]
+The post How I Found My Next Mission In Cybersecurity appeared first on Synack.]]></summary>
+        <author>
+            <name>Trevor Granger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Configuring Defender Exploit Guard network protection]]></title>
+        <id>https://4sysops.com/?p=1568490</id>
+        <link href="https://4sysops.com/archives/configuring-defender-exploit-guard-network-protection/"/>
+        <updated>2022-11-02T03:06:09.000Z</updated>
+        <summary type="html"><![CDATA[One of the features of Defender Exploit Guard is network protection. It blocks communication with dangerous domains or IP addresses at the system level. Network protection can be configured via group policies, PowerShell, or Intune.
+Configuring Defender Exploit Guard network protection first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Connect With Us!]]></title>
+        <id>https://www.sans.org/blog/SANS-Social-Channels-Podcasts</id>
+        <link href="https://www.sans.org/blog/SANS-Social-Channels-Podcasts?msc=rss"/>
+        <updated>2022-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS cyber security curriculum channels are the best way to stay up-to-date on all our free content and course updates.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nighthawk 0.2.1 – Haunting Blue]]></title>
         <id>https://www.mdsec.co.uk/?p=3188</id>
@@ -1192,47 +1253,6 @@ The post Assessment of an Ecosystem: The importance of end to end, holistic test
         <summary type="html"><![CDATA[October is Cybersecurity Awareness Month, but at HackerOne, we’ve decided it should be Hacker Awareness Month. We want to spend October celebratin]]></summary>
         <author>
             <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Synack Celebrates Cybersecurity Awareness Month]]></title>
-        <id>https://www.synack.com/?p=14964</id>
-        <link href="https://www.synack.com/blog/synack-celebrates-cybersecurity-awareness-month/"/>
-        <updated>2022-10-03T19:10:46.000Z</updated>
-        <summary type="html"><![CDATA[The cybersecurity industry continuously evolves to keep up with fast-moving threats. But for nearly two decades, there’s been at least one constant: October marks Cybersecurity Awareness Month!  Launched by the U.S. Department of Homeland Security in 2004 to raise public awareness about digital risks, Cybersecurity Awareness Month has since grown into a global phenomenon, drawing […]
-The post Synack Celebrates Cybersecurity Awareness Month appeared first on Synack.]]></summary>
-        <author>
-            <name>Synack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shining New Light on an Old ROM Vulnerability: Secure Boot Bypass via DCD and CSF Tampering on NXP i.MX Devices]]></title>
-        <id>https://research.nccgroup.com/?p=17554</id>
-        <link href="https://research.nccgroup.com/2022/10/03/shining-new-light-on-an-old-rom-vulnerability/"/>
-        <updated>2022-10-03T17:56:34.000Z</updated>
-        <summary type="html"><![CDATA[NXP’s HABv4 API documentation references a now-mitigated defect in ROM-resident High Assurance Boot (HAB) functionality present in devices with HAB version < 4.3.7. I could find no further public documentation on whether this constituted a vulnerability or an otherwise “uninteresting” errata item, so I analyzed it myself! This post shines new light on this old … Continue reading Shining New Light on an Old ROM Vulnerability: Secure Boot Bypass via DCD and CSF Tampering on NXP i.MX Devices →]]></summary>
-        <author>
-            <name>Jon Szymaniak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our favourite community contributions to the XSS cheat sheet]]></title>
-        <id>our-favourite-community-contributions-to-the-xss-cheat-sheet</id>
-        <link href="https://portswigger.net/research/our-favourite-community-contributions-to-the-xss-cheat-sheet"/>
-        <updated>2022-10-03T14:28:12.000Z</updated>
-        <summary type="html"><![CDATA[Since we launched the ever popular XSS cheat sheet, we've had some fantastic contributions from the XSS community. In this post, we thought we'd take the opportunity to highlight the seven best commun]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure your machine learning with Semgrep]]></title>
-        <id>https://blog.trailofbits.com/?p=102826</id>
-        <link href="https://blog.trailofbits.com/2022/10/03/semgrep-maching-learning-static-analysis/"/>
-        <updated>2022-10-03T13:00:53.000Z</updated>
-        <summary type="html"><![CDATA[By Suha Hussain tl;dr: Our publicly available Semgrep ruleset now has 11 rules dedicated to the misuse of machine learning libraries. Try it out now! Picture this: You’ve spent months curating images, trying out different architectures, downloading pretrained models, messing with Kubernetes, and you’re finally ready to ship your sparkling new machine learning (ML) product. […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
