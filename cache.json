@@ -351,6 +351,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results",
+          "author": "Chris Evans",
+          "description": "The ethical hacker community is one of the most powerful security resources available to any organization. We’ve worked with this community firsthand for the last decade and have witnessed their effectiveness and ingenuity. We’ve also learned a lot while helping organizations engage the world’s largest community of ethical hackers. \n\nToday, we’re pleased to announce a new tool to align your program with the state-of-the-art and signal your program maturity: Program Levels, a structured framework that lets programs level up by publicly committing to certain best practices.",
+          "link": "https://www.hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results",
+          "publishedOn": "2022-11-16T17:00:00.000Z",
+          "wordCount": 2040,
+          "title": "Introducing Program Levels: Hacker-friendly Practices that Improve Program Results",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Hacker-Appreciation-Thank-you-Blog_Image_560x494_L3R1.png"
+        },
+        {
           "id": "https://hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community",
           "author": "Elizabeth Raffa",
           "description": "HackerOne sat down with Wendy Ng, Principal Cloud Security Architect at OneWeb, to talk about their experience with their private HackerOne bug bounty program.",
@@ -435,6 +445,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6372bce0c67b98581b79d19f",
+          "author": "Piotr Bazydło",
+          "description": "By now you have likely already heard about the in-the-wild exploitation of Exchange Server, chaining CVE-2022-41040 and CVE-2022-41082. It was originally submitted to the ZDI program by the researcher known as “DA-0x43-Dx4-DA-Hx2-Tx2-TP-S-Q from GTSC”. After successful validation, it was immediately submitted to Microsoft. They patched both bugs along with several other Exchange vulnerabilities in the November Patch Tuesday release.\nIt is a beautiful chain, with an ingenious vector for gaining remote code execution. The tricky part is that it can be exploited in multiple ways, making both mitigation and detection harder. This blog post is divided into two main parts:\n·       Part 1 – where we review details of the good old ProxyShell Path Confusion vulnerability (CVE-2021-34473), and we sh…",
+          "link": "https://www.thezdi.com/blog/2022/11/14/control-your-types-or-get-pwned-remote-code-execution-in-exchange-powershell-backend",
+          "publishedOn": "2022-11-16T16:55:50.000Z",
+          "wordCount": null,
+          "title": "Control Your Types or Get Pwned: Remote Code Execution in Exchange PowerShell Backend",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6369b7f687c1821a09667d41",
           "author": "Dustin Childs",
@@ -735,16 +756,6 @@
           "wordCount": 6724,
           "title": "Stranger Strings: An exploitable flaw in SQLite",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2022/10/binary_ninja_101822-1024x1001.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=102963",
-          "author": "Trail of Bits",
-          "description": "At Trail of Bits, we pride ourselves on building tools that everyone can use to help improve the security ecosystem. Given how ingrained Microsoft is with a large portion of our work — binary analysis, cryptography, cloud security — our teams’ research and development has resulted in numerous tool releases for the public to incorporate […]",
-          "link": "https://blog.trailofbits.com/2022/10/18/microsoft-windows-security-research-team/",
-          "publishedOn": "2022-10-18T11:30:48.000Z",
-          "wordCount": 2247,
-          "title": "We do Windows now",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -1069,26 +1080,6 @@
           "wordCount": 11116,
           "title": "UserAccountControl attribute: Checking and configuring security settings for Active Directory accounts",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Get-the-value-of-the-userAccountControl-attribute-from-AD-Users-and-Computers-600x421.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1568262",
-          "author": "Leos Marek",
-          "description": "Cobian Backup is a popular freeware backup tool. Its version 11 has been around since 2012. Recently, Luis Cobian, the author of the tool, released its brand-new version, Cobian Reflector. In this post, you will find all you need to know to get started with Reflector\nCobian Backup revived: Cobian Reflector first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/cobian-backup-revived-cobian-reflector/",
-          "publishedOn": "2022-10-18T10:42:31.000Z",
-          "wordCount": 11236,
-          "title": "Cobian Backup revived: Cobian Reflector",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Backup-task-configuration-overview-600x360.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1568247",
-          "author": "Wolfgang Sommergut",
-          "description": "In Windows 10 1809, Microsoft introduced a clipboard with multiple entries and added the ability to sync its contents among several devices. This cloud clipboard poses certain security risks, such as data leakage. However, it can be restricted by using Group Policy.\nConfiguring the cloud clipboard in Windows 10/11 with Group Policy and PowerShell first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/configuring-the-cloud-clipboard-in-windows-1011-with-group-policy-and-powershell/",
-          "publishedOn": "2022-10-17T12:55:46.000Z",
-          "wordCount": 10597,
-          "title": "Configuring the cloud clipboard in Windows 10/11 with Group Policy and PowerShell",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Configuration-of-the-multilevel-clipboard-in-the-Settings-app-600x348.png"
         }
       ]
     },
@@ -1184,6 +1175,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/get-ahead-of-the-five-most-dangerous-new-attack-techniques",
+          "author": null,
+          "description": "SANS experts give an update on the five attack techniques shared at RSA Conference 2022.",
+          "link": "https://www.sans.org/blog/get-ahead-of-the-five-most-dangerous-new-attack-techniques?msc=rss",
+          "publishedOn": "2022-11-16T00:00:00.000Z",
+          "wordCount": 3542,
+          "title": "Get Ahead of the Five Most Dangerous New Attack Techniques",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/a-visual-summary-of-sans-pen-test-hackfest-summit-2022",
           "author": null,
           "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Pen Test HackFest Summit 2022",
@@ -1221,16 +1222,6 @@
           "publishedOn": "2022-10-26T00:00:00.000Z",
           "wordCount": 3287,
           "title": "The Five Most Dangerous New Attack Techniques",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/explore-the-value-of-giac-cloud-security-and-penetration-testing-certifications",
-          "author": null,
-          "description": "Eighty two percent of organizations prefer hiring candidates with certifications — from cloud security to penetration testing, and far beyond.",
-          "link": "https://www.sans.org/blog/explore-the-value-of-giac-cloud-security-and-penetration-testing-certifications?msc=rss",
-          "publishedOn": "2022-10-18T00:00:00.000Z",
-          "wordCount": 4095,
-          "title": "Explore the Value of GIAC Cloud Security and Penetration Testing Certifications",
           "imageUrl": null
         }
       ]
@@ -1272,22 +1263,7 @@
       "title": "XPN InfoSec Blog",
       "feedUrl": "https://blog.xpnsec.com/rss/",
       "siteUrl": "https://blog.xpnsec.com/",
-      "articles": [
-        {
-          "id": "https://blog.xpnsec.com/wam-bam/",
-          "author": null,
-          "description": "This post looks at the recent trend of pulling Azure tokens from Office process memory and tries to identify just how these tokens were loaded, how Office handles a Microsoft Account (MSA), and how we can recover cached credentials from the Token Broker Cache.",
-          "link": "https://blog.xpnsec.com/wam-bam/",
-          "publishedOn": "2022-10-17T17:40:29.000Z",
-          "wordCount": 1303,
-          "title": "WAM BAM - Recovering Web Tokens From Office",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/xpnsec/image/upload/v1666021255/WAM-BAM/wambam-title_lstoa0.png",
-            "type": "image"
-          },
-          "imageUrl": "https://res.cloudinary.com/xpnsec/image/upload/v1666021255/WAM-BAM/wambam-title_lstoa0.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Stories by Cedric Owens on Medium",
@@ -1687,16 +1663,6 @@
           "wordCount": 1907,
           "title": "See Your Cyber Defenses with an Adversarial Perspective Using Red Teaming and Pentesting",
           "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/10/fabio-ballasina-wEL2zPX3jDg-unsplash-scaled.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=15293",
-          "author": "Jeremiah Roe",
-          "description": "Jeremiah Roe is a Synack Solutions Architect forthe Federal and DoD space and We’re In! Podcast host. As a solutions architect, he helps organizations understand and implement effective security from an offensive perspective. He has an extensive background including work in the Marine Corps, network penetration testing, red team operations, wargaming and threat modeling. What […]\nThe post Exploits Explained: A Spy’s Perspective On Your Network appeared first on Synack.",
-          "link": "https://www.synack.com/blog/exploits-explained-a-spys-perspective-on-your-network/",
-          "publishedOn": "2022-10-17T14:33:43.000Z",
-          "wordCount": 2515,
-          "title": "Exploits Explained: A Spy’s Perspective On Your Network",
-          "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/09/synack-exploits-explained-blog-series-image-3.jpg"
         }
       ]
     }
