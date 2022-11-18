@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-17T00:44:01.245Z</updated>
+    <updated>2022-11-18T00:51:34.373Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Technical Advisory – NXP i.MX SDP_READ_DISABLE Fuse Bypass (CVE-2022-45163)]]></title>
+        <id>https://research.nccgroup.com/?p=17848</id>
+        <link href="https://research.nccgroup.com/2022/11/17/cve-2022-45163/"/>
+        <updated>2022-11-17T16:00:44.000Z</updated>
+        <summary type="html"><![CDATA[Summary NXP System-on-a-Chip (SoC) fuse configurations with the SDP READ_REGISTER operation disabled (SDP_READ_DISABLE=1) but other serial download functionality still enabled (SDP_DISABLE=0) can be abused to read memory contents in warm and cold boot attack scenarios. In lieu of an enabled SDP READ_REGISTER operation, an attacker can use a series of timed SDP WRITE_DCD commands to … Continue reading Technical Advisory – NXP i.MX SDP_READ_DISABLE Fuse Bypass (CVE-2022-45163) →]]></summary>
+        <author>
+            <name>Jon Szymaniak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Go from Active Duty to Civilian Cybersecurity]]></title>
+        <id>https://bishopfox.com/blog/how-to-civilian-cybersecurity</id>
+        <link href="https://bishopfox.com/blog/how-to-civilian-cybersecurity"/>
+        <updated>2022-11-17T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[In this blog, learn how veterans bridge the career gap between active duty service and civilian cybersecurity.]]></summary>
+        <author>
+            <name>Beth Robinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[People Are People: Gender Equality at Praetorian]]></title>
+        <id>https://www.praetorian.com/?p=4279</id>
+        <link href="https://www.praetorian.com/blog/gender-equality-at-praetorian/"/>
+        <updated>2022-11-17T14:52:14.000Z</updated>
+        <summary type="html"><![CDATA[Early this Summer, we shared our thoughts on the industry-wide shortage of cybersecurity talent to meet an ever-growing demand. One aspect of this phenomenon that we did not touch on in that post was the gender gap within the cybersecurity community, about which the World Bank hosted a Spring conference . While 50 percent of […]
+The post People Are People: Gender Equality at Praetorian appeared first on Praetorian.]]></summary>
+        <author>
+            <name>emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LABScon Replay | Demystifying Threats to Satellite Communications in Critical Infrastructure]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=73463</id>
+        <link href="https://www.sentinelone.com/labs/labscon-replay-demystifying-threats-to-satellite-communications-in-critical-infrastructure/"/>
+        <updated>2022-11-17T14:23:28.000Z</updated>
+        <summary type="html"><![CDATA[Satellite communications are an integral part of many Industrial Control Systems, but their usage in critical infrastructure continues to be misunderstood.]]></summary>
+        <author>
+            <name>LABScon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automate file downloads with Windows FTP or curl]]></title>
+        <id>https://4sysops.com/?p=1568693</id>
+        <link href="https://4sysops.com/archives/automate-file-downloads-with-windows-ftp-or-curl/"/>
+        <updated>2022-11-17T07:02:07.000Z</updated>
+        <summary type="html"><![CDATA[If you need to download files regularly from an FTP server, Windows offers two onboard tools to automate this process. These are ftp.exe and curl, which was added just recently. For the latter, you only need one command; for FTP, you can use whole scripts.
+Automate file downloads with Windows FTP or curl first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Program Levels: Hacker-friendly Practices that Improve Program Results]]></title>
         <id>https://hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results</id>
@@ -1131,82 +1183,6 @@ Sophos recently patched a code injection vulnerability in Sophos Firewall v19.0 
         <summary type="html"><![CDATA[I recently documented a dangerous reverse-proxy behaviour called first-request routing, which enables host-header attacks on back-end systems. In this post, I'll show how first-request routing also en]]></summary>
         <author>
             <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UserAccountControl attribute: Checking and configuring security settings for Active Directory accounts]]></title>
-        <id>https://4sysops.com/?p=1568274</id>
-        <link href="https://4sysops.com/archives/useraccountcontrol-attribute-checking-and-configuring-security-settings-for-active-directory-accounts/"/>
-        <updated>2022-10-19T11:30:57.000Z</updated>
-        <summary type="html"><![CDATA[The UserAccountControl attribute can be used to configure several account settings in Active Directory. This applies, for example, to the expiration date of passwords or to Kerberos delegation. An AD audit should check this attribute regularly. This can be done using PowerShell, and there is a cmdlet for changing flags.
-UserAccountControl attribute: Checking and configuring security settings for Active Directory accounts first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Office Online Server Remote Code Execution]]></title>
-        <id>https://www.mdsec.co.uk/?p=3163</id>
-        <link href="https://www.mdsec.co.uk/2022/10/microsoft-office-online-server-remote-code-execution/"/>
-        <updated>2022-10-19T08:26:28.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft’s Office Online Server is the next generation of Office Web Apps Server; it provides a browser based viewer/editor for Word, PowerPoint, Excel and OneNote documents. The product can be...
-The post Microsoft Office Online Server Remote Code Execution appeared first on MDSec.]]></summary>
-        <author>
-            <name>Admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moto E20 Readback Vulnerability]]></title>
-        <id>https://www.pentestpartners.com/?p=25859</id>
-        <link href="https://www.pentestpartners.com/security-blog/moto-e20-readback-vulnerability/"/>
-        <updated>2022-10-19T05:21:40.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR The Motorola E20 is an entry-level smartphone that uses a Unisoc system-on-chip. Motorola holds around 10% of the US smartphone market, though the sales of the E20 as a […]
-Moto E20 Readback Vulnerability first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>David Lodge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our new scanner for Text4Shell]]></title>
-        <id>https://blog.silentsignal.eu/?p=1796</id>
-        <link href="https://blog.silentsignal.eu/2022/10/18/our-new-scanner-for-text4shell/"/>
-        <updated>2022-10-18T19:27:38.000Z</updated>
-        <summary type="html"><![CDATA[Some say, CVE-2022-42889 is the new Log4Shell, for which we developed our own tool to enumerate affected hosts back in 2021. Others like Rapid7 argue that it may not be as easy to exploit like Log4Shell. Regardless of the severity and exploitability of this vulnerability, we quickly morphed a clone of our Log4Shell plugin into … Continued]]></summary>
-        <author>
-            <name>dnet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[See Your Cyber Defenses with an Adversarial Perspective Using Red Teaming and Pentesting]]></title>
-        <id>https://www.synack.com/?p=15358</id>
-        <link href="https://www.synack.com/blog/red-teaming-and-pentesting/"/>
-        <updated>2022-10-18T15:54:55.000Z</updated>
-        <summary type="html"><![CDATA[The Complementary Benefits of Red Teaming and Pentesting Deploying Complementary Cybersecurity Tools In our previous article, we talked about the growing number of cybersecurity tools available on the market and how difficult it can be to choose which ones you need to deploy to protect your information and infrastructure from cyberattack. That article described how […]
-The post See Your Cyber Defenses with an Adversarial Perspective Using Red Teaming and Pentesting appeared first on Synack.]]></summary>
-        <author>
-            <name>Synack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meeting the Mediation Team at H1-702]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/meeting-mediation-team-h1-702</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/meeting-mediation-team-h1-702"/>
-        <updated>2022-10-18T15:28:58.000Z</updated>
-        <summary type="html"><![CDATA[Hello world, we are the Mediation Team.
-For those who don’t know what we do - we are here to help the ethical hacking community and custome]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Practices for Identity and Access Management When Using Google Cloud Provider]]></title>
-        <id>https://www.praetorian.com/?p=4253</id>
-        <link href="https://www.praetorian.com/blog/iam-best-practices-gcp/"/>
-        <updated>2022-10-18T13:06:19.000Z</updated>
-        <summary type="html"><![CDATA[At Praetorian, one of our top priorities is looking over each client’s Identity and Access Management (IAM) structure. Several of our large clients use Google Cloud Provider (GCP), which is one of the top three cloud providers with about eight percent of the cloud services market share. During our work with GCP, we have noticed […]
-The post Best Practices for Identity and Access Management When Using Google Cloud Provider appeared first on Praetorian.]]></summary>
-        <author>
-            <name>emmaline</name>
         </author>
     </entry>
     <entry>
