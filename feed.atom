@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-21T00:45:27.236Z</updated>
+    <updated>2022-11-22T00:46:01.829Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A jq255 Elliptic Curve Specification, and a Retrospective]]></title>
+        <id>https://research.nccgroup.com/?p=18107</id>
+        <link href="https://research.nccgroup.com/2022/11/21/a-jq255-elliptic-curve-specification-and-a-retrospective/"/>
+        <updated>2022-11-21T16:38:06.000Z</updated>
+        <summary type="html"><![CDATA[First things first: there is now a specification for the jq255e and jq255s elliptic curves; it is published on the C2SP initiative and is formally in (draft) version 0.0.1: https://github.com/C2SP/C2SP/blob/main/jq255.md The jq255e and jq255s groups are prime-order groups appropriate for building cryptographic protocols, and based on elliptic curves. These curves are from the large class … Continue reading A jq255 Elliptic Curve Specification, and a Retrospective →]]></summary>
+        <author>
+            <name>Thomas Pornin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Log HTTP Requests, Version 1.3.1, Advisory]]></title>
+        <id>https://bishopfox.com/blog/log-http-requests-advisory</id>
+        <link href="https://bishopfox.com/blog/log-http-requests-advisory"/>
+        <updated>2022-11-21T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Read this medium risk advisory to learn details about CVE-2022-3402.]]></summary>
+        <author>
+            <name>Etan Castro Aldrete</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Device Code Phishing Attacks]]></title>
+        <id>https://embracethered.com/blog/posts/2022/device-code-phishing/</id>
+        <link href="https://embracethered.com/blog/posts/2022/device-code-phishing/"/>
+        <updated>2022-11-21T14:00:33.000Z</updated>
+        <summary type="html"><![CDATA[As more organizations move to hardware tokens and password-less auth (e.g. Yubikeys, Windows Hello,…) attackers will look for other ways to to trick users to gain access to their data.
+One novel phishing technique is by using the OAuth2 Device Authorization Grant.
+This post describes how it works with Microsoft AAD as example.
+Attacker initiates the phishing flow The attacker starts a Device Code flow by issuing a request to the device code token endpoint (e.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware vSphere 8: Editions, licensing, and pricing]]></title>
+        <id>https://4sysops.com/?p=1568747</id>
+        <link href="https://4sysops.com/archives/vmware-vsphere-8-editions-licensing-and-pricing/"/>
+        <updated>2022-11-21T11:39:08.000Z</updated>
+        <summary type="html"><![CDATA[VMware recently announced the licensing terms, editions, and pricing of vSphere 8. All components, including ESXi, vCenter, and vSAN, are still available via perpetual licenses. However, the vendor announced a switch to subscriptions, which will be made more attractive through a subscription upgrade program.
+VMware vSphere 8: Editions, licensing, and pricing first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ropci deep-dive for Azure hackers]]></title>
+        <id>https://embracethered.com/blog/posts/2022/ropci-usage/</id>
+        <link href="https://embracethered.com/blog/posts/2022/ropci-usage/"/>
+        <updated>2022-11-21T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Misconfigurations with MFA setups are not uncommon when using AAD, especially when federated setups or Pass Through Authentication is configured I have seen MFA bypass opportunities in multiple production tenants.
+A common misconfiguration is that MFA is enforced at the federated identity provider, but AAD is forgotten and ROPC authentication still succeeds against AAD.
+To learn more about ROPC, check out the previous post about the topic.
+This post focuses on the ropci features that can be leveraged post-exploitation.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cracking Zeppelin]]></title>
         <id>https://www.hexacorn.com/blog/?p=8283</id>
@@ -1068,16 +1125,6 @@ The post How to enhance security to your Access Management and Authentication wh
         <link href="https://blog.didierstevens.com/2022/10/24/update-byte-stats-py-version-0-0-9/"/>
         <updated>2022-10-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This new version of byte-stats.py, my tool to generate statistics for (binary) data, comes with an update to report the longest: byte-stats_V0_0_9.zip (http)MD5: 9187073EB63DE78BDACA1A3AB096DD19SHA256: 6BC1F8A6FDAA4E8484B6C86E38E214BCBF24AB20F80C92D8AEE3C5EA402D2F0C]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quickpost: Testing A Lemon Battery]]></title>
-        <id>http://blog.didierstevens.com/?p=9597</id>
-        <link href="https://blog.didierstevens.com/2022/10/22/quickpost-testing-a-lemon-battery/"/>
-        <updated>2022-10-22T21:59:06.000Z</updated>
-        <summary type="html"><![CDATA[In a chat with my colleagues, we were joking about charging smartphones with a lemon battery. And I actually wanted to know what magnitude of electrical energy we were talking about. So I connected a lemon battery to an electronic load: I took a lemon, inserted a zinc and copper piece of metal (a couple […]]]></summary>
         <author>
             <name>Didier Stevens</name>
         </author>

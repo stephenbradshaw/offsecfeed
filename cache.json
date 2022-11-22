@@ -280,16 +280,6 @@
           "wordCount": 2687,
           "title": "Update: byte-stats.py Version 0.0.9",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/10/20221023-113852-1.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9597",
-          "author": "Didier Stevens",
-          "description": "In a chat with my colleagues, we were joking about charging smartphones with a lemon battery. And I actually wanted to know what magnitude of electrical energy we were talking about. So I connected a lemon battery to an electronic load: I took a lemon, inserted a zinc and copper piece of metal (a couple […]",
-          "link": "https://blog.didierstevens.com/2022/10/22/quickpost-testing-a-lemon-battery/",
-          "publishedOn": "2022-10-22T21:59:06.000Z",
-          "wordCount": 2967,
-          "title": "Quickpost: Testing A Lemon Battery",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2022/10/20221022-232020.png"
         }
       ]
     },
@@ -454,6 +444,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=18107",
+          "author": "Thomas Pornin",
+          "description": "First things first: there is now a specification for the jq255e and jq255s elliptic curves; it is published on the C2SP initiative and is formally in (draft) version 0.0.1: https://github.com/C2SP/C2SP/blob/main/jq255.md The jq255e and jq255s groups are prime-order groups appropriate for building cryptographic protocols, and based on elliptic curves. These curves are from the large class … Continue reading A jq255 Elliptic Curve Specification, and a Retrospective →",
+          "link": "https://research.nccgroup.com/2022/11/21/a-jq255-elliptic-curve-specification-and-a-retrospective/",
+          "publishedOn": "2022-11-21T16:38:06.000Z",
+          "wordCount": 3815,
+          "title": "A jq255 Elliptic Curve Specification, and a Retrospective",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=17848",
           "author": "Jon Szymaniak",
@@ -787,6 +787,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1568747",
+          "author": "Wolfgang Sommergut",
+          "description": "VMware recently announced the licensing terms, editions, and pricing of vSphere 8. All components, including ESXi, vCenter, and vSAN, are still available via perpetual licenses. However, the vendor announced a switch to subscriptions, which will be made more attractive through a subscription upgrade program.\nVMware vSphere 8: Editions, licensing, and pricing first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/vmware-vsphere-8-editions-licensing-and-pricing/",
+          "publishedOn": "2022-11-21T11:39:08.000Z",
+          "wordCount": 10184,
+          "title": "VMware vSphere 8: Editions, licensing, and pricing",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/11/Prices-for-the-most-popular-vSphere-editions-in-the-VMware-Store-600x320.png"
+        },
         {
           "id": "https://4sysops.com/?p=1568739",
           "author": "Surender Kumar",
@@ -1127,7 +1137,28 @@
       "title": "Embrace The Red",
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2022/device-code-phishing/",
+          "author": null,
+          "description": "As more organizations move to hardware tokens and password-less auth (e.g. Yubikeys, Windows Hello,…) attackers will look for other ways to to trick users to gain access to their data.\nOne novel phishing technique is by using the OAuth2 Device Authorization Grant.\nThis post describes how it works with Microsoft AAD as example.\nAttacker initiates the phishing flow The attacker starts a Device Code flow by issuing a request to the device code token endpoint (e.",
+          "link": "https://embracethered.com/blog/posts/2022/device-code-phishing/",
+          "publishedOn": "2022-11-21T14:00:33.000Z",
+          "wordCount": 505,
+          "title": "Device Code Phishing Attacks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://embracethered.com/blog/posts/2022/ropci-usage/",
+          "author": null,
+          "description": "Misconfigurations with MFA setups are not uncommon when using AAD, especially when federated setups or Pass Through Authentication is configured I have seen MFA bypass opportunities in multiple production tenants.\nA common misconfiguration is that MFA is enforced at the federated identity provider, but AAD is forgotten and ROPC authentication still succeeds against AAD.\nTo learn more about ROPC, check out the previous post about the topic.\nThis post focuses on the ropci features that can be leveraged post-exploitation.",
+          "link": "https://embracethered.com/blog/posts/2022/ropci-usage/",
+          "publishedOn": "2022-11-21T01:00:00.000Z",
+          "wordCount": 2076,
+          "title": "Ropci deep-dive for Azure hackers",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Pentest Blog",
@@ -1418,6 +1449,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/log-http-requests-advisory",
+          "author": "Etan Castro Aldrete",
+          "description": "Read this medium risk advisory to learn details about CVE-2022-3402.",
+          "link": "https://bishopfox.com/blog/log-http-requests-advisory",
+          "publishedOn": "2022-11-21T16:00:00.000Z",
+          "wordCount": 1868,
+          "title": "Log HTTP Requests, Version 1.3.1, Advisory",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/advisories-risk-level/_1200x630_crop_center-center_82_none/Medium-Risk-Advisory-Featured.jpg?mtime=1637093217"
+        },
         {
           "id": "https://bishopfox.com/blog/how-to-civilian-cybersecurity",
           "author": "Beth Robinson",
