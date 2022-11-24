@@ -374,6 +374,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:637d484bbd6d15315428d647",
+          "author": "Trend Micro Research Team",
+          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Justin Hung and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched SQL injection vulnerability in Zoho ManageEngine products. The bug is due to improper validation of resource types in the AutoLogonHelperUtil class. Successful exploitation of this vulnerability could lead to arbitrary SQL code execution in the security context of the database service, which runs with SYSTEM privileges. The following is a portion of their write-up covering CVE-2022-3236, with a few minimal modifications.\nManageEngine recently patched a SQL injection vulnerability bug in their Password Manager Pro, PAM360, and Access Manager Plus products. The vulnerability is due to improper validation of resource …",
+          "link": "https://www.thezdi.com/blog/2022/11/22/cve-2022-40300-sql-injection-in-manageengine-privileged-access-management",
+          "publishedOn": "2022-11-23T15:58:41.000Z",
+          "wordCount": null,
+          "title": "CVE-2022-40300: SQL Injection in ManageEngine Privileged Access Management",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6372bce0c67b98581b79d19f",
           "author": "Piotr Bazydło",
           "description": "By now you have likely already heard about the in-the-wild exploitation of Exchange Server, chaining CVE-2022-41040 and CVE-2022-41082. It was originally submitted to the ZDI program by the researcher known as “DA-0x43-Dx4-DA-Hx2-Tx2-TP-S-Q from GTSC”. After successful validation, it was immediately submitted to Microsoft. They patched both bugs along with several other Exchange vulnerabilities in the November Patch Tuesday release.\nIt is a beautiful chain, with an ingenious vector for gaining remote code execution. The tricky part is that it can be exploited in multiple ways, making both mitigation and detection harder. This blog post is divided into two main parts:\n·       Part 1 – where we review details of the good old ProxyShell Path Confusion vulnerability (CVE-2021-34473), and we sh…",
@@ -429,7 +440,18 @@
       "title": "Winsider Seminars & Solutions Inc.",
       "feedUrl": "https://windows-internals.com/feed/",
       "siteUrl": "https://windows-internals.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://windows-internals.com/?p=495086",
+          "author": "Yarden Shafir",
+          "description": "[…]",
+          "link": "https://windows-internals.com/an-end-to-kaslr-bypasses/?utm_source=rss&utm_medium=rss&utm_campaign=an-end-to-kaslr-bypasses",
+          "publishedOn": "2022-11-23T14:52:20.000Z",
+          "wordCount": 2254,
+          "title": "An End to KASLR Bypasses?",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Alexander Popov",
@@ -454,6 +476,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=18144",
+          "author": "Jennifer Fernick",
+          "description": "After nearly four years into my role, I am stepping down as NCC Group’s SVP & Global Head of Research. In part just for myself, to reflect on a whirlwind few years, and in part as a thank you and celebration of all of the incredible researchers with whom I have had the privilege of … Continue reading So long and thanks for all the 0day →",
+          "link": "https://research.nccgroup.com/2022/11/23/so-long-and-thanks-for-all-the-0day/",
+          "publishedOn": "2022-11-23T19:52:10.000Z",
+          "wordCount": 6056,
+          "title": "So long and thanks for all the 0day",
+          "imageUrl": "http://img.youtube.com/vi/HF-tAujvckA/0.jpg"
+        },
         {
           "id": "https://research.nccgroup.com/?p=18107",
           "author": "Thomas Pornin",
@@ -662,16 +694,6 @@
           "wordCount": 3306,
           "title": "We sign code now",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2022/11/sigstore-1024x401.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=102981",
-          "author": "Trail of Bits",
-          "description": "By Andreas Kellas Trail of Bits is publicly disclosing CVE-2022-35737, which affects applications that use the SQLite library API. CVE-2022-35737 was introduced in SQLite version 1.0.12 (released on October 17, 2000) and fixed in release 3.39.2 (released on July 21, 2022). CVE-2022-35737 is exploitable on 64-bit systems, and exploitability depends on how the program is […]",
-          "link": "https://blog.trailofbits.com/2022/10/25/sqlite-vulnerability-july-2022-library-api/",
-          "publishedOn": "2022-10-25T11:30:10.000Z",
-          "wordCount": 6724,
-          "title": "Stranger Strings: An exploitable flaw in SQLite",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2022/10/binary_ninja_101822-1024x1001.png"
         }
       ]
     },
@@ -797,6 +819,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1568782",
+          "author": "Jasmin Kahriman",
+          "description": "The two most common protocols for monitoring Microsoft products are Simple Network Management Protocol (SNMP) and Windows Management Instrumentation (WMI). They are both natively supported in Windows and Windows Server, and neither one requires you to install third-party add-ons to start monitoring. This article explains the difference between the two protocols and helps you choose the one that works better for your scenario.\nSNMP vs WMI for Windows monitoring first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/snmp-vs-wmi-for-windows-monitoring/",
+          "publishedOn": "2022-11-23T10:17:35.000Z",
+          "wordCount": 10019,
+          "title": "SNMP vs WMI for Windows monitoring",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/11/The-WMI-service-in-the-Services-app-600x438.png"
+        },
         {
           "id": "https://4sysops.com/?p=1568773",
           "author": "Robert Pearman",
@@ -1006,16 +1038,6 @@
           "wordCount": 10288,
           "title": "Install VMware ESXi on Dell PowerEdge",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/VMware-Compatibility-Guide-600x265.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1568352",
-          "author": "Wolfgang Sommergut",
-          "description": "Microsoft includes several Windows security components under the term \"Defender.\" One of them is Defender SmartScreen, which aims to protect users from visiting dangerous websites and downloading malicious programs. In Windows 11 2022, additional protection against password theft was added.\nConfigure Defender SmartScreen, activate enhanced phishing protection first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/configure-defender-smartscreen-activate-enhanced-phishing-protection/",
-          "publishedOn": "2022-10-25T06:08:55.000Z",
-          "wordCount": 10089,
-          "title": "Configure Defender SmartScreen, activate enhanced phishing protection",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Group-policies-to-control-Defender-SmartScreen-for-Microsoft-Edge-600x425.png"
         }
       ]
     },
@@ -1357,18 +1379,7 @@
       "title": "SecureAuth Blogs - Identity and Access Management Solution",
       "feedUrl": "https://www.secureauth.com/blog/feed/",
       "siteUrl": "https://www.secureauth.com/blog/",
-      "articles": [
-        {
-          "id": "https://www.secureauth.com/?post_type=blog&p=46194",
-          "author": "jendres",
-          "description": "Managing access to your applications, infrastructure and data can no longer be done exclusively at a network level. With the adoption of cloud services and remote working, ensuring the right people have access to the right resources at the right time mostly comes down to one thing: Securing your Identity. efficiently and frictionlessly. Today, in […]\nThe post How to enhance security to your Access Management and Authentication while reducing friction appeared first on SecureAuth.",
-          "link": "https://www.secureauth.com/blog/how-to-add-more-controls-to-your-access-management-and-authentication-solution/",
-          "publishedOn": "2022-10-24T12:55:58.000Z",
-          "wordCount": 9373,
-          "title": "How to enhance security to your Access Management and Authentication while reducing friction",
-          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2022/10/cyber-awareness-blog-social-1.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
@@ -1461,16 +1472,6 @@
           "wordCount": 7005,
           "title": "Visualizing MISP Threat Intelligence in Power BI – An NVISO TI Tutorial",
           "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/11/published_dashboard.png?fit=1200%2C479&ssl=1"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=12616",
-          "author": "Max Mangelschots",
-          "description": "Introduction Everyone that has used Amazon Web Services (AWS) knows that the cloud environment has a unique way of granting access to users and resources. This is done by allowing users and/or resources to temporarily assume roles. These kinds of actions are possible because of trust policies that are assigned to those roles. A trust … Continue reading The dangers of trust policies in AWS →",
-          "link": "https://blog.nviso.eu/2022/10/25/the-dangers-of-trust-policies-in-aws/",
-          "publishedOn": "2022-10-25T11:00:00.000Z",
-          "wordCount": 2139,
-          "title": "The dangers of trust policies in AWS",
-          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/10/RM1-0917-diagram-b.png?fit=700%2C305&ssl=1"
         }
       ]
     },
@@ -1518,16 +1519,6 @@
           "wordCount": 2894,
           "title": "Behind the Scenes, New Insights from SANS Hacker Survey",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-SANS-Hacker-Survey-Webcast-Replay-OG.jpg?mtime=1666630671"
-        },
-        {
-          "id": "https://bishopfox.com/blog/jira-align-advisory",
-          "author": "Jake Shafer",
-          "description": "Read to learn details about the Atlassian Jira Align, Version 10.107.4 Advisory",
-          "link": "https://bishopfox.com/blog/jira-align-advisory",
-          "publishedOn": "2022-10-24T13:00:00.000Z",
-          "wordCount": 2415,
-          "title": "Atlassian Jira Align, Version 10.107.4 Advisory",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/advisories-risk-level/_1200x630_crop_center-center_82_none/High-Risk-Advisory-Featured.jpg?mtime=1637094526"
         }
       ]
     },

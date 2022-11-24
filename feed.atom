@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-23T00:39:38.896Z</updated>
+    <updated>2022-11-24T00:44:36.718Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[So long and thanks for all the 0day]]></title>
+        <id>https://research.nccgroup.com/?p=18144</id>
+        <link href="https://research.nccgroup.com/2022/11/23/so-long-and-thanks-for-all-the-0day/"/>
+        <updated>2022-11-23T19:52:10.000Z</updated>
+        <summary type="html"><![CDATA[After nearly four years into my role, I am stepping down as NCC Group’s SVP & Global Head of Research. In part just for myself, to reflect on a whirlwind few years, and in part as a thank you and celebration of all of the incredible researchers with whom I have had the privilege of … Continue reading So long and thanks for all the 0day →]]></summary>
+        <author>
+            <name>Jennifer Fernick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-40300: SQL Injection in ManageEngine Privileged Access Management]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:637d484bbd6d15315428d647</id>
+        <link href="https://www.thezdi.com/blog/2022/11/22/cve-2022-40300-sql-injection-in-manageengine-privileged-access-management"/>
+        <updated>2022-11-23T15:58:41.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Justin Hung and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched SQL injection vulnerability in Zoho ManageEngine products. The bug is due to improper validation of resource types in the AutoLogonHelperUtil class. Successful exploitation of this vulnerability could lead to arbitrary SQL code execution in the security context of the database service, which runs with SYSTEM privileges. The following is a portion of their write-up covering CVE-2022-3236, with a few minimal modifications.
+ManageEngine recently patched a SQL injection vulnerability bug in their Password Manager Pro, PAM360, and Access Manager Plus products. The vulnerability is due to improper validation of resource …]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An End to KASLR Bypasses?]]></title>
+        <id>https://windows-internals.com/?p=495086</id>
+        <link href="https://windows-internals.com/an-end-to-kaslr-bypasses/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=an-end-to-kaslr-bypasses"/>
+        <updated>2022-11-23T14:52:20.000Z</updated>
+        <summary type="html"><![CDATA[[…]]]></summary>
+        <author>
+            <name>Yarden Shafir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SNMP vs WMI for Windows monitoring]]></title>
+        <id>https://4sysops.com/?p=1568782</id>
+        <link href="https://4sysops.com/archives/snmp-vs-wmi-for-windows-monitoring/"/>
+        <updated>2022-11-23T10:17:35.000Z</updated>
+        <summary type="html"><![CDATA[The two most common protocols for monitoring Microsoft products are Simple Network Management Protocol (SNMP) and Windows Management Instrumentation (WMI). They are both natively supported in Windows and Windows Server, and neither one requires you to install third-party add-ons to start monitoring. This article explains the difference between the two protocols and helps you choose the one that works better for your scenario.
+SNMP vs WMI for Windows monitoring first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Jasmin Kahriman</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: what-is-new.py Version 0.0.2]]></title>
         <id>http://blog.didierstevens.com/?p=9694</id>
@@ -1106,58 +1148,6 @@ Install VMware ESXi on Dell PowerEdge first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[Previous RSA Conference keynote presentations on the most dangerous new attack techniques in use today and how to prepare for the future.]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stranger Strings: An exploitable flaw in SQLite]]></title>
-        <id>https://blog.trailofbits.com/?p=102981</id>
-        <link href="https://blog.trailofbits.com/2022/10/25/sqlite-vulnerability-july-2022-library-api/"/>
-        <updated>2022-10-25T11:30:10.000Z</updated>
-        <summary type="html"><![CDATA[By Andreas Kellas Trail of Bits is publicly disclosing CVE-2022-35737, which affects applications that use the SQLite library API. CVE-2022-35737 was introduced in SQLite version 1.0.12 (released on October 17, 2000) and fixed in release 3.39.2 (released on July 21, 2022). CVE-2022-35737 is exploitable on 64-bit systems, and exploitability depends on how the program is […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The dangers of trust policies in AWS]]></title>
-        <id>https://blog.nviso.eu/?p=12616</id>
-        <link href="https://blog.nviso.eu/2022/10/25/the-dangers-of-trust-policies-in-aws/"/>
-        <updated>2022-10-25T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Everyone that has used Amazon Web Services (AWS) knows that the cloud environment has a unique way of granting access to users and resources. This is done by allowing users and/or resources to temporarily assume roles. These kinds of actions are possible because of trust policies that are assigned to those roles. A trust … Continue reading The dangers of trust policies in AWS →]]></summary>
-        <author>
-            <name>Max Mangelschots</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Configure Defender SmartScreen, activate enhanced phishing protection]]></title>
-        <id>https://4sysops.com/?p=1568352</id>
-        <link href="https://4sysops.com/archives/configure-defender-smartscreen-activate-enhanced-phishing-protection/"/>
-        <updated>2022-10-25T06:08:55.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft includes several Windows security components under the term "Defender." One of them is Defender SmartScreen, which aims to protect users from visiting dangerous websites and downloading malicious programs. In Windows 11 2022, additional protection against password theft was added.
-Configure Defender SmartScreen, activate enhanced phishing protection first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atlassian Jira Align, Version 10.107.4 Advisory]]></title>
-        <id>https://bishopfox.com/blog/jira-align-advisory</id>
-        <link href="https://bishopfox.com/blog/jira-align-advisory"/>
-        <updated>2022-10-24T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Read to learn details about the Atlassian Jira Align, Version 10.107.4 Advisory]]></summary>
-        <author>
-            <name>Jake Shafer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to enhance security to your Access Management and Authentication while reducing friction]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=46194</id>
-        <link href="https://www.secureauth.com/blog/how-to-add-more-controls-to-your-access-management-and-authentication-solution/"/>
-        <updated>2022-10-24T12:55:58.000Z</updated>
-        <summary type="html"><![CDATA[Managing access to your applications, infrastructure and data can no longer be done exclusively at a network level. With the adoption of cloud services and remote working, ensuring the right people have access to the right resources at the right time mostly comes down to one thing: Securing your Identity. efficiently and frictionlessly. Today, in […]
-The post How to enhance security to your Access Management and Authentication while reducing friction appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>jendres</name>
         </author>
     </entry>
     <entry>
