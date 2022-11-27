@@ -47,28 +47,7 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": [
-        {
-          "id": "free-dastardly-from-burp-suite",
-          "author": null,
-          "description": "Introducing Dastardly - a free, lightweight web application security scanner for your CI/CD pipeline, from the makers of Burp Suite. Secure web development ain't easy Ensuring your code is written sec",
-          "link": "https://portswigger.net/blog/free-dastardly-from-burp-suite",
-          "publishedOn": "2022-10-27T13:03:30.000Z",
-          "wordCount": 914,
-          "title": "Free: Dastardly from Burp Suite",
-          "imageUrl": "https://portswigger.net/cms/images/fa/a9/7ed8-twittercard-dastardly-new_twitter.png"
-        },
-        {
-          "id": "coming-very-soon-dastardly-from-burp-suite",
-          "author": null,
-          "description": "New product alert! Dastardly is a free, lightweight web application security scanner for your CI/CD pipeline - and it's going to be landing in the next few days. It'll check your application for seven",
-          "link": "https://portswigger.net/blog/coming-very-soon-dastardly-from-burp-suite",
-          "publishedOn": "2022-10-27T13:03:30.000Z",
-          "wordCount": 861,
-          "title": "Coming very soon: Dastardly, from Burp Suite",
-          "imageUrl": "https://portswigger.net/cms/images/3d/1f/012d-twittercard-dastardly_twitter.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "PortSwigger Research",
@@ -141,16 +120,6 @@
           "wordCount": 6589,
           "title": "Gregor Samsa: Exploiting Java's XML Signature Verification",
           "imageUrl": null
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
-          "author": null,
-          "description": "By James Forshaw, Project Zero\n\nI've been spending a lot of time researching Windows authentication implementations, specifically Kerberos. In June 2022 I found an interesting issue number 2310 with the handling of RC4 encryption that allowed you to authenticate as another user if you could either interpose on the Kerberos network traffic to and from the KDC or directly if the user was configured to disable typical pre-authentication requirements.\n\nThis blog post goes into more detail on how this vulnerability works and how I was able to exploit it with only a bare minimum of brute forcing required. Note, I'm not going to spend time fully explaining how Kerberos authentication works, there's plenty of resources online. For example this blog post by Steve Syfuhs who works at Microsoft is a …",
-          "link": "https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
-          "publishedOn": "2022-10-27T19:48:00.000Z",
-          "wordCount": 6033,
-          "title": "RC4 Is Still Considered Harmful",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjksVSljuk2Fg7fQlJHzJCzuDt7Pm9yoVTxuq5yzkmeG3OdTyj7cU3KwOfDuvVIAg0CedUxMhKgzn1DfxY_vjXvZAaZruwl8y2Z1BqKIirtORJFh8YF81ZQJsq_zuJWejlZM5dP7gh5Y-Hi03db8FvA4NhzPs4OToyolKi-5fHwS7DXRCQC3m19E4we/w1200-h630-p-k-no-nu/image5.png"
         }
       ]
     },
@@ -270,16 +239,6 @@
           "wordCount": 2720,
           "title": "Quickpost: BruCON Travel Charger",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/10/screen37.bmp"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9635",
-          "author": "Didier Stevens",
-          "description": "qa-squeaky-toys.docm is a challenge I made for CSCBE 2022. It’s a Word document with VBA code. But the VBA code has been “cleaned” by an anti-virus. I was inspired by a real maldoc cleaned by a real anti-virus: “Maldoc Cleaned by Anti-Virus“. Here is how I made this challenge. I created a .docm file with […]",
-          "link": "https://blog.didierstevens.com/2022/10/28/the-making-of-qa-squeaky-toys-docm/",
-          "publishedOn": "2022-10-28T00:00:00.000Z",
-          "wordCount": 2911,
-          "title": "The Making Of: qa-squeaky-toys.docm",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2022/10/20221027-230543.png"
         }
       ]
     },
@@ -327,16 +286,6 @@
           "wordCount": 1775,
           "title": "Hacker AFK: the_arch_angel",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HackerOne_H1702_Andeck%20Photo-671_0.jpg"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hacker-success-managers",
-          "author": "jesse@hackerone.com",
-          "description": "Intro to Hacker Success Managers \nEarlier this year, we released a blog that shared foundational changes on our Community Team. One of our goals",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-success-managers",
-          "publishedOn": "2022-10-27T16:30:54.000Z",
-          "wordCount": 1383,
-          "title": "Hacker Success Managers",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/H1-303_Brent_Andeck_Photo-524_%281%29_copy_2.jpg"
         }
       ]
     },
@@ -413,18 +362,7 @@
       "title": "research.securitum.com",
       "feedUrl": "https://research.securitum.com/feed/",
       "siteUrl": "https://research.securitum.com",
-      "articles": [
-        {
-          "id": "https://research.securitum.com/?p=1875",
-          "author": "miwn",
-          "description": "Last month, Amazon lost control of its cloud-based IP address pool for more than three hours, which allowed cyber criminals to steal $235,000 from users of one of AWS’s customers. Using BGP hijacking, hackers gained control over a pool of 256 IP addresses. Briefly describing the BGP protocol, it is a backbone – the basis ...\nThe post Amazon once again lost control (for 3 hours) over the IP pool in a BGP Hijacking attack appeared first on research.securitum.com.",
-          "link": "https://research.securitum.com/amazon-once-again-lost-control-for-3-hours-over-the-ip-pool-in-a-bgp-hijacking-attack/",
-          "publishedOn": "2022-10-28T10:38:00.000Z",
-          "wordCount": null,
-          "title": "Amazon once again lost control (for 3 hours) over the IP pool in a BGP Hijacking attack",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Winsider Seminars & Solutions Inc.",
@@ -997,16 +935,6 @@
           "wordCount": 10537,
           "title": "Sysinternals Process Monitor: Real-time file system, registry, and process monitoring",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Parsing-the-remaining-Process-Monitor-output-600x292.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1568426",
-          "author": "Wolfgang Sommergut",
-          "description": "Microsoft released version 22H2 of Windows 10 (Windows 10 2022 Update). It offers practically no new features for end users but introduces some changes that are relevant for admins. These include extensive alignment of group policies and the security baseline with Windows 11 22H2.\nWindows 10 22H2: New Group Policy settings and updated Security Baseline, no ADK first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/windows-10-22h2-new-group-policy-settings-and-updated-security-baseline-no-adk/",
-          "publishedOn": "2022-10-28T02:37:04.000Z",
-          "wordCount": 10326,
-          "title": "Windows 10 22H2: New Group Policy settings and updated Security Baseline, no ADK",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Download-the-Security-Baseline-for-Windows-10-2022-as-part-of-the-Security-Compliance-Toolkit-600x353.png"
         }
       ]
     },
@@ -1120,16 +1048,6 @@
           "publishedOn": "2022-11-02T00:00:00.000Z",
           "wordCount": 2902,
           "title": "Connect With Us!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/geolocation-resources-for-osint-investigations",
-          "author": null,
-          "description": "There are numerous free tools and resources to help boost your geolocation and vehicle tracking skills to further your OSINT investigations.",
-          "link": "https://www.sans.org/blog/geolocation-resources-for-osint-investigations?msc=rss",
-          "publishedOn": "2022-10-28T00:00:00.000Z",
-          "wordCount": 2376,
-          "title": "Geolocation Resources for OSINT Investigations",
           "imageUrl": null
         }
       ]
@@ -1311,16 +1229,6 @@
           "wordCount": 2119,
           "title": "Home Grown Red Team: UAC Bypass On Windows Defender For Endpoint With HighBorn",
           "imageUrl": "https://miro.medium.com/max/569/1*JL4jBnusB-R35s86Wf-b0g.png"
-        },
-        {
-          "id": "https://medium.com/p/cc4bb089d22",
-          "author": "assume-breach",
-          "description": "Havoc C2 has quickly become one of my favorite open source C2s. It’s features offer everything that you need to complete a pentest or red…",
-          "link": "https://assume-breach.medium.com/home-grown-red-team-getting-system-on-windows-11-with-havoc-c2-cc4bb089d22?source=rss-fe83402397b0------2",
-          "publishedOn": "2022-10-27T20:01:41.000Z",
-          "wordCount": 4032,
-          "title": "Home Grown Red Team: Getting System On Windows 11 With Havoc C2",
-          "imageUrl": "https://miro.medium.com/max/672/1*4SdPPz2FNGB_Mwgv-cxzmw.png"
         }
       ]
     },
@@ -1458,16 +1366,6 @@
           "wordCount": 3071,
           "title": "Don't Get Caught in the Dark: How to Build Better Documentation for Security Teams",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Technical-Documentation-OG.jpg?mtime=1666722989"
-        },
-        {
-          "id": "https://bishopfox.com/blog/sans-behind-the-scenes",
-          "author": "Beth Robinson",
-          "description": "Get inside the mind of a hacker with highlights from our webcast, Hacker Insights Revealed; New SANS Survey Results",
-          "link": "https://bishopfox.com/blog/sans-behind-the-scenes",
-          "publishedOn": "2022-10-27T14:40:00.000Z",
-          "wordCount": 2894,
-          "title": "Behind the Scenes, New Insights from SANS Hacker Survey",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-SANS-Hacker-Survey-Webcast-Replay-OG.jpg?mtime=1666630671"
         }
       ]
     },
@@ -1545,16 +1443,6 @@
           "wordCount": 1488,
           "title": "Synack Expands Security Platform with Adversarial API Pentesting",
           "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/10/api-sol-page-placeholder-for-demo.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=15611",
-          "author": "Simon Preston",
-          "description": "With the anniversary of Log4j looming, it is a good time to reflect on the wider significance of the vulnerability that had security teams scrambling in December 2021. What can the response to the flaw in a widely used Apache Software Foundation logging tool tell us about the state of global IT security? Most importantly, […]\nThe post Battling the Next Log4j: How to Prepare Your Security Team While Avoiding Burnout appeared first on Synack.",
-          "link": "https://www.synack.com/blog/battling-the-next-log4j/",
-          "publishedOn": "2022-10-27T13:56:52.000Z",
-          "wordCount": 1780,
-          "title": "Battling the Next Log4j: How to Prepare Your Security Team While Avoiding Burnout",
-          "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/10/synack-cybersecurity-awareness-month-blog-Log4j.jpg"
         }
       ]
     }
