@@ -24,16 +24,6 @@
           "wordCount": null,
           "title": "Certificates and Pwnage and Patches, Oh My!",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/febe241abc75",
-          "author": "Luke Paine",
-          "description": "",
-          "link": "https://posts.specterops.io/the-defenders-guide-to-the-windows-registry-febe241abc75?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2022-10-31T15:50:30.000Z",
-          "wordCount": null,
-          "title": "The Defender’s Guide to the Windows Registry",
-          "imageUrl": null
         }
       ]
     },
@@ -47,7 +37,18 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "the-burp-challenge",
+          "author": null,
+          "description": "We recently launched the Burp challenge, to give our customers a unique opportunity to demonstrate their skills with Burp Suite Professional. Not only that, but the challenges involved put your web vu",
+          "link": "https://portswigger.net/blog/the-burp-challenge",
+          "publishedOn": "2022-11-30T09:35:52.000Z",
+          "wordCount": 1381,
+          "title": "The Burp challenge",
+          "imageUrl": "https://portswigger.net/cms/images/14/85/bb0b-twittercard-preparation-zone-test-zone.png"
+        }
+      ]
     },
     {
       "title": "PortSwigger Research",
@@ -83,16 +84,6 @@
           "wordCount": 924,
           "title": "Detecting web message misconfigurations for cross-domain credential theft",
           "imageUrl": "https://portswigger.net/cms/images/c2/8c/96aa-twittercard-detecting-web-message-misconfigurations-twitter.jpg"
-        },
-        {
-          "id": "safari-is-hot-linking-images-to-semi-random-websites",
-          "author": null,
-          "description": "Every image is potentially a URL on Safari, thanks to over-enthusiastic OCR (Optical Character Recognition). This means you can link any image to an external website - and Safari might already be send",
-          "link": "https://portswigger.net/research/safari-is-hot-linking-images-to-semi-random-websites",
-          "publishedOn": "2022-10-31T14:58:00.000Z",
-          "wordCount": 1181,
-          "title": "Safari is hot-linking images to semi-random websites",
-          "imageUrl": "https://portswigger.net/cms/images/ec/24/fa2f-twittercard-twitter.png"
         }
       ]
     },
@@ -229,16 +220,6 @@
           "wordCount": 2918,
           "title": "Quickpost: Testing A USB Fridge",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/11/20221106-154118.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9648",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in October: Blog posts: Quickpost: Standby Power Consumption Of An Old Linear Power Supply Update: base64dump.py Version 0.0.24 Update: rtfdump.py Version 0.0.12 Quickpost: Testing A Lemon Battery Update: byte-stats.py Version 0.0.9 The Making Of: qa-squeaky-toys.docm Quickpost: BruCON Travel Charger YouTube videos: Analysis of a Malicious HTML File […]",
-          "link": "https://blog.didierstevens.com/2022/11/01/overview-of-content-published-in-october-8/",
-          "publishedOn": "2022-11-01T00:00:00.000Z",
-          "wordCount": 2689,
-          "title": "Overview of Content Published in October",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -247,6 +228,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/creating-ctf-success-flag-hunt-bangladesh",
+          "author": "HackerOne",
+          "description": "About the CTF \nFlag Hunt 2022 CTF was the first ever two-stage event in Bangladesh, where the qualification round took place online among 159 te",
+          "link": "https://www.hackerone.com/hackerone-community-blog/creating-ctf-success-flag-hunt-bangladesh",
+          "publishedOn": "2022-11-30T02:15:59.000Z",
+          "wordCount": 2449,
+          "title": "Creating a CTF: The Success of Flag Hunt Bangladesh",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/flaghuntctf.jpeg"
+        },
         {
           "id": "https://hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results",
           "author": "Chris Evans",
@@ -342,17 +333,6 @@
           "publishedOn": "2022-11-08T18:28:55.000Z",
           "wordCount": null,
           "title": "The November 2022 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:635c21bed89bad67e748dfc8",
-          "author": "Piotr Bazydło",
-          "description": "Introduction\nI stumbled upon the Apache Batik library while researching other Java-based products. It immediately caught my attention, as this library parses Scalable Vector Graphics (SVG) files and transforms them into different raster graphics formats (i.e., PNG, PDF, or JPEG). I was even more encouraged when I looked at the Batik documentation. It was obvious that such a library could be prone to Server-Side Request Forgery (SSRF) issues (e.g., loading of images from remote resources). However, the documentation shows that Batik can also:\n·      Execute JavaScript through the Rhino interpreter.\n·      Load and execute remote Java classes.\nThose are some neat features! On the other hand, Apache Batik protects its users from both SSRF and remote code execution (RCE) vulnerabilities throug…",
-          "link": "https://www.thezdi.com/blog/2022/10/28/vulnerabilities-in-apache-batik-default-security-controls-ssrf-and-rce-through-remote-class-loading",
-          "publishedOn": "2022-10-31T16:14:51.000Z",
-          "wordCount": null,
-          "title": "Vulnerabilities in Apache Batik Default Security Controls – SSRF and RCE Through Remote Class Loading",
           "itunes": {},
           "imageUrl": null
         }
@@ -452,16 +432,6 @@
           "publishedOn": "2022-11-09T09:58:39.000Z",
           "wordCount": 1472,
           "title": "Tales of Windows detection opportunities for an implant framework",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=17819",
-          "author": "Jennifer Fernick",
-          "description": "New Microcorruption challenges created by Nick Galloway and Davee Morgan Today we are releasing several new challenges for the embedded security CTF, Microcorruption. These challenges highlight types of vulnerabilities that NCC Group’s Hardware and Embedded Systems practice have discovered in real products. The new challenges provide a simple interface to explore these vulnerabilities without having … Continue reading Check out our new Microcorruption challenges! →",
-          "link": "https://research.nccgroup.com/2022/10/31/check-out-our-new-microcorruption-challenges/",
-          "publishedOn": "2022-10-31T17:28:55.000Z",
-          "wordCount": 1595,
-          "title": "Check out our new Microcorruption challenges!",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
         }
       ]
@@ -736,6 +706,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1568889",
+          "author": "Brandon Lee",
+          "description": "It is common for organizations to host websites and other resources that may be accessible from external and internal clients on the LAN. Traditionally, organizations may have maintained two different DNS servers for this reason. Microsoft's split-brain DNS deployment using DNS policy helps consolidate these resources using Active Directory-integrated zones.\nSplit-brain DNS deployment using Windows Server DNS policy first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/split-brain-dns-deployment-using-windows-server-dns-policy/",
+          "publishedOn": "2022-11-30T14:21:38.000Z",
+          "wordCount": 9970,
+          "title": "Split-brain DNS deployment using Windows Server DNS policy",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/11/Creating-a-new-Active-Directory-integrated-zone.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1568878",
           "author": "Wolfgang Sommergut",
           "description": "Many websites ask users whether they want to receive notifications. In managed environments, this feature can be disabled via group policies. Both Chromium-based browsers and Firefox allow whitelisting and blacklisting of such websites.\nBlock notifications in Chrome, Edge, and Firefox first appeared on 4sysops.",
@@ -944,16 +924,6 @@
           "wordCount": 9768,
           "title": "Configuring Defender Exploit Guard network protection",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/11/Enable-network-protection-via-group-policies-select-mode-600x401.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1568470",
-          "author": "Brandon Lee",
-          "description": "User Account Control helps to implement proper permission levels for users accessing systems. Instead of needing administrator privileges, UAC allows admins to set up standard user permissions for users and escalate privileges in a granular way. In corporate networks, admins can use Group Policy to configure various UAC settings, including disabling UAC. Thanks to Windows Hello, you can now use a PIN for UAC.\nDisable UAC with Group Policy and set PIN in Windows Hello first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/disable-uac-with-group-policy-and-set-pin-in-windows-hello/",
-          "publishedOn": "2022-11-01T04:33:31.000Z",
-          "wordCount": 10256,
-          "title": "Disable UAC with Group Policy and set PIN in Windows Hello",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/10/Viewing-User-Account-Control-policy-settings-in-the-default-domain-policy-600x416.png"
         }
       ]
     },
@@ -1248,16 +1218,6 @@
           "wordCount": 2756,
           "title": "Home Grown Red Team: Lateral Movement With Havoc C2 And Microsoft EDR",
           "imageUrl": "https://miro.medium.com/max/528/1*lyAiUEVfU6diywz3cP3YnA.png"
-        },
-        {
-          "id": "https://medium.com/p/e9ea16546029",
-          "author": "assume-breach",
-          "description": "The days of running fodhelper are over, but there are a lot of ways to bypass UAC without alterting Defender or even Defender for Endpoint…",
-          "link": "https://assume-breach.medium.com/home-grown-red-team-uac-bypass-on-windows-defender-for-endpoint-with-highborn-e9ea16546029?source=rss-fe83402397b0------2",
-          "publishedOn": "2022-10-31T18:44:35.000Z",
-          "wordCount": 2119,
-          "title": "Home Grown Red Team: UAC Bypass On Windows Defender For Endpoint With HighBorn",
-          "imageUrl": "https://miro.medium.com/max/569/1*JL4jBnusB-R35s86Wf-b0g.png"
         }
       ]
     },
@@ -1395,16 +1355,6 @@
           "wordCount": 2581,
           "title": "How to Go from Active Duty to Civilian Cybersecurity",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Skillbridge-OG.jpg?mtime=1668534806"
-        },
-        {
-          "id": "https://bishopfox.com/blog/build-better-documentation",
-          "author": "Andy Doering",
-          "description": "In this blog, we share our recommendations for improving technical documentation guidelines and strategies for security teams.",
-          "link": "https://bishopfox.com/blog/build-better-documentation",
-          "publishedOn": "2022-10-31T15:00:00.000Z",
-          "wordCount": 3071,
-          "title": "Don't Get Caught in the Dark: How to Build Better Documentation for Security Teams",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Technical-Documentation-OG.jpg?mtime=1666722989"
         }
       ]
     },
@@ -1462,26 +1412,6 @@
           "wordCount": 1814,
           "title": "How I Found My Next Mission In Cybersecurity",
           "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/11/synack-trevor-granger-blog.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=15657",
-          "author": "SRT Community",
-          "description": "Mohammad Jassim is a 17-year-old member of the Synack Red Team.  In 2017, I was that rare seventh grader who had Ubuntu installed on their laptop. Typing “sudo apt-get install software-center” every chance I got boosted my ego – I was practically Mr. Robot! At this rate, I thought nothing could stop me from taking […]\nThe post Growing into the Synack Red Team appeared first on Synack.",
-          "link": "https://www.synack.com/blog/growing-into-the-synack-red-team/",
-          "publishedOn": "2022-11-01T11:00:48.000Z",
-          "wordCount": 2425,
-          "title": "Growing into the Synack Red Team",
-          "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/10/synack-cybersecurity-awareness-month-blog-student.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=15644",
-          "author": "Synack",
-          "description": "Synack, the premier security testing platform, has launched an API pentesting capability powered by its global community of elite security researchers. Organizations can now rely on the Synack platform for continuous pentesting coverage across “headless” API endpoints that lack a user interface and are increasingly exposed to attackers. “Synack’s human-led, adversarial approach is ideal for […]\nThe post Synack Expands Security Platform with Adversarial API Pentesting appeared first on Synack.",
-          "link": "https://www.synack.com/blog/synack-expands-security-platform-with-adversarial-api-pentesting/",
-          "publishedOn": "2022-10-31T14:00:14.000Z",
-          "wordCount": 1488,
-          "title": "Synack Expands Security Platform with Adversarial API Pentesting",
-          "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/10/api-sol-page-placeholder-for-demo.jpg"
         }
       ]
     }
