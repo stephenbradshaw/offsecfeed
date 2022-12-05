@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-04T00:39:01.604Z</updated>
+    <updated>2022-12-05T00:38:03.239Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Extracting Certificates For Defender]]></title>
+        <id>http://blog.didierstevens.com/?p=9703</id>
+        <link href="https://blog.didierstevens.com/2022/12/05/extracting-certificates-for-defender/"/>
+        <updated>2022-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A colleague asked me for help with extracting code signing certificates from malicious files, to add them to Defender’s block list. The procedure involves right-clicking the EXE in Windows Explorer, selecting properties to view the digital signature, and so on … But I don’t like procedures where one has to click on malware. So I […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: python-per-line.py Version 0.0.9]]></title>
         <id>http://blog.didierstevens.com/?p=9713</id>
@@ -44,6 +54,21 @@
         <summary type="html"><![CDATA[I love environmental variables. They are often post-worthy, and sometimes they are just simply cool. Yet, many are still not known. Many are still not described. Looking for ‘easy’ research […]]]></summary>
         <author>
             <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT: Imagine you are a database server]]></title>
+        <id>https://embracethered.com/blog/posts/2022/chatgpt-imagine-you-are-a-database/</id>
+        <link href="https://embracethered.com/blog/posts/2022/chatgpt-imagine-you-are-a-database/"/>
+        <updated>2022-12-02T16:41:49.000Z</updated>
+        <summary type="html"><![CDATA[After reading this post about ChatGPT imitating Linux, I wanted it to be a database server.
+Let’s try it out!
+ Imagine you are a Microsoft SQL Server. I type commands, and you reply with the result, and no other information or descriptions. Just the result. Start with exec xp_cmdshell ‘whoami’;
+ 
+Wow, this looks like a promising start.
+And, it “thinks” that it is running as LOCAL SYSTEM - quite funny actually.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
@@ -910,51 +935,6 @@ Install, remove, list, and set default printer with PowerShell first appeared on
         <summary type="html"><![CDATA[A couple years ago, I received a USB fridge from NVISO’s Secret Santa. It uses a Peltier element with a fan. I did the following test: overnight, I let the fridge run for 12 hours. It contained an Aluminum can filled with water at room temperature (around 17° C). I used a power meter to […]]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wi-Fi not working? Analyze with free Wi-Fi stumblers]]></title>
-        <id>https://4sysops.com/?p=1568549</id>
-        <link href="https://4sysops.com/archives/wi-fi-is-not-working-analyze-with-free-wi-fi-stumblers/"/>
-        <updated>2022-11-05T04:43:36.000Z</updated>
-        <summary type="html"><![CDATA[Your Wi-Fi isn't working? When it comes to building out, configuring, and troubleshooting a wireless network, there are valuable tools that help with all three of these tasks. Utilities that allow you to analyze wireless networks are called Wi-Fi stumblers.
-Wi-Fi not working? Analyze with free Wi-Fi stumblers first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BYODC - Bring Your Own Domain Controller]]></title>
-        <id>62b32a307518be0764f856d9</id>
-        <link href="https://blog.zsec.uk/byodc-attack/"/>
-        <updated>2022-11-04T17:19:42.000Z</updated>
-        <summary type="html"><![CDATA[BYODC or bring your own domain controller is a post-exploitation technique and another option for performing a DCSync in a more opsec safe manner.]]></summary>
-        <author>
-            <name>Andy Gill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Very Powerful Clipboard: Analysis of a Samsung in-the-wild exploit chain]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"/>
-        <updated>2022-11-04T15:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Maddie Stone, Project Zero
-
-Note: The three vulnerabilities discussed in this blog were all fixed in Samsung’s March 2021 release. They were fixed as CVE-2021-25337, CVE-2021-25369, CVE-2021-25370. To ensure your Samsung device is up-to-date under settings you can check that your device is running SMR Mar-2021 or later.
-
-As defenders, in-the-wild exploit samples give us important insight into what attackers are really doing. We get the “ground truth” data about the vulnerabilities and exploit techniques they’re using, which then informs our further research and guidance to security teams on what could have the biggest impact or return on investment. To do this, we need to know that the vulnerabilities and exploit samples were found in-the-wild. Over the past few years there’s been tremendo…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker Appreciation Month: Badge Awards]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards"/>
-        <updated>2022-11-04T15:30:21.000Z</updated>
-        <summary type="html"><![CDATA[Celebrating the accomplishments of hackers is something we want to do year-round. However, we decided we wanted to root Cyber Security Awareness mon]]></summary>
-        <author>
-            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
