@@ -49,6 +49,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "new-burp-suite-api-we-want-your-feedback",
+          "author": null,
+          "description": "If you follow the Burp Suite roadmap, then you'll know that we're working on a complete rewrite of the API used in Burp Suite Professional and Burp Suite Community Edition. The new API is codenamed \"M",
+          "link": "https://portswigger.net/blog/new-burp-suite-api-we-want-your-feedback",
+          "publishedOn": "2022-12-08T10:45:04.000Z",
+          "wordCount": 976,
+          "title": "New Burp Suite API: we want your feedback!",
+          "imageUrl": "https://portswigger.net/cms/images/dd/06/596d-twittercard-montoya_api_twitter.png"
+        },
+        {
           "id": "the-burp-challenge",
           "author": null,
           "description": "We recently launched the Burp challenge, to give our customers a unique opportunity to demonstrate their skills with Burp Suite Professional. Not only that, but the challenges involved put your web vu",
@@ -103,6 +113,16 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+          "author": null,
+          "description": "Seth Jenkins, Project Zero\n\nThis blog post details an exploit for CVE-2022-42703 (P0 issue 2351 - Fixed 5 September 2022), a bug Jann Horn found in the Linux kernel's memory management (MM) subsystem that leads to a use-after-free on struct anon_vma. As the bug is very complex (I certainly struggle to understand it!), a future blog post will describe the bug in full. For the time being, the issue tracker entry, this LWN article explaining what an anon_vma is and the commit that introduced the bug are great resources in order to gain additional context.\nSetting the scene\nSuccessfully triggering the underlying vulnerability causes folio->mapping to point to a freed anon_vma object. Calling madvise(..., MADV_PAGEOUT)can then be used to repeatedly trigger accesses to the freed anon_vma in foli…",
+          "link": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+          "publishedOn": "2022-12-08T19:04:00.000Z",
+          "wordCount": 4255,
+          "title": "Exploiting CVE-2022-42703 - Bringing back the stack attack",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8tz1hKWNhX-Wy3WfWRQpXpx20G62eGw7d8a_Kw7qQFfGyAgn6jsE9yxyFRR7hgrTW04cZDfp-V1BUnNqbFTXm9rFEktXTvf70fyPgAOk1pMgWZPzLBcRDND3bFObstL6cmPhp0J6nReczPiODwfsjecw_VsmRTp8cgodf-SEb1aQNkfQMQiPnHtt2/w1200-h630-p-k-no-nu/image3.png"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2022/11/mind-the-gap.html",
           "author": null,
           "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=OPeqXG-QxW3ZD8BtmPikfA');.lst-kix_9apzkelodq30-0>li:before{content:\"\\0025cf  \"}ul.lst-kix_9apzkelodq30-6{list-style-type:none}ul.lst-kix_9apzkelodq30-7{list-style-type:none}ul.lst-kix_9apzkelodq30-4{list-style-type:none}ul.lst-kix_9apzkelodq30-5{list-style-type:none}ul.lst-kix_9apzkelodq30-2{list-style-type:none}ul.lst-kix_9apzkelodq30-3{list-style-type:none}ul.lst-kix_9apzkelodq30-0{list-style-type:none}.lst-kix_9apzkelodq30-6>li:before{content:\"\\0025cf  \"}ul.lst-kix_9apzkelodq30-1{list-style-type:none}.lst-kix_9apzkelodq30-5>li:before{content:\"\\0025a0  \"}.lst-kix_9apzkelodq30-3>li:before{content:\"\\0025cf  \"}.lst-kix_9apzkelodq30-7>li:before{content:\"\\0025cb  \"}.lst-kix_9apzkelodq30-4>li:before{content:\"\\0025cb  \"}.lst-kix_9a…",
@@ -136,7 +156,18 @@
       "title": "Technical Blog - NetSPI",
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.netspi.com/?p=28955",
+          "author": "Karl Fosaaen",
+          "description": "Learn how to gather access keys for App Configuration resources and how to use those keys to access the configuration key-value pairs.\nThe post How to Gather Azure App Configurations appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/cloud-penetration-testing/gathering-azure-app-configurations/",
+          "publishedOn": "2022-12-08T16:00:00.000Z",
+          "wordCount": 3956,
+          "title": "How to Gather Azure App Configurations",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/120822_Azure-App-Configurations-Blog_Social.jpg"
+        }
+      ]
     },
     {
       "title": "Posts on malicious.link",
@@ -304,6 +335,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6391e8d6ce7f8758e904fedd",
+          "author": "Dustin Childs",
+          "description": "Welcome back to Pwn2Own Toronto! Yesterday, we awarded another $281,500 for 17 unique bugs across multiple categories. That brings our two-day total to $681,250 awarded for 46 unique 0-days. Today’s highlights include more attempts at the Samsung Galaxy, entries in the SOHO Smashup category, and more smart speaker. We’ll be updating this blog with results throughout the day.\nResults current as of 18:30. All times Eastern (GMT-5). All denominations are in USD. \nSUCCESS - On the first success of Day 3, Team Viettel was able to execute their OS Command Injection attack against the WD My Cloud Pro Series PR4100 in the NAS category. They earn $20K and 4 Master of Pwn points. \nBUG COLLISION - STAR Labs was able to execute their SOHO SMASHUP attack on the 3rd and final try against the Synology ro…",
+          "link": "https://www.thezdi.com/blog/2022/12/8/pwn2own-toronto-2022-day-three-results",
+          "publishedOn": "2022-12-08T16:05:27.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Toronto 2022 - Day Three Results",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6390b1a45c5e556623ab581b",
           "author": "Dustin Childs",
           "description": "Welcome back to Pwn2Own Toronto! Yesterday, we awarded $400,000 for 26 unique 0-days. We saw the Samsung Galaxy exploited twice and two successful demonstrations in the SOHO Smashup category. Today’s event’s look to be just as exciting. We’ll be updating this blog with results throughout the day.\nResults current as of 18:30. All times Eastern (GMT-5). All denominations are in USD. \nSUCCESS - for the first attempt of Day 2, ANHTUD Information Security Department was able to execute exploits against 2 bugs (one being a stack-based buffler overflow) on a HP Color LaserJet Pro M479fdw in the Printer category. They earn $10K and 2 Master of Pwn points. \nWe are not camera shy here at Pwn2Own!\nBUG COLLISION - PHPHooligans was able to execute 2 exploits against the WAN interface of the NETGEAR RAX…",
@@ -366,17 +408,6 @@
           "publishedOn": "2022-11-16T16:55:50.000Z",
           "wordCount": null,
           "title": "Control Your Types or Get Pwned: Remote Code Execution in Exchange PowerShell Backend",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6369b7f687c1821a09667d41",
-          "author": "Dustin Childs",
-          "description": "Welcome to the penultimate Patch Tuesday of 2021. As expected, Adobe and Microsoft have released their latest security updates and fixes to the world. Take a break from your regularly scheduled activities and join us as we review the details of their latest security offerings.\nAdobe Patches for November 2022\nFor November, Adobe released no patches at all. They’ve released as few as one in the past, but this is the first month in the last six years where they had no fixes at all. Perhaps the U.S. elections play a factor, as Patch Tuesday hasn’t fallen on Election Day since 2016. Whatever the cause, enjoy a month of no Adobe updates.\nMicrosoft Patches for November 2022\nThis month, Microsoft released 64 new patches addressing CVEs in Microsoft Windows and Windows Components; Azure and Azure R…",
-          "link": "https://www.thezdi.com/blog/2022/11/8/the-november-2022-security-update-review",
-          "publishedOn": "2022-11-08T18:28:55.000Z",
-          "wordCount": null,
-          "title": "The November 2022 Security Update Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -487,16 +518,6 @@
           "wordCount": 2338,
           "title": "Tool Release – Web3 Decoder Burp Suite Extension",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=17946",
-          "author": "Ollie Whitehouse",
-          "description": "Slides from a fifteen minute lightening talk on detection opportunities for implant framework behaviour on Windows.",
-          "link": "https://research.nccgroup.com/2022/11/09/tales-of-windows-detection-opportunities-for-an-implant-framework/",
-          "publishedOn": "2022-11-09T09:58:39.000Z",
-          "wordCount": 1472,
-          "title": "Tales of Windows detection opportunities for an implant framework",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -534,16 +555,6 @@
           "wordCount": 1606,
           "title": "People Are People: Gender Equality at Praetorian",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4276",
-          "author": "emmaline",
-          "description": "Overview Recently, I’ve shifted from primarily performing red team engagements to assisting in the development of Chariot, Praetorian’s attack surface management (ASM) and continuous automated red teaming (CART) product offering. Our Praetorian Labs team has developed multiple tools to support Chariot and our Services organization. One of these, a subsystem for the core asset enumeration […]\nThe post Inspector, or: How I Learned to Stop Worrying and Love Testing in Prod appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/inspector-prod-testing-tool/",
-          "publishedOn": "2022-11-08T16:43:20.000Z",
-          "wordCount": 2825,
-          "title": "Inspector, or: How I Learned to Stop Worrying and Love Testing in Prod",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2022/11/Screen-Shot-2022-11-03-at-2.25.12-PM-300x116.png"
         }
       ]
     },
@@ -606,6 +617,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=103405",
+          "author": "Trail of Bits",
+          "description": "By Tom Malcolm, University of Queensland, Australia Smart contract fuzzing is an effective bug-finding technique that is largely used at Trail Of Bits during audits. During my internship at Trail of Bits, I contributed to expand our fuzzing capabilities by working on Hybrid Echidna, a “hybrid fuzzer” that couples our smart contract fuzzer, Echidna, with […]",
+          "link": "https://blog.trailofbits.com/2022/12/08/hybrid-echidna-fuzzing-optik-maat/",
+          "publishedOn": "2022-12-08T13:00:36.000Z",
+          "wordCount": 3162,
+          "title": "Hybrid fuzzing: Sharpening the spikes of Echidna",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2022/12/Echidna_summary-1024x395.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=103253",
           "author": "Trail of Bits",
@@ -748,6 +769,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1569001",
+          "author": "Brandon Lee",
+          "description": "Smart App Control is a new security solution from Microsoft built into Windows 11 22H2. It aims to add a protective layer against ransomware by complementing Microsoft Defender's other security features like SmartScreen or Controlled Folder Access. However, it has some notable limitations that may be a dealbreaker for most organizations.\nSmart App Control: Protect Windows 11 against ransomware first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/smart-app-control-protect-windows-11-against-ransomware/",
+          "publishedOn": "2022-12-08T13:06:00.000Z",
+          "wordCount": 10146,
+          "title": "Smart App Control: Protect Windows 11 against ransomware",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/12/Smart-App-Control-requires-reinstalling-Windows-if-it-is-turned-off-featured-600x333.png"
+        },
         {
           "id": "https://4sysops.com/?p=1568987",
           "author": "Jasmin Kahriman",
@@ -957,16 +988,6 @@
           "wordCount": 10931,
           "title": "Use splatting and PSBoundParameters to pass parameters in PowerShell",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/11/Methods-and-properties-of-PSBoundParameters-600x392.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1568594",
-          "author": "Brandon Lee",
-          "description": "The Action1 cloud-native platform provides IT teams with powerful patch management features and is free for the first 100 endpoints.\nCloud-based patch management with Action1 first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/cloud-based-patch-management-with-action1/",
-          "publishedOn": "2022-11-09T05:28:11.000Z",
-          "wordCount": 10290,
-          "title": "Cloud-based patch management with Action1",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/11/Create-policies-based-on-the-scripts-from-your-Script-Library-600x318.png"
         }
       ]
     },
@@ -981,6 +1002,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8301",
+          "author": "adam",
+          "description": "Over last few years we moved away from a SOC that used to be almost solely focused on Network and Windows events and artifacts (probably a strong fintech bias here) […]",
+          "link": "https://www.hexacorn.com/blog/2022/12/08/the-future-of-soc/",
+          "publishedOn": "2022-12-08T23:32:52.000Z",
+          "wordCount": 6256,
+          "title": "The Future of SOC",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8299",
           "author": "adam",
@@ -1061,6 +1092,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/dont-miss-the-2022-sans-holiday-hack-challenge-now-open-for-free-play",
+          "author": null,
+          "description": "SANS’s annual festive gift to the cyber community is back with a new supervillain to thwart.",
+          "link": "https://www.sans.org/blog/dont-miss-the-2022-sans-holiday-hack-challenge-now-open-for-free-play?msc=rss",
+          "publishedOn": "2022-12-06T00:00:00.000Z",
+          "wordCount": 3164,
+          "title": "Don’t Miss the 2022 SANS Holiday Hack Challenge – Now Open for Free Play",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/top-sans-summits-talks-2022",
           "author": null,
@@ -1446,6 +1487,16 @@
       "siteUrl": "https://www.synack.com/blog/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=15831",
+          "author": "Kirsten Gibson",
+          "description": "Cloud technology has afforded organizations the ability to operate dynamically and build new technologies quickly while keeping costs low. However, as organizations move away from on-premises IT infrastructure, they may lose visibility into their new cloud-based assets.  Cloud environments, such as the big three cloud providers (Amazon, Google and Microsoft), vastly differ from provider to […]\nThe post Untangling Your Cloud Assets with Offensive Security Testing appeared first on Synack.",
+          "link": "https://www.synack.com/blog/untangling-cloud-assets-with-offensive-security-testing/",
+          "publishedOn": "2022-12-08T15:39:51.000Z",
+          "wordCount": 1631,
+          "title": "Untangling Your Cloud Assets with Offensive Security Testing",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2022/06/synack-pentesting-for-cloud-systems-blog.jpg"
+        },
+        {
           "id": "https://www.synack.com/?p=15806",
           "author": "Luke Luckett",
           "description": "In your cybersecurity practice, do you ever worry that you’ve left your back door open and an intruder might sneak inside? If you answered yes, you’re not alone. The experience can be a common one, especially for security leaders of large organizations with multiple layers of tech and cross-team collaboration to accomplish live, continuous security […]\nThe post Worry-free Pentesting: Continuous Oversight In Offensive Security Testing appeared first on Synack.",
@@ -1484,16 +1535,6 @@
           "wordCount": 1876,
           "title": "Minimize Noise With Human-Led API Pentesting",
           "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/11/synack-api-feature-blog.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=15732",
-          "author": "Synack",
-          "description": "Reporting is a critical but often-overlooked component of cybersecurity testing The overall goals of nearly any technology can be summed up by the title of a song by the popular French music duo Daft Punk: “Harder, Better, Faster, Stronger.” New technologies are commonly judged against two or more of these characteristics. Applying this to cybersecurity […]\nThe post Reporting Can Be the Hero or Villain of Your Cybersecurity Pentesting appeared first on Synack.",
-          "link": "https://www.synack.com/blog/reporting-can-be-the-hero-or-villain-of-your-cybersecurity-pentesting/",
-          "publishedOn": "2022-11-08T16:39:51.000Z",
-          "wordCount": 1769,
-          "title": "Reporting Can Be the Hero or Villain of Your Cybersecurity Pentesting",
-          "imageUrl": "https://cdnm.synack.com/wp-content/uploads/2022/11/synack-reporting-blog.jpg"
         }
       ]
     }

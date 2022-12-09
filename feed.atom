@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-08T00:37:36.071Z</updated>
+    <updated>2022-12-09T00:39:13.823Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Future of SOC]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8301</id>
+        <link href="https://www.hexacorn.com/blog/2022/12/08/the-future-of-soc/"/>
+        <updated>2022-12-08T23:32:52.000Z</updated>
+        <summary type="html"><![CDATA[Over last few years we moved away from a SOC that used to be almost solely focused on Network and Windows events and artifacts (probably a strong fintech bias here) […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting CVE-2022-42703 - Bringing back the stack attack]]></title>
+        <id>https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html"/>
+        <updated>2022-12-08T19:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Seth Jenkins, Project Zero
+
+This blog post details an exploit for CVE-2022-42703 (P0 issue 2351 - Fixed 5 September 2022), a bug Jann Horn found in the Linux kernel's memory management (MM) subsystem that leads to a use-after-free on struct anon_vma. As the bug is very complex (I certainly struggle to understand it!), a future blog post will describe the bug in full. For the time being, the issue tracker entry, this LWN article explaining what an anon_vma is and the commit that introduced the bug are great resources in order to gain additional context.
+Setting the scene
+Successfully triggering the underlying vulnerability causes folio->mapping to point to a freed anon_vma object. Calling madvise(..., MADV_PAGEOUT)can then be used to repeatedly trigger accesses to the freed anon_vma in foli…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Toronto 2022 - Day Three Results]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6391e8d6ce7f8758e904fedd</id>
+        <link href="https://www.thezdi.com/blog/2022/12/8/pwn2own-toronto-2022-day-three-results"/>
+        <updated>2022-12-08T16:05:27.000Z</updated>
+        <summary type="html"><![CDATA[Welcome back to Pwn2Own Toronto! Yesterday, we awarded another $281,500 for 17 unique bugs across multiple categories. That brings our two-day total to $681,250 awarded for 46 unique 0-days. Today’s highlights include more attempts at the Samsung Galaxy, entries in the SOHO Smashup category, and more smart speaker. We’ll be updating this blog with results throughout the day.
+Results current as of 18:30. All times Eastern (GMT-5). All denominations are in USD. 
+SUCCESS - On the first success of Day 3, Team Viettel was able to execute their OS Command Injection attack against the WD My Cloud Pro Series PR4100 in the NAS category. They earn $20K and 4 Master of Pwn points. 
+BUG COLLISION - STAR Labs was able to execute their SOHO SMASHUP attack on the 3rd and final try against the Synology ro…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Gather Azure App Configurations]]></title>
+        <id>https://www.netspi.com/?p=28955</id>
+        <link href="https://www.netspi.com/blog/technical/cloud-penetration-testing/gathering-azure-app-configurations/"/>
+        <updated>2022-12-08T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to gather access keys for App Configuration resources and how to use those keys to access the configuration key-value pairs.
+The post How to Gather Azure App Configurations appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Karl Fosaaen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untangling Your Cloud Assets with Offensive Security Testing]]></title>
+        <id>https://www.synack.com/?p=15831</id>
+        <link href="https://www.synack.com/blog/untangling-cloud-assets-with-offensive-security-testing/"/>
+        <updated>2022-12-08T15:39:51.000Z</updated>
+        <summary type="html"><![CDATA[Cloud technology has afforded organizations the ability to operate dynamically and build new technologies quickly while keeping costs low. However, as organizations move away from on-premises IT infrastructure, they may lose visibility into their new cloud-based assets.  Cloud environments, such as the big three cloud providers (Amazon, Google and Microsoft), vastly differ from provider to […]
+The post Untangling Your Cloud Assets with Offensive Security Testing appeared first on Synack.]]></summary>
+        <author>
+            <name>Kirsten Gibson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smart App Control: Protect Windows 11 against ransomware]]></title>
+        <id>https://4sysops.com/?p=1569001</id>
+        <link href="https://4sysops.com/archives/smart-app-control-protect-windows-11-against-ransomware/"/>
+        <updated>2022-12-08T13:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Smart App Control is a new security solution from Microsoft built into Windows 11 22H2. It aims to add a protective layer against ransomware by complementing Microsoft Defender's other security features like SmartScreen or Controlled Folder Access. However, it has some notable limitations that may be a dealbreaker for most organizations.
+Smart App Control: Protect Windows 11 against ransomware first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hybrid fuzzing: Sharpening the spikes of Echidna]]></title>
+        <id>https://blog.trailofbits.com/?p=103405</id>
+        <link href="https://blog.trailofbits.com/2022/12/08/hybrid-echidna-fuzzing-optik-maat/"/>
+        <updated>2022-12-08T13:00:36.000Z</updated>
+        <summary type="html"><![CDATA[By Tom Malcolm, University of Queensland, Australia Smart contract fuzzing is an effective bug-finding technique that is largely used at Trail Of Bits during audits. During my internship at Trail of Bits, I contributed to expand our fuzzing capabilities by working on Hybrid Echidna, a “hybrid fuzzer” that couples our smart contract fuzzer, Echidna, with […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Burp Suite API: we want your feedback!]]></title>
+        <id>new-burp-suite-api-we-want-your-feedback</id>
+        <link href="https://portswigger.net/blog/new-burp-suite-api-we-want-your-feedback"/>
+        <updated>2022-12-08T10:45:04.000Z</updated>
+        <summary type="html"><![CDATA[If you follow the Burp Suite roadmap, then you'll know that we're working on a complete rewrite of the API used in Burp Suite Professional and Burp Suite Community Edition. The new API is codenamed "M]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pwn2Own Toronto 2022 - Day Two Results]]></title>
         <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6390b1a45c5e556623ab581b</id>
@@ -100,6 +190,16 @@ Qrious Secure ta…]]></summary>
         <summary type="html"><![CDATA[During the summer of 2022, Google engaged NCC Group to conduct a security assessment of the Confidential Space product. The system provides a confidential computing environment that allows cloud customers to run workloads in the cloud that can be attested to run a specific payload with high assurances that the workload was not and cannot … Continue reading Public Report – Confidential Space Security Review →]]></summary>
         <author>
             <name>Viktor Gazdag</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don’t Miss the 2022 SANS Holiday Hack Challenge – Now Open for Free Play]]></title>
+        <id>https://www.sans.org/blog/dont-miss-the-2022-sans-holiday-hack-challenge-now-open-for-free-play</id>
+        <link href="https://www.sans.org/blog/dont-miss-the-2022-sans-holiday-hack-challenge-now-open-for-free-play?msc=rss"/>
+        <updated>2022-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS’s annual festive gift to the cyber community is back with a new supervillain to thwart.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -964,63 +1064,6 @@ Use splatting and PSBoundParameters to pass parameters in PowerShell first appea
         <summary type="html"><![CDATA[In this blog we will explain how to use the functionality of Power BI to visualize your MISP data in a interactive and useful way.]]></summary>
         <author>
             <name>Robert Nixon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tales of Windows detection opportunities for an implant framework]]></title>
-        <id>https://research.nccgroup.com/?p=17946</id>
-        <link href="https://research.nccgroup.com/2022/11/09/tales-of-windows-detection-opportunities-for-an-implant-framework/"/>
-        <updated>2022-11-09T09:58:39.000Z</updated>
-        <summary type="html"><![CDATA[Slides from a fifteen minute lightening talk on detection opportunities for implant framework behaviour on Windows.]]></summary>
-        <author>
-            <name>Ollie Whitehouse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud-based patch management with Action1]]></title>
-        <id>https://4sysops.com/?p=1568594</id>
-        <link href="https://4sysops.com/archives/cloud-based-patch-management-with-action1/"/>
-        <updated>2022-11-09T05:28:11.000Z</updated>
-        <summary type="html"><![CDATA[The Action1 cloud-native platform provides IT teams with powerful patch management features and is free for the first 100 endpoints.
-Cloud-based patch management with Action1 first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The November 2022 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6369b7f687c1821a09667d41</id>
-        <link href="https://www.thezdi.com/blog/2022/11/8/the-november-2022-security-update-review"/>
-        <updated>2022-11-08T18:28:55.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the penultimate Patch Tuesday of 2021. As expected, Adobe and Microsoft have released their latest security updates and fixes to the world. Take a break from your regularly scheduled activities and join us as we review the details of their latest security offerings.
-Adobe Patches for November 2022
-For November, Adobe released no patches at all. They’ve released as few as one in the past, but this is the first month in the last six years where they had no fixes at all. Perhaps the U.S. elections play a factor, as Patch Tuesday hasn’t fallen on Election Day since 2016. Whatever the cause, enjoy a month of no Adobe updates.
-Microsoft Patches for November 2022
-This month, Microsoft released 64 new patches addressing CVEs in Microsoft Windows and Windows Components; Azure and Azure R…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inspector, or: How I Learned to Stop Worrying and Love Testing in Prod]]></title>
-        <id>https://www.praetorian.com/?p=4276</id>
-        <link href="https://www.praetorian.com/blog/inspector-prod-testing-tool/"/>
-        <updated>2022-11-08T16:43:20.000Z</updated>
-        <summary type="html"><![CDATA[Overview Recently, I’ve shifted from primarily performing red team engagements to assisting in the development of Chariot, Praetorian’s attack surface management (ASM) and continuous automated red teaming (CART) product offering. Our Praetorian Labs team has developed multiple tools to support Chariot and our Services organization. One of these, a subsystem for the core asset enumeration […]
-The post Inspector, or: How I Learned to Stop Worrying and Love Testing in Prod appeared first on Praetorian.]]></summary>
-        <author>
-            <name>emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reporting Can Be the Hero or Villain of Your Cybersecurity Pentesting]]></title>
-        <id>https://www.synack.com/?p=15732</id>
-        <link href="https://www.synack.com/blog/reporting-can-be-the-hero-or-villain-of-your-cybersecurity-pentesting/"/>
-        <updated>2022-11-08T16:39:51.000Z</updated>
-        <summary type="html"><![CDATA[Reporting is a critical but often-overlooked component of cybersecurity testing The overall goals of nearly any technology can be summed up by the title of a song by the popular French music duo Daft Punk: “Harder, Better, Faster, Stronger.” New technologies are commonly judged against two or more of these characteristics. Applying this to cybersecurity […]
-The post Reporting Can Be the Hero or Villain of Your Cybersecurity Pentesting appeared first on Synack.]]></summary>
-        <author>
-            <name>Synack</name>
         </author>
     </entry>
     <entry>

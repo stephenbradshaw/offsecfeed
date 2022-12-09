@@ -59,6 +59,298 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-08 datetime="2022-12-08T23:32:52.000Z">2022-12-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-08 datetime="2022-12-08T23:32:52.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hexacorn</button>
+                  <a class="source-heading__link" href="https://www.hexacorn.com/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hexacorn.com/blog/?p&#x3D;8301"
+                        open
+                      >
+                        <summary class="article-expander__title">The Future of SOC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hexacorn.com/blog/2022/12/08/the-future-of-soc/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Over last few years we moved away from a SOC that used to be almost solely focused on Network and Windows events and artifacts (probably a strong fintech bias here) […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Project Zero</button>
+                  <a class="source-heading__link" href="https://googleprojectzero.blogspot.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Exploiting CVE-2022-42703 - Bringing back the stack attack</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8tz1hKWNhX-Wy3WfWRQpXpx20G62eGw7d8a_Kw7qQFfGyAgn6jsE9yxyFRR7hgrTW04cZDfp-V1BUnNqbFTXm9rFEktXTvf70fyPgAOk1pMgWZPzLBcRDND3bFObstL6cmPhp0J6nReczPiODwfsjecw_VsmRTp8cgodf-SEb1aQNkfQMQiPnHtt2/w1200-h630-p-k-no-nu/image3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Seth Jenkins, Project Zero
+
+This blog post details an exploit for CVE-2022-42703 (P0 issue 2351 - Fixed 5 September 2022), a bug Jann Horn found in the Linux kernel&#x27;s memory management (MM) subsystem that leads to a use-after-free on struct anon_vma. As the bug is very complex (I certainly struggle to understand it!), a future blog post will describe the bug in full. For the time being, the issue tracker entry, this LWN article explaining what an anon_vma is and the commit that introduced the bug are great resources in order to gain additional context.
+Setting the scene
+Successfully triggering the underlying vulnerability causes folio-&gt;mapping to point to a freed anon_vma object. Calling madvise(..., MADV_PAGEOUT)can then be used to repeatedly trigger accesses to the freed anon_vma in foli…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Zero Day Initiative - Blog</button>
+                  <a class="source-heading__link" href="https://www.thezdi.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6391e8d6ce7f8758e904fedd"
+                        open
+                      >
+                        <summary class="article-expander__title">Pwn2Own Toronto 2022 - Day Three Results</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.thezdi.com/blog/2022/12/8/pwn2own-toronto-2022-day-three-results">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Welcome back to Pwn2Own Toronto! Yesterday, we awarded another $281,500 for 17 unique bugs across multiple categories. That brings our two-day total to $681,250 awarded for 46 unique 0-days. Today’s highlights include more attempts at the Samsung Galaxy, entries in the SOHO Smashup category, and more smart speaker. We’ll be updating this blog with results throughout the day.
+Results current as of 18:30. All times Eastern (GMT-5). All denominations are in USD. 
+SUCCESS - On the first success of Day 3, Team Viettel was able to execute their OS Command Injection attack against the WD My Cloud Pro Series PR4100 in the NAS category. They earn $20K and 4 Master of Pwn points. 
+BUG COLLISION - STAR Labs was able to execute their SOHO SMASHUP attack on the 3rd and final try against the Synology ro…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Technical Blog - NetSPI</button>
+                  <a class="source-heading__link" href="https://www.netspi.com/blog/technical/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.netspi.com/?p&#x3D;28955"
+                        open
+                      >
+                        <summary class="article-expander__title">How to Gather Azure App Configurations</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.netspi.com/blog/technical/cloud-penetration-testing/gathering-azure-app-configurations/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.netspi.com/wp-content/uploads/120822_Azure-App-Configurations-Blog_Social.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Learn how to gather access keys for App Configuration resources and how to use those keys to access the configuration key-value pairs.
+The post How to Gather Azure App Configurations appeared first on NetSPI.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Synack Blog | Synack</button>
+                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.synack.com/?p&#x3D;15831"
+                        open
+                      >
+                        <summary class="article-expander__title">Untangling Your Cloud Assets with Offensive Security Testing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.synack.com/blog/untangling-cloud-assets-with-offensive-security-testing/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.synack.com/wp-content/uploads/2022/06/synack-pentesting-for-cloud-systems-blog.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cloud technology has afforded organizations the ability to operate dynamically and build new technologies quickly while keeping costs low. However, as organizations move away from on-premises IT infrastructure, they may lose visibility into their new cloud-based assets.  Cloud environments, such as the big three cloud providers (Amazon, Google and Microsoft), vastly differ from provider to […]
+The post Untangling Your Cloud Assets with Offensive Security Testing appeared first on Synack.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1569001"
+                        open
+                      >
+                        <summary class="article-expander__title">Smart App Control: Protect Windows 11 against ransomware</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/smart-app-control-protect-windows-11-against-ransomware/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://4sysops.com/wp-content/uploads/2022/12/Smart-App-Control-requires-reinstalling-Windows-if-it-is-turned-off-featured-600x333.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Smart App Control is a new security solution from Microsoft built into Windows 11 22H2. It aims to add a protective layer against ransomware by complementing Microsoft Defender&#x27;s other security features like SmartScreen or Controlled Folder Access. However, it has some notable limitations that may be a dealbreaker for most organizations.
+Smart App Control: Protect Windows 11 against ransomware first appeared on 4sysops.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Trail of Bits Blog</button>
+                  <a class="source-heading__link" href="https://blog.trailofbits.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.trailofbits.com/?p&#x3D;103405"
+                        open
+                      >
+                        <summary class="article-expander__title">Hybrid fuzzing: Sharpening the spikes of Echidna</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2022/12/08/hybrid-echidna-fuzzing-optik-maat/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.trailofbits.com/wp-content/uploads/2022/12/Echidna_summary-1024x395.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>By Tom Malcolm, University of Queensland, Australia Smart contract fuzzing is an effective bug-finding technique that is largely used at Trail Of Bits during audits. During my internship at Trail of Bits, I contributed to expand our fuzzing capabilities by working on Hybrid Echidna, a “hybrid fuzzer” that couples our smart contract fuzzer, Echidna, with […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >PortSwigger Blog</button>
+                  <a class="source-heading__link" href="https://portswigger.net/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="new-burp-suite-api-we-want-your-feedback"
+                        open
+                      >
+                        <summary class="article-expander__title">New Burp Suite API: we want your feedback!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://portswigger.net/blog/new-burp-suite-api-we-want-your-feedback">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://portswigger.net/cms/images/dd/06/596d-twittercard-montoya_api_twitter.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>If you follow the Burp Suite roadmap, then you&#x27;ll know that we&#x27;re working on a complete rewrite of the API used in Burp Suite Professional and Burp Suite Community Edition. The new API is codenamed &quot;M</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-07 datetime="2022-12-07T15:49:34.000Z">2022-12-07</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-07 datetime="2022-12-07T15:49:34.000Z"></time>
           </button>
@@ -334,6 +626,39 @@ The post Worry-free Pentesting: Continuous Oversight In Offensive Security Testi
                             <span class="media-object__text">
                               <span>During the summer of 2022, Google engaged NCC Group to conduct a security assessment of the Confidential Space product. The system provides a confidential computing environment that allows cloud customers to run workloads in the cloud that can be attested to run a specific payload with high assurances that the workload was not and cannot … Continue reading Public Report – Confidential Space Security Review →</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SANS Blog</button>
+                  <a class="source-heading__link" href="https://www.sans.org/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.sans.org/blog/dont-miss-the-2022-sans-holiday-hack-challenge-now-open-for-free-play"
+                        open
+                      >
+                        <summary class="article-expander__title">Don’t Miss the 2022 SANS Holiday Hack Challenge – Now Open for Free Play</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.sans.org/blog/dont-miss-the-2022-sans-holiday-hack-challenge-now-open-for-free-play?msc&#x3D;rss">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>SANS’s annual festive gift to the cyber community is back with a new supervillain to thwart.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3411,194 +3736,6 @@ Use splatting and PSBoundParameters to pass parameters in PowerShell first appea
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NCC Group Research</button>
-                  <a class="source-heading__link" href="https://research.nccgroup.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.nccgroup.com/?p&#x3D;17946"
-                        open
-                      >
-                        <summary class="article-expander__title">Tales of Windows detection opportunities for an implant framework</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.nccgroup.com/2022/11/09/tales-of-windows-detection-opportunities-for-an-implant-framework/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit&#x3D;512%2C512&amp;ssl&#x3D;1" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Slides from a fifteen minute lightening talk on detection opportunities for implant framework behaviour on Windows.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1568594"
-                        open
-                      >
-                        <summary class="article-expander__title">Cloud-based patch management with Action1</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/cloud-based-patch-management-with-action1/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2022/11/Create-policies-based-on-the-scripts-from-your-Script-Library-600x318.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Action1 cloud-native platform provides IT teams with powerful patch management features and is free for the first 100 endpoints.
-Cloud-based patch management with Action1 first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-08 datetime="2022-11-08T18:28:55.000Z">2022-11-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-08 datetime="2022-11-08T18:28:55.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Zero Day Initiative - Blog</button>
-                  <a class="source-heading__link" href="https://www.thezdi.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6369b7f687c1821a09667d41"
-                        open
-                      >
-                        <summary class="article-expander__title">The November 2022 Security Update Review</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.thezdi.com/blog/2022/11/8/the-november-2022-security-update-review">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Welcome to the penultimate Patch Tuesday of 2021. As expected, Adobe and Microsoft have released their latest security updates and fixes to the world. Take a break from your regularly scheduled activities and join us as we review the details of their latest security offerings.
-Adobe Patches for November 2022
-For November, Adobe released no patches at all. They’ve released as few as one in the past, but this is the first month in the last six years where they had no fixes at all. Perhaps the U.S. elections play a factor, as Patch Tuesday hasn’t fallen on Election Day since 2016. Whatever the cause, enjoy a month of no Adobe updates.
-Microsoft Patches for November 2022
-This month, Microsoft released 64 new patches addressing CVEs in Microsoft Windows and Windows Components; Azure and Azure R…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Blog - Praetorian</button>
-                  <a class="source-heading__link" href="https://www.praetorian.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.praetorian.com/?p&#x3D;4276"
-                        open
-                      >
-                        <summary class="article-expander__title">Inspector, or: How I Learned to Stop Worrying and Love Testing in Prod</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.praetorian.com/blog/inspector-prod-testing-tool/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.praetorian.com/wp-content/uploads/2022/11/Screen-Shot-2022-11-03-at-2.25.12-PM-300x116.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Overview Recently, I’ve shifted from primarily performing red team engagements to assisting in the development of Chariot, Praetorian’s attack surface management (ASM) and continuous automated red teaming (CART) product offering. Our Praetorian Labs team has developed multiple tools to support Chariot and our Services organization. One of these, a subsystem for the core asset enumeration […]
-The post Inspector, or: How I Learned to Stop Worrying and Love Testing in Prod appeared first on Praetorian.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Synack Blog | Synack</button>
-                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.synack.com/?p&#x3D;15732"
-                        open
-                      >
-                        <summary class="article-expander__title">Reporting Can Be the Hero or Villain of Your Cybersecurity Pentesting</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.synack.com/blog/reporting-can-be-the-hero-or-villain-of-your-cybersecurity-pentesting/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdnm.synack.com/wp-content/uploads/2022/11/synack-reporting-blog.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Reporting is a critical but often-overlooked component of cybersecurity testing The overall goals of nearly any technology can be summed up by the title of a song by the popular French music duo Daft Punk: “Harder, Better, Faster, Stronger.” New technologies are commonly judged against two or more of these characteristics. Applying this to cybersecurity […]
-The post Reporting Can Be the Hero or Villain of Your Cybersecurity Pentesting appeared first on Synack.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -3932,8 +4069,8 @@ rot.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3644108048">
-        <time id="build-timestamp" datetime="2022-12-08T00:37:36.043Z">2022-12-08T00:37:36.043Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3653358203">
+        <time id="build-timestamp" datetime="2022-12-09T00:39:13.796Z">2022-12-09T00:39:13.796Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
