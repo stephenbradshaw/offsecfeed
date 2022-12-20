@@ -173,6 +173,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=9737",
+          "author": "Didier Stevens",
+          "description": "This new version brings extra statistics with option -f (fullread): counter for unique bytes, control bytes, printable bytes, high bytes. And lengths of the longest ASCII string, ASCII hexadecimal string and ASCII base64 string. Remark that no check is made for hex string length being a multiple of 2 and base64 string length being a […]",
+          "link": "https://blog.didierstevens.com/2022/12/20/update-filescanner-version-0-0-0-8/",
+          "publishedOn": "2022-12-20T00:00:00.000Z",
+          "wordCount": 2644,
+          "title": "Update: filescanner Version 0.0.0.8",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=9757",
           "author": "Didier Stevens",
           "description": "This new tool, teeplus.py, is an extension of the tee command. The tools takes (binary) data from stdin, and sends it to stdout, while also writing the data to a file on disk. While the tee command requires a filename as argument, teeplus.py takes no arguments (only options). By default, teeplus.py will write the data […]",
@@ -492,6 +502,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=18444",
+          "author": "McCaulay Hudson",
+          "description": "Summary Target Binary tdpServer Architecture & Mitigations Forks Understanding The Vulnerability Reaching The Vulnerable Function Broadcast Fork Flow Server Fork Flow JSON Array Stack Overflow Triggering The Bug Broadcast Fork Response Server Fork Request Vulnerability Constraints Storing Arbitrary Content In Memory cJSON Summarized cJSON Struct cJSON Data cJSON Heap Memory Single cJSON cJSON structure and … Continue reading MeshyJSON: A TP-Link tdpServer JSON Stack Overflow →",
+          "link": "https://research.nccgroup.com/2022/12/19/meshyjson-a-tp-link-tdpserver-json-stack-overflow/",
+          "publishedOn": "2022-12-19T11:50:39.000Z",
+          "wordCount": 8679,
+          "title": "MeshyJSON: A TP-Link tdpServer JSON Stack Overflow",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=18053",
           "author": "Eric Schorn",
           "description": "Professor Ron Rivest observed the close relationship between cryptography and machine learning at the ASIACRYPT conference back in 1991. Cross-fertilization of common notions, such as integrity, privacy, confidentiality and authenticity, have only grown in the following three decades as these fields have become more central to our everyday lives. This blog post is the first in … Continue reading Machine Learning 101: The Integrity of Image (Mis)Classification? →",
@@ -721,7 +741,18 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2018",
+          "author": "Exodus Intel VRT",
+          "description": "By Sergi Martinez Overview It’s been a while since our last technical blogpost, so here’s one right on time for the Christmas holidays. We describe a method to exploit a use-after-free in the Linux kernel when objects are allocated in a specific slab cache, namely the kmalloc-cg series of SLUB caches used for cgroups. This ... Read more Linux Kernel: Exploiting a Netfilter Use-after-Free in kmalloc-cg\nThe post Linux Kernel: Exploiting a Netfilter Use-after-Free in kmalloc-cg appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2022/12/19/linux-kernel-exploiting-a-netfilter-use-after-free-in-kmalloc-cg/?utm_source=rss&utm_medium=rss&utm_campaign=linux-kernel-exploiting-a-netfilter-use-after-free-in-kmalloc-cg",
+          "publishedOn": "2022-12-19T15:14:55.000Z",
+          "wordCount": 7880,
+          "title": "Linux Kernel: Exploiting a Netfilter Use-after-Free in kmalloc-cg",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2022/12/double_linked_list.png"
+        }
+      ]
     },
     {
       "title": "markitzeroday.com",
@@ -800,6 +831,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1569149",
+          "author": "Wolfgang Sommergut",
+          "description": "While DES has long been considered insecure, CVE-2022-37966 accelerates the departure of RC4 for the encryption of Kerberos tickets. If you have not explicitly assigned an algorithm to accounts, then AES will be used in the future. You can use PowerShell to determine which accounts are vulnerable to weak encryption.\nFind Active Directory accounts configured for DES and RC4 Kerberos encryption first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/find-active-directory-accounts-configured-for-des-and-rc4-kerberos-encryption/",
+          "publishedOn": "2022-12-19T17:09:10.000Z",
+          "wordCount": 10373,
+          "title": "Find Active Directory accounts configured for DES and RC4 Kerberos encryption",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/12/Document-status-of-msDS-SupportedEncryptionTypes-for-all-accounts-600x270.png"
+        },
         {
           "id": "https://4sysops.com/?p=1569137",
           "author": "Jasmin Kahriman",
@@ -1061,26 +1102,6 @@
           "publishedOn": "2022-12-02T23:15:00.000Z",
           "wordCount": 5444,
           "title": "Environment… is variable",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8283",
-          "author": "adam",
-          "description": "A few days ago Brian Krebs published a piece about Zeppelin key cracking, so … since I was also involved in recovering files for some of the ransomware gang victims […]",
-          "link": "https://www.hexacorn.com/blog/2022/11/19/cracking-zeppelin/",
-          "publishedOn": "2022-11-19T23:29:55.000Z",
-          "wordCount": 5491,
-          "title": "Cracking Zeppelin",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8278",
-          "author": "adam",
-          "description": "This one is a curious one. I actually don’t know how to trigger it! Yet, I will document some bits and bobs, so that you may take these entry points […]",
-          "link": "https://www.hexacorn.com/blog/2022/11/19/beyond-good-ol-run-key-part-139/",
-          "publishedOn": "2022-11-19T22:53:09.000Z",
-          "wordCount": 5303,
-          "title": "Beyond good ol’ Run key, Part 139",
           "imageUrl": null
         }
       ]
@@ -1495,6 +1516,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=13274",
+          "author": "Maria Rita Milanese",
+          "description": "All Project Managers might agree with this: working as a Project Manager is exciting as no two days are ever the same. Just like a conductor of an orchestra leads all musicians to bring harmonic masterpieces to life, so does the cybersecurity Project Manager leading and coordinating the different stakeholders to bring a project to … Continue reading The Beauty of Being a Cybersecurity Project Manager for NVISO NITRO MDR →",
+          "link": "https://blog.nviso.eu/2022/12/19/the-beauty-of-being-a-cybersecurity-project-manager-for-nviso-nitro-mdr/",
+          "publishedOn": "2022-12-19T08:00:00.000Z",
+          "wordCount": 1729,
+          "title": "The Beauty of Being a Cybersecurity Project Manager for NVISO NITRO MDR",
+          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/12/iStock-1407330493.jpg?fit=1200%2C727&ssl=1"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=13259",
           "author": "Maria Rita Milanese",
           "description": "The Service Delivery Manager (SDM) plays a key role in the delivery of our NVISO cybersecurity NITRO Managed Detect & Respond (MDR) services. As the main point of contact, we represent the client at NVISO and represent NVISO at the client. During the operational lifecycle of a contract, my fellow SDMs and I are responsible … Continue reading The Key Role of the Service Delivery Manager at NVISO’s Managed Detect & Respond Service →",
@@ -1584,9 +1615,9 @@
       ]
     },
     {
-      "title": "Synack Blog | Synack",
+      "title": "Synack Blog – Synack",
       "feedUrl": "https://www.synack.com/blog/feed/",
-      "siteUrl": "https://www.synack.com/blog/",
+      "siteUrl": "https://www.synack.com",
       "articles": [
         {
           "id": "https://www.synack.com/?p=15854",
