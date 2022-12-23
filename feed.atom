@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-22T00:37:54.195Z</updated>
+    <updated>2022-12-23T00:36:35.917Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: file-magic.py Version 0.0.5]]></title>
+        <id>http://blog.didierstevens.com/?p=9751</id>
+        <link href="https://blog.didierstevens.com/2022/12/23/update-file-magic-py-version-0-0-5/"/>
+        <updated>2022-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This update of file-magic.py brings option –jsonoutput to augment json input data with a magic field. To be explained in an upcoming blog post after myjson-filter.py update is released. file-magic_V0_0_5.zip (http)MD5: 5B4CB4EE75E1CAC7705E33CCE4809E10SHA256: 876F9AC31E1EC395EB93922AA2A7EFA027534F7343500648FE0A036021C7F1B9]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to share what you’ve learned from our audits]]></title>
+        <id>https://blog.trailofbits.com/?p=103585</id>
+        <link href="https://blog.trailofbits.com/2022/12/22/curl-security-audit-threat-model/"/>
+        <updated>2022-12-22T20:10:39.000Z</updated>
+        <summary type="html"><![CDATA[By Nick Selby Trail of Bits recently completed a security review of cURL, which is an amazing and ubiquitous tool for transferring data. We were really thrilled to see cURL founder and lead developer Daniel Stenberg write a blog post about the engagement and the report, and wanted to highlight some important things he pointed […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom-Branded Ransomware: The Vice Society Group and the Threat of Outsourced Development]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=74629</id>
+        <link href="https://www.sentinelone.com/labs/custom-branded-ransomware-the-vice-society-group-and-the-threat-of-outsourced-development/"/>
+        <updated>2022-12-22T13:57:03.000Z</updated>
+        <summary type="html"><![CDATA[New PolyVice ransomware is likely in use by multiple threat actors building re-branded payloads with the same custom encryption scheme.]]></summary>
+        <author>
+            <name>Antonio Cocomazzi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Controlled folder access: Configure ransomware protection with Group Policy and PowerShell]]></title>
+        <id>https://4sysops.com/?p=1569225</id>
+        <link href="https://4sysops.com/archives/controlled-folder-access-configure-ransomware-protection-with-group-policy-and-powershell/"/>
+        <updated>2022-12-22T13:21:28.000Z</updated>
+        <summary type="html"><![CDATA[Controlled folder access prevents suspicious programs from modifying or creating files in protected directories, such as Documents, Pictures, Favorites, or Desktop. The feature can be configured centrally via group policies, for example, to allow access to additional apps.
+Controlled folder access: Configure ransomware protection with Group Policy and PowerShell first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast and accurate syntax searching for C and C++]]></title>
+        <id>https://blog.trailofbits.com/?p=103559</id>
+        <link href="https://blog.trailofbits.com/2022/12/22/syntax-searching-c-c-clang-ast/"/>
+        <updated>2022-12-22T13:00:52.000Z</updated>
+        <summary type="html"><![CDATA[By Mate Kukri The naive approach to searching for patterns in source code is to use regular expressions; a better way is to parse the code with a custom parser, but both of these approaches have limitations. During my internship, I prototyped an internal tool called Syntex that does searching on Clang ASTs to avoid […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puckungfu: A NETGEAR WAN Command Injection]]></title>
+        <id>https://research.nccgroup.com/?p=18482</id>
+        <link href="https://research.nccgroup.com/2022/12/22/puckungfu-a-netgear-wan-command-injection/"/>
+        <updated>2022-12-22T11:18:10.000Z</updated>
+        <summary type="html"><![CDATA[Summary Vulnerability Details Overview Execution Flow /bin/pucfu /usr/lib/libfwcheck.so get_check_fw fw_check_api curl_post /lib/libpu_util.so SetFileValue pegaPopen Check Firmware HTTPS Normal Request & Response Exploitation Command Injection Response Root Shell Final Notes Patch Pwn2Own Note Summary This blog post describes a command injection vulnerability found and exploited in November 2022 by NCC Group in the Netgear RAX30 router’s … Continue reading Puckungfu: A NETGEAR WAN Command Injection →]]></summary>
+        <author>
+            <name>McCaulay Hudson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: nsrl.py Version 0.0.4]]></title>
         <id>http://blog.didierstevens.com/?p=9748</id>
@@ -1228,48 +1289,6 @@ ManageEngine recently patched a SQL injection vulnerability bug in their Passwor
         <summary type="html"><![CDATA[[…]]]></summary>
         <author>
             <name>Yarden Shafir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SNMP vs WMI for Windows monitoring]]></title>
-        <id>https://4sysops.com/?p=1568782</id>
-        <link href="https://4sysops.com/archives/snmp-vs-wmi-for-windows-monitoring/"/>
-        <updated>2022-11-23T10:17:35.000Z</updated>
-        <summary type="html"><![CDATA[The two most common protocols for monitoring Microsoft products are Simple Network Management Protocol (SNMP) and Windows Management Instrumentation (WMI). They are both natively supported in Windows and Windows Server, and neither one requires you to install third-party add-ons to start monitoring. This article explains the difference between the two protocols and helps you choose the one that works better for your scenario.
-SNMP vs WMI for Windows monitoring first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: what-is-new.py Version 0.0.2]]></title>
-        <id>http://blog.didierstevens.com/?p=9694</id>
-        <link href="https://blog.didierstevens.com/2022/11/23/update-what-is-new-py-version-0-0-2/"/>
-        <updated>2022-11-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update of what-is-new-.py, my tool that reports what lines inside files are new (e.g., never seen before) has a new option: -a –action. It allows me to launch a command when something new is detected. I use this for example to be alerted via TelegraM; More details in an upcoming blog post. what-is-new_V0_0_2.zip (http)MD5: […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mind the Gap]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/11/mind-the-gap.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/11/mind-the-gap.html"/>
-        <updated>2022-11-22T21:05:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url('https://themes.googleusercontent.com/fonts/css?kit=OPeqXG-QxW3ZD8BtmPikfA');.lst-kix_9apzkelodq30-0>li:before{content:"\0025cf  "}ul.lst-kix_9apzkelodq30-6{list-style-type:none}ul.lst-kix_9apzkelodq30-7{list-style-type:none}ul.lst-kix_9apzkelodq30-4{list-style-type:none}ul.lst-kix_9apzkelodq30-5{list-style-type:none}ul.lst-kix_9apzkelodq30-2{list-style-type:none}ul.lst-kix_9apzkelodq30-3{list-style-type:none}ul.lst-kix_9apzkelodq30-0{list-style-type:none}.lst-kix_9apzkelodq30-6>li:before{content:"\0025cf  "}ul.lst-kix_9apzkelodq30-1{list-style-type:none}.lst-kix_9apzkelodq30-5>li:before{content:"\0025a0  "}.lst-kix_9apzkelodq30-3>li:before{content:"\0025cf  "}.lst-kix_9apzkelodq30-7>li:before{content:"\0025cb  "}.lst-kix_9apzkelodq30-4>li:before{content:"\0025cb  "}.lst-kix_9a…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure AD MFA with number matching and temporary access passes]]></title>
-        <id>https://4sysops.com/?p=1568773</id>
-        <link href="https://4sysops.com/archives/azure-ad-mfa-with-number-matching-and-temporary-access-passes/"/>
-        <updated>2022-11-22T15:18:24.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft will enable the new number matching feature by default in February 2023. Number matching for Azure AD MFA is almost the reverse of the multi-factor authentication you know. With number matching, a number is displayed to a user when they sign in, and instead of entering this number on the device, they log in to confirm the number on the MFA device. Temporary Access Pass is another feature that allows you to help end users who are unable to meet sign-in criteria.
-Azure AD MFA with number matching and temporary access passes first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Robert Pearman</name>
         </author>
     </entry>
     <entry>
