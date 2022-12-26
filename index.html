@@ -59,6 +59,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-26 datetime="2022-12-26T00:00:00.000Z">2022-12-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-26 datetime="2022-12-26T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Didier Stevens</button>
+                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;9763"
+                        open
+                      >
+                        <summary class="article-expander__title">New Tool: dns-pydivert.py</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/12/26/new-tool-dns-pydivert-py/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://didierstevens.files.wordpress.com/2022/12/20221224-100719.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>dns-pydivert is a tool that uses WinDivert, a “user-mode packet capture-and-divert package for Windows” to divert IPv4 DNS packets to and from the machine it is running on. This tool requires admin rights. When started, it listens for IPv4 UDP packets with source and/or destination port equal to 53.When this tools processes its first UDP […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-25 datetime="2022-12-25T00:00:00.000Z">2022-12-25</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-25 datetime="2022-12-25T00:00:00.000Z"></time>
           </button>
@@ -1756,8 +1804,8 @@ Upgrade VMware vCenter 6.x to vCenter 8.0 first appeared on 4sysops.</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Synack Blog – Synack</button>
-                  <a class="source-heading__link" href="https://www.synack.com">Open</a>
+                  >Synack Blog | Synack</button>
+                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -1872,8 +1920,8 @@ The post How Synack Scales Pentesting Without Compromising Quality appeared firs
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Synack Blog – Synack</button>
-                  <a class="source-heading__link" href="https://www.synack.com">Open</a>
+                  >Synack Blog | Synack</button>
+                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2090,8 +2138,8 @@ For December, Adobe released three patches fixing 37 CVEs in Illustrator, Experi
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Synack Blog – Synack</button>
-                  <a class="source-heading__link" href="https://www.synack.com">Open</a>
+                  >Synack Blog | Synack</button>
+                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2968,8 +3016,8 @@ The post How to Gather Azure App Configurations appeared first on NetSPI.</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Synack Blog – Synack</button>
-                  <a class="source-heading__link" href="https://www.synack.com">Open</a>
+                  >Synack Blog | Synack</button>
+                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -3330,8 +3378,8 @@ Encrypt email in Outlook with Microsoft 365 first appeared on 4sysops.</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Synack Blog – Synack</button>
-                  <a class="source-heading__link" href="https://www.synack.com">Open</a>
+                  >Synack Blog | Synack</button>
+                  <a class="source-heading__link" href="https://www.synack.com/blog/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -4815,8 +4863,8 @@ rot.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3773591942">
-        <time id="build-timestamp" datetime="2022-12-25T00:39:51.788Z">2022-12-25T00:39:51.788Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3778138812">
+        <time id="build-timestamp" datetime="2022-12-26T00:38:28.673Z">2022-12-26T00:38:28.673Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
