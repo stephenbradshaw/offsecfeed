@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-07T00:37:47.822Z</updated>
+    <updated>2023-01-08T00:40:48.397Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Excelling at Excel, Part 2]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8359</id>
+        <link href="https://www.hexacorn.com/blog/2023/01/08/excelling-at-excel-part-2/"/>
+        <updated>2023-01-08T00:01:01.000Z</updated>
+        <summary type="html"><![CDATA[Today I will talk about automated query-building using Excel. Working as a detection engineering and/or threat hunting specialist we often need to create a lot of queries including a lot […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SANS Holiday Hack Challange 2022: Writeup]]></title>
+        <id>https://zeta-two.com/ctf/2023/01/07/sans-holidayhack-2022.html</id>
+        <link href="https://zeta-two.com/ctf/2023/01/07/sans-holidayhack-2022.html"/>
+        <updated>2023-01-07T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my write-up for the SANS Holiday Hack Challenge 2022.
+Main Objectives
+The first part of the objective is an introduction where you are told about how your badge work, how the terminal works and a tutorial on setting up your wallet. It also establishes the backstory and sends you down in the underground tunnels. After this is completed there are five main objective chapters, each containing a few challenges.
+Recover the Tolkien Ring
+The first chapter is to recover the Tolkien Ring. This chapter revolves around DFIR.
+Wireshark Practice
+The first challenge is a terminal where you get a PCAP and need to answer a few questions about the traffic.
+To answer the first question, we look at the traffic, see that there is a lot of HTTP traffic and then go to File -> Export objects -> HTTP to …]]></summary>
+        <author>
+            <name>Zeta-Two.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Excelling at Excel, Part 1]]></title>
         <id>https://www.hexacorn.com/blog/?p=8338</id>
@@ -1159,106 +1186,6 @@ And we are finished! All of the Day Four results are below. We awarded another $
 List Windows processes with PsList first appeared on 4sysops.]]></summary>
         <author>
             <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SANS Cybersecurity Leadership Curriculum]]></title>
-        <id>https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum</id>
-        <link href="https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum?msc=rss"/>
-        <updated>2022-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Summary of SANS Cybersecurity Leadership Curriculum which is developing cyber security managers and leaders worldwide.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SANS Cloud Security Curriculum]]></title>
-        <id>https://www.sans.org/blog/sans-cloud-security-curriculum</id>
-        <link href="https://www.sans.org/blog/sans-cloud-security-curriculum?msc=rss"/>
-        <updated>2022-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog outlining the new SANS Institute Cloud Security Curriculum]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future of SOC]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8301</id>
-        <link href="https://www.hexacorn.com/blog/2022/12/08/the-future-of-soc/"/>
-        <updated>2022-12-08T23:32:52.000Z</updated>
-        <summary type="html"><![CDATA[Over last few years we moved away from a SOC that used to be almost solely focused on Network and Windows events and artifacts (probably a strong fintech bias here) […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting CVE-2022-42703 - Bringing back the stack attack]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html"/>
-        <updated>2022-12-08T19:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Seth Jenkins, Project Zero
-
-This blog post details an exploit for CVE-2022-42703 (P0 issue 2351 - Fixed 5 September 2022), a bug Jann Horn found in the Linux kernel's memory management (MM) subsystem that leads to a use-after-free on struct anon_vma. As the bug is very complex (I certainly struggle to understand it!), a future blog post will describe the bug in full. For the time being, the issue tracker entry, this LWN article explaining what an anon_vma is and the commit that introduced the bug are great resources in order to gain additional context.
-Setting the scene
-Successfully triggering the underlying vulnerability causes folio->mapping to point to a freed anon_vma object. Calling madvise(..., MADV_PAGEOUT)can then be used to repeatedly trigger accesses to the freed anon_vma in foli…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Toronto 2022 - Day Three Results]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6391e8d6ce7f8758e904fedd</id>
-        <link href="https://www.thezdi.com/blog/2022/12/8/pwn2own-toronto-2022-day-three-results"/>
-        <updated>2022-12-08T16:05:27.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back to Pwn2Own Toronto! Yesterday, we awarded another $281,500 for 17 unique bugs across multiple categories. That brings our two-day total to $681,250 awarded for 46 unique 0-days. Today’s highlights include more attempts at the Samsung Galaxy, entries in the SOHO Smashup category, and more smart speaker. We’ll be updating this blog with results throughout the day.
-Results current as of 18:30. All times Eastern (GMT-5). All denominations are in USD. 
-SUCCESS - On the first success of Day 3, Team Viettel was able to execute their OS Command Injection attack against the WD My Cloud Pro Series PR4100 in the NAS category. They earn $20K and 4 Master of Pwn points. 
-BUG COLLISION - STAR Labs was able to execute their SOHO SMASHUP attack on the 3rd and final try against the Synology ro…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Gather Azure App Configurations]]></title>
-        <id>https://www.netspi.com/?p=28955</id>
-        <link href="https://www.netspi.com/blog/technical/cloud-penetration-testing/gathering-azure-app-configurations/"/>
-        <updated>2022-12-08T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to gather access keys for App Configuration resources and how to use those keys to access the configuration key-value pairs.
-The post How to Gather Azure App Configurations appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Karl Fosaaen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untangling Your Cloud Assets with Offensive Security Testing]]></title>
-        <id>https://www.synack.com/?p=15831</id>
-        <link href="https://www.synack.com/blog/untangling-cloud-assets-with-offensive-security-testing/"/>
-        <updated>2022-12-08T15:39:51.000Z</updated>
-        <summary type="html"><![CDATA[Cloud technology has afforded organizations the ability to operate dynamically and build new technologies quickly while keeping costs low. However, as organizations move away from on-premises IT infrastructure, they may lose visibility into their new cloud-based assets.  Cloud environments, such as the big three cloud providers (Amazon, Google and Microsoft), vastly differ from provider to […]
-The post Untangling Your Cloud Assets with Offensive Security Testing appeared first on Synack.]]></summary>
-        <author>
-            <name>Kirsten Gibson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smart App Control: Protect Windows 11 against ransomware]]></title>
-        <id>https://4sysops.com/?p=1569001</id>
-        <link href="https://4sysops.com/archives/smart-app-control-protect-windows-11-against-ransomware/"/>
-        <updated>2022-12-08T13:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Smart App Control is a new security solution from Microsoft built into Windows 11 22H2. It aims to add a protective layer against ransomware by complementing Microsoft Defender's other security features like SmartScreen or Controlled Folder Access. However, it has some notable limitations that may be a dealbreaker for most organizations.
-Smart App Control: Protect Windows 11 against ransomware first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hybrid fuzzing: Sharpening the spikes of Echidna]]></title>
-        <id>https://blog.trailofbits.com/?p=103405</id>
-        <link href="https://blog.trailofbits.com/2022/12/08/hybrid-echidna-fuzzing-optik-maat/"/>
-        <updated>2022-12-08T13:00:36.000Z</updated>
-        <summary type="html"><![CDATA[By Tom Malcolm, University of Queensland, Australia Smart contract fuzzing is an effective bug-finding technique that is largely used at Trail Of Bits during audits. During my internship at Trail of Bits, I contributed to expand our fuzzing capabilities by working on Hybrid Echidna, a “hybrid fuzzer” that couples our smart contract fuzzer, Echidna, with […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
