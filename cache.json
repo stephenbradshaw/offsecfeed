@@ -73,7 +73,18 @@
       "title": "SkullSecurity Blog",
       "feedUrl": "https://blog.skullsecurity.org/feed",
       "siteUrl": "https://www.skullsecurity.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data",
+          "author": null,
+          "description": "While reverse engineering a Linux binary, I ran into a fairly common situation: I wanted to understand how a decompression function works, but I didn’t have compressed data to test with. In this blog, I’ll look at how to we can manipulate the instruction pointer in the GNU debugger (gdb) to trick the software into generating test data for us! I posted this on Mastodon awhile back, but I cleaned it up and expanded it a bit to make it a full blog post.",
+          "link": "https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data",
+          "publishedOn": "2023-01-10T18:02:16.000Z",
+          "wordCount": 1648,
+          "title": "GDB Tricks: Tricking the Application into Generating Test Data",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        }
+      ]
     },
     {
       "title": "Silent Signal Techblog",
@@ -308,6 +319,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-compliance/how-human-security-testing-helps-us-governments-zero-trust-mandate",
+          "author": "Ilona Cohen",
+          "description": "One major reason for the progress is a May 2021 Executive Order that pushes federal agencies to speedily embrace the “never trust; always verify”",
+          "link": "https://www.hackerone.com/security-compliance/how-human-security-testing-helps-us-governments-zero-trust-mandate",
+          "publishedOn": "2023-01-10T00:00:00.000Z",
+          "wordCount": 3209,
+          "title": "How Human Security Testing Helps the U.S. Government’s Zero Trust Mandate",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_Generic%2017-Main_Featured_560x494_L1R1.png"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/brand-ambassador-announcement",
           "author": "HackerOne",
@@ -624,6 +645,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=103612",
+          "author": "Trail of Bits",
+          "description": "By Samuel Moelius This time last year, we wrote about the more than 190 Trail of Bits-authored pull requests that were merged into non-Trail of Bits repositories in 2021. In 2022, we continued that trend by having more than 400 pull requests merged into non-Trail of Bits repositories! Why is this significant? While we take […]",
+          "link": "https://blog.trailofbits.com/2023/01/10/open-source-contributions-2022/",
+          "publishedOn": "2023-01-10T13:00:32.000Z",
+          "wordCount": 5070,
+          "title": "Another prolific year of open-source contributions",
+          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=103585",
           "author": "Trail of Bits",
           "description": "By Nick Selby Trail of Bits recently completed a security review of cURL, which is an amazing and ubiquitous tool for transferring data. We were really thrilled to see cURL founder and lead developer Daniel Stenberg write a blog post about the engagement and the report, and wanted to highlight some important things he pointed […]",
@@ -786,6 +817,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1569503",
+          "author": "Brandon Lee",
+          "description": "Many people use VMware Workstation to set up lab environments. The first step in getting vSphere 8 with a vSphere cluster running is to install the vCenter Server Appliance (vCSA). Let's see how we can deploy vCenter Server 8 in VMware Workstation.\nInstall vCenter 8 in VMware Workstation first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/install-vcenter-8-in-vmware-workstation/",
+          "publishedOn": "2023-01-10T12:59:36.000Z",
+          "wordCount": 12319,
+          "title": "Install vCenter 8 in VMware Workstation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/The-new-vCenter-Server-VM-boots-and-is-ready-to-connect-600x426.png"
+        },
         {
           "id": "https://4sysops.com/?p=1569454",
           "author": "Surender Kumar",
@@ -1085,6 +1126,16 @@
         {
           "id": "https://www.pentestpartners.com/?p=26414",
           "author": "Adam Bromiley",
+          "description": "TL;DR UK Government Environment Agency web site had an open redirect that was actively being used to redirect to various porn sites, including OnlyFans clone sites. Disclosure should have been […]\nUK gov website being used to redirect to porn sites first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/uk-gov-website-being-used-to-redirect-to-porn-sites/",
+          "publishedOn": "2023-01-09T13:30:27.000Z",
+          "wordCount": 1671,
+          "title": "UK gov website being used to redirect to porn sites",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.pentestpartners.com/?p=26414",
+          "author": "Adam Bromiley",
           "description": "TL;DR UK Government Environment Agency web site had an open redirect that was actively being used to redirect to various porn sites, including OnlyFans clone sites. Disclosure should have been […]\nUK gov website being used to phish porn site creds first appeared on Pen Test Partners.",
           "link": "https://www.pentestpartners.com/security-blog/uk-gov-website-being-used-to-phish-porn-site-creds/",
           "publishedOn": "2023-01-09T13:30:27.000Z",
@@ -1109,6 +1160,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/sap-chief-trust-office-thinks-outside-the-box-on-fostering-talent-with-sans",
+          "author": null,
+          "description": "SAP gets creative to develop early cyber talent at the collegiate level, with the SANS Institute’s cyber range portfolio.",
+          "link": "https://www.sans.org/blog/sap-chief-trust-office-thinks-outside-the-box-on-fostering-talent-with-sans?msc=rss",
+          "publishedOn": "2023-01-10T00:00:00.000Z",
+          "wordCount": 3680,
+          "title": "SAP Chief Trust Office Thinks Outside the Box on Fostering Talent with SANS",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/sans-welcomes-professor-ciaran-martin",
           "author": null,
@@ -1167,16 +1228,6 @@
           "publishedOn": "2022-12-13T00:00:00.000Z",
           "wordCount": null,
           "title": "SANS MGT433 Managing Human Risk – Now Expanded to Three Days",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/top-5-blueprint-podcast-episodes-of-2022",
-          "author": null,
-          "description": "This year Blueprint Podcast published 14 episodes with experts from across the cybersecurity industry. Here were the top-rated episodes of the year.",
-          "link": "https://www.sans.org/blog/top-5-blueprint-podcast-episodes-of-2022?msc=rss",
-          "publishedOn": "2022-12-12T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Top 5 Blueprint Podcast Episodes of 2022",
           "imageUrl": null
         }
       ]
@@ -1491,6 +1542,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=13292",
+          "author": "Alexander Poth",
+          "description": "Introduction Today we will take a first look at malware-based attacks on ATMs in general, while future articles will go into more detail on the individual subtopics. ATMs have been robbed by criminal gangs around the world for decades. A successful approach since ~ 20 years is the use of highly flammable gas, which is … Continue reading Malware-based attacks on ATMs – A summary →",
+          "link": "https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary/",
+          "publishedOn": "2023-01-10T08:00:00.000Z",
+          "wordCount": 3041,
+          "title": "Malware-based attacks on ATMs – A summary",
+          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2023/01/Capture.jpg?fit=330%2C516&ssl=1"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=13726",
           "author": "Renaud Frere",
           "description": "Introduction Last year, I published an article on mapping detection to the MITRE ATT&CK framework using DeTT&CT. In the article, we introduced DeTT&CT and explored its features and usage. If you missed it, you can find the article here. Although, after writing that article, I encountered some challenges. For instance, I considered using DeTT&CT in … Continue reading DeTT&CT: Automate your detection coverage with dettectinator →",
@@ -1537,6 +1598,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/not-your-typical-internal-testing",
+          "author": "Seth Art",
+          "description": "Learn what it is like to be a cloud penetration tester from our expert, Seth Art.",
+          "link": "https://bishopfox.com/blog/not-your-typical-internal-testing",
+          "publishedOn": "2023-01-10T16:00:00.000Z",
+          "wordCount": 2537,
+          "title": "Cloud Penetration: Not Your Typical Internal Testing",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Cloud-Penetration-OG.jpg?mtime=1672939776"
+        },
         {
           "id": "https://bishopfox.com/blog/2023-security-resolutions",
           "author": "Beth Robinson",

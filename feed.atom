@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-10T00:41:48.443Z</updated>
+    <updated>2023-01-11T00:39:24.658Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GDB Tricks: Tricking the Application into Generating Test Data]]></title>
+        <id>https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data</id>
+        <link href="https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data"/>
+        <updated>2023-01-10T18:02:16.000Z</updated>
+        <summary type="html"><![CDATA[While reverse engineering a Linux binary, I ran into a fairly common situation: I wanted to understand how a decompression function works, but I didn’t have compressed data to test with. In this blog, I’ll look at how to we can manipulate the instruction pointer in the GNU debugger (gdb) to trick the software into generating test data for us! I posted this on Mastodon awhile back, but I cleaned it up and expanded it a bit to make it a full blog post.]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Penetration: Not Your Typical Internal Testing]]></title>
+        <id>https://bishopfox.com/blog/not-your-typical-internal-testing</id>
+        <link href="https://bishopfox.com/blog/not-your-typical-internal-testing"/>
+        <updated>2023-01-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn what it is like to be a cloud penetration tester from our expert, Seth Art.]]></summary>
+        <author>
+            <name>Seth Art</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Another prolific year of open-source contributions]]></title>
+        <id>https://blog.trailofbits.com/?p=103612</id>
+        <link href="https://blog.trailofbits.com/2023/01/10/open-source-contributions-2022/"/>
+        <updated>2023-01-10T13:00:32.000Z</updated>
+        <summary type="html"><![CDATA[By Samuel Moelius This time last year, we wrote about the more than 190 Trail of Bits-authored pull requests that were merged into non-Trail of Bits repositories in 2021. In 2022, we continued that trend by having more than 400 pull requests merged into non-Trail of Bits repositories! Why is this significant? While we take […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install vCenter 8 in VMware Workstation]]></title>
+        <id>https://4sysops.com/?p=1569503</id>
+        <link href="https://4sysops.com/archives/install-vcenter-8-in-vmware-workstation/"/>
+        <updated>2023-01-10T12:59:36.000Z</updated>
+        <summary type="html"><![CDATA[Many people use VMware Workstation to set up lab environments. The first step in getting vSphere 8 with a vSphere cluster running is to install the vCenter Server Appliance (vCSA). Let's see how we can deploy vCenter Server 8 in VMware Workstation.
+Install vCenter 8 in VMware Workstation first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malware-based attacks on ATMs – A summary]]></title>
+        <id>https://blog.nviso.eu/?p=13292</id>
+        <link href="https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary/"/>
+        <updated>2023-01-10T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Today we will take a first look at malware-based attacks on ATMs in general, while future articles will go into more detail on the individual subtopics. ATMs have been robbed by criminal gangs around the world for decades. A successful approach since ~ 20 years is the use of highly flammable gas, which is … Continue reading Malware-based attacks on ATMs – A summary →]]></summary>
+        <author>
+            <name>Alexander Poth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Human Security Testing Helps the U.S. Government’s Zero Trust Mandate]]></title>
+        <id>https://hackerone.com/security-compliance/how-human-security-testing-helps-us-governments-zero-trust-mandate</id>
+        <link href="https://www.hackerone.com/security-compliance/how-human-security-testing-helps-us-governments-zero-trust-mandate"/>
+        <updated>2023-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One major reason for the progress is a May 2021 Executive Order that pushes federal agencies to speedily embrace the “never trust; always verify”]]></summary>
+        <author>
+            <name>Ilona Cohen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Chief Trust Office Thinks Outside the Box on Fostering Talent with SANS]]></title>
+        <id>https://www.sans.org/blog/sap-chief-trust-office-thinks-outside-the-box-on-fostering-talent-with-sans</id>
+        <link href="https://www.sans.org/blog/sap-chief-trust-office-thinks-outside-the-box-on-fostering-talent-with-sans?msc=rss"/>
+        <updated>2023-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SAP gets creative to develop early cyber talent at the collegiate level, with the SANS Institute’s cyber range portfolio.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Brand Ambassador Announcement]]></title>
         <id>https://hackerone.com/hackerone-community-blog/brand-ambassador-announcement</id>
@@ -25,6 +96,17 @@
 Find the source of AD account lockouts first appeared on 4sysops.]]></summary>
         <author>
             <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK gov website being used to redirect to porn sites]]></title>
+        <id>https://www.pentestpartners.com/?p=26414</id>
+        <link href="https://www.pentestpartners.com/security-blog/uk-gov-website-being-used-to-redirect-to-porn-sites/"/>
+        <updated>2023-01-09T13:30:27.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR UK Government Environment Agency web site had an open redirect that was actively being used to redirect to various porn sites, including OnlyFans clone sites. Disclosure should have been […]
+UK gov website being used to redirect to porn sites first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Adam Bromiley</name>
         </author>
     </entry>
     <entry>
@@ -1134,16 +1216,6 @@ If a Windows service hangs, restart the service with PowerShell first appeared o
 The post Nosey Parker RegEx: A Positive Community Response appeared first on Praetorian.]]></summary>
         <author>
             <name>emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 5 Blueprint Podcast Episodes of 2022]]></title>
-        <id>https://www.sans.org/blog/top-5-blueprint-podcast-episodes-of-2022</id>
-        <link href="https://www.sans.org/blog/top-5-blueprint-podcast-episodes-of-2022?msc=rss"/>
-        <updated>2022-12-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This year Blueprint Podcast published 14 episodes with experts from across the cybersecurity industry. Here were the top-rated episodes of the year.]]></summary>
-        <author>
-            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
