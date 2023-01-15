@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-14T00:37:46.742Z</updated>
+    <updated>2023-01-15T00:42:17.920Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Restoring Dyld Memory Loading]]></title>
+        <id>https://blog.xpnsec.com/restoring-dyld-memory-loading/</id>
+        <link href="https://blog.xpnsec.com/restoring-dyld-memory-loading/"/>
+        <updated>2023-01-14T12:03:31.000Z</updated>
+        <summary type="html"><![CDATA[Up until recently, we've enjoyed in-memory loading of Mach-O bundles courtesy of dyld and its NSCreateObjectFileImageFromMemory/NSLinkModule API methods. And while these methods still exist today, there is a key difference.. memory modules are now persisted to disk. So in this post we'll take a look at just what was changed in dyld, and see what we can do to restore this functionality... hopefully keeping our warez in memory for a little longer.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Decrypting SHell Compiled (SHC) ELF files]]></title>
         <id>https://www.hexacorn.com/blog/?p=8374</id>
@@ -1079,37 +1089,6 @@ The post A New Chapter in SecureAuth’s Commitment to Open Security Research an
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NIC Teaming in Windows Server 2022]]></title>
-        <id>https://4sysops.com/?p=1569137</id>
-        <link href="https://4sysops.com/archives/nic-teaming-in-windows-server-2022/"/>
-        <updated>2022-12-16T11:05:45.000Z</updated>
-        <summary type="html"><![CDATA[NIC Teaming in Windows Server 2022 allows you to combine multiple physical and virtual network interfaces into a single logical virtual adapter called NIC Team. The feature is available in Windows Server, Windows Full Desktop Experience (with GUI), and Server Core (without GUI). The idea is to provide better performance, reliability, load balancing, and redundancy between network cards. NIC Teaming is also known as link aggregation, bandwidth aggregation, and load balancing and failover (LBFO).
-NIC Teaming in Windows Server 2022 first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Key Role of the Service Delivery Manager at NVISO’s Managed Detect & Respond Service]]></title>
-        <id>https://blog.nviso.eu/?p=13259</id>
-        <link href="https://blog.nviso.eu/2022/12/16/the-key-role-of-a-service-delivery-manager-at-nvisos-managed-detection-response-service/"/>
-        <updated>2022-12-16T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Service Delivery Manager (SDM) plays a key role in the delivery of our NVISO cybersecurity NITRO Managed Detect & Respond (MDR) services. As the main point of contact, we represent the client at NVISO and represent NVISO at the client. During the operational lifecycle of a contract, my fellow SDMs and I are responsible … Continue reading The Key Role of the Service Delivery Manager at NVISO’s Managed Detect & Respond Service →]]></summary>
-        <author>
-            <name>Maria Rita Milanese</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: hash.py Version 0.0.9]]></title>
-        <id>http://blog.didierstevens.com/?p=9723</id>
-        <link href="https://blog.didierstevens.com/2022/12/16/update-hash-py-version-0-0-9/"/>
-        <updated>2022-12-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Options validate and skip support here files now. And when validating hashes, a summary is displayed at the end of the report. hash_V0_0_9.zip (http)MD5: E1BEFF0A256002949B084F7ED410C5A5SHA256: 84F846D6CFE93ADA77C5DE0C318CEA36C3F92F22A3D0A7FE829DB88D7CE31FA0]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Behind the Scenes of Pwn2Own Toronto 2022]]></title>
         <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:639b488a7acb174681a43151</id>
         <link href="https://www.thezdi.com/blog/2022/12/15/behind-the-scenes-of-pwn2own-toronto-2022"/>
@@ -1119,68 +1098,6 @@ When we published the rules, we anticipated quite a bit of interest in both the 
 While we were struggling to find a way to run that many attempts in three days, the first of several patches appeared. Most notably, NETGEAR released a fix specifically targeting bugs that w…]]></summary>
         <author>
             <name>Brian Gorenc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker AFK: Jason Haddix]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix"/>
-        <updated>2022-12-15T16:34:28.000Z</updated>
-        <summary type="html"><![CDATA[Today's hacker Jason Haddix 
-JXoaT: So, what was your first experience with the word hacker? 
-Jason: My first exposure was similar to ot]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FlowscreenComponents Basepack, Version 3.0.7 Advisory]]></title>
-        <id>https://bishopfox.com/blog/flowscreencomponents-advisory</id>
-        <link href="https://bishopfox.com/blog/flowscreencomponents-advisory"/>
-        <updated>2022-12-15T15:40:00.000Z</updated>
-        <summary type="html"><![CDATA[In this advisory, read about a cross-site scripting (XSS) vulnerability in the FlowscreenComponents Basepack, Version 3.0.7.]]></summary>
-        <author>
-            <name>Matthew Rutledge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon Replay | Is CNVD ≥ CVE? A Look at Chinese Vulnerability Discovery and Disclosure]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=74263</id>
-        <link href="https://www.sentinelone.com/labs/labscon-replay-is-cnvd-%e2%89%a5-cve-a-look-at-chinese-vulnerability-discovery-and-disclosure/"/>
-        <updated>2022-12-15T15:22:23.000Z</updated>
-        <summary type="html"><![CDATA[Vulnerability disclosure  in the US lags behind China's NVD, which has a history of providing APT groups with exploits. How can researchers close the gap?]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Browser powered scanning 2.0]]></title>
-        <id>browser-powered-scanning-2-0</id>
-        <link href="https://portswigger.net/blog/browser-powered-scanning-2-0"/>
-        <updated>2022-12-15T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[It's been two years since we unleashed browser powered scanning on the world, and we decided what better way to celebrate than to start again from scratch! It started out as a task, how did it end up]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Machine Learning 101: The Integrity of Image (Mis)Classification?]]></title>
-        <id>https://research.nccgroup.com/?p=18053</id>
-        <link href="https://research.nccgroup.com/2022/12/15/machine-learning-101-the-integrity-of-image-misclassification/"/>
-        <updated>2022-12-15T14:09:25.000Z</updated>
-        <summary type="html"><![CDATA[Professor Ron Rivest observed the close relationship between cryptography and machine learning at the ASIACRYPT conference back in 1991. Cross-fertilization of common notions, such as integrity, privacy, confidentiality and authenticity, have only grown in the following three decades as these fields have become more central to our everyday lives. This blog post is the first in … Continue reading Machine Learning 101: The Integrity of Image (Mis)Classification? →]]></summary>
-        <author>
-            <name>Eric Schorn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I gave ManticoreUI a makeover]]></title>
-        <id>https://blog.trailofbits.com/?p=103487</id>
-        <link href="https://blog.trailofbits.com/2022/12/15/manitcoreui-symbolic-execution-gui/"/>
-        <updated>2022-12-15T13:00:23.000Z</updated>
-        <summary type="html"><![CDATA[By Calvin Fong During my internship at Trail of Bits, I explored the effectiveness of symbolic execution for finding vulnerabilities in native applications ranging from CTF challenges to popular open source libraries like image parsers, focusing on finding ways to enhance ManticoreUI. It is a powerful tool that improves accessibility to symbolic execution and vulnerability […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>

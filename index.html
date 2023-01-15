@@ -59,6 +59,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-14 datetime="2023-01-14T12:03:31.000Z">2023-01-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-14 datetime="2023-01-14T12:03:31.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >XPN InfoSec Blog</button>
+                  <a class="source-heading__link" href="https://blog.xpnsec.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.xpnsec.com/restoring-dyld-memory-loading/"
+                        open
+                      >
+                        <summary class="article-expander__title">Restoring Dyld Memory Loading</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.xpnsec.com/restoring-dyld-memory-loading/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://assets.xpnsec.com/dyld-memory-loading/cover.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Up until recently, we&#x27;ve enjoyed in-memory loading of Mach-O bundles courtesy of dyld and its NSCreateObjectFileImageFromMemory/NSLinkModule API methods. And while these methods still exist today, there is a key difference.. memory modules are now persisted to disk. So in this post we&#x27;ll take a look at just what was changed in dyld, and see what we can do to restore this functionality... hopefully keeping our warez in memory for a little longer.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-13 datetime="2023-01-13T23:37:28.000Z">2023-01-13</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-13 datetime="2023-01-13T23:37:28.000Z"></time>
           </button>
@@ -3881,109 +3929,6 @@ The post A New Chapter in SecureAuth’s Commitment to Open Security Research an
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1569137"
-                        open
-                      >
-                        <summary class="article-expander__title">NIC Teaming in Windows Server 2022</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/nic-teaming-in-windows-server-2022/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2022/12/NIC-Teaming-is-disabled-by-default-in-the-Server-Manager-600x334.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>NIC Teaming in Windows Server 2022 allows you to combine multiple physical and virtual network interfaces into a single logical virtual adapter called NIC Team. The feature is available in Windows Server, Windows Full Desktop Experience (with GUI), and Server Core (without GUI). The idea is to provide better performance, reliability, load balancing, and redundancy between network cards. NIC Teaming is also known as link aggregation, bandwidth aggregation, and load balancing and failover (LBFO).
-NIC Teaming in Windows Server 2022 first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NVISO Labs</button>
-                  <a class="source-heading__link" href="https://blog.nviso.eu">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.nviso.eu/?p&#x3D;13259"
-                        open
-                      >
-                        <summary class="article-expander__title">The Key Role of the Service Delivery Manager at NVISO’s Managed Detect &amp; Respond Service</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.nviso.eu/2022/12/16/the-key-role-of-a-service-delivery-manager-at-nvisos-managed-detection-response-service/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/12/iStock-1190949669.jpg?fit&#x3D;1200%2C620&amp;ssl&#x3D;1" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Service Delivery Manager (SDM) plays a key role in the delivery of our NVISO cybersecurity NITRO Managed Detect &amp; Respond (MDR) services. As the main point of contact, we represent the client at NVISO and represent NVISO at the client. During the operational lifecycle of a contract, my fellow SDMs and I are responsible … Continue reading The Key Role of the Service Delivery Manager at NVISO’s Managed Detect &amp; Respond Service →</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Didier Stevens</button>
-                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;9723"
-                        open
-                      >
-                        <summary class="article-expander__title">Update: hash.py Version 0.0.9</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2022/12/16/update-hash-py-version-0-0-9/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Options validate and skip support here files now. And when validating hashes, a summary is displayed at the end of the report. hash_V0_0_9.zip (http)MD5: E1BEFF0A256002949B084F7ED410C5A5SHA256: 84F846D6CFE93ADA77C5DE0C318CEA36C3F92F22A3D0A7FE829DB88D7CE31FA0</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4023,212 +3968,6 @@ NIC Teaming in Windows Server 2022 first appeared on 4sysops.</span>
                               <span>Last week, we completed our largest Pwn2Own contest ever. We saw 66 entries over four days and witnessed some amazing research resulting in $989,750 USD for 63 unique 0-days. However, leading up to the event was anything but smooth sailing on calm seas. Here’s the wrap video summarizing the event:
 When we published the rules, we anticipated quite a bit of interest in both the routers and the SOHO Smashup targets. What we didn’t expect was 85 entries overall. To put some perspective on that number, in 2017, we had 13 total entries in what was (at the time) our largest event ever. We’ve had some growth. 
 While we were struggling to find a way to run that many attempts in three days, the first of several patches appeared. Most notably, NETGEAR released a fix specifically targeting bugs that w…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HackerOne</button>
-                  <a class="source-heading__link" href="https://www.hackerone.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix"
-                        open
-                      >
-                        <summary class="article-expander__title">Hacker AFK: Jason Haddix</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.hackerone.com/sites/default/files/Copy%20of%20HackerOne_H1702_Andeck%20Photo-146.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Today&#x27;s hacker Jason Haddix 
-JXoaT: So, what was your first experience with the word hacker? 
-Jason: My first exposure was similar to ot</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >bishopfox.com</button>
-                  <a class="source-heading__link" href="https://bishopfox.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://bishopfox.com/blog/flowscreencomponents-advisory"
-                        open
-                      >
-                        <summary class="article-expander__title">FlowscreenComponents Basepack, Version 3.0.7 Advisory</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://bishopfox.com/blog/flowscreencomponents-advisory">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/advisories-risk-level/_1200x630_crop_center-center_82_none/Medium-Risk-Advisory-Featured.jpg?mtime&#x3D;1637093217" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In this advisory, read about a cross-site scripting (XSS) vulnerability in the FlowscreenComponents Basepack, Version 3.0.7.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.</button>
-                  <a class="source-heading__link" href="https://www.sentinelone.com/labs/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sentinelone.com/?post_type&#x3D;labs&amp;p&#x3D;74263"
-                        open
-                      >
-                        <summary class="article-expander__title">LABScon Replay | Is CNVD ≥ CVE? A Look at Chinese Vulnerability Discovery and Disclosure</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sentinelone.com/labs/labscon-replay-is-cnvd-%e2%89%a5-cve-a-look-at-chinese-vulnerability-discovery-and-disclosure/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.sentinelone.com/wp-content/uploads/2022/12/Kristin-Del-Rosso-Kristen-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Vulnerability disclosure  in the US lags behind China&#x27;s NVD, which has a history of providing APT groups with exploits. How can researchers close the gap?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PortSwigger Blog</button>
-                  <a class="source-heading__link" href="https://portswigger.net/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="browser-powered-scanning-2-0"
-                        open
-                      >
-                        <summary class="article-expander__title">Browser powered scanning 2.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://portswigger.net/blog/browser-powered-scanning-2-0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://portswigger.net/cms/images/7c/e0/7b0f-twittercard-browser-powered-scanning-2-full.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It&#x27;s been two years since we unleashed browser powered scanning on the world, and we decided what better way to celebrate than to start again from scratch! It started out as a task, how did it end up</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NCC Group Research</button>
-                  <a class="source-heading__link" href="https://research.nccgroup.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.nccgroup.com/?p&#x3D;18053"
-                        open
-                      >
-                        <summary class="article-expander__title">Machine Learning 101: The Integrity of Image (Mis)Classification?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.nccgroup.com/2022/12/15/machine-learning-101-the-integrity-of-image-misclassification/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit&#x3D;512%2C512&amp;ssl&#x3D;1" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Professor Ron Rivest observed the close relationship between cryptography and machine learning at the ASIACRYPT conference back in 1991. Cross-fertilization of common notions, such as integrity, privacy, confidentiality and authenticity, have only grown in the following three decades as these fields have become more central to our everyday lives. This blog post is the first in … Continue reading Machine Learning 101: The Integrity of Image (Mis)Classification? →</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Trail of Bits Blog</button>
-                  <a class="source-heading__link" href="https://blog.trailofbits.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.trailofbits.com/?p&#x3D;103487"
-                        open
-                      >
-                        <summary class="article-expander__title">How I gave ManticoreUI a makeover</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2022/12/15/manitcoreui-symbolic-execution-gui/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.trailofbits.com/wp-content/uploads/2022/12/Emulate_until.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>By Calvin Fong During my internship at Trail of Bits, I explored the effectiveness of symbolic execution for finding vulnerabilities in native applications ranging from CTF challenges to popular open source libraries like image parsers, focusing on finding ways to enhance ManticoreUI. It is a powerful tool that improves accessibility to symbolic execution and vulnerability […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -4570,8 +4309,8 @@ rot.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3916011577">
-        <time id="build-timestamp" datetime="2023-01-14T00:37:46.705Z">2023-01-14T00:37:46.705Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/3921007913">
+        <time id="build-timestamp" datetime="2023-01-15T00:42:17.893Z">2023-01-15T00:42:17.893Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
