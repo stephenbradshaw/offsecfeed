@@ -24,16 +24,6 @@
           "wordCount": null,
           "title": "SCCM Site Takeover via Automatic Client Push Installation",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/98a01310be3f",
-          "author": "Andy Robbins",
-          "description": "",
-          "link": "https://posts.specterops.io/passwordless-persistence-and-privilege-escalation-in-azure-98a01310be3f?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2022-12-21T16:51:04.000Z",
-          "wordCount": null,
-          "title": "Passwordless Persistence and Privilege Escalation in Azure",
-          "imageUrl": null
         }
       ]
     },
@@ -119,8 +109,19 @@
     {
       "title": "Silent Signal Techblog",
       "feedUrl": "https://blog.silentsignal.eu/feed/",
-      "siteUrl": "https://blog.silentsignal.eu",
-      "articles": []
+      "siteUrl": "https://blog.silentsignal.eu/",
+      "articles": [
+        {
+          "id": "https://blog.silentsignal.eu/2023/01/20/abusing-adopted-authority-on-ibm-i/",
+          "author": null,
+          "description": "In our first blog post of 2023, we continue our series about penetration testing IBM i. This time we look into how the so-called Adopted Authority mechanism can be abused for privilege escalation if privileged scripts are not implemented with enough care.",
+          "link": "https://blog.silentsignal.eu/2023/01/20/abusing-adopted-authority-on-ibm-i/",
+          "publishedOn": "2023-01-20T13:00:00.000Z",
+          "wordCount": 892,
+          "title": "Abusing Adopted Authority on IBM i",
+          "imageUrl": "https://blog.silentsignal.eu/assets/img//wp-content/uploads/2022/11/batman-forever-the-riddler.gif"
+        }
+      ]
     },
     {
       "title": "Technical Blog - NetSPI",
@@ -250,16 +251,6 @@
           "wordCount": 2594,
           "title": "Update: file-magic.py Version 0.0.5",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9748",
-          "author": "Didier Stevens",
-          "description": "This is a bug fix version for my nsrl.py script, a tool to check hashes with the NSRL list. nsrl_V0_0_4.zip (http)MD5: 6F72B03493C73E88CB3771C860BC76D0SHA256: D68039B8654C1D52CD1C12670C7E885E462B72BF23892E86BE86E6381C95B669",
-          "link": "https://blog.didierstevens.com/2022/12/22/update-nsrl-py-version-0-0-4/",
-          "publishedOn": "2022-12-22T00:00:00.000Z",
-          "wordCount": 2590,
-          "title": "Update: nsrl.py Version 0.0.4",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -327,16 +318,6 @@
           "wordCount": 2137,
           "title": "Changes to Disclosure Assistance",
           "imageUrl": "https://www.hackerone.com/sites/default/files/_DSC2132.jpg"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
-          "author": "HackerOne",
-          "description": "Checkout this infographic for a more detailed look at stats, hacker perspectives, and highlights of our event. Be sure to checkout all of our H@ckti",
-          "link": "https://www.hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
-          "publishedOn": "2022-12-21T22:02:33.000Z",
-          "wordCount": 2005,
-          "title": "Visualizing Live Hacking Events: Hackers Break Records at H1-702",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/HackerOne_H1702_Andeck%20Photo-1733_2.jpg"
         }
       ]
     },
@@ -477,6 +458,26 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=17930",
+          "author": "Sultan Khan",
+          "description": "Summary U-Boot is a popular and feature-rich bootloader for embedded systems. It includes optional support for the USB Device Firmware Update (DFU) protocol, which can be used by devices to download new firmware, or upload their current firmware. The U-Boot DFU implementation does not bound the length field in USB DFU download setup packets, and … Continue reading Technical Advisory – U-Boot – Unchecked Download Size and Direction in USB DFU (CVE-2022-2347) →",
+          "link": "https://research.nccgroup.com/2023/01/20/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/",
+          "publishedOn": "2023-01-20T20:24:06.000Z",
+          "wordCount": 2711,
+          "title": "Technical Advisory – U-Boot – Unchecked Download Size and Direction in USB DFU (CVE-2022-2347)",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
+        {
+          "id": "https://research.nccgroup.com/?p=18591",
+          "author": "Ken Gannon",
+          "description": "The Galaxy App Store is an alternative application store that comes pre-installed on Samsung Android devices. Several Android applications are available on both the Galaxy App Store and Google App Store, and users have the option to use either store to install specific applications. Two vulnerabilities were uncovered with the Galaxy App Store application: Technical … Continue reading Technical Advisory – Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434) →",
+          "link": "https://research.nccgroup.com/2023/01/20/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/",
+          "publishedOn": "2023-01-20T14:48:44.000Z",
+          "wordCount": 2635,
+          "title": "Technical Advisory – Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434)",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=18527",
           "author": "Jose Selvi",
           "description": "Written by Jose Selvi and Thomas Atkinson If you are a Machine Learning (ML) enthusiast like us, you may recall our blogpost series from 2019 regarding Project Ava, which documented our experiments in using ML techniques to automate web application security testing tasks. In February 2020 we set out to build on Project Ava with … Continue reading Project Bishop: Clustering Web Pages →",
@@ -485,16 +486,6 @@
           "wordCount": 4135,
           "title": "Project Bishop: Clustering Web Pages",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/01/Picture1.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=18482",
-          "author": "McCaulay Hudson",
-          "description": "Summary Vulnerability Details Overview Execution Flow /bin/pucfu /usr/lib/libfwcheck.so get_check_fw fw_check_api curl_post /lib/libpu_util.so SetFileValue pegaPopen Check Firmware HTTPS Normal Request & Response Exploitation Command Injection Response Root Shell Final Notes Patch Pwn2Own Note Summary This blog post describes a command injection vulnerability found and exploited in November 2022 by NCC Group in the Netgear RAX30 router’s … Continue reading Puckungfu: A NETGEAR WAN Command Injection →",
-          "link": "https://research.nccgroup.com/2022/12/22/puckungfu-a-netgear-wan-command-injection/",
-          "publishedOn": "2022-12-22T11:18:10.000Z",
-          "wordCount": 3149,
-          "title": "Puckungfu: A NETGEAR WAN Command Injection",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -503,6 +494,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=4370",
+          "author": "emmaline",
+          "description": "A chief information security officer’s (CISO’s) role ultimately is to help their organization’s board of directors (BOD) understand the potential impact of cyber threats on the organization. When this strategic relationship is successful, the BOD can make informed decisions about risk management, including capital allocation and spending relative to industry peers. Effective communication to this […]\nThe post A CISO’s Guide to Building a Strategic Relationship with the BOD appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/ciso-strategic-relationship-with-bod/",
+          "publishedOn": "2023-01-20T14:01:14.000Z",
+          "wordCount": 1853,
+          "title": "A CISO’s Guide to Building a Strategic Relationship with the BOD",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
+        },
         {
           "id": "https://www.praetorian.com/?p=4349",
           "author": "emmaline",
@@ -655,7 +656,7 @@
     {
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
-      "siteUrl": "https://blog.exodusintel.com",
+      "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
         {
           "id": "https://blog.exodusintel.com/?p=2050",
@@ -787,6 +788,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1569686",
+          "author": "Timothy Warner",
+          "description": "Microsoft Azure offers a variety of backup and disaster recovery solutions. Let Tim iron out some common confusions about these entities and services: Azure Recovery Services vault, Azure Site Recovery, Azure Backup, and Azure Backup vault. In addition, you will learn important concepts for working with the Azure Recovery Services vault: Azure region dependency, content portability, and deletion workflow.\nAzure Recovery Services vault: Ironing out the confusion first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/azure-recovery-services-vault-ironing-out-the-confusion/",
+          "publishedOn": "2023-01-20T13:15:28.000Z",
+          "wordCount": 13523,
+          "title": "Azure Recovery Services vault: Ironing out the confusion",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/Two-different-vaults-two-different-sets-of-workloads-600x422.png"
+        },
         {
           "id": "https://4sysops.com/?p=1569666",
           "author": "Wolfgang Sommergut",
@@ -996,16 +1007,6 @@
           "wordCount": 10128,
           "title": "Controlled folder access: Configure ransomware protection with Group Policy and PowerShell",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2022/12/Defining-allowed-applications-via-a-Group-Policy-600x394.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1569211",
-          "author": "Brandon Lee",
-          "description": "ManageEngine ADSelfService Plus is a fully featured solution to easily implement self-service password reset, SSO, password synchronization, MFA, and an employee directory while enforcing strong password policies.\nSelf-service password reset with ManageEngine ADSelfService Plus first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/self-service-password-reset-with-manageengine-adselfservice-plus/",
-          "publishedOn": "2022-12-21T14:05:50.000Z",
-          "wordCount": 10529,
-          "title": "Self-service password reset with ManageEngine ADSelfService Plus",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2022/12/Password-reset-and-unlock-account-integration-at-Windows-logon-600x374.png"
         }
       ]
     },
@@ -1020,6 +1021,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8386",
+          "author": "adam",
+          "description": "A few days ago I posted a very specific question on Twitter and Mastodon: You’ve got gazillion of random yara rules stored inside many random .yar files scattered around many […]",
+          "link": "https://www.hexacorn.com/blog/2023/01/21/yara-rules-pageant/",
+          "publishedOn": "2023-01-21T00:12:05.000Z",
+          "wordCount": 6192,
+          "title": "Yara rules pageant",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8374",
           "author": "adam",
@@ -1336,6 +1347,16 @@
       "siteUrl": "https://medium.com/@assume-breach?source=rss-fe83402397b0------2",
       "articles": [
         {
+          "id": "https://medium.com/p/88b85c81343e",
+          "author": "assume-breach",
+          "description": "Welcome back! In my previous post, I showed how we can bypass default Applocker rules using LNK files to get a Havoc beacon.",
+          "link": "https://assume-breach.medium.com/home-grown-red-team-bypassing-applocker-uac-and-getting-administrative-persistence-88b85c81343e?source=rss-fe83402397b0------2",
+          "publishedOn": "2023-01-20T18:07:53.000Z",
+          "wordCount": 2551,
+          "title": "Home Grown Red Team: Bypassing Applocker, UAC and Getting Administrative Persistence",
+          "imageUrl": "https://miro.medium.com/max/643/1*4jR-qOHQ3hZkJi-s6dnpmQ.png"
+        },
+        {
           "id": "https://medium.com/p/3fb1ecae291f",
           "author": "assume-breach",
           "description": "The Windows LNK file is just one of the many ways to get easy execution while bypassing Applocker and some AV. While this isn’t a new…",
@@ -1453,21 +1474,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2022/12/Custom-Branded-Ransomware-The-Vice-Society-Group-and-the-Threat-of-Outsourced-Development-3.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=74592",
-          "author": "Aleksandar Milenkoski",
-          "description": "ChatGPT has captured the imagination of many across infosec. Here's how it can superpower the efforts of reversers and malware analysts.",
-          "link": "https://www.sentinelone.com/labs/11-problems-chatgpt-can-solve-for-reverse-engineers-and-malware-analysts/",
-          "publishedOn": "2022-12-21T15:15:59.000Z",
-          "wordCount": 4960,
-          "title": "11 Problems ChatGPT Can Solve For Reverse Engineers and Malware Analysts",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2022/12/11-Problems-ChatGPT-Can-Solve-For-Reverse-Engineers-and-Malware-Analysts-1.jpg",
-            "length": "77810",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2022/12/11-Problems-ChatGPT-Can-Solve-For-Reverse-Engineers-and-Malware-Analysts-1.jpg"
         }
       ]
     },
