@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-22T00:42:07.973Z</updated>
+    <updated>2023-01-23T00:37:46.316Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Analyzing Malicious OneNote Documents]]></title>
+        <id>http://blog.didierstevens.com/?p=9889</id>
+        <link href="https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents/"/>
+        <updated>2023-01-22T18:09:53.000Z</updated>
+        <summary type="html"><![CDATA[About a week ago, I was asked if I had tools for OneNote files. I don’t, and I had no time to take a closer look. But last Thursday night, I had some time to take a look. I looked at this OneNote maldoc sample. I opened the file in the binary editor I use […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: process-binary-file Version 0.0.8]]></title>
+        <id>http://blog.didierstevens.com/?p=9885</id>
+        <link href="https://blog.didierstevens.com/2023/01/22/update-process-binary-file-version-0-0-8/"/>
+        <updated>2023-01-22T09:27:38.000Z</updated>
+        <summary type="html"><![CDATA[New functions and classes have been added to process-binary-file.py. python-templates_V0_0_9.zip (http)MD5: 7C5E8602F225735015E9A431C5818762SHA256: CAEEEBB1E402E5127A431446A01BBE607B22AA0EB1F6FA12B8E7703275BE6F15]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Tool: onedump.py]]></title>
+        <id>http://blog.didierstevens.com/?p=9877</id>
+        <link href="https://blog.didierstevens.com/2023/01/22/new-tool-onedump-py/"/>
+        <updated>2023-01-22T09:24:04.000Z</updated>
+        <summary type="html"><![CDATA[This is a new tool (based on my Python template for binary files) to analyze OneNote files. This version is limited to handling embedded files (for the moment). As I might still make significant changes to the user interface, I’ve put this tool in my GitHub beta repository.]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Excelling at Excel, Part 3]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8391</id>
+        <link href="https://www.hexacorn.com/blog/2023/01/22/excelling-at-excel-part-3/"/>
+        <updated>2023-01-22T00:56:23.000Z</updated>
+        <summary type="html"><![CDATA[One of the most common use cases we come across during our malware analysis exercises is a ROI-driven comparison of features between many samples of the same malware family. Yes, […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Yara rules pageant]]></title>
         <id>https://www.hexacorn.com/blog/?p=8386</id>
@@ -986,38 +1026,6 @@ Terminate Windows processes with PsKill first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[This update to dnsresolver.py, my custom DNS server, adds a command to forward DNS request. With this forward command, all requests that are not handled by other commands, are forwarded to the provided DNS server. dnsresolver_V0_0_2.zip (http)MD5: D96EA9517E106C4C9E3668AB6799B150SHA256: 611C1540FE7FA2016E38689A153681428BBF3EAFC927A62342310A93022B3EC4]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: myjson-filter.py Version 0.0.3]]></title>
-        <id>http://blog.didierstevens.com/?p=9754</id>
-        <link href="https://blog.didierstevens.com/2022/12/24/update-myjson-filter-py-version-0-0-3/"/>
-        <updated>2022-12-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update of myjson-filter.py adds an option (-t) to filter on the magic field added by file-magic.py. To be explained in an upcoming blog post. myjson-filter_V0_0_3.zip (http)MD5: AB8AF505B120D02AD1A9846A72A340B5SHA256: AB73314ACCD65EC765D6DDA629AF273FF882D293F11F6A2EA8FC633B019E5836]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LTR102 - Published Finally!]]></title>
-        <id>6396fefa31bc853bb2be6e53</id>
-        <link href="https://blog.zsec.uk/ltr102-published-finally/"/>
-        <updated>2022-12-23T18:20:46.000Z</updated>
-        <summary type="html"><![CDATA[Hello Everyone, 
-This a short blog post to announce I have finally published my second book after several years of work. I have spent nearly five writing it; like my first one, it follows the path of getting into and progressing in the industry, while LTR101 was focused on bug]]></summary>
-        <author>
-            <name>Andy Gill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SecureAuth Wins 2022 CISO Choice Award for Identity and Access Management]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=46733</id>
-        <link href="https://www.secureauth.com/blog/secureauth-wins-2022-ciso-choice-award-for-identity-and-access-management/"/>
-        <updated>2022-12-23T14:51:21.000Z</updated>
-        <summary type="html"><![CDATA[Contemporary customers expect every organization to deliver seamless customer registration and authentication—keeping that experience safe and convenient is challenging. Organizations shouldn’t have to compromise their user experience for strong security. With Arculix by SecureAuth platform, you can have both. SecureAuth is thrilled to be awarded the 2022 CISO Choice Award Identity and Access Management category […]
-The post SecureAuth Wins 2022 CISO Choice Award for Identity and Access Management appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>Joan Fronske</name>
         </author>
     </entry>
     <entry>
