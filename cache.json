@@ -95,6 +95,16 @@
       "siteUrl": "https://www.skullsecurity.org/",
       "articles": [
         {
+          "id": "https://www.skullsecurity.org/2023/blast-from-the-past--how-attackers-compromised-zimbra-with-a-patched-vulnerability",
+          "author": null,
+          "description": "Last year, I worked on a vulnerability in Zimbra (CVE-2022-41352 - my AttackerKB analysis for Rapid7) that turned out to be a new(-ish) exploit path for a really old bug in cpio - CVE-2015-1194. But that was patched in 2019, so what happened? (I posted this as a tweet-thread awhile back, but I decided to flesh it out and make it into a full blog post!)",
+          "link": "https://www.skullsecurity.org/2023/blast-from-the-past--how-attackers-compromised-zimbra-with-a-patched-vulnerability",
+          "publishedOn": "2023-01-23T20:14:17.000Z",
+          "wordCount": 1623,
+          "title": "Blast from the Past: How Attackers Compromised Zimbra With a Patched Vulnerability",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
           "id": "https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data",
           "author": null,
           "description": "While reverse engineering a Linux binary, I ran into a fairly common situation: I wanted to understand how a decompression function works, but I didn’t have compressed data to test with. In this blog, I’ll look at how to we can manipulate the instruction pointer in the GNU debugger (gdb) to trick the software into generating test data for us! I posted this on Mastodon awhile back, but I cleaned it up and expanded it a bit to make it a full blog post.",
@@ -251,16 +261,6 @@
           "wordCount": 2865,
           "title": "New Tool: dns-pydivert.py",
           "imageUrl": "https://didierstevens.files.wordpress.com/2022/12/20221224-100719.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9727",
-          "author": "Didier Stevens",
-          "description": "This update to dnsresolver.py, my custom DNS server, adds a command to forward DNS request. With this forward command, all requests that are not handled by other commands, are forwarded to the provided DNS server. dnsresolver_V0_0_2.zip (http)MD5: D96EA9517E106C4C9E3668AB6799B150SHA256: 611C1540FE7FA2016E38689A153681428BBF3EAFC927A62342310A93022B3EC4",
-          "link": "https://blog.didierstevens.com/2022/12/25/update-dnsresolver-py-version-0-0-2/",
-          "publishedOn": "2022-12-25T00:00:00.000Z",
-          "wordCount": 2597,
-          "title": "Update: dnsresolver.py Version 0.0.2",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -354,6 +354,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63c6f74267d7b774dae03f15",
+          "author": "Simon Zuckerbraun",
+          "description": "Starting in July of 2022, the Windows CSRSS process entered the consciousness of the infosec community as the source of several local privilege escalation vulnerabilities in Microsoft Windows. The first public information appeared on July 12 with the release of the patch for CVE-2022-22047, which was being actively exploited. Shortly thereafter, Microsoft published an article providing some technical details and revealing that the threat actor involved was an Austrian hack-for-hire group tracked by Microsoft as KNOTWEED. Fortuitously, these developments coincided with closely related research I had been conducting, and in that same month, I reported to Microsoft two additional vulnerabilities affecting the same component. These have now been patched as CVE-2022-37987 and CVE-2022-37989 res…",
+          "link": "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation",
+          "publishedOn": "2023-01-23T16:25:00.000Z",
+          "wordCount": null,
+          "title": "Activation Context Cache Poisoning: Exploiting CSRSS for Privilege Escalation",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63c873a78ec28c353417c563",
           "author": "Trend Micro Research Team",
@@ -467,6 +478,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=18354",
+          "author": "Eli Sohl",
+          "description": "Hello and welcome to NCC Group’s Cryptopals guided tour! This post is the second in a series of eight installments (previously) covering the solutions to the Cryptopals Crypto Challenges. For those who don’t know, Cryptopals is a series of eight sets of challenges covering common cryptographic constructs and common attacks on them. You can read … Continue reading Announcing NCC Group’s Cryptopals Guided Tour: Set 2 →",
+          "link": "https://research.nccgroup.com/2023/01/23/announcing-ncc-groups-cryptopals-guided-tour-set-2/",
+          "publishedOn": "2023-01-23T14:00:00.000Z",
+          "wordCount": 2550,
+          "title": "Announcing NCC Group’s Cryptopals Guided Tour: Set 2",
+          "imageUrl": "http://img.youtube.com/vi/PLWvDpnCcem1P6i8pZm2x7KHp5iaxwrK_P/0.jpg"
+        },
         {
           "id": "https://research.nccgroup.com/?p=17930",
           "author": "Sultan Khan",
@@ -767,6 +788,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1569701",
+          "author": "Brandon Lee",
+          "description": "Applications such as CCleaner and other utilities have been popular for years as a quick and easy way for users to scan for and clear out temporary files, caches, logs, and other files to boost performance. Microsoft has released a new utility called PC Manager, which provides interesting features, including performance and security apps, in one location for Windows 10 and 11 PCs.\nManage Windows security and optimization features with Microsoft’s free PC Manager first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/manage-windows-security-and-optimization-features-with-microsofts-free-pc-manager/",
+          "publishedOn": "2023-01-23T14:13:24.000Z",
+          "wordCount": 13222,
+          "title": "Manage Windows security and optimization features with Microsoft’s free PC Manager",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/Launching-the-PC-Manager-utility-in-Windows-11-600x316.png"
+        },
         {
           "id": "https://4sysops.com/?p=1569686",
           "author": "Timothy Warner",

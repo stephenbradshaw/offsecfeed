@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-23T00:37:46.316Z</updated>
+    <updated>2023-01-24T00:41:09.379Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Blast from the Past: How Attackers Compromised Zimbra With a Patched Vulnerability]]></title>
+        <id>https://www.skullsecurity.org/2023/blast-from-the-past--how-attackers-compromised-zimbra-with-a-patched-vulnerability</id>
+        <link href="https://www.skullsecurity.org/2023/blast-from-the-past--how-attackers-compromised-zimbra-with-a-patched-vulnerability"/>
+        <updated>2023-01-23T20:14:17.000Z</updated>
+        <summary type="html"><![CDATA[Last year, I worked on a vulnerability in Zimbra (CVE-2022-41352 - my AttackerKB analysis for Rapid7) that turned out to be a new(-ish) exploit path for a really old bug in cpio - CVE-2015-1194. But that was patched in 2019, so what happened? (I posted this as a tweet-thread awhile back, but I decided to flesh it out and make it into a full blog post!)]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Activation Context Cache Poisoning: Exploiting CSRSS for Privilege Escalation]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63c6f74267d7b774dae03f15</id>
+        <link href="https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation"/>
+        <updated>2023-01-23T16:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Starting in July of 2022, the Windows CSRSS process entered the consciousness of the infosec community as the source of several local privilege escalation vulnerabilities in Microsoft Windows. The first public information appeared on July 12 with the release of the patch for CVE-2022-22047, which was being actively exploited. Shortly thereafter, Microsoft published an article providing some technical details and revealing that the threat actor involved was an Austrian hack-for-hire group tracked by Microsoft as KNOTWEED. Fortuitously, these developments coincided with closely related research I had been conducting, and in that same month, I reported to Microsoft two additional vulnerabilities affecting the same component. These have now been patched as CVE-2022-37987 and CVE-2022-37989 res…]]></summary>
+        <author>
+            <name>Simon Zuckerbraun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manage Windows security and optimization features with Microsoft’s free PC Manager]]></title>
+        <id>https://4sysops.com/?p=1569701</id>
+        <link href="https://4sysops.com/archives/manage-windows-security-and-optimization-features-with-microsofts-free-pc-manager/"/>
+        <updated>2023-01-23T14:13:24.000Z</updated>
+        <summary type="html"><![CDATA[Applications such as CCleaner and other utilities have been popular for years as a quick and easy way for users to scan for and clear out temporary files, caches, logs, and other files to boost performance. Microsoft has released a new utility called PC Manager, which provides interesting features, including performance and security apps, in one location for Windows 10 and 11 PCs.
+Manage Windows security and optimization features with Microsoft’s free PC Manager first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing NCC Group’s Cryptopals Guided Tour: Set 2]]></title>
+        <id>https://research.nccgroup.com/?p=18354</id>
+        <link href="https://research.nccgroup.com/2023/01/23/announcing-ncc-groups-cryptopals-guided-tour-set-2/"/>
+        <updated>2023-01-23T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello and welcome to NCC Group’s Cryptopals guided tour! This post is the second in a series of eight installments (previously) covering the solutions to the Cryptopals Crypto Challenges. For those who don’t know, Cryptopals is a series of eight sets of challenges covering common cryptographic constructs and common attacks on them. You can read … Continue reading Announcing NCC Group’s Cryptopals Guided Tour: Set 2 →]]></summary>
+        <author>
+            <name>Eli Sohl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Analyzing Malicious OneNote Documents]]></title>
         <id>http://blog.didierstevens.com/?p=9889</id>
@@ -1014,16 +1055,6 @@ Terminate Windows processes with PsKill first appeared on 4sysops.]]></summary>
         <link href="https://blog.didierstevens.com/2022/12/26/new-tool-dns-pydivert-py/"/>
         <updated>2022-12-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[dns-pydivert is a tool that uses WinDivert, a “user-mode packet capture-and-divert package for Windows” to divert IPv4 DNS packets to and from the machine it is running on. This tool requires admin rights. When started, it listens for IPv4 UDP packets with source and/or destination port equal to 53.When this tools processes its first UDP […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: dnsresolver.py Version 0.0.2]]></title>
-        <id>http://blog.didierstevens.com/?p=9727</id>
-        <link href="https://blog.didierstevens.com/2022/12/25/update-dnsresolver-py-version-0-0-2/"/>
-        <updated>2022-12-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update to dnsresolver.py, my custom DNS server, adds a command to forward DNS request. With this forward command, all requests that are not handled by other commands, are forwarded to the provided DNS server. dnsresolver_V0_0_2.zip (http)MD5: D96EA9517E106C4C9E3668AB6799B150SHA256: 611C1540FE7FA2016E38689A153681428BBF3EAFC927A62342310A93022B3EC4]]></summary>
         <author>
             <name>Didier Stevens</name>
         </author>
