@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-28T06:44:22.187Z</updated>
+    <updated>2023-01-28T06:46:56.026Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -197,6 +197,37 @@ Save and access the BitLocker recovery key in the Microsoft account first appear
 OSINT your OT suppliers first appeared on Pen Test Partners.]]></summary>
         <author>
             <name>Tony Gee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tampering User Attributes In AWS Cognito User Pools]]></title>
+        <id>https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html</id>
+        <link href="https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html"/>
+        <updated>2023-01-23T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From The Previous Episode… Did you solve the CloudSecTidbit Ep. 1 IaC lab?
+Solution
+The challenge for the data-import CloudSecTidbit is basically reading the content of an internal bucket. The frontend web application is using the targeted bucket to store the logo of the app.
+The name of the bucket is returned to the client by calling the /variable endpoint:
+
+$.ajax({
+    type: 'GET',
+    url: '/variable',
+    dataType: 'json',
+    success: function (data) {
+        let source_internal = `https://${data}.s3.amazonaws.com/public-stuff/logo.png?${Math.random()}`;
+        $(".logo_image").attr("src", source_internal);
+    },
+    error: function (jqXHR, status, err) {
+        alert("Error getting variable name");
+    }
+});
+
+
+The server will return something like:
+
+"data-internal-private-202207…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -798,6 +829,17 @@ Install vCenter 8 in VMware Workstation first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[SAP gets creative to develop early cyber talent at the collegiate level, with the SANS Institute’s cyber range portfolio.]]></summary>
         <author>
             <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ImageMagick Security Policy Evaluator]]></title>
+        <id>https://blog.doyensec.com//2023/01/10/imagemagick-security-policy-evaluator.html</id>
+        <link href="https://blog.doyensec.com//2023/01/10/imagemagick-security-policy-evaluator.html"/>
+        <updated>2023-01-09T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[During our audits we occasionally stumble across ImageMagick security policy configuration files (policy.xml), useful for limiting the default behavior and the resources consumed by the library. In the wild, these files often contain a plethora of recommendations cargo cultured from around the internet. This normally happens for two reasons:
+Its options are only generally described on the online documentation page of the library, with no clear breakdown of what each security directive allowed by the policy is regulating. While the architectural complexity and the granularity of options definable by the policy are the major obstacles for a newbie, the corresponding knowledge base could be more welcoming. By default, ImageMagick comes with an unrestricted policy that must be tuned by the dev…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>

@@ -621,6 +621,33 @@
       "articles": []
     },
     {
+      "title": "Doyensec's Blog",
+      "feedUrl": "https://blog.doyensec.com/atom.xml",
+      "siteUrl": "https://blog.doyensec.com//atom.xml",
+      "articles": [
+        {
+          "id": "https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html",
+          "author": null,
+          "description": "From The Previous Episode… Did you solve the CloudSecTidbit Ep. 1 IaC lab?\nSolution\nThe challenge for the data-import CloudSecTidbit is basically reading the content of an internal bucket. The frontend web application is using the targeted bucket to store the logo of the app.\nThe name of the bucket is returned to the client by calling the /variable endpoint:\n\n$.ajax({\n    type: 'GET',\n    url: '/variable',\n    dataType: 'json',\n    success: function (data) {\n        let source_internal = `https://${data}.s3.amazonaws.com/public-stuff/logo.png?${Math.random()}`;\n        $(\".logo_image\").attr(\"src\", source_internal);\n    },\n    error: function (jqXHR, status, err) {\n        alert(\"Error getting variable name\");\n    }\n});\n\n\nThe server will return something like:\n\n\"data-internal-private-202207…",
+          "link": "https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html",
+          "publishedOn": "2023-01-23T23:00:00.000Z",
+          "wordCount": 1445,
+          "title": "Tampering User Attributes In AWS Cognito User Pools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.doyensec.com//2023/01/10/imagemagick-security-policy-evaluator.html",
+          "author": null,
+          "description": "During our audits we occasionally stumble across ImageMagick security policy configuration files (policy.xml), useful for limiting the default behavior and the resources consumed by the library. In the wild, these files often contain a plethora of recommendations cargo cultured from around the internet. This normally happens for two reasons:\nIts options are only generally described on the online documentation page of the library, with no clear breakdown of what each security directive allowed by the policy is regulating. While the architectural complexity and the granularity of options definable by the policy are the major obstacles for a newbie, the corresponding knowledge base could be more welcoming. By default, ImageMagick comes with an unrestricted policy that must be tuned by the dev…",
+          "link": "https://blog.doyensec.com//2023/01/10/imagemagick-security-policy-evaluator.html",
+          "publishedOn": "2023-01-09T23:00:00.000Z",
+          "wordCount": 1086,
+          "title": "ImageMagick Security Policy Evaluator",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "Attack & Defense",
       "feedUrl": "https://blog.mozilla.org/attack-and-defense/feed/",
       "siteUrl": "https://blog.mozilla.org/attack-and-defense",

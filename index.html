@@ -718,11 +718,65 @@ OSINT your OT suppliers first appeared on Pen Test Partners.</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-23 datetime="2023-01-23T20:14:17.000Z">2023-01-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-23 datetime="2023-01-23T20:14:17.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-23 datetime="2023-01-23T23:00:00.000Z">2023-01-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-23 datetime="2023-01-23T23:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Doyensec&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://blog.doyensec.com//atom.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Tampering User Attributes In AWS Cognito User Pools</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>From The Previous Episode… Did you solve the CloudSecTidbit Ep. 1 IaC lab?
+Solution
+The challenge for the data-import CloudSecTidbit is basically reading the content of an internal bucket. The frontend web application is using the targeted bucket to store the logo of the app.
+The name of the bucket is returned to the client by calling the /variable endpoint:
+
+$.ajax({
+    type: &#x27;GET&#x27;,
+    url: &#x27;/variable&#x27;,
+    dataType: &#x27;json&#x27;,
+    success: function (data) {
+        let source_internal &#x3D; &#x60;https://${data}.s3.amazonaws.com/public-stuff/logo.png?${Math.random()}&#x60;;
+        $(&quot;.logo_image&quot;).attr(&quot;src&quot;, source_internal);
+    },
+    error: function (jqXHR, status, err) {
+        alert(&quot;Error getting variable name&quot;);
+    }
+});
+
+
+The server will return something like:
+
+&quot;data-internal-private-202207…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -2809,11 +2863,45 @@ Install vCenter 8 in VMware Workstation first appeared on 4sysops.</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-09 datetime="2023-01-09T16:06:27.000Z">2023-01-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-09 datetime="2023-01-09T16:06:27.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-09 datetime="2023-01-09T23:00:00.000Z">2023-01-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-09 datetime="2023-01-09T23:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Doyensec&#x27;s Blog</button>
+                  <a class="source-heading__link" href="https://blog.doyensec.com//atom.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.doyensec.com//2023/01/10/imagemagick-security-policy-evaluator.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ImageMagick Security Policy Evaluator</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.doyensec.com//2023/01/10/imagemagick-security-policy-evaluator.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>During our audits we occasionally stumble across ImageMagick security policy configuration files (policy.xml), useful for limiting the default behavior and the resources consumed by the library. In the wild, these files often contain a plethora of recommendations cargo cultured from around the internet. This normally happens for two reasons:
+Its options are only generally described on the online documentation page of the library, with no clear breakdown of what each security directive allowed by the policy is regulating. While the architectural complexity and the granularity of options definable by the policy are the major obstacles for a newbie, the corresponding knowledge base could be more welcoming. By default, ImageMagick comes with an unrestricted policy that must be tuned by the dev…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -4407,8 +4495,8 @@ rot.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/4030628696">
-        <time id="build-timestamp" datetime="2023-01-28T06:44:22.154Z">2023-01-28T06:44:22.154Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/4030636081">
+        <time id="build-timestamp" datetime="2023-01-28T06:46:55.999Z">2023-01-28T06:46:55.999Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
