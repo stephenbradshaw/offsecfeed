@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-06T00:38:12.530Z</updated>
+    <updated>2023-02-07T00:40:31.869Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rustproofing Linux (Part 1/4 Leaking Addresses)]]></title>
+        <id>https://research.nccgroup.com/?p=18577</id>
+        <link href="https://research.nccgroup.com/2023/02/06/rustproofing-linux-part-1-4-leaking-addresses/"/>
+        <updated>2023-02-06T22:32:21.000Z</updated>
+        <summary type="html"><![CDATA[Rust is a programming language guaranteeing memory and thread safety while still being able to access raw memory and hardware. This sounds impossible, and it is, that’s why Rust has an unsafe keyword which allows a programmer to dereference a raw pointer and perform some other dangerous operations. The dangerous code is effectively contained to … Continue reading Rustproofing Linux (Part 1/4 Leaking Addresses) →]]></summary>
+        <author>
+            <name>Domen Puncer Kugler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Source Tools: From Our Lab to Your Fingertips]]></title>
+        <id>https://www.praetorian.com/?p=4415</id>
+        <link href="https://www.praetorian.com/blog/open-source-tools-from-our-lab/"/>
+        <updated>2023-02-06T20:20:24.000Z</updated>
+        <summary type="html"><![CDATA[One of the core decisions we’ve made at Praetorian is to maximize efficiency and effectiveness. In pursuit of this, we carefully select and implement automation and technical solutions for tasks that don’t need human attention. The key is choosing thoughtfully developed tech and tools; when we can’t find what we need, we create it ourselves! […]
+The post Open Source Tools: From Our Lab to Your Fingertips appeared first on Praetorian.]]></summary>
+        <author>
+            <name>emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Local password manager with Bitwarden unified]]></title>
+        <id>https://4sysops.com/?p=1569988</id>
+        <link href="https://4sysops.com/archives/local-password-manager-with-bitwarden-unified/"/>
+        <updated>2023-02-06T15:39:39.000Z</updated>
+        <summary type="html"><![CDATA[The Bitwarden unified self-hosted deployment is an excellent local password manager. In this post, I will explain the difference between Bitwarden unified and Bitwarden standard, outline the installation of Bitwarden unified, and show you how to configure your new local password manager.
+Local password manager with Bitwarden unified first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Synack’s Top 5 Vulnerabilities Found in 2022]]></title>
+        <id>https://www.synack.com/?p=15997</id>
+        <link href="https://www.synack.com/blog/top-5-vulnerabilities-found-in-2022/"/>
+        <updated>2023-02-06T11:00:57.000Z</updated>
+        <summary type="html"><![CDATA[IT and Cybersecurity leaders need the clearest picture of their networks and assets to understand if their organizations are at risk and what to do about it. When it comes to looking ahead at zero day vulnerabilities, it can be helpful for leaders to first look back to understand the collective strengths and weaknesses of […]
+The post Synack’s Top 5 Vulnerabilities Found in 2022 appeared first on Synack.]]></summary>
+        <author>
+            <name>Michelle Welch Fuller</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overview of Content Published in January]]></title>
         <id>http://blog.didierstevens.com/?p=9916</id>
@@ -14,6 +57,16 @@
         <summary type="html"><![CDATA[Here is an overview of content I published in January: Blog posts: New Tool: onedump.py Update: process-binary-file Version 0.0.8 Analyzing Malicious OneNote Documents SANS ISC Diary entries: YARA v4.3.0-rc1 –skip-larger Wireshark 4.0.3 Released Detecting (Malicious) OneNote Files]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Custom Mach-O Memory Loader for macOS - Part 1]]></title>
+        <id>https://blog.xpnsec.com/building-a-mach-o-memory-loader-part-1/</id>
+        <link href="https://blog.xpnsec.com/building-a-mach-o-memory-loader-part-1/"/>
+        <updated>2023-02-04T10:03:31.000Z</updated>
+        <summary type="html"><![CDATA[In this blog we'll look at what it takes to construct an in-memory loader for Mach-O bundles within MacOS Ventura without using dyld. We'll walk though the lower-level details of what makes up a Mach-O file, how dyld processes load commands to map areas into memory, and how we can emulate this to avoid writing payloads to disk.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
         </author>
     </entry>
     <entry>
@@ -1048,16 +1101,6 @@ UK gov website being used to redirect to porn sites first appeared on Pen Test P
 UK gov website being used to phish porn site creds first appeared on Pen Test Partners.]]></summary>
         <author>
             <name>Adam Bromiley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Excelling at Excel, Part 2]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8359</id>
-        <link href="https://www.hexacorn.com/blog/2023/01/08/excelling-at-excel-part-2/"/>
-        <updated>2023-01-08T00:01:01.000Z</updated>
-        <summary type="html"><![CDATA[Today I will talk about automated query-building using Excel. Working as a detection engineering and/or threat hunting specialist we often need to create a lot of queries including a lot […]]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
