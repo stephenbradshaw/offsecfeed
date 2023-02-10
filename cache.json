@@ -144,16 +144,6 @@
           "wordCount": 1623,
           "title": "Blast from the Past: How Attackers Compromised Zimbra With a Patched Vulnerability",
           "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data",
-          "author": null,
-          "description": "While reverse engineering a Linux binary, I ran into a fairly common situation: I wanted to understand how a decompression function works, but I didn’t have compressed data to test with. In this blog, I’ll look at how to we can manipulate the instruction pointer in the GNU debugger (gdb) to trick the software into generating test data for us! I posted this on Mastodon awhile back, but I cleaned it up and expanded it a bit to make it a full blog post.",
-          "link": "https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data",
-          "publishedOn": "2023-01-10T18:02:16.000Z",
-          "wordCount": 1648,
-          "title": "GDB Tricks: Tricking the Application into Generating Test Data",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
         }
       ]
     },
@@ -481,6 +471,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=18880",
+          "author": "chrisanley",
+          "description": "TL;DR: Don’t use ChatGPT for security code review. It’s not meant to be used that way, it doesn’t really work (although you might be fooled into thinking it does), and there are some other major problems that make it impractical. Also, both the CEO of OpenAI and ChatGPT itself say that you shouldn’t. Large Language … Continue reading Security Code Review With ChatGPT →",
+          "link": "https://research.nccgroup.com/2023/02/09/security-code-review-with-chatgpt/",
+          "publishedOn": "2023-02-09T17:50:20.000Z",
+          "wordCount": 6396,
+          "title": "Security Code Review With ChatGPT",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=18655",
           "author": "Domen Puncer Kugler",
           "description": "This is a four part blog post series that starts with Rustproofing Linux (Part 1/4 Leaking Addresses). This post uses a simple example to demonstrate a class of vulnerability that we encounter quite frequently when auditing kernel drivers and firmware. It’s a race condition, or more precisely a TOCTOU vulnerability. The complete vulnerable C driver … Continue reading Rustproofing Linux (Part 2/4 Race Conditions) →",
@@ -577,6 +577,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=4419",
+          "author": "emmaline",
+          "description": "About 10 years ago, security was relatively simple because everything occurred on premises. Change releases were tightly controlled by a change ticket and review process. In contrast, current networks consist of auto-scaling containers that run in Kubernetes clusters and even serverless clusters like AWS Lambda. We have transitioned from constrained environments that humans closely scrutinized […]\nThe post ASM: The Best Defense is a Good Offense appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/the-best-defense-is-a-good-offense/",
+          "publishedOn": "2023-02-09T15:00:16.000Z",
+          "wordCount": 1909,
+          "title": "ASM: The Best Defense is a Good Offense",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
+        },
         {
           "id": "https://www.praetorian.com/?p=4415",
           "author": "emmaline",
@@ -734,16 +744,6 @@
           "wordCount": null,
           "title": "Keeping the wolves out of wolfSSL",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=103612",
-          "author": "Trail of Bits",
-          "description": "By Samuel Moelius This time last year, we wrote about the more than 190 Trail of Bits-authored pull requests that were merged into non-Trail of Bits repositories in 2021. In 2022, we continued that trend by having more than 400 pull requests merged into non-Trail of Bits repositories! Why is this significant? While we take […]",
-          "link": "https://blog.trailofbits.com/2023/01/10/open-source-contributions-2022/",
-          "publishedOn": "2023-01-10T13:00:32.000Z",
-          "wordCount": 5070,
-          "title": "Another prolific year of open-source contributions",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -877,6 +877,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570053",
+          "author": "Andrej Radonic",
+          "description": "AppTec360 Enterprise Mobility Management (EMM) is not only suitable for managing mobile devices but also PCs. For PCs, the Swiss company follows Microsoft's concept of \"modern management\" via MDM interfaces. Its BitLocker module allows unattended encryption and offers key management.\nManage BitLocker centrally with AppTec360 EMM first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/manage-bitlocker-centrally-with-apptec360-emm/",
+          "publishedOn": "2023-02-09T11:46:24.000Z",
+          "wordCount": 13125,
+          "title": "Manage BitLocker centrally with AppTec360 EMM",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/The-report-provides-information-about-the-encryption-status-of-all-managed-Windows-PCs-600x357.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570039",
           "author": "Timothy Warner",
@@ -1086,16 +1096,6 @@
           "wordCount": 13233,
           "title": "Migrate a SQL Server Database to Azure SQL Database",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/Verifying-successful-database-migration-600x390.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1569503",
-          "author": "Brandon Lee",
-          "description": "Many people use VMware Workstation to set up lab environments. The first step in getting vSphere 8 with a vSphere cluster running is to install the vCenter Server Appliance (vCSA). Let's see how we can deploy vCenter Server 8 in VMware Workstation.\nInstall vCenter 8 in VMware Workstation first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/install-vcenter-8-in-vmware-workstation/",
-          "publishedOn": "2023-01-10T12:59:36.000Z",
-          "wordCount": 12319,
-          "title": "Install vCenter 8 in VMware Workstation",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/The-new-vCenter-Server-VM-boots-and-is-ready-to-connect-600x426.png"
         }
       ]
     },
@@ -1180,6 +1180,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/artificial-intelligence-what-to-tell-your-workforce",
+          "author": null,
+          "description": "Not sure what to share or communicate to your workforce about Artificial Intelligence?  Here are some key points you can share.",
+          "link": "https://www.sans.org/blog/artificial-intelligence-what-to-tell-your-workforce?msc=rss",
+          "publishedOn": "2023-02-09T00:00:00.000Z",
+          "wordCount": 3722,
+          "title": "Artificial Intelligence - What to Tell Your Workforce",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/the-what-how-of-role-role-based-training",
           "author": null,
@@ -1553,6 +1563,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/12-hacking-influencers",
+          "author": "Britt Kemp",
+          "description": "Check out this blog to learn about our favorite influencers to follow on the hacker scene.",
+          "link": "https://bishopfox.com/blog/12-hacking-influencers",
+          "publishedOn": "2023-02-09T15:00:00.000Z",
+          "wordCount": 2151,
+          "title": "The Top 12 Hacking Influencers to Follow",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Hacking-Influencers_OG.jpg?mtime=1675461035"
+        },
+        {
           "id": "https://bishopfox.com/blog/spoofy-email-domain-spoofing",
           "author": "Matt Keeley",
           "description": "In this blog, take a deep dive into Spoofy, an opensource tool that offers bulk domain lookup based on DMARC and SPF records.",
@@ -1581,16 +1601,6 @@
           "wordCount": 2087,
           "title": "8 Network Pen Testing Tools for Your Hacker Arsenal",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Network-Penesting-Tools_OG.jpg?mtime=1673391029"
-        },
-        {
-          "id": "https://bishopfox.com/blog/not-your-typical-internal-testing",
-          "author": "Seth Art",
-          "description": "Learn what it is like to be a cloud penetration tester from our expert, Seth Art.",
-          "link": "https://bishopfox.com/blog/not-your-typical-internal-testing",
-          "publishedOn": "2023-01-10T16:00:00.000Z",
-          "wordCount": 2537,
-          "title": "Cloud Penetration: Not Your Typical Internal Testing",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Cloud-Penetration-OG.jpg?mtime=1672939776"
         }
       ]
     },
@@ -1599,6 +1609,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/blog/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=16007",
+          "author": "SRT Community",
+          "description": "Popeax is a member of the Synack Red Team. Often people think security research requires deep knowledge of systems and exploits, and sometimes it does, but in this case all it took was some curiosity and a Google search to find an alarmingly simple exploit using default credentials. On a recent host engagement, I discovered […]\nThe post Exploits Explained: Default Credentials Still a Problem Today appeared first on Synack.",
+          "link": "https://www.synack.com/blog/default-credentials-still-a-problem-today/",
+          "publishedOn": "2023-02-09T18:51:27.000Z",
+          "wordCount": 1789,
+          "title": "Exploits Explained: Default Credentials Still a Problem Today",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2022/09/synack-exploits-explained-blog-series-image-3.jpg"
+        },
         {
           "id": "https://www.synack.com/?p=15997",
           "author": "Michelle Welch Fuller",

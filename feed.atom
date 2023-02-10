@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-09T00:40:01.105Z</updated>
+    <updated>2023-02-10T00:42:48.668Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Exploits Explained: Default Credentials Still a Problem Today]]></title>
+        <id>https://www.synack.com/?p=16007</id>
+        <link href="https://www.synack.com/blog/default-credentials-still-a-problem-today/"/>
+        <updated>2023-02-09T18:51:27.000Z</updated>
+        <summary type="html"><![CDATA[Popeax is a member of the Synack Red Team. Often people think security research requires deep knowledge of systems and exploits, and sometimes it does, but in this case all it took was some curiosity and a Google search to find an alarmingly simple exploit using default credentials. On a recent host engagement, I discovered […]
+The post Exploits Explained: Default Credentials Still a Problem Today appeared first on Synack.]]></summary>
+        <author>
+            <name>SRT Community</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Code Review With ChatGPT]]></title>
+        <id>https://research.nccgroup.com/?p=18880</id>
+        <link href="https://research.nccgroup.com/2023/02/09/security-code-review-with-chatgpt/"/>
+        <updated>2023-02-09T17:50:20.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Don’t use ChatGPT for security code review. It’s not meant to be used that way, it doesn’t really work (although you might be fooled into thinking it does), and there are some other major problems that make it impractical. Also, both the CEO of OpenAI and ChatGPT itself say that you shouldn’t. Large Language … Continue reading Security Code Review With ChatGPT →]]></summary>
+        <author>
+            <name>chrisanley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASM: The Best Defense is a Good Offense]]></title>
+        <id>https://www.praetorian.com/?p=4419</id>
+        <link href="https://www.praetorian.com/blog/the-best-defense-is-a-good-offense/"/>
+        <updated>2023-02-09T15:00:16.000Z</updated>
+        <summary type="html"><![CDATA[About 10 years ago, security was relatively simple because everything occurred on premises. Change releases were tightly controlled by a change ticket and review process. In contrast, current networks consist of auto-scaling containers that run in Kubernetes clusters and even serverless clusters like AWS Lambda. We have transitioned from constrained environments that humans closely scrutinized […]
+The post ASM: The Best Defense is a Good Offense appeared first on Praetorian.]]></summary>
+        <author>
+            <name>emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Top 12 Hacking Influencers to Follow]]></title>
+        <id>https://bishopfox.com/blog/12-hacking-influencers</id>
+        <link href="https://bishopfox.com/blog/12-hacking-influencers"/>
+        <updated>2023-02-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Check out this blog to learn about our favorite influencers to follow on the hacker scene.]]></summary>
+        <author>
+            <name>Britt Kemp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manage BitLocker centrally with AppTec360 EMM]]></title>
+        <id>https://4sysops.com/?p=1570053</id>
+        <link href="https://4sysops.com/archives/manage-bitlocker-centrally-with-apptec360-emm/"/>
+        <updated>2023-02-09T11:46:24.000Z</updated>
+        <summary type="html"><![CDATA[AppTec360 Enterprise Mobility Management (EMM) is not only suitable for managing mobile devices but also PCs. For PCs, the Swiss company follows Microsoft's concept of "modern management" via MDM interfaces. Its BitLocker module allows unattended encryption and offers key management.
+Manage BitLocker centrally with AppTec360 EMM first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Andrej Radonic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Artificial Intelligence - What to Tell Your Workforce]]></title>
+        <id>https://www.sans.org/blog/artificial-intelligence-what-to-tell-your-workforce</id>
+        <link href="https://www.sans.org/blog/artificial-intelligence-what-to-tell-your-workforce?msc=rss"/>
+        <updated>2023-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Not sure what to share or communicate to your workforce about Artificial Intelligence?  Here are some key points you can share.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ghostwriter v3.2 Release]]></title>
         <id>https://medium.com/p/5acb517f154c</id>
@@ -1108,47 +1171,6 @@ Adobe Patches for January 2023
 For January, Adobe released four patches addressing 29 CVEs in Adobe Acrobat and Reader, InDesign, InCopy, and Adobe Dimension. A total of 22 of these bugs were submitted through the ZDI program. The update for Reader fixes 15 bugs with eight of these being ranked Critical in severity. The most severe of these would allow arbitrary code execution if an affected system opened a specially crafted file. The patch for InDesign fixes six bug, four of which are rated Critical. Similar to the Reader patch, openin…]]></summary>
         <author>
             <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GDB Tricks: Tricking the Application into Generating Test Data]]></title>
-        <id>https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data</id>
-        <link href="https://www.skullsecurity.org/2023/gdb-tricks--tricking-the-application-into-generating-test-data"/>
-        <updated>2023-01-10T18:02:16.000Z</updated>
-        <summary type="html"><![CDATA[While reverse engineering a Linux binary, I ran into a fairly common situation: I wanted to understand how a decompression function works, but I didn’t have compressed data to test with. In this blog, I’ll look at how to we can manipulate the instruction pointer in the GNU debugger (gdb) to trick the software into generating test data for us! I posted this on Mastodon awhile back, but I cleaned it up and expanded it a bit to make it a full blog post.]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Penetration: Not Your Typical Internal Testing]]></title>
-        <id>https://bishopfox.com/blog/not-your-typical-internal-testing</id>
-        <link href="https://bishopfox.com/blog/not-your-typical-internal-testing"/>
-        <updated>2023-01-10T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn what it is like to be a cloud penetration tester from our expert, Seth Art.]]></summary>
-        <author>
-            <name>Seth Art</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Another prolific year of open-source contributions]]></title>
-        <id>https://blog.trailofbits.com/?p=103612</id>
-        <link href="https://blog.trailofbits.com/2023/01/10/open-source-contributions-2022/"/>
-        <updated>2023-01-10T13:00:32.000Z</updated>
-        <summary type="html"><![CDATA[By Samuel Moelius This time last year, we wrote about the more than 190 Trail of Bits-authored pull requests that were merged into non-Trail of Bits repositories in 2021. In 2022, we continued that trend by having more than 400 pull requests merged into non-Trail of Bits repositories! Why is this significant? While we take […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install vCenter 8 in VMware Workstation]]></title>
-        <id>https://4sysops.com/?p=1569503</id>
-        <link href="https://4sysops.com/archives/install-vcenter-8-in-vmware-workstation/"/>
-        <updated>2023-01-10T12:59:36.000Z</updated>
-        <summary type="html"><![CDATA[Many people use VMware Workstation to set up lab environments. The first step in getting vSphere 8 with a vSphere cluster running is to install the vCenter Server Appliance (vCSA). Let's see how we can deploy vCenter Server 8 in VMware Workstation.
-Install vCenter 8 in VMware Workstation first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>
