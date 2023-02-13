@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-12T00:43:14.622Z</updated>
+    <updated>2023-02-13T00:42:39.822Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: pdf-parser.py Version 0.7.8]]></title>
+        <id>http://blog.didierstevens.com/?p=9918</id>
+        <link href="https://blog.didierstevens.com/2023/02/12/update-pdf-parser-py-version-0-7-8/"/>
+        <updated>2023-02-12T12:15:16.000Z</updated>
+        <summary type="html"><![CDATA[A small feature update for pdf-parser.py Statistics include unreferenced objects now: pdf-parser_V0_7_8.zip (http)MD5: 7BBEA9497666397CBBB88B012A710210SHA256: FE393865861E00B48124B99CD5AEBBB5A632F1FBD883F4E4044DF8C8FA75BE9D]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimising an eBPF Optimiser with Prodfiler (Repost)]]></title>
         <id>http://sean.heelan.io/?p=2604</id>
@@ -1032,68 +1042,6 @@ Remove an old Windows certificate authority first appeared on 4sysops.]]></summa
         <summary type="html"><![CDATA[Podcasts are a great way to stay current with the industry while living your life so we've compiled a list of some of our favorite cyber security podcasts.]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restoring Dyld Memory Loading]]></title>
-        <id>https://blog.xpnsec.com/restoring-dyld-memory-loading/</id>
-        <link href="https://blog.xpnsec.com/restoring-dyld-memory-loading/"/>
-        <updated>2023-01-14T12:03:31.000Z</updated>
-        <summary type="html"><![CDATA[Up until recently, we've enjoyed in-memory loading of Mach-O bundles courtesy of dyld and its NSCreateObjectFileImageFromMemory/NSLinkModule API methods. And while these methods still exist today, there is a key difference.. memory modules are now persisted to disk. So in this post we'll take a look at just what was changed in dyld, and see what we can do to restore this functionality... hopefully keeping our warez in memory for a little longer.]]></summary>
-        <author>
-            <name>XPN InfoSec Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decrypting SHell Compiled (SHC) ELF files]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8374</id>
-        <link href="https://www.hexacorn.com/blog/2023/01/13/decrypting-shell-compiled-shc-elf-files/"/>
-        <updated>2023-01-13T23:37:28.000Z</updated>
-        <summary type="html"><![CDATA[In its recent blog post AhnLab described a campaign that relies on SHell Compiled (SHC) ELF files. I wanted to see if I can replicate their reverse engineering work and […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CloudLinux LVE kernel module (kmod-lve) Reference Counter Overflow]]></title>
-        <id>https://blog.exodusintel.com/?p=2045</id>
-        <link href="https://blog.exodusintel.com/2023/01/13/cloudlinux-lve-kernel-module-kmod-lve-reference-counter-overflow/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=cloudlinux-lve-kernel-module-kmod-lve-reference-counter-overflow"/>
-        <updated>2023-01-13T22:38:09.000Z</updated>
-        <summary type="html"><![CDATA[EIP-ad32d249 A local privilege escalation vulnerability exists in the CloudLinux Lightweight Virtualized Environment (LVE) kernel module due to an overflow of a reference counter. Successful exploitation allows an authenticated local user to escalate their privileges to root, whereas an unsuccessful exploit may cause a kernel panic.  Vulnerability Identifiers Exodus Intelligence: EIP-ad32d249 MITRE: CVE-2022-0492 Vulnerability Metrics CVSSv2 ... Read more CloudLinux LVE kernel module (kmod-lve) Reference Counter Overflow
-The post CloudLinux LVE kernel module (kmod-lve) Reference Counter Overflow appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[H1 Hackers Walk the Streets of Barcelona at H1-3493!]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/h1-hackers-walk-streets-barcelona-h1-3493</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/h1-hackers-walk-streets-barcelona-h1-3493"/>
-        <updated>2023-01-13T17:21:46.000Z</updated>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing a stable release of sigstore-python]]></title>
-        <id>https://blog.trailofbits.com/?p=103734</id>
-        <link href="https://blog.trailofbits.com/2023/01/13/sigstore-python/"/>
-        <updated>2023-01-13T15:00:58.000Z</updated>
-        <summary type="html"><![CDATA[By William Woodruff Read the official announcement on the Sigstore blog as well! Trail of Bits is thrilled to announce the first stable release of sigstore-python, a client implementation of Sigstore that we’ve been developing for nearly a year! This work has been graciously funded by Google’s Open Source Security Team (GOSST), who we’ve also […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Pwn2Own Vancouver for 2023]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63bf1e75dbbc35368c081d37</id>
-        <link href="https://www.thezdi.com/blog/2023/1/11/announcing-pwn2own-vancouver-for-2023"/>
-        <updated>2023-01-12T14:43:33.000Z</updated>
-        <summary type="html"><![CDATA[Jump to the contest rules
-Last year, we celebrated the 15th anniversary of Pwn2Own with a spectacular contest. We awarded more than $1,000,000 USD for the amazing research demonstrated. That makes us even more excited to return to Vancouver for the 2023 edition of Pwn2Own. Similar to last year, we’ll be holding a hybrid conference with most of us in person at the Sheraton Wall Center in Vancouver for the CanSecWest conference on March 22-24, 2023. The other part of the hybrid event means that we also allow remote participation. If you have either travel restrictions or travel safety concerns, you can opt to compete remotely. 
-We’re also excited to have Tesla return as a partner. They always innovate, and we’ve updated our target list to keep up. We’ve added a Steam VM Escape category with …]]></summary>
-        <author>
-            <name>Brian Gorenc</name>
         </author>
     </entry>
     <entry>
