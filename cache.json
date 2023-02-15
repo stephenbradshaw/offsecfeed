@@ -184,6 +184,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=9937",
+          "author": "Didier Stevens",
+          "description": "In this new version of cut-bytes.py, I add support for custom Python transforms (options -P and -S), pyzipper and fixed a bug. cut-bytes_V0_0_16.zip (http)MD5: 04E6E0E46C6698127BAE443AF5CEF0F6SHA256: 0657F6A6837CEC9F3E9E50551F8861D19B70305A4B7C3C409D561C3462550D24",
+          "link": "https://blog.didierstevens.com/2023/02/15/update-cut-bytes-py-version-0-0-16/",
+          "publishedOn": "2023-02-15T00:00:00.000Z",
+          "wordCount": 2576,
+          "title": "Update: cut-bytes.py Version 0.0.16",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=9934",
           "author": "Didier Stevens",
           "description": "I added extra plaintexts for the modulus of Cobalt Strike’s public RSA key. xor-kpa_V0_0_7.zip (http)MD5: FB8155E56234648CC3AFFD890BFE9043SHA256: 069DCA2A1901D448DBF2CF202B5CE49846EFCBAACB73BF35B20AA085AAB31BA9",
@@ -346,6 +356,28 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63e17166890ebd566367657f",
+          "author": "Dustin Childs",
+          "description": "Welcome to the second patch Tuesday of 2023. On this romantic holiday, Microsoft and Adobe have released their latest security patches as Valentine’s gifts for us all. Take a break from your regularly scheduled activities (or Pwn2Own Miami) and join us as we review the details of their latest security offerings.\nAdobe Patches for February 2023\nFor February, Adobe released nine patches addressing 28 CVEs in Adobe Photoshop, Substance 3D Stager, Animate, InDesign, Bridge, FrameMaker, Connect, and After Effects. A total of 21 of these were reported by ZDI vulnerability researcher Mat Powell. Probably the most interesting fix is for PhotoShop. This patch fixes five bugs, three of which are rated Critical. An attacker could get arbitrary code execution if they can convince a user on an affected…",
+          "link": "https://www.thezdi.com/blog/2023/2/14/the-february-2023-security-update-overview",
+          "publishedOn": "2023-02-14T18:28:14.000Z",
+          "wordCount": null,
+          "title": "The February 2023 Security Update Overview",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63e2cb3f3fc4dd669e134b36",
+          "author": "Dustin Childs",
+          "description": "Welcome to the first day of Pwn2Own Miami for 2023. We’ll be updating this blog in real time as results become available. For this year’s event, each round will receive the full payout for unique entries. We’ll update this blog throughout the day with results as they come in.\nAll results current as of 1615 Eastern (GMT -5)\nSUCCESS - Claroty was able to execute their DoS attack against the Inductive Automation Ignition. They earn $5,000 and 5 Master of Pwn points.\nSUCCESS – Team ECQ used a Null Pointer Deref to complete their DoS attack against Softing edgeConnector Siemens. They earn $5,000 and 5 Master of Pwn points.\nSUCCESS – Claroty used a four-bug chain in their attack against the Triangle Microworks SCADA Data Gateway. They earn $20,000 and 20 Master of Pwn points.\nSUCCESS - 20urdjk was able to execute their RCE attack against the Inductive Automation Ignition. They earn $20,000 and 20 Master of Pwn points.\nSUCCESS - Claroty used a resource exhaustion to demonstrate their DoS attack against the PTC KepServerEx. They earn $5,000 and 5 Master of Pwn points.\nSUCCESS - Claroty used a resource exhaustion to demonstrate their DoS attack against the OPC Foundation OPC UA .NET Standard. They earn $5,000 and 5 Master of Pwn points.\nThat wraps up the first day of Pwn2Own Toronto 2022! We awarded $60,000 for 6 unique bugs during the first day of the contest. We’ll continue posting results and videos to Twitter, YouTube, Mastodon, LinkedIn, and Instagram, so follow us on your favorite flavor of social media for the latest news from the event.",
+          "link": "https://www.thezdi.com/blog/2023/2/14/pwn2own-miami-2023-day-one-results",
+          "publishedOn": "2023-02-14T15:30:43.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Miami 2023 - Day One Results",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63e170290c3cba1d23922bba",
           "author": "Dustin Childs",
           "description": "¡Bienvenidos a Miami!\nWelcome to Pwn2Own Miami for 2023! We’ve got another exciting event with 16 entries target 11 different targets. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Eastern [GMT -5:00]). \nNote: All times subject to change\nTuesday, February 14 - 0930\nClaroty Research - Team82 targeting the Inductive Automation Ignition - DoS in the OPC UA Server category for $5,000 and 5 Master of Pwn points\nTuesday, February 14 - 1030\nTeam ECQ targeting the Softing edgeConnector Siemens - DoS in the OPC UA Server category for $5,000 and 5 Master of Pwn points\nTuesday, February 14 - 1130\nClaroty Research - Team82 targeting the Triangle Microw…",
@@ -458,6 +490,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=18658",
+          "author": "Domen Puncer Kugler",
+          "description": "This is a four part blog post series that starts with Rustproofing Linux (Part 1/4 Leaking Addresses). In the C programming language, integer types can be a bit confusing. Portability issues can arise when the same code is used in multiple hardware architectures or operating systems. For example, int is usually 32-bit, but could also … Continue reading Rustproofing Linux (Part 3/4 Integer Overflows) →",
+          "link": "https://research.nccgroup.com/2023/02/14/rustproofing-linux-part-3-4-integer-overflows/",
+          "publishedOn": "2023-02-14T21:04:06.000Z",
+          "wordCount": 2655,
+          "title": "Rustproofing Linux (Part 3/4 Integer Overflows)",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=18880",
           "author": "chrisanley",
@@ -694,6 +736,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=103815",
+          "author": "Trail of Bits",
+          "description": "By Maciej Domanski In fall 2022, Trail of Bits audited cURL, a widely-used command-line utility that transfers data between a server and supports various protocols. The project coincided with a Trail of Bits maker week, which meant that we had more manpower than we usually do, allowing us to take a nonstandard approach to the […]",
+          "link": "https://blog.trailofbits.com/2023/02/14/curl-audit-fuzzing-libcurl-command-line-interface/",
+          "publishedOn": "2023-02-14T13:00:14.000Z",
+          "wordCount": 4227,
+          "title": "cURL audit: How a joke led to significant findings",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/02/Screenshot-2023-02-13-at-5.59.32-PM-1024x626.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=103761",
           "author": "Trail of Bits",
           "description": "By Laura Bauman During my internship at Trail of Bits, I prototyped a harness that improves the testability of the eBPF verifier, simplifying the testing of eBPF programs. My eBPF harness runs in user space, independently of any locally running kernel, and thus opens the door to testing of eBPF programs across different kernel versions. […]",
@@ -720,6 +772,16 @@
       "feedUrl": "https://sean.heelan.io/feed/",
       "siteUrl": "https://sean.heelan.io",
       "articles": [
+        {
+          "id": "http://sean.heelan.io/?p=2665",
+          "author": "seanhn",
+          "description": "This is the first post in a two part series on combining static and dynamic analyses for performance optimisation. I’ve split them up as otherwise it’ll be horrifically long, and the second post will be online later this week. This post lays out some high level context, discusses why we should combine analyses, and has […]",
+          "link": "https://sean.heelan.io/2023/02/14/combining-static-and-dynamic-analysis-in-performance-optimisation-part-1-60-improvements-with-continuous-profiling-and-library-matching/",
+          "publishedOn": "2023-02-14T10:37:18.000Z",
+          "wordCount": 4159,
+          "title": "60%+ Performance Improvements with Continuous Profiling and Library Matching – Part 1/2 on Combining Dynamic and Static Analysis for Performance Optimisation",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://sean.heelan.io/?p=2604",
           "author": "seanhn",
@@ -826,6 +888,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570121",
+          "author": "Brandon Lee",
+          "description": "NAKIVO Backup & Replication v10.8 delivers excellent new cloud and managed service provider (MSP) features, allowing businesses to meet modern data protection challenges.\nNAKIVO Backup & Replication v10.8 with new cloud and MSP features first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/nakivo-backup-replication-v108-with-new-cloud-and-msp-features/",
+          "publishedOn": "2023-02-14T16:57:54.000Z",
+          "wordCount": 13146,
+          "title": "NAKIVO Backup & Replication v10.8 with new cloud and MSP features",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Adding-an-MSP-connection-in-NAKIVO-Backup-and-Replication-v10.8-600x413.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570086",
           "author": "Surender Kumar",
@@ -1167,16 +1239,6 @@
           "publishedOn": "2023-01-23T00:00:00.000Z",
           "wordCount": 2943,
           "title": "A Visual Summary of SANS CTI Summit 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/cybersecurity-podcast-roundup",
-          "author": null,
-          "description": "Podcasts are a great way to stay current with the industry while living your life so we've compiled a list of some of our favorite cyber security podcasts.",
-          "link": "https://www.sans.org/blog/cybersecurity-podcast-roundup?msc=rss",
-          "publishedOn": "2023-01-16T00:00:00.000Z",
-          "wordCount": 3312,
-          "title": "Cybersecurity Podcast Roundup",
           "imageUrl": null
         }
       ]
@@ -1524,6 +1586,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/blog/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=16013",
+          "author": "Synack",
+          "description": "Continuous Pentesting Doesn’t Always Cover All Your Bases Continuous vs. On-Demand Testing In a previous article we described the benefits of doing continuous pentesting in a strategic cybersecurity program.  Frequent product changes and updates, rapidly changing cloud infrastructures, and a seemingly never-ending train of newly-introduced vulnerabilities all point to the need for continuous vigilance and […]\nThe post Fill the Gaps in Your Cybersecurity Program with On-Demand Pentesting appeared first on Synack.",
+          "link": "https://www.synack.com/blog/fill-the-gaps-with-on-demand-pentesting/",
+          "publishedOn": "2023-02-14T11:00:52.000Z",
+          "wordCount": 1967,
+          "title": "Fill the Gaps in Your Cybersecurity Program with On-Demand Pentesting",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2023/02/429-synack-on-demand-testing-blog.jpg"
+        },
         {
           "id": "https://www.synack.com/?p=16007",
           "author": "SRT Community",
