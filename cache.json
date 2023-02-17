@@ -178,7 +178,18 @@
       "title": "Technical Blog - NetSPI",
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.netspi.com/?p=29393",
+          "author": "Karl Fosaaen",
+          "description": "Discover a helpful function for enumerating potential pivot points from an existing Azure Automation Account with Contributor level access.\nThe post Pivoting with Azure Automation Account Connections appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/cloud-penetration-testing/azure-automation-account-connections/",
+          "publishedOn": "2023-02-16T15:00:00.000Z",
+          "wordCount": 6738,
+          "title": "Pivoting with Azure Automation Account Connections",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/021623_AbusingAzure-Blog_Social.jpg"
+        }
+      ]
     },
     {
       "title": "Posts on malicious.link",
@@ -203,6 +214,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=9701",
+          "author": "Didier Stevens",
+          "description": "I explain how to create certificates with OpenSSL on your Windows computer in my blog post “How-to: Make Your Own Cert With OpenSSL on Windows (Reloaded)“. If you can’t or don’t want to install OpenSSL, there is a solution now with Web OpenSSL. With Web OpenSSL, you can just run OpenSSL and the commands in […]",
+          "link": "https://blog.didierstevens.com/2023/02/17/how-to-make-your-own-cert-with-web-openssl/",
+          "publishedOn": "2023-02-17T00:00:00.000Z",
+          "wordCount": 76025,
+          "title": "How-to: Make Your Own Cert With Web OpenSSL",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2023/02/20230213-205129.png"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=9940",
           "author": "Didier Stevens",
@@ -521,6 +542,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=18659",
+          "author": "Domen Puncer Kugler",
+          "description": "This is a four part blog post series that starts with Rustproofing Linux (Part 1/4 Leaking Addresses). Shared memory is often used to share data without the performance hit of copying. Whenever a shared resource is consumed by one component while being modified by another component, there is potential for Time-Of-Check-Time-Of-Use (TOCTOU) or Double Fetch … Continue reading Rustproofing Linux (Part 4/4 Shared Memory) →",
+          "link": "https://research.nccgroup.com/2023/02/16/rustproofing-linux-part-4-4-shared-memory/",
+          "publishedOn": "2023-02-16T19:33:01.000Z",
+          "wordCount": 2939,
+          "title": "Rustproofing Linux (Part 4/4 Shared Memory)",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=18658",
           "author": "Domen Puncer Kugler",
           "description": "This is a four part blog post series that starts with Rustproofing Linux (Part 1/4 Leaking Addresses). In the C programming language, integer types can be a bit confusing. Portability issues can arise when the same code is used in multiple hardware architectures or operating systems. For example, int is usually 32-bit, but could also … Continue reading Rustproofing Linux (Part 3/4 Integer Overflows) →",
@@ -776,6 +807,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=103852",
+          "author": "Trail of Bits",
+          "description": "By roddux // Rory M I discovered a logic bug in the readline dependency partially reveals file information when parsing the file specified in the INPUTRC environment variable. This could allow attackers to move laterally on a box where sshd is running, a given user is able to login, and the user’s private key is […]",
+          "link": "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
+          "publishedOn": "2023-02-16T13:00:00.000Z",
+          "wordCount": 3274,
+          "title": "Readline crime: exploiting a SUID logic bug",
+          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=103815",
           "author": "Trail of Bits",
           "description": "By Maciej Domanski In fall 2022, Trail of Bits audited cURL, a widely-used command-line utility that transfers data between a server and supports various protocols. The project coincided with a Trail of Bits maker week, which meant that we had more manpower than we usually do, allowing us to take a nonstandard approach to the […]",
@@ -794,16 +835,6 @@
           "wordCount": 4716,
           "title": "Harnessing the eBPF Verifier",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/01/output_bounded_loop.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=103695",
-          "author": "Trail of Bits",
-          "description": "A new tool for Windows RPC research By Aaron LeMasters Trail of Bits is releasing a new tool for exploring RPC clients and servers on Windows. RPC Investigator is a .NET application that builds on the NtApiDotNet platform for enumerating, decompiling/parsing and communicating with arbitrary RPC servers. We’ve added visualization and additional features that offer […]",
-          "link": "https://blog.trailofbits.com/2023/01/17/rpc-investigator-microsoft-windows-remote-procedure-call/",
-          "publishedOn": "2023-01-17T13:00:06.000Z",
-          "wordCount": 4379,
-          "title": "Introducing RPC Investigator",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/01/Screenshot-2023-01-11-at-6.25.29-PM-1024x690.png"
         }
       ]
     },
@@ -938,6 +969,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570182",
+          "author": "Brandon Lee",
+          "description": "Learn how ManageEngine Endpoint Central (formerly ManageEngine Desktop Central) provides the tools and automation needed for managing endpoints, patching, deploying software, and installing operating systems in today's hybrid remote work environments.\nManage and secure your endpoints in hybrid environments with ManageEngine Endpoint Central first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/manage-and-secure-your-endpoints-in-hybrid-environments-with-manageengine-endpoint-central/",
+          "publishedOn": "2023-02-16T13:34:11.000Z",
+          "wordCount": 13417,
+          "title": "Manage and secure your endpoints in hybrid environments with ManageEngine Endpoint Central",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Overview-of-the-agent-onboarding-process-and-desktop-management-600x426.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570142",
           "author": "Wolfgang Sommergut",
@@ -1147,16 +1188,6 @@
           "wordCount": 13016,
           "title": "IIS and Exchange Server security with Windows Extended Protection (WEP)",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/Enabling-Windows-Extended-Protection-in-IIS-600x376.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1569641",
-          "author": "Timothy Warner",
-          "description": "Learn how Visual Studio Code (VSCode) implements regular expressions (regex) to help you perform your complex pattern-matching duties more effectively. In addition, I will introduce a few useful regex extensions to VSCode.\nRegex in VSCode first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/regex-in-vscode/",
-          "publishedOn": "2023-01-17T14:56:36.000Z",
-          "wordCount": 13085,
-          "title": "Regex in VSCode",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/VSCode-includes-two-search-experiences-600x400.png"
         }
       ]
     },
@@ -1231,6 +1262,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/sans-security-awareness-professional-a-new-look-for-the-ssap-digital-badge",
+          "author": null,
+          "description": "With the expansion of the curriculum in this area comes a small but significant update to the SSAP digital credential.",
+          "link": "https://www.sans.org/blog/sans-security-awareness-professional-a-new-look-for-the-ssap-digital-badge?msc=rss",
+          "publishedOn": "2023-02-16T00:00:00.000Z",
+          "wordCount": 2799,
+          "title": "SANS Security Awareness Professional: A New Look for the SSAP Digital Badge",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum",
           "author": null,
@@ -1521,6 +1562,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=76591",
+          "author": "Aleksandar Milenkoski",
+          "description": "A new threat cluster has been targeting telecommunication providers in the Middle East and abusing Microsoft, Google and Dropbox cloud services.",
+          "link": "https://www.sentinelone.com/labs/wip26-espionage-threat-actors-abuse-cloud-infrastructure-in-targeted-telco-attacks/",
+          "publishedOn": "2023-02-16T10:55:24.000Z",
+          "wordCount": 3790,
+          "title": "WIP26 Espionage | Threat Actors Abuse Cloud Infrastructure in Targeted Telco Attacks",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/02/WIP26-Espionage-Threat-Actors-Abuse-Cloud-Infrastructure-in-Targeted-Telco-4.jpg",
+            "length": "617667",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/02/WIP26-Espionage-Threat-Actors-Abuse-Cloud-Infrastructure-in-Targeted-Telco-4.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=76058",
           "author": "Antonis Terefos",
           "description": "An in-the-wild ELF variant of Cl0p ransomware shows the gang is looking beyond traditional Windows targets.",
@@ -1600,6 +1656,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/red-teaming-sanity-check",
+          "author": "Trevin Edgeworth, Mark MacDonald",
+          "description": "Learn how to take control of security program investments with Red Teaming.",
+          "link": "https://bishopfox.com/blog/red-teaming-sanity-check",
+          "publishedOn": "2023-02-16T12:00:00.000Z",
+          "wordCount": 3237,
+          "title": "Red Teaming: The Ultimate Sanity Check for Security Teams",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Red-Teaming-webcast-OG.jpg?mtime=1676331829"
+        },
+        {
           "id": "https://bishopfox.com/blog/12-hacking-influencers",
           "author": "Britt Kemp",
           "description": "Check out this blog to learn about our favorite influencers to follow on the hacker scene.",
@@ -1628,16 +1694,6 @@
           "wordCount": 1644,
           "title": "EzAdsPro BlackBox Advisory",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/advisories-risk-level/_1200x630_crop_center-center_82_none/High-Risk-Advisory-Featured.jpg?mtime=1637094526"
-        },
-        {
-          "id": "https://bishopfox.com/blog/8-network-pen-testing-tools",
-          "author": "Britt Kemp",
-          "description": "Check out our recommendations for top network pen testing tools to level up your hacking skills.",
-          "link": "https://bishopfox.com/blog/8-network-pen-testing-tools",
-          "publishedOn": "2023-01-17T16:00:00.000Z",
-          "wordCount": 2087,
-          "title": "8 Network Pen Testing Tools for Your Hacker Arsenal",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Network-Penesting-Tools_OG.jpg?mtime=1673391029"
         }
       ]
     },
@@ -1646,6 +1702,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/blog/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=16017",
+          "author": "Greg Copeland",
+          "description": "The cloud moves fast, software development moves fast and attackers move fast too. Can your cloud governance keep up? Setting up security controls correctly at the start of a cloud migration project won’t work in the long-term with rapidly changing cloud environments. Cloud security benchmarks must be continuously followed to be effective, requiring frequent testing […]\nThe post Creating More Secure Cloud Environments with Microsoft and Synack appeared first on Synack.",
+          "link": "https://www.synack.com/blog/creating-secure-cloud-environments-with-microsoft/",
+          "publishedOn": "2023-02-16T15:41:24.000Z",
+          "wordCount": null,
+          "title": "Creating More Secure Cloud Environments with Microsoft and Synack",
+          "imageUrl": null
+        },
         {
           "id": "https://www.synack.com/?p=16013",
           "author": "Synack",
