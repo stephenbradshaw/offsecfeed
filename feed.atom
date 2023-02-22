@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T00:40:56.357Z</updated>
+    <updated>2023-02-22T00:38:21.028Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bypassing Akamai’s Web Application Firewall Using an Injected Content-Encoding Header]]></title>
+        <id>https://www.praetorian.com/?p=4443</id>
+        <link href="https://www.praetorian.com/blog/using-crlf-injection-to-bypass-akamai-web-app-firewall/"/>
+        <updated>2023-02-21T15:03:57.000Z</updated>
+        <summary type="html"><![CDATA[During a recent Chariot customer pilot we identified an interesting method to bypass the cross-site scripting (XSS) filtering functionality within the Akamai Web Application Firewall (WAF) solution. Chariot had identified a Carriage Return and Line Feed (CRLF) injection vulnerability during an automated scan, and we discovered the bypass during our exploitation phase. In this article, […]
+The post Bypassing Akamai’s Web Application Firewall Using an Injected Content-Encoding Header appeared first on Praetorian.]]></summary>
+        <author>
+            <name>emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Factory reset of Windows 10 and 11 without a password]]></title>
+        <id>https://4sysops.com/?p=1570306</id>
+        <link href="https://4sysops.com/archives/factory-reset-of-windows-10-and-11-without-a-password/"/>
+        <updated>2023-02-21T13:39:59.000Z</updated>
+        <summary type="html"><![CDATA[Windows 10 and 11 come with a factory reset feature. However, maybe you lost your password and want to reset your PC. How can Windows be reset without a password?
+Factory reset of Windows 10 and 11 without a password first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Escaping misconfigured VSCode extensions]]></title>
+        <id>https://blog.trailofbits.com/?p=103883</id>
+        <link href="https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/"/>
+        <updated>2023-02-21T13:00:50.000Z</updated>
+        <summary type="html"><![CDATA[By Vasco Franco TL;DR: This two-part blog series will cover how I found and disclosed three vulnerabilities in VSCode extensions and one vulnerability in VSCode itself (a security mitigation bypass assigned CVE-2022-41042 and awarded a $7,500 bounty). We will identify the underlying cause of each vulnerability and create fully working exploits to demonstrate how an […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What the Vuln: Zimbra]]></title>
+        <id>https://bishopfox.com/blog/what-the-vuln-zimbra</id>
+        <link href="https://bishopfox.com/blog/what-the-vuln-zimbra"/>
+        <updated>2023-02-21T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Take a deep dive into Zimbra Zip Path Traversal vulnerability with Carlos Yanez in the first blog of our What the Vuln series.]]></summary>
+        <author>
+            <name>Carlos Yanez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Primer On Slowable Encoders]]></title>
+        <id>https://research.nccgroup.com/?p=18782</id>
+        <link href="https://research.nccgroup.com/2023/02/20/a-primer-on-slowable-encoders/"/>
+        <updated>2023-02-20T14:38:17.000Z</updated>
+        <summary type="html"><![CDATA[There is a specific type of cryptographic transformation that arises in storage-oriented blockchains. The transformation is a “slowable” 1-1 mapping which does not involve any secrets and is tradeoff-resistant in the following sense: it should not be possible to partially compute the function, store a fraction of the function’s state and then resume and finish … Continue reading A Primer On Slowable Encoders →]]></summary>
+        <author>
+            <name>aleks224</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transfer WiFi passwords in Windows 10/11]]></title>
+        <id>https://4sysops.com/?p=1570288</id>
+        <link href="https://4sysops.com/archives/transfer-wifi-passwords-in-windows-1011/"/>
+        <updated>2023-02-20T14:37:17.000Z</updated>
+        <summary type="html"><![CDATA[If you have saved many WiFi connections in a notebook, then you might want to transfer them to another computer once in a while. Windows provides the required export and import capabilities via netsh.exe. PowerShell depends on a community module for this purpose; alternatively, you can use free GUI tools.
+Transfer WiFi passwords in Windows 10/11 first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finding forensics breadcrumbs in Android image storage]]></title>
+        <id>https://www.pentestpartners.com/?p=26600</id>
+        <link href="https://www.pentestpartners.com/security-blog/finding-forensics-breadcrumbs-in-android-image-storage/"/>
+        <updated>2023-02-20T06:14:16.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Our digital forensics work is wide and varied. Often there’s very little that we can talk about in the public domain, so when I find something that we can […]
+Finding forensics breadcrumbs in Android image storage first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Daniel Gildersleeve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The View from the Other Side: A Security Analyst's Perspective on Bug Bounty Triage]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/view-other-side-security-analysts-perspective-bug-bounty-triage</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/view-other-side-security-analysts-perspective-bug-bounty-triage"/>
+        <updated>2023-02-18T02:55:39.000Z</updated>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickpost: Fixing A Duplicate Key]]></title>
         <id>http://blog.didierstevens.com/?p=9974</id>
@@ -1147,128 +1230,6 @@ Manage Windows security and optimization features with Microsoft’s free PC Man
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Visual Summary of SANS CTI Summit 2023]]></title>
-        <id>https://www.sans.org/blog/a-visual-summary-of-sans-cti-summit-2023</id>
-        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-cti-summit-2023?msc=rss"/>
-        <updated>2023-01-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS Cyber Threat Intelligence (CTI) Summit 2023]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Analyzing Malicious OneNote Documents]]></title>
-        <id>http://blog.didierstevens.com/?p=9889</id>
-        <link href="https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents/"/>
-        <updated>2023-01-22T18:09:53.000Z</updated>
-        <summary type="html"><![CDATA[About a week ago, I was asked if I had tools for OneNote files. I don’t, and I had no time to take a closer look. But last Thursday night, I had some time to take a look. I looked at this OneNote maldoc sample. I opened the file in the binary editor I use […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: process-binary-file Version 0.0.8]]></title>
-        <id>http://blog.didierstevens.com/?p=9885</id>
-        <link href="https://blog.didierstevens.com/2023/01/22/update-process-binary-file-version-0-0-8/"/>
-        <updated>2023-01-22T09:27:38.000Z</updated>
-        <summary type="html"><![CDATA[New functions and classes have been added to process-binary-file.py. python-templates_V0_0_9.zip (http)MD5: 7C5E8602F225735015E9A431C5818762SHA256: CAEEEBB1E402E5127A431446A01BBE607B22AA0EB1F6FA12B8E7703275BE6F15]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Tool: onedump.py]]></title>
-        <id>http://blog.didierstevens.com/?p=9877</id>
-        <link href="https://blog.didierstevens.com/2023/01/22/new-tool-onedump-py/"/>
-        <updated>2023-01-22T09:24:04.000Z</updated>
-        <summary type="html"><![CDATA[This is a new tool (based on my Python template for binary files) to analyze OneNote files. This version is limited to handling embedded files (for the moment). As I might still make significant changes to the user interface, I’ve put this tool in my GitHub beta repository.]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Excelling at Excel, Part 3]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8391</id>
-        <link href="https://www.hexacorn.com/blog/2023/01/22/excelling-at-excel-part-3/"/>
-        <updated>2023-01-22T00:56:23.000Z</updated>
-        <summary type="html"><![CDATA[One of the most common use cases we come across during our malware analysis exercises is a ROI-driven comparison of features between many samples of the same malware family. Yes, […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yara rules pageant]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8386</id>
-        <link href="https://www.hexacorn.com/blog/2023/01/21/yara-rules-pageant/"/>
-        <updated>2023-01-21T00:12:05.000Z</updated>
-        <summary type="html"><![CDATA[A few days ago I posted a very specific question on Twitter and Mastodon: You’ve got gazillion of random yara rules stored inside many random .yar files scattered around many […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Advisory – U-Boot – Unchecked Download Size and Direction in USB DFU (CVE-2022-2347)]]></title>
-        <id>https://research.nccgroup.com/?p=17930</id>
-        <link href="https://research.nccgroup.com/2023/01/20/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/"/>
-        <updated>2023-01-20T20:24:06.000Z</updated>
-        <summary type="html"><![CDATA[Summary U-Boot is a popular and feature-rich bootloader for embedded systems. It includes optional support for the USB Device Firmware Update (DFU) protocol, which can be used by devices to download new firmware, or upload their current firmware. The U-Boot DFU implementation does not bound the length field in USB DFU download setup packets, and … Continue reading Technical Advisory – U-Boot – Unchecked Download Size and Direction in USB DFU (CVE-2022-2347) →]]></summary>
-        <author>
-            <name>Sultan Khan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Home Grown Red Team: Bypassing Applocker, UAC and Getting Administrative Persistence]]></title>
-        <id>https://medium.com/p/88b85c81343e</id>
-        <link href="https://assume-breach.medium.com/home-grown-red-team-bypassing-applocker-uac-and-getting-administrative-persistence-88b85c81343e?source=rss-fe83402397b0------2"/>
-        <updated>2023-01-20T18:07:53.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back! In my previous post, I showed how we can bypass default Applocker rules using LNK files to get a Havoc beacon.]]></summary>
-        <author>
-            <name>assume-breach</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Advisory – Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434)]]></title>
-        <id>https://research.nccgroup.com/?p=18591</id>
-        <link href="https://research.nccgroup.com/2023/01/20/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/"/>
-        <updated>2023-01-20T14:48:44.000Z</updated>
-        <summary type="html"><![CDATA[The Galaxy App Store is an alternative application store that comes pre-installed on Samsung Android devices. Several Android applications are available on both the Galaxy App Store and Google App Store, and users have the option to use either store to install specific applications. Two vulnerabilities were uncovered with the Galaxy App Store application: Technical … Continue reading Technical Advisory – Multiple Vulnerabilities in the Galaxy App Store (CVE-2023-21433, CVE-2023-21434) →]]></summary>
-        <author>
-            <name>Ken Gannon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A CISO’s Guide to Building a Strategic Relationship with the BOD]]></title>
-        <id>https://www.praetorian.com/?p=4370</id>
-        <link href="https://www.praetorian.com/blog/ciso-strategic-relationship-with-bod/"/>
-        <updated>2023-01-20T14:01:14.000Z</updated>
-        <summary type="html"><![CDATA[A chief information security officer’s (CISO’s) role ultimately is to help their organization’s board of directors (BOD) understand the potential impact of cyber threats on the organization. When this strategic relationship is successful, the BOD can make informed decisions about risk management, including capital allocation and spending relative to industry peers. Effective communication to this […]
-The post A CISO’s Guide to Building a Strategic Relationship with the BOD appeared first on Praetorian.]]></summary>
-        <author>
-            <name>emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Recovery Services vault: Ironing out the confusion]]></title>
-        <id>https://4sysops.com/?p=1569686</id>
-        <link href="https://4sysops.com/archives/azure-recovery-services-vault-ironing-out-the-confusion/"/>
-        <updated>2023-01-20T13:15:28.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Azure offers a variety of backup and disaster recovery solutions. Let Tim iron out some common confusions about these entities and services: Azure Recovery Services vault, Azure Site Recovery, Azure Backup, and Azure Backup vault. In addition, you will learn important concepts for working with the Azure Recovery Services vault: Azure region dependency, content portability, and deletion workflow.
-Azure Recovery Services vault: Ironing out the confusion first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Timothy Warner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abusing Adopted Authority on IBM i]]></title>
-        <id>https://blog.silentsignal.eu/2023/01/20/abusing-adopted-authority-on-ibm-i/</id>
-        <link href="https://blog.silentsignal.eu/2023/01/20/abusing-adopted-authority-on-ibm-i/"/>
-        <updated>2023-01-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In our first blog post of 2023, we continue our series about penetration testing IBM i. This time we look into how the so-called Adopted Authority mechanism can be abused for privilege escalation if privileged scripts are not implemented with enough care.]]></summary>
-        <author>
-            <name>Silent Signal Techblog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CVE-2022-35690: Unauthenticated RCE in Adobe ColdFusion]]></title>
         <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63c873a78ec28c353417c563</id>
         <link href="https://www.thezdi.com/blog/2023/1/18/cve-2022-35690-unauthenticated-rce-in-adobe-coldfusion"/>
@@ -1277,80 +1238,6 @@ Azure Recovery Services vault: Ironing out the confusion first appeared on 4syso
 A memory corruption vulnerability exists in Adobe ColdFusion. This vulnerability is due to the lack of proper validation of user-supplied data, which can resu…]]></summary>
         <author>
             <name>Trend Micro Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting null-dereferences in the Linux kernel]]></title>
-        <id>https://googleprojectzero.blogspot.com/2023/01/exploiting-null-dereferences-in-linux.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2023/01/exploiting-null-dereferences-in-linux.html"/>
-        <updated>2023-01-19T17:33:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol.lst-kix_3558t16xb2i9-3.start{counter-reset:lst-ctn-kix_3558t16xb2i9-3 0}.lst-kix_dt3x5t4funnl-8>li:before{content:"" counter(lst-ctn-kix_dt3x5t4funnl-8,lower-roman) ". "}ol.lst-kix_ehkygwr8rii2-3.start{counter-reset:lst-ctn-kix_ehkygwr8rii2-3 0}ol.lst-kix_dt3x5t4funnl-6.start{counter-reset:lst-ctn-kix_dt3x5t4funnl-6 0}.lst-kix_3558t16xb2i9-5>li{counter-increment:lst-ctn-kix_3558t16xb2i9-5}.lst-kix_dt3x5t4funnl-7>li:before{content:"" counter(lst-ctn-kix_dt3x5t4funnl-7,lower-latin) ". "}.lst-kix_dt3x5t4funnl-1>li{counter-increment:lst-ctn-kix_dt3x5t4funnl-1}.lst-kix_dt3x5t4funnl-2>li:before{content:"" counter(lst-ctn-kix_dt3x5t4funnl-2,lower-roman) ". "}.lst-kix_ehkygwr8rii2-5>li{counter-increment:lst…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker AFK: InsiderPhD]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/hacker-afk-insiderphd</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-afk-insiderphd"/>
-        <updated>2023-01-19T17:19:33.000Z</updated>
-        <summary type="html"><![CDATA[Today's hacker InsiderPhD
-JXoaT: My first question is always, "What was your first experience with hacking?" What really opened the door to y]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Top 5 Cybersecurity Vulnerabilities for Government Agencies in 2022]]></title>
-        <id>https://www.synack.com/?p=15914</id>
-        <link href="https://www.synack.com/blog/the-top-5-cybersecurity-vulnerabilities-for-government-agencies-in-2022/"/>
-        <updated>2023-01-19T16:31:58.000Z</updated>
-        <summary type="html"><![CDATA[Government agencies are faced with cybersecurity challenges from all sides. Digital transformation initiatives can expose weak points in an attack surface, putting pressure on agencies’ IT teams to get it just right. And from insider threats to persistent vulnerabilities within networks and operating systems, public sector leaders feel the urgency to obtain a clear picture […]
-The post The Top 5 Cybersecurity Vulnerabilities for Government Agencies in 2022 appeared first on Synack.]]></summary>
-        <author>
-            <name>Luke Luckett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All-time High Cybersecurity Attrition + Economic Uncertainty = Happy(ish) New Year]]></title>
-        <id>https://blog.exodusintel.com/?p=2050</id>
-        <link href="https://blog.exodusintel.com/2023/01/19/all-time-high-cybersecurity-attrition-economic-uncertainty-happyish-new-year/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=all-time-high-cybersecurity-attrition-economic-uncertainty-happyish-new-year"/>
-        <updated>2023-01-19T15:13:15.000Z</updated>
-        <summary type="html"><![CDATA[All-time High Cybersecurity Attrition + Economic Uncertainty = Happy(ish) New Year As 2023 fires up, so do the attrition numbers across the Cybersecurity vertical.  With bonuses being paid and cybersecurity professionals searching for the next great job, vulnerability management teams are understaffed with growing concerns around finding qualified cybersecurity candidates to fill once occupied roles.  ... Read more All-time High Cybersecurity Attrition + Economic Uncertainty = Happy(ish) New Year 
-The post <strong>All-time High Cybersecurity Attrition + Economic Uncertainty = Happy(ish) New Year</strong>  appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project Bishop: Clustering Web Pages]]></title>
-        <id>https://research.nccgroup.com/?p=18527</id>
-        <link href="https://research.nccgroup.com/2023/01/19/project-bishop-clustering-web-pages/"/>
-        <updated>2023-01-19T14:10:15.000Z</updated>
-        <summary type="html"><![CDATA[Written by Jose Selvi and Thomas Atkinson If you are a Machine Learning (ML) enthusiast like us, you may recall our blogpost series from 2019 regarding Project Ava, which documented our experiments in using ML techniques to automate web application security testing tasks. In February 2020 we set out to build on Project Ava with … Continue reading Project Bishop: Clustering Web Pages →]]></summary>
-        <author>
-            <name>Jose Selvi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reopen apps after Windows startup]]></title>
-        <id>https://4sysops.com/?p=1569666</id>
-        <link href="https://4sysops.com/archives/reopen-apps-after-windows-startup/"/>
-        <updated>2023-01-19T13:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Most users work with several apps at the same time. In the past, they had to reopen apps manually after a startup. Since Windows 10, the operating system has automated this task, albeit in an inconsistent manner. And there is only limited central management for this feature.
-Reopen apps after Windows startup first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harnessing the eBPF Verifier]]></title>
-        <id>https://blog.trailofbits.com/?p=103761</id>
-        <link href="https://blog.trailofbits.com/2023/01/19/ebpf-verifier-harness/"/>
-        <updated>2023-01-19T13:00:42.000Z</updated>
-        <summary type="html"><![CDATA[By Laura Bauman During my internship at Trail of Bits, I prototyped a harness that improves the testability of the eBPF verifier, simplifying the testing of eBPF programs. My eBPF harness runs in user space, independently of any locally running kernel, and thus opens the door to testing of eBPF programs across different kernel versions. […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
