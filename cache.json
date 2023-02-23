@@ -123,18 +123,7 @@
       "title": "SkullSecurity Blog",
       "feedUrl": "https://blog.skullsecurity.org/feed",
       "siteUrl": "https://www.skullsecurity.org/",
-      "articles": [
-        {
-          "id": "https://www.skullsecurity.org/2023/blast-from-the-past--how-attackers-compromised-zimbra-with-a-patched-vulnerability",
-          "author": null,
-          "description": "Last year, I worked on a vulnerability in Zimbra (CVE-2022-41352 - my AttackerKB analysis for Rapid7) that turned out to be a new(-ish) exploit path for a really old bug in cpio - CVE-2015-1194. But that was patched in 2019, so what happened? (I posted this as a tweet-thread awhile back, but I decided to flesh it out and make it into a full blog post!)",
-          "link": "https://www.skullsecurity.org/2023/blast-from-the-past--how-attackers-compromised-zimbra-with-a-patched-vulnerability",
-          "publishedOn": "2023-01-23T20:14:17.000Z",
-          "wordCount": 1623,
-          "title": "Blast from the Past: How Attackers Compromised Zimbra With a Patched Vulnerability",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Silent Signal Techblog",
@@ -269,6 +258,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/customer-stories/robinhood-goes-long-bug-bounty-qa-ian-carroll-and-ashwarya",
+          "author": "Kyle Tansley",
+          "description": "Seven years of bug bounty, 21-hour average time to bounty, 130 hackers thanked, and hackers on both sides of the program: Robinhood’s Ian Carroll joins HackerOne to discuss his hacker-focused approach to bug bounty, and Robinhood’s top hacker @ashwarya chimes in with his experience.",
+          "link": "https://www.hackerone.com/customer-stories/robinhood-goes-long-bug-bounty-qa-ian-carroll-and-ashwarya",
+          "publishedOn": "2023-02-22T20:00:00.000Z",
+          "wordCount": 4156,
+          "title": "Robinhood Goes Long on Bug Bounty: Q&A with Ian Carroll and @ashwarya",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_ImageCommunity_Blog_-Main_Featured_560x494_L1R2.png"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/view-other-side-security-analysts-perspective-bug-bounty-triage",
           "author": "HackerOne",
@@ -418,28 +417,6 @@
           "publishedOn": "2023-01-26T12:12:48.000Z",
           "wordCount": null,
           "title": "Pwn2Own Automotive: Bringing Researchers and Auto Manufacturers Together",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63c6f74267d7b774dae03f15",
-          "author": "Simon Zuckerbraun",
-          "description": "Starting in July of 2022, the Windows CSRSS process entered the consciousness of the infosec community as the source of several local privilege escalation vulnerabilities in Microsoft Windows. The first public information appeared on July 12 with the release of the patch for CVE-2022-22047, which was being actively exploited. Shortly thereafter, Microsoft published an article providing some technical details and revealing that the threat actor involved was an Austrian hack-for-hire group tracked by Microsoft as KNOTWEED. Fortuitously, these developments coincided with closely related research I had been conducting, and in that same month, I reported to Microsoft two additional vulnerabilities affecting the same component. These have now been patched as CVE-2022-37987 and CVE-2022-37989 res…",
-          "link": "https://www.thezdi.com/blog/2023/1/23/activation-context-cache-poisoning-exploiting-csrss-for-privilege-escalation",
-          "publishedOn": "2023-01-23T16:25:00.000Z",
-          "wordCount": null,
-          "title": "Activation Context Cache Poisoning: Exploiting CSRSS for Privilege Escalation",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63c873a78ec28c353417c563",
-          "author": "Trend Micro Research Team",
-          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Lucas Miller and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in Adobe ColdFusion. This bug was originally reported to the ZDI program by a researcher known as rgod. The vulnerability is due to the lack of proper validation of user-supplied data, which can result in a memory corruption condition. Successful exploitation could lead to arbitrary code execution at the level of SYSTEM. The following is a portion of their write-up covering CVE-2022-35690, with a few minimal modifications.\nA memory corruption vulnerability exists in Adobe ColdFusion. This vulnerability is due to the lack of proper validation of user-supplied data, which can resu…",
-          "link": "https://www.thezdi.com/blog/2023/1/18/cve-2022-35690-unauthenticated-rce-in-adobe-coldfusion",
-          "publishedOn": "2023-01-19T17:45:46.000Z",
-          "wordCount": null,
-          "title": "CVE-2022-35690: Unauthenticated RCE in Adobe ColdFusion",
           "itunes": {},
           "imageUrl": null
         }
@@ -600,16 +577,6 @@
           "wordCount": 2217,
           "title": "Using Semgrep with Jupyter Notebook files",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/01/MicrosoftTeams-image-5.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=18354",
-          "author": "Eli Sohl",
-          "description": "Hello and welcome to NCC Group’s Cryptopals guided tour! This post is the second in a series of eight installments (previously) covering the solutions to the Cryptopals Crypto Challenges. For those who don’t know, Cryptopals is a series of eight sets of challenges covering common cryptographic constructs and common attacks on them. You can read … Continue reading Announcing NCC Group’s Cryptopals Guided Tour: Set 2 →",
-          "link": "https://research.nccgroup.com/2023/01/23/announcing-ncc-groups-cryptopals-guided-tour-set-2/",
-          "publishedOn": "2023-01-23T14:00:00.000Z",
-          "wordCount": 2550,
-          "title": "Announcing NCC Group’s Cryptopals Guided Tour: Set 2",
-          "imageUrl": "http://img.youtube.com/vi/PLWvDpnCcem1P6i8pZm2x7KHp5iaxwrK_P/0.jpg"
         }
       ]
     },
@@ -724,16 +691,6 @@
           "wordCount": 1653,
           "title": "Introducing Proxy Enriched Sequence Diagrams (PESD)",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html",
-          "author": null,
-          "description": "From The Previous Episode… Did you solve the CloudSecTidbit Ep. 1 IaC lab?\nSolution\nThe challenge for the data-import CloudSecTidbit is basically reading the content of an internal bucket. The frontend web application is using the targeted bucket to store the logo of the app.\nThe name of the bucket is returned to the client by calling the /variable endpoint:\n\n$.ajax({\n    type: 'GET',\n    url: '/variable',\n    dataType: 'json',\n    success: function (data) {\n        let source_internal = `https://${data}.s3.amazonaws.com/public-stuff/logo.png?${Math.random()}`;\n        $(\".logo_image\").attr(\"src\", source_internal);\n    },\n    error: function (jqXHR, status, err) {\n        alert(\"Error getting variable name\");\n    }\n});\n\n\nThe server will return something like:\n\n\"data-internal-private-202207…",
-          "link": "https://blog.doyensec.com//2023/01/24/tampering-unrestricted-user-attributes-aws-cognito.html",
-          "publishedOn": "2023-01-23T23:00:00.000Z",
-          "wordCount": 1445,
-          "title": "Tampering User Attributes In AWS Cognito User Pools",
-          "imageUrl": null
         }
       ]
     },
@@ -831,6 +788,16 @@
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
         {
+          "id": "https://blog.exodusintel.com/?p=2068",
+          "author": "exodusintel",
+          "description": "We are pleased to announce that the researchers of Exodus Intelligence will be providing publicly available training in person on March 28 2023 in Austin, TX. The intermediate course, titled the Vulnerability Assessment Class, covers a wide range of vulnerability and exploitation related topics and is intended for the beginner to intermediate level practitioner. This course is intended to prepare ... Read more Vulnerability Assessment Course – Spring 2023\nThe post Vulnerability Assessment Course – Spring 2023 appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2023/02/17/vulnerability-assessment-course-spring-2023/?utm_source=rss&utm_medium=rss&utm_campaign=vulnerability-assessment-course-spring-2023",
+          "publishedOn": "2023-02-17T14:27:12.000Z",
+          "wordCount": 3266,
+          "title": "Vulnerability Assessment Course – Spring 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.exodusintel.com/?p=2065",
           "author": "Exodus Intel VRT",
           "description": "Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA). Exodus Intelligence, the leader in Vulnerability Research, today announced it has been authorized by the CVE Program as a CVE Numbering Authority (CNA).  As a CNA, Exodus is authorized to assign CVE IDs to newly discovered vulnerabilities and publicly disclose ... Read more Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA).\nThe post Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA). appeared first on Exodus Intelligence.",
@@ -919,6 +886,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570323",
+          "author": "Leos Marek",
+          "description": "If you cannot delete a file or folder and the operation fails with the error message \"This action can't be completed because the file is open in another program,\" some questions come up. Was is another program? How can it be identified? In this post, I will show you how to use Handle and Process Explorer, tools from the Sysinternals suite, to answer these questions.\nCannot delete a file or folder first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/cannot-delete-a-file-or-folder/",
+          "publishedOn": "2023-02-22T12:48:44.000Z",
+          "wordCount": 13089,
+          "title": "Cannot delete a file or folder",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Finding-a-handle-using-Process-Explorer-600x384.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570306",
           "author": "Brandon Lee",
@@ -1128,16 +1105,6 @@
           "wordCount": 13039,
           "title": "Save and access the BitLocker recovery key in the Microsoft account",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/Save-the-BitLocker-key-to-the-Microsoft-account-retrospectively-600x338.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1569701",
-          "author": "Brandon Lee",
-          "description": "Applications such as CCleaner and other utilities have been popular for years as a quick and easy way for users to scan for and clear out temporary files, caches, logs, and other files to boost performance. Microsoft has released a new utility called PC Manager, which provides interesting features, including performance and security apps, in one location for Windows 10 and 11 PCs.\nManage Windows security and optimization features with Microsoft’s free PC Manager first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/manage-windows-security-and-optimization-features-with-microsofts-free-pc-manager/",
-          "publishedOn": "2023-01-23T14:13:24.000Z",
-          "wordCount": 13222,
-          "title": "Manage Windows security and optimization features with Microsoft’s free PC Manager",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/01/Launching-the-PC-Manager-utility-in-Windows-11-600x316.png"
         }
       ]
     },
@@ -1182,16 +1149,6 @@
           "publishedOn": "2023-02-07T06:37:14.000Z",
           "wordCount": 2645,
           "title": "Causing incidents with in-flight entertainment systems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=26478",
-          "author": "Tony Gee",
-          "description": "There is much talk about supply chain security and reviewing your suppliers for cyber security. But how much information do they intentionally and unintentionally leak about your organisation online? We […]\nOSINT your OT suppliers first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/osint-your-ot-suppliers/",
-          "publishedOn": "2023-01-24T06:35:21.000Z",
-          "wordCount": 2475,
-          "title": "OSINT your OT suppliers",
           "imageUrl": null
         }
       ]
@@ -1514,21 +1471,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/02/MalVirt-.NET-Virtualization-Thrives-in-New-Malvertising-Attacks-3.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=75516",
-          "author": "Aleksandar Milenkoski",
-          "description": "A cluster of attacks SentinelLabs tracks as DragonSpark uses a novel technique, Golang source code interpretation, to avoid detection while also deploying a little-known tool called SparkRAT.",
-          "link": "https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation/",
-          "publishedOn": "2023-01-24T10:55:22.000Z",
-          "wordCount": 3848,
-          "title": "DragonSpark | Attacks Evade Detection with SparkRAT and Golang Source Code Interpretation",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/01/DragonSpark-Attacks-Evade-Detection-with-SparkRAT-and-Golang-Source-Code-Interpretation-1.jpg",
-            "length": "97664",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/01/DragonSpark-Attacks-Evade-Detection-with-SparkRAT-and-Golang-Source-Code-Interpretation-1.jpg"
         }
       ]
     },
