@@ -249,6 +249,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/hackerone-community-blog/get-invited-how-live-hacking-event-invites-have-changed",
+          "author": "jesse@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/get-invited-how-live-hacking-event-invites-have-changed",
+          "publishedOn": "2023-02-28T17:48:35.000Z",
+          "wordCount": 3425,
+          "title": "Get Invited: How Live Hacking Event Invites Have Changed",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HackerOne%20H1-407_Happy%20Hour_Brent%20Andeck%20Andeck%20Photo-41.jpg"
+        },
+        {
           "id": "https://hackerone.com/hackerone-community-blog/hackerone-was-proud-sponsor-bug-hunt",
           "author": "HackerOne",
           "description": "",
@@ -363,6 +373,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63fd16560738d207a91f65c8",
+          "author": "Trend Micro Research Team",
+          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Justin Hong and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the SolarWinds Network Performance Monitor. This bug was originally discovered and reported by ZDI Vulnerability Research Piotr Bazydło. The vulnerability results from the lack of proper validation of user-supplied data, which can result in the deserialization of untrusted data. An authenticated attacker can leverage this vulnerability to execute code in the context of SYSTEM. The following is a portion of their write-up covering CVE-2022-38108, with a few minimal modifications.\nAn insecure deserialization vulnerability has been reported in SolarWinds Network Performance Monitor. …",
+          "link": "https://www.thezdi.com/blog/2023/2/27/cve-2022-38108-rce-in-solarwinds-network-performance-monitor",
+          "publishedOn": "2023-02-28T16:40:11.000Z",
+          "wordCount": null,
+          "title": "CVE-2022-38108: RCE in SolarWinds Network Performance Monitor",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63ee39cb34b1822a9734333c",
           "author": "Dustin Childs",
@@ -663,6 +684,16 @@
       "siteUrl": "https://blog.doyensec.com//atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com//2023/02/28/new-vector-for-dirty-arbitrary-file-write-2-rce.html",
+          "author": null,
+          "description": "Arbitrary file write (AFW) vulnerabilities in web application uploads can be a powerful tool for an attacker, potentially allowing them to escalate their privileges and even achieve remote code execution (RCE) on the server. However, the specific tactics that can be used to achieve this escalation often depend on the specific scenario faced by the attacker. In the wild, there can be several scenarios that an attacker may encounter when attempting to escalate from AFW to RCE in web applications. These can generically be categorized as:\nControl of the full file path or of the file name only: In this scenario, the attacker has the ability to control the full file path or the name of the uploaded file, but not its contents. Depending on the permissions applied to the target directory and on th…",
+          "link": "https://blog.doyensec.com//2023/02/28/new-vector-for-dirty-arbitrary-file-write-2-rce.html",
+          "publishedOn": "2023-02-27T23:00:00.000Z",
+          "wordCount": 1583,
+          "title": "A New Vector For “Dirty” Arbitrary File Write to RCE",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com//2023/02/14/pesd-extension-public-release.html",
           "author": null,
           "description": "PESD Exporter is now public!\nWe are releasing an internal tool to speed-up testing and reporting efforts in complex functional flows. We’re excited to announce that PESD Exporter is now available on Github.\n\n\n\nModern web platforms design involves integrations with other applications and cloud services to add functionalities, share data and enrich the user experience. The resulting functional flows are characterized by multiple state-changing steps with complex trust boundaries and responsibility separation among the involved actors.\nIn such situations, web security specialists have to manually model sequence diagrams if they want to support their analysis with visualizations of the whole functionality logic.\nWe all know that constructing sequence diagrams by hand is tedious, error-prone, t…",
@@ -897,6 +928,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570399",
+          "author": "Surender Kumar",
+          "description": "With earlier versions of Windows 10 and 11, you always had the option to skip the creation of a Microsoft account and use a local user account. However, with the recent 22H2 update, Microsoft is now forcing customers to use a Microsoft account.\nInstall Windows 10 / 11 22H2 without Microsoft account first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/install-windows-10-11-22h2-without-microsoft-account/",
+          "publishedOn": "2023-02-28T11:56:42.000Z",
+          "wordCount": 12893,
+          "title": "Install Windows 10 / 11 22H2 without Microsoft account",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Running-the-OOBE-BypassNRO-command-to-bypass-the-network-requirement-during-Windows-11-setup-600x379.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570385",
           "author": "Wolfgang Sommergut",
@@ -1500,6 +1541,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=13044",
+          "author": "Benjamin Danjoux",
+          "description": "Introduction Cortex XSOAR is a security oriented automation platform, and one of the areas where it stands out is customization. A recurring problem in a SOC is data visualization, analysts can be swarmed with information, and finding out what piece of data is currently both relevant and significant can become hard. One of our tasks … Continue reading Cortex XSOAR Tips & Tricks – Leveraging dynamic sections – number widgets →",
+          "link": "https://blog.nviso.eu/2023/02/28/cortex-xsoar-tips-tricks-leveraging-dynamic-sections-number-widgets/",
+          "publishedOn": "2023-02-28T08:00:00.000Z",
+          "wordCount": 3540,
+          "title": "Cortex XSOAR Tips & Tricks – Leveraging dynamic sections – number widgets",
+          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/12/004-3_numbers_from_sentinel_in_incident.png?fit=1200%2C239&ssl=1"
+        },
         {
           "id": "https://blog.nviso.eu/?p=14144",
           "author": "Nicholas Dhaeyer",
