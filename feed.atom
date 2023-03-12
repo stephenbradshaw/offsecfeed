@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-11T00:36:31.419Z</updated>
+    <updated>2023-03-12T00:42:12.360Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[List of clean mutexes and mutants]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8443</id>
+        <link href="https://www.hexacorn.com/blog/2023/03/12/list-of-clean-mutexes-and-mutants/"/>
+        <updated>2023-03-12T00:03:36.000Z</updated>
+        <summary type="html"><![CDATA[A few years ago I released a list of ‘bad’ mutexes/mutants. That list was generated from my malware sandbox reports. I thought that it may be good to revisit the […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Threat Hunting – localization issues]]></title>
         <id>https://www.hexacorn.com/blog/?p=8439</id>
@@ -1100,78 +1110,6 @@ Macvlan network driver: Assign MAC address to Docker containers first appeared o
 WSUS cleanup aborting: Increase timeout for database and IIS first appeared on 4sysops.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cortex XSOAR Tips & Tricks – Leveraging dynamic sections – text]]></title>
-        <id>https://blog.nviso.eu/?p=12998</id>
-        <link href="https://blog.nviso.eu/2023/02/10/cortex-xsoar-tips-tricks-leveraging-dynamic-sections-text/"/>
-        <updated>2023-02-10T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Cortex XSOAR is a security oriented automation platform, and one of the areas where it stands out is customization. A recurring problem in a SOC (Security Operation Center) is data availability. As a SOC Analyst, doing a thorough analysis of a security incident requires having access to many pieces of information in order to … Continue reading Cortex XSOAR Tips & Tricks – Leveraging dynamic sections – text →]]></summary>
-        <author>
-            <name>Benjamin Danjoux</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From DevOops! to DevSecOps]]></title>
-        <id>https://www.sans.org/blog/from-devoops-to-devsecops</id>
-        <link href="https://www.sans.org/blog/from-devoops-to-devsecops?msc=rss"/>
-        <updated>2023-02-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part one of a four-part blog series about what’s needed to shake, shimmy, and shift left]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Cloud Log Extraction]]></title>
-        <id>https://www.sans.org/blog/aws-cloud-log-extraction</id>
-        <link href="https://www.sans.org/blog/aws-cloud-log-extraction?msc=rss"/>
-        <updated>2023-02-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we discussed the acquisition of AWS CloudTrails logs stored in S3 buckets. Specifically, we provided three different methods of obtaining the logs: the web console, the CLI, and API-based tools. Regardless of the method most suited for your use case, extracting these logs will allow for a more in-depth analysis.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploits Explained: Default Credentials Still a Problem Today]]></title>
-        <id>https://www.synack.com/?p=16007</id>
-        <link href="https://www.synack.com/blog/default-credentials-still-a-problem-today/"/>
-        <updated>2023-02-09T18:51:27.000Z</updated>
-        <summary type="html"><![CDATA[Popeax is a member of the Synack Red Team. Often people think security research requires deep knowledge of systems and exploits, and sometimes it does, but in this case all it took was some curiosity and a Google search to find an alarmingly simple exploit using default credentials. On a recent host engagement, I discovered […]
-The post Exploits Explained: Default Credentials Still a Problem Today appeared first on Synack.]]></summary>
-        <author>
-            <name>SRT Community</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Code Review With ChatGPT]]></title>
-        <id>https://research.nccgroup.com/?p=18880</id>
-        <link href="https://research.nccgroup.com/2023/02/09/security-code-review-with-chatgpt/"/>
-        <updated>2023-02-09T17:50:20.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Don’t use ChatGPT for security code review. It’s not meant to be used that way, it doesn’t really work (although you might be fooled into thinking it does), and there are some other major problems that make it impractical. Also, both the CEO of OpenAI and ChatGPT itself say that you shouldn’t. Large Language … Continue reading Security Code Review With ChatGPT →]]></summary>
-        <author>
-            <name>chrisanley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASM: The Best Defense is a Good Offense]]></title>
-        <id>https://www.praetorian.com/?p=4419</id>
-        <link href="https://www.praetorian.com/blog/the-best-defense-is-a-good-offense/"/>
-        <updated>2023-02-09T15:00:16.000Z</updated>
-        <summary type="html"><![CDATA[About 10 years ago, security was relatively simple because everything occurred on premises. Change releases were tightly controlled by a change ticket and review process. In contrast, current networks consist of auto-scaling containers that run in Kubernetes clusters and even serverless clusters like AWS Lambda. We have transitioned from constrained environments that humans closely scrutinized […]
-The post ASM: The Best Defense is a Good Offense appeared first on Praetorian.]]></summary>
-        <author>
-            <name>emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Top 12 Hacking Influencers to Follow]]></title>
-        <id>https://bishopfox.com/blog/12-hacking-influencers</id>
-        <link href="https://bishopfox.com/blog/12-hacking-influencers"/>
-        <updated>2023-02-09T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Check out this blog to learn about our favorite influencers to follow on the hacker scene.]]></summary>
-        <author>
-            <name>Britt Kemp</name>
         </author>
     </entry>
     <entry>
