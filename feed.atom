@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-16T00:42:23.134Z</updated>
+    <updated>2023-03-17T00:40:05.813Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Multiple Internet to Baseband Remote Code Execution Vulnerabilities in Exynos Modems]]></title>
+        <id>https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html"/>
+        <updated>2023-03-16T18:07:00.011Z</updated>
+        <summary type="html"><![CDATA[.lst-kix_iavizzpdbbty-5>li{counter-increment:lst-ctn-kix_iavizzpdbbty-5}ol.lst-kix_iavizzpdbbty-0{list-style-type:none}ol.lst-kix_iavizzpdbbty-4.start{counter-reset:lst-ctn-kix_iavizzpdbbty-4 0}ol.lst-kix_iavizzpdbbty-2{list-style-type:none}ol.lst-kix_iavizzpdbbty-1{list-style-type:none}ol.lst-kix_iavizzpdbbty-0.start{counter-reset:lst-ctn-kix_iavizzpdbbty-0 0}.lst-kix_pidqkndckybh-1>li:before{content:"\0025cb  "}.lst-kix_pidqkndckybh-2>li:before{content:"\0025a0  "}ol.lst-kix_iavizzpdbbty-7.start{counter-reset:lst-ctn-kix_iavizzpdbbty-7 0}.lst-kix_tkumn87s07hu-6>li:before{content:"\0025cf  "}.lst-kix_pidqkndckybh-0>li:before{content:"\0025cf  "}.lst-kix_tkumn87s07hu-5>li:before{content:"\0025a0  "}.lst-kix_tkumn87s07hu-4>li:before{content:"\0025cb  "}.lst-kix_tkumn87s07hu-3>li:before{cont…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can’t uninstall app: Delete or change Windows apps that have been flagged as non-removable]]></title>
+        <id>https://4sysops.com/?p=1570628</id>
+        <link href="https://4sysops.com/archives/cant-uninstall-app-delete-or-change-windows-apps-that-have-been-flagged-as-non-removable/"/>
+        <updated>2023-03-16T13:50:42.000Z</updated>
+        <summary type="html"><![CDATA[If you can't uninstall a Windows app, the ARPNOREMOVE property might be the reason. When installing software on Windows devices, common deployment mechanisms such as Configuration Manager can set a custom property to prevent users from deleting the package. Setting the ARPNOREMOVE property results in the RegisterProduct action blocking the program's uninstall string from being written to the Registry.
+Can’t uninstall app: Delete or change Windows apps that have been flagged as non-removable first appeared on 4sysops.]]></summary>
+        <author>
+            <name>James Rankin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Winter Vivern | Uncovering a Wave of Global Espionage]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=77315</id>
+        <link href="https://www.sentinelone.com/labs/winter-vivern-uncovering-a-wave-of-global-espionage/"/>
+        <updated>2023-03-16T09:55:26.000Z</updated>
+        <summary type="html"><![CDATA[SentinelLabs uncover a previously unknown set of espionage campaigns conducted by Winter Vivern advanced persistent threat (APT) group.]]></summary>
+        <author>
+            <name>Tom Hegel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Which Human-Focused Cybersecurity Course is Best for Me?]]></title>
+        <id>https://www.sans.org/blog/which-human-focused-cybersecurity-course-is-best-for-me</id>
+        <link href="https://www.sans.org/blog/which-human-focused-cybersecurity-course-is-best-for-me?msc=rss"/>
+        <updated>2023-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Examine the differences between the MGT433: Managing Human Risk course and MGT521: Building a Security-Based Culture course.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SSRF Cross Protocol Redirect Bypass]]></title>
+        <id>https://blog.doyensec.com//2023/03/16/ssrf-remediation-bypass.html</id>
+        <link href="https://blog.doyensec.com//2023/03/16/ssrf-remediation-bypass.html"/>
+        <updated>2023-03-15T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Server Side Request Forgery (SSRF) is a fairly known vulnerability with established prevention methods. So imagine my surprise when I bypassed an SSRF mitigation during a routine retest. Even worse, I have bypassed a filter that we have recommended ourselves! I couldn’t let it slip and had to get to the bottom of the issue.
+Introduction
+Server Side Request Forgery is a vulnerability in which a malicious actor exploits a victim server to perform HTTP(S) requests on the attacker’s behalf. Since the server usually has access to the internal network, this attack is useful to bypass firewalls and IP whitelists to access hosts otherwise inaccessible to the attacker.
+Request Library Vulnerability
+SSRF attacks can be prevented with address filtering, assuming there are no filter bypasses. One of t…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Uncovering Windows Events]]></title>
         <id>https://medium.com/p/b4b9db7eac54</id>
@@ -1079,98 +1134,6 @@ That’s all for Day 2 of Pwn2Own Miami 2023! We’ve awarded $125,000 for 11 un
 The post Technical Advisory – Azure B2C – Crypto Misuse and Account Compromise appeared first on Praetorian.]]></summary>
         <author>
             <name>emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA).]]></title>
-        <id>https://blog.exodusintel.com/?p=2065</id>
-        <link href="https://blog.exodusintel.com/2023/02/14/exodus-intelligence-has-been-authorized-by-the-cve-program-as-a-cve-numbering-authority-cna/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=exodus-intelligence-has-been-authorized-by-the-cve-program-as-a-cve-numbering-authority-cna"/>
-        <updated>2023-02-15T02:23:54.000Z</updated>
-        <summary type="html"><![CDATA[Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA). Exodus Intelligence, the leader in Vulnerability Research, today announced it has been authorized by the CVE Program as a CVE Numbering Authority (CNA).  As a CNA, Exodus is authorized to assign CVE IDs to newly discovered vulnerabilities and publicly disclose ... Read more Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA).
-The post Exodus Intelligence has been authorized by the CVE Program as a CVE Numbering Authority (CNA). appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: cut-bytes.py Version 0.0.16]]></title>
-        <id>http://blog.didierstevens.com/?p=9937</id>
-        <link href="https://blog.didierstevens.com/2023/02/15/update-cut-bytes-py-version-0-0-16/"/>
-        <updated>2023-02-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this new version of cut-bytes.py, I add support for custom Python transforms (options -P and -S), pyzipper and fixed a bug. cut-bytes_V0_0_16.zip (http)MD5: 04E6E0E46C6698127BAE443AF5CEF0F6SHA256: 0657F6A6837CEC9F3E9E50551F8861D19B70305A4B7C3C409D561C3462550D24]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SANS Cybersecurity Leadership Curriculum]]></title>
-        <id>https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum</id>
-        <link href="https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum?msc=rss"/>
-        <updated>2023-02-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Summary of SANS Cybersecurity Leadership Curriculum which is developing cyber security managers and leaders worldwide.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rustproofing Linux (Part 3/4 Integer Overflows)]]></title>
-        <id>https://research.nccgroup.com/?p=18658</id>
-        <link href="https://research.nccgroup.com/2023/02/14/rustproofing-linux-part-3-4-integer-overflows/"/>
-        <updated>2023-02-14T21:04:06.000Z</updated>
-        <summary type="html"><![CDATA[This is a four part blog post series that starts with Rustproofing Linux (Part 1/4 Leaking Addresses). In the C programming language, integer types can be a bit confusing. Portability issues can arise when the same code is used in multiple hardware architectures or operating systems. For example, int is usually 32-bit, but could also … Continue reading Rustproofing Linux (Part 3/4 Integer Overflows) →]]></summary>
-        <author>
-            <name>Domen Puncer Kugler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The February 2023 Security Update Overview]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63e17166890ebd566367657f</id>
-        <link href="https://www.thezdi.com/blog/2023/2/14/the-february-2023-security-update-overview"/>
-        <updated>2023-02-14T18:28:14.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the second patch Tuesday of 2023. On this romantic holiday, Microsoft and Adobe have released their latest security patches as Valentine’s gifts for us all. Take a break from your regularly scheduled activities (or Pwn2Own Miami) and join us as we review the details of their latest security offerings.
-Adobe Patches for February 2023
-For February, Adobe released nine patches addressing 28 CVEs in Adobe Photoshop, Substance 3D Stager, Animate, InDesign, Bridge, FrameMaker, Connect, and After Effects. A total of 21 of these were reported by ZDI vulnerability researcher Mat Powell. Probably the most interesting fix is for PhotoShop. This patch fixes five bugs, three of which are rated Critical. An attacker could get arbitrary code execution if they can convince a user on an affected…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NAKIVO Backup & Replication v10.8 with new cloud and MSP features]]></title>
-        <id>https://4sysops.com/?p=1570121</id>
-        <link href="https://4sysops.com/archives/nakivo-backup-replication-v108-with-new-cloud-and-msp-features/"/>
-        <updated>2023-02-14T16:57:54.000Z</updated>
-        <summary type="html"><![CDATA[NAKIVO Backup & Replication v10.8 delivers excellent new cloud and managed service provider (MSP) features, allowing businesses to meet modern data protection challenges.
-NAKIVO Backup & Replication v10.8 with new cloud and MSP features first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Miami 2023 - Day One Results]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:63e2cb3f3fc4dd669e134b36</id>
-        <link href="https://www.thezdi.com/blog/2023/2/14/pwn2own-miami-2023-day-one-results"/>
-        <updated>2023-02-14T15:30:43.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the first day of Pwn2Own Miami for 2023. We’ll be updating this blog in real time as results become available. For this year’s event, each round will receive the full payout for unique entries. We’ll update this blog throughout the day with results as they come in.
-All results current as of 1615 Eastern (GMT -5)
-SUCCESS - Claroty was able to execute their DoS attack against the Inductive Automation Ignition. They earn $5,000 and 5 Master of Pwn points.
-SUCCESS – Team ECQ used a Null Pointer Deref to complete their DoS attack against Softing edgeConnector Siemens. They earn $5,000 and 5 Master of Pwn points.
-SUCCESS – Claroty used a four-bug chain in their attack against the Triangle Microworks SCADA Data Gateway. They earn $20,000 and 20 Master of Pwn points.
-SUCCESS - 20urdjk was able to execute their RCE attack against the Inductive Automation Ignition. They earn $20,000 and 20 Master of Pwn points.
-SUCCESS - Claroty used a resource exhaustion to demonstrate their DoS attack against the PTC KepServerEx. They earn $5,000 and 5 Master of Pwn points.
-SUCCESS - Claroty used a resource exhaustion to demonstrate their DoS attack against the OPC Foundation OPC UA .NET Standard. They earn $5,000 and 5 Master of Pwn points.
-That wraps up the first day of Pwn2Own Toronto 2022! We awarded $60,000 for 6 unique bugs during the first day of the contest. We’ll continue posting results and videos to Twitter, YouTube, Mastodon, LinkedIn, and Instagram, so follow us on your favorite flavor of social media for the latest news from the event.]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cURL audit: How a joke led to significant findings]]></title>
-        <id>https://blog.trailofbits.com/?p=103815</id>
-        <link href="https://blog.trailofbits.com/2023/02/14/curl-audit-fuzzing-libcurl-command-line-interface/"/>
-        <updated>2023-02-14T13:00:14.000Z</updated>
-        <summary type="html"><![CDATA[By Maciej Domanski In fall 2022, Trail of Bits audited cURL, a widely-used command-line utility that transfers data between a server and supports various protocols. The project coincided with a Trail of Bits maker week, which meant that we had more manpower than we usually do, allowing us to take a nonstandard approach to the […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
