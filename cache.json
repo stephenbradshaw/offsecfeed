@@ -29,6 +29,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "burp-suite-enterprise-edition-power-tools-unleashing-the-power-to-the-command-line-python-and-more",
+          "author": null,
+          "description": "tl;dr We have released BSEEPT - Burp Suite Enterprise Edition Power Tools which: Is a command line tool to drive all aspects of the BSEE GraphQL API. Is a Python client library to allow you to easily",
+          "link": "https://portswigger.net/blog/burp-suite-enterprise-edition-power-tools-unleashing-the-power-to-the-command-line-python-and-more",
+          "publishedOn": "2023-03-21T14:30:00.000Z",
+          "wordCount": 2017,
+          "title": "Burp Suite Enterprise Edition Power Tools: Unleashing the power to the command line, Python, and more",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "server-side-prototype-pollution-scanner",
           "author": null,
           "description": "We recently published some research on server-side prototype pollution where we went into detail on techniques for detecting this vulnerability black-box. To make your life easier, we've integrated th",
@@ -306,6 +316,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6414d35a93b5d101f90364d1",
+          "author": "Dustin Childs",
+          "description": "Welcome to Pwn2Own Vancouver for 2023! This year’s event promises some exciting research as we have 19 entries targeting nine different targets - including two Tesla attempts. For this year’s event, every round will pay full price, which means if all exploits succeed, we’ll award over $1,000,000 USD. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Pacific [GMT -8:00]). \nNote: All times subject to change\nWednesday, March 22 - 1000\nAbdulAziz Hariri (@abdhariri) of Haboob SA (@HaboobSa) targeting Adobe Reader in the Enterprise Applications category for $50,000 and 5 Master of Pwn points\nWednesday, March 22 - 1030\nlast_minute_pwnie targeting Ubun…",
+          "link": "https://www.thezdi.com/blog/2023/3/21/pwn2own-vancouver-schedule-2023",
+          "publishedOn": "2023-03-21T23:43:23.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Vancouver 2023 - The Full Schedule",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:640f487aa8d52f5d1b433b0a",
           "author": "Dustin Childs",
           "description": "Happy Pi Day, and welcome to the third patch Tuesday of 2023 and the final patch Tuesday before Pwn2Own Vancouver. Take a break from your regularly scheduled activities and join us as we review the details of the latest security offerings from Microsoft and Adobe.\nAdobe Patches for March 2023\nFor March, Adobe released eight patches addressing 105 CVEs in Adobe Photoshop, Experience Manager, Dimension, Commerce, Substance 3D Stager, Cloud Desktop Application, and Illustrator. A total of 77 of these bugs were reported through the ZDI program. This is the largest Adobe update in quite some time.  The patch for Cold Fusion is listed as under active exploit. It fixes three bugs, including a Critical-rate code execution bug that rates a CVSS 9.8. This patch receives a deployment priority of 1 fr…",
@@ -480,6 +501,16 @@
       "siteUrl": "https://blog.doyensec.com//atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com//2023/03/21/windows-installer.html",
+          "author": null,
+          "description": "TL;DR: This blog post describes the details and methodology of our research targeting the Windows Installer (MSI) installation technology. If you’re only interested in the vulnerability itself, then jump right there\nIntroduction\nRecently, I decided to research a single common aspect of many popular Windows applications - their MSI installer packages.\nNot every application is distributed this way. Some applications implement custom bootstrapping mechanisms, some are just meant to be dropped on the disk. However, in a typical enterprise environment, some form of control over the installed packages is often desired. Using the MSI packages simplifies the installation process for any number of systems and also provides additional benefits such as automatic repair, easy patching, and compatibili…",
+          "link": "https://blog.doyensec.com//2023/03/21/windows-installer.html",
+          "publishedOn": "2023-03-20T23:00:00.000Z",
+          "wordCount": 2705,
+          "title": "Windows Installer EOP (CVE-2023-21800)",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com//2023/03/16/ssrf-remediation-bypass.html",
           "author": null,
           "description": "Server Side Request Forgery (SSRF) is a fairly known vulnerability with established prevention methods. So imagine my surprise when I bypassed an SSRF mitigation during a routine retest. Even worse, I have bypassed a filter that we have recommended ourselves! I couldn’t let it slip and had to get to the bottom of the issue.\nIntroduction\nServer Side Request Forgery is a vulnerability in which a malicious actor exploits a victim server to perform HTTP(S) requests on the attacker’s behalf. Since the server usually has access to the internal network, this attack is useful to bypass firewalls and IP whitelists to access hosts otherwise inaccessible to the attacker.\nRequest Library Vulnerability\nSSRF attacks can be prevented with address filtering, assuming there are no filter bypasses. One of t…",
@@ -530,6 +561,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=104106",
+          "author": "Trail of Bits",
+          "description": "By Fredrik Dahlgren, Principal Security Engineer TL;DR: We have released version 0.8.0 of Circomspect, our static analyzer and linter for Circom. Since our initial release of Circomspect in September 2022, we have added five new analysis passes, support for tags, tuples, and anonymous components, links to in-depth descriptions of each identified issue, and squashed a […]",
+          "link": "https://blog.trailofbits.com/2023/03/21/circomspect-static-analyzer-circom-more-passes/",
+          "publishedOn": "2023-03-21T12:00:24.000Z",
+          "wordCount": 4181,
+          "title": "Circomspect has more passes!",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/03/Screenshot-2023-03-17-at-2.00.21-PM.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=104082",
           "author": "Trail of Bits",
@@ -594,6 +635,16 @@
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2095",
+          "author": "Exodus Intel VRT",
+          "description": "The Death Star Needed Vulnerability Intelligence Darth Vader and his evil colleagues aboard the Death Star could have seriously benefited from world-class vulnerability intelligence. Luckily for the Rebel Alliance, Vader was too focused on threat intelligence alone. If you’ve ever seen the original Star Wars story, you might recall that the evil Empire was confident ... Read more The Death Star Needed Vulnerability Intelligence\nThe post <strong>The Death Star Needed Vulnerability Intelligence</strong> appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2023/03/21/the-death-star-needed-vulnerability-intelligence/?utm_source=rss&utm_medium=rss&utm_campaign=the-death-star-needed-vulnerability-intelligence",
+          "publishedOn": "2023-03-21T20:55:23.000Z",
+          "wordCount": 3094,
+          "title": "The Death Star Needed Vulnerability Intelligence",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/03/Death-Star-Banner-768x432.png"
+        },
         {
           "id": "https://blog.exodusintel.com/?p=2089",
           "author": "Exodus Intel VRT",
@@ -714,6 +765,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570705",
+          "author": "Robert Pearman",
+          "description": "I was working on a ticket this week in which a user would try to join a meeting, and Microsoft Teams would freeze for several minutes, waiting for the audio and video to initialize. To solve the issue, I had to change the Teams permissions to allow access automatically to the cam and the microphone. In this post, I will show you how you can change the cam permissions for any kind of conferencing app for your entire organization.\nMicrosoft Teams freezes: Set cam permissions for conferencing apps first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/microsoft-teams-freezes-set-cam-permissions-for-conferencing-apps/",
+          "publishedOn": "2023-03-21T12:49:37.000Z",
+          "wordCount": 12793,
+          "title": "Microsoft Teams freezes: Set cam permissions for conferencing apps",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Microsoft-Teams-requires-permission-to-access-the-camera-600x331.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570690",
           "author": "Brandon Lee",
@@ -1009,16 +1070,6 @@
           "publishedOn": "2023-03-08T06:07:20.000Z",
           "wordCount": 2420,
           "title": "Monetising hacking by shorting commodity shipments",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=26600",
-          "author": "Daniel Gildersleeve",
-          "description": "Introduction Our digital forensics work is wide and varied. Often there’s very little that we can talk about in the public domain, so when I find something that we can […]\nFinding forensics breadcrumbs in Android image storage first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/finding-forensics-breadcrumbs-in-android-image-storage/",
-          "publishedOn": "2023-02-20T06:14:16.000Z",
-          "wordCount": 2822,
-          "title": "Finding forensics breadcrumbs in Android image storage",
           "imageUrl": null
         }
       ]

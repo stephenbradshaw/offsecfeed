@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-21T00:37:55.227Z</updated>
+    <updated>2023-03-22T00:37:42.300Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Vancouver 2023 - The Full Schedule]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6414d35a93b5d101f90364d1</id>
+        <link href="https://www.thezdi.com/blog/2023/3/21/pwn2own-vancouver-schedule-2023"/>
+        <updated>2023-03-21T23:43:23.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Pwn2Own Vancouver for 2023! This year’s event promises some exciting research as we have 19 entries targeting nine different targets - including two Tesla attempts. For this year’s event, every round will pay full price, which means if all exploits succeed, we’ll award over $1,000,000 USD. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. 
+The complete schedule for the contest is below (all times Pacific [GMT -8:00]). 
+Note: All times subject to change
+Wednesday, March 22 - 1000
+AbdulAziz Hariri (@abdhariri) of Haboob SA (@HaboobSa) targeting Adobe Reader in the Enterprise Applications category for $50,000 and 5 Master of Pwn points
+Wednesday, March 22 - 1030
+last_minute_pwnie targeting Ubun…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Death Star Needed Vulnerability Intelligence]]></title>
+        <id>https://blog.exodusintel.com/?p=2095</id>
+        <link href="https://blog.exodusintel.com/2023/03/21/the-death-star-needed-vulnerability-intelligence/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-death-star-needed-vulnerability-intelligence"/>
+        <updated>2023-03-21T20:55:23.000Z</updated>
+        <summary type="html"><![CDATA[The Death Star Needed Vulnerability Intelligence Darth Vader and his evil colleagues aboard the Death Star could have seriously benefited from world-class vulnerability intelligence. Luckily for the Rebel Alliance, Vader was too focused on threat intelligence alone. If you’ve ever seen the original Star Wars story, you might recall that the evil Empire was confident ... Read more The Death Star Needed Vulnerability Intelligence
+The post <strong>The Death Star Needed Vulnerability Intelligence</strong> appeared first on Exodus Intelligence.]]></summary>
+        <author>
+            <name>Exodus Intel VRT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Burp Suite Enterprise Edition Power Tools: Unleashing the power to the command line, Python, and more]]></title>
+        <id>burp-suite-enterprise-edition-power-tools-unleashing-the-power-to-the-command-line-python-and-more</id>
+        <link href="https://portswigger.net/blog/burp-suite-enterprise-edition-power-tools-unleashing-the-power-to-the-command-line-python-and-more"/>
+        <updated>2023-03-21T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[tl;dr We have released BSEEPT - Burp Suite Enterprise Edition Power Tools which: Is a command line tool to drive all aspects of the BSEE GraphQL API. Is a Python client library to allow you to easily]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Teams freezes: Set cam permissions for conferencing apps]]></title>
+        <id>https://4sysops.com/?p=1570705</id>
+        <link href="https://4sysops.com/archives/microsoft-teams-freezes-set-cam-permissions-for-conferencing-apps/"/>
+        <updated>2023-03-21T12:49:37.000Z</updated>
+        <summary type="html"><![CDATA[I was working on a ticket this week in which a user would try to join a meeting, and Microsoft Teams would freeze for several minutes, waiting for the audio and video to initialize. To solve the issue, I had to change the Teams permissions to allow access automatically to the cam and the microphone. In this post, I will show you how you can change the cam permissions for any kind of conferencing app for your entire organization.
+Microsoft Teams freezes: Set cam permissions for conferencing apps first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Robert Pearman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circomspect has more passes!]]></title>
+        <id>https://blog.trailofbits.com/?p=104106</id>
+        <link href="https://blog.trailofbits.com/2023/03/21/circomspect-static-analyzer-circom-more-passes/"/>
+        <updated>2023-03-21T12:00:24.000Z</updated>
+        <summary type="html"><![CDATA[By Fredrik Dahlgren, Principal Security Engineer TL;DR: We have released version 0.8.0 of Circomspect, our static analyzer and linter for Circom. Since our initial release of Circomspect in September 2022, we have added five new analysis passes, support for tags, tuples, and anonymous components, links to in-depth descriptions of each identified issue, and squashed a […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Installer EOP (CVE-2023-21800)]]></title>
+        <id>https://blog.doyensec.com//2023/03/21/windows-installer.html</id>
+        <link href="https://blog.doyensec.com//2023/03/21/windows-installer.html"/>
+        <updated>2023-03-20T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: This blog post describes the details and methodology of our research targeting the Windows Installer (MSI) installation technology. If you’re only interested in the vulnerability itself, then jump right there
+Introduction
+Recently, I decided to research a single common aspect of many popular Windows applications - their MSI installer packages.
+Not every application is distributed this way. Some applications implement custom bootstrapping mechanisms, some are just meant to be dropped on the disk. However, in a typical enterprise environment, some form of control over the installed packages is often desired. Using the MSI packages simplifies the installation process for any number of systems and also provides additional benefits such as automatic repair, easy patching, and compatibili…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Persistence – Service Control Manager]]></title>
         <id>http://pentestlab.blog/?p=31005</id>
@@ -994,17 +1065,6 @@ Factory reset of Windows 10 and 11 without a password first appeared on 4sysops.
 Transfer WiFi passwords in Windows 10/11 first appeared on 4sysops.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finding forensics breadcrumbs in Android image storage]]></title>
-        <id>https://www.pentestpartners.com/?p=26600</id>
-        <link href="https://www.pentestpartners.com/security-blog/finding-forensics-breadcrumbs-in-android-image-storage/"/>
-        <updated>2023-02-20T06:14:16.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Our digital forensics work is wide and varied. Often there’s very little that we can talk about in the public domain, so when I find something that we can […]
-Finding forensics breadcrumbs in Android image storage first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Daniel Gildersleeve</name>
         </author>
     </entry>
     <entry>
