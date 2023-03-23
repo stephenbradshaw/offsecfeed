@@ -316,6 +316,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:641b2b51e210614d4062fffd",
+          "author": "Dustin Childs",
+          "description": "Welcome to Pwn2Own Vancouver 2023! We’ll be updating this blog in real time as results become available. We have eight attempts for today, including a SharePoint RCE and a Tesla exploit. We’re excited to say that all unique winning entries will receive the full payout during this year’s contest. We’ll update this blog throughout the day with results as they come in.\nSUCCESS - AbdulAziz Hariri (@abdhariri) of Haboob SA (@HaboobSa) completed his attack against Adobe Reader using a 6-bug logic chain exploiting multiple failed patches which escaped the sandbox and bypassed a banned API list. He earns $50,000 and 5 Master of Pwn points.\nFAILURE - last_minute_pwnie was unable to get their Ubuntu exploit working within the time allotted.\nSUCCESS - STAR Labs (@starlabs_sg) was able to execute a 2-…",
+          "link": "https://www.thezdi.com/blog/2023/3/22/pwn2own-vancouver-2023-day-one-results",
+          "publishedOn": "2023-03-22T18:24:56.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Vancouver 2023 - Day One Results",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6414d35a93b5d101f90364d1",
           "author": "Dustin Childs",
           "description": "Welcome to Pwn2Own Vancouver for 2023! This year’s event promises some exciting research as we have 19 entries targeting nine different targets - including two Tesla attempts. For this year’s event, every round will pay full price, which means if all exploits succeed, we’ll award over $1,000,000 USD. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Pacific [GMT -8:00]). \nNote: All times subject to change\nWednesday, March 22 - 1000\nAbdulAziz Hariri (@abdhariri) of Haboob SA (@HaboobSa) targeting Adobe Reader in the Enterprise Applications category for $50,000 and 5 Master of Pwn points\nWednesday, March 22 - 1030\nlast_minute_pwnie targeting Ubun…",
@@ -386,6 +397,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=19303",
+          "author": "Paul Bottinelli",
+          "description": "The Pedersen hash function has gained popularity due to its efficiency in the arithmetic circuits used in zero-knowledge proof systems. Hash functions are a crucial primitive in cryptography, and zero-knowledge proof systems often make heavy use of them, for example when computing Merkle tree roots and paths. Instead of being based on complex bit-fiddling operations … Continue reading Breaking Pedersen Hashes in Practice →",
+          "link": "https://research.nccgroup.com/2023/03/22/breaking-pedersen-hashes-in-practice/",
+          "publishedOn": "2023-03-22T13:00:00.000Z",
+          "wordCount": 5590,
+          "title": "Breaking Pedersen Hashes in Practice",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/03/securitypropertiesrequirements.png"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=19582",
           "author": "Jeremy Boone",
           "description": "About four months ago, in October 2022, I was idly poking around the “ICE TEA” leak. This leak was of particular interest to me, because it happened to expose the source code for Intel’s Alder Lake platform BIOS. It’s always fun to finally get to see the code for modules that you previously reverse engineered. … Continue reading A Race to Report a TOCTOU: Analysis of a Bug Collision in Intel SMM →",
@@ -404,16 +425,6 @@
           "wordCount": 3223,
           "title": "Making New Connections – Leveraging Cisco AnyConnect Client to Drop and Run Payloads",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2020/07/cropped-Gwl5Lrim_400x400-1.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=18782",
-          "author": "aleks224",
-          "description": "There is a specific type of cryptographic transformation that arises in storage-oriented blockchains. The transformation is a “slowable” 1-1 mapping which does not involve any secrets and is tradeoff-resistant in the following sense: it should not be possible to partially compute the function, store a fraction of the function’s state and then resume and finish … Continue reading A Primer On Slowable Encoders →",
-          "link": "https://research.nccgroup.com/2023/02/20/a-primer-on-slowable-encoders/",
-          "publishedOn": "2023-02-20T14:38:17.000Z",
-          "wordCount": 3512,
-          "title": "A Primer On Slowable Encoders",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/01/cbc-3.png"
         }
       ]
     },
@@ -562,6 +573,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=104162",
+          "author": "Dan Guido",
+          "description": "By Artem Dinaburg, Chief Technology Officer; Josselin Feist, Principal Engineer; and Riccardo Schirone, Security Engineer Is artificial intelligence (AI) capable of powering software security audits? Over the last four months, we piloted a project called Toucan to find out. Toucan was intended to integrate OpenAI’s Codex into our Solidity auditing workflow. This experiment went far […]",
+          "link": "https://blog.trailofbits.com/2023/03/22/codex-and-gpt4-cant-beat-humans-on-smart-contract-audits/",
+          "publishedOn": "2023-03-22T11:00:49.000Z",
+          "wordCount": 5010,
+          "title": "Codex (and GPT-4) can’t beat humans on smart contract audits",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/03/ToucanSlitherComparison-1024x343.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=104106",
           "author": "Trail of Bits",
           "description": "By Fredrik Dahlgren, Principal Security Engineer TL;DR: We have released version 0.8.0 of Circomspect, our static analyzer and linter for Circom. Since our initial release of Circomspect in September 2022, we have added five new analysis passes, support for tags, tuples, and anonymous components, links to in-depth descriptions of each identified issue, and squashed a […]",
@@ -635,6 +656,16 @@
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2093",
+          "author": "Exodus Intel VRT",
+          "description": "An Unpatched Vulnerability, A Substantial Liability Even the largest and most mature enterprises have trouble finding and patching vulnerabilities in a timely fashion. As we see in this article challenges include getting patches pushed through a sophisticated supply chain and ultimately to a system whose end user may have devices configured to not allow automated ... Read more An Unpatched Vulnerability, A Substantial Liability\nThe post <strong>An Unpatched Vulnerability, A Substantial Liability</strong> appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2023/03/22/an-unpatched-vulnerability-a-substantial-liability/?utm_source=rss&utm_medium=rss&utm_campaign=an-unpatched-vulnerability-a-substantial-liability",
+          "publishedOn": "2023-03-22T11:00:00.000Z",
+          "wordCount": 3243,
+          "title": "An Unpatched Vulnerability, A Substantial Liability",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/03/istockphoto-897674744-612x612-1.jpg"
+        },
         {
           "id": "https://blog.exodusintel.com/?p=2095",
           "author": "Exodus Intel VRT",
@@ -765,6 +796,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570680",
+          "author": "Wolfgang Sommergut",
+          "description": "All modern shells and command lines offer a prompt that provides the user with essential information about his context. By default, however, PowerShell displays only the current directory. Since its appearance is determined by a function, you can change the PowerShell prompt easily.\nHow to change the PowerShell prompt first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/how-to-change-the-powershell-prompt/",
+          "publishedOn": "2023-03-22T11:44:36.000Z",
+          "wordCount": 3703,
+          "title": "How to change the PowerShell prompt",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Transfer-current-time-or-username-to-the-prompt-600x357.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570705",
           "author": "Robert Pearman",
@@ -974,16 +1015,6 @@
           "wordCount": 12844,
           "title": "Factory reset of Windows 10 and 11 without a password",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/The-PC-boots-into-the-mini-setup-wizard-for-setup-600x450.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570288",
-          "author": "Wolfgang Sommergut",
-          "description": "If you have saved many WiFi connections in a notebook, then you might want to transfer them to another computer once in a while. Windows provides the required export and import capabilities via netsh.exe. PowerShell depends on a community module for this purpose; alternatively, you can use free GUI tools.\nTransfer WiFi passwords in Windows 10/11 first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/transfer-wifi-passwords-in-windows-1011/",
-          "publishedOn": "2023-02-20T14:37:17.000Z",
-          "wordCount": 12828,
-          "title": "Transfer WiFi passwords in Windows 10/11",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Show-the-key-for-the-currently-connected-WiFi-600x395.png"
         }
       ]
     },
@@ -1079,6 +1110,26 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/what-is-in-a-name",
+          "author": null,
+          "description": "In digital forensics, the highlights come from the cases where incident response teams have proven that the threat actors were caught red-handed. Without a shadow of a doubt, national attention was captured by the biggest firm finding the biggest threat. Those are lofty heights to delve into for new individuals searching for cyber threats and joining the world of digital forensics. It sets what feels like an insurmountable goal for individuals who want to be in the field, join the team or be in the band.",
+          "link": "https://www.sans.org/blog/what-is-in-a-name?msc=rss",
+          "publishedOn": "2023-03-22T00:00:00.000Z",
+          "wordCount": 3288,
+          "title": "What is In a Name?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/renewing-your-sans-security-awareness-professional-ssap-two-easy-steps",
+          "author": null,
+          "description": "You will need to renew your SSAP every four years, a process we've worked hard to keep as simple as possible to ensure it helps you grow your career.",
+          "link": "https://www.sans.org/blog/renewing-your-sans-security-awareness-professional-ssap-two-easy-steps?msc=rss",
+          "publishedOn": "2023-03-22T00:00:00.000Z",
+          "wordCount": 3187,
+          "title": "Renewing Your SANS Security Awareness Professional (SSAP) – Two Easy Steps",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/cloud-attacks-threat-detection-SEC541",
           "author": null,
@@ -1485,16 +1536,6 @@
           "wordCount": 2885,
           "title": "The Women Behind the Writing",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Women-Behind-The-Writing-OG.jpg?mtime=1677608169"
-        },
-        {
-          "id": "https://bishopfox.com/blog/what-the-vuln-zimbra",
-          "author": "Carlos Yanez",
-          "description": "Take a deep dive into Zimbra Zip Path Traversal vulnerability with Carlos Yanez in the first blog of our What the Vuln series.",
-          "link": "https://bishopfox.com/blog/what-the-vuln-zimbra",
-          "publishedOn": "2023-02-21T12:00:00.000Z",
-          "wordCount": 3490,
-          "title": "What the Vuln: Zimbra",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Zimbra-OG.jpg?mtime=1676666996"
         }
       ]
     },
