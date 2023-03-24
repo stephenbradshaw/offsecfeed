@@ -54,7 +54,18 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": []
+      "articles": [
+        {
+          "id": "exploiting-prototype-pollution-in-node-without-the-filesystem",
+          "author": null,
+          "description": "In this post, we'll introduce a new exploitation technique for Server-Side Prototype Pollution. If you've detected SSPP (maybe using one of our black-box techniques), the next step towards RCE is to f",
+          "link": "https://portswigger.net/research/exploiting-prototype-pollution-in-node-without-the-filesystem",
+          "publishedOn": "2023-03-23T15:00:00.000Z",
+          "wordCount": 1017,
+          "title": "Exploiting prototype pollution in Node without the filesystem",
+          "imageUrl": "https://portswigger.net/cms/images/86/3f/7972-twittercard-prototype-pollution-node_twitter.png"
+        }
+      ]
     },
     {
       "title": "Project Zero",
@@ -96,6 +107,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=29749",
+          "author": "Karl Fosaaen",
+          "description": "Explore how undocumented APIs used by the Azure Function Apps Portal menu allowed for directory traversal on the Function App containers.\nThe post Escalating Privileges with Azure Function Apps appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/cloud-penetration-testing/azure-function-apps/",
+          "publishedOn": "2023-03-23T13:24:36.000Z",
+          "wordCount": 9598,
+          "title": "Escalating Privileges with Azure Function Apps",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/032323_Azure-Function-App_Social.jpg"
+        },
         {
           "id": "https://www.netspi.com/?p=29641",
           "author": "Scott Weston",
@@ -152,6 +173,26 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=9995",
+          "author": "Didier Stevens",
+          "description": "A small update to plugin_msi_info to provide extra info on streams. Indicator ! marks PE and CAB files. Indicator ? marks files that are not images (and are not marked with !). The idea is to first inspect streams marked with ! and ?. The plugin also provides an overview of the files contained inside […]",
+          "link": "https://blog.didierstevens.com/2023/03/24/update-oledump-py-version-0-0-73/",
+          "publishedOn": "2023-03-24T00:00:00.000Z",
+          "wordCount": 2805,
+          "title": "Update: oledump.py Version 0.0.73",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2023/03/20230323-205045.png"
+        },
+        {
+          "id": "http://blog.didierstevens.com/?p=9990",
+          "author": "Didier Stevens",
+          "description": "Content: Here is an overview of content I published in February: Blog posts: Update: pdf-parser.py Version 0.7.8 Update: file-magic.py Version 0.0.6 Update: xor-kpa.py Version 0.0.7 Update: cut-bytes.py Version 0.0.16 Update: process-binary-file Version 0.0.9 How-to: Make Your Own Cert With Web OpenSSL Quickpost: Fixing A Duplicate Key Update: oledump.py Version 0.0.72 SANS ISC Diary entries: Sysinternals […]",
+          "link": "https://blog.didierstevens.com/2023/03/23/overview-of-content-published-in-february-6/",
+          "publishedOn": "2023-03-23T19:19:52.000Z",
+          "wordCount": 2759,
+          "title": "Overview of Content Published in February",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=9986",
           "author": "Didier Stevens",
@@ -316,6 +357,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:641c8382070a9f5e7adb9564",
+          "author": "Dustin Childs",
+          "description": "Welcome to Day 2 of Pwn2Own Vancouver 2023! We’ll be updating this blog in real time as results become available. We’re excited to say that all unique winning entries will receive the full payout during this year’s contest. We’ll update this blog throughout the day with results as they come in.\nSUCCESS / COLLISION - Thomas Imbert (@masthoon) and Thomas Bouzerar (@MajorTomSec) from Synacktiv (@Synacktiv) demonstrated a 3-bug chain against Oracle VirtualBox with a Host EoP. One bug was previously known. They still earn $80,000 and 8 Master of Pwn points.\nSUCCESS - @hoangnx99, @rskvp93, and @_q5ca from Team Viettel (@vcslab) used a 2-bug chain in their attempt against Microsoft Teams. They earn $75,000 and 8 Master of Pwn points.\nSUCCESS - David Berard (@_p0ly_) and Vincent Dehors (@vdehors) from Synacktiv (@Synacktiv) used a heap overflow and an OOB write to exploit Tesla - Infotainment Unconfined Root. They qualify for a Tier 2 award, earning $250,000 and 25 Master of Pwn points.\nSUCCESS - dungdm (@_piers2) of Team Viettel (@vcslab) used an uninitialized variable and a UAF bug to exploit Oracle VirtualBox. They earn $40,000 and 4 Master of Pwn points.\nSUCCESS - Tanguy Dubroca (@SidewayRE) from Synacktiv (@Synacktiv) used an incorrect pointer scaling leading to privilege escalation on Ubuntu Desktop. They earn $30,000 and 3 Master of Pwn points.\nThat wraps up Day 2 of Pwn2Own Vancouver 2023! We awarded $475,000 for 10 unique zero-days during the second day of the contest. We’ll continue posting results and videos to Twitter, YouTube, Mastodon, LinkedIn, and Instagram, so follow us on your favorite flavor of social media for the latest news from the event.",
+          "link": "https://www.thezdi.com/blog/2023/3/23/pwn2own-vancouver-2023-day-two-results",
+          "publishedOn": "2023-03-23T17:02:34.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Vancouver 2023 - Day Two Results",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:641b2b51e210614d4062fffd",
           "author": "Dustin Childs",
           "description": "Welcome to Pwn2Own Vancouver 2023! We’ll be updating this blog in real time as results become available. We have eight attempts for today, including a SharePoint RCE and a Tesla exploit. We’re excited to say that all unique winning entries will receive the full payout during this year’s contest. We’ll update this blog throughout the day with results as they come in.\nSUCCESS - AbdulAziz Hariri (@abdhariri) of Haboob SA (@HaboobSa) completed his attack against Adobe Reader using a 6-bug logic chain exploiting multiple failed patches which escaped the sandbox and bypassed a banned API list. He earns $50,000 and 5 Master of Pwn points.\nFAILURE - last_minute_pwnie was unable to get their Ubuntu exploit working within the time allotted.\nSUCCESS - STAR Labs (@starlabs_sg) was able to execute a 2-…",
@@ -442,16 +494,6 @@
           "wordCount": 1114,
           "title": "Find More Secrets with Nosey Parker v.0.12.0",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2022/12/Praetorian_NoseyParker_Image_FINAL.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4443",
-          "author": "emmaline",
-          "description": "During a recent Chariot customer pilot we identified an interesting method to bypass the cross-site scripting (XSS) filtering functionality within the Akamai Web Application Firewall (WAF) solution. Chariot had identified a Carriage Return and Line Feed (CRLF) injection vulnerability during an automated scan, and we discovered the bypass during our exploitation phase. In this article, […]\nThe post Bypassing Akamai’s Web Application Firewall Using an Injected Content-Encoding Header appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/using-crlf-injection-to-bypass-akamai-web-app-firewall/",
-          "publishedOn": "2023-02-21T15:03:57.000Z",
-          "wordCount": 2583,
-          "title": "Bypassing Akamai’s Web Application Firewall Using an Injected Content-Encoding Header",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/02/Akamai1-300x168.png"
         }
       ]
     },
@@ -486,16 +528,6 @@
           "publishedOn": "2023-02-28T00:00:00.000Z",
           "wordCount": 500,
           "title": "My Latest Tool: Source Snapshot – Get An Overview of Source Code At A Glance",
-          "imageUrl": "https://mavlevin.github.io/assets/img/whtaguy_research_bg.png"
-        },
-        {
-          "id": "https://mavlevin.github.io/2023/02/22/Size-Matters-Solidity-Integer-Range-Cheatsheet-From-uint8-To-uint256.html",
-          "author": null,
-          "description": "A simple cheatsheet for Solidity Integer ranges, from uint8 to uint256. In data types, size does matter :0.",
-          "link": "https://mavlevin.github.io/2023/02/22/Size-Matters-Solidity-Integer-Range-Cheatsheet-From-uint8-To-uint256.html",
-          "publishedOn": "2023-02-22T00:00:00.000Z",
-          "wordCount": 473,
-          "title": "Size Matters: Solidity Integer Range Cheatsheet From uint8 To uint256",
           "imageUrl": "https://mavlevin.github.io/assets/img/whtaguy_research_bg.png"
         }
       ]
@@ -621,16 +653,6 @@
           "wordCount": 3555,
           "title": "Escaping well-configured VSCode extensions (for profit)",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/02/Screenshot-2023-02-22-at-9.08.22-AM-1024x494.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=103883",
-          "author": "Trail of Bits",
-          "description": "By Vasco Franco TL;DR: This two-part blog series will cover how I found and disclosed three vulnerabilities in VSCode extensions and one vulnerability in VSCode itself (a security mitigation bypass assigned CVE-2022-41042 and awarded a $7,500 bounty). We will identify the underlying cause of each vulnerability and create fully working exploits to demonstrate how an […]",
-          "link": "https://blog.trailofbits.com/2023/02/21/vscode-extension-escape-vulnerability/",
-          "publishedOn": "2023-02-21T13:00:50.000Z",
-          "wordCount": 6652,
-          "title": "Escaping misconfigured VSCode extensions",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/02/image.png"
         }
       ]
     },
@@ -796,6 +818,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570751",
+          "author": "Brandon Lee",
+          "description": "ManageEngine OpManager provides a comprehensive solution to monitor on-prem servers, networking, storage, cloud, virtualization, containers, and more.\nManageEngine OpManager: Comprehensive monitoring for on-prem, cloud, and containers first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/manageengine-opmanager-comprehensive-monitoring-for-on-prem-cloud-and-containers/",
+          "publishedOn": "2023-03-23T11:40:00.000Z",
+          "wordCount": 4203,
+          "title": "ManageEngine OpManager: Comprehensive monitoring for on-prem, cloud, and containers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/ManageEngine-OpManager-provides-rich-monitoring-and-management-on-desktop-and-mobile-devices-600x351.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570680",
           "author": "Wolfgang Sommergut",
@@ -1005,16 +1037,6 @@
           "wordCount": 13089,
           "title": "Cannot delete a file or folder",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Finding-a-handle-using-Process-Explorer-600x384.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570306",
-          "author": "Brandon Lee",
-          "description": "Windows 10 and 11 come with a factory reset feature. However, maybe you lost your password and want to reset your PC. How can Windows be reset without a password?\nFactory reset of Windows 10 and 11 without a password first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/factory-reset-of-windows-10-and-11-without-a-password/",
-          "publishedOn": "2023-02-21T13:39:59.000Z",
-          "wordCount": 12844,
-          "title": "Factory reset of Windows 10 and 11 without a password",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/The-PC-boots-into-the-mini-setup-wizard-for-setup-600x450.png"
         }
       ]
     },
@@ -1110,6 +1132,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/jon-zeolla-instructor-spotlight",
+          "author": null,
+          "description": "Get to know Jon Zeolla, instructor for SEC540: Cloud Security and DevSecOps Automation",
+          "link": "https://www.sans.org/blog/jon-zeolla-instructor-spotlight?msc=rss",
+          "publishedOn": "2023-03-22T00:00:00.000Z",
+          "wordCount": 3805,
+          "title": "jon-zeolla-instructor-spotlight",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/what-is-in-a-name",
           "author": null,
@@ -1434,6 +1466,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=77707",
+          "author": "Aleksandar Milenkoski",
+          "description": "Cyber espionage actor deploys custom credential theft malware in new campaign targeting the telecoms sector.",
+          "link": "https://www.sentinelone.com/labs/operation-tainted-love-chinese-apts-target-telcos-in-new-attacks/",
+          "publishedOn": "2023-03-23T09:53:52.000Z",
+          "wordCount": 4287,
+          "title": "Operation Tainted Love | Chinese APTs Target Telcos in New Attacks",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/03/Operation-Tainted-Love-Chinese-APTs-Target-Telcos-in-New-Attacks-4.jpg",
+            "length": "125637",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/03/Operation-Tainted-Love-Chinese-APTs-Target-Telcos-in-New-Attacks-4.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=77315",
           "author": "Tom Hegel",
           "description": "SentinelLabs uncover a previously unknown set of espionage campaigns conducted by Winter Vivern advanced persistent threat (APT) group.",
@@ -1507,6 +1554,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/edr-bypass-with-lolbins",
+          "author": "Lindsay Von Tish",
+          "description": "Learn more about EDR bypass techniques with Lindsay Von Tish in the second blog of our What the Vuln series.",
+          "link": "https://bishopfox.com/blog/edr-bypass-with-lolbins",
+          "publishedOn": "2023-03-23T14:00:00.000Z",
+          "wordCount": 2709,
+          "title": "What the Vuln: EDR Bypass with LoLBins",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop_Fox_Blog_EDR_Bypass_OG.jpg?mtime=1678747483"
+        },
         {
           "id": "https://bishopfox.com/blog/attackers-view-financial-services",
           "author": "Beth Robinson",
