@@ -56,6 +56,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "the-curl-quirk-that-exposed-burp-suite-amp-google-chrome",
+          "author": null,
+          "description": "In this post, we'll explore a little-known feature in curl that led to a local-file disclosure vulnerability in both Burp Suite Pro, and Google Chrome. We patched Burp Suite a while back, but suspect",
+          "link": "https://portswigger.net/research/the-curl-quirk-that-exposed-burp-suite-amp-google-chrome",
+          "publishedOn": "2023-03-28T13:13:51.000Z",
+          "wordCount": 1139,
+          "title": "The curl quirk that exposed Burp Suite &amp; Google Chrome",
+          "imageUrl": "https://portswigger.net/cms/images/44/c5/e1db-twittercard-curl_quirk_twitter.png"
+        },
+        {
           "id": "exploiting-prototype-pollution-in-node-without-the-filesystem",
           "author": null,
           "description": "In this post, we'll introduce a new exploitation technique for Server-Side Prototype Pollution. If you've detected SSPP (maybe using one of our black-box techniques), the next step towards RCE is to f",
@@ -202,16 +212,6 @@
           "wordCount": 2759,
           "title": "Overview of Content Published in February",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=9986",
-          "author": "Didier Stevens",
-          "description": "This update brings a new plugin to analyze MSI files: plugin_msi_info oledump_V0_0_72.zip (http)MD5: 27CBB0D67EA90DD02875081785B50CB4SHA256: 3E20C06B40222DAB69951D13159E063E9AF8766291D15362C0E39026B3923DC2",
-          "link": "https://blog.didierstevens.com/2023/02/26/update-oledump-py-version-0-0-72/",
-          "publishedOn": "2023-02-26T17:49:00.000Z",
-          "wordCount": 75763,
-          "title": "Update: oledump.py Version 0.0.72",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2023/02/20230226-184743.png"
         }
       ]
     },
@@ -220,6 +220,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
+          "author": "Naz Bozdemir",
+          "description": "",
+          "link": "https://www.hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
+          "publishedOn": "2023-03-28T16:00:00.000Z",
+          "wordCount": 2868,
+          "title": "HackerOne Assets Deep Dive: Asset Inventory",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_Generic%207-Main_Featured_560x494_L1R1_0.png"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-hipotermia",
           "author": "HackerOne",
@@ -477,6 +487,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=4539",
+          "author": "Emmaline",
+          "description": "Dynamic-Linking Injection and LOLBAS Fun Introduction LoadLibrary and LoadLibraryEx are how Windows applications load shared libraries at runtime. Praetorian recently tested a .NET web application that unsafely passed user input into LoadLibrary. In this article, we discuss this vulnerability class, dubbed dynamic-linking injection. We begin with an explanation of the vulnerability. We then walk through […]\nThe post Dynamic Linking Injection and LOLBAS Fun appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/dynamic-linking-injection/",
+          "publishedOn": "2023-03-28T13:05:38.000Z",
+          "wordCount": 4454,
+          "title": "Dynamic Linking Injection and LOLBAS Fun",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/03/DLI1-300x169.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=4462",
           "author": "emmaline",
           "description": "On March 2, 2023, we issued some updates to our secrets sniffing tool, Nosey Parker, which has been available as an Apache 2-licensed open-source project since December 2022. We originally developed the full version to embed in Chariot, our Attack Surface Management solution, because we needed a secrets detection tool that was as fast as […]\nThe post Find More Secrets with Nosey Parker v.0.12.0 appeared first on Praetorian.",
@@ -534,6 +554,16 @@
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com//atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com//2023/03/28/wallet-info.html",
+          "author": null,
+          "description": "Anatomy Of A Modern Day Crypto Scam\nA large number of today’s crypto scams involve some sort of phishing attack, where the user is tricked into visiting a shady/malicious web site and connecting their wallet to it. The main goal is to trick the user into signing a transaction which will ultimately give the attacker control over the user’s tokens.\nUsually, it all starts with a tweet or a post on some Telegram group or Slack channel, where a link is sent advertising either a new yield farming protocol boasting large APYs, or a new NFT project which just started minting. In order to interact with the web site, the user would need to connect their wallet and perform some confirmation or authorization steps.\nLet’s take a look at the common NFT approve scam. The user is lead to the malicious NFT…",
+          "link": "https://blog.doyensec.com//2023/03/28/wallet-info.html",
+          "publishedOn": "2023-03-27T22:00:00.000Z",
+          "wordCount": 3249,
+          "title": "The Case For Improving Crypto Wallet Security",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com//2023/03/21/windows-installer.html",
           "author": null,
@@ -789,6 +819,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1570776",
+          "author": "Brandon Lee",
+          "description": "If Windows doesn't start or boot, you need a good repair tool that you allows to access the boot drive to rescue your Windows installation by recovering partitions, copying files, or resetting the admin password. SystemRescue is a collection of open-source utilities on a bootable ISO image, making it easy to download and mount directly to a virtual machine or \"burn\" to a USB drive. You can use them for both Linux and Windows computers, including desktops, laptops, and servers.\nWindows doesn’t start: Recover partitions, copy files, and reset password with SystemRescue first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/windows-doesnt-start-recover-partitions-copy-files-and-reset-password-with-systemrescue/",
+          "publishedOn": "2023-03-28T18:12:20.000Z",
+          "wordCount": 4104,
+          "title": "Windows doesn’t start: Recover partitions, copy files, and reset password with SystemRescue",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/SystemRescue-GUI-600x360.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1570831",
           "author": "Wolfgang Sommergut",
           "description": "When companies use OneDrive, they usually want to control its use via Group Policy to prevent data loss or excessive resource consumption. However, the required administrative templates (ADMX templates) must first be localized under Windows and copied to the correct directory.\nHow to install Group Policy ADMX templates for OneDrive first appeared on 4sysops.",
@@ -987,16 +1027,6 @@
           "wordCount": 12893,
           "title": "Install Windows 10 / 11 22H2 without Microsoft account",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Running-the-OOBE-BypassNRO-command-to-bypass-the-network-requirement-during-Windows-11-setup-600x379.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570385",
-          "author": "Wolfgang Sommergut",
-          "description": "The Unified Update Platform (UUP) reduces the size of feature and quality updates, as well as the number of reboots. It also retains Features on Demand (FoDs). WSUS and SCCM users will soon be able to enjoy UUP. For WSUS to obtain future Windows 11 updates, the servers have to be prepared accordingly.\nPrepare WSUS for Windows 10/11 Unified Update Platform (UUP) first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/prepare-wsus-for-windows-1011-unified-update-platform-uup/",
-          "publishedOn": "2023-02-27T12:12:36.000Z",
-          "wordCount": 12456,
-          "title": "Prepare WSUS for Windows 10/11 Unified Update Platform (UUP)",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/02/Open-the-list-of-registered-MIME-types-via-the-corresponding-applet-600x354.png"
         }
       ]
     },
@@ -1011,6 +1041,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8415",
+          "author": "adam",
+          "description": "Social media are full of questions that are formulated in a passive, passive-aggressive, or upfront aggressive way, often using common fallacies in a manipulative way to discourage dialogue. It is […]",
+          "link": "https://www.hexacorn.com/blog/2023/03/28/converting-questionable-questions-into-unquestionable-opportunities/",
+          "publishedOn": "2023-03-28T22:14:05.000Z",
+          "wordCount": 6793,
+          "title": "Converting questionable questions into unquestionable opportunities…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8443",
           "author": "adam",
@@ -1083,6 +1123,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/unlock-your-cybersecurity-potential-a-look-at-whats-new-in-the-updated-new-to-cyber-field-manual",
+          "author": null,
+          "description": "Discover the latest updates to the SANS New to Cyber Field Manual, including new sections on job search tips and career path design. Learn how this comprehensive guide can help you unlock your potential and succeed in the cybersecurity industry.",
+          "link": "https://www.sans.org/blog/unlock-your-cybersecurity-potential-a-look-at-whats-new-in-the-updated-new-to-cyber-field-manual?msc=rss",
+          "publishedOn": "2023-03-28T00:00:00.000Z",
+          "wordCount": 2843,
+          "title": "Unlock Your Cybersecurity Potential: A Look at What's New in the Updated New to Cyber Field Manual",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/jon-zeolla-instructor-spotlight",
           "author": null,
           "description": "Get to know Jon Zeolla, instructor for SEC540: Cloud Security and DevSecOps Automation",
@@ -1110,6 +1160,36 @@
           "publishedOn": "2023-03-22T00:00:00.000Z",
           "wordCount": 3187,
           "title": "Renewing Your SANS Security Awareness Professional (SSAP) – Two Easy Steps",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/cybersecurity-jobs-red-teamer-ja",
+          "author": null,
+          "description": "レッドチーマーの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！ SANSではスキルアップしたい業務内容ごとにさまざまなコースを提供しています。 各業務内容によっておすすめのSANSコースをご紹介いたしますので、ぜひ最後までご覧ください！",
+          "link": "https://www.sans.org/blog/cybersecurity-jobs-red-teamer-ja?msc=rss",
+          "publishedOn": "2023-03-21T00:00:00.000Z",
+          "wordCount": 2127,
+          "title": "Cybersecurity Jobs: Red Teamer (Japanese)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/cybersecurity-jobs-digital-forensic-analyst-ja",
+          "author": null,
+          "description": "デジタルフォレンジックアナリストの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！2021年にSANSがおすすめするサイバーセキュリティの仕事20選、今日は第3弾を紹介します。 SANSではスキルアップしたい業務内容ごとにさまざまなコースを提供しています。 各業務内容によっておすすめのSANSコースをご紹介いたしますので、ぜひ最後までご覧ください！",
+          "link": "https://www.sans.org/blog/cybersecurity-jobs-digital-forensic-analyst-ja?msc=rss",
+          "publishedOn": "2023-03-21T00:00:00.000Z",
+          "wordCount": 2080,
+          "title": "Cybersecurity Jobs: Digital Forensic Analyst (Japanese)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/cybersecurity-jobs-threat-hunter-ja",
+          "author": null,
+          "description": "スレットハンターの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！ SANSではスキルアップしたい業務内容ごとにさまざまなコースを提供しています。 各業務内容によっておすすめのSANS コースをご紹介いたしますので、ぜひ最後までご覧ください！",
+          "link": "https://www.sans.org/blog/cybersecurity-jobs-threat-hunter-ja?msc=rss",
+          "publishedOn": "2023-03-21T00:00:00.000Z",
+          "wordCount": 2101,
+          "title": "Cybersecurity Jobs: Threat Hunter (Japanese)",
           "imageUrl": null
         },
         {
@@ -1200,16 +1280,6 @@
           "publishedOn": "2023-03-02T00:00:00.000Z",
           "wordCount": 6815,
           "title": "How to Automate in Azure Using PowerShell - Part 2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/dfir-origin-stories-kevin-ripa",
-          "author": null,
-          "description": "Never thought a career in IT would be one for you? Think again. That’s what happened to Kevin Ripa. Kevin stumbled upon cyber forensics by chance. He had a military background, serving in the Canadian Armed Forces, and then started a private security company to provide physical protection services to individuals.",
-          "link": "https://www.sans.org/blog/dfir-origin-stories-kevin-ripa?msc=rss",
-          "publishedOn": "2023-02-27T00:00:00.000Z",
-          "wordCount": 4282,
-          "title": "DFIR Origin Stories - Kevin Ripa",
           "imageUrl": null
         }
       ]
@@ -1506,16 +1576,6 @@
           "wordCount": 3540,
           "title": "Cortex XSOAR Tips & Tricks – Leveraging dynamic sections – number widgets",
           "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2022/12/004-3_numbers_from_sentinel_in_incident.png?fit=1200%2C239&ssl=1"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=14144",
-          "author": "Nicholas Dhaeyer",
-          "description": "In recent weeks OneNote has gotten a lot of media attention as threat actors are abusing the embedded files feature in OneNote in their phishing campaigns. \nIn this post we will analyze this new way of malware delivery and create a detection rule for it.",
-          "link": "https://blog.nviso.eu/2023/02/27/onenote-embedded-file-abuse/",
-          "publishedOn": "2023-02-27T08:00:00.000Z",
-          "wordCount": 3404,
-          "title": "OneNote Embedded file abuse",
-          "imageUrl": "https://i0.wp.com/blog.nviso.eu/wp-content/uploads/2023/02/Pasted-image-20230217213523.png?fit=563%2C389&ssl=1"
         }
       ]
     },
@@ -1623,7 +1683,18 @@
       "title": "Publications | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://outflank.nl/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://outflank.nl/blog/?p=1365",
+          "author": "Stan",
+          "description": "In this blog post we will demonstrate how compiling, reverse engineering or even just viewing source code can lead to compromise of a developer’s workstation. This research is especially relevant in the context of attacks on security researchers using backdoored Visual Studio projects allegedly by North Korean actors, as exposed by Google. We will show that these in-the-wild attacks are only the tip of the iceberg and that backdoors can be hidden via much stealthier vectors in Visual Studio projects.\nThis post will be a journey into COM, type libraries and the inner workings of Visual Studio. In particular, it serves the following goals:\nExploring Visual Studio’s attack surface for initial access attacks from a red teamer’s perspective.\nRaising awareness on the dangers of working with untrusted code, which we as hackers and security researchers do on a regular basis.\n\nRead full post\nThe post Attacking Visual Studio for Initial Access appeared first on Outflank.",
+          "link": "https://outflank.nl/blog/2023/03/28/attacking-visual-studio-for-initial-access/",
+          "publishedOn": "2023-03-28T10:06:19.000Z",
+          "wordCount": 3652,
+          "title": "Attacking Visual Studio for Initial Access",
+          "imageUrl": "https://outflank.nl/wp-content/uploads/2023/03/visual_studio_warning-1024x357.png"
+        }
+      ]
     },
     {
       "title": "IFCR - Medium",
