@@ -167,16 +167,6 @@
           "wordCount": 9598,
           "title": "Escalating Privileges with Azure Function Apps",
           "imageUrl": "https://www.netspi.com/wp-content/uploads/032323_Azure-Function-App_Social.jpg"
-        },
-        {
-          "id": "https://www.netspi.com/?p=29641",
-          "author": "Scott Weston",
-          "description": "Explore AWS Organizations security implications and see a demonstration of a new Pacu module created for ease of enumeration. Key insights from AWS pentesting.\nThe post Pivoting Clouds in AWS Organizations – Part 2: Examining AWS Security Features and Tools for Enumeration appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical/cloud-penetration-testing/pivoting-clouds-aws-organizations-part-2/",
-          "publishedOn": "2023-03-07T19:36:18.000Z",
-          "wordCount": 6665,
-          "title": "Pivoting Clouds in AWS Organizations – Part 2: Examining AWS Security Features and Tools for Enumeration",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/030823_Pivoting-Clouds-in-AWS-Organizations–Part-2-Blog_Social.jpg"
         }
       ]
     },
@@ -301,6 +291,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
+          "publishedOn": "2023-04-06T14:12:05.000Z",
+          "wordCount": 3437,
+          "title": "How Hackers Are Finding Advocacy: Top Hacker cdl Speaks on His Experience in the Hacker Success Program",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HackerOne%20H1-407_Brent%20Andeck%20Photo-367.jpg"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/hackerones-next-million-dollar-hacker-chad-jahpeety",
           "author": "HackerOne",
@@ -427,6 +427,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:642da10791ad7913fcb3c2bc",
+          "author": "Reno Robert",
+          "description": "In the last few years, we have seen multiple vulnerabilities in Parallels Desktop leading to virtual machine escapes. Interested readers can check our previous blog posts about vulnerabilities across interfaces such as RDPMC hypercalls, the Parallels ToolGate, and the VGA virtual device. This post explores another set of issues we received last year - local privilege escalations through setuid root binaries.\nParallels Desktop has a couple of setuid binaries: prl_update_helper and Parallels Service. Both binaries run with root privileges and both invoke bash scripts to run commands with the privileges of root. For such use cases, bash specifically provides a privileged mode using the “-p” flag. Parallels Desktop prior to version 18.1.0 does not take advantage of bash privileged mode, nor do…",
+          "link": "https://www.thezdi.com/blog/2023/4/5/bash-privileged-mode-vulnerabilities-in-parallels-desktop-and-cdpath-handling-in-macos",
+          "publishedOn": "2023-04-06T16:08:23.000Z",
+          "wordCount": null,
+          "title": "Bash Privileged-Mode Vulnerabilities in Parallels Desktop and CDPATH Handling in MacOS",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:641dd772004d3c432aee72f2",
           "author": "Dustin Childs",
@@ -818,6 +829,16 @@
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
         {
+          "id": "https://blog.exodusintel.com/?p=2102",
+          "author": "Exodus Intel VRT",
+          "description": "By Michele Campa Overview We describe a method to exploit a Windows Nday vulnerability to escape the Adobe sandbox. This vulnerability is assigned CVE-2021-31199 and it is present in multiple Windows 10 versions. The vulnerability is an out-of-bounds write due to an integer overflow in a Microsoft Cryptographic Provider library,  rsaenh.dll . Microsoft Cryptographic Provider ... Read more Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider\nThe post Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2023/04/06/escaping-adobe-sandbox-exploiting-an-integer-overflow-in-microsoft-windows/",
+          "publishedOn": "2023-04-06T19:01:09.000Z",
+          "wordCount": 4361,
+          "title": "Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/04/Img_1_cryptSP-Basic-768x342.jpg"
+        },
+        {
           "id": "https://blog.exodusintel.com/?p=2093",
           "author": "Exodus Intel VRT",
           "description": "An Unpatched Vulnerability, A Substantial Liability Even the largest and most mature enterprises have trouble finding and patching vulnerabilities in a timely fashion. As we see in this article challenges include getting patches pushed through a sophisticated supply chain and ultimately to a system whose end user may have devices configured to not allow automated ... Read more An Unpatched Vulnerability, A Substantial Liability\nThe post <strong>An Unpatched Vulnerability, A Substantial Liability</strong> appeared first on Exodus Intelligence.",
@@ -980,13 +1001,34 @@
       "title": "Jump ESP, jump!",
       "feedUrl": "https://jumpespjump.blogspot.com/feeds/posts/default",
       "siteUrl": "https://jumpespjump.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://jumpespjump.blogspot.com/2023/04/this-is-end-and-beginning.html",
+          "author": null,
+          "description": "This post is just to inform everyone that do not expect any new blog posts here, I am moving everything to Jekyll + Github pages. \nYou can find the old posts and all the new posts here: \nhttps://httpscolonforwardslashforwardslashwwwdotzoltanbalazsdotcom.com/\nSo long Google.",
+          "link": "https://jumpespjump.blogspot.com/2023/04/this-is-end-and-beginning.html",
+          "publishedOn": "2023-04-06T08:39:00.000Z",
+          "wordCount": 4098,
+          "title": "This is the end - and the beginning",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "4sysops",
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1570881",
+          "author": "Brandon Lee",
+          "description": "You can use built-in Docker commands to commit, save, and export Docker container images and data for the Docker backup container processes.\nDocker backup container commands: Commit, save, and export container images first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/docker-backup-container-commands-commit-save-and-export-container-images/",
+          "publishedOn": "2023-04-06T16:53:36.000Z",
+          "wordCount": 3964,
+          "title": "Docker backup container commands: Commit, save, and export container images",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Looking-at-persistent-volume-data-mounted-for-a-container-600x368.png"
+        },
         {
           "id": "https://4sysops.com/?p=1570967",
           "author": "Wolfgang Sommergut",
@@ -1196,16 +1238,6 @@
           "wordCount": 13301,
           "title": "Microsoft 365 Apps admin center: Remote Office configuration",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Microsoft-365-Apps-admin-center-600x337.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570485",
-          "author": "Brandon Lee",
-          "description": "NetCrunch 13 is the latest release of AdRem Software's flagship monitoring software, containing many new features and enhancements. The monitoring solution can monitor various physical, virtual, and network infrastructures. It provides real-time network monitoring, traffic analysis, alerts, and performance reporting.\nNetCrunch 13: Real-time network monitoring, traffic analysis, alerts, and performance reporting first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/netcrunch-13-real-time-network-monitoring-traffic-analysis-alerts-and-performance-reporting/",
-          "publishedOn": "2023-03-07T13:12:45.000Z",
-          "wordCount": 13574,
-          "title": "NetCrunch 13: Real-time network monitoring, traffic analysis, alerts, and performance reporting",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/A-graphical-representation-of-monitoring-results-from-ESXi-servers-600x363.png"
         }
       ]
     },
@@ -1292,16 +1324,6 @@
           "publishedOn": "2023-03-17T06:17:18.000Z",
           "wordCount": 2338,
           "title": "Carbon reduction at PTP",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=26591",
-          "author": "Ken Munro",
-          "description": "I’m continually asked by the maritime industry about the motivations of hackers. “Why would anyone hack us, we operate ships?” It strikes me that many of the public and a […]\nMonetising hacking by shorting commodity shipments first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/monetising-hacking-by-shorting-commodity-shipments/",
-          "publishedOn": "2023-03-08T06:07:20.000Z",
-          "wordCount": 2420,
-          "title": "Monetising hacking by shorting commodity shipments",
           "imageUrl": null
         }
       ]
@@ -1658,6 +1680,16 @@
       "siteUrl": "https://www.secureauth.com/blog/",
       "articles": [
         {
+          "id": "https://www.secureauth.com/?post_type=blog&p=47919",
+          "author": "jendres",
+          "description": "Terms: Level of Assurance (LOA) Internet Protocol (IP) Active Directory (AD) Classless Inter-Domain Routing (CIDR) Nearly all of us live in a digital landscape. Businesses, schools, home users, and those who use cellular phones and smart appliances depend on networks and the Internet to “do their business”. As such usage has and will continue to […]\nThe post Implementing a Zero Trust policy… seamlessly, without passwords appeared first on SecureAuth.",
+          "link": "https://www.secureauth.com/blog/implement-arculix-for-a-zero-trust-policy-seamlessly-without-passwords/",
+          "publishedOn": "2023-04-06T14:25:54.000Z",
+          "wordCount": 10121,
+          "title": "Implementing a Zero Trust policy… seamlessly, without passwords",
+          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/04/implementing-zero-trust.jpg"
+        },
+        {
           "id": "https://www.secureauth.com/?post_type=blog&p=47882",
           "author": "jendres",
           "description": "New location, new month, and yet another hugely successful Gartner Identity and Access Management Summit 2023. Congratulations Henrique Bernardes B Teixeira, Senior Director at Gartner, for shepherding another great event. Your energy and drive continue to produce amazing results. This year’s event had even more energy, more attendees, and even better sessions. Here’s a summary […]\nThe post Passwordless, Continuous Authentication with Invisible MFA was the Buzz at Gartner IAM 2023 appeared first on SecureAuth.",
@@ -1871,6 +1903,16 @@
       "siteUrl": "https://www.synack.com/blog/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=16110",
+          "author": "Luke Luckett",
+          "description": "The term “special relationship,” coined by Winston Churchill, describes the close, longstanding alliance between the United States and the United Kingdom. It has been applied to cooperation during war, to trade and commerce, and even to intelligence sharing. That special relationship has clearly influenced the two nations’ recent policy papers on national cybersecurity. The U.K. […]\nThe post Protecting Critical Infrastructure: A Tale of Two National Cybersecurity Strategies appeared first on Synack.",
+          "link": "https://www.synack.com/blog/critical-infrastructure-national-cybersecurity-strategies/",
+          "publishedOn": "2023-04-06T15:17:37.000Z",
+          "wordCount": 2153,
+          "title": "Protecting Critical Infrastructure: A Tale of Two National Cybersecurity Strategies",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2023/04/synack-US-UK-Critical-Infrastructure-Blog-blog.jpg"
+        },
+        {
           "id": "https://www.synack.com/?p=16093",
           "author": "Huw Jones",
           "description": "Scoping Adventures is a series of blogs about some of the more interesting penetration tests that the Synack Customer Success teams have worked on over the last few months. Each blog outlines how we engage with the client to achieve the best results from a pentest. Pentesters love colors—red, blue, purple, black, white and grey […]\nThe post Scoping Adventures: How to Get the Most Out of Your Synack Pentesting appeared first on Synack.",
@@ -1899,16 +1941,6 @@
           "wordCount": 2067,
           "title": "The U.S. has a new cybersecurity strategy. What’s next for CISOs?",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2023/03/CapitolBuilding-no-copy.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=16049",
-          "author": "Synack",
-          "description": "REDWOOD CITY, Calif., March 7, 2023 – Synack, the premier security testing company, announced the hire of Alex Luttschyn as Chief Revenue Officer. Alex will oversee the company’s sales and customer success functions, driving adoption of the Synack Platform to improve customers’ security testing programs worldwide. “Alex is the right leader to bring us to […]\nThe post Synack Hires Chief Revenue Officer to Accelerate Global Growth appeared first on Synack.",
-          "link": "https://www.synack.com/blog/synack-hires-chief-revenue-officer-to-accelerate-global-growth/",
-          "publishedOn": "2023-03-07T15:26:21.000Z",
-          "wordCount": 1684,
-          "title": "Synack Hires Chief Revenue Officer to Accelerate Global Growth",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-10.23.26-AM.png"
         }
       ]
     },
