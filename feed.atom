@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-10T00:36:28.210Z</updated>
+    <updated>2023-04-11T00:37:46.896Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Tool: myjson-transform.py]]></title>
+        <id>http://blog.didierstevens.com/?p=10056</id>
+        <link href="https://blog.didierstevens.com/2023/04/10/new-tool-myjson-transform-py/"/>
+        <updated>2023-04-10T08:05:02.000Z</updated>
+        <summary type="html"><![CDATA[This tool takes JSON output from tools like oledump, zipdump, base64dump, … via stdin and transforms the data produced by these tools.The transformation function (name Transform) has to be defined in a Python script provided via option -s. This Transform function has 2 arguments: items and options.items is a list of dictionaries produced by the […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the Dark Side: OSINT Tools and Techniques for Unmasking Dark Web Operations]]></title>
+        <id>https://www.sans.org/blog/exploring-the-dark-side-osint-tools-and-techniques-for-unmasking-dark-web-operations</id>
+        <link href="https://www.sans.org/blog/exploring-the-dark-side-osint-tools-and-techniques-for-unmasking-dark-web-operations?msc=rss"/>
+        <updated>2023-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Dark Web's anonymity attracts a variety of users, from whistleblowers and political activists to cybercriminals and terrorists. When attempting to identify the individuals behind these sites and personas, various techniques are used.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: dnsresolver.py Version 0.0.3]]></title>
         <id>http://blog.didierstevens.com/?p=10034</id>
@@ -1427,16 +1447,6 @@ Kill Windows a process with Tskill and Taskkill first appeared on 4sysops.]]></s
         <summary type="html"><![CDATA[In this blog post, we reviewed the methods through which we can extract logs from Google Cloud. gcloud CLI allows for us to directly download the log files stored in logging buckets within Google Cloud and supports the use of various parameters for filtering and formatting. Log Explorer provides the same data but as part of a graphical user interface (GUI) within the Google Cloud console and with a 10,000 event export limit. Lastly, Pub/Sub is a method through which we can push or pull logs to an external platform, such as a SIEM. In the next blog post in this series, we’ll look at how to extract Google Workspace logs from the cloud.]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[List of clean mutexes and mutants]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8443</id>
-        <link href="https://www.hexacorn.com/blog/2023/03/12/list-of-clean-mutexes-and-mutants/"/>
-        <updated>2023-03-12T00:03:36.000Z</updated>
-        <summary type="html"><![CDATA[A few years ago I released a list of ‘bad’ mutexes/mutants. That list was generated from my malware sandbox reports. I thought that it may be good to revisit the […]]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
