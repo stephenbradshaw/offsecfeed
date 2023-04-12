@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-11T00:37:46.896Z</updated>
+    <updated>2023-04-12T00:36:56.618Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The April 2023 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64345e2c1d539c3d0606105b</id>
+        <link href="https://www.thezdi.com/blog/2023/4/11/the-april-2023-security-update-review"/>
+        <updated>2023-04-11T17:25:09.000Z</updated>
+        <summary type="html"><![CDATA[It’s the second Tuesday of the month, which means Adobe and Microsoft (and others) have released their latest security patches. Take a break from your regularly scheduled activities and join us as we review the details of the latest offerings from Microsoft and Adobe. If you’d rather watch the video recap, check out the Patch Report webcast on our YouTube channel. It should be posted within a couple of hours after the release.
+Adobe Patches for April 2023
+For April, Adobe released six bulletins addressing 56 CVEs in Acrobat and Reader, Adobe Digital Editions, InCopy, Substance 3D Designer, Substance 3D Stager, and Adobe Dimension. A total of 47 of these CVEs were reported by ZDI vulnerability researchers Mat Powell and Michael DePlante. The update for Reader is likely the most important. I…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stepping Insyde System Management Mode]]></title>
+        <id>https://research.nccgroup.com/?p=29676</id>
+        <link href="https://research.nccgroup.com/2023/04/11/stepping-insyde-system-management-mode/"/>
+        <updated>2023-04-11T13:05:38.000Z</updated>
+        <summary type="html"><![CDATA[In October of 2022, Intel’s Alder Lake BIOS source code was leaked online. The leaked code was comprised of firmware components that originated from three sources: I obtained a copy of the leaked code and began to hunt for vulnerabilities. This writeup focuses on the vulnerabilities that I found and reported to Insyde Software. These […]]]></summary>
+        <author>
+            <name>Jeremy Boone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to create a Proxmox VM template]]></title>
+        <id>https://4sysops.com/?p=1570865</id>
+        <link href="https://4sysops.com/archives/how-to-create-a-proxmox-vm-template/"/>
+        <updated>2023-04-11T06:55:52.000Z</updated>
+        <summary type="html"><![CDATA[A Proxmox VM template is a preconfigured virtual machine image that can be used to create new virtual machines. The template is essentially a snapshot of a virtual machine that has been configured with a specific operating system, applications, settings, and any other necessary configurations, allowing you to deploy new virtual machines quickly to save time and effort. In this post, you will learn how to create a VM template and quickly clone a new VM from the template.
+How to create a Proxmox VM template first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[London Councils & pirate books. Google dorking for subdomain takeovers]]></title>
+        <id>https://www.pentestpartners.com/?p=26774</id>
+        <link href="https://www.pentestpartners.com/security-blog/london-councils-pirate-books-google-dorking-for-subdomain-takeovers/"/>
+        <updated>2023-04-11T05:28:07.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Google dorks found me an exploited DigitalOcean subdomain takeover on London Councils’ .gov.uk domain It used a meta refresh to redirect to a site hosting unprovenanced PDFs London Councils […]
+London Councils & pirate books. Google dorking for subdomain takeovers first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Adam Bromiley</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Tool: myjson-transform.py]]></title>
         <id>http://blog.didierstevens.com/?p=10056</id>
@@ -1427,26 +1471,6 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
 Kill Windows a process with Tskill and Taskkill first appeared on 4sysops.]]></summary>
         <author>
             <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Women of the Fox Den - A Unique Hacking Perspective]]></title>
-        <id>https://bishopfox.com/blog/women-of-the-fox-den-hacking</id>
-        <link href="https://bishopfox.com/blog/women-of-the-fox-den-hacking"/>
-        <updated>2023-03-13T02:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Get highlights from our International Women's Day livestream roundtable, Defend Like a Girl: Hacking Your Way to Cyber Success.]]></summary>
-        <author>
-            <name>Beth Robinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Cloud Log Extraction]]></title>
-        <id>https://www.sans.org/blog/google-cloud-log-extraction</id>
-        <link href="https://www.sans.org/blog/google-cloud-log-extraction?msc=rss"/>
-        <updated>2023-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we reviewed the methods through which we can extract logs from Google Cloud. gcloud CLI allows for us to directly download the log files stored in logging buckets within Google Cloud and supports the use of various parameters for filtering and formatting. Log Explorer provides the same data but as part of a graphical user interface (GUI) within the Google Cloud console and with a 10,000 event export limit. Lastly, Pub/Sub is a method through which we can push or pull logs to an external platform, such as a SIEM. In the next blog post in this series, we’ll look at how to extract Google Workspace logs from the cloud.]]></summary>
-        <author>
-            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
