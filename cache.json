@@ -47,16 +47,6 @@
           "wordCount": 1480,
           "title": "New: Burp Suite Enterprise Edition Unlimited pricing",
           "imageUrl": "https://portswigger.net/cms/images/c1/e2/24b8-twittercard-ent-infinity-twitter.png"
-        },
-        {
-          "id": "burp-suite-enterprise-edition-power-tools-unleashing-the-power-to-the-command-line-python-and-more",
-          "author": null,
-          "description": "tl;dr We have released BSEEPT - Burp Suite Enterprise Edition Power Tools which: Is a command line tool to drive all aspects of the BSEE GraphQL API. Is a Python client library to allow you to easily",
-          "link": "https://portswigger.net/blog/burp-suite-enterprise-edition-power-tools-unleashing-the-power-to-the-command-line-python-and-more",
-          "publishedOn": "2023-03-21T14:30:00.000Z",
-          "wordCount": 2017,
-          "title": "Burp Suite Enterprise Edition Power Tools: Unleashing the power to the command line, Python, and more",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
     },
@@ -127,6 +117,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=29998",
+          "author": "NetSPI Distributed Ledger Team",
+          "description": "A deep dive into the Ethereum Virtual Machine (EVM) execution context, the memory region, and low-level smart contract control flow.\nThe post Ethereum Virtual Machine Internals – Part 1 appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/blockchain-penetration-testing/ethereum-virtual-machine-internals-part-1/",
+          "publishedOn": "2023-04-20T14:00:00.000Z",
+          "wordCount": 21424,
+          "title": "Ethereum Virtual Machine Internals – Part 1",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/042023_Blockchain-Part-1-Blog_Social.jpg"
+        },
         {
           "id": "https://www.netspi.com/?p=29835",
           "author": "Nick Landers",
@@ -302,6 +302,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/policy-and-advocacy/hackerone-responds-review-uks-computer-misuse-act-cma",
+          "author": "Ilona Cohen",
+          "description": "",
+          "link": "https://www.hackerone.com/policy-and-advocacy/hackerone-responds-review-uks-computer-misuse-act-cma",
+          "publishedOn": "2023-04-20T04:00:00.000Z",
+          "wordCount": 2211,
+          "title": "HackerOne Responds To The Review of The UK’s Computer Misuse Act (CMA)",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog-Zero_Trust_Header_763x462_L2R1%402x.png"
+        },
+        {
           "id": "https://hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer",
           "author": "Mårten Mickos",
           "description": "",
@@ -447,6 +457,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6440117997cfae0bf4546f0e",
+          "author": "Guest Blogger",
+          "description": "This post covers an exploit chain demonstrated by Luca Moro (@johncool__) during Pwn2Own Toronto 2022. At the contest, he used a classic buffer overflow to gain code execution on the My Cloud Pro Series PR4100 Network Attached Storage (NAS) device. He also displayed a nifty message on the device. Luca’s successful entry earned him $40,000 and 4 points towards Master of Pwn. All Pwn2Own entries are accompanied by a full whitepaper describing the vulnerabilities being used and how they were exploited. The following blog is an excerpt from that whitepaper detailing CVE-2022-29844 with minimal modifications.\nPrior to being patched by Western Digital, a memory corruption vulnerability existed in the FTP service of the My Cloud Pro Series PR4100. It allowed unauthenticated attackers to read arbi…",
+          "link": "https://www.thezdi.com/blog/2023/4/19/cve-2022-29844-a-classic-buffer-overflow-on-the-western-digital-my-cloud-pro-series-pr4100",
+          "publishedOn": "2023-04-20T15:00:00.000Z",
+          "wordCount": null,
+          "title": "CVE-2022-29844: A Classic Buffer Overflow on the Western Digital My Cloud Pro Series PR4100",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64345e2c1d539c3d0606105b",
           "author": "Dustin Childs",
           "description": "It’s the second Tuesday of the month, which means Adobe and Microsoft (and others) have released their latest security patches. Take a break from your regularly scheduled activities and join us as we review the details of the latest offerings from Microsoft and Adobe. If you’d rather watch the video recap, check out the Patch Report webcast on our YouTube channel. It should be posted within a couple of hours after the release.\nAdobe Patches for April 2023\nFor April, Adobe released six bulletins addressing 56 CVEs in Acrobat and Reader, Adobe Digital Editions, InCopy, Substance 3D Designer, Substance 3D Stager, and Adobe Dimension. A total of 47 of these CVEs were reported by ZDI vulnerability researchers Mat Powell and Michael DePlante. The update for Reader is likely the most important. I…",
@@ -498,17 +519,6 @@
           "publishedOn": "2023-03-22T18:24:56.000Z",
           "wordCount": null,
           "title": "Pwn2Own Vancouver 2023 - Day One Results",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6414d35a93b5d101f90364d1",
-          "author": "Dustin Childs",
-          "description": "Welcome to Pwn2Own Vancouver for 2023! This year’s event promises some exciting research as we have 19 entries targeting nine different targets - including two Tesla attempts. For this year’s event, every round will pay full price, which means if all exploits succeed, we’ll award over $1,000,000 USD. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Pacific [GMT -8:00]). \nNote: All times subject to change\nWednesday, March 22 - 1000\nAbdulAziz Hariri (@abdhariri) of Haboob SA (@HaboobSa) targeting Adobe Reader in the Enterprise Applications category for $50,000 and 5 Master of Pwn points\nWednesday, March 22 - 1030\nlast_minute_pwnie targeting Ubun…",
-          "link": "https://www.thezdi.com/blog/2023/3/21/pwn2own-vancouver-schedule-2023",
-          "publishedOn": "2023-03-21T23:43:23.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Vancouver 2023 - The Full Schedule",
           "itunes": {},
           "imageUrl": null
         }
@@ -795,6 +805,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=104290",
+          "author": "Dominik 'disconnect3d' Czarnota",
+          "description": "By Dominik ‘disconnect3d’ Czarnota During a security audit, I discovered an easy-to-miss typo that unintentionally failed to enable _FORTIFY_SOURCE, which helps detect memory corruption bugs in incorrectly used C functions. We searched, found, and fixed twenty C and C++ bugs on GitHub with this same pattern. Here is a list of some of them related […]",
+          "link": "https://blog.trailofbits.com/2023/04/20/typos-that-omit-security-features-and-how-to-test-for-them/",
+          "publishedOn": "2023-04-20T11:00:08.000Z",
+          "wordCount": 3465,
+          "title": "Typos that omit security features and how to test for them",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/04/fortify-source-blog-2.jpg"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=104268",
           "author": "Trail of Bits",
           "description": "By Matheus Branco Borella, University of São Paulo As a winter associate at Trail of Bits, my goal was to make two improvements to the GNU Project Debugger (GDB): make it run faster and improve its Python API to support and improve tools that rely on it, like Pwndbg. The main goal was to run […]",
@@ -813,16 +833,6 @@
           "wordCount": 3988,
           "title": "How to avoid the aCropalypse",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/03/acropalypse.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=104162",
-          "author": "Dan Guido",
-          "description": "By Artem Dinaburg, Chief Technology Officer; Josselin Feist, Principal Engineer; and Riccardo Schirone, Security Engineer Is artificial intelligence (AI) capable of powering software security audits? Over the last four months, we piloted a project called Toucan to find out. Toucan was intended to integrate OpenAI’s Codex into our Solidity auditing workflow. This experiment went far […]",
-          "link": "https://blog.trailofbits.com/2023/03/22/codex-and-gpt4-cant-beat-humans-on-smart-contract-audits/",
-          "publishedOn": "2023-03-22T11:00:49.000Z",
-          "wordCount": 5010,
-          "title": "Codex (and GPT-4) can’t beat humans on smart contract audits",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/03/ToucanSlitherComparison-1024x343.png"
         }
       ]
     },
@@ -846,46 +856,6 @@
           "wordCount": 4361,
           "title": "Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider",
           "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/04/Img_1_cryptSP-Basic-768x342.jpg"
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2093",
-          "author": "Exodus Intel VRT",
-          "description": "An Unpatched Vulnerability, A Substantial Liability Even the largest and most mature enterprises have trouble finding and patching vulnerabilities in a timely fashion. As we see in this article challenges include getting patches pushed through a sophisticated supply chain and ultimately to a system whose end user may have devices configured to not allow automated ... Read more An Unpatched Vulnerability, A Substantial Liability\nThe post <strong>An Unpatched Vulnerability, A Substantial Liability</strong> appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/03/22/an-unpatched-vulnerability-a-substantial-liability/",
-          "publishedOn": "2023-03-22T11:00:00.000Z",
-          "wordCount": 1278,
-          "title": "An Unpatched Vulnerability, A Substantial Liability",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/03/istockphoto-897674744-612x612-1.jpg"
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2093",
-          "author": "Exodus Intel VRT",
-          "description": "An Unpatched Vulnerability, A Substantial Liability Even the largest and most mature enterprises have trouble finding and patching vulnerabilities in a timely fashion. As we see in this article challenges include getting patches pushed through a sophisticated supply chain and ultimately to a system whose end user may have devices configured to not allow automated ... Read more An Unpatched Vulnerability, A Substantial Liability\nThe post <strong>An Unpatched Vulnerability, A Substantial Liability</strong> appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/03/22/an-unpatched-vulnerability-a-substantial-liability/?utm_source=rss&utm_medium=rss&utm_campaign=an-unpatched-vulnerability-a-substantial-liability",
-          "publishedOn": "2023-03-22T11:00:00.000Z",
-          "wordCount": 3243,
-          "title": "An Unpatched Vulnerability, A Substantial Liability",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/03/istockphoto-897674744-612x612-1.jpg"
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2095",
-          "author": "Exodus Intel VRT",
-          "description": "The Death Star Needed Vulnerability Intelligence Darth Vader and his evil colleagues aboard the Death Star could have seriously benefited from world-class vulnerability intelligence. Luckily for the Rebel Alliance, Vader was too focused on threat intelligence alone. If you’ve ever seen the original Star Wars story, you might recall that the evil Empire was confident ... Read more The Death Star Needed Vulnerability Intelligence\nThe post <strong>The Death Star Needed Vulnerability Intelligence</strong> appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/03/21/the-death-star-needed-vulnerability-intelligence/",
-          "publishedOn": "2023-03-21T20:55:23.000Z",
-          "wordCount": 1129,
-          "title": "The Death Star Needed Vulnerability Intelligence",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/03/Death-Star-Banner-768x432.png"
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2095",
-          "author": "Exodus Intel VRT",
-          "description": "The Death Star Needed Vulnerability Intelligence Darth Vader and his evil colleagues aboard the Death Star could have seriously benefited from world-class vulnerability intelligence. Luckily for the Rebel Alliance, Vader was too focused on threat intelligence alone. If you’ve ever seen the original Star Wars story, you might recall that the evil Empire was confident ... Read more The Death Star Needed Vulnerability Intelligence\nThe post <strong>The Death Star Needed Vulnerability Intelligence</strong> appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/03/21/the-death-star-needed-vulnerability-intelligence/?utm_source=rss&utm_medium=rss&utm_campaign=the-death-star-needed-vulnerability-intelligence",
-          "publishedOn": "2023-03-21T20:55:23.000Z",
-          "wordCount": 3094,
-          "title": "The Death Star Needed Vulnerability Intelligence",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/03/Death-Star-Banner-768x432.png"
         }
       ]
     },
@@ -988,6 +958,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1571189",
+          "author": "Edem Afenyo",
+          "description": "Traefik is an open-source, cloud-native reverse proxy and load balancer that simplifies the deployment and management of applications across multiple servers or containers. With Traefik, developers can easily and seamlessly route traffic to the appropriate service instance and ensure high availability, reliability, and security. In this article, I'll explore the features and limitations of Traefik as a reverse proxy and load balancer for containers.\nTraefik: Reverse proxy for Docker first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/traefik-reverse-proxy-for-docker/",
+          "publishedOn": "2023-04-20T19:34:28.000Z",
+          "wordCount": 4242,
+          "title": "Traefik: Reverse proxy for Docker",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Illustrating-Traefiks-role-in-a-network-600x313.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1571175",
+          "author": "Brandon Lee",
+          "description": "We take a look at Uptime Kuma, an open-source, self-hosted monitoring tool for websites, APIs, and services. It allows you to keep track of the uptime, downtime, and response times of your applications. One of the recommended ways to deploy Uptime Kuma is to use Docker containers, as they allow for easy installation, scaling, and management.\nUptime Kuma: Open-source monitoring with Docker support first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/uptime-kuma-open-source-monitoring-with-docker-support/",
+          "publishedOn": "2023-04-20T06:52:17.000Z",
+          "wordCount": 4054,
+          "title": "Uptime Kuma: Open-source monitoring with Docker support",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Uptime-Kuma-dashboard-600x414.png"
+        },
         {
           "id": "https://4sysops.com/?p=1571121",
           "author": "Timothy Warner",
@@ -1177,26 +1167,6 @@
           "wordCount": 4203,
           "title": "ManageEngine OpManager: Comprehensive monitoring for on-prem, cloud, and containers",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/ManageEngine-OpManager-provides-rich-monitoring-and-management-on-desktop-and-mobile-devices-600x351.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570680",
-          "author": "Wolfgang Sommergut",
-          "description": "All modern shells and command lines offer a prompt that provides the user with essential information about his context. By default, however, PowerShell displays only the current directory. Since its appearance is determined by a function, you can change the PowerShell prompt easily.\nHow to change the PowerShell prompt first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/how-to-change-the-powershell-prompt/",
-          "publishedOn": "2023-03-22T11:44:36.000Z",
-          "wordCount": 3703,
-          "title": "How to change the PowerShell prompt",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Transfer-current-time-or-username-to-the-prompt-600x357.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570705",
-          "author": "Robert Pearman",
-          "description": "I was working on a ticket this week in which a user would try to join a meeting, and Microsoft Teams would freeze for several minutes, waiting for the audio and video to initialize. To solve the issue, I had to change the Teams permissions to allow access automatically to the cam and the microphone. In this post, I will show you how you can change the cam permissions for any kind of conferencing app for your entire organization.\nMicrosoft Teams freezes: Set cam permissions for conferencing apps first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/microsoft-teams-freezes-set-cam-permissions-for-conferencing-apps/",
-          "publishedOn": "2023-03-21T12:49:37.000Z",
-          "wordCount": 12793,
-          "title": "Microsoft Teams freezes: Set cam permissions for conferencing apps",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Microsoft-Teams-requires-permission-to-access-the-camera-600x331.png"
         }
       ]
     },
@@ -1232,6 +1202,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8471",
+          "author": "adam",
+          "description": "Long time ago (when I used to make my own cross-words), one of my favorite targets was building them in a way that made them either have some special properties, […]",
+          "link": "https://www.hexacorn.com/blog/2023/04/20/the-words-that-go-adapataadadapata/",
+          "publishedOn": "2023-04-20T22:46:15.000Z",
+          "wordCount": 5574,
+          "title": "The words that go adapataadadapata",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8460",
           "author": "adam",
@@ -1292,6 +1272,26 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications",
+          "author": null,
+          "description": "",
+          "link": "https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications?msc=rss",
+          "publishedOn": "2023-04-20T00:00:00.000Z",
+          "wordCount": 4201,
+          "title": "How to Build AI-Powered Cybersecurity Applications",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/cloud-agnostic-or-devout",
+          "author": null,
+          "description": "In this blog, we will discuss a different “cloud-agnostic” tool, Terraform. With Terraform, you can define cloud infrastructure as code and deploy it for many different cloud providers.",
+          "link": "https://www.sans.org/blog/cloud-agnostic-or-devout?msc=rss",
+          "publishedOn": "2023-04-20T00:00:00.000Z",
+          "wordCount": 4454,
+          "title": "Cloud Agnostic or Devout?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/keeping-your-boat-afloat",
           "author": null,
@@ -1440,36 +1440,6 @@
           "publishedOn": "2023-03-28T00:00:00.000Z",
           "wordCount": 2843,
           "title": "Unlock Your Cybersecurity Potential: A Look at What's New in the Updated New to Cyber Field Manual",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/jon-zeolla-instructor-spotlight",
-          "author": null,
-          "description": "Get to know Jon Zeolla, instructor for SEC540: Cloud Security and DevSecOps Automation",
-          "link": "https://www.sans.org/blog/jon-zeolla-instructor-spotlight?msc=rss",
-          "publishedOn": "2023-03-22T00:00:00.000Z",
-          "wordCount": 3805,
-          "title": "jon-zeolla-instructor-spotlight",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/what-is-in-a-name",
-          "author": null,
-          "description": "In digital forensics, the highlights come from the cases where incident response teams have proven that the threat actors were caught red-handed. Without a shadow of a doubt, national attention was captured by the biggest firm finding the biggest threat. Those are lofty heights to delve into for new individuals searching for cyber threats and joining the world of digital forensics. It sets what feels like an insurmountable goal for individuals who want to be in the field, join the team or be in the band.",
-          "link": "https://www.sans.org/blog/what-is-in-a-name?msc=rss",
-          "publishedOn": "2023-03-22T00:00:00.000Z",
-          "wordCount": 3288,
-          "title": "What is In a Name?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/renewing-your-sans-security-awareness-professional-ssap-two-easy-steps",
-          "author": null,
-          "description": "You will need to renew your SSAP every four years, a process we've worked hard to keep as simple as possible to ensure it helps you grow your career.",
-          "link": "https://www.sans.org/blog/renewing-your-sans-security-awareness-professional-ssap-two-easy-steps?msc=rss",
-          "publishedOn": "2023-03-22T00:00:00.000Z",
-          "wordCount": 3187,
-          "title": "Renewing Your SANS Security Awareness Professional (SSAP) – Two Easy Steps",
           "imageUrl": null
         }
       ]
