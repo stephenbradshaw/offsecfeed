@@ -83,7 +83,68 @@
       "title": "SkullSecurity Blog",
       "feedUrl": "https://blog.skullsecurity.org/feed",
       "siteUrl": "https://www.skullsecurity.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--flat-white--simpler-java-reversing-",
+          "author": null,
+          "description": "This is a write-up for flat-white and flat-white-extra-shot, which are easier Java reverse engineering challenges.",
+          "link": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--flat-white--simpler-java-reversing-",
+          "publishedOn": "2023-04-24T00:08:44.000Z",
+          "wordCount": 596,
+          "title": "BSidesSF 2023 Writeups: Flat White (simpler Java reversing)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--get-out--difficult-reverse-engineering---exploitation-",
+          "author": null,
+          "description": "This is a write-up for three challenges: getout1-warmup getout2-gettoken getout3-apply They are somewhat difficult challenges where the player reverses a network protocol, finds an authentication bypass, and performs a stack overflow to ultimately get code execution. It also has a bit of thematic / story to it!",
+          "link": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--get-out--difficult-reverse-engineering---exploitation-",
+          "publishedOn": "2023-04-24T00:08:44.000Z",
+          "wordCount": 1280,
+          "title": "BSidesSF 2023 Writeups: Get Out (difficult reverse engineering + exploitation)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--id-me--easy-file-identification-challenge-",
+          "author": null,
+          "description": "id-me is a challenge I wrote to teach people how to determine file types without extensions. My intent was to use the file command, but other solutions are absolutely possible!",
+          "link": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--id-me--easy-file-identification-challenge-",
+          "publishedOn": "2023-04-24T00:08:44.000Z",
+          "wordCount": 389,
+          "title": "BSidesSF 2023 Writeups: id-me (easy file identification challenge)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--overflow--simple-stack-overflow-challenge-",
+          "author": null,
+          "description": "Overflow is a straight-forward buffer overflow challenge that I copied from the Hacking: Art of Exploitation examples CD. I just added a flag. Full source is here.",
+          "link": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--overflow--simple-stack-overflow-challenge-",
+          "publishedOn": "2023-04-24T00:08:44.000Z",
+          "wordCount": 599,
+          "title": "BSidesSF 2023 Writeups: overflow (simple stack-overflow challenge)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--rop-petting-zoo--educational-challenge--",
+          "author": null,
+          "description": "ROP Petting Zoo is a challenge designed to teach the principles of return-oriented programming. It’s mostly written in Javascript, with a backend powered by a Ruby web server, along with a tool I wrote called Mandrake. Source code is shared between the three parts of the challenge, and is available here.",
+          "link": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--rop-petting-zoo--educational-challenge--",
+          "publishedOn": "2023-04-24T00:08:44.000Z",
+          "wordCount": 801,
+          "title": "BSidesSF 2023 Writeups: ROP Petting Zoo (educational challenge!)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--too-latte--medium-difficulty-java-exploitation-",
+          "author": null,
+          "description": "too-latte is a challenge I wrote based on CVE-2023-0669, which is an unsafe deserialization vulnerability in Fortra’s GoAnywhere MFT software. I modeled all the vulnerable code off, as much as I could, that codebase. It’s obviously themed quite differently.",
+          "link": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--too-latte--medium-difficulty-java-exploitation-",
+          "publishedOn": "2023-04-24T00:08:44.000Z",
+          "wordCount": 907,
+          "title": "BSidesSF 2023 Writeups: too-latte (medium-difficulty Java exploitation)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        }
+      ]
     },
     {
       "title": "Silent Signal Techblog",
@@ -390,16 +451,6 @@
           "wordCount": 2868,
           "title": "HackerOne Assets Deep Dive: Asset Inventory",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_Generic%207-Main_Featured_560x494_L1R1_0.png"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-hipotermia",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-hipotermia",
-          "publishedOn": "2023-03-24T16:00:18.000Z",
-          "wordCount": 2646,
-          "title": "Ambassador Spotlight: hipotermia",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/Copy%20of%20H1-3493_Livehacking-133%20%281%29.jpg"
         }
       ]
     },
@@ -456,17 +507,6 @@
           "publishedOn": "2023-04-06T16:08:23.000Z",
           "wordCount": null,
           "title": "Bash Privileged-Mode Vulnerabilities in Parallels Desktop and CDPATH Handling in MacOS",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:641dd772004d3c432aee72f2",
-          "author": "Dustin Childs",
-          "description": "That’s a wrap for Pwn2Own Vancouver! Contestants disclosed 27 unique zero-days and won a combined $1,035,000 (and a car)! Congratulations to the Masters of Pwn, Synacktiv (@Synacktiv), for their huge success and hard work! They earned 53 points, $530,000, and a Tesla Model 3.\nTeam Synacktiv: Eloi Benoist-Vanderbeken, David Berard, Vincent Dehors, Tanguy Dubroca, Thomas Bouzerar, and Thomas Imbert. They also receive a $25,000 bonus and Platinum status in 2024.\nFollow us here and on Twitter, YouTube, Mastodon, LinkedIn, and Instagram to keep up with the latest news – and stay tuned for Pwn2Own Toronto in October!\nWelcome to Day 3 of Pwn2Own Vancouver 2023. We’ll be updating this blog in real time as results become available. For this year’s event, each round will receive the full payout for unique entries.\nSUCCESS - Kyle Zeng from ASU SEFCOM used a double free bug to exploit Ubuntu Desktop. He earns $30,000 and 3 Master of Pwn points.\nFAILURE - STAR Labs was unable to get their exploit of Microsoft Teams working within the time allotted.\nSUCCESS - Thomas Imbert (@masthoon) from Synacktiv (@Synacktiv) used a UAF against Microsoft Windows 11. They earn $30,000 and 3 Master of Pwn points.\nSUCCESS - Mingi Cho of Theori used a UAF against Ubuntu Desktop. They earn $30,000 and 3 Master of Pwn points.\nSUCCESS - STAR Labs (@starlabs_sg) used an uninitialized variable and UAF against VMWare Workstation. They earn $80,000 and 8 Master of Pwn points.\nCOLLISION - Bien Pham (@bienpnn) of Qrious Security successfully targeted Ubuntu Desktop, but the exploit was previously known. They still earn $15,000 and 1.5 Master of Pwn points.",
-          "link": "https://www.thezdi.com/blog/2023/3/24/pwn2own-vancouver-2023-day",
-          "publishedOn": "2023-03-24T18:21:15.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Vancouver 2023 - Day Three Results",
           "itunes": {},
           "imageUrl": null
         }
@@ -1095,16 +1135,6 @@
           "wordCount": 3425,
           "title": "How to install Group Policy ADMX templates for OneDrive",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Finding-the-location-of-the-ADMX-files-using-a-PowerShell-script-600x381.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570718",
-          "author": "Surender Kumar",
-          "description": "Using a private DNS server improves the security, privacy, and performance of your network. In this post, you will learn how to configure a private DNS server in Docker.\nConfigure a private DNS server in Docker first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/configure-a-private-dns-server-in-docker/",
-          "publishedOn": "2023-03-24T15:15:37.000Z",
-          "wordCount": 3928,
-          "title": "Configure a private DNS server in Docker",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Create-a-DNS-zone-file-for-a-domain-600x298.png"
         }
       ]
     },
@@ -1606,16 +1636,6 @@
           "wordCount": 10121,
           "title": "Implementing a Zero Trust policy… seamlessly, without passwords",
           "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/04/implementing-zero-trust.jpg"
-        },
-        {
-          "id": "https://www.secureauth.com/?post_type=blog&p=47882",
-          "author": "jendres",
-          "description": "New location, new month, and yet another hugely successful Gartner Identity and Access Management Summit 2023. Congratulations Henrique Bernardes B Teixeira, Senior Director at Gartner, for shepherding another great event. Your energy and drive continue to produce amazing results. This year’s event had even more energy, more attendees, and even better sessions. Here’s a summary […]\nThe post Passwordless, Continuous Authentication with Invisible MFA was the Buzz at Gartner IAM 2023 appeared first on SecureAuth.",
-          "link": "https://www.secureauth.com/blog/passwordless-continuous-authentication-with-invisible-mfa-was-the-buzz-at-gartner-iam-2023/",
-          "publishedOn": "2023-03-24T15:16:53.000Z",
-          "wordCount": 9874,
-          "title": "Passwordless, Continuous Authentication with Invisible MFA was the Buzz at Gartner IAM 2023",
-          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/03/gartner-post-social-3.jpg"
         }
       ]
     },

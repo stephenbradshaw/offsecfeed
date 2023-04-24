@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-23T00:40:45.944Z</updated>
+    <updated>2023-04-24T00:37:46.847Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[BSidesSF 2023 Writeups: Flat White (simpler Java reversing)]]></title>
+        <id>https://www.skullsecurity.org/2023/bsidessf-2023-writeups--flat-white--simpler-java-reversing-</id>
+        <link href="https://www.skullsecurity.org/2023/bsidessf-2023-writeups--flat-white--simpler-java-reversing-"/>
+        <updated>2023-04-24T00:08:44.000Z</updated>
+        <summary type="html"><![CDATA[This is a write-up for flat-white and flat-white-extra-shot, which are easier Java reverse engineering challenges.]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BSidesSF 2023 Writeups: Get Out (difficult reverse engineering + exploitation)]]></title>
+        <id>https://www.skullsecurity.org/2023/bsidessf-2023-writeups--get-out--difficult-reverse-engineering---exploitation-</id>
+        <link href="https://www.skullsecurity.org/2023/bsidessf-2023-writeups--get-out--difficult-reverse-engineering---exploitation-"/>
+        <updated>2023-04-24T00:08:44.000Z</updated>
+        <summary type="html"><![CDATA[This is a write-up for three challenges: getout1-warmup getout2-gettoken getout3-apply They are somewhat difficult challenges where the player reverses a network protocol, finds an authentication bypass, and performs a stack overflow to ultimately get code execution. It also has a bit of thematic / story to it!]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BSidesSF 2023 Writeups: id-me (easy file identification challenge)]]></title>
+        <id>https://www.skullsecurity.org/2023/bsidessf-2023-writeups--id-me--easy-file-identification-challenge-</id>
+        <link href="https://www.skullsecurity.org/2023/bsidessf-2023-writeups--id-me--easy-file-identification-challenge-"/>
+        <updated>2023-04-24T00:08:44.000Z</updated>
+        <summary type="html"><![CDATA[id-me is a challenge I wrote to teach people how to determine file types without extensions. My intent was to use the file command, but other solutions are absolutely possible!]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BSidesSF 2023 Writeups: overflow (simple stack-overflow challenge)]]></title>
+        <id>https://www.skullsecurity.org/2023/bsidessf-2023-writeups--overflow--simple-stack-overflow-challenge-</id>
+        <link href="https://www.skullsecurity.org/2023/bsidessf-2023-writeups--overflow--simple-stack-overflow-challenge-"/>
+        <updated>2023-04-24T00:08:44.000Z</updated>
+        <summary type="html"><![CDATA[Overflow is a straight-forward buffer overflow challenge that I copied from the Hacking: Art of Exploitation examples CD. I just added a flag. Full source is here.]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BSidesSF 2023 Writeups: ROP Petting Zoo (educational challenge!)]]></title>
+        <id>https://www.skullsecurity.org/2023/bsidessf-2023-writeups--rop-petting-zoo--educational-challenge--</id>
+        <link href="https://www.skullsecurity.org/2023/bsidessf-2023-writeups--rop-petting-zoo--educational-challenge--"/>
+        <updated>2023-04-24T00:08:44.000Z</updated>
+        <summary type="html"><![CDATA[ROP Petting Zoo is a challenge designed to teach the principles of return-oriented programming. It’s mostly written in Javascript, with a backend powered by a Ruby web server, along with a tool I wrote called Mandrake. Source code is shared between the three parts of the challenge, and is available here.]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BSidesSF 2023 Writeups: too-latte (medium-difficulty Java exploitation)]]></title>
+        <id>https://www.skullsecurity.org/2023/bsidessf-2023-writeups--too-latte--medium-difficulty-java-exploitation-</id>
+        <link href="https://www.skullsecurity.org/2023/bsidessf-2023-writeups--too-latte--medium-difficulty-java-exploitation-"/>
+        <updated>2023-04-24T00:08:44.000Z</updated>
+        <summary type="html"><![CDATA[too-latte is a challenge I wrote based on CVE-2023-0669, which is an unsafe deserialization vulnerability in Fortra’s GoAnywhere MFT software. I modeled all the vulnerable code off, as much as I could, that codebase. It’s obviously themed quite differently.]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Using Detect It Easy to… detect it easy]]></title>
         <id>https://www.hexacorn.com/blog/?p=8474</id>
@@ -1238,56 +1298,6 @@ I’m sorry but I cannot help you with that.]]></summary>
         <summary type="html"><![CDATA[This is an update to python-per-line.py, my tool to execute a Python expression one each line of a text file. New options are –regex –join –split. And there are new string reversal functions: Reverse and ReverseFind. More details in the man page. python-per-line_V0_0_10.zip (http)MD5: 54BFA2E593A024E3FBAA76757D63847ESHA256: D12E5FE10F71011C480EA332E0E183AE904024CEBC22128775197481152B9C1E]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Vancouver 2023 - Day Three Results]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:641dd772004d3c432aee72f2</id>
-        <link href="https://www.thezdi.com/blog/2023/3/24/pwn2own-vancouver-2023-day"/>
-        <updated>2023-03-24T18:21:15.000Z</updated>
-        <summary type="html"><![CDATA[That’s a wrap for Pwn2Own Vancouver! Contestants disclosed 27 unique zero-days and won a combined $1,035,000 (and a car)! Congratulations to the Masters of Pwn, Synacktiv (@Synacktiv), for their huge success and hard work! They earned 53 points, $530,000, and a Tesla Model 3.
-Team Synacktiv: Eloi Benoist-Vanderbeken, David Berard, Vincent Dehors, Tanguy Dubroca, Thomas Bouzerar, and Thomas Imbert. They also receive a $25,000 bonus and Platinum status in 2024.
-Follow us here and on Twitter, YouTube, Mastodon, LinkedIn, and Instagram to keep up with the latest news – and stay tuned for Pwn2Own Toronto in October!
-Welcome to Day 3 of Pwn2Own Vancouver 2023. We’ll be updating this blog in real time as results become available. For this year’s event, each round will receive the full payout for unique entries.
-SUCCESS - Kyle Zeng from ASU SEFCOM used a double free bug to exploit Ubuntu Desktop. He earns $30,000 and 3 Master of Pwn points.
-FAILURE - STAR Labs was unable to get their exploit of Microsoft Teams working within the time allotted.
-SUCCESS - Thomas Imbert (@masthoon) from Synacktiv (@Synacktiv) used a UAF against Microsoft Windows 11. They earn $30,000 and 3 Master of Pwn points.
-SUCCESS - Mingi Cho of Theori used a UAF against Ubuntu Desktop. They earn $30,000 and 3 Master of Pwn points.
-SUCCESS - STAR Labs (@starlabs_sg) used an uninitialized variable and UAF against VMWare Workstation. They earn $80,000 and 8 Master of Pwn points.
-COLLISION - Bien Pham (@bienpnn) of Qrious Security successfully targeted Ubuntu Desktop, but the exploit was previously known. They still earn $15,000 and 1.5 Master of Pwn points.]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ambassador Spotlight: hipotermia]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/ambassador-spotlight-hipotermia</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-hipotermia"/>
-        <updated>2023-03-24T16:00:18.000Z</updated>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Passwordless, Continuous Authentication with Invisible MFA was the Buzz at Gartner IAM 2023]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=47882</id>
-        <link href="https://www.secureauth.com/blog/passwordless-continuous-authentication-with-invisible-mfa-was-the-buzz-at-gartner-iam-2023/"/>
-        <updated>2023-03-24T15:16:53.000Z</updated>
-        <summary type="html"><![CDATA[New location, new month, and yet another hugely successful Gartner Identity and Access Management Summit 2023. Congratulations Henrique Bernardes B Teixeira, Senior Director at Gartner, for shepherding another great event. Your energy and drive continue to produce amazing results. This year’s event had even more energy, more attendees, and even better sessions. Here’s a summary […]
-The post Passwordless, Continuous Authentication with Invisible MFA was the Buzz at Gartner IAM 2023 appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>jendres</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Configure a private DNS server in Docker]]></title>
-        <id>https://4sysops.com/?p=1570718</id>
-        <link href="https://4sysops.com/archives/configure-a-private-dns-server-in-docker/"/>
-        <updated>2023-03-24T15:15:37.000Z</updated>
-        <summary type="html"><![CDATA[Using a private DNS server improves the security, privacy, and performance of your network. In this post, you will learn how to configure a private DNS server in Docker.
-Configure a private DNS server in Docker first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
         </author>
     </entry>
     <entry>
