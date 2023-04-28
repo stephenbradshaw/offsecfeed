@@ -64,18 +64,7 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": [
-        {
-          "id": "the-curl-quirk-that-exposed-burp-suite-amp-google-chrome",
-          "author": null,
-          "description": "In this post, we'll explore a little-known feature in curl that led to a local-file disclosure vulnerability in both Burp Suite Pro, and Google Chrome. We patched Burp Suite a while back, but suspect",
-          "link": "https://portswigger.net/research/the-curl-quirk-that-exposed-burp-suite-amp-google-chrome",
-          "publishedOn": "2023-03-28T13:13:51.000Z",
-          "wordCount": 1139,
-          "title": "The curl quirk that exposed Burp Suite &amp; Google Chrome",
-          "imageUrl": "https://portswigger.net/cms/images/44/c5/e1db-twittercard-curl_quirk_twitter.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Project Zero",
@@ -323,6 +312,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
+          "publishedOn": "2023-04-27T00:47:32.000Z",
+          "wordCount": 1906,
+          "title": "The Evolution of HackerOne's Live Hacking Events",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/Screenshot%202023-04-25%20at%2010.19.02%20PM.png"
+        },
+        {
           "id": "https://hackerone.com/hackerone-community-blog/best-practice-makes-perfect",
           "author": "Chris Evans",
           "description": "",
@@ -451,16 +450,6 @@
           "wordCount": 2554,
           "title": "Cyber Regulations Can Make Our Nation Safer",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_Ilona%20Cohen%20Op-ed_Featured_560x494_L3R1.png"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
-          "author": "Naz Bozdemir",
-          "description": "",
-          "link": "https://www.hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
-          "publishedOn": "2023-03-28T16:00:00.000Z",
-          "wordCount": 2868,
-          "title": "HackerOne Assets Deep Dive: Asset Inventory",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_Generic%207-Main_Featured_560x494_L1R1_0.png"
         }
       ]
     },
@@ -568,6 +557,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=29809",
+          "author": "Roger Meyer",
+          "description": "Different forms of DNS rebinding attacks have been described as far back as 1996 for Java Applets and 2002 for JavaScript (Quick-Swap). It has been four years since our State of DNS Rebinding presentation in 2019 at DEF CON 27 (slides), where we introduced our DNS rebinding attack framework Singularity of Origin. In 2020, we […]",
+          "link": "https://research.nccgroup.com/2023/04/27/state-of-dns-rebinding-in-2023/",
+          "publishedOn": "2023-04-27T01:01:00.000Z",
+          "wordCount": 20561,
+          "title": "State of DNS Rebinding in 2023",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://ncc-blog.pixelpreview.net/?p=26020",
           "author": "Eric Schorn",
@@ -744,16 +743,6 @@
           "wordCount": 2779,
           "title": "Screenshotting: Can You See What I See?",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-03-at-2.40.31-PM-300x200.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4539",
-          "author": "Emmaline",
-          "description": "Dynamic-Linking Injection and LOLBAS Fun Introduction LoadLibrary and LoadLibraryEx are how Windows applications load shared libraries at runtime. Praetorian recently tested a .NET web application that unsafely passed user input into LoadLibrary. In this article, we discuss this vulnerability class, dubbed dynamic-linking injection. We begin with an explanation of the vulnerability. We then walk through […]\nThe post Dynamic Linking Injection and LOLBAS Fun appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/dynamic-linking-injection/",
-          "publishedOn": "2023-03-28T13:05:38.000Z",
-          "wordCount": 4454,
-          "title": "Dynamic Linking Injection and LOLBAS Fun",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/03/DLI1-300x169.png"
         }
       ]
     },
@@ -791,18 +780,7 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com//atom.xml",
-      "articles": [
-        {
-          "id": "https://blog.doyensec.com//2023/03/28/wallet-info.html",
-          "author": null,
-          "description": "Anatomy Of A Modern Day Crypto Scam\nA large number of today’s crypto scams involve some sort of phishing attack, where the user is tricked into visiting a shady/malicious web site and connecting their wallet to it. The main goal is to trick the user into signing a transaction which will ultimately give the attacker control over the user’s tokens.\nUsually, it all starts with a tweet or a post on some Telegram group or Slack channel, where a link is sent advertising either a new yield farming protocol boasting large APYs, or a new NFT project which just started minting. In order to interact with the web site, the user would need to connect their wallet and perform some confirmation or authorization steps.\nLet’s take a look at the common NFT approve scam. The user is lead to the malicious NFT…",
-          "link": "https://blog.doyensec.com//2023/03/28/wallet-info.html",
-          "publishedOn": "2023-03-27T22:00:00.000Z",
-          "wordCount": 3249,
-          "title": "The Case For Improving Crypto Wallet Security",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Attack & Defense",
@@ -998,6 +976,26 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1571403",
+          "author": "Brandon Lee",
+          "description": "Microsoft LAPS is a solution for centrally managing passwords for local administrator accounts in an Active Directory domain. It includes a native Windows GUI to retrieve LAPS-controlled passwords. However, the free LAPS WebUI allows you to access passwords from every browser without installing local software.\nRetrieve local admin passwords from Active Directory with LAPS WebUI first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/retrieve-local-admin-passwords-from-active-directory-with-laps-webui/",
+          "publishedOn": "2023-04-27T06:42:44.000Z",
+          "wordCount": 3804,
+          "title": "Retrieve local admin passwords from Active Directory with LAPS WebUI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Viewing-a-LAPS-password-for-a-workstation-using-the-LAPS-WebUI-600x410.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1571388",
+          "author": "Brandon Lee",
+          "description": "Group Policy admins have to deal with a lot of different ADMX templates. These templates are not limited to the operating system, but are also necessary for many applications, such as Adobe Reader, Firefox, Chrome, and OneDrive. Since they are updated on a regular basis, admins must check for new versions and copy them manually to the respective directory. EvergreenAdmx can automate this process.\nUpdate ADMX templates automatically with EvergreenAdmx first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/update-admx-templates-automatically-with-evergreenadmx/",
+          "publishedOn": "2023-04-26T06:28:46.000Z",
+          "wordCount": 3682,
+          "title": "Update ADMX templates automatically with EvergreenAdmx",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Installing-the-EvergreenAdmx-script-from-the-PowerShell-gallery-600x289.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1571234",
           "author": "Wolfgang Sommergut",
           "description": "If updates cause problems and have to be removed on multiple computers, this can be done via WSUS. The prerequisite for this is, of course, that the update can basically be uninstalled. You can accomplish this task via the WSUS console or PowerShell.\nUninstalling updates using WSUS first appeared on 4sysops.",
@@ -1186,26 +1184,6 @@
           "wordCount": 4362,
           "title": "Read NTFS permissions: View read, write, and deny access information with AccessEnum",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/AccessEnum-also-scans-the-Windows-registry-600x280.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570776",
-          "author": "Brandon Lee",
-          "description": "If Windows doesn't start or boot, you need a good repair tool that you allows to access the boot drive to rescue your Windows installation by recovering partitions, copying files, or resetting the admin password. SystemRescue is a collection of open-source utilities on a bootable ISO image, making it easy to download and mount directly to a virtual machine or \"burn\" to a USB drive. You can use them for both Linux and Windows computers, including desktops, laptops, and servers.\nWindows doesn’t start: Recover partitions, copy files, and reset password with SystemRescue first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/windows-doesnt-start-recover-partitions-copy-files-and-reset-password-with-systemrescue/",
-          "publishedOn": "2023-03-28T18:12:20.000Z",
-          "wordCount": 4104,
-          "title": "Windows doesn’t start: Recover partitions, copy files, and reset password with SystemRescue",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/SystemRescue-GUI-600x360.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570831",
-          "author": "Wolfgang Sommergut",
-          "description": "When companies use OneDrive, they usually want to control its use via Group Policy to prevent data loss or excessive resource consumption. However, the required administrative templates (ADMX templates) must first be localized under Windows and copied to the correct directory.\nHow to install Group Policy ADMX templates for OneDrive first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/how-to-install-group-policy-admx-templates-for-onedrive/",
-          "publishedOn": "2023-03-27T21:58:44.000Z",
-          "wordCount": 3425,
-          "title": "How to install Group Policy ADMX templates for OneDrive",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Finding-the-location-of-the-ADMX-files-using-a-PowerShell-script-600x381.png"
         }
       ]
     },
@@ -1280,16 +1258,6 @@
           "wordCount": 5458,
           "title": "The words that go (.)[a-z]\\1[a-z]\\1[a-z]\\1[a-z]\\1[a-z]\\1",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8415",
-          "author": "adam",
-          "description": "Social media are full of questions that are formulated in a passive, passive-aggressive, or upfront aggressive way, often using common fallacies in a manipulative way to discourage dialogue. It is […]",
-          "link": "https://www.hexacorn.com/blog/2023/03/28/converting-questionable-questions-into-unquestionable-opportunities/",
-          "publishedOn": "2023-03-28T22:14:05.000Z",
-          "wordCount": 6793,
-          "title": "Converting questionable questions into unquestionable opportunities…",
-          "imageUrl": null
         }
       ]
     },
@@ -1321,6 +1289,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/the-game-of-clue",
+          "author": null,
+          "description": "In digital forensics you need to know who was involved so you can begin your data collection. Best to collect every piece of hardware you can, this will allow you to start your acquisition of data from each device. When you’re at the kitchen table, keep your cards close to your chest, but in the digital world, that means ensuring you preserve the integrity of your evidence.",
+          "link": "https://www.sans.org/blog/the-game-of-clue?msc=rss",
+          "publishedOn": "2023-04-26T00:00:00.000Z",
+          "wordCount": 3591,
+          "title": "The game of CLUE",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum",
           "author": null,
@@ -1489,26 +1467,6 @@
           "publishedOn": "2023-03-30T00:00:00.000Z",
           "wordCount": 6696,
           "title": "Digital Forensics Salary, Skills, and Career Path",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/how-are-you-so-smart-with-computers",
-          "author": null,
-          "description": "f you consider your participation in social media and changing ringtones on your phone as achievable, what makes pursuing a career in computer sciences different? Moreover, if you binge watch investigative dramas like CSI, then welcome to digital forensics. Try looking up DFIR (Digital Forensics, Incident Response). As you learn more, you’ll see just how different the roles have developed between DF and IR, but that means you get to choose your own adventure.",
-          "link": "https://www.sans.org/blog/how-are-you-so-smart-with-computers?msc=rss",
-          "publishedOn": "2023-03-29T00:00:00.000Z",
-          "wordCount": null,
-          "title": "How Are You So Smart With Computers?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/unlock-your-cybersecurity-potential-a-look-at-whats-new-in-the-updated-new-to-cyber-field-manual",
-          "author": null,
-          "description": "Discover the latest updates to the SANS New to Cyber Field Manual, including new sections on job search tips and career path design. Learn how this comprehensive guide can help you unlock your potential and succeed in the cybersecurity industry.",
-          "link": "https://www.sans.org/blog/unlock-your-cybersecurity-potential-a-look-at-whats-new-in-the-updated-new-to-cyber-field-manual?msc=rss",
-          "publishedOn": "2023-03-28T00:00:00.000Z",
-          "wordCount": 2843,
-          "title": "Unlock Your Cybersecurity Potential: A Look at What's New in the Updated New to Cyber Field Manual",
           "imageUrl": null
         }
       ]
@@ -1744,21 +1702,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/03/Dissecting-AlienFox-The-Cloud-Spammers-Swiss-Army-Knife-13.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=77678",
-          "author": "Juan Andrés Guerrero-Saade",
-          "description": "Mark Russinovich, founder of SysInternals, explores the history and development of one of the security industry's most essential toolkits.",
-          "link": "https://www.sentinelone.com/labs/the-life-and-times-of-sysinternals-how-one-developer-changed-the-face-of-malware-analysis/",
-          "publishedOn": "2023-03-29T11:52:39.000Z",
-          "wordCount": 2519,
-          "title": "The Life and Times of SysInternals | How One Developer Changed the Face of Malware Analysis",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/03/The-Life-and-Times-of-Sysinternals-3.jpg",
-            "length": "66835",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/03/The-Life-and-Times-of-Sysinternals-3.jpg"
         }
       ]
     },
@@ -1893,16 +1836,6 @@
           "wordCount": 2752,
           "title": "So you think you can block Macros?",
           "imageUrl": "https://outflank.nl/wp-content/uploads/2022/09/image-9.png"
-        },
-        {
-          "id": "https://outflank.nl/blog/?p=1365",
-          "author": "Stan",
-          "description": "In this blog post we will demonstrate how compiling, reverse engineering or even just viewing source code can lead to compromise of a developer’s workstation. This research is especially relevant in the context of attacks on security researchers using backdoored Visual Studio projects allegedly by North Korean actors, as exposed by Google. We will show that these in-the-wild attacks are only the tip of the iceberg and that backdoors can be hidden via much stealthier vectors in Visual Studio projects.\nThis post will be a journey into COM, type libraries and the inner workings of Visual Studio. In particular, it serves the following goals:\nExploring Visual Studio’s attack surface for initial access attacks from a red teamer’s perspective.\nRaising awareness on the dangers of working with untrusted code, which we as hackers and security researchers do on a regular basis.\n\nRead full post\nThe post Attacking Visual Studio for Initial Access appeared first on Outflank.",
-          "link": "https://outflank.nl/blog/2023/03/28/attacking-visual-studio-for-initial-access/",
-          "publishedOn": "2023-03-28T10:06:19.000Z",
-          "wordCount": 3652,
-          "title": "Attacking Visual Studio for Initial Access",
-          "imageUrl": "https://outflank.nl/wp-content/uploads/2023/03/visual_studio_warning-1024x357.png"
         }
       ]
     },
