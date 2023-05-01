@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-30T00:40:19.863Z</updated>
+    <updated>2023-05-01T00:39:02.613Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: zipdump.py Version 0.0.25]]></title>
+        <id>http://blog.didierstevens.com/?p=10063</id>
+        <link href="https://blog.didierstevens.com/2023/04/30/update-zipdump-py-version-0-0-25/"/>
+        <updated>2023-04-30T09:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Some changes to the translate option: now it supports this format (like some of my other tools): i=codec[:error],o=codec[:error] i= is input and o= is output. If you don’t specify an error handling mode, strict will be used. An example of the format is: i=utf16,o=latin:ignoreThis will read binary data in utf16 strict mode, and convert it […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Heads Up Hackers: An Update from Our Mediation Team]]></title>
         <id>https://hackerone.com/hackerone-community-blog/heads-hackers-update-our-mediation-team</id>
@@ -1202,27 +1212,6 @@ Private Docker registry setup first appeared on 4sysops.]]></summary>
         <updated>2023-04-01T14:25:40.000Z</updated>
         <author>
             <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overview of Content Published in March]]></title>
-        <id>http://blog.didierstevens.com/?p=10015</id>
-        <link href="https://blog.didierstevens.com/2023/04/01/overview-of-content-published-in-march-8/"/>
-        <updated>2023-04-01T07:25:31.000Z</updated>
-        <summary type="html"><![CDATA[Here is an overview of content I published in March: Blog posts: Update: oledump.py Version 0.0.73 Update: python-per-line.py version 0.0.10 Update: myjson-filter.py Version 0.0.4 SANS ISC Diary entries: YARA: Detect The Unexpected … String Obfuscation: Character Pair Reversal Windows 11 Snipping Tool Privacy Bug: Inspecting PNG Files CyberChef Version 10 Released Extra: “String Obfuscation: Character […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Azure service accounts]]></title>
-        <id>https://4sysops.com/?p=1570785</id>
-        <link href="https://4sysops.com/archives/understanding-azure-service-accounts/"/>
-        <updated>2023-03-31T19:14:25.000Z</updated>
-        <summary type="html"><![CDATA[The purpose of Azure service accounts is to grant permissions to resources in Azure. There are three types of Azure accounts: service principals, managed identities, and user accounts employed as service accounts.
-Understanding Azure service accounts first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Timothy Warner</name>
         </author>
     </entry>
     <entry>

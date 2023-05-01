@@ -205,6 +205,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10063",
+          "author": "Didier Stevens",
+          "description": "Some changes to the translate option: now it supports this format (like some of my other tools): i=codec[:error],o=codec[:error] i= is input and o= is output. If you don’t specify an error handling mode, strict will be used. An example of the format is: i=utf16,o=latin:ignoreThis will read binary data in utf16 strict mode, and convert it […]",
+          "link": "https://blog.didierstevens.com/2023/04/30/update-zipdump-py-version-0-0-25/",
+          "publishedOn": "2023-04-30T09:12:00.000Z",
+          "wordCount": 2634,
+          "title": "Update: zipdump.py Version 0.0.25",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10056",
           "author": "Didier Stevens",
           "description": "This tool takes JSON output from tools like oledump, zipdump, base64dump, … via stdin and transforms the data produced by these tools.The transformation function (name Transform) has to be defined in a Python script provided via option -s. This Transform function has 2 arguments: items and options.items is a list of dictionaries produced by the […]",
@@ -252,16 +262,6 @@
           "publishedOn": "2023-04-02T00:00:00.000Z",
           "wordCount": 2698,
           "title": "Update: oledump.py Version 0.0.74",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10015",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in March: Blog posts: Update: oledump.py Version 0.0.73 Update: python-per-line.py version 0.0.10 Update: myjson-filter.py Version 0.0.4 SANS ISC Diary entries: YARA: Detect The Unexpected … String Obfuscation: Character Pair Reversal Windows 11 Snipping Tool Privacy Bug: Inspecting PNG Files CyberChef Version 10 Released Extra: “String Obfuscation: Character […]",
-          "link": "https://blog.didierstevens.com/2023/04/01/overview-of-content-published-in-march-8/",
-          "publishedOn": "2023-04-01T07:25:31.000Z",
-          "wordCount": 2744,
-          "title": "Overview of Content Published in March",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
@@ -1134,16 +1134,6 @@
           "wordCount": 5166,
           "title": "Private Docker registry setup",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Installing-nginx-on-the-Docker-host-for-use-with-the-Docker-registry-600x328.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570785",
-          "author": "Timothy Warner",
-          "description": "The purpose of Azure service accounts is to grant permissions to resources in Azure. There are three types of Azure accounts: service principals, managed identities, and user accounts employed as service accounts.\nUnderstanding Azure service accounts first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/understanding-azure-service-accounts/",
-          "publishedOn": "2023-03-31T19:14:25.000Z",
-          "wordCount": 4322,
-          "title": "Understanding Azure service accounts",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Enterprise-applications-blade-in-the-Azure-portal-600x388.png"
         }
       ]
     },
