@@ -205,6 +205,26 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10070",
+          "author": "Didier Stevens",
+          "description": "This update brings an new plugin: plugin_vba_dir.py (there are no changes to oledump). This plugin parses the records found in the vba/dir stream to display project, references and modules information oledump_V0_0_75.zip (http)MD5: FB0F82B3B29883707A399B99C894EF08SHA256: D357E48D827822D15C9C22C0B5204924FBA9FC59104818C9824AD149FE6F6249",
+          "link": "https://blog.didierstevens.com/2023/05/02/update-oledump-py-version-0-0-75/",
+          "publishedOn": "2023-05-02T00:00:00.000Z",
+          "wordCount": 2675,
+          "title": "Update: oledump.py Version 0.0.75",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2023/05/20230502-005520.png"
+        },
+        {
+          "id": "http://blog.didierstevens.com/?p=10068",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in April: Blog posts: Update: oledump.py Version 0.0.74 Update: re-search.py Version 0.0.22 Update: 1768.py Version 0.0.18 Update: dnsresolver.py Version 0.0.3 New Tool: myjson-transform.py Update: zipdump.py Version 0.0.25 SANS ISC Diary entries: YARA v4.3.0 Release Update: oledump & MSI Files Chrome’s Download Tab: Dangerous Files Another Malicious HTA […]",
+          "link": "https://blog.didierstevens.com/2023/05/01/overview-of-content-published-in-april-8/",
+          "publishedOn": "2023-05-01T22:43:31.000Z",
+          "wordCount": 2640,
+          "title": "Overview of Content Published in April",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10063",
           "author": "Didier Stevens",
           "description": "Some changes to the translate option: now it supports this format (like some of my other tools): i=codec[:error],o=codec[:error] i= is input and o= is output. If you don’t specify an error handling mode, strict will be used. An example of the format is: i=utf16,o=latin:ignoreThis will read binary data in utf16 strict mode, and convert it […]",
@@ -253,16 +273,6 @@
           "wordCount": 2921,
           "title": "Update: re-search.py Version 0.0.22",
           "imageUrl": "https://didierstevens.files.wordpress.com/2023/04/20230402-134631.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10019",
-          "author": "Didier Stevens",
-          "description": "A small update to plugin_msi_info to change the output format a bit. And you can select your preferred hash algorithm with environment variable DSS_DEFAULT_HASH_ALGORITHMS. oledump_V0_0_74.zip (http)MD5: FD4D73F0C1A6BE43406381C13C128D5ESHA256: 1683635FD3250DF43E2CA31C60C2C81B507B1E233C5D91C2671D147C7FD8BD14",
-          "link": "https://blog.didierstevens.com/2023/04/02/update-oledump-py-version-0-0-74/",
-          "publishedOn": "2023-04-02T00:00:00.000Z",
-          "wordCount": 2698,
-          "title": "Update: oledump.py Version 0.0.74",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -410,16 +420,6 @@
           "wordCount": 3437,
           "title": "How Hackers Are Finding Advocacy: Top Hacker cdl Speaks on His Experience in the Hacker Success Program",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HackerOne%20H1-407_Brent%20Andeck%20Photo-367.jpg"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hackerones-next-million-dollar-hacker-chad-jahpeety",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hackerones-next-million-dollar-hacker-chad-jahpeety",
-          "publishedOn": "2023-04-01T14:25:40.000Z",
-          "wordCount": 2369,
-          "title": "HackerOne's Next Million Dollar Hacker Chad Jahpeety",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/_69fc3be4-a4a5-4a6c-b479-2900fdc951fa.jpeg"
         }
       ]
     },
@@ -936,6 +936,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1571457",
+          "author": "Wolfgang Sommergut",
+          "description": "nslookup has established itself as a popular tool for troubleshooting DNS problems. It exists on multiple platforms, including Windows. However, there is an alternative, the PowerShell Resolve-DnsName cmdlet, which can also check proprietary Microsoft protocols for name resolution, such as NetBIOS or LLMNR.\nResolve-DnsName: nslookup for PowerShell first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/resolve-dnsname-nslookup-for-powershell/",
+          "publishedOn": "2023-05-01T17:58:11.000Z",
+          "wordCount": 3546,
+          "title": "Resolve-DnsName: nslookup for PowerShell",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/If-a-DNS-server-cannot-be-reached-via-IPv6-nslookup-fails-with-a-timeout-600x346.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1571447",
           "author": "Mohammed Kaif Joey",
           "description": "Endpoints such as laptops, desktops, and mobile devices are vulnerable to cyberattacks, which can compromise sensitive data and cause serious damage to the organization. To address this challenge, Microsoft has developed Intune Endpoint Privilege Management, a solution that enables organizations to secure their endpoints by controlling and managing user access and permissions. This blog post aims to assist you in setting up Endpoint Privilege Management (EPM) in your organization so that your users can maintain their productivity while ensuring that security is not compromised.\nSecurity with Intune: Endpoint Privilege Management first appeared on 4sysops.",
@@ -1198,16 +1208,6 @@
           "wordCount": 5368,
           "title": "Beyond good ol’ Run key, Part 142",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8457",
-          "author": "adam",
-          "description": "One of my old hobbies is playing with words. I love all sort of dad jokes, “the longest” words, “the weirdest” words, “foreign words”, homonyms, homophones, palindromes, synonyms, antonyms, metonyms, […]",
-          "link": "https://www.hexacorn.com/blog/2023/04/01/the-words-that-go-a-z1a-z1a-z1a-z1a-z1/",
-          "publishedOn": "2023-04-01T22:56:02.000Z",
-          "wordCount": 5458,
-          "title": "The words that go (.)[a-z]\\1[a-z]\\1[a-z]\\1[a-z]\\1[a-z]\\1",
-          "imageUrl": null
         }
       ]
     },
@@ -1239,6 +1239,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ics-summit-2023",
+          "author": null,
+          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS ICS Security Summit 2023",
+          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-ics-summit-2023?msc=rss",
+          "publishedOn": "2023-05-01T00:00:00.000Z",
+          "wordCount": 3055,
+          "title": "A Visual Summary of SANS ICS Summit 2023",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/cybersecurity-jobs-security-architect-engineer-ja",
           "author": null,
