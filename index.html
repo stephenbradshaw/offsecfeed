@@ -59,11 +59,181 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-02 datetime="2023-05-02T00:00:00.000Z">2023-05-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-02 datetime="2023-05-02T00:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-02 datetime="2023-05-02T22:37:26.000Z">2023-05-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-02 datetime="2023-05-02T22:37:26.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SkullSecurity Blog</button>
+                  <a class="source-heading__link" href="https://www.skullsecurity.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols"
+                        open
+                      >
+                        <summary class="article-expander__title">Reverse engineering tricks: identifying opaque network protocols</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.skullsecurity.org/assets/skullsecurity.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Lately, I’ve been reverse engineering a reasonably complex network protocol, and I ran into a mystery - while the protocol is generally an unencrypted binary protocol, one of the messages was large and random. In an otherwise unencrypted protocol, why is one of the messages unreadable? It took me a few hours to accomplish what should have been a couple minutes of effort, and I wanted to share the trick I ultimately used! I’m going to be intentionally vague on the software, and even modify a few things to make it harder to identify; I’ll probably publish a lot more on my work blog once I’m finished this project!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Zero Day Initiative - Blog</button>
+                  <a class="source-heading__link" href="https://www.thezdi.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64502625e391c8439cbee9f4"
+                        open
+                      >
+                        <summary class="article-expander__title">CVE-2023-28231: RCE in the Microsoft Windows DHCPv6 Service</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.thezdi.com/blog/2023/5/1/cve-2023-28231-rce-in-the-microsoft-windows-dhcpv6-service">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the Microsoft Windows DHCPv6 Service. This bug was originally discovered by YanZiShuang@BigCJTeam of cyberkl. The vulnerability results from the improper processing of DHCPv6 Relay-forward messages. A network-adjacent attacker can leverage this vulnerability to execute code in the context of the DHCP service. The following is a portion of their write-up covering CVE-2023-28231, with a few minimal modifications.
+A heap-based buffer overflow has been reported in Microsoft DHCPv6 Server. The vulnerability is due to improper processing of DHCPv6 Relay-forward messages. A remote atta…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1571476"
+                        open
+                      >
+                        <summary class="article-expander__title">Enable BitLocker on Windows 11 without a TPM chip</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/enable-bitlocker-on-windows-11-without-a-tpm-chip/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://4sysops.com/wp-content/uploads/2023/05/Require-additional-authentication-at-startup-600x428.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>By default, Windows 11 requires a Trusted Platform Module (TPM) chip to be present on the computer. However, it is possible to enable BitLocker on Windows 11 without TPM if you jump through a few hoops.
+Enable BitLocker on Windows 11 without a TPM chip first appeared on 4sysops.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Blog - Praetorian</button>
+                  <a class="source-heading__link" href="https://www.praetorian.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.praetorian.com/?p&#x3D;4638"
+                        open
+                      >
+                        <summary class="article-expander__title">Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.praetorian.com/blog/nist-csf-2-0-ppt/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.praetorian.com/wp-content/uploads/2023/05/Screen-Shot-2023-05-01-at-12.25.45-PM.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The National Institute of Standards and Technology (NIST) recently released the latest draft of the Cybersecurity Framework (CSF) 2.0, incorporating numerous updates and improvements over its predecessor. Among these changes, the addition of the Governance function has generated significant buzz within the cybersecurity community. We also are particularly excited about the modification of subcategories in […]
+The post Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0 appeared first on Praetorian.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >NVISO Labs</button>
+                  <a class="source-heading__link" href="https://blog.nviso.eu">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.nviso.eu/?p&#x3D;10366"
+                        open
+                      >
+                        <summary class="article-expander__title">Enforce Zero Trust in Microsoft 365 – Part 1: Setting the basics</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.nviso.eu/2023/05/02/enforce-zero-trust-in-microsoft-365-part-1-setting-the-basics/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.nviso.eu/wp-content/uploads/2023/05/Presentation1-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This first blog post is part of a series of blog posts related to the implementation of Zero Trust approach in Microsoft 365. This series will first cover the basics and then deep dive into the different features such as Azure Active Directory (Azure AD) Conditional Access policies, Microsoft Defender for Cloud Apps policies, Information … Continue reading Enforce Zero Trust in Microsoft 365 – Part 1: Setting the basics →</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -4092,74 +4262,6 @@ Private Docker registry setup first appeared on 4sysops.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ZephrSec - Adventures In Information Security</button>
-                  <a class="source-heading__link" href="https://blog.zsec.uk/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="63212d858180697158e692e4"
-                        open
-                      >
-                        <summary class="article-expander__title">WebSockets are a Pain - A Journey in Learning and Leveraging</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.zsec.uk/websockets-are-fun/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.zsec.uk/content/images/2023/04/DSC02375.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Before I dive in and show examples of implementations that worked, it is worth doing a quick explainer on what WebSockets are, how they work, what a typical request handshake looks like, and how to troubleshoot when things don&#x27;t go the way you want them to.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Didier Stevens</button>
-                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;10032"
-                        open
-                      >
-                        <summary class="article-expander__title">Update: re-search.py Version 0.0.22</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2023/04/03/update-re-search-py-version-0-0-22/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://didierstevens.files.wordpress.com/2023/04/20230402-134631.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This update to re-search.py, my tool to search text files with regular expressions, brings several new regular expressions. There are 4 new regular expressions for cryptographic hashes: md5, sha1, sha256, sha512. And one new name that groups these 4 regular expressions: hashes. You can use it like this: re-search.py -n hashes sample.txt These regular expressions […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4640,8 +4742,8 @@ rot.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/4856353664">
-        <time id="build-timestamp" datetime="2023-05-02T00:37:18.013Z">2023-05-02T00:37:18.013Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/4867103598">
+        <time id="build-timestamp" datetime="2023-05-03T00:36:56.048Z">2023-05-03T00:36:56.048Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

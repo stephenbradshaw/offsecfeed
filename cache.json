@@ -86,6 +86,16 @@
       "siteUrl": "https://www.skullsecurity.org/",
       "articles": [
         {
+          "id": "https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols",
+          "author": null,
+          "description": "Lately, I’ve been reverse engineering a reasonably complex network protocol, and I ran into a mystery - while the protocol is generally an unencrypted binary protocol, one of the messages was large and random. In an otherwise unencrypted protocol, why is one of the messages unreadable? It took me a few hours to accomplish what should have been a couple minutes of effort, and I wanted to share the trick I ultimately used! I’m going to be intentionally vague on the software, and even modify a few things to make it harder to identify; I’ll probably publish a lot more on my work blog once I’m finished this project!",
+          "link": "https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols",
+          "publishedOn": "2023-05-02T22:37:26.000Z",
+          "wordCount": 2896,
+          "title": "Reverse engineering tricks: identifying opaque network protocols",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
           "id": "https://www.skullsecurity.org/2023/bsidessf-2023-writeups--flat-white--simpler-java-reversing-",
           "author": null,
           "description": "This is a write-up for flat-white and flat-white-extra-shot, which are easier Java reverse engineering challenges.",
@@ -263,16 +273,6 @@
           "wordCount": 2701,
           "title": "Update: 1768.py Version 0.0.18",
           "imageUrl": "https://didierstevens.files.wordpress.com/2023/04/20230402-214437.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10032",
-          "author": "Didier Stevens",
-          "description": "This update to re-search.py, my tool to search text files with regular expressions, brings several new regular expressions. There are 4 new regular expressions for cryptographic hashes: md5, sha1, sha256, sha512. And one new name that groups these 4 regular expressions: hashes. You can use it like this: re-search.py -n hashes sample.txt These regular expressions […]",
-          "link": "https://blog.didierstevens.com/2023/04/03/update-re-search-py-version-0-0-22/",
-          "publishedOn": "2023-04-03T00:00:00.000Z",
-          "wordCount": 2921,
-          "title": "Update: re-search.py Version 0.0.22",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2023/04/20230402-134631.png"
         }
       ]
     },
@@ -446,6 +446,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64502625e391c8439cbee9f4",
+          "author": "Trend Micro Research Team",
+          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the Microsoft Windows DHCPv6 Service. This bug was originally discovered by YanZiShuang@BigCJTeam of cyberkl. The vulnerability results from the improper processing of DHCPv6 Relay-forward messages. A network-adjacent attacker can leverage this vulnerability to execute code in the context of the DHCP service. The following is a portion of their write-up covering CVE-2023-28231, with a few minimal modifications.\nA heap-based buffer overflow has been reported in Microsoft DHCPv6 Server. The vulnerability is due to improper processing of DHCPv6 Relay-forward messages. A remote atta…",
+          "link": "https://www.thezdi.com/blog/2023/5/1/cve-2023-28231-rce-in-the-microsoft-windows-dhcpv6-service",
+          "publishedOn": "2023-05-02T16:09:19.000Z",
+          "wordCount": null,
+          "title": "CVE-2023-28231: RCE in the Microsoft Windows DHCPv6 Service",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6442e5e3271eb61594e3150b",
           "author": "Peter Girnus",
@@ -695,6 +706,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=4638",
+          "author": "Emmaline",
+          "description": "The National Institute of Standards and Technology (NIST) recently released the latest draft of the Cybersecurity Framework (CSF) 2.0, incorporating numerous updates and improvements over its predecessor. Among these changes, the addition of the Governance function has generated significant buzz within the cybersecurity community. We also are particularly excited about the modification of subcategories in […]\nThe post Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0 appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/nist-csf-2-0-ppt/",
+          "publishedOn": "2023-05-02T13:03:57.000Z",
+          "wordCount": 2438,
+          "title": "Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/05/Screen-Shot-2023-05-01-at-12.25.45-PM.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=4612",
           "author": "Emmaline",
           "description": "As Phil Venables has said, “at some level, cyber defense is a battle over whether the attacker or defender has better visibility of the target. Action is key, yes, but without good ‘cyber cartography’ it can be hard to act in the right way.” An attacker’s first step is enumeration, or identifying what looks hackable. […]\nThe post Cyber Cartography: Mapping a Target appeared first on Praetorian.",
@@ -870,18 +891,7 @@
       "title": "ZephrSec - Adventures In Information Security",
       "feedUrl": "https://blog.zsec.uk/rss/",
       "siteUrl": "https://blog.zsec.uk/",
-      "articles": [
-        {
-          "id": "63212d858180697158e692e4",
-          "author": "Andy Gill",
-          "description": "Before I dive in and show examples of implementations that worked, it is worth doing a quick explainer on what WebSockets are, how they work, what a typical request handshake looks like, and how to troubleshoot when things don't go the way you want them to.",
-          "link": "https://blog.zsec.uk/websockets-are-fun/",
-          "publishedOn": "2023-04-03T08:05:07.000Z",
-          "wordCount": 2210,
-          "title": "WebSockets are a Pain - A Journey in Learning and Leveraging",
-          "imageUrl": "https://blog.zsec.uk/content/images/2023/04/DSC02375.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Security Research",
@@ -935,6 +945,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1571476",
+          "author": "Jasmin Kahriman",
+          "description": "By default, Windows 11 requires a Trusted Platform Module (TPM) chip to be present on the computer. However, it is possible to enable BitLocker on Windows 11 without TPM if you jump through a few hoops.\nEnable BitLocker on Windows 11 without a TPM chip first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/enable-bitlocker-on-windows-11-without-a-tpm-chip/",
+          "publishedOn": "2023-05-02T15:46:15.000Z",
+          "wordCount": 3676,
+          "title": "Enable BitLocker on Windows 11 without a TPM chip",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Require-additional-authentication-at-startup-600x428.png"
+        },
         {
           "id": "https://4sysops.com/?p=1571457",
           "author": "Wolfgang Sommergut",
@@ -1635,6 +1655,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=10366",
+          "author": "Guillaume Bossiroy",
+          "description": "This first blog post is part of a series of blog posts related to the implementation of Zero Trust approach in Microsoft 365. This series will first cover the basics and then deep dive into the different features such as Azure Active Directory (Azure AD) Conditional Access policies, Microsoft Defender for Cloud Apps policies, Information … Continue reading Enforce Zero Trust in Microsoft 365 – Part 1: Setting the basics →",
+          "link": "https://blog.nviso.eu/2023/05/02/enforce-zero-trust-in-microsoft-365-part-1-setting-the-basics/",
+          "publishedOn": "2023-05-02T07:00:00.000Z",
+          "wordCount": 3343,
+          "title": "Enforce Zero Trust in Microsoft 365 – Part 1: Setting the basics",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/Presentation1-2.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=14935",
           "author": "Jonas Bauters",
