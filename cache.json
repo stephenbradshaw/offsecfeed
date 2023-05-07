@@ -410,26 +410,6 @@
           "wordCount": 2912,
           "title": "100 Conversations with Start-up Security Leaders",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_100%20Conversations_Featured_560x494_L1R1.png"
-        },
-        {
-          "id": "https://hackerone.com/ceo/why-economic-downturns-put-innovation-risk-and-threaten-cybersafety",
-          "author": "Mårten Mickos",
-          "description": "",
-          "link": "https://www.hackerone.com/ceo/why-economic-downturns-put-innovation-risk-and-threaten-cybersafety",
-          "publishedOn": "2023-04-07T00:01:00.000Z",
-          "wordCount": 2665,
-          "title": "Why Economic Downturns Put Innovation at Risk And Threaten Cybersafety",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/Marten-Econ-Blog-1_0.jpg"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
-          "publishedOn": "2023-04-06T14:12:05.000Z",
-          "wordCount": 3437,
-          "title": "How Hackers Are Finding Advocacy: Top Hacker cdl Speaks on His Experience in the Hacker Success Program",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/HackerOne%20H1-407_Brent%20Andeck%20Photo-367.jpg"
         }
       ]
     },
@@ -497,17 +477,6 @@
           "publishedOn": "2023-04-11T17:25:09.000Z",
           "wordCount": null,
           "title": "The April 2023 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:642da10791ad7913fcb3c2bc",
-          "author": "Reno Robert",
-          "description": "In the last few years, we have seen multiple vulnerabilities in Parallels Desktop leading to virtual machine escapes. Interested readers can check our previous blog posts about vulnerabilities across interfaces such as RDPMC hypercalls, the Parallels ToolGate, and the VGA virtual device. This post explores another set of issues we received last year - local privilege escalations through setuid root binaries.\nParallels Desktop has a couple of setuid binaries: prl_update_helper and Parallels Service. Both binaries run with root privileges and both invoke bash scripts to run commands with the privileges of root. For such use cases, bash specifically provides a privileged mode using the “-p” flag. Parallels Desktop prior to version 18.1.0 does not take advantage of bash privileged mode, nor do…",
-          "link": "https://www.thezdi.com/blog/2023/4/5/bash-privileged-mode-vulnerabilities-in-parallels-desktop-and-cdpath-handling-in-macos",
-          "publishedOn": "2023-04-06T16:08:23.000Z",
-          "wordCount": null,
-          "title": "Bash Privileged-Mode Vulnerabilities in Parallels Desktop and CDPATH Handling in MacOS",
           "itunes": {},
           "imageUrl": null
         }
@@ -765,18 +734,7 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": [
-        {
-          "id": "https://blog.exodusintel.com/?p=2102",
-          "author": "Exodus Intel VRT",
-          "description": "By Michele Campa Overview We describe a method to exploit a Windows Nday vulnerability to escape the Adobe sandbox. This vulnerability is assigned CVE-2021-31199 and it is present in multiple Windows 10 versions. The vulnerability is an out-of-bounds write due to an integer overflow in a Microsoft Cryptographic Provider library,  rsaenh.dll . Microsoft Cryptographic Provider ... Read more Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider\nThe post Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/04/06/escaping-adobe-sandbox-exploiting-an-integer-overflow-in-microsoft-windows/",
-          "publishedOn": "2023-04-06T19:01:09.000Z",
-          "wordCount": 4361,
-          "title": "Escaping Adobe Sandbox: Exploiting an Integer Overflow in Microsoft Windows Crypto Provider",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/04/Img_1_cryptSP-Basic-768x342.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "markitzeroday.com",
@@ -1064,16 +1022,6 @@
           "wordCount": 3796,
           "title": "Client logs collections in Configuration Manager (SCCM)",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Save-diagnostic-files-600x327.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1570881",
-          "author": "Brandon Lee",
-          "description": "You can use built-in Docker commands to commit, save, and export Docker container images and data for the Docker backup container processes.\nDocker backup container commands: Commit, save, and export container images first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/docker-backup-container-commands-commit-save-and-export-container-images/",
-          "publishedOn": "2023-04-06T16:53:36.000Z",
-          "wordCount": 3964,
-          "title": "Docker backup container commands: Commit, save, and export container images",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/03/Looking-at-persistent-volume-data-mounted-for-a-container-600x368.png"
         }
       ]
     },
@@ -1091,16 +1039,6 @@
           "wordCount": 2525,
           "title": "WOW64 Callback Table (FinFisher)",
           "imageUrl": "https://modexp.files.wordpress.com/2023/04/wow64_table.png?w=1200"
-        },
-        {
-          "id": "http://modexp.wordpress.com/?p=5285",
-          "author": "odzhan",
-          "description": "Introduction Compressed, encrypted, and random data all contain a high amount of entropy, which is why many products use entropy tests to detect malicious code in binaries that have never been examined before. In a previous post about masking, I … Continue reading →",
-          "link": "https://modexp.wordpress.com/2023/04/07/shellcode-entropy-reduction-with-base-n-encoding/",
-          "publishedOn": "2023-04-07T11:57:17.000Z",
-          "wordCount": 2880,
-          "title": "Shellcode: Entropy Reduction With Base-32 Encoding.",
-          "imageUrl": "https://modexp.files.wordpress.com/2018/08/cropped-debug.png?w=200"
         }
       ]
     },
@@ -1428,16 +1366,6 @@
           "wordCount": 4279,
           "title": "Exploring the Dark Side: OSINT Tools and Techniques for Unmasking Dark Web Operations",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/cybersecurity-jobs-malware-analyst-ja",
-          "author": null,
-          "description": "マルウェア・アナリストの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！",
-          "link": "https://www.sans.org/blog/cybersecurity-jobs-malware-analyst-ja?msc=rss",
-          "publishedOn": "2023-04-07T00:00:00.000Z",
-          "wordCount": 1939,
-          "title": "Cybersecurity Jobs: Malware Analyst (Japanese)",
-          "imageUrl": null
         }
       ]
     },
@@ -1635,16 +1563,6 @@
           "wordCount": 9391,
           "title": "Join SecureAuth at RSA Conference 2023 to Adopt Invisible MFA with Next-Gen Continuous Authentication and End Use of Traditional MFAs",
           "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/04/rsa-blog-social.jpg"
-        },
-        {
-          "id": "https://www.secureauth.com/?post_type=blog&p=47919",
-          "author": "jendres",
-          "description": "Terms: Level of Assurance (LOA) Internet Protocol (IP) Active Directory (AD) Classless Inter-Domain Routing (CIDR) Nearly all of us live in a digital landscape. Businesses, schools, home users, and those who use cellular phones and smart appliances depend on networks and the Internet to “do their business”. As such usage has and will continue to […]\nThe post Implementing a Zero Trust policy… seamlessly, without passwords appeared first on SecureAuth.",
-          "link": "https://www.secureauth.com/blog/implement-arculix-for-a-zero-trust-policy-seamlessly-without-passwords/",
-          "publishedOn": "2023-04-06T14:25:54.000Z",
-          "wordCount": 10121,
-          "title": "Implementing a Zero Trust policy… seamlessly, without passwords",
-          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/04/implementing-zero-trust.jpg"
         }
       ]
     },
