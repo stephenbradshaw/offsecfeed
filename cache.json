@@ -106,6 +106,16 @@
       "siteUrl": "https://www.skullsecurity.org/",
       "articles": [
         {
+          "id": "https://www.skullsecurity.org/2023/fork-off-three-ways-to-deal-with-forking-processes",
+          "author": null,
+          "description": "Have you ever tested a Linux application that forks into multiple processes? Isn’t it a pain? Whether you’re debugging, trying to see a process crash, or trying to write an exploit, it can be super duper annoying! In a few days, I’m giving a talk at NorthSec in Montreal. I asked some co-workers to review my slides, and they commented that I have some neat techniques to deal with forking, so I thought I’d share a couple! Spoiler alert: The last one is the best, so you can just skip to that. :)",
+          "link": "https://www.skullsecurity.org/2023/fork-off-three-ways-to-deal-with-forking-processes",
+          "publishedOn": "2023-05-12T20:45:30.000Z",
+          "wordCount": 3232,
+          "title": "Fork off: Three ways to deal with forking processes",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
           "id": "https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols",
           "author": null,
           "description": "Lately, I’ve been reverse engineering a reasonably complex network protocol, and I ran into a mystery - while the protocol is generally an unencrypted binary protocol, one of the messages was large and random. In an otherwise unencrypted protocol, why is one of the messages unreadable? It took me a few hours to accomplish what should have been a couple minutes of effort, and I wanted to share the trick I ultimately used! I’m going to be intentionally vague on the software, and even modify a few things to make it harder to identify; I’ll probably publish a lot more on my work blog once I’m finished this project!",
@@ -272,6 +282,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/fdas-new-cybersecurity-requirements-are-you-prepared-medical-device-manufacturer",
+          "author": "Kayla Underkoffler",
+          "description": "",
+          "link": "https://www.hackerone.com/fdas-new-cybersecurity-requirements-are-you-prepared-medical-device-manufacturer",
+          "publishedOn": "2023-05-12T22:00:00.000Z",
+          "wordCount": 3146,
+          "title": "FDA's New Cybersecurity Requirements: Are You Prepared as a Medical Device Manufacturer?",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog-FDA%20Medical%20device-1_Header_763x462_L1R1.png"
+        },
+        {
           "id": "https://hackerone.com/hackerone-community-blog/first-time-valid-bugs-smashed-april-2023",
           "author": "HackerOne",
           "description": "",
@@ -400,16 +420,6 @@
           "wordCount": 3268,
           "title": "Ten Practical Tips For High-Value Pentest Engagements",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog-Ten%20Practical%20Tips_Header_763x462_L1R1.png"
-        },
-        {
-          "id": "https://hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023",
-          "author": "Mahesh Chukkapali",
-          "description": "Cyber attackers are increasingly well-resourced and elusive. Yet, CyberEdge's 2023 Cyberthreat Defense Report found IT and security professionals are feeling optimistic about their ability to handle cybersecurity risk.",
-          "link": "https://www.hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023",
-          "publishedOn": "2023-04-12T18:00:00.000Z",
-          "wordCount": 2870,
-          "title": "How Optimistic Can Security Professionals Afford to Be in 2023?",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_100%20Conversations_Featured_560x494_L2R1.png"
         }
       ]
     },
@@ -814,6 +824,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1571636",
+          "author": "Graham Beer",
+          "description": "Back in 2020 at the AWS annual learning conference, re:Invent, one of the big announcements concerned AWS Lambda container image support for Docker and the Open Container Initiative (OCI). AWS Lambda, as a service, has always been popular, with its simple process of uploading code and not having to worry about provisioning servers. However, you might be a company that is invested in container technology, and it is not so easy to utilize Lambda. With the support for Lambda functions with container images, you can now enjoy this functionality.\nUsing AWS Lambda functions with Docker containers first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/using-aws-lambda-functions-with-docker-containers/",
+          "publishedOn": "2023-05-12T17:24:33.000Z",
+          "wordCount": 5721,
+          "title": "Using AWS Lambda functions with Docker containers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Creating-a-Lambda-container-function-600x301.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1571591",
           "author": "Brandon Lee",
           "description": "NTLM is an insecure authentication protocol that is still found in many environments. Using Group Policy and effective logging, admins can audit the environment and restrict the use of NTLM across the domain.\nAuditing and restricting NTLM authentication using Group Policy first appeared on 4sysops.",
@@ -1022,16 +1042,6 @@
           "wordCount": 4312,
           "title": "AccessChk: View effective permissions on files and folders",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/AccessChk-command-line-options-600x360.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571034",
-          "author": "Wolfgang Sommergut",
-          "description": "In addition to the products for which you want to receive updates via WSUS, you also have to choose which types of updates you want to subscribe to. However, the classifications don't reflect Microsoft's actual servicing model for Windows. Therefore, in many cases, it's not obvious why certain updates appear in a specific category.\nSelecting WSUS update classifications for Windows 10/11 first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/selecting-wsus-update-classifications-for-windows-1011/",
-          "publishedOn": "2023-04-13T06:25:25.000Z",
-          "wordCount": 3958,
-          "title": "Selecting WSUS update classifications for Windows 10/11",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/List-of-update-classifications-available-in-WSUS-600x389.png"
         }
       ]
     },
@@ -1057,6 +1067,26 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8510",
+          "author": "adam",
+          "description": "I love looking at clusters of files, because it’s the easiest way to find patterns. In the last part of this series I focused on Nullsoft installers (DLLs!) only, and […]",
+          "link": "https://www.hexacorn.com/blog/2023/05/12/da-lil-world-of-dll-exports-and-entry-points-part-6/",
+          "publishedOn": "2023-05-12T22:50:39.000Z",
+          "wordCount": 5715,
+          "title": "Da Li’L World of DLL Exports and Entry Points, Part 6",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8501",
+          "author": "adam",
+          "description": "I just realized I have never published a post about lolbinish/persistencish Matlab feature that I referred to in this twit. The Tl;dr; is that Matlab can load a DLL of […]",
+          "link": "https://www.hexacorn.com/blog/2023/05/12/matlab-persistent-lolbin-2-years-too-late-but-always/",
+          "publishedOn": "2023-05-12T21:35:49.000Z",
+          "wordCount": 5431,
+          "title": "Matlab persistent lolbin – 2 years too late, but always…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8499",
           "author": "adam",
@@ -1167,6 +1197,36 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/the-2023-sans-spring-cyber-solutions-fest-is-right-around-the-corner",
+          "author": null,
+          "description": "Spring into the season with SANS and our expert speakers at our Cyber Solutions Fest!",
+          "link": "https://www.sans.org/blog/the-2023-sans-spring-cyber-solutions-fest-is-right-around-the-corner?msc=rss",
+          "publishedOn": "2023-05-12T00:00:00.000Z",
+          "wordCount": 3289,
+          "title": "Blog - The 2023 SANS Spring Cyber Solutions Fest Is Right Around the Corner",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/cybersecurity-jobs-analyst-engineer-ja",
+          "author": null,
+          "description": "サイバーセキュリティアナリスト/エンジニアの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！",
+          "link": "https://www.sans.org/blog/cybersecurity-jobs-analyst-engineer-ja?msc=rss",
+          "publishedOn": "2023-05-12T00:00:00.000Z",
+          "wordCount": 2510,
+          "title": "Cybersecurity Jobs: Cybersecurity Analyst/Engineer (Japanese)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/for589-dark-web-threat-hunting-blockchain-forensics",
+          "author": null,
+          "description": "FOR589: Dark Web Threat Hunting & Blockchain Forensics course teaches students how to hunt for threat intelligence within the cybercriminal underground using Human Intelligence (HUMINT) elicitation techniques and blockchain analytics tools to trace criminal cryptocurrency transactions. Following the completion of the course, each student will be prepared to social engineer cybercriminals, produce dark web intelligence, provide unique intelligence support to incident response cases, extract cryptocurrency artifacts from mobile and computer devices, negotiate with ransomware operators on behalf of a client, support Law Enforcement partners with attribution efforts, and investigate Anti-Money Laundering (AML) cases involving cryptocurrency transactions on and off the Blockchain.",
+          "link": "https://www.sans.org/blog/for589-dark-web-threat-hunting-blockchain-forensics?msc=rss",
+          "publishedOn": "2023-05-10T00:00:00.000Z",
+          "wordCount": 4714,
+          "title": "FOR589: Cybercrime Intelligence",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/stronger-together-recapping-rsa-conference-2023",
           "author": null,
@@ -1384,6 +1444,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2023/adversarial-prompting-tutorial-and-lab/",
+          "author": null,
+          "description": "To learn more about Prompt Engineering and Prompt Injections I put together this tutorial + lab for myself. It is as a Jupyter Notebook to experiement and play around with this novel attack technique, learn and experiment.\nThe examples reach from simple prompt engineering scenarios, such as changing the output message to a specific text, to more complex adversarial prompt challenges such as JSON object injection, HTML injection/XSS, overwriting mail recipients or orders of an OrderBot and also data exfiltration.",
+          "link": "https://embracethered.com/blog/posts/2023/adversarial-prompting-tutorial-and-lab/",
+          "publishedOn": "2023-05-12T05:09:43.000Z",
+          "wordCount": 342,
+          "title": "Adversarial Prompting: Tutorial and Lab",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2023/prompt-injection-an-introduction-video/",
           "author": null,
@@ -1630,21 +1700,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/05/Kimsuky-Evolves-Reconnaissance-Capabilities-in-New-Global-Campaign-9.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=78680",
-          "author": "Aleksandar Milenkoski",
-          "description": "SentinelLabs has been tracking a cluster of malicious documents that stage the Crimson RAT malware distributed by APT36 (Transparent Tribe).",
-          "link": "https://www.sentinelone.com/labs/transparent-tribe-apt36-pakistan-aligned-threat-actor-expands-interest-in-indian-education-sector/",
-          "publishedOn": "2023-04-13T09:55:44.000Z",
-          "wordCount": 3244,
-          "title": "Transparent Tribe (APT36) | Pakistan-Aligned Threat Actor Expands Interest in Indian Education Sector",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/04/Transparent-Tribe-6.jpg",
-            "length": "93876",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/04/Transparent-Tribe-6.jpg"
         }
       ]
     },
@@ -1653,6 +1708,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=12383",
+          "author": "Guillaume Bossiroy",
+          "description": "In the first blog post of this series, we have seen how strong authentication, i.e., Multi-Factor Authentication (MFA), could be enforced for users using a free Azure Active Directory subscription within the Microsoft 365 environment. In this blog post, we will continue to harden the configuration of our Azure AD tenant to enforce Zero Trust … Continue reading Enforce Zero Trust in Microsoft 365 – Part 2: Protect against external users and applications →",
+          "link": "https://blog.nviso.eu/2023/05/12/enforce-zero-trust-in-microsoft-365-part-2-protect-against-external-users-and-applications/",
+          "publishedOn": "2023-05-12T07:00:00.000Z",
+          "wordCount": 2951,
+          "title": "Enforce Zero Trust in Microsoft 365 – Part 2: Protect against external users and applications",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/part2.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=13894",
           "author": "Elpida Rouka",
@@ -1689,16 +1754,6 @@
           "wordCount": 2153,
           "title": "Using LinkedIn to Land Your Dream Cybersecurity Job",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop_Fox_Blog_LinkedIn_Dream_Job_OG.jpg?mtime=1681337542"
-        },
-        {
-          "id": "https://bishopfox.com/blog/wp-coder-version-2-5-3-advisory",
-          "author": "Etan Castro Aldrete",
-          "description": "In this advisory learn about the WP Coder plugin that is affected by a time-based SQL injection vulnerability via the the ‘id’ parameter in versions up to, and including, 2.5.3.",
-          "link": "https://bishopfox.com/blog/wp-coder-version-2-5-3-advisory",
-          "publishedOn": "2023-04-13T11:00:00.000Z",
-          "wordCount": 1853,
-          "title": "WP Coder, Version 2.5.3 Advisory",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/advisories-risk-level/_1200x630_crop_center-center_82_none/High-Risk-Advisory-Featured.jpg?mtime=1637094526"
         }
       ]
     },
