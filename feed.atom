@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-18T00:37:24.436Z</updated>
+    <updated>2023-05-19T00:37:31.645Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-20869/20870: Exploiting VMware Workstation at Pwn2Own Vancouver]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64652c822dcf0d009e347fe0</id>
+        <link href="https://www.thezdi.com/blog/2023/5/17/cve-2023-2086920870-exploiting-vmware-workstation-at-pwn2own-vancouver"/>
+        <updated>2023-05-18T15:50:51.000Z</updated>
+        <summary type="html"><![CDATA[This post covers an exploit chain demonstrated by Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss) of STAR Labs SG Pte. Ltd. during the Pwn2Own Vancouver event in 2023. During the contest, he used an uninitialized variable bug and a stack-based buffer overflow in VMware to escalate from a guest OS to execute code on the underlying hypervisor. His successful demonstration earned him $80,000 and 8 points towards Master of Pwn. All Pwn2Own entries are accompanied by a full whitepaper describing the vulnerabilities being used and how they were exploited. The following blog is an excerpt from that whitepaper detailing CVE-2023-20869 and CVE-2023-20870 with minimal modifications.
+Prior to being patched by VMware, a pair of vulnerabilities existed within the implementation of the virtual Bluetooth USB device…]]></summary>
+        <author>
+            <name>The ZDI Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pulseway 9.2: Remote monitoring with workflow automation]]></title>
+        <id>https://4sysops.com/?p=1571710</id>
+        <link href="https://4sysops.com/archives/pulseway-92-remote-monitoring-with-workflow-automation/"/>
+        <updated>2023-05-18T15:29:04.000Z</updated>
+        <summary type="html"><![CDATA[Discover the Pulseway 9.2 update, offering enhanced IT management features, such as policy redesign, workflow automation improvements, remote control enhancements, and more.
+Pulseway 9.2: Remote monitoring with workflow automation first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LABScon Replay | Does This Look Infected 2 (APT41)]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=80809</id>
+        <link href="https://www.sentinelone.com/labs/labscon-replay-does-this-look-infected-2-apt41/"/>
+        <updated>2023-05-18T13:25:01.000Z</updated>
+        <summary type="html"><![CDATA[Mandiant researchers Van Ta and Rufus Brown take us on a journey of discovery into the compromise of multiple U.S. Government networks by APT41.]]></summary>
+        <author>
+            <name>LABScon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rigging the Vote: Uniqueness in Verifiable Random Functions]]></title>
+        <id>https://ncc-blog.pixelpreview.net/?p=26731</id>
+        <link href="https://research.nccgroup.com/2023/05/18/rigging-the-vote-uniqueness-in-verifiable-random-functions/"/>
+        <updated>2023-05-18T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog post presents a whirlwind overview of Verifiable Random Functions (VRFs) as used by several leading-edge blockchains, and shows how a very interesting and recently found implementation oversight causes the VRF’s assurance of uniqueness to fall apart. As VRFs are commonly used for selecting blockchain consensus voting committees, this can result in a rigged […]]]></summary>
+        <author>
+            <name>Eric Schorn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blue teaming – it’s DATa complicated…]]></title>
         <id>https://www.hexacorn.com/blog/?p=8513</id>
@@ -1285,55 +1327,6 @@ Uptime Kuma: Open-source monitoring with Docker support first appeared on 4sysop
         <summary type="html"><![CDATA[Introduction Ken Johnson (otherwise known as Skywing) first talked about the KiUserExceptionDispatcher back in 2007 . Since then, scattered around the internet are various posts talking about it, but for some reason nobody demonstrating how to use it. It’s been … Continue reading →]]></summary>
         <author>
             <name>odzhan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use Azure Bastion as a jump host for RDP and SSH]]></title>
-        <id>https://4sysops.com/?p=1571121</id>
-        <link href="https://4sysops.com/archives/use-azure-bastion-as-a-jump-host-for-rdp-and-ssh/"/>
-        <updated>2023-04-19T06:02:51.000Z</updated>
-        <summary type="html"><![CDATA[Azure Bastion is a platform-as-a-service (PaaS) jump host that you can use to connect securely to your Windows Server and Linux virtual machines (VMs) via RDP and SSH.
-Use Azure Bastion as a jump host for RDP and SSH first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Timothy Warner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keeping your boat afloat]]></title>
-        <id>https://www.sans.org/blog/keeping-your-boat-afloat</id>
-        <link href="https://www.sans.org/blog/keeping-your-boat-afloat?msc=rss"/>
-        <updated>2023-04-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If your actions lead to steps such as mitigating damage, protecting data loss, or re-establishing operations…. welcome to incident response. I can pass along several courses that will fill that knowledge gap. The digital forensic sleuth in you may lead down a path where when you kick off the investigation role, you are able to find the one bird that disrupted the wave.  A little tip, remember there can be more than one bird….and more than one wave. Also, as the waves roll towards you, consider that an ocean wave may have travelled halfway around the world.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make Your Cybersecurity Dollars Last Longer]]></title>
-        <id>https://hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer</id>
-        <link href="https://www.hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer"/>
-        <updated>2023-04-18T22:00:00.000Z</updated>
-        <author>
-            <name>Mårten Mickos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using LinkedIn to Land Your Dream Cybersecurity Job]]></title>
-        <id>https://bishopfox.com/blog/using-linkedin-to-land-dream-cybersecurity-job</id>
-        <link href="https://bishopfox.com/blog/using-linkedin-to-land-dream-cybersecurity-job"/>
-        <updated>2023-04-18T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to get recruiters' attention on LinkedIn with expert tips from a Bishop Fox recruiting manager.]]></summary>
-        <author>
-            <name>Kaitlin O'Neil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing BloodHound 4.3 — Get Global Admin More Often]]></title>
-        <id>https://medium.com/p/5795cbf535b2</id>
-        <link href="https://posts.specterops.io/introducing-bloodhound-4-3-get-global-admin-more-often-5795cbf535b2?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-04-18T13:58:47.000Z</updated>
-        <author>
-            <name>Andy Robbins</name>
         </author>
     </entry>
     <entry>

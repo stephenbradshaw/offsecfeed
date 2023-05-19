@@ -34,16 +34,6 @@
           "wordCount": 5018,
           "title": "Exploring Impersonation through the Named Pipe Filesystem Driver",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*ID7ooOK883qYYm4InMypRQ.png"
-        },
-        {
-          "id": "https://medium.com/p/5795cbf535b2",
-          "author": "Andy Robbins",
-          "description": "",
-          "link": "https://posts.specterops.io/introducing-bloodhound-4-3-get-global-admin-more-often-5795cbf535b2?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-04-18T13:58:47.000Z",
-          "wordCount": null,
-          "title": "Introducing BloodHound 4.3 — Get Global Admin More Often",
-          "imageUrl": null
         }
       ]
     },
@@ -399,16 +389,6 @@
           "wordCount": 2211,
           "title": "HackerOne Responds To The Review of The UK’s Computer Misuse Act (CMA)",
           "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog-Zero_Trust_Header_763x462_L2R1%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer",
-          "author": "Mårten Mickos",
-          "description": "",
-          "link": "https://www.hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer",
-          "publishedOn": "2023-04-18T22:00:00.000Z",
-          "wordCount": 2965,
-          "title": "Make Your Cybersecurity Dollars Last Longer",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/BLOG-BANNER--763x462.png"
         }
       ]
     },
@@ -435,6 +415,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64652c822dcf0d009e347fe0",
+          "author": "The ZDI Research Team",
+          "description": "This post covers an exploit chain demonstrated by Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss) of STAR Labs SG Pte. Ltd. during the Pwn2Own Vancouver event in 2023. During the contest, he used an uninitialized variable bug and a stack-based buffer overflow in VMware to escalate from a guest OS to execute code on the underlying hypervisor. His successful demonstration earned him $80,000 and 8 points towards Master of Pwn. All Pwn2Own entries are accompanied by a full whitepaper describing the vulnerabilities being used and how they were exploited. The following blog is an excerpt from that whitepaper detailing CVE-2023-20869 and CVE-2023-20870 with minimal modifications.\nPrior to being patched by VMware, a pair of vulnerabilities existed within the implementation of the virtual Bluetooth USB device…",
+          "link": "https://www.thezdi.com/blog/2023/5/17/cve-2023-2086920870-exploiting-vmware-workstation-at-pwn2own-vancouver",
+          "publishedOn": "2023-05-18T15:50:51.000Z",
+          "wordCount": null,
+          "title": "CVE-2023-20869/20870: Exploiting VMware Workstation at Pwn2Own Vancouver",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:645944452591b76f779cb5ac",
           "author": "Dustin Childs",
@@ -516,6 +507,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://ncc-blog.pixelpreview.net/?p=26731",
+          "author": "Eric Schorn",
+          "description": "This blog post presents a whirlwind overview of Verifiable Random Functions (VRFs) as used by several leading-edge blockchains, and shows how a very interesting and recently found implementation oversight causes the VRF’s assurance of uniqueness to fall apart. As VRFs are commonly used for selecting blockchain consensus voting committees, this can result in a rigged […]",
+          "link": "https://research.nccgroup.com/2023/05/18/rigging-the-vote-uniqueness-in-verifiable-random-functions/",
+          "publishedOn": "2023-05-18T11:00:00.000Z",
+          "wordCount": 19995,
+          "title": "Rigging the Vote: Uniqueness in Verifiable Random Functions",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/04/vrf_banner.jpg?fit=800%2C300&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=30557",
           "author": "Jameson Hyde",
@@ -855,6 +856,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1571710",
+          "author": "Brandon Lee",
+          "description": "Discover the Pulseway 9.2 update, offering enhanced IT management features, such as policy redesign, workflow automation improvements, remote control enhancements, and more.\nPulseway 9.2: Remote monitoring with workflow automation first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/pulseway-92-remote-monitoring-with-workflow-automation/",
+          "publishedOn": "2023-05-18T15:29:04.000Z",
+          "wordCount": 4026,
+          "title": "Pulseway 9.2: Remote monitoring with workflow automation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Multimonitor-enhancements-with-Pulseway-9.2-remote-control-600x340.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1571690",
           "author": "Wolfgang Sommergut",
           "description": "If you want to assign a drive letter to file shares via the command line, you can use PowerShell instead of net.exe. The SmbShare module's cmdlets can display, connect, and disconnect shared drives. PowerShell also supports newer SMB features, such as QUIC and Compression.\nHow to map a network drive with PowerShell first appeared on 4sysops.",
@@ -1063,16 +1074,6 @@
           "wordCount": 4054,
           "title": "Uptime Kuma: Open-source monitoring with Docker support",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Uptime-Kuma-dashboard-600x414.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571121",
-          "author": "Timothy Warner",
-          "description": "Azure Bastion is a platform-as-a-service (PaaS) jump host that you can use to connect securely to your Windows Server and Linux virtual machines (VMs) via RDP and SSH.\nUse Azure Bastion as a jump host for RDP and SSH first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/use-azure-bastion-as-a-jump-host-for-rdp-and-ssh/",
-          "publishedOn": "2023-04-19T06:02:51.000Z",
-          "wordCount": 4081,
-          "title": "Use Azure Bastion as a jump host for RDP and SSH",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Hub-and-spoke-VNet-architecture-with-Azure-Bastion-600x313.png"
         }
       ]
     },
@@ -1427,16 +1428,6 @@
           "wordCount": 4454,
           "title": "Cloud Agnostic or Devout?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/keeping-your-boat-afloat",
-          "author": null,
-          "description": "If your actions lead to steps such as mitigating damage, protecting data loss, or re-establishing operations…. welcome to incident response. I can pass along several courses that will fill that knowledge gap. The digital forensic sleuth in you may lead down a path where when you kick off the investigation role, you are able to find the one bird that disrupted the wave.  A little tip, remember there can be more than one bird….and more than one wave. Also, as the waves roll towards you, consider that an ocean wave may have travelled halfway around the world.",
-          "link": "https://www.sans.org/blog/keeping-your-boat-afloat?msc=rss",
-          "publishedOn": "2023-04-19T00:00:00.000Z",
-          "wordCount": 3557,
-          "title": "Keeping your boat afloat",
-          "imageUrl": null
         }
       ]
     },
@@ -1672,6 +1663,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=80809",
+          "author": "LABScon",
+          "description": "Mandiant researchers Van Ta and Rufus Brown take us on a journey of discovery into the compromise of multiple U.S. Government networks by APT41.",
+          "link": "https://www.sentinelone.com/labs/labscon-replay-does-this-look-infected-2-apt41/",
+          "publishedOn": "2023-05-18T13:25:01.000Z",
+          "wordCount": 5311,
+          "title": "LABScon Replay | Does This Look Infected 2 (APT41)",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/05/LABScon-Replay-Does-This-Look-Infected-2-APT41.jpg",
+            "length": "433151",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/05/LABScon-Replay-Does-This-Look-Infected-2-APT41.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=80742",
           "author": "LABScon",
           "description": "Silas Cutler, founder of MalShare, explores some of the challenges and rewards of developing and maintaining a free malware repository for researchers.",
@@ -1789,16 +1795,6 @@
           "wordCount": 7067,
           "title": "A More Complete Exploit for Fortinet CVE-2022-42475",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-WTV-Fortinet-OG.jpg?mtime=1684343056"
-        },
-        {
-          "id": "https://bishopfox.com/blog/using-linkedin-to-land-dream-cybersecurity-job",
-          "author": "Kaitlin O'Neil",
-          "description": "Learn how to get recruiters' attention on LinkedIn with expert tips from a Bishop Fox recruiting manager.",
-          "link": "https://bishopfox.com/blog/using-linkedin-to-land-dream-cybersecurity-job",
-          "publishedOn": "2023-04-18T14:00:00.000Z",
-          "wordCount": 2153,
-          "title": "Using LinkedIn to Land Your Dream Cybersecurity Job",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop_Fox_Blog_LinkedIn_Dream_Job_OG.jpg?mtime=1681337542"
         }
       ]
     },
