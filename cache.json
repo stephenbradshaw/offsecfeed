@@ -77,18 +77,7 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": [
-        {
-          "id": "new-burp-suite-enterprise-edition-pay-as-you-scan-pricing",
-          "author": null,
-          "description": "More than 1,000 organizations are using Burp Suite Enterprise Edition to scale their web vulnerability scanning - using the same Burp Scanner favored by 73,000 penetration testers. Pay as you scan cre",
-          "link": "https://portswigger.net/blog/new-burp-suite-enterprise-edition-pay-as-you-scan-pricing",
-          "publishedOn": "2023-04-25T14:06:53.000Z",
-          "wordCount": 1743,
-          "title": "New: Burp Suite Enterprise Edition Pay as you scan pricing",
-          "imageUrl": "https://portswigger.net/cms/images/f8/fa/f73e-twittercard-ent_pay_as_you_scan_twitter.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "PortSwigger Research",
@@ -156,7 +145,18 @@
       "title": "Technical Blog - NetSPI",
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.netspi.com/?p=30210",
+          "author": "NetSPI Distributed Ledger Team",
+          "description": "Part 2 of the EVM Internals series, exploring how data structures are persisted between contract calls.\nThe post Ethereum Virtual Machine Internals – Part 2  appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/blockchain-penetration-testing/ethereum-virtual-machine-internals-part-2/",
+          "publishedOn": "2023-05-25T19:09:32.000Z",
+          "wordCount": 8506,
+          "title": "Ethereum Virtual Machine Internals – Part 2",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/051823_Blockchain-Part-2-Blog_Social.jpg"
+        }
+      ]
     },
     {
       "title": "Posts on malicious.link",
@@ -218,6 +218,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
+          "author": "alice@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
+          "publishedOn": "2023-05-24T22:00:00.000Z",
+          "wordCount": 3138,
+          "title": "GUEST BLOG: Governments Across The World Are Mandating Vulnerability Disclosure So Why Are Companies Sitting On Their Hands?",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC_Blog_IoT%20Report%202_Header_763x462_L2R2_0.png"
+        },
         {
           "id": "https://hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging",
           "author": "alice@hackerone.com",
@@ -344,6 +354,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:646e57de67cf777db719ba9b",
+          "author": "The ZDI Research Team",
+          "description": "During Pwn2Own Toronto 2022, three different teams successfully exploited the Sonos One Speaker. In total, $105,000 was awarded to the three teams, with the team of Toan Pham and Tri Dang from Qrious Secure winning $60,000 since their entry was first on the schedule. Part of Pwn2Own competitions involves a random drawing for order. Not only does the team selected first get the full award if they are successful, but the subsequent entries are also more likely to have bug collisions. That means if three teams show up with the same exploit, only the first one randomly selected will get full credit. That’s not exactly what happened during the event, but some bug collisions did occur. In fact, there were four unique bugs used by the three different teams. Let’s take a look at the vulnerabilitie…",
+          "link": "https://www.thezdi.com/blog/2023/5/24/exploiting-the-sonos-one-speaker-three-different-ways-a-pwn2own-toronto-highlight",
+          "publishedOn": "2023-05-25T15:57:44.000Z",
+          "wordCount": null,
+          "title": "Exploiting the Sonos One Speaker Three Different Ways: A Pwn2Own Toronto Highlight",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64652c822dcf0d009e347fe0",
           "author": "The ZDI Research Team",
           "description": "This post covers an exploit chain demonstrated by Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss) of STAR Labs SG Pte. Ltd. during the Pwn2Own Vancouver event in 2023. During the contest, he used an uninitialized variable bug and a stack-based buffer overflow in VMware to escalate from a guest OS to execute code on the underlying hypervisor. His successful demonstration earned him $80,000 and 8 points towards Master of Pwn. All Pwn2Own entries are accompanied by a full whitepaper describing the vulnerabilities being used and how they were exploited. The following blog is an excerpt from that whitepaper detailing CVE-2023-20869 and CVE-2023-20870 with minimal modifications.\nPrior to being patched by VMware, a pair of vulnerabilities existed within the implementation of the virtual Bluetooth USB device…",
@@ -413,6 +434,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://ncc-blog.pixelpreview.net/?p=24778",
+          "author": "nccricardomr",
+          "description": "A common challenge technical teams (e.g. penetration testers) face is centralized deployment and pipelining execution of security tools. It is possible that at some point you have thought about customising several tools, buying their commercial licenses, and allowing a number of people to run the tools from AWS. The problem is that this means you […]",
+          "link": "https://research.nccgroup.com/2023/05/25/cowcloud/",
+          "publishedOn": "2023-05-25T17:28:41.000Z",
+          "wordCount": 19064,
+          "title": "CowCloud",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/04/cowcloud9.jpg?fit=820%2C620&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=30772",
           "author": "Alex Plaskett",
@@ -549,16 +580,6 @@
           "wordCount": 2438,
           "title": "Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/05/Screen-Shot-2023-05-01-at-12.25.45-PM.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4612",
-          "author": "Emmaline",
-          "description": "As Phil Venables has said, “at some level, cyber defense is a battle over whether the attacker or defender has better visibility of the target. Action is key, yes, but without good ‘cyber cartography’ it can be hard to act in the right way.” An attacker’s first step is enumeration, or identifying what looks hackable. […]\nThe post Cyber Cartography: Mapping a Target appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/cyber-cartography-mapping-a-target/",
-          "publishedOn": "2023-04-25T13:03:47.000Z",
-          "wordCount": 2303,
-          "title": "Cyber Cartography: Mapping a Target",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/04/CartFeature.jpg"
         }
       ]
     },
@@ -792,6 +813,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1571808",
+          "author": "Edem Afenyo",
+          "description": "Cockpit is a Linux tool that allows you to perform system administration tasks via a graphical user interface (GUI), namely, a web browser. Traditionally, Linux administration was done using the command line, and a good sysadmin was characterized by the number of commands he knew well. Cockpit as a GUI tool aims to lower the barrier of entry for new sysadmins on Linux while making it easier for everyone with a friendly, clickable interface. In this article, I'll take a look at Cockpit, its features, advantages, limitations, and disadvantages.\nCockpit: GUI administration for Linux first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/cockpit-gui-administration-for-linux/",
+          "publishedOn": "2023-05-25T19:51:23.000Z",
+          "wordCount": 5071,
+          "title": "Cockpit: GUI administration for Linux",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Managing-network-interfaces-600x248.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1571789",
           "author": "Wolfgang Sommergut",
           "description": "Windows has three types of network profiles: domain, private, and public. The former is automatically assigned to all computers that are members of an AD domain, and this cannot be changed. On the other hand, you can switch between private and public to activate the associated security settings.\nChange Windows network profiles between public and private first appeared on 4sysops.",
@@ -1000,16 +1031,6 @@
           "wordCount": 3804,
           "title": "Retrieve local admin passwords from Active Directory with LAPS WebUI",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Viewing-a-LAPS-password-for-a-workstation-using-the-LAPS-WebUI-600x410.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571388",
-          "author": "Brandon Lee",
-          "description": "Group Policy admins have to deal with a lot of different ADMX templates. These templates are not limited to the operating system, but are also necessary for many applications, such as Adobe Reader, Firefox, Chrome, and OneDrive. Since they are updated on a regular basis, admins must check for new versions and copy them manually to the respective directory. EvergreenAdmx can automate this process.\nUpdate ADMX templates automatically with EvergreenAdmx first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/update-admx-templates-automatically-with-evergreenadmx/",
-          "publishedOn": "2023-04-26T06:28:46.000Z",
-          "wordCount": 3682,
-          "title": "Update ADMX templates automatically with EvergreenAdmx",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/04/Installing-the-EvergreenAdmx-script-from-the-PowerShell-gallery-600x289.png"
         }
       ]
     },
@@ -1174,6 +1195,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2023",
+          "author": null,
+          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Cybersecurity Leadership Summit 2023",
+          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2023?msc=rss",
+          "publishedOn": "2023-05-25T00:00:00.000Z",
+          "wordCount": 2702,
+          "title": "A Visual Summary of SANS Cybersecurity Leadership Summit 2023",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/top-5-reasons-to-attend-sans-blue-team-summit-2023",
           "author": null,
@@ -1362,16 +1393,6 @@
           "publishedOn": "2023-04-28T00:00:00.000Z",
           "wordCount": 1985,
           "title": "Cybersecurity Jobs: Security Architect & Engineer (Japanese)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/the-game-of-clue",
-          "author": null,
-          "description": "In digital forensics you need to know who was involved so you can begin your data collection. Best to collect every piece of hardware you can, this will allow you to start your acquisition of data from each device. When you’re at the kitchen table, keep your cards close to your chest, but in the digital world, that means ensuring you preserve the integrity of your evidence.",
-          "link": "https://www.sans.org/blog/the-game-of-clue?msc=rss",
-          "publishedOn": "2023-04-26T00:00:00.000Z",
-          "wordCount": 3591,
-          "title": "The game of CLUE",
           "imageUrl": null
         }
       ]
@@ -1598,6 +1619,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=80903",
+          "author": "Aleksandar Milenkoski",
+          "description": "A Brazilian threat actor is targeting users of over 30 Portuguese financial institutions with custom backdoors.",
+          "link": "https://www.sentinelone.com/labs/operation-magalenha-long-running-campaign-pursues-portuguese-credentials-and-pii/",
+          "publishedOn": "2023-05-25T10:55:11.000Z",
+          "wordCount": 4799,
+          "title": "Operation Magalenha | Long-Running Campaign Pursues Portuguese Credentials and PII",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/05/Operation-Magalenha-Long-Running-Campaign-Pursues-Portuguese-Credentials-and-PII-3.jpg",
+            "length": "66212",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/05/Operation-Magalenha-Long-Running-Campaign-Pursues-Portuguese-Credentials-and-PII-3.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=80904",
           "author": "Aleksandar Milenkoski",
           "description": "North Korean APT group focuses on file reconnaissance and information exfiltration with latest variant of RandomQuery malware.",
@@ -1746,6 +1782,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/power-pen-tests-with-montoya-api",
+          "author": "Christopher Cerne",
+          "description": "Learn how to power up your pen tests by using the new Montoya API to create Burp Suite extensions from scratch.",
+          "link": "https://bishopfox.com/blog/power-pen-tests-with-montoya-api",
+          "publishedOn": "2023-05-25T13:00:00.000Z",
+          "wordCount": 4710,
+          "title": "Power Up Your Pen Tests: Creating Burp Suite Extensions with the New Montoya API",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-BurpCage_OG.jpg?mtime=1684532662"
+        },
         {
           "id": "https://bishopfox.com/blog/exploit-cve-2022-42475",
           "author": "Carl Livitt, Jon Williams",
