@@ -169,34 +169,23 @@
       "title": "Didier Stevens",
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
-      "articles": [
-        {
-          "id": "http://blog.didierstevens.com/?p=10070",
-          "author": "Didier Stevens",
-          "description": "This update brings an new plugin: plugin_vba_dir.py (there are no changes to oledump). This plugin parses the records found in the vba/dir stream to display project, references and modules information oledump_V0_0_75.zip (http)MD5: FB0F82B3B29883707A399B99C894EF08SHA256: D357E48D827822D15C9C22C0B5204924FBA9FC59104818C9824AD149FE6F6249",
-          "link": "https://blog.didierstevens.com/2023/05/02/update-oledump-py-version-0-0-75/",
-          "publishedOn": "2023-05-02T00:00:00.000Z",
-          "wordCount": 2675,
-          "title": "Update: oledump.py Version 0.0.75",
-          "imageUrl": "https://didierstevens.files.wordpress.com/2023/05/20230502-005520.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10068",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in April: Blog posts: Update: oledump.py Version 0.0.74 Update: re-search.py Version 0.0.22 Update: 1768.py Version 0.0.18 Update: dnsresolver.py Version 0.0.3 New Tool: myjson-transform.py Update: zipdump.py Version 0.0.25 SANS ISC Diary entries: YARA v4.3.0 Release Update: oledump & MSI Files Chrome’s Download Tab: Dangerous Files Another Malicious HTA […]",
-          "link": "https://blog.didierstevens.com/2023/05/01/overview-of-content-published-in-april-8/",
-          "publishedOn": "2023-05-01T22:43:31.000Z",
-          "wordCount": 2640,
-          "title": "Overview of Content Published in April",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "HackerOne",
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/year-hackerones-bug-bounty-program",
+          "author": "Rafael de Carvalho",
+          "description": "",
+          "link": "https://www.hackerone.com/year-hackerones-bug-bounty-program",
+          "publishedOn": "2023-05-30T22:00:00.000Z",
+          "wordCount": 3488,
+          "title": "A Year In HackerOne’s Bug Bounty Program",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-05/HAC_Blog_Bug%20Bounty_Header_763x462_L2R1.png"
+        },
         {
           "id": "https://hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
           "author": "alice@hackerone.com",
@@ -394,6 +383,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://ncc-blog.pixelpreview.net/?p=26621",
+          "author": "qkchambers",
+          "description": "Introduction We are going to walk through the process we took to reverse engineer parts of the Android game Coin Hunt World. Our goal was to identify methods and develop tooling to cheat at the game. Most of the post covers reverse engineering the game’s binary protocol and using that knowledge to create tooling for […]",
+          "link": "https://research.nccgroup.com/2023/05/31/reverse-engineering-coin-hunt-worlds-binary-protocol/",
+          "publishedOn": "2023-05-31T01:00:00.000Z",
+          "wordCount": 25481,
+          "title": "Reverse Engineering Coin Hunt World’s Binary Protocol",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/04/ag-output.png?fit=1200%2C609&ssl=1"
+        },
         {
           "id": "https://ncc-blog.pixelpreview.net/?p=26768",
           "author": "Oliver Brooks",
@@ -783,6 +782,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1571910",
+          "author": "Brandon Lee",
+          "description": "The Secure Copy Protocol (SCP) command is a widely used command line utility that enables users to securely copy files and directories between two systems over a secure shell (SSH) connection. Let's look at copying files and entire directories with SCP from remote to local systems.\nSCP from remote to local first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/scp-from-remote-to-local/",
+          "publishedOn": "2023-05-31T14:52:00.000Z",
+          "wordCount": 4273,
+          "title": "SCP from remote to local",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Viewing-the-SCP-options-in-WSL-600x320.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1571897",
           "author": "Surender Kumar",
           "description": "When it comes to migrating a SQL Server database from one environment to another, admins tend to rely heavily on native SQL backup (BAK) files. It works, but also has a lot of problems. For instance, a BAK file created by a new version of SQL Server cannot be imported directly to a previous SQL Server version. Furthermore, the native backup (BAK) file contains the complete database (including all user data), so it poses a data privacy risk when you want to replicate a production database in a development environment. The Dacpac and Bacpac packages are an answer to the above problems.\nDacpac and Bacpac in SQL Server first appeared on 4sysops.",
@@ -991,16 +1000,6 @@
           "wordCount": 3676,
           "title": "Enable BitLocker on Windows 11 without a TPM chip",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Require-additional-authentication-at-startup-600x428.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571457",
-          "author": "Wolfgang Sommergut",
-          "description": "nslookup has established itself as a popular tool for troubleshooting DNS problems. It exists on multiple platforms, including Windows. However, there is an alternative, the PowerShell Resolve-DnsName cmdlet, which can also check proprietary Microsoft protocols for name resolution, such as NetBIOS or LLMNR.\nResolve-DnsName: nslookup for PowerShell first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/resolve-dnsname-nslookup-for-powershell/",
-          "publishedOn": "2023-05-01T17:58:11.000Z",
-          "wordCount": 3546,
-          "title": "Resolve-DnsName: nslookup for PowerShell",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/If-a-DNS-server-cannot-be-reached-via-IPv6-nslookup-fails-with-a-timeout-600x346.png"
         }
       ]
     },
@@ -1165,6 +1164,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-cybersecurity-summit-2023",
+          "author": null,
+          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS AI Cybersecurity Summit 2023",
+          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-cybersecurity-summit-2023?msc=rss",
+          "publishedOn": "2023-05-26T00:00:00.000Z",
+          "wordCount": 2886,
+          "title": "A Visual Summary of SANS AI Cybersecurity Summit 2023",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/cybersecurity-jobs-technical-director-ja",
           "author": null,
@@ -1579,6 +1588,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=81120",
+          "author": "Phil Stokes",
+          "description": "Learn how to customize radare2 with user-defined aliases, macros and functions for faster and easier binary diffing and analysis.",
+          "link": "https://www.sentinelone.com/labs/radare2-power-ups-delivering-faster-macos-malware-analysis-with-r2-customization/",
+          "publishedOn": "2023-05-31T13:55:31.000Z",
+          "wordCount": 4795,
+          "title": "Radare2 Power Ups | Delivering Faster macOS Malware Analysis With r2 Customization",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/05/Radare2-Power-Ups-Delivering-Faster-macOS-Malware-Analysis-With-r2-Customization-5.jpg",
+            "length": "496907",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/05/Radare2-Power-Ups-Delivering-Faster-macOS-Malware-Analysis-With-r2-Customization-5.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=80903",
           "author": "Aleksandar Milenkoski",
           "description": "A Brazilian threat actor is targeting users of over 30 Portuguese financial institutions with custom backdoors.",
@@ -1734,16 +1758,6 @@
           "wordCount": 4257,
           "title": "Implementing Business Continuity on Azure",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/BisContAzure.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=10366",
-          "author": "Guillaume Bossiroy",
-          "description": "This first blog post is part of a series of blog posts related to the implementation of Zero Trust approach in Microsoft 365. This series will first cover the basics and then deep dive into the different features such as Azure Active Directory (Azure AD) Conditional Access policies, Microsoft Defender for Cloud Apps policies, Information … Continue reading Enforce Zero Trust in Microsoft 365 – Part 1: Setting the basics →",
-          "link": "https://blog.nviso.eu/2023/05/02/enforce-zero-trust-in-microsoft-365-part-1-setting-the-basics/",
-          "publishedOn": "2023-05-02T07:00:00.000Z",
-          "wordCount": 3343,
-          "title": "Enforce Zero Trust in Microsoft 365 – Part 1: Setting the basics",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/Presentation1-2.png"
         }
       ]
     },
