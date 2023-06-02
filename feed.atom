@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-01T00:52:50.833Z</updated>
+    <updated>2023-06-02T00:42:21.561Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Analysing PS2EXE executables…]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8556</id>
+        <link href="https://www.hexacorn.com/blog/2023/06/01/analysing-ps2exe-executables/"/>
+        <updated>2023-06-01T22:52:56.000Z</updated>
+        <summary type="html"><![CDATA[In my older posts I have shown how to deal with ‘encrypted’ or otherwise ‘protected’ script-to-exe executable files that aim to hide, obfuscate, or otherwise make scripts used to generate […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eurocrypt 2023: Death of a KEM]]></title>
+        <id>https://research.nccgroup.com/?p=31312</id>
+        <link href="https://research.nccgroup.com/2023/06/01/eurocrypt-2023-death-of-a-kem/"/>
+        <updated>2023-06-01T19:56:08.000Z</updated>
+        <summary type="html"><![CDATA[Last month I was lucky enough to attend Eurocrypt 2023, which took place in Lyon, France. It was my first chance to attend an academic cryptography conference and the experience sat somewhere in between the familiar cryptography of the Real World Crypto conference and the abstract world of black holes and supergravity conferences which I […]]]></summary>
+        <author>
+            <name>Giacomo Pope</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Detection: From Tactical to Functional]]></title>
+        <id>https://medium.com/p/1349e51e1a03</id>
+        <link href="https://posts.specterops.io/on-detection-from-tactical-to-functional-1349e51e1a03?source=rss----f05f8696e3cc---4"/>
+        <updated>2023-06-01T17:55:01.000Z</updated>
+        <author>
+            <name>Jared Atkinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-24941: Microsoft Network File System Remote Code Execution]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6477a491584f9875cef3eed2</id>
+        <link href="https://www.thezdi.com/blog/2023/5/31/cve-2023-24941-microsoft-network-file-system-remote-code-execution"/>
+        <updated>2023-06-01T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Quinton Crist, Guy Lederfein, and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the Microsoft Network File Service (NFS). This bug was originally discovered by Wei in Kunlun Lab with Cyber KunLun. The vulnerability is triggered when handling incoming NFSv4.1 calls containing utf8strings when the server is low on memory. A remote, unauthenticated attacker could exploit this vulnerability by sending a crafted call to an affected server. The following is a portion of their write-up covering CVE-2023-24941, with a few minimal modifications.
+A remote code execution vulnerability has been reported in Microsoft Network File System (NFS). The vulner…]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join Windows 11 to an Active Directory domain]]></title>
+        <id>https://4sysops.com/?p=1571922</id>
+        <link href="https://4sysops.com/archives/join-windows-11-to-an-active-directory-domain/"/>
+        <updated>2023-06-01T13:13:40.000Z</updated>
+        <summary type="html"><![CDATA[There are several ways for Windows PCs to join an Active Directory domain. These include the interactive method via the System Properties applet, netdom.exe, and PowerShell. Other options include a provisioning package, an answer file, or an offline domain join by importing an ODJ file.
+Join Windows 11 to an Active Directory domain first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Women in Cybersecurity (WiCyS) Joins Forces with SANS Security Awareness]]></title>
+        <id>https://www.sans.org/blog/women-in-cybersecurity-wicys-joins-forces-with-sans-security-awareness</id>
+        <link href="https://www.sans.org/blog/women-in-cybersecurity-wicys-joins-forces-with-sans-security-awareness?msc=rss"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest editors from WiCyS will be producing the monthly OUCH! Newsletter.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reversing Pickles with r2pickledec]]></title>
+        <id>https://blog.doyensec.com//2023/06/01/r2pickledec.html</id>
+        <link href="https://blog.doyensec.com//2023/06/01/r2pickledec.html"/>
+        <updated>2023-05-31T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[R2pickledec is the first pickle decompiler to support all instructions up to
+protocol 5 (the current). In this post we will go over what Python pickles are,
+how they work and how to reverse them with Radare2 and r2pickledec. An upcoming
+blog post will go even deeper into pickles and share some advanced obfuscation
+techniques.
+What are pickles?
+Pickles are the built-in serialization algorithm in Python. They can turn any
+Python object into a byte stream so it may be stored on disk or sent over a
+network. Pickles are notoriously dangerous. You should never unpickle data
+from an untrusted source. Doing so will likely result in remote code execution.
+Please refer to the documentation for more
+details.
+Pickle Basics
+Pickles are implemented as a very simple assembly language. There are only 68
+i…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SCP from remote to local]]></title>
         <id>https://4sysops.com/?p=1571910</id>
@@ -1229,70 +1314,6 @@ Upgrade Windows Server 2012 RDS first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[Introduction]]></summary>
         <author>
             <name>Jonathan Johnson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netflix MH370: The plane that wasn’t hacked]]></title>
-        <id>https://www.pentestpartners.com/?p=26928</id>
-        <link href="https://www.pentestpartners.com/security-blog/netflix-mh370-the-plane-that-wasnt-hacked/"/>
-        <updated>2023-05-03T05:50:51.000Z</updated>
-        <summary type="html"><![CDATA[I’m a sucker for a good documentary, but the recent Netflix MH370 piece had me shouting at the screen. The first episode talks about the most widely accepted theory; a pilot-created […]
-Netflix MH370: The plane that wasn’t hacked first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Ken Munro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Banana Incident]]></title>
-        <id>https://www.sans.org/blog/the-banana-incident</id>
-        <link href="https://www.sans.org/blog/the-banana-incident?msc=rss"/>
-        <updated>2023-05-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I’m in the digital forensics (DF) of the DFIR, the Incident Response (IR) group approach to this action would be very different. How may our actions differ? The (IR) group may be more concerned about when is the next pallet of bananas going to arrive or how does the store quell the panic when only standard bananas are available because of the organics being sold out? In the meantime, I’m standing only focused on this pallet, or maybe only the bananas I’m holding. My lifetime of eating and cyber training tells me that I am correct, but not limited to many steps in my investigation.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse engineering tricks: identifying opaque network protocols]]></title>
-        <id>https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols</id>
-        <link href="https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols"/>
-        <updated>2023-05-02T22:37:26.000Z</updated>
-        <summary type="html"><![CDATA[Lately, I’ve been reverse engineering a reasonably complex network protocol, and I ran into a mystery - while the protocol is generally an unencrypted binary protocol, one of the messages was large and random. In an otherwise unencrypted protocol, why is one of the messages unreadable? It took me a few hours to accomplish what should have been a couple minutes of effort, and I wanted to share the trick I ultimately used! I’m going to be intentionally vague on the software, and even modify a few things to make it harder to identify; I’ll probably publish a lot more on my work blog once I’m finished this project!]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2023-28231: RCE in the Microsoft Windows DHCPv6 Service]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64502625e391c8439cbee9f4</id>
-        <link href="https://www.thezdi.com/blog/2023/5/1/cve-2023-28231-rce-in-the-microsoft-windows-dhcpv6-service"/>
-        <updated>2023-05-02T16:09:19.000Z</updated>
-        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the Microsoft Windows DHCPv6 Service. This bug was originally discovered by YanZiShuang@BigCJTeam of cyberkl. The vulnerability results from the improper processing of DHCPv6 Relay-forward messages. A network-adjacent attacker can leverage this vulnerability to execute code in the context of the DHCP service. The following is a portion of their write-up covering CVE-2023-28231, with a few minimal modifications.
-A heap-based buffer overflow has been reported in Microsoft DHCPv6 Server. The vulnerability is due to improper processing of DHCPv6 Relay-forward messages. A remote atta…]]></summary>
-        <author>
-            <name>Trend Micro Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enable BitLocker on Windows 11 without a TPM chip]]></title>
-        <id>https://4sysops.com/?p=1571476</id>
-        <link href="https://4sysops.com/archives/enable-bitlocker-on-windows-11-without-a-tpm-chip/"/>
-        <updated>2023-05-02T15:46:15.000Z</updated>
-        <summary type="html"><![CDATA[By default, Windows 11 requires a Trusted Platform Module (TPM) chip to be present on the computer. However, it is possible to enable BitLocker on Windows 11 without TPM if you jump through a few hoops.
-Enable BitLocker on Windows 11 without a TPM chip first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0]]></title>
-        <id>https://www.praetorian.com/?p=4638</id>
-        <link href="https://www.praetorian.com/blog/nist-csf-2-0-ppt/"/>
-        <updated>2023-05-02T13:03:57.000Z</updated>
-        <summary type="html"><![CDATA[The National Institute of Standards and Technology (NIST) recently released the latest draft of the Cybersecurity Framework (CSF) 2.0, incorporating numerous updates and improvements over its predecessor. Among these changes, the addition of the Governance function has generated significant buzz within the cybersecurity community. We also are particularly excited about the modification of subcategories in […]
-The post Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0 appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Emmaline</name>
         </author>
     </entry>
     <entry>

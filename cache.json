@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/1349e51e1a03",
+          "author": "Jared Atkinson",
+          "description": "",
+          "link": "https://posts.specterops.io/on-detection-from-tactical-to-functional-1349e51e1a03?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2023-06-01T17:55:01.000Z",
+          "wordCount": null,
+          "title": "On Detection: From Tactical to Functional",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/88c082aeb573",
           "author": "Nathan D.",
           "description": "",
@@ -110,16 +120,6 @@
           "publishedOn": "2023-05-12T20:45:30.000Z",
           "wordCount": 3232,
           "title": "Fork off: Three ways to deal with forking processes",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols",
-          "author": null,
-          "description": "Lately, I’ve been reverse engineering a reasonably complex network protocol, and I ran into a mystery - while the protocol is generally an unencrypted binary protocol, one of the messages was large and random. In an otherwise unencrypted protocol, why is one of the messages unreadable? It took me a few hours to accomplish what should have been a couple minutes of effort, and I wanted to share the trick I ultimately used! I’m going to be intentionally vague on the software, and even modify a few things to make it harder to identify; I’ll probably publish a lot more on my work blog once I’m finished this project!",
-          "link": "https://www.skullsecurity.org/2023/reverse-engineering-tricks-identifying-opaque-network-protocols",
-          "publishedOn": "2023-05-02T22:37:26.000Z",
-          "wordCount": 2896,
-          "title": "Reverse engineering tricks: identifying opaque network protocols",
           "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
         }
       ]
@@ -292,6 +292,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6477a491584f9875cef3eed2",
+          "author": "Trend Micro Research Team",
+          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Quinton Crist, Guy Lederfein, and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the Microsoft Network File Service (NFS). This bug was originally discovered by Wei in Kunlun Lab with Cyber KunLun. The vulnerability is triggered when handling incoming NFSv4.1 calls containing utf8strings when the server is low on memory. A remote, unauthenticated attacker could exploit this vulnerability by sending a crafted call to an affected server. The following is a portion of their write-up covering CVE-2023-24941, with a few minimal modifications.\nA remote code execution vulnerability has been reported in Microsoft Network File System (NFS). The vulner…",
+          "link": "https://www.thezdi.com/blog/2023/5/31/cve-2023-24941-microsoft-network-file-system-remote-code-execution",
+          "publishedOn": "2023-06-01T15:00:00.000Z",
+          "wordCount": null,
+          "title": "CVE-2023-24941: Microsoft Network File System Remote Code Execution",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:646e57de67cf777db719ba9b",
           "author": "The ZDI Research Team",
           "description": "During Pwn2Own Toronto 2022, three different teams successfully exploited the Sonos One Speaker. In total, $105,000 was awarded to the three teams, with the team of Toan Pham and Tri Dang from Qrious Secure winning $60,000 since their entry was first on the schedule. Part of Pwn2Own competitions involves a random drawing for order. Not only does the team selected first get the full award if they are successful, but the subsequent entries are also more likely to have bug collisions. That means if three teams show up with the same exploit, only the first one randomly selected will get full credit. That’s not exactly what happened during the event, but some bug collisions did occur. In fact, there were four unique bugs used by the three different teams. Let’s take a look at the vulnerabilitie…",
@@ -321,17 +332,6 @@
           "publishedOn": "2023-05-09T17:26:34.000Z",
           "wordCount": null,
           "title": "The May 2023 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64502625e391c8439cbee9f4",
-          "author": "Trend Micro Research Team",
-          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the Microsoft Windows DHCPv6 Service. This bug was originally discovered by YanZiShuang@BigCJTeam of cyberkl. The vulnerability results from the improper processing of DHCPv6 Relay-forward messages. A network-adjacent attacker can leverage this vulnerability to execute code in the context of the DHCP service. The following is a portion of their write-up covering CVE-2023-28231, with a few minimal modifications.\nA heap-based buffer overflow has been reported in Microsoft DHCPv6 Server. The vulnerability is due to improper processing of DHCPv6 Relay-forward messages. A remote atta…",
-          "link": "https://www.thezdi.com/blog/2023/5/1/cve-2023-28231-rce-in-the-microsoft-windows-dhcpv6-service",
-          "publishedOn": "2023-05-02T16:09:19.000Z",
-          "wordCount": null,
-          "title": "CVE-2023-28231: RCE in the Microsoft Windows DHCPv6 Service",
           "itunes": {},
           "imageUrl": null
         }
@@ -383,6 +383,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=31312",
+          "author": "Giacomo Pope",
+          "description": "Last month I was lucky enough to attend Eurocrypt 2023, which took place in Lyon, France. It was my first chance to attend an academic cryptography conference and the experience sat somewhere in between the familiar cryptography of the Real World Crypto conference and the abstract world of black holes and supergravity conferences which I […]",
+          "link": "https://research.nccgroup.com/2023/06/01/eurocrypt-2023-death-of-a-kem/",
+          "publishedOn": "2023-06-01T19:56:08.000Z",
+          "wordCount": 20666,
+          "title": "Eurocrypt 2023: Death of a KEM",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://ncc-blog.pixelpreview.net/?p=26621",
           "author": "qkchambers",
@@ -539,16 +549,6 @@
           "wordCount": 1429,
           "title": "In Brief: Chariot Alignment with FDA Section 524B.1",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/03/fda.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4638",
-          "author": "Emmaline",
-          "description": "The National Institute of Standards and Technology (NIST) recently released the latest draft of the Cybersecurity Framework (CSF) 2.0, incorporating numerous updates and improvements over its predecessor. Among these changes, the addition of the Governance function has generated significant buzz within the cybersecurity community. We also are particularly excited about the modification of subcategories in […]\nThe post Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0 appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/nist-csf-2-0-ppt/",
-          "publishedOn": "2023-05-02T13:03:57.000Z",
-          "wordCount": 2438,
-          "title": "Measuring People, Process, and Technology Effectiveness with NIST CSF 2.0",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/05/Screen-Shot-2023-05-01-at-12.25.45-PM.png"
         }
       ]
     },
@@ -587,6 +587,16 @@
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com//atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com//2023/06/01/r2pickledec.html",
+          "author": null,
+          "description": "R2pickledec is the first pickle decompiler to support all instructions up to\nprotocol 5 (the current). In this post we will go over what Python pickles are,\nhow they work and how to reverse them with Radare2 and r2pickledec. An upcoming\nblog post will go even deeper into pickles and share some advanced obfuscation\ntechniques.\nWhat are pickles?\nPickles are the built-in serialization algorithm in Python. They can turn any\nPython object into a byte stream so it may be stored on disk or sent over a\nnetwork. Pickles are notoriously dangerous. You should never unpickle data\nfrom an untrusted source. Doing so will likely result in remote code execution.\nPlease refer to the documentation for more\ndetails.\nPickle Basics\nPickles are implemented as a very simple assembly language. There are only 68\ni…",
+          "link": "https://blog.doyensec.com//2023/06/01/r2pickledec.html",
+          "publishedOn": "2023-05-31T22:00:00.000Z",
+          "wordCount": 2399,
+          "title": "Reversing Pickles with r2pickledec",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com//2023/05/04/testing-ztp-platforms-a-primer.html",
           "author": null,
@@ -781,6 +791,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1571922",
+          "author": "Wolfgang Sommergut",
+          "description": "There are several ways for Windows PCs to join an Active Directory domain. These include the interactive method via the System Properties applet, netdom.exe, and PowerShell. Other options include a provisioning package, an answer file, or an offline domain join by importing an ODJ file.\nJoin Windows 11 to an Active Directory domain first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/join-windows-11-to-an-active-directory-domain/",
+          "publishedOn": "2023-06-01T13:13:40.000Z",
+          "wordCount": 4241,
+          "title": "Join Windows 11 to an Active Directory domain",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Join-computers-to-a-domain-using-PowerShell-600x374.png"
+        },
         {
           "id": "https://4sysops.com/?p=1571910",
           "author": "Brandon Lee",
@@ -990,16 +1010,6 @@
           "wordCount": 3936,
           "title": "Upgrade Windows Server 2012 RDS",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/The-deployment-configuration-and-collections-import-is-successful-in-Windows-Server-2022-RDS-600x315.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571476",
-          "author": "Jasmin Kahriman",
-          "description": "By default, Windows 11 requires a Trusted Platform Module (TPM) chip to be present on the computer. However, it is possible to enable BitLocker on Windows 11 without TPM if you jump through a few hoops.\nEnable BitLocker on Windows 11 without a TPM chip first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/enable-bitlocker-on-windows-11-without-a-tpm-chip/",
-          "publishedOn": "2023-05-02T15:46:15.000Z",
-          "wordCount": 3676,
-          "title": "Enable BitLocker on Windows 11 without a TPM chip",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Require-additional-authentication-at-startup-600x428.png"
         }
       ]
     },
@@ -1014,6 +1024,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8556",
+          "author": "adam",
+          "description": "In my older posts I have shown how to deal with ‘encrypted’ or otherwise ‘protected’ script-to-exe executable files that aim to hide, obfuscate, or otherwise make scripts used to generate […]",
+          "link": "https://www.hexacorn.com/blog/2023/06/01/analysing-ps2exe-executables/",
+          "publishedOn": "2023-06-01T22:52:56.000Z",
+          "wordCount": 5298,
+          "title": "Analysing PS2EXE executables…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8548",
           "author": "adam",
@@ -1146,16 +1166,6 @@
           "wordCount": 3782,
           "title": "Bullied by Bugcrowd over Kape CyberGhost disclosure",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=26928",
-          "author": "Ken Munro",
-          "description": "I’m a sucker for a good documentary, but the recent Netflix MH370 piece had me shouting at the screen. The first episode talks about the most widely accepted theory; a pilot-created […]\nNetflix MH370: The plane that wasn’t hacked first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/netflix-mh370-the-plane-that-wasnt-hacked/",
-          "publishedOn": "2023-05-03T05:50:51.000Z",
-          "wordCount": 2357,
-          "title": "Netflix MH370: The plane that wasn’t hacked",
-          "imageUrl": null
         }
       ]
     },
@@ -1164,6 +1174,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/women-in-cybersecurity-wicys-joins-forces-with-sans-security-awareness",
+          "author": null,
+          "description": "Guest editors from WiCyS will be producing the monthly OUCH! Newsletter.",
+          "link": "https://www.sans.org/blog/women-in-cybersecurity-wicys-joins-forces-with-sans-security-awareness?msc=rss",
+          "publishedOn": "2023-06-01T00:00:00.000Z",
+          "wordCount": 2739,
+          "title": "Women in Cybersecurity (WiCyS) Joins Forces with SANS Security Awareness",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-cybersecurity-summit-2023",
           "author": null,
@@ -1352,16 +1372,6 @@
           "publishedOn": "2023-05-04T00:00:00.000Z",
           "wordCount": 3666,
           "title": "VMMM-self-assessment-tool",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/the-banana-incident",
-          "author": null,
-          "description": "I’m in the digital forensics (DF) of the DFIR, the Incident Response (IR) group approach to this action would be very different. How may our actions differ? The (IR) group may be more concerned about when is the next pallet of bananas going to arrive or how does the store quell the panic when only standard bananas are available because of the organics being sold out? In the meantime, I’m standing only focused on this pallet, or maybe only the bananas I’m holding. My lifetime of eating and cyber training tells me that I am correct, but not limited to many steps in my investigation.",
-          "link": "https://www.sans.org/blog/the-banana-incident?msc=rss",
-          "publishedOn": "2023-05-03T00:00:00.000Z",
-          "wordCount": 3608,
-          "title": "The Banana Incident",
           "imageUrl": null
         }
       ]
