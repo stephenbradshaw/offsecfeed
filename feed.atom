@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-15T00:42:45.235Z</updated>
+    <updated>2023-06-16T00:43:46.241Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Change the owner of computer objects in Active Directory]]></title>
+        <id>https://4sysops.com/?p=1572126</id>
+        <link href="https://4sysops.com/archives/change-the-owner-of-computer-objects-in-active-directory/"/>
+        <updated>2023-06-15T17:18:26.000Z</updated>
+        <summary type="html"><![CDATA[When a user joins a computer to an AD domain, they automatically become the owner of the corresponding AD object. This is why standard users should not have the domain join permission. If they still own computer objects, it is recommended for security reasons to replace them with a service account.
+Change the owner of computer objects in Active Directory first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finding bugs in C code with Multi-Level IR and VAST]]></title>
+        <id>https://blog.trailofbits.com/?p=104592</id>
+        <link href="https://blog.trailofbits.com/2023/06/15/finding-bugs-with-mlir-and-vast/"/>
+        <updated>2023-06-15T11:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Intermediate languages (IRs) are what reverse engineers and vulnerability researchers use to see the forest for the trees. IRs are used to view programs at different abstraction layers, so that analysis can understand both low-level code aberrations and higher levels of flawed logic mistakes. The setback is that bug-finding tools are often pigeonholed into choosing […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in May]]></title>
+        <id>http://blog.didierstevens.com/?p=10077</id>
+        <link href="https://blog.didierstevens.com/2023/06/15/overview-of-content-published-in-may-8/"/>
+        <updated>2023-06-15T07:56:23.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in May: Blog posts: Update: oledump.py Version 0.0.75 SANS ISC Diary entries: VBA Project References Quickly Finding Encoded Payloads in Office Documents Another Malicious HTA File Analysis – Part 3 Wireshark 4.0.6 Released Analyzing Office Documents Embedded Inside PPT (PowerPoint) Files]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mitre Att&ck – from JSON to CSV]]></title>
         <id>https://www.hexacorn.com/blog/?p=8591</id>
@@ -25,6 +56,16 @@
 Spectre: A password manager that doesn’t store passwords first appeared on 4sysops.]]></summary>
         <author>
             <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grammarly CISO Suha Can Discusses the Impact of Preemptive Security with HackerOne]]></title>
+        <id>https://hackerone.com/customer-stories/grammarly-ciso-suha-can-discusses-preemptive-security</id>
+        <link href="https://www.hackerone.com/customer-stories/grammarly-ciso-suha-can-discusses-preemptive-security"/>
+        <updated>2023-06-14T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Suha Can, the CISO of Grammarly, recently joined HackerOne’s CTO & Co-founder, Alex Rice, for a discussion on user trust, the benefits of Grammarly’s bug bounty program, and the advantages of preemptive security measures.]]></summary>
+        <author>
+            <name>ktansley@hackerone.com</name>
         </author>
     </entry>
     <entry>
@@ -1101,112 +1142,6 @@ Pulseway 9.2: Remote monitoring with workflow automation first appeared on 4syso
         <summary type="html"><![CDATA[At first, I didn’t plan to write an article about the problems with bug bounty programs. This was supposed to be a standard technical blogpost describing an interesting bug in the Linux Kernel i915 driver allowing for a linear Out-Of-Bound read and write access (CVE-2023-28410). Moreover, I’m not even into bug bounty programs, mostly because […]]]></summary>
         <author>
             <name>pi3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A More Complete Exploit for Fortinet CVE-2022-42475]]></title>
-        <id>https://bishopfox.com/blog/exploit-cve-2022-42475</id>
-        <link href="https://bishopfox.com/blog/exploit-cve-2022-42475"/>
-        <updated>2023-05-17T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn about our unique research focused on CVE-2022-42475 and how an exploit can be built to target a single specific FortiGate appliance running a single specific version of FortiOSbug.]]></summary>
-        <author>
-            <name>Carl Livitt, Jon Williams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to map a network drive with PowerShell]]></title>
-        <id>https://4sysops.com/?p=1571690</id>
-        <link href="https://4sysops.com/archives/how-to-map-a-network-drive-with-powershell/"/>
-        <updated>2023-05-17T08:38:06.000Z</updated>
-        <summary type="html"><![CDATA[If you want to assign a drive letter to file shares via the command line, you can use PowerShell instead of net.exe. The SmbShare module's cmdlets can display, connect, and disconnect shared drives. PowerShell also supports newer SMB features, such as QUIC and Compression.
-How to map a network drive with PowerShell first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Chrome V8 ArrayShift Race Condition Remote Code Execution]]></title>
-        <id>https://blog.exodusintel.com/?p=2120</id>
-        <link href="https://blog.exodusintel.com/2023/05/16/google-chrome-v8-arrayshift-race-condition-remote-code-execution/"/>
-        <updated>2023-05-16T22:36:54.000Z</updated>
-        <summary type="html"><![CDATA[By Javier Jimenez Overview This post describes a method of exploiting a race condition in the V8 JavaScript engine, version 9.1.269.33. The vulnerability affects the following versions of Chrome and Edge: Google Chrome versions between 90.0.4430.0 and 91.0.4472.100. Microsoft Edge versions between 90.0.818.39 and 91.0.864.41. The vulnerability occurs when one of the TurboFan jobs generates a ... Read more Google Chrome V8 ArrayShift Race Condition Remote Code Execution
-The post Google Chrome V8 ArrayShift Race Condition Remote Code Execution appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From DA to EA with ESC5]]></title>
-        <id>https://medium.com/p/f9f045aa105c</id>
-        <link href="https://posts.specterops.io/from-da-to-ea-with-esc5-f9f045aa105c?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-05-16T18:14:06.000Z</updated>
-        <summary type="html"><![CDATA[There’s a new, practical way to escalate from Domain Admin to Enterprise Admin.]]></summary>
-        <author>
-            <name>Andy Robbins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decoding the HackerOne Code of Conduct]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct"/>
-        <updated>2023-05-16T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As the industry continues to rapidly evolve, it is on HackerOne to try to ensure that we align with the industry norms of Code of Conduct management.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ENow Active Directory Monitoring & Reporting]]></title>
-        <id>https://4sysops.com/?p=1571679</id>
-        <link href="https://4sysops.com/archives/enow-active-directory-monitoring-reporting/"/>
-        <updated>2023-05-16T15:44:01.000Z</updated>
-        <summary type="html"><![CDATA[ENow Active Directory Monitoring & Reporting provides quick, granular visibility into your Active Directory environment so IT pros can proactively mitigate issues before they escalate into major problems for your organization.
-ENow Active Directory Monitoring & Reporting first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT Plugins: Data Exfiltration via Images & Cross Plugin Request Forgery]]></title>
-        <id>https://embracethered.com/blog/posts/2023/chatgpt-webpilot-data-exfil-via-markdown-injection/</id>
-        <link href="https://embracethered.com/blog/posts/2023/chatgpt-webpilot-data-exfil-via-markdown-injection/"/>
-        <updated>2023-05-16T14:45:38.000Z</updated>
-        <summary type="html"><![CDATA[This post shows how a malicious website can take control of a ChatGPT chat session and exfiltrate the history of the conversation.
-Plugins, Tools and Integrations With plugins, data exfiltration can happen by sending too much data into the plugin in the first place. More security controls and insights on what is being sent to the plugin are required to empower users.
-However, this post is not about sending too much data to a plugin, but about a malicious actor who controls the data a plugin retrieves.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Choose Exodus Intelligence for Enhanced Vulnerability Management?]]></title>
-        <id>https://blog.exodusintel.com/?p=2130</id>
-        <link href="https://blog.exodusintel.com/2023/05/16/why-choose-exodus-intelligence-for-enhanced-vulnerability-management/"/>
-        <updated>2023-05-16T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the contemporary digital landscape, vulnerability management teams and analysts are overwhelmed by countless alerts, data streams, and patch recommendations. The sheer volume of information is daunting and frequently misleading. Ideally, the systems generating these alerts should streamline and prioritize the information. While AI systems and products are not yet mature enough to effectively filter ... Read more Why Choose Exodus Intelligence for Enhanced Vulnerability Management? 
-The post <strong>Why Choose Exodus Intelligence for Enhanced Vulnerability Management? </strong> appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Real World Crypto 2023 Recap]]></title>
-        <id>https://blog.trailofbits.com/?p=104415</id>
-        <link href="https://blog.trailofbits.com/2023/05/16/real-world-crypto-2023-recap/"/>
-        <updated>2023-05-16T13:54:43.000Z</updated>
-        <summary type="html"><![CDATA[Last month, hundreds of cryptographers descended upon Tokyo for the first Real World Crypto Conference in Asia. As in previous years, we dispatched a handful of our researchers and engineers to present and attend the conference. What sets RWC apart from other conferences is that it strongly emphasizes research, collaborations, and advancements in cryptography that […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon Replay | Malshare: 10 Years of Running a Public Malware Repository]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=80742</id>
-        <link href="https://www.sentinelone.com/labs/labscon-replay-malshare-10-years-of-running-a-public-malware-repository/"/>
-        <updated>2023-05-16T13:43:15.000Z</updated>
-        <summary type="html"><![CDATA[Silas Cutler, founder of MalShare, explores some of the challenges and rewards of developing and maintaining a free malware repository for researchers.]]></summary>
-        <author>
-            <name>LABScon</name>
         </author>
     </entry>
     <entry>
