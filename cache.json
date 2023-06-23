@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/e0da9b7cdfca",
+          "author": "Jonas Bülow Knudsen",
+          "description": "Tier Zero is a crucial group of assets in Active Directory (AD) and Azure. Its purpose is to protect the most critical components by…",
+          "link": "https://posts.specterops.io/what-is-tier-zero-part-1-e0da9b7cdfca?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2023-06-22T19:26:35.000Z",
+          "wordCount": 7091,
+          "title": "What is Tier Zero — Part 1",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*RDZuRCHdR1jXUkLQBiVwvQ.png"
+        },
+        {
           "id": "https://medium.com/p/1a97cfcb8fb3",
           "author": "Jonathan Johnson",
           "description": "",
@@ -43,16 +53,6 @@
           "publishedOn": "2023-05-24T15:53:38.000Z",
           "wordCount": null,
           "title": "Beyond Procedures: Digging into the Function Call Stack",
-          "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/7606f87786f6",
-          "author": "Jonas Bülow Knudsen",
-          "description": "",
-          "link": "https://posts.specterops.io/foss-bloodhound-4-3-1-release-7606f87786f6?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-05-23T17:48:32.000Z",
-          "wordCount": null,
-          "title": "FOSS BloodHound 4.3.1 release",
           "imageUrl": null
         }
       ]
@@ -295,6 +295,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64938e2e4512d44c73bc3eab",
+          "author": "Reno Robert",
+          "description": "Last year we published our patch gap analysis of ESXi’s TCP/IP stack, which is forked from FreeBSD 8.2. While our focus was mainly on missing FreeBSD patches in ESXi, we also came across a type confusion bug in code introduced by VMware. This blog post details a vulnerability I discovered in ESXi’s implementation of the setsockopt system call that could lead to a sandbox escape. The vulnerability was assigned CVE-2022-31696 and disclosed as part of the advisory VMSA-2022-003. Additionally, I also explore ESXi’s kernel heap allocator and weaknesses in existing kernel mitigations. \nFor information regarding the initial analysis of the TCP/IP kernel module, VMkernel debug symbols, and porting type information from FreeBSD to ESXi, it is recommend to read our earlier analysis. \nComparing setso…",
+          "link": "https://www.thezdi.com/blog/2023/6/21/cve-2022-31696-an-analysis-of-a-vmware-esxi-tcp-socket-keepalive-type-confusion-lpe",
+          "publishedOn": "2023-06-22T16:00:00.000Z",
+          "wordCount": null,
+          "title": "CVE-2022-31696: An Analysis of a VMware ESXi TCP Socket Keepalive Type Confusion LPE",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:648893950d553d2580382c39",
           "author": "Dustin Childs",
           "description": "It’s the second Tuesday of the month, which means Adobe and Microsoft have released their latest security patches. Take a break from your regularly scheduled activities and join us as we review the details of their latest advisories. If you’d rather watch the video recap, check out the Patch Report webcast on our YouTube channel.\nAdobe Patches for June 2023\nFor June, Adobe released four patches addressing 18 CVEs in Adobe Commerce, Substance 3D Designer, Adobe Animate, and Experience Manager. The bug in Substance 3D Designer was found by ZDI researcher Mat Powell and could lead to arbitrary code execution when opening a specially crafted file. The patch for Commerce is the largest this month with a dozen total fixes. Most of these are Important or Moderate rated Security Feature Bypasses (…",
@@ -532,16 +543,6 @@
           "wordCount": 2234,
           "title": "MOVEit! An Overview of CVE-2023-34362",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4642",
-          "author": "Emmaline",
-          "description": "Attack Surface Management (ASM) tools find quite a lot of vulnerabilities on the Web. This really isn’t surprising, given that HTTP/S is by far the most common and broadest of all the services comprising the Internet. In fact, Web-based issues represent the majority of the findings about which our Managed Service Providers (MSPs) inform our […]\nThe post Content Discovery: Understanding Your Web Attack Surface appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/content-discovery-understanding-your-web-attack-surface/",
-          "publishedOn": "2023-05-23T13:03:48.000Z",
-          "wordCount": 2941,
-          "title": "Content Discovery: Understanding Your Web Attack Surface",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
         }
       ]
     },
@@ -775,6 +776,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1572219",
+          "author": "Wolfgang Sommergut",
+          "description": "In newer versions of Windows, IPv6 is installed by default and enabled on all network adapters. However, in smaller environments, there is often a lack of expertise to properly configure and maintain the IPv6 infrastructure. In such cases, admins might want to disable IPv6.\nDisable IPv6 in Windows first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/disable-ipv6-in-windows/",
+          "publishedOn": "2023-06-22T17:59:57.000Z",
+          "wordCount": 3759,
+          "title": "Disable IPv6 in Windows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Unbind-IPv6-from-network-adapters-using-PowerShell-600x405.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1572207",
           "author": "Brandon Lee",
           "description": "DCPROMO is a command line tool in Windows Server that is used to promote an Active Directory member server to a domain controller or demote a domain controller to a member server or standalone server. Let's explore why DCPROMO may have failed and consider effective solutions.\nReasons DCPROMO failed first appeared on 4sysops.",
@@ -983,16 +994,6 @@
           "wordCount": 3810,
           "title": "Change Windows network profiles between public and private",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/The-dialog-box-for-marking-new-networks-as-private-or-public-600x357.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571851",
-          "author": "Michael Pietroforte",
-          "description": "There is no denying that Google has been the most crucial resource for IT professionals for the past two decades. Most IT professionals are adept problem solvers, and there are only a handful of IT issues that cannot be resolved by the vast resources of the internet. As AI-powered search engines continue to emerge, a question arises: will Google be replaced by GPT-4-based chatbots and search engines like chatGPT and Bing Chat?\nPoll: How reliable are chatGPT and Bing Chat? first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/poll-how-reliable-are-chatgpt-and-bing-chat/",
-          "publishedOn": "2023-05-23T17:24:14.000Z",
-          "wordCount": 2962,
-          "title": "Poll: How reliable are chatGPT and Bing Chat?",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Do-you-trust-me.png"
         }
       ]
     },
@@ -1007,6 +1008,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8616",
+          "author": "adam",
+          "description": "The cyber consulting world delivers a lot of useful security work. They do workshops, trainings, table top exercises, they write playbooks, red team, provide assessments, and help companies with gap […]",
+          "link": "https://www.hexacorn.com/blog/2023/06/22/the-myth-of-knowing-your-org-know_your_org-docx/",
+          "publishedOn": "2023-06-22T23:54:19.000Z",
+          "wordCount": 5865,
+          "title": "The myth of “knowing your org” -> know_your_org.docx",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8591",
           "author": "adam",
@@ -1056,16 +1067,6 @@
           "wordCount": 5298,
           "title": "Analysing PS2EXE executables…",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8548",
-          "author": "adam",
-          "description": "Pretty much all of my DeXRAY posts ever published been focusing on new versions of this tool being released. Today I will talk about the ‘making of the sausages’ part […]",
-          "link": "https://www.hexacorn.com/blog/2023/05/23/dexray-dfir-and-the-art-of-ambulance-chasing/",
-          "publishedOn": "2023-05-23T22:56:08.000Z",
-          "wordCount": 6127,
-          "title": "DeXRAY, DFIR, and the art of ambulance chasing…",
-          "imageUrl": null
         }
       ]
     },
@@ -1088,16 +1089,6 @@
           "publishedOn": "2023-06-12T05:13:49.000Z",
           "wordCount": null,
           "title": "WhosHere Plus. Trilateration vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=26536",
-          "author": "Alex Lomas",
-          "description": "Almost all commercial airlines now use electronic flight bags (EFBs) to drive efficiency and safety in their operations. We’ve been testing the security of EFBs and their apps, here’s our […]\nEFB vulnerability in Lufthansa’s Lido eRouteManual first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/efb-vulnerability-in-lufthansas-lido-eroutemanual/",
-          "publishedOn": "2023-05-24T05:23:58.000Z",
-          "wordCount": 2934,
-          "title": "EFB vulnerability in Lufthansa’s Lido eRouteManual",
           "imageUrl": null
         }
       ]
@@ -1396,16 +1387,6 @@
           "wordCount": 3187,
           "title": "Transforming search sentences to query Elastic SIEM with OpenAI API",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/chatgpt-elastic-siem-openai.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=10403",
-          "author": "Guillaume Bossiroy",
-          "description": "This blog post is the third blog post of a series dedicated to Zero Trust security in Microsoft 365. In the first two blog posts, we set the basics by going over the free features of Azure AD that can be implemented in an organization that starts its Zero Trust journey in Microsoft 365. We … Continue reading Enforce Zero Trust in Microsoft 365 – Part 3: Introduction to Conditional Access →",
-          "link": "https://blog.nviso.eu/2023/05/24/enforce-zero-trust-in-microsoft-365-part-3-introduction-to-conditional-access/",
-          "publishedOn": "2023-05-24T07:00:00.000Z",
-          "wordCount": 3615,
-          "title": "Enforce Zero Trust in Microsoft 365 – Part 3: Introduction to Conditional Access",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/M365-zt-part3.png"
         }
       ]
     },

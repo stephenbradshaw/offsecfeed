@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-22T00:42:32.371Z</updated>
+    <updated>2023-06-23T00:45:59.499Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The myth of “knowing your org” -> know_your_org.docx]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8616</id>
+        <link href="https://www.hexacorn.com/blog/2023/06/22/the-myth-of-knowing-your-org-know_your_org-docx/"/>
+        <updated>2023-06-22T23:54:19.000Z</updated>
+        <summary type="html"><![CDATA[The cyber consulting world delivers a lot of useful security work. They do workshops, trainings, table top exercises, they write playbooks, red team, provide assessments, and help companies with gap […]]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Tier Zero — Part 1]]></title>
+        <id>https://medium.com/p/e0da9b7cdfca</id>
+        <link href="https://posts.specterops.io/what-is-tier-zero-part-1-e0da9b7cdfca?source=rss----f05f8696e3cc---4"/>
+        <updated>2023-06-22T19:26:35.000Z</updated>
+        <summary type="html"><![CDATA[Tier Zero is a crucial group of assets in Active Directory (AD) and Azure. Its purpose is to protect the most critical components by…]]></summary>
+        <author>
+            <name>Jonas Bülow Knudsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disable IPv6 in Windows]]></title>
+        <id>https://4sysops.com/?p=1572219</id>
+        <link href="https://4sysops.com/archives/disable-ipv6-in-windows/"/>
+        <updated>2023-06-22T17:59:57.000Z</updated>
+        <summary type="html"><![CDATA[In newer versions of Windows, IPv6 is installed by default and enabled on all network adapters. However, in smaller environments, there is often a lack of expertise to properly configure and maintain the IPv6 infrastructure. In such cases, admins might want to disable IPv6.
+Disable IPv6 in Windows first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-31696: An Analysis of a VMware ESXi TCP Socket Keepalive Type Confusion LPE]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64938e2e4512d44c73bc3eab</id>
+        <link href="https://www.thezdi.com/blog/2023/6/21/cve-2022-31696-an-analysis-of-a-vmware-esxi-tcp-socket-keepalive-type-confusion-lpe"/>
+        <updated>2023-06-22T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year we published our patch gap analysis of ESXi’s TCP/IP stack, which is forked from FreeBSD 8.2. While our focus was mainly on missing FreeBSD patches in ESXi, we also came across a type confusion bug in code introduced by VMware. This blog post details a vulnerability I discovered in ESXi’s implementation of the setsockopt system call that could lead to a sandbox escape. The vulnerability was assigned CVE-2022-31696 and disclosed as part of the advisory VMSA-2022-003. Additionally, I also explore ESXi’s kernel heap allocator and weaknesses in existing kernel mitigations. 
+For information regarding the initial analysis of the TCP/IP kernel module, VMkernel debug symbols, and porting type information from FreeBSD to ESXi, it is recommend to read our earlier analysis. 
+Comparing setso…]]></summary>
+        <author>
+            <name>Reno Robert</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Cool New Project: Semgrep Rules for Android Apps Security]]></title>
         <id>https://blog.mindedsecurity.com/2023/06/a-cool-new-project-semgrep-rules-for.html</id>
@@ -1031,68 +1074,6 @@ Change Windows network profiles between public and private first appeared on 4sy
         <updated>2023-05-24T15:53:38.000Z</updated>
         <author>
             <name>Nathan D.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enforce Zero Trust in Microsoft 365 – Part 3: Introduction to Conditional Access]]></title>
-        <id>https://blog.nviso.eu/?p=10403</id>
-        <link href="https://blog.nviso.eu/2023/05/24/enforce-zero-trust-in-microsoft-365-part-3-introduction-to-conditional-access/"/>
-        <updated>2023-05-24T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This blog post is the third blog post of a series dedicated to Zero Trust security in Microsoft 365. In the first two blog posts, we set the basics by going over the free features of Azure AD that can be implemented in an organization that starts its Zero Trust journey in Microsoft 365. We … Continue reading Enforce Zero Trust in Microsoft 365 – Part 3: Introduction to Conditional Access →]]></summary>
-        <author>
-            <name>Guillaume Bossiroy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EFB vulnerability in Lufthansa’s Lido eRouteManual]]></title>
-        <id>https://www.pentestpartners.com/?p=26536</id>
-        <link href="https://www.pentestpartners.com/security-blog/efb-vulnerability-in-lufthansas-lido-eroutemanual/"/>
-        <updated>2023-05-24T05:23:58.000Z</updated>
-        <summary type="html"><![CDATA[Almost all commercial airlines now use electronic flight bags (EFBs) to drive efficiency and safety in their operations. We’ve been testing the security of EFBs and their apps, here’s our […]
-EFB vulnerability in Lufthansa’s Lido eRouteManual first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Lomas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeXRAY, DFIR, and the art of ambulance chasing…]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8548</id>
-        <link href="https://www.hexacorn.com/blog/2023/05/23/dexray-dfir-and-the-art-of-ambulance-chasing/"/>
-        <updated>2023-05-23T22:56:08.000Z</updated>
-        <summary type="html"><![CDATA[Pretty much all of my DeXRAY posts ever published been focusing on new versions of this tool being released. Today I will talk about the ‘making of the sausages’ part […]]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FOSS BloodHound 4.3.1 release]]></title>
-        <id>https://medium.com/p/7606f87786f6</id>
-        <link href="https://posts.specterops.io/foss-bloodhound-4-3-1-release-7606f87786f6?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-05-23T17:48:32.000Z</updated>
-        <author>
-            <name>Jonas Bülow Knudsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Poll: How reliable are chatGPT and Bing Chat?]]></title>
-        <id>https://4sysops.com/?p=1571851</id>
-        <link href="https://4sysops.com/archives/poll-how-reliable-are-chatgpt-and-bing-chat/"/>
-        <updated>2023-05-23T17:24:14.000Z</updated>
-        <summary type="html"><![CDATA[There is no denying that Google has been the most crucial resource for IT professionals for the past two decades. Most IT professionals are adept problem solvers, and there are only a handful of IT issues that cannot be resolved by the vast resources of the internet. As AI-powered search engines continue to emerge, a question arises: will Google be replaced by GPT-4-based chatbots and search engines like chatGPT and Bing Chat?
-Poll: How reliable are chatGPT and Bing Chat? first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Content Discovery: Understanding Your Web Attack Surface]]></title>
-        <id>https://www.praetorian.com/?p=4642</id>
-        <link href="https://www.praetorian.com/blog/content-discovery-understanding-your-web-attack-surface/"/>
-        <updated>2023-05-23T13:03:48.000Z</updated>
-        <summary type="html"><![CDATA[Attack Surface Management (ASM) tools find quite a lot of vulnerabilities on the Web. This really isn’t surprising, given that HTTP/S is by far the most common and broadest of all the services comprising the Internet. In fact, Web-based issues represent the majority of the findings about which our Managed Service Providers (MSPs) inform our […]
-The post Content Discovery: Understanding Your Web Attack Surface appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Emmaline</name>
         </author>
     </entry>
     <entry>
