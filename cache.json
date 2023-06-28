@@ -113,7 +113,18 @@
       "title": "SkullSecurity Blog",
       "feedUrl": "https://blog.skullsecurity.org/feed",
       "siteUrl": "https://www.skullsecurity.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules",
+          "author": null,
+          "description": "Recently, I had the privilege to write a detailed analysis of CVE-2023-34362, which is series of several vulnerabilities in the MOVEit file transfer application that lead to remote code execution. One of the several vulnerabilities involved an ISAPI module - specifically, the MoveITISAPI.dll ISAPI extension. One of the many vulnerabilities that comprised the MOVEit RCE was a header-injection issue, where the ISAPI application parsed headers differently than the .net application. This point is going to dig into how to analyze and reverse engineer an ISAPI-based service! This wasn’t the first time in the recent past I’d had to work on something written as an ISAPI module, and each time I feel like I have to start over and remember how it’s supposed to work. This time, I thought I’d combine my hastily-scrawled notes with some Googling, and try to write something that I (and others) can use in the future. As such, this will be a quick intro to ISAPI applications from the angle that matters to me - how to reverse engineer and debug them! I want to preface this with: I’m not a Windows developer, and I’ve never run an IIS server on purpose. That means that I am approaching this with brute-force ignorance! I don’t have a lot of background context nor do I know the correct terminology for a lot of this stuff. Instead, I’m going to treat these are typical DLLs from typical applications, and approach them as such.",
+          "link": "https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules",
+          "publishedOn": "2023-06-27T16:14:05.000Z",
+          "wordCount": 3557,
+          "title": "How-to: Reversing and debugging ISAPI modules",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        }
+      ]
     },
     {
       "title": "Silent Signal Techblog",
@@ -314,18 +325,7 @@
       "title": "research.securitum.com",
       "feedUrl": "https://research.securitum.com/feed/",
       "siteUrl": "https://research.securitum.com/",
-      "articles": [
-        {
-          "id": "https://research.securitum.com/?p=1966",
-          "author": "miwn",
-          "description": "Introduction Users often assume that known software is free of security flaws because it has been checked by a sufficient number of tools and security testers. However, this is not an assumption that a pentester or bug hunter can afford to make. Vulnerabilities may lurk in various places, and finding an interesting bug often requires ...\nThe post XSS in WordPress via open embed auto discovery appeared first on research.securitum.com.",
-          "link": "https://research.securitum.com/xss-in-wordpress-via-open-embed-auto-discovery/",
-          "publishedOn": "2023-05-29T10:28:50.000Z",
-          "wordCount": 1732,
-          "title": "XSS in WordPress via open embed auto discovery",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Winsider Seminars & Solutions Inc.",
@@ -468,6 +468,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=4736",
+          "author": "Emmaline",
+          "description": "On January 21, 2023 at ShmooCon 2023, Praetorian open-sourced Gato (Github Attack Toolkit), a first of its kind tool that focuses on abusing offensive TTPs targeting self-hosted GitHub Actions Runners. Since then, Praetorian and other offensive security practitioners across the information security community have leveraged Gato for so much more than just self-hosted runner attacks. […]\nThe post Announcing Gato Version 1.5! appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/gato-update-version-1-5/",
+          "publishedOn": "2023-06-27T13:03:35.000Z",
+          "wordCount": 2118,
+          "title": "Announcing Gato Version 1.5!",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/01/Graphic-Gato-Cat.png"
+        },
         {
           "id": "https://www.praetorian.com/?p=4729",
           "author": "Emmaline",
@@ -729,6 +739,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1572267",
+          "author": "Brandon Lee",
+          "description": "Explore NetXMS, an enterprise-grade, open-source network monitoring and management solution with advanced features such as customized data visualization, comprehensive monitoring, and automation capabilities.\nNetXMS: Open-source network monitoring and management first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/netxms-open-source-network-monitoring-and-management/",
+          "publishedOn": "2023-06-27T14:56:53.000Z",
+          "wordCount": 4274,
+          "title": "NetXMS: Open-source network monitoring and management",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Network-overview-dashboard-in-NetXMS-600x319.png"
+        },
         {
           "id": "https://4sysops.com/?p=1572251",
           "author": "Brandon Lee",
@@ -1167,16 +1187,6 @@
           "publishedOn": "2023-06-11T15:49:21.000Z",
           "wordCount": null,
           "title": "Exploit ChatGPT and Enter the Matrix to Learn about AI Security",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./",
-          "author": null,
-          "description": "If you are building ChatGPT plugins, LLM agents, tools or integrations this is a must read. This post explains how the first exploitable Cross Plugin Request Forgery was found in the wild and the fix which was applied.\nIndirect Prompt Injections Are Now A Reality With plugins Indirect Prompt Injections are now a reality in the ChatGPT ecosystem.\nThe real-world examples and demos provided by others and myself to raise awarness about this increasing problem have been mostly amusing and harmless, like making Bing Chat speak like a pirate, make ChatGPT add jokes at the end or having it do a Rickroll when reading YouTube transcripts.",
-          "link": "https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./",
-          "publishedOn": "2023-05-28T19:00:02.000Z",
-          "wordCount": 1486,
-          "title": "ChatGPT Plugin Exploit Explained: From Prompt Injection to Accessing Private Data",
           "imageUrl": null
         }
       ]

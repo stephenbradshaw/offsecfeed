@@ -59,6 +59,124 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-27 datetime="2023-06-27T16:14:05.000Z">2023-06-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-27 datetime="2023-06-27T16:14:05.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SkullSecurity Blog</button>
+                  <a class="source-heading__link" href="https://www.skullsecurity.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules"
+                        open
+                      >
+                        <summary class="article-expander__title">How-to: Reversing and debugging ISAPI modules</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.skullsecurity.org/assets/skullsecurity.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Recently, I had the privilege to write a detailed analysis of CVE-2023-34362, which is series of several vulnerabilities in the MOVEit file transfer application that lead to remote code execution. One of the several vulnerabilities involved an ISAPI module - specifically, the MoveITISAPI.dll ISAPI extension. One of the many vulnerabilities that comprised the MOVEit RCE was a header-injection issue, where the ISAPI application parsed headers differently than the .net application. This point is going to dig into how to analyze and reverse engineer an ISAPI-based service! This wasn’t the first time in the recent past I’d had to work on something written as an ISAPI module, and each time I feel like I have to start over and remember how it’s supposed to work. This time, I thought I’d combine my hastily-scrawled notes with some Googling, and try to write something that I (and others) can use in the future. As such, this will be a quick intro to ISAPI applications from the angle that matters to me - how to reverse engineer and debug them! I want to preface this with: I’m not a Windows developer, and I’ve never run an IIS server on purpose. That means that I am approaching this with brute-force ignorance! I don’t have a lot of background context nor do I know the correct terminology for a lot of this stuff. Instead, I’m going to treat these are typical DLLs from typical applications, and approach them as such.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1572267"
+                        open
+                      >
+                        <summary class="article-expander__title">NetXMS: Open-source network monitoring and management</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/netxms-open-source-network-monitoring-and-management/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://4sysops.com/wp-content/uploads/2023/06/Network-overview-dashboard-in-NetXMS-600x319.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Explore NetXMS, an enterprise-grade, open-source network monitoring and management solution with advanced features such as customized data visualization, comprehensive monitoring, and automation capabilities.
+NetXMS: Open-source network monitoring and management first appeared on 4sysops.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Blog - Praetorian</button>
+                  <a class="source-heading__link" href="https://www.praetorian.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.praetorian.com/?p&#x3D;4736"
+                        open
+                      >
+                        <summary class="article-expander__title">Announcing Gato Version 1.5!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.praetorian.com/blog/gato-update-version-1-5/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.praetorian.com/wp-content/uploads/2023/01/Graphic-Gato-Cat.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>On January 21, 2023 at ShmooCon 2023, Praetorian open-sourced Gato (Github Attack Toolkit), a first of its kind tool that focuses on abusing offensive TTPs targeting self-hosted GitHub Actions Runners. Since then, Praetorian and other offensive security practitioners across the information security community have leveraged Gato for so much more than just self-hosted runner attacks. […]
+The post Announcing Gato Version 1.5! appeared first on Praetorian.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-26 datetime="2023-06-26T21:03:00.000Z">2023-06-26</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-26 datetime="2023-06-26T21:03:00.000Z"></time>
           </button>
@@ -3380,89 +3498,6 @@ Understanding Kubernetes Persistent Volumes first appeared on 4sysops.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >research.securitum.com</button>
-                  <a class="source-heading__link" href="https://research.securitum.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.securitum.com/?p&#x3D;1966"
-                        open
-                      >
-                        <summary class="article-expander__title">XSS in WordPress via open embed auto discovery</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.securitum.com/xss-in-wordpress-via-open-embed-auto-discovery/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Introduction Users often assume that known software is free of security flaws because it has been checked by a sufficient number of tools and security testers. However, this is not an assumption that a pentester or bug hunter can afford to make. Vulnerabilities may lurk in various places, and finding an interesting bug often requires ...
-The post XSS in WordPress via open embed auto discovery appeared first on research.securitum.com.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-28 datetime="2023-05-28T19:00:02.000Z">2023-05-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-28 datetime="2023-05-28T19:00:02.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Embrace The Red</button>
-                  <a class="source-heading__link" href="https://embracethered.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./"
-                        open
-                      >
-                        <summary class="article-expander__title">ChatGPT Plugin Exploit Explained: From Prompt Injection to Accessing Private Data</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>If you are building ChatGPT plugins, LLM agents, tools or integrations this is a must read. This post explains how the first exploitable Cross Plugin Request Forgery was found in the wild and the fix which was applied.
-Indirect Prompt Injections Are Now A Reality With plugins Indirect Prompt Injections are now a reality in the ChatGPT ecosystem.
-The real-world examples and demos provided by others and myself to raise awarness about this increasing problem have been mostly amusing and harmless, like making Bing Chat speak like a pirate, make ChatGPT add jokes at the end or having it do a Rickroll when reading YouTube transcripts.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -3663,8 +3698,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/5384510621">
-        <time id="build-timestamp" datetime="2023-06-27T00:46:46.442Z">2023-06-27T00:46:46.442Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/5396008740">
+        <time id="build-timestamp" datetime="2023-06-28T00:47:46.907Z">2023-06-28T00:47:46.907Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

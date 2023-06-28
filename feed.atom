@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-27T00:46:46.468Z</updated>
+    <updated>2023-06-28T00:47:46.948Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How-to: Reversing and debugging ISAPI modules]]></title>
+        <id>https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules</id>
+        <link href="https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules"/>
+        <updated>2023-06-27T16:14:05.000Z</updated>
+        <summary type="html"><![CDATA[Recently, I had the privilege to write a detailed analysis of CVE-2023-34362, which is series of several vulnerabilities in the MOVEit file transfer application that lead to remote code execution. One of the several vulnerabilities involved an ISAPI module - specifically, the MoveITISAPI.dll ISAPI extension. One of the many vulnerabilities that comprised the MOVEit RCE was a header-injection issue, where the ISAPI application parsed headers differently than the .net application. This point is going to dig into how to analyze and reverse engineer an ISAPI-based service! This wasn’t the first time in the recent past I’d had to work on something written as an ISAPI module, and each time I feel like I have to start over and remember how it’s supposed to work. This time, I thought I’d combine my hastily-scrawled notes with some Googling, and try to write something that I (and others) can use in the future. As such, this will be a quick intro to ISAPI applications from the angle that matters to me - how to reverse engineer and debug them! I want to preface this with: I’m not a Windows developer, and I’ve never run an IIS server on purpose. That means that I am approaching this with brute-force ignorance! I don’t have a lot of background context nor do I know the correct terminology for a lot of this stuff. Instead, I’m going to treat these are typical DLLs from typical applications, and approach them as such.]]></summary>
+        <author>
+            <name>SkullSecurity Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NetXMS: Open-source network monitoring and management]]></title>
+        <id>https://4sysops.com/?p=1572267</id>
+        <link href="https://4sysops.com/archives/netxms-open-source-network-monitoring-and-management/"/>
+        <updated>2023-06-27T14:56:53.000Z</updated>
+        <summary type="html"><![CDATA[Explore NetXMS, an enterprise-grade, open-source network monitoring and management solution with advanced features such as customized data visualization, comprehensive monitoring, and automation capabilities.
+NetXMS: Open-source network monitoring and management first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Gato Version 1.5!]]></title>
+        <id>https://www.praetorian.com/?p=4736</id>
+        <link href="https://www.praetorian.com/blog/gato-update-version-1-5/"/>
+        <updated>2023-06-27T13:03:35.000Z</updated>
+        <summary type="html"><![CDATA[On January 21, 2023 at ShmooCon 2023, Praetorian open-sourced Gato (Github Attack Toolkit), a first of its kind tool that focuses on abusing offensive TTPs targeting self-hosted GitHub Actions Runners. Since then, Praetorian and other offensive security practitioners across the information security community have leveraged Gato for so much more than just self-hosted runner attacks. […]
+The post Announcing Gato Version 1.5! appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Emmaline</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Location-based printing for Active Directory sites]]></title>
         <id>https://4sysops.com/?p=1572251</id>
@@ -981,29 +1013,6 @@ Dacpac and Bacpac in SQL Server first appeared on 4sysops.]]></summary>
 Understanding Kubernetes Persistent Volumes first appeared on 4sysops.]]></summary>
         <author>
             <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[XSS in WordPress via open embed auto discovery]]></title>
-        <id>https://research.securitum.com/?p=1966</id>
-        <link href="https://research.securitum.com/xss-in-wordpress-via-open-embed-auto-discovery/"/>
-        <updated>2023-05-29T10:28:50.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Users often assume that known software is free of security flaws because it has been checked by a sufficient number of tools and security testers. However, this is not an assumption that a pentester or bug hunter can afford to make. Vulnerabilities may lurk in various places, and finding an interesting bug often requires ...
-The post XSS in WordPress via open embed auto discovery appeared first on research.securitum.com.]]></summary>
-        <author>
-            <name>miwn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT Plugin Exploit Explained: From Prompt Injection to Accessing Private Data]]></title>
-        <id>https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./</id>
-        <link href="https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection./"/>
-        <updated>2023-05-28T19:00:02.000Z</updated>
-        <summary type="html"><![CDATA[If you are building ChatGPT plugins, LLM agents, tools or integrations this is a must read. This post explains how the first exploitable Cross Plugin Request Forgery was found in the wild and the fix which was applied.
-Indirect Prompt Injections Are Now A Reality With plugins Indirect Prompt Injections are now a reality in the ChatGPT ecosystem.
-The real-world examples and demos provided by others and myself to raise awarness about this increasing problem have been mostly amusing and harmless, like making Bing Chat speak like a pirate, make ChatGPT add jokes at the end or having it do a Rickroll when reading YouTube transcripts.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
