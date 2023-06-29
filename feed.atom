@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-28T00:47:46.948Z</updated>
+    <updated>2023-06-29T00:47:17.977Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Avoid BitLocker recovery mode by customizing the TPM validation profile]]></title>
+        <id>https://4sysops.com/?p=1572279</id>
+        <link href="https://4sysops.com/archives/avoid-bitlocker-recovery-mode-by-customizing-the-tpm-validation-profile/"/>
+        <updated>2023-06-28T16:26:43.000Z</updated>
+        <summary type="html"><![CDATA[On startup, BitLocker ensures that the configuration of a PC has not changed since encryption began. For this purpose, it stores several system parameters in the TPM's PCR. If the PC configuration cannot be validated, BitLocker will activate Recovery Mode. By adjusting the validation profile, you can avoid this behavior.
+Avoid BitLocker recovery mode by customizing the TPM validation profile first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sowing Chaos and Reaping Rewards in Confluence and Jira]]></title>
+        <id>https://medium.com/p/7a90ba33bf62</id>
+        <link href="https://posts.specterops.io/sowing-chaos-and-reaping-rewards-in-confluence-and-jira-7a90ba33bf62?source=rss----f05f8696e3cc---4"/>
+        <updated>2023-06-28T14:43:13.000Z</updated>
+        <summary type="html"><![CDATA[Introducing AtlasReaper]]></summary>
+        <author>
+            <name>Craig Wright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-26258 – Remote Code Execution in ArcServe UDP Backup]]></title>
+        <id>https://www.mdsec.co.uk/?p=3253</id>
+        <link href="https://www.mdsec.co.uk/2023/06/cve-2023-26258-remote-code-execution-in-arcserve-udp-backup/"/>
+        <updated>2023-06-28T13:54:56.000Z</updated>
+        <summary type="html"><![CDATA[Overview During a recent adversary simulation, the MDSec ActiveBreach red team were performing a ransomware scenario, with a key objective set on compromising the organisation’s backup infrastructure. As part of...
+The post CVE-2023-26258 – Remote Code Execution in ArcServe UDP Backup appeared first on MDSec.]]></summary>
+        <author>
+            <name>Admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Basta Ransomware]]></title>
+        <id>https://www.pentestpartners.com/?p=27235</id>
+        <link href="https://www.pentestpartners.com/security-blog/black-basta-ransomware/"/>
+        <updated>2023-06-28T05:11:34.000Z</updated>
+        <summary type="html"><![CDATA[What is Black Basta Ransomware? Black Basta is a threat group that provides ransomware-as-a-service (RaaS). The service is maintained by dedicated developers and is a highly efficient and professionally run […]
+Black Basta Ransomware first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Adam Harwood</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Workspace Log Extraction]]></title>
+        <id>https://www.sans.org/blog/google-workspace-log-extraction</id>
+        <link href="https://www.sans.org/blog/google-workspace-log-extraction?msc=rss"/>
+        <updated>2023-06-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we reviewed the methods through which we can extract logs from Google Workspace. One option is to query the logs in the Admin Console, although there are several limitations that result in this not being the most ideal method. The best option to obtain the most thorough and easily parsable data is to use the Reports API in the Admin SDK. We also mentioned the use of forwarding logs to Google Cloud for a subset of audit logs to be available via Google Cloud Logging. In the last two blog posts in this series, we’ll look at how to extract logs from Microsoft 365 and Azure.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How-to: Reversing and debugging ISAPI modules]]></title>
         <id>https://www.skullsecurity.org/2023/how-to-reversing-and-debugging-isapi-modules</id>
@@ -982,37 +1035,6 @@ SCP from remote to local first appeared on 4sysops.]]></summary>
 Dacpac and Bacpac in SQL Server first appeared on 4sysops.]]></summary>
         <author>
             <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transforming search sentences to query Elastic SIEM with OpenAI API]]></title>
-        <id>https://blog.nviso.eu/?p=15635</id>
-        <link href="https://blog.nviso.eu/2023/05/30/transforming-search-sentences-to-query-elastic-siem-with-openai-api/"/>
-        <updated>2023-05-30T09:48:53.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we will explore how a powerful language model by OpenAI can automate the last step and bridge the gap between human language questions and SIEM query language.]]></summary>
-        <author>
-            <name>Nikolaos Samartzopoulos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Advisory – Multiple Vulnerabilities in Faronics Insight (CVE-2023-28344, CVE-2023-28345, CVE-2023-28346, CVE-2023-28347, CVE-2023-28348, CVE-2023-28349, CVE-2023-28350, CVE-2023-28351, CVE-2023-28352, CVE-2023-28353)]]></title>
-        <id>https://ncc-blog.pixelpreview.net/?p=26768</id>
-        <link href="https://research.nccgroup.com/2023/05/30/technical-advisory-multiple-vulnerabilities-in-faronics-insight/"/>
-        <updated>2023-05-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Faronics Insight is a feature rich software platform which is deployed on premises in schools. The application enables teachers to administer, control and interact with student devices. The application contains numerous features, including allowing teachers to transfer files to/from students and remotely viewing the contents of student screens. Generally speaking, the architecture of the […]]]></summary>
-        <author>
-            <name>Oliver Brooks</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Kubernetes Persistent Volumes]]></title>
-        <id>https://4sysops.com/?p=1571817</id>
-        <link href="https://4sysops.com/archives/understanding-kubernetes-persistent-volumes/"/>
-        <updated>2023-05-29T16:10:40.000Z</updated>
-        <summary type="html"><![CDATA[Persistent volumes allow administrators to configure persistent data locations for stateful applications. They allow containerized applications to store data beyond the lifecycle of individual containers or pods. This makes it possible to retain data even after a pod restart or update. With Kubernetes, persistent volumes are storage locations provisioned by an administrator or dynamically created using StorageClasses.
-Understanding Kubernetes Persistent Volumes first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>
