@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-29T00:47:17.977Z</updated>
+    <updated>2023-06-30T00:44:21.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-20864: Remote Code Execution in VMware Aria Operations for Logs]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:649da382cfd37f6cffd4d25c</id>
+        <link href="https://www.thezdi.com/blog/2023/6/29/cve-2023-20864-remote-code-execution-in-vmware-aria-operations-for-logs"/>
+        <updated>2023-06-29T15:58:49.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Jonathan Lein and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in VMware Aria Operations for Logs (formerly vRealize). This bug was originally submitted to the ZDI program by an anonymous researcher. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root. Similar bugs are reported as being exploited in the wild. The following is a portion of their write-up covering CVE-2023-24941, with a few minimal modifications.
+An insecure deserialization vulnerability has been reported in VMware …]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes guide: Create a Kubernetes deployment]]></title>
+        <id>https://4sysops.com/?p=1572298</id>
+        <link href="https://4sysops.com/archives/kubernetes-guide-create-a-kubernetes-deployment/"/>
+        <updated>2023-06-29T15:24:01.000Z</updated>
+        <summary type="html"><![CDATA[In a previous post of this Kubernetes guide, I discussed how to create a Pod in Kubernetes using imperative and declarative configurations. In this post, you will learn how to create a Deployment in Kubernetes. In Kubernetes, a Deployment is a resource object that defines how your application is deployed and managed in a cluster. You just need to define the desired number of instances (a.k.a. replicas) of your application, the container image, resource requirements, and other options in a configuration file, and Kubernetes takes care of deploying and managing the application.
+Kubernetes guide: Create a Kubernetes deployment first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anti-Scraping Part 1: Core Principles to Deter Scraping]]></title>
+        <id>https://www.netspi.com/?p=30458</id>
+        <link href="https://www.netspi.com/blog/technical/adversary-simulation/anti-scraping-part-1/"/>
+        <updated>2023-06-29T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Part one of our anti-scraping series covers five core anti-scraping principles and how they stack up against a fake message board.
+The post Anti-Scraping Part 1: Core Principles to Deter Scraping  appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Noah Dunn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Public Report – Zcash Zebra Security Assessment]]></title>
+        <id>https://research.nccgroup.com/?p=31786</id>
+        <link href="https://research.nccgroup.com/2023/06/29/public-report-zcash-zebra-security-assessment/"/>
+        <updated>2023-06-29T13:06:20.000Z</updated>
+        <summary type="html"><![CDATA[In Spring 2023, the Zcash Foundation engaged NCC Group to conduct a security assessment of the Zebrad application. Zebrad is a network client that participates in the Zcash consensus mechanism by validating blocks, maintaining the blockchain state (best chain and viable non-finalized chains), and gossiping blocks, transactions, and peer addresses. Five consultants performed the review, […]]]></summary>
+        <author>
+            <name>Parnian Alimi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BChecks: Houston, we have a solution!]]></title>
+        <id>bchecks-houston-we-have-a-solution</id>
+        <link href="https://portswigger.net/blog/bchecks-houston-we-have-a-solution"/>
+        <updated>2023-06-29T12:46:10.000Z</updated>
+        <summary type="html"><![CDATA[Scripted scan checks in Burp Suite Professional are now a thing ...  tl;dr Burp Suite Professional now has a powerful yet simple scripting language that allows you to quickly build on our world c]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Avoid BitLocker recovery mode by customizing the TPM validation profile]]></title>
         <id>https://4sysops.com/?p=1572279</id>
@@ -1005,36 +1058,6 @@ SCP from remote to local first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[Learn how to customize radare2 with user-defined aliases, macros and functions for faster and easier binary diffing and analysis.]]></summary>
         <author>
             <name>Phil Stokes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse Engineering Coin Hunt World’s Binary Protocol]]></title>
-        <id>https://ncc-blog.pixelpreview.net/?p=26621</id>
-        <link href="https://research.nccgroup.com/2023/05/31/reverse-engineering-coin-hunt-worlds-binary-protocol/"/>
-        <updated>2023-05-31T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction We are going to walk through the process we took to reverse engineer parts of the Android game Coin Hunt World. Our goal was to identify methods and develop tooling to cheat at the game. Most of the post covers reverse engineering the game’s binary protocol and using that knowledge to create tooling for […]]]></summary>
-        <author>
-            <name>qkchambers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Year In HackerOne’s Bug Bounty Program]]></title>
-        <id>https://hackerone.com/year-hackerones-bug-bounty-program</id>
-        <link href="https://www.hackerone.com/year-hackerones-bug-bounty-program"/>
-        <updated>2023-05-30T22:00:00.000Z</updated>
-        <author>
-            <name>Rafael de Carvalho</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dacpac and Bacpac in SQL Server]]></title>
-        <id>https://4sysops.com/?p=1571897</id>
-        <link href="https://4sysops.com/archives/dacpac-and-bacpac-in-sql-server/"/>
-        <updated>2023-05-30T16:38:28.000Z</updated>
-        <summary type="html"><![CDATA[When it comes to migrating a SQL Server database from one environment to another, admins tend to rely heavily on native SQL backup (BAK) files. It works, but also has a lot of problems. For instance, a BAK file created by a new version of SQL Server cannot be imported directly to a previous SQL Server version. Furthermore, the native backup (BAK) file contains the complete database (including all user data), so it poses a data privacy risk when you want to replicate a production database in a development environment. The Dacpac and Bacpac packages are an answer to the above problems.
-Dacpac and Bacpac in SQL Server first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
         </author>
     </entry>
     <entry>
