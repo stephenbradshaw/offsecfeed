@@ -596,16 +596,6 @@
           "wordCount": 1200,
           "title": "Logistics for a Remote Company",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com//2023/06/01/r2pickledec.html",
-          "author": null,
-          "description": "R2pickledec is the first pickle decompiler to support all instructions up to\nprotocol 5 (the current). In this post we will go over what Python pickles are,\nhow they work and how to reverse them with Radare2 and r2pickledec. An upcoming\nblog post will go even deeper into pickles and share some advanced obfuscation\ntechniques.\nWhat are pickles?\nPickles are the built-in serialization algorithm in Python. They can turn any\nPython object into a byte stream so it may be stored on disk or sent over a\nnetwork. Pickles are notoriously dangerous. You should never unpickle data\nfrom an untrusted source. Doing so will likely result in remote code execution.\nPlease refer to the documentation for more\ndetails.\nPickle Basics\nPickles are implemented as a very simple assembly language. There are only 68\ni…",
-          "link": "https://blog.doyensec.com//2023/06/01/r2pickledec.html",
-          "publishedOn": "2023-05-31T22:00:00.000Z",
-          "wordCount": 2399,
-          "title": "Reversing Pickles with r2pickledec",
-          "imageUrl": null
         }
       ]
     },
@@ -675,7 +665,18 @@
       "title": "Sean Heelan's Blog",
       "feedUrl": "https://sean.heelan.io/feed/",
       "siteUrl": "https://sean.heelan.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://sean.heelan.io/?p=2876",
+          "author": "seanhn",
+          "description": "A few months back I wrote a blog post where I mentioned that the least-effort/highest reward approach to application optimisation is to deploy a whole-system profiler across your clusters, look at the most expensive libraries & processes, and then search Google for faster, equivalent replacements. At Optimyze/Elastic we have had customers of our whole-system profiler […]",
+          "link": "https://sean.heelan.io/2023/06/30/application-optimisation-with-llms-finding-faster-equivalent-software-libraries/",
+          "publishedOn": "2023-06-30T11:33:27.000Z",
+          "wordCount": 3032,
+          "title": "Application optimisation with LLMs: Finding faster, equivalent, software libraries.",
+          "imageUrl": "https://seanhn.files.wordpress.com/2023/06/screenshot-2023-06-30-at-11.57.01.png"
+        }
+      ]
     },
     {
       "title": "Exodus Intelligence",
@@ -760,6 +761,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1572318",
+          "author": "Wolfgang Sommergut",
+          "description": "The built-in tools for activating BitLocker do not provide a comprehensive report on the encryption status of the entire environment. Inactive BitLocker protection can be identified using the manage-bcd utility and PowerShell. The options for obtaining BitLocker status information through the GUI are severely limited.\nCheck the BitLocker status of all PCs in the network first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/check-the-bitlocker-status-of-all-pcs-in-the-network/",
+          "publishedOn": "2023-06-30T16:04:40.000Z",
+          "wordCount": 3853,
+          "title": "Check the BitLocker status of all PCs in the network",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Retrieving-BitLocker-status-information-from-a-remote-PC-using-manage-bde-600x395.png"
+        },
         {
           "id": "https://4sysops.com/?p=1572298",
           "author": "Surender Kumar",
@@ -969,16 +980,6 @@
           "wordCount": 4241,
           "title": "Join Windows 11 to an Active Directory domain",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Join-computers-to-a-domain-using-PowerShell-600x374.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1571910",
-          "author": "Brandon Lee",
-          "description": "The Secure Copy Protocol (SCP) command is a widely used command line utility that enables users to securely copy files and directories between two systems over a secure shell (SSH) connection. Let's look at copying files and entire directories with SCP from remote to local systems.\nSCP from remote to local first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/scp-from-remote-to-local/",
-          "publishedOn": "2023-05-31T14:52:00.000Z",
-          "wordCount": 4273,
-          "title": "SCP from remote to local",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/05/Viewing-the-SCP-options-in-WSL-600x320.png"
         }
       ]
     },
@@ -1105,6 +1106,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/cybersecurity-jobs-application-pen-tester-ja",
+          "author": null,
+          "description": "アプリケーションペンテスターの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！",
+          "link": "https://www.sans.org/blog/cybersecurity-jobs-application-pen-tester-ja?msc=rss",
+          "publishedOn": "2023-06-30T00:00:00.000Z",
+          "wordCount": 2264,
+          "title": "Cybersecurity Jobs: Application Pen Tester (Japanese)",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/google-workspace-log-extraction",
           "author": null,
           "description": "In this blog post, we reviewed the methods through which we can extract logs from Google Workspace. One option is to query the logs in the Admin Console, although there are several limitations that result in this not being the most ideal method. The best option to obtain the most thorough and easily parsable data is to use the Reports API in the Admin SDK. We also mentioned the use of forwarding logs to Google Cloud for a subset of audit logs to be available via Google Cloud Logging. In the last two blog posts in this series, we’ll look at how to extract logs from Microsoft 365 and Azure.",
@@ -1182,26 +1193,6 @@
           "publishedOn": "2023-06-02T00:00:00.000Z",
           "wordCount": 2362,
           "title": "Cybersecurity Jobs: Cloud Security Analyst (Japanese)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-cybersecurity-summit-2023",
-          "author": null,
-          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS AI Cybersecurity Summit 2023",
-          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-cybersecurity-summit-2023?msc=rss",
-          "publishedOn": "2023-06-01T00:00:00.000Z",
-          "wordCount": 2589,
-          "title": "A Visual Summary of SANS AI Cybersecurity Summit 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/women-in-cybersecurity-wicys-joins-forces-with-sans-security-awareness",
-          "author": null,
-          "description": "Guest editors from WiCyS will be producing the monthly OUCH! Newsletter.",
-          "link": "https://www.sans.org/blog/women-in-cybersecurity-wicys-joins-forces-with-sans-security-awareness?msc=rss",
-          "publishedOn": "2023-06-01T00:00:00.000Z",
-          "wordCount": 2739,
-          "title": "Women in Cybersecurity (WiCyS) Joins Forces with SANS Security Awareness",
           "imageUrl": null
         }
       ]
@@ -1361,21 +1352,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/06/Kimsuky-Strikes-Again-New-Social-Engineering-Campaign-Aims-to-Steal-Credentials-and-Gather-Strategic-Intelligence-5.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=81120",
-          "author": "Phil Stokes",
-          "description": "Learn how to customize radare2 with user-defined aliases, macros and functions for faster and easier binary diffing and analysis.",
-          "link": "https://www.sentinelone.com/labs/radare2-power-ups-delivering-faster-macos-malware-analysis-with-r2-customization/",
-          "publishedOn": "2023-05-31T13:55:31.000Z",
-          "wordCount": 4795,
-          "title": "Radare2 Power Ups | Delivering Faster macOS Malware Analysis With r2 Customization",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/05/Radare2-Power-Ups-Delivering-Faster-macOS-Malware-Analysis-With-r2-Customization-5.jpg",
-            "length": "496907",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/05/Radare2-Power-Ups-Delivering-Faster-macOS-Malware-Analysis-With-r2-Customization-5.jpg"
         }
       ]
     },
@@ -1390,6 +1366,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/cve-2023-27997-exploitable-and-fortigate-firewalls-vulnerable",
+          "author": "Caleb Gross",
+          "description": "Check out latest analysis for CVE-2023-27997, a heap overflow in FortiOS, the the operating system behind FortiGate firewalls, that allows remote code execution.",
+          "link": "https://bishopfox.com/blog/cve-2023-27997-exploitable-and-fortigate-firewalls-vulnerable",
+          "publishedOn": "2023-06-30T17:00:00.000Z",
+          "wordCount": 2174,
+          "title": "CVE-2023-27997 Is Exploitable, and 69% of FortiGate Firewalls Are Vulnerable",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/2023Q2_DIGITAL_Blog_WTV_CVE-2023-27997-Part2-OG.jpg?mtime=1688152602"
+        },
         {
           "id": "https://bishopfox.com/blog/cve-2023-27997-vulnerability-scanner-fortigate",
           "author": "Caleb Gross",
