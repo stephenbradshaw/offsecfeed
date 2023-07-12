@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/21f3e01790d3",
+          "author": "Steven F",
+          "description": "",
+          "link": "https://posts.specterops.io/performance-diagnostics-and-wmi-21f3e01790d3?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2023-07-11T18:11:40.000Z",
+          "wordCount": null,
+          "title": "Performance, Diagnostics, and WMI",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/7a90ba33bf62",
           "author": "Craig Wright",
           "description": "Introducing AtlasReaper",
@@ -95,6 +105,16 @@
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
       "articles": [
+        {
+          "id": "exploiting-xss-in-hidden-inputs-and-meta-tags",
+          "author": null,
+          "description": "In this post we are going to show how you can (ab)use the new HTML popup functionality in Chrome to exploit XSS in meta tags and hidden inputs. It all started when I noticed the new popover behaviour",
+          "link": "https://portswigger.net/research/exploiting-xss-in-hidden-inputs-and-meta-tags",
+          "publishedOn": "2023-07-11T13:00:00.000Z",
+          "wordCount": 1248,
+          "title": "Exploiting XSS in hidden inputs and meta tags",
+          "imageUrl": "https://portswigger.net/cms/images/30/93/d0c6-twittercard-xss_in_hidden_inputs_and_meta_tags_twitter.png"
+        },
         {
           "id": "how-i-choose-a-security-research-topic",
           "author": null,
@@ -277,6 +297,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64ac6669b2d6573db3ef1636",
+          "author": "Dustin Childs",
+          "description": "It’s the second Tuesday of the month, which means Adobe and Microsoft have released their latest security patches. Take a break from your regularly scheduled activities and join us as we review the details of their latest advisories. If you’d rather watch the video recap, you can check it out here.\nApple Patches for July 2023\nApple doesn’t conform to “Patch Tuesday,” but they started things off yesterday with an emergency patch for macOS, iOS, and iPadOS. The bug in Webkit is labeled as CVE-2023-34750. Apple notes the vulnerability has been reported to be under active attack. Apple terms these emergency patches as “Rapid Security Response (RSR)” and reserves them for the most critical components where exploitation has been detected in the wild. Apple also notes this update is causing probl…",
+          "link": "https://www.thezdi.com/blog/2023/7/10/the-july-2023-security-update-review",
+          "publishedOn": "2023-07-11T17:30:06.000Z",
+          "wordCount": null,
+          "title": "The July 2023 Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:649da382cfd37f6cffd4d25c",
           "author": "Dustin Childs",
           "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Jonathan Lein and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in VMware Aria Operations for Logs (formerly vRealize). This bug was originally submitted to the ZDI program by an anonymous researcher. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root. Similar bugs are reported as being exploited in the wild. The following is a portion of their write-up covering CVE-2023-24941, with a few minimal modifications.\nAn insecure deserialization vulnerability has been reported in VMware …",
@@ -357,6 +388,16 @@
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/06/eprom.jpg?fit=750%2C715&ssl=1"
         },
         {
+          "id": "https://research.nccgroup.com/?p=31823",
+          "author": "Rich Warren",
+          "description": "Description The NSIS uninstaller package did not enforce appropriate permissions on the temporary directory used during the uninstall process. Furthermore, it did not ensure that the temporary directory was removed before running executable content from it. This could potentially result in privilege escalation under certain scenarios. Impact A low-privileged, local attacker could exploit this vulnerability […]",
+          "link": "https://research.nccgroup.com/2023/07/03/technical-advisory-nullsoft-scriptable-installer-system-nsis-insecure-temporary-directory-usage/",
+          "publishedOn": "2023-07-03T13:04:38.000Z",
+          "wordCount": 20129,
+          "title": "Technical Advisory – Nullsoft Scriptable Installer System (NSIS) – Insecure Temporary Directory Usage",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/07/image-8.png"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=31786",
           "author": "Parnian Alimi",
           "description": "In Spring 2023, the Zcash Foundation engaged NCC Group to conduct a security assessment of the Zebrad application. Zebrad is a network client that participates in the Zcash consensus mechanism by validating blocks, maintaining the blockchain state (best chain and viable non-finalized chains), and gossiping blocks, transactions, and peer addresses. Five consultants performed the review, […]",
@@ -410,16 +451,6 @@
           "wordCount": 19438,
           "title": "Dynamic Linq Injection Remote Code Execution Vulnerability (CVE-2023-32571)",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=31070",
-          "author": "Alex Zaviyalov",
-          "description": "Overview This article explains how to write a custom ROP (Return Oriented Programming) chain to bypass Data Execution Prevention (DEP) on a Windows 10 system. DEP makes certain parts of memory (e.g., the stack) used by an application non-executable. This means that overwriting EIP with a “JMP ESP” (or similar) instruction and then freely executing […]",
-          "link": "https://research.nccgroup.com/2023/06/12/defeating-windows-dep-with-a-custom-rop-chain/",
-          "publishedOn": "2023-06-12T09:00:00.000Z",
-          "wordCount": 26310,
-          "title": "Defeating Windows DEP With A Custom ROP Chain",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/05/1.png"
         }
       ]
     },
@@ -679,6 +710,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1572491",
+          "author": "Mohammed Kaif Joey",
+          "description": "Windows Local Administrator Password Solution (Windows LAPS) is a built-in Windows feature that enables the management and rotation of local administrator passwords on Windows devices. On April 21, 2023, Microsoft released a public preview of Windows LAPS that supports Azure AD.\nEnable Windows LAPS with Azure AD first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/enable-windows-laps-with-azure-ad/",
+          "publishedOn": "2023-07-11T20:38:40.000Z",
+          "wordCount": 4863,
+          "title": "Enable Windows LAPS with Azure AD",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Enabling-LAPS-in-Azure-AD-600x363.png"
+        },
         {
           "id": "https://4sysops.com/?p=1572431",
           "author": "Wolfgang Sommergut",
@@ -955,16 +996,6 @@
           "wordCount": 2240,
           "title": "Black Basta Ransomware",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=27199",
-          "author": "Alex Lomas",
-          "description": "WhosHere Plus is a dating app that uses GPS data to recommend users near to each other, based on similar interests. PTP constantly researches the state of privacy and security […]\nWhosHere Plus. Trilateration vulnerability first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/whoshere-plus-trilateration-vulnerability/",
-          "publishedOn": "2023-06-12T05:13:49.000Z",
-          "wordCount": null,
-          "title": "WhosHere Plus. Trilateration vulnerability",
-          "imageUrl": null
         }
       ]
     },
@@ -1072,16 +1103,6 @@
           "wordCount": 2231,
           "title": "Cybersecurity Jobs: Security Awareness Officer (Japanese)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-blue-team-summit-2023",
-          "author": null,
-          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Blue Team Summit 2023",
-          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-blue-team-summit-2023?msc=rss",
-          "publishedOn": "2023-06-12T00:00:00.000Z",
-          "wordCount": null,
-          "title": "A Visual Summary of SANS Blue Team Summit 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -1118,16 +1139,6 @@
           "publishedOn": "2023-06-18T07:01:02.000Z",
           "wordCount": 873,
           "title": "Bing Chat: Data Exfiltration Exploit Explained",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2023/chatgpt-vulns-enter-the-matrix/",
-          "author": null,
-          "description": "To help raise awareness of Indirect Prompt Injections and other related attacks, I put together a little fun mini app that you can invoke with ChatGPT.\nVisit this link with GPT-4 and Browsing enabled (see Appendix, if you don’t know what that means):\nhttps://wuzzi.net/matrix The website will hijack ChatGPT via an indirect prompt injection and then allow you to enter the matrix, if you decide to do so.\n\nNote: You can’t browse to the URL, it will only respond to ChatGPT.",
-          "link": "https://embracethered.com/blog/posts/2023/chatgpt-vulns-enter-the-matrix/",
-          "publishedOn": "2023-06-11T15:49:21.000Z",
-          "wordCount": null,
-          "title": "Exploit ChatGPT and Enter the Matrix to Learn about AI Security",
           "imageUrl": null
         }
       ]

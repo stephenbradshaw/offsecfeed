@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-11T00:42:24.085Z</updated>
+    <updated>2023-07-12T00:48:48.174Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Enable Windows LAPS with Azure AD]]></title>
+        <id>https://4sysops.com/?p=1572491</id>
+        <link href="https://4sysops.com/archives/enable-windows-laps-with-azure-ad/"/>
+        <updated>2023-07-11T20:38:40.000Z</updated>
+        <summary type="html"><![CDATA[Windows Local Administrator Password Solution (Windows LAPS) is a built-in Windows feature that enables the management and rotation of local administrator passwords on Windows devices. On April 21, 2023, Microsoft released a public preview of Windows LAPS that supports Azure AD.
+Enable Windows LAPS with Azure AD first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Mohammed Kaif Joey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance, Diagnostics, and WMI]]></title>
+        <id>https://medium.com/p/21f3e01790d3</id>
+        <link href="https://posts.specterops.io/performance-diagnostics-and-wmi-21f3e01790d3?source=rss----f05f8696e3cc---4"/>
+        <updated>2023-07-11T18:11:40.000Z</updated>
+        <author>
+            <name>Steven F</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The July 2023 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64ac6669b2d6573db3ef1636</id>
+        <link href="https://www.thezdi.com/blog/2023/7/10/the-july-2023-security-update-review"/>
+        <updated>2023-07-11T17:30:06.000Z</updated>
+        <summary type="html"><![CDATA[It’s the second Tuesday of the month, which means Adobe and Microsoft have released their latest security patches. Take a break from your regularly scheduled activities and join us as we review the details of their latest advisories. If you’d rather watch the video recap, you can check it out here.
+Apple Patches for July 2023
+Apple doesn’t conform to “Patch Tuesday,” but they started things off yesterday with an emergency patch for macOS, iOS, and iPadOS. The bug in Webkit is labeled as CVE-2023-34750. Apple notes the vulnerability has been reported to be under active attack. Apple terms these emergency patches as “Rapid Security Response (RSR)” and reserves them for the most critical components where exploitation has been detected in the wild. Apple also notes this update is causing probl…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting XSS in hidden inputs and meta tags]]></title>
+        <id>exploiting-xss-in-hidden-inputs-and-meta-tags</id>
+        <link href="https://portswigger.net/research/exploiting-xss-in-hidden-inputs-and-meta-tags"/>
+        <updated>2023-07-11T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post we are going to show how you can (ab)use the new HTML popup functionality in Chrome to exploit XSS in meta tags and hidden inputs. It all started when I noticed the new popover behaviour]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Skip welcome page in Chrome, Edge and Firefox using Group Policy]]></title>
         <id>https://4sysops.com/?p=1572431</id>
@@ -202,6 +244,16 @@ Demote a domain controller step by step first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[Want to create customized scans without the hassle of learning advanced programming? Burp Suite's got you covered. Scripted scan checks - or BChecks - are now a full reality with the 2023.6 release of]]></summary>
         <author>
             <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technical Advisory – Nullsoft Scriptable Installer System (NSIS) – Insecure Temporary Directory Usage]]></title>
+        <id>https://research.nccgroup.com/?p=31823</id>
+        <link href="https://research.nccgroup.com/2023/07/03/technical-advisory-nullsoft-scriptable-installer-system-nsis-insecure-temporary-directory-usage/"/>
+        <updated>2023-07-03T13:04:38.000Z</updated>
+        <summary type="html"><![CDATA[Description The NSIS uninstaller package did not enforce appropriate permissions on the temporary directory used during the uninstall process. Furthermore, it did not ensure that the temporary directory was removed before running executable content from it. This could potentially result in privilege escalation under certain scenarios. Impact A low-privileged, local attacker could exploit this vulnerability […]]]></summary>
+        <author>
+            <name>Rich Warren</name>
         </author>
     </entry>
     <entry>
@@ -884,51 +936,6 @@ Harbor: A trusted cloud native registry for Kubernetes and Docker first appeared
         <updated>2023-06-12T14:01:04.000Z</updated>
         <author>
             <name>Jonathan Johnson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Defeating Windows DEP With A Custom ROP Chain]]></title>
-        <id>https://research.nccgroup.com/?p=31070</id>
-        <link href="https://research.nccgroup.com/2023/06/12/defeating-windows-dep-with-a-custom-rop-chain/"/>
-        <updated>2023-06-12T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Overview This article explains how to write a custom ROP (Return Oriented Programming) chain to bypass Data Execution Prevention (DEP) on a Windows 10 system. DEP makes certain parts of memory (e.g., the stack) used by an application non-executable. This means that overwriting EIP with a “JMP ESP” (or similar) instruction and then freely executing […]]]></summary>
-        <author>
-            <name>Alex Zaviyalov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WhosHere Plus. Trilateration vulnerability]]></title>
-        <id>https://www.pentestpartners.com/?p=27199</id>
-        <link href="https://www.pentestpartners.com/security-blog/whoshere-plus-trilateration-vulnerability/"/>
-        <updated>2023-06-12T05:13:49.000Z</updated>
-        <summary type="html"><![CDATA[WhosHere Plus is a dating app that uses GPS data to recommend users near to each other, based on similar interests. PTP constantly researches the state of privacy and security […]
-WhosHere Plus. Trilateration vulnerability first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Lomas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Visual Summary of SANS Blue Team Summit 2023]]></title>
-        <id>https://www.sans.org/blog/a-visual-summary-of-sans-blue-team-summit-2023</id>
-        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-blue-team-summit-2023?msc=rss"/>
-        <updated>2023-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS Blue Team Summit 2023]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploit ChatGPT and Enter the Matrix to Learn about AI Security]]></title>
-        <id>https://embracethered.com/blog/posts/2023/chatgpt-vulns-enter-the-matrix/</id>
-        <link href="https://embracethered.com/blog/posts/2023/chatgpt-vulns-enter-the-matrix/"/>
-        <updated>2023-06-11T15:49:21.000Z</updated>
-        <summary type="html"><![CDATA[To help raise awareness of Indirect Prompt Injections and other related attacks, I put together a little fun mini app that you can invoke with ChatGPT.
-Visit this link with GPT-4 and Browsing enabled (see Appendix, if you don’t know what that means):
-https://wuzzi.net/matrix The website will hijack ChatGPT via an indirect prompt injection and then allow you to enter the matrix, if you decide to do so.
-
-Note: You can’t browse to the URL, it will only respond to ChatGPT.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
