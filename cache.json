@@ -34,16 +34,6 @@
           "wordCount": 7091,
           "title": "What is Tier Zero — Part 1",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*RDZuRCHdR1jXUkLQBiVwvQ.png"
-        },
-        {
-          "id": "https://medium.com/p/1a97cfcb8fb3",
-          "author": "Jonathan Johnson",
-          "description": "",
-          "link": "https://posts.specterops.io/understanding-telemetry-kernel-callbacks-1a97cfcb8fb3?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-06-12T14:01:04.000Z",
-          "wordCount": null,
-          "title": "Understanding Telemetry: Kernel Callbacks",
-          "imageUrl": null
         }
       ]
     },
@@ -346,7 +336,18 @@
       "title": "research.securitum.com",
       "feedUrl": "https://research.securitum.com/feed/",
       "siteUrl": "https://research.securitum.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://research.securitum.com/?p=2020",
+          "author": "miwn",
+          "description": "In many situations, minor vulnerabilities might seem like small fish in the vast ocean of cybersecurity threats. They’re often marked as low severity and thus, overlooked by developers who assume that the conditions for their exploitation are too complicated to be met. However, in this article, we’re going to challenge that assumption and show you ...\nThe post How Private Cache Can Lead to Mass Account Takeover – pentest case appeared first on research.securitum.com.",
+          "link": "https://research.securitum.com/how-private-cache-can-lead-to-mass-account-takeover-pentest-case/",
+          "publishedOn": "2023-07-12T15:16:14.000Z",
+          "wordCount": 1855,
+          "title": "How Private Cache Can Lead to Mass Account Takeover – pentest case",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Winsider Seminars & Solutions Inc.",
@@ -525,18 +526,7 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com//atom.xml",
-      "articles": [
-        {
-          "id": "https://blog.doyensec.com//2023/06/13/messing-around-with-aws-batch-for-privilege-escalations.html",
-          "author": null,
-          "description": "From The Previous Episode… Have you solved the CloudSecTidbit Ep. 2 IaC lab?\nSolution\nThe challenge for the AWS Cognito CloudSecTidbit is basically escalating the privileges to admin and reading the internal users list.\nThe application uses AWS Cognito to issue a session token saved as a cookie with the name aws-cognito-app-access-token.\nThe JWT is a valid AWS Cognito user token, usable to interact with the service.\nIt is possible to retrieve the current user attributes with the command:\n\naws cognito-idp get-user --region us-east-1 --access-token <USER_ACCESS_TOKEN>\n{\n    \"Username\": \"francesco\",\n    \"UserAttributes\": [\n        {\n            \"Name\": \"sub\",\n            \"Value\": \"5139e6e7-7a37-4e6e-9304-8c32973e4ac0\"\n        },\n        {\n            \"Name\": \"email_verified\",\n            \"Val…",
-          "link": "https://blog.doyensec.com//2023/06/13/messing-around-with-aws-batch-for-privilege-escalations.html",
-          "publishedOn": "2023-06-12T22:00:00.000Z",
-          "wordCount": null,
-          "title": "Messing Around With AWS Batch For Privilege Escalations",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Attack & Defense",
@@ -578,6 +568,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=104646",
+          "author": "Trail of Bits",
+          "description": "Dan Guido, CEO In March, I joined the Commodity Futures Trading Commission’s Technology Advisory Committee (TAC), helping the regulatory agency navigate the complexities of cybersecurity risks, particularly in emerging technologies like AI and blockchain. During the committee’s first meeting, I discussed how the rapidly changing and public nature of blockchain technology makes it uniquely susceptible […]",
+          "link": "https://blog.trailofbits.com/2023/07/12/what-we-told-the-cftc-about-crypto-threats/",
+          "publishedOn": "2023-07-12T11:00:13.000Z",
+          "wordCount": 2288,
+          "title": "What we told the CFTC about blockchain threats",
+          "imageUrl": "http://img.youtube.com/vi/F2abgvXOWYw/0.jpg"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=104543",
           "author": "Trail of Bits",
@@ -710,6 +710,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1572510",
+          "author": "Brandon Lee",
+          "description": "Create Kubernetes clusters using kubeadm with this in-depth guide, exploring essential commands, the process of initializing the control plane, adding worker nodes, and performing lifecycle management.\nkubeadm: Easily create a Kubernetes cluster first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/kubeadm-easily-create-a-kubernetes-cluster/",
+          "publishedOn": "2023-07-12T20:02:41.000Z",
+          "wordCount": 4500,
+          "title": "kubeadm: Easily create a Kubernetes cluster",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Installing-kubeadm-kubelet-kubectl-and-kubernetes-cni-600x239.png"
+        },
         {
           "id": "https://4sysops.com/?p=1572491",
           "author": "Mohammed Kaif Joey",
@@ -919,16 +929,6 @@
           "wordCount": null,
           "title": "Setting up a secure FTP server (FTPS) on Windows",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1572078",
-          "author": "Surender Kumar",
-          "description": "In a previous post, we discussed the private Docker registry setup. Today, you will learn about the Harbor registry, an open-source and enterprise-ready container registry that stores and distributes Open Container Initiative (OCI)-compliant images and artifacts. It can be used with Docker, Kubernetes, Podman, and Tanzu Kubernetes Grid (TKG) to host both private and public container images.\nHarbor: A trusted cloud native registry for Kubernetes and Docker first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/harbor-a-trusted-cloud-native-registry-for-kubernetes-and-docker/",
-          "publishedOn": "2023-06-12T18:42:41.000Z",
-          "wordCount": null,
-          "title": "Harbor: A trusted cloud native registry for Kubernetes and Docker",
-          "imageUrl": null
         }
       ]
     },
@@ -1112,6 +1112,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2023/google-docs-ai-scam/",
+          "author": null,
+          "description": "Google Docs is a popular word processing tool that is used by millions of people around the world. Recently Google added new AI features to Docs (and a couple of other products), such as the ability to generate summaries, and write different kinds of creative content.\nCheck out Google Labs for more info.\nThese features can be very helpful, but they also introduce new security risks.\nAt the moment there are not too many degress of freedom an adversary has, but operating your AI on untrusted data can have unwanted consequences:",
+          "link": "https://embracethered.com/blog/posts/2023/google-docs-ai-scam/",
+          "publishedOn": "2023-07-12T21:30:17.000Z",
+          "wordCount": 520,
+          "title": "Google Docs AI Features: Vulnerabilities and Risks",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2023/chatgpt-chat-with-code-plugin-take-down/",
           "author": null,
           "description": "In the previous post we discussed the risks of OAuth enabled plugins being commonly vulnerable to Cross Plugin Request Forgery and how OpenAI is seemingly not enforcing new plugin store policies. As an example we explored how the “Chat with Code” plugin is vulnerable.\nRecently, a post on Reddit titled “This is scary! Posting stuff by itself” shows how a conversation with ChatGPT, out of the blue (and what appears to be by accident) created a Github Issue!",
@@ -1242,21 +1252,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/06/Automating-String-Decryption-and-Other-Reverse-Engineering-Tasks-in-radare2-With-r2pipe-By-Phil-Stokes-1.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=81511",
-          "author": "LABScon",
-          "description": "Greg Lesnewich explores how to to pursue an apex predator using little more than a local instance of YARA and some publicly available open-source tooling.",
-          "link": "https://www.sentinelone.com/labs/labscon-replay-star-gazing-using-a-full-galaxy-of-yara-methods-to-pursue-an-apex-actor/",
-          "publishedOn": "2023-06-12T14:16:55.000Z",
-          "wordCount": null,
-          "title": "LABScon Replay | Star-Gazing: Using a Full Galaxy of YARA Methods to Pursue an Apex Actor",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/06/Star-Gazing-Using-a-Full-Galaxy-of-YARA-Methods-to-Pursue-an-Apex-Actor.jpg",
-            "length": "450421",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/06/Star-Gazing-Using-a-Full-Galaxy-of-YARA-Methods-to-Pursue-an-Apex-Actor.jpg"
         }
       ]
     },

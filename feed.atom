@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-12T00:48:48.174Z</updated>
+    <updated>2023-07-13T00:48:29.932Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google Docs AI Features: Vulnerabilities and Risks]]></title>
+        <id>https://embracethered.com/blog/posts/2023/google-docs-ai-scam/</id>
+        <link href="https://embracethered.com/blog/posts/2023/google-docs-ai-scam/"/>
+        <updated>2023-07-12T21:30:17.000Z</updated>
+        <summary type="html"><![CDATA[Google Docs is a popular word processing tool that is used by millions of people around the world. Recently Google added new AI features to Docs (and a couple of other products), such as the ability to generate summaries, and write different kinds of creative content.
+Check out Google Labs for more info.
+These features can be very helpful, but they also introduce new security risks.
+At the moment there are not too many degress of freedom an adversary has, but operating your AI on untrusted data can have unwanted consequences:]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kubeadm: Easily create a Kubernetes cluster]]></title>
+        <id>https://4sysops.com/?p=1572510</id>
+        <link href="https://4sysops.com/archives/kubeadm-easily-create-a-kubernetes-cluster/"/>
+        <updated>2023-07-12T20:02:41.000Z</updated>
+        <summary type="html"><![CDATA[Create Kubernetes clusters using kubeadm with this in-depth guide, exploring essential commands, the process of initializing the control plane, adding worker nodes, and performing lifecycle management.
+kubeadm: Easily create a Kubernetes cluster first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Private Cache Can Lead to Mass Account Takeover – pentest case]]></title>
+        <id>https://research.securitum.com/?p=2020</id>
+        <link href="https://research.securitum.com/how-private-cache-can-lead-to-mass-account-takeover-pentest-case/"/>
+        <updated>2023-07-12T15:16:14.000Z</updated>
+        <summary type="html"><![CDATA[In many situations, minor vulnerabilities might seem like small fish in the vast ocean of cybersecurity threats. They’re often marked as low severity and thus, overlooked by developers who assume that the conditions for their exploitation are too complicated to be met. However, in this article, we’re going to challenge that assumption and show you ...
+The post How Private Cache Can Lead to Mass Account Takeover – pentest case appeared first on research.securitum.com.]]></summary>
+        <author>
+            <name>miwn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What we told the CFTC about blockchain threats]]></title>
+        <id>https://blog.trailofbits.com/?p=104646</id>
+        <link href="https://blog.trailofbits.com/2023/07/12/what-we-told-the-cftc-about-crypto-threats/"/>
+        <updated>2023-07-12T11:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Dan Guido, CEO In March, I joined the Commodity Futures Trading Commission’s Technology Advisory Committee (TAC), helping the regulatory agency navigate the complexities of cybersecurity risks, particularly in emerging technologies like AI and blockchain. During the committee’s first meeting, I discussed how the rapidly changing and public nature of blockchain technology makes it uniquely susceptible […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Enable Windows LAPS with Azure AD]]></title>
         <id>https://4sysops.com/?p=1572491</id>
@@ -879,63 +924,6 @@ For June, Adobe released four patches addressing 18 CVEs in Adobe Commerce, Subs
         <summary type="html"><![CDATA[Product Details Name System.Linq.Dynamic.Core Affected versions 1.0.7.10 to 1.2.25 Fixed versions >= 1.3.0 URL https://www.dynamic-linq.net/ Vulnerability Summary CVE CVE-2023-32571 CWE CWE-184: Incomplete List of Disallowed Inputs CVSSv3.1 vector AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N CVSSv3.1 base score 9.1 Overview What is Dynamic Linq? Dynamic Linq is an open source .NET library that allows developers to easily incorporate flexible data filtering […]]]></summary>
         <author>
             <name>Ross Bradley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Messing Around With AWS Batch For Privilege Escalations]]></title>
-        <id>https://blog.doyensec.com//2023/06/13/messing-around-with-aws-batch-for-privilege-escalations.html</id>
-        <link href="https://blog.doyensec.com//2023/06/13/messing-around-with-aws-batch-for-privilege-escalations.html"/>
-        <updated>2023-06-12T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[From The Previous Episode… Have you solved the CloudSecTidbit Ep. 2 IaC lab?
-Solution
-The challenge for the AWS Cognito CloudSecTidbit is basically escalating the privileges to admin and reading the internal users list.
-The application uses AWS Cognito to issue a session token saved as a cookie with the name aws-cognito-app-access-token.
-The JWT is a valid AWS Cognito user token, usable to interact with the service.
-It is possible to retrieve the current user attributes with the command:
-
-aws cognito-idp get-user --region us-east-1 --access-token <USER_ACCESS_TOKEN>
-{
-    "Username": "francesco",
-    "UserAttributes": [
-        {
-            "Name": "sub",
-            "Value": "5139e6e7-7a37-4e6e-9304-8c32973e4ac0"
-        },
-        {
-            "Name": "email_verified",
-            "Val…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harbor: A trusted cloud native registry for Kubernetes and Docker]]></title>
-        <id>https://4sysops.com/?p=1572078</id>
-        <link href="https://4sysops.com/archives/harbor-a-trusted-cloud-native-registry-for-kubernetes-and-docker/"/>
-        <updated>2023-06-12T18:42:41.000Z</updated>
-        <summary type="html"><![CDATA[In a previous post, we discussed the private Docker registry setup. Today, you will learn about the Harbor registry, an open-source and enterprise-ready container registry that stores and distributes Open Container Initiative (OCI)-compliant images and artifacts. It can be used with Docker, Kubernetes, Podman, and Tanzu Kubernetes Grid (TKG) to host both private and public container images.
-Harbor: A trusted cloud native registry for Kubernetes and Docker first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon Replay | Star-Gazing: Using a Full Galaxy of YARA Methods to Pursue an Apex Actor]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=81511</id>
-        <link href="https://www.sentinelone.com/labs/labscon-replay-star-gazing-using-a-full-galaxy-of-yara-methods-to-pursue-an-apex-actor/"/>
-        <updated>2023-06-12T14:16:55.000Z</updated>
-        <summary type="html"><![CDATA[Greg Lesnewich explores how to to pursue an apex predator using little more than a local instance of YARA and some publicly available open-source tooling.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Telemetry: Kernel Callbacks]]></title>
-        <id>https://medium.com/p/1a97cfcb8fb3</id>
-        <link href="https://posts.specterops.io/understanding-telemetry-kernel-callbacks-1a97cfcb8fb3?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-06-12T14:01:04.000Z</updated>
-        <author>
-            <name>Jonathan Johnson</name>
         </author>
     </entry>
     <entry>
