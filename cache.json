@@ -87,16 +87,6 @@
           "wordCount": 1119,
           "title": "BChecks: Houston, we have a solution!",
           "imageUrl": "https://portswigger.net/cms/images/b4/f4/022f-twittercard-bcheck_awesomeness_twitter.png"
-        },
-        {
-          "id": "keep-it-simple-scanner",
-          "author": null,
-          "description": "There’s a running joke on the scanner development team; for the longest time I had net negative lines of code added to the Burp Suite codebase, and everyone’s convinced that I’m trying to regain that",
-          "link": "https://portswigger.net/blog/keep-it-simple-scanner",
-          "publishedOn": "2023-06-20T14:02:00.000Z",
-          "wordCount": 1660,
-          "title": "Keep it simple, Scanner",
-          "imageUrl": "https://portswigger.net/cms/images/b7/16/add5-twittercard-scanner_blog_twitter.png"
         }
       ]
     },
@@ -479,16 +469,6 @@
           "wordCount": 2118,
           "title": "Announcing Gato Version 1.5!",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/01/Graphic-Gato-Cat.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4729",
-          "author": "Emmaline",
-          "description": "At Praetorian, we pride ourselves on our extensive expertise in cloud security and our commitment to staying at the forefront of the ever-evolving landscape. We consequently were excited to attend the highly anticipated fwd:cloudsec 2023 conference held on June 12–13, in Anaheim, CA. This non-profit conference brings together cloud security professionals, researchers, and practitioners from […]\nThe post fwd:cloudsec 2023: Top Four Themes in Cloud Security for 2023 appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/fwdcloudsec-2023-top-four-themes/",
-          "publishedOn": "2023-06-20T13:03:13.000Z",
-          "wordCount": 3009,
-          "title": "fwd:cloudsec 2023: Top Four Themes in Cloud Security for 2023",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/06/Screen-Shot-2023-06-20-at-10.19.42-AM.png"
         }
       ]
     },
@@ -642,7 +622,18 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2144",
+          "author": "Exodus Intel VRT",
+          "description": "By Vignesh Rao Overview In this blog post, we describe a method to exploit an integer overflow in Apple WebKit due to a vulnerability resulting from incorrect range computations when optimizing Javascript code. This research was conducted along with Martin Saar in 2020. We show how to convert this integer overflow into a stable out-of-bounds ... Read more Shifting boundaries: Exploiting an Integer Overflow in Apple Safari\nThe post Shifting boundaries: Exploiting an Integer Overflow in Apple Safari appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2023/07/20/shifting-boundaries-exploiting-an-integer-overflow-in-apple-safari/",
+          "publishedOn": "2023-07-20T18:45:49.000Z",
+          "wordCount": 7288,
+          "title": "Shifting boundaries: Exploiting an Integer Overflow in Apple Safari",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/07/code_representation-1.png"
+        }
+      ]
     },
     {
       "title": "markitzeroday.com",
@@ -721,6 +712,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1572625",
+          "author": "Timothy Warner",
+          "description": "Ansible is an open-source configuration management platform from Red Hat. So isn't Ansible a Linux-only solution? While it is indeed primarily for Linux configuration management, you can, in fact, install Ansible on Windows.\nInstall Ansible on Windows first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/install-ansible-on-windows/",
+          "publishedOn": "2023-07-20T19:31:08.000Z",
+          "wordCount": 4446,
+          "title": "Install Ansible on Windows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Viewing-playbook-run-state-in-WSL-600x264.png"
+        },
         {
           "id": "https://4sysops.com/?p=1572600",
           "author": "Robert Pearman",
@@ -930,16 +931,6 @@
           "wordCount": 4575,
           "title": "Reasons DCPROMO failed",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Repadmin-and-other-replication-tools-for-DCPROMO-troubleshooting-600x331.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1572187",
-          "author": "Brandon Lee",
-          "description": "Microsoft's modern management is based on cloud services, such as Autopilot, Azure Active Directory, and Intune. The latter uses Windows' Mobile Device Management interfaces instead of Group Policy to centrally manage PCs. Microsoft introduced a Group Policy Analytics tool in Intune to help migrate on-premises GPOs to policies for the Configuration Service Provider (CSP).\nMigrating GPOs to MDM with Intune’s Group Policy Analytics first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/migrating-gpos-to-mdm-with-intunes-group-policy-analytics/",
-          "publishedOn": "2023-06-20T17:52:35.000Z",
-          "wordCount": 3839,
-          "title": "Migrating GPOs to MDM with Intune’s Group Policy Analytics",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Group-Policy-migration-readiness-600x365.png"
         }
       ]
     },
@@ -1191,16 +1182,6 @@
           "wordCount": 545,
           "title": "OpenAI Removes the \"Chat with Code\" Plugin From Store",
           "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns-chat-with-code/",
-          "author": null,
-          "description": "OpenAI continues to add plugins with security vulnerabilities to their store.\nIn particular powerful plugins that can impersonate a user are not getting the required security scrutiny, or a general mitigation at the platform level.\nAs a brief reminder, one of the challenges Large Language Model (LLM) User-Agents, like ChatGPT, and plugins face is the Confused Deputy Problem / Plugin Request Forgery Attacks, which means that during a Prompt Injection attack an adversary can issue commands to plugins to cause harm.",
-          "link": "https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns-chat-with-code/",
-          "publishedOn": "2023-06-20T15:00:22.000Z",
-          "wordCount": 795,
-          "title": "Plugin Vulnerabilities: Visit a Website and Have Your Source Code Stolen",
-          "imageUrl": null
         }
       ]
     },
@@ -1258,6 +1239,16 @@
       "siteUrl": "https://www.secureauth.com/blog/",
       "articles": [
         {
+          "id": "https://www.secureauth.com/?post_type=blog&p=48975",
+          "author": "Joan Fronske",
+          "description": "Today, we are excited to announce the general availability of the SecureAuth® Identity Platform version 23.07. The feature-rich release focuses on two major benefits: streamlined migration and improved user experience. Streamlined Migration / Upgrades  Since the creation of the Migration Tool, several customers have realized huge success in significantly reducing migration time and effort. Whether […]\nThe post SecureAuth Identity Platform 23.07 Release Provides Streamlined Migration and Improved User Experience appeared first on SecureAuth.",
+          "link": "https://www.secureauth.com/blog/secureauth-identity-platform-23-07-release-provides-streamlined-migration-and-improved-user-experience/",
+          "publishedOn": "2023-07-19T19:50:07.000Z",
+          "wordCount": 9468,
+          "title": "SecureAuth Identity Platform 23.07 Release Provides Streamlined Migration and Improved User Experience",
+          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/07/ProductLaunch_July2023_GettyImages-84743427-scaled.jpg"
+        },
+        {
           "id": "https://www.secureauth.com/?post_type=blog&p=48901",
           "author": "Joan Fronske",
           "description": "Despite improvements in cybersecurity, digital security breaches are as prevalent as ever. In the last month alone, data breaches have been detected at American Airlines (8,000 affected in June 27th), Mondelez (50,000 affected in June 21st), and Reddit (a ransomware attack on June 19th with a demanded payout of $4.5 million). It’s clear that threat […]\nThe post Passwordless: Can It deliver on Its promises? appeared first on SecureAuth.",
@@ -1274,6 +1265,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=82769",
+          "author": "Tom Hegel",
+          "description": "North Korean state sponsored APT is behind a new supply chain attack on zero-trust directory platform JumpCloud.",
+          "link": "https://www.sentinelone.com/labs/jumpcloud-intrusion-attacker-infrastructure-links-compromise-to-north-korean-apt-activity/",
+          "publishedOn": "2023-07-20T10:00:14.000Z",
+          "wordCount": 2872,
+          "title": "JumpCloud Intrusion | Attacker Infrastructure Links Compromise to North Korean APT Activity",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/07/JumpCloud-Intrusion-Attacker-Infrastructure-Links-Compromise-to-North-Korean-APT-Activity-5.jpg",
+            "length": "581099",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/07/JumpCloud-Intrusion-Attacker-Infrastructure-Links-Compromise-to-North-Korean-APT-Activity-5.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=82546",
           "author": "Alex Delamotte",
@@ -1327,6 +1333,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=14236",
+          "author": "Nicholas Dhaeyer",
+          "description": "A quick post on how to extract AutoHotKey scripts from an AutoHotKey script compiled executable.",
+          "link": "https://blog.nviso.eu/2023/07/20/the-soc-toolbox-analyzing-autohotkey-compiled-executables/",
+          "publishedOn": "2023-07-20T07:00:00.000Z",
+          "wordCount": 1951,
+          "title": "The SOC Toolbox: Analyzing AutoHotKey compiled executables",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/02/Modern_AutoHotkey_Logo_no_text.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=14094",
           "author": "Moritz Thomas",
           "description": "Introduction In the previous post of this series we showed why Brute Ratel C4 (BRC4) isn’t able to execute most BOFs that use the de-facto BOF API standard by Cobalt Strike (CS): BRC4 implements their own BOF API which isn’t compatible with the CS BOF API. Then we also outlined an approach to solve this … Continue reading Introducing CS2BR pt. II – One tool to port them all →",
@@ -1343,6 +1359,26 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/jsluice-javascript-technical-deep-dive",
+          "author": "Tom Hudson",
+          "description": "Join us for a technical deep-dive of jsluice, an open-source mining tool for JavaScript code and files.",
+          "link": "https://bishopfox.com/blog/jsluice-javascript-technical-deep-dive",
+          "publishedOn": "2023-07-20T13:00:00.000Z",
+          "wordCount": 3895,
+          "title": "Introducing jsluice: A Technial Deep-Dive for JavaScript Gold (Part 2)",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-jsluice-tool-Part2_OG.jpg?mtime=1689202935"
+        },
+        {
+          "id": "https://bishopfox.com/blog/jsluice-javascript-gold-mining",
+          "author": "Tom Hudson",
+          "description": "Learn how to use jsluice, an open-source, Go package and command-line tool used to extract information from JavaScript files and code.",
+          "link": "https://bishopfox.com/blog/jsluice-javascript-gold-mining",
+          "publishedOn": "2023-07-20T13:00:00.000Z",
+          "wordCount": 3750,
+          "title": "Introducing jsluice: The Why Behind JavaScript Gold Mining (Part 1)",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-jsluice-tool-Part1_OG.jpg?mtime=1689111424"
+        },
         {
           "id": "https://bishopfox.com/blog/cloud-offensive-security-2023-insights-from-the-ponemon-institute",
           "author": "Beth Robinson",
@@ -1362,26 +1398,6 @@
           "wordCount": 2174,
           "title": "CVE-2023-27997 Is Exploitable, and 69% of FortiGate Firewalls Are Vulnerable",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/2023Q2_DIGITAL_Blog_WTV_CVE-2023-27997-Part2-OG.jpg?mtime=1688152602"
-        },
-        {
-          "id": "https://bishopfox.com/blog/cve-2023-27997-vulnerability-scanner-fortigate",
-          "author": "Caleb Gross",
-          "description": "Use our latest vulnerability assessment tool to check for CVE-2023-27997, a vulnerability in FortiGate firewalls.",
-          "link": "https://bishopfox.com/blog/cve-2023-27997-vulnerability-scanner-fortigate",
-          "publishedOn": "2023-06-20T21:00:00.000Z",
-          "wordCount": 2383,
-          "title": "CVE-2023-27997 Vulnerability Scanner for FortiGate Firewalls",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-FortiGate-Vuln-Scanner_OG.jpg?mtime=1687282629"
-        },
-        {
-          "id": "https://bishopfox.com/blog/taskcafe-version-0-3-2-advisory",
-          "author": "Joan Bono, Luis De la Rosa Hernandez",
-          "description": "Learn about three vulnerabilities we discovered in TaskCafe Version 0.3.2 that result in improper access controls, stored cross-site scripting, and insecure file upload.",
-          "link": "https://bishopfox.com/blog/taskcafe-version-0-3-2-advisory",
-          "publishedOn": "2023-06-20T14:00:00.000Z",
-          "wordCount": 2988,
-          "title": "TaskCafe, Version 0.3.2 Advisory",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/advisories-risk-level/_1200x630_crop_center-center_82_none/High-Risk-Advisory-Featured.jpg?mtime=1686669123"
         }
       ]
     },
