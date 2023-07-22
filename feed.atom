@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-21T00:41:26.406Z</updated>
+    <updated>2023-07-22T00:41:20.692Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Citrix ADC Gateway RCE: CVE-2023-3519 is Exploitable, and 53% of Servers Are Unpatched]]></title>
+        <id>https://bishopfox.com/blog/citrix-adc-gateway-rce-cve-2023-3519</id>
+        <link href="https://bishopfox.com/blog/citrix-adc-gateway-rce-cve-2023-3519"/>
+        <updated>2023-07-21T17:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox developed an exploit for CVE-2023-3519, a stack overflow in Citrix ADC Gateway that allows remote code execution. There are 61,000 affected appliances exposed on the internet, and roughly 53% of them are currently unpatched.]]></summary>
+        <author>
+            <name>Team X</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install Git Bash on Windows with git command examples]]></title>
+        <id>https://4sysops.com/?p=1572693</id>
+        <link href="https://4sysops.com/archives/install-git-bash-on-windows-with-git-command-examples/"/>
+        <updated>2023-07-21T16:40:09.000Z</updated>
+        <summary type="html"><![CDATA[Git is a version control system used by developers to collaborate and manage changes in their applications. It was created for Linux and macOS. But what about Windows? This is where Git Bash for Windows comes in. This tutorial will explain how to install Git Bash on Windows and introduce a few Git Bash commands to interact with the Git repository.
+Install Git Bash on Windows with git command examples first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Hitesh Jethva</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing Tic Tac Toe with 170mb of HTML - no JS or CSS]]></title>
+        <id>tic-tac-toe-in-html</id>
+        <link href="https://portswigger.net/blog/tic-tac-toe-in-html"/>
+        <updated>2023-07-21T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I love it when Chrome releases a new feature, I especially like it when it is experimental. In this post I'm going to show you how I created Tic Tac Toe (Noughts and crosses) with HTML, using one of t]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fuzzing on-chain contracts with Echidna]]></title>
+        <id>https://blog.trailofbits.com/?p=104755</id>
+        <link href="https://blog.trailofbits.com/2023/07/21/fuzzing-on-chain-contracts-with-echidna/"/>
+        <updated>2023-07-21T11:00:31.000Z</updated>
+        <summary type="html"><![CDATA[By Guillermo Larregay and Elvis Skozdopolj With the release of version 2.1.0 of Echidna, our fuzzing tool for Ethereum smart contracts, we’ve introduced new features for direct retrieval of on-chain data, such as contract code and storage slot values. This data can be used to fuzz deployed contracts in their on-chain state or to test […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Jobs: Media Exploitation Analyst (Japanese)]]></title>
+        <id>https://www.sans.org/blog/cybersecurity-jobs-media-exploitation-analyst-ja</id>
+        <link href="https://www.sans.org/blog/cybersecurity-jobs-media-exploitation-analyst-ja?msc=rss"/>
+        <updated>2023-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[メディアエクスプロイテーションアナリストの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Install Ansible on Windows]]></title>
         <id>https://4sysops.com/?p=1572625</id>
@@ -26,6 +77,17 @@ Install Ansible on Windows first appeared on 4sysops.]]></summary>
 The post Shifting boundaries: Exploiting an Integer Overflow in Apple Safari appeared first on Exodus Intelligence.]]></summary>
         <author>
             <name>Exodus Intel VRT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-36934: Progress Software MOVEit Transfer SQL Injection Remote Code Execution Vulnerability]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64b84d887cb6720b78392146</id>
+        <link href="https://www.thezdi.com/blog/2023/7/19/cve-2023-36934-progress-software-moveit-transfer-sql-injection-remote-code-execution-vulnerability"/>
+        <updated>2023-07-20T15:55:23.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in Progress MOVEit Transfer. This bug was originally discovered by Trend Micro Vulnerability Researcher Guy Lederfein and is the same type of vulnerability being used by the Cl0p ransomware gang to exfiltrate data. A crafted request can trigger the execution of SQL queries composed from a user-supplied string. An attacker can leverage this vulnerability to execute code in the context of the “moveitsvc” user. The following is a portion of their write-up covering CVE-2023-36934, with a few minimal modifications.
+An SQL injection vulnerability has been reported for Progress MOVEit Tra…]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
         </author>
     </entry>
     <entry>
@@ -144,6 +206,16 @@ Exposed Gits: 10 Years on first appeared on Pen Test Partners.]]></summary>
         <summary type="html"><![CDATA[Compounding security debt from daily new releases creates serious challenges for security organizations — especially considering the scarcity of skilled personnel. Point-in-time security measures and an overreliance on automation and AI create a false sense of security that often leaves the door open for attackers.]]></summary>
         <author>
             <name>Joe Coletta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Offensive Security: 2023 Insights From the Ponemon Institute]]></title>
+        <id>https://bishopfox.com/blog/cloud-offensive-security-ponemon-institute</id>
+        <link href="https://bishopfox.com/blog/cloud-offensive-security-ponemon-institute"/>
+        <updated>2023-07-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this blog, we explore how offensive security solutions are implemented by mature organizations to proactively protect cloud environments.]]></summary>
+        <author>
+            <name>Beth Robinson</name>
         </author>
     </entry>
     <entry>
@@ -683,6 +755,16 @@ Demote a domain controller step by step first appeared on 4sysops.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[CVE-2023-27997 Is Exploitable, and 69% of FortiGate Firewalls Are Vulnerable]]></title>
+        <id>https://bishopfox.com/blog/cve-2023-27997-exploitable-fortigate-vulnerable</id>
+        <link href="https://bishopfox.com/blog/cve-2023-27997-exploitable-fortigate-vulnerable"/>
+        <updated>2023-06-30T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Check out latest analysis for CVE-2023-27997, a heap overflow in FortiOS, the the operating system behind FortiGate firewalls, that allows remote code execution.]]></summary>
+        <author>
+            <name>Caleb Gross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-27997 Is Exploitable, and 69% of FortiGate Firewalls Are Vulnerable]]></title>
         <id>https://bishopfox.com/blog/cve-2023-27997-exploitable-and-fortigate-firewalls-vulnerable</id>
         <link href="https://bishopfox.com/blog/cve-2023-27997-exploitable-and-fortigate-firewalls-vulnerable"/>
         <updated>2023-06-30T17:00:00.000Z</updated>
@@ -973,42 +1055,6 @@ For information regarding the initial analysis of the TCP/IP kernel module, VMke
 Comparing setso…]]></summary>
         <author>
             <name>Reno Robert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Cool New Project: Semgrep Rules for Android Apps Security]]></title>
-        <id>https://blog.mindedsecurity.com/2023/06/a-cool-new-project-semgrep-rules-for.html</id>
-        <link href="https://blog.mindedsecurity.com/2023/06/a-cool-new-project-semgrep-rules-for.html"/>
-        <updated>2023-06-21T15:04:00.017Z</updated>
-        <summary type="html"><![CDATA[In today's digital landscape, mobile application security has become an paramount concern. 
-With the increasing number of threats targeting Android applications and the stored personal data, developers and security professionals alike are seeking robust solutions to fortify their code against potential vulnerabilities. 
-That's why speeding up the time and minimizing the effort in the identification of mobile security issues has become definitely important.
-We are excited to introduce our new project, focused on creating Semgrep rules specifically designed to enhance the security of Android apps.
-Semgrep Rules for Android Application Security
-The project provides a new set of specific rules for OWASP Mobile Security Testing Guide (MSTG), that will help to find security issues using static c…]]></summary>
-        <author>
-            <name>IMQ Minded Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reasons DCPROMO failed]]></title>
-        <id>https://4sysops.com/?p=1572207</id>
-        <link href="https://4sysops.com/archives/reasons-dcpromo-failed/"/>
-        <updated>2023-06-21T14:00:29.000Z</updated>
-        <summary type="html"><![CDATA[DCPROMO is a command line tool in Windows Server that is used to promote an Active Directory member server to a domain controller or demote a domain controller to a member server or standalone server. Let's explore why DCPROMO may have failed and consider effective solutions.
-Reasons DCPROMO failed first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating String Decryption and Other Reverse Engineering Tasks in radare2 With r2pipe]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=81859</id>
-        <link href="https://www.sentinelone.com/labs/automating-string-decryption-and-other-reverse-engineering-tasks-in-radare2-with-r2pipe/"/>
-        <updated>2023-06-21T13:52:53.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to drive radare2 with r2pipe for automated binary analysis, string decryption and other common reversing tasks.]]></summary>
-        <author>
-            <name>Phil Stokes</name>
         </author>
     </entry>
     <entry>
