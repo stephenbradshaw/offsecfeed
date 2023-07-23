@@ -24,16 +24,6 @@
           "wordCount": 5461,
           "title": "Sowing Chaos and Reaping Rewards in Confluence and Jira",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:492/0*R_Sh1Az_W4WrEUTL"
-        },
-        {
-          "id": "https://medium.com/p/e0da9b7cdfca",
-          "author": "Jonas Bülow Knudsen",
-          "description": "Tier Zero is a crucial group of assets in Active Directory (AD) and Azure. Its purpose is to protect the most critical components by…",
-          "link": "https://posts.specterops.io/what-is-tier-zero-part-1-e0da9b7cdfca?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-06-22T19:26:35.000Z",
-          "wordCount": 7091,
-          "title": "What is Tier Zero — Part 1",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*RDZuRCHdR1jXUkLQBiVwvQ.png"
         }
       ]
     },
@@ -346,17 +336,6 @@
           "publishedOn": "2023-06-29T15:58:49.000Z",
           "wordCount": null,
           "title": "CVE-2023-20864: Remote Code Execution in VMware Aria Operations for Logs",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64938e2e4512d44c73bc3eab",
-          "author": "Reno Robert",
-          "description": "Last year we published our patch gap analysis of ESXi’s TCP/IP stack, which is forked from FreeBSD 8.2. While our focus was mainly on missing FreeBSD patches in ESXi, we also came across a type confusion bug in code introduced by VMware. This blog post details a vulnerability I discovered in ESXi’s implementation of the setsockopt system call that could lead to a sandbox escape. The vulnerability was assigned CVE-2022-31696 and disclosed as part of the advisory VMSA-2022-003. Additionally, I also explore ESXi’s kernel heap allocator and weaknesses in existing kernel mitigations. \nFor information regarding the initial analysis of the TCP/IP kernel module, VMkernel debug symbols, and porting type information from FreeBSD to ESXi, it is recommend to read our earlier analysis. \nComparing setso…",
-          "link": "https://www.thezdi.com/blog/2023/6/21/cve-2022-31696-an-analysis-of-a-vmware-esxi-tcp-socket-keepalive-type-confusion-lpe",
-          "publishedOn": "2023-06-22T16:00:00.000Z",
-          "wordCount": null,
-          "title": "CVE-2022-31696: An Analysis of a VMware ESXi TCP Socket Keepalive Type Confusion LPE",
           "itunes": {},
           "imageUrl": null
         }
@@ -941,16 +920,6 @@
           "wordCount": 4943,
           "title": "Create a Kubernetes Pod",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/View-the-logs-of-a-container-running-in-the-Pod-600x287.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1572219",
-          "author": "Wolfgang Sommergut",
-          "description": "In newer versions of Windows, IPv6 is installed by default and enabled on all network adapters. However, in smaller environments, there is often a lack of expertise to properly configure and maintain the IPv6 infrastructure. In such cases, admins might want to disable IPv6.\nDisable IPv6 in Windows first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/disable-ipv6-in-windows/",
-          "publishedOn": "2023-06-22T17:59:57.000Z",
-          "wordCount": 3759,
-          "title": "Disable IPv6 in Windows",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/06/Unbind-IPv6-from-network-adapters-using-PowerShell-600x405.png"
         }
       ]
     },
@@ -983,16 +952,6 @@
           "publishedOn": "2023-07-13T23:36:15.000Z",
           "wordCount": 5656,
           "title": "Enter Sandbox 27: Account creation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8616",
-          "author": "adam",
-          "description": "The cyber consulting world delivers a lot of useful security work. They do workshops, trainings, table top exercises, they write playbooks, red team, provide assessments, and help companies with gap […]",
-          "link": "https://www.hexacorn.com/blog/2023/06/22/the-myth-of-knowing-your-org-know_your_org-docx/",
-          "publishedOn": "2023-06-22T23:54:19.000Z",
-          "wordCount": 5865,
-          "title": "The myth of “knowing your org” -> know_your_org.docx",
           "imageUrl": null
         }
       ]
@@ -1046,6 +1005,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/microsoft-365-cloud-log-extraction",
+          "author": null,
+          "description": "In this blog post, we discussed the various methods of accessing and exporting the Unified Audit Log (UAL). If you need a way to perform a quick and targeted search, you can leverage the Purview Compliance Portal. If you want to retrieve a small part of the UAL and export to JSON format, PowerShell has the Search-UnifiedAuditLog cmdlet. For larger organizations or those who need to continuously poll the UAL, there is the Microsoft 365 Management API.",
+          "link": "https://www.sans.org/blog/microsoft-365-cloud-log-extraction?msc=rss",
+          "publishedOn": "2023-07-22T00:00:00.000Z",
+          "wordCount": 4380,
+          "title": "Microsoft 365 Cloud Log Extraction",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/cybersecurity-jobs-media-exploitation-analyst-ja",
           "author": null,
@@ -1154,26 +1123,6 @@
           "publishedOn": "2023-06-28T00:00:00.000Z",
           "wordCount": 5072,
           "title": "Google Workspace Log Extraction",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ransomware-summit-2023",
-          "author": null,
-          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Ransomware Summit 2023",
-          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-ransomware-summit-2023?msc=rss",
-          "publishedOn": "2023-06-23T00:00:00.000Z",
-          "wordCount": 2883,
-          "title": "A Visual Summary of SANS Ransomware Summit 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/cybersecurity-jobs-vulnerability-researcher-exploit-developer-ja",
-          "author": null,
-          "description": "脆弱性研究者・エクスプロイト開発者の主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！",
-          "link": "https://www.sans.org/blog/cybersecurity-jobs-vulnerability-researcher-exploit-developer-ja?msc=rss",
-          "publishedOn": "2023-06-23T00:00:00.000Z",
-          "wordCount": 2225,
-          "title": "Cybersecurity Jobs: Vulnerability Researcher & Exploit Developer (Japanese)",
           "imageUrl": null
         }
       ]
