@@ -59,6 +59,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-29 datetime="2023-07-29T04:00:00.000Z">2023-07-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-29 datetime="2023-07-29T04:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Human Machine Interface</button>
+                  <a class="source-heading__link" href="https://h0mbre.github.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://h0mbre.github.io/kCTF_Data_Only_Exploit/"
+                        open
+                      >
+                        <summary class="article-expander__title">Escaping the Google kCTF Container with a Data-Only Exploit</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://h0mbre.github.io/kCTF_Data_Only_Exploit/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://h0mbre.github.io/assets/images/avatar.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Introduction I’ve been doing some Linux kernel exploit development/study and vulnerability research off and on since last Fall and a few months ago I had some downtime on vacation to sit and challenge myself to write my first data-only exploit for a real bug that was exploited in kCTF. io_ring has been a popular target in the program’s history up to this point, so I thought I’d find an easy-to-reason-about bug there that had already been exploited as fertile ground for exploit development creativity. The bug I chose to work with was one which resulted in a struct file UAF where it was possible to hold an open file descriptor to the freed object. There have been quite a few write-ups on file UAF exploits, so I decided as a challenge that my exploit had to be data-only. The parameters of the self-imposed challenge were completely arbitrary, but I just wanted to try writing an exploit that didn’t rely on hijacking control flow. I have written quite a few Linux kernel exploits of real kCTF bugs at this point, probably 5-6 as practice, just starting with the vulnerability and going from there, but all of them have ended up in me using ROP, so this was my first try at data-only. I also had not seen a data-only exploit for a struct file UAF yet, which was encouraging as it seemed it was worthwile “research”. Also, before we get too far, please do not message me to tell me that someone already did xyz years prior. I’m very new to this type of thing and was just doing this as a personal challenge, if some aspects of the exploit are unoriginal, that is by coincidence. I will do my best to cite all my inspiration as we go.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-28 datetime="2023-07-28T19:18:53.000Z">2023-07-28</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-28 datetime="2023-07-28T19:18:53.000Z"></time>
           </button>
@@ -3611,257 +3659,6 @@ Check the BitLocker status of all PCs in the network first appeared on 4sysops.<
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Sean Heelan&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://sean.heelan.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://sean.heelan.io/?p&#x3D;2876"
-                        open
-                      >
-                        <summary class="article-expander__title">Application optimisation with LLMs: Finding faster, equivalent, software libraries.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sean.heelan.io/2023/06/30/application-optimisation-with-llms-finding-faster-equivalent-software-libraries/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://seanhn.files.wordpress.com/2023/06/screenshot-2023-06-30-at-11.57.01.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A few months back I wrote a blog post where I mentioned that the least-effort/highest reward approach to application optimisation is to deploy a whole-system profiler across your clusters, look at the most expensive libraries &amp; processes, and then search Google for faster, equivalent replacements. At Optimyze/Elastic we have had customers of our whole-system profiler […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SANS Blog</button>
-                  <a class="source-heading__link" href="https://www.sans.org/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sans.org/blog/cybersecurity-jobs-application-pen-tester-ja"
-                        open
-                      >
-                        <summary class="article-expander__title">Cybersecurity Jobs: Application Pen Tester (Japanese)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sans.org/blog/cybersecurity-jobs-application-pen-tester-ja?msc&#x3D;rss">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>アプリケーションペンテスターの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-29 datetime="2023-06-29T15:58:49.000Z">2023-06-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-29 datetime="2023-06-29T15:58:49.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Zero Day Initiative - Blog</button>
-                  <a class="source-heading__link" href="https://www.thezdi.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:649da382cfd37f6cffd4d25c"
-                        open
-                      >
-                        <summary class="article-expander__title">CVE-2023-20864: Remote Code Execution in VMware Aria Operations for Logs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.thezdi.com/blog/2023/6/29/cve-2023-20864-remote-code-execution-in-vmware-aria-operations-for-logs">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Jonathan Lein and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in VMware Aria Operations for Logs (formerly vRealize). This bug was originally submitted to the ZDI program by an anonymous researcher. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root. Similar bugs are reported as being exploited in the wild. The following is a portion of their write-up covering CVE-2023-24941, with a few minimal modifications.
-An insecure deserialization vulnerability has been reported in VMware …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1572298"
-                        open
-                      >
-                        <summary class="article-expander__title">Kubernetes guide: Create a Kubernetes deployment</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/kubernetes-guide-create-a-kubernetes-deployment/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2023/06/Force-the-Deployment-rollout-again-after-resolving-the-image-pull-error-600x396.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In a previous post of this Kubernetes guide, I discussed how to create a Pod in Kubernetes using imperative and declarative configurations. In this post, you will learn how to create a Deployment in Kubernetes. In Kubernetes, a Deployment is a resource object that defines how your application is deployed and managed in a cluster. You just need to define the desired number of instances (a.k.a. replicas) of your application, the container image, resource requirements, and other options in a configuration file, and Kubernetes takes care of deploying and managing the application.
-Kubernetes guide: Create a Kubernetes deployment first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Technical Blog - NetSPI</button>
-                  <a class="source-heading__link" href="https://www.netspi.com/blog/technical/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.netspi.com/?p&#x3D;30458"
-                        open
-                      >
-                        <summary class="article-expander__title">Anti-Scraping Part 1: Core Principles to Deter Scraping</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.netspi.com/blog/technical/adversary-simulation/anti-scraping-part-1/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.netspi.com/wp-content/uploads/062923_Anti-Scraping-Tech-Blog-1_Social.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Part one of our anti-scraping series covers five core anti-scraping principles and how they stack up against a fake message board.
-The post Anti-Scraping Part 1: Core Principles to Deter Scraping  appeared first on NetSPI.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;54
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >NCC Group Research Blog</button>
-                  <a class="source-heading__link" href="https://research.nccgroup.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.nccgroup.com/?p&#x3D;31786"
-                        open
-                      >
-                        <summary class="article-expander__title">Public Report – Zcash Zebra Security Assessment</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.nccgroup.com/2023/06/29/public-report-zcash-zebra-security-assessment/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit&#x3D;512%2C512&amp;ssl&#x3D;1" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In Spring 2023, the Zcash Foundation engaged NCC Group to conduct a security assessment of the Zebrad application. Zebrad is a network client that participates in the Zcash consensus mechanism by validating blocks, maintaining the blockchain state (best chain and viable non-finalized chains), and gossiping blocks, transactions, and peer addresses. Five consultants performed the review, […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;62
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PortSwigger Blog</button>
-                  <a class="source-heading__link" href="https://portswigger.net/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="bchecks-houston-we-have-a-solution"
-                        open
-                      >
-                        <summary class="article-expander__title">BChecks: Houston, we have a solution!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://portswigger.net/blog/bchecks-houston-we-have-a-solution">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://portswigger.net/cms/images/b4/f4/022f-twittercard-bcheck_awesomeness_twitter.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Scripted scan checks in Burp Suite Professional are now a thing ...  tl;dr Burp Suite Professional now has a powerful yet simple scripting language that allows you to quickly build on our world c</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4062,8 +3859,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/5697497687">
-        <time id="build-timestamp" datetime="2023-07-29T00:38:12.837Z">2023-07-29T00:38:12.837Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/5703319648">
+        <time id="build-timestamp" datetime="2023-07-30T00:42:14.488Z">2023-07-30T00:42:14.488Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

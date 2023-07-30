@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-29T00:38:12.863Z</updated>
+    <updated>2023-07-30T00:42:14.515Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Escaping the Google kCTF Container with a Data-Only Exploit]]></title>
+        <id>https://h0mbre.github.io/kCTF_Data_Only_Exploit/</id>
+        <link href="https://h0mbre.github.io/kCTF_Data_Only_Exploit/"/>
+        <updated>2023-07-29T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction I’ve been doing some Linux kernel exploit development/study and vulnerability research off and on since last Fall and a few months ago I had some downtime on vacation to sit and challenge myself to write my first data-only exploit for a real bug that was exploited in kCTF. io_ring has been a popular target in the program’s history up to this point, so I thought I’d find an easy-to-reason-about bug there that had already been exploited as fertile ground for exploit development creativity. The bug I chose to work with was one which resulted in a struct file UAF where it was possible to hold an open file descriptor to the freed object. There have been quite a few write-ups on file UAF exploits, so I decided as a challenge that my exploit had to be data-only. The parameters of the self-imposed challenge were completely arbitrary, but I just wanted to try writing an exploit that didn’t rely on hijacking control flow. I have written quite a few Linux kernel exploits of real kCTF bugs at this point, probably 5-6 as practice, just starting with the vulnerability and going from there, but all of them have ended up in me using ROP, so this was my first try at data-only. I also had not seen a data-only exploit for a struct file UAF yet, which was encouraging as it seemed it was worthwile “research”. Also, before we get too far, please do not message me to tell me that someone already did xyz years prior. I’m very new to this type of thing and was just doing this as a personal challenge, if some aspects of the exploit are unoriginal, that is by coincidence. I will do my best to cite all my inspiration as we go.]]></summary>
+        <author>
+            <name>The Human Machine Interface</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rancher Desktop: Kubernetes for your Windows, macOS, or Linux desktop]]></title>
         <id>https://4sysops.com/?p=1575288</id>
@@ -1040,79 +1050,6 @@ Demote a domain controller step by step first appeared on 4sysops.]]></summary>
 Check the BitLocker status of all PCs in the network first appeared on 4sysops.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Application optimisation with LLMs: Finding faster, equivalent, software libraries.]]></title>
-        <id>http://sean.heelan.io/?p=2876</id>
-        <link href="https://sean.heelan.io/2023/06/30/application-optimisation-with-llms-finding-faster-equivalent-software-libraries/"/>
-        <updated>2023-06-30T11:33:27.000Z</updated>
-        <summary type="html"><![CDATA[A few months back I wrote a blog post where I mentioned that the least-effort/highest reward approach to application optimisation is to deploy a whole-system profiler across your clusters, look at the most expensive libraries & processes, and then search Google for faster, equivalent replacements. At Optimyze/Elastic we have had customers of our whole-system profiler […]]]></summary>
-        <author>
-            <name>seanhn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity Jobs: Application Pen Tester (Japanese)]]></title>
-        <id>https://www.sans.org/blog/cybersecurity-jobs-application-pen-tester-ja</id>
-        <link href="https://www.sans.org/blog/cybersecurity-jobs-application-pen-tester-ja?msc=rss"/>
-        <updated>2023-06-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[アプリケーションペンテスターの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2023-20864: Remote Code Execution in VMware Aria Operations for Logs]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:649da382cfd37f6cffd4d25c</id>
-        <link href="https://www.thezdi.com/blog/2023/6/29/cve-2023-20864-remote-code-execution-in-vmware-aria-operations-for-logs"/>
-        <updated>2023-06-29T15:58:49.000Z</updated>
-        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Jonathan Lein and Dusan Stevanovic of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in VMware Aria Operations for Logs (formerly vRealize). This bug was originally submitted to the ZDI program by an anonymous researcher. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root. Similar bugs are reported as being exploited in the wild. The following is a portion of their write-up covering CVE-2023-24941, with a few minimal modifications.
-An insecure deserialization vulnerability has been reported in VMware …]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes guide: Create a Kubernetes deployment]]></title>
-        <id>https://4sysops.com/?p=1572298</id>
-        <link href="https://4sysops.com/archives/kubernetes-guide-create-a-kubernetes-deployment/"/>
-        <updated>2023-06-29T15:24:01.000Z</updated>
-        <summary type="html"><![CDATA[In a previous post of this Kubernetes guide, I discussed how to create a Pod in Kubernetes using imperative and declarative configurations. In this post, you will learn how to create a Deployment in Kubernetes. In Kubernetes, a Deployment is a resource object that defines how your application is deployed and managed in a cluster. You just need to define the desired number of instances (a.k.a. replicas) of your application, the container image, resource requirements, and other options in a configuration file, and Kubernetes takes care of deploying and managing the application.
-Kubernetes guide: Create a Kubernetes deployment first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anti-Scraping Part 1: Core Principles to Deter Scraping]]></title>
-        <id>https://www.netspi.com/?p=30458</id>
-        <link href="https://www.netspi.com/blog/technical/adversary-simulation/anti-scraping-part-1/"/>
-        <updated>2023-06-29T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part one of our anti-scraping series covers five core anti-scraping principles and how they stack up against a fake message board.
-The post Anti-Scraping Part 1: Core Principles to Deter Scraping  appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Noah Dunn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report – Zcash Zebra Security Assessment]]></title>
-        <id>https://research.nccgroup.com/?p=31786</id>
-        <link href="https://research.nccgroup.com/2023/06/29/public-report-zcash-zebra-security-assessment/"/>
-        <updated>2023-06-29T13:06:20.000Z</updated>
-        <summary type="html"><![CDATA[In Spring 2023, the Zcash Foundation engaged NCC Group to conduct a security assessment of the Zebrad application. Zebrad is a network client that participates in the Zcash consensus mechanism by validating blocks, maintaining the blockchain state (best chain and viable non-finalized chains), and gossiping blocks, transactions, and peer addresses. Five consultants performed the review, […]]]></summary>
-        <author>
-            <name>Parnian Alimi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BChecks: Houston, we have a solution!]]></title>
-        <id>bchecks-houston-we-have-a-solution</id>
-        <link href="https://portswigger.net/blog/bchecks-houston-we-have-a-solution"/>
-        <updated>2023-06-29T12:46:10.000Z</updated>
-        <summary type="html"><![CDATA[Scripted scan checks in Burp Suite Professional are now a thing ...  tl;dr Burp Suite Professional now has a powerful yet simple scripting language that allows you to quickly build on our world c]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
         </author>
     </entry>
     <entry>
