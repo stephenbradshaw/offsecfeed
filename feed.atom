@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-01T00:45:29.168Z</updated>
+    <updated>2023-08-02T00:40:08.193Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Claude Data Exfiltration Vulnerability Fixed]]></title>
+        <id>https://embracethered.com/blog/posts/2023/anthropic-fixes-claude-data-exfiltration-via-images/</id>
+        <link href="https://embracethered.com/blog/posts/2023/anthropic-fixes-claude-data-exfiltration-via-images/"/>
+        <updated>2023-08-01T22:15:15.000Z</updated>
+        <summary type="html"><![CDATA[A common attack vector that LLM apps face is data exfiltration, in particular data exfiltration via Image Markdown Injection is a common vulnerability. Microsoft fixed the vulnerability in Bing Chat, ChatGPT is still vulnerable as Open AI “won’t fixed” the issue, and Anthropic just mitigated this vulnerability in Claude.
+This post documents the Anthropic Claude data exfiltration vulnerability and the mitigation put in place.
+The Vulnerability - Image Markdown Injection As a quick recap, imagine a large language model (LLM) returns the following text:]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Terraform AWS provider example]]></title>
+        <id>https://4sysops.com/?p=1575322</id>
+        <link href="https://4sysops.com/archives/a-terraform-aws-provider-example/"/>
+        <updated>2023-08-01T15:08:48.000Z</updated>
+        <summary type="html"><![CDATA[Looking for a beginner's guide to using the Terraform AWS provider? This guide will show you how to easily set up, operate, and manage your AWS infrastructure using HashiCorp’s Infrastructure as Code (IaC) solution. Plus, we'll walk you through a practical example that you can try out on your own AWS account. For this guide, I assume that you are familiar with AWS and that you already have an AWS account with the corresponding security credentials.
+A Terraform AWS provider example first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Konstellation, for Kubernetes RBAC Analysis]]></title>
+        <id>https://www.praetorian.com/?p=4752</id>
+        <link href="https://www.praetorian.com/blog/introducing-konstellation-for-kubernetes-rbac-analysis/"/>
+        <updated>2023-08-01T13:03:01.000Z</updated>
+        <summary type="html"><![CDATA[Praetorian is excited to announce the upcoming release of Konstellation, a new open-source tool that simplifies Kubernetes role-based access control (RBAC) data collection and security analysis. Join us August 10, 2023, at Black Hat Arsenal 2023 for a deeper dive on exactly what this tool can do for you. Kubernetes RBAC is a powerful tool […]
+The post Introducing Konstellation, for Kubernetes RBAC Analysis appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your new best friend: Introducing BloodHound Community Edition]]></title>
+        <id>https://medium.com/p/cb908446e270</id>
+        <link href="https://posts.specterops.io/your-new-best-friend-introducing-bloodhound-community-edition-cb908446e270?source=rss----f05f8696e3cc---4"/>
+        <updated>2023-08-01T12:02:01.000Z</updated>
+        <summary type="html"><![CDATA[Now featuring enterprise-grade deployment, usability, and UI]]></summary>
+        <author>
+            <name>Stephen Hinck</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How AI will affect cybersecurity: What we told the CFTC]]></title>
         <id>https://blog.trailofbits.com/?p=104822</id>
@@ -14,6 +58,17 @@
         <summary type="html"><![CDATA[Dan Guido, CEO The second meeting of the Commodity Futures Trading Commission’s Technology Advisory Committee (TAC) on July 18 focused on the effects of AI on the financial sector. During the meeting, I explained that AI has the potential to fundamentally change the balance between cyber offense and defense, and that we need security-focused benchmarks […]]]></summary>
         <author>
             <name>Dan Guido</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TPM, PIN, Passwords, and SID: Managing BitLocker Key Protectors]]></title>
+        <id>https://4sysops.com/?p=1575306</id>
+        <link href="https://4sysops.com/archives/tpm-pin-passwords-and-sid-managing-bitlocker-key-protectors/"/>
+        <updated>2023-07-31T08:45:12.000Z</updated>
+        <summary type="html"><![CDATA[BitLocker uses symmetric encryption methods to encrypt drives. The key used for this is protected by two encryption layers. On the top layer, different kinds of protectors grant access to the drive. However, not all are equally secure or suitable for all drives.
+TPM, PIN, Passwords, and SID: Managing BitLocker Key Protectors first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
         </author>
     </entry>
     <entry>
@@ -1059,16 +1114,6 @@ Demote a domain controller step by step first appeared on 4sysops.]]></summary>
         <summary type="html"><![CDATA[Description The NSIS uninstaller package did not enforce appropriate permissions on the temporary directory used during the uninstall process. Furthermore, it did not ensure that the temporary directory was removed before running executable content from it. This could potentially result in privilege escalation under certain scenarios. Impact A low-privileged, local attacker could exploit this vulnerability […]]]></summary>
         <author>
             <name>Rich Warren</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Details of CVE-2023-30990 - Unauthenticated RCE in IBM i DDM Service]]></title>
-        <id>https://blog.silentsignal.eu/2023/07/03/ibm-i-dde-vulnerability-cve-2023-30990/</id>
-        <link href="https://blog.silentsignal.eu/2023/07/03/ibm-i-dde-vulnerability-cve-2023-30990/"/>
-        <updated>2023-07-03T06:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Preface]]></summary>
-        <author>
-            <name>Silent Signal Techblog</name>
         </author>
     </entry>
     <entry>
