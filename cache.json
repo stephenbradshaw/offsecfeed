@@ -317,26 +317,6 @@
           "wordCount": 1972,
           "title": "Amazon's Security Researcher Collaboration: Highlights from H1-213",
           "imageUrl": null
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-disclosure/five-takeaways-ohio-secretary-states-vdp-success-story",
-          "author": "Elizabeth Raffa",
-          "description": "\"Cybersecurity is on everyone’s radar, but not everyone knows all the specific details to ensure protection. We know bad actors are constantly looking for cracks in our defenses and applications. That's why it's so important for us to work with ethical hackers. They know what vulnerabilities the bad actors are looking for, and they know how to find them before the bad guys can.\"\n- Jillian Burner, CISO, Ohio Secretary of State",
-          "link": "https://www.hackerone.com/vulnerability-disclosure/five-takeaways-ohio-secretary-states-vdp-success-story",
-          "publishedOn": "2023-07-18T16:00:00.000Z",
-          "wordCount": 3178,
-          "title": "Five Takeaways from Ohio Secretary of State's VDP Success Story",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-07/HAC_Blog_Generative%20AI%20and%20Security%20_Header_763x462_L1R1_1.png"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/adopting-continuous-testing-evolving-threats",
-          "author": "Joe Coletta",
-          "description": "Compounding security debt from daily new releases creates serious challenges for security organizations — especially considering the scarcity of skilled personnel. Point-in-time security measures and an overreliance on automation and AI create a false sense of security that often leaves the door open for attackers.",
-          "link": "https://www.hackerone.com/vulnerability-management/adopting-continuous-testing-evolving-threats",
-          "publishedOn": "2023-07-18T16:00:00.000Z",
-          "wordCount": 2842,
-          "title": "Security Should Never Sleep: Adopting Continuous Testing for Evolving Threats",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-07/HAC_Blog_Continuous%20Security_Header_763x462_L1R1.png"
         }
       ]
     },
@@ -433,6 +413,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=31656",
+          "author": "elenabakoslang",
+          "description": "Introduction This two-part blog series aims to build some intuition for the main techniques that are used to construct lattice-based signatures, focusing in particular on the techniques underlying Falcon and Dilithium, the two lattice-based signature schemes selected for standardization by the National Institute of Standards and Technology (NIST). In part 1 of this two-part blog […]",
+          "link": "https://research.nccgroup.com/2023/08/17/building-intuition-for-lattice-based-signatures-part-2-fiat-shamir-with-aborts/",
+          "publishedOn": "2023-08-17T15:32:31.000Z",
+          "wordCount": 22595,
+          "title": "Building Intuition for Lattice-Based Signatures – Part 2: Fiat-Shamir with Aborts",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/05/figure5_chaum_id_scheme.png"
+        },
         {
           "id": "https://research.nccgroup.com/?p=32628",
           "author": "Global Threat Intelligence",
@@ -568,6 +558,16 @@
       "siteUrl": "https://blog.doyensec.com//atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com//2023/08/17/inql-v5.html",
+          "author": null,
+          "description": "We’re thrilled to pull back the curtain on the latest iteration of our\nwidely-used Burp Suite extension - InQL.\nVersion 5 introduces significant enhancements and upgrades, solidifying its\nplace as an indispensable tool for penetration testers and bug bounty hunters.\nIntroduction\nThe Journey So Far: From Jython to Kotlin    \nThe Challenges of Converting a Burp Extension Into Kotlin\nSidestepping the need for stickytape\nIntroducing GQLSpection: The Core of InQL v5.x\nNew Features    \nPoints of Interest\nImproved Logging\nIn-line Annotations\nThe Future of InQL and GraphQL Security\nInQL: A Great Project for Students and Contributors\nConclusion\n\n\n\nIntroduction\nThe cybersecurity landscape is in a state of constant flux. As GraphQL adoption\nsurges, the demand for an adaptable, resilient testing tool …",
+          "link": "https://blog.doyensec.com//2023/08/17/inql-v5.html",
+          "publishedOn": "2023-08-16T22:00:00.000Z",
+          "wordCount": 1342,
+          "title": "InQL v5: A Technical Deep Dive",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com//2023/07/26/huawei-theme-arbitrary-code-exec.html",
           "author": null,
           "description": "Back in 2019, we were lucky enough to take part in the newly-launched Huawei mobile bug bounty. For that, we decided to research Huawei’s Themes.\nThe Themes Manager allows custom themes on EMUI devices to stylize preferences, and the customization of lock screens, wallpapers and icons. Processes capable of making these types of system-wide changes need to have elevated privileges, making them valuable targets for research as well as exploitation.\nBackground\nWhen it comes to implementing a lockscreen on EMUI, there were three possible engines used:\ncom.ibimuyu.lockscreen\ncom.vlife.huawei.emuilock\ncom.huawei.ucdlockscreen\nWhen installing a theme, the SystemUI.apk verifies the signature of the application attempting to make these changes against a hardcoded list of trusted ones. From what we …",
@@ -688,16 +688,6 @@
           "wordCount": 3072,
           "title": "Fuzzing on-chain contracts with Echidna",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/07/Echidna-run.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=104728",
-          "author": "Trail of Bits",
-          "description": "By Michael Brown and Heidy Khlaaf The Office of Science and Technology Policy (OSTP) has circulated a request for information (RFI) on how best to develop policies that support the responsible development of AI while minimizing risk to rights, safety, and national security. In our response, we highlight the following points: To ensure that AI […]",
-          "link": "https://blog.trailofbits.com/2023/07/18/trail-of-bitss-response-to-ostp-national-priorities-for-ai-rfi/",
-          "publishedOn": "2023-07-18T17:46:44.000Z",
-          "wordCount": 2372,
-          "title": "Trail of Bits’s Response to OSTP National Priorities for AI RFI",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -832,6 +822,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1576054",
+          "author": "Hitesh Jethva",
+          "description": "You can use the Ansible apt module to manage packages that use the apt package manager on Debian-based Linux distributions, such as Ubuntu. The module allows you to perform all basic package management operations, such as installing, removing, and updating the packages.\nInstall Ubuntu packages with the Ansible apt module first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/install-ubuntu-packages-with-the-ansible-apt-module/",
+          "publishedOn": "2023-08-17T13:48:14.000Z",
+          "wordCount": 4988,
+          "title": "Install Ubuntu packages with the Ansible apt module",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Adding-Docker-GPG-key-and-repository-and-installing-the-Docker-packages-on-the-target-server-600x287.png"
+        },
         {
           "id": "https://4sysops.com/?p=1576032",
           "author": "Wolfgang Sommergut",
@@ -1041,16 +1041,6 @@
           "wordCount": 3759,
           "title": "Connect to Exchange Online with PowerShell and certificate-based authentication",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2018/07/PowerShell-Social.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1572577",
-          "author": "Brandon Lee",
-          "description": "An in-depth look at PA File Sight's Windows file auditing and ransomware protection features, their importance, and their role in enterprise security.\nWindows file auditing and ransomware protection with PA File Sight first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/windows-file-auditing-and-ransomware-protection-with-pa-file-sight/",
-          "publishedOn": "2023-07-18T14:59:09.000Z",
-          "wordCount": 4465,
-          "title": "Windows file auditing and ransomware protection with PA File Sight",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/PA-File-Sight-architecture-600x300.png"
         }
       ]
     },
@@ -1135,16 +1125,6 @@
           "publishedOn": "2023-08-02T05:12:38.000Z",
           "wordCount": 2368,
           "title": "Have you been compromised?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=27270",
-          "author": "Lee Parkes",
-          "description": "Nearly 10 years ago my colleague wrote a cracking post on exposed Git repositories. 10 years is a long time in cyber security, but you’d be surprised how many things […]\nExposed Gits: 10 Years on first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/exposed-gits-10-years-on/",
-          "publishedOn": "2023-07-19T05:33:57.000Z",
-          "wordCount": 1881,
-          "title": "Exposed Gits: 10 Years on",
           "imageUrl": null
         }
       ]
@@ -1496,6 +1476,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=83550",
+          "author": "Aleksandar Milenkoski",
+          "description": "Threat actors abuse Adobe Creative Cloud, Edge, and other executables vulnerable to DLL hijacking in campaign targeting the Southeast Asian gambling sector.",
+          "link": "https://www.sentinelone.com/labs/chinese-entanglement-dll-hijacking-in-the-asian-gambling-sector/",
+          "publishedOn": "2023-08-17T09:55:08.000Z",
+          "wordCount": 4398,
+          "title": "Chinese Entanglement | DLL Hijacking in the Asian Gambling Sector",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/08/Chinese-Entanglement-DLL-Hijacking-in-the-Asian-Gambling-Sector-By-Aleksandar-Milenkoski-and-Tom-Hegel-5.jpg",
+            "length": "560103",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/08/Chinese-Entanglement-DLL-Hijacking-in-the-Asian-Gambling-Sector-By-Aleksandar-Milenkoski-and-Tom-Hegel-5.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=83314",
           "author": "Tom Hegel",
           "description": "North Korean threat actors attempt to further missile program by compromising sanctioned Russian defense company with OpenCarrot backdoor.",
@@ -1628,26 +1623,6 @@
           "wordCount": 3750,
           "title": "Introducing jsluice: The Why Behind JavaScript Gold Mining (Part 1)",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-jsluice-tool-Part1_OG.jpg?mtime=1689111424"
-        },
-        {
-          "id": "https://bishopfox.com/blog/cloud-offensive-security-ponemon-institute",
-          "author": "Beth Robinson",
-          "description": "In this blog, we explore how offensive security solutions are implemented by mature organizations to proactively protect cloud environments.",
-          "link": "https://bishopfox.com/blog/cloud-offensive-security-ponemon-institute",
-          "publishedOn": "2023-07-18T15:00:00.000Z",
-          "wordCount": 1981,
-          "title": "Cloud Offensive Security: 2023 Insights From the Ponemon Institute",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/2023Q3_CAMP_Report_Ponemon_Blog_CloudCut_OG.jpg?mtime=1689615143"
-        },
-        {
-          "id": "https://bishopfox.com/blog/cloud-offensive-security-2023-insights-from-the-ponemon-institute",
-          "author": "Beth Robinson",
-          "description": "In this blog, we explore how offensive security solutions are implemented by mature organizations to proactively protect cloud environments.",
-          "link": "https://bishopfox.com/blog/cloud-offensive-security-2023-insights-from-the-ponemon-institute",
-          "publishedOn": "2023-07-18T15:00:00.000Z",
-          "wordCount": 1975,
-          "title": "Cloud Offensive Security: 2023 Insights From the Ponemon Institute",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/2023Q3_CAMP_Report_Ponemon_Blog_CloudCut_OG.jpg?mtime=1689615143"
         }
       ]
     },
