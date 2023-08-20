@@ -374,17 +374,6 @@
           "title": "Exploiting a Flaw in Bitmap Handling in Windows User-Mode Printer Drivers",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64b84d887cb6720b78392146",
-          "author": "Trend Micro Research Team",
-          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in Progress MOVEit Transfer. This bug was originally discovered by Trend Micro Vulnerability Researcher Guy Lederfein and is the same type of vulnerability being used by the Cl0p ransomware gang to exfiltrate data. A crafted request can trigger the execution of SQL queries composed from a user-supplied string. An attacker can leverage this vulnerability to execute code in the context of the “moveitsvc” user. The following is a portion of their write-up covering CVE-2023-36934, with a few minimal modifications.\nAn SQL injection vulnerability has been reported for Progress MOVEit Tra…",
-          "link": "https://www.thezdi.com/blog/2023/7/19/cve-2023-36934-progress-software-moveit-transfer-sql-injection-remote-code-execution-vulnerability",
-          "publishedOn": "2023-07-20T15:55:23.000Z",
-          "wordCount": null,
-          "title": "CVE-2023-36934: Progress Software MOVEit Transfer SQL Injection Remote Code Execution Vulnerability",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -482,16 +471,6 @@
           "wordCount": 25721,
           "title": "Building Intuition for Lattice-Based Signatures – Part 1: Trapdoor Signatures",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/05/figure1_lattice_bases.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=31427",
-          "author": "Austin Peavy",
-          "description": "Cartographer is a Ghidra plugin that creates a visual \"map\" of code coverage data, enabling researchers to easily see what parts of a program are executed. It has a wide range of uses, such as better understanding a program, honing in on target functionality, or even discovering unused content in video games.",
-          "link": "https://research.nccgroup.com/2023/07/20/tool-release-cartographer/",
-          "publishedOn": "2023-07-20T21:06:00.000Z",
-          "wordCount": 19778,
-          "title": "Tool Release: Cartographer",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/06/screenshot.png"
         }
       ]
     },
@@ -698,16 +677,6 @@
           "wordCount": 2204,
           "title": "Announcing the Trail of Bits Testing Handbook",
           "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=104755",
-          "author": "Trail of Bits",
-          "description": "By Guillermo Larregay and Elvis Skozdopolj With the release of version 2.1.0 of Echidna, our fuzzing tool for Ethereum smart contracts, we’ve introduced new features for direct retrieval of on-chain data, such as contract code and storage slot values. This data can be used to fuzz deployed contracts in their on-chain state or to test […]",
-          "link": "https://blog.trailofbits.com/2023/07/21/fuzzing-on-chain-contracts-with-echidna/",
-          "publishedOn": "2023-07-21T11:00:31.000Z",
-          "wordCount": 3072,
-          "title": "Fuzzing on-chain contracts with Echidna",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/07/Echidna-run.png"
         }
       ]
     },
@@ -741,16 +710,6 @@
           "wordCount": 1237,
           "title": "Public Browser Exploitation Training – Fall 2023",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2144",
-          "author": "Exodus Intel VRT",
-          "description": "By Vignesh Rao Overview In this blog post, we describe a method to exploit an integer overflow in Apple WebKit due to a vulnerability resulting from incorrect range computations when optimizing Javascript code. This research was conducted along with Martin Saar in 2020. We show how to convert this integer overflow into a stable out-of-bounds ... Read more Shifting boundaries: Exploiting an Integer Overflow in Apple Safari\nThe post Shifting boundaries: Exploiting an Integer Overflow in Apple Safari appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/07/20/shifting-boundaries-exploiting-an-integer-overflow-in-apple-safari/",
-          "publishedOn": "2023-07-20T18:45:49.000Z",
-          "wordCount": 7288,
-          "title": "Shifting boundaries: Exploiting an Integer Overflow in Apple Safari",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2023/07/code_representation-1.png"
         }
       ]
     },
@@ -1051,16 +1010,6 @@
           "wordCount": 5623,
           "title": "Install Git Bash on Windows with git command examples",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Connecting-to-the-GitHub-account-600x331.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1572625",
-          "author": "Timothy Warner",
-          "description": "Ansible is an open-source configuration management platform from Red Hat. So isn't Ansible a Linux-only solution? While it is indeed primarily for Linux configuration management, you can, in fact, install Ansible on Windows.\nInstall Ansible on Windows first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/install-ansible-on-windows/",
-          "publishedOn": "2023-07-20T19:31:08.000Z",
-          "wordCount": 4446,
-          "title": "Install Ansible on Windows",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Viewing-playbook-run-state-in-WSL-600x264.png"
         }
       ]
     },
@@ -1154,6 +1103,26 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/hope-for-the-best-prepare-for-the-worst-how-to-prepare-for-cloud-dfir",
+          "author": null,
+          "description": "n this blog post, we provide specific steps that can be taken to significantly improve your organization's cloud incident response efficiency and efficacy. We focused on expanding cloud logging capabilities, providing access and resources to responders, and developing an understanding of your cloud environment. This list is by no means exhaustive, and is instead meant to provide a starting point for your cloud DFIR journey, and strengthen your organization’s overall security posture.",
+          "link": "https://www.sans.org/blog/hope-for-the-best-prepare-for-the-worst-how-to-prepare-for-cloud-dfir?msc=rss",
+          "publishedOn": "2023-08-19T00:00:00.000Z",
+          "wordCount": 5640,
+          "title": "Hope for the Best, Prepare for the Worst: How to prepare for cloud DFIR",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-cloud-security-exchange-2023",
+          "author": null,
+          "description": "Check out these graphic recordings created in real-time throughout the event for SANS Cloud Security Exchange 2023.",
+          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-cloud-security-exchange-2023?msc=rss",
+          "publishedOn": "2023-08-18T00:00:00.000Z",
+          "wordCount": 2659,
+          "title": "A Visual Summary of SANS Cloud Security Exchange 2023",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/brand-new-course-ldr521-security-culture-for-leaders",
           "author": null,
@@ -1302,16 +1271,6 @@
           "publishedOn": "2023-07-22T00:00:00.000Z",
           "wordCount": 4380,
           "title": "Microsoft 365 Cloud Log Extraction",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/cybersecurity-jobs-media-exploitation-analyst-ja",
-          "author": null,
-          "description": "メディアエクスプロイテーションアナリストの主な業務や、スキルアップのためのSANSのおすすめのコースを紹介します！",
-          "link": "https://www.sans.org/blog/cybersecurity-jobs-media-exploitation-analyst-ja?msc=rss",
-          "publishedOn": "2023-07-21T00:00:00.000Z",
-          "wordCount": 2273,
-          "title": "Cybersecurity Jobs: Media Exploitation Analyst (Japanese)",
           "imageUrl": null
         }
       ]
@@ -1588,26 +1547,6 @@
           "wordCount": 2023,
           "title": "Citrix ADC Gateway RCE: CVE-2023-3519 is Exploitable, and 53% of Servers Are Unpatched",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/Bishop-Fox-Labs-Citrix-ADC-RCE-CVE-2023-3519-Vulnerability-OG.jpg?mtime=1689962428"
-        },
-        {
-          "id": "https://bishopfox.com/blog/jsluice-javascript-technical-deep-dive",
-          "author": "Tom Hudson",
-          "description": "Join us for a technical deep-dive of jsluice, an open-source mining tool for JavaScript code and files.",
-          "link": "https://bishopfox.com/blog/jsluice-javascript-technical-deep-dive",
-          "publishedOn": "2023-07-20T13:00:00.000Z",
-          "wordCount": 3895,
-          "title": "Introducing jsluice: A Technial Deep-Dive for JavaScript Gold (Part 2)",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-jsluice-tool-Part2_OG.jpg?mtime=1689202935"
-        },
-        {
-          "id": "https://bishopfox.com/blog/jsluice-javascript-gold-mining",
-          "author": "Tom Hudson",
-          "description": "Learn how to use jsluice, an open-source, Go package and command-line tool used to extract information from JavaScript files and code.",
-          "link": "https://bishopfox.com/blog/jsluice-javascript-gold-mining",
-          "publishedOn": "2023-07-20T13:00:00.000Z",
-          "wordCount": 3750,
-          "title": "Introducing jsluice: The Why Behind JavaScript Gold Mining (Part 1)",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-jsluice-tool-Part1_OG.jpg?mtime=1689111424"
         }
       ]
     },
