@@ -97,16 +97,6 @@
           "wordCount": 1036,
           "title": "New techniques and tools for web race conditions",
           "imageUrl": "https://portswigger.net/cms/images/1b/14/74e1-twittercard-race-conditions-repeater-social.png"
-        },
-        {
-          "id": "the-top-10-community-created-bchecks-so-far",
-          "author": null,
-          "description": "We recently launched BChecks, scripted scan checks that allow you to create customized scans without the hassle of learning advanced programming. We've shortlisted the top ten BChecks (so far) that ha",
-          "link": "https://portswigger.net/blog/the-top-10-community-created-bchecks-so-far",
-          "publishedOn": "2023-07-24T14:09:24.000Z",
-          "wordCount": 1467,
-          "title": "The top 10 community-created BChecks, so far ...",
-          "imageUrl": "https://portswigger.net/cms/images/55/8e/6c97-twittercard-c6d4-article-bcheck_awesomeness_blog-article.png"
         }
       ]
     },
@@ -355,6 +345,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64e508402d244533b97a0bce",
+          "author": "Trend Micro Research Team",
+          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Simon Humbert and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the XWiki free wiki software platform. This bug was originally discovered by Michael Hamann with public Proof-of-Concept (PoC) code provided by Manuel Leduc. Successful exploitation of this vulnerability would allow an authenticated attacker to perform an arbitrary code injection on affected systems. The following is a portion of their write-up covering CVE-2023-35150, with a few minimal modifications.\nA code injection vulnerability has been reported in the XWiki.Org XWiki. The vulnerability is due to improper input validation when rendering a link in the Invitation Application.…",
+          "link": "https://www.thezdi.com/blog/2023/8/22/cve-2023-35150-arbitrary-code-injection-in-xwikiorg-xwiki",
+          "publishedOn": "2023-08-23T15:46:33.000Z",
+          "wordCount": null,
+          "title": "CVE-2023-35150: Arbitrary Code Injection in XWiki.org XWiki",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64cc1aed8ada730e80dab699",
           "author": "Dustin Childs",
           "description": "Greetings from hacker summer camp! Black Hat and DEFCON start this week, but let’s kick everything off with Patch Tuesday and the latest security offerings from Adobe and Microsoft. Take a break from your regularly scheduled activities and join us as we review the details of their latest advisories. If you’d rather watch the video recap, you can check it out here.\nAdobe Patches for August 2023\nFor August, Adobe released four patches addressing 37 CVEs in Adobe Acrobat and Reader, Commerce, Dimension, and the Adobe XMP Toolkit SDK. A total of 28 of these CVEs came through the ZDI program. The update for Reader is the largest, clocking in with 30 CVEs. The most severe of these are rated Critical and would allow code execution when opening a specially crafted PDF. The update for Commerce fixe…",
@@ -413,6 +414,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://ncc-blog.pixelpreview.net/?p=26709",
+          "author": "Jeremy Boone",
+          "description": "Back in October of 2022, this announcement by AMI caught my eye. AMI has contributed a product named “Tektagon Open Edition” to the Open Compute Project (OCP).  Tektagon OpenEdition is an open-source Platform Root of Trust (PRoT) solution with foundational firmware security features that detect platform firmware corruption, recover the firmware and protect firmware integrity. […]",
+          "link": "https://research.nccgroup.com/2023/08/23/leapfrogging-pfr-implementations/",
+          "publishedOn": "2023-08-23T13:51:37.000Z",
+          "wordCount": 20404,
+          "title": "LeaPFRogging PFR Implementations",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/04/Simple_PFR_Diagram.png?fit=412%2C317&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=30601",
           "author": "Paul Bottinelli",
@@ -482,16 +493,6 @@
           "wordCount": 20424,
           "title": "Intel BIOS Advisory – Memory Corruption in HID Drivers",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/08/hid.png"
-        },
-        {
-          "id": "https://ncc-blog.pixelpreview.net/?p=26782",
-          "author": "elenabakoslang",
-          "description": "Introduction Since the first lattice-based cryptography results in [Ajtai96], lattices have become a central building block in quantum-resistant cryptosystems. Based on solving systems of linear equations, lattice-based cryptography adds size constraints or error terms to linear systems of equations, turning them into quantum-computer resistant one-way or trapdoor functions. Since the first theoretical cryptosystems of the […]",
-          "link": "https://research.nccgroup.com/2023/07/24/building-intuition-for-lattice-based-signatures-part-1-trapdoor-signatures/",
-          "publishedOn": "2023-07-24T22:00:45.000Z",
-          "wordCount": 25721,
-          "title": "Building Intuition for Lattice-Based Signatures – Part 1: Trapdoor Signatures",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/05/figure1_lattice_bases.png"
         }
       ]
     },
@@ -640,6 +641,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=104911",
+          "author": "Trail of Bits",
+          "description": "By Benjamin Samuels Many security-critical off-chain applications use a simple block delay to determine finality: the point at which a transaction becomes immutable in a blockchain’s ledger (and is impossible to “undo” without extreme economic cost). But this is inadequate for most networks, and can become a single point of failure for the centralized exchanges, […]",
+          "link": "https://blog.trailofbits.com/2023/08/23/the-engineers-guide-to-blockchain-finality/",
+          "publishedOn": "2023-08-23T11:00:53.000Z",
+          "wordCount": 5370,
+          "title": "The Engineer’s Guide to Blockchain Finality",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/08/figure7.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=104675",
           "author": "Trail of Bits",
           "description": "One of the biggest challenges for blockchain developers is objectively assessing their security posture and measuring how it progresses. To address this issue, a working group of Web3 security experts, led by Trail of Bits CEO Dan Guido, met earlier this year to create a simple test for profiling the security of blockchain teams. We […]",
@@ -712,6 +723,16 @@
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2158",
+          "author": "Exodus Intel VRT",
+          "description": "EIP-b5185f25 A stack-based buffer overflow exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-b5185f25 MITRE: CVE-2023-41028 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline ... Read more Juplink RX4-1500 Stack-based Buffer Overflow Vulnerability\nThe post Juplink RX4-1500 Stack-based Buffer Overflow Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2023/08/23/juplink-rx4-1500-stack-based-buffer-overflow-vulnerability/",
+          "publishedOn": "2023-08-23T21:36:24.000Z",
+          "wordCount": 1062,
+          "title": "Juplink RX4-1500 Stack-based Buffer Overflow Vulnerability",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.exodusintel.com/?p=2153",
           "author": "exodusintel",
@@ -833,6 +854,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1576130",
+          "author": "Brandon Lee",
+          "description": "Learn how to manipulate text in Linux using the powerful sed command. This post covers sed command examples of finding and replacing text based on text matching, case-insensitive operations and position, deleting lines based on position and pattern, appending text, writing to a new file, and printing specific lines.\nTen sed command examples first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/ten-sed-command-examples/",
+          "publishedOn": "2023-08-23T15:47:56.000Z",
+          "wordCount": 4304,
+          "title": "Ten sed command examples",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/The-sed-command-has-properly-inserted-the-text-600x320.png"
+        },
         {
           "id": "https://4sysops.com/?p=1576107",
           "author": "Surender Kumar",
@@ -1042,16 +1073,6 @@
           "wordCount": 4059,
           "title": "Run Exchange Online commands using Azure Automation",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Install-PowerShell-modules-600x301.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1572710",
-          "author": "Wolfgang Sommergut",
-          "description": "By default, BitLocker is configured to release the volume master key (VMK) solely through the TPM. However, this might not adequately protect the VMK if a notebook falls into the wrong hands. Therefore, Microsoft recommends two-factor authentication using an additional PIN or startup key.\nSecure BitLocker key with a PIN first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/secure-bitlocker-key-with-a-pin/",
-          "publishedOn": "2023-07-24T16:07:50.000Z",
-          "wordCount": 4046,
-          "title": "Secure BitLocker key with a PIN",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/When-activating-BitLocker-via-the-command-line-you-must-adhere-to-the-settings-in-the-GPO-600x327.png"
         }
       ]
     },
@@ -1304,16 +1325,6 @@
           "wordCount": 5624,
           "title": "The Role of Mentorship in Cyber Threat Intelligence (Part 1)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/sans-2023-security-awareness-report-managing-human-risk",
-          "author": null,
-          "description": "A blog about the SANS 2023 Security Awareness Report which provides practical, actionable information to increase your security awareness team’s maturity",
-          "link": "https://www.sans.org/blog/sans-2023-security-awareness-report-managing-human-risk?msc=rss",
-          "publishedOn": "2023-07-25T00:00:00.000Z",
-          "wordCount": 3542,
-          "title": "SANS 2023 Security Awareness Report: Managing Human Risk",
-          "imageUrl": null
         }
       ]
     },
@@ -1330,16 +1341,6 @@
           "publishedOn": "2023-08-01T22:15:15.000Z",
           "wordCount": 757,
           "title": "Anthropic Claude Data Exfiltration Vulnerability Fixed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2023/chatgpt-custom-instruction-post-exploitation-data-exfiltration/",
-          "author": null,
-          "description": "ChatGPT is vulnerable to data exfiltration via image markdown injections. This. is. pretty well known.\nAs more features are added to ChatGPT the exfiltration angle becomes more likely to be abused.\nRecently OpenAI added Custom Instructions, which allow to have ChatGPT always automatically append instructions to every message exchange.\nAn adversary can abuse this feature to install a data exfiltration backdoor that depends on, and only works because of the image markdown injection vulnerability.",
-          "link": "https://embracethered.com/blog/posts/2023/chatgpt-custom-instruction-post-exploitation-data-exfiltration/",
-          "publishedOn": "2023-07-24T14:26:41.000Z",
-          "wordCount": 399,
-          "title": "ChatGPT Custom Instructions: Persistent Data Exfiltration Demo",
           "imageUrl": null
         }
       ]
@@ -1550,6 +1551,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/bishop-fox-recap-hacker-summer-camp-2023",
+          "author": "Beth Robinson",
+          "description": "Get a Bishop Fox recap of the 2023 Hacker Summer Camp in Las Vegas.",
+          "link": "https://bishopfox.com/blog/bishop-fox-recap-hacker-summer-camp-2023",
+          "publishedOn": "2023-08-23T13:00:00.000Z",
+          "wordCount": 2081,
+          "title": "A Bishop Fox Recap - Hacker Summer Camp 2023",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Hacker-Summer-Camp-2023_OG.jpg?mtime=1692650177"
+        },
         {
           "id": "https://bishopfox.com/blog/breaking-into-secure-facilities-with-osdp",
           "author": "Dan Petro",

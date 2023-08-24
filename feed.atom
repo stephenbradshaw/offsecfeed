@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-23T00:31:58.192Z</updated>
+    <updated>2023-08-24T00:31:52.732Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Juplink RX4-1500 Stack-based Buffer Overflow Vulnerability]]></title>
+        <id>https://blog.exodusintel.com/?p=2158</id>
+        <link href="https://blog.exodusintel.com/2023/08/23/juplink-rx4-1500-stack-based-buffer-overflow-vulnerability/"/>
+        <updated>2023-08-23T21:36:24.000Z</updated>
+        <summary type="html"><![CDATA[EIP-b5185f25 A stack-based buffer overflow exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-b5185f25 MITRE: CVE-2023-41028 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline ... Read more Juplink RX4-1500 Stack-based Buffer Overflow Vulnerability
+The post Juplink RX4-1500 Stack-based Buffer Overflow Vulnerability appeared first on Exodus Intelligence.]]></summary>
+        <author>
+            <name>Exodus Intel VRT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ten sed command examples]]></title>
+        <id>https://4sysops.com/?p=1576130</id>
+        <link href="https://4sysops.com/archives/ten-sed-command-examples/"/>
+        <updated>2023-08-23T15:47:56.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to manipulate text in Linux using the powerful sed command. This post covers sed command examples of finding and replacing text based on text matching, case-insensitive operations and position, deleting lines based on position and pattern, appending text, writing to a new file, and printing specific lines.
+Ten sed command examples first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-35150: Arbitrary Code Injection in XWiki.org XWiki]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64e508402d244533b97a0bce</id>
+        <link href="https://www.thezdi.com/blog/2023/8/22/cve-2023-35150-arbitrary-code-injection-in-xwikiorg-xwiki"/>
+        <updated>2023-08-23T15:46:33.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Simon Humbert and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the XWiki free wiki software platform. This bug was originally discovered by Michael Hamann with public Proof-of-Concept (PoC) code provided by Manuel Leduc. Successful exploitation of this vulnerability would allow an authenticated attacker to perform an arbitrary code injection on affected systems. The following is a portion of their write-up covering CVE-2023-35150, with a few minimal modifications.
+A code injection vulnerability has been reported in the XWiki.Org XWiki. The vulnerability is due to improper input validation when rendering a link in the Invitation Application.…]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LeaPFRogging PFR Implementations]]></title>
+        <id>https://ncc-blog.pixelpreview.net/?p=26709</id>
+        <link href="https://research.nccgroup.com/2023/08/23/leapfrogging-pfr-implementations/"/>
+        <updated>2023-08-23T13:51:37.000Z</updated>
+        <summary type="html"><![CDATA[Back in October of 2022, this announcement by AMI caught my eye. AMI has contributed a product named “Tektagon Open Edition” to the Open Compute Project (OCP).  Tektagon OpenEdition is an open-source Platform Root of Trust (PRoT) solution with foundational firmware security features that detect platform firmware corruption, recover the firmware and protect firmware integrity. […]]]></summary>
+        <author>
+            <name>Jeremy Boone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bishop Fox Recap - Hacker Summer Camp 2023]]></title>
+        <id>https://bishopfox.com/blog/bishop-fox-recap-hacker-summer-camp-2023</id>
+        <link href="https://bishopfox.com/blog/bishop-fox-recap-hacker-summer-camp-2023"/>
+        <updated>2023-08-23T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Get a Bishop Fox recap of the 2023 Hacker Summer Camp in Las Vegas.]]></summary>
+        <author>
+            <name>Beth Robinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Engineer’s Guide to Blockchain Finality]]></title>
+        <id>https://blog.trailofbits.com/?p=104911</id>
+        <link href="https://blog.trailofbits.com/2023/08/23/the-engineers-guide-to-blockchain-finality/"/>
+        <updated>2023-08-23T11:00:53.000Z</updated>
+        <summary type="html"><![CDATA[By Benjamin Samuels Many security-critical off-chain applications use a simple block delay to determine finality: the point at which a transaction becomes immutable in a blockchain’s ledger (and is impossible to “undo” without extreme economic cost). But this is inadequate for most networks, and can become a single point of failure for the centralized exchanges, […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to a create a Kubernetes Secret]]></title>
         <id>https://4sysops.com/?p=1576107</id>
@@ -1142,60 +1205,6 @@ Run Exchange Online commands using Azure Automation first appeared on 4sysops.]]
 -	Travis Lee, Senior Manager, Offensive Security]]></summary>
         <author>
             <name>elizabeth@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SANS 2023 Security Awareness Report: Managing Human Risk]]></title>
-        <id>https://www.sans.org/blog/sans-2023-security-awareness-report-managing-human-risk</id>
-        <link href="https://www.sans.org/blog/sans-2023-security-awareness-report-managing-human-risk?msc=rss"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the SANS 2023 Security Awareness Report which provides practical, actionable information to increase your security awareness team’s maturity]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Intuition for Lattice-Based Signatures – Part 1: Trapdoor Signatures]]></title>
-        <id>https://ncc-blog.pixelpreview.net/?p=26782</id>
-        <link href="https://research.nccgroup.com/2023/07/24/building-intuition-for-lattice-based-signatures-part-1-trapdoor-signatures/"/>
-        <updated>2023-07-24T22:00:45.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Since the first lattice-based cryptography results in [Ajtai96], lattices have become a central building block in quantum-resistant cryptosystems. Based on solving systems of linear equations, lattice-based cryptography adds size constraints or error terms to linear systems of equations, turning them into quantum-computer resistant one-way or trapdoor functions. Since the first theoretical cryptosystems of the […]]]></summary>
-        <author>
-            <name>elenabakoslang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure BitLocker key with a PIN]]></title>
-        <id>https://4sysops.com/?p=1572710</id>
-        <link href="https://4sysops.com/archives/secure-bitlocker-key-with-a-pin/"/>
-        <updated>2023-07-24T16:07:50.000Z</updated>
-        <summary type="html"><![CDATA[By default, BitLocker is configured to release the volume master key (VMK) solely through the TPM. However, this might not adequately protect the VMK if a notebook falls into the wrong hands. Therefore, Microsoft recommends two-factor authentication using an additional PIN or startup key.
-Secure BitLocker key with a PIN first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT Custom Instructions: Persistent Data Exfiltration Demo]]></title>
-        <id>https://embracethered.com/blog/posts/2023/chatgpt-custom-instruction-post-exploitation-data-exfiltration/</id>
-        <link href="https://embracethered.com/blog/posts/2023/chatgpt-custom-instruction-post-exploitation-data-exfiltration/"/>
-        <updated>2023-07-24T14:26:41.000Z</updated>
-        <summary type="html"><![CDATA[ChatGPT is vulnerable to data exfiltration via image markdown injections. This. is. pretty well known.
-As more features are added to ChatGPT the exfiltration angle becomes more likely to be abused.
-Recently OpenAI added Custom Instructions, which allow to have ChatGPT always automatically append instructions to every message exchange.
-An adversary can abuse this feature to install a data exfiltration backdoor that depends on, and only works because of the image markdown injection vulnerability.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The top 10 community-created BChecks, so far ...]]></title>
-        <id>the-top-10-community-created-bchecks-so-far</id>
-        <link href="https://portswigger.net/blog/the-top-10-community-created-bchecks-so-far"/>
-        <updated>2023-07-24T14:09:24.000Z</updated>
-        <summary type="html"><![CDATA[We recently launched BChecks, scripted scan checks that allow you to create customized scans without the hassle of learning advanced programming. We've shortlisted the top ten BChecks (so far) that ha]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
         </author>
     </entry>
     <entry>
