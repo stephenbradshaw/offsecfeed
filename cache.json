@@ -224,6 +224,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10092",
+          "author": "Didier Stevens",
+          "description": "Some new options for my tool sortcanon.py to handle more inputs. A bit of context: when one sorts a list of IPv4 addresses as text, one gets a result as follows. Take this list: Just sorting this gives this result: The IPv4 address starting with 185 comes first, because by default, sorting is string based […]",
+          "link": "https://blog.didierstevens.com/2023/08/27/update-sortcanon-py-version-0-0-3/",
+          "publishedOn": "2023-08-27T17:44:56.000Z",
+          "wordCount": 3086,
+          "title": "Update: sortcanon.py Version 0.0.3",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2023/08/20230827-181855.png"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10090",
           "author": "Didier Stevens",
           "description": "Here is an overview of content I published in July: Blog posts: Update: zipdump.py Version 0.0.27 SANS ISC Diary entries: YARA Error Codes",
@@ -726,18 +736,7 @@
       "title": "The Human Machine Interface",
       "feedUrl": "https://h0mbre.github.io/feed.xml",
       "siteUrl": "https://h0mbre.github.io/",
-      "articles": [
-        {
-          "id": "https://h0mbre.github.io/kCTF_Data_Only_Exploit/",
-          "author": null,
-          "description": "Introduction I’ve been doing some Linux kernel exploit development/study and vulnerability research off and on since last Fall and a few months ago I had some downtime on vacation to sit and challenge myself to write my first data-only exploit for a real bug that was exploited in kCTF. io_ring has been a popular target in the program’s history up to this point, so I thought I’d find an easy-to-reason-about bug there that had already been exploited as fertile ground for exploit development creativity. The bug I chose to work with was one which resulted in a struct file UAF where it was possible to hold an open file descriptor to the freed object. There have been quite a few write-ups on file UAF exploits, so I decided as a challenge that my exploit had to be data-only. The parameters of the self-imposed challenge were completely arbitrary, but I just wanted to try writing an exploit that didn’t rely on hijacking control flow. I have written quite a few Linux kernel exploits of real kCTF bugs at this point, probably 5-6 as practice, just starting with the vulnerability and going from there, but all of them have ended up in me using ROP, so this was my first try at data-only. I also had not seen a data-only exploit for a struct file UAF yet, which was encouraging as it seemed it was worthwile “research”. Also, before we get too far, please do not message me to tell me that someone already did xyz years prior. I’m very new to this type of thing and was just doing this as a personal challenge, if some aspects of the exploit are unoriginal, that is by coincidence. I will do my best to cite all my inspiration as we go.",
-          "link": "https://h0mbre.github.io/kCTF_Data_Only_Exploit/",
-          "publishedOn": "2023-07-29T04:00:00.000Z",
-          "wordCount": 1862,
-          "title": "Escaping the Google kCTF Container with a Data-Only Exploit",
-          "imageUrl": "https://h0mbre.github.io/assets/images/avatar.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The Exploit Laboratory",
@@ -1014,16 +1013,6 @@
           "wordCount": 4624,
           "title": "TPM, PIN, Passwords, and SID: Managing BitLocker Key Protectors",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Key-protectors-based-on-the-Trusted-Platform-Modules-TPM-600x413.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1575288",
-          "author": "Brandon Lee",
-          "description": "Discover Rancher Desktop, a free, open-source solution for seamless Kubernetes and container management on your desktop, allowing you to run the Kubernetes version of your choice on a Windows, macOS, or Linux desktop.\nRancher Desktop: Kubernetes for your Windows, macOS, or Linux desktop first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/rancher-desktop-kubernetes-for-your-windows-macos-or-linux-desktop/",
-          "publishedOn": "2023-07-28T19:18:53.000Z",
-          "wordCount": 4101,
-          "title": "Rancher Desktop: Kubernetes for your Windows, macOS, or Linux desktop",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/07/Rancher-Desktop-high-level-architecture-overview-600x284.png"
         }
       ]
     },

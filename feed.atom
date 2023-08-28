@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-27T00:34:42.882Z</updated>
+    <updated>2023-08-28T00:33:26.223Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: sortcanon.py Version 0.0.3]]></title>
+        <id>http://blog.didierstevens.com/?p=10092</id>
+        <link href="https://blog.didierstevens.com/2023/08/27/update-sortcanon-py-version-0-0-3/"/>
+        <updated>2023-08-27T17:44:56.000Z</updated>
+        <summary type="html"><![CDATA[Some new options for my tool sortcanon.py to handle more inputs. A bit of context: when one sorts a list of IPv4 addresses as text, one gets a result as follows. Take this list: Just sorting this gives this result: The IPv4 address starting with 185 comes first, because by default, sorting is string based […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overview of Content Published in July]]></title>
         <id>http://blog.didierstevens.com/?p=10090</id>
@@ -1154,27 +1164,6 @@ TPM, PIN, Passwords, and SID: Managing BitLocker Key Protectors first appeared o
         <summary type="html"><![CDATA[This is a blog explaining "what is cloud infrastructure?" by Chris Edmundson]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Escaping the Google kCTF Container with a Data-Only Exploit]]></title>
-        <id>https://h0mbre.github.io/kCTF_Data_Only_Exploit/</id>
-        <link href="https://h0mbre.github.io/kCTF_Data_Only_Exploit/"/>
-        <updated>2023-07-29T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction I’ve been doing some Linux kernel exploit development/study and vulnerability research off and on since last Fall and a few months ago I had some downtime on vacation to sit and challenge myself to write my first data-only exploit for a real bug that was exploited in kCTF. io_ring has been a popular target in the program’s history up to this point, so I thought I’d find an easy-to-reason-about bug there that had already been exploited as fertile ground for exploit development creativity. The bug I chose to work with was one which resulted in a struct file UAF where it was possible to hold an open file descriptor to the freed object. There have been quite a few write-ups on file UAF exploits, so I decided as a challenge that my exploit had to be data-only. The parameters of the self-imposed challenge were completely arbitrary, but I just wanted to try writing an exploit that didn’t rely on hijacking control flow. I have written quite a few Linux kernel exploits of real kCTF bugs at this point, probably 5-6 as practice, just starting with the vulnerability and going from there, but all of them have ended up in me using ROP, so this was my first try at data-only. I also had not seen a data-only exploit for a struct file UAF yet, which was encouraging as it seemed it was worthwile “research”. Also, before we get too far, please do not message me to tell me that someone already did xyz years prior. I’m very new to this type of thing and was just doing this as a personal challenge, if some aspects of the exploit are unoriginal, that is by coincidence. I will do my best to cite all my inspiration as we go.]]></summary>
-        <author>
-            <name>The Human Machine Interface</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rancher Desktop: Kubernetes for your Windows, macOS, or Linux desktop]]></title>
-        <id>https://4sysops.com/?p=1575288</id>
-        <link href="https://4sysops.com/archives/rancher-desktop-kubernetes-for-your-windows-macos-or-linux-desktop/"/>
-        <updated>2023-07-28T19:18:53.000Z</updated>
-        <summary type="html"><![CDATA[Discover Rancher Desktop, a free, open-source solution for seamless Kubernetes and container management on your desktop, allowing you to run the Kubernetes version of your choice on a Windows, macOS, or Linux desktop.
-Rancher Desktop: Kubernetes for your Windows, macOS, or Linux desktop first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>
