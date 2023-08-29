@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-28T00:33:26.223Z</updated>
+    <updated>2023-08-29T00:32:56.811Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Video: Data Exfiltration Vulnerabilities in LLM apps (Bing Chat, ChatGPT, Claude)]]></title>
+        <id>https://embracethered.com/blog/posts/2023/video-data-exfiltration-vulns-in-llm-applictions/</id>
+        <link href="https://embracethered.com/blog/posts/2023/video-data-exfiltration-vulns-in-llm-applictions/"/>
+        <updated>2023-08-28T17:00:51.000Z</updated>
+        <summary type="html"><![CDATA[This video highlights the various data exfiltration vulnerabilities I discovered and responsibly disclosed to Microsoft, Anthropic, ChatGPT and Plugin Developers.
+It also briefly discusses mitigations various vendors put in place (and triage decisions).
+   Thanks to MSRC, Anthropic and Zapier for addressing vulnerabilities to help protect their users.
+Let’s hope it inspires OpenAI to mitigate the image markdown injection issue finally as well. It’s rated as a CVSS High scored vulnerability basically and was first reported to them on April, 9th 2023 - the triage decision was “won’t fix”.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Encrypt Kubernetes Secrets at rest]]></title>
+        <id>https://4sysops.com/?p=1576188</id>
+        <link href="https://4sysops.com/archives/encrypt-kubernetes-secrets-at-rest/"/>
+        <updated>2023-08-28T15:23:51.000Z</updated>
+        <summary type="html"><![CDATA[In a previous post, you learned that Kubernetes Secrets are not really secure by default; that is, they are stored in an etcd datastore in plaintext. etcd is a central key–value store where Kubernetes stores all cluster information in an unencrypted form. If security is a concern in your environment, you need to follow some manual steps to encrypt Kubernetes Secrets at rest.
+Encrypt Kubernetes Secrets at rest first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iVerify is now an independent company!]]></title>
+        <id>https://blog.trailofbits.com/?p=105015</id>
+        <link href="https://blog.trailofbits.com/2023/08/28/iverify-is-now-an-independent-company/"/>
+        <updated>2023-08-28T11:00:45.000Z</updated>
+        <summary type="html"><![CDATA[We’re proud to announce that iVerify is now an independent company following its four-year incubation at Trail of Bits. Originally developed in-house to ensure that our personal phones, which store data essential to our work and private lives, were secured to the standards of security professionals, iVerify quickly showed that it could be valuable to […]]]></summary>
+        <author>
+            <name>Dan Guido</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5G security – how to minimise the threats to a 5G network]]></title>
+        <id>https://research.nccgroup.com/?p=32319</id>
+        <link href="https://research.nccgroup.com/2023/08/28/5g-security-how-to-minimise-the-threats-to-a-5g-network/"/>
+        <updated>2023-08-28T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To ensure security of new 5G telecom networks, NCC Group has been providing guidance, conducting code reviews, red team engagements and pentesting 5G standalone and non-standalone networks since 2019. As with any network various attackers are motivated by different reasons. An attacker could be motivated to either gain information about subscribers on an operator’s network […]]]></summary>
+        <author>
+            <name>philipmarsdennccgroupcom</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: sortcanon.py Version 0.0.3]]></title>
         <id>http://blog.didierstevens.com/?p=10092</id>
