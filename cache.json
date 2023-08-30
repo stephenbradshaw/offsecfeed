@@ -224,6 +224,36 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10141",
+          "author": "Didier Stevens",
+          "description": "Here is a YARA rule I developed to detect PDF/ActiveMime maldocs I wrote about in “Quickpost: Analysis of PDF/ActiveMime Polyglot Maldocs“. It looks for files that start with %PDF- (this header can be obfuscated) and contain string QWN0aXZlTWlt (string ActiveMim in BASE64), possibly obfuscated with whitespace characters. The regex used to detect characters QWN0aXZlTWlt interspersed […]",
+          "link": "https://blog.didierstevens.com/2023/08/29/quickpost-pdf-activemime-maldocs-yara-rule/",
+          "publishedOn": "2023-08-29T18:07:09.000Z",
+          "wordCount": 3317,
+          "title": "Quickpost: PDF/ActiveMime Maldocs YARA Rule",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://blog.didierstevens.com/?p=10122",
+          "author": "Didier Stevens",
+          "description": "jpcert reported a new type of maldoc: “MalDoc in PDF – Detection bypass by embedding a malicious Word file into a PDF file –“. These maldocs are PDF files that embed a Word document (ActiveMime) in MIME format. ActiveMime documents can be analyzed by combining my emldump.py tool and oledump.py. ActiveMime documents were heavily obfuscated […]",
+          "link": "https://blog.didierstevens.com/2023/08/29/quickpost-analysis-of-pdf-activemime-polyglot-maldocs/",
+          "publishedOn": "2023-08-29T10:50:54.000Z",
+          "wordCount": 3010,
+          "title": "Quickpost: Analysis of PDF/ActiveMime Polyglot Maldocs",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2023/08/20230829-123315.png"
+        },
+        {
+          "id": "http://blog.didierstevens.com/?p=10116",
+          "author": "Didier Stevens",
+          "description": "This update to emldump.py adds a new feature to fix (-F) some obfuscations. For the moment, only one obfuscation method is fixed (many are already ignored with option -f –filter), used in polyglot PDF/Word files. emldump_V0_0_12.zip (http)MD5: 3847B92460C0485E1238C47C29EF9DE1SHA256: AFDFB8E78AE7DE56F50EA73D69705B6DACB425FFBD40D6997D64C7C75E3D8A0D",
+          "link": "https://blog.didierstevens.com/2023/08/29/update-emldump-py-version-0-0-12/",
+          "publishedOn": "2023-08-29T10:29:38.000Z",
+          "wordCount": 2729,
+          "title": "Update: emldump.py Version 0.0.12",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10092",
           "author": "Didier Stevens",
           "description": "Some new options for my tool sortcanon.py to handle more inputs. A bit of context: when one sorts a list of IPv4 addresses as text, one gets a result as follows. Take this list: Just sorting this gives this result: The IPv4 address starting with 185 comes first, because by default, sorting is string based […]",
@@ -250,6 +280,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-compliance/congress-legislation-federal-contractors-vdp",
+          "author": "Ilona Cohen",
+          "description": "Congress recently introduced the Federal Cybersecurity Vulnerability Reduction Act.",
+          "link": "https://www.hackerone.com/security-compliance/congress-legislation-federal-contractors-vdp",
+          "publishedOn": "2023-08-28T16:57:07.000Z",
+          "wordCount": 1433,
+          "title": "VDPs Are Good For the Government — and Good For Business",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-08/HAC_VDP%20Legislation%20Announcement_Black-NoText_1200x628_L2R1.png"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/ethical-hackers-help-ciso-budget",
           "author": "HackerOne",
@@ -326,6 +366,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64ecedcf9c27c149ad0a75b7",
+          "author": "Brian Gorenc",
+          "description": "If you just want to read the rules, you can find them here.\n \nEarlier this year, I announced the ZDI, along with our cohorts at VicOne, will host a new Pwn2Own contest focused on automotive systems – Pwn2Own Automotive – at the upcoming Automotive World conference in Tokyo, Japan, held on January 24th – 26th, 2024. Today, we are releasing the targets and payouts for this inaugural event. As a reminder, we have three primary goals in hosting this event:\n1.     Provide an avenue to encourage automotive research. We want to offer a place where researchers can submit and be financially rewarded for reports targeting various products and platforms.\n2.     Incentivize vendors to participate in the security research community. We want to connect our global community of security researchers with a…",
+          "link": "https://www.thezdi.com/blog/2023/8/28/revealing-the-targets-and-rules-for-the-first-pwn2own-automotive",
+          "publishedOn": "2023-08-29T15:04:17.000Z",
+          "wordCount": null,
+          "title": "Revealing the Targets and Rules for the First Pwn2Own Automotive",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64e508402d244533b97a0bce",
           "author": "Trend Micro Research Team",
           "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Simon Humbert and Lucas Miller of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in the XWiki free wiki software platform. This bug was originally discovered by Michael Hamann with public Proof-of-Concept (PoC) code provided by Manuel Leduc. Successful exploitation of this vulnerability would allow an authenticated attacker to perform an arbitrary code injection on affected systems. The following is a portion of their write-up covering CVE-2023-35150, with a few minimal modifications.\nA code injection vulnerability has been reported in the XWiki.Org XWiki. The vulnerability is due to improper input validation when rendering a link in the Invitation Application.…",
@@ -395,6 +446,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=32720",
+          "author": "Giacomo Pope",
+          "description": "I recently returned from Eindhoven, where I had the pleasure of giving a talk on some recent progress in isogeny-based cryptography at the SIAM Conference on Applied Algebraic Geometry (SIAM AG23).…",
+          "link": "https://research.nccgroup.com/2023/08/29/siam-ag23-algebraic-geometry-with-friends/",
+          "publishedOn": "2023-08-29T09:00:00.000Z",
+          "wordCount": 22091,
+          "title": "SIAM AG23: Algebraic Geometry with Friends",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/08/yellow.png"
+        },
         {
           "id": "https://research.nccgroup.com/?p=32319",
           "author": "philipmarsdennccgroupcom",
@@ -642,6 +703,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=104947",
+          "author": "Trail of Bits",
+          "description": "By Vasco Franco tl;dr: Our publicly available Semgrep ruleset has nine new rules to detect misconfigurations of versions 3 and 4 of the Apollo GraphQL server. Try them out with semgrep --config p/trailofbits! When auditing several of our clients’ Apollo GraphQL servers, I kept finding the same issues over and over: cross-site request forgery (CSRF) […]",
+          "link": "https://blog.trailofbits.com/2023/08/29/secure-your-apollo-graphql-server-with-semgrep/",
+          "publishedOn": "2023-08-29T12:00:14.000Z",
+          "wordCount": 4260,
+          "title": "Secure your Apollo GraphQL server with Semgrep",
+          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=105015",
           "author": "Dan Guido",
           "description": "We’re proud to announce that iVerify is now an independent company following its four-year incubation at Trail of Bits. Originally developed in-house to ensure that our personal phones, which store data essential to our work and private lives, were secured to the standards of security professionals, iVerify quickly showed that it could be valuable to […]",
@@ -690,16 +761,6 @@
           "wordCount": 2991,
           "title": "A mistake in the bulletproofs paper could have led to the theft of millions of dollars",
           "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=104822",
-          "author": "Dan Guido",
-          "description": "Dan Guido, CEO The second meeting of the Commodity Futures Trading Commission’s Technology Advisory Committee (TAC) on July 18 focused on the effects of AI on the financial sector. During the meeting, I explained that AI has the potential to fundamentally change the balance between cyber offense and defense, and that we need security-focused benchmarks […]",
-          "link": "https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/",
-          "publishedOn": "2023-07-31T11:00:32.000Z",
-          "wordCount": 2354,
-          "title": "How AI will affect cybersecurity: What we told the CFTC",
-          "imageUrl": "http://img.youtube.com/vi/RM4Gag7TIYo/0.jpg"
         }
       ]
     },
@@ -834,6 +895,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1576203",
+          "author": "Jasmin Kahriman",
+          "description": "If you work on Windows, one of the common errors you might encounter is when the WinRM client cannot process a request. Windows Remote Management (WinRM) is a Windows built-in remote management protocol that helps exchange information between different systems. For instance, you can spot it being used in Exchange, WSUS, and Microsoft Teams, especially when you're running PowerShell scripts and other third-party tools.\nFix “The WinRM client cannot process the request” first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/fix-the-winrm-client-cannot-process-the-request/",
+          "publishedOn": "2023-08-29T16:15:18.000Z",
+          "wordCount": 3801,
+          "title": "Fix “The WinRM client cannot process the request”",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Enable-WinRM-rule-600x378.png"
+        },
         {
           "id": "https://4sysops.com/?p=1576188",
           "author": "Surender Kumar",
@@ -1033,16 +1104,6 @@
           "wordCount": 4437,
           "title": "A Terraform AWS provider example",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Running-terraform-init-600x313.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1575306",
-          "author": "Wolfgang Sommergut",
-          "description": "BitLocker uses symmetric encryption methods to encrypt drives. The key used for this is protected by two encryption layers. On the top layer, different kinds of protectors grant access to the drive. However, not all are equally secure or suitable for all drives.\nTPM, PIN, Passwords, and SID: Managing BitLocker Key Protectors first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/tpm-pin-passwords-and-sid-managing-bitlocker-key-protectors/",
-          "publishedOn": "2023-07-31T08:45:12.000Z",
-          "wordCount": 4624,
-          "title": "TPM, PIN, Passwords, and SID: Managing BitLocker Key Protectors",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Key-protectors-based-on-the-Trusted-Platform-Modules-TPM-600x413.png"
         }
       ]
     },
@@ -1188,6 +1249,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.sans.org/blog/for589-dark-web-threat-hunting-blockchain-forensics/",
+          "author": null,
+          "description": "FOR589: Cybercrime Intelligence course will teach you how to effectively anticipate, prevent, and mitigate potential cybercrime threats, while also helping law enforcement agencies and governments to combat cybercrime and prosecute cybercriminals.",
+          "link": "https://www.sans.org/blog/for589-dark-web-threat-hunting-blockchain-forensics/?msc=rss",
+          "publishedOn": "2023-08-24T00:00:00.000Z",
+          "wordCount": null,
+          "title": "FOR589: Cybercrime Intelligence",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/a-visual-summary-of-sans-security-awareness-managing-human-risk-summit-2023",
           "author": null,
           "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Security Awareness: Managing Human Risk Summit 2023",
@@ -1295,36 +1366,6 @@
           "publishedOn": "2023-08-02T00:00:00.000Z",
           "wordCount": 5047,
           "title": "How Purple Team Can Use Continuous Adversary Emulation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/moving-beyond-tech-the-sec-s-new-cybersecurity-regulations-and-the-need-for-comprehensive-training",
-          "author": null,
-          "description": "These new regulations reinforce a crucial tenet that we at the SANS Institute have long embraced: effective cybersecurity starts with skilled people first.",
-          "link": "https://www.sans.org/blog/moving-beyond-tech-the-sec-s-new-cybersecurity-regulations-and-the-need-for-comprehensive-training?msc=rss",
-          "publishedOn": "2023-07-31T00:00:00.000Z",
-          "wordCount": 3334,
-          "title": "Moving Beyond Tech: The SEC’s New Cybersecurity Regulations and the Need for Comprehensive Training",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/ldr553-cyber-incident-management-now-5-days",
-          "author": null,
-          "description": "This is a blog about LDR553: Cyber Incident Management – Now 5 Days! by Steve Armstrong-Godwin",
-          "link": "https://www.sans.org/blog/ldr553-cyber-incident-management-now-5-days?msc=rss",
-          "publishedOn": "2023-07-31T00:00:00.000Z",
-          "wordCount": 4913,
-          "title": "LDR553: Cyber Incident Management – Now 5 Days!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/what-is-cloud-infrastructure",
-          "author": null,
-          "description": "This is a blog explaining \"what is cloud infrastructure?\" by Chris Edmundson",
-          "link": "https://www.sans.org/blog/what-is-cloud-infrastructure?msc=rss",
-          "publishedOn": "2023-07-31T00:00:00.000Z",
-          "wordCount": 4012,
-          "title": "What is Cloud Infrastructure?",
           "imageUrl": null
         }
       ]
@@ -1455,6 +1496,16 @@
       "siteUrl": "https://medium.com/@assume-breach?source=rss-fe83402397b0------2",
       "articles": [
         {
+          "id": "https://medium.com/p/2ca386bf09d3",
+          "author": "assume-breach",
+          "description": "Welcome back! Today we’ll take a look at some of the tools out there by Hak5. If you’re not familiar with Hak5, they are a company that…",
+          "link": "https://assume-breach.medium.com/home-grown-red-team-hak5-gear-in-2023-with-microsoft-defender-for-endpoint-2ca386bf09d3?source=rss-fe83402397b0------2",
+          "publishedOn": "2023-08-29T12:53:36.000Z",
+          "wordCount": 4660,
+          "title": "Home Grown Red Team: Hak5 Gear In 2023 With Microsoft Defender For Endpoint",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1088/1*Y8dNqTrJNLgA7tVFAsroZg.png"
+        },
+        {
           "id": "https://medium.com/p/554362101d27",
           "author": "assume-breach",
           "description": "Welcome back! Today we’re going to talk about some lateral movement techniques with Havoc C2 using SMB pivots. SMB pivots are great for…",
@@ -1488,6 +1539,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=83921",
+          "author": "Phil Stokes",
+          "description": "Massive malware binaries are becoming more common on macOS and can cause problems for detection and analysis. Here's how we can successfully deal with them.",
+          "link": "https://www.sentinelone.com/labs/bloated-binaries-how-to-detect-and-analyze-large-macos-malware-files/",
+          "publishedOn": "2023-08-29T13:48:37.000Z",
+          "wordCount": 4110,
+          "title": "Bloated Binaries | How to Detect and Analyze Large macOS Malware Files",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/08/Bloated-Binaries-How-to-Detect-and-Analyze-Multi-Megabyte-macOS-Malware-8.jpg",
+            "length": "559938",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/08/Bloated-Binaries-How-to-Detect-and-Analyze-Multi-Megabyte-macOS-Malware-8.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=83550",
           "author": "Aleksandar Milenkoski",
@@ -1544,16 +1610,6 @@
           "wordCount": 5581,
           "title": "Introducing BitSight Automation Tool",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/07/BitSight_blog.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=14980",
-          "author": "Steffen Rogge",
-          "description": "NVISO enjoys an excellent working relationship with SANS and has been involved as Instructors and Course Authors for a variety of their courses: As technology continues to evolve, so do the tactics and techniques used by cyber criminals. This means that staying up to date as a red team operator is crucial for protecting customers … Continue reading Unlocking the power of Red Teaming: An overview of trainings and certifications →",
-          "link": "https://blog.nviso.eu/2023/07/31/unlocking-the-power-of-red-teaming-an-overview-of-trainings-and-certifications/",
-          "publishedOn": "2023-07-31T07:00:00.000Z",
-          "wordCount": 5793,
-          "title": "Unlocking the power of Red Teaming: An overview of trainings and certifications",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/04/Unlocking_the_power_of_Red_teaming.jpg"
         }
       ]
     },
