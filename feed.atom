@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-02T00:31:24.378Z</updated>
+    <updated>2023-09-03T00:34:49.887Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in August]]></title>
+        <id>http://blog.didierstevens.com/?p=10147</id>
+        <link href="https://blog.didierstevens.com/2023/09/02/overview-of-content-published-in-august-8/"/>
+        <updated>2023-09-02T08:09:52.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in August: Blog posts: Update: sortcanon.py Version 0.0.3 Update: emldump.py Version 0.0.12 Quickpost: Analysis of PDF/ActiveMime Polyglot Maldocs Quickpost: PDF/ActiveMime Maldocs YARA Rule SANS ISC Diary entries: PDFiD: False Positives Revisited Analysis of RAR Exploit Files (CVE-2023-38831)]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Home Grown Red Team: The Offensive Clipboard Revisited]]></title>
         <id>https://medium.com/p/c66f336f2c11</id>
@@ -1219,38 +1229,6 @@ The post Public Browser Exploitation Training – Fall 2023 appeared first on Ex
 Find enabled local Group Policy settings with rsop.msc and PowerShell first appeared on 4sysops.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BloodHound Enterprise Learns Some New Tricks]]></title>
-        <id>https://medium.com/p/26f0fa89e1d1</id>
-        <link href="https://posts.specterops.io/bloodhound-enterprise-learns-some-new-tricks-26f0fa89e1d1?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-08-03T18:00:48.000Z</updated>
-        <summary type="html"><![CDATA[The BloodHound code-convergence project brings some significant and long-desired feature enhancements to BloodHound Enterprise (BHE): BloodHound Enterprise customers will get access to these features…]]></summary>
-        <author>
-            <name>Stephen Hinck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon Inspector: AWS security monitoring]]></title>
-        <id>https://4sysops.com/?p=1575376</id>
-        <link href="https://4sysops.com/archives/amazon-inspector-aws-security-monitoring/"/>
-        <updated>2023-08-03T14:12:59.000Z</updated>
-        <summary type="html"><![CDATA[Discover Amazon Inspector, an AWS security monitoring service that provides automated security scans for EC2 instances, AWS Lambda, and ECR container images.
-Amazon Inspector: AWS security monitoring first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting a Flaw in Bitmap Handling in Windows User-Mode Printer Drivers]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64c962195d0bc15becbbc36d</id>
-        <link href="https://www.thezdi.com/blog/2023/8/1/exploiting-a-flaw-in-bitmap-handling-in-windows-user-mode-printer-drivers"/>
-        <updated>2023-08-02T16:09:06.000Z</updated>
-        <summary type="html"><![CDATA[In this guest blog from researcher Marcin Wiązowski, he details CVE-2023-21822 – a Use-After-Free (UAF) in win32kfull that could lead to a privilege escalation. The bug was reported through the ZDI program and later patched by Microsoft. Marcin has graciously provided this detailed write-up of the vulnerability, examines how it could be exploited, and a look at the patch Microsoft released to address the bug.
-In the Windows kernel, there are three APIs intended for general use by device drivers for the purpose of creating bitmaps: EngCreateBitmap, EngCreateDeviceBitmap and EngCreateDeviceSurface. Each of these APIs return a bitmap handle. If the caller wants to perform some drawing operations on the bitmap, the caller must first lock the bitmap by passing its handle to EngLockSurface. EngL…]]></summary>
-        <author>
-            <name>Guest Blogger</name>
         </author>
     </entry>
     <entry>

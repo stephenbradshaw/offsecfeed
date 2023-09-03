@@ -34,16 +34,6 @@
           "wordCount": null,
           "title": "BloodHound Community Edition: A New Era",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/26f0fa89e1d1",
-          "author": "Stephen Hinck",
-          "description": "The BloodHound code-convergence project brings some significant and long-desired feature enhancements to BloodHound Enterprise (BHE): BloodHound Enterprise customers will get access to these features…",
-          "link": "https://posts.specterops.io/bloodhound-enterprise-learns-some-new-tricks-26f0fa89e1d1?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-08-03T18:00:48.000Z",
-          "wordCount": 2991,
-          "title": "BloodHound Enterprise Learns Some New Tricks",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*m6-F70YaU1EXXXCH"
         }
       ]
     },
@@ -162,6 +152,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10147",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in August: Blog posts: Update: sortcanon.py Version 0.0.3 Update: emldump.py Version 0.0.12 Quickpost: Analysis of PDF/ActiveMime Polyglot Maldocs Quickpost: PDF/ActiveMime Maldocs YARA Rule SANS ISC Diary entries: PDFiD: False Positives Revisited Analysis of RAR Exploit Files (CVE-2023-38831)",
+          "link": "https://blog.didierstevens.com/2023/09/02/overview-of-content-published-in-august-8/",
+          "publishedOn": "2023-09-02T08:09:52.000Z",
+          "wordCount": 2742,
+          "title": "Overview of Content Published in August",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=10141",
           "author": "Didier Stevens",
@@ -344,17 +344,6 @@
           "publishedOn": "2023-08-08T17:30:16.000Z",
           "wordCount": null,
           "title": "The August 2023 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64c962195d0bc15becbbc36d",
-          "author": "Guest Blogger",
-          "description": "In this guest blog from researcher Marcin Wiązowski, he details CVE-2023-21822 – a Use-After-Free (UAF) in win32kfull that could lead to a privilege escalation. The bug was reported through the ZDI program and later patched by Microsoft. Marcin has graciously provided this detailed write-up of the vulnerability, examines how it could be exploited, and a look at the patch Microsoft released to address the bug.\nIn the Windows kernel, there are three APIs intended for general use by device drivers for the purpose of creating bitmaps: EngCreateBitmap, EngCreateDeviceBitmap and EngCreateDeviceSurface. Each of these APIs return a bitmap handle. If the caller wants to perform some drawing operations on the bitmap, the caller must first lock the bitmap by passing its handle to EngLockSurface. EngL…",
-          "link": "https://www.thezdi.com/blog/2023/8/1/exploiting-a-flaw-in-bitmap-handling-in-windows-user-mode-printer-drivers",
-          "publishedOn": "2023-08-02T16:09:06.000Z",
-          "wordCount": null,
-          "title": "Exploiting a Flaw in Bitmap Handling in Windows User-Mode Printer Drivers",
           "itunes": {},
           "imageUrl": null
         }
@@ -1068,16 +1057,6 @@
           "wordCount": 3716,
           "title": "Find enabled local Group Policy settings with rsop.msc and PowerShell",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Evaluating-the-extended-gpresult-report-using-PowerShell-and-a-regular-expression-600x359.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1575376",
-          "author": "Brandon Lee",
-          "description": "Discover Amazon Inspector, an AWS security monitoring service that provides automated security scans for EC2 instances, AWS Lambda, and ECR container images.\nAmazon Inspector: AWS security monitoring first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/amazon-inspector-aws-security-monitoring/",
-          "publishedOn": "2023-08-03T14:12:59.000Z",
-          "wordCount": 4305,
-          "title": "Amazon Inspector: AWS security monitoring",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/All-findings-with-detailed-information-for-a-specific-finding-600x329.png"
         }
       ]
     },
