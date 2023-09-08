@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-07T00:32:32.990Z</updated>
+    <updated>2023-09-08T00:32:25.241Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Hacker Perspective on Generative AI and Cybersecurity]]></title>
+        <id>https://hackerone.com/thought-leadership/generative-ai-cybersecurity-hacker-perspective</id>
+        <link href="https://www.hackerone.com/thought-leadership/generative-ai-cybersecurity-hacker-perspective"/>
+        <updated>2023-09-07T17:10:24.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne spoken with several experienced hackers in the space to get their perspectives on the most important considerations for Generative AI and cybersecurity.]]></summary>
+        <author>
+            <name>Michiel Prins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Network monitoring with the open-source tool Observium]]></title>
+        <id>https://4sysops.com/?p=1576313</id>
+        <link href="https://4sysops.com/archives/network-monitoring-with-the-open-source-tool-observium/"/>
+        <updated>2023-09-07T16:19:14.000Z</updated>
+        <summary type="html"><![CDATA[Observium is a network monitoring tool based on Python and MySQL available for free as a Community Edition. It provides real-time information about detected devices, including their health and traffic through selected ports. Observium can utilize SNMP, WMI, or agents for monitoring devices.
+Network monitoring with the open-source tool Observium first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Thomas Joos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking at the ChargePoint Home Flex Threat Landscape]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64f9f26fe91e62552664e865</id>
+        <link href="https://www.thezdi.com/blog/2023/9/7/looking-at-the-chargepoint-home-flex-threat-landscape"/>
+        <updated>2023-09-07T16:09:40.000Z</updated>
+        <summary type="html"><![CDATA[We recently announced the rules and targets for the upcoming Pwn2Own Automotive competition. As we look forward to the event, we thought we would review the attack surface on some of the targets. We begin with the ChargePoint Home Flex – a 240-volt Level 2 home charger that delivers up to 50 amps of power. 
+The ChargePoint Home Flex is a level 2 electric vehicle charge station designed for use by end-users in their homes. The device has a minimal user interface in its hardware. The device employs mobile applications for both the installation and the regular operation of the equipment by the consumer.
+ChargePoint Home Flex Attack Surface Summary
+Broadly speaking, the attack surface of the device can be broken down into three categories.
+1.     ChargePoint Mobile Applications
+The ServicePro …]]></summary>
+        <author>
+            <name>Todd Manning</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Information disclosure through insecure design]]></title>
+        <id>https://www.pentestpartners.com/?p=27607</id>
+        <link href="https://www.pentestpartners.com/security-blog/information-disclosure-through-insecure-design/"/>
+        <updated>2023-09-07T05:32:54.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Insecure design can lead to many issues. The Software Development Life Cycle (SDLC) should contain steps to evaluate and consider security throughout the process. Several recent web application and […]
+Information disclosure through insecure design first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Chris Tams</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Supporting Sprocket Security's offensive security testing with BChecks, from Burp Suite]]></title>
         <id>supporting-sprocket-securitys-offensive-security-testing-with-bchecks-from-burp-suite</id>
@@ -1138,16 +1185,6 @@ Sleep computer (remotely) from the command line first appeared on 4sysops.]]></s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Use our suite of eBPF libraries]]></title>
-        <id>https://blog.trailofbits.com/?p=104838</id>
-        <link href="https://blog.trailofbits.com/2023/08/09/use-our-suite-of-ebpf-libraries/"/>
-        <updated>2023-08-09T10:45:15.000Z</updated>
-        <summary type="html"><![CDATA[By Artem Dinaburg Trail of Bits has developed a suite of open-source libraries designed to streamline the creation and deployment of eBPF applications. These libraries facilitate efficient process and network event monitoring, function tracing, kernel debug symbol parsing, and eBPF code generation. Previously, deploying portable, dependency-free eBPF applications posed significant challenges due to Linux kernel […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[PNG Steganography from First Principles]]></title>
         <id>https://blog.xpnsec.com/png-steganography/</id>
         <link href="https://blog.xpnsec.com/png-steganography/"/>
@@ -1155,80 +1192,6 @@ Sleep computer (remotely) from the command line first appeared on 4sysops.]]></s
         <summary type="html"><![CDATA[Steganography is experiencing a revival as a wrapper for delivering payloads. In this post we'll go back to basics and show just how steganography can be applied to a PNG image using the common least significant bit (LSB) encoding technique. No magic... just raw information... and a little C++.]]></summary>
         <author>
             <name>XPN InfoSec Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhancing Citrix Workspace with SecureAuth’s Arculix: A New Standard in Passwordless Continuous Authentication]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=49115</id>
-        <link href="https://www.secureauth.com/blog/enhancing-citrix-workspace-with-secureauths-arculix-a-new-standard-in-passwordless-continuous-authentication/"/>
-        <updated>2023-08-09T10:02:28.000Z</updated>
-        <summary type="html"><![CDATA[Note: This was co-authored by Faranak Talebi, Integrations Engineer at SecureAuth. In the digital era, the seamless integration of various platforms is crucial for efficient and secure operations. SecureAuth’s Arculix, an award-winning platform in next-gen passwordless continuous authentication, is setting new standards in this domain. Today, we announce how Arculix enhances the capabilities of Citrix […]
-The post Enhancing Citrix Workspace with SecureAuth’s Arculix: A New Standard in Passwordless Continuous Authentication appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>Joan Fronske</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Badge of Shame - Breaking Into Secure Facilities with OSDP]]></title>
-        <id>https://bishopfox.com/blog/breaking-into-secure-facilities-with-osdp</id>
-        <link href="https://bishopfox.com/blog/breaking-into-secure-facilities-with-osdp"/>
-        <updated>2023-08-09T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn about five exploitable vulnerabilities we've identified in OSDP and share what defenders can do about them.]]></summary>
-        <author>
-            <name>Dan Petro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability disclosure in aviation]]></title>
-        <id>https://www.pentestpartners.com/?p=27409</id>
-        <link href="https://www.pentestpartners.com/security-blog/vulnerability-disclosure-in-aviation/"/>
-        <updated>2023-08-09T05:41:51.000Z</updated>
-        <summary type="html"><![CDATA[We joined Boeing and United Airlines on a panel recently at the RSA Conference to talk about vulnerability disclosure in the aviation world. The engagement we are now seeing between […]
-Vulnerability disclosure in aviation first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Ken Munro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Network Engineer Salary, Skills, and Career Path]]></title>
-        <id>https://www.sans.org/blog/network-engineer-salary-skills-and-career-path</id>
-        <link href="https://www.sans.org/blog/network-engineer-salary-skills-and-career-path?msc=rss"/>
-        <updated>2023-08-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about a network engineer's salary, skills, and career path]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cisco call handler with Cisco Unity Connection messaging]]></title>
-        <id>https://4sysops.com/?p=1575699</id>
-        <link href="https://4sysops.com/archives/cisco-call-handler-with-cisco-unity-connection-messaging/"/>
-        <updated>2023-08-08T20:01:07.000Z</updated>
-        <summary type="html"><![CDATA[Many businesses rely on a caller attendant to manage or route phone calls for their business or call center. If you have ever called a business and received an automated greeting like "Press 1 for Sales, press 2 for Accounting," you have encountered a caller attendant. In a previous article, we looked at the components of the Cisco Unified Communication Manager System. In this article, we will dive deeper and look at how the caller handler is built using Cisco Unity Connection Server.
-Cisco call handler with Cisco Unity Connection messaging first appeared on 4sysops.]]></summary>
-        <author>
-            <name>John Kull</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The August 2023 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64cc1aed8ada730e80dab699</id>
-        <link href="https://www.thezdi.com/blog/2023/8/8/the-august-2023-security-update-review"/>
-        <updated>2023-08-08T17:30:16.000Z</updated>
-        <summary type="html"><![CDATA[Greetings from hacker summer camp! Black Hat and DEFCON start this week, but let’s kick everything off with Patch Tuesday and the latest security offerings from Adobe and Microsoft. Take a break from your regularly scheduled activities and join us as we review the details of their latest advisories. If you’d rather watch the video recap, you can check it out here.
-Adobe Patches for August 2023
-For August, Adobe released four patches addressing 37 CVEs in Adobe Acrobat and Reader, Commerce, Dimension, and the Adobe XMP Toolkit SDK. A total of 28 of these CVEs came through the ZDI program. The update for Reader is the largest, clocking in with 30 CVEs. The most severe of these are rated Critical and would allow code execution when opening a specially crafted PDF. The update for Commerce fixe…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BloodHound Community Edition: A New Era]]></title>
-        <id>https://medium.com/p/d64689806e90</id>
-        <link href="https://posts.specterops.io/bloodhound-community-edition-a-new-era-d64689806e90?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-08-08T16:17:08.000Z</updated>
-        <author>
-            <name>Andy Robbins</name>
         </author>
     </entry>
     <entry>
