@@ -200,16 +200,6 @@
           "wordCount": 2742,
           "title": "Overview of Content Published in August",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10141",
-          "author": "Didier Stevens",
-          "description": "Here is a YARA rule I developed to detect PDF/ActiveMime maldocs I wrote about in “Quickpost: Analysis of PDF/ActiveMime Polyglot Maldocs“. It looks for files that start with %PDF- (this header can be obfuscated) and contain string QWN0aXZlTWlt (string ActiveMim in BASE64), possibly obfuscated with whitespace characters. The regex used to detect characters QWN0aXZlTWlt interspersed […]",
-          "link": "https://blog.didierstevens.com/2023/08/29/quickpost-pdf-activemime-maldocs-yara-rule/",
-          "publishedOn": "2023-08-29T18:07:09.000Z",
-          "wordCount": 3317,
-          "title": "Quickpost: PDF/ActiveMime Maldocs YARA Rule",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -323,17 +313,6 @@
           "publishedOn": "2023-09-07T16:09:40.000Z",
           "wordCount": null,
           "title": "Looking at the ChargePoint Home Flex Threat Landscape",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64ecedcf9c27c149ad0a75b7",
-          "author": "Brian Gorenc",
-          "description": "If you just want to read the rules, you can find them here.\n \nEarlier this year, I announced the ZDI, along with our cohorts at VicOne, will host a new Pwn2Own contest focused on automotive systems – Pwn2Own Automotive – at the upcoming Automotive World conference in Tokyo, Japan, held on January 24th – 26th, 2024. Today, we are releasing the targets and payouts for this inaugural event. As a reminder, we have three primary goals in hosting this event:\n1.     Provide an avenue to encourage automotive research. We want to offer a place where researchers can submit and be financially rewarded for reports targeting various products and platforms.\n2.     Incentivize vendors to participate in the security research community. We want to connect our global community of security researchers with a…",
-          "link": "https://www.thezdi.com/blog/2023/8/28/revealing-the-targets-and-rules-for-the-first-pwn2own-automotive",
-          "publishedOn": "2023-08-29T15:04:17.000Z",
-          "wordCount": null,
-          "title": "Revealing the Targets and Rules for the First Pwn2Own Automotive",
           "itunes": {},
           "imageUrl": null
         }
@@ -511,16 +490,6 @@
             "type": "video/quicktime"
           },
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/08/ZeroQlik-1-300x209.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=4803",
-          "author": "Emmaline",
-          "description": "Advisory: Qlik Sense Enterprise Remote Code Execution In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities in applications that are likely to impact the security of leading organizations. Recently, we discovered two vulnerabilities which can be chained together to achieve unauthenticated remote code execution on […]\nThe post Advisory: Qlik Sense Enterprise for Windows Remote Code Execution Vulnerabilities appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/advisory-qlik-sense/",
-          "publishedOn": "2023-08-29T13:25:25.000Z",
-          "wordCount": 1325,
-          "title": "Advisory: Qlik Sense Enterprise for Windows Remote Code Execution Vulnerabilities",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
         }
       ]
     },
@@ -783,6 +752,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1576574",
+          "author": "Wolfgang Sommergut",
+          "description": "By default, only users with administrative privileges can log in to a Remote Desktop session. However, there are often situations in which standard users also require such access. To achieve this, you can add them to the relevant local group. Several methods are available for this task.\nAllow non-admins to access Remote Desktop first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/allow-non-admins-to-access-remote-desktop/",
+          "publishedOn": "2023-09-28T12:00:39.000Z",
+          "wordCount": 13368,
+          "title": "Allow non-admins to access Remote Desktop",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Assign-members-to-the-local-Remote-Desktop-Users-group-using-GPP-600x377.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1576554",
           "author": "Avi",
           "description": "Helm is often described as the package manager for Kubernetes, providing users with an easy way to define, install, and manage Kubernetes applications as preconfigured packages, referred to as Helm Charts. A Helm Chart contains preconfigured Kubernetes resources that can be deployed quickly using one command. In this blog post, we will explore the concept of Helm and guide you through creating a Helm Chart example.\nCreate a Kubernetes Helm Chart with example first appeared on 4sysops.",
@@ -991,16 +970,6 @@
           "wordCount": 4682,
           "title": "Ansible yum module: Install RHEL/CentOS packages",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Adding-the-Elasticsearch-GPG-key-and-repository-on-the-target-server-600x313.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576203",
-          "author": "Jasmin Kahriman",
-          "description": "If you work on Windows, one of the common errors you might encounter is when the WinRM client cannot process a request. Windows Remote Management (WinRM) is a Windows built-in remote management protocol that helps exchange information between different systems. For instance, you can spot it being used in Exchange, WSUS, and Microsoft Teams, especially when you're running PowerShell scripts and other third-party tools.\nFix “The WinRM client cannot process the request” first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/fix-the-winrm-client-cannot-process-the-request/",
-          "publishedOn": "2023-08-29T16:15:18.000Z",
-          "wordCount": 3801,
-          "title": "Fix “The WinRM client cannot process the request”",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Enable-WinRM-rule-600x378.png"
         }
       ]
     },
@@ -1177,6 +1146,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/zero-trust-blog-3-instrumenting-for-zero-trust",
+          "author": null,
+          "description": "This is the third in a 4-part series of blogs covering the end-to-end aspects of zero trust.",
+          "link": "https://www.sans.org/blog/zero-trust-blog-3-instrumenting-for-zero-trust?msc=rss",
+          "publishedOn": "2023-09-28T00:00:00.000Z",
+          "wordCount": 7029,
+          "title": "Zero Trust Blog Series - Blog 3: Instrumenting for Zero Trust",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/system-administrator-salary-skills-and-career-path",
           "author": null,
           "description": "A blog about the skills, salary, and education of a System Administrator",
@@ -1335,26 +1314,6 @@
           "wordCount": 4089,
           "title": "SEC568: Approaching the Software Supply Chain like Jack Byrnes",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/defending-against-ransomware-industrial-control-systems",
-          "author": null,
-          "description": "Leveraging ICS612 and the SANS Five Critical Cybersecurity Controls",
-          "link": "https://www.sans.org/blog/defending-against-ransomware-industrial-control-systems?msc=rss",
-          "publishedOn": "2023-08-30T00:00:00.000Z",
-          "wordCount": 6211,
-          "title": "Defending Against Ransomware in Industrial Control Systems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/evolution-of-cybercriminal-operations-in-2023-",
-          "author": null,
-          "description": "The SANS FOR589: Cybercrime Intelligence course authors examined the latest key findings from the CrowdStrike 2023 threat hunting report and highlighted the top cybercriminal trends that defenders should pay attention to.",
-          "link": "https://www.sans.org/blog/evolution-of-cybercriminal-operations-in-2023-?msc=rss",
-          "publishedOn": "2023-08-30T00:00:00.000Z",
-          "wordCount": 6743,
-          "title": "Evolution of Cybercriminal Operations in 2023",
-          "imageUrl": null
         }
       ]
     },
@@ -1363,6 +1322,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2023/advanced-plugin-data-exfiltration-trickery/",
+          "author": null,
+          "description": "During an Indirect Prompt Injection Attack an adversary can exfiltrate chat data from a user by instructing ChatGPT to render images and append information to the URL (Image Markdown Injection), or by tricking a user to click a hyperlink.\nSending large amounts of data to a third party server via URLs might seem inconvenient or limiting…\nLet’s say we want something more, aehm, powerful, elegant and exciting.\nChatGPT Plugins and Exfiltration Limitations Plugins are an extension mechanism with little security oversight or enforced review process.",
+          "link": "https://embracethered.com/blog/posts/2023/advanced-plugin-data-exfiltration-trickery/",
+          "publishedOn": "2023-09-28T16:01:00.000Z",
+          "wordCount": 1273,
+          "title": "Advanced Data Exfiltration Techniques with ChatGPT",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2023/hitcon-llm-security-presentation-and-trip-report/",
           "author": null,
@@ -1441,16 +1410,6 @@
           "wordCount": 3032,
           "title": "Home Grown Red Team: The Offensive Clipboard Revisited",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:935/1*c53qCqpzRttx4siRcQBKvA.png"
-        },
-        {
-          "id": "https://medium.com/p/2ca386bf09d3",
-          "author": "assume-breach",
-          "description": "Welcome back! Today we’ll take a look at some of the tools out there by Hak5. If you’re not familiar with Hak5, they are a company that…",
-          "link": "https://assume-breach.medium.com/home-grown-red-team-hak5-gear-in-2023-with-microsoft-defender-for-endpoint-2ca386bf09d3?source=rss-fe83402397b0------2",
-          "publishedOn": "2023-08-29T12:53:36.000Z",
-          "wordCount": 4660,
-          "title": "Home Grown Red Team: Hak5 Gear In 2023 With Microsoft Defender For Endpoint",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1088/1*Y8dNqTrJNLgA7tVFAsroZg.png"
         }
       ]
     },
@@ -1520,21 +1479,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/09/CapraTube-Transparent-Tribes-CapraRAT-Mimics-YouTube-to-Hijack-Android-Phones-3.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=83921",
-          "author": "Phil Stokes",
-          "description": "Massive malware binaries are becoming more common on macOS and can cause problems for detection and analysis. Here's how we can successfully deal with them.",
-          "link": "https://www.sentinelone.com/labs/bloated-binaries-how-to-detect-and-analyze-large-macos-malware-files/",
-          "publishedOn": "2023-08-29T13:48:37.000Z",
-          "wordCount": 4110,
-          "title": "Bloated Binaries | How to Detect and Analyze Large macOS Malware Files",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/08/Bloated-Binaries-How-to-Detect-and-Analyze-Multi-Megabyte-macOS-Malware-8.jpg",
-            "length": "559938",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/08/Bloated-Binaries-How-to-Detect-and-Analyze-Multi-Megabyte-macOS-Malware-8.jpg"
         }
       ]
     },

@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-28T00:33:46.663Z</updated>
+    <updated>2023-09-29T00:33:47.716Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Advanced Data Exfiltration Techniques with ChatGPT]]></title>
+        <id>https://embracethered.com/blog/posts/2023/advanced-plugin-data-exfiltration-trickery/</id>
+        <link href="https://embracethered.com/blog/posts/2023/advanced-plugin-data-exfiltration-trickery/"/>
+        <updated>2023-09-28T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[During an Indirect Prompt Injection Attack an adversary can exfiltrate chat data from a user by instructing ChatGPT to render images and append information to the URL (Image Markdown Injection), or by tricking a user to click a hyperlink.
+Sending large amounts of data to a third party server via URLs might seem inconvenient or limiting…
+Let’s say we want something more, aehm, powerful, elegant and exciting.
+ChatGPT Plugins and Exfiltration Limitations Plugins are an extension mechanism with little security oversight or enforced review process.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Allow non-admins to access Remote Desktop]]></title>
+        <id>https://4sysops.com/?p=1576574</id>
+        <link href="https://4sysops.com/archives/allow-non-admins-to-access-remote-desktop/"/>
+        <updated>2023-09-28T12:00:39.000Z</updated>
+        <summary type="html"><![CDATA[By default, only users with administrative privileges can log in to a Remote Desktop session. However, there are often situations in which standard users also require such access. To achieve this, you can add them to the relevant local group. Several methods are available for this task.
+Allow non-admins to access Remote Desktop first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Trust Blog Series - Blog 3: Instrumenting for Zero Trust]]></title>
+        <id>https://www.sans.org/blog/zero-trust-blog-3-instrumenting-for-zero-trust</id>
+        <link href="https://www.sans.org/blog/zero-trust-blog-3-instrumenting-for-zero-trust?msc=rss"/>
+        <updated>2023-09-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the third in a 4-part series of blogs covering the end-to-end aspects of zero trust.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ZydisInfo – the disassembler that breaks the code, twice]]></title>
         <id>https://www.hexacorn.com/blog/?p=8748</id>
@@ -1116,92 +1150,6 @@ VictimServer: This comp…]]></summary>
 Ansible yum module: Install RHEL/CentOS packages first appeared on 4sysops.]]></summary>
         <author>
             <name>Hitesh Jethva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Defending Against Ransomware in Industrial Control Systems]]></title>
-        <id>https://www.sans.org/blog/defending-against-ransomware-industrial-control-systems</id>
-        <link href="https://www.sans.org/blog/defending-against-ransomware-industrial-control-systems?msc=rss"/>
-        <updated>2023-08-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Leveraging ICS612 and the SANS Five Critical Cybersecurity Controls]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evolution of Cybercriminal Operations in 2023]]></title>
-        <id>https://www.sans.org/blog/evolution-of-cybercriminal-operations-in-2023-</id>
-        <link href="https://www.sans.org/blog/evolution-of-cybercriminal-operations-in-2023-?msc=rss"/>
-        <updated>2023-08-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The SANS FOR589: Cybercrime Intelligence course authors examined the latest key findings from the CrowdStrike 2023 threat hunting report and highlighted the top cybercriminal trends that defenders should pay attention to.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quickpost: PDF/ActiveMime Maldocs YARA Rule]]></title>
-        <id>http://blog.didierstevens.com/?p=10141</id>
-        <link href="https://blog.didierstevens.com/2023/08/29/quickpost-pdf-activemime-maldocs-yara-rule/"/>
-        <updated>2023-08-29T18:07:09.000Z</updated>
-        <summary type="html"><![CDATA[Here is a YARA rule I developed to detect PDF/ActiveMime maldocs I wrote about in “Quickpost: Analysis of PDF/ActiveMime Polyglot Maldocs“. It looks for files that start with %PDF- (this header can be obfuscated) and contain string QWN0aXZlTWlt (string ActiveMim in BASE64), possibly obfuscated with whitespace characters. The regex used to detect characters QWN0aXZlTWlt interspersed […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fix “The WinRM client cannot process the request”]]></title>
-        <id>https://4sysops.com/?p=1576203</id>
-        <link href="https://4sysops.com/archives/fix-the-winrm-client-cannot-process-the-request/"/>
-        <updated>2023-08-29T16:15:18.000Z</updated>
-        <summary type="html"><![CDATA[If you work on Windows, one of the common errors you might encounter is when the WinRM client cannot process a request. Windows Remote Management (WinRM) is a Windows built-in remote management protocol that helps exchange information between different systems. For instance, you can spot it being used in Exchange, WSUS, and Microsoft Teams, especially when you're running PowerShell scripts and other third-party tools.
-Fix “The WinRM client cannot process the request” first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Revealing the Targets and Rules for the First Pwn2Own Automotive]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:64ecedcf9c27c149ad0a75b7</id>
-        <link href="https://www.thezdi.com/blog/2023/8/28/revealing-the-targets-and-rules-for-the-first-pwn2own-automotive"/>
-        <updated>2023-08-29T15:04:17.000Z</updated>
-        <summary type="html"><![CDATA[If you just want to read the rules, you can find them here.
- 
-Earlier this year, I announced the ZDI, along with our cohorts at VicOne, will host a new Pwn2Own contest focused on automotive systems – Pwn2Own Automotive – at the upcoming Automotive World conference in Tokyo, Japan, held on January 24th – 26th, 2024. Today, we are releasing the targets and payouts for this inaugural event. As a reminder, we have three primary goals in hosting this event:
-1.     Provide an avenue to encourage automotive research. We want to offer a place where researchers can submit and be financially rewarded for reports targeting various products and platforms.
-2.     Incentivize vendors to participate in the security research community. We want to connect our global community of security researchers with a…]]></summary>
-        <author>
-            <name>Brian Gorenc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bloated Binaries | How to Detect and Analyze Large macOS Malware Files]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=83921</id>
-        <link href="https://www.sentinelone.com/labs/bloated-binaries-how-to-detect-and-analyze-large-macos-malware-files/"/>
-        <updated>2023-08-29T13:48:37.000Z</updated>
-        <summary type="html"><![CDATA[Massive malware binaries are becoming more common on macOS and can cause problems for detection and analysis. Here's how we can successfully deal with them.]]></summary>
-        <author>
-            <name>Phil Stokes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advisory: Qlik Sense Enterprise for Windows Remote Code Execution Vulnerabilities]]></title>
-        <id>https://www.praetorian.com/?p=4803</id>
-        <link href="https://www.praetorian.com/blog/advisory-qlik-sense/"/>
-        <updated>2023-08-29T13:25:25.000Z</updated>
-        <summary type="html"><![CDATA[Advisory: Qlik Sense Enterprise Remote Code Execution In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities in applications that are likely to impact the security of leading organizations. Recently, we discovered two vulnerabilities which can be chained together to achieve unauthenticated remote code execution on […]
-The post Advisory: Qlik Sense Enterprise for Windows Remote Code Execution Vulnerabilities appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Home Grown Red Team: Hak5 Gear In 2023 With Microsoft Defender For Endpoint]]></title>
-        <id>https://medium.com/p/2ca386bf09d3</id>
-        <link href="https://assume-breach.medium.com/home-grown-red-team-hak5-gear-in-2023-with-microsoft-defender-for-endpoint-2ca386bf09d3?source=rss-fe83402397b0------2"/>
-        <updated>2023-08-29T12:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back! Today we’ll take a look at some of the tools out there by Hak5. If you’re not familiar with Hak5, they are a company that…]]></summary>
-        <author>
-            <name>assume-breach</name>
         </author>
     </entry>
     <entry>
