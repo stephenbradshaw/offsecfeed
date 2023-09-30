@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-29T00:33:47.716Z</updated>
+    <updated>2023-09-30T00:32:42.404Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beyond the good ol’ .bashrc entry… Part 1]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8753</id>
+        <link href="https://www.hexacorn.com/blog/2023/09/29/beyond-the-good-ol-bashrc-entry-part-1/"/>
+        <updated>2023-09-29T23:18:54.000Z</updated>
+        <summary type="html"><![CDATA[I really don’t know if this is the first post in the series, or just a one-off that is also, the last. There are many fantastic blog posts out there that deal with the most popular Linux persistence tricks, f.ex. … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Fixes Data Exfiltration Vulnerability in Azure AI Playground]]></title>
+        <id>https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/</id>
+        <link href="https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/"/>
+        <updated>2023-09-29T17:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is quite frequent.
+Microsoft fixed such a vulnerability in Bing Chat, Anthropic fixed it in Claude, and ChatGPT has a known vulnerability as Open AI “won’t fix” the issue.
+This post describes a variant in the Azure AI Playground and how Microsoft fixed it.
+From Untrusted Data to Data Exfiltration When untrusted data makes it into the LLM prompt context it can instruct the model to inject an image markdown element.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrating One Year of CloudFox]]></title>
+        <id>https://bishopfox.com/blog/celebrating-one-year-of-cloudfox</id>
+        <link href="https://bishopfox.com/blog/celebrating-one-year-of-cloudfox"/>
+        <updated>2023-09-29T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Celebrate CloudFox's one-year anniversary as we reflect on the updates and growth that have occurred over the year including the creation of CloudFoxable.]]></summary>
+        <author>
+            <name>Seth Art</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SecureAuth Presents “MFA is so 80’s: Invisible MFA with Continuous Authentication” at 2023 FinCyber Today Summit by FS-ISAC]]></title>
+        <id>https://www.secureauth.com/?post_type=blog&amp;p=50186</id>
+        <link href="https://www.secureauth.com/blog/secureauth-presents-mfa-is-so-80s-invisible-mfa-with-continuous-authentication-at-2023-fincyber-today-summit-by-fs-isac/"/>
+        <updated>2023-09-29T14:24:34.000Z</updated>
+        <summary type="html"><![CDATA[Next week, SecureAuth will be a gold sponsor at the 2023 FinCyber Today Summit by FS-ISAC in Orlando, FL. The theme is Forging for a Resilient Future for this premier financial services event where IT security, IT professionals and executives across the financial sector come together to learn the modern approaches to combat today’s vulnerabilities […]
+The post SecureAuth Presents “MFA is so 80’s: Invisible MFA with Continuous Authentication” at 2023 FinCyber Today Summit by FS-ISAC appeared first on SecureAuth.]]></summary>
+        <author>
+            <name>jendres</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kube-scheduler: The Kubernetes scheduler]]></title>
+        <id>https://4sysops.com/?p=1576600</id>
+        <link href="https://4sysops.com/archives/kube-scheduler-the-kubernetes-scheduler/"/>
+        <updated>2023-09-29T12:39:40.000Z</updated>
+        <summary type="html"><![CDATA[In a previous post, you learned about DaemonSets in Kubernetes. In this article, you will learn how the Kubernetes scheduler works. The kube-scheduler is a core control plane component that helps schedule Pods across various worker nodes of a Kubernetes cluster. Scheduling in Kubernetes is the process of assigning Pods to nodes so that the kubelet service can run them.
+kube-scheduler: The Kubernetes scheduler first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fastboot Fuzzing]]></title>
+        <id>https://www.pentestpartners.com/?p=28055</id>
+        <link href="https://www.pentestpartners.com/security-blog/fastboot-fuzzing/"/>
+        <updated>2023-09-29T05:48:04.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR The Fastboot protocol can often have hidden commands Those commands can do interesting things Conventionally they’re found by reverse engineering Can’t find a copy of the firmware? Guess the […]
+Fastboot Fuzzing first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>David Lodge</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Advanced Data Exfiltration Techniques with ChatGPT]]></title>
         <id>https://embracethered.com/blog/posts/2023/advanced-plugin-data-exfiltration-trickery/</id>
@@ -1067,89 +1133,6 @@ dsregcmd: Troubleshoot and manage Azure Active Directory (Microsoft Entra ID) jo
 The post ZeroQlik: Achieving Unauthenticated Remote Code Execution via HTTP Request Tunneling and Path Traversal appeared first on Praetorian.]]></summary>
         <author>
             <name>Emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HITB Phuket 2023 – Exploiting the Lexmark PostScript Stack]]></title>
-        <id>https://research.nccgroup.com/?p=32844</id>
-        <link href="https://research.nccgroup.com/2023/08/31/hitb-phuket-2023-exploiting-the-lexmark-postscript-stack/"/>
-        <updated>2023-08-31T09:23:20.000Z</updated>
-        <summary type="html"><![CDATA[Aaron Adams presented this talk at HITB Phuket on the 24th August 2023. The talk detailed how NCC Exploit Development Group (EDG) in Pwn2Own 2022 Toronto was able to exploit two different PostScript vulnerabilities in Lexmark printers. The presentation is a good primer for those interested in further researching the Lexmark PostScript stack, and also […]]]></summary>
-        <author>
-            <name>Aaron Adams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Session Hijacking Visual Exploitation (SHVE): An Innovative Open-Source Tool for XSS Exploitation]]></title>
-        <id>https://blog.doyensec.com//2023/08/31/introducing-session-hijacking-visual-exploitation.html</id>
-        <link href="https://blog.doyensec.com//2023/08/31/introducing-session-hijacking-visual-exploitation.html"/>
-        <updated>2023-08-31T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Greetings, folks! Today, we’re thrilled to introduce you to our latest tool: Session Hijacking Visual Exploitation, or SHVE. This open-source tool, now available on our GitHub, offers a novel way to hijack a victim’s browser sessions, utilizing them as a visual proxy after hooking via an XSS or a malicious webpage. While some exploitation frameworks, such as BeEF, do provide hooking features, they don’t allow remote visual interactions.
-SHVE’s interaction with a victim’s browser in the security context of the user relies on a comprehensive design incorporating multiple elements. These components, each fulfilling a specific function, form a complex, interconnected system that allows a precise and controlled session hijacking. Let’s take a closer look at each of them:
-VictimServer: This comp…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FOR589: Cybercrime Intelligence Blog]]></title>
-        <id>https://www.sans.org/blog/cybercrime-intelligence-FOR589</id>
-        <link href="https://www.sans.org/blog/cybercrime-intelligence-FOR589?msc=rss"/>
-        <updated>2023-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[FOR589: Cybercrime Intelligence course will teach you how to effectively anticipate, prevent, and mitigate potential cybercrime threats, while also helping law enforcement agencies and governments to combat cybercrime and prosecute cybercriminals.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Career Development for Security Awareness, Behavior, and Culture Professionals]]></title>
-        <id>https://www.sans.org/blog/career-development-for-security-awareness-behavior-and-culture-professionals</id>
-        <link href="https://www.sans.org/blog/career-development-for-security-awareness-behavior-and-culture-professionals?msc=rss"/>
-        <updated>2023-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Institute offers these key courses to help security awareness and culture professionals develop in their careers.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Get Into OSINT]]></title>
-        <id>https://www.sans.org/blog/how-to-get-into-osint</id>
-        <link href="https://www.sans.org/blog/how-to-get-into-osint?msc=rss"/>
-        <updated>2023-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn various methods to find OSINT resources and communities, figure out how to practice techniques and build your skillset, and learn how you can get a job in OSINT.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SEC568: Approaching the Software Supply Chain like Jack Byrnes]]></title>
-        <id>https://www.sans.org/blog/sec568-approaching-the-software-supply-chain-like-jack-byrnes</id>
-        <link href="https://www.sans.org/blog/sec568-approaching-the-software-supply-chain-like-jack-byrnes?msc=rss"/>
-        <updated>2023-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about product security testing]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report – Entropy/Rust Cryptography Review]]></title>
-        <id>https://research.nccgroup.com/?p=32756</id>
-        <link href="https://research.nccgroup.com/2023/08/30/public-report-entropy-rust-cryptography-review/"/>
-        <updated>2023-08-30T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[During the summer of 2023, Entropy Cryptography Inc engaged NCC Group’s Cryptography Services team to perform a cryptography and implementation review of several Rust-based libraries implementing constant-time big integer arithmetic, prime generation, and secp256k1 (k256) elliptic curve functionality. Two consultants performed the review within 40 person-days of effort, which included retesting and report generation. The […]]]></summary>
-        <author>
-            <name>Eric Schorn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ansible yum module: Install RHEL/CentOS packages]]></title>
-        <id>https://4sysops.com/?p=1576221</id>
-        <link href="https://4sysops.com/archives/ansible-yum-module-install-the-rhelcentos-packages/"/>
-        <updated>2023-08-30T15:52:10.000Z</updated>
-        <summary type="html"><![CDATA[The Ansible yum module manages packages using the yum package manager on CentOS and RPM-based Linux distributions, such as RHEL, CentOS, Fedora, and Rocky Linux. The Ansible yum module allows you to interact with the yum package manager and perform all basic package management tasks, such as installing, removing, and updating the packages.
-Ansible yum module: Install RHEL/CentOS packages first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Hitesh Jethva</name>
         </author>
     </entry>
     <entry>

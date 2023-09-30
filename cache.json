@@ -403,26 +403,6 @@
           "wordCount": 20196,
           "title": "Ruling the rules",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/09/Figure14-NIDS-Pipeline.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=32844",
-          "author": "Aaron Adams",
-          "description": "Aaron Adams presented this talk at HITB Phuket on the 24th August 2023. The talk detailed how NCC Exploit Development Group (EDG) in Pwn2Own 2022 Toronto was able to exploit two different PostScript vulnerabilities in Lexmark printers. The presentation is a good primer for those interested in further researching the Lexmark PostScript stack, and also […]",
-          "link": "https://research.nccgroup.com/2023/08/31/hitb-phuket-2023-exploiting-the-lexmark-postscript-stack/",
-          "publishedOn": "2023-08-31T09:23:20.000Z",
-          "wordCount": 18543,
-          "title": "HITB Phuket 2023 – Exploiting the Lexmark PostScript Stack",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=32756",
-          "author": "Eric Schorn",
-          "description": "During the summer of 2023, Entropy Cryptography Inc engaged NCC Group’s Cryptography Services team to perform a cryptography and implementation review of several Rust-based libraries implementing constant-time big integer arithmetic, prime generation, and secp256k1 (k256) elliptic curve functionality. Two consultants performed the review within 40 person-days of effort, which included retesting and report generation. The […]",
-          "link": "https://research.nccgroup.com/2023/08/30/public-report-entropy-rust-cryptography-review/",
-          "publishedOn": "2023-08-30T16:00:00.000Z",
-          "wordCount": 18549,
-          "title": "Public Report – Entropy/Rust Cryptography Review",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -536,16 +516,6 @@
           "publishedOn": "2023-09-24T22:00:00.000Z",
           "wordCount": 2541,
           "title": "Client-side JavaScript Instrumentation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com//2023/08/31/introducing-session-hijacking-visual-exploitation.html",
-          "author": null,
-          "description": "Greetings, folks! Today, we’re thrilled to introduce you to our latest tool: Session Hijacking Visual Exploitation, or SHVE. This open-source tool, now available on our GitHub, offers a novel way to hijack a victim’s browser sessions, utilizing them as a visual proxy after hooking via an XSS or a malicious webpage. While some exploitation frameworks, such as BeEF, do provide hooking features, they don’t allow remote visual interactions.\nSHVE’s interaction with a victim’s browser in the security context of the user relies on a comprehensive design incorporating multiple elements. These components, each fulfilling a specific function, form a complex, interconnected system that allows a precise and controlled session hijacking. Let’s take a closer look at each of them:\nVictimServer: This comp…",
-          "link": "https://blog.doyensec.com//2023/08/31/introducing-session-hijacking-visual-exploitation.html",
-          "publishedOn": "2023-08-31T04:00:00.000Z",
-          "wordCount": 589,
-          "title": "Introducing Session Hijacking Visual Exploitation (SHVE): An Innovative Open-Source Tool for XSS Exploitation",
           "imageUrl": null
         }
       ]
@@ -751,6 +721,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1576600",
+          "author": "Surender Kumar",
+          "description": "In a previous post, you learned about DaemonSets in Kubernetes. In this article, you will learn how the Kubernetes scheduler works. The kube-scheduler is a core control plane component that helps schedule Pods across various worker nodes of a Kubernetes cluster. Scheduling in Kubernetes is the process of assigning Pods to nodes so that the kubelet service can run them.\nkube-scheduler: The Kubernetes scheduler first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/kube-scheduler-the-kubernetes-scheduler/",
+          "publishedOn": "2023-09-29T12:39:40.000Z",
+          "wordCount": 14754,
+          "title": "kube-scheduler: The Kubernetes scheduler",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/View-the-static-Pods-and-their-configuration-files-on-the-control-plane-node-600x304.png"
+        },
         {
           "id": "https://4sysops.com/?p=1576574",
           "author": "Wolfgang Sommergut",
@@ -960,16 +940,6 @@
           "wordCount": 4341,
           "title": "dsregcmd: Troubleshoot and manage Azure Active Directory (Microsoft Entra ID) joined devices",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Machine-is-joined-to-an-on-premises-Active-Directory-Domain-Services-domain-600x338.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576221",
-          "author": "Hitesh Jethva",
-          "description": "The Ansible yum module manages packages using the yum package manager on CentOS and RPM-based Linux distributions, such as RHEL, CentOS, Fedora, and Rocky Linux. The Ansible yum module allows you to interact with the yum package manager and perform all basic package management tasks, such as installing, removing, and updating the packages.\nAnsible yum module: Install RHEL/CentOS packages first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/ansible-yum-module-install-the-rhelcentos-packages/",
-          "publishedOn": "2023-08-30T15:52:10.000Z",
-          "wordCount": 4682,
-          "title": "Ansible yum module: Install RHEL/CentOS packages",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/08/Adding-the-Elasticsearch-GPG-key-and-repository-on-the-target-server-600x313.png"
         }
       ]
     },
@@ -984,6 +954,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8753",
+          "author": "adam",
+          "description": "I really don’t know if this is the first post in the series, or just a one-off that is also, the last. There are many fantastic blog posts out there that deal with the most popular Linux persistence tricks, f.ex. … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2023/09/29/beyond-the-good-ol-bashrc-entry-part-1/",
+          "publishedOn": "2023-09-29T23:18:54.000Z",
+          "wordCount": 822,
+          "title": "Beyond the good ol’ .bashrc entry… Part 1",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8748",
           "author": "adam",
@@ -1098,6 +1078,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=28055",
+          "author": "David Lodge",
+          "description": "TL;DR The Fastboot protocol can often have hidden commands Those commands can do interesting things Conventionally they’re found by reverse engineering Can’t find a copy of the firmware? Guess the […]\nFastboot Fuzzing first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/fastboot-fuzzing/",
+          "publishedOn": "2023-09-29T05:48:04.000Z",
+          "wordCount": 2170,
+          "title": "Fastboot Fuzzing",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=28037",
           "author": "Kamaria Harvey",
@@ -1274,46 +1264,6 @@
           "wordCount": 3849,
           "title": "Next Generation FOR508",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/cybercrime-intelligence-FOR589",
-          "author": null,
-          "description": "FOR589: Cybercrime Intelligence course will teach you how to effectively anticipate, prevent, and mitigate potential cybercrime threats, while also helping law enforcement agencies and governments to combat cybercrime and prosecute cybercriminals.",
-          "link": "https://www.sans.org/blog/cybercrime-intelligence-FOR589?msc=rss",
-          "publishedOn": "2023-08-31T00:00:00.000Z",
-          "wordCount": 5430,
-          "title": "FOR589: Cybercrime Intelligence Blog",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/career-development-for-security-awareness-behavior-and-culture-professionals",
-          "author": null,
-          "description": "SANS Institute offers these key courses to help security awareness and culture professionals develop in their careers.",
-          "link": "https://www.sans.org/blog/career-development-for-security-awareness-behavior-and-culture-professionals?msc=rss",
-          "publishedOn": "2023-08-31T00:00:00.000Z",
-          "wordCount": 4347,
-          "title": "Career Development for Security Awareness, Behavior, and Culture Professionals",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/how-to-get-into-osint",
-          "author": null,
-          "description": "Learn various methods to find OSINT resources and communities, figure out how to practice techniques and build your skillset, and learn how you can get a job in OSINT.",
-          "link": "https://www.sans.org/blog/how-to-get-into-osint?msc=rss",
-          "publishedOn": "2023-08-31T00:00:00.000Z",
-          "wordCount": 4837,
-          "title": "How to Get Into OSINT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/sec568-approaching-the-software-supply-chain-like-jack-byrnes",
-          "author": null,
-          "description": "A blog about product security testing",
-          "link": "https://www.sans.org/blog/sec568-approaching-the-software-supply-chain-like-jack-byrnes?msc=rss",
-          "publishedOn": "2023-08-31T00:00:00.000Z",
-          "wordCount": 4089,
-          "title": "SEC568: Approaching the Software Supply Chain like Jack Byrnes",
-          "imageUrl": null
         }
       ]
     },
@@ -1322,6 +1272,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/",
+          "author": null,
+          "description": "Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is quite frequent.\nMicrosoft fixed such a vulnerability in Bing Chat, Anthropic fixed it in Claude, and ChatGPT has a known vulnerability as Open AI “won’t fix” the issue.\nThis post describes a variant in the Azure AI Playground and how Microsoft fixed it.\nFrom Untrusted Data to Data Exfiltration When untrusted data makes it into the LLM prompt context it can instruct the model to inject an image markdown element.",
+          "link": "https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/",
+          "publishedOn": "2023-09-29T17:00:08.000Z",
+          "wordCount": 565,
+          "title": "Microsoft Fixes Data Exfiltration Vulnerability in Azure AI Playground",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2023/advanced-plugin-data-exfiltration-trickery/",
           "author": null,
@@ -1419,6 +1379,16 @@
       "siteUrl": "https://www.secureauth.com/blog/",
       "articles": [
         {
+          "id": "https://www.secureauth.com/?post_type=blog&p=50186",
+          "author": "jendres",
+          "description": "Next week, SecureAuth will be a gold sponsor at the 2023 FinCyber Today Summit by FS-ISAC in Orlando, FL. The theme is Forging for a Resilient Future for this premier financial services event where IT security, IT professionals and executives across the financial sector come together to learn the modern approaches to combat today’s vulnerabilities […]\nThe post SecureAuth Presents “MFA is so 80’s: Invisible MFA with Continuous Authentication” at 2023 FinCyber Today Summit by FS-ISAC appeared first on SecureAuth.",
+          "link": "https://www.secureauth.com/blog/secureauth-presents-mfa-is-so-80s-invisible-mfa-with-continuous-authentication-at-2023-fincyber-today-summit-by-fs-isac/",
+          "publishedOn": "2023-09-29T14:24:34.000Z",
+          "wordCount": 9404,
+          "title": "SecureAuth Presents “MFA is so 80’s: Invisible MFA with Continuous Authentication” at 2023 FinCyber Today Summit by FS-ISAC",
+          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2023/08/fs-isac-social.jpg"
+        },
+        {
           "id": "https://www.secureauth.com/?post_type=blog&p=49994",
           "author": "Joan Fronske",
           "description": "Abstract: The goal of MFA and other authentication solutions is to determine who the person at the keyboard is or on the mobile device. The traditional approach of having a username and a password as identification factors has been shown to be flawed and exploitable – what they say is not a good indication of […]\nThe post Biobehavioral User Identification: Biometrics + Behavior = Confidence appeared first on SecureAuth.",
@@ -1493,6 +1463,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/celebrating-one-year-of-cloudfox",
+          "author": "Seth Art",
+          "description": "Celebrate CloudFox's one-year anniversary as we reflect on the updates and growth that have occurred over the year including the creation of CloudFoxable.",
+          "link": "https://bishopfox.com/blog/celebrating-one-year-of-cloudfox",
+          "publishedOn": "2023-09-29T15:00:00.000Z",
+          "wordCount": 1683,
+          "title": "Celebrating One Year of CloudFox",
+          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-CloudFox-One-Year-Anniversary_OG.jpg?mtime=1695999564"
+        },
         {
           "id": "https://bishopfox.com/blog/passing-the-osep-exam-using-sliver",
           "author": "Jon Guild",
