@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-06T00:33:34.111Z</updated>
+    <updated>2023-10-07T00:33:10.715Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: 1768.py Version 0.0.19]]></title>
+        <id>http://blog.didierstevens.com/?p=10196</id>
+        <link href="https://blog.didierstevens.com/2023/10/07/update-1768-py-version-0-0-19/"/>
+        <updated>2023-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some extra information when signature is found. 1768_v0_0_19.zip (http)MD5: FCF07B2AEDDBB4911520152531C5F107SHA256: 5EE73B9311578D202246011FAF3216674387894833E759148F6C5356B646686F]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes monitoring with the Kubernetes metrics server]]></title>
+        <id>https://4sysops.com/?p=1576685</id>
+        <link href="https://4sysops.com/archives/kubernetes-monitoring-with-the-kubernetes-metrics-server/"/>
+        <updated>2023-10-06T09:08:01.000Z</updated>
+        <summary type="html"><![CDATA[Metrics are important for monitoring the performance, health, and scalability of nodes, Pods, and applications that run in a Kubernetes cluster. The Kubernetes metrics server is a cluster addon that collects and aggregates resource metrics from kubelets (agents that run on each cluster node) and exposes these metrics in the Kubernetes API server. The metrics server is a scalable, efficient solution for collecting resource metrics in Kubernetes. It collects metrics every 15 seconds, uses minimal node resources, and can handle clusters with up to 5,000 nodes.
+Kubernetes monitoring with the Kubernetes metrics server first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: simple_listener.py Version 0.1.4]]></title>
         <id>http://blog.didierstevens.com/?p=10193</id>
@@ -14,6 +35,16 @@
         <summary type="html"><![CDATA[This update adds ZIP support for binary files, and a –prompt option. When this option is used, the user is prompted after each request, and processing of new requests is suspended until the user reacts to the prompt. simple_listener_v0_1_4.zip (http)MD5: 85A9E47B6243CD860D20E483F162DEA0SHA256: 72FB2E7783315BFD21D74829BAECC1364A404A2B3853DBFD9B29DB2A9322F20B]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Do New Cybersecurity Rules Mean For CISOs?]]></title>
+        <id>https://hackerone.com/security-compliance/new-cybersecurity-rules-for-cisos</id>
+        <link href="https://www.hackerone.com/security-compliance/new-cybersecurity-rules-for-cisos"/>
+        <updated>2023-10-05T20:13:32.000Z</updated>
+        <summary type="html"><![CDATA[CISOs are anxious about new cybersecurity rules — but they don’t have to be.]]></summary>
+        <author>
+            <name>Chris Evans</name>
         </author>
     </entry>
     <entry>
@@ -74,6 +105,16 @@ The post Solving The “Unhooking” Problem appeared first on Outflank.]]></sum
         <summary type="html"><![CDATA[This update adds option –group: with this option, all lines are stored as a list in variable lines, and the Python expression is evaluated just once after each file is processed. python-per-line_V0_0_11.zip (http)MD5: B35187DFEA8970BFFFBA33E8DC36B31ESHA256: 2EFC172F48BB9D5A7EFF87737D81F15F473EEFB4B9899A09571E7892FF15BAD1]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacOS "DirtyNIB" Vulnerability]]></title>
+        <id>https://blog.xpnsec.com/dirtynib/</id>
+        <link href="https://blog.xpnsec.com/dirtynib/"/>
+        <updated>2023-10-04T23:01:46.000Z</updated>
+        <summary type="html"><![CDATA[While looking for avenues of injecting code into platform binaries back in macOS Monterey, I was able to identify a vulnerability which allowed the hijacking of Apple application entitlements. Recently I decided to revisit this vulnerability after a long time of trying to have it patched, and was surprised to see that it still works. There are some caveats introduced with later versions of macOS which we will explore, but in this post we’ll look at a vulnerability in macOS Sonoma which has been around for a long time, and remains an 0day, urm, to this day.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
         </author>
     </entry>
     <entry>
@@ -1228,49 +1269,6 @@ Broadly speaking, the attack surface of the device can be broken down into three
 The ServicePro …]]></summary>
         <author>
             <name>Todd Manning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Information disclosure through insecure design]]></title>
-        <id>https://www.pentestpartners.com/?p=27607</id>
-        <link href="https://www.pentestpartners.com/security-blog/information-disclosure-through-insecure-design/"/>
-        <updated>2023-09-07T05:32:54.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Insecure design can lead to many issues. The Software Development Life Cycle (SDLC) should contain steps to evaluate and consider security throughout the process. Several recent web application and […]
-Information disclosure through insecure design first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Chris Tams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supporting Sprocket Security's offensive security testing with BChecks, from Burp Suite]]></title>
-        <id>supporting-sprocket-securitys-offensive-security-testing-with-bchecks-from-burp-suite</id>
-        <link href="https://portswigger.net/blog/supporting-sprocket-securitys-offensive-security-testing-with-bchecks-from-burp-suite"/>
-        <updated>2023-09-06T17:55:16.000Z</updated>
-        <summary type="html"><![CDATA[The US-based organization Sprocket Security provides continuous penetration testing services to customers by monitoring clients’ attack surfaces and searching for new and novel exploitation techniques]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes DaemonSets]]></title>
-        <id>https://4sysops.com/?p=1576300</id>
-        <link href="https://4sysops.com/archives/kubernetes-daemonsets/"/>
-        <updated>2023-09-06T15:28:44.000Z</updated>
-        <summary type="html"><![CDATA[A DaemonSet is a Kubernetes object that ensures that a copy of a Pod is always available on all (or selected) nodes in the cluster. The Pod can run background processes that provide services, such as logging, monitoring, networking, or usuage on every node in a Kubernetes cluster.
-Kubernetes DaemonSets first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Back to the 90s: Fujitsu “IP series”  Real-time Video Transmission Gear Hard Coded Credentials]]></title>
-        <id>https://www.praetorian.com/?p=4841</id>
-        <link href="https://www.praetorian.com/blog/fujitsu-ip-series-hard-coded-credentials/"/>
-        <updated>2023-09-06T14:16:19.000Z</updated>
-        <summary type="html"><![CDATA[Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations. Exposed embedded devices are a particular area of concern because they typically do not have host-based security controls such as EDR or Antivirus, but still […]
-The post Back to the 90s: Fujitsu “IP series”  Real-time Video Transmission Gear Hard Coded Credentials appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Emmaline</name>
         </author>
     </entry>
     <entry>
