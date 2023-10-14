@@ -103,6 +103,16 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw);.lst-kix_fcb9u51bqgft-4>li{counter-increment:lst-ctn-kix_fcb9u51bqgft-4}ol.lst-kix_shbeio5ln3sf-3.start{counter-reset:lst-ctn-kix_shbeio5ln3sf-3 0}.lst-kix_shbeio5ln3sf-0>li{counter-increment:lst-ctn-kix_shbeio5ln3sf-0}ul.lst-kix_wvnn2lytn2eh-3{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-2{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-5{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-4{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-1{list-style-type:none}.lst-kix_shbeio5ln3sf-6>li{counter-increment:lst-ctn-kix_shbeio5ln3sf-6}ul.lst-kix_wvnn2lytn2eh-0{list-style-type:none}ol.lst-kix_shbeio5ln3sf-7.start{counter-reset:lst-ctn-kix_shbeio5ln3sf-7 0}ol.lst-kix_fcb9u51bqgft-2.start{counter-reset:lst-ctn-kix_fcb9u51…",
+          "link": "https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html",
+          "publishedOn": "2023-10-13T10:47:00.001Z",
+          "wordCount": 15673,
+          "title": "An analysis of an in-the-wild iOS Safari WebContent to GPU Process exploit",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrzpTZ2_H16_OJgFkwuJNmL120zmxWCcdrLlPXp-6x5SsweX8PosbAcKI9Sf8Ad0bYlMfDGwJ0Rz5GdwwEVnek-taAR1voRObiCwl7StIIx2gIHw7zH16AOi-TJRNiyDYKXprNRQNmt6vosLtafQdbjrRgTJB7HLUt_qc1sfCG_sAWZk_wfsfaei3c2-4/w1200-h630-p-k-no-nu/image7.png"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html",
           "author": null,
           "description": "By Seth Jenkins, Project Zero\n\nIntroduction\n\nIn December 2022, Google’s Threat Analysis Group (TAG) discovered an in-the-wild exploit chain targeting Samsung Android devices. TAG’s blog post covers the targeting and the actor behind the campaign. This is a technical analysis of the final stage of one of the exploit chains, specifically CVE-2023-0266 (a 0-day in the ALSA compatibility layer) and CVE-2023-26083 (a 0-day in the Mali GPU driver) as well as the techniques used by the attacker to gain kernel arbitrary read/write access.\n\nNotably, all of the previous stages of the exploit chain used n-day vulnerabilities:\n\n\nCVE-2022-4262, a vulnerability patched in Chrome that was unpatched in the Samsung browser (i.e. a \"Chrome n-day\"), was used to achieve RCE.\n\n\nCVE-2022-3038, another Chrome n-…",
@@ -319,6 +329,26 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ethical-hacker/young-hackers-for-good",
+          "author": "Ariel Garcia",
+          "description": "The publicity around exploited young hackers perpetuates fear and stigma that young, skilled hackers have no ethical path to put their talent to work.",
+          "link": "https://www.hackerone.com/ethical-hacker/young-hackers-for-good",
+          "publishedOn": "2023-10-12T16:13:03.000Z",
+          "wordCount": 3235,
+          "title": "Meet HackerOne’s Brand Ambassadors That Break the Hacker Stereotype",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/Blog%20Header_Young%20Hackers%20Are%20Hacking%20For%20Good.png"
+        },
+        {
+          "id": "https://hackerone.com/ethical-hacker/election-security",
+          "author": "Kayla Underkoffler",
+          "description": "Election technology manufacturers are teaming up with ethical hackers to secure elections.",
+          "link": "https://www.hackerone.com/ethical-hacker/election-security",
+          "publishedOn": "2023-10-10T16:09:37.000Z",
+          "wordCount": 2931,
+          "title": "How Ethical Hackers Are Securing Elections",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/ESRF%20Blog_Header%20763x462.png"
+        },
         {
           "id": "https://hackerone.com/security-compliance/new-cybersecurity-rules-for-cisos",
           "author": "Chris Evans",
@@ -1017,16 +1047,6 @@
           "wordCount": 3721,
           "title": "Move VirtualBox VM to other hosts",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Start-the-wizard-for-exporting-a-VM-in-VirtualBox-600x351.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576382",
-          "author": "Brandon Lee",
-          "description": "Learn how to view low-level Docker container logging, tail log output, view log timestamps, find logs since a specific or relative time, display logs until a specific timestamp, display only a specific number of Docker log entries, use Docker logs for troubleshooting, use Docker logs with grep, and debug the Docker daemon.\nDocker logs tail: Troubleshoot Docker containers with real-time logging first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/docker-logs-tail-troubleshoot-docker-containers-with-real-time-logging/",
-          "publishedOn": "2023-09-13T16:08:42.000Z",
-          "wordCount": 4296,
-          "title": "Docker logs tail: Troubleshoot Docker containers with real-time logging",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Viewing-logs-for-an-Nginx-container-running-in-Docker-600x229.png"
         }
       ]
     },
@@ -1041,6 +1061,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8779",
+          "author": "adam",
+          "description": "Even in 2023 Dexray seems to be delivering value to DFIR practitioners. I am always very humbled by unsolicited additions to Dexray code, because it means the tool is still alive, despite the fact it was written in archaic (by … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2023/10/13/dexray-v2-33/",
+          "publishedOn": "2023-10-13T22:43:54.000Z",
+          "wordCount": 551,
+          "title": "Dexray v2.33",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8753",
           "author": "adam",
@@ -1204,16 +1234,6 @@
           "wordCount": 2492,
           "title": "3yrs of CAA ASSURE assessments. What we’ve learned",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=27655",
-          "author": "Kamaria Harvey",
-          "description": "If you’ve landed here the chances are you are considering PCI compliance. At present the scheme is running against v3.2.1. In March 2022, the PCI Council released the long-anticipated v4.0. […]\nPCI v4 is coming. Are you ready? first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/pci-v4-is-coming-are-you-ready/",
-          "publishedOn": "2023-09-14T05:11:37.000Z",
-          "wordCount": 2455,
-          "title": "PCI v4 is coming. Are you ready?",
-          "imageUrl": null
         }
       ]
     },
@@ -1361,16 +1381,6 @@
           "wordCount": 7215,
           "title": "Building Strong Foundations: Exploring IaC for Cloud IAM",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/sans-cyber-academy-awards-108-students-scholarships-to-launch-careers-in-cybersecurity",
-          "author": null,
-          "description": "SANS continues its push toward diversity of the cyber workforce.",
-          "link": "https://www.sans.org/blog/sans-cyber-academy-awards-108-students-scholarships-to-launch-careers-in-cybersecurity?msc=rss",
-          "publishedOn": "2023-09-14T00:00:00.000Z",
-          "wordCount": 2756,
-          "title": "SANS Cyber Academy Awards 108 Students Scholarships to Launch Careers in Cybersecurity",
-          "imageUrl": null
         }
       ]
     },
@@ -1497,6 +1507,16 @@
       "feedUrl": "https://medium.com/feed/@assume-breach",
       "siteUrl": "https://medium.com/@assume-breach?source=rss-fe83402397b0------2",
       "articles": [
+        {
+          "id": "https://medium.com/p/2b8c885b9836",
+          "author": "assume-breach",
+          "description": "Welcome back. So, it’s been about a week since I published my post on LNK phishing. A few days after publishing, I was testing some other…",
+          "link": "https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-in-2023-revisited-again-2b8c885b9836?source=rss-fe83402397b0------2",
+          "publishedOn": "2023-10-13T20:49:30.000Z",
+          "wordCount": 6609,
+          "title": "Home Grown Red Team: LNK Phishing In 2023 Revisited…Again",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:970/1*itpZRGPl54wpKsVaf-nskQ.png"
+        },
         {
           "id": "https://medium.com/p/364daf70a06a",
           "author": "assume-breach",
