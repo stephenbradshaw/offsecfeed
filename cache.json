@@ -832,11 +832,31 @@
           "id": "https://4sysops.com/?p=1576748",
           "author": "Surender Kumar",
           "description": "In my previous post in this Kubernetes series, you learned how to install the Kubernetes Metrics Server. Today, I will introduce the HorizontalPodAutoscaler. Both features work together in the Kubernetes ecosystem to facilitate the automatic scaling of pods based on observed system or custom metrics. A HorizontalPodAutoscaler automatically scales the number of Pods in a workload resource (such as a Deployment or a StatefulSet) based on observed metrics, such as CPU or memory utilization. It helps to improve the performance and efficiency of the application by adjusting the number of Pods to match the current demand. The kube-controller-manager (a control plane component) is responsible for running the HorizontalPodAutoscaler in a Kubernetes cluster.\nThe Kubernetes HorizontalPodAutoscaler first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/the-kubernetes-horizontalpodautoscaler/12/",
+          "publishedOn": "2023-10-12T09:43:04.000Z",
+          "wordCount": 4727,
+          "title": "The Kubernetes HorizontalPodAutoscaler",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Watching-the-HorizontalPodAutoscaler-autoscale-a-Kubernetes-deployment-up-when-the-load-is-increased-600x386.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576748",
+          "author": "Surender Kumar",
+          "description": "In my previous post in this Kubernetes series, you learned how to install the Kubernetes Metrics Server. Today, I will introduce the HorizontalPodAutoscaler. Both features work together in the Kubernetes ecosystem to facilitate the automatic scaling of pods based on observed system or custom metrics. A HorizontalPodAutoscaler automatically scales the number of Pods in a workload resource (such as a Deployment or a StatefulSet) based on observed metrics, such as CPU or memory utilization. It helps to improve the performance and efficiency of the application by adjusting the number of Pods to match the current demand. The kube-controller-manager (a control plane component) is responsible for running the HorizontalPodAutoscaler in a Kubernetes cluster.\nThe Kubernetes HorizontalPodAutoscaler first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/the-kubernetes-horizontalpodautoscaler/",
           "publishedOn": "2023-10-12T09:43:04.000Z",
           "wordCount": 13938,
           "title": "The Kubernetes HorizontalPodAutoscaler",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Watching-the-HorizontalPodAutoscaler-autoscale-a-Kubernetes-deployment-up-when-the-load-is-increased-600x386.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576729",
+          "author": "Evi Vanoost",
+          "description": "Linux SMB mounts allow you to access shared files and folders on Windows servers from your Linux machine. This can be useful for collaboration, data sharing, and other purposes. If you need to mount an SMB share for multiple users on Linux, there are a few things you have to take into account.\nLinux SMB mount for multiple users first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/linux-smb-mount-for-multiple-users/11/",
+          "publishedOn": "2023-10-11T09:38:42.000Z",
+          "wordCount": 4740,
+          "title": "Linux SMB mount for multiple users",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/First-look-at-etcfstab-600x310.png"
         },
         {
           "id": "https://4sysops.com/?p=1576729",
@@ -852,11 +872,31 @@
           "id": "https://4sysops.com/?p=1576718",
           "author": "Hitesh Jethva",
           "description": "This blog post will walk you through the process of dockerizing a Python application, that is, packaging a Python application into a Docker image.\nPackaging a Python application into a Docker image first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/packaging-a-python-application-into-a-docker-image/10/",
+          "publishedOn": "2023-10-10T09:43:22.000Z",
+          "wordCount": 3788,
+          "title": "Packaging a Python application into a Docker image",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Installing-the-Flask-application-600x332.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576718",
+          "author": "Hitesh Jethva",
+          "description": "This blog post will walk you through the process of dockerizing a Python application, that is, packaging a Python application into a Docker image.\nPackaging a Python application into a Docker image first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/packaging-a-python-application-into-a-docker-image/",
           "publishedOn": "2023-10-10T09:43:22.000Z",
           "wordCount": 13002,
           "title": "Packaging a Python application into a Docker image",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Installing-the-Flask-application-600x332.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576700",
+          "author": "Wolfgang Sommergut",
+          "description": "Windows Server vNext introduces several interesting enhancements for Active Directory Domain Services (AD DS) and AD LDS in build 25951. These include a new functional level for domains and forests, an increase in database page size to 32K, a schema update, and several security improvements.\nActive Directory in Windows Server 2025: New functional level, updated database, security improvements first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/active-directory-in-windows-server-2025-new-functional-level-updated-database-security-improvements/09/",
+          "publishedOn": "2023-10-09T09:21:13.000Z",
+          "wordCount": 4121,
+          "title": "Active Directory in Windows Server 2025: New functional level, updated database, security improvements",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/With-the-next-LTSC-version-of-Windows-Server-the-Active-Directory-AD-will-receive-a-new-functional-level-600x442.png"
         },
         {
           "id": "https://4sysops.com/?p=1576700",
@@ -872,11 +912,31 @@
           "id": "https://4sysops.com/?p=1576685",
           "author": "Surender Kumar",
           "description": "Metrics are important for monitoring the performance, health, and scalability of nodes, Pods, and applications that run in a Kubernetes cluster. The Kubernetes metrics server is a cluster addon that collects and aggregates resource metrics from kubelets (agents that run on each cluster node) and exposes these metrics in the Kubernetes API server. The metrics server is a scalable, efficient solution for collecting resource metrics in Kubernetes. It collects metrics every 15 seconds, uses minimal node resources, and can handle clusters with up to 5,000 nodes.\nKubernetes monitoring with the Kubernetes metrics server first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/kubernetes-monitoring-with-the-kubernetes-metrics-server/06/",
+          "publishedOn": "2023-10-06T09:08:01.000Z",
+          "wordCount": 4092,
+          "title": "Kubernetes monitoring with the Kubernetes metrics server",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2018/07/PowerShell-Social.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576685",
+          "author": "Surender Kumar",
+          "description": "Metrics are important for monitoring the performance, health, and scalability of nodes, Pods, and applications that run in a Kubernetes cluster. The Kubernetes metrics server is a cluster addon that collects and aggregates resource metrics from kubelets (agents that run on each cluster node) and exposes these metrics in the Kubernetes API server. The metrics server is a scalable, efficient solution for collecting resource metrics in Kubernetes. It collects metrics every 15 seconds, uses minimal node resources, and can handle clusters with up to 5,000 nodes.\nKubernetes monitoring with the Kubernetes metrics server first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/kubernetes-monitoring-with-the-kubernetes-metrics-server/",
           "publishedOn": "2023-10-06T09:08:01.000Z",
           "wordCount": 13319,
           "title": "Kubernetes monitoring with the Kubernetes metrics server",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2018/07/PowerShell-Social.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576667",
+          "author": "Graham Beer",
+          "description": "Adaptive Cards are a platform-agnostic specification for defining and rendering rich interactive content within various applications and chat channels, such as Teams or Slack. They are primarily used for display purposes in bot messages, notifications, emails, and other platforms where interactivity is desired. The primary idea is to allow developers to create a single card definition that can be rendered natively and consistently across multiple platforms. In this article, you will learn how to create and use Adaptive Cards with the Adaptive Cards Designer and programmatically with the Adaptive Cards SDK.\nHow to create and use Adaptive Cards first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/how-to-create-and-use-adaptive-cards/05/",
+          "publishedOn": "2023-10-05T14:59:59.000Z",
+          "wordCount": 4057,
+          "title": "How to create and use Adaptive Cards",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Adaptive-Card-Designer-main-screen-600x264.png"
         },
         {
           "id": "https://4sysops.com/?p=1576667",
@@ -892,11 +952,31 @@
           "id": "https://4sysops.com/?p=1576651",
           "author": "Evi Vanoost",
           "description": "As mentioned in my previous article about connecting Linux to Active Directory using SSSD, you can configure your Linux domain-bound system through the System Security Services Daemon (SSSD) and Pluggable Authentication Module (PAM) to obey Group Policy settings. This article expands on this capability.\nApplying Group Policy to Linux using SSSD first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/applying-group-policy-to-linux-using-sssd/04/",
+          "publishedOn": "2023-10-04T09:40:09.000Z",
+          "wordCount": 4382,
+          "title": "Applying Group Policy to Linux using SSSD",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/List-PAM-directory-600x331.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576651",
+          "author": "Evi Vanoost",
+          "description": "As mentioned in my previous article about connecting Linux to Active Directory using SSSD, you can configure your Linux domain-bound system through the System Security Services Daemon (SSSD) and Pluggable Authentication Module (PAM) to obey Group Policy settings. This article expands on this capability.\nApplying Group Policy to Linux using SSSD first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/applying-group-policy-to-linux-using-sssd/",
           "publishedOn": "2023-10-04T09:40:09.000Z",
           "wordCount": 13571,
           "title": "Applying Group Policy to Linux using SSSD",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/List-PAM-directory-600x331.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576640",
+          "author": "Wolfgang Sommergut",
+          "description": "After a standard installation of Windows 11, the taskbar includes a series of icons. Most of them are merely pinned and can be easily removed or replaced through a central configuration via Group Policy. However, this isn't the case for the Chat icon and the Search field. These require customization through settings or group policies.\nWindows 11 taskbar: remove chat icon, customize search field with Group Policy first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/windows-11-taskbar-remove-chat-icon-customize-search-field-with-group-policy/03/",
+          "publishedOn": "2023-10-03T09:03:53.000Z",
+          "wordCount": 3843,
+          "title": "Windows 11 taskbar: remove chat icon, customize search field with Group Policy",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/By-default-Windows-11s-taskbar-includes-an-icon-for-Teams-Chat-600x315.png"
         },
         {
           "id": "https://4sysops.com/?p=1576640",
@@ -912,11 +992,31 @@
           "id": "https://4sysops.com/?p=1576545",
           "author": "Hitesh Jethva",
           "description": "When managing Docker containers, you may need to connect to a running container. It is very helpful if you want to see what is happening inside the container. You can use the docker exec command, SSH into a running Docker container, or get a shell to the container.\nRun commands in a Docker container with docker exec and ssh first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/run-commands-in-a-docker-container-with-docker-exec-and-ssh/02/",
+          "publishedOn": "2023-10-02T12:21:36.000Z",
+          "wordCount": 4299,
+          "title": "Run commands in a Docker container with docker exec and ssh",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Connecting-to-a-running-container-via-SSH-600x201.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576545",
+          "author": "Hitesh Jethva",
+          "description": "When managing Docker containers, you may need to connect to a running container. It is very helpful if you want to see what is happening inside the container. You can use the docker exec command, SSH into a running Docker container, or get a shell to the container.\nRun commands in a Docker container with docker exec and ssh first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/run-commands-in-a-docker-container-with-docker-exec-and-ssh/",
           "publishedOn": "2023-10-02T12:21:36.000Z",
           "wordCount": 13468,
           "title": "Run commands in a Docker container with docker exec and ssh",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Connecting-to-a-running-container-via-SSH-600x201.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576600",
+          "author": "Surender Kumar",
+          "description": "In a previous post, you learned about DaemonSets in Kubernetes. In this article, you will learn how the Kubernetes scheduler works. The kube-scheduler is a core control plane component that helps schedule Pods across various worker nodes of a Kubernetes cluster. Scheduling in Kubernetes is the process of assigning Pods to nodes so that the kubelet service can run them.\nkube-scheduler: The Kubernetes scheduler first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/kube-scheduler-the-kubernetes-scheduler/29/",
+          "publishedOn": "2023-09-29T12:39:40.000Z",
+          "wordCount": 5596,
+          "title": "kube-scheduler: The Kubernetes scheduler",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/View-the-static-Pods-and-their-configuration-files-on-the-control-plane-node-600x304.png"
         },
         {
           "id": "https://4sysops.com/?p=1576600",
@@ -932,11 +1032,31 @@
           "id": "https://4sysops.com/?p=1576574",
           "author": "Wolfgang Sommergut",
           "description": "By default, only users with administrative privileges can log in to a Remote Desktop session. However, there are often situations in which standard users also require such access. To achieve this, you can add them to the relevant local group. Several methods are available for this task.\nAllow non-admins to access Remote Desktop first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/allow-non-admins-to-access-remote-desktop/28/",
+          "publishedOn": "2023-09-28T12:00:39.000Z",
+          "wordCount": 4148,
+          "title": "Allow non-admins to access Remote Desktop",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Assign-members-to-the-local-Remote-Desktop-Users-group-using-GPP-600x377.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576574",
+          "author": "Wolfgang Sommergut",
+          "description": "By default, only users with administrative privileges can log in to a Remote Desktop session. However, there are often situations in which standard users also require such access. To achieve this, you can add them to the relevant local group. Several methods are available for this task.\nAllow non-admins to access Remote Desktop first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/allow-non-admins-to-access-remote-desktop/",
           "publishedOn": "2023-09-28T12:00:39.000Z",
           "wordCount": 13368,
           "title": "Allow non-admins to access Remote Desktop",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Assign-members-to-the-local-Remote-Desktop-Users-group-using-GPP-600x377.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576554",
+          "author": "Avi",
+          "description": "Helm is often described as the package manager for Kubernetes, providing users with an easy way to define, install, and manage Kubernetes applications as preconfigured packages, referred to as Helm Charts. A Helm Chart contains preconfigured Kubernetes resources that can be deployed quickly using one command. In this blog post, we will explore the concept of Helm and guide you through creating a Helm Chart example.\nCreate a Kubernetes Helm Chart with example first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/create-a-kubernetes-helm-chart-with-examples/27/",
+          "publishedOn": "2023-09-27T08:22:15.000Z",
+          "wordCount": 4479,
+          "title": "Create a Kubernetes Helm Chart with example",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Nginx-application-deployed-using-Helm-600x344.png"
         },
         {
           "id": "https://4sysops.com/?p=1576554",
@@ -952,11 +1072,31 @@
           "id": "https://4sysops.com/?p=1576534",
           "author": "Wolfgang Sommergut",
           "description": "If you want to distribute updates for Windows 11 via WSUS, there are several products to choose from. The ones you need depends on the editions you are using and on how you install feature updates. Most products are needed for in-place upgrades.\nWhich WSUS products to select for Windows 11? first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/which-wsus-products-to-select-for-windows-11/26/",
+          "publishedOn": "2023-09-26T09:36:52.000Z",
+          "wordCount": 4088,
+          "title": "Which WSUS products to select for Windows 11?",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/All-updates-under-Servicing-Drivers-are-also-available-through-Upgrade-Servicing-Drivers-600x367.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576534",
+          "author": "Wolfgang Sommergut",
+          "description": "If you want to distribute updates for Windows 11 via WSUS, there are several products to choose from. The ones you need depends on the editions you are using and on how you install feature updates. Most products are needed for in-place upgrades.\nWhich WSUS products to select for Windows 11? first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/which-wsus-products-to-select-for-windows-11/",
           "publishedOn": "2023-09-26T09:36:52.000Z",
           "wordCount": 13238,
           "title": "Which WSUS products to select for Windows 11?",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/All-updates-under-Servicing-Drivers-are-also-available-through-Upgrade-Servicing-Drivers-600x367.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576523",
+          "author": "Surender Kumar",
+          "description": "Knowing how to view Kubernetes logs is essential when it comes to troubleshooting. Whereas the worker nodes store the Pod logs, container logs, and kubelet logs, the master node stores the API server logs, controller manager logs, and the scheduler log. If your entire Kubernetes cluster is in trouble, the cluster events can help you track down the issue.\nKubernetes logs: Pod logs, container logs, Docker logs, kubelet logs, and master node logs first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/kubernetes-logs-pod-logs-container-logs-docker-logs-kubelet-logs-and-master-node-logs/25/",
+          "publishedOn": "2023-09-25T09:58:42.000Z",
+          "wordCount": 5131,
+          "title": "Kubernetes logs: Pod logs, container logs, Docker logs, kubelet logs, and master node logs",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Updating-the-config-to-enable-the-DisplayBreakingChangeWarning-setting-600x336.png"
         },
         {
           "id": "https://4sysops.com/?p=1576523",
@@ -972,11 +1112,31 @@
           "id": "https://4sysops.com/?p=1576498",
           "author": "Baki Onur Okutucu",
           "description": "One of the lesser-known but very useful features of Azure PowerShell is the ability to manage Azure PowerShell global settings using the PowerShell cmdlets Get-AzConfig, Update-AzConfig, Export-AzConfig, Import-AzConfig, and Clear-AzConfig.\nManage Azure PowerShell global settings first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/manage-azure-powershell-global-settings/22/",
+          "publishedOn": "2023-09-22T09:26:53.000Z",
+          "wordCount": 4022,
+          "title": "Manage Azure PowerShell global settings",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Listing-a-specific-setting-across-all-scopes-and-modules-600x320.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576498",
+          "author": "Baki Onur Okutucu",
+          "description": "One of the lesser-known but very useful features of Azure PowerShell is the ability to manage Azure PowerShell global settings using the PowerShell cmdlets Get-AzConfig, Update-AzConfig, Export-AzConfig, Import-AzConfig, and Clear-AzConfig.\nManage Azure PowerShell global settings first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/manage-azure-powershell-global-settings/",
           "publishedOn": "2023-09-22T09:26:53.000Z",
           "wordCount": 3930,
           "title": "Manage Azure PowerShell global settings",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Listing-a-specific-setting-across-all-scopes-and-modules-600x320.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576480",
+          "author": "Hitesh Jethva",
+          "description": "The Nginx Proxy Manager (NPM) is an open-source reverse proxy management system that runs as a Docker container. It is easy to set up and requires no expertise to work with Nginx servers or SSL certificates. All you need to do is install a Docker and Docker Compose on each server.\nInstall Nginx Proxy Manager with Docker on Ubuntu first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/install-nginx-proxy-manager-with-docker-on-ubuntu/21/",
+          "publishedOn": "2023-09-21T10:31:17.000Z",
+          "wordCount": 4420,
+          "title": "Install Nginx Proxy Manager with Docker on Ubuntu",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Showing-the-password-reset-screen-600x296.png"
         },
         {
           "id": "https://4sysops.com/?p=1576480",
@@ -992,6 +1152,16 @@
           "id": "https://4sysops.com/?p=1576461",
           "author": "Wolfgang Sommergut",
           "description": "You can configure various settings for BitLocker using group policies, but this doesn't initiate encryption. Similarly, it doesn't create the configured protectors that are necessary for activating BitLocker. Manage-bde, PowerShell, or the WMI class Win32_EncryptableVolume serve this purpose.\nActivate BitLocker with manage-bde, PowerShell, or WMI first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/activate-bitlocker-with-manage-bde-powershell-or-wmi/20/",
+          "publishedOn": "2023-09-20T09:04:54.000Z",
+          "wordCount": 4166,
+          "title": "Activate BitLocker with manage-bde, PowerShell, or WMI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Activate-BitLocker-and-create-a-TPMandPIN-protector-simultaneously-the-recovery-key-already-exists-600x341.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576461",
+          "author": "Wolfgang Sommergut",
+          "description": "You can configure various settings for BitLocker using group policies, but this doesn't initiate encryption. Similarly, it doesn't create the configured protectors that are necessary for activating BitLocker. Manage-bde, PowerShell, or the WMI class Win32_EncryptableVolume serve this purpose.\nActivate BitLocker with manage-bde, PowerShell, or WMI first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/activate-bitlocker-with-manage-bde-powershell-or-wmi/",
           "publishedOn": "2023-09-20T09:04:54.000Z",
           "wordCount": 3979,
@@ -1002,11 +1172,31 @@
           "id": "https://4sysops.com/?p=1576452",
           "author": "Evi Vanoost",
           "description": "This post will show you how to connect Linux to Active Directory using the modern System Security Services Daemon (SSSD) and allow authentication against trusted Active Directory domains.\nConnect Linux to Active Directory using SSSD first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/connect-linux-to-active-directory-using-sssd/19/",
+          "publishedOn": "2023-09-19T09:35:02.000Z",
+          "wordCount": 4554,
+          "title": "Connect Linux to Active Directory using SSSD",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Output-of-the-realm-list-command.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576452",
+          "author": "Evi Vanoost",
+          "description": "This post will show you how to connect Linux to Active Directory using the modern System Security Services Daemon (SSSD) and allow authentication against trusted Active Directory domains.\nConnect Linux to Active Directory using SSSD first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/connect-linux-to-active-directory-using-sssd/",
           "publishedOn": "2023-09-19T09:35:02.000Z",
           "wordCount": 4317,
           "title": "Connect Linux to Active Directory using SSSD",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Output-of-the-realm-list-command.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576440",
+          "author": "Avi",
+          "description": "Grafana, an open-source platform, has emerged as a powerful tool for creating interactive and visually appealing dashboards. Whether you're a data analyst, developer, or IT professional, mastering the art of crafting a dashboard in Grafana can provide a significant edge in making data-driven decisions. In this tutorial, I will walk you through creating your first dashboard in Grafana.\nCreate your first Grafana dashboard first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/create-your-first-grafana-dashboard/18/",
+          "publishedOn": "2023-09-18T09:52:57.000Z",
+          "wordCount": 3927,
+          "title": "Create your first Grafana dashboard",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/MySQL-Overview-dashboard-in-Grafana-600x335.png"
         },
         {
           "id": "https://4sysops.com/?p=1576440",
@@ -1377,16 +1567,6 @@
           "publishedOn": "2023-09-18T10:24:51.000Z",
           "wordCount": 723,
           "title": "HITCON CMT 2023 - LLM Security Presentation and Trip Report",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2023/llm-cost-and-dos-threat/",
-          "author": null,
-          "description": "What happens if an attacker calls an LLM tool or plugin recursively during an Indirect Prompt Injection? Could this be an issue and drive up costs, or DoS a system?\nI tried it with ChatGPT, and it indeed works and the Chatbot enters a loop! 😊\n\nHowever, for ChatGPT users this isn’t really a threat, because:\n It’s subscription based, so OpenAI would pay the bill. There seems to be a call limit of 10 times in a single conversation turn (I tried a few times).",
-          "link": "https://embracethered.com/blog/posts/2023/llm-cost-and-dos-threat/",
-          "publishedOn": "2023-09-16T07:00:00.000Z",
-          "wordCount": 249,
-          "title": "LLM Apps: Don't Get Stuck in an Infinite Loop! 💵💰",
           "imageUrl": null
         }
       ]
