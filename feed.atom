@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-18T00:34:11.269Z</updated>
+    <updated>2023-10-19T00:33:57.741Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Public Report – Caliptra Security Assessment]]></title>
+        <id>https://research.nccgroup.com/?p=32965</id>
+        <link href="https://research.nccgroup.com/2023/10/18/public-report-caliptra-security-assessment/"/>
+        <updated>2023-10-18T18:26:29.000Z</updated>
+        <summary type="html"><![CDATA[During August and September of 2023, Microsoft engaged NCC Group to conduct a security assessment of Caliptra v0.9. Caliptra is an open-source silicon IP block for datacenter-focused server-class ASICs. It serves as the internal root-of-trust for both measurement and identity of a system-on-chip. The main use cases for Caliptra are to assure integrity of mutable […]]]></summary>
+        <author>
+            <name>Jeremy Boone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2023-38600: Story of an innocent Apple Safari copyWithin gone (way) outside]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:652ef89b672df54ad5a5894b</id>
+        <link href="https://www.thezdi.com/blog/2023/10/17/cve-2023-38600-story-of-an-innocent-apple-safari-copywithin-gone-way-outside"/>
+        <updated>2023-10-18T16:56:23.000Z</updated>
+        <summary type="html"><![CDATA[In May 2023, we received a vulnerability report from an anonymous researcher regarding a vulnerability in Apple Safari. It turned out to be an interesting classic integer underflow vulnerability. Apple assigned CVE-2023-38600 to this issue and fixed it in the following security advisories:
+— iOS 16.6 and iPadOS 16.6 
+— macOS Ventura 13.5 
+— tvOS 16.6
+— Safari 16.6 
+— watchOS 9.6 
+ Now that this vulnerability has been addressed by the vendor, we are ready to share additional details with the community.
+Proof of Concept
+Here is the minimal proof-of-concept code for this bug:
+Let’s break it down quickly:  
+     1 -    A new ArrayBuffer object of size 0x1000 is created. Note that it is resizable as it specifies maxByteLength.
+     2 -    The ArrayBuffer object created at step 1 is used to crea…]]></summary>
+        <author>
+            <name>Hossein Lotfi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uncovering RPC Servers through Windows API Analysis]]></title>
+        <id>https://medium.com/p/5d23c0459db6</id>
+        <link href="https://posts.specterops.io/uncovering-rpc-servers-through-windows-api-analysis-5d23c0459db6?source=rss----f05f8696e3cc---4"/>
+        <updated>2023-10-18T16:08:10.000Z</updated>
+        <author>
+            <name>Kai Huang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technical Advisory: Vulnerabilities Identified within ListServ]]></title>
+        <id>https://www.praetorian.com/?p=5259</id>
+        <link href="https://www.praetorian.com/blog/vulnerabilities-within-listserv/"/>
+        <updated>2023-10-18T13:07:58.000Z</updated>
+        <summary type="html"><![CDATA[Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations. Our ultimate goal when performing our research is to identify unauthenticated remote code execution vulnerabilities which could be reliably exploited across a wide variety of […]
+The post Technical Advisory: Vulnerabilities Identified within ListServ appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The single-packet attack: making remote race-conditions 'local']]></title>
+        <id>the-single-packet-attack-making-remote-race-conditions-local</id>
+        <link href="https://portswigger.net/research/the-single-packet-attack-making-remote-race-conditions-local"/>
+        <updated>2023-10-18T12:54:01.000Z</updated>
+        <summary type="html"><![CDATA[The single-packet attack is a new technique for triggering web race conditions. It works by completing multiple HTTP/2 requests with a single TCP packet, which effectively eliminates network jitter an]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Champagne to drink?]]></title>
         <id>https://www.hexacorn.com/blog/?p=8782</id>
@@ -19,12 +80,34 @@
     <entry>
         <title type="html"><![CDATA[Use commands and arguments in a Kubernetes Pod]]></title>
         <id>https://4sysops.com/?p=1576815</id>
+        <link href="https://4sysops.com/archives/use-commands-and-arguments-in-a-kubernetes-pod/"/>
+        <updated>2023-10-17T14:49:01.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post in this Kubernetes guide, you learned about the HorizontalPodAutoscaler for automatic Pod scaling based on real-time usage. In this post, you will learn how to use commands and arguments in a Kubernetes Pod. Command and arguments help you specify the default command (or executable) and the parameters that are passed to it when a container runs in a Kubernetes Pod.
+Use commands and arguments in a Kubernetes Pod first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use commands and arguments in a Kubernetes Pod]]></title>
+        <id>https://4sysops.com/?p=1576815</id>
         <link href="https://4sysops.com/archives/use-commands-and-arguments-in-a-kubernetes-pod/17/"/>
         <updated>2023-10-17T14:49:01.000Z</updated>
         <summary type="html"><![CDATA[In my previous post in this Kubernetes guide, you learned about the HorizontalPodAutoscaler for automatic Pod scaling based on real-time usage. In this post, you will learn how to use commands and arguments in a Kubernetes Pod. Command and arguments help you specify the default command (or executable) and the parameters that are passed to it when a container runs in a Kubernetes Pod.
 Use commands and arguments in a Kubernetes Pod first appeared on 4sysops.]]></summary>
         <author>
             <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft is phasing out NTLM, filling the gaps with new Kerberos features]]></title>
+        <id>https://4sysops.com/?p=1576793</id>
+        <link href="https://4sysops.com/archives/microsoft-is-phasing-out-ntlm-filling-the-gaps-with-new-kerberos-features/"/>
+        <updated>2023-10-16T13:12:09.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has unveiled its roadmap for authentication in Windows 11. According to this, NTLM will be disabled by default in the foreseeable future. However, NTLM currently serves as a fallback for several scenarios that Kerberos cannot cover yet. IAKerb and a local KDC are intended to fill this gap.
+Microsoft is phasing out NTLM, filling the gaps with new Kerberos features first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
         </author>
     </entry>
     <entry>
@@ -866,6 +949,16 @@ Allow non-admins to access Remote Desktop first appeared on 4sysops.]]></summary
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[About the HackerOne Engineering Mentoring Program]]></title>
+        <id>https://hackerone.com/culture-and-talent/engineer-mentoring</id>
+        <link href="https://www.hackerone.com/culture-and-talent/engineer-mentoring"/>
+        <updated>2023-09-27T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The HackerOne Engineering Mentorship Program is an example of how investing in the growth and development of engineering talent can yield remarkable results.]]></summary>
+        <author>
+            <name>Debbie Cotton</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Biobehavioral User Identification: Biometrics + Behavior = Confidence]]></title>
         <id>https://www.secureauth.com/?post_type=blog&amp;p=49994</id>
         <link href="https://www.secureauth.com/blog/biobehavioral-user-identification-biometrics-behavior-confidence/"/>
@@ -928,6 +1021,26 @@ Which security framework? All of them, in the SCF first appeared on Pen Test Par
         <summary type="html"><![CDATA[A blog about the skills, salary, and education of a System Administrator]]></summary>
         <author>
             <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the HackerOnesie?]]></title>
+        <id>https://hackerone.com/culture-and-talent/hackeronesie</id>
+        <link href="https://www.hackerone.com/culture-and-talent/hackeronesie"/>
+        <updated>2023-09-26T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The story behind HackerOne’s first anniversary gift for employees]]></summary>
+        <author>
+            <name>Debbie Cotton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Women in Sales: The Importance of a Diverse Team]]></title>
+        <id>https://hackerone.com/culture-and-talent/women-in-sales</id>
+        <link href="https://www.hackerone.com/culture-and-talent/women-in-sales"/>
+        <updated>2023-09-26T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At HackerOne, a diverse sales organization plays a pivotal role in driving growth and success.]]></summary>
+        <author>
+            <name>Joy Aaring</name>
         </author>
     </entry>
     <entry>
@@ -1372,92 +1485,6 @@ CVE-2022-3038, another Chrome n-…]]></summary>
 The post The Not So Pleasant Password Manager appeared first on MDSec.]]></summary>
         <author>
             <name>Admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connect Linux to Active Directory using SSSD]]></title>
-        <id>https://4sysops.com/?p=1576452</id>
-        <link href="https://4sysops.com/archives/connect-linux-to-active-directory-using-sssd/19/"/>
-        <updated>2023-09-19T09:35:02.000Z</updated>
-        <summary type="html"><![CDATA[This post will show you how to connect Linux to Active Directory using the modern System Security Services Daemon (SSSD) and allow authentication against trusted Active Directory domains.
-Connect Linux to Active Directory using SSSD first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connect Linux to Active Directory using SSSD]]></title>
-        <id>https://4sysops.com/?p=1576452</id>
-        <link href="https://4sysops.com/archives/connect-linux-to-active-directory-using-sssd/"/>
-        <updated>2023-09-19T09:35:02.000Z</updated>
-        <summary type="html"><![CDATA[This post will show you how to connect Linux to Active Directory using the modern System Security Services Daemon (SSSD) and allow authentication against trusted Active Directory domains.
-Connect Linux to Active Directory using SSSD first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juplink RX4-1500 Hard-coded Credential Vulnerability]]></title>
-        <id>https://blog.exodusintel.com/?p=2166</id>
-        <link href="https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-hard-coded-credential-vulnerability/"/>
-        <updated>2023-09-18T17:52:28.000Z</updated>
-        <summary type="html"><![CDATA[EIP-6a41336a Hard coded credentials exists in Juplink RX4-1500, a WiFi router. An unauthenticated attacker can exploit this vulnerability to log into the web interface or telnet service as the ‘user’ user. Vulnerability Identifiers Exodus Intelligence: EIP-6a41336a MITRE: CVE-2023-41030 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:N/C:P/I:P/A:P CVSSv2 Score: 5.8 Vendor References The affected product is end-of-life and no patches are available. ... Read more Juplink RX4-1500 Hard-coded Credential Vulnerability
-The post Juplink RX4-1500 Hard-coded Credential Vulnerability appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juplink RX4-1500 Command Injection Vulnerability]]></title>
-        <id>https://blog.exodusintel.com/?p=2165</id>
-        <link href="https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-command-injection-vulnerability/"/>
-        <updated>2023-09-18T17:46:24.000Z</updated>
-        <summary type="html"><![CDATA[EIP-9f56ea7e A command injection exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-9f56ea7e MITRE: CVE-2023-41029 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline Vendor ... Read more Juplink RX4-1500 Command Injection Vulnerability
-The post Juplink RX4-1500 Command Injection Vulnerability appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juplink RX4-1500 homemng Command Injection Vulnerability]]></title>
-        <id>https://blog.exodusintel.com/?p=2167</id>
-        <link href="https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-homemng-command-injection-vulnerability/"/>
-        <updated>2023-09-18T17:30:11.000Z</updated>
-        <summary type="html"><![CDATA[EIP-57838768 A command injection vulnerability exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-57838768 MITRE: CVE-2023-41031 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline ... Read more Juplink RX4-1500 homemng Command Injection Vulnerability
-The post Juplink RX4-1500 homemng Command Injection Vulnerability appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juplink RX4-1500 Credential Disclosure Vulnerability]]></title>
-        <id>https://blog.exodusintel.com/?p=2164</id>
-        <link href="https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-credential-disclosure-vulnerability/"/>
-        <updated>2023-09-18T17:23:41.000Z</updated>
-        <summary type="html"><![CDATA[EIP-3fd79566 A credential disclosure vulnerability exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-3fd79566 MITRE: CVE-2023-41027 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline Vendor ... Read more Juplink RX4-1500 Credential Disclosure Vulnerability
-The post Juplink RX4-1500 Credential Disclosure Vulnerability appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Multiplications with Unsaturated Limbs]]></title>
-        <id>https://research.nccgroup.com/?p=32604</id>
-        <link href="https://research.nccgroup.com/2023/09/18/on-multiplications-with-unsaturated-limbs/"/>
-        <updated>2023-09-18T17:04:08.000Z</updated>
-        <summary type="html"><![CDATA[This post is about a rather technical coding strategy choice that arises when implementing cryptographic algorithms on some elliptic curves, namely how to represent elements of the base field. We will be discussing Curve25519 implementations, in particular as part of Ed25519 signatures, as specified in RFC 8032. The most widely used Rust implementation of these […]]]></summary>
-        <author>
-            <name>Thomas Pornin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CapraTube | Transparent Tribe’s CapraRAT Mimics YouTube to Hijack Android Phones]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=84390</id>
-        <link href="https://www.sentinelone.com/labs/capratube-transparent-tribes-caprarat-mimics-youtube-to-hijack-android-phones/"/>
-        <updated>2023-09-18T13:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Pakistan-aligned threat actor weaponizes fake YouTube apps on the Android platform to deliver mobile remote access trojan spyware.]]></summary>
-        <author>
-            <name>Alex Delamotte</name>
         </author>
     </entry>
     <entry>

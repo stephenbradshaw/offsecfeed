@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/5d23c0459db6",
+          "author": "Kai Huang",
+          "description": "",
+          "link": "https://posts.specterops.io/uncovering-rpc-servers-through-windows-api-analysis-5d23c0459db6?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2023-10-18T16:08:10.000Z",
+          "wordCount": null,
+          "title": "Uncovering RPC Servers through Windows API Analysis",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/7d785f4e1fa",
           "author": "Evan McBroom",
           "description": "Thank you to SpecterOps for supporting this research and to Lee and Sarah for proofreading and editing! Crossposted on GitHub.",
@@ -75,6 +85,16 @@
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
       "articles": [
+        {
+          "id": "the-single-packet-attack-making-remote-race-conditions-local",
+          "author": null,
+          "description": "The single-packet attack is a new technique for triggering web race conditions. It works by completing multiple HTTP/2 requests with a single TCP packet, which effectively eliminates network jitter an",
+          "link": "https://portswigger.net/research/the-single-packet-attack-making-remote-race-conditions-local",
+          "publishedOn": "2023-10-18T12:54:01.000Z",
+          "wordCount": 1961,
+          "title": "The single-packet attack: making remote race-conditions 'local'",
+          "imageUrl": "https://portswigger.net/cms/images/cc/89/78b3-twittercard-single-packet-attacks_twitter.png"
+        },
         {
           "id": "how-to-build-custom-scanners-for-web-security-research-automation",
           "author": null,
@@ -160,9 +180,9 @@
       ]
     },
     {
-      "title": "Posts on malicious.link",
+      "title": "All Posts - Malicious Link - Blog by mubix - Rob Fuller",
       "feedUrl": "https://malicious.link/post/index.xml",
-      "siteUrl": "https://malicious.link/post/",
+      "siteUrl": "https://malicious.link/posts/",
       "articles": []
     },
     {
@@ -350,6 +370,36 @@
           "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/What%20Does%20New%20Cybersecurity%20Legislation%20Mean%20For%20CISOs_Blog%20Header_0.png"
         },
         {
+          "id": "https://hackerone.com/culture-and-talent/engineer-mentoring",
+          "author": "Debbie Cotton",
+          "description": "The HackerOne Engineering Mentorship Program is an example of how investing in the growth and development of engineering talent can yield remarkable results.",
+          "link": "https://www.hackerone.com/culture-and-talent/engineer-mentoring",
+          "publishedOn": "2023-09-27T20:00:00.000Z",
+          "wordCount": 2517,
+          "title": "About the HackerOne Engineering Mentoring Program",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/2022_NA%20EPD%20Team.png"
+        },
+        {
+          "id": "https://hackerone.com/culture-and-talent/hackeronesie",
+          "author": "Debbie Cotton",
+          "description": "The story behind HackerOne’s first anniversary gift for employees",
+          "link": "https://www.hackerone.com/culture-and-talent/hackeronesie",
+          "publishedOn": "2023-09-26T20:00:00.000Z",
+          "wordCount": 2409,
+          "title": "What is the HackerOnesie?",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/blog-hacker-one-onesie.png"
+        },
+        {
+          "id": "https://hackerone.com/culture-and-talent/women-in-sales",
+          "author": "Joy Aaring",
+          "description": "At HackerOne, a diverse sales organization plays a pivotal role in driving growth and success.",
+          "link": "https://www.hackerone.com/culture-and-talent/women-in-sales",
+          "publishedOn": "2023-09-26T20:00:00.000Z",
+          "wordCount": 2680,
+          "title": "Women in Sales: The Importance of a Diverse Team",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/Joy%20%2B%20Kaylee%20at%20ClubOne.png"
+        },
+        {
           "id": "https://hackerone.com/ceo/why-moment-cybersecurity-needs-hackers-protect-all-software",
           "author": "alice@hackerone.com",
           "description": "",
@@ -384,6 +434,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:652ef89b672df54ad5a5894b",
+          "author": "Hossein Lotfi",
+          "description": "In May 2023, we received a vulnerability report from an anonymous researcher regarding a vulnerability in Apple Safari. It turned out to be an interesting classic integer underflow vulnerability. Apple assigned CVE-2023-38600 to this issue and fixed it in the following security advisories:\n— iOS 16.6 and iPadOS 16.6 \n— macOS Ventura 13.5 \n— tvOS 16.6\n— Safari 16.6 \n— watchOS 9.6 \n Now that this vulnerability has been addressed by the vendor, we are ready to share additional details with the community.\nProof of Concept\nHere is the minimal proof-of-concept code for this bug:\nLet’s break it down quickly:  \n     1 -    A new ArrayBuffer object of size 0x1000 is created. Note that it is resizable as it specifies maxByteLength.\n     2 -    The ArrayBuffer object created at step 1 is used to crea…",
+          "link": "https://www.thezdi.com/blog/2023/10/17/cve-2023-38600-story-of-an-innocent-apple-safari-copywithin-gone-way-outside",
+          "publishedOn": "2023-10-18T16:56:23.000Z",
+          "wordCount": null,
+          "title": "CVE-2023-38600: Story of an innocent Apple Safari copyWithin gone (way) outside",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:652466232d7e7d2e481e30ea",
           "author": "Dustin Childs",
@@ -496,6 +557,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=32965",
+          "author": "Jeremy Boone",
+          "description": "During August and September of 2023, Microsoft engaged NCC Group to conduct a security assessment of Caliptra v0.9. Caliptra is an open-source silicon IP block for datacenter-focused server-class ASICs. It serves as the internal root-of-trust for both measurement and identity of a system-on-chip. The main use cases for Caliptra are to assure integrity of mutable […]",
+          "link": "https://research.nccgroup.com/2023/10/18/public-report-caliptra-security-assessment/",
+          "publishedOn": "2023-10-18T18:26:29.000Z",
+          "wordCount": 18898,
+          "title": "Public Report – Caliptra Security Assessment",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/10/OCP-SAFE-SP-logo-color-v1-2.jpg"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=32819",
           "author": "Rennie deGraaf",
           "description": "AWS allows tags, arbitrary key-value pairs, to be assigned to many resources. Tags can be used to categorize resources however you like. Some examples: In an account holding multiple applications, a tag called “application” might be used to denote which application is associated with each resource. A tag called “stage” might be used to separate […]",
@@ -503,16 +574,6 @@
           "publishedOn": "2023-10-02T12:01:00.000Z",
           "wordCount": 21687,
           "title": "Introduction to AWS Attribute-Based Access Control",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=32604",
-          "author": "Thomas Pornin",
-          "description": "This post is about a rather technical coding strategy choice that arises when implementing cryptographic algorithms on some elliptic curves, namely how to represent elements of the base field. We will be discussing Curve25519 implementations, in particular as part of Ed25519 signatures, as specified in RFC 8032. The most widely used Rust implementation of these […]",
-          "link": "https://research.nccgroup.com/2023/09/18/on-multiplications-with-unsaturated-limbs/",
-          "publishedOn": "2023-09-18T17:04:08.000Z",
-          "wordCount": 20937,
-          "title": "On Multiplications with Unsaturated Limbs",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
         }
       ]
@@ -522,6 +583,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=5259",
+          "author": "Emmaline",
+          "description": "Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations. Our ultimate goal when performing our research is to identify unauthenticated remote code execution vulnerabilities which could be reliably exploited across a wide variety of […]\nThe post Technical Advisory: Vulnerabilities Identified within ListServ appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/vulnerabilities-within-listserv/",
+          "publishedOn": "2023-10-18T13:07:58.000Z",
+          "wordCount": 5175,
+          "title": "Technical Advisory: Vulnerabilities Identified within ListServ",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/10/Vulnerability-Research-at-Praetorian-Labs.png"
+        },
         {
           "id": "https://www.praetorian.com/?p=5175",
           "author": "Emmaline",
@@ -698,48 +769,7 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": [
-        {
-          "id": "https://blog.exodusintel.com/?p=2166",
-          "author": "Exodus Intel VRT",
-          "description": "EIP-6a41336a Hard coded credentials exists in Juplink RX4-1500, a WiFi router. An unauthenticated attacker can exploit this vulnerability to log into the web interface or telnet service as the ‘user’ user. Vulnerability Identifiers Exodus Intelligence: EIP-6a41336a MITRE: CVE-2023-41030 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:N/C:P/I:P/A:P CVSSv2 Score: 5.8 Vendor References The affected product is end-of-life and no patches are available. ... Read more Juplink RX4-1500 Hard-coded Credential Vulnerability\nThe post Juplink RX4-1500 Hard-coded Credential Vulnerability appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-hard-coded-credential-vulnerability/",
-          "publishedOn": "2023-09-18T17:52:28.000Z",
-          "wordCount": 1044,
-          "title": "Juplink RX4-1500 Hard-coded Credential Vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2165",
-          "author": "Exodus Intel VRT",
-          "description": "EIP-9f56ea7e A command injection exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-9f56ea7e MITRE: CVE-2023-41029 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline Vendor ... Read more Juplink RX4-1500 Command Injection Vulnerability\nThe post Juplink RX4-1500 Command Injection Vulnerability appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-command-injection-vulnerability/",
-          "publishedOn": "2023-09-18T17:46:24.000Z",
-          "wordCount": 1037,
-          "title": "Juplink RX4-1500 Command Injection Vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2167",
-          "author": "Exodus Intel VRT",
-          "description": "EIP-57838768 A command injection vulnerability exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-57838768 MITRE: CVE-2023-41031 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline ... Read more Juplink RX4-1500 homemng Command Injection Vulnerability\nThe post Juplink RX4-1500 homemng Command Injection Vulnerability appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-homemng-command-injection-vulnerability/",
-          "publishedOn": "2023-09-18T17:30:11.000Z",
-          "wordCount": 1043,
-          "title": "Juplink RX4-1500 homemng Command Injection Vulnerability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2164",
-          "author": "Exodus Intel VRT",
-          "description": "EIP-3fd79566 A credential disclosure vulnerability exists in Juplink RX4-1500, a WiFi router. An authenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifiers Exodus Intelligence: EIP-3fd79566 MITRE: CVE-2023-41027 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus Intelligence Disclosure Timeline Vendor ... Read more Juplink RX4-1500 Credential Disclosure Vulnerability\nThe post Juplink RX4-1500 Credential Disclosure Vulnerability appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2023/09/18/juplink-rx4-1500-credential-disclosure-vulnerability/",
-          "publishedOn": "2023-09-18T17:23:41.000Z",
-          "wordCount": 1038,
-          "title": "Juplink RX4-1500 Credential Disclosure Vulnerability",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "markitzeroday.com",
@@ -822,11 +852,31 @@
           "id": "https://4sysops.com/?p=1576815",
           "author": "Surender Kumar",
           "description": "In my previous post in this Kubernetes guide, you learned about the HorizontalPodAutoscaler for automatic Pod scaling based on real-time usage. In this post, you will learn how to use commands and arguments in a Kubernetes Pod. Command and arguments help you specify the default command (or executable) and the parameters that are passed to it when a container runs in a Kubernetes Pod.\nUse commands and arguments in a Kubernetes Pod first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/use-commands-and-arguments-in-a-kubernetes-pod/",
+          "publishedOn": "2023-10-17T14:49:01.000Z",
+          "wordCount": 4306,
+          "title": "Use commands and arguments in a Kubernetes Pod",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Using-the-command-and-arguments-in-a-Kubernetes-Pod-600x207.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576815",
+          "author": "Surender Kumar",
+          "description": "In my previous post in this Kubernetes guide, you learned about the HorizontalPodAutoscaler for automatic Pod scaling based on real-time usage. In this post, you will learn how to use commands and arguments in a Kubernetes Pod. Command and arguments help you specify the default command (or executable) and the parameters that are passed to it when a container runs in a Kubernetes Pod.\nUse commands and arguments in a Kubernetes Pod first appeared on 4sysops.",
           "link": "https://4sysops.com/archives/use-commands-and-arguments-in-a-kubernetes-pod/17/",
           "publishedOn": "2023-10-17T14:49:01.000Z",
           "wordCount": 4229,
           "title": "Use commands and arguments in a Kubernetes Pod",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Using-the-command-and-arguments-in-a-Kubernetes-Pod-600x207.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1576793",
+          "author": "Wolfgang Sommergut",
+          "description": "Microsoft has unveiled its roadmap for authentication in Windows 11. According to this, NTLM will be disabled by default in the foreseeable future. However, NTLM currently serves as a fallback for several scenarios that Kerberos cannot cover yet. IAKerb and a local KDC are intended to fill this gap.\nMicrosoft is phasing out NTLM, filling the gaps with new Kerberos features first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/microsoft-is-phasing-out-ntlm-filling-the-gaps-with-new-kerberos-features/",
+          "publishedOn": "2023-10-16T13:12:09.000Z",
+          "wordCount": 3925,
+          "title": "Microsoft is phasing out NTLM, filling the gaps with new Kerberos features",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Audit-NTLM-authentication-using-group-policy-600x382.png"
         },
         {
           "id": "https://4sysops.com/?p=1576793",
@@ -1177,26 +1227,6 @@
           "wordCount": 3979,
           "title": "Activate BitLocker with manage-bde, PowerShell, or WMI",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Activate-BitLocker-and-create-a-TPMandPIN-protector-simultaneously-the-recovery-key-already-exists-600x341.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576452",
-          "author": "Evi Vanoost",
-          "description": "This post will show you how to connect Linux to Active Directory using the modern System Security Services Daemon (SSSD) and allow authentication against trusted Active Directory domains.\nConnect Linux to Active Directory using SSSD first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/connect-linux-to-active-directory-using-sssd/19/",
-          "publishedOn": "2023-09-19T09:35:02.000Z",
-          "wordCount": 4554,
-          "title": "Connect Linux to Active Directory using SSSD",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Output-of-the-realm-list-command.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576452",
-          "author": "Evi Vanoost",
-          "description": "This post will show you how to connect Linux to Active Directory using the modern System Security Services Daemon (SSSD) and allow authentication against trusted Active Directory domains.\nConnect Linux to Active Directory using SSSD first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/connect-linux-to-active-directory-using-sssd/",
-          "publishedOn": "2023-09-19T09:35:02.000Z",
-          "wordCount": 4317,
-          "title": "Connect Linux to Active Directory using SSSD",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Output-of-the-realm-list-command.png"
         }
       ]
     },
@@ -1730,21 +1760,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/09/Cyber-Soft-Power-Chinas-Continental-Takeover-14.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=84390",
-          "author": "Alex Delamotte",
-          "description": "Pakistan-aligned threat actor weaponizes fake YouTube apps on the Android platform to deliver mobile remote access trojan spyware.",
-          "link": "https://www.sentinelone.com/labs/capratube-transparent-tribes-caprarat-mimics-youtube-to-hijack-android-phones/",
-          "publishedOn": "2023-09-18T13:00:03.000Z",
-          "wordCount": 8546,
-          "title": "CapraTube | Transparent Tribe’s CapraRAT Mimics YouTube to Hijack Android Phones",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/09/CapraTube-Transparent-Tribes-CapraRAT-Mimics-YouTube-to-Hijack-Android-Phones-3.jpg",
-            "length": "488993",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/09/CapraTube-Transparent-Tribes-CapraRAT-Mimics-YouTube-to-Hijack-Android-Phones-3.jpg"
         }
       ]
     },
