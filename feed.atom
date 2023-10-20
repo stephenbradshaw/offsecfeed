@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-19T00:33:57.741Z</updated>
+    <updated>2023-10-20T00:33:54.044Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Kicking Off the Final Round of the 2023 Ambassador World Cup]]></title>
+        <id>https://hackerone.com/lhe/awc-final-round-2023</id>
+        <link href="https://www.hackerone.com/lhe/awc-final-round-2023"/>
+        <updated>2023-10-19T16:02:39.000Z</updated>
+        <summary type="html"><![CDATA[The final round of the 2023 Ambassador World Cup is here!]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Listing remote named pipes]]></title>
+        <id>https://outflank.nl/?p=3202</id>
+        <link href="https://outflank.nl/blog/2023/10/19/listing-remote-named-pipes/"/>
+        <updated>2023-10-19T15:33:32.000Z</updated>
+        <summary type="html"><![CDATA[On Windows, named pipes are a form of interprocess communication (IPC) that allows processes to communicate with one another, both locally and across the network. Named pipes serve as a mechanism to transfer data between Windows components as well as third-party applications and services. Both locally as well as on a domain. From an offensive perspective, named pipes may leak some information that could be useful for reconnaissance purposes. Since named pipes can also be used (depending on configuration) to access services remotely – they could allow remote exploits (MS08-067).
+In this post we will explore how named pipes can be listed remotely in offensive operations, for example via an implant running on a compromised Windows system.
+Read more: Listing remote named pipes
+Several tools already exist to list named pipes.
+
+Read full post
+The post Listing remote named pipes appeared first on Outflank.]]></summary>
+        <author>
+            <name>Cedric Van Bockhaven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technical Advisory – Multiple Vulnerabilities in Connectize G6 AC2100 Dual Band Gigabit WiFi Router (CVE-2023-24046, CVE-2023-24047, CVE-2023-24048, CVE-2023-24049, CVE-2023-24050, CVE-2023-24051, CVE-2023-24052)]]></title>
+        <id>https://research.nccgroup.com/?p=31379</id>
+        <link href="https://research.nccgroup.com/2023/10/19/technical-advisory-multiple-vulnerabilities-in-connectize-g6-ac2100-dual-band-gigabit-wifi-router-cve-2023-24046-cve-2023-24047-cve-2023-24048-cve-2023-24049-cve-2023-24050-cve-2023-24051-cve/"/>
+        <updated>2023-10-19T13:53:42.000Z</updated>
+        <summary type="html"><![CDATA[Connectize’s G6 WiFi router was found to have multiple vulnerabilities exposing its owners to potential intrusion in their local Wi-Fi network and browser. The Connectize G6 router is a general consumer Wi-Fi router with an integrated web admin interface for configuration, and is available for purchase by the general public. These vulnerabilities were discovered in […]]]></summary>
+        <author>
+            <name>Jay Houppermans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud Vertex AI - Data Exfiltration Vulnerability Fixed in Generative AI Studio]]></title>
+        <id>https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/</id>
+        <link href="https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/"/>
+        <updated>2023-10-19T13:35:37.000Z</updated>
+        <summary type="html"><![CDATA[Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is frequent.
+This post describes how Google Cloud’s Vertex AI - Generative AI Studio had this vulnerability that I responsibly disclosed and Google fixed.
+A big shout out to the Google Security team upfront, it took 22 minutes from report submission to receiving a confirmation from Google that this is a security issue that will be fixed.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A First Look at Python in Excel]]></title>
+        <id>https://www.netspi.com/?p=31266</id>
+        <link href="https://www.netspi.com/blog/technical/red-team-operations/a-first-look-at-python-in-excel/"/>
+        <updated>2023-10-19T13:01:00.000Z</updated>
+        <summary type="html"><![CDATA[How can you leverage Python in Excel for Red Team Operations? James Williams present a quick overview the new functionality and how it may be used.
+The post A First Look at Python in Excel appeared first on NetSPI.]]></summary>
+        <author>
+            <name>James Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get and set IP address with PowerShell]]></title>
+        <id>https://4sysops.com/?p=1576838</id>
+        <link href="https://4sysops.com/archives/get-and-set-ip-address-with-powershell/"/>
+        <updated>2023-10-19T03:09:18.000Z</updated>
+        <summary type="html"><![CDATA[Setting the IP address, subnet mask, default gateway, and DNS of your network card is one of the most basic tasks you're expected to do as an administrator. This guide will teach you how to use PowerShell to get and set the IP address.
+Get and set IP address with PowerShell first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Emanuel Halapciuc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Public Report – Caliptra Security Assessment]]></title>
         <id>https://research.nccgroup.com/?p=32965</id>
@@ -1389,102 +1459,6 @@ Install Nginx Proxy Manager with Docker on Ubuntu first appeared on 4sysops.]]><
         <updated>2023-09-20T17:07:44.000Z</updated>
         <author>
             <name>Christopher Maddalena</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t overextend your Oblivious Transfer]]></title>
-        <id>https://blog.trailofbits.com/?p=105120</id>
-        <link href="https://blog.trailofbits.com/2023/09/20/dont-overextend-your-oblivious-transfer/"/>
-        <updated>2023-09-20T12:00:53.000Z</updated>
-        <summary type="html"><![CDATA[By Joop van de Pol We found a vulnerability in a threshold signature scheme that allows an attacker to recover the signing key of threshold ECDSA implementations that are based on Oblivious Transfer (OT). A malicious participant of the threshold signing protocols could perform selective abort attacks during the OT extension subprotocol, recover the secret […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Activate BitLocker with manage-bde, PowerShell, or WMI]]></title>
-        <id>https://4sysops.com/?p=1576461</id>
-        <link href="https://4sysops.com/archives/activate-bitlocker-with-manage-bde-powershell-or-wmi/20/"/>
-        <updated>2023-09-20T09:04:54.000Z</updated>
-        <summary type="html"><![CDATA[You can configure various settings for BitLocker using group policies, but this doesn't initiate encryption. Similarly, it doesn't create the configured protectors that are necessary for activating BitLocker. Manage-bde, PowerShell, or the WMI class Win32_EncryptableVolume serve this purpose.
-Activate BitLocker with manage-bde, PowerShell, or WMI first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Activate BitLocker with manage-bde, PowerShell, or WMI]]></title>
-        <id>https://4sysops.com/?p=1576461</id>
-        <link href="https://4sysops.com/archives/activate-bitlocker-with-manage-bde-powershell-or-wmi/"/>
-        <updated>2023-09-20T09:04:54.000Z</updated>
-        <summary type="html"><![CDATA[You can configure various settings for BitLocker using group policies, but this doesn't initiate encryption. Similarly, it doesn't create the configured protectors that are necessary for activating BitLocker. Manage-bde, PowerShell, or the WMI class Win32_EncryptableVolume serve this purpose.
-Activate BitLocker with manage-bde, PowerShell, or WMI first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3yrs of CAA ASSURE assessments. What we’ve learned]]></title>
-        <id>https://www.pentestpartners.com/?p=27820</id>
-        <link href="https://www.pentestpartners.com/security-blog/3yrs-of-caa-assure-assessments-what-weve-learned/"/>
-        <updated>2023-09-20T05:53:20.000Z</updated>
-        <summary type="html"><![CDATA[Introduction We’re now in our third year of CREST CAA ASSURE auditing and we’ve learned a lot. The Cyber Assessment Framework (CAF) is big, there’s no denying that. It’s not […]
-3yrs of CAA ASSURE assessments. What we’ve learned first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Kamaria Harvey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reactive Progress and Tradecraft Innovation]]></title>
-        <id>https://medium.com/p/b616f85b6c0a</id>
-        <link href="https://posts.specterops.io/reactive-progress-and-tradecraft-innovation-b616f85b6c0a?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-09-19T16:41:13.000Z</updated>
-        <summary type="html"><![CDATA[Detection as Prediction]]></summary>
-        <author>
-            <name>Michael Barclay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Analyzing a Modern In-the-wild Android Exploit]]></title>
-        <id>https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html"/>
-        <updated>2023-09-19T16:01:00.000Z</updated>
-        <summary type="html"><![CDATA[By Seth Jenkins, Project Zero
-
-Introduction
-
-In December 2022, Google’s Threat Analysis Group (TAG) discovered an in-the-wild exploit chain targeting Samsung Android devices. TAG’s blog post covers the targeting and the actor behind the campaign. This is a technical analysis of the final stage of one of the exploit chains, specifically CVE-2023-0266 (a 0-day in the ALSA compatibility layer) and CVE-2023-26083 (a 0-day in the Mali GPU driver) as well as the techniques used by the attacker to gain kernel arbitrary read/write access.
-
-Notably, all of the previous stages of the exploit chain used n-day vulnerabilities:
-
-
-CVE-2022-4262, a vulnerability patched in Chrome that was unpatched in the Samsung browser (i.e. a "Chrome n-day"), was used to achieve RCE.
-
-
-CVE-2022-3038, another Chrome n-…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Financial Services: 2023 Insights From the Ponemon Institute]]></title>
-        <id>https://bishopfox.com/blog/financial-services-2023-insights-ponemon-institute</id>
-        <link href="https://bishopfox.com/blog/financial-services-2023-insights-ponemon-institute"/>
-        <updated>2023-09-19T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Get a sneak peek into why FinServ organizations are at the forefront of offensive security.]]></summary>
-        <author>
-            <name>Beth Robinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Not So Pleasant Password Manager]]></title>
-        <id>https://www.mdsec.co.uk/?p=3292</id>
-        <link href="https://www.mdsec.co.uk/2023/09/the-not-so-pleasant-password-manager/"/>
-        <updated>2023-09-19T12:42:36.000Z</updated>
-        <summary type="html"><![CDATA[Overview During a recent adversary simulation, the MDSec ActiveBreach red team were asked to investigate the organisation’s Password Manager solution, with the key objective of compromising stored credentials, ideally from...
-The post The Not So Pleasant Password Manager appeared first on MDSec.]]></summary>
-        <author>
-            <name>Admin</name>
         </author>
     </entry>
     <entry>

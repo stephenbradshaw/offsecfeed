@@ -44,16 +44,6 @@
           "wordCount": null,
           "title": "Ghostwriter v4: 2FA, RBAC, and Logging, Oh My!",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/b616f85b6c0a",
-          "author": "Michael Barclay",
-          "description": "Detection as Prediction",
-          "link": "https://posts.specterops.io/reactive-progress-and-tradecraft-innovation-b616f85b6c0a?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-09-19T16:41:13.000Z",
-          "wordCount": 9712,
-          "title": "Reactive Progress and Tradecraft Innovation",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:627/1*x4uOfnLNJ35igEUpiGqlQA.png"
         }
       ]
     },
@@ -121,16 +111,6 @@
           "wordCount": 15673,
           "title": "An analysis of an in-the-wild iOS Safari WebContent to GPU Process exploit",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrzpTZ2_H16_OJgFkwuJNmL120zmxWCcdrLlPXp-6x5SsweX8PosbAcKI9Sf8Ad0bYlMfDGwJ0Rz5GdwwEVnek-taAR1voRObiCwl7StIIx2gIHw7zH16AOi-TJRNiyDYKXprNRQNmt6vosLtafQdbjrRgTJB7HLUt_qc1sfCG_sAWZk_wfsfaei3c2-4/w1200-h630-p-k-no-nu/image7.png"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html",
-          "author": null,
-          "description": "By Seth Jenkins, Project Zero\n\nIntroduction\n\nIn December 2022, Google’s Threat Analysis Group (TAG) discovered an in-the-wild exploit chain targeting Samsung Android devices. TAG’s blog post covers the targeting and the actor behind the campaign. This is a technical analysis of the final stage of one of the exploit chains, specifically CVE-2023-0266 (a 0-day in the ALSA compatibility layer) and CVE-2023-26083 (a 0-day in the Mali GPU driver) as well as the techniques used by the attacker to gain kernel arbitrary read/write access.\n\nNotably, all of the previous stages of the exploit chain used n-day vulnerabilities:\n\n\nCVE-2022-4262, a vulnerability patched in Chrome that was unpatched in the Samsung browser (i.e. a \"Chrome n-day\"), was used to achieve RCE.\n\n\nCVE-2022-3038, another Chrome n-…",
-          "link": "https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html",
-          "publishedOn": "2023-09-19T16:01:00.000Z",
-          "wordCount": 5363,
-          "title": "Analyzing a Modern In-the-wild Android Exploit",
-          "imageUrl": "https://lh5.googleusercontent.com/RLWmblhMLH7jllwERZNHJ8uQEfG6oGUHTYBkCJ993ZtiLm4hINP6eeFevFPxJwQ4XEEBTRFaJmpuU3Bd5WEUgMy4A1ylY0C9waFCh9rhWdlBRY8JsTAcA0IcwjtusWLhcQ4zH2khOZeVSzXsie6CNn4qMx7rr8lRlrQoqtB4oQC1e3fTFGfq-biw7B2sOO2s_WbOivMityLDoLdhq2uCAZzalffzJxTAiZVG0Q=w1200-h630-p-k-no-nu"
         }
       ]
     },
@@ -157,6 +137,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=31266",
+          "author": "James Williams",
+          "description": "How can you leverage Python in Excel for Red Team Operations? James Williams present a quick overview the new functionality and how it may be used.\nThe post A First Look at Python in Excel appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/red-team-operations/a-first-look-at-python-in-excel/",
+          "publishedOn": "2023-10-19T13:01:00.000Z",
+          "wordCount": 16136,
+          "title": "A First Look at Python in Excel",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/101923_Python-for-Excel-Tech-Blog_Social.jpg"
+        },
         {
           "id": "https://www.netspi.com/?p=31202",
           "author": "Philip Young",
@@ -339,6 +329,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/lhe/awc-final-round-2023",
+          "author": "HackerOne",
+          "description": "The final round of the 2023 Ambassador World Cup is here!",
+          "link": "https://www.hackerone.com/lhe/awc-final-round-2023",
+          "publishedOn": "2023-10-19T16:02:39.000Z",
+          "wordCount": 2706,
+          "title": "Kicking Off the Final Round of the 2023 Ambassador World Cup",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-10/Blog%20Header_AWC%20Final%20Round%20763x562.png"
+        },
         {
           "id": "https://hackerone.com/ethical-hacker/young-hackers-for-good",
           "author": "Ariel Garcia",
@@ -557,6 +557,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=31379",
+          "author": "Jay Houppermans",
+          "description": "Connectize’s G6 WiFi router was found to have multiple vulnerabilities exposing its owners to potential intrusion in their local Wi-Fi network and browser. The Connectize G6 router is a general consumer Wi-Fi router with an integrated web admin interface for configuration, and is available for purchase by the general public. These vulnerabilities were discovered in […]",
+          "link": "https://research.nccgroup.com/2023/10/19/technical-advisory-multiple-vulnerabilities-in-connectize-g6-ac2100-dual-band-gigabit-wifi-router-cve-2023-24046-cve-2023-24047-cve-2023-24048-cve-2023-24049-cve-2023-24050-cve-2023-24051-cve/",
+          "publishedOn": "2023-10-19T13:53:42.000Z",
+          "wordCount": 22703,
+          "title": "Technical Advisory – Multiple Vulnerabilities in Connectize G6 AC2100 Dual Band Gigabit WiFi Router (CVE-2023-24046, CVE-2023-24047, CVE-2023-24048, CVE-2023-24049, CVE-2023-24050, CVE-2023-24051, CVE-2023-24052)",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=32965",
           "author": "Jeremy Boone",
           "description": "During August and September of 2023, Microsoft engaged NCC Group to conduct a security assessment of Caliptra v0.9. Caliptra is an open-source silicon IP block for datacenter-focused server-class ASICs. It serves as the internal root-of-trust for both measurement and identity of a system-on-chip. The main use cases for Caliptra are to assure integrity of mutable […]",
@@ -746,16 +756,6 @@
           "wordCount": 3787,
           "title": "Pitfalls of relying on eBPF for security monitoring (and some solutions)",
           "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=105120",
-          "author": "Trail of Bits",
-          "description": "By Joop van de Pol We found a vulnerability in a threshold signature scheme that allows an attacker to recover the signing key of threshold ECDSA implementations that are based on Oblivious Transfer (OT). A malicious participant of the threshold signing protocols could perform selective abort attacks during the OT extension subprotocol, recover the secret […]",
-          "link": "https://blog.trailofbits.com/2023/09/20/dont-overextend-your-oblivious-transfer/",
-          "publishedOn": "2023-09-20T12:00:53.000Z",
-          "wordCount": 3688,
-          "title": "Don’t overextend your Oblivious Transfer",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -848,6 +848,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1576838",
+          "author": "Emanuel Halapciuc",
+          "description": "Setting the IP address, subnet mask, default gateway, and DNS of your network card is one of the most basic tasks you're expected to do as an administrator. This guide will teach you how to use PowerShell to get and set the IP address.\nGet and set IP address with PowerShell first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/get-and-set-ip-address-with-powershell/",
+          "publishedOn": "2023-10-19T03:09:18.000Z",
+          "wordCount": 4928,
+          "title": "Get and set IP address with PowerShell",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Remove-an-IP-Address-600x291.png"
+        },
         {
           "id": "https://4sysops.com/?p=1576815",
           "author": "Surender Kumar",
@@ -1207,26 +1217,6 @@
           "wordCount": 4176,
           "title": "Install Nginx Proxy Manager with Docker on Ubuntu",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Showing-the-password-reset-screen-600x296.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576461",
-          "author": "Wolfgang Sommergut",
-          "description": "You can configure various settings for BitLocker using group policies, but this doesn't initiate encryption. Similarly, it doesn't create the configured protectors that are necessary for activating BitLocker. Manage-bde, PowerShell, or the WMI class Win32_EncryptableVolume serve this purpose.\nActivate BitLocker with manage-bde, PowerShell, or WMI first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/activate-bitlocker-with-manage-bde-powershell-or-wmi/20/",
-          "publishedOn": "2023-09-20T09:04:54.000Z",
-          "wordCount": 4166,
-          "title": "Activate BitLocker with manage-bde, PowerShell, or WMI",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Activate-BitLocker-and-create-a-TPMandPIN-protector-simultaneously-the-recovery-key-already-exists-600x341.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576461",
-          "author": "Wolfgang Sommergut",
-          "description": "You can configure various settings for BitLocker using group policies, but this doesn't initiate encryption. Similarly, it doesn't create the configured protectors that are necessary for activating BitLocker. Manage-bde, PowerShell, or the WMI class Win32_EncryptableVolume serve this purpose.\nActivate BitLocker with manage-bde, PowerShell, or WMI first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/activate-bitlocker-with-manage-bde-powershell-or-wmi/",
-          "publishedOn": "2023-09-20T09:04:54.000Z",
-          "wordCount": 3979,
-          "title": "Activate BitLocker with manage-bde, PowerShell, or WMI",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/09/Activate-BitLocker-and-create-a-TPMandPIN-protector-simultaneously-the-recovery-key-already-exists-600x341.png"
         }
       ]
     },
@@ -1327,16 +1317,6 @@
           "wordCount": 2643,
           "title": "Nighthawk 0.2.6 – Three Wise Monkeys",
           "imageUrl": "https://www.mdsec.co.uk/wp-content/uploads/2019/11/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
-        },
-        {
-          "id": "https://www.mdsec.co.uk/?p=3292",
-          "author": "Admin",
-          "description": "Overview During a recent adversary simulation, the MDSec ActiveBreach red team were asked to investigate the organisation’s Password Manager solution, with the key objective of compromising stored credentials, ideally from...\nThe post The Not So Pleasant Password Manager appeared first on MDSec.",
-          "link": "https://www.mdsec.co.uk/2023/09/the-not-so-pleasant-password-manager/",
-          "publishedOn": "2023-09-19T12:42:36.000Z",
-          "wordCount": 1776,
-          "title": "The Not So Pleasant Password Manager",
-          "imageUrl": "https://www.mdsec.co.uk/wp-content/uploads/2019/11/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
         }
       ]
     },
@@ -1403,16 +1383,6 @@
           "publishedOn": "2023-09-27T05:29:00.000Z",
           "wordCount": 2425,
           "title": "Which security framework? All of them, in the SCF",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=27820",
-          "author": "Kamaria Harvey",
-          "description": "Introduction We’re now in our third year of CREST CAA ASSURE auditing and we’ve learned a lot. The Cyber Assessment Framework (CAF) is big, there’s no denying that. It’s not […]\n3yrs of CAA ASSURE assessments. What we’ve learned first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/3yrs-of-caa-assure-assessments-what-weve-learned/",
-          "publishedOn": "2023-09-20T05:53:20.000Z",
-          "wordCount": 2492,
-          "title": "3yrs of CAA ASSURE assessments. What we’ve learned",
           "imageUrl": null
         }
       ]
@@ -1569,6 +1539,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/",
+          "author": null,
+          "description": "Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is frequent.\nThis post describes how Google Cloud’s Vertex AI - Generative AI Studio had this vulnerability that I responsibly disclosed and Google fixed.\nA big shout out to the Google Security team upfront, it took 22 minutes from report submission to receiving a confirmation from Google that this is a security issue that will be fixed.",
+          "link": "https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/",
+          "publishedOn": "2023-10-19T13:35:37.000Z",
+          "wordCount": 722,
+          "title": "Google Cloud Vertex AI - Data Exfiltration Vulnerability Fixed in Generative AI Studio",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/",
           "author": null,
@@ -1814,16 +1794,6 @@
           "wordCount": 3998,
           "title": "Passing the OSEP Exam Using Sliver",
           "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Passing-OSEP-Sliver-OG.jpg?mtime=1694739105"
-        },
-        {
-          "id": "https://bishopfox.com/blog/financial-services-2023-insights-ponemon-institute",
-          "author": "Beth Robinson",
-          "description": "Get a sneak peek into why FinServ organizations are at the forefront of offensive security.",
-          "link": "https://bishopfox.com/blog/financial-services-2023-insights-ponemon-institute",
-          "publishedOn": "2023-09-19T13:00:00.000Z",
-          "wordCount": 2130,
-          "title": "Financial Services: 2023 Insights From the Ponemon Institute",
-          "imageUrl": "https://s3.us-east-2.amazonaws.com/s3.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-FinServ-Ponemon_OG.jpg?mtime=1694473736"
         }
       ]
     },
@@ -1885,6 +1855,16 @@
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://outflank.nl/blog/",
       "articles": [
+        {
+          "id": "https://outflank.nl/?p=3202",
+          "author": "Cedric Van Bockhaven",
+          "description": "On Windows, named pipes are a form of interprocess communication (IPC) that allows processes to communicate with one another, both locally and across the network. Named pipes serve as a mechanism to transfer data between Windows components as well as third-party applications and services. Both locally as well as on a domain. From an offensive perspective, named pipes may leak some information that could be useful for reconnaissance purposes. Since named pipes can also be used (depending on configuration) to access services remotely – they could allow remote exploits (MS08-067).\nIn this post we will explore how named pipes can be listed remotely in offensive operations, for example via an implant running on a compromised Windows system.\nRead more: Listing remote named pipes\nSeveral tools already exist to list named pipes.\n\nRead full post\nThe post Listing remote named pipes appeared first on Outflank.",
+          "link": "https://outflank.nl/blog/2023/10/19/listing-remote-named-pipes/",
+          "publishedOn": "2023-10-19T15:33:32.000Z",
+          "wordCount": 1909,
+          "title": "Listing remote named pipes",
+          "imageUrl": "https://outflank.nl/wp-content/uploads/2023/10/image-2.png"
+        },
         {
           "id": "https://outflank.nl/?p=3160",
           "author": "Dima",
