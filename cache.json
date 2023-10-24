@@ -185,7 +185,18 @@
       "title": "IMQ Minded Security Blog",
       "feedUrl": "https://blog.mindedsecurity.com/feeds/posts/default",
       "siteUrl": "https://blog.mindedsecurity.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.mindedsecurity.com/2023/10/semgrep-rules-for-android-application.html",
+          "author": null,
+          "description": "Introduction\n\n\n  \nThe number of Android applications has been growing rapidly in recent years. In 2022, there were over 3.55 million Android apps available in the Google Play Store, and this number is expected to continue to grow in the years to come. The expansion of the Android app market is being driven by a number of factors, including the increasing popularity of smartphones, the growing demand for mobile apps, and the ease of developing and publishing Android apps. At the same time, the number of Android app\n downloads is also growing rapidly. In 2022, there were over 255 billion Android app downloads worldwide.\n\nFor this reason, introducing automatic security controls during Mobile Application Penetration Testing (MAPT) activity and the CI phase is necessary to ensure the security o…",
+          "link": "https://blog.mindedsecurity.com/2023/10/semgrep-rules-for-android-application.html",
+          "publishedOn": "2023-10-23T07:32:00.001Z",
+          "wordCount": 5722,
+          "title": "Semgrep Rules for Android Application Security",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmqKNYmEPnpcNBEXzKE7L9L8Z3vMbGd70W0XIXLj48ru63EH1VB_Jlv5DF2vctrykGOBv9H9Ob_08OxOzPDNFJx6IBD1mTpbNOA5Pza7mJEv1D4GciPW8dLxEVMMNWAjOQ70RlNYmwJMhpP-Z08X-4yXe61CtZW6x9NXbqPqNDCQgiOJcIzZmGWLTarQU/w1200-h630-p-k-no-nu/android_image.png"
+        }
+      ]
     },
     {
       "title": "Didier Stevens",
@@ -425,6 +436,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65317a7a11e65b7d379ad514",
+          "author": "Dustin Childs",
+          "description": "Welcome to Pwn2Own Toronto for 2023! Last year’s event was our largest ever, and this year’s contest looks to be just as exciting. Despite last-minute patches from many vendors, we have plenty of attempts across multiple categories - with plenty of attempts in the new Surveillance category as well. We have more than $1,000,000 in cash and prizes available for contestants. We came close last year to exceeding the million-dollar mark, and we are fans of setting records. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Eastern [GMT -4:00]). \nNote: All times subject to change\nTuesday, October 24 – 0930\nPeter Geissler targeting the Canon imageCLASS…",
+          "link": "https://www.thezdi.com/blog/2023/10/23/pwn2own-toronto-2023-the-schedule",
+          "publishedOn": "2023-10-23T23:21:35.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Toronto 2023 - The Full Schedule",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:652ef89b672df54ad5a5894b",
           "author": "Hossein Lotfi",
           "description": "In May 2023, we received a vulnerability report from an anonymous researcher regarding a vulnerability in Apple Safari. It turned out to be an interesting classic integer underflow vulnerability. Apple assigned CVE-2023-38600 to this issue and fixed it in the following security advisories:\n— iOS 16.6 and iPadOS 16.6 \n— macOS Ventura 13.5 \n— tvOS 16.6\n— Safari 16.6 \n— watchOS 9.6 \n Now that this vulnerability has been addressed by the vendor, we are ready to share additional details with the community.\nProof of Concept\nHere is the minimal proof-of-concept code for this bug:\nLet’s break it down quickly:  \n     1 -    A new ArrayBuffer object of size 0x1000 is created. Note that it is resizable as it specifies maxByteLength.\n     2 -    The ArrayBuffer object created at step 1 is used to crea…",
@@ -515,6 +537,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=33055",
+          "author": "Paul Bottinelli",
+          "description": "In Summer 2023, the Zcash Foundation engaged NCC Group to conduct a securityassessment of the Foundation’s FROST threshold signature implementation, based on thepaper FROST: Flexible Round-Optimized Schnorr Threshold Signatures. This projectimplements v12 of the draft FROST specification in Rust, with a variety of options availablefor underlying elliptic curve groups. The review was performed by three […]",
+          "link": "https://research.nccgroup.com/2023/10/23/public-report-zcash-frost-security-assessment/",
+          "publishedOn": "2023-10-23T12:06:07.000Z",
+          "wordCount": 18551,
+          "title": "Public Report – Zcash FROST Security Assessment",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=31379",
           "author": "Jay Houppermans",
@@ -682,6 +714,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=105199",
+          "author": "Trail of Bits",
+          "description": "By Sam Alws Trail of Bits is publicly disclosing a vulnerability in the Osmosis chain that allows an attacker to craft a transaction that takes up a disproportionate amount of compute time on Osmosis nodes compared to the amount of gas it consumes. Using the vulnerability, an attacker can halt the Osmosis chain by spamming […]",
+          "link": "https://blog.trailofbits.com/2023/10/23/numbers-turned-weapons-dos-in-osmosis-math-library/",
+          "publishedOn": "2023-10-23T18:27:31.000Z",
+          "wordCount": 2689,
+          "title": "Numbers turned weapons: DoS in Osmosis’ math library",
+          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=105173",
           "author": "Trail of Bits",
           "description": "Understanding and rigorously testing system invariants are essential aspects of developing robust smart contracts. Invariants are facts about the protocol that should remain true no matter what happens. Defining and testing these invariants allows developers to prevent the introduction of bugs and make their code more robust in the long term. However, it is difficult […]",
@@ -792,6 +834,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1576932",
+          "author": "Avi",
+          "description": "Git provides two critical undo commands—git reset and revert—which may initially seem confusing, but understanding their operation is essential to creating reliable project histories. In this blog, we aim to demystify git reset and revert with examples so that you can confidently implement Git in your workflows.\nGit reset vs. git revert first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/git-reset-vs-git-revert/",
+          "publishedOn": "2023-10-23T12:14:22.000Z",
+          "wordCount": 15394,
+          "title": "Git reset vs. git revert",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/image1-600x234.png"
+        },
         {
           "id": "https://4sysops.com/?p=1576898",
           "author": "Edem Afenyo",
@@ -1203,16 +1255,6 @@
           "publishedOn": "2023-09-27T22:38:17.000Z",
           "wordCount": 1037,
           "title": "ZydisInfo – the disassembler that breaks the code, twice",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8745",
-          "author": "adam",
-          "description": "It’s easy to say ‘we follow the Sun’ or ‘we deliver that 24/7/365 service’. The story doesn’t end there though – the delivery part of this promise has a different story to tell. The one that is rarely talked about, … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2023/09/23/the-hidden-side-of-24-7-365-the-dreadful-apac-shift/",
-          "publishedOn": "2023-09-23T22:58:16.000Z",
-          "wordCount": 1109,
-          "title": "The hidden side of 24/7/365 – The dreadful APAC shift",
           "imageUrl": null
         }
       ]
