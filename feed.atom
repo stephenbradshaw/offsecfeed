@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-29T00:36:21.735Z</updated>
+    <updated>2023-10-30T00:34:27.504Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -1265,112 +1265,6 @@ Run commands in a Docker container with docker exec and ssh first appeared on 4s
         <summary type="html"><![CDATA[Here is an overview of content I published in September: Blog posts: Update: zipdump.py Version 0.0.28 Update: emldump.py Version 0.0.13 Update: file-magic.py Version 0.0.7 Update: zipdump.py Version 0.0.28 Update: hash.py Version 0.0.10 SANS ISC Diary entries: Analysis of a Defective Phishing PDF Creating a YARA Rule to Detect Obfuscated Strings Quickie: Generating a YARA Rule […]]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: hash.py Version 0.0.10]]></title>
-        <id>http://blog.didierstevens.com/?p=10168</id>
-        <link href="https://blog.didierstevens.com/2023/09/30/update-hash-py-version-0-0-10/"/>
-        <updated>2023-09-30T11:13:07.000Z</updated>
-        <summary type="html"><![CDATA[This new versions adds 2 new features: Option -H adds a human hash for each hash: Option -r renames a file to its hash (hash) or to its hash with extension .vir (vir). When more that one hash algorithm is used (default: md5, sha1, sha256), the last hash algorithm is used for the rename operation. […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: zipdump.py Version 0.0.28]]></title>
-        <id>http://blog.didierstevens.com/?p=10162</id>
-        <link href="https://blog.didierstevens.com/2023/09/30/update-zipdump-py-version-0-0-28-2/"/>
-        <updated>2023-09-30T11:00:42.000Z</updated>
-        <summary type="html"><![CDATA[This update of zipdump.py adds parsing for external attributes and DOSDATE and DOSTIME fields when options -f and -E are used. zipdump_v0_0_29.zip (http)MD5: 482DEB681C17243B03A699BD6B55D11DSHA256: 9D89DCAF531621E33A0A36D1EA519A62F1004A762C0789C857976033A32E7F8A]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: file-magic.py Version 0.0.7]]></title>
-        <id>http://blog.didierstevens.com/?p=10158</id>
-        <link href="https://blog.didierstevens.com/2023/09/30/update-file-magic-py-version-0-0-7/"/>
-        <updated>2023-09-30T10:28:27.000Z</updated>
-        <summary type="html"><![CDATA[This update is just a definition update to detect MSO (ActiveMime files). file-magic_V0_0_7.zip (http)MD5: 6EFF124D3D0854F62034E05DAE20AFD4SHA256: A13ADD0A3F840FF535193CD07BF6218FF77164EB803E9004A0B66A4AC66183F9]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: emldump.py Version 0.0.13]]></title>
-        <id>http://blog.didierstevens.com/?p=10155</id>
-        <link href="https://blog.didierstevens.com/2023/09/30/update-emldump-py-version-0-0-13/"/>
-        <updated>2023-09-30T10:25:59.000Z</updated>
-        <summary type="html"><![CDATA[This new update can produce JSON output for each part (option–jsonoutput). emldump_V0_0_13.zip (http)MD5: 083C21C2E7EA265947E3D2060A739376SHA256: 2812EFFCBD9BDCA2634210678C1F2508216E099D94531E5FF29BFE32B3B12B65]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond the good ol’ .bashrc entry… Part 1]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8753</id>
-        <link href="https://www.hexacorn.com/blog/2023/09/29/beyond-the-good-ol-bashrc-entry-part-1/"/>
-        <updated>2023-09-29T23:18:54.000Z</updated>
-        <summary type="html"><![CDATA[I really don’t know if this is the first post in the series, or just a one-off that is also, the last. There are many fantastic blog posts out there that deal with the most popular Linux persistence tricks, f.ex. … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Fixes Data Exfiltration Vulnerability in Azure AI Playground]]></title>
-        <id>https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/</id>
-        <link href="https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/"/>
-        <updated>2023-09-29T17:00:08.000Z</updated>
-        <summary type="html"><![CDATA[Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is quite frequent.
-Microsoft fixed such a vulnerability in Bing Chat, Anthropic fixed it in Claude, and ChatGPT has a known vulnerability as Open AI “won’t fix” the issue.
-This post describes a variant in the Azure AI Playground and how Microsoft fixed it.
-From Untrusted Data to Data Exfiltration When untrusted data makes it into the LLM prompt context it can instruct the model to inject an image markdown element.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celebrating One Year of CloudFox]]></title>
-        <id>https://bishopfox.com/blog/celebrating-one-year-of-cloudfox</id>
-        <link href="https://bishopfox.com/blog/celebrating-one-year-of-cloudfox"/>
-        <updated>2023-09-29T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Celebrate CloudFox's one-year anniversary as we reflect on the updates and growth that have occurred over the year including the creation of CloudFoxable.]]></summary>
-        <author>
-            <name>Seth Art</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SecureAuth Presents “MFA is so 80’s: Invisible MFA with Continuous Authentication” at 2023 FinCyber Today Summit by FS-ISAC]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=50186</id>
-        <link href="https://www.secureauth.com/blog/secureauth-presents-mfa-is-so-80s-invisible-mfa-with-continuous-authentication-at-2023-fincyber-today-summit-by-fs-isac/"/>
-        <updated>2023-09-29T14:24:34.000Z</updated>
-        <summary type="html"><![CDATA[Next week, SecureAuth will be a gold sponsor at the 2023 FinCyber Today Summit by FS-ISAC in Orlando, FL. The theme is Forging for a Resilient Future for this premier financial services event where IT security, IT professionals and executives across the financial sector come together to learn the modern approaches to combat today’s vulnerabilities […]
-The post SecureAuth Presents “MFA is so 80’s: Invisible MFA with Continuous Authentication” at 2023 FinCyber Today Summit by FS-ISAC appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>jendres</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[kube-scheduler: The Kubernetes scheduler]]></title>
-        <id>https://4sysops.com/?p=1576600</id>
-        <link href="https://4sysops.com/archives/kube-scheduler-the-kubernetes-scheduler/29/"/>
-        <updated>2023-09-29T12:39:40.000Z</updated>
-        <summary type="html"><![CDATA[In a previous post, you learned about DaemonSets in Kubernetes. In this article, you will learn how the Kubernetes scheduler works. The kube-scheduler is a core control plane component that helps schedule Pods across various worker nodes of a Kubernetes cluster. Scheduling in Kubernetes is the process of assigning Pods to nodes so that the kubelet service can run them.
-kube-scheduler: The Kubernetes scheduler first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[kube-scheduler: The Kubernetes scheduler]]></title>
-        <id>https://4sysops.com/?p=1576600</id>
-        <link href="https://4sysops.com/archives/kube-scheduler-the-kubernetes-scheduler/"/>
-        <updated>2023-09-29T12:39:40.000Z</updated>
-        <summary type="html"><![CDATA[In a previous post, you learned about DaemonSets in Kubernetes. In this article, you will learn how the Kubernetes scheduler works. The kube-scheduler is a core control plane component that helps schedule Pods across various worker nodes of a Kubernetes cluster. Scheduling in Kubernetes is the process of assigning Pods to nodes so that the kubelet service can run them.
-kube-scheduler: The Kubernetes scheduler first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
         </author>
     </entry>
     <entry>
