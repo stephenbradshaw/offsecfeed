@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-31T00:34:20.215Z</updated>
+    <updated>2023-11-01T00:36:29.152Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Technical Advisory: Insufficient Proxyman HelperTool XPC Validation]]></title>
+        <id>https://research.nccgroup.com/?p=33121</id>
+        <link href="https://research.nccgroup.com/2023/10/31/technical-advisory-insufficient-proxyman-helpertool-xpc-validation/"/>
+        <updated>2023-10-31T20:03:27.000Z</updated>
+        <summary type="html"><![CDATA[Summary The com.proxyman.NSProxy.HelperTool application (version 1.4.0), a privileged helper tool distributed with the Proxyman application (up to an including versions 4.10.1) for macOS 13 Ventura and earlier allows a local attacker to use earlier versions of the Proxyman application to maliciously change the System Proxy settings and redirect traffic to an attacker-controlled computer, facilitating MITM […]]]></summary>
+        <author>
+            <name>scottleitch53e8989cc3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unveiling the Dark Side: A Deep Dive into Active Ransomware Families]]></title>
+        <id>https://research.nccgroup.com/?p=33237</id>
+        <link href="https://research.nccgroup.com/2023/10/31/unveiling-the-dark-side-a-deep-dive-into-active-ransomware-families/"/>
+        <updated>2023-10-31T20:01:57.000Z</updated>
+        <summary type="html"><![CDATA[Not so lucky: BlackCat is back!  Authors: Alex Jessop @ThisIsFineChief , Molly Dewis  While the main trend in the cyber threat landscape in recent months has been MoveIt and Cl0p, NCC Groups’ Cyber Incident Response Team have also been handling multiple different ransomware groups over the same period.   In the ever-evolving cybersecurity landscape, one consistent […]]]></summary>
+        <author>
+            <name>RIFT: Research and Intelligence Fusion Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 Ways to Tweak radare2 for Faster and Easier macOS Malware Analysis]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=85695</id>
+        <link href="https://www.sentinelone.com/labs/11-ways-to-tweak-radare2-for-faster-and-easier-macos-malware-analysis/"/>
+        <updated>2023-10-31T15:08:09.000Z</updated>
+        <summary type="html"><![CDATA[Simplifying radare2 for macOS malware research, these tips and tricks will help to improve workflow and supercharge productivity.]]></summary>
+        <author>
+            <name>Phil Stokes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenShift vs. Kubernetes]]></title>
+        <id>https://4sysops.com/?p=1577103</id>
+        <link href="https://4sysops.com/archives/openshift-vs-kubernetes/"/>
+        <updated>2023-10-31T13:53:06.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes and OpenShift are two popular container orchestration platforms. In this article, I will compare these tools and outline which solution is best for your organization.
+OpenShift vs. Kubernetes first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Amr Essam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FDA medical IoT cyber device compliance. FD&C 524b]]></title>
+        <id>https://www.pentestpartners.com/?p=28212</id>
+        <link href="https://www.pentestpartners.com/security-blog/fda-medical-iot-cyber-device-compliance-fdc-524b/"/>
+        <updated>2023-10-31T06:28:42.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR FD&C 524b is new FDA legislation for medical cyber device compliance Introduced on March 30th 2023 it is now a firm requirement as of October 1st 2023 It demands […]
+FDA medical IoT cyber device compliance. FD&C 524b first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Mike Leonard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FujiFilm printer credentials encryption issue fixed]]></title>
+        <id>https://www.pentestpartners.com/?p=28239</id>
+        <link href="https://www.pentestpartners.com/security-blog/fujifilm-printer-credentials-encryption-issue-fixed/"/>
+        <updated>2023-10-31T06:12:29.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Many multi-function printers made by FujiFilm Business Innovation Corporation (Fujifilm) which includes Apeos, ApeosPro, PrimeLink and RevoriaPress brands as well as Xerox Corporation (Xerox) which includes VersaLink, PrimeLink, and […]
+FujiFilm printer credentials encryption issue fixed first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Kunal Thakrar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lateral Movement: Abuse the Power of DCOM Excel Application]]></title>
         <id>https://medium.com/p/3c016d0d9922</id>
@@ -1214,88 +1277,6 @@ Call centres. Outbound call verification first appeared on Pen Test Partners.]]>
         <summary type="html"><![CDATA[In this blog post, I'll discuss some of the post-exploitation techniques that I've found to be useful against Okta. Specifically, this post will look at how to use delegated authentication to our advantage, silver tickets, Okta AD agent spoofing, and finally how to deploy a fake SAML provider.]]></summary>
         <author>
             <name>XPN InfoSec Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run commands in a Docker container with docker exec and ssh]]></title>
-        <id>https://4sysops.com/?p=1576545</id>
-        <link href="https://4sysops.com/archives/run-commands-in-a-docker-container-with-docker-exec-and-ssh/02/"/>
-        <updated>2023-10-02T12:21:36.000Z</updated>
-        <summary type="html"><![CDATA[When managing Docker containers, you may need to connect to a running container. It is very helpful if you want to see what is happening inside the container. You can use the docker exec command, SSH into a running Docker container, or get a shell to the container.
-Run commands in a Docker container with docker exec and ssh first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Hitesh Jethva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run commands in a Docker container with docker exec and ssh]]></title>
-        <id>https://4sysops.com/?p=1576545</id>
-        <link href="https://4sysops.com/archives/run-commands-in-a-docker-container-with-docker-exec-and-ssh/"/>
-        <updated>2023-10-02T12:21:36.000Z</updated>
-        <summary type="html"><![CDATA[When managing Docker containers, you may need to connect to a running container. It is very helpful if you want to see what is happening inside the container. You can use the docker exec command, SSH into a running Docker container, or get a shell to the container.
-Run commands in a Docker container with docker exec and ssh first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Hitesh Jethva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to AWS Attribute-Based Access Control]]></title>
-        <id>https://research.nccgroup.com/?p=32819</id>
-        <link href="https://research.nccgroup.com/2023/10/02/introduction-to-aws-attribute-based-access-control/"/>
-        <updated>2023-10-02T12:01:00.000Z</updated>
-        <summary type="html"><![CDATA[AWS allows tags, arbitrary key-value pairs, to be assigned to many resources. Tags can be used to categorize resources however you like. Some examples: In an account holding multiple applications, a tag called “application” might be used to denote which application is associated with each resource. A tag called “stage” might be used to separate […]]]></summary>
-        <author>
-            <name>Rennie deGraaf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CONSTIFY: Fast Defenses for New Exploits]]></title>
-        <id>https://www.grsecurity.net/constify_fast_defenses_for_new_exploits.php</id>
-        <link href="https://www.grsecurity.net/constify_fast_defenses_for_new_exploits.php"/>
-        <updated>2023-10-02T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This short blog covers our recent review of techniques involved in an in-the-wild Android kernel exploit and how we used one of our compiler-based defenses to achieve a quick turnaround for our customers' proactive security.]]></summary>
-        <author>
-            <name>Grsecurity Blog RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CONSTIFY: Fast Defenses for New Exploits]]></title>
-        <id>https://www.grsecurity.net/constify_fast_defenses_for_new_exploits.php</id>
-        <link href="https://www.grsecurity.net/constify_fast_defenses_for_new_exploits.php"/>
-        <updated>2023-10-02T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This short blog covers our recent review of techniques involved in an in-the-wild Android kernel exploit and how we used one of our compiler-based defenses to achieve a quick turnaround for our customers' proactive security.]]></summary>
-        <author>
-            <name>Grsecurity Blog RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: xor-kpa.py Version 0.0.8]]></title>
-        <id>http://blog.didierstevens.com/?p=10185</id>
-        <link href="https://blog.didierstevens.com/2023/10/02/update-xor-kpa-py-version-0-0-8/"/>
-        <updated>2023-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is just a small update to my XOR known-plaintext attack tool, with some improvements on the algorithm. xor-kpa_V0_0_8.zip (http)MD5: EB6397FC81C920DF4E1753A4A31DA9B4SHA256: 9706979A4B1FBC6E318F6015C69ED2759ADC871632FDB9034615A4488DAC32E0]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SANS ICS Security Awareness - New Series: Managing Human Risk in Industrial Control System Environments]]></title>
-        <id>https://www.sans.org/blog/sans-ics-security-awareness-new-series-managing-human-risk-in-industrial-control-system-environments</id>
-        <link href="https://www.sans.org/blog/sans-ics-security-awareness-new-series-managing-human-risk-in-industrial-control-system-environments?msc=rss"/>
-        <updated>2023-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the need for a dedicated ICS security awareness training program]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: simple_listener.py Version 0.1.3]]></title>
-        <id>http://blog.didierstevens.com/?p=10029</id>
-        <link href="https://blog.didierstevens.com/2023/10/01/update-simple_listener-py-version-0-1-3/"/>
-        <updated>2023-10-01T14:34:11.000Z</updated>
-        <summary type="html"><![CDATA[This updates changes the THP_READALL logic, and adds THP_ECHO_THIS and THP_ALLOW_LIST. simple_listener_v0_1_3.zip (http)MD5: 6C90E789D4C10B6EF5E918306A7A58E7SHA256: 16E55E8983E4208151CB407F72238537C7631396FFFECC431230F7879AFAC664]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>
