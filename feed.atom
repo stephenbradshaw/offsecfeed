@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-02T00:33:46.951Z</updated>
+    <updated>2023-11-03T00:34:06.937Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Unpatched Powerful SSRF in Exchange OWA – Getting Response Through Attachments]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6542bb24762c666c130249d6</id>
+        <link href="https://www.thezdi.com/blog/2023/11/1/unpatched-powerful-ssrf-in-exchange-owa-getting-response-through-attachments"/>
+        <updated>2023-11-02T16:18:02.000Z</updated>
+        <summary type="html"><![CDATA[Server Side Request Forgery (SSRF). This vulnerability class triggers a wide range of emotions and reactions, ranging from complete ignorance to panic. Though it is included in the OWASP Top 10 list of web application security risks, at times vendors tend to downplay it and not treat it seriously.
+As usual, the truth lies somewhere in between. What appears to be SSRF may sometimes in fact be intended functionality. Even so, an attacker may be able to abuse that functionality to improperly disclose sensitive information, either from the application containing the SSRF or from unrelated internal systems.
+You may have noticed battles between researchers and vendors where an SSRF vulnerability was at the center of the disagreement. The fun part starts when a single vendor responds to different…]]></summary>
+        <author>
+            <name>Piotr Bazydło</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abusing Entra ID Misconfigurations to Bypass MFA]]></title>
+        <id>https://www.netspi.com/?p=31386</id>
+        <link href="https://www.netspi.com/blog/technical/cloud-penetration-testing/abusing-entra-id-misconfigurations-to-bypass-mfa/"/>
+        <updated>2023-11-02T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While conducting an Entra Penetration Test, we discovered a simple misconfiguration in Entra ID that allowed us to bypass MFA.
+The post Abusing Entra ID Misconfigurations to Bypass MFA appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Kyle Rozendaal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Every Rose Has Its Thorn SFTP Gateway]]></title>
+        <id>https://www.praetorian.com/?p=5362</id>
+        <link href="https://www.praetorian.com/blog/every-rose-has-its-thorn-sftp-gateway/"/>
+        <updated>2023-11-02T13:03:17.000Z</updated>
+        <summary type="html"><![CDATA[Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations.  The recent vulnerabilities in GoAnywhere and MoveIT inspired us to take a look at Thorn SFTP Gateway, which is a solution that provides managed access […]
+The post Every Rose Has Its Thorn SFTP Gateway appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Emmaline</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XRDP: Linux RDP server with Active Directory integration]]></title>
+        <id>https://4sysops.com/?p=1577148</id>
+        <link href="https://4sysops.com/archives/xrdp-linux-rdp-server-with-active-directory-integration/"/>
+        <updated>2023-11-02T11:52:26.000Z</updated>
+        <summary type="html"><![CDATA[XRDP is an open-source implementation of Microsoft's Remote Desktop Protocol (RDP) that allows you to enable RDP functionality on your Linux server. In this article, I will walk you through the installation process of XRDP on Linux, sketch out the necessary firewall settings, and explain how you can integrate XRDP with Active Directory.
+XRDP: Linux RDP server with Active Directory integration first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Evi Vanoost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leveraging Artificial Intelligence (AI) to Manage Human Risk: Part 4 – Advanced Prompt Engineering]]></title>
+        <id>https://www.sans.org/blog/leveraging-artificial-intelligence-ai-to-manage-human-risk-part-4-advanced-prompt-engineering</id>
+        <link href="https://www.sans.org/blog/leveraging-artificial-intelligence-ai-to-manage-human-risk-part-4-advanced-prompt-engineering?msc=rss"/>
+        <updated>2023-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about advanced prompt engineering for generative AI.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On Detection: Tactical to Functional]]></title>
         <id>https://medium.com/p/d214f64c580b</id>
@@ -1203,68 +1258,6 @@ The post Solving The “Unhooking” Problem appeared first on Outflank.]]></sum
         <summary type="html"><![CDATA[Learn why mature organizations turn to Red Teaming to improve cybersecurity resiliency.]]></summary>
         <author>
             <name>Beth Robinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Applying Group Policy to Linux using SSSD]]></title>
-        <id>https://4sysops.com/?p=1576651</id>
-        <link href="https://4sysops.com/archives/applying-group-policy-to-linux-using-sssd/04/"/>
-        <updated>2023-10-04T09:40:09.000Z</updated>
-        <summary type="html"><![CDATA[As mentioned in my previous article about connecting Linux to Active Directory using SSSD, you can configure your Linux domain-bound system through the System Security Services Daemon (SSSD) and Pluggable Authentication Module (PAM) to obey Group Policy settings. This article expands on this capability.
-Applying Group Policy to Linux using SSSD first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Applying Group Policy to Linux using SSSD]]></title>
-        <id>https://4sysops.com/?p=1576651</id>
-        <link href="https://4sysops.com/archives/applying-group-policy-to-linux-using-sssd/"/>
-        <updated>2023-10-04T09:40:09.000Z</updated>
-        <summary type="html"><![CDATA[As mentioned in my previous article about connecting Linux to Active Directory using SSSD, you can configure your Linux domain-bound system through the System Security Services Daemon (SSSD) and Pluggable Authentication Module (PAM) to obey Group Policy settings. This article expands on this capability.
-Applying Group Policy to Linux using SSSD first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: myjson-filter.py Version 0.0.5]]></title>
-        <id>http://blog.didierstevens.com/?p=10188</id>
-        <link href="https://blog.didierstevens.com/2023/10/04/update-myjson-filter-py-version-0-0-5/"/>
-        <updated>2023-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This new version adds YARA support. myjson-filter_V0_0_5.zip (http)MD5: CA8EAB44E283C2BFE0674CCDA1EE35EESHA256: A1E133E5BBB0F129156058E0E8DBD3834A23CEC6173BAFF0ADB79E46BDF48AAB]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SEC670 Prep Quiz Answers]]></title>
-        <id>https://www.sans.org/blog/sec670-prep-quiz-answers</id>
-        <link href="https://www.sans.org/blog/sec670-prep-quiz-answers?msc=rss"/>
-        <updated>2023-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Offensives Operations blog with SEC670 Prep Quiz Answers]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SEC670 Prep Quiz]]></title>
-        <id>https://www.sans.org/blog/sec670-prep-quiz</id>
-        <link href="https://www.sans.org/blog/sec670-prep-quiz?msc=rss"/>
-        <updated>2023-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Offensive Operations SEC670 Prep Quiz]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to build custom scanners for web security research automation]]></title>
-        <id>how-to-build-custom-scanners-for-web-security-research-automation</id>
-        <link href="https://portswigger.net/research/how-to-build-custom-scanners-for-web-security-research-automation"/>
-        <updated>2023-10-03T13:34:47.000Z</updated>
-        <summary type="html"><![CDATA[In this post, I'll share my approach to developing custom automation to aid research into under-appreciated attack classes and (hopefully) push the boundaries of web security. As a worked example, I'l]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
         </author>
     </entry>
     <entry>
