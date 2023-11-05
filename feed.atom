@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-04T00:33:31.652Z</updated>
+    <updated>2023-11-05T00:37:03.364Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Fuzzer Development: The Soul of a New Machine]]></title>
+        <id>https://h0mbre.github.io/New_Fuzzer_Project/</id>
+        <link href="https://h0mbre.github.io/New_Fuzzer_Project/"/>
+        <updated>2023-11-04T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction &amp;&amp; Credit to Gamozolabs For a long time I’ve wanted to develop a fuzzer on the blog during my weekends and freetime, but for one reason or another, I could never really conceptualize a project that would be not only worthwhile as an educational tool, but also offer some utility to the fuzzing community in general. Recently, for Linux Kernel exploitation reasons, I’ve been very interested in Nyx. Nyx is a KVM-based hypervisor fuzzer that you can use to snapshot fuzz traditionally hard to fuzz targets. A lot of the time (most of the time?), we want to fuzz things that don’t naturally lend themselves well to traditional fuzzing approaches. When faced with target complexity in fuzzing (leaving input generation and nuance aside for now), there have generally been two approaches.]]></summary>
+        <author>
+            <name>The Human Machine Interface</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Email domains AD 2023]]></title>
         <id>https://www.hexacorn.com/blog/?p=8829</id>
@@ -1200,83 +1210,6 @@ The reality of Apple watch pen testing first appeared on Pen Test Partners.]]></
         <summary type="html"><![CDATA[Some extra information when signature is found. 1768_v0_0_19.zip (http)MD5: FCF07B2AEDDBB4911520152531C5F107SHA256: 5EE73B9311578D202246011FAF3216674387894833E759148F6C5356B646686F]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes monitoring with the Kubernetes metrics server]]></title>
-        <id>https://4sysops.com/?p=1576685</id>
-        <link href="https://4sysops.com/archives/kubernetes-monitoring-with-the-kubernetes-metrics-server/06/"/>
-        <updated>2023-10-06T09:08:01.000Z</updated>
-        <summary type="html"><![CDATA[Metrics are important for monitoring the performance, health, and scalability of nodes, Pods, and applications that run in a Kubernetes cluster. The Kubernetes metrics server is a cluster addon that collects and aggregates resource metrics from kubelets (agents that run on each cluster node) and exposes these metrics in the Kubernetes API server. The metrics server is a scalable, efficient solution for collecting resource metrics in Kubernetes. It collects metrics every 15 seconds, uses minimal node resources, and can handle clusters with up to 5,000 nodes.
-Kubernetes monitoring with the Kubernetes metrics server first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes monitoring with the Kubernetes metrics server]]></title>
-        <id>https://4sysops.com/?p=1576685</id>
-        <link href="https://4sysops.com/archives/kubernetes-monitoring-with-the-kubernetes-metrics-server/"/>
-        <updated>2023-10-06T09:08:01.000Z</updated>
-        <summary type="html"><![CDATA[Metrics are important for monitoring the performance, health, and scalability of nodes, Pods, and applications that run in a Kubernetes cluster. The Kubernetes metrics server is a cluster addon that collects and aggregates resource metrics from kubelets (agents that run on each cluster node) and exposes these metrics in the Kubernetes API server. The metrics server is a scalable, efficient solution for collecting resource metrics in Kubernetes. It collects metrics every 15 seconds, uses minimal node resources, and can handle clusters with up to 5,000 nodes.
-Kubernetes monitoring with the Kubernetes metrics server first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: simple_listener.py Version 0.1.4]]></title>
-        <id>http://blog.didierstevens.com/?p=10193</id>
-        <link href="https://blog.didierstevens.com/2023/10/06/update-simple_listener-py-version-0-1-4/"/>
-        <updated>2023-10-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update adds ZIP support for binary files, and a –prompt option. When this option is used, the user is prompted after each request, and processing of new requests is suspended until the user reacts to the prompt. simple_listener_v0_1_4.zip (http)MD5: 85A9E47B6243CD860D20E483F162DEA0SHA256: 72FB2E7783315BFD21D74829BAECC1364A404A2B3853DBFD9B29DB2A9322F20B]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Do New Cybersecurity Rules Mean For CISOs?]]></title>
-        <id>https://hackerone.com/security-compliance/new-cybersecurity-rules-for-cisos</id>
-        <link href="https://www.hackerone.com/security-compliance/new-cybersecurity-rules-for-cisos"/>
-        <updated>2023-10-05T20:13:32.000Z</updated>
-        <summary type="html"><![CDATA[CISOs are anxious about new cybersecurity rules — but they don’t have to be.]]></summary>
-        <author>
-            <name>Chris Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking at the Attack Surface of the Sony XAV-AX5500 Head Unit]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:651ed52073a61f1b6ab33b55</id>
-        <link href="https://www.thezdi.com/blog/2023/10/5/looking-at-the-attack-surface-of-the-sony-xav-ax5500-head-unit"/>
-        <updated>2023-10-05T15:37:08.000Z</updated>
-        <summary type="html"><![CDATA[Last month, we looked at the attack surface of the Sony XAV-AX5500 – one of the targets in the upcoming Pwn2Own Automotive contest. In this post, we look at the attack surface of another target in a different category. The Sony XAV-AX5500 is a popular aftermarket head unit that interacts with different systems within a vehicle. It also offers attackers a potential foothold into an automobile.
-The Sony XAV-AX5500 is an aftermarket vehicle head unit. This head unit supports many technologies that encompass its attack surface. This post endeavors to introduce the Sony XAV-AX5500, describe the relevant technologies in the head unit, and identify the attack surface present in the device.
-Sony XAV-AX5500 Attack Surface Summary
-Broadly speaking, the attack surface of the device can be broken down…]]></summary>
-        <author>
-            <name>Todd Manning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to create and use Adaptive Cards]]></title>
-        <id>https://4sysops.com/?p=1576667</id>
-        <link href="https://4sysops.com/archives/how-to-create-and-use-adaptive-cards/05/"/>
-        <updated>2023-10-05T14:59:59.000Z</updated>
-        <summary type="html"><![CDATA[Adaptive Cards are a platform-agnostic specification for defining and rendering rich interactive content within various applications and chat channels, such as Teams or Slack. They are primarily used for display purposes in bot messages, notifications, emails, and other platforms where interactivity is desired. The primary idea is to allow developers to create a single card definition that can be rendered natively and consistently across multiple platforms. In this article, you will learn how to create and use Adaptive Cards with the Adaptive Cards Designer and programmatically with the Adaptive Cards SDK.
-How to create and use Adaptive Cards first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Graham Beer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to create and use Adaptive Cards]]></title>
-        <id>https://4sysops.com/?p=1576667</id>
-        <link href="https://4sysops.com/archives/how-to-create-and-use-adaptive-cards/"/>
-        <updated>2023-10-05T14:59:59.000Z</updated>
-        <summary type="html"><![CDATA[Adaptive Cards are a platform-agnostic specification for defining and rendering rich interactive content within various applications and chat channels, such as Teams or Slack. They are primarily used for display purposes in bot messages, notifications, emails, and other platforms where interactivity is desired. The primary idea is to allow developers to create a single card definition that can be rendered natively and consistently across multiple platforms. In this article, you will learn how to create and use Adaptive Cards with the Adaptive Card Designer and programmatically with the Adaptive Cards SDK.
-How to create and use Adaptive Cards first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Graham Beer</name>
         </author>
     </entry>
     <entry>
