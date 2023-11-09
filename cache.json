@@ -104,16 +104,6 @@
           "wordCount": null,
           "title": "Uncovering RPC Servers through Windows API Analysis",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/7d785f4e1fa",
-          "author": "Evan McBroom",
-          "description": "Thank you to SpecterOps for supporting this research and to Lee and Sarah for proofreading and editing! Crossposted on GitHub.",
-          "link": "https://posts.specterops.io/perfect-loader-implementations-7d785f4e1fa?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-10-09T17:28:18.000Z",
-          "wordCount": 3530,
-          "title": "Perfect Loader Implementations",
-          "imageUrl": null
         }
       ]
     },
@@ -505,6 +495,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=33157",
+          "author": "Xavier Cervilla",
+          "description": "Overview Android 14 introduced a new feature which allows to remotely install CA certificates. This change implies that instead of using the /system/etc/security/cacerts directory to check the trusted CA’s, this new feature uses the com.android.conscrypt APEX module, and reads the certificates from the directory /apex/com.android.conscrypt/cacerts. Inspired by this blog post by Tim Perry, I decided to create a […]",
+          "link": "https://research.nccgroup.com/2023/11/08/tool-release-magisk-module-conscrypt-trust-user-certs/",
+          "publishedOn": "2023-11-08T14:31:13.000Z",
+          "wordCount": 20823,
+          "title": "Tool Release: Magisk Module –  Conscrypt Trust User Certs",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/10/screen-1.png"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=33246",
           "author": "Luis Toro Puig",
           "description": "Kubernetes is essentially a framework of various services that make up its typical architecture, which can be divided into two roles: the control-plane, which serves as a central control hub and hosts most of the components, and the nodes or workers, where containers and their respective workloads are executed. Within the control plane we typically […]",
@@ -874,6 +874,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1577195",
+          "author": "Thomas Joos",
+          "description": "Clients can connect to VMs on a remote host via the VirtualBox Remote Display Protocol (VRDP) without the need to enable Remote Desktop (RDP) in the guest OS. This allows VirtualBox to be used to host virtual desktops that users can access from various clients.\nRemote connect to VirtualBox VMs via RDP (VRDP) first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/remote-connect-to-virtualbox-vms-via-rdp-vrdp/",
+          "publishedOn": "2023-11-08T14:50:11.000Z",
+          "wordCount": 15220,
+          "title": "Remote connect to VirtualBox VMs via RDP (VRDP)",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/11/Establishing-an-RDP-Connection-with-a-Remote-VM-under-VirtualBox-600x420.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1577262",
           "author": "Edem Afenyo",
           "description": "Merging branches in Git is a way to incorporate changes from one branch into another branch. In the previous article in this series, we looked at the basics of branching in Git and GitHub, as a means of achieving isolated lines of development for parallel work and feature separation. Once the code on a branch has been judged production-ready, it can be merged into the production-ready line.\nMerge branches on GitHub first appeared on 4sysops.",
@@ -1102,26 +1112,6 @@
           "wordCount": 13966,
           "title": "Linux SMB mount for multiple users",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/First-look-at-etcfstab-600x310.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576718",
-          "author": "Hitesh Jethva",
-          "description": "This blog post will walk you through the process of dockerizing a Python application, that is, packaging a Python application into a Docker image.\nPackaging a Python application into a Docker image first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/packaging-a-python-application-into-a-docker-image/10/",
-          "publishedOn": "2023-10-10T09:43:22.000Z",
-          "wordCount": 3788,
-          "title": "Packaging a Python application into a Docker image",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Installing-the-Flask-application-600x332.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576718",
-          "author": "Hitesh Jethva",
-          "description": "This blog post will walk you through the process of dockerizing a Python application, that is, packaging a Python application into a Docker image.\nPackaging a Python application into a Docker image first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/packaging-a-python-application-into-a-docker-image/",
-          "publishedOn": "2023-10-10T09:43:22.000Z",
-          "wordCount": 13002,
-          "title": "Packaging a Python application into a Docker image",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Installing-the-Flask-application-600x332.png"
         }
       ]
     },
@@ -1248,16 +1238,6 @@
           "wordCount": 3550,
           "title": "Using Velociraptor for large-scale endpoint visibility and rapid threat hunting",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=26292",
-          "author": "Andrew Tierney",
-          "description": "Introduction This guide deals with threat modelling and early stages of development so that security issues and controls are identified before committing to manufacturing. Current attack methods, and the pitfalls […]\nIoT Secure Development Guide first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/iot-secure-development-guide/",
-          "publishedOn": "2023-10-10T05:04:52.000Z",
-          "wordCount": 10929,
-          "title": "IoT Secure Development Guide",
-          "imageUrl": null
         }
       ]
     },
@@ -1266,6 +1246,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/sans-cloud-security-curriculum",
+          "author": null,
+          "description": "Blog outlining the SANS Cloud Security Curriculum offerings and resources.",
+          "link": "https://www.sans.org/blog/sans-cloud-security-curriculum?msc=rss",
+          "publishedOn": "2023-11-08T00:00:00.000Z",
+          "wordCount": 5046,
+          "title": "SANS Cloud Security Curriculum",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/next-generation-for572-advanced-network-forensics-threat-hunting-analysis-and-incident-response",
           "author": null,
@@ -1374,26 +1364,6 @@
           "publishedOn": "2023-10-12T00:00:00.000Z",
           "wordCount": 4875,
           "title": "Leveraging AI to Manage Human Risk – (Part 1)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/rethinking-compliance-underutilized-power-csp-native-security-services",
-          "author": null,
-          "description": "The concept of living off the land is the core of this article. Using native security services in the cloud can help us live off the land and use the tools available to our organization on the CSP we are already using.",
-          "link": "https://www.sans.org/blog/rethinking-compliance-underutilized-power-csp-native-security-services?msc=rss",
-          "publishedOn": "2023-10-10T00:00:00.000Z",
-          "wordCount": 6172,
-          "title": "Rethinking Compliance: The Underutilized Power of CSP Native Security Services",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/living-off-land-attacks-countermeasures-industrial-control-systems",
-          "author": null,
-          "description": "As attacks on critical infrastructure and industrial control systems become increasingly brazen, ICS defenses must go beyond just preventative security. Control system defenses must be ICS-specific, teams need to be proactive and have ICS cyber specific knowledge and skills.",
-          "link": "https://www.sans.org/blog/living-off-land-attacks-countermeasures-industrial-control-systems?msc=rss",
-          "publishedOn": "2023-10-10T00:00:00.000Z",
-          "wordCount": 5325,
-          "title": "Living Off the Land Attacks and Countermeasures in Industrial Control Systems",
           "imageUrl": null
         }
       ]
@@ -1574,6 +1544,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=15439",
+          "author": "Maurice Striek",
+          "description": "Introduction In today’s digital environment, we encounter a mix of evolving cyber systems and the complexities they introduce. One notable influence in this space is artificial intelligence (AI), alongside associated technologies such as machine learning, which offer promising avenues for reshaping cyber strategies. Traditionally, cybersecurity has operated with definitive parameters, set boundaries, and post-event counteractions. … Continue reading AI in Cybersecurity: Bridging the Gap Between Imagination and Reality →",
+          "link": "https://blog.nviso.eu/2023/11/08/ai-in-cybersecurity-bridging-the-gap-between-imagination-and-reality/",
+          "publishedOn": "2023-11-08T08:00:00.000Z",
+          "wordCount": 4884,
+          "title": "AI in Cybersecurity: Bridging the Gap Between Imagination and Reality",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/05/DALL·E-2023-05-04-12.17.25-Cyberpunk-Generate-an-image-that-warns-of-the-risks-of-AI-integration-into-society.-Use-dark-ominous-colors-and-imagery-to-suggest-a-sense-of-danger2.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=16511",
           "author": "Maxime Thiebaut",
           "description": "In this quick-post, we'll explore how to convert Windows type libraries (TLB) into IDA type information libraries (TIL).",
@@ -1620,6 +1600,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/cloud-security-podcast-network-pentest-2-0",
+          "author": "Seth Art",
+          "description": "Learn about cloud security and cloud penetration testing in Part 2 of Seth Art's interview with Cloud Security Podcast.",
+          "link": "https://bishopfox.com/blog/cloud-security-podcast-network-pentest-2-0",
+          "publishedOn": "2023-11-08T14:00:00.000Z",
+          "wordCount": 3566,
+          "title": "Cloud Security Podcast Featuring Seth Art: Network Pentest 2.0",
+          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Cloud-Security-Podcast-Part-2_OG.jpg?mtime=1699041795"
+        },
         {
           "id": "https://bishopfox.com/blog/cloud-security-podcast-cloud-pentest-of-aws",
           "author": "Seth Art",
