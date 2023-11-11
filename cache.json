@@ -525,6 +525,16 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=33420",
+          "author": "Simone Salucci and Daniel Lopez Jimenez",
+          "description": "Introduction If you are a pentester and enjoy tinkering with Windows, you have probably come across the following post by Raphael Mudge: Windows Access Tokens and Alternate Credentials In this post, he explains how the Windows program runas works and how the netonly flag allows the creation of processes where the local identity differs from […]",
+          "link": "https://research.nccgroup.com/2023/11/10/demystifying-cobalt-strikes-make_token-command/",
+          "publishedOn": "2023-11-10T14:51:39.000Z",
+          "wordCount": 21905,
+          "title": "Demystifying Cobalt Strike’s “make_token” Command",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/11/Figure-3-make_token-from-an-unprivileged-session.png"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=33157",
           "author": "Xavier Cervilla",
           "description": "Overview Android 14 introduced a new feature which allows to remotely install CA certificates. This change implies that instead of using the /system/etc/security/cacerts directory to check the trusted CA’s, this new feature uses the com.android.conscrypt APEX module, and reads the certificates from the directory /apex/com.android.conscrypt/cacerts. Inspired by this blog post by Tim Perry, I decided to create a […]",
@@ -883,6 +893,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1577343",
+          "author": "Hitesh Jethva",
+          "description": "Working with nested Docker containers has several use cases. In this article, I will discuss three methods to create a container inside a Docker container: Docker socket (Dood), dind tag, and Sysbox. You will learn about the advantages and disadvantages of each solution, and I will outline the downsides of nested containers.\nNested Docker containers: Run Docker in a Docker container first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/nested-docker-containers-run-docker-in-a-docker-container/",
+          "publishedOn": "2023-11-10T09:51:33.000Z",
+          "wordCount": 16268,
+          "title": "Nested Docker containers: Run Docker in a Docker container",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/11/Creating-a-Docker-container-using-the-dind-method-600x300.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1577306",
           "author": "Avi",
           "description": "Loki is an open-source log aggregation system developed by Grafana Labs and tailored for cloud-native and containerized apps. Loki is often used in conjunction with Grafana for log visualization. In this guide, I will explain how to install Loki and outline how you can integrate the log aggregation solution with Grafana.\nInstall Loki and visualize logs with Grafana first appeared on 4sysops.",
@@ -1091,26 +1111,6 @@
           "wordCount": 3841,
           "title": "Microsoft is phasing out NTLM, filling the gaps with new Kerberos features",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Audit-NTLM-authentication-using-group-policy-600x382.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576748",
-          "author": "Surender Kumar",
-          "description": "In my previous post in this Kubernetes series, you learned how to install the Kubernetes Metrics Server. Today, I will introduce the HorizontalPodAutoscaler. Both features work together in the Kubernetes ecosystem to facilitate the automatic scaling of pods based on observed system or custom metrics. A HorizontalPodAutoscaler automatically scales the number of Pods in a workload resource (such as a Deployment or a StatefulSet) based on observed metrics, such as CPU or memory utilization. It helps to improve the performance and efficiency of the application by adjusting the number of Pods to match the current demand. The kube-controller-manager (a control plane component) is responsible for running the HorizontalPodAutoscaler in a Kubernetes cluster.\nThe Kubernetes HorizontalPodAutoscaler first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/the-kubernetes-horizontalpodautoscaler/12/",
-          "publishedOn": "2023-10-12T09:43:04.000Z",
-          "wordCount": 4727,
-          "title": "The Kubernetes HorizontalPodAutoscaler",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Watching-the-HorizontalPodAutoscaler-autoscale-a-Kubernetes-deployment-up-when-the-load-is-increased-600x386.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1576748",
-          "author": "Surender Kumar",
-          "description": "In my previous post in this Kubernetes series, you learned how to install the Kubernetes Metrics Server. Today, I will introduce the HorizontalPodAutoscaler. Both features work together in the Kubernetes ecosystem to facilitate the automatic scaling of pods based on observed system or custom metrics. A HorizontalPodAutoscaler automatically scales the number of Pods in a workload resource (such as a Deployment or a StatefulSet) based on observed metrics, such as CPU or memory utilization. It helps to improve the performance and efficiency of the application by adjusting the number of Pods to match the current demand. The kube-controller-manager (a control plane component) is responsible for running the HorizontalPodAutoscaler in a Kubernetes cluster.\nThe Kubernetes HorizontalPodAutoscaler first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/the-kubernetes-horizontalpodautoscaler/",
-          "publishedOn": "2023-10-12T09:43:04.000Z",
-          "wordCount": 13938,
-          "title": "The Kubernetes HorizontalPodAutoscaler",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Watching-the-HorizontalPodAutoscaler-autoscale-a-Kubernetes-deployment-up-when-the-load-is-increased-600x386.png"
         }
       ]
     },
@@ -1226,16 +1226,6 @@
           "publishedOn": "2023-10-31T06:12:29.000Z",
           "wordCount": 2305,
           "title": "FujiFilm printer credentials encryption issue fixed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=28165",
-          "author": "Adam Harwood",
-          "description": "TL;DR Network-wide collection, acquisition and monitoring tool for use in DFIR engagements Designed for enterprise networks (150k+ Deployments aren’t unheard of) Boasts many features that your commercial EDR has, and […]\nUsing Velociraptor for large-scale endpoint visibility and rapid threat hunting first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/using-velociraptor-for-large-scale-endpoint-visibility-and-rapid-threat-hunting/",
-          "publishedOn": "2023-10-12T05:08:48.000Z",
-          "wordCount": 3550,
-          "title": "Using Velociraptor for large-scale endpoint visibility and rapid threat hunting",
           "imageUrl": null
         }
       ]
@@ -1363,16 +1353,6 @@
           "publishedOn": "2023-10-16T00:00:00.000Z",
           "wordCount": 3225,
           "title": "A Visual Summary of SANS CloudSecNext Summit 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/leveraging-ai-to-manage-human-risk-part-1",
-          "author": null,
-          "description": "A blog about how to amplify and improve your human risk management program using AI",
-          "link": "https://www.sans.org/blog/leveraging-ai-to-manage-human-risk-part-1?msc=rss",
-          "publishedOn": "2023-10-12T00:00:00.000Z",
-          "wordCount": 4875,
-          "title": "Leveraging AI to Manage Human Risk – (Part 1)",
           "imageUrl": null
         }
       ]
@@ -1580,16 +1560,6 @@
           "wordCount": 6526,
           "title": "Most common Active Directory misconfigurations and default settings that put your organization at risk",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/09/banner.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=16280",
-          "author": "Didier Stevens",
-          "description": "In this blog post, we show in detail how a known-plaintext attack on XOR encoding works, and automate it with custom tools to decrypt and extract the configuration of a Cobalt Strike beacon. If you are not interested in the theory, just in the tools, go straight to the conclusion 🙂 . A known-plaintext attack … Continue reading XOR Known-Plaintext Attacks →",
-          "link": "https://blog.nviso.eu/2023/10/12/xor-known-plaintext-attacks/",
-          "publishedOn": "2023-10-12T07:00:00.000Z",
-          "wordCount": 3166,
-          "title": "XOR Known-Plaintext Attacks",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/10/20231010-230527a.png"
         }
       ]
     },
