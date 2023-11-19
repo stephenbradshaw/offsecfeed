@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-18T00:34:53.782Z</updated>
+    <updated>2023-11-19T00:38:19.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -1281,86 +1281,6 @@ A Git branch example first appeared on 4sysops.]]></summary>
 The post Understanding the Recent Confluence Vulnerability (CVE-2023-22515) and Digging into Atlassian Bamboo appeared first on Praetorian.]]></summary>
         <author>
             <name>Emmaline</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes init containers]]></title>
-        <id>https://4sysops.com/?p=1576866</id>
-        <link href="https://4sysops.com/archives/kubernetes-init-containers/"/>
-        <updated>2023-10-20T02:34:27.000Z</updated>
-        <summary type="html"><![CDATA[In a previous post in this Kubernetes guide, you learned how to use commands and arguments in a Kubernetes Pod. This post will teach you about Kubernetes init containers. A Kubernetes init container is a special type of container that runs before the main application container in a Pod. The init containers can be used to perform tasks such as setting up the environment, pulling code or a binary from a repository, downloading dependencies, or running scripts that are not part of the container image. You can use an init container to wait for other services, such as a database, to come up before the main app container starts. Essentially, init containers are used to get things ready for your app containers.
-Kubernetes init containers first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leveraging Artificial Intelligence (AI) to Manage Human Risk: Part 2 – Generative AI Basics]]></title>
-        <id>https://www.sans.org/blog/leveraging-ai-to-manage-human-risk-part-2-generative-ai-basics</id>
-        <link href="https://www.sans.org/blog/leveraging-ai-to-manage-human-risk-part-2-generative-ai-basics?msc=rss"/>
-        <updated>2023-10-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This second blog in the ongoing series gives and overview of Generative AI and prompt engineering.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kicking Off the Final Round of the 2023 Ambassador World Cup]]></title>
-        <id>https://hackerone.com/lhe/awc-final-round-2023</id>
-        <link href="https://www.hackerone.com/lhe/awc-final-round-2023"/>
-        <updated>2023-10-19T16:02:39.000Z</updated>
-        <summary type="html"><![CDATA[The final round of the 2023 Ambassador World Cup is here!]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Listing remote named pipes]]></title>
-        <id>https://outflank.nl/?p=3202</id>
-        <link href="https://outflank.nl/blog/2023/10/19/listing-remote-named-pipes/"/>
-        <updated>2023-10-19T15:33:32.000Z</updated>
-        <summary type="html"><![CDATA[On Windows, named pipes are a form of interprocess communication (IPC) that allows processes to communicate with one another, both locally and across the network. Named pipes serve as a mechanism to transfer data between Windows components as well as third-party applications and services. Both locally as well as on a domain. From an offensive perspective, named pipes may leak some information that could be useful for reconnaissance purposes. Since named pipes can also be used (depending on configuration) to access services remotely – they could allow remote exploits (MS08-067).
-In this post we will explore how named pipes can be listed remotely in offensive operations, for example via an implant running on a compromised Windows system.
-Read more: Listing remote named pipes
-Several tools already exist to list named pipes.
-
-Read full post
-The post Listing remote named pipes appeared first on Outflank.]]></summary>
-        <author>
-            <name>Cedric Van Bockhaven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Advisory – Multiple Vulnerabilities in Connectize G6 AC2100 Dual Band Gigabit WiFi Router (CVE-2023-24046, CVE-2023-24047, CVE-2023-24048, CVE-2023-24049, CVE-2023-24050, CVE-2023-24051, CVE-2023-24052)]]></title>
-        <id>https://research.nccgroup.com/?p=31379</id>
-        <link href="https://research.nccgroup.com/2023/10/19/technical-advisory-multiple-vulnerabilities-in-connectize-g6-ac2100-dual-band-gigabit-wifi-router-cve-2023-24046-cve-2023-24047-cve-2023-24048-cve-2023-24049-cve-2023-24050-cve-2023-24051-cve/"/>
-        <updated>2023-10-19T13:53:42.000Z</updated>
-        <summary type="html"><![CDATA[Connectize’s G6 WiFi router was found to have multiple vulnerabilities exposing its owners to potential intrusion in their local Wi-Fi network and browser. The Connectize G6 router is a general consumer Wi-Fi router with an integrated web admin interface for configuration, and is available for purchase by the general public. These vulnerabilities were discovered in […]]]></summary>
-        <author>
-            <name>Jay Houppermans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Cloud Vertex AI - Data Exfiltration Vulnerability Fixed in Generative AI Studio]]></title>
-        <id>https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/</id>
-        <link href="https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/"/>
-        <updated>2023-10-19T13:35:37.000Z</updated>
-        <summary type="html"><![CDATA[Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is frequent.
-This post describes how Google Cloud’s Vertex AI - Generative AI Studio had this vulnerability that I responsibly disclosed and Google fixed.
-A big shout out to the Google Security team upfront, it took 22 minutes from report submission to receiving a confirmation from Google that this is a security issue that will be fixed.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A First Look at Python in Excel]]></title>
-        <id>https://www.netspi.com/?p=31266</id>
-        <link href="https://www.netspi.com/blog/technical/red-team-operations/a-first-look-at-python-in-excel/"/>
-        <updated>2023-10-19T13:01:00.000Z</updated>
-        <summary type="html"><![CDATA[How can you leverage Python in Excel for Red Team Operations? James Williams present a quick overview the new functionality and how it may be used.
-The post A First Look at Python in Excel appeared first on NetSPI.]]></summary>
-        <author>
-            <name>James Williams</name>
         </author>
     </entry>
     <entry>
