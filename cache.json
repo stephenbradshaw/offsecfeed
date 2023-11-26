@@ -84,16 +84,6 @@
           "wordCount": 4850,
           "title": "Lateral Movement: Abuse the Power of DCOM Excel Application",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1107/1*tT0OwtgPEjzIIrtiL7f7mw.png"
-        },
-        {
-          "id": "https://medium.com/p/2762e9667120",
-          "author": "Matt Nelson",
-          "description": "Version: Lenovo Updater Version <= 5.08.01.0009\nOperating System Tested On: Windows 10 22H2 (x64)\nVulnerability: Lenovo System Updater…",
-          "link": "https://posts.specterops.io/cve-2023-4632-local-privilege-escalation-in-lenovo-system-updater-2762e9667120?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2023-10-26T16:52:09.000Z",
-          "wordCount": 2949,
-          "title": "CVE-2023–4632: Local Privilege Escalation in Lenovo System Updater",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1010/1*wZjuLPB8GyN775zkdBp3sQ.png"
         }
       ]
     },
@@ -216,6 +206,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10213",
+          "author": "Didier Stevens",
+          "description": "This update to 1768.py, my Cobalt Strike beacon analysis tool, adds “runtime configuration” extraction. Although 1768.py could already search for beacon configurations inside process memory dumps, the dump was just processed as a raw file. With this update, 1768.py will also search for the runtime configuration inside a process memory dump. The runtime configuration, is […]",
+          "link": "https://blog.didierstevens.com/2023/11/25/update-1768-py-version-0-0-20/",
+          "publishedOn": "2023-11-25T10:09:58.000Z",
+          "wordCount": 3057,
+          "title": "Update: 1768.py Version 0.0.20",
+          "imageUrl": "https://didierstevens.files.wordpress.com/2023/11/20231125-105948.png"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=10211",
           "author": "Didier Stevens",
@@ -400,17 +400,6 @@
           "publishedOn": "2023-10-27T13:31:54.000Z",
           "wordCount": null,
           "title": "Pwn2Own Toronto 2023 - Day Four Results",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:653a669071444244e5843e7d",
-          "author": "Dustin Childs",
-          "description": "Welcome to Day 3 of Pwn2Own Toronto 2023! We’ll be updating this blog in real time as results become available. We have a full schedule of attempts today, so stay tuned! All times are Eastern (GMT -4:00).\nFAILURE - The DEVCORE Intern was unable to get their exploit of the Canon imageCLASS MF753Cdw working within the time allotted.\nBUG COLLISION - Interrupt Labs was able to execute an RCE attack against the Synology BC500. However, the exploit they used was previously known. They still earn $3,750 and 0.75 Master of Pwn points.\nFAILURE - Team Orca of Sea Security was unable to get their exploit of the Xiamoi 13 Pro working within the time allotted.\nWITHDRAWAL - ToChim withdrew their attempt to target the Xiaomi 13 Pro.\nBUG COLLISION - Claroty was able to execute a 4-bug chain against the TP…",
-          "link": "https://www.thezdi.com/blog/2023/10/26/pwn2own-toronto-2023-day-three-results",
-          "publishedOn": "2023-10-26T13:17:58.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Toronto 2023 - Day Three Results",
           "itunes": {},
           "imageUrl": null
         }
@@ -824,18 +813,7 @@
       "title": "enigma0x3",
       "feedUrl": "https://enigma0x3.net/feed/",
       "siteUrl": "https://enigma0x3.net",
-      "articles": [
-        {
-          "id": "http://enigma0x3.net/?p=939",
-          "author": "enigma0x3",
-          "description": "Version: Lenovo Updater Version <= 5.08.01.0009 Operating System Tested On: Windows 10 22H2 (x64) Vulnerability: Lenovo System Updater Local Privilege Escalation via Arbitrary File Write Advisory: https://support.lenovo.com/us/en/product_security/LEN-135367 Vulnerability Overview The Lenovo System Update application is designed to allow non-administrators to check for and apply updates to their workstation. During the process of checking for updates, […]",
-          "link": "https://enigma0x3.net/2023/10/26/cve-2023-4632-local-privilege-escalation-in-lenovo-system-updater/",
-          "publishedOn": "2023-10-26T16:56:34.000Z",
-          "wordCount": 3283,
-          "title": "CVE-2023-4632: Local Privilege Escalation in Lenovo System Updater",
-          "imageUrl": "https://enigma0x3.files.wordpress.com/2023/10/custom_xml_lenovo-1.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mogozobo",
@@ -1059,26 +1037,6 @@
           "wordCount": 15509,
           "title": "Renew Windows root CA certificate",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Show-a-CA-certificates-properties-in-certsrv.msc_-600x293.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1577039",
-          "author": "Hitesh Jethva",
-          "description": "Docker, a cornerstone of the containerization world, offers powerful tools to connect Docker containers seamlessly across various environments. By diving into its rich set of network types—such as bridge, overlay, and macvlan—users can tailor their container communications to fit specific needs. This article will guide you through the foundational steps needed to create, manage, and remove Docker networks, ensuring that you have the knowledge to design optimal networking solutions for your containerized applications.\nDocker networking: Connect a Docker container first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/docker-networking-connect-a-docker-container/",
-          "publishedOn": "2023-10-27T11:30:50.000Z",
-          "wordCount": 15398,
-          "title": "Docker networking: Connect a Docker container",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Inspecting-the-Docker-network-600x361.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1577009",
-          "author": "Surender Kumar",
-          "description": "This post will help you get started with IIS remote management, so you no longer need to RDP into each server. If the target IIS server runs a GUI-less OS (e.g., Server Core), the IIS Manager for Remote Administration is the tool of choice.\nInstall and enable IIS Manager for Remote Administration first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/install-and-enable-iis-manager-for-remote-administration/",
-          "publishedOn": "2023-10-26T12:53:02.000Z",
-          "wordCount": 15638,
-          "title": "Install and enable IIS Manager for Remote Administration",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/10/Manage-the-IIS-server-remotely-600x400.png"
         }
       ]
     },
@@ -1341,16 +1299,6 @@
           "publishedOn": "2023-10-29T00:00:00.000Z",
           "wordCount": 6440,
           "title": "What is Cyber Security? Protecting Our Digital Tomorrow",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/whats-new-sec510",
-          "author": null,
-          "description": "SEC510 provides cloud security training on cloud agnostic security and defense in a public, multicloud environment.",
-          "link": "https://www.sans.org/blog/whats-new-sec510?msc=rss",
-          "publishedOn": "2023-10-27T00:00:00.000Z",
-          "wordCount": 5552,
-          "title": "whats-new-sec510",
           "imageUrl": null
         }
       ]

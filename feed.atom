@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-25T00:33:49.519Z</updated>
+    <updated>2023-11-26T00:38:04.045Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: 1768.py Version 0.0.20]]></title>
+        <id>http://blog.didierstevens.com/?p=10213</id>
+        <link href="https://blog.didierstevens.com/2023/11/25/update-1768-py-version-0-0-20/"/>
+        <updated>2023-11-25T10:09:58.000Z</updated>
+        <summary type="html"><![CDATA[This update to 1768.py, my Cobalt Strike beacon analysis tool, adds “runtime configuration” extraction. Although 1768.py could already search for beacon configurations inside process memory dumps, the dump was just processed as a raw file. With this update, 1768.py will also search for the runtime configuration inside a process memory dump. The runtime configuration, is […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Looking for the randomness in the most non-AI/ML way…]]></title>
         <id>https://www.hexacorn.com/blog/?p=8867</id>
@@ -1124,75 +1134,6 @@ BUG COLLISION - Interrupt Labs was able to execute a 2-bug chain including a UAF
 SUCCESS - Team Viettel was able to execute a heap-based buffer overflow and a stack-based buffer overflow against the TP-Link Omada Gigabit Router and the Canon imageCLASS MF753Cdw for the SOHO Smashup. They earn $50,000 and 10 Master of Pwn points.]]></summary>
         <author>
             <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker networking: Connect a Docker container]]></title>
-        <id>https://4sysops.com/?p=1577039</id>
-        <link href="https://4sysops.com/archives/docker-networking-connect-a-docker-container/"/>
-        <updated>2023-10-27T11:30:50.000Z</updated>
-        <summary type="html"><![CDATA[Docker, a cornerstone of the containerization world, offers powerful tools to connect Docker containers seamlessly across various environments. By diving into its rich set of network types—such as bridge, overlay, and macvlan—users can tailor their container communications to fit specific needs. This article will guide you through the foundational steps needed to create, manage, and remove Docker networks, ensuring that you have the knowledge to design optimal networking solutions for your containerized applications.
-Docker networking: Connect a Docker container first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Hitesh Jethva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[whats-new-sec510]]></title>
-        <id>https://www.sans.org/blog/whats-new-sec510</id>
-        <link href="https://www.sans.org/blog/whats-new-sec510?msc=rss"/>
-        <updated>2023-10-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SEC510 provides cloud security training on cloud agnostic security and defense in a public, multicloud environment.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2023-4632: Local Privilege Escalation in Lenovo System Updater]]></title>
-        <id>http://enigma0x3.net/?p=939</id>
-        <link href="https://enigma0x3.net/2023/10/26/cve-2023-4632-local-privilege-escalation-in-lenovo-system-updater/"/>
-        <updated>2023-10-26T16:56:34.000Z</updated>
-        <summary type="html"><![CDATA[Version: Lenovo Updater Version <= 5.08.01.0009 Operating System Tested On: Windows 10 22H2 (x64) Vulnerability: Lenovo System Updater Local Privilege Escalation via Arbitrary File Write Advisory: https://support.lenovo.com/us/en/product_security/LEN-135367 Vulnerability Overview The Lenovo System Update application is designed to allow non-administrators to check for and apply updates to their workstation. During the process of checking for updates, […]]]></summary>
-        <author>
-            <name>enigma0x3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2023–4632: Local Privilege Escalation in Lenovo System Updater]]></title>
-        <id>https://medium.com/p/2762e9667120</id>
-        <link href="https://posts.specterops.io/cve-2023-4632-local-privilege-escalation-in-lenovo-system-updater-2762e9667120?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-10-26T16:52:09.000Z</updated>
-        <summary type="html"><![CDATA[Version: Lenovo Updater Version <= 5.08.01.0009
-Operating System Tested On: Windows 10 22H2 (x64)
-Vulnerability: Lenovo System Updater…]]></summary>
-        <author>
-            <name>Matt Nelson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Toronto 2023 - Day Three Results]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:653a669071444244e5843e7d</id>
-        <link href="https://www.thezdi.com/blog/2023/10/26/pwn2own-toronto-2023-day-three-results"/>
-        <updated>2023-10-26T13:17:58.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to Day 3 of Pwn2Own Toronto 2023! We’ll be updating this blog in real time as results become available. We have a full schedule of attempts today, so stay tuned! All times are Eastern (GMT -4:00).
-FAILURE - The DEVCORE Intern was unable to get their exploit of the Canon imageCLASS MF753Cdw working within the time allotted.
-BUG COLLISION - Interrupt Labs was able to execute an RCE attack against the Synology BC500. However, the exploit they used was previously known. They still earn $3,750 and 0.75 Master of Pwn points.
-FAILURE - Team Orca of Sea Security was unable to get their exploit of the Xiamoi 13 Pro working within the time allotted.
-WITHDRAWAL - ToChim withdrew their attempt to target the Xiaomi 13 Pro.
-BUG COLLISION - Claroty was able to execute a 4-bug chain against the TP…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install and enable IIS Manager for Remote Administration]]></title>
-        <id>https://4sysops.com/?p=1577009</id>
-        <link href="https://4sysops.com/archives/install-and-enable-iis-manager-for-remote-administration/"/>
-        <updated>2023-10-26T12:53:02.000Z</updated>
-        <summary type="html"><![CDATA[This post will help you get started with IIS remote management, so you no longer need to RDP into each server. If the target IIS server runs a GUI-less OS (e.g., Server Core), the IIS Manager for Remote Administration is the tool of choice.
-Install and enable IIS Manager for Remote Administration first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
         </author>
     </entry>
     <entry>
