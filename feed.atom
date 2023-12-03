@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-12-02T00:34:44.031Z</updated>
+    <updated>2023-12-03T00:38:08.273Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in November]]></title>
+        <id>http://blog.didierstevens.com/?p=10224</id>
+        <link href="https://blog.didierstevens.com/2023/12/02/overview-of-content-published-in-november-9/"/>
+        <updated>2023-12-02T08:00:47.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in November: Blog posts: Update: 1768.py Version 0.0.20 SANS ISC Diary entries: Quick Tip For Artificially Inflated PE Files Wireshark 4.2.0 Released OVA Files]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Proof of life…]]></title>
         <id>https://www.hexacorn.com/blog/?p=8897</id>
@@ -1078,62 +1088,6 @@ I was able to quickly validate that Prompt Injection works by pointing Bard to s
         <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=DFQxm4rd7fRHgM9OTejWVT5Vho6BE7M80rHXEVKqXWcinf93kRmgH2T4xWS0JMLd96xlbbE5D7Gw2o7jubnkMA);.lst-kix_mpwcgajc4xj4-0>li{counter-increment:lst-ctn-kix_mpwcgajc4xj4-0}ol.lst-kix_mpwcgajc4xj4-4{list-style-type:none}.lst-kix_d02lf6xv7lip-8>li:before{content:"-  "}ol.lst-kix_mpwcgajc4xj4-3{list-style-type:none}ol.lst-kix_mpwcgajc4xj4-6{list-style-type:none}.lst-kix_d02lf6xv7lip-7>li:before{content:"-  "}.lst-kix_6winxzvxkxle-2>li:before{content:"-  "}.lst-kix_6winxzvxkxle-4>li:before{content:"-  "}ol.lst-kix_mpwcgajc4xj4-5{list-style-type:none}ol.lst-kix_mpwcgajc4xj4-0{list-style-type:none}ol.lst-kix_mpwcgajc4xj4-2.start{counter-reset:lst-ctn-kix_mpwcgajc4xj4-2 0}.lst-kix_d02lf6xv7lip-6>li:before{content:"-  "}.lst-kix_mpwcgajc4xj4-6>li{…]]></summary>
         <author>
             <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 23H2: The most important new features for professional users]]></title>
-        <id>https://4sysops.com/?p=1577162</id>
-        <link href="https://4sysops.com/archives/windows-11-23h2-the-most-important-new-features-for-professional-users/"/>
-        <updated>2023-11-03T10:29:03.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft delivers new features for Windows 11 on a regular basis through monthly updates. The just released 2023 update unlocks these innovations on managed devices. They include the integration of LAPS, support for Passkeys, Multi-App Kiosks, and Dev Drive, among others.
-Windows 11 23H2: The most important new features for professional users first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Office Documents Poisoning in SHVE]]></title>
-        <id>https://blog.doyensec.com//2023/11/03/Office-Document-Poisoning.html</id>
-        <link href="https://blog.doyensec.com//2023/11/03/Office-Document-Poisoning.html"/>
-        <updated>2023-11-02T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello, folks! We’re back with an exciting update on Session Hijacking Visual Exploitation (SHVE) that introduces an insidious twist to traditional exploitation techniques using Office documents. We all know how Office documents laced with macros have been a longstanding entry point for infiltrating systems. SHVE now takes a step further by leveraging XSS vulnerabilities and the inherent trust users have in websites they regularly visit.
-Our newest feature integrates the concept of Office document poisoning. Here’s how it works: SHVE allows you to upload templates for .docm, .pptm, and .xslm formats. Whenever a victim of SHVE goes to download one of these document types, the tool will automatically intercept and inject the malicious macros into the file before it is downloaded. What makes t…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unpatched Powerful SSRF in Exchange OWA – Getting Response Through Attachments]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6542bb24762c666c130249d6</id>
-        <link href="https://www.thezdi.com/blog/2023/11/1/unpatched-powerful-ssrf-in-exchange-owa-getting-response-through-attachments"/>
-        <updated>2023-11-02T16:18:02.000Z</updated>
-        <summary type="html"><![CDATA[Server Side Request Forgery (SSRF). This vulnerability class triggers a wide range of emotions and reactions, ranging from complete ignorance to panic. Though it is included in the OWASP Top 10 list of web application security risks, at times vendors tend to downplay it and not treat it seriously.
-As usual, the truth lies somewhere in between. What appears to be SSRF may sometimes in fact be intended functionality. Even so, an attacker may be able to abuse that functionality to improperly disclose sensitive information, either from the application containing the SSRF or from unrelated internal systems.
-You may have noticed battles between researchers and vendors where an SSRF vulnerability was at the center of the disagreement. The fun part starts when a single vendor responds to different…]]></summary>
-        <author>
-            <name>Piotr Bazydło</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abusing Entra ID Misconfigurations to Bypass MFA]]></title>
-        <id>https://www.netspi.com/?p=31386</id>
-        <link href="https://www.netspi.com/blog/technical/cloud-penetration-testing/abusing-entra-id-misconfigurations-to-bypass-mfa/"/>
-        <updated>2023-11-02T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While conducting an Entra Penetration Test, we discovered a simple misconfiguration in Entra ID that allowed us to bypass MFA.
-The post Abusing Entra ID Misconfigurations to Bypass MFA appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Kyle Rozendaal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every Rose Has Its Thorn SFTP Gateway]]></title>
-        <id>https://www.praetorian.com/?p=5362</id>
-        <link href="https://www.praetorian.com/blog/every-rose-has-its-thorn-sftp-gateway/"/>
-        <updated>2023-11-02T13:03:17.000Z</updated>
-        <summary type="html"><![CDATA[Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations.  The recent vulnerabilities in GoAnywhere and MoveIT inspired us to take a look at Thorn SFTP Gateway, which is a solution that provides managed access […]
-The post Every Rose Has Its Thorn SFTP Gateway appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Emmaline</name>
         </author>
     </entry>
     <entry>
