@@ -47,18 +47,7 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": [
-        {
-          "id": "introducing-bambdas",
-          "author": null,
-          "description": "You've might have heard of Lambdas. But have you heard of Bambdas? They're a unique new way to customize Burp Suite directly from the UI, using only small snippets of Java. Changing the face of Burp S",
-          "link": "https://portswigger.net/blog/introducing-bambdas",
-          "publishedOn": "2023-11-14T08:27:00.000Z",
-          "wordCount": 1182,
-          "title": "Introducing Bambdas",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "PortSwigger Research",
@@ -417,6 +406,26 @@
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
         {
+          "id": "https://research.nccgroup.com/?p=33754",
+          "author": "Paul Bottinelli",
+          "description": "During late summer 2023, Aleo Systems Inc. engaged NCC Group’s Cryptography Services team to conduct an implementation review of several components of snarkVM, a virtual machine for zero-knowledge proofs. The snarkVM platform allows users to write and execute smart contracts in an efficient, yet privacy-preserving manner by leveraging zero-knowledge succinct non-interactive arguments of knowledge (zk-SNARKs). […]",
+          "link": "https://research.nccgroup.com/2023/12/13/public-report-aleo-snarkvm-implementation-review/",
+          "publishedOn": "2023-12-13T14:45:07.000Z",
+          "wordCount": 18742,
+          "title": "Public Report – Aleo snarkVM Implementation Review",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
+        {
+          "id": "https://research.nccgroup.com/?p=33224",
+          "author": "Oliver Brooks",
+          "description": "Introduction This is the second Technical Advisory post in a series wherein I audit the security of popular Remote Monitoring and Management (RMM) tools. (First: Multiple Vulnerabilities in Faronics Insight). I was joined in this security research by Colin Brum, Principal Security Consultant at NCC Group. In this post I describe the 16 vulnerabilities which […]",
+          "link": "https://research.nccgroup.com/2023/12/13/technical-advisory-multiple-vulnerabilities-in-nagios-xi/",
+          "publishedOn": "2023-12-13T13:52:11.000Z",
+          "wordCount": 24075,
+          "title": "Technical Advisory – Multiple Vulnerabilities in Nagios XI",
+          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/11/Nagios-image2.png"
+        },
+        {
           "id": "https://research.nccgroup.com/?p=33749",
           "author": "Matt Lewis",
           "description": "Over the past two years, our global cybersecurity research has been characterized by unparalleled depth, diversity, and dedication to safeguarding the digital realm. The highlights of our work not only signify our commitment to pushing the boundaries of cybersecurity research but also underscore the tangible impacts and positive change we bring to the technological landscape. […]",
@@ -485,16 +494,6 @@
           "wordCount": 19768,
           "title": "Public Report – WhatsApp Auditable Key Directory (AKD) Implementation Review",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=33577",
-          "author": "Global Threat Intelligence",
-          "description": "Unveiling the Dark Side: A Deep Dive into Active Ransomware Families  Author: Molly Dewis  Intro  Our technical experts have written a blog series focused on Tactics, Techniques and Procedures (TTP’s) deployed by four ransomware families recently observed during NCC Group’s incident response engagements.    In case you missed it, our last post analysed an Incident Response […]",
-          "link": "https://research.nccgroup.com/2023/11/13/dont-throw-a-hissy-fit-defend-against-medusa/",
-          "publishedOn": "2023-11-13T14:01:45.000Z",
-          "wordCount": 21449,
-          "title": "Don’t throw a hissy fit; defend against Medusa",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/11/Sophos.exe_.png"
         }
       ]
     },
@@ -826,6 +825,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1578519",
+          "author": "Amr Essam",
+          "description": "ReplicaSet is a type of Kubernetes controller that is responsible for maintaining a specified number of Pods running at any given time. A controller in Kubernetes is a software loop that watches the shared state of the cluster through the API server and makes changes attempting to move the current state towards the desired state.\nUnderstanding Kubernetes ReplicaSets by example first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/understanding-kubernetes-replicasets-by-example/",
+          "publishedOn": "2023-12-13T13:59:26.000Z",
+          "wordCount": 15975,
+          "title": "Understanding Kubernetes ReplicaSets by example",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Creating-a-new-ReplicaSet-flow-600x319.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1578551",
           "author": "Brandon Lee",
           "description": "Explore the new features in EventSentry 5.1, including anomaly detection, NTFS permissions inventory, and new compliance dashboards.\nEventSentry 5.1: New network security monitoring and compliance features first appeared on 4sysops.",
@@ -1024,16 +1033,6 @@
           "wordCount": 16130,
           "title": "Ansible beginner tutorial",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/11/Installing-curl-package-on-node2-600x406.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1577412",
-          "author": "Evi Vanoost",
-          "description": "Linux's logical volume management (LVM) system manages and provisions data on physical disks. In this article, I will explain how LVM functions, how to manage it on a single volume, and how to encrypt it using Cockpit. In future articles, we'll discuss how to set up your Linux distribution with full-disk encryption, Secure Boot, and TPM2.0 integration (similar to BitLocker on Windows or FileVault on Mac).\nEncrypt Linux LVM with Linux Unified Key Setup (LUKS) using Cockpit first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/encrypt-linux-lvm-with-linux-unified-key-setup-luks-using-cockpit/",
-          "publishedOn": "2023-11-14T11:18:43.000Z",
-          "wordCount": 15884,
-          "title": "Encrypt Linux LVM with Linux Unified Key Setup (LUKS) using Cockpit",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/11/Formatting-a-disk-with-encryption-600x358.png"
         }
       ]
     },
@@ -1048,6 +1047,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8945",
+          "author": "adam",
+          "description": "If you’ve been reading my blog for a while now you will know that I love to challenge my threat hunting game with a lot of err…. banalities. And not the banalities I can ignore, but a lot of these … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2023/12/14/custom-install-path-portability-issues/",
+          "publishedOn": "2023-12-14T00:08:10.000Z",
+          "wordCount": 1141,
+          "title": "Custom Install Path & portability issues",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8897",
           "author": "adam",
@@ -1346,6 +1355,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2023/openai-custom-malware-gpt/",
+          "author": null,
+          "description": "When OpenAI released GPTs last month I had plans for an interesting GPT.\nMalicious ChatGPT Agents The idea was to create a kind of malware GPT that forwards users' chat messages to a third party server. It also asks users for personal information like emails and passwords.\nWhy would this be possible end to end? ChatGPT cannot guarantee to keep your conversation private or confidential, because it loads images from any website.",
+          "link": "https://embracethered.com/blog/posts/2023/openai-custom-malware-gpt/",
+          "publishedOn": "2023-12-13T02:00:49.000Z",
+          "wordCount": 853,
+          "title": "Malicious ChatGPT Agents: How GPTs Can Quietly Grab Your Data (Demo)",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2023/ekoparty-prompt-injection-talk/",
           "author": null,
           "description": "Earlier this month I had the opportunity to present at Ekoparty 2023 about Prompt Injections in the Wild, and the video of the talk was just posted to YouTube. Check it out.\n  It starts with a basic overview of LLMs and then dives deep into exploits and mitigations across various LLM applications and chatbots, including (but not limited) to demos of exploits with Bing Chat, ChatGPT, Anthropic Claude, Azure AI, GCP Vertex AI and Google Bard.",
@@ -1515,6 +1534,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=16798",
+          "author": "Dimitris Binichakis",
+          "description": "Introduction Most modern day EDRs have some sort of feature which allows blue teamers to remotely connect to hosts with an EDR agent/sensor installed, to aid in their investigation of incidents. In CrowdStrike, this is called Real Time Response, and it provides a wide range of capabilities, from executing built-in commands like ipconfig and netstat … Continue reading Scaling your threat hunting operations with CrowdStrike and PSFalcon →",
+          "link": "https://blog.nviso.eu/2023/12/13/scaling-your-threat-hunting-operations-with-crowdstrike-and-psfalcon/",
+          "publishedOn": "2023-12-13T08:00:00.000Z",
+          "wordCount": 2946,
+          "title": "Scaling your threat hunting operations with CrowdStrike and PSFalcon",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/12/image-1.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=15577",
           "author": "Steffen Rogge",

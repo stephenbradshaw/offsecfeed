@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-12-13T00:36:05.140Z</updated>
+    <updated>2023-12-14T00:35:40.183Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Custom Install Path & portability issues]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8945</id>
+        <link href="https://www.hexacorn.com/blog/2023/12/14/custom-install-path-portability-issues/"/>
+        <updated>2023-12-14T00:08:10.000Z</updated>
+        <summary type="html"><![CDATA[If you’ve been reading my blog for a while now you will know that I love to challenge my threat hunting game with a lot of err…. banalities. And not the banalities I can ignore, but a lot of these … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Public Report – Aleo snarkVM Implementation Review]]></title>
+        <id>https://research.nccgroup.com/?p=33754</id>
+        <link href="https://research.nccgroup.com/2023/12/13/public-report-aleo-snarkvm-implementation-review/"/>
+        <updated>2023-12-13T14:45:07.000Z</updated>
+        <summary type="html"><![CDATA[During late summer 2023, Aleo Systems Inc. engaged NCC Group’s Cryptography Services team to conduct an implementation review of several components of snarkVM, a virtual machine for zero-knowledge proofs. The snarkVM platform allows users to write and execute smart contracts in an efficient, yet privacy-preserving manner by leveraging zero-knowledge succinct non-interactive arguments of knowledge (zk-SNARKs). […]]]></summary>
+        <author>
+            <name>Paul Bottinelli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Kubernetes ReplicaSets by example]]></title>
+        <id>https://4sysops.com/?p=1578519</id>
+        <link href="https://4sysops.com/archives/understanding-kubernetes-replicasets-by-example/"/>
+        <updated>2023-12-13T13:59:26.000Z</updated>
+        <summary type="html"><![CDATA[ReplicaSet is a type of Kubernetes controller that is responsible for maintaining a specified number of Pods running at any given time. A controller in Kubernetes is a software loop that watches the shared state of the cluster through the API server and makes changes attempting to move the current state towards the desired state.
+Understanding Kubernetes ReplicaSets by example first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Amr Essam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technical Advisory – Multiple Vulnerabilities in Nagios XI]]></title>
+        <id>https://research.nccgroup.com/?p=33224</id>
+        <link href="https://research.nccgroup.com/2023/12/13/technical-advisory-multiple-vulnerabilities-in-nagios-xi/"/>
+        <updated>2023-12-13T13:52:11.000Z</updated>
+        <summary type="html"><![CDATA[Introduction This is the second Technical Advisory post in a series wherein I audit the security of popular Remote Monitoring and Management (RMM) tools. (First: Multiple Vulnerabilities in Faronics Insight). I was joined in this security research by Colin Brum, Principal Security Consultant at NCC Group. In this post I describe the 16 vulnerabilities which […]]]></summary>
+        <author>
+            <name>Oliver Brooks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling your threat hunting operations with CrowdStrike and PSFalcon]]></title>
+        <id>https://blog.nviso.eu/?p=16798</id>
+        <link href="https://blog.nviso.eu/2023/12/13/scaling-your-threat-hunting-operations-with-crowdstrike-and-psfalcon/"/>
+        <updated>2023-12-13T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Most modern day EDRs have some sort of feature which allows blue teamers to remotely connect to hosts with an EDR agent/sensor installed, to aid in their investigation of incidents. In CrowdStrike, this is called Real Time Response, and it provides a wide range of capabilities, from executing built-in commands like ipconfig and netstat … Continue reading Scaling your threat hunting operations with CrowdStrike and PSFalcon →]]></summary>
+        <author>
+            <name>Dimitris Binichakis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious ChatGPT Agents: How GPTs Can Quietly Grab Your Data (Demo)]]></title>
+        <id>https://embracethered.com/blog/posts/2023/openai-custom-malware-gpt/</id>
+        <link href="https://embracethered.com/blog/posts/2023/openai-custom-malware-gpt/"/>
+        <updated>2023-12-13T02:00:49.000Z</updated>
+        <summary type="html"><![CDATA[When OpenAI released GPTs last month I had plans for an interesting GPT.
+Malicious ChatGPT Agents The idea was to create a kind of malware GPT that forwards users' chat messages to a third party server. It also asks users for personal information like emails and passwords.
+Why would this be possible end to end? ChatGPT cannot guarantee to keep your conversation private or confidential, because it loads images from any website.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding the Impact of the new Apache Struts File Upload Vulnerability]]></title>
         <id>https://www.praetorian.com/?p=5479</id>
@@ -1141,37 +1204,6 @@ For November, Adobe released 14 bulletins addressing 76 CVEs in Adobe Acrobat an
         <summary type="html"><![CDATA[By William Woodruff This is a joint post with the PyPI maintainers; read their announcement here! This audit was sponsored by the Open Tech Fund as part of their larger mission to secure critical pieces of internet infrastructure. You can read the full report in our Publications repository. Late this summer, we performed an audit […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Encrypt Linux LVM with Linux Unified Key Setup (LUKS) using Cockpit]]></title>
-        <id>https://4sysops.com/?p=1577412</id>
-        <link href="https://4sysops.com/archives/encrypt-linux-lvm-with-linux-unified-key-setup-luks-using-cockpit/"/>
-        <updated>2023-11-14T11:18:43.000Z</updated>
-        <summary type="html"><![CDATA[Linux's logical volume management (LVM) system manages and provisions data on physical disks. In this article, I will explain how LVM functions, how to manage it on a single volume, and how to encrypt it using Cockpit. In future articles, we'll discuss how to set up your Linux distribution with full-disk encryption, Secure Boot, and TPM2.0 integration (similar to BitLocker on Windows or FileVault on Mac).
-Encrypt Linux LVM with Linux Unified Key Setup (LUKS) using Cockpit first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Bambdas]]></title>
-        <id>introducing-bambdas</id>
-        <link href="https://portswigger.net/blog/introducing-bambdas"/>
-        <updated>2023-11-14T08:27:00.000Z</updated>
-        <summary type="html"><![CDATA[You've might have heard of Lambdas. But have you heard of Bambdas? They're a unique new way to customize Burp Suite directly from the UI, using only small snippets of Java. Changing the face of Burp S]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t throw a hissy fit; defend against Medusa]]></title>
-        <id>https://research.nccgroup.com/?p=33577</id>
-        <link href="https://research.nccgroup.com/2023/11/13/dont-throw-a-hissy-fit-defend-against-medusa/"/>
-        <updated>2023-11-13T14:01:45.000Z</updated>
-        <summary type="html"><![CDATA[Unveiling the Dark Side: A Deep Dive into Active Ransomware Families  Author: Molly Dewis  Intro  Our technical experts have written a blog series focused on Tactics, Techniques and Procedures (TTP’s) deployed by four ransomware families recently observed during NCC Group’s incident response engagements.    In case you missed it, our last post analysed an Incident Response […]]]></summary>
-        <author>
-            <name>Global Threat Intelligence</name>
         </author>
     </entry>
     <entry>
