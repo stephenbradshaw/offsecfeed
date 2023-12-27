@@ -338,18 +338,7 @@
       "title": "Winsider Seminars & Solutions Inc.",
       "feedUrl": "https://windows-internals.com/feed/",
       "siteUrl": "https://windows-internals.com",
-      "articles": [
-        {
-          "id": "https://windows-internals.com/?p=520214",
-          "author": "Yarden Shafir",
-          "description": "[…]",
-          "link": "https://windows-internals.com/kaslr-leaks-restriction/?utm_source=rss&utm_medium=rss&utm_campaign=kaslr-leaks-restriction",
-          "publishedOn": "2023-11-26T20:38:34.000Z",
-          "wordCount": 1730,
-          "title": "KASLR Leaks Restriction",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Alexander Popov",
@@ -601,6 +590,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=105596",
+          "author": "Trail of Bits",
+          "description": "By Jim Miller We’ve updated ZKDocs with four new sections and additions to existing content. ZKDocs provides explanations, guidance, and documentation for cryptographic protocols that are otherwise sparingly discussed but are used in practice. As such, we’ve added four new sections detailing common protocols that previously lacked implementation guidance: The Inner Product Argument (IPA), which […]",
+          "link": "https://blog.trailofbits.com/2023/12/26/weve-added-more-content-to-zkdocs/",
+          "publishedOn": "2023-12-26T14:00:59.000Z",
+          "wordCount": 2872,
+          "title": "We’ve added more content to ZKDocs",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/12/zkdocs-random-sampling.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=105569",
           "author": "Trail of Bits",
           "description": "By Damien Santiago I’ve created five CodeQL queries that catch potentially potent bugs in the OpenSSL libcrypto API, a widely adopted but often unforgiving API that can be misused to cause memory leaks, authentication bypasses, and other subtle cryptographic issues in implementations. These queries—which I developed during my internship with my mentors, Fredrik Dahlgren and […]",
@@ -773,6 +772,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1579020",
+          "author": "Thomas Joos",
+          "description": "There are various mechanisms for copying files between Windows and Linux. A proven tool for this purpose is Secure Copy (SCP), and with the porting of PowerShell to Linux, it is suitable for this task, too. The connection runs over SSH in both cases, ensuring that files are transferred encrypted.\nCopying files between Windows and Linux with SCP and PowerShell first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/copying-files-between-windows-and-linux-with-scp-and-powershell/",
+          "publishedOn": "2023-12-26T09:06:49.000Z",
+          "wordCount": 15189,
+          "title": "Copying files between Windows and Linux with SCP and PowerShell",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/The-newer-versions-of-Windows-contain-a-client-for-SSH-and-SCP-600x363.png"
+        },
         {
           "id": "https://4sysops.com/?p=1578738",
           "author": "Evi Vanoost",
@@ -972,16 +981,6 @@
           "wordCount": 15625,
           "title": "Unlock Linux Unified Key Setup (LUKS) encrypted partitions with TPM 2.0",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/11/Find-the-parent-of-the-LUKS-partition-600x357.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1577625",
-          "author": "Surender Kumar",
-          "description": "Copa, an open-source container image security tool from Microsoft, addresses the need to update container images. It lets you immediately patch container image vulnerabilities without relying on developers or maintainers.\nUpdate container images with Copa first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/update-container-images-with-copa/",
-          "publishedOn": "2023-11-27T12:17:26.000Z",
-          "wordCount": 15495,
-          "title": "Update container images with Copa",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2018/07/PowerShell-Social.png"
         }
       ]
     },
@@ -996,6 +995,26 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8995",
+          "author": "adam",
+          "description": "There is an archaic feature that regsvr32.exe leverages to autoregister libraries associated with file extensions. For this to work, it expects an AutoRegister key to be present under the file extension handler with a default value pointing to the library … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2023/12/27/1-little-known-secret-of-regsvr32-exe-take-two/",
+          "publishedOn": "2023-12-27T00:09:35.000Z",
+          "wordCount": 606,
+          "title": "1 little known secret of regsvr32.exe, take two",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=8992",
+          "author": "adam",
+          "description": "When you execute 32-bit version of runonce.exe on a 64-bit version of Windows and pass to it the /RunOnceEx6432 argument you will make the program load iernonce.dll library and execute its RunOnceExProcess API… Since the iernonce.dll library is loaded using … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2023/12/26/1-little-known-secret-of-runonce-exe-32-bit/",
+          "publishedOn": "2023-12-26T15:22:47.000Z",
+          "wordCount": 547,
+          "title": "1 little known secret of runonce.exe (32-bit)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=8988",
           "author": "adam",
@@ -1107,16 +1126,6 @@
           "publishedOn": "2023-11-30T06:02:02.000Z",
           "wordCount": 2233,
           "title": "OPSEC failures when threat hunting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=28285",
-          "author": "Ken Munro",
-          "description": "If you didn’t already know, I’m a massive fan of electric vehicles. One of the aspects that intrigues me is Vehicle to Grid (V2G), the potential for our car batteries […]\nAre Vehicle to Grid spikes coming? first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/are-vehicle-to-grid-spikes-coming/",
-          "publishedOn": "2023-11-27T06:04:54.000Z",
-          "wordCount": 2344,
-          "title": "Are Vehicle to Grid spikes coming?",
           "imageUrl": null
         }
       ]
@@ -1354,6 +1363,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=87389",
+          "author": "LABScon",
+          "description": "Vitor Ventura breaks down the processes one spyware organization takes to develop fully working spyware using a one-click zero-day exploit.",
+          "link": "https://www.sentinelone.com/labs/labscon-replay-intellexa-and-cytrox-from-fixer-upper-to-intel-agency-grade-spyware/",
+          "publishedOn": "2023-12-26T17:00:12.000Z",
+          "wordCount": 7199,
+          "title": "LABSCon Replay | Intellexa and Cytrox: From Fixer-Upper to Intel Agency Grade Spyware",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2023/12/Intellexa-and-Cytrox-From-fixer-upper-to-Intel-Agency-grade-spyware-1.jpg",
+            "length": "541898",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/12/Intellexa-and-Cytrox-From-fixer-upper-to-Intel-Agency-grade-spyware-1.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=87124",
           "author": "Aleksandar Milenkoski",

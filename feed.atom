@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-12-26T00:34:52.768Z</updated>
+    <updated>2023-12-27T00:34:30.788Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of regsvr32.exe, take two]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8995</id>
+        <link href="https://www.hexacorn.com/blog/2023/12/27/1-little-known-secret-of-regsvr32-exe-take-two/"/>
+        <updated>2023-12-27T00:09:35.000Z</updated>
+        <summary type="html"><![CDATA[There is an archaic feature that regsvr32.exe leverages to autoregister libraries associated with file extensions. For this to work, it expects an AutoRegister key to be present under the file extension handler with a default value pointing to the library … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LABSCon Replay | Intellexa and Cytrox: From Fixer-Upper to Intel Agency Grade Spyware]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=87389</id>
+        <link href="https://www.sentinelone.com/labs/labscon-replay-intellexa-and-cytrox-from-fixer-upper-to-intel-agency-grade-spyware/"/>
+        <updated>2023-12-26T17:00:12.000Z</updated>
+        <summary type="html"><![CDATA[Vitor Ventura breaks down the processes one spyware organization takes to develop fully working spyware using a one-click zero-day exploit.]]></summary>
+        <author>
+            <name>LABScon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of runonce.exe (32-bit)]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8992</id>
+        <link href="https://www.hexacorn.com/blog/2023/12/26/1-little-known-secret-of-runonce-exe-32-bit/"/>
+        <updated>2023-12-26T15:22:47.000Z</updated>
+        <summary type="html"><![CDATA[When you execute 32-bit version of runonce.exe on a 64-bit version of Windows and pass to it the /RunOnceEx6432 argument you will make the program load iernonce.dll library and execute its RunOnceExProcess API… Since the iernonce.dll library is loaded using … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We’ve added more content to ZKDocs]]></title>
+        <id>https://blog.trailofbits.com/?p=105596</id>
+        <link href="https://blog.trailofbits.com/2023/12/26/weve-added-more-content-to-zkdocs/"/>
+        <updated>2023-12-26T14:00:59.000Z</updated>
+        <summary type="html"><![CDATA[By Jim Miller We’ve updated ZKDocs with four new sections and additions to existing content. ZKDocs provides explanations, guidance, and documentation for cryptographic protocols that are otherwise sparingly discussed but are used in practice. As such, we’ve added four new sections detailing common protocols that previously lacked implementation guidance: The Inner Product Argument (IPA), which […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Copying files between Windows and Linux with SCP and PowerShell]]></title>
+        <id>https://4sysops.com/?p=1579020</id>
+        <link href="https://4sysops.com/archives/copying-files-between-windows-and-linux-with-scp-and-powershell/"/>
+        <updated>2023-12-26T09:06:49.000Z</updated>
+        <summary type="html"><![CDATA[There are various mechanisms for copying files between Windows and Linux. A proven tool for this purpose is Secure Copy (SCP), and with the porting of PowerShell to Linux, it is suitable for this task, too. The connection runs over SSH in both cases, ensuring that files are transferred encrypted.
+Copying files between Windows and Linux with SCP and PowerShell first appeared on 4sysops.]]></summary>
+        <author>
+            <name>Thomas Joos</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1 little known secret of regsvr32.exe]]></title>
         <id>https://www.hexacorn.com/blog/?p=8988</id>
@@ -1095,38 +1146,6 @@ Unlock Linux Unified Key Setup (LUKS) encrypted partitions with TPM 2.0 first ap
         <summary type="html"><![CDATA[This Bishop Fox advisory highlights three critical severity vulnerabilities in the RAY application versions 2.6.3 and 2.8.0.]]></summary>
         <author>
             <name>Berenice Flores Garcia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update container images with Copa]]></title>
-        <id>https://4sysops.com/?p=1577625</id>
-        <link href="https://4sysops.com/archives/update-container-images-with-copa/"/>
-        <updated>2023-11-27T12:17:26.000Z</updated>
-        <summary type="html"><![CDATA[Copa, an open-source container image security tool from Microsoft, addresses the need to update container images. It lets you immediately patch container image vulnerabilities without relying on developers or maintainers.
-Update container images with Copa first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are Vehicle to Grid spikes coming?]]></title>
-        <id>https://www.pentestpartners.com/?p=28285</id>
-        <link href="https://www.pentestpartners.com/security-blog/are-vehicle-to-grid-spikes-coming/"/>
-        <updated>2023-11-27T06:04:54.000Z</updated>
-        <summary type="html"><![CDATA[If you didn’t already know, I’m a massive fan of electric vehicles. One of the aspects that intrigues me is Vehicle to Grid (V2G), the potential for our car batteries […]
-Are Vehicle to Grid spikes coming? first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Ken Munro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KASLR Leaks Restriction]]></title>
-        <id>https://windows-internals.com/?p=520214</id>
-        <link href="https://windows-internals.com/kaslr-leaks-restriction/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=kaslr-leaks-restriction"/>
-        <updated>2023-11-26T20:38:34.000Z</updated>
-        <summary type="html"><![CDATA[[…]]]></summary>
-        <author>
-            <name>Yarden Shafir</name>
         </author>
     </entry>
     <entry>
