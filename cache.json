@@ -54,16 +54,6 @@
           "wordCount": 1533,
           "title": "Finding that one weird endpoint, with Bambdas",
           "imageUrl": "https://portswigger.net/cms/images/0a/f5/7287-twittercard-twitter.png"
-        },
-        {
-          "id": "blind-css-exfiltration",
-          "author": null,
-          "description": "This is a gif of the exfiltration process (We've increased the speed so you're not waiting around for 1 minute). Read on to discover how this works... Why would we want to do blind CSS exfiltration? I",
-          "link": "https://portswigger.net/research/blind-css-exfiltration",
-          "publishedOn": "2023-12-05T15:37:20.000Z",
-          "wordCount": 2618,
-          "title": "Blind CSS Exfiltration: exfiltrate unknown web pages",
-          "imageUrl": "https://portswigger.net/cms/images/46/29/9c53-twittercard-css-exfiltration-twitter.png"
         }
       ]
     },
@@ -95,7 +85,18 @@
       "title": "Technical Blog - NetSPI",
       "feedUrl": "https://www.netspi.com/blog/technical/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.netspi.com/?p=31693",
+          "author": "Karl Fosaaen",
+          "description": "Learn the processes used to create a malicious Azure Container Registry task that can be used to export tokens for Managed Identities attached to an ACR.\nThe post Automating Managed Identity Token Extraction in Azure Container Registries appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical/cloud-penetration-testing/automating-managed-identity-token-extraction-in-azure-container-registries/",
+          "publishedOn": "2024-01-04T15:00:00.000Z",
+          "wordCount": 15782,
+          "title": "Automating Managed Identity Token Extraction in Azure Container Registries",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/01.04.24_Azure-Container-Registry-Tokens_Social.jpg"
+        }
+      ]
     },
     {
       "title": "All Posts - Malicious Link - Blog by mubix - Rob Fuller",
@@ -215,16 +216,6 @@
           "wordCount": 3313,
           "title": "2024 Live Hacking Events",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2023-12/Blog%20Header_LHE%20Invites%20763x462%20COLOR.png"
-        },
-        {
-          "id": "https://hackerone.com/ceo/maintaining-intelligence-edge-cybersecurity",
-          "author": "Marten Mickos",
-          "description": "A message from HackerOne's CEO about the power of both artificial and human intelligence.",
-          "link": "https://www.hackerone.com/ceo/maintaining-intelligence-edge-cybersecurity",
-          "publishedOn": "2023-12-05T18:19:42.000Z",
-          "wordCount": 3010,
-          "title": "Maintaining the Intelligence Edge in Cybersecurity",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2023-12/Blog%20Header_Intelligence%20Edge%20CEO_763x462.png"
         }
       ]
     },
@@ -263,6 +254,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6596df1cb669440352c31e49",
+          "author": "Dustin Childs",
+          "description": "We’ve successfully orbited our star once more and are full throttle into the new year. Before we roll too fast into 2024, let’s pause for a moment and look back at some of the highlights of the past year.\nA Year of Pwn2Own Competitions\nBack in January, we announced our first-ever Pwn2Own Automotive competition in Tokyo, and now we’re just a couple of weeks from that event. We already have several registrations, so I can’t wait to see what exploits researchers put on display.\nIn February, we held Pwn2Own Miami, which focuses on industrial control systems (ICS) and SCADA targets. During that event, we saw the debut of ChatGPT in the competition. We also awarded over $150,000 for 27 unique 0-day vulnerabilities.\nIn March, we returned to Vancouver for the original edition of Pwn2Own. The highl…",
+          "link": "https://www.thezdi.com/blog/2024/1/4/looking-back-at-the-zdi-activities-from-2023",
+          "publishedOn": "2024-01-04T17:14:52.000Z",
+          "wordCount": null,
+          "title": "Looking Back at the ZDI Activities from 2023",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65787527fd07e018bb3f0c6f",
           "author": "Dustin Childs",
           "description": "It’s the final patch Tuesday of 2023, and Apple, Adobe, and Microsoft have released their latest security offerings. Take a break from your holiday hustle and join us as we review the details of their latest advisories. If you’d rather watch the video recap, you can check it out here:\nApple Patches for December 2023\nApple kicked off the December release cycle with patches for iOS and iPadOS with eight CVEs. Two of these CVEs in Webkit are reported as being under active attack on iOS versions 16.7.1 and older. If you’re using an older iPhone or iPad, you should definitely update your device immediately. If you’re using a device running iOS 17 and later, you should still update when possible. \nAdobe Patches for December 2023\nFor December, Adobe released nine patches covering a whopping 212 C…",
@@ -270,17 +272,6 @@
           "publishedOn": "2023-12-12T18:27:41.000Z",
           "wordCount": null,
           "title": "The December 2023 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:656f549b970f832921366d20",
-          "author": "Todd Manning",
-          "description": "Previously, we looked at the attack surface of the ChargePoint Home Flex EV charger – one of the targets in the upcoming Pwn2Own Automotive contest. In this post, we look at the attack surface of another EV Charger. The Ubiquiti Connect EV Station is a weatherproof Level 2 electric vehicle charging station designed for organizations. We cover the most obvious areas a threat actor would explore when attempting to compromise the device.\nThe Ubiquiti Connect EV Station is a Level 2 charging station for electric vehicles. The EV Station is meant to be managed by a Ubiquiti management platform running the UniFi OS Console, such as the Ubiquiti Dream Machine or Cloud Gateway. Users can also use the iOS or Android UniFi Connect mobile apps to configure the EV Station.\nAttack Surface Summary\nThe U…",
-          "link": "https://www.thezdi.com/blog/2023/12/5/attack-surface-of-the-ubiquiti-connect-ev-station",
-          "publishedOn": "2023-12-05T17:58:38.000Z",
-          "wordCount": null,
-          "title": "Attack Surface of the Ubiquiti Connect EV Station",
           "itunes": {},
           "imageUrl": null
         }
@@ -417,16 +408,6 @@
           "wordCount": 2815,
           "title": "SonicWall WXA – Authentication Bypass and Remote Code Execution Vulnerability",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/11/SonicWall-WXA-15.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=5421",
-          "author": "Emmaline",
-          "description": "Overview Recently, we decided to perform some reverse engineering of the SonicWall NSv appliance to identify any potential remote code execution vulnerabilities within the appliance. During our initial analysis of a virtual machine image for the application, we discovered a customized LUKS encryption mechanism meant to hinder reverse engineering of the application. We were able […]\nThe post Analyzing the SonicWall Custom Grub LUKS Encryption Modifications appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/sonicwall-custom-grub-luks-encryption/",
-          "publishedOn": "2023-12-05T14:03:55.000Z",
-          "wordCount": 4076,
-          "title": "Analyzing the SonicWall Custom Grub LUKS Encryption Modifications",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2023/11/SonicWall-LUKS-7.png"
         }
       ]
     },
@@ -444,16 +425,6 @@
           "wordCount": 1306,
           "title": "Silverpeas App: Multiple CVEs leading to File Read on Server",
           "imageUrl": "https://rhinosecuritylabs.com/wp-content/uploads/2023/12/banner.png"
-        },
-        {
-          "id": "https://rhinosecuritylabs.com/?p=24839",
-          "author": "David Yesland",
-          "description": "The post Multiple Vulnerabilities In Extreme Networks ExtremeXOS appeared first on Rhino Security Labs.",
-          "link": "https://rhinosecuritylabs.com/research/extreme-networks-extremexos-vulnerabilities/",
-          "publishedOn": "2023-12-05T15:00:00.000Z",
-          "wordCount": 2078,
-          "title": "Multiple Vulnerabilities In Extreme Networks ExtremeXOS",
-          "imageUrl": "https://rhinosecuritylabs.com/wp-content/uploads/2022/01/blog-social-media-background.png"
         }
       ]
     },
@@ -730,6 +701,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1579166",
+          "author": "Evi Vanoost",
+          "description": "The previous article discussed installing an ACME-compatible certificate authority server. This post explains how to install step-cli (ACME client) on a client system to install the new certificate authority (CA), make it trusted, and request a TLS certificate.\nInstall and use the step-ca certificate authority client first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/install-and-use-the-step-ca-certificate-authority-client/",
+          "publishedOn": "2024-01-04T08:43:09.000Z",
+          "wordCount": 15802,
+          "title": "Install and use the step-ca certificate authority client",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Browser-certificate-inspection-tool-after-importing-the-CA-600x253.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1579150",
           "author": "Michael Pietroforte",
           "description": "The provided Bash and PowerShell script helps automate the creation of Amazon Machine Images (AMIs) from existing AWS Elastic Compute Cloud (EC2) instances. This is particularly useful for creating point-in-time backups or disaster recovery. I mostly use the script to quickly clone an EC2 instance for testing or troubleshooting.\nCreate an Amazon Machine Image (AMI) of an EC2 instance with a Bash and PowerShell script first appeared on 4sysops.",
@@ -928,26 +909,6 @@
           "wordCount": 15843,
           "title": "Migrate Microsoft Entra Connect (Azure AD Connect) to a new server",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Directory-sync-status-600x321.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1578276",
-          "author": "Hitesh Jethva",
-          "description": "An Ansible playbook is a YAML file that contains a set of instructions and configurations for automating tasks on one or more remote machines using the Ansible automation tool. In this post in our Ansible beginner's series, I will explain how to use an Ansible Playbook by example.\nAnsible Playbook examples first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/ansible-playbook-examples/",
-          "publishedOn": "2023-12-06T09:55:56.000Z",
-          "wordCount": 15623,
-          "title": "Ansible Playbook examples",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Installing-and-configuring-the-Apache-server-600x266.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1577987",
-          "author": "Wolfgang Sommergut",
-          "description": "SystoLOCK offers a robust solution for enhancing security through multi-factor authentication (MFA) without passwords in an Active Directory environment. Unlike other methods, SystoLOCK does not rely on cloud services. The solution introduces the convenience similar to smartcard-based authentication, eliminating the need for complex password management. Moreover, SystoLOCK allows users to log in securely via VPN connections and supports offline login functionality.\nSystoLOCK in review: Logging in to Active Directory with multi-factor authentication without passwords first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/systolock-in-review-logging-in-to-active-directory-with-multi-factor-authentication-without-passwords/",
-          "publishedOn": "2023-12-05T13:33:52.000Z",
-          "wordCount": 16069,
-          "title": "SystoLOCK in review: Logging in to Active Directory with multi-factor authentication without passwords",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Authentication-Workflow-with-SystoLock-Source-Systola-600x533.png"
         }
       ]
     },
@@ -1096,6 +1057,16 @@
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=28413",
+          "author": "Vladimir Panek-Noble",
+          "description": "Introduction Recently we were engaged by a client experiencing a potential data leak incident. Amidst their expansion, they were constructing a new data centre. Due to pressing business needs, they […]\nRAID Technology and the importance of disk encryption in data security first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/raid-technology-and-the-importance-of-disk-encryption-in-data-security/",
+          "publishedOn": "2024-01-04T06:59:57.000Z",
+          "wordCount": 1835,
+          "title": "RAID Technology and the importance of disk encryption in data security",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=28508",
           "author": "Daniel Gildersleeve",
           "description": "This is a version of our report referenced in the Helping a mobile malware fraud victim blog post, with all sensitive information removed. Summary One malicious application was identified on […]\nMobile malware analysis for the BBC first appeared on Pen Test Partners.",
@@ -1162,6 +1133,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/helping-cti-analysts-approach-and-report-on-emerging-technology-threats-and-trends-part-2",
+          "author": null,
+          "description": "This blog series is designed as a primer to jumpstart analytic skills for junior analysts or those transitioning into CTI from a job area",
+          "link": "https://www.sans.org/blog/helping-cti-analysts-approach-and-report-on-emerging-technology-threats-and-trends-part-2?msc=rss",
+          "publishedOn": "2024-01-04T00:00:00.000Z",
+          "wordCount": 9535,
+          "title": "Helping CTI Analysts Approach and Report on Emerging Technology Threats and Trends (Part 2)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/sans-cloud-flight-simulator-sec540",
           "author": null,
@@ -1481,16 +1462,6 @@
           "wordCount": 3836,
           "title": "RPC or Not, Here We Log: Preventing Exploitation and Abuse with RPC Firewall",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/11/RPC.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=15521",
-          "author": "Frederik Meutermans",
-          "description": "Introduction Security information and event management (SIEM) tooling allows security teams to collect and analyse logs from a wide variety of sources. In turn this is used to detect and handle incidents. Evidently it is important to ensure that the log ingestion is complete and uninterrupted. Luckily SIEMs offer out-of-the-box solutions and/or capabilities to create … Continue reading Data Connector Health Monitoring on Microsoft Sentinel →",
-          "link": "https://blog.nviso.eu/2023/12/06/data-connector-health-monitoring-on-microsoft-sentinel/",
-          "publishedOn": "2023-12-06T08:00:00.000Z",
-          "wordCount": 3611,
-          "title": "Data Connector Health Monitoring on Microsoft Sentinel",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2023/11/Health_monitoring_Sentinel.jpg"
         }
       ]
     },
@@ -1499,6 +1470,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/cybersecurity-defenses-validating-incident-response-red-team-tabletop-exercises",
+          "author": "Alethe Denis",
+          "description": "In this blog, learn how Bishop Fox Red Team tabletop exercises help organizations test Incident Response plans against tactics, techniques, and procedures used by attackers.",
+          "link": "https://bishopfox.com/blog/cybersecurity-defenses-validating-incident-response-red-team-tabletop-exercises",
+          "publishedOn": "2024-01-04T14:00:00.000Z",
+          "wordCount": 2789,
+          "title": "Strengthening Cybersecurity Defenses: Validating Incident Response Plans with Red Team Tabletop Exercises",
+          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Tabletop-Exercises-Red-Teaming_OG.jpg?mtime=1702658887"
+        },
         {
           "id": "https://bishopfox.com/blog/gwt-unpatched-unauthenticated-java-deserialization-vulnerability",
           "author": "Ben Lincoln",
