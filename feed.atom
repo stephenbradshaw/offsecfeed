@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-13T00:36:28.803Z</updated>
+    <updated>2024-01-14T00:39:58.340Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2 little secrets of ScriptRunner.exe]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9064</id>
+        <link href="https://www.hexacorn.com/blog/2024/01/13/2-little-secrets-of-scriptrunner-exe/"/>
+        <updated>2024-01-13T23:09:46.000Z</updated>
+        <summary type="html"><![CDATA[ScriptRunner.exe is a known lolbin, but the Lolbas project doesn’t cover all of this program’s features. Timeout It can execute child processes and kill them after a certain timeout f.ex.: ScriptRunner.exe -appvscript cmd.exe -appvscriptrunnerparameters -timeout=5 Multiple invocations It can execute … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adding character(s) to Command Line processing]]></title>
         <id>https://www.hexacorn.com/blog/?p=9059</id>
@@ -888,93 +898,6 @@ Notepad++: Search and replace with regex und plugins first appeared on 4sysops.]
         <summary type="html"><![CDATA[This year, SANS hosted 16 Summits with 209 talks. Here were the top-rated talks of the year.]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install Minikube on Windows]]></title>
-        <id>https://4sysops.com/?p=1578609</id>
-        <link href="https://4sysops.com/archives/install-minikube-on-windows/"/>
-        <updated>2023-12-15T12:37:54.000Z</updated>
-        <summary type="html"><![CDATA[Minikube is an ideal solution for setting up a Kubernetes cluster for a test or development environment. It only requires a single node, optionally as a virtual machine. To install Minikube on Windows, several preparations are required, including the installation of Docker.
-Install Minikube on Windows first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Thomas Joos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instructor Spotlight: Ryan Nicholson, Cloud Security Author]]></title>
-        <id>https://www.sans.org/blog/instructor-spotlight-ryan-nicholson-sec488-author</id>
-        <link href="https://www.sans.org/blog/instructor-spotlight-ryan-nicholson-sec488-author?msc=rss"/>
-        <updated>2023-12-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ryan Nicholson is a Certified Instructor for SANS Institute and the author of the new SEC488: Cloud Security Essentials course from SANS.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2023 Ambassador World Cup Final: Results, Impact, and Looking Ahead]]></title>
-        <id>https://hackerone.com/lhe/awc-finals-2023</id>
-        <link href="https://www.hackerone.com/lhe/awc-finals-2023"/>
-        <updated>2023-12-14T19:12:05.000Z</updated>
-        <summary type="html"><![CDATA[The final round of the 2023 Ambassador World Cup was an immense success.]]></summary>
-        <author>
-            <name>Ariel Garcia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sleepy — Python Tooling for Sleep]]></title>
-        <id>https://medium.com/p/7a96d9d650ee</id>
-        <link href="https://posts.specterops.io/sleepy-python-tooling-for-sleep-7a96d9d650ee?source=rss----f05f8696e3cc---4"/>
-        <updated>2023-12-14T16:05:56.000Z</updated>
-        <summary type="html"><![CDATA[Thank you to SpecterOps for supporting this research and to Sarah, Cody, and Daniel for proofreading and editing! Crossposted on the…]]></summary>
-        <author>
-            <name>Evan McBroom</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mapping Virtual to Physical Adresses Using Superfetch]]></title>
-        <id>https://outflank.nl/?p=3225</id>
-        <link href="https://www.outflank.nl/blog/2023/12/14/mapping-virtual-to-physical-adresses-using-superfetch/"/>
-        <updated>2023-12-14T15:12:46.000Z</updated>
-        <summary type="html"><![CDATA[With the Bring Your Own Vulnerable Driver (BYOVD) technique popping up in Red Teaming arsenals, we have seen additional capabilities being added like the ability to kill (EDR) processes or read protected memory (LSASS), all being performed by leveraging drivers operating in kernel land.
-Sooner or later during BYOVD tooling development, you will run into the issue of needing to resolve virtual to physical memory addresses. Some drivers may expose routines that allow control over physical address ranges. While this is a powerful capability, how do we make the mapping between virtual and physical addresses? Mistakes can be costly and result in BSODs. That’s what we’re exploring in this blog post. We will document a technique that relies on a Windows feature referred to as “Superfetch”.
-
-Within our Outflank Security Tooling (OST) toolkit,
-
-Read full post
-The post Mapping Virtual to Physical Adresses Using Superfetch appeared first on Outflank.]]></summary>
-        <author>
-            <name>Cedric Van Bockhaven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report – Security Review of RSA Blind Signatures with Public Metadata]]></title>
-        <id>https://research.nccgroup.com/?p=33789</id>
-        <link href="https://research.nccgroup.com/2023/12/14/public-report-security-review-of-rsa-blind-signatures-with-public-metadata/"/>
-        <updated>2023-12-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[During the Autumn of 2023, Google engaged NCC Group to conduct a security assessment of the white paper entitled “RSA Blind Signatures with Public Metadata”, along with the corresponding IETF draft for “Partially Blind RSA Signatures”. The work is inspired by the growing importance of anonymous tokens for the privacy of real-world applications. In particular, […]]]></summary>
-        <author>
-            <name>Thomas Pornin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DARPA’s AI Cyber Challenge: We’re In!]]></title>
-        <id>https://blog.trailofbits.com/?p=105545</id>
-        <link href="https://blog.trailofbits.com/2023/12/14/darpas-ai-cyber-challenge-were-in/"/>
-        <updated>2023-12-14T14:00:45.000Z</updated>
-        <summary type="html"><![CDATA[We’re thrilled to announce that Trail of Bits will be competing in DARPA’s upcoming AI Cyber Challenge (AIxCC)! DARPA is challenging competitors to develop novel, fully automated AI-driven systems capable of securing the critical software that underpins the modern world. We’ve formed a team of world class software security and AI/ML experts, bringing together researchers, […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gaza Cybergang | Unified Front Targeting Hamas Opposition]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=87124</id>
-        <link href="https://www.sentinelone.com/labs/gaza-cybergang-unified-front-targeting-hamas-opposition/"/>
-        <updated>2023-12-14T13:55:05.000Z</updated>
-        <summary type="html"><![CDATA[Cluster of threat groups continues on trajectory to consolidate with shared victims, TTPs and evolving malware.]]></summary>
-        <author>
-            <name>Aleksandar Milenkoski</name>
         </author>
     </entry>
     <entry>
