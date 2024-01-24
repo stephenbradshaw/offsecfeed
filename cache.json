@@ -45,6 +45,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "hiding-payloads-in-java-source-code-strings",
+          "author": null,
+          "description": "In this post we'll show you how Java handles unicode escapes in source code strings in a way you might find surprising - and how you can abuse them to conceal payloads. We recently released a powerful",
+          "link": "https://portswigger.net/research/hiding-payloads-in-java-source-code-strings",
+          "publishedOn": "2024-01-23T15:00:00.000Z",
+          "wordCount": 761,
+          "title": "Hiding payloads in Java source code strings",
+          "imageUrl": "https://portswigger.net/cms/images/5f/79/1603-twittercard-hidden-strings-twitter.png"
+        },
+        {
           "id": "top-10-web-hacking-techniques-of-2023-nominations-open",
           "author": null,
           "description": "Nominations are now open for the top 10 new web hacking techniques of 2023! Over the last year, numerous security researchers have shared their discoveries with the community through blog posts, prese",
@@ -253,6 +263,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65aa1389e4c0c95d24038409",
+          "author": "Dustin Childs",
+          "description": "Welcome to our very first Pwn2Own Automotive – coming to you live from Tokyo and the Automotive World conference. The number of entries has surpassed our expectations, so we expect to award more than $1,000,000 USD for the over 45 entries we have across all categories. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Japan Standard Time [GMT + 9:00]). \nNote: All times subject to change\nWednesday, January 24 – 1100\nSina Kheirkhah (@SinSinology) targeting the ChargePoint Home Flex in the Electric Vehicle Chargers category\n Rob Blakely from Cromulence (@CromulenceLLC) targeting Automotive Grade Linux in the Operating System category\nWednesday, Ja…",
+          "link": "https://www.thezdi.com/blog/2024/1/23/pwn2own-automotive-2024-the-full-schedule",
+          "publishedOn": "2024-01-23T09:20:32.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Automotive 2024 - The Full Schedule",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65a60f4d3f0f8f35430e50cb",
           "author": "Dustin Childs",
           "description": "If you just want to read the contest rules, click here.\nEven though we’re a week out from our first ever Pwn2Own Automotive, it’s time to start thinking ahead to the original Pwn2Own event, which takes place at CanSecWest in Vancouver on March 20-22, 2024. We’re always excited to return to Vancouver for the event, but we are cognizant of the evolution of the event as well. The contest began with a single Mac Book, but over the years, it grew to include web browsers, enterprise applications, virtualization solutions, and an automotive category. Last year, we awarded over $1,000,000 in cash and prizes – including a Tesla Model 3. This year, we evolved again by simplifying the Automotive category and adding a Cloud-Native/Container category. \nWe introduced the Virtualization category back in …",
@@ -394,8 +415,19 @@
     {
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
-      "siteUrl": "https://blog.doyensec.com//atom.xml",
-      "articles": []
+      "siteUrl": "http://localhost:4000/atom.xml",
+      "articles": [
+        {
+          "id": "http://localhost:4000/2024/01/23/k8s-scheduling-secure-design.html",
+          "author": null,
+          "description": "During testing activities, we usually analyze the design choices and context needs in order to suggest applicable remediations depending on the different Kubernetes deployment patterns. Scheduling is often overlooked in Kubernetes designs. Typically, various mechanisms take precedence, including, but not limited to, admission controllers, network policies, and RBAC configurations.\nNevertheless, a compromised pod could allow attackers to move laterally to other tenants running on the same Kubernetes node. Pod-escaping techniques or shared storage systems could be exploitable to achieve cross-tenant access despite the other security measures.\nHaving a security-oriented scheduling strategy can help to reduce the overall risk of workload compromise in a comprehensive security design. If critic…",
+          "link": "http://localhost:4000/2024/01/23/k8s-scheduling-secure-design.html",
+          "publishedOn": "2024-01-22T23:00:00.000Z",
+          "wordCount": null,
+          "title": "Kubernetes Scheduling And Secure Design",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Attack & Defense",
@@ -734,6 +766,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1579505",
+          "author": "Brandon Lee",
+          "description": "Explore Pulseway 9.4 remote monitoring and management's latest features: enhanced reporting, advanced automation, improved patching, and upgraded remote control for efficient IT management.\nPulseway 9.4 remote monitoring and management:  new reporting, automation, patching, and remote control features first appeared on 4sysops.",
+          "link": "https://4sysops.com/archives/pulseway-94-new-reporting-automation-patching-and-remote-control-features/",
+          "publishedOn": "2024-01-23T10:48:05.000Z",
+          "wordCount": 15418,
+          "title": "Pulseway 9.4 remote monitoring and management:  new reporting, automation, patching, and remote control features",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Export-options-with-Pulseway-9.4-600x468.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1579434",
           "author": "Wolfgang Sommergut",
           "description": "The announced support for SMB over QUIC in all editions of Windows Server 2025 marks a significant advancement for the file services role. In addition, the upcoming LTSC server release brings several new mechanisms designed to enhance the security of traditional SMB over TCP or RDMA.\nWindows Server 2025: New security features for file services (SMB, NTLM) first appeared on 4sysops.",
@@ -942,16 +984,6 @@
           "wordCount": 15189,
           "title": "Copying files between Windows and Linux with SCP and PowerShell",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/The-newer-versions-of-Windows-contain-a-client-for-SSH-and-SCP-600x363.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1578738",
-          "author": "Evi Vanoost",
-          "description": "Cronicle is a powerful cron alternative for job scheduling. It provides an accessible and feature-rich web interface for creating and monitoring jobs. In a previous article, I have discussed how to install Cronicle. In this post, we will delve into the process of creating jobs and monitoring their execution using Cronicle.\nCron alterative Cronicle: Automating and monitoring tasks with a web interface first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/cron-alterative-cronicle-automating-and-monitoring-tasks-with-a-web-interface/",
-          "publishedOn": "2023-12-25T10:37:18.000Z",
-          "wordCount": 16028,
-          "title": "Cron alterative Cronicle: Automating and monitoring tasks with a web interface",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Example-of-long-running-statistics-on-an-event-600x342.png"
         }
       ]
     },
@@ -1114,16 +1146,6 @@
           "publishedOn": "2023-12-25T22:23:50.000Z",
           "wordCount": 535,
           "title": "1 little known secret of regsvr32.exe",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8979",
-          "author": "adam",
-          "description": "Many Windows tools support commands f.ex.: We are very used to their invocations in a form of tool command but there is an alternative way to invoke them by using quotes around these commands f.ex.: This breaks many hard-coded detections. … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2023/12/25/2-less-known-secrets-of-windows-command-command-driven-line-tools/",
-          "publishedOn": "2023-12-25T11:15:35.000Z",
-          "wordCount": 767,
-          "title": "2 less known secrets of Windows command command-driven line tools…",
           "imageUrl": null
         }
       ]
@@ -1388,7 +1410,18 @@
       "title": "SecureAuth Blogs - Identity and Access Management Solution",
       "feedUrl": "https://www.secureauth.com/blog/feed/",
       "siteUrl": "https://www.secureauth.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.secureauth.com/?post_type=blog&p=52148",
+          "author": "Joan Fronske",
+          "description": "There is a belief that associates privacy simply as a legal requirement, and by which an organization may mistakenly limit its respect for privacy to what is strictly required by law. However, privacy covers many more aspects than that.  Privacy arises as an essential and fundamental right of all individuals, which was reflected in the […]\nThe post The Importance of the Commitment to Data Privacy appeared first on SecureAuth.",
+          "link": "https://www.secureauth.com/blog/the-importance-of-the-commitment-to-data-privacy/",
+          "publishedOn": "2024-01-23T15:27:01.000Z",
+          "wordCount": 9884,
+          "title": "The Importance of the Commitment to Data Privacy",
+          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2024/01/data-privacy-blog.jpg"
+        }
+      ]
     },
     {
       "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
