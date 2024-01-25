@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-24T00:37:28.731Z</updated>
+    <updated>2024-01-25T00:37:09.201Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Memory Scanning for the Masses]]></title>
+        <id>https://research.nccgroup.com/?p=33906</id>
+        <link href="https://research.nccgroup.com/2024/01/25/memory-scanning-for-the-masses/"/>
+        <updated>2024-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Axel Boesenach and Erik Schamper In this blog post we will go into a user-friendly memory scanning Python library that was created out of the necessity of having more control during memory scanning. We will give an overview of how this library works, share the thought process and the why’s. This blog post will […]]]></summary>
+        <author>
+            <name>Erik Schamper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ADCS Attack Paths in BloodHound — Part 1]]></title>
+        <id>https://medium.com/p/799f3d3b03cf</id>
+        <link href="https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-01-24T17:02:29.000Z</updated>
+        <summary type="html"><![CDATA[Since Will Schroeder and Lee Christensen published the Certified Pre-Owned whitepaper, the BloodHound Enterprise team at SpecterOps has…]]></summary>
+        <author>
+            <name>Jonas Bülow Knudsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrating our 2023 open-source contributions]]></title>
+        <id>https://blog.trailofbits.com/?p=106073</id>
+        <link href="https://blog.trailofbits.com/2024/01/24/celebrating-our-2023-open-source-contributions/"/>
+        <updated>2024-01-24T14:00:22.000Z</updated>
+        <summary type="html"><![CDATA[At Trail of Bits, we pride ourselves on making our best tools open source, such as Slither, PolyTracker, and RPC Investigator. But while this post is about open source, it’s not about our tools… In 2023, our employees submitted over 450 pull requests (PRs) that were merged into non-Trail of Bits repositories. This demonstrates our […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Automotive 2024 - Day One Results]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65af86d48214716863602563</id>
+        <link href="https://www.thezdi.com/blog/2024/1/24/pwn2own-automotive-2024-day-one-results"/>
+        <updated>2024-01-24T03:00:49.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the first ever Pwn2Own Automotive: live from Tokyo January 24-26, 2024! We’ll be updating this blog in real time as results become available. We have a full schedule of attempts today, so stay tuned! All times are Japan Standard Time (GMT +9:00).
+SUCCESS - Sina Kheirkhah was able to execute his attack against the ChargePoint Home Flex for $60,000 and 6 Master of Pwn Points.
+COLLISION - Rob Blakely from Cromulence successfully executed his attack on Automotive Grade Linux. However, an n-day exploit was used in the attack. He still earns $47,500 and 3.75 Master of Pwn Points.
+SUCCESS - The PCAutomotive Team successfully targeted the Alpine Halo9 iLX-F509 with a UAF exploit for $40,000 and 4 Master of Pwn Points.
+SUCCESS - Tobias Scharnowski and Felix Buchmann of fuzzware.io execut…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Importance of the Commitment to Data Privacy]]></title>
         <id>https://www.secureauth.com/?post_type=blog&amp;p=52148</id>
@@ -1154,27 +1198,6 @@ Resolve content (line) merge conflicts in GitHub first appeared on 4sysops.]]></
         <summary type="html"><![CDATA[By Jim Miller We’ve updated ZKDocs with four new sections and additions to existing content. ZKDocs provides explanations, guidance, and documentation for cryptographic protocols that are otherwise sparingly discussed but are used in practice. As such, we’ve added four new sections detailing common protocols that previously lacked implementation guidance: The Inner Product Argument (IPA), which […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Copying files between Windows and Linux with SCP and PowerShell]]></title>
-        <id>https://4sysops.com/?p=1579020</id>
-        <link href="https://4sysops.com/archives/copying-files-between-windows-and-linux-with-scp-and-powershell/"/>
-        <updated>2023-12-26T09:06:49.000Z</updated>
-        <summary type="html"><![CDATA[There are various mechanisms for copying files between Windows and Linux. A proven tool for this purpose is Secure Copy (SCP), and with the porting of PowerShell to Linux, it is suitable for this task, too. The connection runs over SSH in both cases, ensuring that files are transferred encrypted.
-Copying files between Windows and Linux with SCP and PowerShell first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Thomas Joos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1 little known secret of regsvr32.exe]]></title>
-        <id>https://www.hexacorn.com/blog/?p=8988</id>
-        <link href="https://www.hexacorn.com/blog/2023/12/25/1-little-known-secret-of-regsvr32-exe/"/>
-        <updated>2023-12-25T22:23:50.000Z</updated>
-        <summary type="html"><![CDATA[The little known secret of regsvr32.exe is… You ready? You can load multiple DLLs at the same time. Yup. And not just one extra, but many. Let’s have a look at an example: regsvr32.exe c:\WINDOWS\system32\hhctrl.ocx foo will first load c:\WINDOWS\system32\hhctrl.ocx … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
