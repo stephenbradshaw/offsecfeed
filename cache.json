@@ -273,6 +273,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65b1aa2f3986777044e114cd",
+          "author": "Dustin Childs",
+          "description": "Welcome to Day Two of the first ever Pwn2Own Automotive. We awarded $722,500 yesterday for 24 unique 0-days. Today’s attempts promise to be just as exciting, with another Tesla attempt at 1300 Japan Standard Time (GMT +9).  As always, we’ll be updating this blog with results as we have them.\nBUG COLLISION - Team Tortuga successfully used a 2-bug chain against the ChargePoint Home Flex. However, the exploit used was previously known. They still earn $!5,000 and 3 Master of Pwn Points.\nSUCCESS - The Midnight Blue / PHP Hooligans team used a 3-bug chain to exploit the Phoenix Contact CHARX SEC-3100. They earn $30,000 and 6 Master of Pwn Points.\nBUG COLLISION - Computest Sector 7 successfully executed their attack against the JuiceBox 40 Smart EV Charging Station. However, the bug they used wa…",
+          "link": "https://www.thezdi.com/blog/2024/1/24/pwn2own-automotive-2024-day-two-results",
+          "publishedOn": "2024-01-25T02:48:43.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Automotive 2024 - Day Two Results",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65af86d48214716863602563",
           "author": "Dustin Childs",
           "description": "Welcome to the first ever Pwn2Own Automotive: live from Tokyo January 24-26, 2024! We’ll be updating this blog in real time as results become available. We have a full schedule of attempts today, so stay tuned! All times are Japan Standard Time (GMT +9:00).\nSUCCESS - Sina Kheirkhah was able to execute his attack against the ChargePoint Home Flex for $60,000 and 6 Master of Pwn Points.\nCOLLISION - Rob Blakely from Cromulence successfully executed his attack on Automotive Grade Linux. However, an n-day exploit was used in the attack. He still earns $47,500 and 3.75 Master of Pwn Points.\nSUCCESS - The PCAutomotive Team successfully targeted the Alpine Halo9 iLX-F509 with a UAF exploit for $40,000 and 4 Master of Pwn Points.\nSUCCESS - Tobias Scharnowski and Felix Buchmann of fuzzware.io execut…",
@@ -446,8 +457,18 @@
     {
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
-      "siteUrl": "http://localhost:4000/atom.xml",
+      "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/01/23/k8s-scheduling-secure-design.html",
+          "author": null,
+          "description": "During testing activities, we usually analyze the design choices and context needs in order to suggest applicable remediations depending on the different Kubernetes deployment patterns. Scheduling is often overlooked in Kubernetes designs. Typically, various mechanisms take precedence, including, but not limited to, admission controllers, network policies, and RBAC configurations.\nNevertheless, a compromised pod could allow attackers to move laterally to other tenants running on the same Kubernetes node. Pod-escaping techniques or shared storage systems could be exploitable to achieve cross-tenant access despite the other security measures.\nHaving a security-oriented scheduling strategy can help to reduce the overall risk of workload compromise in a comprehensive security design. If critic…",
+          "link": "https://blog.doyensec.com/2024/01/23/k8s-scheduling-secure-design.html",
+          "publishedOn": "2024-01-22T23:00:00.000Z",
+          "wordCount": 2599,
+          "title": "Kubernetes Scheduling And Secure Design",
+          "imageUrl": null
+        },
         {
           "id": "http://localhost:4000/2024/01/23/k8s-scheduling-secure-design.html",
           "author": null,
@@ -489,6 +510,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=106130",
+          "author": "Trail of Bits",
+          "description": "By William Woodruff For the past eight months, Trail of Bits has worked with the Python Cryptographic Authority to build cryptography-x509-verification, a brand-new, pure-Rust implementation of the X.509 path validation algorithm that TLS and other encryption and authentication protocols are built on. Our implementation is fast, standards-conforming, and memory-safe, giving the Python ecosystem a modern […]",
+          "link": "https://blog.trailofbits.com/2024/01/25/we-build-x-509-chains-so-you-dont-have-to/",
+          "publishedOn": "2024-01-25T14:00:22.000Z",
+          "wordCount": 3953,
+          "title": "We build X.509 chains so you don’t have to",
+          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2024/01/image33.png?fit=1200%2C449&ssl=1"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=106073",
           "author": "Trail of Bits",
@@ -588,16 +619,6 @@
           "wordCount": 3147,
           "title": "AI In Windows: Investigating Windows Copilot",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/12/copilot-pane.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=105596",
-          "author": "Trail of Bits",
-          "description": "By Jim Miller We’ve updated ZKDocs with four new sections and additions to existing content. ZKDocs provides explanations, guidance, and documentation for cryptographic protocols that are otherwise sparingly discussed but are used in practice. As such, we’ve added four new sections detailing common protocols that previously lacked implementation guidance: The Inner Product Argument (IPA), which […]",
-          "link": "https://blog.trailofbits.com/2023/12/26/weve-added-more-content-to-zkdocs/",
-          "publishedOn": "2023-12-26T14:00:59.000Z",
-          "wordCount": 2872,
-          "title": "We’ve added more content to ZKDocs",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2023/12/zkdocs-random-sampling.png"
         }
       ]
     },
@@ -612,6 +633,106 @@
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2215",
+          "author": "Exodus Advisories",
+          "description": "EIP-13d90c2b The D-Link DAP-1650 contains a command injection vulnerability in the gena.cgi module when handling UPnP SUBSCRIBE messages. An unauthenticated attacker can exploit this vulnerability to gain command execution on the device as root. Vulnerability Identifier Exodus Intelligence: EIP-13d90c2b MITRE: CVE-2024-23624 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:N/C:C/I:C/A:C CVSSv2 Score: 8.3 Vendor References The affected product is end-of-life ... Read more D-Link DAP-1650 gena.cgi SUBSCRIBE Command Injection Vulnerability\nThe post D-Link DAP-1650 gena.cgi SUBSCRIBE Command Injection Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/d-link-dap-1650-gena-cgi-subscribe-command-injection-vulnerability/",
+          "publishedOn": "2024-01-25T23:40:19.000Z",
+          "wordCount": 1100,
+          "title": "D-Link DAP-1650 gena.cgi SUBSCRIBE Command Injection Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2216",
+          "author": "Exodus Advisories",
+          "description": "EIP-5a0f4b12 The D-Link DAP-1650 contains a command injection vulnerability in the ‘Callback’ parameter when handling UPnP SUBSCRIBE messages. An unauthenticated attacker can exploit this vulnerability to gain command execution on the device as root. Vulnerability Identifier Exodus Intelligence: EIP-5a0f4b12 MITRE: CVE-2024-23625 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:N/C:C/I:C/A:C CVSSv2 Score: 8.3 Vendor References The affected product is end-of-life ... Read more D-Link DAP-1650 SUBSCRIBE ‘Callback’ Command Injection Vulnerability\nThe post D-Link DAP-1650 SUBSCRIBE ‘Callback’ Command Injection Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/d-link-dap-1650-subscribe-callback-command-injection-vulnerability/",
+          "publishedOn": "2024-01-25T23:40:16.000Z",
+          "wordCount": 1101,
+          "title": "D-Link DAP-1650 SUBSCRIBE ‘Callback’ Command Injection Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2217",
+          "author": "Exodus Advisories",
+          "description": "EIP-552c9116 A command injection vulnerability exists in the ‘SaveSysLogParams’ parameter of the Motorola MR2600. A remote attacker can exploit this vulnerability to achieve command execution. Authentication is required, however can be bypassed. Vulnerability Identifier Exodus Intelligence: EIP-552c9116 MITRE: CVE-2024-23626 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and ... Read more Motorola MR2600 ‘SaveSysLogParams’ Command Injection Vulnerability\nThe post Motorola MR2600 ‘SaveSysLogParams’ Command Injection Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/motorola-mr2600-savesyslogparams-command-injection-vulnerability/",
+          "publishedOn": "2024-01-25T23:40:12.000Z",
+          "wordCount": 1070,
+          "title": "Motorola MR2600 ‘SaveSysLogParams’ Command Injection Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2219",
+          "author": "Exodus Advisories",
+          "description": "EIP-ea3ab824 A command injection vulnerability exists in the ‘SaveStaticRouteIPv6Params’ parameter of the Motorola MR2600. A remote attacker can exploit this vulnerability to achieve command execution. Authentication is required, however can be bypassed. Vulnerability Identifier Exodus Intelligence: EIP-ea3ab824 MITRE: CVE-2024-23628 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and ... Read more Motorola MR2600 ‘SaveStaticRouteIPv6Params’ Command Injection Vulnerability\nThe post Motorola MR2600 ‘SaveStaticRouteIPv6Params’ Command Injection Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/motorola-mr2600-savestaticrouteipv6params-command-injection-vulnerability/",
+          "publishedOn": "2024-01-25T23:40:09.000Z",
+          "wordCount": 1070,
+          "title": "Motorola MR2600 ‘SaveStaticRouteIPv6Params’ Command Injection Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2218",
+          "author": "Exodus Advisories",
+          "description": "EIP-f4472693 A command injection vulnerability exists in the ‘SaveStaticRouteIPv4Params’ parameter of the Motorola MR2600. A remote attacker can exploit this vulnerability to achieve command execution. Authentication is required, however can be bypassed. Vulnerability Identifier Exodus Intelligence: EIP-f4472693 MITRE: CVE-2024-23627 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and ... Read more Motorola MR2600 ‘SaveStaticRouteIPv4Params’ Command Injection Vulnerability\nThe post Motorola MR2600 ‘SaveStaticRouteIPv4Params’ Command Injection Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/motorola-mr2600-savestaticrouteipv4params-command-injection-vulnerability/",
+          "publishedOn": "2024-01-25T23:40:05.000Z",
+          "wordCount": 1070,
+          "title": "Motorola MR2600 ‘SaveStaticRouteIPv4Params’ Command Injection Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2220",
+          "author": "Exodus Advisories",
+          "description": "EIP-73ad9c0b An authentication bypass vulnerability exists in the web component of the Motorola MR2600. An attacker can exploit this vulnerability to access protected URLs and retrieve sensitive information. Vulnerability Identifier Exodus Intelligence: EIP-73ad9c0b MITRE: CVE-2024-23629 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:N/C:C/I:C/A:N CVSSv2 Score: 7.8 Vendor References The affected product is end-of-life and no patches are available. ... Read more Motorola MR2600 Authentication Bypass Vulnerability\nThe post Motorola MR2600 Authentication Bypass Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/motorola-mr2600-authentication-bypass-vulnerability/",
+          "publishedOn": "2024-01-25T23:40:01.000Z",
+          "wordCount": 1061,
+          "title": "Motorola MR2600 Authentication Bypass Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2221",
+          "author": "Exodus Advisories",
+          "description": "EIP-d52674b0 An arbitrary firmware upload vulnerability exists in the Motorola MR2600. An attacker can exploit this vulnerability to achieve code execution on the device. Authentication is required, however can be bypassed. Vulnerability Identifier Exodus Intelligence: EIP-d52674b0 MITRE: CVE-2024-23630 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:S/C:C/I:C/A:C CVSSv2 Score: 7.7 Vendor References The affected product is end-of-life and no ... Read more Motorola MR2600 Arbitrary Firmware Upload Vulnerability\nThe post Motorola MR2600 Arbitrary Firmware Upload Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/motorola-mr2600-arbitrary-firmware-upload-vulnerability/",
+          "publishedOn": "2024-01-25T23:39:57.000Z",
+          "wordCount": 1069,
+          "title": "Motorola MR2600 Arbitrary Firmware Upload Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2210",
+          "author": "Exodus Advisories",
+          "description": "EIP-7777417a An arbitrary command execution vulnerability exists in Arris SURFboard SBG6950AC2 devices. An unauthenticated attacker can exploit this vulnerability to achieve code execution as root. Vulnerability Identifier Exodus Intelligence: EIP-7777417a MITRE: CVE-2024-23618 Vulnerability Metrics CVSSv2 Vector: AV:A/AC:L/Au:N/C:C/I:C/A:C CVSSv2 Score: 8.3 Vendor References The vendor has applied fixes in newer revisions of the firmware. Discovery Credit Exodus ... Read more Arris SURFboard SBG6950AC2 Arbitrary Command Execution Vulnerability\nThe post Arris SURFboard SBG6950AC2 Arbitrary Command Execution Vulnerability appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/arris-surfboard-sbg6950ac2-arbitrary-command-execution-vulnerability/",
+          "publishedOn": "2024-01-25T23:34:53.000Z",
+          "wordCount": 1075,
+          "title": "Arris SURFboard SBG6950AC2 Arbitrary Command Execution Vulnerability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2184",
+          "author": "Exodus Advisories",
+          "description": "EIP-ec3c5a9d A hardcoded credential vulnerability exists in IBM Merge Healthcare eFilm Workstation. A remote, unauthenticated attacker can exploit this vulnerability to achieve information disclosure or remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-ec3c5a9d MITRE: CVE-2024-23619 Vulnerability Metrics CVSSv2 Vector: AV:N/AC:L/Au:N/C:C/I:C/A:C CVSSv2 Score: 10.0 Vendor References The affected product is end-of-life and no patches are available. Discovery ... Read more IBM Merge Healthcare eFilm Workstation Hardcoded Credentials\nThe post IBM Merge Healthcare eFilm Workstation Hardcoded Credentials appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/ibm-merge-healthcare-efilm-workstation-information-disclosure/",
+          "publishedOn": "2024-01-25T23:34:50.000Z",
+          "wordCount": 1077,
+          "title": "IBM Merge Healthcare eFilm Workstation Hardcoded Credentials",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.exodusintel.com/?p=2222",
+          "author": "Exodus Advisories",
+          "description": "EIP-96bd11d3 A buffer overflow exists in IBM Merge Healthcare eFilm Workstation license server. A remote, unauthenticated attacker can exploit this vulnerability to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-96bd11d3 MITRE: CVE-2024-23621 Vulnerability Metrics CVSSv2 Vector: AV:N/AC:L/Au:N/C:C/I:C/A:C CVSSv2 Score: 10.0 Vendor References The affected product is end-of-life and no patches are available. Discovery Credit Exodus ... Read more IBM Merge Healthcare eFilm Workstation License Server Buffer Overflow\nThe post IBM Merge Healthcare eFilm Workstation License Server Buffer Overflow appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2024/01/25/ibm-merge-healthcare-efilm-workstation-license-server-buffer-overflow/",
+          "publishedOn": "2024-01-25T23:34:46.000Z",
+          "wordCount": 1085,
+          "title": "IBM Merge Healthcare eFilm Workstation License Server Buffer Overflow",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.exodusintel.com/?p=2205",
           "author": "Exodus Intel VRT",
@@ -806,6 +927,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1579224",
+          "author": "Michael Pietroforte",
+          "description": "Sometimes, the remote extensions that are installed by Microsoft Visual Code (VS Code) on remote systems can consume high amounts of CPU usage, making it difficult to use the server efficiently. However, my script can help limit the CPU usage of VS Code on a remote server.",
+          "link": "https://4sysops.com/archives/prevent-vs-code-from-causing-high-cpu-usage-on-a-remote-server/",
+          "publishedOn": "2024-01-25T14:40:06.000Z",
+          "wordCount": 17100,
+          "title": "Prevent VS Code from causing high CPU usage on a remote server",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/htop-shows-countless-.vscode-server-processes-600x350.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1579442",
+          "author": "Evi Vanoost",
+          "description": "GUI solutions for Ansible, such as Red Hat’s Ansible Tower and PagerDuty’s RunDeck, come with a significant license cost, whereas the free versions are limited in features and complicated to install. Developed with ease of use in mind, Semaphore provides a GUI for Ansible with a set of powerful features.",
+          "link": "https://4sysops.com/archives/semaphore-a-free-and-powerful-ansible-gui/",
+          "publishedOn": "2024-01-25T07:44:28.000Z",
+          "wordCount": 17479,
+          "title": "Semaphore: A free and powerful Ansible GUI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/A-successful-Semaphore-task-run-600x330.png"
+        },
         {
           "id": "https://4sysops.com/?p=1579505",
           "author": "Brandon Lee",
@@ -1005,16 +1146,6 @@
           "wordCount": 15637,
           "title": "Ansible service module examples",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Checking-an-NGINX-service-status-using-the-Ansible-playbook-600x337.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579054",
-          "author": "Edem Afenyo",
-          "description": "Most of the time, merging branches in Git is an automatic process of integrating the changes on one branch into another. Sometimes, a conflict prevents Git from completing the process without human intervention. This article briefly examines content (line) merge conflicts and how to resolve them. If you are new to Git, please read the previous guides in this Git beginner series.\nResolve content (line) merge conflicts in GitHub first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/resolve-content-line-merge-conflicts-in-github/",
-          "publishedOn": "2023-12-27T11:40:49.000Z",
-          "wordCount": 15600,
-          "title": "Resolve content (line) merge conflicts in GitHub",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2023/12/Comparing-changes-600x291.png"
         }
       ]
     },
@@ -1147,26 +1278,6 @@
           "publishedOn": "2023-12-28T23:14:48.000Z",
           "wordCount": 798,
           "title": "1 little known secret of regsvr32.exe, take three",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8995",
-          "author": "adam",
-          "description": "There is an archaic feature that regsvr32.exe leverages to autoregister libraries associated with file extensions. For this to work, it expects an AutoRegister key to be present under the file extension handler with a default value pointing to the library … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2023/12/27/1-little-known-secret-of-regsvr32-exe-take-two/",
-          "publishedOn": "2023-12-27T00:09:35.000Z",
-          "wordCount": 606,
-          "title": "1 little known secret of regsvr32.exe, take two",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=8992",
-          "author": "adam",
-          "description": "When you execute 32-bit version of runonce.exe on a 64-bit version of Windows and pass to it the /RunOnceEx6432 argument you will make the program load iernonce.dll library and execute its RunOnceExProcess API… Since the iernonce.dll library is loaded using … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2023/12/26/1-little-known-secret-of-runonce-exe-32-bit/",
-          "publishedOn": "2023-12-26T15:22:47.000Z",
-          "wordCount": 547,
-          "title": "1 little known secret of runonce.exe (32-bit)",
           "imageUrl": null
         }
       ]
@@ -1508,21 +1619,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/12/Spectre-Strikes-Again-Introducing-The-Firmware-Edition-1.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=87389",
-          "author": "LABScon",
-          "description": "Vitor Ventura breaks down the processes one spyware organization takes to develop fully working spyware using a one-click zero-day exploit.",
-          "link": "https://www.sentinelone.com/labs/labscon-replay-intellexa-and-cytrox-from-fixer-upper-to-intel-agency-grade-spyware/",
-          "publishedOn": "2023-12-26T17:00:12.000Z",
-          "wordCount": 7199,
-          "title": "LABSCon Replay | Intellexa and Cytrox: From Fixer-Upper to Intel Agency Grade Spyware",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2023/12/Intellexa-and-Cytrox-From-fixer-upper-to-Intel-Agency-grade-spyware-1.jpg",
-            "length": "541898",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2023/12/Intellexa-and-Cytrox-From-fixer-upper-to-Intel-Agency-grade-spyware-1.jpg"
         }
       ]
     },
