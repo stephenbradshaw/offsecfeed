@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-01T00:36:13.141Z</updated>
+    <updated>2024-02-02T00:35:00.422Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Unmanaged .NET Patching]]></title>
+        <id>https://www.outflank.nl/?p=3662</id>
+        <link href="https://www.outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/"/>
+        <updated>2024-02-01T14:00:15.000Z</updated>
+        <summary type="html"><![CDATA[To execute .NET post-exploitation tools safely, operators may want to modify certain managed functions. For example, some C# tools use the .NET standard library to terminate their process after execution. This may not be an issue for fork&run implementations that spawn a sacrificial process, but executing in-process will terminate an implant. One could write a small .NET program that resolves and patches these functions, but we were interested in an unmanaged approach (i.e. a unmanaged implant executing managed code in-process). While our example targets System.Environment.Exit, a similar technique should work for any managed function.
+
+In January 2022, I uploaded a functional example of this approach to my personal GitHub. However, the implementation was a part of a larger project, and I’ve received a few questions about the technique, so I created this standalone example and writeup.
+Tags: dotnet
+Read full post
+The post Unmanaged .NET Patching appeared first on Outflank.]]></summary>
+        <author>
+            <name>Kyle Avery</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Add updates (.msu) offline into Windows images (.wim)]]></title>
+        <id>https://4sysops.com/?p=1579517</id>
+        <link href="https://4sysops.com/archives/add-updates-msu-offline-into-windows-images-wim/"/>
+        <updated>2024-02-01T12:17:22.000Z</updated>
+        <summary type="html"><![CDATA[Before deployment, Microsoft ISO's install .wim or custom images should be updated. With the DISM module in PowerShell, you can add .msu updates, apps, and drivers to a Windows image offline without the need to boot it up.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager]]></title>
+        <id>https://www.pentestpartners.com/?p=27909</id>
+        <link href="https://www.pentestpartners.com/security-blog/hacking-electronic-flight-bags-airbus-navblue-flysmart-manager/"/>
+        <updated>2024-02-01T06:03:28.000Z</updated>
+        <summary type="html"><![CDATA[We’ve been testing the security of a number of different electronic flight bag, or EFB, applications for a few years now. Here’s the latest on that now it has been […]
+Hacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Antonio Cassidy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Relution Remote Code Execution via Java Deserialization Vulnerability]]></title>
+        <id>https://www.praetorian.com/?p=5532</id>
+        <link href="https://www.praetorian.com/blog/relution-remote-code-execution-java-deserialization-vulnerability/"/>
+        <updated>2024-02-01T03:09:44.000Z</updated>
+        <summary type="html"><![CDATA[Overview In this article we discuss a recent deserialization vulnerability we found in Relution (CVE-2023-48178), a mobile device management product that is popular among multinational German corporations. CVE-2023-48178 can potentially lead to remote code execution and complete compromise of the MDM application and clients managed by the solution. The deserialization vulnerability exists in a component […]
+The post Relution Remote Code Execution via Java Deserialization Vulnerability appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Thomas Tan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I’m Not A Pentester (And You Might Not Want To Be One Either) Part 2 : The Response]]></title>
         <id>https://medium.com/p/ab838cca3519</id>
@@ -1316,37 +1363,6 @@ RAID Technology and the importance of disk encryption in data security first app
         <summary type="html"><![CDATA[This blog series is designed as a primer to jumpstart analytic skills for junior analysts or those transitioning into CTI from a job area]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Create an Amazon Machine Image (AMI) of an EC2 instance with a Bash and PowerShell script]]></title>
-        <id>https://4sysops.com/?p=1579150</id>
-        <link href="https://4sysops.com/archives/create-an-amazon-machine-image-ami-of-an-ec2-instance-with-a-bash-and-powershell-script/"/>
-        <updated>2024-01-03T09:03:52.000Z</updated>
-        <summary type="html"><![CDATA[The provided Bash and PowerShell script helps automate the creation of Amazon Machine Images (AMIs) from existing AWS Elastic Compute Cloud (EC2) instances. This is particularly useful for creating point-in-time backups or disaster recovery. I mostly use the script to quickly clone an EC2 instance for testing or troubleshooting.
-Create an Amazon Machine Image (AMI) of an EC2 instance with a Bash and PowerShell script first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Advisory – Multiple Vulnerabilities in PandoraFMS Enterprise]]></title>
-        <id>https://research.nccgroup.com/?p=32400</id>
-        <link href="https://research.nccgroup.com/2024/01/02/technical-advisory-multiple-vulnerabilities-in-pandorafms-enterprise/"/>
-        <updated>2024-01-02T16:44:05.000Z</updated>
-        <summary type="html"><![CDATA[Introduction This is the third Technical Advisory post in a series wherein I audit the security of popular Remote Monitoring and Management (RMM) tools. The first post in the series can be found at Multiple Vulnerabilities in Faronics Insight, the second post can be found at Multiple Vulnerabilities in Nagios XI. In this post I […]]]></summary>
-        <author>
-            <name>Oliver Brooks</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tag, you’re it: Signal tagging in Circom]]></title>
-        <id>https://blog.trailofbits.com/?p=105702</id>
-        <link href="https://blog.trailofbits.com/2024/01/02/tag-youre-it-signal-tagging-in-circom/"/>
-        <updated>2024-01-02T14:00:01.000Z</updated>
-        <summary type="html"><![CDATA[By Tjaden Hess We at Trail of Bits perform security reviews for a seemingly endless stream of applications that use zero-knowledge (ZK) proofs. While fast new arithmetization and folding libraries like Halo2, Plonky2, and Boojum are rapidly gaining adoption, Circom remains a mainstay of ZK circuit design. We’ve written about Circom safety before in the […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>

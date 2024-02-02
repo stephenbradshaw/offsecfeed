@@ -426,16 +426,6 @@
           "wordCount": 20559,
           "title": "Rust for Security and Correctness in the embedded world",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=32400",
-          "author": "Oliver Brooks",
-          "description": "Introduction This is the third Technical Advisory post in a series wherein I audit the security of popular Remote Monitoring and Management (RMM) tools. The first post in the series can be found at Multiple Vulnerabilities in Faronics Insight, the second post can be found at Multiple Vulnerabilities in Nagios XI. In this post I […]",
-          "link": "https://research.nccgroup.com/2024/01/02/technical-advisory-multiple-vulnerabilities-in-pandorafms-enterprise/",
-          "publishedOn": "2024-01-02T16:44:05.000Z",
-          "wordCount": 23064,
-          "title": "Technical Advisory – Multiple Vulnerabilities in PandoraFMS Enterprise",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2023/07/3.png"
         }
       ]
     },
@@ -444,6 +434,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=5532",
+          "author": "Thomas Tan",
+          "description": "Overview In this article we discuss a recent deserialization vulnerability we found in Relution (CVE-2023-48178), a mobile device management product that is popular among multinational German corporations. CVE-2023-48178 can potentially lead to remote code execution and complete compromise of the MDM application and clients managed by the solution. The deserialization vulnerability exists in a component […]\nThe post Relution Remote Code Execution via Java Deserialization Vulnerability appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/relution-remote-code-execution-java-deserialization-vulnerability/",
+          "publishedOn": "2024-02-01T03:09:44.000Z",
+          "wordCount": 6454,
+          "title": "Relution Remote Code Execution via Java Deserialization Vulnerability",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/01/01-official-relution-documentation1.png"
+        },
         {
           "id": "https://www.praetorian.com/?p=5493",
           "author": "Nathan Sportsman",
@@ -650,16 +650,6 @@
           "publishedOn": "2024-01-09T14:00:08.000Z",
           "wordCount": 4447,
           "title": "Securing open-source infrastructure with OSTIF",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=105702",
-          "author": "Trail of Bits",
-          "description": "By Tjaden Hess We at Trail of Bits perform security reviews for a seemingly endless stream of applications that use zero-knowledge (ZK) proofs. While fast new arithmetization and folding libraries like Halo2, Plonky2, and Boojum are rapidly gaining adoption, Circom remains a mainstay of ZK circuit design. We’ve written about Circom safety before in the […]",
-          "link": "https://blog.trailofbits.com/2024/01/02/tag-youre-it-signal-tagging-in-circom/",
-          "publishedOn": "2024-01-02T14:00:01.000Z",
-          "wordCount": 4910,
-          "title": "Tag, you’re it: Signal tagging in Circom",
           "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
@@ -991,6 +981,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1579517",
+          "author": "Wolfgang Sommergut",
+          "description": "Before deployment, Microsoft ISO's install .wim or custom images should be updated. With the DISM module in PowerShell, you can add .msu updates, apps, and drivers to a Windows image offline without the need to boot it up.",
+          "link": "https://4sysops.com/archives/add-updates-msu-offline-into-windows-images-wim/",
+          "publishedOn": "2024-02-01T12:17:22.000Z",
+          "wordCount": 15461,
+          "title": "Add updates (.msu) offline into Windows images (.wim)",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Download-missing-patches-from-the-Microsoft-Update-Catalog.-600x360.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1579562",
           "author": "Baki Onur Okutucu",
           "description": "Azure Functions often require access to sensitive information. It is a security risk to store credentials in code or configuration files. Thus, protecting sensitive information like connection strings, API keys, or passwords is crucial. This is where Azure Key Vault comes in, offering secure and centralized storage for all your secrets. In this article, I will explain how to retrieve secrets from the Key Vault within an Azure Function using PowerShell.",
@@ -1199,16 +1199,6 @@
           "wordCount": 15802,
           "title": "Install and use the step-ca certificate authority client",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Browser-certificate-inspection-tool-after-importing-the-CA-600x253.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579150",
-          "author": "Michael Pietroforte",
-          "description": "The provided Bash and PowerShell script helps automate the creation of Amazon Machine Images (AMIs) from existing AWS Elastic Compute Cloud (EC2) instances. This is particularly useful for creating point-in-time backups or disaster recovery. I mostly use the script to quickly clone an EC2 instance for testing or troubleshooting.\nCreate an Amazon Machine Image (AMI) of an EC2 instance with a Bash and PowerShell script first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/create-an-amazon-machine-image-ami-of-an-ec2-instance-with-a-bash-and-powershell-script/",
-          "publishedOn": "2024-01-03T09:03:52.000Z",
-          "wordCount": 15620,
-          "title": "Create an Amazon Machine Image (AMI) of an EC2 instance with a Bash and PowerShell script",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Creating-an-AMI-with-PowerShell-script-600x239.png"
         }
       ]
     },
@@ -1307,6 +1297,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=27909",
+          "author": "Antonio Cassidy",
+          "description": "We’ve been testing the security of a number of different electronic flight bag, or EFB, applications for a few years now. Here’s the latest on that now it has been […]\nHacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/hacking-electronic-flight-bags-airbus-navblue-flysmart-manager/",
+          "publishedOn": "2024-02-01T06:03:28.000Z",
+          "wordCount": 2596,
+          "title": "Hacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=28663",
           "author": "Tom Roberts &#38; Tony Gee",
@@ -1762,7 +1762,18 @@
       "title": "Publications | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.outflank.nl/?p=3662",
+          "author": "Kyle Avery",
+          "description": "To execute .NET post-exploitation tools safely, operators may want to modify certain managed functions. For example, some C# tools use the .NET standard library to terminate their process after execution. This may not be an issue for fork&run implementations that spawn a sacrificial process, but executing in-process will terminate an implant. One could write a small .NET program that resolves and patches these functions, but we were interested in an unmanaged approach (i.e. a unmanaged implant executing managed code in-process). While our example targets System.Environment.Exit, a similar technique should work for any managed function.\n\nIn January 2022, I uploaded a functional example of this approach to my personal GitHub. However, the implementation was a part of a larger project, and I’ve received a few questions about the technique, so I created this standalone example and writeup.\nTags: dotnet\nRead full post\nThe post Unmanaged .NET Patching appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/",
+          "publishedOn": "2024-02-01T14:00:15.000Z",
+          "wordCount": 2143,
+          "title": "Unmanaged .NET Patching",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/01/mscorlib.png"
+        }
+      ]
     },
     {
       "title": "IFCR - Medium",
