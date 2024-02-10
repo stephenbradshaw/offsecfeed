@@ -64,16 +64,6 @@
           "wordCount": 9249,
           "title": "Calling Home, Get Your Callbacks Through RBI",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:979/1*EJZIdvkDgdThnyDr0mV5MA.png"
-        },
-        {
-          "id": "https://medium.com/p/c7221a0d4bb3",
-          "author": "Nathan D.",
-          "description": "BloodHound Enterprise (BHE) recently saw the addition of a new, game-changing feature: open-ended Cypher searches. For those unfamiliar…",
-          "link": "https://posts.specterops.io/cypher-queries-in-bloodhound-enterprise-c7221a0d4bb3?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-01-10T16:51:36.000Z",
-          "wordCount": 4624,
-          "title": "Cypher Queries in BloodHound Enterprise",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:975/1*pfLjFG3_g11UQpuauCc69Q.png"
         }
       ]
     },
@@ -306,7 +296,18 @@
       "title": "Tyranid's Lair",
       "feedUrl": "https://www.tiraniddo.dev/feeds/posts/default",
       "siteUrl": "https://www.tiraniddo.dev/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.tiraniddo.dev/2024/02/sudo-on-windows-quick-rundown.html",
+          "author": null,
+          "description": "Background\nThe Windows Insider Preview build 26052 just shipped with a sudo command, I thought I'd just take a quick peek to see what it does and how it does it. This is only a short write up of my findings, I think this code is probably still in early stages so I wouldn't want it to be treated too harshly. You can see the official announcement here.\n\nTo run a command using sudo you can just type:\n\nC:\\> sudo powershell.exe\n\nThe first thing to note, if you know anything about the security model of Windows (maybe buy my book, hint hint), is that there's no equivalent to SUID binaries. The only way to run a process with a higher privilege level is to get an existing higher privileged process to start it for you or you have sufficient permissions yourself though say SeImpersonatePrivilege or S…",
+          "link": "https://www.tiraniddo.dev/2024/02/sudo-on-windows-quick-rundown.html",
+          "publishedOn": "2024-02-09T09:10:00.000Z",
+          "wordCount": 3504,
+          "title": "Sudo On Windows a Quick Rundown",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHOBUtAD0CBUcspDAvaHiUKFlUswN5mUaEkp7VT4G9MWJ_cElIN0KaaORHJikaploIREUaGatmTPk4A6IJOFOtGZRfHJbau1woZoXIPuh4L9dSst4JPCvv961bB6fPac9cjcV95KM3jFgNA0CPm8KWy5cqIhdR4FqWVaoqSO5A_Ew9jSpGQ_tCwLIR5m4/w1200-h630-p-k-no-nu/sudo-diagram.png"
+        }
+      ]
     },
     {
       "title": "Zero Day Initiative - Blog",
@@ -427,6 +428,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=33888",
+          "author": "McCaulay Hudson",
+          "description": "A story on finding a zero day attacking the NETGEAR WAN interface after a last minute patch for Pwn2Own 2022, involving a command injection, predicting random numbers, boot timing and voltage supply variations.",
+          "link": "https://research.nccgroup.com/2024/02/09/puckungfu-2-another-netgear-wan-command-injection/",
+          "publishedOn": "2024-02-09T12:00:00.000Z",
+          "wordCount": 20977,
+          "title": "Puckungfu 2: Another NETGEAR WAN Command Injection",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2024/01/puckungfu2-another-netgear-wan-command-injection.png?fit=1200%2C630&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=34006",
           "author": "Kevin Henry",
@@ -592,6 +603,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=106293",
+          "author": "Trail of Bits",
+          "description": "Our latest addition to the Trail of Bits Testing Handbook is a comprehensive guide to fuzzing: an essential, effective, low-effort method to find bugs in software that involves repeatedly running a program with random inputs to cause unexpected results. At Trail of Bits, we don’t just rely on standard static analysis. We tailor our approach […]",
+          "link": "https://blog.trailofbits.com/2024/02/09/master-fuzzing-with-our-new-testing-handbook-chapter/",
+          "publishedOn": "2024-02-09T14:00:13.000Z",
+          "wordCount": 2460,
+          "title": "Master fuzzing with our new Testing Handbook chapter",
+          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=106242",
           "author": "Trail of Bits",
@@ -1052,6 +1073,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1579691",
+          "author": "Baki Onur Okutucu",
+          "description": "Managed identities provide secure authentication for resources accessing other resources in Azure without requiring sensitive information such as secrets, credentials, and certificates to be handled. Microsoft Entra ID manages these identities, enabling applications to obtain tokens for authentication. In this post, I will provide an example that illustrates how to use system and user-assigned managed identities with PowerShell.",
+          "link": "https://4sysops.com/archives/an-example-of-using-powershell-to-manage-system-and-user-assigned-managed-identities-in-azure/",
+          "publishedOn": "2024-02-09T14:19:01.000Z",
+          "wordCount": 15810,
+          "title": "An example of using PowerShell to manage system and user-assigned managed identities in Azure",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2018/07/PowerShell-Social.png"
+        },
+        {
           "id": "https://4sysops.com/?p=1579725",
           "author": "Surender Kumar",
           "description": "You can manage Docker images and containers directly within Visual Studio Code (VS Code) with Microsoft's Docker extension. This article walks you through adding Docker files to a Workspace, creating a containerized application environment, and explains how to build and run Docker containers directly from the VS Code interface.",
@@ -1260,16 +1291,6 @@
           "wordCount": 15536,
           "title": "Learn how to use Ansible variables with examples",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Showing-the-value-of-variables-defined-in-an-inventory-file-600x373.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579316",
-          "author": "Michael Pietroforte",
-          "description": "2024 will most likely be the year when many admins will be faced with deploying AI systems for the first time. Once you play a little with the OpenAI API, you will begin to understand why Large Language Models (LLMs) are not just useful for chatbots. If AI companies can find a way to fund the content to train their models, we may be on the brink of a new era in IT. For many administrators, this means becoming acquainted with AIOps, a term that will become more prevalent in the upcoming year. A great way to start with AIOps is to install the OpenAI SDK on your Mac or Windows PC.\nInstall the Python OpenAI SDK on Windows and macOS first appeared on 4sysops.",
-          "link": "https://4sysops.com/archives/install-the-python-openai-sdk-on-windows-and-macos/",
-          "publishedOn": "2024-01-11T09:15:09.000Z",
-          "wordCount": 15577,
-          "title": "Install the Python OpenAI SDK on Windows and macOS",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Install-the-OpenAI-SDK-on-macOS-600x405.png"
         }
       ]
     },
