@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-15T00:34:10.560Z</updated>
+    <updated>2024-02-16T00:33:44.089Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How an Improper Access Control Vulnerability Led to Account Theft in One Click]]></title>
+        <id>https://hackerone.com/vulnerability-management/improper-access-control-deep-dive</id>
+        <link href="https://www.hackerone.com/vulnerability-management/improper-access-control-deep-dive"/>
+        <updated>2024-02-15T17:21:08.000Z</updated>
+        <summary type="html"><![CDATA[Let’s look more closely at the improper access control vulnerability type — what it is, how it’s used, and how to remediate it.]]></summary>
+        <author>
+            <name>Sandeep Singh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Bishop Fox Internship Program: Mexico Foxes Assemble!]]></title>
+        <id>https://bishopfox.com/blog/the-bishop-fox-internship-program-mexico-foxes-assemble</id>
+        <link href="https://bishopfox.com/blog/the-bishop-fox-internship-program-mexico-foxes-assemble"/>
+        <updated>2024-02-15T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about our internship program for Mexico-based penetration testers.]]></summary>
+        <author>
+            <name>Lesley Mugford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SNS Sender | Active Campaigns Unleash Messaging Spam Through the Cloud]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=91745</id>
+        <link href="https://www.sentinelone.com/labs/sns-sender-active-campaigns-unleash-messaging-spam-through-the-cloud/"/>
+        <updated>2024-02-15T13:55:32.000Z</updated>
+        <summary type="html"><![CDATA[Threat actors leverage cloud services to conduct massive smishing campaign through AWS Simple Notification Service.]]></summary>
+        <author>
+            <name>Alex Delamotte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edit JSON config files with free JSON editors or Notepad++]]></title>
+        <id>https://4sysops.com/?p=1579759</id>
+        <link href="https://4sysops.com/archives/edit-json-config-files-with-free-json-editors-or-notepad/"/>
+        <updated>2024-02-15T12:00:14.000Z</updated>
+        <summary type="html"><![CDATA[JSON (JavaScript Object Notation) is gaining popularity as a format for configuration files. Unlike XML or the still-used INI format, editing JSON in a text editor can be tedious and error-prone. However, there are free JSON editors and plugins for Notepad++ that simplify this task.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QR Phishing. Fact or Fiction?]]></title>
+        <id>https://www.pentestpartners.com/?p=28801</id>
+        <link href="https://www.pentestpartners.com/security-blog/qr-phishing-fact-or-fiction/"/>
+        <updated>2024-02-15T06:43:41.000Z</updated>
+        <summary type="html"><![CDATA[October 2023’s Cyber Security Awareness Month  led to a flurry of blog posts about a new attack called Quishing (QR Code phishing) and how new AI powered email gateways can […]
+QR Phishing. Fact or Fiction? first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Tony Gee</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ADCS ESC13 Abuse Technique]]></title>
         <id>https://medium.com/p/fda4272fbd53</id>
@@ -1354,49 +1405,6 @@ OpenAI API example: Building a simple GPT chatbot with the Chat Completions API 
         <summary type="html"><![CDATA[By Matt Schwager and Sam Alws We are publishing a set of 30 custom Semgrep rules for Ansible playbooks, Java/Kotlin code, shell scripts, and Docker Compose configuration files. These rules were created and used to audit for common security vulnerabilities in the listed technologies. This new release of our Semgrep rules joins our public CodeQL […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure REST API: Manage Azure resources with the PowerShell cmdlet Invoke-AzRestMethod]]></title>
-        <id>https://4sysops.com/?p=1579358</id>
-        <link href="https://4sysops.com/archives/azure-rest-api-manage-azure-resources-with-the-powershell-cmdlet-invoke-azrestmethod/"/>
-        <updated>2024-01-17T10:56:12.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes, managing certain Azure resources using PowerShell can be challenging due to the absence of specific cmdlets for those operations or services. This is where the Invoke-AzRestMethod cmdlet comes into play, which allows PowerShell scripts to communicate with Azure services by sending HTTP requests to Azure's REST API. It acts as a bridge between PowerShell and Azure services that still need to be integrated with cmdlets.
-Azure REST API: Manage Azure resources with the PowerShell cmdlet Invoke-AzRestMethod first appeared on 4sysops.]]></summary>
-        <author>
-            <name>Baki Onur Okutucu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LeftoverLocals:  Listening to LLM responses through leaked GPU local memory]]></title>
-        <id>https://blog.trailofbits.com/?p=105881</id>
-        <link href="https://blog.trailofbits.com/2024/01/16/leftoverlocals-listening-to-llm-responses-through-leaked-gpu-local-memory/"/>
-        <updated>2024-01-16T17:00:39.000Z</updated>
-        <summary type="html"><![CDATA[By Tyler Sorensen and Heidy Khlaaf We are disclosing LeftoverLocals: a vulnerability that allows recovery of data from GPU local memory created by another process on Apple, Qualcomm, AMD, and Imagination GPUs. LeftoverLocals impacts the security posture of GPU applications as a whole, with particular significance to LLMs and ML models run on impacted GPU […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Vancouver 2024: Bringing Cloud-Native/Container Security to Pwn2Own]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65a60f4d3f0f8f35430e50cb</id>
-        <link href="https://www.thezdi.com/blog/2024/1/16/pwn2own-vancouver-2024-bring-cloud-nativecontainer-security-to-pwn2own"/>
-        <updated>2024-01-16T14:52:01.000Z</updated>
-        <summary type="html"><![CDATA[If you just want to read the contest rules, click here.
-Even though we’re a week out from our first ever Pwn2Own Automotive, it’s time to start thinking ahead to the original Pwn2Own event, which takes place at CanSecWest in Vancouver on March 20-22, 2024. We’re always excited to return to Vancouver for the event, but we are cognizant of the evolution of the event as well. The contest began with a single Mac Book, but over the years, it grew to include web browsers, enterprise applications, virtualization solutions, and an automotive category. Last year, we awarded over $1,000,000 in cash and prizes – including a Tesla Model 3. This year, we evolved again by simplifying the Automotive category and adding a Cloud-Native/Container category. 
-We introduced the Virtualization category back in …]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Navigating Threats: Adopting Proactive Social Engineering and Network Testing Strategies]]></title>
-        <id>https://bishopfox.com/blog/navigating-threats-adopting-proactive-social-engineering-network-testing-strategies</id>
-        <link href="https://bishopfox.com/blog/navigating-threats-adopting-proactive-social-engineering-network-testing-strategies"/>
-        <updated>2024-01-16T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Get insights from Bishop Fox experts on social engineering tactics, implementing technical controls, and the importance of internal network testing.]]></summary>
-        <author>
-            <name>Beth Robinson</name>
         </author>
     </entry>
     <entry>
