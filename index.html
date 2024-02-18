@@ -59,6 +59,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-17 datetime="2024-02-17T05:00:00.000Z">2024-02-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-17 datetime="2024-02-17T05:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Human Machine Interface</button>
+                  <a class="source-heading__link" href="https://h0mbre.github.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://h0mbre.github.io/Lucid_Context_Switching/"
+                        open
+                      >
+                        <summary class="article-expander__title">Fuzzer Development: Sandboxing Syscalls</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://h0mbre.github.io/Lucid_Context_Switching/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://h0mbre.github.io/assets/images/avatar.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Introduction If you haven’t heard, we’re developing a fuzzer on the blog these days. I don’t even know if “fuzzer” is the right word for what we’re building, it’s almost more like an execution engine that will expose hooks? Anyways, if you missed the first episode you can catch up here. We are creating a fuzzer that loads a statically built Bochs emulator into itself, and executes Bochs logic while maintaining a sandbox for Bochs. You can think of it as, we were too lazy to implement our own x86_64 emulator from scratch so we’ve just literally taken a complete emulator and stuffed it into our own process to use it. The fuzzer is written in Rust and Bochs is a C++ codebase. Bochs is a full system emulator, so the devices and everything else is just simulated in software. This is great for us because we can simply snapshot and restore Bochs itself to achieve snapshot fuzzing of our target. So the fuzzer runs Bochs and Bochs runs our target. This allows us to snapshot fuzz arbitrarily complex targets: web browsers, kernels, network stacks, etc. This episode, we’ll delve into the concept of sandboxing Bochs from syscalls. We do not want Bochs to be capable of escaping its sandbox or retrieving any data from outside of our environment. So today we’ll get into the implementation details of my first stab at Bochs-to-fuzzer context switching to handle syscalls. In the future we will also need to implement context switching from fuzzer-to-Bochs as well, but for now let’s focus on syscalls.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-16 datetime="2024-02-16T16:56:48.000Z">2024-02-16</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-16 datetime="2024-02-16T16:56:48.000Z"></time>
           </button>
@@ -4201,427 +4249,6 @@ The post Google Chrome V8 CVE-2024-0517 Out-of-Bounds Write Code Execution appea
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1579461"
-                        open
-                      >
-                        <summary class="article-expander__title">Announcing 4sysops AI</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/announcing-4sysops-ai/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2024/01/Announcing-4sysops-AI-600x354.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We have just added an experimental feature to 4sysops. At the end of every blog article, you will find a chatbot that enables you to ask questions about the article. You may use this feature if you need further clarification or want to gain additional information not covered in the article.
-Announcing 4sysops AI first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;47
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1579266"
-                        open
-                      >
-                        <summary class="article-expander__title">Disable SMBv1 and enable SMBv1 auditing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/disable-smbv1-and-enable-smbv1-auditing/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2024/01/The-Security-Baseline-provides-group-policies-for-deactivating-SMBv1-600x335.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Windows still includes some legacy protocols that pose significant security risks. This applies to SMBv1/CIFS, which Microsoft is gradually phasing out. While it is still present in new Windows versions, it is disabled by default. The audit feature can detect SMBv1 requests and assess whether the protocol is still required.
-Disable SMBv1 and enable SMBv1 auditing first appeared on 4sysops.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;51
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-18 datetime="2024-01-18T21:11:23.000Z">2024-01-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-18 datetime="2024-01-18T21:11:23.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Exodus Intelligence</button>
-                  <a class="source-heading__link" href="https://blog.exodusintel.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2177"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wTextLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wtextlen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-29f0f63c A buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-29f0f63c MITRE: CVE-2023-43818 Vulnerability Metrics CVSSv2 Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P CVSSv2 Score: 6.8 Vendor References The affected product is end-of-life ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wTextLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wTextLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2181"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File InitialMacroLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-initialmacrolen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-2ac577d8 A stack based buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft when parsing the InitialMacroLen field of a DPS file. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-2ac577d8 MITRE: CVE-2023-43819 Vulnerability Metrics ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File InitialMacroLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File InitialMacroLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2182"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesPrevValueLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wlogtitlesprevvaluelen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-b1c30ad0 A stack based buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft when parsing the wLogTitlesPrevValueLen field of a DPS file. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-b1c30ad0 MITRE: CVE-2023-43820 Vulnerability Metrics ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesPrevValueLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesPrevValueLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2183"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesActionLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wlogtitlesactionlen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-0dffc5aa A stack based buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft when parsing the wLogTitlesActionLen field of a DPS file. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-0dffc5aa MITRE: CVE-2023-43821 Vulnerability Metrics ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesActionLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesActionLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2186"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wTTitleLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wttitlelen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-2fdb5241 A stack based buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft when parsing the wTTitleLen field of a DPS file. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-2fdb5241 MITRE: CVE-2023-43823 Vulnerability Metrics CVSSv2 ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wTTitleLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wTTitleLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2187"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wTitleTextLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wtitletextlen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-10b37d9e A stack based buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft when parsing the wTitleTextLen field of a DPS file. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-10b37d9e MITRE: CVE-2023-43824 Vulnerability Metrics CVSSv2 ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wTitleTextLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wTitleTextLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2171"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics ISPSoft Heap Buffer-Overflow</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-ispsoft-heap-buffer-overflow/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-a76f2f23 A heap buffer-overflow exists in Delta Electronics ISPSoft. An anonymous attacker can exploit this vulnerability by enticing a user to open a specially crafted DVP file to achieve code execution. Vulnerability Identifier Exodus Intelligence: EIP-a76f2f23 MITRE: CVE-2023-5131 Vulnerability Metrics CVSSv2 Vector: AV:N/AC:H/Au:N/C:C/I:P/A:C CVSSv2 Score: 7.3 Vendor References The affected product is end-of-life and no patches are available. ... Read more Delta Electronics ISPSoft Heap Buffer-Overflow
-The post Delta Electronics ISPSoft Heap Buffer-Overflow appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2173"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wScreenDESCTextLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wscreendesctextlen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-fe441d93 A buffer overflow vulnerability exists in Delta Electronics Delta Industrial Automation DOPSoft version 2 when parsing the wScreenDESCTextLen field of a DPS file. An anonymous attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve code execution. Vulnerability Identifier Exodus Intelligence: EIP-fe441d93 MITRE: CVE-2023-43815 Vulnerability Metrics CVSSv2 Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wScreenDESCTextLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wScreenDESCTextLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2185"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesTimeLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wlogtitlestimelen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-32a68e8b A stack based buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft when parsing the wLogTitlesTimeLen field of a DPS file. A remote, unauthenticated attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve remote code execution. Vulnerability Identifier Exodus Intelligence: EIP-32a68e8b MITRE: CVE-2023-43822 Vulnerability Metrics ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesTimeLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wLogTitlesTimeLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.exodusintel.com/?p&#x3D;2175"
-                        open
-                      >
-                        <summary class="article-expander__title">Delta Electronics Delta Industrial Automation DOPSoft DPS File wMailContentLen Buffer Overflow Remote Code Execution</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.exodusintel.com/2024/01/18/delta-electronics-delta-industrial-automation-dopsoft-dps-file-wmailcontentlen-buffer-overflow-remote-code-execution/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EIP-a31ff40d A buffer overflow exists in Delta Electronics Delta Industrial Automation DOPSoft version 2 when parsing the wMailContentLen field of a DPS file. An anonymous attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve code execution. Vulnerability Identifier Exodus Intelligence: EIP-a31ff40d MITRE: CVE-2023-43817 Vulnerability Metrics CVSSv2 Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P CVSSv2 Score: ... Read more Delta Electronics Delta Industrial Automation DOPSoft DPS File wMailContentLen Buffer Overflow Remote Code Execution
-The post Delta Electronics Delta Industrial Automation DOPSoft DPS File wMailContentLen Buffer Overflow Remote Code Execution appeared first on Exodus Intelligence.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HackerOne</button>
-                  <a class="source-heading__link" href="https://www.hackerone.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://hackerone.com/vulnerability-management/find-mistakes-save-money-code-security-audit"
-                        open
-                      >
-                        <summary class="article-expander__title">How to Find Mistakes Earlier and Save Money With Code Security Audit</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hackerone.com/vulnerability-management/find-mistakes-save-money-code-security-audit">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.hackerone.com/sites/default/files/2024-01/Blog%20Header_Code%20Security%20Audit%20763x462%20%283%29.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn how organizations can find mistakes earlier and save an average of $18,037 using Code Security Audit.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.</button>
-                  <a class="source-heading__link" href="https://www.sentinelone.com/labs/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sentinelone.com/?post_type&#x3D;labs&amp;p&#x3D;88053"
-                        open
-                      >
-                        <summary class="article-expander__title">LABScon Replay | Send Lawyers, ‘Garchs, and Money</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sentinelone.com/labs/labscon-replay-send-lawyers-garchs-and-money/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.sentinelone.com/wp-content/uploads/2024/01/Send-Lawyers-%E2%80%98Garchs-and-Money-5.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>From the Mueller report to the Steele Dossier, Liz Wharton explores the world of oligarch-funded lawyers and their attempts to discredit public research.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Technical Blog - NetSPI</button>
-                  <a class="source-heading__link" href="https://www.netspi.com/blog/technical/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.netspi.com/?p&#x3D;31782"
-                        open
-                      >
-                        <summary class="article-expander__title">Why TOTP Won’t Cut It (And What to Consider Instead)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.netspi.com/blog/technical/web-application-penetration-testing/why-totp-wont-cut-it/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.netspi.com/wp-content/uploads/01-18-24_TOTP-Cory-Cline_Social-Graphic-2.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Time-Based One-Time Password (TOTP) is a common method for two factor authentication (2FA) but its lack of rate limiting can create security gaps. 
-The post Why TOTP Won’t Cut It (And What to Consider Instead) appeared first on NetSPI.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;54
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Trail of Bits Blog</button>
-                  <a class="source-heading__link" href="https://blog.trailofbits.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.trailofbits.com/?p&#x3D;106036"
-                        open
-                      >
-                        <summary class="article-expander__title">Our thoughts on AIxCC’s competition format</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2024/01/18/our-thoughts-on-aixccs-competition-format/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2024/01/Screenshot-2024-01-17-at-5.02.34 PM.png?fit&#x3D;858%2C896&amp;ssl&#x3D;1" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>By Michael Brown Late last month, DARPA officially opened registration for their AI Cyber Challenge (AIxCC). As part of the festivities, DARPA also released some highly anticipated information about the competition: a request for comments (RFC) that contained a sample challenge problem and the scoring methodology. Prior rules documents and FAQs released by DARPA painted […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4822,8 +4449,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/7937907064">
-        <time id="build-timestamp" datetime="2024-02-17T00:33:42.188Z">2024-02-17T00:33:42.188Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/7945324335">
+        <time id="build-timestamp" datetime="2024-02-18T00:36:59.084Z">2024-02-18T00:36:59.084Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
