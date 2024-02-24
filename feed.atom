@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-23T00:33:30.229Z</updated>
+    <updated>2024-02-24T00:32:05.480Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Risk of AI Voice Cloning: Q&A With an AI Hacker]]></title>
+        <id>https://hackerone.com/ai/voice-cloning-qa</id>
+        <link href="https://www.hackerone.com/ai/voice-cloning-qa"/>
+        <updated>2024-02-23T17:58:58.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne Senior Solutions Architect and AI Hacker Dane Sherrets demonstrates how bad actors are using AI voice cloning.]]></summary>
+        <author>
+            <name>Dane Sherrets</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install the new Teams client: bulk installer, policies, changes from the classic client, system prerequisites]]></title>
+        <id>https://4sysops.com/?p=1580066</id>
+        <link href="https://4sysops.com/archives/install-the-new-teams-client-bulk-installer-policies-changes-from-the-classic-client-system-prerequisites/"/>
+        <updated>2024-02-23T14:35:18.000Z</updated>
+        <summary type="html"><![CDATA[Users will gradually receive the new Teams client depending on the license and update channel. Microsoft now offers a bulk installer for businesses looking to migrate to the new version. Subsequently, admins can enforce a specific client for users using a policy.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Continuously fuzzing Python C extensions]]></title>
+        <id>https://blog.trailofbits.com/?p=106536</id>
+        <link href="https://blog.trailofbits.com/2024/02/23/continuously-fuzzing-python-c-extensions/"/>
+        <updated>2024-02-23T14:30:03.000Z</updated>
+        <summary type="html"><![CDATA[By Matt Schwager Deserializing, decoding, and processing untrusted input are telltale signs that your project would benefit from fuzzing. Yes, even Python projects. Fuzzing helps reduce bugs in high-assurance software developed in all programming languages. Fortunately for the Python ecosystem, Google has released Atheris, a coverage-guided fuzzer for both pure Python code and Python C […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advice for manufacturers on the coming PSTI regulation]]></title>
+        <id>https://www.pentestpartners.com/?p=28847</id>
+        <link href="https://www.pentestpartners.com/security-blog/advice-for-manufacturers-on-the-coming-psti-regulation/"/>
+        <updated>2024-02-23T06:49:53.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR PSTI: The UK Product Security and Telecommunications Infrastructure (Product Security) Act Regulations effective from 29 April 2024 Assess how, where, why, and when you may be affected Review supply […]
+Advice for manufacturers on the coming PSTI regulation first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Jo Dalton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Gemini: Planting Instructions For Delayed Automatic Tool Invocation]]></title>
+        <id>https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/</id>
+        <link href="https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/"/>
+        <updated>2024-02-23T06:00:06.000Z</updated>
+        <summary type="html"><![CDATA[Last November, while testing Google Bard (now called Gemini) for vulnerabilities, I had a couple of interesting observations when it comes to automatic tool invocation.
+Confused Deputy - Automatic Tool Invocation First, what do I mean by this… “automatic tool invocation”…
+Consider the following scenario: An attacker sends a malicious email to a user containing instructions to call an external tool. Google named these tools Extensions.
+When the user analyzes the email with an LLM, it interprets the instructions and calls the external tool, leading to a kind of request forgery or maybe better called automatic tool invocation.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unmasking Lorenz Ransomware: A Dive into Recent Tactics, Techniques and Procedures]]></title>
         <id>https://research.nccgroup.com/?p=34096</id>
@@ -1227,59 +1281,6 @@ The post IBM Merge Healthcare eFilm Workstation License Server Buffer Overflow a
         <link href="https://blog.trailofbits.com/2024/01/25/we-build-x-509-chains-so-you-dont-have-to/"/>
         <updated>2024-01-25T14:00:22.000Z</updated>
         <summary type="html"><![CDATA[By William Woodruff For the past eight months, Trail of Bits has worked with the Python Cryptographic Authority to build cryptography-x509-verification, a brand-new, pure-Rust implementation of the X.509 path validation algorithm that TLS and other encryption and authentication protocols are built on. Our implementation is fast, standards-conforming, and memory-safe, giving the Python ecosystem a modern […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Semaphore: A free and powerful Ansible GUI]]></title>
-        <id>https://4sysops.com/?p=1579442</id>
-        <link href="https://4sysops.com/archives/semaphore-a-free-and-powerful-ansible-gui/"/>
-        <updated>2024-01-25T07:44:28.000Z</updated>
-        <summary type="html"><![CDATA[GUI solutions for Ansible, such as Red Hat’s Ansible Tower and PagerDuty’s RunDeck, come with a significant license cost, whereas the free versions are limited in features and complicated to install. Developed with ease of use in mind, Semaphore provides a GUI for Ansible with a set of powerful features.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Automotive 2024 - Day Two Results]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65b1aa2f3986777044e114cd</id>
-        <link href="https://www.thezdi.com/blog/2024/1/24/pwn2own-automotive-2024-day-two-results"/>
-        <updated>2024-01-25T02:48:43.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to Day Two of the first ever Pwn2Own Automotive. We awarded $722,500 yesterday for 24 unique 0-days. Today’s attempts promise to be just as exciting, with another Tesla attempt at 1300 Japan Standard Time (GMT +9).  As always, we’ll be updating this blog with results as we have them.
-BUG COLLISION - Team Tortuga successfully used a 2-bug chain against the ChargePoint Home Flex. However, the exploit used was previously known. They still earn $!5,000 and 3 Master of Pwn Points.
-SUCCESS - The Midnight Blue / PHP Hooligans team used a 3-bug chain to exploit the Phoenix Contact CHARX SEC-3100. They earn $30,000 and 6 Master of Pwn Points.
-BUG COLLISION - Computest Sector 7 successfully executed their attack against the JuiceBox 40 Smart EV Charging Station. However, the bug they used wa…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Memory Scanning for the Masses]]></title>
-        <id>https://research.nccgroup.com/?p=33906</id>
-        <link href="https://research.nccgroup.com/2024/01/25/memory-scanning-for-the-masses/"/>
-        <updated>2024-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: Axel Boesenach and Erik Schamper In this blog post we will go into a user-friendly memory scanning Python library that was created out of the necessity of having more control during memory scanning. We will give an overview of how this library works, share the thought process and the why’s. This blog post will […]]]></summary>
-        <author>
-            <name>Erik Schamper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ADCS Attack Paths in BloodHound — Part 1]]></title>
-        <id>https://medium.com/p/799f3d3b03cf</id>
-        <link href="https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-1-799f3d3b03cf?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-01-24T17:02:29.000Z</updated>
-        <summary type="html"><![CDATA[Since Will Schroeder and Lee Christensen published the Certified Pre-Owned whitepaper, the BloodHound Enterprise team at SpecterOps has…]]></summary>
-        <author>
-            <name>Jonas Bülow Knudsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celebrating our 2023 open-source contributions]]></title>
-        <id>https://blog.trailofbits.com/?p=106073</id>
-        <link href="https://blog.trailofbits.com/2024/01/24/celebrating-our-2023-open-source-contributions/"/>
-        <updated>2024-01-24T14:00:22.000Z</updated>
-        <summary type="html"><![CDATA[At Trail of Bits, we pride ourselves on making our best tools open source, such as Slither, PolyTracker, and RPC Investigator. But while this post is about open source, it’s not about our tools… In 2023, our employees submitted over 450 pull requests (PRs) that were merged into non-Trail of Bits repositories. This demonstrates our […]]]></summary>
         <author>
             <name>Trail of Bits</name>
         </author>
