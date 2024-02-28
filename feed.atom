@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-27T00:33:44.470Z</updated>
+    <updated>2024-02-28T00:32:51.659Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windows auto-login without password]]></title>
+        <id>https://4sysops.com/?p=1580229</id>
+        <link href="https://4sysops.com/archives/windows-auto-login-without-password/"/>
+        <updated>2024-02-27T17:52:47.000Z</updated>
+        <summary type="html"><![CDATA[Usually, you want to secure your Windows account with a strong password or other authentication methods. However, there may be situations where you want to set up a Windows computer to log in automatically without requiring a password. If only one user operates a PC and the computer is physically protected from unauthorized access, you can afford the convenience of bypassing password login. Although Microsoft has reduced the auto-login options, enabling autologon in Windows 10/11 is still feasible.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hai: The AI Assistant for Vulnerability Intelligence]]></title>
+        <id>https://hackerone.com/ai/hai-ai-assistant-vulnerability-intelligence</id>
+        <link href="https://www.hackerone.com/ai/hai-ai-assistant-vulnerability-intelligence"/>
+        <updated>2024-02-27T16:30:20.000Z</updated>
+        <summary type="html"><![CDATA[We have officially launched the beta version of our GenAI co-pilot, Hai, introducing GenAI capabilities into the HackerOne Platform.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snap's Safety Efforts With AI Red Teaming From HackerOne]]></title>
+        <id>https://hackerone.com/ai/snap-ai-red-teaming</id>
+        <link href="https://www.hackerone.com/ai/snap-ai-red-teaming"/>
+        <updated>2024-02-27T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Together, Snap Inc. and HackerOne have made significant developments in the methodology for AI safety red teaming.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top things that you might not be doing (yet) in Entra Conditional Access]]></title>
+        <id>https://blog.nviso.eu/?p=17077</id>
+        <link href="https://blog.nviso.eu/2024/02/27/top-things-that-you-might-not-be-doing-yet-in-entra-conditional-access/"/>
+        <updated>2024-02-27T08:00:14.000Z</updated>
+        <summary type="html"><![CDATA[Introduction In this blog post, I focus on the top things that you might not be doing (yet) in Entra Conditional Access. It is not an exhaustive list, but it is based on my experience assessing many different Entra ID, formerly Azure AD, environments as a consultant at NVISO Security. The following points are, in … Continue reading Top things that you might not be doing (yet) in Entra Conditional Access →]]></summary>
+        <author>
+            <name>Guillaume Bossiroy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Silk Wasm: Obfuscating HTML Smuggling with Web Assembly]]></title>
         <id>https://www.netspi.com/?p=31928</id>
@@ -292,6 +332,23 @@ Cyber security for Credit Unions 101 first appeared on Pen Test Partners.]]></su
         <summary type="html"><![CDATA[Members can now enjoy free access to 4sysops AI powered by ChatGPT 4 (GPT-4 Turbo). 4sysops AI is a continuously updated and does not have a cutoff date of April 2023 like ChatGPT. As you may be aware, the free version of ChatGPT only supports ChatGPT 3.5, while the paid membership of ChatGPT Plus, which costs $20 per month, provides access to ChatGPT 4 (GPT-4). 4sysops members can now access the Turbo version of ChatGPT 4 for free, which is faster than the standard ChatGPT 4 available with the Plus subscription.]]></summary>
         <author>
             <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unveiling the Server-Side Prototype Pollution Gadgets Scanner]]></title>
+        <id>http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html</id>
+        <link href="http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html"/>
+        <updated>2024-02-17T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Prototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.
+For those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.
+
+// Example of prototype pollution in a browser console
+Object.prototype.isAdmin = true;
+const user = {};
+console.log(user.isAdmin); // …]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1059,6 +1116,21 @@ OSINT in 60 seconds. Mind reading on TV first appeared on Pen Test Partners.]]><
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Introducing PoIEx - Points Of Intersection Explorer]]></title>
+        <id>http://localhost:4000/2024/01/30/poiex-release.html</id>
+        <link href="http://localhost:4000/2024/01/30/poiex-release.html"/>
+        <updated>2024-01-30T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are releasing a previously internal-only tool to improve Infrastructure as Code (IaC) analysis and enhance Visual Studio Code allowing real-time collaboration during manual code analysis activities. We’re excited to announce that PoIEx is now available on Github.
+
+
+
+Nowadays, cloud-oriented solutions are no longer a buzzword, cloud providers offer ever more intelligent infrastructure services, handling features ranging from simple object storage to complex tasks such as user authentication and identity access management. With the growing complexity of cloud infrastructure, the interactions between application logic and infrastructure begin to play a critical role in ensuring application security.
+With many recent high-profile incidents resulting from an insecure combination of web and c…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Troubleshooting a System Crash]]></title>
         <id>https://windows-internals.com/?p=526810</id>
         <link href="https://windows-internals.com/troubleshooting-a-system-crash/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=troubleshooting-a-system-crash"/>
@@ -1081,78 +1153,6 @@ Nowadays, cloud-oriented solutions are no longer a buzzword, cloud providers off
 With many recent high-profile incidents resulting from an insecure combination of web and c…]]></summary>
         <author>
             <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debug with Docker in VS Code]]></title>
-        <id>https://4sysops.com/?p=1579548</id>
-        <link href="https://4sysops.com/archives/debug-with-docker-in-vs-code/"/>
-        <updated>2024-01-29T10:51:22.000Z</updated>
-        <summary type="html"><![CDATA[This post will guide you in debugging containerized apps running in Docker using Visual Studio (VS) Code.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Persistence – Disk Clean-up]]></title>
-        <id>https://pentestlab.blog/?p=32478</id>
-        <link href="http://pentestlab.blog/2024/01/29/persistence-disk-clean-up/"/>
-        <updated>2024-01-29T05:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Disk Clean-up is a utility which is part of Windows operating systems and can free up hard drive disk space by deleting mainly cache and… 
-Continue reading → Persistence – Disk Clean-up]]></summary>
-        <author>
-            <name>Administrator</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Persistence – Disk Clean-up]]></title>
-        <id>http://pentestlab.blog/?p=32478</id>
-        <link href="https://pentestlab.blog/2024/01/29/persistence-disk-clean-up/"/>
-        <updated>2024-01-29T05:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Disk Clean-up is a utility which is part of Windows operating systems and can free up hard drive disk space by deleting mainly cache and… 
-Continue reading → Persistence – Disk Clean-up]]></summary>
-        <author>
-            <name>Administrator</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Visual Summary of SANS CTI Summit 2024]]></title>
-        <id>https://www.sans.org/blog/a-visual-summary-of-sans-cti-summit-2024</id>
-        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-cti-summit-2024?msc=rss"/>
-        <updated>2024-01-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS CTI Summit 2024]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three Common Threats to Your Organization’s Data to be Aware of on Data Protection Day]]></title>
-        <id>https://www.sans.org/blog/three-common-threats-to-your-organization-s-data-to-be-aware-of-on-data-protection-day</id>
-        <link href="https://www.sans.org/blog/three-common-threats-to-your-organization-s-data-to-be-aware-of-on-data-protection-day?msc=rss"/>
-        <updated>2024-01-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the need for robust data protection policies]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Failing Upwards: Put on your own mask before assisting others (Pt2)]]></title>
-        <id>65b67aa28792421d3c226d61</id>
-        <link href="https://blog.zsec.uk/failing-upwards-pt2/"/>
-        <updated>2024-01-28T16:43:08.000Z</updated>
-        <summary type="html"><![CDATA[Reflecting on my experiences with various leaders, managers, and bosses, I've gained insights into effective and ineffective leadership styles.]]></summary>
-        <author>
-            <name>Andy Gill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Failing Upwards (or not) (Pt1)]]></title>
-        <id>65a9c46a8792421d3c226be9</id>
-        <link href="https://blog.zsec.uk/failing-upwards-pt1/"/>
-        <updated>2024-01-28T16:42:48.000Z</updated>
-        <summary type="html"><![CDATA[If you find yourself on the path of leading a team, make sure you set critical baselines with your team. Always do what is best for your team and set them up for success.]]></summary>
-        <author>
-            <name>Andy Gill</name>
         </author>
     </entry>
     <entry>

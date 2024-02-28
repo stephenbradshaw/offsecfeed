@@ -208,6 +208,26 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/ai/hai-ai-assistant-vulnerability-intelligence",
+          "author": "HackerOne",
+          "description": "We have officially launched the beta version of our GenAI co-pilot, Hai, introducing GenAI capabilities into the HackerOne Platform.",
+          "link": "https://www.hackerone.com/ai/hai-ai-assistant-vulnerability-intelligence",
+          "publishedOn": "2024-02-27T16:30:20.000Z",
+          "wordCount": 2645,
+          "title": "Hai: The AI Assistant for Vulnerability Intelligence",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-02/Hai%20blog%20header%402x.png"
+        },
+        {
+          "id": "https://hackerone.com/ai/snap-ai-red-teaming",
+          "author": "HackerOne",
+          "description": "Together, Snap Inc. and HackerOne have made significant developments in the methodology for AI safety red teaming.",
+          "link": "https://www.hackerone.com/ai/snap-ai-red-teaming",
+          "publishedOn": "2024-02-27T16:30:00.000Z",
+          "wordCount": 3739,
+          "title": "Snap's Safety Efforts With AI Red Teaming From HackerOne",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-02/Blog%20Header_Snap%20AI%20Blog%20763x462%402x_1.png"
+        },
+        {
           "id": "https://hackerone.com/ai/voice-cloning-qa",
           "author": "Dane Sherrets",
           "description": "HackerOne Senior Solutions Architect and AI Hacker Dane Sherrets demonstrates how bad actors are using AI voice cloning.",
@@ -252,7 +272,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "https://pentestlab.blog",
+      "siteUrl": "http://pentestlab.blog",
       "articles": [
         {
           "id": "https://pentestlab.blog/?p=32547",
@@ -293,26 +313,6 @@
           "wordCount": 4768,
           "title": "Persistence – Windows Setup Script",
           "imageUrl": "https://pentestlab.files.wordpress.com/2024/01/windows-setup-script-process-tree.png"
-        },
-        {
-          "id": "https://pentestlab.blog/?p=32478",
-          "author": "Administrator",
-          "description": "Disk Clean-up is a utility which is part of Windows operating systems and can free up hard drive disk space by deleting mainly cache and… \nContinue reading → Persistence – Disk Clean-up",
-          "link": "http://pentestlab.blog/2024/01/29/persistence-disk-clean-up/",
-          "publishedOn": "2024-01-29T05:59:00.000Z",
-          "wordCount": 5071,
-          "title": "Persistence – Disk Clean-up",
-          "imageUrl": "https://pentestlab.files.wordpress.com/2024/01/persistence-disk-clean-up-cleanup-dll.png"
-        },
-        {
-          "id": "http://pentestlab.blog/?p=32478",
-          "author": "Administrator",
-          "description": "Disk Clean-up is a utility which is part of Windows operating systems and can free up hard drive disk space by deleting mainly cache and… \nContinue reading → Persistence – Disk Clean-up",
-          "link": "https://pentestlab.blog/2024/01/29/persistence-disk-clean-up/",
-          "publishedOn": "2024-01-29T05:59:00.000Z",
-          "wordCount": 5024,
-          "title": "Persistence – Disk Clean-up",
-          "imageUrl": "https://pentestlab.files.wordpress.com/2024/01/persistence-disk-clean-up-cleanup-dll.png"
         }
       ]
     },
@@ -537,8 +537,28 @@
     {
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
-      "siteUrl": "https://blog.doyensec.com/atom.xml",
+      "siteUrl": "http://localhost:4000/atom.xml",
       "articles": [
+        {
+          "id": "http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
+          "author": null,
+          "description": "Introduction\nPrototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.\nFor those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.\n\n// Example of prototype pollution in a browser console\nObject.prototype.isAdmin = true;\nconst user = {};\nconsole.log(user.isAdmin); // …",
+          "link": "http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
+          "publishedOn": "2024-02-17T05:00:00.000Z",
+          "wordCount": null,
+          "title": "Unveiling the Server-Side Prototype Pollution Gadgets Scanner",
+          "imageUrl": null
+        },
+        {
+          "id": "http://localhost:4000/2024/01/30/poiex-release.html",
+          "author": null,
+          "description": "We are releasing a previously internal-only tool to improve Infrastructure as Code (IaC) analysis and enhance Visual Studio Code allowing real-time collaboration during manual code analysis activities. We’re excited to announce that PoIEx is now available on Github.\n\n\n\nNowadays, cloud-oriented solutions are no longer a buzzword, cloud providers offer ever more intelligent infrastructure services, handling features ranging from simple object storage to complex tasks such as user authentication and identity access management. With the growing complexity of cloud infrastructure, the interactions between application logic and infrastructure begin to play a critical role in ensuring application security.\nWith many recent high-profile incidents resulting from an insecure combination of web and c…",
+          "link": "http://localhost:4000/2024/01/30/poiex-release.html",
+          "publishedOn": "2024-01-30T05:00:00.000Z",
+          "wordCount": null,
+          "title": "Introducing PoIEx - Points Of Intersection Explorer",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com/2024/01/30/poiex-release.html",
           "author": null,
@@ -749,28 +769,7 @@
       "title": "ZephrSec - Adventures In Information Security",
       "feedUrl": "https://blog.zsec.uk/rss/",
       "siteUrl": "https://blog.zsec.uk/",
-      "articles": [
-        {
-          "id": "65b67aa28792421d3c226d61",
-          "author": "Andy Gill",
-          "description": "Reflecting on my experiences with various leaders, managers, and bosses, I've gained insights into effective and ineffective leadership styles.",
-          "link": "https://blog.zsec.uk/failing-upwards-pt2/",
-          "publishedOn": "2024-01-28T16:43:08.000Z",
-          "wordCount": 1479,
-          "title": "Failing Upwards: Put on your own mask before assisting others (Pt2)",
-          "imageUrl": "https://blog.zsec.uk/content/images/2024/01/DSC05250.jpg"
-        },
-        {
-          "id": "65a9c46a8792421d3c226be9",
-          "author": "Andy Gill",
-          "description": "If you find yourself on the path of leading a team, make sure you set critical baselines with your team. Always do what is best for your team and set them up for success.",
-          "link": "https://blog.zsec.uk/failing-upwards-pt1/",
-          "publishedOn": "2024-01-28T16:42:48.000Z",
-          "wordCount": 1712,
-          "title": "Failing Upwards (or not) (Pt1)",
-          "imageUrl": "https://blog.zsec.uk/content/images/2024/01/DSC05267--1-.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Security Research",
@@ -824,6 +823,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1580229",
+          "author": "Wolfgang Sommergut",
+          "description": "Usually, you want to secure your Windows account with a strong password or other authentication methods. However, there may be situations where you want to set up a Windows computer to log in automatically without requiring a password. If only one user operates a PC and the computer is physically protected from unauthorized access, you can afford the convenience of bypassing password login. Although Microsoft has reduced the auto-login options, enabling autologon in Windows 10/11 is still feasible.",
+          "link": "https://4sysops.com/archives/windows-auto-login-without-password/",
+          "publishedOn": "2024-02-27T17:52:47.000Z",
+          "wordCount": 3550,
+          "title": "Windows auto-login without password",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/02/Configure-Automatic-Logon-with-SysInternal-Autologon-600x373.png"
+        },
         {
           "id": "https://4sysops.com/?p=1580220",
           "author": "Hitesh Jethva",
@@ -1023,16 +1032,6 @@
           "wordCount": 16841,
           "title": "LM Studio: Run a local AI on your desktop or server",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Running-a-local-LLM-server-600x345.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579548",
-          "author": "Surender Kumar",
-          "description": "This post will guide you in debugging containerized apps running in Docker using Visual Studio (VS) Code.",
-          "link": "https://4sysops.com/archives/debug-with-docker-in-vs-code/",
-          "publishedOn": "2024-01-29T10:51:22.000Z",
-          "wordCount": 16906,
-          "title": "Debug with Docker in VS Code",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Inspect-the-app-running-in-a-container-with-Visual-Studio-Code-debugger-600x386.png"
         }
       ]
     },
@@ -1246,26 +1245,6 @@
           "publishedOn": "2024-01-31T00:00:00.000Z",
           "wordCount": 12601,
           "title": "Continuous Purple Teaming: A Practical Approach for Strengthening Your Offensive Capabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-cti-summit-2024",
-          "author": null,
-          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS CTI Summit 2024",
-          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-cti-summit-2024?msc=rss",
-          "publishedOn": "2024-01-29T00:00:00.000Z",
-          "wordCount": 3026,
-          "title": "A Visual Summary of SANS CTI Summit 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/three-common-threats-to-your-organization-s-data-to-be-aware-of-on-data-protection-day",
-          "author": null,
-          "description": "A blog about the need for robust data protection policies",
-          "link": "https://www.sans.org/blog/three-common-threats-to-your-organization-s-data-to-be-aware-of-on-data-protection-day?msc=rss",
-          "publishedOn": "2024-01-29T00:00:00.000Z",
-          "wordCount": 2977,
-          "title": "Three Common Threats to Your Organization’s Data to be Aware of on Data Protection Day",
           "imageUrl": null
         }
       ]
@@ -1509,7 +1488,18 @@
       "title": "NVISO Labs",
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=17077",
+          "author": "Guillaume Bossiroy",
+          "description": "Introduction In this blog post, I focus on the top things that you might not be doing (yet) in Entra Conditional Access. It is not an exhaustive list, but it is based on my experience assessing many different Entra ID, formerly Azure AD, environments as a consultant at NVISO Security. The following points are, in … Continue reading Top things that you might not be doing (yet) in Entra Conditional Access →",
+          "link": "https://blog.nviso.eu/2024/02/27/top-things-that-you-might-not-be-doing-yet-in-entra-conditional-access/",
+          "publishedOn": "2024-02-27T08:00:14.000Z",
+          "wordCount": 5373,
+          "title": "Top things that you might not be doing (yet) in Entra Conditional Access",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/01/Thumbnail-part-1-top-Entra-ID-CA.png"
+        }
+      ]
     },
     {
       "title": "bishopfox.com",
