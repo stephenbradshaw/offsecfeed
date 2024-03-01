@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-29T00:34:18.460Z</updated>
+    <updated>2024-03-01T00:38:07.541Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Install WireGuard VPN on OPNsense Firewall]]></title>
+        <id>https://4sysops.com/?p=1580296</id>
+        <link href="https://4sysops.com/archives/install-wireguard-vpn-on-opnsense-firewall/"/>
+        <updated>2024-02-29T12:54:19.000Z</updated>
+        <summary type="html"><![CDATA[If you are using an OPNsense firewall, you can configure WireGuard as a VPN server instead of OpenVPN. There are clients available for all major operating systems. Additionally, it is very fast and lightweight. You can easily install it as an OPNsense extension and configure it through the web console.]]></summary>
+        <author>
+            <name>Thomas Joos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The CISO's Guide to AI: Embracing Innovation While Mitigating Risk]]></title>
+        <id>https://www.sans.org/blog/the-ciso-s-guide-to-ai-embracing-innovation-while-mitigating-risk</id>
+        <link href="https://www.sans.org/blog/the-ciso-s-guide-to-ai-embracing-innovation-while-mitigating-risk?msc=rss"/>
+        <updated>2024-02-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s likely AI will become ubiquitous, which means CISOs must know how to manage, guide, and lead AI’s adoption.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aviata Cloud Solo Flight Challenge]]></title>
+        <id>https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/</id>
+        <link href="https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/?msc=rss"/>
+        <updated>2024-02-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Master cloud security by tackling this free series of workshops.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Chrome Platform Notification Analysis]]></title>
+        <id>https://www.sans.org/blog/google-chrome-platform-notification-analysis</id>
+        <link href="https://www.sans.org/blog/google-chrome-platform-notification-analysis?msc=rss"/>
+        <updated>2024-02-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An overwhelming amount of forensic information is tied up in the Google LevelDB format and is being missed by forensic examiners. This includes numerous databases present in Chromium-based browsers and a massive amount of data sitting behind Electron-based applications.  Open-source support for LevelDB analysis is sparse, but some vendors are starting to incorporate capabilities within their tool suites. In this post, we use the new Arsenal Recon LevelDB Recon tool to examine the Chrome Platform Notifications database extracting a surprising amount of information, including over six months of calendar reminders.  If you have not been paying attention to LevelDB artifacts let this short post be your wake-up call!]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ADCS ESC14 Abuse Technique]]></title>
         <id>https://medium.com/p/333a004dc2b9</id>
@@ -105,6 +145,16 @@ The post Extracting Sensitive Information from the Azure Batch Service  appeare
         <summary type="html"><![CDATA[Introduction In this blog post, I focus on the top things that you might not be doing (yet) in Entra Conditional Access. It is not an exhaustive list, but it is based on my experience assessing many different Entra ID, formerly Azure AD, environments as a consultant at NVISO Security. The following points are, in … Continue reading Top things that you might not be doing (yet) in Entra Conditional Access →]]></summary>
         <author>
             <name>Guillaume Bossiroy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Visual Summary of SANS OSINT Summit 2024]]></title>
+        <id>https://www.sans.org/blog/a-visual-summary-of-osint-summit-2024</id>
+        <link href="https://www.sans.org/blog/a-visual-summary-of-osint-summit-2024?msc=rss"/>
+        <updated>2024-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS OSINT Summit 2024]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1112,47 +1162,6 @@ The post Relution Remote Code Execution via Java Deserialization Vulnerability a
         <summary type="html"><![CDATA[By Michael Brown We recently released a new differential testing tool, called DIFFER, for finding bugs and soundness violations in transformed programs. DIFFER combines elements from differential, regression, and fuzz testing to help users find bugs in programs that have been altered by software rewriting, debloating, and hardening tools. We used DIFFER to evaluate 10 […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connect an Azure Function or Web App to a Key Vault to retrieve secrets with PowerShell]]></title>
-        <id>https://4sysops.com/?p=1579562</id>
-        <link href="https://4sysops.com/archives/connect-an-azure-function-or-web-app-to-a-key-vault-to-retrieve-secrets-with-powershell/"/>
-        <updated>2024-01-31T08:22:41.000Z</updated>
-        <summary type="html"><![CDATA[Azure Functions often require access to sensitive information. It is a security risk to store credentials in code or configuration files. Thus, protecting sensitive information like connection strings, API keys, or passwords is crucial. This is where Azure Key Vault comes in, offering secure and centralized storage for all your secrets. In this article, I will explain how to retrieve secrets from the Key Vault within an Azure Function using PowerShell.]]></summary>
-        <author>
-            <name>Baki Onur Okutucu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Continuous Purple Teaming: A Practical Approach for Strengthening Your Offensive Capabilities]]></title>
-        <id>https://www.sans.org/blog/continuous-purple-teaming-practical-approach-strengthening-offensive-capabilities</id>
-        <link href="https://www.sans.org/blog/continuous-purple-teaming-practical-approach-strengthening-offensive-capabilities?msc=rss"/>
-        <updated>2024-01-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog on continuous purple teaming with CALDERA.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BOFHound: Session Integration]]></title>
-        <id>https://medium.com/p/7b88b6f18423</id>
-        <link href="https://posts.specterops.io/bofhound-session-integration-7b88b6f18423?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-01-30T17:02:02.000Z</updated>
-        <summary type="html"><![CDATA[Manually Enumerating Non-LDAP Data for BloodHound]]></summary>
-        <author>
-            <name>Matt Creel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why VDIs?]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=52267</id>
-        <link href="https://www.secureauth.com/blog/why-vdis/"/>
-        <updated>2024-01-30T15:14:48.000Z</updated>
-        <summary type="html"><![CDATA[A lot of companies have a system of virtual desktops that they use to make their business work. It could be a healthcare business, and the console follows the doctor around. Maybe it’s a bank and the tellers have to switch kiosks from time to time. Maybe it’s manufacturing, and there are a series of […]
-The post Why VDIs? appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>Joan Fronske</name>
         </author>
     </entry>
     <entry>
