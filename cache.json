@@ -400,7 +400,28 @@
       "title": "Grsecurity Blog RSS Feed",
       "feedUrl": "https://grsecurity.net/blog.rss",
       "siteUrl": "https://www.grsecurity.net/blog.rss",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.grsecurity.net/paxtest_release.php",
+          "author": null,
+          "description": "This short blog announces the release of a new version of PaXtest after a long hiatus, adding analysis of ASLR behavior under various hugepage-related conditions.",
+          "link": "https://www.grsecurity.net/paxtest_release.php",
+          "publishedOn": "2024-03-01T05:00:00.000Z",
+          "wordCount": 2910,
+          "title": "PaXtest 0.10.0 Release",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.grsecurity.net/paxtest_release.php",
+          "author": null,
+          "description": "This short blog announces the release of a new version of PaXtest after a long hiatus, adding analysis of ASLR behavior under various hugepage-related conditions.",
+          "link": "https://www.grsecurity.net/paxtest_release.php",
+          "publishedOn": "2024-03-01T05:00:00.000Z",
+          "wordCount": 2910,
+          "title": "PaXtest 0.10.0 Release",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Zeta-Two.com",
@@ -489,16 +510,6 @@
           "wordCount": 2053,
           "title": "Exploiting Kubernetes through Operator Injection",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=5532",
-          "author": "Thomas Tan",
-          "description": "Overview In this article we discuss a recent deserialization vulnerability we found in Relution (CVE-2023-48178), a mobile device management product that is popular among multinational German corporations. CVE-2023-48178 can potentially lead to remote code execution and complete compromise of the MDM application and clients managed by the solution. The deserialization vulnerability exists in a component […]\nThe post Relution Remote Code Execution via Java Deserialization Vulnerability appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/relution-remote-code-execution-java-deserialization-vulnerability/",
-          "publishedOn": "2024-02-01T03:09:44.000Z",
-          "wordCount": 6454,
-          "title": "Relution Remote Code Execution via Java Deserialization Vulnerability",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/01/01-official-relution-documentation1.png"
         }
       ]
     },
@@ -589,6 +600,26 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=106652",
+          "author": "Trail of Bits",
+          "description": "By Shaun Mirani Near the end of 2022, Trail of Bits was hired by the Open Source Technology Improvement Fund (OSTIF) to perform a security assessment of the cURL file transfer command-line utility and its library, libcurl. The scope of our engagement included a code review, a threat model, and the subject of this blog […]",
+          "link": "https://blog.trailofbits.com/2024/03/01/toward-more-effective-curl-fuzzing/",
+          "publishedOn": "2024-03-01T14:30:25.000Z",
+          "wordCount": 4208,
+          "title": "How we applied advanced fuzzing techniques to cURL",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/02/image_1-1024x31.png"
+        },
+        {
+          "id": "https://blog.trailofbits.com/?p=106692",
+          "author": "Trail of Bits",
+          "description": "By Troy Sargent Have you ever wondered how a rollup and its base chain—the chain that the rollup commits state checkpoints to—communicate and interact? How can a user with funds only on the base chain interact with contracts on the rollup? In Arbitrum Nitro, one way to call a method on a contract deployed on […]",
+          "link": "https://blog.trailofbits.com/2024/03/01/when-try-try-try-again-leads-to-out-of-order-execution-bugs/",
+          "publishedOn": "2024-03-01T12:00:42.000Z",
+          "wordCount": 3681,
+          "title": "When try, try, try again leads to out-of-order execution bugs",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/03/retryable-tx-1_updated-2-1024x396.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=106593",
           "author": "Trail of Bits",
@@ -698,16 +729,6 @@
           "wordCount": 3650,
           "title": "Chaos Communication Congress (37C3) recap",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/01/image_1-1024x577.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=106148",
-          "author": "Trail of Bits",
-          "description": "By Michael Brown We recently released a new differential testing tool, called DIFFER, for finding bugs and soundness violations in transformed programs. DIFFER combines elements from differential, regression, and fuzz testing to help users find bugs in programs that have been altered by software rewriting, debloating, and hardening tools. We used DIFFER to evaluate 10 […]",
-          "link": "https://blog.trailofbits.com/2024/01/31/introducing-differ-a-new-tool-for-testing-and-validating-transformed-programs/",
-          "publishedOn": "2024-01-31T14:30:48.000Z",
-          "wordCount": 3183,
-          "title": "Introducing DIFFER, a new tool for testing and validating transformed programs",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2024/01/Differ-Tool-Design-2.png?fit=1000%2C820&ssl=1"
         }
       ]
     },
@@ -822,6 +843,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1580378",
+          "author": "Edem Afenyo",
+          "description": "Sudo for Windows has been available since Build 26052 and is currently only accessible through the Windows Insiders program as part of preview builds for Windows 11. At this time, it appears that sudo will not come to Windows Server 2025. In this article, I explain how to use sudo in Windows 11 and compare Sudo for Windows with Runas, Gsudo, and Sudo for Linux.",
+          "link": "https://4sysops.com/archives/sudo-for-windows-vs-runas-and-sudo-for-linux/",
+          "publishedOn": "2024-03-01T16:08:55.000Z",
+          "wordCount": 3886,
+          "title": "Sudo for Windows vs. Runas and Sudo for Linux",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/02/Running-sudo-in-normal-mode-600x343.png"
+        },
         {
           "id": "https://4sysops.com/?p=1580296",
           "author": "Thomas Joos",
@@ -1021,16 +1052,6 @@
           "wordCount": 16152,
           "title": "Tuning Ceph performance",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Ceph-Placement-Group-calculator-output-600x416.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579517",
-          "author": "Wolfgang Sommergut",
-          "description": "Before deployment, Microsoft ISO's install .wim or custom images should be updated. With the DISM module in PowerShell, you can add .msu updates, apps, and drivers to a Windows image offline without the need to boot it up.",
-          "link": "https://4sysops.com/archives/add-updates-msu-offline-into-windows-images-wim/",
-          "publishedOn": "2024-02-01T12:17:22.000Z",
-          "wordCount": 15461,
-          "title": "Add updates (.msu) offline into Windows images (.wim)",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Download-missing-patches-from-the-Microsoft-Update-Catalog.-600x360.png"
         }
       ]
     },
@@ -1055,7 +1076,18 @@
       "title": "Hexacorn",
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9094",
+          "author": "adam",
+          "description": "I was recently surprised by the fact that Windows’ nslookup.exe accepts the local config file .nslookuprc. When the program starts it resolves the environment variable HOME and then looks for a %HOME%\\.nslookuprc file. It then reads this config file (if … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/03/01/1-little-known-secret-of-nslookup-exe/",
+          "publishedOn": "2024-03-01T23:59:08.000Z",
+          "wordCount": 530,
+          "title": "1 little known secret of nslookup.exe",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Penetration testing Archives - MDSec",
@@ -1138,16 +1170,6 @@
           "wordCount": 2853,
           "title": "Ski & bike helmets protect your head, not location or voice",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=27909",
-          "author": "Antonio Cassidy",
-          "description": "We’ve been testing the security of a number of different electronic flight bag, or EFB, applications for a few years now. Here’s the latest on that now it has been […]\nHacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/hacking-electronic-flight-bags-airbus-navblue-flysmart-manager/",
-          "publishedOn": "2024-02-01T06:03:28.000Z",
-          "wordCount": 2596,
-          "title": "Hacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager",
-          "imageUrl": null
         }
       ]
     },
@@ -1156,6 +1178,26 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/a-tale-of-the-three-ishings-part-02-what-is-smishing",
+          "author": null,
+          "description": "A blog post about smishing.",
+          "link": "https://www.sans.org/blog/a-tale-of-the-three-ishings-part-02-what-is-smishing?msc=rss",
+          "publishedOn": "2024-03-01T00:00:00.000Z",
+          "wordCount": 4557,
+          "title": "A Tale of the Three *ishings: Part 02 – What is Smishing?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum",
+          "author": null,
+          "description": "SANS Cybersecurity Leadership Curriculum provides chief information security officer training, as well as for other directors and leaders.",
+          "link": "https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum?msc=rss",
+          "publishedOn": "2024-03-01T00:00:00.000Z",
+          "wordCount": 4649,
+          "title": "SANS Cybersecurity Leadership Curriculum",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/the-ciso-s-guide-to-ai-embracing-innovation-while-mitigating-risk",
           "author": null,
@@ -1371,16 +1413,6 @@
           "wordCount": 1727,
           "title": "Home Grown Red Team: Adding Icons To Windows Based Executables Compiled In Linux",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:943/1*HKteJurGixuuQkgk9LCwqg.png"
-        },
-        {
-          "id": "https://medium.com/p/ab838cca3519",
-          "author": "assume-breach",
-          "description": "Okay, so obviously this thing blew up. I really wasn’t expecting it to go this way but I figured I should probably do some kind of…",
-          "link": "https://assume-breach.medium.com/im-not-a-pentester-and-you-might-not-want-to-be-one-either-part-2-the-response-ab838cca3519?source=rss-fe83402397b0------2",
-          "publishedOn": "2024-01-31T18:50:32.000Z",
-          "wordCount": 9513,
-          "title": "I’m Not A Pentester (And You Might Not Want To Be One Either) Part 2 : The Response",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*jtB5Xlzg3_VIQoxAnNV0NA.png"
         }
       ]
     },
@@ -1499,6 +1531,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=17367",
+          "author": "Maxime Thiebaut",
+          "description": "This report documents two covert TLS-based backdoors identified by NVISO: SparkCockpit & SparkTar. Both backdoors employ selective interception of TLS communication towards the legitimate Ivanti server applications.",
+          "link": "https://blog.nviso.eu/2024/03/01/covert-tls-n-day-backdoors-sparkcockpit-sparktar/",
+          "publishedOn": "2024-03-01T10:59:00.000Z",
+          "wordCount": 2086,
+          "title": "Covert TLS n-day backdoors: SparkCockpit & SparkTar",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/02/SC_ST_blog.jpg"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=17077",
           "author": "Guillaume Bossiroy",
           "description": "Introduction In this blog post, I focus on the top things that you might not be doing (yet) in Entra Conditional Access. It is not an exhaustive list, but it is based on my experience assessing many different Entra ID, formerly Azure AD, environments as a consultant at NVISO Security. The following points are, in … Continue reading Top things that you might not be doing (yet) in Entra Conditional Access →",
@@ -1515,6 +1557,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/cve-2024-21762-vulnerability-scanner-for-fortigate-firewalls",
+          "author": "Bishop Fox",
+          "description": "Discover vulnerable FortiGate firewalls with the Bishop Fox CVE-2024-21762 vulnerability scanner.",
+          "link": "https://bishopfox.com/blog/cve-2024-21762-vulnerability-scanner-for-fortigate-firewalls",
+          "publishedOn": "2024-03-01T11:00:00.000Z",
+          "wordCount": 2009,
+          "title": "CVE-2024-21762 Vulnerability Scanner for FortiGate Firewalls",
+          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-CVE-2024-21762_OG.jpg?mtime=1709237394"
+        },
         {
           "id": "https://bishopfox.com/blog/unlocking-opportunities-with-linkedin-and-ai",
           "author": "Kaitlin O'Neil",

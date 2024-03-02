@@ -2,10 +2,110 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-01T00:38:07.541Z</updated>
+    <updated>2024-03-02T00:33:06.327Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of nslookup.exe]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9094</id>
+        <link href="https://www.hexacorn.com/blog/2024/03/01/1-little-known-secret-of-nslookup-exe/"/>
+        <updated>2024-03-01T23:59:08.000Z</updated>
+        <summary type="html"><![CDATA[I was recently surprised by the fact that Windows’ nslookup.exe accepts the local config file .nslookuprc. When the program starts it resolves the environment variable HOME and then looks for a %HOME%\.nslookuprc file. It then reads this config file (if … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sudo for Windows vs. Runas and Sudo for Linux]]></title>
+        <id>https://4sysops.com/?p=1580378</id>
+        <link href="https://4sysops.com/archives/sudo-for-windows-vs-runas-and-sudo-for-linux/"/>
+        <updated>2024-03-01T16:08:55.000Z</updated>
+        <summary type="html"><![CDATA[Sudo for Windows has been available since Build 26052 and is currently only accessible through the Windows Insiders program as part of preview builds for Windows 11. At this time, it appears that sudo will not come to Windows Server 2025. In this article, I explain how to use sudo in Windows 11 and compare Sudo for Windows with Runas, Gsudo, and Sudo for Linux.]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we applied advanced fuzzing techniques to cURL]]></title>
+        <id>https://blog.trailofbits.com/?p=106652</id>
+        <link href="https://blog.trailofbits.com/2024/03/01/toward-more-effective-curl-fuzzing/"/>
+        <updated>2024-03-01T14:30:25.000Z</updated>
+        <summary type="html"><![CDATA[By Shaun Mirani Near the end of 2022, Trail of Bits was hired by the Open Source Technology Improvement Fund (OSTIF) to perform a security assessment of the cURL file transfer command-line utility and its library, libcurl. The scope of our engagement included a code review, a threat model, and the subject of this blog […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When try, try, try again leads to out-of-order execution bugs]]></title>
+        <id>https://blog.trailofbits.com/?p=106692</id>
+        <link href="https://blog.trailofbits.com/2024/03/01/when-try-try-try-again-leads-to-out-of-order-execution-bugs/"/>
+        <updated>2024-03-01T12:00:42.000Z</updated>
+        <summary type="html"><![CDATA[By Troy Sargent Have you ever wondered how a rollup and its base chain—the chain that the rollup commits state checkpoints to—communicate and interact? How can a user with funds only on the base chain interact with contracts on the rollup? In Arbitrum Nitro, one way to call a method on a contract deployed on […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-21762 Vulnerability Scanner for FortiGate Firewalls]]></title>
+        <id>https://bishopfox.com/blog/cve-2024-21762-vulnerability-scanner-for-fortigate-firewalls</id>
+        <link href="https://bishopfox.com/blog/cve-2024-21762-vulnerability-scanner-for-fortigate-firewalls"/>
+        <updated>2024-03-01T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover vulnerable FortiGate firewalls with the Bishop Fox CVE-2024-21762 vulnerability scanner.]]></summary>
+        <author>
+            <name>Bishop Fox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Covert TLS n-day backdoors: SparkCockpit & SparkTar]]></title>
+        <id>https://blog.nviso.eu/?p=17367</id>
+        <link href="https://blog.nviso.eu/2024/03/01/covert-tls-n-day-backdoors-sparkcockpit-sparktar/"/>
+        <updated>2024-03-01T10:59:00.000Z</updated>
+        <summary type="html"><![CDATA[This report documents two covert TLS-based backdoors identified by NVISO: SparkCockpit & SparkTar. Both backdoors employ selective interception of TLS communication towards the legitimate Ivanti server applications.]]></summary>
+        <author>
+            <name>Maxime Thiebaut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PaXtest 0.10.0 Release]]></title>
+        <id>https://www.grsecurity.net/paxtest_release.php</id>
+        <link href="https://www.grsecurity.net/paxtest_release.php"/>
+        <updated>2024-03-01T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This short blog announces the release of a new version of PaXtest after a long hiatus, adding analysis of ASLR behavior under various hugepage-related conditions.]]></summary>
+        <author>
+            <name>Grsecurity Blog RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PaXtest 0.10.0 Release]]></title>
+        <id>https://www.grsecurity.net/paxtest_release.php</id>
+        <link href="https://www.grsecurity.net/paxtest_release.php"/>
+        <updated>2024-03-01T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This short blog announces the release of a new version of PaXtest after a long hiatus, adding analysis of ASLR behavior under various hugepage-related conditions.]]></summary>
+        <author>
+            <name>Grsecurity Blog RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Tale of the Three *ishings: Part 02 – What is Smishing?]]></title>
+        <id>https://www.sans.org/blog/a-tale-of-the-three-ishings-part-02-what-is-smishing</id>
+        <link href="https://www.sans.org/blog/a-tale-of-the-three-ishings-part-02-what-is-smishing?msc=rss"/>
+        <updated>2024-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog post about smishing.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SANS Cybersecurity Leadership Curriculum]]></title>
+        <id>https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum</id>
+        <link href="https://www.sans.org/blog/sans-cybersecurity-leadership-curriculum?msc=rss"/>
+        <updated>2024-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS Cybersecurity Leadership Curriculum provides chief information security officer training, as well as for other directors and leaders.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Install WireGuard VPN on OPNsense Firewall]]></title>
         <id>https://4sysops.com/?p=1580296</id>
@@ -1110,58 +1210,6 @@ Read full post
 The post Unmanaged .NET Patching appeared first on Outflank.]]></summary>
         <author>
             <name>Kyle Avery</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Add updates (.msu) offline into Windows images (.wim)]]></title>
-        <id>https://4sysops.com/?p=1579517</id>
-        <link href="https://4sysops.com/archives/add-updates-msu-offline-into-windows-images-wim/"/>
-        <updated>2024-02-01T12:17:22.000Z</updated>
-        <summary type="html"><![CDATA[Before deployment, Microsoft ISO's install .wim or custom images should be updated. With the DISM module in PowerShell, you can add .msu updates, apps, and drivers to a Windows image offline without the need to boot it up.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager]]></title>
-        <id>https://www.pentestpartners.com/?p=27909</id>
-        <link href="https://www.pentestpartners.com/security-blog/hacking-electronic-flight-bags-airbus-navblue-flysmart-manager/"/>
-        <updated>2024-02-01T06:03:28.000Z</updated>
-        <summary type="html"><![CDATA[We’ve been testing the security of a number of different electronic flight bag, or EFB, applications for a few years now. Here’s the latest on that now it has been […]
-Hacking Electronic Flight Bags. Airbus NAVBLUE Flysmart+ Manager first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Antonio Cassidy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Relution Remote Code Execution via Java Deserialization Vulnerability]]></title>
-        <id>https://www.praetorian.com/?p=5532</id>
-        <link href="https://www.praetorian.com/blog/relution-remote-code-execution-java-deserialization-vulnerability/"/>
-        <updated>2024-02-01T03:09:44.000Z</updated>
-        <summary type="html"><![CDATA[Overview In this article we discuss a recent deserialization vulnerability we found in Relution (CVE-2023-48178), a mobile device management product that is popular among multinational German corporations. CVE-2023-48178 can potentially lead to remote code execution and complete compromise of the MDM application and clients managed by the solution. The deserialization vulnerability exists in a component […]
-The post Relution Remote Code Execution via Java Deserialization Vulnerability appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Thomas Tan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’m Not A Pentester (And You Might Not Want To Be One Either) Part 2 : The Response]]></title>
-        <id>https://medium.com/p/ab838cca3519</id>
-        <link href="https://assume-breach.medium.com/im-not-a-pentester-and-you-might-not-want-to-be-one-either-part-2-the-response-ab838cca3519?source=rss-fe83402397b0------2"/>
-        <updated>2024-01-31T18:50:32.000Z</updated>
-        <summary type="html"><![CDATA[Okay, so obviously this thing blew up. I really wasn’t expecting it to go this way but I figured I should probably do some kind of…]]></summary>
-        <author>
-            <name>assume-breach</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing DIFFER, a new tool for testing and validating transformed programs]]></title>
-        <id>https://blog.trailofbits.com/?p=106148</id>
-        <link href="https://blog.trailofbits.com/2024/01/31/introducing-differ-a-new-tool-for-testing-and-validating-transformed-programs/"/>
-        <updated>2024-01-31T14:30:48.000Z</updated>
-        <summary type="html"><![CDATA[By Michael Brown We recently released a new differential testing tool, called DIFFER, for finding bugs and soundness violations in transformed programs. DIFFER combines elements from differential, regression, and fuzz testing to help users find bugs in programs that have been altered by software rewriting, debloating, and hardening tools. We used DIFFER to evaluate 10 […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
