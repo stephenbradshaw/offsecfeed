@@ -107,16 +107,6 @@
           "wordCount": 1152,
           "title": "What's new with BChecks?",
           "imageUrl": "https://portswigger.net/cms/images/b2/e6/5bf1-twittercard-screenshot_2024-02-06_at_15.46.21.png"
-        },
-        {
-          "id": "introducing-custom-scan-checks-to-burp-suite-enterprise-edition",
-          "author": null,
-          "description": "BChecks, in a nutshell, are easy to use custom-created scan checks that enable you to extend the capabilities of Burp Scanner in a quick and simple way. We recently released BChecks to Burp Suite Prof",
-          "link": "https://portswigger.net/blog/introducing-custom-scan-checks-to-burp-suite-enterprise-edition",
-          "publishedOn": "2024-02-02T11:26:42.000Z",
-          "wordCount": 1120,
-          "title": "Introducing custom scan checks to Burp Suite Enterprise Edition",
-          "imageUrl": "https://portswigger.net/cms/images/09/b5/6491-twittercard-bchecks-bsee-social-card.jpeg"
         }
       ]
     },
@@ -282,7 +272,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": [
         {
           "id": "https://pentestlab.blog/?p=32547",
@@ -1042,16 +1032,6 @@
           "wordCount": 16071,
           "title": "Build your own ChatGPT app",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/02/Building-your-own-ChatGPT-app-600x374.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579592",
-          "author": "Evi Vanoost",
-          "description": "Tuning Ceph performance is crucial to ensure that your Ceph storage cluster operates efficiently and meets the specific requirements of your workload. As Ceph installations, both in software and hardware, are upgraded or as your workload changes, the default tunables that were optimal at one time may now be obsolete or counterproductive.",
-          "link": "https://4sysops.com/archives/tuning-ceph-performance/",
-          "publishedOn": "2024-02-02T09:08:32.000Z",
-          "wordCount": 16152,
-          "title": "Tuning Ceph performance",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Ceph-Placement-Group-calculator-output-600x416.png"
         }
       ]
     },
@@ -1077,6 +1057,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9101",
+          "author": "adam",
+          "description": "Windows Explorer is a beast. It does so many things when it starts that it hurts… Sometimes, literally. One of the things it checks during its startup routine is the comparison of the Registry value HKEY_CURRENT_USER\\Control Panel\\Appearance\\SchemeLangID and the result … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/03/03/1-little-known-secret-of-explorer-exe/",
+          "publishedOn": "2024-03-03T00:33:23.000Z",
+          "wordCount": 590,
+          "title": "1 little known secret of explorer.exe",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9094",
           "author": "adam",
@@ -1676,18 +1666,7 @@
       "title": "Publications | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": [
-        {
-          "id": "https://www.outflank.nl/?p=3662",
-          "author": "Kyle Avery",
-          "description": "To execute .NET post-exploitation tools safely, operators may want to modify certain managed functions. For example, some C# tools use the .NET standard library to terminate their process after execution. This may not be an issue for fork&run implementations that spawn a sacrificial process, but executing in-process will terminate an implant. One could write a small .NET program that resolves and patches these functions, but we were interested in an unmanaged approach (i.e. a unmanaged implant executing managed code in-process). While our example targets System.Environment.Exit, a similar technique should work for any managed function.\n\nIn January 2022, I uploaded a functional example of this approach to my personal GitHub. However, the implementation was a part of a larger project, and I’ve received a few questions about the technique, so I created this standalone example and writeup.\nTags: dotnet\nRead full post\nThe post Unmanaged .NET Patching appeared first on Outflank.",
-          "link": "https://www.outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/",
-          "publishedOn": "2024-02-01T14:00:15.000Z",
-          "wordCount": 2143,
-          "title": "Unmanaged .NET Patching",
-          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/01/mscorlib.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "IFCR - Medium",

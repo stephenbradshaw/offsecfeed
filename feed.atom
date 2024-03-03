@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-02T00:33:06.327Z</updated>
+    <updated>2024-03-03T00:36:13.774Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of explorer.exe]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9101</id>
+        <link href="https://www.hexacorn.com/blog/2024/03/03/1-little-known-secret-of-explorer-exe/"/>
+        <updated>2024-03-03T00:33:23.000Z</updated>
+        <summary type="html"><![CDATA[Windows Explorer is a beast. It does so many things when it starts that it hurts… Sometimes, literally. One of the things it checks during its startup routine is the comparison of the Registry value HKEY_CURRENT_USER\Control Panel\Appearance\SchemeLangID and the result … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1 little known secret of nslookup.exe]]></title>
         <id>https://www.hexacorn.com/blog/?p=9094</id>
@@ -1175,41 +1185,6 @@ Continue reading → Persistence – Windows Setup Script]]></summary>
         <summary type="html"><![CDATA[Last month, two of our engineers attended the 37th Chaos Communication Congress (37C3) in Hamburg, joining thousands of hackers who gather each year to exchange the latest research and achievements in technology and security. Unlike other tech conferences, this annual gathering focuses on the interaction of technology and society, covering such topics as politics, entertainment, […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing custom scan checks to Burp Suite Enterprise Edition]]></title>
-        <id>introducing-custom-scan-checks-to-burp-suite-enterprise-edition</id>
-        <link href="https://portswigger.net/blog/introducing-custom-scan-checks-to-burp-suite-enterprise-edition"/>
-        <updated>2024-02-02T11:26:42.000Z</updated>
-        <summary type="html"><![CDATA[BChecks, in a nutshell, are easy to use custom-created scan checks that enable you to extend the capabilities of Burp Scanner in a quick and simple way. We recently released BChecks to Burp Suite Prof]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tuning Ceph performance]]></title>
-        <id>https://4sysops.com/?p=1579592</id>
-        <link href="https://4sysops.com/archives/tuning-ceph-performance/"/>
-        <updated>2024-02-02T09:08:32.000Z</updated>
-        <summary type="html"><![CDATA[Tuning Ceph performance is crucial to ensure that your Ceph storage cluster operates efficiently and meets the specific requirements of your workload. As Ceph installations, both in software and hardware, are upgraded or as your workload changes, the default tunables that were optimal at one time may now be obsolete or counterproductive.]]></summary>
-        <author>
-            <name>Evi Vanoost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unmanaged .NET Patching]]></title>
-        <id>https://www.outflank.nl/?p=3662</id>
-        <link href="https://www.outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/"/>
-        <updated>2024-02-01T14:00:15.000Z</updated>
-        <summary type="html"><![CDATA[To execute .NET post-exploitation tools safely, operators may want to modify certain managed functions. For example, some C# tools use the .NET standard library to terminate their process after execution. This may not be an issue for fork&run implementations that spawn a sacrificial process, but executing in-process will terminate an implant. One could write a small .NET program that resolves and patches these functions, but we were interested in an unmanaged approach (i.e. a unmanaged implant executing managed code in-process). While our example targets System.Environment.Exit, a similar technique should work for any managed function.
-
-In January 2022, I uploaded a functional example of this approach to my personal GitHub. However, the implementation was a part of a larger project, and I’ve received a few questions about the technique, so I created this standalone example and writeup.
-Tags: dotnet
-Read full post
-The post Unmanaged .NET Patching appeared first on Outflank.]]></summary>
-        <author>
-            <name>Kyle Avery</name>
         </author>
     </entry>
     <entry>
