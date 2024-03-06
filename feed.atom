@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-05T00:33:35.077Z</updated>
+    <updated>2024-03-06T00:34:19.330Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Using form hijacking to bypass CSP]]></title>
+        <id>using-form-hijacking-to-bypass-csp</id>
+        <link href="https://portswigger.net/research/using-form-hijacking-to-bypass-csp"/>
+        <updated>2024-03-05T14:55:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post we'll show you how to bypass CSP by using an often overlooked technique that can enable password theft in a seemingly secure configuration. What is form hijacking? Form hijacking isn't re]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Final Steps to BloodHound Federal — FedRAMP High Compliance]]></title>
+        <id>https://medium.com/p/8475c6aee8c9</id>
+        <link href="https://posts.specterops.io/final-steps-to-bloodhound-federal-fedramp-high-compliance-8475c6aee8c9?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-03-05T14:02:21.000Z</updated>
+        <author>
+            <name>Justin Kohler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cryptographic design review of Ockam]]></title>
+        <id>https://blog.trailofbits.com/?p=106683</id>
+        <link href="https://blog.trailofbits.com/2024/03/05/cryptographic-design-review-of-ockam/"/>
+        <updated>2024-03-05T14:00:38.000Z</updated>
+        <summary type="html"><![CDATA[By Marc Ilunga, Jim Miller, Fredrik Dahlgren, and Joop van de Pol In October 2023, Ockam hired Trail of Bits to review the design of its product, a set of protocols that aims to enable secure communication (i.e., end-to-end encrypted and mutually authenticated channels) across various heterogeneous networks. A secure system starts at the design […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Convert certificate format with OpenSSL]]></title>
+        <id>https://4sysops.com/?p=1580476</id>
+        <link href="https://4sysops.com/archives/convert-certificate-format-with-openssl/"/>
+        <updated>2024-03-05T12:40:36.000Z</updated>
+        <summary type="html"><![CDATA[OpenSSL is an open-source library and a command-line tool that helps admins and developers perform various cryptographic tasks, such as generating key pairs, certificate signing requests (CSR), verifying certificates, encrypting and decrypting data, identifying certificate information, verifying file integrity and much more. In this post, you will learn how to convert TLS certificates into different formats with OpenSSL.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Persistence – Explorer]]></title>
+        <id>http://pentestlab.blog/?p=33151</id>
+        <link href="https://pentestlab.blog/2024/03/05/persistence-explorer/"/>
+        <updated>2024-03-05T07:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows File Explorer is the is the graphical file management utility for the Windows operating system and the default desktop environment. Windows explorer was introduced… 
+Continue reading → Persistence – Explorer]]></summary>
+        <author>
+            <name>Administrator</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fuzzer Development 3: Building Bochs, MMU, and File I/0]]></title>
+        <id>https://h0mbre.github.io/Loading_Bochs/</id>
+        <link href="https://h0mbre.github.io/Loading_Bochs/"/>
+        <updated>2024-03-05T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Background]]></summary>
+        <author>
+            <name>The Human Machine Interface</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SANS Cloud Security Curriculum]]></title>
+        <id>https://www.sans.org/blog/sans-cloud-security-curriculum</id>
+        <link href="https://www.sans.org/blog/sans-cloud-security-curriculum?msc=rss"/>
+        <updated>2024-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog outlining the SANS Cloud Security Curriculum offerings and resources.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Public Report – AWS Nitro System API & Security Claims Italian]]></title>
         <id>https://research.nccgroup.com/?p=33802</id>
@@ -1247,38 +1317,6 @@ An arbitrary f…]]></summary>
         <summary type="html"><![CDATA[Authors: David Brown and Mungomba Mulenga TL;dr NCC Group has observed what we believe to be the attempted exploitation of CVE-2021-42278 and CVE-2021-42287 as a means of privilege escalation, following the successful compromise of an Ivanti Secure Connect VPN using the following zero-day vulnerabilities reported by Volexity1 on 10/01/2024: By combining these vulnerabilities threat actors […]]]></summary>
         <author>
             <name>Global Threat Intelligence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build your own ChatGPT app]]></title>
-        <id>https://4sysops.com/?p=1579625</id>
-        <link href="https://4sysops.com/archives/build-your-own-chatgpt-app/"/>
-        <updated>2024-02-05T09:23:01.000Z</updated>
-        <summary type="html"><![CDATA[In my previous post on the OpenAI API, I introduced a simple chatbot that demonstrated how to interact with the API. In this post, I will take it a step further by showing you how to create your own ChatGPT app. You may be wondering why you need your own ChatGPT app when you can use the OpenAI web interface.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Persistence – Windows Setup Script]]></title>
-        <id>https://pentestlab.blog/?p=32525</id>
-        <link href="http://pentestlab.blog/2024/02/05/persistence-windows-setup-script/"/>
-        <updated>2024-02-05T05:53:00.000Z</updated>
-        <summary type="html"><![CDATA[When the Windows Operating system is installed via a clean installation or via an upgrade, the Windows Setup binary is executed. The Windows setup allows… 
-Continue reading → Persistence – Windows Setup Script]]></summary>
-        <author>
-            <name>Administrator</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Persistence – Windows Setup Script]]></title>
-        <id>http://pentestlab.blog/?p=32525</id>
-        <link href="https://pentestlab.blog/2024/02/05/persistence-windows-setup-script/"/>
-        <updated>2024-02-05T05:53:00.000Z</updated>
-        <summary type="html"><![CDATA[When the Windows Operating system is installed via a clean installation or via an upgrade, the Windows Setup binary is executed. The Windows setup allows… 
-Continue reading → Persistence – Windows Setup Script]]></summary>
-        <author>
-            <name>Administrator</name>
         </author>
     </entry>
     <entry>
