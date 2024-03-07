@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/0802f3bbb91a",
+          "author": "Andy Robbins",
+          "description": "Did you know that it is possible to perform every step in Entra’s OAuth 2.0 Device Code flow — including the user authentication steps —…",
+          "link": "https://posts.specterops.io/browserless-entra-device-code-flow-0802f3bbb91a?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-03-06T15:17:26.000Z",
+          "wordCount": 3170,
+          "title": "Browserless Entra Device Code Flow",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*EAASwWQxkwpYk6PAzNagSQ.jpeg"
+        },
+        {
           "id": "https://medium.com/p/8475c6aee8c9",
           "author": "Justin Kohler",
           "description": "",
@@ -194,13 +204,35 @@
       "title": "IMQ Minded Security Blog",
       "feedUrl": "https://blog.mindedsecurity.com/feeds/posts/default",
       "siteUrl": "https://blog.mindedsecurity.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.mindedsecurity.com/2024/03/testing-security-of-modbus-services.html",
+          "author": null,
+          "description": "ICS and Building Management Systems (BMS) support several protocols such as\nModbus, Bacnet, Fieldbus and so on. Those protocols were designed to provide read/write control over sensors and actuators from a central point. \n\n\n\n  Driven by our past experience with BMS, we decided to release\n  our own methodology and internal tool used for proactive attack surface\n  analysis within systems supporting the Modbus protocol.\n\nThe Modbus Protocol\nModbus is a\n  well defined protocol described on\n  modbus.org. It\n  was created in 1979 and has become one of the most used standards for\n  communication between industrial electronic devices in a wide range of buses\n  and network.\n\n\n  It can be used over a variety of communication media, including serial, TCP,\n  UDP, etc..\n\n\n  The application part of the …",
+          "link": "https://blog.mindedsecurity.com/2024/03/testing-security-of-modbus-services.html",
+          "publishedOn": "2024-03-06T16:56:00.000Z",
+          "wordCount": 3947,
+          "title": "Testing the Security of Modbus Services",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUjtPDsHTU_40xbA4tMMARNyxJZu0USyUlzoYEpX4CYah14yXlEVLZR6z1N-Hyjiymo4za3D_cURAyM0or3FtLoEONbj-BUp3d3aJJcJxoxgoZmG2n5U93cHXZCaa0mFa0csDUlVtiOl68jsL-58f4rl2wiZCXoQRo-I059Xd76Ekjct9y6vq9JydE1i4/w1200-h630-p-k-no-nu/BMS_ModBus.png"
+        }
+      ]
     },
     {
       "title": "Didier Stevens",
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10227",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in February: SANS ISC Diary entries: Update: MGLNDD_* Scans",
+          "link": "https://blog.didierstevens.com/2024/03/07/overview-of-content-published-in-february-7/",
+          "publishedOn": "2024-03-07T00:00:00.000Z",
+          "wordCount": 3177,
+          "title": "Overview of Content Published in February",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        }
+      ]
     },
     {
       "title": "HackerOne",
@@ -344,6 +376,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65e8a03cc22be00e0e313bf7",
+          "author": "Trend Micro Research Team",
+          "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Justin Hung and Yazhi Wang of the Trend Micro Research Team detail a recently patched privilege escalation vulnerability in .NET Framework and Visual Studio. This bug was originally discovered by Piotr Bazydło of Trend Micro’s Zero Day Initiative (ZDI). Successful exploitation of this vulnerability would allow a remote attacker to write or delete files in the context of the FTP server. The following is a portion of their write-up covering CVE-2023-36049, with a few minimal modifications.\nA remote command execution vulnerability has been reported in the Microsoft .NET Framework and Visual Studio. This vulnerability is due to improper validation of user input. An attacker could exploit this vulnerability by…",
+          "link": "https://www.thezdi.com/blog/2024/3/6/cve-2023-36049-microsoft-net-crlf-injection-arbitrary-file-writedeletion-vulnerability",
+          "publishedOn": "2024-03-06T17:06:25.000Z",
+          "wordCount": null,
+          "title": "CVE-2023-36049: Microsoft .NET CRLF Injection Arbitrary File Write/Deletion Vulnerability",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65ca3647c5a8bc4523376b05",
           "author": "Dustin Childs",
@@ -523,16 +566,6 @@
           "wordCount": 24602,
           "title": "Analyzing AI Application Threat Models",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2024/02/MicrosoftTeams-image-15.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=33968",
-          "author": "Global Threat Intelligence",
-          "description": "Authors: David Brown and Mungomba Mulenga TL;dr NCC Group has observed what we believe to be the attempted exploitation of CVE-2021-42278 and CVE-2021-42287 as a means of privilege escalation, following the successful compromise of an Ivanti Secure Connect VPN using the following zero-day vulnerabilities reported by Volexity1 on 10/01/2024: By combining these vulnerabilities threat actors […]",
-          "link": "https://research.nccgroup.com/2024/02/05/ivanti-zero-day-threat-actors-observed-leveraging-cve-2021-42278-and-cve-2021-42287-for-quick-privilege-escalation-to-domain-admin/",
-          "publishedOn": "2024-02-05T13:21:04.000Z",
-          "wordCount": 19372,
-          "title": "Ivanti Zero Day – Threat Actors observed leveraging CVE-2021-42278 and CVE-2021-42287 for quick privilege escalation to Domain Admin",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -779,16 +812,6 @@
           "wordCount": 4551,
           "title": "Binary type inference in Ghidra",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/02/ghidra_image10-2.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=106206",
-          "author": "Trail of Bits",
-          "description": "By Gustavo Grieco Cosmos is a platform enabling the creation of blockchains in Go (or other languages). Its reference implementation, Cosmos SDK, leverages strong fuzz testing extensively, following two approaches: smart fuzzing for low-level code, and dumb fuzzing for high-level simulation. In this blog post, we explain the differences between these approaches and show how […]",
-          "link": "https://blog.trailofbits.com/2024/02/05/improving-the-state-of-cosmos-fuzzing/",
-          "publishedOn": "2024-02-05T14:00:53.000Z",
-          "wordCount": 3563,
-          "title": "Improving the state of Cosmos fuzzing",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -871,18 +894,7 @@
       "title": "Hanno's blog",
       "feedUrl": "https://blog.hboeck.de/feeds/index.rss2",
       "siteUrl": "https://blog.hboeck.de/",
-      "articles": [
-        {
-          "id": "https://blog.hboeck.de/archives/907-guid.html",
-          "author": "nospam@example.com (Hanno Böck)",
-          "description": "",
-          "link": "https://blog.hboeck.de/archives/907-How-to-create-a-Secure,-Random-Password-with-JavaScript.html",
-          "publishedOn": "2024-02-05T14:23:00.000Z",
-          "wordCount": 1968,
-          "title": "How to create a Secure, Random Password with JavaScript",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "enigma0x3",
@@ -913,6 +925,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1580538",
+          "author": "Jasmin Kahriman",
+          "description": "MaxPowerSoft Active Directory Reports generates various types of reports, eliminating the need to create PowerShell scripts to retrieve Active Directory data manually. In this review, I will elaborate on the key functionalities of the AD Reporting tool that are most beneficial.",
+          "link": "https://4sysops.com/archives/exploring-maxpowersoft-active-directory-reports/",
+          "publishedOn": "2024-03-06T10:11:08.000Z",
+          "wordCount": 3738,
+          "title": "Exploring MaxPowerSoft Active Directory Reports",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/03/The-MaxPowerSoft-Active-Directory-Report-user-interface-600x375.jpeg"
+        },
         {
           "id": "https://4sysops.com/?p=1580476",
           "author": "Surender Kumar",
@@ -1112,16 +1134,6 @@
           "wordCount": 15334,
           "title": "Create bootable ISO for Windows image (.wim)",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/01/Create-bootable-ISO-with-oscdimg.exe-600x375.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1579656",
-          "author": "Thomas Joos",
-          "description": "The free Graphical Network Simulator-3 (GNS3) allows for the planning and practical simulation of networks and their topology. Thanks to Dynamips, it also supports integrating images of Cisco IOS. GNS3 can be integrated with physical hardware, enabling, for instance, the testing of monitoring solutions.",
-          "link": "https://4sysops.com/archives/simulating-complex-networks-with-gns3/",
-          "publishedOn": "2024-02-06T10:37:56.000Z",
-          "wordCount": 15777,
-          "title": "Simulating complex networks with GNS3",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/02/Integrating-Windows-Server-into-the-network-and-connecting-with-the-switches-600x370.png"
         }
       ]
     },
@@ -1191,6 +1203,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=28869",
+          "author": "Joe Blogs",
+          "description": "TL;DR Attackers can use Microsoft native SSH client to forward out internal network traffic Windows native SSH is common The attack only needs minimal set-up and commands Quicker and more […]\nLiving off the land with native SSH and split tunnelling first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/living-off-the-land-with-native-ssh-and-split-tunnelling/",
+          "publishedOn": "2024-03-06T06:12:49.000Z",
+          "wordCount": 2258,
+          "title": "Living off the land with native SSH and split tunnelling",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=28847",
           "author": "Jo Dalton",
@@ -1515,6 +1537,16 @@
       "siteUrl": "https://medium.com/@assume-breach?source=rss-fe83402397b0------2",
       "articles": [
         {
+          "id": "https://medium.com/p/63a0e3af3994",
+          "author": "assume-breach",
+          "description": "Hi all! In my last post, we explored a hardened, but also not hardened enough to actually be officially called hardened by the only person…",
+          "link": "https://assume-breach.medium.com/home-grown-red-team-local-admin-phishing-for-privilege-and-persistence-63a0e3af3994?source=rss-fe83402397b0------2",
+          "publishedOn": "2024-03-06T19:35:19.000Z",
+          "wordCount": 3838,
+          "title": "Home-Grown Red Team: Local Admin Phishing For Privilege and Persistence",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GThDDm_eo463Rz2KE8Du5Q.png"
+        },
+        {
           "id": "https://medium.com/p/f31796ad3fc2",
           "author": "assume-breach",
           "description": "And we’re back! Today we’re going to take on a hardened Windows 11 instance that has been fully updated.",
@@ -1523,16 +1555,6 @@
           "wordCount": 4919,
           "title": "Home-Grown Red Team: Taking On A Hardened Windows System",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Qt35v-5a98I6UxyTXvUhsA.png"
-        },
-        {
-          "id": "https://medium.com/p/2d5383b940d7",
-          "author": "assume-breach",
-          "description": "Hi all! So, today we’re going to go over something that I haven’t seen anywhere else. This isn’t some super secret task, but when I went to…",
-          "link": "https://assume-breach.medium.com/home-grown-red-team-adding-icons-to-windows-based-executables-compiled-in-linux-2d5383b940d7?source=rss-fe83402397b0------2",
-          "publishedOn": "2024-02-05T18:32:30.000Z",
-          "wordCount": 1727,
-          "title": "Home Grown Red Team: Adding Icons To Windows Based Executables Compiled In Linux",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:943/1*HKteJurGixuuQkgk9LCwqg.png"
         }
       ]
     },
@@ -1650,6 +1672,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=17396",
+          "author": "Matheo Boute",
+          "description": "Introduction With the never-ending amount of data we generate, process, and share within and between companies, and the value this information can hold – such as personal data, top secret documents, or even information related to national security – it is natural that one of the main interests in cybersecurity is data security. Let it … Continue reading Become Big Brother with Microsoft Purview →",
+          "link": "https://blog.nviso.eu/2024/03/06/become-big-brother-with-microsoft-purview/",
+          "publishedOn": "2024-03-06T08:00:00.000Z",
+          "wordCount": 4769,
+          "title": "Become Big Brother with Microsoft Purview",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/03/PurviewArticleV2.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=17367",
           "author": "Maxime Thiebaut",
