@@ -337,18 +337,7 @@
       "title": "Tyranid's Lair",
       "feedUrl": "https://www.tiraniddo.dev/feeds/posts/default",
       "siteUrl": "https://www.tiraniddo.dev/",
-      "articles": [
-        {
-          "id": "https://www.tiraniddo.dev/2024/02/sudo-on-windows-quick-rundown.html",
-          "author": null,
-          "description": "Background\nThe Windows Insider Preview build 26052 just shipped with a sudo command, I thought I'd just take a quick peek to see what it does and how it does it. This is only a short write up of my findings, I think this code is probably still in early stages so I wouldn't want it to be treated too harshly. You can see the official announcement here.\n\nTo run a command using sudo you can just type:\n\nC:\\> sudo powershell.exe\n\nThe first thing to note, if you know anything about the security model of Windows (maybe buy my book, hint hint), is that there's no equivalent to SUID binaries. The only way to run a process with a higher privilege level is to get an existing higher privileged process to start it for you or you have sufficient permissions yourself though say SeImpersonatePrivilege or S…",
-          "link": "https://www.tiraniddo.dev/2024/02/sudo-on-windows-quick-rundown.html",
-          "publishedOn": "2024-02-09T09:10:00.000Z",
-          "wordCount": 3504,
-          "title": "Sudo On Windows a Quick Rundown",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHOBUtAD0CBUcspDAvaHiUKFlUswN5mUaEkp7VT4G9MWJ_cElIN0KaaORHJikaploIREUaGatmTPk4A6IJOFOtGZRfHJbau1woZoXIPuh4L9dSst4JPCvv961bB6fPac9cjcV95KM3jFgNA0CPm8KWy5cqIhdR4FqWVaoqSO5A_Ew9jSpGQ_tCwLIR5m4/w1200-h630-p-k-no-nu/sudo-diagram.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Zero Day Initiative - Blog",
@@ -504,16 +493,6 @@
           "wordCount": 19564,
           "title": "Unmasking Lorenz Ransomware: A Dive into Recent Tactics, Techniques and Procedures",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2024/02/Picture1.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=33888",
-          "author": "McCaulay Hudson",
-          "description": "A story on finding a zero day attacking the NETGEAR WAN interface after a last minute patch for Pwn2Own 2022, involving a command injection, predicting random numbers, boot timing and voltage supply variations.",
-          "link": "https://research.nccgroup.com/2024/02/09/puckungfu-2-another-netgear-wan-command-injection/",
-          "publishedOn": "2024-02-09T12:00:00.000Z",
-          "wordCount": 20977,
-          "title": "Puckungfu 2: Another NETGEAR WAN Command Injection",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2024/01/puckungfu2-another-netgear-wan-command-injection.png?fit=1200%2C630&ssl=1"
         }
       ]
     },
@@ -1540,16 +1519,6 @@
           "wordCount": 9536,
           "title": "Harmonizing Security and User Experience: A Modern Approach",
           "imageUrl": "https://www.secureauth.com/wp-content/uploads/2024/02/identity-orchestration-blog.jpg"
-        },
-        {
-          "id": "https://www.secureauth.com/?post_type=blog&p=52358",
-          "author": "Erin Swanson",
-          "description": "We are thrilled to share some groundbreaking news that marks a significant milestone in our journey: SecureAuth has officially acquired Cloudentity. This strategic move represents a powerful step forward in our commitment to innovation, growth, and delivering unparalleled value to our customers and stakeholders.  A Vision Fulfilled  At SecureAuth, our mission has been to redefine […]\nThe post A New Chapter Unfolds: SecureAuth Announces Acquisition of Cloudentity appeared first on SecureAuth.",
-          "link": "https://www.secureauth.com/blog/a-new-chapter-unfolds-secureauth-announces-acquisition-of-cloudentity/",
-          "publishedOn": "2024-02-08T13:43:11.000Z",
-          "wordCount": 9485,
-          "title": "A New Chapter Unfolds: SecureAuth Announces Acquisition of Cloudentity",
-          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2024/02/cloudentity-social-2.jpg"
         }
       ]
     },
