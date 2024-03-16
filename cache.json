@@ -74,16 +74,6 @@
           "wordCount": 3110,
           "title": "The Most Dangerous Entra Role You’ve (Probably) Never Heard Of",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*C2wPnrocuZRuGVPl"
-        },
-        {
-          "id": "https://medium.com/p/fda4272fbd53",
-          "author": "Jonas Bülow Knudsen",
-          "description": "It is possible to configure an Active Directory Certificate Services (ADCS) certificate template with an issuance policy having an OID…",
-          "link": "https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-02-14T17:13:17.000Z",
-          "wordCount": 5810,
-          "title": "ADCS ESC13 Abuse Technique",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*__H4tAyM3XRX0atzAthw3w.png"
         }
       ]
     },
@@ -248,6 +238,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/culture-and-talent/degrees-innovation-hackerones-next-step-inclusive-hiring",
+          "author": "Debbie Cotton",
+          "description": "",
+          "link": "https://www.hackerone.com/culture-and-talent/degrees-innovation-hackerones-next-step-inclusive-hiring",
+          "publishedOn": "2024-03-15T16:30:00.000Z",
+          "wordCount": 2598,
+          "title": "Degrees of Innovation: HackerOne’s Next Step in Inclusive Hiring",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-03/hackerone%20inclusive%20hiring.jpg"
+        },
         {
           "id": "https://hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation",
           "author": "Pieter Ockers",
@@ -636,8 +636,18 @@
     {
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
-      "siteUrl": "http://localhost:4000/atom.xml",
+      "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/03/14/supplychain.html",
+          "author": null,
+          "description": "Background\nAt Doyensec, we specialize in performing white and gray box application security audits. So, in addition to dynamically testing applications, we typically audit our clients’ source code as well. This process is often software-assisted, with open source and off-the-shelf tools. Modern comprehensive versions of these tools offer the capabilities to detect the inclusion of vulnerable third-party libraries, commonly referred to as software composition analysis (SCA).\n\n\n\nThree well-known tools in the SCA space are Snyk, Semgrep and Dependabot. The first two are stand-alone applications, with cloud components to them and the last is integrated into the GitHub(.com) environment directly. Since Security Automation is one of our core competencies, Doyensec has extensive experience with t…",
+          "link": "https://blog.doyensec.com/2024/03/14/supplychain.html",
+          "publishedOn": "2024-03-13T23:00:00.000Z",
+          "wordCount": 899,
+          "title": "A Look at Software Composition Analysis",
+          "imageUrl": null
+        },
         {
           "id": "http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
           "author": null,
@@ -645,6 +655,16 @@
           "link": "http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
           "publishedOn": "2024-02-17T05:00:00.000Z",
           "wordCount": null,
+          "title": "Unveiling the Server-Side Prototype Pollution Gadgets Scanner",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
+          "author": null,
+          "description": "Introduction\nPrototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.\nFor those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.\n\n// Example of prototype pollution in a browser console\nObject.prototype.isAdmin = true;\nconst user = {};\nconsole.log(user.isAdmin); // …",
+          "link": "https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
+          "publishedOn": "2024-02-16T23:00:00.000Z",
+          "wordCount": 2203,
           "title": "Unveiling the Server-Side Prototype Pollution Gadgets Scanner",
           "imageUrl": null
         }
@@ -798,16 +818,6 @@
           "wordCount": 5143,
           "title": "A few notes on AWS Nitro Enclaves: Images and attestation",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/02/nitros1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=106337",
-          "author": "Trail of Bits",
-          "description": "By Scott Arciszewski This post, part of a series on cryptography in the cloud, provides an overview of the cloud cryptography services offered within Amazon Web Services (AWS): when to use them, when not to use them, and important usage considerations. Stay tuned for future posts covering other cloud services. At Trail of Bits, we […]",
-          "link": "https://blog.trailofbits.com/2024/02/14/cloud-cryptography-demystified-amazon-web-services/",
-          "publishedOn": "2024-02-14T14:00:06.000Z",
-          "wordCount": 3729,
-          "title": "Cloud cryptography demystified: Amazon Web Services",
-          "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -878,7 +888,18 @@
       "title": "ZephrSec - Adventures In Information Security",
       "feedUrl": "https://blog.zsec.uk/rss/",
       "siteUrl": "https://blog.zsec.uk/",
-      "articles": []
+      "articles": [
+        {
+          "id": "61dc1431b58c12078d99903d",
+          "author": "Andy Gill",
+          "description": "Blackvue cloud connected dashcams leak your location and allow anyone to view your video feed with a free account. Sort it out folks!",
+          "link": "https://blog.zsec.uk/blackvue-privacy/",
+          "publishedOn": "2024-03-15T23:41:34.000Z",
+          "wordCount": 1280,
+          "title": "BlackVue Dashcams - It's not a bug, it is a feature",
+          "imageUrl": "https://blog.zsec.uk/content/images/2024/03/signal-2024-03-15-232150_002.jpeg"
+        }
+      ]
     },
     {
       "title": "Security Research",
@@ -1235,16 +1256,6 @@
           "publishedOn": "2024-02-20T06:40:35.000Z",
           "wordCount": 2066,
           "title": "Cyber security for Credit Unions 101",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=28801",
-          "author": "Tony Gee",
-          "description": "October 2023’s Cyber Security Awareness Month  led to a flurry of blog posts about a new attack called Quishing (QR Code phishing) and how new AI powered email gateways can […]\nQR Phishing. Fact or Fiction? first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/qr-phishing-fact-or-fiction/",
-          "publishedOn": "2024-02-15T06:43:41.000Z",
-          "wordCount": 2487,
-          "title": "QR Phishing. Fact or Fiction?",
           "imageUrl": null
         }
       ]
@@ -1737,16 +1748,6 @@
           "wordCount": 2257,
           "title": "The Bishop Fox Internship Program: Mexico Foxes Assemble!",
           "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/2024Q1_BLOG_InternshipProgram_OG.jpg?mtime=1708032451"
-        },
-        {
-          "id": "https://bishopfox.com/blog/enabling-proper-pci-testing-with-external-penetration-tests",
-          "author": "Derek Rush",
-          "description": "Gain actionable insights on how to maximize external penetration testing to develop comprehensive PCI security strategies.",
-          "link": "https://bishopfox.com/blog/enabling-proper-pci-testing-with-external-penetration-tests",
-          "publishedOn": "2024-02-14T14:00:00.000Z",
-          "wordCount": 3574,
-          "title": "Enabling Proper PCI Testing with External Penetration Tests",
-          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-PCI-External-Penetration-Testing_OG.jpg?mtime=1707518292"
         }
       ]
     },

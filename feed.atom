@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-15T00:33:58.342Z</updated>
+    <updated>2024-03-16T00:32:51.629Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[BlackVue Dashcams - It's not a bug, it is a feature]]></title>
+        <id>61dc1431b58c12078d99903d</id>
+        <link href="https://blog.zsec.uk/blackvue-privacy/"/>
+        <updated>2024-03-15T23:41:34.000Z</updated>
+        <summary type="html"><![CDATA[Blackvue cloud connected dashcams leak your location and allow anyone to view your video feed with a free account. Sort it out folks!]]></summary>
+        <author>
+            <name>Andy Gill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Degrees of Innovation: HackerOne’s Next Step in Inclusive Hiring]]></title>
+        <id>https://hackerone.com/culture-and-talent/degrees-innovation-hackerones-next-step-inclusive-hiring</id>
+        <link href="https://www.hackerone.com/culture-and-talent/degrees-innovation-hackerones-next-step-inclusive-hiring"/>
+        <updated>2024-03-15T16:30:00.000Z</updated>
+        <author>
+            <name>Debbie Cotton</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HackerOne’s In-Depth Approach to Vulnerability Triage and Validation]]></title>
         <id>https://hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation</id>
@@ -46,6 +65,21 @@ The post Azure Deployment Scripts: Assuming User-Assigned Managed Identities app
 Navigating the perilous waters of conference invitations first appeared on Pen Test Partners.]]></summary>
         <author>
             <name>Jo Dalton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Look at Software Composition Analysis]]></title>
+        <id>https://blog.doyensec.com/2024/03/14/supplychain.html</id>
+        <link href="https://blog.doyensec.com/2024/03/14/supplychain.html"/>
+        <updated>2024-03-13T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Background
+At Doyensec, we specialize in performing white and gray box application security audits. So, in addition to dynamically testing applications, we typically audit our clients’ source code as well. This process is often software-assisted, with open source and off-the-shelf tools. Modern comprehensive versions of these tools offer the capabilities to detect the inclusion of vulnerable third-party libraries, commonly referred to as software composition analysis (SCA).
+
+
+
+Three well-known tools in the SCA space are Snyk, Semgrep and Dependabot. The first two are stand-alone applications, with cloud components to them and the last is integrated into the GitHub(.com) environment directly. Since Security Automation is one of our core competencies, Doyensec has extensive experience with t…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1156,6 +1190,23 @@ console.log(user.isAdmin); // …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Unveiling the Server-Side Prototype Pollution Gadgets Scanner]]></title>
+        <id>https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html</id>
+        <link href="https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html"/>
+        <updated>2024-02-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Prototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.
+For those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.
+
+// Example of prototype pollution in a browser console
+Object.prototype.isAdmin = true;
+const user = {};
+console.log(user.isAdmin); // …]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Most Dangerous Entra Role You’ve (Probably) Never Heard Of]]></title>
         <id>https://medium.com/p/e00ea08b8661</id>
         <link href="https://posts.specterops.io/the-most-dangerous-entra-role-youve-probably-never-heard-of-e00ea08b8661?source=rss----f05f8696e3cc---4"/>
@@ -1254,47 +1305,6 @@ The post Harmonizing Security and User Experience: A Modern Approach appeared fi
         <summary type="html"><![CDATA[JSON (JavaScript Object Notation) is gaining popularity as a format for configuration files. Unlike XML or the still-used INI format, editing JSON in a text editor can be tedious and error-prone. However, there are free JSON editors and plugins for Notepad++ that simplify this task.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QR Phishing. Fact or Fiction?]]></title>
-        <id>https://www.pentestpartners.com/?p=28801</id>
-        <link href="https://www.pentestpartners.com/security-blog/qr-phishing-fact-or-fiction/"/>
-        <updated>2024-02-15T06:43:41.000Z</updated>
-        <summary type="html"><![CDATA[October 2023’s Cyber Security Awareness Month  led to a flurry of blog posts about a new attack called Quishing (QR Code phishing) and how new AI powered email gateways can […]
-QR Phishing. Fact or Fiction? first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Tony Gee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ADCS ESC13 Abuse Technique]]></title>
-        <id>https://medium.com/p/fda4272fbd53</id>
-        <link href="https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-02-14T17:13:17.000Z</updated>
-        <summary type="html"><![CDATA[It is possible to configure an Active Directory Certificate Services (ADCS) certificate template with an issuance policy having an OID…]]></summary>
-        <author>
-            <name>Jonas Bülow Knudsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud cryptography demystified: Amazon Web Services]]></title>
-        <id>https://blog.trailofbits.com/?p=106337</id>
-        <link href="https://blog.trailofbits.com/2024/02/14/cloud-cryptography-demystified-amazon-web-services/"/>
-        <updated>2024-02-14T14:00:06.000Z</updated>
-        <summary type="html"><![CDATA[By Scott Arciszewski This post, part of a series on cryptography in the cloud, provides an overview of the cloud cryptography services offered within Amazon Web Services (AWS): when to use them, when not to use them, and important usage considerations. Stay tuned for future posts covering other cloud services. At Trail of Bits, we […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enabling Proper PCI Testing with External Penetration Tests]]></title>
-        <id>https://bishopfox.com/blog/enabling-proper-pci-testing-with-external-penetration-tests</id>
-        <link href="https://bishopfox.com/blog/enabling-proper-pci-testing-with-external-penetration-tests"/>
-        <updated>2024-02-14T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Gain actionable insights on how to maximize external penetration testing to develop comprehensive PCI security strategies.]]></summary>
-        <author>
-            <name>Derek Rush</name>
         </author>
     </entry>
     <entry>
