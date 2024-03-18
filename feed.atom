@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-17T00:36:49.932Z</updated>
+    <updated>2024-03-18T00:35:19.173Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -1180,91 +1180,6 @@ Cyber security for Credit Unions 101 first appeared on Pen Test Partners.]]></su
         <summary type="html"><![CDATA[Members can now enjoy free access to 4sysops AI powered by ChatGPT 4 (GPT-4 Turbo). 4sysops AI is a continuously updated and does not have a cutoff date of April 2023 like ChatGPT. As you may be aware, the free version of ChatGPT only supports ChatGPT 3.5, while the paid membership of ChatGPT Plus, which costs $20 per month, provides access to ChatGPT 4 (GPT-4). 4sysops members can now access the Turbo version of ChatGPT 4 for free, which is faster than the standard ChatGPT 4 available with the Plus subscription.]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unveiling the Server-Side Prototype Pollution Gadgets Scanner]]></title>
-        <id>http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html</id>
-        <link href="http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html"/>
-        <updated>2024-02-17T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-Prototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.
-For those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.
-
-// Example of prototype pollution in a browser console
-Object.prototype.isAdmin = true;
-const user = {};
-console.log(user.isAdmin); // …]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fuzzer Development: Sandboxing Syscalls]]></title>
-        <id>https://h0mbre.github.io/Lucid_Context_Switching/</id>
-        <link href="https://h0mbre.github.io/Lucid_Context_Switching/"/>
-        <updated>2024-02-17T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction If you haven’t heard, we’re developing a fuzzer on the blog these days. I don’t even know if “fuzzer” is the right word for what we’re building, it’s almost more like an execution engine that will expose hooks? Anyways, if you missed the first episode you can catch up here. We are creating a fuzzer that loads a statically built Bochs emulator into itself, and executes Bochs logic while maintaining a sandbox for Bochs. You can think of it as, we were too lazy to implement our own x86_64 emulator from scratch so we’ve just literally taken a complete emulator and stuffed it into our own process to use it. The fuzzer is written in Rust and Bochs is a C++ codebase. Bochs is a full system emulator, so the devices and everything else is just simulated in software. This is great for us because we can simply snapshot and restore Bochs itself to achieve snapshot fuzzing of our target. So the fuzzer runs Bochs and Bochs runs our target. This allows us to snapshot fuzz arbitrarily complex targets: web browsers, kernels, network stacks, etc. This episode, we’ll delve into the concept of sandboxing Bochs from syscalls. We do not want Bochs to be capable of escaping its sandbox or retrieving any data from outside of our environment. So today we’ll get into the implementation details of my first stab at Bochs-to-fuzzer context switching to handle syscalls. In the future we will also need to implement context switching from fuzzer-to-Bochs as well, but for now let’s focus on syscalls.]]></summary>
-        <author>
-            <name>The Human Machine Interface</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unveiling the Server-Side Prototype Pollution Gadgets Scanner]]></title>
-        <id>https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html</id>
-        <link href="https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html"/>
-        <updated>2024-02-16T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-Prototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.
-For those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.
-
-// Example of prototype pollution in a browser console
-Object.prototype.isAdmin = true;
-const user = {};
-console.log(user.isAdmin); // …]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Most Dangerous Entra Role You’ve (Probably) Never Heard Of]]></title>
-        <id>https://medium.com/p/e00ea08b8661</id>
-        <link href="https://posts.specterops.io/the-most-dangerous-entra-role-youve-probably-never-heard-of-e00ea08b8661?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-02-16T16:56:48.000Z</updated>
-        <summary type="html"><![CDATA[Entra ID has a built-in role called “Partner Tier2 Support” that enables escalation to Global Admin, but this role is hidden from view in…]]></summary>
-        <author>
-            <name>Andy Robbins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harmonizing Security and User Experience: A Modern Approach]]></title>
-        <id>https://www.secureauth.com/?post_type=blog&amp;p=52385</id>
-        <link href="https://www.secureauth.com/blog/harmonizing-security-and-user-experience-a-modern-approach/"/>
-        <updated>2024-02-16T15:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Inevitably, organizations get to a point where it becomes challenging to impose increased security measures on their end users because the advancements would have too large an impact on their daily convenience and usability. Orchestration capabilities for identity and access management (IAM) products have allowed security teams to enhance their security measures. It’s a service […]
-The post Harmonizing Security and User Experience: A Modern Approach appeared first on SecureAuth.]]></summary>
-        <author>
-            <name>Erin Swanson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[El Programa de Interns de Bishop Fox: Foxes de México Assemble!]]></title>
-        <id>https://bishopfox.com/blog/el-programa-de-interns-de-bishop-fox-foxes-de-méxico-assemble</id>
-        <link href="https://bishopfox.com/blog/el-programa-de-interns-de-bishop-fox-foxes-de-m%C3%A9xico-assemble"/>
-        <updated>2024-02-16T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[En Bishop Fox, siempre estamos buscando crear la próxima generación de Avengers de la seguridad ofensiva a través de nuestro innovador internship program.]]></summary>
-        <author>
-            <name>Lesley Mugford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A few notes on AWS Nitro Enclaves: Images and attestation]]></title>
-        <id>https://blog.trailofbits.com/?p=106380</id>
-        <link href="https://blog.trailofbits.com/2024/02/16/a-few-notes-on-aws-nitro-enclaves-images-and-attestation/"/>
-        <updated>2024-02-16T14:30:32.000Z</updated>
-        <summary type="html"><![CDATA[By Paweł Płatek (GrosQuildu) AWS Nitro Enclaves are locked-down virtual machines with support for attestation. They are Trusted Execution Environments (TEEs), similar to Intel SGX, making them useful for running highly security-critical code. However, the AWS Nitro Enclaves platform lacks thorough documentation and mature tooling. So we decided to do some deep research into it […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>

@@ -64,16 +64,6 @@
           "wordCount": null,
           "title": "SCCM Hierarchy Takeover with High Availability",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/e00ea08b8661",
-          "author": "Andy Robbins",
-          "description": "Entra ID has a built-in role called “Partner Tier2 Support” that enables escalation to Global Admin, but this role is hidden from view in…",
-          "link": "https://posts.specterops.io/the-most-dangerous-entra-role-youve-probably-never-heard-of-e00ea08b8661?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-02-16T16:56:48.000Z",
-          "wordCount": 3110,
-          "title": "The Most Dangerous Entra Role You’ve (Probably) Never Heard Of",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*C2wPnrocuZRuGVPl"
         }
       ]
     },
@@ -637,26 +627,6 @@
           "wordCount": 899,
           "title": "A Look at Software Composition Analysis",
           "imageUrl": null
-        },
-        {
-          "id": "http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
-          "author": null,
-          "description": "Introduction\nPrototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.\nFor those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.\n\n// Example of prototype pollution in a browser console\nObject.prototype.isAdmin = true;\nconst user = {};\nconsole.log(user.isAdmin); // …",
-          "link": "http://localhost:4000/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
-          "publishedOn": "2024-02-17T05:00:00.000Z",
-          "wordCount": null,
-          "title": "Unveiling the Server-Side Prototype Pollution Gadgets Scanner",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
-          "author": null,
-          "description": "Introduction\nPrototype pollution has recently emerged as a fashionable vulnerability within the realm of web security. This vulnerability occurs when an attacker exploits the nature of JavaScript’s prototype inheritance to modify a prototype of an object. By doing so, they can inject malicious code or alter an application to behave in unintended ways. This could potentially lead to sensitive information leakage, type confusion vulnerabilities, or even remote code execution, under certain conditions.\nFor those interested in diving deeper into the technicalities and impacts of prototype pollution, we recommend checking out PortSwigger’s comprehensive guide.\n\n// Example of prototype pollution in a browser console\nObject.prototype.isAdmin = true;\nconst user = {};\nconsole.log(user.isAdmin); // …",
-          "link": "https://blog.doyensec.com/2024/02/17/server-side-prototype-pollution-Gadgets-scanner.html",
-          "publishedOn": "2024-02-16T23:00:00.000Z",
-          "wordCount": 2203,
-          "title": "Unveiling the Server-Side Prototype Pollution Gadgets Scanner",
-          "imageUrl": null
         }
       ]
     },
@@ -798,16 +768,6 @@
           "wordCount": 3551,
           "title": "Breaking the shared key in threshold signature schemes",
           "imageUrl": "https://i0.wp.com/blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=106380",
-          "author": "Trail of Bits",
-          "description": "By Paweł Płatek (GrosQuildu) AWS Nitro Enclaves are locked-down virtual machines with support for attestation. They are Trusted Execution Environments (TEEs), similar to Intel SGX, making them useful for running highly security-critical code. However, the AWS Nitro Enclaves platform lacks thorough documentation and mature tooling. So we decided to do some deep research into it […]",
-          "link": "https://blog.trailofbits.com/2024/02/16/a-few-notes-on-aws-nitro-enclaves-images-and-attestation/",
-          "publishedOn": "2024-02-16T14:30:32.000Z",
-          "wordCount": 5143,
-          "title": "A few notes on AWS Nitro Enclaves: Images and attestation",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/02/nitros1.png"
         }
       ]
     },
@@ -842,16 +802,6 @@
           "publishedOn": "2024-03-05T05:00:00.000Z",
           "wordCount": 6565,
           "title": "Fuzzer Development 3: Building Bochs, MMU, and File I/0",
-          "imageUrl": "https://h0mbre.github.io/assets/images/avatar.jpg"
-        },
-        {
-          "id": "https://h0mbre.github.io/Lucid_Context_Switching/",
-          "author": null,
-          "description": "Introduction If you haven’t heard, we’re developing a fuzzer on the blog these days. I don’t even know if “fuzzer” is the right word for what we’re building, it’s almost more like an execution engine that will expose hooks? Anyways, if you missed the first episode you can catch up here. We are creating a fuzzer that loads a statically built Bochs emulator into itself, and executes Bochs logic while maintaining a sandbox for Bochs. You can think of it as, we were too lazy to implement our own x86_64 emulator from scratch so we’ve just literally taken a complete emulator and stuffed it into our own process to use it. The fuzzer is written in Rust and Bochs is a C++ codebase. Bochs is a full system emulator, so the devices and everything else is just simulated in software. This is great for us because we can simply snapshot and restore Bochs itself to achieve snapshot fuzzing of our target. So the fuzzer runs Bochs and Bochs runs our target. This allows us to snapshot fuzz arbitrarily complex targets: web browsers, kernels, network stacks, etc. This episode, we’ll delve into the concept of sandboxing Bochs from syscalls. We do not want Bochs to be capable of escaping its sandbox or retrieving any data from outside of our environment. So today we’ll get into the implementation details of my first stab at Bochs-to-fuzzer context switching to handle syscalls. In the future we will also need to implement context switching from fuzzer-to-Bochs as well, but for now let’s focus on syscalls.",
-          "link": "https://h0mbre.github.io/Lucid_Context_Switching/",
-          "publishedOn": "2024-02-17T05:00:00.000Z",
-          "wordCount": 6333,
-          "title": "Fuzzer Development: Sandboxing Syscalls",
           "imageUrl": "https://h0mbre.github.io/assets/images/avatar.jpg"
         }
       ]
@@ -1557,18 +1507,7 @@
       "title": "SecureAuth Blogs - Identity and Access Management Solution",
       "feedUrl": "https://www.secureauth.com/blog/feed/",
       "siteUrl": "https://www.secureauth.com/blog/",
-      "articles": [
-        {
-          "id": "https://www.secureauth.com/?post_type=blog&p=52385",
-          "author": "Erin Swanson",
-          "description": "Inevitably, organizations get to a point where it becomes challenging to impose increased security measures on their end users because the advancements would have too large an impact on their daily convenience and usability. Orchestration capabilities for identity and access management (IAM) products have allowed security teams to enhance their security measures. It’s a service […]\nThe post Harmonizing Security and User Experience: A Modern Approach appeared first on SecureAuth.",
-          "link": "https://www.secureauth.com/blog/harmonizing-security-and-user-experience-a-modern-approach/",
-          "publishedOn": "2024-02-16T15:56:00.000Z",
-          "wordCount": 9536,
-          "title": "Harmonizing Security and User Experience: A Modern Approach",
-          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2024/02/identity-orchestration-blog.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
@@ -1713,16 +1652,6 @@
           "wordCount": 3036,
           "title": "Unlocking Job Opportunities with LinkedIn and Artificial Intelligence",
           "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-LinkedIn-AI-Job-Opportunities_OG.jpg?mtime=1709056125"
-        },
-        {
-          "id": "https://bishopfox.com/blog/el-programa-de-interns-de-bishop-fox-foxes-de-méxico-assemble",
-          "author": "Lesley Mugford",
-          "description": "En Bishop Fox, siempre estamos buscando crear la próxima generación de Avengers de la seguridad ofensiva a través de nuestro innovador internship program.",
-          "link": "https://bishopfox.com/blog/el-programa-de-interns-de-bishop-fox-foxes-de-m%C3%A9xico-assemble",
-          "publishedOn": "2024-02-16T15:00:00.000Z",
-          "wordCount": 2355,
-          "title": "El Programa de Interns de Bishop Fox: Foxes de México Assemble!",
-          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/Bishop-Fox-Blog-Spanish-Mexico-Internship-Program_OG.jpg?mtime=1708097911"
         }
       ]
     },
