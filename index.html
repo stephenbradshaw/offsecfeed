@@ -59,6 +59,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-01 datetime="2024-04-01T00:00:00.000Z">2024-04-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-01 datetime="2024-04-01T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SANS Blog</button>
+                  <a class="source-heading__link" href="https://www.sans.org/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.sans.org/blog/4-cybersecurity-trends-for-greater-roi-in-2024"
+                        open
+                      >
+                        <summary class="article-expander__title">4 Cybersecurity Trends for Greater ROI in 2024</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.sans.org/blog/4-cybersecurity-trends-for-greater-roi-in-2024?msc&#x3D;rss">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This infographic shows four major trends that will give CISOs the opportunity to empower their organizations and security teams in 2024.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-31 datetime="2024-03-31T00:57:22.000Z">2024-03-31</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-31 datetime="2024-03-31T00:57:22.000Z"></time>
           </button>
@@ -3383,74 +3430,6 @@ Continue reading → Persistence – Visual Studio Code Extensions</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Embrace The Red</button>
-                  <a class="source-heading__link" href="https://embracethered.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://embracethered.com/blog/posts/2024/whoami-conditional-prompt-injection-instructions/"
-                        open
-                      >
-                        <summary class="article-expander__title">Who Am I? Conditional Prompt Injection Attacks with Microsoft Copilot</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://embracethered.com/blog/posts/2024/whoami-conditional-prompt-injection-instructions/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Building reliable prompt injection payloads is challenging at times. It’s this new world with large language model (LLM) applications that can be instructed with natural language and they mostly follow instructions… but not always.
-Attackers have the same challenges around prompt engineering as normal users.
-Prompt Injection Exploit Development Attacks always get better over time. And as more features are being added to LLM applications, the degrees of freedom for attackers increases as well.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hexacorn</button>
-                  <a class="source-heading__link" href="https://www.hexacorn.com/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hexacorn.com/blog/?p&#x3D;9101"
-                        open
-                      >
-                        <summary class="article-expander__title">1 little known secret of explorer.exe</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hexacorn.com/blog/2024/03/03/1-little-known-secret-of-explorer-exe/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Windows Explorer is a beast. It does so many things when it starts that it hurts… Sometimes, literally. One of the things it checks during its startup routine is the comparison of the Registry value HKEY_CURRENT_USER\Control Panel\Appearance\SchemeLangID and the result … Continue reading →</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4419,8 +4398,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/8502066131">
-        <time id="build-timestamp" datetime="2024-04-01T00:38:42.501Z">2024-04-01T00:38:42.501Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/8515615420">
+        <time id="build-timestamp" datetime="2024-04-02T00:35:17.562Z">2024-04-02T00:35:17.562Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
