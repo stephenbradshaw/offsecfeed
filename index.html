@@ -59,6 +59,84 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-09 datetime="2024-04-09T17:49:06.000Z">2024-04-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-09 datetime="2024-04-09T17:49:06.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Zero Day Initiative - Blog</button>
+                  <a class="source-heading__link" href="https://www.thezdi.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66157e7f2eda2f1607e47653"
+                        open
+                      >
+                        <summary class="article-expander__title">The April 2024 Security Updates Review</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.thezdi.com/blog/2024/4/9/the-april-2024-security-updates-review">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>It’s the second Tuesday of the month, and Adobe and Microsoft have released a fresh crop of security updates. Take a break from your other activities and join us as we review the details of their latest advisories. If you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for April 2024
+For April, Adobe released nine patches addressing 24 CVEs in Adobe After Effects, Photoshop, Commerce, InDesign, Experience Manager, Media Encoder, Bridge, Illustrator, and Adobe Animate. The largest of these updates is for Experience Manager, however, all of the bugs being patched are simple Cross-site Scripting (XSS) bugs. Still, if exploited, these Important-severity bugs could lead to code execution if exploited. The only other patches that address …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1581466"
+                        open
+                      >
+                        <summary class="article-expander__title">Proxmox backup with NAKIVO Backup and Replication v10.11</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/proxmox-backup-with-nakivo-backup-and-replication-v1011/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Explore NAKIVO Backup &amp; Replication v10.11&#x27;s new features, including Proxmox backup support, enhanced IT monitoring, Oracle RMAN on Linux, and more for efficient data protection.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-08 datetime="2024-04-08T17:00:00.000Z">2024-04-08</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-08 datetime="2024-04-08T17:00:00.000Z"></time>
           </button>
@@ -3446,37 +3524,6 @@ The post CVE-2024-21378 — Remote Code Execution in Microsoft Outlook  appeare
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1580616"
-                        open
-                      >
-                        <summary class="article-expander__title">Ansible conditionals and loops</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/ansible-conditionals-and-loops/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>An Ansible loop allows you to repeat a task or a set of tasks multiple times with different values, reducing code duplication and making playbooks more concise and maintainable. Instead of writing the same task multiple times with slight variations, you can use loops to iterate over a list of items and perform the task(s) accordingly.  A conditional controls the flow of tasks based on specific conditions or criteria within playbooks. Sometimes, you must install software only on specific operating systems or if certain dependencies are met. Conditionals allow you to control the execution of tasks based on these conditions, ensuring your playbooks adapt to different environments and avoid unnecessary actions. In this tutorial, I will provide simple examples of using loops and conditionals in Ansible.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -3677,8 +3724,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/8608488584">
-        <time id="build-timestamp" datetime="2024-04-09T00:35:49.352Z">2024-04-09T00:35:49.352Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/8624144140">
+        <time id="build-timestamp" datetime="2024-04-10T00:34:42.893Z">2024-04-10T00:34:42.893Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
