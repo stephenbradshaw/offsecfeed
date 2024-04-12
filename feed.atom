@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-04-11T00:35:43.001Z</updated>
+    <updated>2024-04-12T00:35:28.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How a Race Condition Vulnerability Could Cast Multiple Votes]]></title>
+        <id>https://hackerone.com/vulnerability-management/sherrets-race-condition</id>
+        <link href="https://www.hackerone.com/vulnerability-management/sherrets-race-condition"/>
+        <updated>2024-04-11T16:07:50.000Z</updated>
+        <summary type="html"><![CDATA[Hacker and Senior Solutions Architect Dane Sherrets tells the story of how a race condition vulnerability could cast multiple votes.]]></summary>
+        <author>
+            <name>Dane Sherrets</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rooting out Risky SCCM Configs with Misconfiguration Manager]]></title>
+        <id>https://medium.com/p/0beecaab1af3</id>
+        <link href="https://posts.specterops.io/rooting-out-risky-sccm-configs-with-misconfiguration-manager-0beecaab1af3?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-04-11T15:56:15.000Z</updated>
+        <summary type="html"><![CDATA[tl;dr: I wrote a script to identify every TAKEOVER and ELEVATE attack in Misconfiguration Manager.]]></summary>
+        <author>
+            <name>Chris Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create, use, and manage Windows Passkeys]]></title>
+        <id>https://4sysops.com/?p=1581191</id>
+        <link href="https://4sysops.com/archives/create-use-and-manage-windows-passkeys/"/>
+        <updated>2024-04-11T12:42:24.000Z</updated>
+        <summary type="html"><![CDATA[Windows Passkeys, introduced with Windows 11 23H2, is a passwordless sign-in solution that uses your Windows Hello credentials (face, PIN, or linked device) for secure and convenient authentication to websites and apps. This guide will teach you how to create, use, and manage a passkey using Windows Hello.]]></summary>
+        <author>
+            <name>Brandon Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A guide to get the most out of your One-on-Ones]]></title>
+        <id>https://hackerone.com/engineering-blog/guide-get-most-out-your-one-ones</id>
+        <link href="https://www.hackerone.com/engineering-blog/guide-get-most-out-your-one-ones"/>
+        <updated>2024-04-10T21:54:31.000Z</updated>
+        <author>
+            <name>cweiner@hackerone.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Use unattend.xml to skip Out-of-Box Experience (OOBE) when installing Windows 11]]></title>
         <id>https://4sysops.com/?p=1581566</id>
@@ -280,6 +319,16 @@ One of the threats is unfurling of hyperlinks, which can lead to data exfiltrati
         <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS New2Cyber Summit 2024]]></summary>
         <author>
             <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Emerging Playbook for AI Red Teaming With HackerOne]]></title>
+        <id>https://hackerone.com/thought-leadership/ai-safety-red-teaming</id>
+        <link href="https://www.hackerone.com/thought-leadership/ai-safety-red-teaming"/>
+        <updated>2024-04-01T16:01:19.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne builds upon the foundation of bug bounty in our approach to AI Red Teaming.]]></summary>
+        <author>
+            <name>Michiel Prins</name>
         </author>
     </entry>
     <entry>
@@ -957,78 +1006,6 @@ Three well-known tools in the SCA space are Snyk, Semgrep and Dependabot. The fi
         <summary type="html"><![CDATA[Systemic security issues in blockchain projects often appear early in development. Without an initial focus on security, projects may choose flawed architectures or make insecure design or development choices that result in hard-to-maintain or vulnerable solutions. Traditional security reviews can be used to identify some security issues, but by the time they are complete, it […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Assign an IPv6 address to an EC2 instance and configure components with a bash script]]></title>
-        <id>https://4sysops.com/?p=1580735</id>
-        <link href="https://4sysops.com/archives/assign-an-ipv6-address-to-an-ec2-instance-and-configure-components-with-a-bash-script/"/>
-        <updated>2024-03-13T10:17:05.000Z</updated>
-        <summary type="html"><![CDATA[In my previous post, I explained how you can quickly allocate an Elastic IPv4 address and associate it with an EC2 instance. As Amazon has recently started charging for in-use IPv4 addresses, you might want to consider switching to IPv6. Using the AWS Management Console to assign an IPv6 to an EC2 instance is not really straightforward. Several AWS network components must be correctly configured to make IPv6 work. The bash script introduced here checks all components, adds any missing pieces, and then assigns the IP to an EC2 instance.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unpacking Flutter hives]]></title>
-        <id>https://blog.nviso.eu/?p=17286</id>
-        <link href="https://blog.nviso.eu/2024/03/13/unpacking-flutter-hives/"/>
-        <updated>2024-03-13T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intro When analyzing the security of mobile applications, it’s important to verify that all data is stored securely (See OWASP MASVS-STORAGE-1). A recent engagement involved a Flutter app that uses the Isar/Hive framework to store data. The engagement was unfortunately blackbox, so we did not have access to any of the source code. This especially … Continue reading Unpacking Flutter hives →]]></summary>
-        <author>
-            <name>Jeroen Beckers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond Management: Becoming a Leader in Your SOC]]></title>
-        <id>https://www.sans.org/blog/beyond-management-becoming-a-leader-in-your-soc</id>
-        <link href="https://www.sans.org/blog/beyond-management-becoming-a-leader-in-your-soc?msc=rss"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about becoming a SOC Leader]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The March 2024 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:65ef929b6f2dbc4ea615b2af</id>
-        <link href="https://www.thezdi.com/blog/2024/3/12/the-march-2024-security-update-review"/>
-        <updated>2024-03-12T17:29:15.000Z</updated>
-        <summary type="html"><![CDATA[It’s the second Tuesday of the month, and Adobe and Microsoft have released a fresh crop of security updates. Take a break from your other activities and join us as we review the details of their latest advisories. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for March 2024
-For March, Adobe released six patches addressing 56 vulnerabilities in Adobe Experience Manager, Premiere Pro, ColdFusion, Adobe Bridge, Lightroom, and Adobe Animate. Two of these bugs were submitted through the ZDI Program. The largest is the update for Experience Manager, which addresses 44 CVEs. However, all but two of these are simple cross-site scripting (XSS) bugs. The fix for Adobe Animate corrects four CVEs. Only one of these CVEs is rated Criti…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NCSC Recognises The Work Of Ethical Hackers With An Appreciation Event]]></title>
-        <id>https://hackerone.com/customer-stories/ncsc-appreciation-event</id>
-        <link href="https://www.hackerone.com/customer-stories/ncsc-appreciation-event"/>
-        <updated>2024-03-12T16:18:05.000Z</updated>
-        <summary type="html"><![CDATA[The NCSC recognized the work of ethical hackers in its VRS program with an appreciation event.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implementing the FDA's 2023 Requirements for Medical Device Cybersecurity]]></title>
-        <id>https://bishopfox.com/blog/implementing-fda-2023-requirements-for-medical-device-cybersecurity</id>
-        <link href="https://bishopfox.com/blog/implementing-fda-2023-requirements-for-medical-device-cybersecurity"/>
-        <updated>2024-03-12T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Gain actionable tips to operationalize the FDA's 2023 legislation, H.R. 2617 Section 524B product security requirements for medical devices.]]></summary>
-        <author>
-            <name>Matt Twells</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware vSphere: editions, licenses, and prices for the SMB market]]></title>
-        <id>https://4sysops.com/?p=1580683</id>
-        <link href="https://4sysops.com/archives/vmware-vsphere-editions-licenses-and-prices-for-the-smb-market/"/>
-        <updated>2024-03-12T12:44:37.000Z</updated>
-        <summary type="html"><![CDATA[Following Broadcom's takeover of VMware, the new owner significantly streamlined the portfolio, primarily selling products through bundles to large companies. However, small and medium-sized enterprises (SMEs) often only require vSphere, of which there are now only a few editions available. The Essentials Plus Kit often turns out to be the most expensive due to the peculiarities of the subscription-based licensing per core.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
         </author>
     </entry>
     <entry>
