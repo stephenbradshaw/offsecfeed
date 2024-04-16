@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-04-15T03:04:52.565Z</updated>
+    <updated>2024-04-16T00:34:47.885Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bobby Tables but with LLM Apps - Google NotebookML Data Exfiltration]]></title>
+        <id>https://embracethered.com/blog/posts/2024/google-notebook-ml-data-exfiltration/</id>
+        <link href="https://embracethered.com/blog/posts/2024/google-notebook-ml-data-exfiltration/"/>
+        <updated>2024-04-15T15:11:30.000Z</updated>
+        <summary type="html"><![CDATA[Google’s NotebookML is an experimental project that was released last year. It allows users to upload files and analyze them with a large language model (LLM).
+However, it is vulnerable to Prompt Injection, meaning that uploaded files can manipulate the chat conversation and control what the user sees in responses.
+There is currently no known solution to these kinds of attacks, so users can’t implicitly trust responses from large language model applications when untrusted data is involved.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 reasons to strive for better disclosure processes]]></title>
+        <id>https://blog.trailofbits.com/?p=107053</id>
+        <link href="https://blog.trailofbits.com/2024/04/15/5-reasons-to-strive-for-better-disclosure-processes/"/>
+        <updated>2024-04-15T13:00:53.000Z</updated>
+        <summary type="html"><![CDATA[By Max Ammann This blog showcases five examples of real-world vulnerabilities that we’ve disclosed in the past year (but have not publicly disclosed before). We also share the frustrations we faced in disclosing them to illustrate the need for effective disclosure processes. Here are the five bugs: Undefined behavior in the borsh-rs Rust library Denial-of-service […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenTofu example (Terraform fork): Create an EC2 instance in AWS]]></title>
+        <id>https://4sysops.com/?p=1581785</id>
+        <link href="https://4sysops.com/archives/opentofu-example-terraform-fork-create-an-ec2-instance-in-aws/"/>
+        <updated>2024-04-15T08:30:03.000Z</updated>
+        <summary type="html"><![CDATA[HashiCorp changed Terraform's license from open source to Business-Source License (BSL). Soon after, the open-source fork OpenTofu became available. OpenTofu is an infrastructure-as-code (IaC) tool that allows you to define and manage your infrastructure in configuration files. In this post, I demonstrate with a practical example how to create an EC2 instance in AWS with OpenTofu.]]></summary>
+        <author>
+            <name>Hitesh Jethva</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Compliance: Leveraging NIS2 for Enhanced Cyber Resilience and Leadership Accountability]]></title>
+        <id>https://www.sans.org/blog/beyond-compliance-leveraging-nis2-for-enhanced-cyber-resilience-and-leadership-accountability</id>
+        <link href="https://www.sans.org/blog/beyond-compliance-leveraging-nis2-for-enhanced-cyber-resilience-and-leadership-accountability?msc=rss"/>
+        <updated>2024-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about NIS2 compliance and leadership.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overview of Content Published in March]]></title>
         <id>http://blog.didierstevens.com/?p=10237</id>
@@ -424,6 +466,16 @@ One of the threats is unfurling of hyperlinks, which can lead to data exfiltrati
         <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS New2Cyber Summit 2024]]></summary>
         <author>
             <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical Measures for AI and LLM Security: Securing the Future for Enterprises]]></title>
+        <id>https://bishopfox.com/blog/measures-for-ai-llm-security</id>
+        <link href="https://bishopfox.com/blog/measures-for-ai-llm-security"/>
+        <updated>2024-04-01T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Gain insights into how enterprises can take a pragmatic and informed approach to AI and LLM technology adoption, ensuring reduced security risks.]]></summary>
+        <author>
+            <name>Bishop Fox</name>
         </author>
     </entry>
     <entry>
@@ -945,26 +997,6 @@ The post Web2 Bugs in Web3 Systems appeared first on NetSPI.]]></summary>
         <summary type="html"><![CDATA[Introduction In the first post of the top things that you might not be doing (yet) in Entra Conditional Access, we focused on basic but essential security controls that I recommend you checking out if you do not have them implemented already. In this second part, we’ll go over more advanced security controls within Conditional … Continue reading Top things that you might not be doing (yet) in Entra Conditional Access – Advanced Edition →]]></summary>
         <author>
             <name>Guillaume Bossiroy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stuffing up the WINDIR env. var. with THE SPACE]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9106</id>
-        <link href="https://www.hexacorn.com/blog/2024/03/16/stuffing-up-the-windir-env-var-with-the-space/"/>
-        <updated>2024-03-16T23:40:35.000Z</updated>
-        <summary type="html"><![CDATA[I love revisiting the ‘there is nothing else to be found there anymore’ cases and I described this process here. Recently, I’ve been thinking of the WINDIR environment variable. I have already covered a few cases where WoW executables could … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lolbin Wow Ltd x 2]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9108</id>
-        <link href="https://www.hexacorn.com/blog/2024/03/16/lolbin-wow-ltd-x-2/"/>
-        <updated>2024-03-16T22:18:38.000Z</updated>
-        <summary type="html"><![CDATA[I have already covered cases where I abused WINDIR environment variable to LOLBINize some WoW executables. I thought I covered w32tm.exe before, but looking at my blog history I can’t find any reference to it. So, here it is:]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
