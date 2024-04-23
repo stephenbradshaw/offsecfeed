@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-04-22T00:36:54.164Z</updated>
+    <updated>2024-04-23T00:36:09.708Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New mitigations for CVE-2023-24932 (BlackLotus) in the April update, not yet enabled by default]]></title>
+        <id>https://4sysops.com/?p=1582061</id>
+        <link href="https://4sysops.com/archives/new-mitigations-for-cve-2023-24932-blacklotus-in-the-april-update-not-yet-enabled-by-default/"/>
+        <updated>2024-04-22T12:43:19.000Z</updated>
+        <summary type="html"><![CDATA[The remediation of CVE-2023-24932, discovered in May 2023, is taking longer than Microsoft's initial timeline. This flaw allows attackers to bypass Secure Boot and disable security features like BitLocker. The April 2024 update introduces a new fix that admins should thoroughly test because it has significant ramifications and will be automatically activated in October.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PAN-OS CVE-2024-3400: Patch Your Palo Alto Firewalls]]></title>
         <id>https://bishopfox.com/blog/pan-os-cve-2024-3400-patch-your-palo-alto-firewalls</id>
@@ -956,16 +966,6 @@ The post Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu appe
         <summary type="html"><![CDATA[Proxy server settings can be automatically deployed to clients using the Web Proxy Auto-Discovery Protocol (WPAD). This protocol utilizes a Proxy Auto Config file (PAC), which can be provided via IIS. A Group Policy setting instructs web browsers on how to find the PAC file.]]></summary>
         <author>
             <name>Thomas Joos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: metatool.py Version 0.0.4]]></title>
-        <id>http://blog.didierstevens.com/?p=10233</id>
-        <link href="https://blog.didierstevens.com/2024/03/24/update-metatool-py-version-0-0-4/"/>
-        <updated>2024-03-24T11:46:32.000Z</updated>
-        <summary type="html"><![CDATA[metatool.py is a tool to help with the analysis of Metasploit or Cobalt Strike URLs. I added option -a to provide URLs via the command-line. metatool_V0_0_4.zip (http)MD5: 374B30DD3D92557A7F8DAA97B81CEE0ESHA256: D627AF2462610AE0B8CC5AB2BA0A4325D1386BB06F96DC2827DDD22430499192]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>

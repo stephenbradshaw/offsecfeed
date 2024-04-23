@@ -59,6 +59,51 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-22 datetime="2024-04-22T12:43:19.000Z">2024-04-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-22 datetime="2024-04-22T12:43:19.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1582061"
+                        open
+                      >
+                        <summary class="article-expander__title">New mitigations for CVE-2023-24932 (BlackLotus) in the April update, not yet enabled by default</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/new-mitigations-for-cve-2023-24932-blacklotus-in-the-april-update-not-yet-enabled-by-default/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The remediation of CVE-2023-24932, discovered in May 2023, is taking longer than Microsoft&#x27;s initial timeline. This flaw allows attackers to bypass Secure Boot and disable security features like BitLocker. The April 2024 update introduces a new fix that admins should thoroughly test because it has significant ramifications and will be automatically activated in October.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-19 datetime="2024-04-19T15:16:00.000Z">2024-04-19</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-19 datetime="2024-04-19T15:16:00.000Z"></time>
           </button>
@@ -3276,54 +3321,6 @@ The post Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu appe
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-24 datetime="2024-03-24T11:46:32.000Z">2024-03-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-24 datetime="2024-03-24T11:46:32.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Didier Stevens</button>
-                  <a class="source-heading__link" href="https://blog.didierstevens.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://blog.didierstevens.com/?p&#x3D;10233"
-                        open
-                      >
-                        <summary class="article-expander__title">Update: metatool.py Version 0.0.4</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.didierstevens.com/2024/03/24/update-metatool-py-version-0-0-4/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>metatool.py is a tool to help with the analysis of Metasploit or Cobalt Strike URLs. I added option -a to provide URLs via the command-line. metatool_V0_0_4.zip (http)MD5: 374B30DD3D92557A7F8DAA97B81CEE0ESHA256: D627AF2462610AE0B8CC5AB2BA0A4325D1386BB06F96DC2827DDD22430499192</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-06 datetime="2023-04-06T15:17:37.000Z">2023-04-06</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-06 datetime="2023-04-06T15:17:37.000Z"></time>
           </button>
@@ -3515,8 +3512,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/8776705881">
-        <time id="build-timestamp" datetime="2024-04-22T00:36:54.143Z">2024-04-22T00:36:54.143Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/8792887516">
+        <time id="build-timestamp" datetime="2024-04-23T00:36:09.679Z">2024-04-23T00:36:09.679Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
