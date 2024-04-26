@@ -2,10 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-04-25T00:38:10.891Z</updated>
+    <updated>2024-04-26T00:35:26.832Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Excelling at Excel, Part 4]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9153</id>
+        <link href="https://www.hexacorn.com/blog/2024/04/25/excelling-at-excel-part-4/"/>
+        <updated>2024-04-25T23:33:44.000Z</updated>
+        <summary type="html"><![CDATA[Excel is the emperor of automation. Not the SOAR type, but the local one – yours. Why? Its formulas and VBA capabilities can turn many awfully mundane tasks into plenty of automation opportunities… For instance… certain programming tasks. The case/switch … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues Resolving Symbols on Windows 11 on ARM64]]></title>
+        <id>https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html</id>
+        <link href="https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html"/>
+        <updated>2024-04-25T22:09:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a short blog post about an issue I encountered during some development work on my OleViewDotNet tool and how I resolved it. It might help others if they come across a similar problem, although I'm not sure if I took the best approach.
+OleViewDotNet has the ability to parse the internal COM structures in a process and show important information such as the list of current IPIDs exported by the process and the access security descriptor. 
+PS C:\> $p = Get-ComProcess -ProcessId $pid
+PS C:\> $p.Ipids
+IPID                                 Interface Name  PID    Process Name
+----                                 --------------  ---    ------------
+00008800-4bd8-0000-c3f9-170a9f197e11 IRundown        19416  powershell.exe
+00009401-4bd8-ffff-45b0-a43d5764a731 IRundown        19416  powershel…]]></summary>
+        <author>
+            <name>Tyranid's Lair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nemesis 1.0.0]]></title>
+        <id>https://medium.com/p/8c6b745dc7c5</id>
+        <link href="https://posts.specterops.io/nemesis-1-0-0-8c6b745dc7c5?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-04-25T18:28:18.000Z</updated>
+        <summary type="html"><![CDATA[In August of last year, @tifkin_, @0xdab0, and I released Nemesis, our offensive data enrichment platform. After lots of feedback…]]></summary>
+        <author>
+            <name>Will Schroeder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox]]></title>
+        <id>https://www.mdsec.co.uk/?p=3464</id>
+        <link href="https://www.mdsec.co.uk/2024/04/cve-2024-21111-local-privilege-escalation-in-oracle-virtualbox/"/>
+        <updated>2024-04-25T13:23:57.000Z</updated>
+        <summary type="html"><![CDATA[VirtualBox is a popular open source, cross-platform, virtualization software developed by Oracle Corporation. Earlier this year we identified an arbitrary file move vulnerability in the VirtualBox system service service that...
+The post CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox appeared first on MDSec.]]></summary>
+        <author>
+            <name>Admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrate VMware VMs to Proxmox with the new import wizard]]></title>
+        <id>https://4sysops.com/?p=1582192</id>
+        <link href="https://4sysops.com/archives/migrate-vmware-vms-to-proxmox-with-the-new-import-wizard/"/>
+        <updated>2024-04-25T11:49:20.000Z</updated>
+        <summary type="html"><![CDATA[With all the changes in VMware’s offerings, sysadmins and businesses are looking for alternatives to reduce expenditure or have more control over their infrastructure. Proxmox is a free enterprise-ready alternative to VMware ESXi with optional commercial hypervisor and backup support. Many organizations have refrained from migrating from VMware to Proxmox due to the high costs associated with migration. The new Proxmox import wizard simplifies the migration process.]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sifting through the spines: identifying (potential) Cactus ransomware victims]]></title>
+        <id>https://research.nccgroup.com/?p=34446</id>
+        <link href="https://research.nccgroup.com/2024/04/25/sifting-through-the-spines-identifying-potential-cactus-ransomware-victims/"/>
+        <updated>2024-04-25T04:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Authored by Willem Zeeman and Yun Zheng Hu This blog is part of a series written by various Dutch cyber security firms that have collaborated on the Cactus ransomware group, which exploits Qlik Sense servers for initial access. To view all of them please check the central blog by Dutch special interest group Cyberveilig Nederland […]]]></summary>
+        <author>
+            <name>Yun Zheng Hu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hack My Career: Meet Frances H]]></title>
         <id>https://hackerone.com/culture-and-talent/hack-my-career-meet-frances-h</id>
@@ -987,36 +1055,6 @@ The post Elevating Privileges with Azure Site Recovery Services appeared first o
 The post Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu appeared first on Exodus Intelligence.]]></summary>
         <author>
             <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Forgot BitLocker PIN: recover encrypted drive]]></title>
-        <id>https://4sysops.com/?p=1581116</id>
-        <link href="https://4sysops.com/archives/forgot-bitlocker-pin-recover-encrypted-drive/"/>
-        <updated>2024-03-27T09:59:46.000Z</updated>
-        <summary type="html"><![CDATA[Adding a PIN to a TPM protector helps safeguard BitLocker against known attacks. However, this additional security comes with a trade-off. It reduces the user's convenience, and they risk forgetting the PIN and consequently locking themselves out. In such cases, only the recovery key can unlock the drive.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Empowering Cybersecurity Excellence: Certifications as the Keystone of NIS2 Compliance]]></title>
-        <id>https://www.sans.org/blog/empowering-cybersecurity-excellence-certifications-as-the-keystone-of-nis2-compliance</id>
-        <link href="https://www.sans.org/blog/empowering-cybersecurity-excellence-certifications-as-the-keystone-of-nis2-compliance?msc=rss"/>
-        <updated>2024-03-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the importance of training and certifications when working towards NIS2 compliance.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Disclosure Policy Requirements for UK Smart Products]]></title>
-        <id>https://hackerone.com/public-policy/vdp-requirements-uk-smart-products</id>
-        <link href="https://www.hackerone.com/public-policy/vdp-requirements-uk-smart-products"/>
-        <updated>2024-03-26T16:02:38.000Z</updated>
-        <summary type="html"><![CDATA[New security regulations for connected devices and related guidance enter into force in the UK at the end of April.]]></summary>
-        <author>
-            <name>Michael Woolslayer</name>
         </author>
     </entry>
     <entry>

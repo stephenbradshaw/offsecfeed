@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/8c6b745dc7c5",
+          "author": "Will Schroeder",
+          "description": "In August of last year, @tifkin_, @0xdab0, and I released Nemesis, our offensive data enrichment platform. After lots of feedback…",
+          "link": "https://posts.specterops.io/nemesis-1-0-0-8c6b745dc7c5?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-04-25T18:28:18.000Z",
+          "wordCount": 4209,
+          "title": "Nemesis 1.0.0",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*y-Z_hCQhUgLMy_5y"
+        },
+        {
           "id": "https://medium.com/p/20874277ea3b",
           "author": "Evan McBroom",
           "description": "Thank you to SpecterOps for supporting this research, to Elad for helping draft this blog, and to Sarah, Daniel, and Adam for proofreading…",
@@ -438,16 +448,6 @@
           "wordCount": 4424,
           "title": "Recap: Experts Break Down AI Red Teaming in a Live Q&A",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-03/Blog%20Header%20AI%20Webinar%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/public-policy/vdp-requirements-uk-smart-products",
-          "author": "Michael Woolslayer",
-          "description": "New security regulations for connected devices and related guidance enter into force in the UK at the end of April.",
-          "link": "https://www.hackerone.com/public-policy/vdp-requirements-uk-smart-products",
-          "publishedOn": "2024-03-26T16:02:38.000Z",
-          "wordCount": 2932,
-          "title": "Vulnerability Disclosure Policy Requirements for UK Smart Products",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-03/Blog%20Header_VDP%20UK%20Smart%20Products%20763x462%402x_0.png"
         }
       ]
     },
@@ -488,7 +488,18 @@
       "title": "Tyranid's Lair",
       "feedUrl": "https://www.tiraniddo.dev/feeds/posts/default",
       "siteUrl": "https://www.tiraniddo.dev/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html",
+          "author": null,
+          "description": "This is a short blog post about an issue I encountered during some development work on my OleViewDotNet tool and how I resolved it. It might help others if they come across a similar problem, although I'm not sure if I took the best approach.\nOleViewDotNet has the ability to parse the internal COM structures in a process and show important information such as the list of current IPIDs exported by the process and the access security descriptor. \nPS C:\\> $p = Get-ComProcess -ProcessId $pid\nPS C:\\> $p.Ipids\nIPID                                 Interface Name  PID    Process Name\n----                                 --------------  ---    ------------\n00008800-4bd8-0000-c3f9-170a9f197e11 IRundown        19416  powershell.exe\n00009401-4bd8-ffff-45b0-a43d5764a731 IRundown        19416  powershel…",
+          "link": "https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html",
+          "publishedOn": "2024-04-25T22:09:00.000Z",
+          "wordCount": 2732,
+          "title": "Issues Resolving Symbols on Windows 11 on ARM64",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Zero Day Initiative - Blog",
@@ -554,6 +565,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=34446",
+          "author": "Yun Zheng Hu",
+          "description": "Authored by Willem Zeeman and Yun Zheng Hu This blog is part of a series written by various Dutch cyber security firms that have collaborated on the Cactus ransomware group, which exploits Qlik Sense servers for initial access. To view all of them please check the central blog by Dutch special interest group Cyberveilig Nederland […]",
+          "link": "https://research.nccgroup.com/2024/04/25/sifting-through-the-spines-identifying-potential-cactus-ransomware-victims/",
+          "publishedOn": "2024-04-25T04:01:00.000Z",
+          "wordCount": 20541,
+          "title": "Sifting through the spines: identifying (potential) Cactus ransomware victims",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=34401",
           "author": "Catalin Visinescu",
@@ -851,6 +872,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1582192",
+          "author": "Edem Afenyo",
+          "description": "With all the changes in VMware’s offerings, sysadmins and businesses are looking for alternatives to reduce expenditure or have more control over their infrastructure. Proxmox is a free enterprise-ready alternative to VMware ESXi with optional commercial hypervisor and backup support. Many organizations have refrained from migrating from VMware to Proxmox due to the high costs associated with migration. The new Proxmox import wizard simplifies the migration process.",
+          "link": "https://4sysops.com/archives/migrate-vmware-vms-to-proxmox-with-the-new-import-wizard/",
+          "publishedOn": "2024-04-25T11:49:20.000Z",
+          "wordCount": null,
+          "title": "Migrate VMware VMs to Proxmox with the new import wizard",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1581997",
           "author": "Welf Alberts",
           "description": "The instructions in this post outline how to execute arbitrary code with administrator privileges on the Windows logon screen before the user signs in.",
@@ -1049,16 +1080,6 @@
           "wordCount": null,
           "title": "Podman Desktop, an alternative to Docker Desktop",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1581116",
-          "author": "Wolfgang Sommergut",
-          "description": "Adding a PIN to a TPM protector helps safeguard BitLocker against known attacks. However, this additional security comes with a trade-off. It reduces the user's convenience, and they risk forgetting the PIN and consequently locking themselves out. In such cases, only the recovery key can unlock the drive.",
-          "link": "https://4sysops.com/archives/forgot-bitlocker-pin-recover-encrypted-drive/",
-          "publishedOn": "2024-03-27T09:59:46.000Z",
-          "wordCount": null,
-          "title": "Forgot BitLocker PIN: recover encrypted drive",
-          "imageUrl": null
         }
       ]
     },
@@ -1073,6 +1094,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9153",
+          "author": "adam",
+          "description": "Excel is the emperor of automation. Not the SOAR type, but the local one – yours. Why? Its formulas and VBA capabilities can turn many awfully mundane tasks into plenty of automation opportunities… For instance… certain programming tasks. The case/switch … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/04/25/excelling-at-excel-part-4/",
+          "publishedOn": "2024-04-25T23:33:44.000Z",
+          "wordCount": 1059,
+          "title": "Excelling at Excel, Part 4",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9143",
           "author": "adam",
@@ -1119,7 +1150,18 @@
       "title": "Penetration testing Archives - MDSec",
       "feedUrl": "https://www.mdsec.co.uk/category/penetration-testing/feed/",
       "siteUrl": "https://www.mdsec.co.uk/category/penetration-testing/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.mdsec.co.uk/?p=3464",
+          "author": "Admin",
+          "description": "VirtualBox is a popular open source, cross-platform, virtualization software developed by Oracle Corporation. Earlier this year we identified an arbitrary file move vulnerability in the VirtualBox system service service that...\nThe post CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox appeared first on MDSec.",
+          "link": "https://www.mdsec.co.uk/2024/04/cve-2024-21111-local-privilege-escalation-in-oracle-virtualbox/",
+          "publishedOn": "2024-04-25T13:23:57.000Z",
+          "wordCount": 1608,
+          "title": "CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox",
+          "imageUrl": "https://www.mdsec.co.uk/wp-content/uploads/2019/11/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+        }
+      ]
     },
     {
       "title": "Pen Test Partners",
@@ -1251,16 +1293,6 @@
           "publishedOn": "2024-03-29T00:00:00.000Z",
           "wordCount": 5116,
           "title": "The Art of Possible: Your Guide to RSAC 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/empowering-cybersecurity-excellence-certifications-as-the-keystone-of-nis2-compliance",
-          "author": null,
-          "description": "A blog about the importance of training and certifications when working towards NIS2 compliance.",
-          "link": "https://www.sans.org/blog/empowering-cybersecurity-excellence-certifications-as-the-keystone-of-nis2-compliance?msc=rss",
-          "publishedOn": "2024-03-27T00:00:00.000Z",
-          "wordCount": 5894,
-          "title": "Empowering Cybersecurity Excellence: Certifications as the Keystone of NIS2 Compliance",
           "imageUrl": null
         }
       ]
