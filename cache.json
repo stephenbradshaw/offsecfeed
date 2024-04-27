@@ -200,6 +200,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/ai/accelerate-find-to-fix-hai",
+          "author": "Martijn Russchen",
+          "description": "You can now streamline and enhance your vulnerability management process with HackerOne’s in-platform GenAI copilot, Hai.",
+          "link": "https://www.hackerone.com/ai/accelerate-find-to-fix-hai",
+          "publishedOn": "2024-04-25T18:00:00.000Z",
+          "wordCount": 2901,
+          "title": "Accelerate Find-to-Fix Cycles With Hai",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/BlogImages_763x462_BlogImage_AI-4.png"
+        },
+        {
           "id": "https://hackerone.com/culture-and-talent/hack-my-career-meet-frances-h",
           "author": "Marina Briones",
           "description": "",
@@ -604,26 +614,6 @@
           "wordCount": 20119,
           "title": "Technical Advisory – Ollama DNS Rebinding Attack (CVE-2024-28224)",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=34262",
-          "author": "Elena Bakos Lang",
-          "description": "During the winter of 2022, Google engaged NCC Group to conduct an in-depth security review of the Aggregation Service, part of Google’s Privacy Sandbox initiative. Google describes the Aggregation Service as follows: The Privacy Sandbox initiative aims to create technologies that both protect people’s privacy online and give companies and developers tools to build thriving […]",
-          "link": "https://research.nccgroup.com/2024/03/28/public-report-google-privacy-sandbox-aggregation-service-and-coordinator/",
-          "publishedOn": "2024-03-28T11:59:00.000Z",
-          "wordCount": 19180,
-          "title": "Public Report – Google Privacy Sandbox Aggregation Service and Coordinator",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=34282",
-          "author": "Joshua Kamp",
-          "description": "Authored by Joshua Kamp Executive summary The authors behind Android banking malware Vultur have been spotted adding new technical features, which allow the malware operator to further remotely interact with the victim’s mobile device. Vultur has also started masquerading more of its malicious activity by encrypting its C2 communication, using multiple encrypted payloads that are […]",
-          "link": "https://research.nccgroup.com/2024/03/28/android-malware-vultur-expands-its-wingspan/",
-          "publishedOn": "2024-03-28T10:00:00.000Z",
-          "wordCount": 23704,
-          "title": "Android Malware Vultur Expands Its Wingspan",
-          "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2024/03/542e4746fdf58bc882731fa490a99ed1867a4a95_14.png"
         }
       ]
     },
@@ -631,7 +621,18 @@
       "title": "Blog | Praetorian",
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=5703",
+          "author": "Thomas Tan",
+          "description": "Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations. Recently, we decided to take a look at Ant Media Server with the goal of identifying any vulnerabilities within the application. We performed testing against […]\nThe post Local Privilege Escalation Vulnerability in Ant Media Server (CVE-2024-32656) appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/local-privilege-escalation-vulnerability-ant-media-server-cve202432656/",
+          "publishedOn": "2024-04-26T17:45:40.000Z",
+          "wordCount": 1777,
+          "title": "Local Privilege Escalation Vulnerability in Ant Media Server (CVE-2024-32656)",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/04/figure-1-antmedia-server-app.png"
+        }
+      ]
     },
     {
       "title": "Rhino Security Labs",
@@ -720,6 +721,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=107130",
+          "author": "Trail of Bits",
+          "description": "By Will Song The Trail of Bits cryptography team is pleased to announce the open-sourcing of our pure Rust and Go implementations of Leighton-Micali Hash-Based Signatures (LMS), a well-studied NIST-standardized post-quantum digital signature algorithm. If you or your organization are looking to transition to post-quantum support for digital signatures, both of these implementations have been […]",
+          "link": "https://blog.trailofbits.com/2024/04/26/announcing-two-new-lms-libraries/",
+          "publishedOn": "2024-04-26T13:00:32.000Z",
+          "wordCount": 3270,
+          "title": "Announcing two new LMS libraries",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=107053",
           "author": "Trail of Bits",
           "description": "By Max Ammann This blog showcases five examples of real-world vulnerabilities that we’ve disclosed in the past year (but have not publicly disclosed before). We also share the frustrations we faced in disclosing them to illustrate the need for effective disclosure processes. Here are the five bugs: Undefined behavior in the borsh-rs Rust library Denial-of-service […]",
@@ -781,16 +792,6 @@
           "wordCount": 1263,
           "title": "Public Browser Exploitation Training – Summer 2024",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2252",
-          "author": "Exodus Intel VRT",
-          "description": "By Oriol Castejón Overview In early January 2024, a Project Zero issue for a recently fixed io_uring use-after-free (UAF) vulnerability (CVE-2024-0582) was made public. Reading the issue description, it was apparent that the vulnerability allowed an attacker to obtain read and write access to a number of previously freed pages. This seemed to be a very ... Read more Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu\nThe post Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2024/03/27/mind-the-patch-gap-exploiting-an-io_uring-vulnerability-in-ubuntu/",
-          "publishedOn": "2024-03-27T15:47:36.000Z",
-          "wordCount": 5218,
-          "title": "Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2024/03/fig4.png"
         }
       ]
     },
@@ -871,6 +872,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1582127",
+          "author": "Vignesh Mudliar",
+          "description": "Microsoft will retire the Role-Based Access Control (RBAC) application impersonation role in Exchange Online in May 2024. Applications widely use this role in Exchange Online as it enables them to impersonate users in the tenant to perform actions on behalf of the users. You must migrate all your applications from using this role to other options. This article will explore Microsoft's reasoning behind this move and the current alternatives.",
+          "link": "https://4sysops.com/archives/alternatives-to-rbac-application-impersonation-in-exchange-online/",
+          "publishedOn": "2024-04-26T12:23:13.000Z",
+          "wordCount": null,
+          "title": "Alternatives to RBAC application impersonation in Exchange Online",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1582192",
           "author": "Edem Afenyo",
@@ -1094,6 +1105,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9164",
+          "author": "adam",
+          "description": "Many forensic artifacts can be looked at from many different angles. A few years ago I proposed a concept of filighting that tried to solve a problem of finding unusual, orphaned and potentially malicious files dropped inside directories that contain … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/04/26/a-license-metadata-to-kill-for/",
+          "publishedOn": "2024-04-26T23:40:21.000Z",
+          "wordCount": 1238,
+          "title": "A license (metadata) to kill (for)…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9153",
           "author": "adam",
