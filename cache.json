@@ -132,9 +132,9 @@
       "articles": []
     },
     {
-      "title": "Technical Blog - NetSPI",
-      "feedUrl": "https://www.netspi.com/blog/technical/feed/",
-      "siteUrl": "https://www.netspi.com/blog/technical/",
+      "title": "Technical Blog Archives - NetSPI",
+      "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
+      "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": []
     },
     {
@@ -188,6 +188,46 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ai/prompt-injection-deep-dive",
+          "author": "Sandeep Singh",
+          "description": "As the use of GenAI and LLMs has ramped up, so have the vulnerabilities that come with them, and one of the worst is prompt injection.",
+          "link": "https://www.hackerone.com/ai/prompt-injection-deep-dive",
+          "publishedOn": "2024-04-29T16:00:04.000Z",
+          "wordCount": 3340,
+          "title": "How a Prompt Injection Vulnerability Led to Data Exfiltration",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/Blog%20Header_Prompt%20Injection%20763x462%402x.png"
+        },
+        {
+          "id": "https://hackerone.com/engineering/on-call-lessons",
+          "author": "Shubhi Gupta",
+          "description": "Shubhi Gupta shares tips and lessons from 12 years of being an on-call engineer.",
+          "link": "https://www.hackerone.com/engineering/on-call-lessons",
+          "publishedOn": "2024-04-26T23:14:36.000Z",
+          "wordCount": 3579,
+          "title": "Lessons Learned from Over a Decade of On-Call",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/BlogImages_763x462_BlogImage_Engineering-11.png"
+        },
+        {
+          "id": "https://hackerone.com/engineering/kubernetes",
+          "author": "Konstantinos Stavropoulos",
+          "description": "Exhausted but hopeful and longing for new horizons, the Infrastructure Team embarked on the \"Container Journey.\"",
+          "link": "https://www.hackerone.com/engineering/kubernetes",
+          "publishedOn": "2024-04-26T16:55:41.000Z",
+          "wordCount": 4127,
+          "title": "Kubernetes — A Journey Has Just Begun",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/BlogImages_763x462_BlogImage_Engineering-4.png"
+        },
+        {
+          "id": "https://hackerone.com/engineering/writing-tips-software-engineer",
+          "author": "Charlie Kroon",
+          "description": "Charlie Kroon discusses tips for good writing to make you a better and more impactful engineer.",
+          "link": "https://www.hackerone.com/engineering/writing-tips-software-engineer",
+          "publishedOn": "2024-04-26T16:00:22.000Z",
+          "wordCount": 2962,
+          "title": "On Writing Well as a Software Engineer",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/BlogImages_763x462_BlogImage_Engineering-17.png"
+        },
         {
           "id": "https://hackerone.com/ai/accelerate-find-to-fix-hai",
           "author": "Martijn Russchen",
@@ -809,12 +849,6 @@
       "articles": []
     },
     {
-      "title": "Mogozobo",
-      "feedUrl": "https://www.mogozobo.com/?feed=rss2",
-      "siteUrl": "https://www.mogozobo.com",
-      "articles": []
-    },
-    {
       "title": "Realmode Labs - Medium",
       "feedUrl": "https://medium.com/feed/realmodelabs",
       "siteUrl": "https://medium.com/realmodelabs?source=rss----a97a5137a6a4---4",
@@ -831,6 +865,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1581798",
+          "author": "Wolfgang Sommergut",
+          "description": "An essential step towards automating the Windows setup process is replacing the system drive's interactive partitioning with a script. Microsoft's examples for this purpose rely on batch files and Diskpart. However, installing PowerShell in Windows PE allows for a much more elegant solution.",
+          "link": "https://4sysops.com/archives/partition-windows-drive-in-winpe-using-powershell/",
+          "publishedOn": "2024-04-29T18:04:24.000Z",
+          "wordCount": null,
+          "title": "Partition Windows drive in WinPE using PowerShell",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1582127",
           "author": "Vignesh Mudliar",
@@ -1037,7 +1081,18 @@
       "title": "modexp",
       "feedUrl": "https://modexp.wordpress.com/feed/",
       "siteUrl": "https://modexp.wordpress.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://modexp.wordpress.com/?p=5405",
+          "author": "odzhan",
+          "description": "Introduction This is a quick follow up post to Data Masking that discussed how one might use the Fisher-Yates shuffle and a DRBG to mask shellcode. There’s a lot of ways to mask data that don’t involve using an XOR … Continue reading →",
+          "link": "https://modexp.wordpress.com/2024/04/29/shellcode-data-masking-2/",
+          "publishedOn": "2024-04-29T08:08:21.000Z",
+          "wordCount": 3588,
+          "title": "Shellcode: Data Masking 2",
+          "imageUrl": "https://modexp.files.wordpress.com/2024/04/demo.png?w=879"
+        }
+      ]
     },
     {
       "title": "Hexacorn",
@@ -1083,16 +1138,6 @@
           "wordCount": 1006,
           "title": "The art of cutting corners",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=9130",
-          "author": "adam",
-          "description": "As many of you know, I am a big fan of Frida framework and I love its intuitiveness and flexibility, especially when it comes to auto-generating handlers for hooked functions, even if they are randomly chosen. In my older Frida … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2024/03/31/subfrida-v0-1/",
-          "publishedOn": "2024-03-31T00:57:22.000Z",
-          "wordCount": 1482,
-          "title": "Subfrida v0.1",
-          "imageUrl": null
         }
       ]
     },
@@ -1135,6 +1180,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/insane-incident-incursion-recursion-mastering-incident-response-reporting-regulations",
+          "author": null,
+          "description": "A blog about industrial control system incident response.",
+          "link": "https://www.sans.org/blog/insane-incident-incursion-recursion-mastering-incident-response-reporting-regulations?msc=rss",
+          "publishedOn": "2024-04-29T00:00:00.000Z",
+          "wordCount": 5986,
+          "title": "Insane Incident Incursion Recursion: Mastering Incident Response Reporting Regulations",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/the-ripple-effect-nis2-impact-on-cybersecurity-practices-across-the-eu",
           "author": null,
@@ -1460,7 +1515,18 @@
       "title": "Publications | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.outflank.nl/?p=3979",
+          "author": "Marc Smeets",
+          "description": "Malicious actors continuously deploy new or improved techniques. Red teams must maintain an equally rapid pace of development of their tooling arsenal to remain effective at testing evolving defensive measure and preparing organizations for advanced threats. With the dedicated research and development efforts from the Outflank team, OST is constantly evolving, with additions of new, leading-edge tools unique to the market as well as regular enhancements to our existing tools. \nIn this quarterly release blog, we’ll summarize some of the latest updates we’ve made over the past few months.  \nEDR Tradecraft\nOver the last few years we have clearly seen the big EDR names in the market up their game. Generally, we can say that they are doing a great job and that EDR-bypasses are becoming harder. However, EDRs can’t be expected to do magic,\nTags: EDR, OST, powershell, tradecraft\nRead full post\nThe post OST Release Blog: EDR Tradecraft, Presets, PowerShell Tradecraft, and More  appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2024/04/29/ost-release-blog-edr-tradecraft-presets-powershell-tradecraft-and-more/",
+          "publishedOn": "2024-04-29T16:15:32.000Z",
+          "wordCount": 2230,
+          "title": "OST Release Blog: EDR Tradecraft, Presets, PowerShell Tradecraft, and More",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/04/EDR_working_presets-2-1024x425.jpg"
+        }
+      ]
     },
     {
       "title": "IFCR - Medium",
