@@ -509,6 +509,16 @@
       "siteUrl": "https://www.tiraniddo.dev/",
       "articles": [
         {
+          "id": "https://www.tiraniddo.dev/2024/04/relaying-kerberos-authentication-from.html",
+          "author": null,
+          "description": "Recently, there's been some good research into further exploiting DCOM authentication that I initially reported to Microsoft almost 10 years ago. By inducing authentication through DCOM it can be relayed to a network service, such as Active Directory Certificate Services (ADCS) to elevated privileges and in some cases get domain administrator access.\nThe important difference with this new research is taking the abuse of DCOM authentication from local access (in the case of the many Potatoes) to fully remote by abusing security configuration changes or over granting group access. For more information I'd recommend reading the slides from Tianze Ding Blackhat ASIA 2024 presentation, or reading about SilverPotato by Andrea Pierini.\nThis short blog post is directly based on slide 36 of Tianze …",
+          "link": "https://www.tiraniddo.dev/2024/04/relaying-kerberos-authentication-from.html",
+          "publishedOn": "2024-04-30T01:08:00.000Z",
+          "wordCount": 2546,
+          "title": "Relaying Kerberos Authentication from DCOM OXID Resolving",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFtsL-cKYvq10TZF0BK_uLzKP8lDZhNDF15QFO0V1RfNCWgCMfLVG2GJgxSlKGSP9wnNo40OZPJ32iEtTchy2A94bmoXtXOzbvtjItvMOItw9X7sRW0-KcYTczDQCrvKvnoCHCYrcwarK22yCYbRYoOazeCrtVVvaP9tc4YpAERhjNp2d_TvznEGTeXvQ/w1200-h630-p-k-no-nu/dcom_slide.jpg"
+        },
+        {
           "id": "https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html",
           "author": null,
           "description": "This is a short blog post about an issue I encountered during some development work on my OleViewDotNet tool and how I resolved it. It might help others if they come across a similar problem, although I'm not sure if I took the best approach.\nOleViewDotNet has the ability to parse the internal COM structures in a process and show important information such as the list of current IPIDs exported by the process and the access security descriptor. \nPS C:\\> $p = Get-ComProcess -ProcessId $pid\nPS C:\\> $p.Ipids\nIPID                                 Interface Name  PID    Process Name\n----                                 --------------  ---    ------------\n00008800-4bd8-0000-c3f9-170a9f197e11 IRundown        19416  powershell.exe\n00009401-4bd8-ffff-45b0-a43d5764a731 IRundown        19416  powershel…",
@@ -730,6 +740,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=107141",
+          "author": "Trail of Bits",
+          "description": "By Nat Chin Welcome to our deep dive into the world of invariant development with Curvance. We’ve been building invariants as part of regular code review assessments for more than 6 years now, but our work with Curvance marks our very first official invariant development project, in which developing and testing invariants is all we […]",
+          "link": "https://blog.trailofbits.com/2024/04/30/curvance-invariants-unleashed/",
+          "publishedOn": "2024-04-30T13:30:43.000Z",
+          "wordCount": 4442,
+          "title": "Curvance: Invariants unleashed",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/04/curvance7-1.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=107130",
           "author": "Trail of Bits",
           "description": "By Will Song The Trail of Bits cryptography team is pleased to announce the open-sourcing of our pure Rust and Go implementations of Leighton-Micali Hash-Based Signatures (LMS), a well-studied NIST-standardized post-quantum digital signature algorithm. If you or your organization are looking to transition to post-quantum support for digital signatures, both of these implementations have been […]",
@@ -865,6 +885,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1582298",
+          "author": "Surender Kumar",
+          "description": "Proxmox Virtual Environment (VE) 8.2 includes new functionalities such as an automated installation tool for more straightforward setup on bare-metal servers, a migration wizard for VMware ESXi virtual machines, and a switch to an nftables-based firewall for enhanced security. It also introduces LXC device passthrough for containerized workloads and advanced backup settings to optimize resource utilization during backups. These updates are part of a broader release that updates core technologies and system components.",
+          "link": "https://4sysops.com/archives/new-features-in-proxmox-82/",
+          "publishedOn": "2024-04-30T13:17:04.000Z",
+          "wordCount": null,
+          "title": "New features in Proxmox 8.2",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1581798",
           "author": "Wolfgang Sommergut",
@@ -1064,16 +1094,6 @@
           "wordCount": null,
           "title": "iVentoy: PXE server for Windows 11 deployment",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1581426",
-          "author": "Evi Vanoost",
-          "description": "A severe vulnerability (CVE-2024-3094) has been discovered in XZ Utils (5.6.0 or 5.6.1), a commonly used compression format. The vulnerability allows attackers to gain root access through SSH. XZ Utils is used in many Linux distributions; it is also available for Windows and has been incorporated into many other programs. Attackers can install programs, manipulate data, or create new accounts with full root privileges. While there are no reports of exploits in the wild, the potential impact is profound, and most Linux distributions have issued warnings. In this post, you will learn how to determine if your systems are affected and what to do if they are.",
-          "link": "https://4sysops.com/archives/critical-alert-ssh-and-xz-vulnerability-cve-2024-3094-testing-and-remediation/",
-          "publishedOn": "2024-04-01T11:24:26.000Z",
-          "wordCount": null,
-          "title": "Critical alert: SSH and XZ vulnerability (CVE-2024-3094) – Testing and remediation",
-          "imageUrl": null
         }
       ]
     },
@@ -1181,6 +1201,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/deploying-multi-factor-authentication-the-what-how-and-why",
+          "author": null,
+          "description": "A blog about deploying multi factor authentication.",
+          "link": "https://www.sans.org/blog/deploying-multi-factor-authentication-the-what-how-and-why?msc=rss",
+          "publishedOn": "2024-04-30T00:00:00.000Z",
+          "wordCount": 5524,
+          "title": "Deploying Multi Factor Authentication – The What, How, and Why",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/insane-incident-incursion-recursion-mastering-incident-response-reporting-regulations",
           "author": null,
           "description": "A blog about industrial control system incident response.",
@@ -1188,6 +1218,16 @@
           "publishedOn": "2024-04-29T00:00:00.000Z",
           "wordCount": 5986,
           "title": "Insane Incident Incursion Recursion: Mastering Incident Response Reporting Regulations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/Spring-2024-Update-Explore-the-Latest-Enhancements",
+          "author": null,
+          "description": "We are excited to announce the latest update to the SANS Institute's FOR585: Smartphone Forensic Analysis In-Depth!",
+          "link": "https://www.sans.org/blog/Spring-2024-Update-Explore-the-Latest-Enhancements?msc=rss",
+          "publishedOn": "2024-04-26T00:00:00.000Z",
+          "wordCount": 5070,
+          "title": "Spring 2024 Update: Explore the Latest Enhancements to SANS FOR585: Smartphone Forensic Analysis In-Depth",
           "imageUrl": null
         },
         {
@@ -1268,26 +1308,6 @@
           "publishedOn": "2024-04-02T00:00:00.000Z",
           "wordCount": 3039,
           "title": "A Visual Summary of SANS New2Cyber Summit 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/4-key-cybersecurity-trends-to-watch-in-2024",
-          "author": null,
-          "description": "This infographic shows four major trends that will give CISOs the opportunity to empower their organizations and security teams in 2024.",
-          "link": "https://www.sans.org/blog/4-key-cybersecurity-trends-to-watch-in-2024?msc=rss",
-          "publishedOn": "2024-04-01T00:00:00.000Z",
-          "wordCount": 2599,
-          "title": "4 Key Cybersecurity Trends to Watch in 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/4-cybersecurity-trends-for-greater-roi-in-2024",
-          "author": null,
-          "description": "This infographic shows four major trends that will give CISOs the opportunity to empower their organizations and security teams in 2024.",
-          "link": "https://www.sans.org/blog/4-cybersecurity-trends-for-greater-roi-in-2024?msc=rss",
-          "publishedOn": "2024-04-01T00:00:00.000Z",
-          "wordCount": 2611,
-          "title": "4 Cybersecurity Trends for Greater ROI in 2024",
           "imageUrl": null
         }
       ]
@@ -1399,6 +1419,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=96818",
+          "author": "LABScon",
+          "description": "Covering investigations into Turla, Magna Bear and REvil, this talks offers a fascinating insight into how researchers unmask threat actor identities.",
+          "link": "https://www.sentinelone.com/labs/labscon23-replay-from-vulkan-to-ryazan-investigative-reporting-from-the-frontlines-of-infosec/",
+          "publishedOn": "2024-04-30T16:12:09.000Z",
+          "wordCount": 7218,
+          "title": "LABScon23 Replay | From Vulkan to Ryazan – Investigative Reporting from the Frontlines of Infosec",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2024/04/labscon23_hakan_ftr.jpg",
+            "length": "499711",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/04/labscon23_hakan_ftr.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=96672",
           "author": "LABScon",
           "description": "Take a unique look inside Iran's drone and missile program as Adam Rawnsley charts the rise of Mado, a key IRGC drone company.",
@@ -1426,6 +1461,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/which-star-wars-character-fits-your-cybersecurity-style",
+          "author": null,
+          "description": "The leader in offensive security, providing continuous pen testing, red teaming, attack surface management, and traditional security assessments.",
+          "link": "https://bishopfox.com/blog/which-star-wars-character-fits-your-cybersecurity-style",
+          "publishedOn": "2024-04-30T17:50:00.000Z",
+          "wordCount": 1845,
+          "title": "Which Star Wars Character Fits Your Cybersecurity Style?",
+          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/BishopFox-Blog-StarWars-Cybersecurity-Character-OG.jpg?mtime=1714498413"
+        },
         {
           "id": "https://bishopfox.com/blog/pan-os-cve-2024-3400-patch-your-palo-alto-firewalls",
           "author": "Bishop Fox",
