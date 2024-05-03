@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/8a65099e12e3",
+          "author": "Hope Walker",
+          "description": "This post is a follow-up to my previous post on manual LDAP querying. I would highly recommend reading that post prior to reading this one…",
+          "link": "https://posts.specterops.io/manual-ldap-querying-part-2-8a65099e12e3?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-05-02T15:01:54.000Z",
+          "wordCount": 8201,
+          "title": "Manual LDAP Querying: Part 2",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1123/0*PWqKKLtAU8VX95pl"
+        },
+        {
           "id": "https://medium.com/p/ac7f925d1547",
           "author": "Jonas Bülow Knudsen",
           "description": "In this blog post, we will cover how we have incorporated the Golden Certificates and the ADCS ESC3 abuse technique in BloodHound.",
@@ -54,16 +64,6 @@
           "wordCount": 3185,
           "title": "Ghostwriter v4.1: The Custom Fields Update",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*0gc2EVWVuIfSxClcWy8d6Q.png"
-        },
-        {
-          "id": "https://medium.com/p/013b431e7f49",
-          "author": "Zach Stein",
-          "description": "Written by Zach Stein & Duane Michael",
-          "link": "https://posts.specterops.io/getting-intune-with-bugs-and-tokens-a-journey-through-epm-013b431e7f49?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-04-02T15:37:29.000Z",
-          "wordCount": 7605,
-          "title": "Getting Intune with Bugs and Tokens: A Journey Through EPM",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*D_BKjGKngq6wfwAV"
         }
       ]
     },
@@ -198,6 +198,26 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-compliance/crest-pentesting",
+          "author": "HackerOne Pentest Delivery Team",
+          "description": "Learn the importance of using a CREST-certified and approved security partner for your pentest engagements.",
+          "link": "https://www.hackerone.com/security-compliance/crest-pentesting",
+          "publishedOn": "2024-05-02T16:00:06.000Z",
+          "wordCount": 2961,
+          "title": "CREST and Pentesting: What You Need to Know",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/BlogImages_763x462_BlogImage_PTaaS-2.png"
+        },
+        {
+          "id": "https://hackerone.com/customer-stories/zoom-als-hackforgood",
+          "author": "HackerOne",
+          "description": "HackerOne has partnered with Zoom to select EverythingALS as the Hack For Good donation option for ALS Awareness Month.",
+          "link": "https://www.hackerone.com/customer-stories/zoom-als-hackforgood",
+          "publishedOn": "2024-05-01T16:00:00.000Z",
+          "wordCount": 2481,
+          "title": "HackerOne and Zoom Select EverythingALS as the Latest Charity For #Hackforgood",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/Blog%20Header_Zoom%20ALS%20763x462%402x.png"
+        },
         {
           "id": "https://hackerone.com/hackerones-next-stage-growth",
           "author": "Marten Mickos",
@@ -474,28 +494,7 @@
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
       "siteUrl": "https://pentestlab.blog",
-      "articles": [
-        {
-          "id": "http://pentestlab.blog/?p=33393",
-          "author": "Administrator",
-          "description": "DLL Proxy Loading is a technique which an arbitrary DLL exports the same functions as the legitimate DLL and forwards the calls to the legitimate… \nContinue reading → Persistence – DLL Proxy Loading",
-          "link": "https://pentestlab.blog/2024/04/03/persistence-dll-proxy-loading/",
-          "publishedOn": "2024-04-03T06:57:00.000Z",
-          "wordCount": 5479,
-          "title": "Persistence – DLL Proxy Loading",
-          "imageUrl": "https://pentestlab.files.wordpress.com/2024/04/dll-proxying-loading-process-thread.png"
-        },
-        {
-          "id": "https://pentestlab.blog/?p=33393",
-          "author": "Administrator",
-          "description": "DLL Proxy Loading is a technique which an arbitrary DLL exports the same functions as the legitimate DLL and forwards the calls to the legitimate… \nContinue reading → Persistence – DLL Proxy Loading",
-          "link": "http://pentestlab.blog/2024/04/03/persistence-dll-proxy-loading/",
-          "publishedOn": "2024-04-03T06:57:00.000Z",
-          "wordCount": 5591,
-          "title": "Persistence – DLL Proxy Loading",
-          "imageUrl": "https://pentestlab.files.wordpress.com/2024/04/dll-proxying-loading-process-thread.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Active Directory Security",
@@ -536,6 +535,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6633b93d81f8ef5916e65fcf",
+          "author": "Guest Blogger",
+          "description": "In this guest blog from Master of Pwn winner Manfred Paul, he details CVE-2024-2887 – a type confusion bug that occurs in both Google Chrome and Microsoft Edge (Chromium). He used this bug as a part of his winning exploit that led to code execution in the renderer of both browsers. This bug was quickly patched by both Google and Microsoft. Manfred has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.\nIn this blog, I describe a means of exploiting the V8 JavaScript and WebAssembly engine to gain execution of arbitrary shellcode inside the renderer process. This includes a bypass of the V8 memory sandbox (Ubercage), though code execution is still constrained by the process isolation-based browser sandbox. For demonstration purposes, this …",
+          "link": "https://www.thezdi.com/blog/2024/5/2/cve-2024-2887-a-pwn2own-winning-bug-in-google-chrome",
+          "publishedOn": "2024-05-02T16:14:11.000Z",
+          "wordCount": null,
+          "title": "CVE-2024-2887: A Pwn2Own Winning Bug in Google Chrome",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:661988d3adb56256669d3ecf",
           "author": "Trend Micro Research Team",
           "description": "In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Guy Lederfein and Jason McFadyen of the Trend Micro Research Team detail a recently patched remote code execution vulnerability in Microsoft Windows. This bug was originally discovered by the Microsoft Offensive Research & Security Engineering team. Successful exploitation could result in arbitrary code execution in the context of the application using the vulnerable library. The following is a portion of their write-up covering CVE-2024-20697, with a few minimal modifications.\nAn integer overflow vulnerability exists in the Libarchive library included in Microsoft Windows. The vulnerability is due to insufficient bounds checks on the block length of a RARVM filter used for Intel E8 preprocessing, include…",
@@ -569,7 +579,18 @@
       "title": "Winsider Seminars & Solutions Inc.",
       "feedUrl": "https://windows-internals.com/feed/",
       "siteUrl": "https://windows-internals.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://windows-internals.com/?p=531305",
+          "author": "Yarden Shafir",
+          "description": "[…]",
+          "link": "https://windows-internals.com/secure-kernel-research-with-livecloudkd/?utm_source=rss&utm_medium=rss&utm_campaign=secure-kernel-research-with-livecloudkd",
+          "publishedOn": "2024-05-02T16:45:33.000Z",
+          "wordCount": 2755,
+          "title": "Secure Kernel Research with LiveCloudKd",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Alexander Popov",
@@ -708,7 +729,18 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/05/02/products-security-audit-vs-bugbounty.html",
+          "author": null,
+          "description": "Every so often we see people discussing whether they still need to have product security audits (commonly referred to as pentests) because they have a bug bounty program. While the answer to this seems clear to us, it nonetheless is a recurring topic of discussion, particularly in the information security corners of social media. We’ve decided to publish our thoughts on this topic to clarify it for those who might still be unsure.\n\n\n\nDefining the approaches\nProduct Security Audit\nWhat we refer to as a product security audit is a time-bound project, where one or more engineers focus on a particular application exclusively. The testing is performed by employees of an application security firm. This work is usually scoped ahead of time and billed at flat hourly/daily rates, with the total cos…",
+          "link": "https://blog.doyensec.com/2024/05/02/products-security-audit-vs-bugbounty.html",
+          "publishedOn": "2024-05-01T22:00:00.000Z",
+          "wordCount": 2701,
+          "title": "Product Security Audits vs. Bug Bounty",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Attack & Defense",
@@ -739,6 +771,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=107179",
+          "author": "Trail of Bits",
+          "description": "By Francesco Bertolaccini You’ve reached computer programming nirvana. Your journey has led you down many paths, including believing that God wrote the universe in LISP, but now the truth is clear in your mind: every problem can be solved by writing one more compiler. It’s true. Even our soon-to-be artificially intelligent overlords are nothing but […]",
+          "link": "https://blog.trailofbits.com/2024/05/02/the-life-and-times-of-an-abstract-syntax-tree/",
+          "publishedOn": "2024-05-02T13:00:06.000Z",
+          "wordCount": 5096,
+          "title": "The life and times of an Abstract Syntax Tree",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=107141",
           "author": "Trail of Bits",
@@ -885,6 +927,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1582083",
+          "author": "Wolfgang Sommergut",
+          "description": "When organizations implement a lockout policy, it is common for users to lock themselves out and require assistance from the helpdesk. In such cases, helpdesk personnel without administrator rights require permission to unlock user accounts. This can be achieved through delegation.",
+          "link": "https://4sysops.com/archives/delegate-permission-to-unlock-active-directory-accounts/",
+          "publishedOn": "2024-05-02T16:29:12.000Z",
+          "wordCount": null,
+          "title": "Delegate permission to unlock Active Directory accounts",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1582217",
           "author": "Thomas Joos",
@@ -1221,6 +1273,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/unveiling-the-2024-sans-giac-cyber-workforce-research-report-building-and-sustaining-mid-level-cybersecurity-roles",
+          "author": null,
+          "description": "Explore the key findings from the 2024 SANS | GIAC Cyber Workforce Research Report on cybersecurity workforce management.",
+          "link": "https://www.sans.org/blog/unveiling-the-2024-sans-giac-cyber-workforce-research-report-building-and-sustaining-mid-level-cybersecurity-roles?msc=rss",
+          "publishedOn": "2024-05-02T00:00:00.000Z",
+          "wordCount": 4127,
+          "title": "Unveiling the 2024 SANS | GIAC Cyber Workforce Research Report: Building and Sustaining Mid-Level Cybersecurity Roles",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/deploying-multi-factor-authentication-the-what-how-and-why",
           "author": null,
           "description": "A blog about deploying multi factor authentication.",
@@ -1309,16 +1371,6 @@
           "wordCount": 3376,
           "title": "The Quest to Summit | SANS ICS Security Summit 2024",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/4-trends-that-will-define-the-cisos-role-in-2024",
-          "author": null,
-          "description": "These are the topics most prevalent in countless discussions with security leaders and experts.",
-          "link": "https://www.sans.org/blog/4-trends-that-will-define-the-cisos-role-in-2024?msc=rss",
-          "publishedOn": "2024-04-03T00:00:00.000Z",
-          "wordCount": 5357,
-          "title": "4 Trends That Will Define the CISO's Role in 2024",
-          "imageUrl": null
         }
       ]
     },
@@ -1355,16 +1407,6 @@
           "publishedOn": "2024-04-07T23:00:30.000Z",
           "wordCount": 737,
           "title": "Google AI Studio Data Exfiltration via Prompt Injection - Possible Regression and Fix",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2024/the-dangers-of-unfurling-and-what-you-can-do-about-it/",
-          "author": null,
-          "description": "About a year ago we talked about how developers can’t intrinsically trust LLM responses and common threats that AI Chatbots face and how attackers can exploit them, including ways to exfiltrate data.\nOne of the threats is unfurling of hyperlinks, which can lead to data exfiltration and is something often seen in Chatbots. So, let’s shine more light on it, including practical guidance on how to mitigate it with the example of Slack Apps.",
-          "link": "https://embracethered.com/blog/posts/2024/the-dangers-of-unfurling-and-what-you-can-do-about-it/",
-          "publishedOn": "2024-04-03T04:00:48.000Z",
-          "wordCount": 787,
-          "title": "The dangers of AI agents unfurling hyperlinks and what to do about it",
           "imageUrl": null
         }
       ]
