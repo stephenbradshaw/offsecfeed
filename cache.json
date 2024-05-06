@@ -54,16 +54,6 @@
           "wordCount": 2021,
           "title": "Rooting out Risky SCCM Configs with Misconfiguration Manager",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*h3Y9Bn9nPFDhP_JO"
-        },
-        {
-          "id": "https://medium.com/p/fe07f7dda293",
-          "author": "Christopher Maddalena",
-          "description": "Introducing the awesome changes in the latest Ghostwriter",
-          "link": "https://posts.specterops.io/ghostwriter-v4-1-the-custom-fields-update-fe07f7dda293?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-04-05T17:29:02.000Z",
-          "wordCount": 3185,
-          "title": "Ghostwriter v4.1: The Custom Fields Update",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*0gc2EVWVuIfSxClcWy8d6Q.png"
         }
       ]
     },
@@ -133,7 +123,58 @@
       "title": "SkullSecurity Blog",
       "feedUrl": "https://blog.skullsecurity.org/feed",
       "siteUrl": "https://www.skullsecurity.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html",
+          "author": null,
+          "description": "The premise of the three challenges cant-give-in, cant-give-in-secure, and cant-give-in-securer are to learn how to exploit and debug compiled code that’s loaded as a CGI module. You might think that’s unlikely, but a surprising number of enterprise applications (usually hardware stuff - firewalls, network “security” appliances, stuff like that) is powered by CGI scripts. You never know! This challenge was inspired by one of my co-workers at GreyNoise asking how to debug a CGI script. I thought it’d be cool to make a multi-challenge series in case others didn’t know! This write-up is intended to be fairly detailed, to help new players understand their first stack overflow!",
+          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html",
+          "publishedOn": "2024-05-05T00:00:00.000Z",
+          "wordCount": 3240,
+          "title": "BSidesSF 2024 Writeups: Can’t Give In (CGI exploitation)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/no-tools.html",
+          "author": null,
+          "description": "No Tools is a fairly simple terminal challenge, something for new players to chew on. I suspect there are several different ways to solve it, but the basic idea is to read a file using only built-in functions from sh.",
+          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/no-tools.html",
+          "publishedOn": "2024-05-05T00:00:00.000Z",
+          "wordCount": 370,
+          "title": "BSidesSF 2024 Writeups: No Tools (A puzzling Bash challenge)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/safer-streets.html",
+          "author": null,
+          "description": "This is a write-up for Safer Streets. I apparently wrote this in more “note to self” style, not blog style, so enjoy!",
+          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/safer-streets.html",
+          "publishedOn": "2024-05-05T00:00:00.000Z",
+          "wordCount": 796,
+          "title": "BSidesSF 2024 Writeups: Safer Streets (Web / reversing)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/slay-the-spider.html",
+          "author": null,
+          "description": "Slay the Spider is a Minesweeper-like game where the user and computer try to uncover a spider. The challenge name and trappings are based on Slay the Spire, which is one of my favourite games.",
+          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/slay-the-spider.html",
+          "publishedOn": "2024-05-05T00:00:00.000Z",
+          "wordCount": 666,
+          "title": "BSidesSF 2024 Writeups: Slay the Spider (A hard heap-overflow)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/turing-complete.html",
+          "author": null,
+          "description": "This is a write-up for turing-complete, turing-incomplete, and turing-incomplete64 from the BSides San Francisco 2024 CTF! turing-complete is a 101-level reversing challenge, and turing-incomplete is a much more difficult exploitation challenge with a very similar structure. turing-incomplete64 is a 64-bit version of turing-incomplete, which isn’t necessarily harder, but is different. Let’s look at the levels!",
+          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/turing-complete.html",
+          "publishedOn": "2024-05-05T00:00:00.000Z",
+          "wordCount": 1539,
+          "title": "BSidesSF 2024 Writeups: Turing Complete (Reversing / exploitation)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        }
+      ]
     },
     {
       "title": "Silent Signal Techblog",
@@ -457,26 +498,6 @@
           "wordCount": 2983,
           "title": "HackerOne’s Digital First Workplace",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/_DSC6749.jpg"
-        },
-        {
-          "id": "https://hackerone.com/engineering/credentials-rotation",
-          "author": "Martzen Haagsma",
-          "description": "Learn the importance of credential rotations and best practices for managing them effectively from HackerOne's experts.",
-          "link": "https://www.hackerone.com/engineering/credentials-rotation",
-          "publishedOn": "2024-04-05T16:00:46.000Z",
-          "wordCount": 3099,
-          "title": "The Importance of Credential Rotations: Best Practices for Security and Data Protection",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/Blog%20Header_Credentials%20Rotation%20763x462%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/credentials-rotation",
-          "author": "Martzen Haagsma",
-          "description": "Learn the importance of credential rotations and best practices for managing them effectively from HackerOne's experts.",
-          "link": "https://www.hackerone.com/vulnerability-management/credentials-rotation",
-          "publishedOn": "2024-04-05T16:00:46.000Z",
-          "wordCount": 3089,
-          "title": "The Importance of Credential Rotations: Best Practices for Security and Data Protection",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/Blog%20Header_Credentials%20Rotation%20763x462%402x.png"
         }
       ]
     },
@@ -1190,16 +1211,6 @@
           "wordCount": 1110,
           "title": "Shall we say… Good bye, phishing queue? Part 2",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=9133",
-          "author": "adam",
-          "description": "I love ROI-driven solutions and this post is about one of them. My personal cybersecurity consulting practice exposed me to many different types of ‘IT security’ jobs over last 13 years and today I will describe one of them… Nearly … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2024/04/05/the-art-of-cutting-corners/",
-          "publishedOn": "2024-04-05T23:46:43.000Z",
-          "wordCount": 1006,
-          "title": "The art of cutting corners",
-          "imageUrl": null
         }
       ]
     },
@@ -1262,6 +1273,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/building-a-cloud-security-flywheel-lessons-from-the-field",
+          "author": null,
+          "description": "A blog about building a cloud security flywheel.",
+          "link": "https://www.sans.org/blog/building-a-cloud-security-flywheel-lessons-from-the-field?msc=rss",
+          "publishedOn": "2024-05-05T00:00:00.000Z",
+          "wordCount": 4404,
+          "title": "Building a Cloud Security Flywheel: Lessons from the Field",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/how-ai-and-ml-are-changing-mobile-device-forensics-investigations",
           "author": null,
