@@ -260,6 +260,26 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/vulnerability-management/wordpress-custom-theme-rce",
+          "author": "Haoxi Tan",
+          "description": "Learn first-hand from a hacker about a remote code execution vulnerability: how to identify it, its risks, and remediation.",
+          "link": "https://www.hackerone.com/vulnerability-management/wordpress-custom-theme-rce",
+          "publishedOn": "2024-05-09T16:11:07.000Z",
+          "wordCount": 3947,
+          "title": "How Serialized Cookies Led to RCE on a WordPress Website",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/RCE%20blog%20header%402x.png"
+        },
+        {
+          "id": "https://hackerone.com/security-compliance/iso-27001-pentesting",
+          "author": "HackerOne Pentest Delivery Team",
+          "description": "Learn how to use pentesting to address and maintain ISO 27001 compliance.",
+          "link": "https://www.hackerone.com/security-compliance/iso-27001-pentesting",
+          "publishedOn": "2024-05-08T16:00:47.000Z",
+          "wordCount": 2887,
+          "title": "ISO 27001 and Pentesting: What You Need to Know",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/PTaaS_BlogImage10.jpg"
+        },
+        {
           "id": "https://hackerone.com/ethical-hacker/setting-up-web-hacking-environment",
           "author": "Haoxi Tan",
           "description": "Security researcher Haoxi Tan provides all the tips and tricks for setting up the ultimate web hacking environment.",
@@ -518,36 +538,6 @@
           "wordCount": 2950,
           "title": "A guide to get the most out of your One-on-Ones",
           "imageUrl": null
-        },
-        {
-          "id": "https://hackerone.com/culture-and-talent/hackerone-celebrates-global-work-home-day",
-          "author": "Marina Briones",
-          "description": "",
-          "link": "https://www.hackerone.com/culture-and-talent/hackerone-celebrates-global-work-home-day",
-          "publishedOn": "2024-04-10T07:01:00.000Z",
-          "wordCount": 2727,
-          "title": "HackerOne Celebrates Global Work from Home Day",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/hackerone%20is%20digital%20first.png"
-        },
-        {
-          "id": "https://hackerone.com/penetration-testing/modern-pentesting-value",
-          "author": "Naz Bozdemir",
-          "description": "Let's explore the \"Value\" factor of different pentesting methodologies and see how each one measures up.",
-          "link": "https://www.hackerone.com/penetration-testing/modern-pentesting-value",
-          "publishedOn": "2024-04-09T16:00:04.000Z",
-          "wordCount": null,
-          "title": "Decoding the Characteristics of Modern Pentesting: Value",
-          "imageUrl": null
-        },
-        {
-          "id": "https://hackerone.com/culture-and-talent/hackerone-company-values-matter-lead-integrity",
-          "author": "Debbie Cotton",
-          "description": "",
-          "link": "https://www.hackerone.com/culture-and-talent/hackerone-company-values-matter-lead-integrity",
-          "publishedOn": "2024-04-09T15:00:00.000Z",
-          "wordCount": null,
-          "title": "HackerOne Company Values Matter: Lead with Integrity",
-          "imageUrl": null
         }
       ]
     },
@@ -596,6 +586,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:663d0d0aa0ad2376b93fe901",
+          "author": "Guest Blogger",
+          "description": "In this guest blog from Pwn2Own winner Cody Gallagher, he details CVE-2024-21115 – an Out-of-Bounds (OOB) Write that occurs in Oracle VirtualBox that can be leveraged for privilege escalation. This bug was recently patched by Oracle in April. Cody has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.\nThe core bug used for this escape is a relative bit clear on the heap from the VGA device. The bug is in function vgaR3DrawBlank, which is called from vgaR3UpdateDisplay. The bug can be triggered with a single core and 32MB of VRAM, and possibly less. All testing was done using the default graphics controller for Linux (VMSVGA). It should work on others as well.\nAs for the exploit, I could not get it to work with those constraints. For my e…",
+          "link": "https://www.thezdi.com/blog/2024/5/9/cve-2024-21115-an-oracle-virtualbox-lpe-used-to-win-pwn2own",
+          "publishedOn": "2024-05-09T18:08:55.000Z",
+          "wordCount": null,
+          "title": "CVE-2024-21115: An Oracle VirtualBox LPE Used to Win Pwn2Own",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6633b93d81f8ef5916e65fcf",
           "author": "Guest Blogger",
           "description": "In this guest blog from Master of Pwn winner Manfred Paul, he details CVE-2024-2887 – a type confusion bug that occurs in both Google Chrome and Microsoft Edge (Chromium). He used this bug as a part of his winning exploit that led to code execution in the renderer of both browsers. This bug was quickly patched by both Google and Microsoft. Manfred has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.\nIn this blog, I describe a means of exploiting the V8 JavaScript and WebAssembly engine to gain execution of arbitrary shellcode inside the renderer process. This includes a bypass of the V8 memory sandbox (Ubercage), though code execution is still constrained by the process isolation-based browser sandbox. For demonstration purposes, this …",
@@ -614,17 +615,6 @@
           "publishedOn": "2024-04-17T13:00:00.000Z",
           "wordCount": null,
           "title": "CVE-2024-20697: Windows Libarchive Remote Code Execution Vulnerability",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66157e7f2eda2f1607e47653",
-          "author": "Dustin Childs",
-          "description": "It’s the second Tuesday of the month, and Adobe and Microsoft have released a fresh crop of security updates. Take a break from your other activities and join us as we review the details of their latest advisories. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for April 2024\nFor April, Adobe released nine patches addressing 24 CVEs in Adobe After Effects, Photoshop, Commerce, InDesign, Experience Manager, Media Encoder, Bridge, Illustrator, and Adobe Animate. The largest of these updates is for Experience Manager, however, all of the bugs being patched are simple Cross-site Scripting (XSS) bugs. Still, if exploited, these Important-severity bugs could lead to code execution if exploited. The only other patches that address …",
-          "link": "https://www.thezdi.com/blog/2024/4/9/the-april-2024-security-updates-review",
-          "publishedOn": "2024-04-09T17:49:06.000Z",
-          "wordCount": null,
-          "title": "The April 2024 Security Updates Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -825,7 +815,18 @@
       "title": "Alex Chapman's Blog",
       "feedUrl": "https://ajxchapman.github.io/feed.xml",
       "siteUrl": "https://blog.ajxchapman.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.ajxchapman.com/posts/2024/05/08/exploit-archeology.html",
+          "author": null,
+          "description": "I was recently hacking on a Bug Bounty target and identified an interesting API endpoint which would render user supplied HTML, and execute any included JavaScript. Exploiting Server Side Browser bugs has been a focus of mine for the past couple of years, so I set out to exploit this newly identified feature. This blog post details my journey into researching and exploiting what turned out to be a decade old Server Side Browser.",
+          "link": "https://blog.ajxchapman.com/posts/2024/05/08/exploit-archeology.html",
+          "publishedOn": "2024-05-08T05:00:00.000Z",
+          "wordCount": 2149,
+          "title": "Exploit Archeology - Exploiting an old unknown Server Side Browser",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Trail of Bits Blog",
@@ -998,6 +999,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1582460",
+          "author": "Jasmin Kahriman",
+          "description": "There are several reasons why Windows Update may fail or not work, including malfunctioning services, damaged Windows updates, insufficient free disk space, or faulty Windows devices. This article will walk you through seven methods to troubleshoot Windows Update.",
+          "link": "https://4sysops.com/archives/seven-ways-to-fix-windows-update-if-it-fails-or-is-not-working-at-all/",
+          "publishedOn": "2024-05-09T17:55:53.000Z",
+          "wordCount": null,
+          "title": "Seven ways to fix Windows Update if it fails or is not working at all",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1582512",
           "author": "Amr Essam",
@@ -1197,26 +1208,6 @@
           "wordCount": null,
           "title": "Create, use, and manage Windows Passkeys",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1581566",
-          "author": "Wolfgang Sommergut",
-          "description": "The Windows setup goes through several phases, with the last one being the Out-of-Box Experience (OOBE). It presents users with multiple dialogs for system configuration. Some settings are security-related, while others may be unclear to many users. Using an answer file, they can be automatically customized.",
-          "link": "https://4sysops.com/archives/use-unattendxml-to-skip-out-of-box-experience-oobe-when-installing-windows-11/",
-          "publishedOn": "2024-04-10T11:42:54.000Z",
-          "wordCount": null,
-          "title": "Use unattend.xml to skip Out-of-Box Experience (OOBE) when installing Windows 11",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1581466",
-          "author": "Brandon Lee",
-          "description": "Explore NAKIVO Backup & Replication v10.11's new features, including Proxmox backup support, enhanced IT monitoring, Oracle RMAN on Linux, and more for efficient data protection.",
-          "link": "https://4sysops.com/archives/proxmox-backup-with-nakivo-backup-and-replication-v1011/",
-          "publishedOn": "2024-04-09T14:12:21.000Z",
-          "wordCount": null,
-          "title": "Proxmox backup with NAKIVO Backup and Replication v10.11",
-          "imageUrl": null
         }
       ]
     },
@@ -1316,6 +1307,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=29044",
+          "author": "Luke Davis",
+          "description": "TL;DR Malware toolkit specifically designed for attacking ICS  Modular and framework based  Main features are enumeration, Modbus comms, and HTTP interactions  Operational Technology (OT) network breaches are often due to […]\nPipedream ICS malware toolkit is a nightmare first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/pipedream-ics-malware-toolkit-is-a-nightmare/",
+          "publishedOn": "2024-05-09T05:21:29.000Z",
+          "wordCount": 2097,
+          "title": "Pipedream ICS malware toolkit is a nightmare",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=29035",
           "author": "David Lodge",
