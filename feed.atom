@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-16T00:36:13.228Z</updated>
+    <updated>2024-05-17T00:36:49.293Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Generalize and capture a custom Windows 11 image]]></title>
+        <id>https://4sysops.com/?p=1582835</id>
+        <link href="https://4sysops.com/archives/generalize-and-capture-a-custom-windows-11-image/"/>
+        <updated>2024-05-16T15:32:39.000Z</updated>
+        <summary type="html"><![CDATA[Many admins prefer to use a customized image rather than Microsoft's standard image for deploying Windows 11. This involves creating a reference installation of the OS tailored to their specific needs. After generalizing it with Sysprep, the image is written to a WIM archive using DISM or PowerShell.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Burp Suite Enterprise Edition spring update 2024]]></title>
+        <id>burp-suite-enterprise-edition-spring-update-2024</id>
+        <link href="https://portswigger.net/blog/burp-suite-enterprise-edition-spring-update-2024"/>
+        <updated>2024-05-16T13:31:46.000Z</updated>
+        <summary type="html"><![CDATA[We understand the unique challenges AppSec teams face—from navigating the rapid pace of development to achieving comprehensive coverage against new vulnerabilities. That’s why we’ve focused our latest]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding AddressSanitizer: Better memory safety for your code]]></title>
+        <id>https://blog.trailofbits.com/?p=107296</id>
+        <link href="https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/"/>
+        <updated>2024-05-16T13:00:57.000Z</updated>
+        <summary type="html"><![CDATA[By Dominik Klemba and Dominik Czarnota This post will guide you through using AddressSanitizer (ASan), a compiler plugin that helps developers detect memory issues in code that can lead to remote code execution attacks (such as WannaCry or this WebP implementation bug). ASan inserts checks around memory accesses during compile time, and crashes the program […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pivot to the Clouds: Cookie Theft in 2024]]></title>
+        <id>https://embracethered.com/blog/posts/2024/cookie-theft-in-2024-and-what-todo/</id>
+        <link href="https://embracethered.com/blog/posts/2024/cookie-theft-in-2024-and-what-todo/"/>
+        <updated>2024-05-16T08:00:11.000Z</updated>
+        <summary type="html"><![CDATA[Recently Google published a blog about detecting browser data theft using Windows Event Logs.
+There are some good points in the post for defenders on how to detect misuse of DPAPI calls attempting to grab sensitive browser data.
+But, what about the Remote Debugging feature? This made me curious to revisit the state of the remote debugging feature of browsers for grabbing sensitive information, including cookies.
+We discussed cookie theft techniques in the past, even presented about it at the CCC some 5+ years ago and helped add the TTP to the MITRE ATT&CK matrix.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tackling Modern Human Risks in Cybersecurity: Insights from the Verizon DBIR 2024]]></title>
+        <id>https://www.sans.org/blog/tackling-modern-human-risks-in-cybersecurity-insights-from-the-verizon-dbir-2024</id>
+        <link href="https://www.sans.org/blog/tackling-modern-human-risks-in-cybersecurity-insights-from-the-verizon-dbir-2024?msc=rss"/>
+        <updated>2024-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Verizon Data Breach Incident Report (VZ DBIR) is one of the security industries most respected annual reports on risk.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Hackers Help Jedox Secure Cloud Assets and Stay One Step Ahead]]></title>
+        <id>https://hackerone.com/customer-stories/how-hackers-help-jedox-secure-cloud-assets-and-stay-one-step-ahead</id>
+        <link href="https://www.hackerone.com/customer-stories/how-hackers-help-jedox-secure-cloud-assets-and-stay-one-step-ahead"/>
+        <updated>2024-05-15T19:04:45.000Z</updated>
+        <summary type="html"><![CDATA[Hear from Vladislav Maličević, Chief Technology Officer at Jedox, about the value of ethical hackers for their bug bounty program.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Winning Together Through Synergy and Vulnerabilities]]></title>
+        <id>https://hackerone.com/engineering/winning-together-synergy-vulnerabilities</id>
+        <link href="https://www.hackerone.com/engineering/winning-together-synergy-vulnerabilities"/>
+        <updated>2024-05-15T18:42:13.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne holds an annual program recognizing five employees whose achievements embody the company's values.]]></summary>
+        <author>
+            <name>Martzen Haagsma</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Winning Together Through Synergy and Vulnerabilities]]></title>
         <id>https://hackerone.com/engineering-blog/winning-together-through-synergy-and-vulnerabilities</id>
@@ -118,6 +191,16 @@ Apple kicked off the May release cycle with a group of updates for their macOS a
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Visual Summary of SANS Cybersecurity Leadership Summit 2024]]></title>
+        <id>https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2024</id>
+        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2024?msc=rss"/>
+        <updated>2024-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS Cybersecurity Leadership Summit 2024]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Side-by-Side with HelloJackHunter: Unveiling the Mysteries of WinSxS]]></title>
         <id>65f5ceb78792421d3c2272e4</id>
         <link href="https://blog.zsec.uk/hellojackhunter-exploring-winsxs/"/>
@@ -205,6 +288,16 @@ Apple kicked off the May release cycle with a group of updates for their macOS a
         <summary type="html"><![CDATA[Microsoft has recently announced that Basic Authentication in Exchange Online SMTP AUTH will be disabled in September 2025. In this post, I will discuss the implications of this announcement and provide guidance on what steps you can take to ensure your email applications and devices remain functional.]]></summary>
         <author>
             <name>Vignesh Mudliar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aviata Cloud Solo Flight Challenge]]></title>
+        <id>https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/</id>
+        <link href="https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/?msc=rss"/>
+        <updated>2024-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Master cloud security by tackling this free series of workshops.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1207,64 +1300,6 @@ Command Injection Vulnerability
 An integer overflow vulnerability exists in the Libarchive library included in Microsoft Windows. The vulnerability is due to insufficient bounds checks on the block length of a RARVM filter used for Intel E8 preprocessing, include…]]></summary>
         <author>
             <name>Trend Micro Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alternatives to the Microsoft 365 search-mailbox command]]></title>
-        <id>https://4sysops.com/?p=1581877</id>
-        <link href="https://4sysops.com/archives/alternatives-to-the-microsoft-365-search-mailbox-command/"/>
-        <updated>2024-04-17T12:24:12.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft 365 has deprecated the search-mailbox cmdlet, a decision that has faced considerable resistance from numerous Exchange Online administrators. In this post, I aim to examine the consequences of this cmdlet's removal and discuss viable alternatives and potential solutions.]]></summary>
-        <author>
-            <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Semgrep Rules for iOS Application Security (Swift)]]></title>
-        <id>https://blog.mindedsecurity.com/2024/04/semgrep-rules-for-ios-application.html</id>
-        <link href="https://blog.mindedsecurity.com/2024/04/semgrep-rules-for-ios-application.html"/>
-        <updated>2024-04-17T11:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Nowadays, millions of people rely on iOS mobile applications for almost everything. As a result iOS devices manage a significant amount of data including sensitive ones, such as: credentials, health data, payment data and so on. 
-
-For these reasons ensuring the security of iOS applications is more critical than ever when developing iOS applications. Securely handling sensitive data and minimizing vulnerabilities are essential core concepts for developers when coding iOS applications, using Swift and Objective-C languages.
-
-
-Swift is an open-source object-oriented language mostly used on Apple platforms, which  allows to write software for various environments and devices such as: phones, tablets, desktops, servers, etc.
-To harden the attack surface of the iOS applications it is crucial to …]]></summary>
-        <author>
-            <name>IMQ Minded Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhancing Your Cyber Defense: Comparing Simulations and Tabletop Exercises]]></title>
-        <id>https://www.sans.org/blog/enhancing-your-cyber-defense-comparing-simulations-and-tabletop-exercises</id>
-        <link href="https://www.sans.org/blog/enhancing-your-cyber-defense-comparing-simulations-and-tabletop-exercises?msc=rss"/>
-        <updated>2024-04-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the importance of simulations and tabletop exercises]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pre-Pentest Checklist Part 2: Essential Questions to Answer Before Your Next Pentest]]></title>
-        <id>https://hackerone.com/penetration-testing/pre-pentest-checklist-part2</id>
-        <link href="https://www.hackerone.com/penetration-testing/pre-pentest-checklist-part2"/>
-        <updated>2024-04-16T16:00:38.000Z</updated>
-        <summary type="html"><![CDATA[Part 2 of our pre-pentest checklist answers 9 questions about the "when," "who," and "how" of pentest preparation.]]></summary>
-        <author>
-            <name>Piyush Verma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2024-2448:  Authenticated Command Injection  In Progress Kemp LoadMaster]]></title>
-        <id>https://rhinosecuritylabs.com/?p=25153</id>
-        <link href="https://rhinosecuritylabs.com/research/cve-2024-2448-kemp-loadmaster/"/>
-        <updated>2024-04-16T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The post CVE-2024-2448: 
- Authenticated Command Injection 
- In Progress Kemp LoadMaster appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>David Yesland</name>
         </author>
     </entry>
     <entry>
