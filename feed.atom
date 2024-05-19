@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-18T00:36:16.166Z</updated>
+    <updated>2024-05-19T00:39:41.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Machine Learning Attack Series: Backdooring Keras Models and How to Detect It]]></title>
+        <id>https://embracethered.com/blog/posts/2024/machine-learning-attack-series-keras-backdoor-model/</id>
+        <link href="https://embracethered.com/blog/posts/2024/machine-learning-attack-series-keras-backdoor-model/"/>
+        <updated>2024-05-18T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post is part of a series about machine learning and artificial intelligence.
+Adversaries often leverage supply chain attacks to gain footholds. In machine learning model deserialization issues are a significant threat, and detecting them is crucial, as they can lead to arbitrary code execution. We explored this attack with Python Pickle files in the past.
+In this post we are covering backdooring the original Keras Husky AI model from the Machine Learning Attack Series, and afterwards we investigate tooling to detect the backdoor.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Containerize any app with Docker Init]]></title>
         <id>https://4sysops.com/?p=1582594</id>
@@ -1200,106 +1212,6 @@ Command Injection Vulnerability
         <summary type="html"><![CDATA[Azure App Service Automatic Scaling is a new feature that intelligently manages the number of instances of a web application. It analyzes real-time HTTP traffic and scales out (adds instances) or scales in (removes instances) to match demand. The most significant advantage of Automatic Scaling is that it simplifies web application management, offering a less complex approach than services like Azure Virtual Machine Scale Sets (VMSS) or Azure Kubernetes Service (AKS), which often require detailed rule definitions.]]></summary>
         <author>
             <name>Baki Onur Okutucu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shall we say… Good bye, phishing queue? Part 2]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9143</id>
-        <link href="https://www.hexacorn.com/blog/2024/04/19/shall-we-say-good-bye-phishing-queue-part-2/"/>
-        <updated>2024-04-19T00:32:55.000Z</updated>
-        <summary type="html"><![CDATA[[this post is work in progress; it will be updated when the script finishes its processing] In my older piece I argued that we should stop caring about phishing alerts. Of course, it was a bit of a parabole… Still, … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Following the Trail of Threat Actors in Google Workspace Audit Logs]]></title>
-        <id>https://www.sans.org/blog/following-trail-threat-actors-google-workspace-audit-logs</id>
-        <link href="https://www.sans.org/blog/following-trail-threat-actors-google-workspace-audit-logs?msc=rss"/>
-        <updated>2024-04-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When approaching incident response in an environment you may not be very familiar with, the biggest challenge is often knowing what to look for. This is especially true when you’re facing dozens of data sources with hundreds of event types. As an incident responder, it’s your job to determine what is legitimate and what is not among a sea of activity, which is easier said than done. This blog post and its accompanying cheat sheet provide guidance on some key events of interest that can be a starting point for reviewing Google Workspace activity in the scope of an incident.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Code Reviews, Small Moments, Big Impacts]]></title>
-        <id>https://hackerone.com/engineering/code-review-impact</id>
-        <link href="https://www.hackerone.com/engineering/code-review-impact"/>
-        <updated>2024-04-18T17:08:34.000Z</updated>
-        <summary type="html"><![CDATA[Rafael de Carvalho shares tips for code reviews, how to optimize delivery, and providing effective feedback.]]></summary>
-        <author>
-            <name>Rafael de Carvalho</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Interaction Hacks: Tips and Tricks for Crafting Effective Prompts]]></title>
-        <id>https://hackerone.com/engineering/ai-prompting-tips</id>
-        <link href="https://www.hackerone.com/engineering/ai-prompting-tips"/>
-        <updated>2024-04-18T16:59:31.000Z</updated>
-        <summary type="html"><![CDATA[AI prompting is more of an art than a science. Zahra Putri Fitrianti shares tips and tricks for creating effective prompts.]]></summary>
-        <author>
-            <name>Zahra Putri Fitrianti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FAQ: Everything Hackers Need to Know About the 2024 Ambassador World Cup]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/awc-faq</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/awc-faq"/>
-        <updated>2024-04-18T16:58:46.000Z</updated>
-        <summary type="html"><![CDATA[Answer all your questions about how to get involved in HackerOne's Ambassador World Cup!]]></summary>
-        <author>
-            <name>Ariel Garcia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Windows Registry Adventure #2: A brief history of the feature]]></title>
-        <id>https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-2.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-2.html"/>
-        <updated>2024-04-18T16:46:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw);ul.lst-kix_isoepzyy3bf4-8{list-style-type:none}ul.lst-kix_isoepzyy3bf4-7{list-style-type:none}ul.lst-kix_isoepzyy3bf4-6{list-style-type:none}ul.lst-kix_isoepzyy3bf4-5{list-style-type:none}ul.lst-kix_isoepzyy3bf4-4{list-style-type:none}ul.lst-kix_isoepzyy3bf4-3{list-style-type:none}ul.lst-kix_isoepzyy3bf4-2{list-style-type:none}ul.lst-kix_isoepzyy3bf4-1{list-style-type:none}.lst-kix_qqcc7cub1y3f-1>li:before{content:"\0025cb   "}ul.lst-kix_isoepzyy3bf4-0{list-style-type:none}.lst-kix_qqcc7cub1y3f-0>li:before{content:"\0025cf   "}.lst-kix_qqcc7cub1y3f-5>li:before{content:"\0025a0   "}.lst-kix_qqcc7cub1y3f-3>li:before{content:"\0025cf   "}.lst-kix_qqcc7cub1y3f-7>li:before{content:"\0025cb   "}.lst-kix_qqcc7c…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Windows Registry Adventure #1: Introduction and research results]]></title>
-        <id>https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-1.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-1.html"/>
-        <updated>2024-04-18T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[ul.lst-kix_c4pdvykpeuss-3{list-style-type:none}ul.lst-kix_c4pdvykpeuss-2{list-style-type:none}ul.lst-kix_c4pdvykpeuss-1{list-style-type:none}ul.lst-kix_c4pdvykpeuss-0{list-style-type:none}.lst-kix_2wnifzn4nxg9-1>li:before{content:"\0025cb   "}ul.lst-kix_5uedwcx8bazf-3{list-style-type:none}ul.lst-kix_5uedwcx8bazf-4{list-style-type:none}.lst-kix_2wnifzn4nxg9-0>li:before{content:"\0025cf   "}.lst-kix_2wnifzn4nxg9-2>li:before{content:"\0025a0   "}.lst-kix_4m34njm6c6og-6>li:before{content:"\0025cf   "}ul.lst-kix_5uedwcx8bazf-5{list-style-type:none}ul.lst-kix_5uedwcx8bazf-6{list-style-type:none}.lst-kix_2wnifzn4nxg9-3>li:before{content:"\0025cf   "}.lst-kix_4m34njm6c6og-7>li:before{content:"\0025cb   "}ul.lst-kix_5uedwcx8bazf-7{list-style-type:none}ul.lst-kix_5uedwcx8bazf-8{list-style-type:none}…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting Started on Personal Development]]></title>
-        <id>https://hackerone.com/engineering/personal-development</id>
-        <link href="https://www.hackerone.com/engineering/personal-development"/>
-        <updated>2024-04-18T16:37:29.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever found yourself feeling stuck? Rafael de Carvalho shares critical steps toward moving in the right direction.]]></summary>
-        <author>
-            <name>Rafael de Carvalho</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing DAST scanning in the Cloud, with Burp Suite Enterprise Edition]]></title>
-        <id>introducing-dast-scanning-in-the-cloud-with-burp-suite-enterprise-edition</id>
-        <link href="https://portswigger.net/blog/introducing-dast-scanning-in-the-cloud-with-burp-suite-enterprise-edition"/>
-        <updated>2024-04-18T13:56:40.000Z</updated>
-        <summary type="html"><![CDATA[We’re excited to announce that Burp Suite Enterprise Edition is now available in PortSwigger’s secure cloud. You can now free up testing time with scalable, automated DAST scanning, without the burden]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Combining password policies for Active Directory and Entra ID (Azure AD)]]></title>
-        <id>https://4sysops.com/?p=1581892</id>
-        <link href="https://4sysops.com/archives/combining-password-policies-for-active-directory-and-entra-id-azure-ad/"/>
-        <updated>2024-04-18T12:54:31.000Z</updated>
-        <summary type="html"><![CDATA[Active Directory and Entra ID (formerly known as Azure AD) have their own password policies to prevent users from using weak and insecure passwords. While these policies can be combined, the level of protection achieved through this approach is still limited.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
         </author>
     </entry>
     <entry>
