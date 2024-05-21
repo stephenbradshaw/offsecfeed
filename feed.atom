@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-20T00:37:31.174Z</updated>
+    <updated>2024-05-21T00:37:01.228Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: oledump.py Version 0.0.76]]></title>
+        <id>http://blog.didierstevens.com/?p=10254</id>
+        <link href="https://blog.didierstevens.com/2024/05/21/update-oledump-py-version-0-0-76/"/>
+        <updated>2024-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This new version of oledump brings updates to .msg plugins plugin_msg and plugin_msg_summary. Plugin plugin_msg_summary can now produce JSON output for attachments (plugin option -J). Plugin plugin_msg now parses porperty streams. More details can be found in my SANS ISC diary entry “Analyzing MSG Files“. oledump_V0_0_76.zip (http)MD5: 908FF80DABA00544CB46EBC4C728A15BSHA256: BFEC0099C35C4D761DC941AA72214444661B6D09C4C0A9B0DDA15DF86812536C]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrate Microsoft Graph activity logs for Microsoft 365 with Azure Monitor]]></title>
+        <id>https://4sysops.com/?p=1582897</id>
+        <link href="https://4sysops.com/archives/integrate-microsoft-graph-activity-logs-for-microsoft-365-with-azure-monitor/"/>
+        <updated>2024-05-20T18:06:54.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Graph activity logs, a component of Microsoft Graph, is now generally available. Microsoft Graph is a unified API that provides access to a wide range of Microsoft 365 services and data, enabling developers to integrate and interact with services like Outlook, OneDrive, Teams, and SharePoint through a single endpoint. Microsoft Graph activity logs provides a detailed record of user and admin activities across Microsoft 365 services, enabling monitoring, auditing, and analyzing actions within the organization's environment. In this post, I explain Microsoft Graph activity logs use cases and outline how to install and integrate them with Azure Monitor logs.]]></summary>
+        <author>
+            <name>Vignesh Mudliar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wireshark Lua Fixed Field Length Dissector: fl-dissector]]></title>
+        <id>http://blog.didierstevens.com/?p=10241</id>
+        <link href="https://blog.didierstevens.com/2024/05/20/wireshark-lua-fixed-field-length-dissector-fl-dissector/"/>
+        <updated>2024-05-20T11:58:27.000Z</updated>
+        <summary type="html"><![CDATA[I developed a Wireshark dissector (fl-dissector) in Lua to dissect TCP protocols with fixed field lengths. The dissector is controlled through protocol preferences and Lua script arguments. The port number is an essential argument, if you don’t provide it, default port number 1234 will be used. Example for TCP port 50500: -X lua_script1:port:50500. The protocol […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adapting to Advanced Malware: Insights from the 2024 Cybersecurity Frontlines]]></title>
+        <id>https://www.sans.org/blog/adapting-to-advanced-malware-insights-from-the-2024-cybersecurity-frontlines</id>
+        <link href="https://www.sans.org/blog/adapting-to-advanced-malware-insights-from-the-2024-cybersecurity-frontlines?msc=rss"/>
+        <updated>2024-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about malware techniques and tactics.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Machine Learning Attack Series: Backdooring Keras Models and How to Detect It]]></title>
         <id>https://embracethered.com/blog/posts/2024/machine-learning-attack-series-keras-backdoor-model/</id>
