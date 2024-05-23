@@ -104,7 +104,18 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": []
+      "articles": [
+        {
+          "id": "introducing-signsaboteur-forge-signed-web-tokens-with-ease",
+          "author": null,
+          "description": "Signed web tokens are widely used for stateless authentication and authorization throughout the web. The most popular format is JSON Web Tokens (JWT) which we've already covered in depth, but beyond t",
+          "link": "https://portswigger.net/research/introducing-signsaboteur-forge-signed-web-tokens-with-ease",
+          "publishedOn": "2024-05-22T12:37:00.000Z",
+          "wordCount": 1773,
+          "title": "Introducing SignSaboteur: forge signed web tokens with ease",
+          "imageUrl": "https://portswigger.net/cms/images/78/6b/2275-twittercard-twitter-gr.png"
+        }
+      ]
     },
     {
       "title": "Project Zero",
@@ -123,6 +134,56 @@
       "feedUrl": "https://blog.skullsecurity.org/feed",
       "siteUrl": "https://www.skullsecurity.org/",
       "articles": [
+        {
+          "id": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-turing-complete-reversing-exploitation-",
+          "author": null,
+          "description": "This is a write-up for turing-complete, turing-incomplete, and turing-incomplete64 from the BSides San Francisco 2024 CTF! turing-complete is a 101-level reversing challenge, and turing-incomplete is a much more difficult exploitation challenge with a very similar structure. turing-incomplete64 is a 64-bit version of turing-incomplete, which isn’t necessarily harder, but is different. Let’s look at the levels!",
+          "link": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-turing-complete-reversing-exploitation-",
+          "publishedOn": "2024-05-05T19:59:58.000Z",
+          "wordCount": 2077,
+          "title": "BSidesSF 2024 Writeups: Turing Complete (Reversing / exploitation)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-slay-the-spider-a-hard-heap-overflow-",
+          "author": null,
+          "description": "Slay the Spider is a Minesweeper-like game where the user and computer try to uncover a spider. The challenge name and trappings are based on Slay the Spire, which is one of my favourite games.",
+          "link": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-slay-the-spider-a-hard-heap-overflow-",
+          "publishedOn": "2024-05-05T19:59:56.000Z",
+          "wordCount": 1204,
+          "title": "BSidesSF 2024 Writeups: Slay the Spider (A hard heap-overflow)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-safer-streets-web-reversing-",
+          "author": null,
+          "description": "This is a write-up for Safer Streets. I apparently wrote this in more “note to self” style, not blog style, so enjoy!",
+          "link": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-safer-streets-web-reversing-",
+          "publishedOn": "2024-05-05T19:59:54.000Z",
+          "wordCount": 1334,
+          "title": "BSidesSF 2024 Writeups: Safer Streets (Web / reversing)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-no-tools-a-puzzling-bash-challenge-",
+          "author": null,
+          "description": "No Tools is a fairly simple terminal challenge, something for new players to chew on. I suspect there are several different ways to solve it, but the basic idea is to read a file using only built-in functions from sh.",
+          "link": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-no-tools-a-puzzling-bash-challenge-",
+          "publishedOn": "2024-05-05T19:59:48.000Z",
+          "wordCount": 908,
+          "title": "BSidesSF 2024 Writeups: No Tools (A puzzling Bash challenge)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
+        {
+          "id": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-can-t-give-in-cgi-exploitation-",
+          "author": null,
+          "description": "The premise of the three challenges cant-give-in, cant-give-in-secure, and cant-give-in-securer are to learn how to exploit and debug compiled code that’s loaded as a CGI module. You might think that’s unlikely, but a surprising number of enterprise applications (usually hardware stuff - firewalls, network “security” appliances, stuff like that) is powered by CGI scripts. You never know! This challenge was inspired by one of my co-workers at GreyNoise asking how to debug a CGI script. I thought it’d be cool to make a multi-challenge series in case others didn’t know! This write-up is intended to be fairly detailed, to help new players understand their first stack overflow!",
+          "link": "https://www.skullsecurity.org/2024/bsidessf-2024-writeups-can-t-give-in-cgi-exploitation-",
+          "publishedOn": "2024-05-05T19:59:43.000Z",
+          "wordCount": 3778,
+          "title": "BSidesSF 2024 Writeups: Can’t Give In (CGI exploitation)",
+          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
+        },
         {
           "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html",
           "author": null,
@@ -258,6 +319,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/public-policy/eu-cyber-resilience-act",
+          "author": "Ilona Cohen",
+          "description": "The EU is adopting the Cyber Resilience Act, which will bring pivotal changes to product cybersecurity in Europe, the United States, and globally.",
+          "link": "https://www.hackerone.com/public-policy/eu-cyber-resilience-act",
+          "publishedOn": "2024-05-22T16:00:11.000Z",
+          "wordCount": 3269,
+          "title": "What You Need to Know About the EU’s Cyber Resilience Act",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/BlogImages_763x462_BlogImage_Policy-4.png"
+        },
         {
           "id": "https://hackerone.com/customer-stories/security-lessons",
           "author": "HackerOne",
@@ -567,16 +638,6 @@
           "wordCount": 3157,
           "title": "Human-Powered Security: The Value of Ethical Hackers & Bug Bounty",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/BlogImages_763x462_BlogImage_BugBounty-1.png"
-        },
-        {
-          "id": "https://hackerone.com/lhe/capital-one-h1-305",
-          "author": "HackerOne",
-          "description": "Capital One and 52 highly skilled global ethical hackers came together for the organization's second live hacking event with HackerOne.",
-          "link": "https://www.hackerone.com/lhe/capital-one-h1-305",
-          "publishedOn": "2024-04-22T16:42:18.000Z",
-          "wordCount": 2760,
-          "title": "Capital One Teams Up With Top-Tier Ethical Hackers at H1-305",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/Blog%20Header_Capital%20One%20LHE%402x.png"
         }
       ]
     },
@@ -999,6 +1060,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1582969",
+          "author": "Amr Essam",
+          "description": "Kyverno is a Kubernetes-native policy management tool that automates and enforces policies for validating, mutating, and generating Kubernetes configurations. The Kyverno team has just unveiled version 1.12, which introduces a host of new features. These include dedicated storage for policy reports, integration of Kyverno JSON into the CLI, refined policy exception handling with conditions, and other improvements.",
+          "link": "https://4sysops.com/archives/a-kubernetes-policy-engine-new-features-in-kyverno-112/",
+          "publishedOn": "2024-05-22T15:26:23.000Z",
+          "wordCount": null,
+          "title": "A Kubernetes policy engine: New features in Kyverno 1.12",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1582927",
           "author": "Wolfgang Sommergut",
           "description": "In professional environments, most store apps delivered with Windows are of little value, prompting admins to remove them from the image before deployment. However, you should avoid indiscriminately deleting them, as some system-relevant apps may be among them. PowerShell can be used to remove the crapware selectively.",
@@ -1207,26 +1278,6 @@
           "wordCount": null,
           "title": "Allow end users to execute code on the Windows logon screen with administrator privileges",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1581938",
-          "author": "Surender Kumar",
-          "description": "In a previous post, I covered Podman Desktop, an alternative to Docker Desktop. Today, I will look into Podman 5.0, the latest iteration of Red Hat's free open-source container engine. The new release brings significant enhancements, including revamped container engine code for Windows and macOS, native Apple Hypervisor support, and streamlined image building for Podman farms. Let's explore the new Podman 5.0 features and improvements.",
-          "link": "https://4sysops.com/archives/new-features-in-podman-50/",
-          "publishedOn": "2024-04-23T12:35:25.000Z",
-          "wordCount": null,
-          "title": "New features in Podman 5.0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1582061",
-          "author": "Wolfgang Sommergut",
-          "description": "The remediation of CVE-2023-24932, discovered in May 2023, is taking longer than Microsoft's initial timeline. This flaw allows attackers to bypass Secure Boot and disable security features like BitLocker. The April 2024 update introduces a new fix that admins should thoroughly test because it has significant ramifications and will be automatically activated in October.",
-          "link": "https://4sysops.com/archives/new-mitigations-for-cve-2023-24932-blacklotus-in-the-april-update-not-yet-enabled-by-default/",
-          "publishedOn": "2024-04-22T12:43:19.000Z",
-          "wordCount": null,
-          "title": "New mitigations for CVE-2023-24932 (BlackLotus) in the April update, not yet enabled by default",
-          "imageUrl": null
         }
       ]
     },
@@ -1363,6 +1414,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/understanding-the-core-of-ot-components-systems-and-security",
+          "author": null,
+          "description": "A blog about the components, systems, and security that keep operational technology (OT) safe.",
+          "link": "https://www.sans.org/blog/understanding-the-core-of-ot-components-systems-and-security?msc=rss",
+          "publishedOn": "2024-05-22T00:00:00.000Z",
+          "wordCount": 3750,
+          "title": "Understanding the Core of OT: Components, Systems, and Security",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/instructor-spotlight-rich-greene",
           "author": null,
@@ -1521,16 +1582,6 @@
           "publishedOn": "2024-04-26T00:00:00.000Z",
           "wordCount": 5070,
           "title": "Spring 2024 Update: Explore the Latest Enhancements to SANS FOR585: Smartphone Forensic Analysis In-Depth",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/the-ripple-effect-nis2-impact-on-cybersecurity-practices-across-the-eu",
-          "author": null,
-          "description": "A blog about NIS2 compliance.",
-          "link": "https://www.sans.org/blog/the-ripple-effect-nis2-impact-on-cybersecurity-practices-across-the-eu?msc=rss",
-          "publishedOn": "2024-04-23T00:00:00.000Z",
-          "wordCount": 5454,
-          "title": "The Ripple Effect: NIS2's Impact on Cybersecurity Practices Across the EU",
           "imageUrl": null
         }
       ]
