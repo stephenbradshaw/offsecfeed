@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-23T00:36:37.563Z</updated>
+    <updated>2024-05-24T00:37:16.136Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Configuring external authentication methods in Microsoft 365 with Microsoft Entra ID]]></title>
+        <id>https://4sysops.com/?p=1583034</id>
+        <link href="https://4sysops.com/archives/configuring-external-authentication-methods-in-microsoft-365-with-microsoft-entra-id/"/>
+        <updated>2024-05-23T17:38:35.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Entra ID now supports external authentication methods with multifactor authentication (MFA) in public preview. In this step-by-step guide, I will explain how to configure and use third-party authentication for Microsoft 365.]]></summary>
+        <author>
+            <name>Vignesh Mudliar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MindShaRE: Decapping Chips for Electromagnetic Fault Injection (EMFI)]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:664f630e7989ae61c8a0e59c</id>
+        <link href="https://www.thezdi.com/blog/2024/5/23/mindshare-decapping-chips-for-electromagnetic-fault-injection-emfi"/>
+        <updated>2024-05-23T16:19:47.000Z</updated>
+        <summary type="html"><![CDATA[Recently, the automotive VR team has undertaken an effort to reproduce the software extraction attack against one of the target devices used during the Automotive Pwn2Own 2024 held in Tokyo, Japan. The electromagnetic fault injection (EMFI) approach was chosen to attempt an attack against the existing readout protection mechanisms. This blog post details preparatory steps to speed up the attack, hopefully considerably.
+Electromagnetic fault injection
+In general, fault injection attacks against hardware attempt to produce some sort of gain for an attacker by injecting faults into a device under attack by manipulating clock pulses, supply voltages, temperature, electromagnetic fields around the device, and aiming short light pulses at certain locations on the device. Of these vectors, EMFI s…]]></summary>
+        <author>
+            <name>Dmitry Janushkevich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Format String Exploitation: A Hands-On Exploration for Linux]]></title>
+        <id>https://blog.nviso.eu/?p=17652</id>
+        <link href="https://blog.nviso.eu/2024/05/23/format-string-exploitation-a-hands-on-exploration-for-linux/"/>
+        <updated>2024-05-23T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary This blogpost covers a Capture The Flag challenge that was part of the 2024 picoCTF event that lasted until Tuesday 26/03/2024. With a team from NVISO, we decided to participate and tackle as many challenges as we could, resulting in a rewarding 130th place in the global scoreboard. I decided to try and focus … Continue reading Format String Exploitation: A Hands-On Exploration for Linux →]]></summary>
+        <author>
+            <name>Wiebe Willems</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT: Hacking Memories with Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2024/chatgpt-hacking-memories/</id>
+        <link href="https://embracethered.com/blog/posts/2024/chatgpt-hacking-memories/"/>
+        <updated>2024-05-22T19:24:07.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI recently introduced a memory feature in ChatGPT, enabling it to recall information across sessions, creating a more personalized user experience.
+However, with this new capability comes risks. Imagine if an attacker could manipulate your AI assistant (chatbot or agent) to remember false information, bias or even instructions, or delete all your memories! This is not a futuristic scenario, the attack that makes this possible is called Indirect Prompt Injection.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What You Need to Know About the EU’s Cyber Resilience Act]]></title>
         <id>https://hackerone.com/public-policy/eu-cyber-resilience-act</id>
@@ -44,6 +87,16 @@
         <summary type="html"><![CDATA[This new version adds an experimental mode (option -e), to decode alternative datastructures for stored and runtime config. More details can be found in SANS ISC diary entry “1768.py’s Experimental Mode” I wrote. 1768_v0_0_21.zip (http)MD5: 6FBDCC5F066519C3FD846D33ABE3287ASHA256: CBFCC5DA80634DF29DBABE06F3D59D3A5CA2FC1968CF5E0213F6A6751B1A079B]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OT Threat Hunting: More Critical Than Ever]]></title>
+        <id>https://www.sans.org/blog/ot-threat-hunting-more-critical-than-ever</id>
+        <link href="https://www.sans.org/blog/ot-threat-hunting-more-critical-than-ever?msc=rss"/>
+        <updated>2024-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about threat hunting in operation technology environments.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1320,48 +1373,6 @@ The post CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox appe
         <summary type="html"><![CDATA[Learn about the importance of SOC 2 Type II compliance and how to address it with methodology-driven pentesting.]]></summary>
         <author>
             <name>HackerOne Pentest Delivery Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Allow end users to execute code on the Windows logon screen with administrator privileges]]></title>
-        <id>https://4sysops.com/?p=1581997</id>
-        <link href="https://4sysops.com/archives/allow-end-users-to-execute-code-on-the-windows-logon-screen-with-administrator-privileges/"/>
-        <updated>2024-04-24T11:47:55.000Z</updated>
-        <summary type="html"><![CDATA[The instructions in this post outline how to execute arbitrary code with administrator privileges on the Windows logon screen before the user signs in.]]></summary>
-        <author>
-            <name>Welf Alberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Human-Powered Security: The Value of Ethical Hackers & Bug Bounty]]></title>
-        <id>https://hackerone.com/vulnerability-management/human-powered-security</id>
-        <link href="https://www.hackerone.com/vulnerability-management/human-powered-security"/>
-        <updated>2024-04-23T16:19:39.000Z</updated>
-        <summary type="html"><![CDATA[Who is an ethical hacker, what is a bug bounty program, and why is human-powered security the best method for strengthening your security posture?]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2024-2389: Command Injection Vulnerability  In Progress Flowmon]]></title>
-        <id>https://rhinosecuritylabs.com/?p=25168</id>
-        <link href="https://rhinosecuritylabs.com/research/cve-2024-2389-in-progress-flowmon/"/>
-        <updated>2024-04-23T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The post CVE-2024-2389: 
-Command Injection Vulnerability 
- In Progress Flowmon appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>David Yesland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon23 Replay | Meet the Iranian Company Powering Russia’s Drone War on Ukraine]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=96672</id>
-        <link href="https://www.sentinelone.com/labs/labscon23-replay-meet-the-iranian-company-powering-russias-drone-war-on-ukraine/"/>
-        <updated>2024-04-23T12:57:27.000Z</updated>
-        <summary type="html"><![CDATA[Take a unique look inside Iran's drone and missile program as Adam Rawnsley charts the rise of Mado, a key IRGC drone company.]]></summary>
-        <author>
-            <name>LABScon</name>
         </author>
     </entry>
     <entry>
