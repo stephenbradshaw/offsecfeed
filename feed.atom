@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-25T00:36:04.695Z</updated>
+    <updated>2024-05-26T00:40:04.578Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Reversing A Network Protocol]]></title>
+        <id>http://blog.didierstevens.com/?p=10263</id>
+        <link href="https://blog.didierstevens.com/2024/05/25/reversing-a-network-protocol/"/>
+        <updated>2024-05-25T11:31:42.000Z</updated>
+        <summary type="html"><![CDATA[I also recorded a video for this blog post. I recently helped a colleague and friend with the reversing of a network protocol to update an IOT device. As I can’t be more specific for the moment, I created a capture file similar to this network protocol to explain how one can reverse engineer a […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cranim: A Toolkit for Cryptographic Visualization]]></title>
         <id>https://research.nccgroup.com/?p=34556</id>
@@ -1327,84 +1337,6 @@ The post Local Privilege Escalation Vulnerability in Ant Media Server (CVE-2024-
         <summary type="html"><![CDATA[By Will Song The Trail of Bits cryptography team is pleased to announce the open-sourcing of our pure Rust and Go implementations of Leighton-Micali Hash-Based Signatures (LMS), a well-studied NIST-standardized post-quantum digital signature algorithm. If you or your organization are looking to transition to post-quantum support for digital signatures, both of these implementations have been […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alternatives to RBAC application impersonation in Exchange Online]]></title>
-        <id>https://4sysops.com/?p=1582127</id>
-        <link href="https://4sysops.com/archives/alternatives-to-rbac-application-impersonation-in-exchange-online/"/>
-        <updated>2024-04-26T12:23:13.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft will retire the Role-Based Access Control (RBAC) application impersonation role in Exchange Online in May 2024. Applications widely use this role in Exchange Online as it enables them to impersonate users in the tenant to perform actions on behalf of the users. You must migrate all your applications from using this role to other options. This article will explore Microsoft's reasoning behind this move and the current alternatives.]]></summary>
-        <author>
-            <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring 2024 Update: Explore the Latest Enhancements to SANS FOR585: Smartphone Forensic Analysis In-Depth]]></title>
-        <id>https://www.sans.org/blog/Spring-2024-Update-Explore-the-Latest-Enhancements</id>
-        <link href="https://www.sans.org/blog/Spring-2024-Update-Explore-the-Latest-Enhancements?msc=rss"/>
-        <updated>2024-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are excited to announce the latest update to the SANS Institute's FOR585: Smartphone Forensic Analysis In-Depth!]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Excelling at Excel, Part 4]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9153</id>
-        <link href="https://www.hexacorn.com/blog/2024/04/25/excelling-at-excel-part-4/"/>
-        <updated>2024-04-25T23:33:44.000Z</updated>
-        <summary type="html"><![CDATA[Excel is the emperor of automation. Not the SOAR type, but the local one – yours. Why? Its formulas and VBA capabilities can turn many awfully mundane tasks into plenty of automation opportunities… For instance… certain programming tasks. The case/switch … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues Resolving Symbols on Windows 11 on ARM64]]></title>
-        <id>https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html</id>
-        <link href="https://www.tiraniddo.dev/2024/04/issues-resolving-symbols-on-windows-11.html"/>
-        <updated>2024-04-25T22:09:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a short blog post about an issue I encountered during some development work on my OleViewDotNet tool and how I resolved it. It might help others if they come across a similar problem, although I'm not sure if I took the best approach.
-OleViewDotNet has the ability to parse the internal COM structures in a process and show important information such as the list of current IPIDs exported by the process and the access security descriptor. 
-PS C:\> $p = Get-ComProcess -ProcessId $pid
-PS C:\> $p.Ipids
-IPID                                 Interface Name  PID    Process Name
-----                                 --------------  ---    ------------
-00008800-4bd8-0000-c3f9-170a9f197e11 IRundown        19416  powershell.exe
-00009401-4bd8-ffff-45b0-a43d5764a731 IRundown        19416  powershel…]]></summary>
-        <author>
-            <name>Tyranid's Lair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nemesis 1.0.0]]></title>
-        <id>https://medium.com/p/8c6b745dc7c5</id>
-        <link href="https://posts.specterops.io/nemesis-1-0-0-8c6b745dc7c5?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-04-25T18:28:18.000Z</updated>
-        <summary type="html"><![CDATA[In August of last year, @tifkin_, @0xdab0, and I released Nemesis, our offensive data enrichment platform. After lots of feedback…]]></summary>
-        <author>
-            <name>Will Schroeder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accelerate Find-to-Fix Cycles With Hai]]></title>
-        <id>https://hackerone.com/ai/accelerate-find-to-fix-hai</id>
-        <link href="https://www.hackerone.com/ai/accelerate-find-to-fix-hai"/>
-        <updated>2024-04-25T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[You can now streamline and enhance your vulnerability management process with HackerOne’s in-platform GenAI copilot, Hai.]]></summary>
-        <author>
-            <name>Martijn Russchen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox]]></title>
-        <id>https://www.mdsec.co.uk/?p=3464</id>
-        <link href="https://www.mdsec.co.uk/2024/04/cve-2024-21111-local-privilege-escalation-in-oracle-virtualbox/"/>
-        <updated>2024-04-25T13:23:57.000Z</updated>
-        <summary type="html"><![CDATA[VirtualBox is a popular open source, cross-platform, virtualization software developed by Oracle Corporation. Earlier this year we identified an arbitrary file move vulnerability in the VirtualBox system service service that...
-The post CVE-2024-21111 – Local Privilege Escalation in Oracle VirtualBox appeared first on MDSec.]]></summary>
-        <author>
-            <name>Admin</name>
         </author>
     </entry>
     <entry>
