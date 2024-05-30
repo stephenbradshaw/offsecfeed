@@ -96,6 +96,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "adjusting-your-http-perspective-with-bambdas",
+          "author": null,
+          "description": "When you open a HTTP request or response, what do you instinctively look for? Suspicious parameter names? CORS headers? Some clue as to the request's origin or underlying purpose? A single HTTP messag",
+          "link": "https://portswigger.net/research/adjusting-your-http-perspective-with-bambdas",
+          "publishedOn": "2024-05-29T13:31:49.000Z",
+          "wordCount": 1185,
+          "title": "Refining your HTTP perspective, with bambdas",
+          "imageUrl": "https://portswigger.net/cms/images/02/0d/ddf7-twittercard-bam-social.png"
+        },
+        {
           "id": "introducing-signsaboteur-forge-signed-web-tokens-with-ease",
           "author": null,
           "description": "Signed web tokens are widely used for stateless authentication and authorization throughout the web. The most popular format is JSON Web Tokens (JWT) which we've already covered in depth, but beyond t",
@@ -599,16 +609,6 @@
           "wordCount": 2519,
           "title": "HackerOne’s Next Stage of Growth",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/Marten%20Mickos%20-%20HackerOne_0.png"
-        },
-        {
-          "id": "https://hackerone.com/ai/prompt-injection-deep-dive",
-          "author": "Sandeep Singh",
-          "description": "As the use of GenAI and LLMs has ramped up, so have the vulnerabilities that come with them, and one of the worst is prompt injection.",
-          "link": "https://www.hackerone.com/ai/prompt-injection-deep-dive",
-          "publishedOn": "2024-04-29T16:00:04.000Z",
-          "wordCount": 3340,
-          "title": "How a Prompt Injection Vulnerability Led to Data Exfiltration",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-04/Blog%20Header_Prompt%20Injection%20763x462%402x.png"
         }
       ]
     },
@@ -679,18 +679,7 @@
       "title": "Tyranid's Lair",
       "feedUrl": "https://www.tiraniddo.dev/feeds/posts/default",
       "siteUrl": "https://www.tiraniddo.dev/",
-      "articles": [
-        {
-          "id": "https://www.tiraniddo.dev/2024/04/relaying-kerberos-authentication-from.html",
-          "author": null,
-          "description": "Recently, there's been some good research into further exploiting DCOM authentication that I initially reported to Microsoft almost 10 years ago. By inducing authentication through DCOM it can be relayed to a network service, such as Active Directory Certificate Services (ADCS) to elevated privileges and in some cases get domain administrator access.\nThe important difference with this new research is taking the abuse of DCOM authentication from local access (in the case of the many Potatoes) to fully remote by abusing security configuration changes or over granting group access. For more information I'd recommend reading the slides from Tianze Ding Blackhat ASIA 2024 presentation, or reading about SilverPotato by Andrea Pierini.\nThis short blog post is directly based on slide 36 of Tianze …",
-          "link": "https://www.tiraniddo.dev/2024/04/relaying-kerberos-authentication-from.html",
-          "publishedOn": "2024-04-30T01:08:00.000Z",
-          "wordCount": 2546,
-          "title": "Relaying Kerberos Authentication from DCOM OXID Resolving",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFtsL-cKYvq10TZF0BK_uLzKP8lDZhNDF15QFO0V1RfNCWgCMfLVG2GJgxSlKGSP9wnNo40OZPJ32iEtTchy2A94bmoXtXOzbvtjItvMOItw9X7sRW0-KcYTczDQCrvKvnoCHCYrcwarK22yCYbRYoOazeCrtVVvaP9tc4YpAERhjNp2d_TvznEGTeXvQ/w1200-h630-p-k-no-nu/dcom_slide.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Zero Day Initiative - Blog",
@@ -1294,16 +1283,6 @@
           "wordCount": null,
           "title": "New features in Proxmox 8.2",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1581798",
-          "author": "Wolfgang Sommergut",
-          "description": "An essential step towards automating the Windows setup process is replacing the system drive's interactive partitioning with a script. Microsoft's examples for this purpose rely on batch files and Diskpart. However, installing PowerShell in Windows PE allows for a much more elegant solution.",
-          "link": "https://4sysops.com/archives/partition-windows-drive-in-winpe-using-powershell/",
-          "publishedOn": "2024-04-29T18:04:24.000Z",
-          "wordCount": null,
-          "title": "Partition Windows drive in WinPE using PowerShell",
-          "imageUrl": null
         }
       ]
     },
@@ -1408,6 +1387,36 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/unraveling-the-mysteries-of-digital-forensics-a-blog-on-the-secret-life-of-devices-workshop-series",
+          "author": null,
+          "description": "A blog showcasing a six-part workshop series on unraveling the mysteries of digital forensics",
+          "link": "https://www.sans.org/blog/unraveling-the-mysteries-of-digital-forensics-a-blog-on-the-secret-life-of-devices-workshop-series?msc=rss",
+          "publishedOn": "2024-05-29T00:00:00.000Z",
+          "wordCount": 3708,
+          "title": "Unraveling the Mysteries of Digital Forensics: A Blog on the \"Secret Life of Devices\" Workshop Series",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/what-is-your-definition-of-insider-threat",
+          "author": null,
+          "description": "A blog about how to best define insider threat.",
+          "link": "https://www.sans.org/blog/what-is-your-definition-of-insider-threat?msc=rss",
+          "publishedOn": "2024-05-29T00:00:00.000Z",
+          "wordCount": 4546,
+          "title": "What is Your Definition of Insider Threat?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/how-to-strengthen-your-cybersecurity-posture-with-the-updated-sec401-labs",
+          "author": null,
+          "description": "A blog about the updates to the SANS SEC401 course",
+          "link": "https://www.sans.org/blog/how-to-strengthen-your-cybersecurity-posture-with-the-updated-sec401-labs?msc=rss",
+          "publishedOn": "2024-05-29T00:00:00.000Z",
+          "wordCount": 3948,
+          "title": "How to Strengthen Your Cybersecurity Posture with the Updated SEC401 Labs",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/ics-ot-cybersecurity-ai-considerations-for-now-the-future-part-i",
           "author": null,
@@ -1607,16 +1616,6 @@
           "wordCount": 4127,
           "title": "Unveiling the 2024 SANS | GIAC Cyber Workforce Research Report: Building and Sustaining Mid-Level Cybersecurity Roles",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/deploying-multi-factor-authentication-the-what-how-and-why",
-          "author": null,
-          "description": "A blog about deploying multi factor authentication.",
-          "link": "https://www.sans.org/blog/deploying-multi-factor-authentication-the-what-how-and-why?msc=rss",
-          "publishedOn": "2024-04-30T00:00:00.000Z",
-          "wordCount": 5524,
-          "title": "Deploying Multi Factor Authentication – The What, How, and Why",
-          "imageUrl": null
         }
       ]
     },
@@ -1625,6 +1624,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2024/llm-apps-automatic-tool-invocations/",
+          "author": null,
+          "description": "In the previous post we demonstrated how instructions embedded in untrusted data can invoke ChatGPT’s memory tool. The examples we looked at included Uploaded Files, Connected Apps and also the Browsing tool.\n\nWhen it came to the browsing tool we observed that mitigations were put in place and older demo exploits did not work anymore. After chatting with other security researchers, I learned that they had observed the same.",
+          "link": "https://embracethered.com/blog/posts/2024/llm-apps-automatic-tool-invocations/",
+          "publishedOn": "2024-05-29T03:57:38.000Z",
+          "wordCount": 1155,
+          "title": "Automatic Tool Invocation when Browsing with ChatGPT - Threats and Mitigations",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2024/chatgpt-hacking-memories/",
           "author": null,
@@ -1709,7 +1718,18 @@
       "title": "SecureAuth Blogs - Identity and Access Management Solution",
       "feedUrl": "https://www.secureauth.com/blog/feed/",
       "siteUrl": "https://www.secureauth.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.secureauth.com/?post_type=blog&p=52385",
+          "author": "Erin Swanson",
+          "description": "Inevitably, organizations get to a point where it becomes challenging to impose increased security measures on their end users because the advancements would have too large an impact on their daily convenience and usability. Orchestration capabilities for identity and access management (IAM) products have allowed security teams to enhance their security measures. It’s a service […]\nThe post Harmonizing Security and User Experience: A Modern Approach appeared first on SecureAuth.",
+          "link": "https://www.secureauth.com/blog/harmonizing-security-and-user-experience-a-modern-approach/",
+          "publishedOn": "2024-05-28T15:56:00.000Z",
+          "wordCount": 9501,
+          "title": "Harmonizing Security and User Experience: A Modern Approach",
+          "imageUrl": "https://www.secureauth.com/wp-content/uploads/2024/02/identity-orchestration-blog.jpg"
+        }
+      ]
     },
     {
       "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
@@ -1770,6 +1790,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/strengthen-security-to-mitigate-third-party-risks",
+          "author": "Matt Twells",
+          "description": "Explore highlights from a recent webcast where special guest Anirban Banerjee, CEO and co-founder of partner Riscosity, and Matt Twells, senior solutions architect, explore critical considerations for developing a security program that prioritizes third-party risk reduction.",
+          "link": "https://bishopfox.com/blog/strengthen-security-to-mitigate-third-party-risks",
+          "publishedOn": "2024-05-29T21:22:00.000Z",
+          "wordCount": 2450,
+          "title": "Strengthen Security to Mitigate Third-Party Risks",
+          "imageUrl": "https://images.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/BishopFox-Blog-Mitigate-ThirdParty-Risks-OG.jpg?mtime=1716572960"
+        },
         {
           "id": "https://bishopfox.com/blog/netscaler-adc-and-gateway-advisory",
           "author": "Bishop Fox",
@@ -1849,18 +1879,7 @@
       "title": "Publications | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": [
-        {
-          "id": "https://www.outflank.nl/?p=3979",
-          "author": "Marc Smeets",
-          "description": "Malicious actors continuously deploy new or improved techniques. Red teams must maintain an equally rapid pace of development of their tooling arsenal to remain effective at testing evolving defensive measure and preparing organizations for advanced threats. With the dedicated research and development efforts from the Outflank team, OST is constantly evolving, with additions of new, leading-edge tools unique to the market as well as regular enhancements to our existing tools. \nIn this quarterly release blog, we’ll summarize some of the latest updates we’ve made over the past few months.  \nEDR Tradecraft\nOver the last few years we have clearly seen the big EDR names in the market up their game. Generally, we can say that they are doing a great job and that EDR-bypasses are becoming harder. However, EDRs can’t be expected to do magic,\nTags: EDR, OST, powershell, tradecraft\nRead full post\nThe post OST Release Blog: EDR Tradecraft, Presets, PowerShell Tradecraft, and More  appeared first on Outflank.",
-          "link": "https://www.outflank.nl/blog/2024/04/29/ost-release-blog-edr-tradecraft-presets-powershell-tradecraft-and-more/",
-          "publishedOn": "2024-04-29T16:15:32.000Z",
-          "wordCount": 2230,
-          "title": "OST Release Blog: EDR Tradecraft, Presets, PowerShell Tradecraft, and More",
-          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/04/EDR_working_presets-2-1024x425.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "IFCR - Medium",
