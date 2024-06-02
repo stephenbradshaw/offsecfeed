@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-01T00:40:02.258Z</updated>
+    <updated>2024-06-02T00:40:18.456Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: file-magic.py Version 0.0.8]]></title>
+        <id>http://blog.didierstevens.com/?p=10457</id>
+        <link href="https://blog.didierstevens.com/2024/06/02/update-file-magic-py-version-0-0-8/"/>
+        <updated>2024-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve added opion -B –bin to move analyzed files into folders per detected file type. file-magic_V0_0_8.zip (http)MD5: A495B1CAC80D027AB9CABC76E796A418SHA256: 5A67274B81BC493ED94D50A375EEC850DFB4065894FD8814D4B3CF5006810F73]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overview of Content Published in May]]></title>
         <id>http://blog.didierstevens.com/?p=10378</id>
@@ -1352,97 +1362,6 @@ Some of the main…]]></summary>
 The bash script introduced in today's post allows you deregister an AMI and delete all associated snapshots in AWS.]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerabilities that (mostly) aren’t: LUCKY13]]></title>
-        <id>https://www.pentestpartners.com/?p=29035</id>
-        <link href="https://www.pentestpartners.com/security-blog/vulnerabilities-that-mostly-arent-lucky13/"/>
-        <updated>2024-05-03T05:12:27.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR LUCKY13 is more an attack than a vulnerability LUCKY13 was patched over a decade ago … so it’s really unlikely that your server is vulnerable now It’s an implementation […]
-Vulnerabilities that (mostly) aren’t: LUCKY13 first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>David Lodge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How AI and ML are Changing Mobile Device Forensics Investigations]]></title>
-        <id>https://www.sans.org/blog/how-ai-and-ml-are-changing-mobile-device-forensics-investigations</id>
-        <link href="https://www.sans.org/blog/how-ai-and-ml-are-changing-mobile-device-forensics-investigations?msc=rss"/>
-        <updated>2024-05-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about how AI and ML are changing mobile device forensics investigations]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HackerOne’s Spring Day of Service]]></title>
-        <id>https://hackerone.com/culture-and-talent/hackerones-spring-day-service</id>
-        <link href="https://www.hackerone.com/culture-and-talent/hackerones-spring-day-service"/>
-        <updated>2024-05-02T20:44:13.000Z</updated>
-        <author>
-            <name>Marina Briones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure Kernel Research with LiveCloudKd]]></title>
-        <id>https://windows-internals.com/?p=531305</id>
-        <link href="https://windows-internals.com/secure-kernel-research-with-livecloudkd/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=secure-kernel-research-with-livecloudkd"/>
-        <updated>2024-05-02T16:45:33.000Z</updated>
-        <summary type="html"><![CDATA[[…]]]></summary>
-        <author>
-            <name>Yarden Shafir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delegate permission to unlock Active Directory accounts]]></title>
-        <id>https://4sysops.com/?p=1582083</id>
-        <link href="https://4sysops.com/archives/delegate-permission-to-unlock-active-directory-accounts/"/>
-        <updated>2024-05-02T16:29:12.000Z</updated>
-        <summary type="html"><![CDATA[When organizations implement a lockout policy, it is common for users to lock themselves out and require assistance from the helpdesk. In such cases, helpdesk personnel without administrator rights require permission to unlock user accounts. This can be achieved through delegation.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2024-2887: A Pwn2Own Winning Bug in Google Chrome]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6633b93d81f8ef5916e65fcf</id>
-        <link href="https://www.thezdi.com/blog/2024/5/2/cve-2024-2887-a-pwn2own-winning-bug-in-google-chrome"/>
-        <updated>2024-05-02T16:14:11.000Z</updated>
-        <summary type="html"><![CDATA[In this guest blog from Master of Pwn winner Manfred Paul, he details CVE-2024-2887 – a type confusion bug that occurs in both Google Chrome and Microsoft Edge (Chromium). He used this bug as a part of his winning exploit that led to code execution in the renderer of both browsers. This bug was quickly patched by both Google and Microsoft. Manfred has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.
-In this blog, I describe a means of exploiting the V8 JavaScript and WebAssembly engine to gain execution of arbitrary shellcode inside the renderer process. This includes a bypass of the V8 memory sandbox (Ubercage), though code execution is still constrained by the process isolation-based browser sandbox. For demonstration purposes, this …]]></summary>
-        <author>
-            <name>Guest Blogger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CREST and Pentesting: What You Need to Know]]></title>
-        <id>https://hackerone.com/security-compliance/crest-pentesting</id>
-        <link href="https://www.hackerone.com/security-compliance/crest-pentesting"/>
-        <updated>2024-05-02T16:00:06.000Z</updated>
-        <summary type="html"><![CDATA[Learn the importance of using a CREST-certified and approved security partner for your pentest engagements.]]></summary>
-        <author>
-            <name>HackerOne Pentest Delivery Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manual LDAP Querying: Part 2]]></title>
-        <id>https://medium.com/p/8a65099e12e3</id>
-        <link href="https://posts.specterops.io/manual-ldap-querying-part-2-8a65099e12e3?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-05-02T15:01:54.000Z</updated>
-        <summary type="html"><![CDATA[This post is a follow-up to my previous post on manual LDAP querying. I would highly recommend reading that post prior to reading this one…]]></summary>
-        <author>
-            <name>Hope Walker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The life and times of an Abstract Syntax Tree]]></title>
-        <id>https://blog.trailofbits.com/?p=107179</id>
-        <link href="https://blog.trailofbits.com/2024/05/02/the-life-and-times-of-an-abstract-syntax-tree/"/>
-        <updated>2024-05-02T13:00:06.000Z</updated>
-        <summary type="html"><![CDATA[By Francesco Bertolaccini You’ve reached computer programming nirvana. Your journey has led you down many paths, including believing that God wrote the universe in LISP, but now the truth is clear in your mind: every problem can be solved by writing one more compiler. It’s true. Even our soon-to-be artificially intelligent overlords are nothing but […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
