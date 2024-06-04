@@ -183,56 +183,6 @@
           "wordCount": 3778,
           "title": "BSidesSF 2024 Writeups: Can’t Give In (CGI exploitation)",
           "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html",
-          "author": null,
-          "description": "The premise of the three challenges cant-give-in, cant-give-in-secure, and cant-give-in-securer are to learn how to exploit and debug compiled code that’s loaded as a CGI module. You might think that’s unlikely, but a surprising number of enterprise applications (usually hardware stuff - firewalls, network “security” appliances, stuff like that) is powered by CGI scripts. You never know! This challenge was inspired by one of my co-workers at GreyNoise asking how to debug a CGI script. I thought it’d be cool to make a multi-challenge series in case others didn’t know! This write-up is intended to be fairly detailed, to help new players understand their first stack overflow!",
-          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html",
-          "publishedOn": "2024-05-05T00:00:00.000Z",
-          "wordCount": 3240,
-          "title": "BSidesSF 2024 Writeups: Can’t Give In (CGI exploitation)",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/no-tools.html",
-          "author": null,
-          "description": "No Tools is a fairly simple terminal challenge, something for new players to chew on. I suspect there are several different ways to solve it, but the basic idea is to read a file using only built-in functions from sh.",
-          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/no-tools.html",
-          "publishedOn": "2024-05-05T00:00:00.000Z",
-          "wordCount": 370,
-          "title": "BSidesSF 2024 Writeups: No Tools (A puzzling Bash challenge)",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/safer-streets.html",
-          "author": null,
-          "description": "This is a write-up for Safer Streets. I apparently wrote this in more “note to self” style, not blog style, so enjoy!",
-          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/safer-streets.html",
-          "publishedOn": "2024-05-05T00:00:00.000Z",
-          "wordCount": 796,
-          "title": "BSidesSF 2024 Writeups: Safer Streets (Web / reversing)",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/slay-the-spider.html",
-          "author": null,
-          "description": "Slay the Spider is a Minesweeper-like game where the user and computer try to uncover a spider. The challenge name and trappings are based on Slay the Spire, which is one of my favourite games.",
-          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/slay-the-spider.html",
-          "publishedOn": "2024-05-05T00:00:00.000Z",
-          "wordCount": 666,
-          "title": "BSidesSF 2024 Writeups: Slay the Spider (A hard heap-overflow)",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
-        },
-        {
-          "id": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/turing-complete.html",
-          "author": null,
-          "description": "This is a write-up for turing-complete, turing-incomplete, and turing-incomplete64 from the BSides San Francisco 2024 CTF! turing-complete is a 101-level reversing challenge, and turing-incomplete is a much more difficult exploitation challenge with a very similar structure. turing-incomplete64 is a 64-bit version of turing-incomplete, which isn’t necessarily harder, but is different. Let’s look at the levels!",
-          "link": "https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/turing-complete.html",
-          "publishedOn": "2024-05-05T00:00:00.000Z",
-          "wordCount": 1539,
-          "title": "BSidesSF 2024 Writeups: Turing Complete (Reversing / exploitation)",
-          "imageUrl": "https://www.skullsecurity.org/assets/skullsecurity.jpg"
         }
       ]
     },
@@ -293,6 +243,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10397",
+          "author": "Didier Stevens",
+          "description": "This new version of myjson-filer brings a new choice for option -W (–write): hashext. This write files where the filename is the sha256 hash + provided extension. For example, option -W hash:jpeg will create files with extension .jpeg, and the name is the sha256 hash of the content of the file. myjson-filter_V0_0_6.zip (http)MD5: 379880AF93E312F8A8D80A7F8E0825E5SHA256: E1B09AEEFB437ECDF3A6223BE3D72A3D552EF5A3B2E9CC42D06A83E4230EA9D1",
+          "link": "https://blog.didierstevens.com/2024/06/04/update-myjson-filter-py-version-0-0-6/",
+          "publishedOn": "2024-06-04T00:00:00.000Z",
+          "wordCount": 3330,
+          "title": "Update: myjson-filter.py version 0.0.6",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=10392",
           "author": "Didier Stevens",
@@ -380,6 +340,26 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ai/top-10-ai-embarrassments",
+          "author": "Marten Mickos",
+          "description": "Avoid these 10 AI embarrassments that can cost your organization millions in lost business and reduced brand value.",
+          "link": "https://www.hackerone.com/ai/top-10-ai-embarrassments",
+          "publishedOn": "2024-06-03T16:00:00.000Z",
+          "wordCount": 3584,
+          "title": "HackerOne's List of Top 10 AI EMB(arrassments)",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-06/AI%20Embarrassments%20Blog%20Header.png"
+        },
+        {
+          "id": "https://hackerone.com/customer-stories/retail-ecommerce-lessons",
+          "author": "HackerOne",
+          "description": "Learn 3 bug bounty lessons from HackerOne Retail & eCommerce customers.",
+          "link": "https://www.hackerone.com/customer-stories/retail-ecommerce-lessons",
+          "publishedOn": "2024-05-31T22:35:36.000Z",
+          "wordCount": 3017,
+          "title": "3 Bug Bounty Lessons From Retail & eCommerce Customers",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/RETAIL_BLOG-02.png"
+        },
         {
           "id": "https://hackerone.com/security-compliance/gdpr-pentesting",
           "author": "HackerOne Pentest Delivery Team",
@@ -1065,6 +1045,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1583505",
+          "author": "Mercy Bassey",
+          "description": "Buildah is an open-source tool that helps build Open Container Initiative (OCI) container images. Unlike traditional container engines, Buildah allows you to create and manage images without a container daemon. Container images created with Buildah can be run in OCI-compatible container engines such as Docker, Podman, or containerd, orchestrated with Kubernetes. The latest release, Buildah 1.35, introduces several significant enhancements extending its capabilities. Key new features include the --add-file flag, which allows you to add files directly to committed images, the --sbom flag for generating Software Bill of Materials (SBOM) during the build and commit processes, and enhancements to the manifest push command with the addition of  the --retry and --retry-delay flags for more robust image pushing.",
+          "link": "https://4sysops.com/archives/introducing-buildah-1350-new-features-with-examples/",
+          "publishedOn": "2024-06-03T15:48:51.000Z",
+          "wordCount": null,
+          "title": "Creating OCI containers images with Buildah 1.35: New Features with examples",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1583414",
           "author": "Jasmin Kahriman",
           "description": "Canonical has just released Ubuntu 24.04 LTS (Long Term Support), known as Noble Numbat. This release introduces numerous new features and improvements throughout the operating system. This post covers the key highlights.",
@@ -1337,6 +1327,16 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/the-nis2-mandate-what-every-organization-needs-to-know",
+          "author": null,
+          "description": "A blog about what every organization needs to know about the new NIS2 mandate.",
+          "link": "https://www.sans.org/blog/the-nis2-mandate-what-every-organization-needs-to-know?msc=rss",
+          "publishedOn": "2024-06-03T00:00:00.000Z",
+          "wordCount": 5764,
+          "title": "The NIS2 Mandate: What Every Organization Needs to Know",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ransomware-summit-2024",
           "author": null,
           "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Ransomware Summit 2024",
@@ -1544,16 +1544,6 @@
           "publishedOn": "2024-05-06T00:00:00.000Z",
           "wordCount": 3650,
           "title": "The Distinctive Worlds of OT Cybersecurity and IT Cybersecurity",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/building-a-cloud-security-flywheel-lessons-from-the-field",
-          "author": null,
-          "description": "A blog about building a cloud security flywheel.",
-          "link": "https://www.sans.org/blog/building-a-cloud-security-flywheel-lessons-from-the-field?msc=rss",
-          "publishedOn": "2024-05-05T00:00:00.000Z",
-          "wordCount": 4404,
-          "title": "Building a Cloud Security Flywheel: Lessons from the Field",
           "imageUrl": null
         }
       ]
@@ -1793,7 +1783,18 @@
       "title": "Publications | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.outflank.nl/?p=4009",
+          "author": "Kyle Avery",
+          "description": "Many public blogs and conference talks have covered Windows telemetry sources like kernel callbacks and ETW, but few mention macOS and Linux equivalents. Although most security professionals may not be surprised by this lack of coverage, one should not overlook these platforms. For example, developers using macOS often have privileged cloud accounts or access to intellectual property like source code. Linux servers may host sensitive databases or customer-facing applications. Defenders must have confidence in their tools for these systems, and attackers must understand how to evade them. This post dives into endpoint security products on macOS and Linux to understand their capabilities and identify weaknesses.\n\nEndpoint detection and response (EDR) agents comprise multiple sensors: components that collect events from one or more telemetry sources. The agent formats raw telemetry data into a standard format and then forwards it to a log aggregator.\nTags: EDR, Linux, macOS\nRead full post\nThe post EDR Internals for macOS and Linux appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2024/06/03/edr-internals-macos-linux/",
+          "publishedOn": "2024-06-03T15:56:18.000Z",
+          "wordCount": 4736,
+          "title": "EDR Internals for macOS and Linux",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/05/mac-monitor-set-events.png"
+        }
+      ]
     },
     {
       "title": "IFCR - Medium",

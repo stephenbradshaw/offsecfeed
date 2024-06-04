@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-03T00:38:38.102Z</updated>
+    <updated>2024-06-04T00:37:32.268Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: myjson-filter.py version 0.0.6]]></title>
+        <id>http://blog.didierstevens.com/?p=10397</id>
+        <link href="https://blog.didierstevens.com/2024/06/04/update-myjson-filter-py-version-0-0-6/"/>
+        <updated>2024-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This new version of myjson-filer brings a new choice for option -W (–write): hashext. This write files where the filename is the sha256 hash + provided extension. For example, option -W hash:jpeg will create files with extension .jpeg, and the name is the sha256 hash of the content of the file. myjson-filter_V0_0_6.zip (http)MD5: 379880AF93E312F8A8D80A7F8E0825E5SHA256: E1B09AEEFB437ECDF3A6223BE3D72A3D552EF5A3B2E9CC42D06A83E4230EA9D1]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HackerOne's List of Top 10 AI EMB(arrassments)]]></title>
+        <id>https://hackerone.com/ai/top-10-ai-embarrassments</id>
+        <link href="https://www.hackerone.com/ai/top-10-ai-embarrassments"/>
+        <updated>2024-06-03T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Avoid these 10 AI embarrassments that can cost your organization millions in lost business and reduced brand value.]]></summary>
+        <author>
+            <name>Marten Mickos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EDR Internals for macOS and Linux]]></title>
+        <id>https://www.outflank.nl/?p=4009</id>
+        <link href="https://www.outflank.nl/blog/2024/06/03/edr-internals-macos-linux/"/>
+        <updated>2024-06-03T15:56:18.000Z</updated>
+        <summary type="html"><![CDATA[Many public blogs and conference talks have covered Windows telemetry sources like kernel callbacks and ETW, but few mention macOS and Linux equivalents. Although most security professionals may not be surprised by this lack of coverage, one should not overlook these platforms. For example, developers using macOS often have privileged cloud accounts or access to intellectual property like source code. Linux servers may host sensitive databases or customer-facing applications. Defenders must have confidence in their tools for these systems, and attackers must understand how to evade them. This post dives into endpoint security products on macOS and Linux to understand their capabilities and identify weaknesses.
+
+Endpoint detection and response (EDR) agents comprise multiple sensors: components that collect events from one or more telemetry sources. The agent formats raw telemetry data into a standard format and then forwards it to a log aggregator.
+Tags: EDR, Linux, macOS
+Read full post
+The post EDR Internals for macOS and Linux appeared first on Outflank.]]></summary>
+        <author>
+            <name>Kyle Avery</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating OCI containers images with Buildah 1.35: New Features with examples]]></title>
+        <id>https://4sysops.com/?p=1583505</id>
+        <link href="https://4sysops.com/archives/introducing-buildah-1350-new-features-with-examples/"/>
+        <updated>2024-06-03T15:48:51.000Z</updated>
+        <summary type="html"><![CDATA[Buildah is an open-source tool that helps build Open Container Initiative (OCI) container images. Unlike traditional container engines, Buildah allows you to create and manage images without a container daemon. Container images created with Buildah can be run in OCI-compatible container engines such as Docker, Podman, or containerd, orchestrated with Kubernetes. The latest release, Buildah 1.35, introduces several significant enhancements extending its capabilities. Key new features include the --add-file flag, which allows you to add files directly to committed images, the --sbom flag for generating Software Bill of Materials (SBOM) during the build and commit processes, and enhancements to the manifest push command with the addition of  the --retry and --retry-delay flags for more robust image pushing.]]></summary>
+        <author>
+            <name>Mercy Bassey</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: hash.py Version 0.0.12]]></title>
         <id>http://blog.didierstevens.com/?p=10392</id>
@@ -14,6 +59,16 @@
         <summary type="html"><![CDATA[This new version of hash.py adds JSON input support: –jsoninput. hash_V0_0_12.zip (http)MD5: 087C9DB7D2C22449B568F7F35015A2D1SHA256: 1021D93E0048F2196AA4D4018C1FA3DC61BAA28E6A00F97AB48442BAF7FB8C12]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The NIS2 Mandate: What Every Organization Needs to Know]]></title>
+        <id>https://www.sans.org/blog/the-nis2-mandate-what-every-organization-needs-to-know</id>
+        <link href="https://www.sans.org/blog/the-nis2-mandate-what-every-organization-needs-to-know?msc=rss"/>
+        <updated>2024-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about what every organization needs to know about the new NIS2 mandate.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -34,6 +89,16 @@
         <summary type="html"><![CDATA[Here is an overview of content I published in May: Blog posts: Wireshark Lua Fixed Field Length Dissector: fl-dissector Update: oledump.py Version 0.0.76 Update: 1768.py Version 0.0.21 Reversing A Network Protocol Update: byte-stats.py Version 0.0.10 YouTube videos: Reversing A Network Protocol Videoblog posts: Reversing A Network Protocol SANS ISC Diary entries: nslookup’s Debug Options Analyzing […]]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Bug Bounty Lessons From Retail & eCommerce Customers]]></title>
+        <id>https://hackerone.com/customer-stories/retail-ecommerce-lessons</id>
+        <link href="https://www.hackerone.com/customer-stories/retail-ecommerce-lessons"/>
+        <updated>2024-05-31T22:35:36.000Z</updated>
+        <summary type="html"><![CDATA[Learn 3 bug bounty lessons from HackerOne Retail & eCommerce customers.]]></summary>
+        <author>
+            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
@@ -1272,66 +1337,6 @@ Some of the main…]]></summary>
         <summary type="html"><![CDATA[The premise of the three challenges cant-give-in, cant-give-in-secure, and cant-give-in-securer are to learn how to exploit and debug compiled code that’s loaded as a CGI module. You might think that’s unlikely, but a surprising number of enterprise applications (usually hardware stuff - firewalls, network “security” appliances, stuff like that) is powered by CGI scripts. You never know! This challenge was inspired by one of my co-workers at GreyNoise asking how to debug a CGI script. I thought it’d be cool to make a multi-challenge series in case others didn’t know! This write-up is intended to be fairly detailed, to help new players understand their first stack overflow!]]></summary>
         <author>
             <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BSidesSF 2024 Writeups: Can’t Give In (CGI exploitation)]]></title>
-        <id>https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html</id>
-        <link href="https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/cant-give-in.html"/>
-        <updated>2024-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The premise of the three challenges cant-give-in, cant-give-in-secure, and cant-give-in-securer are to learn how to exploit and debug compiled code that’s loaded as a CGI module. You might think that’s unlikely, but a surprising number of enterprise applications (usually hardware stuff - firewalls, network “security” appliances, stuff like that) is powered by CGI scripts. You never know! This challenge was inspired by one of my co-workers at GreyNoise asking how to debug a CGI script. I thought it’d be cool to make a multi-challenge series in case others didn’t know! This write-up is intended to be fairly detailed, to help new players understand their first stack overflow!]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BSidesSF 2024 Writeups: No Tools (A puzzling Bash challenge)]]></title>
-        <id>https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/no-tools.html</id>
-        <link href="https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/no-tools.html"/>
-        <updated>2024-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[No Tools is a fairly simple terminal challenge, something for new players to chew on. I suspect there are several different ways to solve it, but the basic idea is to read a file using only built-in functions from sh.]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BSidesSF 2024 Writeups: Safer Streets (Web / reversing)]]></title>
-        <id>https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/safer-streets.html</id>
-        <link href="https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/safer-streets.html"/>
-        <updated>2024-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a write-up for Safer Streets. I apparently wrote this in more “note to self” style, not blog style, so enjoy!]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BSidesSF 2024 Writeups: Slay the Spider (A hard heap-overflow)]]></title>
-        <id>https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/slay-the-spider.html</id>
-        <link href="https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/slay-the-spider.html"/>
-        <updated>2024-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Slay the Spider is a Minesweeper-like game where the user and computer try to uncover a spider. The challenge name and trappings are based on Slay the Spire, which is one of my favourite games.]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BSidesSF 2024 Writeups: Turing Complete (Reversing / exploitation)]]></title>
-        <id>https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/turing-complete.html</id>
-        <link href="https://www.skullsecurity.org/bsidessf-2024/ctfs/2024/05/05/turing-complete.html"/>
-        <updated>2024-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a write-up for turing-complete, turing-incomplete, and turing-incomplete64 from the BSides San Francisco 2024 CTF! turing-complete is a 101-level reversing challenge, and turing-incomplete is a much more difficult exploitation challenge with a very similar structure. turing-incomplete64 is a 64-bit version of turing-incomplete, which isn’t necessarily harder, but is different. Let’s look at the levels!]]></summary>
-        <author>
-            <name>SkullSecurity Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Cloud Security Flywheel: Lessons from the Field]]></title>
-        <id>https://www.sans.org/blog/building-a-cloud-security-flywheel-lessons-from-the-field</id>
-        <link href="https://www.sans.org/blog/building-a-cloud-security-flywheel-lessons-from-the-field?msc=rss"/>
-        <updated>2024-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about building a cloud security flywheel.]]></summary>
-        <author>
-            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
