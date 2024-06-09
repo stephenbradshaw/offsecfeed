@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-08T00:37:56.866Z</updated>
+    <updated>2024-06-09T00:42:32.201Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: what-is-new.py Version 0.0.4]]></title>
+        <id>http://blog.didierstevens.com/?p=10418</id>
+        <link href="https://blog.didierstevens.com/2024/06/09/update-what-is-new-py-version-0-0-4/"/>
+        <updated>2024-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added option -D –dumpformat to specify the format of the dumped information when using option -d. what-is-new_V0_0_4.zip (http)MD5: B2BED149AF949C058E19CD6077D64D2DSHA256: 8C7C475C62D7F79AE45150309AB47757CE308760FAB2BE93D0E03C56D0DA59F6]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PE Section names – re-visited, again]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9210</id>
+        <link href="https://www.hexacorn.com/blog/2024/06/08/pe-section-names-re-visited-again-2/"/>
+        <updated>2024-06-08T22:59:53.000Z</updated>
+        <summary type="html"><![CDATA[I recently caught up with torrents shared by VirusShare and after merging the new VS samples with my repo decided to extract PE section stats from all the files again…. This time, instead of actually attributing section names to protectors, … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: simple_listener.py Version 0.1.5]]></title>
         <id>http://blog.didierstevens.com/?p=10412</id>
@@ -1333,58 +1353,6 @@ Apple kicked off the May release cycle with a group of updates for their macOS a
         <summary type="html"><![CDATA[Microsoft has recently announced that Basic Authentication in Exchange Online SMTP AUTH will be disabled in September 2025. In this post, I will discuss the implications of this announcement and provide guidance on what steps you can take to ensure your email applications and devices remain functional.]]></summary>
         <author>
             <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aviata Cloud Solo Flight Challenge]]></title>
-        <id>https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/</id>
-        <link href="https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/?msc=rss"/>
-        <updated>2024-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Master cloud security by tackling this free series of workshops.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Generative AI-Powered Cybersecurity Workforce]]></title>
-        <id>https://www.sans.org/blog/building-a-generative-ai-powered-cybersecurity-workforce</id>
-        <link href="https://www.sans.org/blog/building-a-generative-ai-powered-cybersecurity-workforce?msc=rss"/>
-        <updated>2024-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Whether you consider its impact to cybersecurity, business, broader technology, or society at large, AI will be disruptive in the years to come.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2024-21115: An Oracle VirtualBox LPE Used to Win Pwn2Own]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:663d0d0aa0ad2376b93fe901</id>
-        <link href="https://www.thezdi.com/blog/2024/5/9/cve-2024-21115-an-oracle-virtualbox-lpe-used-to-win-pwn2own"/>
-        <updated>2024-05-09T18:08:55.000Z</updated>
-        <summary type="html"><![CDATA[In this guest blog from Pwn2Own winner Cody Gallagher, he details CVE-2024-21115 – an Out-of-Bounds (OOB) Write that occurs in Oracle VirtualBox that can be leveraged for privilege escalation. This bug was recently patched by Oracle in April. Cody has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.
-The core bug used for this escape is a relative bit clear on the heap from the VGA device. The bug is in function vgaR3DrawBlank, which is called from vgaR3UpdateDisplay. The bug can be triggered with a single core and 32MB of VRAM, and possibly less. All testing was done using the default graphics controller for Linux (VMSVGA). It should work on others as well.
-As for the exploit, I could not get it to work with those constraints. For my e…]]></summary>
-        <author>
-            <name>Guest Blogger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seven ways to fix Windows Update if it fails or is not working at all]]></title>
-        <id>https://4sysops.com/?p=1582460</id>
-        <link href="https://4sysops.com/archives/seven-ways-to-fix-windows-update-if-it-fails-or-is-not-working-at-all/"/>
-        <updated>2024-05-09T17:55:53.000Z</updated>
-        <summary type="html"><![CDATA[There are several reasons why Windows Update may fail or not work, including malfunctioning services, damaged Windows updates, insufficient free disk space, or faulty Windows devices. This article will walk you through seven methods to troubleshoot Windows Update.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Serialized Cookies Led to RCE on a WordPress Website]]></title>
-        <id>https://hackerone.com/vulnerability-management/wordpress-custom-theme-rce</id>
-        <link href="https://www.hackerone.com/vulnerability-management/wordpress-custom-theme-rce"/>
-        <updated>2024-05-09T16:11:07.000Z</updated>
-        <summary type="html"><![CDATA[Learn first-hand from a hacker about a remote code execution vulnerability: how to identify it, its risks, and remediation.]]></summary>
-        <author>
-            <name>Haoxi Tan</name>
         </author>
     </entry>
     <entry>

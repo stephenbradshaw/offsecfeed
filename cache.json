@@ -202,6 +202,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10418",
+          "author": "Didier Stevens",
+          "description": "Added option -D –dumpformat to specify the format of the dumped information when using option -d. what-is-new_V0_0_4.zip (http)MD5: B2BED149AF949C058E19CD6077D64D2DSHA256: 8C7C475C62D7F79AE45150309AB47757CE308760FAB2BE93D0E03C56D0DA59F6",
+          "link": "https://blog.didierstevens.com/2024/06/09/update-what-is-new-py-version-0-0-4/",
+          "publishedOn": "2024-06-09T00:00:00.000Z",
+          "wordCount": 3270,
+          "title": "Update: what-is-new.py Version 0.0.4",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10412",
           "author": "Didier Stevens",
           "description": "I added IPv6 support to simple_listener.py. Although it was not by design, it turned out that simple_listener.py only works for IPv4. So I made some small changes to add IPv6 support. When you use dictionary to define your listeners, use THP_TCP6 and THP_UDP6 to define TCP IPv6 and UDP IPv6 listeners respectively. The meaning of […]",
@@ -607,16 +617,6 @@
           "wordCount": 3018,
           "title": "A Guide to Get the Most Out of Your One-on-ones",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/BlogImages_763x462_BlogImage_Engineering-8.png"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/wordpress-custom-theme-rce",
-          "author": "Haoxi Tan",
-          "description": "Learn first-hand from a hacker about a remote code execution vulnerability: how to identify it, its risks, and remediation.",
-          "link": "https://www.hackerone.com/vulnerability-management/wordpress-custom-theme-rce",
-          "publishedOn": "2024-05-09T16:11:07.000Z",
-          "wordCount": 3947,
-          "title": "How Serialized Cookies Led to RCE on a WordPress Website",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/RCE%20blog%20header%402x.png"
         }
       ]
     },
@@ -745,17 +745,6 @@
           "publishedOn": "2024-05-14T17:28:20.000Z",
           "wordCount": null,
           "title": "The May 2024 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:663d0d0aa0ad2376b93fe901",
-          "author": "Guest Blogger",
-          "description": "In this guest blog from Pwn2Own winner Cody Gallagher, he details CVE-2024-21115 – an Out-of-Bounds (OOB) Write that occurs in Oracle VirtualBox that can be leveraged for privilege escalation. This bug was recently patched by Oracle in April. Cody has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.\nThe core bug used for this escape is a relative bit clear on the heap from the VGA device. The bug is in function vgaR3DrawBlank, which is called from vgaR3UpdateDisplay. The bug can be triggered with a single core and 32MB of VRAM, and possibly less. All testing was done using the default graphics controller for Linux (VMSVGA). It should work on others as well.\nAs for the exploit, I could not get it to work with those constraints. For my e…",
-          "link": "https://www.thezdi.com/blog/2024/5/9/cve-2024-21115-an-oracle-virtualbox-lpe-used-to-win-pwn2own",
-          "publishedOn": "2024-05-09T18:08:55.000Z",
-          "wordCount": null,
-          "title": "CVE-2024-21115: An Oracle VirtualBox LPE Used to Win Pwn2Own",
           "itunes": {},
           "imageUrl": null
         }
@@ -1311,16 +1300,6 @@
           "wordCount": null,
           "title": "Disable Basic Authentication in Exchange Online",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1582460",
-          "author": "Jasmin Kahriman",
-          "description": "There are several reasons why Windows Update may fail or not work, including malfunctioning services, damaged Windows updates, insufficient free disk space, or faulty Windows devices. This article will walk you through seven methods to troubleshoot Windows Update.",
-          "link": "https://4sysops.com/archives/seven-ways-to-fix-windows-update-if-it-fails-or-is-not-working-at-all/",
-          "publishedOn": "2024-05-09T17:55:53.000Z",
-          "wordCount": null,
-          "title": "Seven ways to fix Windows Update if it fails or is not working at all",
-          "imageUrl": null
         }
       ]
     },
@@ -1335,6 +1314,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9210",
+          "author": "adam",
+          "description": "I recently caught up with torrents shared by VirusShare and after merging the new VS samples with my repo decided to extract PE section stats from all the files again…. This time, instead of actually attributing section names to protectors, … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/06/08/pe-section-names-re-visited-again-2/",
+          "publishedOn": "2024-06-08T22:59:53.000Z",
+          "wordCount": 548,
+          "title": "PE Section names – re-visited, again",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9206",
           "author": "adam",
@@ -1593,26 +1582,6 @@
           "publishedOn": "2024-05-12T00:00:00.000Z",
           "wordCount": 5473,
           "title": "NIS2: Transforming SOC Challenges Into Opportunities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/",
-          "author": null,
-          "description": "Master cloud security by tackling this free series of workshops.",
-          "link": "https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/?msc=rss",
-          "publishedOn": "2024-05-10T00:00:00.000Z",
-          "wordCount": 6195,
-          "title": "Aviata Cloud Solo Flight Challenge",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/building-a-generative-ai-powered-cybersecurity-workforce",
-          "author": null,
-          "description": "Whether you consider its impact to cybersecurity, business, broader technology, or society at large, AI will be disruptive in the years to come.",
-          "link": "https://www.sans.org/blog/building-a-generative-ai-powered-cybersecurity-workforce?msc=rss",
-          "publishedOn": "2024-05-10T00:00:00.000Z",
-          "wordCount": 4097,
-          "title": "Building a Generative AI-Powered Cybersecurity Workforce",
           "imageUrl": null
         }
       ]
