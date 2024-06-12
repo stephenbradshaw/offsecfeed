@@ -2,10 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-11T00:38:09.881Z</updated>
+    <updated>2024-06-12T00:38:08.171Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: base64dump.py version 0.0.25]]></title>
+        <id>http://blog.didierstevens.com/?p=10395</id>
+        <link href="https://blog.didierstevens.com/2024/06/12/update-base64dump-py-version-0-0-25/"/>
+        <updated>2024-06-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This new version adds a new post processing function to extract the longest string from the decoded payload (ExtractLongestString). Post processing functions take the decoded content, and replace it with the processed content. To view to original decoded content, the select option -s now supports suffix o. For example, to select the original decoded content […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The June 2024 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66687be295dc3456498b5a43</id>
+        <link href="https://www.thezdi.com/blog/2024/6/11/the-june-2024-security-update-review"/>
+        <updated>2024-06-11T17:31:11.000Z</updated>
+        <summary type="html"><![CDATA[Somehow, we’ve made it to the sixth patch Tuesday of 2024, and Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for June 2024
+For June, Adobe released 10 patches addressing 165(!) CVEs in Adobe Cold Fusion, Photoshop,  Experience Manager, Audition, Media Encoder, FrameMaker Publishing Server, Adobe Commerce, Substance 3D Stager, Creative Cloud Desktop, and Acrobat Android. The fix for Experience Manager is by far the largest with a whopping 143 CVEs addressed. However, all but one of these bugs are simply cross-site scripting (XSS) vulnerabilities. …]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lateral Movement with the .NET Profiler]]></title>
+        <id>https://medium.com/p/8772c86f9523</id>
+        <link href="https://posts.specterops.io/lateral-movement-with-the-net-profiler-8772c86f9523?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-06-11T16:35:52.000Z</updated>
+        <summary type="html"><![CDATA[The accompanying code for this blogpost can be found HERE.]]></summary>
+        <author>
+            <name>Daniel Mayer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automate Windows setup from WinPE using autounattend.xml]]></title>
+        <id>https://4sysops.com/?p=1583804</id>
+        <link href="https://4sysops.com/archives/automate-windows-setup-from-winpe-using-autounattendxml/"/>
+        <updated>2024-06-11T15:05:58.000Z</updated>
+        <summary type="html"><![CDATA[When booting PCs from WinPE, you can run setup.exe with parameters and automate it with an answer file. This can partition the system drive without user interaction and skip the regional settings dialog. By additionally including an unattend.xml file in the image, you achieve a fully unattended installation.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting ML models with pickle file attacks: Part 2]]></title>
+        <id>https://blog.trailofbits.com/?p=107459</id>
+        <link href="https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-2/"/>
+        <updated>2024-06-11T15:00:17.000Z</updated>
+        <summary type="html"><![CDATA[By Boyan Milanov In part 1, we introduced Sleepy Pickle, an attack that uses malicious pickle files to stealthily compromise ML models and carry out sophisticated attacks against end users. Here we show how this technique can be adapted to enable long-lasting presence on compromised systems while remaining undetected. This variant technique, which we call […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[onwebkitplaybacktargetavailabilitychanged?! New exotic events in the XSS cheat sheet]]></title>
+        <id>new-exotic-events-in-the-xss-cheat-sheet</id>
+        <link href="https://portswigger.net/research/new-exotic-events-in-the-xss-cheat-sheet"/>
+        <updated>2024-06-11T14:58:29.000Z</updated>
+        <summary type="html"><![CDATA[The power of our XSS cheat sheet is we get fantastic contributions from the web security community and this update is no exception. We had valuable contributions from Mozilla to remove events that no]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap]]></title>
+        <id>https://research.nccgroup.com/?p=34674</id>
+        <link href="https://research.nccgroup.com/2024/06/11/pumping-iron-on-the-musl-heap-real-world-cve-2022-24834-exploitation-on-an-alpine-mallocng-heap/"/>
+        <updated>2024-06-11T14:36:33.000Z</updated>
+        <summary type="html"><![CDATA[Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap Lua 5.1 Musl’s Next Generation Allocator – aka mallocng mallocng Cycling Offset Exploiting CVE-2022-24834 on the mallocng heap mallocng Heap Shaping Ensuring Correct Target Table->Array Distance Lua Table Confusion redis-server/libc ASLR Bypass and Code Execution Conclusion Resources Tools This […]]]></summary>
+        <author>
+            <name>Aaron Adams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting ML models with pickle file attacks: Part 1]]></title>
+        <id>https://blog.trailofbits.com/?p=107441</id>
+        <link href="https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-1/"/>
+        <updated>2024-06-11T13:00:36.000Z</updated>
+        <summary type="html"><![CDATA[By Boyan Milanov We’ve developed a new hybrid machine learning (ML) model exploitation technique called Sleepy Pickle that takes advantage of the pervasive and notoriously insecure Pickle file format used to package and distribute ML models. Sleepy pickle goes beyond previous exploit techniques that target an organization’s systems when they deploy ML models to instead […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: pdf-parser.py Version 0.7.9]]></title>
         <id>http://blog.didierstevens.com/?p=10388</id>
@@ -795,6 +877,16 @@ The post From linen to silk – Using Microsoft Service Fabric to elevate privil
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[HackerOne's Cloud Security Capabilities for AWS Customers]]></title>
+        <id>https://hackerone.com/penetration-testing/hackerones-cloud-security-capabilities-aws-customers</id>
+        <link href="https://www.hackerone.com/penetration-testing/hackerones-cloud-security-capabilities-aws-customers"/>
+        <updated>2024-05-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne provides security capabilities for AWS customers looking to improve security in their cloud applications.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Reversing A Network Protocol]]></title>
         <id>http://blog.didierstevens.com/?p=10263</id>
         <link href="https://blog.didierstevens.com/2024/05/25/reversing-a-network-protocol/"/>
@@ -1313,16 +1405,6 @@ Apple kicked off the May release cycle with a group of updates for their macOS a
         <summary type="html"><![CDATA[Lens is an open-source desktop application aimed at managing Kubernetes clusters. It offers a graphical user interface as an alternative to working directly with the Kubernetes command-line interface (kubectl). Lens includes features for monitoring cluster resources, viewing logs, and accessing a built-in terminal. The new Lens 2024 Early Access version introduces a completely redesigned user interface with a more streamlined and intuitive layout, tabbed navigation, and a unified navigator for managing all clusters and resources.]]></summary>
         <author>
             <name>Mercy Bassey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Visual Summary of SANS Cybersecurity Leadership Summit 2024]]></title>
-        <id>https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2024</id>
-        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2024?msc=rss"/>
-        <updated>2024-05-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS Cybersecurity Leadership Summit 2024]]></summary>
-        <author>
-            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>

@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/8772c86f9523",
+          "author": "Daniel Mayer",
+          "description": "The accompanying code for this blogpost can be found HERE.",
+          "link": "https://posts.specterops.io/lateral-movement-with-the-net-profiler-8772c86f9523?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-06-11T16:35:52.000Z",
+          "wordCount": 3625,
+          "title": "Lateral Movement with the .NET Profiler",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1028/1*ItDuxnzw5lEskkG_rW9bVQ.png"
+        },
+        {
           "id": "https://medium.com/p/9fc10d77bf19",
           "author": "Christopher Maddalena",
           "description": "Project Documents & Reporting Enhancements",
@@ -126,6 +136,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "new-exotic-events-in-the-xss-cheat-sheet",
+          "author": null,
+          "description": "The power of our XSS cheat sheet is we get fantastic contributions from the web security community and this update is no exception. We had valuable contributions from Mozilla to remove events that no",
+          "link": "https://portswigger.net/research/new-exotic-events-in-the-xss-cheat-sheet",
+          "publishedOn": "2024-06-11T14:58:29.000Z",
+          "wordCount": 807,
+          "title": "onwebkitplaybacktargetavailabilitychanged?! New exotic events in the XSS cheat sheet",
+          "imageUrl": "https://portswigger.net/cms/images/83/c9/b6c7-twittercard-cheat-sheet-twitter.png"
+        },
+        {
           "id": "adjusting-your-http-perspective-with-bambdas",
           "author": null,
           "description": "When you open a HTTP request or response, what do you instinctively look for? Suspicious parameter names? CORS headers? Some clue as to the request's origin or underlying purpose? A single HTTP messag",
@@ -211,6 +231,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10395",
+          "author": "Didier Stevens",
+          "description": "This new version adds a new post processing function to extract the longest string from the decoded payload (ExtractLongestString). Post processing functions take the decoded content, and replace it with the processed content. To view to original decoded content, the select option -s now supports suffix o. For example, to select the original decoded content […]",
+          "link": "https://blog.didierstevens.com/2024/06/12/update-base64dump-py-version-0-0-25/",
+          "publishedOn": "2024-06-12T00:00:00.000Z",
+          "wordCount": 3338,
+          "title": "Update: base64dump.py version 0.0.25",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=10388",
           "author": "Didier Stevens",
@@ -489,6 +519,16 @@
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/BlogImages_763x462_BlogImage_AI-5.png"
         },
         {
+          "id": "https://hackerone.com/penetration-testing/hackerones-cloud-security-capabilities-aws-customers",
+          "author": "HackerOne",
+          "description": "HackerOne provides security capabilities for AWS customers looking to improve security in their cloud applications.",
+          "link": "https://www.hackerone.com/penetration-testing/hackerones-cloud-security-capabilities-aws-customers",
+          "publishedOn": "2024-05-25T13:00:00.000Z",
+          "wordCount": 2900,
+          "title": "HackerOne's Cloud Security Capabilities for AWS Customers",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/HAC-AWS-Launch-Blog-Article-Header-763x462-L1R2.png"
+        },
+        {
           "id": "https://hackerone.com/ai/developers-system-design-development",
           "author": "Zahra Putri Fitrianti",
           "description": "During our recent webinar, four seasoned AI engineers discussed questions about applied AI/ML.",
@@ -696,6 +736,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66687be295dc3456498b5a43",
+          "author": "Dustin Childs",
+          "description": "Somehow, we’ve made it to the sixth patch Tuesday of 2024, and Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for June 2024\nFor June, Adobe released 10 patches addressing 165(!) CVEs in Adobe Cold Fusion, Photoshop,  Experience Manager, Audition, Media Encoder, FrameMaker Publishing Server, Adobe Commerce, Substance 3D Stager, Creative Cloud Desktop, and Acrobat Android. The fix for Experience Manager is by far the largest with a whopping 143 CVEs addressed. However, all but one of these bugs are simply cross-site scripting (XSS) vulnerabilities. …",
+          "link": "https://www.thezdi.com/blog/2024/6/11/the-june-2024-security-update-review",
+          "publishedOn": "2024-06-11T17:31:11.000Z",
+          "wordCount": null,
+          "title": "The June 2024 Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66575e596871b708e060acf8",
           "author": "Piotr Bazydło",
           "description": "Yes, the title is right. This blog covers an XML eXternal Entity (XXE) injection vulnerability that I found in SharePoint. The bug was recently patched by Microsoft. In general, XXE vulnerabilities are not very exciting in terms of discovery and related technical aspects. They may sometimes be fun to exploit and exfiltrate data (or do other nasty things) in real environments, but in the vulnerability research world, you typically find them, report them, and forget about them.\nSo why am I writing a blog post about an XXE? I have two reasons:\n·       It affects SharePoint, both on-prem and cloud instances, which is a nice target. This vulnerability can be exploited by a low-privileged user.\n·       This is one of the craziest XXEs that I have ever seen (and found), both in terms of vulnerabi…",
@@ -765,6 +816,16 @@
       "feedUrl": "https://research.nccgroup.com/feed/",
       "siteUrl": "https://research.nccgroup.com",
       "articles": [
+        {
+          "id": "https://research.nccgroup.com/?p=34674",
+          "author": "Aaron Adams",
+          "description": "Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap Lua 5.1 Musl’s Next Generation Allocator – aka mallocng mallocng Cycling Offset Exploiting CVE-2022-24834 on the mallocng heap mallocng Heap Shaping Ensuring Correct Target Table->Array Distance Lua Table Confusion redis-server/libc ASLR Bypass and Code Execution Conclusion Resources Tools This […]",
+          "link": "https://research.nccgroup.com/2024/06/11/pumping-iron-on-the-musl-heap-real-world-cve-2022-24834-exploitation-on-an-alpine-mallocng-heap/",
+          "publishedOn": "2024-06-11T14:36:33.000Z",
+          "wordCount": 26821,
+          "title": "Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap",
+          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://research.nccgroup.com/?p=34547",
           "author": "Carles Pey",
@@ -935,6 +996,26 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=107459",
+          "author": "Trail of Bits",
+          "description": "By Boyan Milanov In part 1, we introduced Sleepy Pickle, an attack that uses malicious pickle files to stealthily compromise ML models and carry out sophisticated attacks against end users. Here we show how this technique can be adapted to enable long-lasting presence on compromised systems while remaining undetected. This variant technique, which we call […]",
+          "link": "https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-2/",
+          "publishedOn": "2024-06-11T15:00:17.000Z",
+          "wordCount": 3395,
+          "title": "Exploiting ML models with pickle file attacks: Part 2",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/06/figure_1-1-1265x1647.png"
+        },
+        {
+          "id": "https://blog.trailofbits.com/?p=107441",
+          "author": "Trail of Bits",
+          "description": "By Boyan Milanov We’ve developed a new hybrid machine learning (ML) model exploitation technique called Sleepy Pickle that takes advantage of the pervasive and notoriously insecure Pickle file format used to package and distribute ML models. Sleepy pickle goes beyond previous exploit techniques that target an organization’s systems when they deploy ML models to instead […]",
+          "link": "https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-1/",
+          "publishedOn": "2024-06-11T13:00:36.000Z",
+          "wordCount": 4007,
+          "title": "Exploiting ML models with pickle file attacks: Part 1",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/06/figure_4.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=107435",
           "author": "Trail of Bits",
           "description": "By Michael D. Brown We are offering AI/ML safety and security training in summer and fall of this year! Recent advances in AI/ML technologies opened up a new world of possibilities for businesses to run more efficiently and offer better services and products. However, incorporating AI/ML into computing systems brings new and unique complexities, risks, […]",
@@ -1071,6 +1152,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1583804",
+          "author": "Wolfgang Sommergut",
+          "description": "When booting PCs from WinPE, you can run setup.exe with parameters and automate it with an answer file. This can partition the system drive without user interaction and skip the regional settings dialog. By additionally including an unattend.xml file in the image, you achieve a fully unattended installation.",
+          "link": "https://4sysops.com/archives/automate-windows-setup-from-winpe-using-autounattendxml/",
+          "publishedOn": "2024-06-11T15:05:58.000Z",
+          "wordCount": null,
+          "title": "Automate Windows setup from WinPE using autounattend.xml",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1583723",
           "author": "Hitesh Jethva",
@@ -1552,16 +1643,6 @@
           "publishedOn": "2024-05-15T00:00:00.000Z",
           "wordCount": 4029,
           "title": "Understanding the Latest Cyber Threats: Insights from RSA Conference 2024 Keynote",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2024",
-          "author": null,
-          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS Cybersecurity Leadership Summit 2024",
-          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-cybersecurity-leadership-summit-2024?msc=rss",
-          "publishedOn": "2024-05-13T00:00:00.000Z",
-          "wordCount": 2881,
-          "title": "A Visual Summary of SANS Cybersecurity Leadership Summit 2024",
           "imageUrl": null
         }
       ]
