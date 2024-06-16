@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-15T00:37:48.160Z</updated>
+    <updated>2024-06-16T00:41:38.865Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Couple of Splunk/SPL Gotchas, Part 2]]></title>
+        <id>https://www.hexacorn.com/blog/?p=8463</id>
+        <link href="https://www.hexacorn.com/blog/2024/06/15/couple-of-splunk-spl-gotchas-part-2/"/>
+        <updated>2024-06-15T23:47:59.000Z</updated>
+        <summary type="html"><![CDATA[It’s been nearly 5 years since I dropped this old post about Splunk Gotchas. Okay, in fairness, I also covered SPL-based, path normalization in 2020 & bitmap-based hunting aka bitmap hunting here and here in 2024. Still… I thought it … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: python-per-line.py Version 0.0.12]]></title>
+        <id>http://blog.didierstevens.com/?p=10510</id>
+        <link href="https://blog.didierstevens.com/2024/06/15/update-python-per-line-py-version-0-0-12/"/>
+        <updated>2024-06-15T10:55:04.000Z</updated>
+        <summary type="html"><![CDATA[New option -O allows to use a function that receives a object per line as argument. Like option -n, option -O is used to invoke a single Python function taking one argument, but this time the argument is an object in stead of a string. The object has several properties: item is the line (string), […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Chat: From Prompt Injection to Data Exfiltration]]></title>
+        <id>https://embracethered.com/blog/posts/2024/github-copilot-chat-prompt-injection-data-exfiltration/</id>
+        <link href="https://embracethered.com/blog/posts/2024/github-copilot-chat-prompt-injection-data-exfiltration/"/>
+        <updated>2024-06-15T05:00:17.000Z</updated>
+        <summary type="html"><![CDATA[This post highlights how the GitHub Copilot Chat VS Code Extension was vulnerable to data exfiltration via prompt injection when analyzing untrusted source code.
+GitHub Copilot Chat GitHub Copilot Chat is a VS Code Extension that allows a user to chat with source code, refactor code, get info about terminal output, or general help about VS Code, and things along those lines.
+It does so by sending source code, along with the user’s questions to a large language model (LLM).]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The art of artifact collection and hoarding for the sake of forensic exclusivity… – Part 5]]></title>
         <id>https://www.hexacorn.com/blog/?p=9222</id>
@@ -1340,57 +1372,6 @@ In this post we are covering backdooring the original Keras Husky AI model from 
         <summary type="html"><![CDATA[Docker Desktop 4.18 introduced Docker Init, a helpful command to streamline the initial setup process of containerizing your applications. It lets you generate the necessary Docker assets by simply answering a few questions, saving you precious time and effort.]]></summary>
         <author>
             <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Impacts on ICS from the updated Cyber Assessment Framework (CAF)]]></title>
-        <id>https://www.pentestpartners.com/?p=29051</id>
-        <link href="https://www.pentestpartners.com/security-blog/impacts-on-ics-from-the-updated-cyber-assessment-framework-caf/"/>
-        <updated>2024-05-17T05:00:58.000Z</updated>
-        <summary type="html"><![CDATA[NCSC has released an update of the Cyber Assessment Framework (CAF). The CAF represents where the rubber hits the road for the UK’s NIS regulations. TL;DR The NCSC CAF has […]
-Impacts on ICS from the updated Cyber Assessment Framework (CAF) first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Martin Slack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a Business Logic Vulnerability Led to Unlimited Discount Redemption]]></title>
-        <id>https://hackerone.com/vulnerability-management/stripe-business-logic-error-bug</id>
-        <link href="https://www.hackerone.com/vulnerability-management/stripe-business-logic-error-bug"/>
-        <updated>2024-05-16T16:57:09.000Z</updated>
-        <summary type="html"><![CDATA[Learn about the impact, severity, and a real-world example of business logic vulnerabilities.]]></summary>
-        <author>
-            <name>Sandeep Singh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generalize and capture a custom Windows 11 image]]></title>
-        <id>https://4sysops.com/?p=1582835</id>
-        <link href="https://4sysops.com/archives/generalize-and-capture-a-custom-windows-11-image/"/>
-        <updated>2024-05-16T15:32:39.000Z</updated>
-        <summary type="html"><![CDATA[Many admins prefer to use a customized image rather than Microsoft's standard image for deploying Windows 11. This involves creating a reference installation of the OS tailored to their specific needs. After generalizing it with Sysprep, the image is written to a WIM archive using DISM or PowerShell.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Burp Suite Enterprise Edition spring update 2024]]></title>
-        <id>burp-suite-enterprise-edition-spring-update-2024</id>
-        <link href="https://portswigger.net/blog/burp-suite-enterprise-edition-spring-update-2024"/>
-        <updated>2024-05-16T13:31:46.000Z</updated>
-        <summary type="html"><![CDATA[We understand the unique challenges AppSec teams face—from navigating the rapid pace of development to achieving comprehensive coverage against new vulnerabilities. That’s why we’ve focused our latest]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding AddressSanitizer: Better memory safety for your code]]></title>
-        <id>https://blog.trailofbits.com/?p=107296</id>
-        <link href="https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/"/>
-        <updated>2024-05-16T13:00:57.000Z</updated>
-        <summary type="html"><![CDATA[By Dominik Klemba and Dominik Czarnota This post will guide you through using AddressSanitizer (ASan), a compiler plugin that helps developers detect memory issues in code that can lead to remote code execution attacks (such as WannaCry or this WebP implementation bug). ASan inserts checks around memory accesses during compile time, and crashes the program […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
