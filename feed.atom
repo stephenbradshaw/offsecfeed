@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-19T00:38:30.557Z</updated>
+    <updated>2024-06-20T00:37:46.793Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Job management in Kubernetes 1.30: Understanding the new success/completion policies for indexed jobs]]></title>
+        <id>https://4sysops.com/?p=1584106</id>
+        <link href="https://4sysops.com/archives/job-management-in-kubernetes-130-understanding-the-new-successcompletion-policies-for-indexed-jobs/"/>
+        <updated>2024-06-19T15:29:36.000Z</updated>
+        <summary type="html"><![CDATA[In Kubernetes 1.30, notable improvements have been made to job management, especially for indexed jobs. The newly introduced success/completion policies, succeededIndexes and succeededCount, offer more precise control over job success criteria. These policies provide enhanced flexibility and robustness, ensuring that specific job indexes or a sufficient number must succeed before the job is considered complete.]]></summary>
+        <author>
+            <name>Mercy Bassey</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Feeding the Phishes]]></title>
         <id>https://medium.com/p/276c3579bba7</id>
@@ -75,6 +85,26 @@
 The post Chariot Continuous Threat Exposure Management (CTEM) Updates appeared first on Praetorian.]]></summary>
         <author>
             <name>Thomas Tan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ExpressionEngine, Version 7.3.15]]></title>
+        <id>https://bishopfox.com/blog/expressionengine-v-7-3-15-vulnerability-2</id>
+        <link href="https://bishopfox.com/blog/expressionengine-v-7-3-15-vulnerability-2"/>
+        <updated>2024-06-17T15:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox staff identified two vulnerabilities in Packet Tide’s ExpressionEngine version 7.3.15. The most severe issue allowed Bishop Fox staff to obtain access to a new administrator account in an instance of ExpressionEngine.]]></summary>
+        <author>
+            <name>Matthieu Keller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ExpressionEngine, Version 7.3.15]]></title>
+        <id>https://bishopfox.com/blog/expressionengine-v-7-3-15-vulnerability</id>
+        <link href="https://bishopfox.com/blog/expressionengine-v-7-3-15-vulnerability"/>
+        <updated>2024-06-17T15:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox staff identified two vulnerabilities in Packet Tide’s ExpressionEngine version 7.3.15. The most severe issue allowed Bishop Fox staff to obtain access to a new administrator account in an instance of ExpressionEngine.]]></summary>
+        <author>
+            <name>Matthieu Keller</name>
         </author>
     </entry>
     <entry>
@@ -1391,56 +1421,6 @@ However, with this new capability comes risks. Imagine if an attacker could mani
         <summary type="html"><![CDATA[Part 12]]></summary>
         <author>
             <name>Jared Atkinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: oledump.py Version 0.0.76]]></title>
-        <id>http://blog.didierstevens.com/?p=10254</id>
-        <link href="https://blog.didierstevens.com/2024/05/21/update-oledump-py-version-0-0-76/"/>
-        <updated>2024-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This new version of oledump brings updates to .msg plugins plugin_msg and plugin_msg_summary. Plugin plugin_msg_summary can now produce JSON output for attachments (plugin option -J). Plugin plugin_msg now parses porperty streams. More details can be found in my SANS ISC diary entry “Analyzing MSG Files“. oledump_V0_0_76.zip (http)MD5: 908FF80DABA00544CB46EBC4C728A15BSHA256: BFEC0099C35C4D761DC941AA72214444661B6D09C4C0A9B0DDA15DF86812536C]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instructor Spotlight: Rich Greene]]></title>
-        <id>https://www.sans.org/blog/instructor-spotlight-rich-greene</id>
-        <link href="https://www.sans.org/blog/instructor-spotlight-rich-greene?msc=rss"/>
-        <updated>2024-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog highlighting SANS instructor Rich Greene.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emulating Teaching Hospital Concepts in Cybersecurity Hiring]]></title>
-        <id>https://www.sans.org/blog/emulating-teaching-hospital-concepts-in-cybersecurity-hiring</id>
-        <link href="https://www.sans.org/blog/emulating-teaching-hospital-concepts-in-cybersecurity-hiring?msc=rss"/>
-        <updated>2024-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For Amazon Web Services, closing cybersecurity skills gaps requires outside-the-box thinking.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Integrate Microsoft Graph activity logs for Microsoft 365 with Azure Monitor]]></title>
-        <id>https://4sysops.com/?p=1582897</id>
-        <link href="https://4sysops.com/archives/integrate-microsoft-graph-activity-logs-for-microsoft-365-with-azure-monitor/"/>
-        <updated>2024-05-20T18:06:54.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Graph activity logs, a component of Microsoft Graph, is now generally available. Microsoft Graph is a unified API that provides access to a wide range of Microsoft 365 services and data, enabling developers to integrate and interact with services like Outlook, OneDrive, Teams, and SharePoint through a single endpoint. Microsoft Graph activity logs provides a detailed record of user and admin activities across Microsoft 365 services, enabling monitoring, auditing, and analyzing actions within the organization's environment. In this post, I explain Microsoft Graph activity logs use cases and outline how to install and integrate them with Azure Monitor logs.]]></summary>
-        <author>
-            <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security@: The Top 3 Lessons From Security Leaders]]></title>
-        <id>https://hackerone.com/customer-stories/security-lessons</id>
-        <link href="https://www.hackerone.com/customer-stories/security-lessons"/>
-        <updated>2024-05-20T16:33:32.000Z</updated>
-        <summary type="html"><![CDATA[See the top security lessons from security leaders at Booking.com, Polygon Labs, Delivery Hero, and Headspace.]]></summary>
-        <author>
-            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
