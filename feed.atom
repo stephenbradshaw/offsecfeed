@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-30T00:42:20.619Z</updated>
+    <updated>2024-07-01T00:44:05.899Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ring Around The Regex: Lessons learned from fuzzing regex libraries (Part 1)]]></title>
+        <id>https://secret.club/2024/06/30/ring-around-the-regex-1.html</id>
+        <link href="https://secret.club/2024/06/30/ring-around-the-regex-1.html"/>
+        <updated>2024-06-30T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Okay, if you’re reading this, you probably know what fuzzing is. As an incredibly reductive summary: fuzzing is an automated, random testing process which tries to explore the state space (e.g., different interpretations of the input or behaviour) of a program under test (PUT; sometimes also SUT, DUT, etc.). Fuzzing is often celebrated as one of the most effective ways to find bugs in programs due to its inherently random nature, which defies human expectation or bias1. The strategy has found countless security-critical bugs (think tens or hundreds of thousands) over its 30-odd-years of existence, and yet faces regular suspicion from industry and academia alike. Mostly. Fuzzers can be overfit to certain applications, intentionally or not. &#8617;]]></summary>
+        <author>
+            <name>secret club</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An AWS Administrator Identity Crisis: Part 1]]></title>
         <id>https://medium.com/p/919e6171ec0a</id>
@@ -1264,78 +1274,6 @@ The post EDR Internals for macOS and Linux appeared first on Outflank.]]></summa
         <summary type="html"><![CDATA[I’ve added opion -B –bin to move analyzed files into folders per detected file type. file-magic_V0_0_8.zip (http)MD5: A495B1CAC80D027AB9CABC76E796A418SHA256: 5A67274B81BC493ED94D50A375EEC850DFB4065894FD8814D4B3CF5006810F73]]></summary>
         <author>
             <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overview of Content Published in May]]></title>
-        <id>http://blog.didierstevens.com/?p=10378</id>
-        <link href="https://blog.didierstevens.com/2024/06/01/overview-of-content-published-in-may-9/"/>
-        <updated>2024-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Here is an overview of content I published in May: Blog posts: Wireshark Lua Fixed Field Length Dissector: fl-dissector Update: oledump.py Version 0.0.76 Update: 1768.py Version 0.0.21 Reversing A Network Protocol Update: byte-stats.py Version 0.0.10 YouTube videos: Reversing A Network Protocol Videoblog posts: Reversing A Network Protocol SANS ISC Diary entries: nslookup’s Debug Options Analyzing […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Bug Bounty Lessons From Retail & eCommerce Customers]]></title>
-        <id>https://hackerone.com/customer-stories/retail-ecommerce-lessons</id>
-        <link href="https://www.hackerone.com/customer-stories/retail-ecommerce-lessons"/>
-        <updated>2024-05-31T22:35:36.000Z</updated>
-        <summary type="html"><![CDATA[Learn 3 bug bounty lessons from HackerOne Retail & eCommerce customers.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compromising ByteDance’s Rspack using GitHub Actions Vulnerabilities]]></title>
-        <id>https://www.praetorian.com/?p=5754</id>
-        <link href="https://www.praetorian.com/blog/compromising-bytedances-rspack-github-actions-vulnerabilities/"/>
-        <updated>2024-05-31T20:23:14.000Z</updated>
-        <summary type="html"><![CDATA[Overview Recently, we identified several critical Pwn Request vulnerabilities within GitHub Actions used by the Rspack repository. These vulnerabilities could allow an external attacker to submit a malicious pull request, without the requirement of being a prior contributor to the repository, and compromise the following secrets: NPM Deployment Token Compromise: Exploitation of the Pwn Request […]
-The post Compromising ByteDance’s Rspack using GitHub Actions Vulnerabilities appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Thomas Tan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Key new features in Ubuntu 24.04 LTS]]></title>
-        <id>https://4sysops.com/?p=1583414</id>
-        <link href="https://4sysops.com/archives/key-new-features-in-ubuntu-2404-lts/"/>
-        <updated>2024-05-31T17:33:57.000Z</updated>
-        <summary type="html"><![CDATA[Canonical has just released Ubuntu 24.04 LTS (Long Term Support), known as Noble Numbat. This release introduces numerous new features and improvements throughout the operating system. This post covers the key highlights.]]></summary>
-        <author>
-            <name>Jasmin Kahriman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why a Single Test Case is Insufficient]]></title>
-        <id>https://medium.com/p/415c4df7b635</id>
-        <link href="https://posts.specterops.io/part-13-415c4df7b635?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-05-31T16:02:32.000Z</updated>
-        <summary type="html"><![CDATA[Part 13]]></summary>
-        <author>
-            <name>Jared Atkinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking the Future: 12 Years at Exodus and the Next Big Leap]]></title>
-        <id>https://blog.exodusintel.com/?p=2270</id>
-        <link href="https://blog.exodusintel.com/2024/05/31/hacking-the-future-12-years-at-exodus-and-the-next-big-leap/"/>
-        <updated>2024-05-31T14:18:21.000Z</updated>
-        <summary type="html"><![CDATA[Hacking the Future: 12 Years at Exodus and the Next Big Leap Tl;dr – We are hiring engineers, analysts, and researchers. This May marked our 12th year of producing world-class vulnerability intelligence at Exodus Intelligence. We have had many ups (and downs) and have worked with a variety of talented people over the years whose ... Read more Hacking the Future: 12 Years at Exodus and the Next Big Leap
-The post Hacking the Future: 12 Years at Exodus and the Next Big Leap appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>exodusintel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why AI Will Not Fully Replace Humans for Web Penetration Testing]]></title>
-        <id>https://research.nccgroup.com/?p=34361</id>
-        <link href="https://research.nccgroup.com/2024/05/31/why-ai-will-not-fully-replace-humans-for-web-penetration-testing/"/>
-        <updated>2024-05-31T14:14:44.000Z</updated>
-        <summary type="html"><![CDATA[Written by: Steven van der Baan In the ever-evolving landscape of cybersecurity, the integration of artificial intelligence (AI) has revolutionized various aspects of threat detection, prevention, and mitigation. Web penetration testing, a crucial component of ensuring the security posture of digital assets, has seen significant advancements through AI-powered tools. While AI undoubtedly offers numerous benefits […]]]></summary>
-        <author>
-            <name>Steven van der Baan</name>
         </author>
     </entry>
     <entry>

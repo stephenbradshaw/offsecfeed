@@ -124,16 +124,6 @@
           "wordCount": 7881,
           "title": "One Phish Two Phish, Red Teams Spew Phish",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:400/0*7LAItowpoE5v3Rmh"
-        },
-        {
-          "id": "https://medium.com/p/415c4df7b635",
-          "author": "Jared Atkinson",
-          "description": "Part 13",
-          "link": "https://posts.specterops.io/part-13-415c4df7b635?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-05-31T16:02:32.000Z",
-          "wordCount": 9197,
-          "title": "Why a Single Test Case is Insufficient",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:888/1*p7sOL6C_SmBrYC6s366wmQ.png"
         }
       ]
     },
@@ -421,16 +411,6 @@
           "wordCount": 3293,
           "title": "Update: file-magic.py Version 0.0.8",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10378",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in May: Blog posts: Wireshark Lua Fixed Field Length Dissector: fl-dissector Update: oledump.py Version 0.0.76 Update: 1768.py Version 0.0.21 Reversing A Network Protocol Update: byte-stats.py Version 0.0.10 YouTube videos: Reversing A Network Protocol Videoblog posts: Reversing A Network Protocol SANS ISC Diary entries: nslookup’s Debug Options Analyzing […]",
-          "link": "https://blog.didierstevens.com/2024/06/01/overview-of-content-published-in-may-9/",
-          "publishedOn": "2024-06-01T00:00:00.000Z",
-          "wordCount": 3359,
-          "title": "Overview of Content Published in May",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -578,16 +558,6 @@
           "wordCount": 3584,
           "title": "HackerOne's List of Top 10 AI EMB(arrassments)",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-06/AI%20Embarrassments%20Blog%20Header.png"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/retail-ecommerce-lessons",
-          "author": "HackerOne",
-          "description": "Learn 3 bug bounty lessons from HackerOne Retail & eCommerce customers.",
-          "link": "https://www.hackerone.com/customer-stories/retail-ecommerce-lessons",
-          "publishedOn": "2024-05-31T22:35:36.000Z",
-          "wordCount": 3017,
-          "title": "3 Bug Bounty Lessons From Retail & eCommerce Customers",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/RETAIL_BLOG-02.png"
         }
       ]
     },
@@ -764,16 +734,6 @@
           "wordCount": 20213,
           "title": "Cross-Execute Your Linux Binaries, Don’t Cross-Compile Them",
           "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=34361",
-          "author": "Steven van der Baan",
-          "description": "Written by: Steven van der Baan In the ever-evolving landscape of cybersecurity, the integration of artificial intelligence (AI) has revolutionized various aspects of threat detection, prevention, and mitigation. Web penetration testing, a crucial component of ensuring the security posture of digital assets, has seen significant advancements through AI-powered tools. While AI undoubtedly offers numerous benefits […]",
-          "link": "https://research.nccgroup.com/2024/05/31/why-ai-will-not-fully-replace-humans-for-web-penetration-testing/",
-          "publishedOn": "2024-05-31T14:14:44.000Z",
-          "wordCount": 19360,
-          "title": "Why AI Will Not Fully Replace Humans for Web Penetration Testing",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -801,16 +761,6 @@
           "wordCount": 1349,
           "title": "Chariot Continuous Threat Exposure Management (CTEM) Updates",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2021/01/Praetorian_OG.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=5754",
-          "author": "Thomas Tan",
-          "description": "Overview Recently, we identified several critical Pwn Request vulnerabilities within GitHub Actions used by the Rspack repository. These vulnerabilities could allow an external attacker to submit a malicious pull request, without the requirement of being a prior contributor to the repository, and compromise the following secrets: NPM Deployment Token Compromise: Exploitation of the Pwn Request […]\nThe post Compromising ByteDance’s Rspack using GitHub Actions Vulnerabilities appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/compromising-bytedances-rspack-github-actions-vulnerabilities/",
-          "publishedOn": "2024-05-31T20:23:14.000Z",
-          "wordCount": 2540,
-          "title": "Compromising ByteDance’s Rspack using GitHub Actions Vulnerabilities",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/05/1-release-canary-workflow.png"
         }
       ]
     },
@@ -842,7 +792,18 @@
       "title": "secret club",
       "feedUrl": "https://secret.club/feed.xml",
       "siteUrl": "https://secret.club/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://secret.club/2024/06/30/ring-around-the-regex-1.html",
+          "author": null,
+          "description": "Okay, if you’re reading this, you probably know what fuzzing is. As an incredibly reductive summary: fuzzing is an automated, random testing process which tries to explore the state space (e.g., different interpretations of the input or behaviour) of a program under test (PUT; sometimes also SUT, DUT, etc.). Fuzzing is often celebrated as one of the most effective ways to find bugs in programs due to its inherently random nature, which defies human expectation or bias1. The strategy has found countless security-critical bugs (think tens or hundreds of thousands) over its 30-odd-years of existence, and yet faces regular suspicion from industry and academia alike. Mostly. Fuzzers can be overfit to certain applications, intentionally or not. &#8617;",
+          "link": "https://secret.club/2024/06/30/ring-around-the-regex-1.html",
+          "publishedOn": "2024-06-30T22:00:00.000Z",
+          "wordCount": 4295,
+          "title": "Ring Around The Regex: Lessons learned from fuzzing regex libraries (Part 1)",
+          "imageUrl": "/assets/twitter.png"
+        }
+      ]
     },
     {
       "title": "Doyensec's Blog",
@@ -1024,18 +985,7 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": [
-        {
-          "id": "https://blog.exodusintel.com/?p=2270",
-          "author": "exodusintel",
-          "description": "Hacking the Future: 12 Years at Exodus and the Next Big Leap Tl;dr – We are hiring engineers, analysts, and researchers. This May marked our 12th year of producing world-class vulnerability intelligence at Exodus Intelligence. We have had many ups (and downs) and have worked with a variety of talented people over the years whose ... Read more Hacking the Future: 12 Years at Exodus and the Next Big Leap\nThe post Hacking the Future: 12 Years at Exodus and the Next Big Leap appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2024/05/31/hacking-the-future-12-years-at-exodus-and-the-next-big-leap/",
-          "publishedOn": "2024-05-31T14:18:21.000Z",
-          "wordCount": 1517,
-          "title": "Hacking the Future: 12 Years at Exodus and the Next Big Leap",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "markitzeroday.com",
@@ -1328,16 +1278,6 @@
           "publishedOn": "2024-06-03T15:48:51.000Z",
           "wordCount": null,
           "title": "Creating OCI containers images with Buildah 1.35: New Features with examples",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1583414",
-          "author": "Jasmin Kahriman",
-          "description": "Canonical has just released Ubuntu 24.04 LTS (Long Term Support), known as Noble Numbat. This release introduces numerous new features and improvements throughout the operating system. This post covers the key highlights.",
-          "link": "https://4sysops.com/archives/key-new-features-in-ubuntu-2404-lts/",
-          "publishedOn": "2024-05-31T17:33:57.000Z",
-          "wordCount": null,
-          "title": "Key new features in Ubuntu 24.04 LTS",
           "imageUrl": null
         }
       ]
