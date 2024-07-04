@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-03T00:38:31.029Z</updated>
+    <updated>2024-07-04T00:38:41.498Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What is Microsoft Dev Home?]]></title>
+        <id>https://4sysops.com/?p=1584532</id>
+        <link href="https://4sysops.com/archives/what-is-microsoft-dev-home/"/>
+        <updated>2024-07-03T16:43:21.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Dev Home is a new application that helps DevOps engineers monitor and manage their projects, set up test and development environments, and connect to cloud accounts such as GitHub or Azure. The platform features a customizable dashboard to oversee workflows, development tasks, and system performance. The Machine configuration tool lets you set up new environments or projects. The Dev Home extensions allow for personalized widgets and shared custom extensions. With Dev Drive, you can store project files and Git repositories.]]></summary>
+        <author>
+            <name>Leos Marek</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Product Security Review Methodology for Traeger Grill Hack]]></title>
         <id>https://bishopfox.com/blog/methodology-for-traeger-grill-hack</id>
@@ -86,6 +96,17 @@ The post Secrets Exposed: The Rise of GitHub as an Attack Vector appeared first 
 RCE vulnerability in OpenSSH – RegreSSHion (CVE-2024-6387) first appeared on Pen Test Partners.]]></summary>
         <author>
             <name>Eime Adomaviciute</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-6387: RegreSSHion]]></title>
+        <id>https://www.praetorian.com/?p=2744</id>
+        <link href="https://www.praetorian.com/blog/cve-2024-6387-regresshion/"/>
+        <updated>2024-07-02T02:48:45.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday, the Qualys Threat Research Unit (TRU) announced an unauthenticated remote code execution in OpenSSH’s sshd server. Cataloged as CVE-2024-6387, the vulnerability is a regression of CVE-2006-5051, hence its nickname: “RegreSSHion”. In addition to versions impacted by CVE-2006-5051, RegreSSHion affects OpenSSH 8.5p1 – 9.7p1. TRU determined the most recent version of OpenSSH (9.8p1) was not […]
+The post CVE-2024-6387: RegreSSHion appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Thomas Tan</name>
         </author>
     </entry>
     <entry>
@@ -1328,48 +1349,6 @@ Continue reading]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Working your way Around an ACL]]></title>
-        <id>https://www.tiraniddo.dev/2024/06/working-your-way-around-acl.html</id>
-        <link href="https://www.tiraniddo.dev/2024/06/working-your-way-around-acl.html"/>
-        <updated>2024-06-04T04:20:00.000Z</updated>
-        <summary type="html"><![CDATA[There's been plenty of recent discussion about Windows 11's Recall feature and how much of it is a garbage fire. Especially a discussion around how secure the database storing all those juicy details of your banking details, sexual peccadillos etc is from prying malware. Spoiler, it's only protected through being ACL'ed to SYSTEM and so any privilege escalation (or non-security boundary *cough*) is sufficient to leak the information. 
-However, I've not spent the time to setup Recall on any machine I own and the files are probably correctly ACL'ed. Therefore, this blog isn't here to talk about that, instead I was following a thread about Recall and the security of the database by Albacore on Mastodon and one toot in particular caught my interest.
-"@DrewNaylor File Explorer always runs unele…]]></summary>
-        <author>
-            <name>Tyranid's Lair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: myjson-filter.py version 0.0.6]]></title>
-        <id>http://blog.didierstevens.com/?p=10397</id>
-        <link href="https://blog.didierstevens.com/2024/06/04/update-myjson-filter-py-version-0-0-6/"/>
-        <updated>2024-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This new version of myjson-filer brings a new choice for option -W (–write): hashext. This write files where the filename is the sha256 hash + provided extension. For example, option -W hash:jpeg will create files with extension .jpeg, and the name is the sha256 hash of the content of the file. myjson-filter_V0_0_6.zip (http)MD5: 379880AF93E312F8A8D80A7F8E0825E5SHA256: E1B09AEEFB437ECDF3A6223BE3D72A3D552EF5A3B2E9CC42D06A83E4230EA9D1]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISOs Navigating the GenAI Tide: Actionable Insights from SANS Institute]]></title>
-        <id>https://www.sans.org/blog/cisos-navigating-the-genai-tide-actionable-insights-from-sans-institute</id>
-        <link href="https://www.sans.org/blog/cisos-navigating-the-genai-tide-actionable-insights-from-sans-institute?msc=rss"/>
-        <updated>2024-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog detailing actionable insights concerning the security of GenAI]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HackerOne's List of Top 10 AI EMB(arrassments)]]></title>
-        <id>https://hackerone.com/ai/top-10-ai-embarrassments</id>
-        <link href="https://www.hackerone.com/ai/top-10-ai-embarrassments"/>
-        <updated>2024-06-03T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Avoid these 10 AI embarrassments that can cost your organization millions in lost business and reduced brand value.]]></summary>
-        <author>
-            <name>Marten Mickos</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[EDR Internals for macOS and Linux]]></title>
         <id>https://www.outflank.nl/?p=4009</id>
         <link href="https://www.outflank.nl/blog/2024/06/03/edr-internals-macos-linux/"/>
@@ -1382,16 +1361,6 @@ Read full post
 The post EDR Internals for macOS and Linux appeared first on Outflank.]]></summary>
         <author>
             <name>Kyle Avery</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating OCI containers images with Buildah 1.35: New Features with examples]]></title>
-        <id>https://4sysops.com/?p=1583505</id>
-        <link href="https://4sysops.com/archives/introducing-buildah-1350-new-features-with-examples/"/>
-        <updated>2024-06-03T15:48:51.000Z</updated>
-        <summary type="html"><![CDATA[Buildah is an open-source tool that helps build Open Container Initiative (OCI) container images. Unlike traditional container engines, Buildah allows you to create and manage images without a container daemon. Container images created with Buildah can be run in OCI-compatible container engines such as Docker, Podman, or containerd, orchestrated with Kubernetes. The latest release, Buildah 1.35, introduces several significant enhancements extending its capabilities. Key new features include the --add-file flag, which allows you to add files directly to committed images, the --sbom flag for generating Software Bill of Materials (SBOM) during the build and commit processes, and enhancements to the manifest push command with the addition of  the --retry and --retry-delay flags for more robust image pushing.]]></summary>
-        <author>
-            <name>Mercy Bassey</name>
         </author>
     </entry>
     <entry>
