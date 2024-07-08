@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-07T00:42:44.453Z</updated>
+    <updated>2024-07-08T00:40:35.958Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Continuous Threat Exposure Management for Google Cloud]]></title>
+        <id>https://www.praetorian.com/?p=2814</id>
+        <link href="https://www.praetorian.com/blog/continuous-threat-exposure-management-for-google-cloud/"/>
+        <updated>2024-07-07T19:04:43.000Z</updated>
+        <summary type="html"><![CDATA[On July 9th, 2020, an independent security firm discovered a trove of personal health information belonging to Pfizer patients on the public internet. The breach exposed unencrypted conversations between patients and providers of four different Pfizer products, including full names, home addresses, email addresses, phone numbers, and medical status details. The entry point of this […]
+The post Continuous Threat Exposure Management for Google Cloud appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Thomas Tan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing a Frida-based VBS API monitor, Take two]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9292</id>
+        <link href="https://www.hexacorn.com/blog/2024/07/07/writing-a-frida-based-vbs-api-monitor-take-two/"/>
+        <updated>2024-07-07T18:34:33.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post I introduced a simple VBS API Monitor developed using Frida framework. Today I did some more code analysis of vbscript.dll and I realized that in my previous post I made a naive assumption that arguments are … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Writing a Frida-based VBS API monitor]]></title>
         <id>https://www.hexacorn.com/blog/?p=9282</id>
@@ -1178,56 +1199,6 @@ For June, Adobe released 10 patches addressing 165(!) CVEs in Adobe Cold Fusion,
         <summary type="html"><![CDATA[I recently caught up with torrents shared by VirusShare and after merging the new VS samples with my repo decided to extract PE section stats from all the files again…. This time, instead of actually attributing section names to protectors, … Continue reading →]]></summary>
         <author>
             <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: simple_listener.py Version 0.1.5]]></title>
-        <id>http://blog.didierstevens.com/?p=10412</id>
-        <link href="https://blog.didierstevens.com/2024/06/08/update-simple_listener-py-version-0-1-5/"/>
-        <updated>2024-06-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I added IPv6 support to simple_listener.py. Although it was not by design, it turned out that simple_listener.py only works for IPv4. So I made some small changes to add IPv6 support. When you use dictionary to define your listeners, use THP_TCP6 and THP_UDP6 to define TCP IPv6 and UDP IPv6 listeners respectively. The meaning of […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The art of artifact collection and hoarding for the sake of forensic exclusivity… – Part 4]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9206</id>
-        <link href="https://www.hexacorn.com/blog/2024/06/07/the-art-of-artifact-collection-and-hoarding-for-the-sake-of-forensic-exclusivity-part-4/"/>
-        <updated>2024-06-07T22:51:37.000Z</updated>
-        <summary type="html"><![CDATA[In my last post I mentioned the outdated PAD files. Let’s have a closer look at them. Before we do so, a short comment first — in the era of omnipresent GenAI buzz sometimes it’s really hard to convince yourself … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Real World Cryptography Conference 2024]]></title>
-        <id>https://research.nccgroup.com/?p=34616</id>
-        <link href="https://research.nccgroup.com/2024/06/07/real-world-cryptography-conference-2024/"/>
-        <updated>2024-06-07T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This year’s Real World Cryptography Conference recently took place in Toronto, Canada. As usual, this conference organized by the IACR showcased recent academic results and industry perspectives on current cryptography topics over three days of presentations. A number of co-located events also took place before and after the conference, including the FHE.org Conference, the Real […]]]></summary>
-        <author>
-            <name>Paul Bottinelli</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enable Microsoft Entra ID passkey authentication]]></title>
-        <id>https://4sysops.com/?p=1583666</id>
-        <link href="https://4sysops.com/archives/enable-microsoft-entra-id-passkey-authentication/"/>
-        <updated>2024-06-07T13:48:56.000Z</updated>
-        <summary type="html"><![CDATA[Passkey authentication can significantly improve security and ease of access. This blog post serves as a practical guide to understanding and enabling passkeys in Entra ID, Microsoft’s identity management service. You’ll learn how to register passkeys, set up devices, and test passkey authentication.]]></summary>
-        <author>
-            <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing AI/ML safety and security trainings]]></title>
-        <id>https://blog.trailofbits.com/?p=107435</id>
-        <link href="https://blog.trailofbits.com/2024/06/07/announcing-ai-ml-safety-and-security-trainings/"/>
-        <updated>2024-06-07T13:00:41.000Z</updated>
-        <summary type="html"><![CDATA[By Michael D. Brown We are offering AI/ML safety and security training in summer and fall of this year! Recent advances in AI/ML technologies opened up a new world of possibilities for businesses to run more efficiently and offer better services and products. However, incorporating AI/ML into computing systems brings new and unique complexities, risks, […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
