@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-09T00:39:02.324Z</updated>
+    <updated>2024-07-10T00:39:29.758Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The July 2024 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:668d6a7d7c32144b1aede0ec</id>
+        <link href="https://www.thezdi.com/blog/2024/7/9/the-july-2024-security-update-review"/>
+        <updated>2024-07-09T17:29:22.000Z</updated>
+        <summary type="html"><![CDATA[We’re just past the halfway point of 2024, and as expected, Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for July 2024
+For July, Adobe released three patches addressing seven CVEs in Adobe Premiere Pro, InDesign, and Adobe Bridge. The patch for InDesign is the largest, fixing four Critical-rated CVEs. All four could lead to arbitrary code execution. The fix for Premiere Pro fixes a single CVE that could lead to arbitrary code execution. Finally, the fix for Bridge fixes one Critical rated and one Important rated bug. The Critical-rated bug could…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delegated Managed Service Accounts in Windows Server 2025]]></title>
+        <id>https://4sysops.com/?p=1584665</id>
+        <link href="https://4sysops.com/archives/delegated-managed-service-accounts-in-windows-server-2025/"/>
+        <updated>2024-07-09T15:01:34.000Z</updated>
+        <summary type="html"><![CDATA[Windows Server 2025 introduces the delegated Managed Service Account (dMSA) feature to address security concerns of regular service accounts. This blog post provides an overview of dMSA, explaining its functionality and offering guidance on its setup.]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drink Like a Phish]]></title>
+        <id>https://medium.com/p/b9e91d0b5677</id>
+        <link href="https://posts.specterops.io/drink-like-a-phish-b9e91d0b5677?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-07-09T14:45:44.000Z</updated>
+        <summary type="html"><![CDATA[How to Make Your Phishing Sites Blend In]]></summary>
+        <author>
+            <name>Forrest Kasler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fickle PDFs: exploiting browser rendering discrepancies]]></title>
+        <id>fickle-pdfs-exploiting-browser-rendering-discrepancies</id>
+        <link href="https://portswigger.net/research/fickle-pdfs-exploiting-browser-rendering-discrepancies"/>
+        <updated>2024-07-09T12:51:22.000Z</updated>
+        <summary type="html"><![CDATA[Imagine the CEO of a random company receives an email containing a PDF invoice file. In Safari and MacOS Preview, the total price displayed is £399. After approval, the invoice is sent to the accounti]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trail of Bits named a leader in cybersecurity consulting services]]></title>
+        <id>https://blog.trailofbits.com/?p=107783</id>
+        <link href="https://blog.trailofbits.com/2024/07/09/trail-of-bits-named-a-leader-in-cybersecurity-consulting-services/"/>
+        <updated>2024-07-09T11:00:45.000Z</updated>
+        <summary type="html"><![CDATA[Trail of Bits has been recognized as a leader in cybersecurity consulting services according to The Forrester Wave™: Cybersecurity Consulting Services, Q2 2024. In this evaluation, we were compared against 14 other top vendors and emerged as a leader for our services. Read the report on our website. What is the Forrester Wave™? Forrester is […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sorry, ChatGPT Is Under Maintenance: Persistent Denial of Service through Prompt Injection and Memory Attacks]]></title>
         <id>https://embracethered.com/blog/posts/2024/chatgpt-persistent-denial-of-service/</id>
@@ -16,6 +68,16 @@ In this post we show how an attacker can use prompt injection to cause a persist
 Hacking Memories Previously we discussed how ChatGPT is vulnerable to automatic tool invocation of the memory tool. This can be used by an attacker during prompt injection to ingest malicious or fake memories into your ChatGPT.]]></summary>
         <author>
             <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DORA: What You Need to Know]]></title>
+        <id>https://hackerone.com/penetration-testing/dora</id>
+        <link href="https://www.hackerone.com/penetration-testing/dora"/>
+        <updated>2024-07-08T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about DORA, the new EU regulation for digital operational resilience, and how to meet the requirements with pentesting.]]></summary>
+        <author>
+            <name>Kayla Underkoffler</name>
         </author>
     </entry>
     <entry>
@@ -119,6 +181,16 @@ The post Attack Surface Management: A Free Enablement Technology for Effective C
         <summary type="html"><![CDATA[Today, we present the second of our open-source AI security audits: a look at security issues we found in an open-source retrieval augmented generation (RAG) application that could lead to chatbot output poisoning, inaccurate document ingestion, and potential denial of service. This audit follows up on our previous work that identified 11 security vulnerabilities in […]]]></summary>
         <author>
             <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What HackerOne Customers Say About Remediating Vulnerabilities and Getting the Best Results From Hackers]]></title>
+        <id>https://hackerone.com/customer-stories/get-the-most-from-hackers</id>
+        <link href="https://www.hackerone.com/customer-stories/get-the-most-from-hackers"/>
+        <updated>2024-07-04T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how HackerOne customers remediate vulnerabilities and get the best results and value from ethical hackers.]]></summary>
+        <author>
+            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
@@ -1202,16 +1274,6 @@ For June, Adobe released 10 patches addressing 165(!) CVEs in Adobe Cold Fusion,
         <summary type="html"><![CDATA[This tutorial will teach you how to configure an EC2 instance to access an S3 bucket using the Terraform fork OpenTofu. The guide assumes familiarity with AWS and covers the essential steps, including creating an IAM role and policies and attaching them to an EC2 instance.]]></summary>
         <author>
             <name>Hitesh Jethva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: FileScanner Version 0.0.0.9]]></title>
-        <id>http://blog.didierstevens.com/?p=10423</id>
-        <link href="https://blog.didierstevens.com/2024/06/10/update-filescanner-version-0-0-0-9/"/>
-        <updated>2024-06-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a small change to my FileScanner tool to make it long path aware. FileScanner_V0_0_0_9.zip (http)MD5: 2BCD526792C76890CC6EF7EED9396BE2SHA256: 9063221557F2EBACDC5B1CA977828250A2524B9795369AB4918B9287CAEB7DBF]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>
