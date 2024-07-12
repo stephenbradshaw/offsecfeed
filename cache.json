@@ -94,16 +94,6 @@
           "wordCount": 10081,
           "title": "Fly Phishing",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:679/0*l_-yFVMz8ChmiVD-"
-        },
-        {
-          "id": "https://medium.com/p/8772c86f9523",
-          "author": "Daniel Mayer",
-          "description": "The accompanying code for this blogpost can be found HERE.",
-          "link": "https://posts.specterops.io/lateral-movement-with-the-net-profiler-8772c86f9523?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-06-11T16:35:52.000Z",
-          "wordCount": 3625,
-          "title": "Lateral Movement with the .NET Profiler",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1028/1*ItDuxnzw5lEskkG_rW9bVQ.png"
         }
       ]
     },
@@ -154,16 +144,6 @@
           "wordCount": 1503,
           "title": "A hacking hat-trick: previewing three PortSwigger Research publications coming to DEF CON &amp; Black Hat USA",
           "imageUrl": "https://portswigger.net/cms/images/31/62/6421-twittercard-twitter1.png"
-        },
-        {
-          "id": "new-exotic-events-in-the-xss-cheat-sheet",
-          "author": null,
-          "description": "The power of our XSS cheat sheet is we get fantastic contributions from the web security community and this update is no exception. We had valuable contributions from Mozilla to remove events that no",
-          "link": "https://portswigger.net/research/new-exotic-events-in-the-xss-cheat-sheet",
-          "publishedOn": "2024-06-11T14:58:29.000Z",
-          "wordCount": 807,
-          "title": "onwebkitplaybacktargetavailabilitychanged?! New exotic events in the XSS cheat sheet",
-          "imageUrl": "https://portswigger.net/cms/images/83/c9/b6c7-twittercard-cheat-sheet-twitter.png"
         }
       ]
     },
@@ -263,6 +243,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10526",
+          "author": "Didier Stevens",
+          "description": "This is an update for plugin plugin_biff.py. Protected xls files (workbook protection, sheet protection) are protected with a password, but are not encrypted. The password is hashed to a 16-bit hash called verifier, such a short hash gives ample opportunity for hash collisions. I calculated passwords for all possible hash values (32768, or 0x8000) mostly […]",
+          "link": "https://blog.didierstevens.com/2024/07/11/update-oledump-py-version-0-0-77/",
+          "publishedOn": "2024-07-11T19:59:32.000Z",
+          "wordCount": 3505,
+          "title": "Update: oledump.py Version 0.0.77",
+          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2024/07/20240711-215255.png"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10521",
           "author": "Didier Stevens",
           "description": "This is a bugfix release for @files. hash_V0_0_13.zip (http)MD5: 43419BBB95FC1321EC6098AE369DEC26SHA256: 88BD3A7B71BB2C8579F49E76E8069E7A5A4B23DCF1DB1716E5E2C9F78BFF6D5B",
@@ -321,16 +311,6 @@
           "wordCount": 3619,
           "title": "Update: InteractiveSieve Version 0.9.3.0",
           "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2024/06/20240601-171143.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10395",
-          "author": "Didier Stevens",
-          "description": "This new version adds a new post processing function to extract the longest string from the decoded payload (ExtractLongestString). Post processing functions take the decoded content, and replace it with the processed content. To view to original decoded content, the select option -s now supports suffix o. For example, to select the original decoded content […]",
-          "link": "https://blog.didierstevens.com/2024/06/12/update-base64dump-py-version-0-0-25/",
-          "publishedOn": "2024-06-12T00:00:00.000Z",
-          "wordCount": 3338,
-          "title": "Update: base64dump.py version 0.0.25",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -339,6 +319,26 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/culture-and-talent/feedback-driven-interviewing-hackerone",
+          "author": "debbie@hackerone.com",
+          "description": "Discover how HackerOne hones its hiring process through structured interviewing, drawing invaluable lessons from candidate feedback.",
+          "link": "https://www.hackerone.com/culture-and-talent/feedback-driven-interviewing-hackerone",
+          "publishedOn": "2024-07-11T17:50:35.000Z",
+          "wordCount": 1411,
+          "title": "Feedback-Driven Interviewing at HackerOne",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-07/_DSC6555.jpg"
+        },
+        {
+          "id": "https://hackerone.com/penetration-testing/web-applications",
+          "author": "HackerOne Pentest Delivery Team",
+          "description": "Learn testing methodologies, common vulnerabilities, and best practices for pentesting web applications with PTaaS.",
+          "link": "https://www.hackerone.com/penetration-testing/web-applications",
+          "publishedOn": "2024-07-10T16:00:00.000Z",
+          "wordCount": 2665,
+          "title": "Pentesting for Web Applications",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-07/PTaaS_BlogImage6%20%281%29.jpg"
+        },
         {
           "id": "https://hackerone.com/penetration-testing/dora",
           "author": "Kayla Underkoffler",
@@ -495,17 +495,6 @@
           "title": "Getting Unauthenticated Remote Code Execution on the Logsign Unified SecOps Platform",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66687be295dc3456498b5a43",
-          "author": "Dustin Childs",
-          "description": "Somehow, we’ve made it to the sixth patch Tuesday of 2024, and Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for June 2024\nFor June, Adobe released 10 patches addressing 165(!) CVEs in Adobe Cold Fusion, Photoshop,  Experience Manager, Audition, Media Encoder, FrameMaker Publishing Server, Adobe Commerce, Substance 3D Stager, Creative Cloud Desktop, and Acrobat Android. The fix for Experience Manager is by far the largest with a whopping 143 CVEs addressed. However, all but one of these bugs are simply cross-site scripting (XSS) vulnerabilities. …",
-          "link": "https://www.thezdi.com/blog/2024/6/11/the-june-2024-security-update-review",
-          "publishedOn": "2024-06-11T17:31:11.000Z",
-          "wordCount": null,
-          "title": "The June 2024 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -574,16 +563,6 @@
           "wordCount": 19689,
           "title": "Stepping Stones – A Red Team Activity Hub",
           "imageUrl": "https://research.nccgroup.com/wp-content/uploads/2024/06/events.png"
-        },
-        {
-          "id": "https://research.nccgroup.com/?p=34674",
-          "author": "Aaron Adams",
-          "description": "Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap Lua 5.1 Musl’s Next Generation Allocator – aka mallocng mallocng Cycling Offset Exploiting CVE-2022-24834 on the mallocng heap mallocng Heap Shaping Ensuring Correct Target Table->Array Distance Lua Table Confusion redis-server/libc ASLR Bypass and Code Execution Conclusion Resources Tools This […]",
-          "link": "https://research.nccgroup.com/2024/06/11/pumping-iron-on-the-musl-heap-real-world-cve-2022-24834-exploitation-on-an-alpine-mallocng-heap/",
-          "publishedOn": "2024-06-11T14:36:33.000Z",
-          "wordCount": 26821,
-          "title": "Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap",
-          "imageUrl": "https://i0.wp.com/research.nccgroup.com/wp-content/uploads/2023/03/cropped-NCC-Group-Favicon.png?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -710,6 +689,16 @@
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
+          "author": null,
+          "description": "Introduction\nDatabases are a crucial part of any modern application. Like any external dependency, they introduce additional complexity for the developers building an application. In the real world, however, they are usually considered and used as a black box which provides storage functionality.\nThis post aims shed light on a particular aspect of the complexity databases introduce which is often overlooked by developers, namely concurrency control. The best way to do that is to start off by looking at a fairly common code pattern we at Doyensec see in our day-to-day work:\n\nfunc (db *Db) Transfer(source int, destination int, amount int) error {\n  ctx := context.Background()\n\n  conn, err := pgx.Connect(ctx, db.databaseUrl)\n  defer conn.Close(ctx)\n\n  // (1)\n  tx, err := conn.BeginTx(ctx)\n\n  …",
+          "link": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
+          "publishedOn": "2024-07-10T22:00:00.000Z",
+          "wordCount": 5515,
+          "title": "A Race to the Bottom - Database Transactions Undermining Your AppSec",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com/2024/07/02/cspt2csrf.html",
           "author": null,
@@ -882,26 +871,6 @@
           "wordCount": 2482,
           "title": "Announcing the Burp Suite Professional chapter in the Testing Handbook",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=107459",
-          "author": "Trail of Bits",
-          "description": "By Boyan Milanov In part 1, we introduced Sleepy Pickle, an attack that uses malicious pickle files to stealthily compromise ML models and carry out sophisticated attacks against end users. Here we show how this technique can be adapted to enable long-lasting presence on compromised systems while remaining undetected. This variant technique, which we call […]",
-          "link": "https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-2/",
-          "publishedOn": "2024-06-11T15:00:17.000Z",
-          "wordCount": 3395,
-          "title": "Exploiting ML models with pickle file attacks: Part 2",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/06/figure_1-1-1265x1647.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=107441",
-          "author": "Trail of Bits",
-          "description": "By Boyan Milanov We’ve developed a new hybrid machine learning (ML) model exploitation technique called Sleepy Pickle that takes advantage of the pervasive and notoriously insecure Pickle file format used to package and distribute ML models. Sleepy pickle goes beyond previous exploit techniques that target an organization’s systems when they deploy ML models to instead […]",
-          "link": "https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-1/",
-          "publishedOn": "2024-06-11T13:00:36.000Z",
-          "wordCount": 4007,
-          "title": "Exploiting ML models with pickle file attacks: Part 1",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/06/figure_4.png"
         }
       ]
     },
@@ -1010,6 +979,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1584695",
+          "author": "Vignesh Mudliar",
+          "description": "Managing and deleting unnecessary Copilot data from Microsoft 365 is essential for reducing security risks and ensuring compliance with data protection laws like GDPR and HIPAA. This blog post will guide you through the steps to search for and delete Copilot data using eDiscovery, Graph Explorer, and PowerShell. Following these steps can enhance data hygiene and safeguard your organization against potential data breaches and legal issues.",
+          "link": "https://4sysops.com/archives/search-and-delete-copilot-data-in-microsoft-365/",
+          "publishedOn": "2024-07-11T13:50:49.000Z",
+          "wordCount": null,
+          "title": "Search and delete Copilot data in Microsoft 365",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1584737",
           "author": "Michael Pietroforte",
@@ -1218,16 +1197,6 @@
           "publishedOn": "2024-06-12T14:41:12.000Z",
           "wordCount": null,
           "title": "Istio 1.22: Ambient mode, Gateway API, and Delta xDS for Kubernetes service mesh",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1583804",
-          "author": "Wolfgang Sommergut",
-          "description": "When booting PCs from WinPE, you can run setup.exe with parameters and automate it with an answer file. This can partition the system drive without user interaction and skip the regional settings dialog. By additionally including an unattend.xml file in the image, you achieve a fully unattended installation.",
-          "link": "https://4sysops.com/archives/automate-windows-setup-from-winpe-using-autounattendxml/",
-          "publishedOn": "2024-06-11T15:05:58.000Z",
-          "wordCount": null,
-          "title": "Automate Windows setup from WinPE using autounattend.xml",
           "imageUrl": null
         }
       ]
@@ -1451,16 +1420,6 @@
           "publishedOn": "2024-06-17T00:00:00.000Z",
           "wordCount": 4314,
           "title": "Eight Essential Lessons for Resilient Supply Chain Security",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/allianz-cyber-talent-academy-bridge-the-cybersecurity-skills-shortage",
-          "author": null,
-          "description": "A blog about the Allianz Cyber Talent Academy.",
-          "link": "https://www.sans.org/blog/allianz-cyber-talent-academy-bridge-the-cybersecurity-skills-shortage?msc=rss",
-          "publishedOn": "2024-06-12T00:00:00.000Z",
-          "wordCount": 4127,
-          "title": "Allianz Cyber Talent Academy - The First Foundation to Bridge the Cybersecurity Skills Shortage",
           "imageUrl": null
         }
       ]

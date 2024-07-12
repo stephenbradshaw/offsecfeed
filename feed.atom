@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-11T00:39:37.984Z</updated>
+    <updated>2024-07-12T00:38:54.565Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: oledump.py Version 0.0.77]]></title>
+        <id>http://blog.didierstevens.com/?p=10526</id>
+        <link href="https://blog.didierstevens.com/2024/07/11/update-oledump-py-version-0-0-77/"/>
+        <updated>2024-07-11T19:59:32.000Z</updated>
+        <summary type="html"><![CDATA[This is an update for plugin plugin_biff.py. Protected xls files (workbook protection, sheet protection) are protected with a password, but are not encrypted. The password is hashed to a 16-bit hash called verifier, such a short hash gives ample opportunity for hash collisions. I calculated passwords for all possible hash values (32768, or 0x8000) mostly […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feedback-Driven Interviewing at HackerOne]]></title>
+        <id>https://hackerone.com/culture-and-talent/feedback-driven-interviewing-hackerone</id>
+        <link href="https://www.hackerone.com/culture-and-talent/feedback-driven-interviewing-hackerone"/>
+        <updated>2024-07-11T17:50:35.000Z</updated>
+        <summary type="html"><![CDATA[Discover how HackerOne hones its hiring process through structured interviewing, drawing invaluable lessons from candidate feedback.]]></summary>
+        <author>
+            <name>debbie@hackerone.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Search and delete Copilot data in Microsoft 365]]></title>
+        <id>https://4sysops.com/?p=1584695</id>
+        <link href="https://4sysops.com/archives/search-and-delete-copilot-data-in-microsoft-365/"/>
+        <updated>2024-07-11T13:50:49.000Z</updated>
+        <summary type="html"><![CDATA[Managing and deleting unnecessary Copilot data from Microsoft 365 is essential for reducing security risks and ensuring compliance with data protection laws like GDPR and HIPAA. This blog post will guide you through the steps to search for and delete Copilot data using eDiscovery, Graph Explorer, and PowerShell. Following these steps can enhance data hygiene and safeguard your organization against potential data breaches and legal issues.]]></summary>
+        <author>
+            <name>Vignesh Mudliar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Race to the Bottom - Database Transactions Undermining Your AppSec]]></title>
+        <id>https://blog.doyensec.com/2024/07/11/database-race-conditions.html</id>
+        <link href="https://blog.doyensec.com/2024/07/11/database-race-conditions.html"/>
+        <updated>2024-07-10T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Databases are a crucial part of any modern application. Like any external dependency, they introduce additional complexity for the developers building an application. In the real world, however, they are usually considered and used as a black box which provides storage functionality.
+This post aims shed light on a particular aspect of the complexity databases introduce which is often overlooked by developers, namely concurrency control. The best way to do that is to start off by looking at a fairly common code pattern we at Doyensec see in our day-to-day work:
+
+func (db *Db) Transfer(source int, destination int, amount int) error {
+  ctx := context.Background()
+
+  conn, err := pgx.Connect(ctx, db.databaseUrl)
+  defer conn.Close(ctx)
+
+  // (1)
+  tx, err := conn.BeginTx(ctx)
+
+  …]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Neural networks basics for IT pros]]></title>
         <id>https://4sysops.com/?p=1584737</id>
@@ -14,6 +67,16 @@
         <summary type="html"><![CDATA[IT professionals need a fundamental understanding of neural networks to make informed decisions about deploying customized Large Language Models (LLMs). Understanding the basics of machine learning is essential for predicting the performance of a fine-tuned model and determining whether to work with Retrieval-Augmented Generation (RAG) and embeddings.]]></summary>
         <author>
             <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pentesting for Web Applications]]></title>
+        <id>https://hackerone.com/penetration-testing/web-applications</id>
+        <link href="https://www.hackerone.com/penetration-testing/web-applications"/>
+        <updated>2024-07-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn testing methodologies, common vulnerabilities, and best practices for pentesting web applications with PTaaS.]]></summary>
+        <author>
+            <name>HackerOne Pentest Delivery Team</name>
         </author>
     </entry>
     <entry>
@@ -1173,98 +1236,6 @@ It does so by sending source code, along with the user’s questions to a large 
         <summary type="html"><![CDATA[Executive Summary NCC Group is pleased to open source a new tool built to help Red Teams log their activity for later correlation with the Blue Team’s own logging. What started as a simple internal web based data-collection tool has grown to integrate with Cobalt Strike and BloodHound to improve the accuracy and ease of […]]]></summary>
         <author>
             <name>Stephen Tomkinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: base64dump.py version 0.0.25]]></title>
-        <id>http://blog.didierstevens.com/?p=10395</id>
-        <link href="https://blog.didierstevens.com/2024/06/12/update-base64dump-py-version-0-0-25/"/>
-        <updated>2024-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This new version adds a new post processing function to extract the longest string from the decoded payload (ExtractLongestString). Post processing functions take the decoded content, and replace it with the processed content. To view to original decoded content, the select option -s now supports suffix o. For example, to select the original decoded content […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Allianz Cyber Talent Academy - The First Foundation to Bridge the Cybersecurity Skills Shortage]]></title>
-        <id>https://www.sans.org/blog/allianz-cyber-talent-academy-bridge-the-cybersecurity-skills-shortage</id>
-        <link href="https://www.sans.org/blog/allianz-cyber-talent-academy-bridge-the-cybersecurity-skills-shortage?msc=rss"/>
-        <updated>2024-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the Allianz Cyber Talent Academy.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The June 2024 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66687be295dc3456498b5a43</id>
-        <link href="https://www.thezdi.com/blog/2024/6/11/the-june-2024-security-update-review"/>
-        <updated>2024-06-11T17:31:11.000Z</updated>
-        <summary type="html"><![CDATA[Somehow, we’ve made it to the sixth patch Tuesday of 2024, and Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for June 2024
-For June, Adobe released 10 patches addressing 165(!) CVEs in Adobe Cold Fusion, Photoshop,  Experience Manager, Audition, Media Encoder, FrameMaker Publishing Server, Adobe Commerce, Substance 3D Stager, Creative Cloud Desktop, and Acrobat Android. The fix for Experience Manager is by far the largest with a whopping 143 CVEs addressed. However, all but one of these bugs are simply cross-site scripting (XSS) vulnerabilities. …]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lateral Movement with the .NET Profiler]]></title>
-        <id>https://medium.com/p/8772c86f9523</id>
-        <link href="https://posts.specterops.io/lateral-movement-with-the-net-profiler-8772c86f9523?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-06-11T16:35:52.000Z</updated>
-        <summary type="html"><![CDATA[The accompanying code for this blogpost can be found HERE.]]></summary>
-        <author>
-            <name>Daniel Mayer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automate Windows setup from WinPE using autounattend.xml]]></title>
-        <id>https://4sysops.com/?p=1583804</id>
-        <link href="https://4sysops.com/archives/automate-windows-setup-from-winpe-using-autounattendxml/"/>
-        <updated>2024-06-11T15:05:58.000Z</updated>
-        <summary type="html"><![CDATA[When booting PCs from WinPE, you can run setup.exe with parameters and automate it with an answer file. This can partition the system drive without user interaction and skip the regional settings dialog. By additionally including an unattend.xml file in the image, you achieve a fully unattended installation.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting ML models with pickle file attacks: Part 2]]></title>
-        <id>https://blog.trailofbits.com/?p=107459</id>
-        <link href="https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-2/"/>
-        <updated>2024-06-11T15:00:17.000Z</updated>
-        <summary type="html"><![CDATA[By Boyan Milanov In part 1, we introduced Sleepy Pickle, an attack that uses malicious pickle files to stealthily compromise ML models and carry out sophisticated attacks against end users. Here we show how this technique can be adapted to enable long-lasting presence on compromised systems while remaining undetected. This variant technique, which we call […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[onwebkitplaybacktargetavailabilitychanged?! New exotic events in the XSS cheat sheet]]></title>
-        <id>new-exotic-events-in-the-xss-cheat-sheet</id>
-        <link href="https://portswigger.net/research/new-exotic-events-in-the-xss-cheat-sheet"/>
-        <updated>2024-06-11T14:58:29.000Z</updated>
-        <summary type="html"><![CDATA[The power of our XSS cheat sheet is we get fantastic contributions from the web security community and this update is no exception. We had valuable contributions from Mozilla to remove events that no]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap]]></title>
-        <id>https://research.nccgroup.com/?p=34674</id>
-        <link href="https://research.nccgroup.com/2024/06/11/pumping-iron-on-the-musl-heap-real-world-cve-2022-24834-exploitation-on-an-alpine-mallocng-heap/"/>
-        <updated>2024-06-11T14:36:33.000Z</updated>
-        <summary type="html"><![CDATA[Pumping Iron on the Musl Heap – Real World CVE-2022-24834 Exploitation on an Alpine mallocng Heap Lua 5.1 Musl’s Next Generation Allocator – aka mallocng mallocng Cycling Offset Exploiting CVE-2022-24834 on the mallocng heap mallocng Heap Shaping Ensuring Correct Target Table->Array Distance Lua Table Confusion redis-server/libc ASLR Bypass and Code Execution Conclusion Resources Tools This […]]]></summary>
-        <author>
-            <name>Aaron Adams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting ML models with pickle file attacks: Part 1]]></title>
-        <id>https://blog.trailofbits.com/?p=107441</id>
-        <link href="https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-1/"/>
-        <updated>2024-06-11T13:00:36.000Z</updated>
-        <summary type="html"><![CDATA[By Boyan Milanov We’ve developed a new hybrid machine learning (ML) model exploitation technique called Sleepy Pickle that takes advantage of the pervasive and notoriously insecure Pickle file format used to package and distribute ML models. Sleepy pickle goes beyond previous exploit techniques that target an organization’s systems when they deploy ML models to instead […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
