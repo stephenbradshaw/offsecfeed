@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-12T00:38:54.565Z</updated>
+    <updated>2024-07-13T00:39:37.099Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Systemd v256: New features of the Linux service manager]]></title>
+        <id>https://4sysops.com/?p=1584819</id>
+        <link href="https://4sysops.com/archives/systemd-v256-new-features-of-the-linux-service-manager/"/>
+        <updated>2024-07-12T15:55:55.000Z</updated>
+        <summary type="html"><![CDATA[Systemd is a system and service manager for Linux that initializes the system, manages services, and controls what programs run at startup. This article introduces Systemd v256, released last month, highlighting new features and improvements.]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing AES-GEM (AES with Galois Extended Mode)]]></title>
+        <id>https://blog.trailofbits.com/?p=107802</id>
+        <link href="https://blog.trailofbits.com/2024/07/12/announcing-aes-gem-aes-with-galois-extended-mode/"/>
+        <updated>2024-07-12T13:00:35.000Z</updated>
+        <summary type="html"><![CDATA[By Scott Arciszewski Today, AES-GCM is one of two cipher modes used by TLS 1.3 (the other being ChaCha20-Poly1305) and the preferred method for encrypting data in FIPS-validated modules. But despite its overwhelming success, AES-GCM has been the root cause of some catastrophic failures: for example, Hanno Böck and Sean Devlin exploited nonce misuse to […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Addressing Cybersecurity Hiring Challenges: Insights from Leidos]]></title>
+        <id>https://www.sans.org/blog/addressing-cybersecurity-hiring-challenges-insights-from-leidos</id>
+        <link href="https://www.sans.org/blog/addressing-cybersecurity-hiring-challenges-insights-from-leidos?msc=rss"/>
+        <updated>2024-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog summarizing how Leidos addressed cybersecurtiy hiring challenges]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: oledump.py Version 0.0.77]]></title>
         <id>http://blog.didierstevens.com/?p=10526</id>
@@ -1196,46 +1226,6 @@ It does so by sending source code, along with the user’s questions to a large 
         <summary type="html"><![CDATA[Microsoft's newest release of PowerToys, a collection of sophisticated tools for Windows 10 and 11 users, introduces Advanced Paste. This feature leverages AI to transform copied content into a different format.]]></summary>
         <author>
             <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: InteractiveSieve Version 0.9.3.0]]></title>
-        <id>http://blog.didierstevens.com/?p=10426</id>
-        <link href="https://blog.didierstevens.com/2024/06/13/update-interactivesieve-version-0-9-3-0/"/>
-        <updated>2024-06-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New features in this version of InteractiveSieve are: Load and Split With Load and Split; you can load a CSV file and split rows that have a field that contains more than one value, separated by a separator character. Take this example: Fields in column Methods can have more than one value: GET, POST and/or […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Istio 1.22: Ambient mode, Gateway API, and Delta xDS for Kubernetes service mesh]]></title>
-        <id>https://4sysops.com/?p=1583818</id>
-        <link href="https://4sysops.com/archives/istio-122-ambient-mode-gateway-api-and-delta-xds-for-kubernetes-service-mesh/"/>
-        <updated>2024-06-12T14:41:12.000Z</updated>
-        <summary type="html"><![CDATA[Istio is an open-source service mesh that controls how microservices share data, often integrated with Kubernetes to manage traffic and communication between services, but also capable of working with other deployment environments. It provides various functionalities such as traffic control, security measures (encryption, authentication, etc.), and monitoring. Recently, the introduction of Istio version 1.22 unveiled many interesting features, including an alternative for sidecar proxies, integration with Gateway API, incremental xDS for configuration distribution, and several other improvements.]]></summary>
-        <author>
-            <name>Amr Essam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fly Phishing]]></title>
-        <id>https://medium.com/p/7d4fb56ac325</id>
-        <link href="https://posts.specterops.io/fly-phishing-7d4fb56ac325?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-06-12T14:22:50.000Z</updated>
-        <summary type="html"><![CDATA[How to Bypass SPAM Filters]]></summary>
-        <author>
-            <name>Forrest Kasler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stepping Stones – A Red Team Activity Hub]]></title>
-        <id>https://research.nccgroup.com/?p=34352</id>
-        <link href="https://research.nccgroup.com/2024/06/12/stepping-stones-a-red-team-activity-hub/"/>
-        <updated>2024-06-12T13:31:48.000Z</updated>
-        <summary type="html"><![CDATA[Executive Summary NCC Group is pleased to open source a new tool built to help Red Teams log their activity for later correlation with the Blue Team’s own logging. What started as a simple internal web based data-collection tool has grown to integrate with Cobalt Strike and BloodHound to improve the accuracy and ease of […]]]></summary>
-        <author>
-            <name>Stephen Tomkinson</name>
         </author>
     </entry>
     <entry>
