@@ -84,16 +84,6 @@
           "wordCount": 4684,
           "title": "How Privileged Identity Management Affects Conditional Access Policies",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Yd7z79rbgOSeGBxp"
-        },
-        {
-          "id": "https://medium.com/p/276c3579bba7",
-          "author": "Forrest Kasler",
-          "description": "Bypassing Phishing Link Filters",
-          "link": "https://posts.specterops.io/feeding-the-phishes-276c3579bba7?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-06-18T13:21:36.000Z",
-          "wordCount": 6162,
-          "title": "Feeding the Phishes",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/0*nXbHJwwj-uXLnu3o"
         }
       ]
     },
@@ -428,16 +418,6 @@
           "wordCount": 2543,
           "title": "Sales Development Representatives Win as a Team",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-06/_DSC6896.jpg"
-        },
-        {
-          "id": "https://hackerone.com/penetration-testing/ptaas-vs-traditional-pentest",
-          "author": "Naz Bozdemir",
-          "description": "What's the difference between traditional pentesting and community-driven pentest as a service (PTaaS)?",
-          "link": "https://www.hackerone.com/penetration-testing/ptaas-vs-traditional-pentest",
-          "publishedOn": "2024-06-18T16:24:28.000Z",
-          "wordCount": 3017,
-          "title": "Community-driven PTaaS vs. Traditional Pentesting",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-06/PTaaS_BlogImage9.jpg"
         }
       ]
     },
@@ -464,6 +444,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6696d7e61753e66be8f6cd0a",
+          "author": "Dustin Childs",
+          "description": "If you just want to read the rules, you can find them here. \n \nOver the last few years, our consumer-focused Pwn2Own event took place in the Trend Micro office in Toronto. However, that office closed, so we needed to find a new home. This isn’t unusual for this event, as it moved from Amsterdam to Tokyo to Austin to Toronto. We’re moving again. This year, we are heading to our offices in Cork, Ireland! We’re excited about our new location, and I personally have viewed several locations for after-hours and special events. Some of those will be secret until the competition, but I can tell you that our awards ceremony and end-of-contest party will be held at the historic Cork City Goal. It promises to be a fun and spooky event, and we’ll have more details about that in the future.\nBeyond our …",
+          "link": "https://www.thezdi.com/blog/2024/7/16/announcing-pwn2own-ireland-2024",
+          "publishedOn": "2024-07-18T13:12:11.000Z",
+          "wordCount": null,
+          "title": "Announcing Pwn2Own Ireland – Bringing Pwn2Own (and WhatsApp) to the Emerald Isle",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:669192f22870db53b1bcdabc",
           "author": "Dustin Childs",
@@ -561,6 +552,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=2898",
+          "author": "Thomas Tan",
+          "description": "Overview We have recently identified several vulnerable HTTP requests that allow attackers to capture access keys and session tokens for a web application’s AWS infrastructure. Attackers could use these keys and tokens to access back-end IOT endpoints and CloudWatch instances to execute commands. This blog was developed to raise awareness on common design flaws in […]\nThe post Capturing Exposed AWS Keys During Dynamic Web Application Tests appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/capturing-exposed-aws-keys-during-dynamic-web-application-tests/",
+          "publishedOn": "2024-07-18T19:43:25.000Z",
+          "wordCount": 2346,
+          "title": "Capturing Exposed AWS Keys During Dynamic Web Application Tests",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/07/Create-Session-IOT-Keys.png"
+        },
         {
           "id": "https://www.praetorian.com/?p=2884",
           "author": "Thomas Tan",
@@ -680,6 +681,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2024/07/18/custom-actions.html",
+          "author": null,
+          "description": "Over a year ago, I published my research around the Windows Installer Service. The article explained in detail how the MSI repair process executes in an elevated context, but the lack of impersonation could lead to Arbitrary File Delete and similar issues. The issue was acknowledged by Microsoft (as CVE-2023-21800), but it was never directly fixed. Instead, the introduction of a Redirection Guard mitigated all symlink attacks in the context of the msiexec process. Back then, I wasn’t particularly happy with the solution, but I couldn’t find any bypass.\nThe Redirection Guard turned out to work exactly as intended, so I spent some time attacking the Windows Installer Service from other angles. Some bugs were found (CVE-2023-32016), but I always felt that the way Microsoft handled the imperso…",
+          "link": "https://blog.doyensec.com/2024/07/18/custom-actions.html",
+          "publishedOn": "2024-07-17T22:00:00.000Z",
+          "wordCount": 1974,
+          "title": "Windows Installer, Exploiting Custom Actions",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
           "author": null,
           "description": "Introduction\nDatabases are a crucial part of any modern application. Like any external dependency, they introduce additional complexity for the developers building an application. In the real world, however, they are usually considered and used as a black box which provides storage functionality.\nThis post aims shed light on a particular aspect of the complexity databases introduce which is often overlooked by developers, namely concurrency control. The best way to do that is to start off by looking at a fairly common code pattern we at Doyensec see in our day-to-day work:\n\nfunc (db *Db) Transfer(source int, destination int, amount int) error {\n  ctx := context.Background()\n\n  conn, err := pgx.Connect(ctx, db.databaseUrl)\n  defer conn.Close(ctx)\n\n  // (1)\n  tx, err := conn.BeginTx(ctx)\n\n  …",
@@ -697,16 +708,6 @@
           "publishedOn": "2024-07-01T22:00:00.000Z",
           "wordCount": 1519,
           "title": "Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2024/06/20/compromised-idp.html",
-          "author": null,
-          "description": "No one can argue with the convenience that single sign-on (SSO) brings to users or the security and efficiency gains organizations reap from the lower administrative overhead. Gone are the days of individually managing multiple user accounts across numerous services. That said, have we just put all our eggs in one proverbial basket with regards to our SSO implementations? The results of our latest research remind us of why the saying cautions against doing this.\nThreat modeling an IdP compromise\nTo help organizations assess their exposure in the event of an IdP compromise, we’re publishing a whitepaper that walks through these potential impacts. It examines how they differ depending on the privileges involved with the compromise. This includes the surprising impacts that even an unprivileg…",
-          "link": "https://blog.doyensec.com/2024/06/20/compromised-idp.html",
-          "publishedOn": "2024-06-19T22:00:00.000Z",
-          "wordCount": 918,
-          "title": "Single Sign-On Or Single Point of Failure?",
           "imageUrl": null
         }
       ]
@@ -821,16 +822,6 @@
           "wordCount": 4068,
           "title": "EuroLLVM 2024 trip report",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/06/image3.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=107622",
-          "author": "Trail of Bits",
-          "description": "In March, Trail of Bits engineers traveled to the vibrant (and only slightly chilly) city of Toronto to attend Real World Crypto 2024, a three-day event that hosted hundreds of brilliant minds in the field of cryptography. We also attended three associated events: the Real World Post-Quantum Cryptography (RWPQC) workshop, the Fully Homomorphic Encryption (FHE) […]",
-          "link": "https://blog.trailofbits.com/2024/06/18/themes-from-real-world-crypto-2024/",
-          "publishedOn": "2024-06-18T13:00:27.000Z",
-          "wordCount": 3631,
-          "title": "Themes from Real World Crypto 2024",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
         }
       ]
     },
@@ -939,6 +930,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1585031",
+          "author": "Edem Afenyo",
+          "description": "Two related vulnerabilities have been identified in the OpenSSH server daemon: CVE-2024-6387 and CVE-2024-6409. Although challenging to exploit, these vulnerabilities could enable remote code execution on servers. This article explores the vulnerabilities, their triggers, and available remediations. OpenSSH implements the Secure Shell (SSH) protocol, utilizing a client-server setup to create secure connections between machines.",
+          "link": "https://4sysops.com/archives/addressing-openssh-vulnerabilities-cve-2024-6387-and-cve-2024-6409/",
+          "publishedOn": "2024-07-19T17:12:54.000Z",
+          "wordCount": null,
+          "title": "Addressing OpenSSH vulnerabilities CVE-2024-6387 and CVE-2024-6409",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1584808",
+          "author": "Mercy Bassey",
+          "description": "Podman is a powerful container management tool that offers a flexible and daemonless alternative to Docker. This beginner's guide walks you through installing Podman on Ubuntu and provides examples of how to pull and push container images to Docker Hub.",
+          "link": "https://4sysops.com/archives/install-podman-on-ubuntu-pull-and-run-container-images-and-push-to-docker-hub/",
+          "publishedOn": "2024-07-18T20:22:48.000Z",
+          "wordCount": null,
+          "title": "Install Podman on Ubuntu, pull and run container images, and push to Docker Hub",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1584876",
           "author": "Leos Marek",
@@ -1138,16 +1149,6 @@
           "wordCount": null,
           "title": "Pulseway 9.6: Enhanced remote control, advanced reporting, improved patch management, and more for comprehensive system monitoring and management",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1584106",
-          "author": "Mercy Bassey",
-          "description": "In Kubernetes 1.30, notable improvements have been made to job management, especially for indexed jobs. The newly introduced success/completion policies, succeededIndexes and succeededCount, offer more precise control over job success criteria. These policies provide enhanced flexibility and robustness, ensuring that specific job indexes or a sufficient number must succeed before the job is considered complete.",
-          "link": "https://4sysops.com/archives/job-management-in-kubernetes-130-understanding-the-new-successcompletion-policies-for-indexed-jobs/",
-          "publishedOn": "2024-06-19T15:29:36.000Z",
-          "wordCount": null,
-          "title": "Job management in Kubernetes 1.30: Understanding the new success/completion policies for indexed jobs",
-          "imageUrl": null
         }
       ]
     },
@@ -1254,16 +1255,6 @@
           "wordCount": 2020,
           "title": "Dodgy disks. My 32TB SSD Adventure",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=29150",
-          "author": "Tony Gee",
-          "description": "TL;DR HUMINT / Human Intelligence is gathered from a person in the location in question. It’s the sort of information we think of in the context of spying. A modern […]\nHUMINT in a cyber world first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/humint-in-a-cyber-world/",
-          "publishedOn": "2024-06-20T05:31:51.000Z",
-          "wordCount": 2661,
-          "title": "HUMINT in a cyber world",
-          "imageUrl": null
         }
       ]
     },
@@ -1272,6 +1263,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/strategies-for-training-and-hiring-in-the-us-government-a-black-rainbow-case-study",
+          "author": null,
+          "description": "A blog about strategies for training and hiring in the US government, a Black Rainbow case study",
+          "link": "https://www.sans.org/blog/strategies-for-training-and-hiring-in-the-us-government-a-black-rainbow-case-study?msc=rss",
+          "publishedOn": "2024-07-19T00:00:00.000Z",
+          "wordCount": 3373,
+          "title": "Strategies for Training and Hiring in the US Government: A Black Rainbow Case Study",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/master-cloud-threat-detection-with-cutting-edge-techniques",
           "author": null,
@@ -1537,6 +1538,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=18188",
+          "author": "Michel Coene",
+          "description": "In today’s digital landscape, Remote Management and Monitoring (RMM) tools have become indispensable for organizations seeking to streamline IT operations, enhance productivity, and ensure seamless remote support. However, within our threat hunting and incident response engagements we often see that these tools, while beneficial, can also pose significant security risks if not properly managed. This … Continue reading Hunting for Remote Management Tools →",
+          "link": "https://blog.nviso.eu/2024/07/18/hunting-for-remote-management-tools/",
+          "publishedOn": "2024-07-18T11:58:55.000Z",
+          "wordCount": 3078,
+          "title": "Hunting for Remote Management Tools",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/07/Hunting_for_Remote_Management_tools_blog_MC.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=18085",
           "author": "Jonathan Prince",
