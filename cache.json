@@ -87,7 +87,18 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "unlock-enhanced-api-scanning-with-burp-suite",
+          "author": null,
+          "description": "More comprehensive scans. More vulnerabilities identified. More time saved. Enhance your API scanning with Burp Suite. As web portfolios have diversified, APIs have become an increasingly critical fun",
+          "link": "https://portswigger.net/blog/unlock-enhanced-api-scanning-with-burp-suite",
+          "publishedOn": "2024-07-31T12:17:39.000Z",
+          "wordCount": 1611,
+          "title": "Unlock enhanced API scanning with Burp Suite",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        }
+      ]
     },
     {
       "title": "PortSwigger Research",
@@ -145,6 +156,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=25078",
+          "author": "Thomas Elling",
+          "description": "Learn how attackers can abuse Open groups to potentially escalate privileges in Google Cloud and how to detect these attack paths.\nThe post Escalating Privileges in Google Cloud via Open Groups  appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/escalating-privileges-in-google-cloud-via-open-groups/",
+          "publishedOn": "2024-07-31T14:00:00.000Z",
+          "wordCount": 4370,
+          "title": "Escalating Privileges in Google Cloud via Open Groups",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2024/07/073124_TECH_Google-Vulnerability-Disclosure_Social-2.webp"
+        },
         {
           "id": "https://www.netspi.com/?p=25045",
           "author": "Scott Weston",
@@ -237,6 +258,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/penetration-testing/gateway-internal-network-testing",
+          "author": "Caroline Collins",
+          "description": "Introducing Gateway Internal Network Testing (INT), powered by Cloudflare’s Zero Trust Network Access (ZTNA) technology.",
+          "link": "https://www.hackerone.com/penetration-testing/gateway-internal-network-testing",
+          "publishedOn": "2024-07-30T21:00:42.000Z",
+          "wordCount": 2049,
+          "title": "Introducing HackerOne Gateway Internal Network Testing: Superior Security for Internal Networks",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-07/BlogImages_763x462_BlogImage_PTaaS-2.png"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/graphql-authentication-bypass",
           "author": "Haoxi Tan",
@@ -383,6 +414,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66a943f9c6730443e0cd3f7a",
+          "author": "Michael DePlante and Nicholas Zubrisky",
+          "description": "The number of vulnerabilities that we see through the program provides significant insight into the attack surfaces of each product that we purchase bugs in. These submissions sometimes reveal not only potential variants but also broader architectural flaws. Submitters frequently choose to provide a full exploit with their submission, which can further reveal interesting techniques. Some of these techniques are so versatile that they end up being useful in the exploitation of several products that all share common functionality. The technique discussed in this blog is one such example that we used to uncover and exploit several vulnerabilities. \nDue to paywalls and other obstacles, several vendors and products on the market remain untested and may be vulnerable to the weaknesses we are abo…",
+          "link": "https://www.thezdi.com/blog/2024/7/30/breaking-barriers-and-assumptions-techniques-for-privilege-escalation-on-windows-part-2",
+          "publishedOn": "2024-07-31T14:48:13.000Z",
+          "wordCount": null,
+          "title": "Breaking Barriers and Assumptions: Techniques for Privilege Escalation on Windows: Part 2",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66a7c784acc06a697c34b0fc",
           "author": "Michael DePlante and Nicholas Zubrisky",
           "description": "The number of link following vulnerabilities submitted to the Trend Micro ZDI program has been increasing rapidly over the past several years. These submissions have provided us with insight into how these vulnerabilities are being found and exploited.\nIn years prior we were seeing a lot of low-hanging fruit in this bug class where you simply just needed a privileged file operation in a directory with a permissive DACL. Now, as we will see with the vulnerabilities presented in this blog series, they often require programmatically exploiting a race condition. In a previous blog , we shared techniques that allow us to escalate our privileges using an arbitrary delete primitive, or to create a permanent DoS condition from an arbitrary file or folder creation primitive. In this blog series, we…",
@@ -434,17 +476,6 @@
           "publishedOn": "2024-07-09T17:29:22.000Z",
           "wordCount": null,
           "title": "The July 2024 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6682dc0f1ce7c849eb57d3d9",
-          "author": "Yulin Sung",
-          "description": "Earlier this year, the Trend Micro Zero Day Initiative (ZDI) acquired several vulnerabilities in the Logsign Unified SecOps Platform. These were all reported to the ZDI by Mehmet INCE (@mdisec) from PRODAFT.com. According to Logsign’s website:\nLogsign provides comprehensive visibility and control of your data lake by allowing security analysts to collect and store unlimited data, investigate and detect threats, and respond automatically.\nLogsign offers a single, unified whole security operation platform to alleviate the challenges associated with deploying multiple cybersecurity tools while reducing the costs and complexities that come with managing them individually.\nLogsign runs as a Python-based web server. Users have the ability to interact with the web server through a variety of APIs…",
-          "link": "https://www.thezdi.com/blog/2024/7/1/getting-unauthenticated-remote-code-execution-on-the-logsign-unified-secops-platform",
-          "publishedOn": "2024-07-01T16:56:53.000Z",
-          "wordCount": null,
-          "title": "Getting Unauthenticated Remote Code Execution on the Logsign Unified SecOps Platform",
           "itunes": {},
           "imageUrl": null
         }
@@ -600,16 +631,6 @@
           "wordCount": 2010,
           "title": "Secrets Exposed: The Rise of GitHub as an Attack Vector",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/06/praetorian-home-social.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=2744",
-          "author": "Thomas Tan",
-          "description": "Yesterday, the Qualys Threat Research Unit (TRU) announced an unauthenticated remote code execution in OpenSSH’s sshd server. Cataloged as CVE-2024-6387, the vulnerability is a regression of CVE-2006-5051, hence its nickname: “RegreSSHion”. In addition to versions impacted by CVE-2006-5051, RegreSSHion affects OpenSSH 8.5p1 – 9.7p1. TRU determined the most recent version of OpenSSH (9.8p1) was not […]\nThe post CVE-2024-6387: RegreSSHion appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/cve-2024-6387-regresshion/",
-          "publishedOn": "2024-07-02T02:48:45.000Z",
-          "wordCount": 1764,
-          "title": "CVE-2024-6387: RegreSSHion",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/07/CVE-2024-6387-RegreSSHion.png"
         }
       ]
     },
@@ -666,16 +687,6 @@
           "publishedOn": "2024-07-10T22:00:00.000Z",
           "wordCount": 5515,
           "title": "A Race to the Bottom - Database Transactions Undermining Your AppSec",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2024/07/02/cspt2csrf.html",
-          "author": null,
-          "description": "To provide users with a safer browsing experience, the IETF proposal named “Incrementally Better Cookies” set in motion a few important changes to address Cross-Site Request Forgery (CSRF) and other client-side issues. Soon after, Chrome and other major browsers implemented the recommended changes and introduced the SameSite attribute. SameSite helps mitigate CSRF, but does that mean CSRF is dead?\nWhile auditing major web applications, we realized that Client Side Path-Traversal (CSPT) can be actually leveraged to resuscitate CSRF for the joy of all pentesters.\nThis blog post is a brief introduction to my research. The detailed findings, methodologies, and in-depth analysis are available in the whitepaper.\nThis research introduces the basics of Client-Side Path Traversal, presenting source…",
-          "link": "https://blog.doyensec.com/2024/07/02/cspt2csrf.html",
-          "publishedOn": "2024-07-01T22:00:00.000Z",
-          "wordCount": 1519,
-          "title": "Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF",
           "imageUrl": null
         }
       ]
@@ -758,16 +769,6 @@
           "wordCount": 5096,
           "title": "Auditing the Ask Astro LLM Q&A app",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/07/image1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=107734",
-          "author": "Trail of Bits",
-          "description": "By Opal Wright You might be hearing a lot about post-quantum (PQ) cryptography lately, and it’s easy to wonder why it’s such a big deal when nobody has actually seen a quantum computer. But even if a quantum computer is never built, new PQ standards are safer, more resilient, and more flexible than their classical […]",
-          "link": "https://blog.trailofbits.com/2024/07/01/quantum-is-unimportant-to-post-quantum/",
-          "publishedOn": "2024-07-01T13:00:01.000Z",
-          "wordCount": 4532,
-          "title": "Quantum is unimportant to post-quantum",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
         }
       ]
     },
@@ -896,6 +897,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1585387",
+          "author": "Vignesh Mudliar",
+          "description": "The Microsoft Entra PowerShell module is the successor to the Azure AD PowerShell module. It's designed to streamline management and automation for the Microsoft Entra product family, which includes the services formerly known as Azure Active Directory.",
+          "link": "https://4sysops.com/archives/microsoft-entra-powershell-to-replace-the-azure-ad-powershell-module/",
+          "publishedOn": "2024-07-31T17:13:33.000Z",
+          "wordCount": null,
+          "title": "Getting Started with Microsoft Entra PowerShell",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1585315",
           "author": "Michael Pietroforte",
@@ -1105,16 +1116,6 @@
           "wordCount": null,
           "title": "Create and remove Linux group, add user, switch primary group",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1584351",
-          "author": "Wolfgang Sommergut",
-          "description": "Custom views in the Event Viewer allow you to filter the metadata of log entries based on various criteria. However, these filters do not assess the content of the log entry messages. To evaluate the log messages, you can extend filters using an XPath query. The examples below demonstrate how to audit Group Policy changes with XML queries, which you can further process with PowerShell.",
-          "link": "https://4sysops.com/archives/audit-group-policy-changes-in-the-event-log-using-xml-queries-and-powershell/",
-          "publishedOn": "2024-07-01T17:14:52.000Z",
-          "wordCount": null,
-          "title": "Audit Group Policy changes in the event log using XML queries and PowerShell",
-          "imageUrl": null
         }
       ]
     },
@@ -1184,6 +1185,16 @@
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=29260",
+          "author": "Ceri Coburn",
+          "description": "There is no excerpt because this is a protected post.\nProtected: KnowBe4 RCE and LPE first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/knowbe4-rce-and-lpe/",
+          "publishedOn": "2024-07-31T05:30:47.000Z",
+          "wordCount": 1220,
+          "title": "Protected: KnowBe4 RCE and LPE",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=29267",
           "author": "Ken Munro",
           "description": "I watched Leave the World Behind on Netflix recently. I was intrigued as the trailers showed an oil tanker crashing on to a beach. It was implied that it had […]\nLeave the World Behind, or don’t first appeared on Pen Test Partners.",
@@ -1202,16 +1213,6 @@
           "wordCount": 2468,
           "title": "Pen testing cruise ships",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=29212",
-          "author": "Eime Adomaviciute",
-          "description": "TL;DR The Qualys Threat Research Unit has found a high-severity vulnerability, filed under CVE-2024-6387, affects OpenSSH (Open Secure Shell), a networking utility often used for remote server management and secure […]\nRCE vulnerability in OpenSSH – RegreSSHion (CVE-2024-6387) first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/rce-vulnerability-in-openssh-regresshion-cve-2024-6387/",
-          "publishedOn": "2024-07-02T05:31:12.000Z",
-          "wordCount": 2113,
-          "title": "RCE vulnerability in OpenSSH – RegreSSHion (CVE-2024-6387)",
-          "imageUrl": null
         }
       ]
     },
@@ -1220,6 +1221,26 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/level-up-your-cyber-skills-with-core-netwars-version-10-a-retro-arcade-and-ai-adventure",
+          "author": null,
+          "description": "A blog about SANS Institute's new Core NetWars Version 10",
+          "link": "https://www.sans.org/blog/level-up-your-cyber-skills-with-core-netwars-version-10-a-retro-arcade-and-ai-adventure?msc=rss",
+          "publishedOn": "2024-07-31T00:00:00.000Z",
+          "wordCount": 3964,
+          "title": "Take Me to the Cyber Arcade! Level Up Your Cyber Skills with Core NetWars Version 10: A Cutting-Edge Retro Arcade and AI Adventure",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/sans-institute-leading-the-way-in-artificial-intelligence-and-machine-learning-cybersecurity-training",
+          "author": null,
+          "description": "A blog about SANS Institute's artificial intelligence and machine learning cybersecurity training",
+          "link": "https://www.sans.org/blog/sans-institute-leading-the-way-in-artificial-intelligence-and-machine-learning-cybersecurity-training?msc=rss",
+          "publishedOn": "2024-07-31T00:00:00.000Z",
+          "wordCount": 4641,
+          "title": "SANS Institute: Leading the Way in Artificial Intelligence and Machine Learning Cybersecurity Training",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/join-the-sans-cloud-security-exchange-2024",
           "author": null,
@@ -1477,21 +1498,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/07/NullBulge-Ransomware-Threat-Actor-Masquerades-as-Hacktivist-Group-Rebelling-Against-AI2.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=100336",
-          "author": "Alex Delamotte",
-          "description": "SentinelLabs has identified four new CapraRAT APKs associated with suspected Pakistan state-aligned actor Transparent Tribe.",
-          "link": "https://www.sentinelone.com/labs/capratube-remix-transparent-tribes-android-spyware-targeting-gamers-weapons-enthusiasts/",
-          "publishedOn": "2024-07-01T12:55:23.000Z",
-          "wordCount": 8486,
-          "title": "CapraTube Remix | Transparent Tribe’s Android Spyware Targeting Gamers, Weapons Enthusiasts",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2024/06/Capra-Remix-v2-ftr.jpg",
-            "length": "576857",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/06/Capra-Remix-v2-ftr.jpg"
         }
       ]
     },
@@ -1519,16 +1525,6 @@
           "wordCount": 4219,
           "title": "Punch Card Hacking – Exploring a Mainframe Attack Vector",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/07/punchcard-hacking_blog_JP-1.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=17890",
-          "author": "Alexandre Baratin",
-          "description": "Yesterday, unexpectedly, my personal Google account suggested using Passkeys for login. This is amazing, as Passkeys is the game-changer for cyber security because it could imply the solution to one of the biggest headaches in cyber security: password use. The problem with passwords. For decades, we have struggled with passwords as an authentication tool. They … Continue reading The End of Passwords? Embrace the Future with Passkeys. →",
-          "link": "https://blog.nviso.eu/2024/07/02/the-end-of-passwords-embrace-the-future-with-passkeys/",
-          "publishedOn": "2024-07-02T07:00:00.000Z",
-          "wordCount": 3487,
-          "title": "The End of Passwords? Embrace the Future with Passkeys.",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/06/end_of_passwords_blog_AB_V2.jpg"
         }
       ]
     },
