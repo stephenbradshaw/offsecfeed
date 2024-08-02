@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-01T00:43:54.722Z</updated>
+    <updated>2024-08-02T00:39:52.315Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[High Fidelity detections are Low Fidelity detections, until proven otherwise, Part 2]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9314</id>
+        <link href="https://www.hexacorn.com/blog/2024/08/01/high-fidelity-detections-are-low-fidelity-detections-until-proven-otherwise-part-2/"/>
+        <updated>2024-08-01T22:29:34.000Z</updated>
+        <summary type="html"><![CDATA[In my last post I looked at ‘good’ file names. Today I will look at them again. Sort of… Over the years I have written a number of yara rules that use a peculiar condition that hits on an internal … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover]]></title>
+        <id>https://medium.com/p/1c9b4666c8ac</id>
+        <link href="https://posts.specterops.io/relay-your-heart-away-an-opsec-conscious-approach-to-445-takeover-1c9b4666c8ac?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-08-01T16:12:53.000Z</updated>
+        <summary type="html"><![CDATA[Even within organizations that have achieved a mature security posture, targeted NTLM relay attacks are still incredibly effective after…]]></summary>
+        <author>
+            <name>Nick Powers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking Barriers and Assumptions: Techniques for Privilege Escalation on Windows: Part 3]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66aa8d813cfeb533ee74a5c1</id>
+        <link href="https://www.thezdi.com/blog/2024/7/31/breaking-barriers-and-assumptions-techniques-for-privilege-escalation-on-windows-part-3"/>
+        <updated>2024-08-01T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To wrap up this blog series we wanted to include one more technique that you can use when exploiting this class of vulnerabilities. This technique, introduced to us by Abdelhamid Naceri, becomes useful when you have an on-boot arbitrary delete primitive that you want to transform into an on-demand delete, so that you can escalate using the C:\Config.msi technique.  We will also share a tool that can make debugging protected processes on Windows easier and end by detailing some difficulties we faced during disclosures with several vendors. 
+Technique ++
+One way you can use an on-boot delete primitive is to abuse the Windows Task Scheduler included in default installations of Windows. The Task Scheduler uses the following two directories to perform tasks:  
+C:\Windows\System32\Tasks - for st…]]></summary>
+        <author>
+            <name>Michael DePlante and Nicholas Zubrisky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breach Controls Readiness: A Step to Cybersecurity Resilience]]></title>
+        <id>https://bishopfox.com/blog/breach-controls-readiness-a-step-to-cybersecurity-resilience</id>
+        <link href="https://bishopfox.com/blog/breach-controls-readiness-a-step-to-cybersecurity-resilience"/>
+        <updated>2024-08-01T14:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Take a look at Breach Controls Readiness Assessments, a testing that evaluates an organization's email, endpoint, and network security controls.]]></summary>
+        <author>
+            <name>Bishop Fox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recover a PC if Windows is not booting]]></title>
+        <id>https://4sysops.com/?p=1585437</id>
+        <link href="https://4sysops.com/archives/recover-a-pc-if-windows-is-not-booting/"/>
+        <updated>2024-08-01T14:05:33.000Z</updated>
+        <summary type="html"><![CDATA[The CrowdStrike update won't be the last update that strikes down your Windows machines. If Windows is not booting due to a corrupted update, you have several recovery options using WinRE, Safe Mode, and Windows PE.]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bootloaders explained]]></title>
+        <id>https://www.pentestpartners.com/?p=29321</id>
+        <link href="https://www.pentestpartners.com/security-blog/bootloaders-explained/"/>
+        <updated>2024-08-01T05:46:41.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Modern computers have a program that starts the operating system, known as a bootloader Bootloaders can be communicated with to access storage (and sometimes RAM) directly They are all […]
+Bootloaders explained first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Joe Lovett</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Getting Started with Microsoft Entra PowerShell]]></title>
         <id>https://4sysops.com/?p=1585387</id>
@@ -57,6 +121,26 @@ The post Escalating Privileges in Google Cloud via Open Groups  appeared first 
 Protected: KnowBe4 RCE and LPE first appeared on Pen Test Partners.]]></summary>
         <author>
             <name>Ceri Coburn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Visual Summary of SANS Security Awareness: Managing Human Risk Summit 2024]]></title>
+        <id>https://www.sans.org/blog/a-visual-summary-of-sans-human-risk-summit-2024</id>
+        <link href="https://www.sans.org/blog/a-visual-summary-of-sans-human-risk-summit-2024?msc=rss"/>
+        <updated>2024-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SANS Cybersecurity Blog pertaining to a summary of the SANS Security Awareness: Managing Human Risk Summit 2024]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aviata Cloud Solo Flight Challenge]]></title>
+        <id>https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/</id>
+        <link href="https://www.sans.org/blog/aviata-solo-flight-challenge-cloud-security-workshops/?msc=rss"/>
+        <updated>2024-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Master cloud security by tackling this free series of workshops.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1106,67 +1190,6 @@ The post Attack Surface Management: A Free Enablement Technology for Effective C
         <summary type="html"><![CDATA[Microsoft Dev Home is a new application that helps DevOps engineers monitor and manage their projects, set up test and development environments, and connect to cloud accounts such as GitHub or Azure. The platform features a customizable dashboard to oversee workflows, development tasks, and system performance. The Machine configuration tool lets you set up new environments or projects. The Dev Home extensions allow for personalized widgets and shared custom extensions. With Dev Drive, you can store project files and Git repositories.]]></summary>
         <author>
             <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Product Security Review Methodology for Traeger Grill Hack]]></title>
-        <id>https://bishopfox.com/blog/methodology-for-traeger-grill-hack</id>
-        <link href="https://bishopfox.com/blog/methodology-for-traeger-grill-hack"/>
-        <updated>2024-07-02T22:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Read for an in-depth analysis of the Traeger Grill hack, uncovering the vulnerabilities that could compromise your grill's security and how they were addressed.]]></summary>
-        <author>
-            <name>Nick Cerne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Traeger Grill D2 Wi-Fi Controller, Version 2.02.04]]></title>
-        <id>https://bishopfox.com/blog/traeger-wifi-controller-advisory</id>
-        <link href="https://bishopfox.com/blog/traeger-wifi-controller-advisory"/>
-        <updated>2024-07-02T22:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Discover critical vulnerabilities in the Traeger Grill D2 Wi-Fi Controller that could impact your grill's security. Read our advisory to learn about the issues identified.]]></summary>
-        <author>
-            <name>Nick Cerne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secrets Exposed: The Rise of GitHub as an Attack Vector]]></title>
-        <id>https://www.praetorian.com/?p=2730</id>
-        <link href="https://www.praetorian.com/blog/secrets-exposed-the-rise-of-github-as-an-attack-vector/"/>
-        <updated>2024-07-02T16:21:13.000Z</updated>
-        <summary type="html"><![CDATA[A Look at Chariot’s Capability to Protect On June 6, 2024, an anonymous user posted nearly 300 GB of stolen source code to 4chan. Per the user, the leak contained “basically all source code belonging to The New York Times”. The NYT later confirmed the leak and said the root case was an exposed GitHub […]
-The post Secrets Exposed: The Rise of GitHub as an Attack Vector appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Thomas Tan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Like Shooting Phish in a Barrel]]></title>
-        <id>https://medium.com/p/926c1905bb4b</id>
-        <link href="https://posts.specterops.io/like-shooting-phish-in-a-barrel-926c1905bb4b?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-07-02T15:30:23.000Z</updated>
-        <summary type="html"><![CDATA[Bypassing Link Crawlers]]></summary>
-        <author>
-            <name>Forrest Kasler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Create and remove Linux group, add user, switch primary group]]></title>
-        <id>https://4sysops.com/?p=1584447</id>
-        <link href="https://4sysops.com/archives/create-and-remove-linux-group-add-user-switch-primary-group/"/>
-        <updated>2024-07-02T14:32:22.000Z</updated>
-        <summary type="html"><![CDATA[Linux groups are essential for managing file permissions and user access to system resources. This guide covers how to create a Linux group using the groupadd command and delete a group with groupdel. You will also learn how to add users to groups using the usermod command and remove them with gpasswd. Additionally, the guide explains how to switch a user's primary group with the newgrp command.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A hacking hat-trick: previewing three PortSwigger Research publications coming to DEF CON &amp; Black Hat USA]]></title>
-        <id>a-hacking-hat-trick-previewing-three-portswigger-research-publications-coming-to-def-con-amp-black-hat-usa</id>
-        <link href="https://portswigger.net/research/a-hacking-hat-trick-previewing-three-portswigger-research-publications-coming-to-def-con-amp-black-hat-usa"/>
-        <updated>2024-07-02T12:57:08.000Z</updated>
-        <summary type="html"><![CDATA[We're delighted to announce three major research releases from PortSwigger Research will be published at both Black Hat USA and DEF CON 32. In this post, we'll offer a quick teaser of each talk, info]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
         </author>
     </entry>
     <entry>
