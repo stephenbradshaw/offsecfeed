@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-08T00:40:20.971Z</updated>
+    <updated>2024-08-09T00:40:48.493Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gotta cache 'em all: bending the rules of web cache exploitation]]></title>
+        <id>gotta-cache-em-all</id>
+        <link href="https://portswigger.net/research/gotta-cache-em-all"/>
+        <updated>2024-08-08T22:27:46.000Z</updated>
+        <summary type="html"><![CDATA[Through the years, we have seen many attacks exploiting web caches to hijack sensitive information or store malicious payloads. However, as CDNs became more popular, new discrepancies between propriet]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create an Assistant with Vector Store using the OpenAI API and curl]]></title>
+        <id>https://4sysops.com/?p=1585586</id>
+        <link href="https://4sysops.com/archives/create-an-assistant-with-vector-store-using-the-openai-api-and-curl/"/>
+        <updated>2024-08-08T20:03:04.000Z</updated>
+        <summary type="html"><![CDATA[In my last post, I detailed the steps of creating an Assistant and an OpenAI Vector Store in the Playground. I showed how to upload a text file to the Vector Store and send a prompt utilizing its embeddings. Today, we will perform the same exercise programmatically using curl and the OpenAI API.]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maximizing Vendor Risk Assessments]]></title>
+        <id>https://www.sans.org/blog/maximizing-vendor-risk-assessments</id>
+        <link href="https://www.sans.org/blog/maximizing-vendor-risk-assessments?msc=rss"/>
+        <updated>2024-08-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to maximize vendor risk assessments with advanced strategies and a detailed security assessment matrix. Explore various assessment types and process enhancements to minimize risks and strengthen vendor relationships.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Embracing the Future: The Power of a Global Workforce in Cybersecurity]]></title>
         <id>https://www.praetorian.com/?p=3040</id>
@@ -45,6 +75,16 @@ The post Embracing the Future: The Power of a Global Workforce in Cybersecurity 
         <summary type="html"><![CDATA[Websites are riddled with timing oracles eager to divulge their innermost secrets. It's time we started listening to them. In this paper, I'll unleash novel attack concepts to coax out server secrets]]></summary>
         <author>
             <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Visual Guide to Bug Bounty Success]]></title>
+        <id>https://hackerone.com/application-security/visual-guide-bug-bounty-success</id>
+        <link href="https://www.hackerone.com/application-security/visual-guide-bug-bounty-success"/>
+        <updated>2024-08-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've created a visual guide to planning, operating, and evaluating your bug bounty program for success.]]></summary>
+        <author>
+            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
@@ -1251,58 +1291,6 @@ func (db *Db) Transfer(source int, destination int, amount int) error {
 The post Unity Across Continents: Building Culture in a Remote Startup appeared first on Praetorian.]]></summary>
         <author>
             <name>Thomas Tan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Institutionalizing a Strong Security Culture]]></title>
-        <id>https://www.sans.org/blog/institutionalizing-a-strong-security-culture</id>
-        <link href="https://www.sans.org/blog/institutionalizing-a-strong-security-culture?msc=rss"/>
-        <updated>2024-07-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the new major update of the SANS LDR521 course.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The July 2024 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:668d6a7d7c32144b1aede0ec</id>
-        <link href="https://www.thezdi.com/blog/2024/7/9/the-july-2024-security-update-review"/>
-        <updated>2024-07-09T17:29:22.000Z</updated>
-        <summary type="html"><![CDATA[We’re just past the halfway point of 2024, and as expected, Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for July 2024
-For July, Adobe released three patches addressing seven CVEs in Adobe Premiere Pro, InDesign, and Adobe Bridge. The patch for InDesign is the largest, fixing four Critical-rated CVEs. All four could lead to arbitrary code execution. The fix for Premiere Pro fixes a single CVE that could lead to arbitrary code execution. Finally, the fix for Bridge fixes one Critical rated and one Important rated bug. The Critical-rated bug could…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delegated Managed Service Accounts in Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1584665</id>
-        <link href="https://4sysops.com/archives/delegated-managed-service-accounts-in-windows-server-2025/"/>
-        <updated>2024-07-09T15:01:34.000Z</updated>
-        <summary type="html"><![CDATA[Windows Server 2025 introduces the delegated Managed Service Account (dMSA) feature to address security concerns of regular service accounts. This blog post provides an overview of dMSA, explaining its functionality and offering guidance on its setup.]]></summary>
-        <author>
-            <name>Surender Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drink Like a Phish]]></title>
-        <id>https://medium.com/p/b9e91d0b5677</id>
-        <link href="https://posts.specterops.io/drink-like-a-phish-b9e91d0b5677?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-07-09T14:45:44.000Z</updated>
-        <summary type="html"><![CDATA[How to Make Your Phishing Sites Blend In]]></summary>
-        <author>
-            <name>Forrest Kasler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fickle PDFs: exploiting browser rendering discrepancies]]></title>
-        <id>fickle-pdfs-exploiting-browser-rendering-discrepancies</id>
-        <link href="https://portswigger.net/research/fickle-pdfs-exploiting-browser-rendering-discrepancies"/>
-        <updated>2024-07-09T12:51:22.000Z</updated>
-        <summary type="html"><![CDATA[Imagine the CEO of a random company receives an email containing a PDF invoice file. In Safari and MacOS Preview, the total price displayed is £399. After approval, the invoice is sent to the accounti]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
         </author>
     </entry>
     <entry>
