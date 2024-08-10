@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-09T00:40:48.493Z</updated>
+    <updated>2024-08-10T00:40:30.704Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What is AGI (Artificial General Intelligence)?]]></title>
+        <id>https://4sysops.com/?p=1585634</id>
+        <link href="https://4sysops.com/archives/what-is-agi/"/>
+        <updated>2024-08-09T15:01:47.000Z</updated>
+        <summary type="html"><![CDATA[In an Ars Technica article, De Kraker's skepticism was sparked regarding the upcoming "AGI" timeline. I can't help but share my perspective on "AGI," albeit in general terms. Concepts like "AGI" have intrigued me since I wrote my master's thesis about 30 years ago on language processing in neural networks. Despite the recent impressive advancements in the field, my viewpoint on the term remains unchanged.]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trail of Bits’ Buttercup heads to DARPA’s AIxCC]]></title>
+        <id>https://blog.trailofbits.com/?p=107920</id>
+        <link href="https://blog.trailofbits.com/2024/08/09/trail-of-bits-buttercup-heads-to-darpas-aixcc/"/>
+        <updated>2024-08-09T13:10:29.000Z</updated>
+        <summary type="html"><![CDATA[With DARPA’s AI Cyber Challenge (AIxCC) semifinal starting today at DEF CON 2024, we want to introduce Buttercup, our AIxCC submission. Buttercup is a Cyber Reasoning System (CRS) that combines conventional cybersecurity techniques like fuzzing and static analysis with AI and machine learning to find and fix software vulnerabilities. The system is designed to operate […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s the Scoop on FrostyGoop: The Latest ICS Malware and ICS Controls Considerations]]></title>
+        <id>https://www.sans.org/blog/whats-the-scoop-on-frostygoop-the-latest-ics-malware-and-ics-controls-considerations</id>
+        <link href="https://www.sans.org/blog/whats-the-scoop-on-frostygoop-the-latest-ics-malware-and-ics-controls-considerations?msc=rss"/>
+        <updated>2024-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about the latest ICS malware, FrostyGoop]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gotta cache 'em all: bending the rules of web cache exploitation]]></title>
         <id>gotta-cache-em-all</id>
@@ -1237,60 +1267,6 @@ If you’re just interested in the technical details of the bugs we discovered i
         <summary type="html"><![CDATA[Managing and deleting unnecessary Copilot data from Microsoft 365 is essential for reducing security risks and ensuring compliance with data protection laws like GDPR and HIPAA. This blog post will guide you through the steps to search for and delete Copilot data using eDiscovery, Graph Explorer, and PowerShell. Following these steps can enhance data hygiene and safeguard your organization against potential data breaches and legal issues.]]></summary>
         <author>
             <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Race to the Bottom - Database Transactions Undermining Your AppSec]]></title>
-        <id>https://blog.doyensec.com/2024/07/11/database-race-conditions.html</id>
-        <link href="https://blog.doyensec.com/2024/07/11/database-race-conditions.html"/>
-        <updated>2024-07-10T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-Databases are a crucial part of any modern application. Like any external dependency, they introduce additional complexity for the developers building an application. In the real world, however, they are usually considered and used as a black box which provides storage functionality.
-This post aims shed light on a particular aspect of the complexity databases introduce which is often overlooked by developers, namely concurrency control. The best way to do that is to start off by looking at a fairly common code pattern we at Doyensec see in our day-to-day work:
-
-func (db *Db) Transfer(source int, destination int, amount int) error {
-  ctx := context.Background()
-
-  conn, err := pgx.Connect(ctx, db.databaseUrl)
-  defer conn.Close(ctx)
-
-  // (1)
-  tx, err := conn.BeginTx(ctx)
-
-  …]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neural networks basics for IT pros]]></title>
-        <id>https://4sysops.com/?p=1584737</id>
-        <link href="https://4sysops.com/archives/neural-networks-basics-for-it-pros/"/>
-        <updated>2024-07-10T17:34:13.000Z</updated>
-        <summary type="html"><![CDATA[IT professionals need a fundamental understanding of neural networks to make informed decisions about deploying customized Large Language Models (LLMs). Understanding the basics of machine learning is essential for predicting the performance of a fine-tuned model and determining whether to work with Retrieval-Augmented Generation (RAG) and embeddings.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pentesting for Web Applications]]></title>
-        <id>https://hackerone.com/penetration-testing/web-applications</id>
-        <link href="https://www.hackerone.com/penetration-testing/web-applications"/>
-        <updated>2024-07-10T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn testing methodologies, common vulnerabilities, and best practices for pentesting web applications with PTaaS.]]></summary>
-        <author>
-            <name>HackerOne Pentest Delivery Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unity Across Continents: Building Culture in a Remote Startup]]></title>
-        <id>https://www.praetorian.com/?p=2837</id>
-        <link href="https://www.praetorian.com/blog/unity-across-continents-building-culture-remote-startup/"/>
-        <updated>2024-07-10T15:21:14.000Z</updated>
-        <summary type="html"><![CDATA[In today’s dynamic world, where the boundaries of geography and time zones blur, fostering a cohesive company culture and unity becomes paramount. At Praetorian, we take immense pride in being a remote-first startup that spans across 11 countries, with the exciting addition of a 12th in just a few months. Our global footprint is not […]
-The post Unity Across Continents: Building Culture in a Remote Startup appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Thomas Tan</name>
         </author>
     </entry>
     <entry>

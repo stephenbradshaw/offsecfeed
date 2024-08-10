@@ -407,16 +407,6 @@
           "wordCount": 1230,
           "title": "What HackerOne Customers Say About the Problems Hackers Solve",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-07/problems%20hackers%20solve%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/penetration-testing/web-applications",
-          "author": "HackerOne Pentest Delivery Team",
-          "description": "Learn testing methodologies, common vulnerabilities, and best practices for pentesting web applications with PTaaS.",
-          "link": "https://www.hackerone.com/penetration-testing/web-applications",
-          "publishedOn": "2024-07-10T16:00:00.000Z",
-          "wordCount": 2665,
-          "title": "Pentesting for Web Applications",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-07/PTaaS_BlogImage6%20%281%29.jpg"
         }
       ]
     },
@@ -662,16 +652,6 @@
           "wordCount": 2137,
           "title": "Unconstrained Delegation in Active Directory",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/07/unconstrained-delegtaion-enumeration.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=2837",
-          "author": "Thomas Tan",
-          "description": "In today’s dynamic world, where the boundaries of geography and time zones blur, fostering a cohesive company culture and unity becomes paramount. At Praetorian, we take immense pride in being a remote-first startup that spans across 11 countries, with the exciting addition of a 12th in just a few months. Our global footprint is not […]\nThe post Unity Across Continents: Building Culture in a Remote Startup appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/unity-across-continents-building-culture-remote-startup/",
-          "publishedOn": "2024-07-10T15:21:14.000Z",
-          "wordCount": 2520,
-          "title": "Unity Across Continents: Building Culture in a Remote Startup",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/06/praetorian-home-social.jpg"
         }
       ]
     },
@@ -730,16 +710,6 @@
           "wordCount": 1974,
           "title": "Windows Installer, Exploiting Custom Actions",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
-          "author": null,
-          "description": "Introduction\nDatabases are a crucial part of any modern application. Like any external dependency, they introduce additional complexity for the developers building an application. In the real world, however, they are usually considered and used as a black box which provides storage functionality.\nThis post aims shed light on a particular aspect of the complexity databases introduce which is often overlooked by developers, namely concurrency control. The best way to do that is to start off by looking at a fairly common code pattern we at Doyensec see in our day-to-day work:\n\nfunc (db *Db) Transfer(source int, destination int, amount int) error {\n  ctx := context.Background()\n\n  conn, err := pgx.Connect(ctx, db.databaseUrl)\n  defer conn.Close(ctx)\n\n  // (1)\n  tx, err := conn.BeginTx(ctx)\n\n  …",
-          "link": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
-          "publishedOn": "2024-07-10T22:00:00.000Z",
-          "wordCount": 5515,
-          "title": "A Race to the Bottom - Database Transactions Undermining Your AppSec",
-          "imageUrl": null
         }
       ]
     },
@@ -772,6 +742,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=107920",
+          "author": "Trail of Bits",
+          "description": "With DARPA’s AI Cyber Challenge (AIxCC) semifinal starting today at DEF CON 2024, we want to introduce Buttercup, our AIxCC submission. Buttercup is a Cyber Reasoning System (CRS) that combines conventional cybersecurity techniques like fuzzing and static analysis with AI and machine learning to find and fix software vulnerabilities. The system is designed to operate […]",
+          "link": "https://blog.trailofbits.com/2024/08/09/trail-of-bits-buttercup-heads-to-darpas-aixcc/",
+          "publishedOn": "2024-08-09T13:10:29.000Z",
+          "wordCount": 3567,
+          "title": "Trail of Bits’ Buttercup heads to DARPA’s AIxCC",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/08/image2.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=107890",
           "author": "Trail of Bits",
@@ -939,6 +919,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1585634",
+          "author": "Michael Pietroforte",
+          "description": "In an Ars Technica article, De Kraker's skepticism was sparked regarding the upcoming \"AGI\" timeline. I can't help but share my perspective on \"AGI,\" albeit in general terms. Concepts like \"AGI\" have intrigued me since I wrote my master's thesis about 30 years ago on language processing in neural networks. Despite the recent impressive advancements in the field, my viewpoint on the term remains unchanged.",
+          "link": "https://4sysops.com/archives/what-is-agi/",
+          "publishedOn": "2024-08-09T15:01:47.000Z",
+          "wordCount": null,
+          "title": "What is AGI (Artificial General Intelligence)?",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1585586",
           "author": "Michael Pietroforte",
@@ -1148,16 +1138,6 @@
           "wordCount": null,
           "title": "Search and delete Copilot data in Microsoft 365",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1584737",
-          "author": "Michael Pietroforte",
-          "description": "IT professionals need a fundamental understanding of neural networks to make informed decisions about deploying customized Large Language Models (LLMs). Understanding the basics of machine learning is essential for predicting the performance of a fine-tuned model and determining whether to work with Retrieval-Augmented Generation (RAG) and embeddings.",
-          "link": "https://4sysops.com/archives/neural-networks-basics-for-it-pros/",
-          "publishedOn": "2024-07-10T17:34:13.000Z",
-          "wordCount": null,
-          "title": "Neural networks basics for IT pros",
-          "imageUrl": null
         }
       ]
     },
@@ -1293,6 +1273,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/whats-the-scoop-on-frostygoop-the-latest-ics-malware-and-ics-controls-considerations",
+          "author": null,
+          "description": "A blog about the latest ICS malware, FrostyGoop",
+          "link": "https://www.sans.org/blog/whats-the-scoop-on-frostygoop-the-latest-ics-malware-and-ics-controls-considerations?msc=rss",
+          "publishedOn": "2024-08-09T00:00:00.000Z",
+          "wordCount": 5507,
+          "title": "What’s the Scoop on FrostyGoop: The Latest ICS Malware and ICS Controls Considerations",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/maximizing-vendor-risk-assessments",
           "author": null,
