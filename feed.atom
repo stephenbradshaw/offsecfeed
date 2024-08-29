@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-28T01:12:40.636Z</updated>
+    <updated>2024-08-29T00:42:18.257Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[3CX Phone System Local Privilege Escalation Vulnerability]]></title>
+        <id>https://www.praetorian.com/?p=3094</id>
+        <link href="https://www.praetorian.com/blog/3cx-phone-system-local-privilege-escalation-vulnerability/"/>
+        <updated>2024-08-28T22:37:19.000Z</updated>
+        <summary type="html"><![CDATA[Overview In an effort to safeguard our customers, we perform proactive vulnerability research with the goal of identifying zero-day vulnerabilities that are likely to impact the security of leading organizations. Recently, we decided to take a look at the 3CX Phone Management System with the goal of identifying an unauthenticated remote code execution vulnerability within […]
+The post 3CX Phone System Local Privilege Escalation Vulnerability appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Kenneth King</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mythic 3.3 — Out of Beta]]></title>
+        <id>https://medium.com/p/9979e82660c3</id>
+        <link href="https://posts.specterops.io/mythic-3-3-out-of-beta-9979e82660c3?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-08-28T19:22:11.000Z</updated>
+        <summary type="html"><![CDATA[Mythic 3.3 was released in a Beta six weeks ago, and since then there has been a bunch of feedback, not just about new Mythic 3.3 features…]]></summary>
+        <author>
+            <name>Cody Thomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Purview AI Hub – Monitor and block AI applications]]></title>
+        <id>https://4sysops.com/?p=1586139</id>
+        <link href="https://4sysops.com/archives/microsoft-purview-ai-hub-monitor-and-block-ai-applications/"/>
+        <updated>2024-08-28T16:49:01.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Purview is a data governance and compliance solution tailored for Microsoft's ecosystem, predominantly used in Microsoft 365. Microsoft Purview AI Hub is a feature within the platform that secures and proactively monitors AI applications, such as Microsoft Copilot for Microsoft 365 and third-party large language models (LLMs).]]></summary>
+        <author>
+            <name>Vignesh Mudliar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-37079: VMware vCenter Server Integer Underflow Code Execution Vulnerability]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66ce3dcb39b07158e559220d</id>
+        <link href="https://www.thezdi.com/blog/2024/8/27/cve-2024-37079-vmware-vcenter-server-integer-underflow-code-execution-vulnerability"/>
+        <updated>2024-08-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Grigory Dorodnov and Guy Lederfein of the Trend Micro Research Team detail a recently patched code execution vulnerability in the VMware vCenter Server. This bug was originally discovered by Hao Zheng and Zibo Li from TianGong Team of Legendsec at Qi'anxin Group. Successfully exploiting this vulnerability could lead to a heap buffer overflow, which could result in the execution of arbitrary code in the context of the vulnerable service. The following is a portion of their write-up covering CVE-2024-37079, with a few minimal modifications.
+An integer underflow vulnerability has been reported for VMware vCenter Server. The vulnerability is due to a lack of validation of the calculated response header size u…]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Offensive Security Under the EU Digital Operational Resilience Act (DORA)]]></title>
+        <id>https://bishopfox.com/blog/offensive-security-eu-dora</id>
+        <link href="https://bishopfox.com/blog/offensive-security-eu-dora"/>
+        <updated>2024-08-28T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the EU's new DORA regulation and how financial entities and their ICT vendors must promptly align their security frameworks with DORA's requirements to mitigate potential risks and ensure operational stability.]]></summary>
+        <author>
+            <name>Harley Geiger</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ghostwriter ❤ Tool Integration]]></title>
         <id>https://medium.com/p/2dfbb952eb8a</id>
@@ -1136,37 +1188,6 @@ In years prior we were seeing a lot of low-hanging fruit in this bug class where
         <summary type="html"><![CDATA[By William Woodruff This is a joint post with the Homebrew maintainers; read their announcement here! Last summer, we performed an audit of Homebrew. Our audit’s scope included Homebrew/brew itself (home of the brew CLI), and three adjacent repositories responsible for various security-relevant aspects of Homebrew’s operation: Homebrew/actions: a repository of custom GitHub Actions used […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a GraphQL Bug Resulted in Authentication Bypass]]></title>
-        <id>https://hackerone.com/vulnerability-management/graphql-authentication-bypass</id>
-        <link href="https://www.hackerone.com/vulnerability-management/graphql-authentication-bypass"/>
-        <updated>2024-07-29T21:00:10.000Z</updated>
-        <summary type="html"><![CDATA[Experienced security researchers explain how a GraphQL bug resulted in authentication bypass — and how to avoid it.]]></summary>
-        <author>
-            <name>Haoxi Tan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Introduction to GCPwn – Part 1]]></title>
-        <id>https://www.netspi.com/?p=25045</id>
-        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/introduction-to-gcpwn-part-1/"/>
-        <updated>2024-07-29T17:20:44.000Z</updated>
-        <summary type="html"><![CDATA[GCPwn is a python-based framework for pentesting GCP environments. While individual exploit scripts exist today for GCP attack vectors, GCPwn seeks to consolidate all these scripts and manage multiple sets of credentials at once (for example, multiple service account keys) all within one framework. With the use of interactive prompts, GCPwn makes enumeration and exploitation […]
-The post An Introduction to GCPwn – Part 1 appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Scott Weston</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New storage features in Windows Server 2025: NVMe-OF initiator, update for S2D, deduplication for ReFS]]></title>
-        <id>https://4sysops.com/?p=1585265</id>
-        <link href="https://4sysops.com/archives/new-storage-features-in-windows-server-2025-nvme-of-initiator-update-for-s2d-deduplication-for-refs/"/>
-        <updated>2024-07-29T16:09:55.000Z</updated>
-        <summary type="html"><![CDATA[Although the most notable updates in Windows Server 2025 center on Active Directory, Hyper-V, and SMB, the upcoming OS release also introduces substantial improvements to the storage subsystem. These features include improved NVMe support, an updated Storage Spaces Direct (S2D), and enhanced deduplication for ReFS.]]></summary>
-        <author>
-            <name>Wolfgang Sommergut</name>
         </author>
     </entry>
     <entry>
