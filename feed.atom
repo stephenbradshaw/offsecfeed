@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-31T00:42:29.176Z</updated>
+    <updated>2024-09-01T00:51:25.298Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Shellcode: RSA (Data Masking 4)]]></title>
+        <id>http://modexp.wordpress.com/?p=5595</id>
+        <link href="https://modexp.wordpress.com/2024/08/31/masking4/"/>
+        <updated>2024-08-31T15:06:03.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Malware like OceanLotus have used RSA-256 to hide strings. Darkhotel used RSA to hide code. For fun, some crackmes used RSA-32 or RSA-64 for simple keygen challenges. The RSA cryptosystem uses two exponents (or keys) and a modulus derived … Continue reading →]]></summary>
+        <author>
+            <name>odzhan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Shellcode: Pseudo-Random Involution (Data Masking 3)]]></title>
         <id>http://modexp.wordpress.com/?p=5569</id>
@@ -1027,100 +1037,6 @@ Fuzzy matching with Ghidra BSim, a guide first appeared on Pen Test Partners.]]>
         <summary type="html"><![CDATA[Introducing Hybrid Attack Paths]]></summary>
         <author>
             <name>Justin Kohler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Evidence to Advantage: Leveraging Incident Response Artifacts for Red Team Engagements]]></title>
-        <id>https://blog.nviso.eu/?p=17958</id>
-        <link href="https://blog.nviso.eu/2024/08/02/from-evidence-to-advantage-leveraging-incident-response-artifacts-for-red-team-engagements/"/>
-        <updated>2024-08-02T09:00:44.000Z</updated>
-        <summary type="html"><![CDATA[What is this blog post about? This blog post is about why incident responder artifacts not only play a role on the defensive but also offensive side of cyber security. We are gonna look at some of the usually collected evidences and how they can be valuable to us as red team operators. We will … Continue reading From Evidence to Advantage: Leveraging Incident Response Artifacts for Red Team Engagements →]]></summary>
-        <author>
-            <name>Steffen Rogge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Steps To Implement A Zero Trust Architecture]]></title>
-        <id>https://www.sans.org/blog/10-steps-to-implement-a-zero-trust-architecture</id>
-        <link href="https://www.sans.org/blog/10-steps-to-implement-a-zero-trust-architecture?msc=rss"/>
-        <updated>2024-08-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog highlighting an infographic about ten steps to implement a Zero Trust architecture]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Page Updates: Boosting Consistency & Transparency for Security Researchers and Customers]]></title>
-        <id>https://hackerone.com/security-page-updates</id>
-        <link href="https://www.hackerone.com/security-page-updates"/>
-        <updated>2024-08-01T23:40:49.000Z</updated>
-        <summary type="html"><![CDATA[HackerOne has launched new updates to program security pages that standardize policy fields and drive hacker engagement.]]></summary>
-        <author>
-            <name>Chris Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[High Fidelity detections are Low Fidelity detections, until proven otherwise, Part 2]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9314</id>
-        <link href="https://www.hexacorn.com/blog/2024/08/01/high-fidelity-detections-are-low-fidelity-detections-until-proven-otherwise-part-2/"/>
-        <updated>2024-08-01T22:29:34.000Z</updated>
-        <summary type="html"><![CDATA[In my last post I looked at ‘good’ file names. Today I will look at them again. Sort of… Over the years I have written a number of yara rules that use a peculiar condition that hits on an internal … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Account Takeover via Broken Authentication Workflow: Free Lifetime Streaming!]]></title>
-        <id>https://www.praetorian.com/?p=3029</id>
-        <link href="https://www.praetorian.com/blog/account-takeover-via-broken-authentication-workflow-free-lifetime-streaming/"/>
-        <updated>2024-08-01T21:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Overview Nowadays, the convenience of streaming applications on our mobile and web applications has become an integral part of our entertainment experience. However, this experience can come at a cost if we overlook the security of these applications. In this blog post, we will delve deeper into a critical account takeover vulnerability discovered by our […]
-The post Account Takeover via Broken Authentication Workflow: Free Lifetime Streaming! appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Kenneth King</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Relay Your Heart Away: An OPSEC-Conscious Approach to 445 Takeover]]></title>
-        <id>https://medium.com/p/1c9b4666c8ac</id>
-        <link href="https://posts.specterops.io/relay-your-heart-away-an-opsec-conscious-approach-to-445-takeover-1c9b4666c8ac?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-08-01T16:12:53.000Z</updated>
-        <summary type="html"><![CDATA[Even within organizations that have achieved a mature security posture, targeted NTLM relay attacks are still incredibly effective after…]]></summary>
-        <author>
-            <name>Nick Powers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking Barriers and Assumptions: Techniques for Privilege Escalation on Windows: Part 3]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66aa8d813cfeb533ee74a5c1</id>
-        <link href="https://www.thezdi.com/blog/2024/7/31/breaking-barriers-and-assumptions-techniques-for-privilege-escalation-on-windows-part-3"/>
-        <updated>2024-08-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[To wrap up this blog series we wanted to include one more technique that you can use when exploiting this class of vulnerabilities. This technique, introduced to us by Abdelhamid Naceri, becomes useful when you have an on-boot arbitrary delete primitive that you want to transform into an on-demand delete, so that you can escalate using the C:\Config.msi technique.  We will also share a tool that can make debugging protected processes on Windows easier and end by detailing some difficulties we faced during disclosures with several vendors. 
-Technique ++
-One way you can use an on-boot delete primitive is to abuse the Windows Task Scheduler included in default installations of Windows. The Task Scheduler uses the following two directories to perform tasks:  
-C:\Windows\System32\Tasks - for st…]]></summary>
-        <author>
-            <name>Michael DePlante and Nicholas Zubrisky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breach Controls Readiness: A Step to Cybersecurity Resilience]]></title>
-        <id>https://bishopfox.com/blog/breach-controls-readiness-a-step-to-cybersecurity-resilience</id>
-        <link href="https://bishopfox.com/blog/breach-controls-readiness-a-step-to-cybersecurity-resilience"/>
-        <updated>2024-08-01T14:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Take a look at Breach Controls Readiness Assessments, a testing that evaluates an organization's email, endpoint, and network security controls.]]></summary>
-        <author>
-            <name>Bishop Fox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recover a PC if Windows is not booting]]></title>
-        <id>https://4sysops.com/?p=1585437</id>
-        <link href="https://4sysops.com/archives/recover-a-pc-if-windows-is-not-booting/"/>
-        <updated>2024-08-01T14:05:33.000Z</updated>
-        <summary type="html"><![CDATA[The CrowdStrike update won't be the last update that strikes down your Windows machines. If Windows is not booting due to a corrupted update, you have several recovery options using WinRE, Safe Mode, and Windows PE.]]></summary>
-        <author>
-            <name>Edem Afenyo</name>
         </author>
     </entry>
     <entry>
