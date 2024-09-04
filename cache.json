@@ -106,6 +106,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "introducing-the-url-validation-bypass-cheat-sheet",
+          "author": null,
+          "description": "URL validation bypasses are the root cause of numerous vulnerabilities including many instances of SSRF, CORS misconfiguration, and open redirection. These work by using ambiguous URLs to trigger URL",
+          "link": "https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet",
+          "publishedOn": "2024-09-03T14:52:12.000Z",
+          "wordCount": 1443,
+          "title": "Introducing the URL validation bypass cheat sheet",
+          "imageUrl": "https://portswigger.net/cms/images/7d/34/f6f3-twittercard-7e196b36-8ae2-4d4a-a883-032ebf436d75.png"
+        },
+        {
           "id": "gotta-cache-em-all",
           "author": null,
           "description": "Through the years, we have seen many attacks exploiting web caches to hijack sensitive information or store malicious payloads. However, as CDNs became more popular, new discrepancies between propriet",
@@ -424,6 +434,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6571f96c06db0605e399951a",
+          "author": "Simon Zuckerbraun",
+          "description": "This version of the blog is preserved for archival purposes only. An updated version of this blog, including links to new PoC code, can be found here.\nWhat do you do when you’ve found an arbitrary file delete as NT AUTHORITY\\SYSTEM? Probably just sigh and call it a DoS. Well, no more. In this article, we’ll show you some great techniques for getting much more out of your arbitrary file deletes, arbitrary folder deletes, and other seemingly low-impact filesystem-based exploit primitives.\nThe Trouble with Arbitrary File Deletes\nWhen you consider how to leverage an arbitrary file delete on Windows, two great obstacles present themselves:\nMost critical Windows OS files are locked down with DACLs that prevent modification even by SYSTEM. Instead, most OS files are owned by TrustedInstaller, and…",
+          "link": "https://www.thezdi.com/blog/2022/3/16/abusing-arbitrary-file-deletes-to-escalate-privilege-and-other-great-tricks-archive",
+          "publishedOn": "2024-09-03T15:51:07.000Z",
+          "wordCount": null,
+          "title": "Abusing Arbitrary File Deletes to Escalate Privilege and Other Great Tricks (Archive)",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66ce3dcb39b07158e559220d",
           "author": "Trend Micro Research Team",
@@ -834,6 +855,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1586222",
+          "author": "Michael Pietroforte",
+          "description": "Amazon Web Services (AWS) offers two popular solutions for deploying virtual machines (instances): Lightsail and AWS EC2. While Amazon Lightsail is frequently recommended for smaller projects, is it really better than EC2 in terms of ease of use, flexibility, performance, and pricing?",
+          "link": "https://4sysops.com/archives/amazon-lightsail-vs-aws-ec2-pricing-and-flexibility/",
+          "publishedOn": "2024-09-03T13:29:06.000Z",
+          "wordCount": null,
+          "title": "Amazon Lightsail vs. AWS EC2: Pricing and flexibility",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1586238",
           "author": "Wolfgang Sommergut",
           "description": "Windows Terminal unveiled a range of noteworthy features in versions 1.21 and 1.22 Preview, including the capacity to retrieve previous sessions' output buffer upon startup, store code snippets for reuse within the console, and utilize a scratchpad for crafting intricate commands.",
@@ -1078,6 +1109,16 @@
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
         {
+          "id": "https://www.hexacorn.com/blog/?p=9414",
+          "author": "adam",
+          "description": "This may be a new, kinda ephemereal addition to the lolbin world (not sure if anyone covered it before). Windows 11 comes with a large number of DLLs – some of which are broken. DuCsps.dll on Windows 11 Pro 22H2 … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/09/03/rundll32-and-phantom-dll-lolbins/",
+          "publishedOn": "2024-09-03T21:23:10.000Z",
+          "wordCount": 640,
+          "title": "Rundll32 and Phantom DLL lolbins",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hexacorn.com/blog/?p=9370",
           "author": "adam",
           "description": "Every once in a while you will run into samples that themselves do not run. Some use anti- techniques, some require command line arguments, command line input, others require configuration and/or data files, and then some fail if the specific … Continue reading →",
@@ -1159,16 +1200,6 @@
           "wordCount": 1900,
           "title": "Key safe security, or the lack of it",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=29334",
-          "author": "Adam Bromiley",
-          "description": "TL;DR BSim, Ghidra’s new built-in plugin is a game-changer for reversing firmware and other stripped binaries. Rapidly identify and annotate functions from known libraries. Fuzzy matching works with unknowns, like […]\nFuzzy matching with Ghidra BSim, a guide first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/fuzzy-matching-with-ghidra-bsim-a-guide/",
-          "publishedOn": "2024-08-05T05:44:11.000Z",
-          "wordCount": 3646,
-          "title": "Fuzzy matching with Ghidra BSim, a guide",
-          "imageUrl": null
         }
       ]
     },
@@ -1177,6 +1208,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/the-top-5-items-to-bring-along-to-a-live-training-event",
+          "author": null,
+          "description": "A blog about the top five items you should bring to a SANS Live Training event.",
+          "link": "https://www.sans.org/blog/the-top-5-items-to-bring-along-to-a-live-training-event?msc=rss",
+          "publishedOn": "2024-09-03T00:00:00.000Z",
+          "wordCount": 4043,
+          "title": "The Top 5 Items to Bring Along to a Live Training Event",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/how-to-prepare-for-your-upcoming-sans-live-training-event",
           "author": null,
