@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-04T00:42:44.582Z</updated>
+    <updated>2024-09-05T00:42:57.491Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rundll32 and Phantom DLL lolbins, 32-bit version]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9419</id>
+        <link href="https://www.hexacorn.com/blog/2024/09/04/rundll32-and-phantom-dll-lolbins-32-bit-version/"/>
+        <updated>2024-09-04T21:00:46.000Z</updated>
+        <summary type="html"><![CDATA[As I have shown in the last post, there exists a class of DLLs on Windows OS that load other libraries via import table, and sometimes these needed imported libraries do not exist. This creates an opportunity that we can … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Determine effective password policy for AD users with PowerShell]]></title>
+        <id>https://4sysops.com/?p=1586100</id>
+        <link href="https://4sysops.com/archives/determine-effective-password-policy-for-ad-users-with-powershell/"/>
+        <updated>2024-09-04T15:22:51.000Z</updated>
+        <summary type="html"><![CDATA[In addition to the default domain password policy, administrators can assign different password rules to specific users or groups using fine-grained password policies. When multiple policies exist, it can become unclear which one is effective for a particular user.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MEGAsync Forensics and Intrusion Attribution]]></title>
+        <id>https://blog.nviso.eu/?p=17972</id>
+        <link href="https://blog.nviso.eu/2024/09/04/megasync-forensics-and-intrusion-attribution/"/>
+        <updated>2024-09-04T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[MEGAsync forensics can be leveraged to identify exfiltrated files, additional victims and, subsequently, perform attribution.]]></summary>
+        <author>
+            <name>Maxime Thiebaut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced forensic techniques for recovering hidden data in wearable devices]]></title>
+        <id>https://www.pentestpartners.com/?p=29571</id>
+        <link href="https://www.pentestpartners.com/security-blog/advanced-forensic-techniques-for-recovering-hidden-data-in-wearable-devices/"/>
+        <updated>2024-09-04T05:38:40.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  A walk-through of forensic data recovery  Detailed example of how to retrieve potentially sensitive deleted data  Includes location, sleep and activity tracking  Understand the security and privacy implications of […]
+Advanced forensic techniques for recovering hidden data in wearable devices first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Joseph Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why SANS Live Training? What’s in It for You and Your Career?]]></title>
+        <id>https://www.sans.org/blog/why-sans-live-training-whats-in-it-for-you-and-your-career</id>
+        <link href="https://www.sans.org/blog/why-sans-live-training-whats-in-it-for-you-and-your-career?msc=rss"/>
+        <updated>2024-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about the professional and personal benefits of attending a SANS Live Training event.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rundll32 and Phantom DLL lolbins]]></title>
         <id>https://www.hexacorn.com/blog/?p=9414</id>
@@ -14,6 +65,16 @@
         <summary type="html"><![CDATA[This may be a new, kinda ephemereal addition to the lolbin world (not sure if anyone covered it before). Windows 11 comes with a large number of DLLs – some of which are broken. DuCsps.dll on Windows 11 Pro 22H2 … Continue reading →]]></summary>
         <author>
             <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crushing FUD: Embracing Ethical Hackers to Strengthen Cybersecurity]]></title>
+        <id>https://hackerone.com/vulnerability-management/crushing-fud</id>
+        <link href="https://www.hackerone.com/vulnerability-management/crushing-fud"/>
+        <updated>2024-09-03T18:07:17.000Z</updated>
+        <summary type="html"><![CDATA[FUD can overshadow proactive collaboration with ethical hackers. Let's explore how to combat FUD and get organizational buy-in for bug bounty and VDP.]]></summary>
+        <author>
+            <name>Antoine Williams-Baisy</name>
         </author>
     </entry>
     <entry>
@@ -1051,89 +1112,6 @@ The post Exploiting Lambda Functions for Fun and Profit appeared first on Praeto
         <summary type="html"><![CDATA[Docker Desktop 4.33 introduces several new features that enhance container management through its GUI. Key updates include Docker Build Checks, which optimize and secure Dockerfile creation, and Docker Debug, offering robust troubleshooting for containers without built-in shells. Another significant improvement is Configuration Integrity Checker 2.0 on macOS, providing less intrusive alerts and proactive handling of misconfigurations.]]></summary>
         <author>
             <name>Edem Afenyo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vestaboard: Exploring Broken Access Controls and Privilege Escalation]]></title>
-        <id>https://rhinosecuritylabs.com/?p=25291</id>
-        <link href="https://rhinosecuritylabs.com/research/vestaboard-vulnerabilities/"/>
-        <updated>2024-08-06T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The post Vestaboard: Exploring Broken Access Controls and Privilege Escalation appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>Tyler Ramsbey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Become a Cloud Security Engineer]]></title>
-        <id>https://www.sans.org/blog/how-to-become-a-cloud-security-engineer</id>
-        <link href="https://www.sans.org/blog/how-to-become-a-cloud-security-engineer?msc=rss"/>
-        <updated>2024-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Discover the role of a Cloud Security Engineer, including essential skills, daily activities, career growth, and more.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Vendor Integrations Gone Wrong]]></title>
-        <id>https://www.sans.org/blog/cloud-vendor-integrations-gone-wrong</id>
-        <link href="https://www.sans.org/blog/cloud-vendor-integrations-gone-wrong?msc=rss"/>
-        <updated>2024-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about properly securing cloud vendor integrations.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tips for Parents Working from Home from HackerOne Employees]]></title>
-        <id>https://hackerone.com/culture-and-talent/tips-parents-working-home-hackerone-employees</id>
-        <link href="https://www.hackerone.com/culture-and-talent/tips-parents-working-home-hackerone-employees"/>
-        <updated>2024-08-05T21:54:50.000Z</updated>
-        <author>
-            <name>Marina Briones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Testing RAG with the OpenAI Vector Store]]></title>
-        <id>https://4sysops.com/?p=1585499</id>
-        <link href="https://4sysops.com/archives/testing-rag-with-the-openai-vector-store/"/>
-        <updated>2024-08-05T15:45:56.000Z</updated>
-        <summary type="html"><![CDATA[In my recent posts, I discussed the concept of embeddings and introduced their use with vector databases in Retrieval-Augmented Generation (RAG). Since April, OpenAI has offered its own vector index, known as the Vector Store. In this article, I will explain how to use the Vector Store in the OpenAI Playground. In my next post, I will provide code examples to demonstrate how to access the Vector Store via the OpenAI API.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Extracting Managed Identity Certificates from the Azure Arc Service]]></title>
-        <id>https://www.netspi.com/?p=25067</id>
-        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/extracting-managed-identity-certificates-from-azure-arc-service/"/>
-        <updated>2024-08-05T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Azure Arc service is handy for bringing on-prem systems to the cloud, but it includes features that could lead to pivots from on-prem into your Azure environment.
-The post Extracting Managed Identity Certificates from the Azure Arc Service  appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Karl Fosaaen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing the Vanguard Awards]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66abf12457679472a60f991b</id>
-        <link href="https://www.thezdi.com/blog/2024/8/1/introducing-the-vanguard-awards"/>
-        <updated>2024-08-05T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This year at Black Hat USA, Trend Micro’s Zero Day Initiative (ZDI) will award our inaugural Vanguard Awards recognizing some of the best researchers and vendors we have dealt with over the last year. We plan on these being annual awards, with the categories changing to keep with the latest changes in the threat landscape – or if there’s someone or something we really want to highlight. Our goal is simply to highlight the good work in the community that may go unnoticed. We also want to stay positive with these awards. While it certainly may be fun to point out errors that occur, we think it’s more important to highlight the good work being done that would otherwise go unnoticed.
-For the Researcher Awards, there are five categories for 2024:
-1.         Best use of the RF enclosure 
-During …]]></summary>
-        <author>
-            <name>Brian Gorenc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud cryptography demystified: Google Cloud Platform]]></title>
-        <id>https://blog.trailofbits.com/?p=107890</id>
-        <link href="https://blog.trailofbits.com/2024/08/05/cloud-cryptography-demystified-google-cloud-platform/"/>
-        <updated>2024-08-05T13:00:03.000Z</updated>
-        <summary type="html"><![CDATA[By Scott Arciszewski This post, the second in our series on cryptography in the cloud, provides an overview of the cloud cryptography services offered within Google Cloud Platform (GCP): when to use them, when not to use them, and important usage considerations. Stay tuned for future posts covering other cloud services. At Trail of Bits, […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
