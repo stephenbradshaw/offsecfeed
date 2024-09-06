@@ -64,16 +64,6 @@
           "wordCount": 5119,
           "title": "Sleeping With the Phishes",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:400/0*56Fu1m_J3oYvX5-V"
-        },
-        {
-          "id": "https://medium.com/p/156020b7c5e9",
-          "author": "SadProcessor",
-          "description": "It’s summer 2024 and we are back! Actually, we are SO back, so I decided that this return required a little blog post.",
-          "link": "https://posts.specterops.io/bloodhound-operator-dog-whispering-reloaded-156020b7c5e9?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-08-06T18:36:28.000Z",
-          "wordCount": 6246,
-          "title": "BloodHound Operator — Dog Whispering Reloaded",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*AtbTNzcFV-aKmi3RRekDZA.png"
         }
       ]
     },
@@ -259,6 +249,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/vulnerability-management/quantifying-value-bug-bounty-programs-roi-rom-or-both",
+          "author": "HackerOne",
+          "description": "Is ROI the right method to measure bug bounty value? Check out the cost-benefit analysis of ROI vs. ROM.",
+          "link": "https://www.hackerone.com/vulnerability-management/quantifying-value-bug-bounty-programs-roi-rom-or-both",
+          "publishedOn": "2024-09-04T21:49:09.000Z",
+          "wordCount": 1730,
+          "title": "Quantifying the Value of Bug Bounty Programs: ROI, ROM, or Both?",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/rom%20roi%20blog%20header%402x.png"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-management/crushing-fud",
           "author": "Antoine Williams-Baisy",
           "description": "FUD can overshadow proactive collaboration with ethical hackers. Let's explore how to combat FUD and get organizational buy-in for bug bounty and VDP.",
@@ -425,6 +425,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66d8b6216c0b0917fc4e4ef7",
+          "author": "Piotr Bazydło",
+          "description": "As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of four blog posts is meant to supplement the talk and provide additional technical details. For those who did not attend OffensiveCon, you can also watch the full talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 12:05 to 18:10.\nIn this article, part one of the series, I describe the MultiValuedProperty exploitation primitive, which became fundamental for my further exploitation of Exchange PowerShell. I also present a bypass for Microsoft’s first patch for this vulnerability, accomplished by chaining MultiValuedProperty with the Command class.  \nIntroduction\nYou might already be familiar with the Exchange…",
+          "link": "https://www.thezdi.com/blog/2024/9/4/exploiting-exchange-powershell-after-proxynotshell-part-1-multivaluedproperty",
+          "publishedOn": "2024-09-05T15:39:37.000Z",
+          "wordCount": null,
+          "title": "Exploiting Exchange PowerShell After ProxyNotShell: Part 1 - MultiValuedProperty",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6571f96c06db0605e399951a",
           "author": "Simon Zuckerbraun",
           "description": "This version of the blog is preserved for archival purposes only. An updated version of this blog, including links to new PoC code, can be found here.\nWhat do you do when you’ve found an arbitrary file delete as NT AUTHORITY\\SYSTEM? Probably just sigh and call it a DoS. Well, no more. In this article, we’ll show you some great techniques for getting much more out of your arbitrary file deletes, arbitrary folder deletes, and other seemingly low-impact filesystem-based exploit primitives.\nThe Trouble with Arbitrary File Deletes\nWhen you consider how to leverage an arbitrary file delete on Windows, two great obstacles present themselves:\nMost critical Windows OS files are locked down with DACLs that prevent modification even by SYSTEM. Instead, most OS files are owned by TrustedInstaller, and…",
@@ -583,16 +594,6 @@
           "wordCount": 5735,
           "title": "Embracing the Future: The Power of a Global Workforce in Cybersecurity",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/06/praetorian-home-social.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=3035",
-          "author": "Kenneth King",
-          "description": "Overview Praetorian recently performed an assessment of a platform responsible for downloading and building untrusted, user-supplied code. The client was concerned about the possibility of attackers leveraging this process to compromise the client’s AWS environment or gain access to sensitive data belonging to other users. Their solution to sandboxing untrusted code builds was to perform […]\nThe post Exploiting Lambda Functions for Fun and Profit appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/exploiting-lambda-functions-for-fun-and-profit/",
-          "publishedOn": "2024-08-06T22:20:07.000Z",
-          "wordCount": 6072,
-          "title": "Exploiting Lambda Functions for Fun and Profit",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/08/Exploiting-Lambda-Functions-for-Fun-and-Profit-v1.jpg"
         }
       ]
     },
@@ -666,6 +667,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=108089",
+          "author": "Trail of Bits",
+          "description": "By Artem Dinaburg and Peter Goodman (Would you get up and throw it away?) [sing to the tune of The Beatles – With A Little Help From My Friends] Here’s a riddle: when new GPUs are constantly being produced, product cycles are ~18-24 months long, and each cycle doubles GPU power (per Huang’s Law), what […]",
+          "link": "https://blog.trailofbits.com/2024/09/05/what-would-you-do-with-that-old-gpu/",
+          "publishedOn": "2024-09-05T13:00:11.000Z",
+          "wordCount": 2818,
+          "title": "What would you do with that old GPU?",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=108061",
           "author": "Trail of Bits",
@@ -812,6 +823,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1586317",
+          "author": "Michael Pietroforte",
+          "description": "The content wars are on. AI crawlers ignore robots.txt, scraping greedily any web content they can reach to train their models. If search engine traffic from Google and Bing is helpful for your website, you must block all AI scrapers. This post covers three standard but ineffective methods for blocking AI crawlers on your site: robots.txt, authentication, and CAPTCHAs. In my next post, I'll introduce a solution that effectively blocks AI crawlers and other web parasites: Cloudflare.",
+          "link": "https://4sysops.com/archives/how-not-to-block-ai-crawlers-robotstxt-authentication-captcha/",
+          "publishedOn": "2024-09-05T15:29:39.000Z",
+          "wordCount": null,
+          "title": "How not to block AI crawlers: robots.txt, authentication, CAPTCHA",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1586100",
           "author": "Wolfgang Sommergut",
@@ -1011,16 +1032,6 @@
           "wordCount": null,
           "title": "Managing Microsoft 365 Copilot data with Microsoft Purview retention policies",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1585554",
-          "author": "Edem Afenyo",
-          "description": "Docker Desktop 4.33 introduces several new features that enhance container management through its GUI. Key updates include Docker Build Checks, which optimize and secure Dockerfile creation, and Docker Debug, offering robust troubleshooting for containers without built-in shells. Another significant improvement is Configuration Integrity Checker 2.0 on macOS, providing less intrusive alerts and proactive handling of misconfigurations.",
-          "link": "https://4sysops.com/archives/docker-desktop-433-build-checks-docker-debug-and-configuration-integrity-checker-2/",
-          "publishedOn": "2024-08-06T16:02:09.000Z",
-          "wordCount": null,
-          "title": "Docker Desktop 4.33: Build checks, docker debug, and configuration integrity checker 2",
-          "imageUrl": null
         }
       ]
     },
@@ -1066,6 +1077,26 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9430",
+          "author": "adam",
+          "description": "Some time ago I came up with a silly idea: i’d like to build an executable that statically links to most of the c:\\windows\\system2 libraries. It’s a non-sensical programming exercise, but it’s also an interesting challenge. Forcing a static import … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/09/05/the-art-of-overdlloading/",
+          "publishedOn": "2024-09-05T23:05:25.000Z",
+          "wordCount": 733,
+          "title": "The art of overDLLoading",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9423",
+          "author": "adam",
+          "description": "Thanks to @sixtyvividtails who corrected a mistake I made in the earlier version of the post Updated post One of a less known paths that is being searched when the libraries are loaded is C:\\Windows\\System. Anytime the search for a … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/09/05/technical-debt-of-cwindowssystem-path/",
+          "publishedOn": "2024-09-05T21:09:13.000Z",
+          "wordCount": 583,
+          "title": "Technical debt of C:\\Windows\\System path",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9419",
           "author": "adam",
@@ -1168,16 +1199,6 @@
           "wordCount": 2203,
           "title": "Living off the land with Bluetooth PAN",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=29374",
-          "author": "Colin Kitchen",
-          "description": "A few years back we put a key safe into our office. Previously, we had used a very simple locked cabinet to ensure keys were returned, as before that, keys […]\nKey safe security, or the lack of it first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/key-safe-security-or-the-lack-of-it/",
-          "publishedOn": "2024-08-07T05:56:42.000Z",
-          "wordCount": 1900,
-          "title": "Key safe security, or the lack of it",
-          "imageUrl": null
         }
       ]
     },
@@ -1186,6 +1207,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/youve-taken-a-sans-course-now-what",
+          "author": null,
+          "description": "A blog detailing what to do once you have completed a SANS Live Training course.",
+          "link": "https://www.sans.org/blog/youve-taken-a-sans-course-now-what?msc=rss",
+          "publishedOn": "2024-09-05T00:00:00.000Z",
+          "wordCount": 5186,
+          "title": "You’ve Taken a SANS Course – Now What?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/why-sans-live-training-whats-in-it-for-you-and-your-career",
           "author": null,
@@ -1305,16 +1336,6 @@
           "wordCount": 3881,
           "title": "Maximizing Vendor Risk Assessments",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/security-leadership-in-the-age-of-ai-and-zero-trust-insights-from-industry-experts",
-          "author": null,
-          "description": "A blog about security leadership in the age of AI and Zero Trust",
-          "link": "https://www.sans.org/blog/security-leadership-in-the-age-of-ai-and-zero-trust-insights-from-industry-experts?msc=rss",
-          "publishedOn": "2024-08-07T00:00:00.000Z",
-          "wordCount": 5177,
-          "title": "Security Leadership in the Age of AI and Zero Trust: Insights from Industry Experts",
-          "imageUrl": null
         }
       ]
     },
@@ -1405,6 +1426,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=104518",
+          "author": "LABScon",
+          "description": "Zuzana Hromcová explores how Iran-aligned APT OilRig targets healthcare and local governments with a stream of updated and newly developed tools.",
+          "link": "https://www.sentinelone.com/labs/labscon23-replay-they-spilled-oil-in-my-health-boosting-smoothie/",
+          "publishedOn": "2024-09-05T15:25:14.000Z",
+          "wordCount": 7005,
+          "title": "LABScon23 Replay | They Spilled Oil in My Health-Boosting Smoothie",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2024/09/Zuzana_labscon23.jpg",
+            "length": "679204",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/09/Zuzana_labscon23.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=104092",
           "author": "Aleksandar Milenkoski &amp; Jose Luis Sánchez Martínez (VirusTotal)",
           "description": "We teamed up with VirusTotal to take a deep dive into the platform's extensive query capabilities through both the web and API interfaces.",
@@ -1456,6 +1492,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=14001",
+          "author": "Stamatis Chatzimangou",
+          "description": "We provide a KQL query that will help you validate your defined Windows audit security policy configuration. Defining a Windows audit policy is an important step in establishing a robust security posture. Ensuring that the audit policy is applied consistently across your environment is just as important as defining that policy and quality controls should be in place.",
+          "link": "https://blog.nviso.eu/2024/09/05/validate-your-windows-audit-policy-configuration-with-kql/",
+          "publishedOn": "2024-09-05T07:00:00.000Z",
+          "wordCount": 5499,
+          "title": "Validate your Windows Audit Policy Configuration with KQL",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/08/14001.banner.jpeg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=17972",
           "author": "Maxime Thiebaut",

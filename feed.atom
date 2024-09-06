@@ -2,10 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-05T00:42:57.491Z</updated>
+    <updated>2024-09-06T00:42:25.054Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The art of overDLLoading]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9430</id>
+        <link href="https://www.hexacorn.com/blog/2024/09/05/the-art-of-overdlloading/"/>
+        <updated>2024-09-05T23:05:25.000Z</updated>
+        <summary type="html"><![CDATA[Some time ago I came up with a silly idea: i’d like to build an executable that statically links to most of the c:\windows\system2 libraries. It’s a non-sensical programming exercise, but it’s also an interesting challenge. Forcing a static import … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technical debt of C:\Windows\System path]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9423</id>
+        <link href="https://www.hexacorn.com/blog/2024/09/05/technical-debt-of-cwindowssystem-path/"/>
+        <updated>2024-09-05T21:09:13.000Z</updated>
+        <summary type="html"><![CDATA[Thanks to @sixtyvividtails who corrected a mistake I made in the earlier version of the post Updated post One of a less known paths that is being searched when the libraries are loaded is C:\Windows\System. Anytime the search for a … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting Exchange PowerShell After ProxyNotShell: Part 1 - MultiValuedProperty]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66d8b6216c0b0917fc4e4ef7</id>
+        <link href="https://www.thezdi.com/blog/2024/9/4/exploiting-exchange-powershell-after-proxynotshell-part-1-multivaluedproperty"/>
+        <updated>2024-09-05T15:39:37.000Z</updated>
+        <summary type="html"><![CDATA[As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of four blog posts is meant to supplement the talk and provide additional technical details. For those who did not attend OffensiveCon, you can also watch the full talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 12:05 to 18:10.
+In this article, part one of the series, I describe the MultiValuedProperty exploitation primitive, which became fundamental for my further exploitation of Exchange PowerShell. I also present a bypass for Microsoft’s first patch for this vulnerability, accomplished by chaining MultiValuedProperty with the Command class.  
+Introduction
+You might already be familiar with the Exchange…]]></summary>
+        <author>
+            <name>Piotr Bazydło</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How not to block AI crawlers: robots.txt, authentication, CAPTCHA]]></title>
+        <id>https://4sysops.com/?p=1586317</id>
+        <link href="https://4sysops.com/archives/how-not-to-block-ai-crawlers-robotstxt-authentication-captcha/"/>
+        <updated>2024-09-05T15:29:39.000Z</updated>
+        <summary type="html"><![CDATA[The content wars are on. AI crawlers ignore robots.txt, scraping greedily any web content they can reach to train their models. If search engine traffic from Google and Bing is helpful for your website, you must block all AI scrapers. This post covers three standard but ineffective methods for blocking AI crawlers on your site: robots.txt, authentication, and CAPTCHAs. In my next post, I'll introduce a solution that effectively blocks AI crawlers and other web parasites: Cloudflare.]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LABScon23 Replay | They Spilled Oil in My Health-Boosting Smoothie]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=104518</id>
+        <link href="https://www.sentinelone.com/labs/labscon23-replay-they-spilled-oil-in-my-health-boosting-smoothie/"/>
+        <updated>2024-09-05T15:25:14.000Z</updated>
+        <summary type="html"><![CDATA[Zuzana Hromcová explores how Iran-aligned APT OilRig targets healthcare and local governments with a stream of updated and newly developed tools.]]></summary>
+        <author>
+            <name>LABScon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What would you do with that old GPU?]]></title>
+        <id>https://blog.trailofbits.com/?p=108089</id>
+        <link href="https://blog.trailofbits.com/2024/09/05/what-would-you-do-with-that-old-gpu/"/>
+        <updated>2024-09-05T13:00:11.000Z</updated>
+        <summary type="html"><![CDATA[By Artem Dinaburg and Peter Goodman (Would you get up and throw it away?) [sing to the tune of The Beatles – With A Little Help From My Friends] Here’s a riddle: when new GPUs are constantly being produced, product cycles are ~18-24 months long, and each cycle doubles GPU power (per Huang’s Law), what […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Validate your Windows Audit Policy Configuration with KQL]]></title>
+        <id>https://blog.nviso.eu/?p=14001</id>
+        <link href="https://blog.nviso.eu/2024/09/05/validate-your-windows-audit-policy-configuration-with-kql/"/>
+        <updated>2024-09-05T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We provide a KQL query that will help you validate your defined Windows audit security policy configuration. Defining a Windows audit policy is an important step in establishing a robust security posture. Ensuring that the audit policy is applied consistently across your environment is just as important as defining that policy and quality controls should be in place.]]></summary>
+        <author>
+            <name>Stamatis Chatzimangou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You’ve Taken a SANS Course – Now What?]]></title>
+        <id>https://www.sans.org/blog/youve-taken-a-sans-course-now-what</id>
+        <link href="https://www.sans.org/blog/youve-taken-a-sans-course-now-what?msc=rss"/>
+        <updated>2024-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog detailing what to do once you have completed a SANS Live Training course.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quantifying the Value of Bug Bounty Programs: ROI, ROM, or Both?]]></title>
+        <id>https://hackerone.com/vulnerability-management/quantifying-value-bug-bounty-programs-roi-rom-or-both</id>
+        <link href="https://www.hackerone.com/vulnerability-management/quantifying-value-bug-bounty-programs-roi-rom-or-both"/>
+        <updated>2024-09-04T21:49:09.000Z</updated>
+        <summary type="html"><![CDATA[Is ROI the right method to measure bug bounty value? Check out the cost-benefit analysis of ROI vs. ROM.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rundll32 and Phantom DLL lolbins, 32-bit version]]></title>
         <id>https://www.hexacorn.com/blog/?p=9419</id>
@@ -1060,58 +1153,6 @@ The post Introducing Outflank C2 with Implant Support for Windows, macOS, and Li
         <summary type="html"><![CDATA[Managing the data stored in Copilot for Microsoft 365 is essential for meeting organizational compliance requirements. This article explains how to use retention policies to handle users' Copilot data. It will discuss creating retention policies for Copilot data, various retention strategies, and the functionality of these policies within Copilot for Microsoft 365.]]></summary>
         <author>
             <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Key safe security, or the lack of it]]></title>
-        <id>https://www.pentestpartners.com/?p=29374</id>
-        <link href="https://www.pentestpartners.com/security-blog/key-safe-security-or-the-lack-of-it/"/>
-        <updated>2024-08-07T05:56:42.000Z</updated>
-        <summary type="html"><![CDATA[A few years back we put a key safe into our office. Previously, we had used a very simple locked cabinet to ensure keys were returned, as before that, keys […]
-Key safe security, or the lack of it first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Colin Kitchen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Leadership in the Age of AI and Zero Trust: Insights from Industry Experts]]></title>
-        <id>https://www.sans.org/blog/security-leadership-in-the-age-of-ai-and-zero-trust-insights-from-industry-experts</id>
-        <link href="https://www.sans.org/blog/security-leadership-in-the-age-of-ai-and-zero-trust-insights-from-industry-experts?msc=rss"/>
-        <updated>2024-08-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about security leadership in the age of AI and Zero Trust]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting Lambda Functions for Fun and Profit]]></title>
-        <id>https://www.praetorian.com/?p=3035</id>
-        <link href="https://www.praetorian.com/blog/exploiting-lambda-functions-for-fun-and-profit/"/>
-        <updated>2024-08-06T22:20:07.000Z</updated>
-        <summary type="html"><![CDATA[Overview Praetorian recently performed an assessment of a platform responsible for downloading and building untrusted, user-supplied code. The client was concerned about the possibility of attackers leveraging this process to compromise the client’s AWS environment or gain access to sensitive data belonging to other users. Their solution to sandboxing untrusted code builds was to perform […]
-The post Exploiting Lambda Functions for Fun and Profit appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Kenneth King</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BloodHound Operator — Dog Whispering Reloaded]]></title>
-        <id>https://medium.com/p/156020b7c5e9</id>
-        <link href="https://posts.specterops.io/bloodhound-operator-dog-whispering-reloaded-156020b7c5e9?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-08-06T18:36:28.000Z</updated>
-        <summary type="html"><![CDATA[It’s summer 2024 and we are back! Actually, we are SO back, so I decided that this return required a little blog post.]]></summary>
-        <author>
-            <name>SadProcessor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker Desktop 4.33: Build checks, docker debug, and configuration integrity checker 2]]></title>
-        <id>https://4sysops.com/?p=1585554</id>
-        <link href="https://4sysops.com/archives/docker-desktop-433-build-checks-docker-debug-and-configuration-integrity-checker-2/"/>
-        <updated>2024-08-06T16:02:09.000Z</updated>
-        <summary type="html"><![CDATA[Docker Desktop 4.33 introduces several new features that enhance container management through its GUI. Key updates include Docker Build Checks, which optimize and secure Dockerfile creation, and Docker Debug, offering robust troubleshooting for containers without built-in shells. Another significant improvement is Configuration Integrity Checker 2.0 on macOS, providing less intrusive alerts and proactive handling of misconfigurations.]]></summary>
-        <author>
-            <name>Edem Afenyo</name>
         </author>
     </entry>
     <entry>
