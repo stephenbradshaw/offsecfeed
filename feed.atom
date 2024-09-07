@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-06T00:42:25.054Z</updated>
+    <updated>2024-09-07T00:42:13.171Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The art of underDLLoading]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9440</id>
+        <link href="https://www.hexacorn.com/blog/2024/09/06/the-art-of-underdlloading/"/>
+        <updated>2024-09-06T22:46:24.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post I created a posh artisan .exe file ornamented with a large number of intricate system32 DLL imports. The process of building that file was painful – before I even managed to run the final executable I … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recover data from corrupted BitLocker drives with repair-bde and key packages]]></title>
+        <id>https://4sysops.com/?p=1586344</id>
+        <link href="https://4sysops.com/archives/recover-data-from-corrupted-bitlocker-drives-with-repair-bde-and-key-packages/"/>
+        <updated>2024-09-06T16:14:50.000Z</updated>
+        <summary type="html"><![CDATA[Activating BitLocker encryption on a drive automatically generates a 48-digit numeric recovery password. This password is crucial if other unlocking methods fail and Windows prompts you with the BitLocker recovery console during startup.]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Unstripping” binaries: Restoring debugging information in GDB with Pwndbg]]></title>
+        <id>https://blog.trailofbits.com/?p=108110</id>
+        <link href="https://blog.trailofbits.com/2024/09/06/unstripping-binaries-restoring-debugging-information-in-gdb-with-pwndbg/"/>
+        <updated>2024-09-06T13:00:21.000Z</updated>
+        <summary type="html"><![CDATA[By Jason An GDB loses significant functionality when debugging binaries that lack debugging symbols (also known as “stripped binaries”). Function and variable names become meaningless addresses; setting breakpoints requires tracking down relevant function addresses from an external source; and printing out structured values involves staring at a memory dump trying to manually discern field boundaries. […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hunting Chromium Notifications]]></title>
+        <id>https://blog.nviso.eu/?p=17131</id>
+        <link href="https://blog.nviso.eu/2024/09/06/hunting-chromium-notifications/"/>
+        <updated>2024-09-06T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Browser notifications provide social-engineering opportunities. In this post we'll cover the associated forensic artifacts, threat hunting possibilities and hardening recommendations.]]></summary>
+        <author>
+            <name>Maxime Thiebaut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The art of overDLLoading]]></title>
         <id>https://www.hexacorn.com/blog/?p=9430</id>
@@ -138,6 +178,16 @@ You might already be familiar with the Exchange…]]></summary>
 Advanced forensic techniques for recovering hidden data in wearable devices first appeared on Pen Test Partners.]]></summary>
         <author>
             <name>Joseph Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What to Expect at SANS Live Training Events]]></title>
+        <id>https://www.sans.org/blog/what-to-expect-at-sans-live-training-events</id>
+        <link href="https://www.sans.org/blog/what-to-expect-at-sans-live-training-events?msc=rss"/>
+        <updated>2024-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about what you can expect when you attend a SANS Live Training event.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1068,47 +1118,6 @@ Living off the land with Bluetooth PAN first appeared on Pen Test Partners.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Maximizing Vendor Risk Assessments]]></title>
-        <id>https://www.sans.org/blog/maximizing-vendor-risk-assessments</id>
-        <link href="https://www.sans.org/blog/maximizing-vendor-risk-assessments?msc=rss"/>
-        <updated>2024-08-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to maximize vendor risk assessments with advanced strategies and a detailed security assessment matrix. Explore various assessment types and process enhancements to minimize risks and strengthen vendor relationships.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embracing the Future: The Power of a Global Workforce in Cybersecurity]]></title>
-        <id>https://www.praetorian.com/?p=3040</id>
-        <link href="https://www.praetorian.com/blog/embracing-the-future-the-power-of-a-global-workforce-in-cybersecurity/"/>
-        <updated>2024-08-07T22:49:59.000Z</updated>
-        <summary type="html"><![CDATA[In an era of rapid technological advancement and an ever-evolving threat landscape, the traditional work and talent management paradigms are being redefined. The world has never been more connected, while data, information, and wealth derived from both data and information have never been more compromised.  At Praetorian, we recognize that the future of work is […]
-The post Embracing the Future: The Power of a Global Workforce in Cybersecurity appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Kenneth King</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Counting the API arguments…]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9351</id>
-        <link href="https://www.hexacorn.com/blog/2024/08/07/counting-the-api-arguments/"/>
-        <updated>2024-08-07T21:59:28.000Z</updated>
-        <summary type="html"><![CDATA[Today Matt posted a half-joking twit about the acceptable number of arguments that can be passed to a function… I took the challenge VERY SERIOUSLY and decided to investigate. In my old post I shared my collections of API prototypes … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Splitting the email atom: exploiting parsers to bypass access controls]]></title>
-        <id>splitting-the-email-atom</id>
-        <link href="https://portswigger.net/research/splitting-the-email-atom"/>
-        <updated>2024-08-07T21:32:47.000Z</updated>
-        <summary type="html"><![CDATA[Some websites parse email addresses to extract the domain and infer which organisation the owner belongs to. This pattern makes email-address parser discrepancies critical. Predicting which domain an]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing Outflank C2 with Implant Support for Windows, macOS, and Linux]]></title>
         <id>https://www.outflank.nl/?p=4371</id>
         <link href="https://www.outflank.nl/blog/2024/08/07/introducing-outflank-c2-with-implant-support-for-windows-macos-and-linux/"/>
@@ -1123,36 +1132,6 @@ Read full post
 The post Introducing Outflank C2 with Implant Support for Windows, macOS, and Linux appeared first on Outflank.]]></summary>
         <author>
             <name>Marc Smeets</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Listen to the whispers: web timing attacks that actually work]]></title>
-        <id>listen-to-the-whispers-web-timing-attacks-that-actually-work</id>
-        <link href="https://portswigger.net/research/listen-to-the-whispers-web-timing-attacks-that-actually-work"/>
-        <updated>2024-08-07T18:10:21.000Z</updated>
-        <summary type="html"><![CDATA[Websites are riddled with timing oracles eager to divulge their innermost secrets. It's time we started listening to them. In this paper, I'll unleash novel attack concepts to coax out server secrets]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Visual Guide to Bug Bounty Success]]></title>
-        <id>https://hackerone.com/application-security/visual-guide-bug-bounty-success</id>
-        <link href="https://www.hackerone.com/application-security/visual-guide-bug-bounty-success"/>
-        <updated>2024-08-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We've created a visual guide to planning, operating, and evaluating your bug bounty program for success.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing Microsoft 365 Copilot data with Microsoft Purview retention policies]]></title>
-        <id>https://4sysops.com/?p=1585534</id>
-        <link href="https://4sysops.com/archives/managing-microsoft-365-copilot-data-with-microsoft-purview-retention-policies/"/>
-        <updated>2024-08-07T14:42:07.000Z</updated>
-        <summary type="html"><![CDATA[Managing the data stored in Copilot for Microsoft 365 is essential for meeting organizational compliance requirements. This article explains how to use retention policies to handle users' Copilot data. It will discuss creating retention policies for Copilot data, various retention strategies, and the functionality of these policies within Copilot for Microsoft 365.]]></summary>
-        <author>
-            <name>Vignesh Mudliar</name>
         </author>
     </entry>
     <entry>
