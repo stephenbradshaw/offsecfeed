@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-12T00:43:00.636Z</updated>
+    <updated>2024-09-13T00:43:16.903Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA CUDA monopoly faces competition from AMD’s open-source alternative ROCm]]></title>
+        <id>https://4sysops.com/?p=1586521</id>
+        <link href="https://4sysops.com/archives/nvidia-cuda-monopoly-faces-competition-from-amds-open-source-alternative-rocm/"/>
+        <updated>2024-09-12T16:48:25.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA's quasi-monopoly in the AI GPU market is achieved through its CUDA platform's early development and widespread adoption. It serves as a moat by becoming the industry standard due to its superior performance and integration with key AI tools. While NVIDIA's dominance is bolstered by its proprietary advantages and developer lock-in, emerging competitors like AMD and innovations such as AMD's ROCm, OpenAI's Triton, and PyTorch 2.0 are beginning to challenge this stronghold by offering open-source alternatives and reducing reliance on CUDA.]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting Exchange PowerShell After ProxyNotShell: Part 2 - ApprovedApplicationCollection]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66e1d60259527a323d805e5c</id>
+        <link href="https://www.thezdi.com/blog/2024/9/11/exploiting-exchange-powershell-after-proxynotshell-part-2-approvedapplicationcollection"/>
+        <updated>2024-09-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details. You can read the first post in this series here.
+In part 2, I describe the ApprovedApplicationCollection gadget, which was available for abuse because it did not appear on the deny list and could therefore be accessed via MultiValuedProperty. I am also presenting a path traversal in the Windows utility extrac32.exe, which allowed me to complete the chain for a full RCE in Exchange. For the moment, at least, Microsoft has made a decision not to fix this path traversal bug.
+You can watch the full talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog …]]></summary>
+        <author>
+            <name>Piotr Bazydło</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Burp Suite’s game-changing performance update ⚡🏎️]]></title>
+        <id>introducing-burp-suites-game-changing-performance-update</id>
+        <link href="https://portswigger.net/blog/introducing-burp-suites-game-changing-performance-update"/>
+        <updated>2024-09-12T11:55:26.000Z</updated>
+        <summary type="html"><![CDATA[Hands-on security testers need the best tools for the job. Tools you have faith in, and enjoy using all day long. Burp Suite has long been that tool, and now, it's faster than ever. We’ve listened to]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to Third-Party Risk Management]]></title>
+        <id>https://blog.nviso.eu/?p=18459</id>
+        <link href="https://blog.nviso.eu/2024/09/12/introduction-to-third-party-risk-management/"/>
+        <updated>2024-09-12T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s world, organizations are increasingly depending on their third-party vendors, suppliers, and partners to support their operations. This way of working, in addition to the digitalization era we’re in, can have great advantages such as being able to offer new services quickly while relying on other’s expertise or cutting costs on already existing processes. … Continue reading Introduction to Third-Party Risk Management →]]></summary>
+        <author>
+            <name>David Fishel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Living off the land, GPO style]]></title>
+        <id>https://www.pentestpartners.com/?p=29636</id>
+        <link href="https://www.pentestpartners.com/security-blog/living-off-the-land-gpo-style/"/>
+        <updated>2024-09-12T05:16:58.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR The ability to edit  Group Policy Object (GPOs) from non-domain joined computers using the native Group Policy editor has been on my list for a long time.  This blog […]
+Living off the land, GPO style first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Ceri Coburn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rundll32.exe bomb]]></title>
         <id>https://www.hexacorn.com/blog/?p=9463</id>
@@ -54,6 +107,16 @@
         <summary type="html"><![CDATA[In this blog post, we will explore the new ESC6/ESC9/ESC10 edges we have introduced with ADCS support in BloodHound.]]></summary>
         <author>
             <name>Jonas Bülow Knudsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance Improvements to table sorting and Repeater]]></title>
+        <id>performance-improvements-to-table-sorting-and-repeater</id>
+        <link href="https://portswigger.net/blog/performance-improvements-to-table-sorting-and-repeater"/>
+        <updated>2024-09-11T06:53:02.000Z</updated>
+        <summary type="html"><![CDATA[Performance is a critical factor in the usability and efficiency of any software, and Burp Suite is no exception. We've recently focused on enhancing Burp Suite's performance across several key areas]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
         </author>
     </entry>
     <entry>
@@ -1112,67 +1175,6 @@ The investigation into this campaign directly influenced further vulnerability r
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Navigating Zero Trust in the Hybrid Workforce: Insights from Industry Leaders]]></title>
-        <id>https://www.sans.org/blog/navigating-zero-trust-in-the-hybrid-workforce-insights-from-industry-leaders</id>
-        <link href="https://www.sans.org/blog/navigating-zero-trust-in-the-hybrid-workforce-insights-from-industry-leaders?msc=rss"/>
-        <updated>2024-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the convergence of Zero Trust and Hybrid Workforces]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Become a Cyber Risk and Compliance Analyst]]></title>
-        <id>https://www.sans.org/blog/how-to-become-a-cyber-risk-and-compliance-analyst</id>
-        <link href="https://www.sans.org/blog/how-to-become-a-cyber-risk-and-compliance-analyst?msc=rss"/>
-        <updated>2024-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about how to become a Risk and Compliance Analyst.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enter Sandbox 29: The subtle art of reversing persuasion – pushing samples to run…]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9370</id>
-        <link href="https://www.hexacorn.com/blog/2024/08/13/enter-sandbox-29-the-subtle-art-of-reversing-persuasion-pushing-samples-to-run/"/>
-        <updated>2024-08-13T23:15:15.000Z</updated>
-        <summary type="html"><![CDATA[Every once in a while you will run into samples that themselves do not run. Some use anti- techniques, some require command line arguments, command line input, others require configuration and/or data files, and then some fail if the specific … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Questions to Assess Your Organization’s Bug Bounty Readiness]]></title>
-        <id>https://hackerone.com/vulnerability-management/bug-bounty-readiness-questions</id>
-        <link href="https://www.hackerone.com/vulnerability-management/bug-bounty-readiness-questions"/>
-        <updated>2024-08-13T20:30:31.000Z</updated>
-        <summary type="html"><![CDATA[Is your organization ready for a bug bounty program? These 5 questions will help assess your security program's bug bounty readiness.]]></summary>
-        <author>
-            <name>Josh Jacobson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hack My Career: Meet Alek Relyea]]></title>
-        <id>https://hackerone.com/culture-and-talent/hack-my-career-meet-alek-relyea</id>
-        <link href="https://www.hackerone.com/culture-and-talent/hack-my-career-meet-alek-relyea"/>
-        <updated>2024-08-13T18:22:50.000Z</updated>
-        <author>
-            <name>Marina Briones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The August 2024 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66bb9076d375993f4d82ad59</id>
-        <link href="https://www.thezdi.com/blog/2024/8/13/the-august-2024-security-update-review"/>
-        <updated>2024-08-13T18:05:01.000Z</updated>
-        <summary type="html"><![CDATA[I have successfully survived Summer Hacker Camp, and I hope you have too. And we return just in time for Patch Tuesday and a new crop of 0-days as Microsoft and Adobe have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for August 2024
-For August, Adobe released 11 security bulletins addressing 71 CVEs in Adobe Illustrator. Dimension, Photoshop, InDesign, Acrobat and Reader, Bridge, Substance 3D Stager, Commerce, InCopy. Substance 3D Sampler, and Substance 3D Designer. A total of 14 of these bugs came through the ZDI program. The largest of these updates is for Adobe Comme…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New website address and RSS Feed]]></title>
         <id>https://research.nccgroup.com/?p=34806</id>
         <link href="https://research.nccgroup.com/2024/08/13/new-website-address-and-rss-feed/"/>
@@ -1180,26 +1182,6 @@ For August, Adobe released 11 security bulletins addressing 71 CVEs in Adobe Ill
         <summary type="html"><![CDATA[We’re excited to announce that all of NCC Group’s latest research findings and articles are now hosted on our website at the following link: NCC Group Research Blog. (https://www.nccgroup.com/us/research-blog/) To stay up-to-date with our latest research, you can also subscribe to our RSS feed here: NCC Group Research Blog RSS Feed. (https://www.nccgroup.com/us/research-blog/feed/) Be sure to […]]]></summary>
         <author>
             <name>R.Rivera</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manipulating the Mind: The Strategy and Practice of Social Engineering]]></title>
-        <id>https://bishopfox.com/blog/manipulating-mind-strategy-practice-social-engineering</id>
-        <link href="https://bishopfox.com/blog/manipulating-mind-strategy-practice-social-engineering"/>
-        <updated>2024-08-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore the intricacies of social engineering, explore its various forms, and describe how adversaries set, define, and achieve objectives leveraging social engineering tactics and strategies.]]></summary>
-        <author>
-            <name>Alethe Denis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sleeping With the Phishes]]></title>
-        <id>https://medium.com/p/7d9e4dd88054</id>
-        <link href="https://posts.specterops.io/sleeping-with-the-phishes-7d9e4dd88054?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-08-13T14:26:27.000Z</updated>
-        <summary type="html"><![CDATA[Hiding C2 With Stealthy Callback Channels]]></summary>
-        <author>
-            <name>Forrest Kasler</name>
         </author>
     </entry>
     <entry>
@@ -1216,16 +1198,6 @@ Read full post
 The post Will the real #GrimResource please stand up? – Abusing the MSC file format appeared first on Outflank.]]></summary>
         <author>
             <name>Cedric Van Bockhaven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unifying endpoint management and security: An overview of ManageEngine Endpoint Central]]></title>
-        <id>https://4sysops.com/?p=1585658</id>
-        <link href="https://4sysops.com/archives/unifying-endpoint-management-and-security-an-overview-of-manageengine-endpoint-central/"/>
-        <updated>2024-08-13T13:30:14.000Z</updated>
-        <summary type="html"><![CDATA[ManageEngine Endpoint Central is an all-in-one solution for advanced endpoint management and security designed to help enterprises efficiently manage and secure their digital assets in today's complex, interconnected landscape. This unified platform addresses the diverse needs of modern IT environments, streamlining operations across various devices and operating systems.]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>
