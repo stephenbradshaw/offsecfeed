@@ -59,6 +59,85 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-13 datetime="2024-09-13T14:42:32.000Z">2024-09-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-13 datetime="2024-09-13T14:42:32.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1586541"
+                        open
+                      >
+                        <summary class="article-expander__title">Expand the Copilot Language Model with external data sources using GraphRAG</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/expand-the-copilot-language-model-with-external-data-sources-using-graphrag/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>When the knowledge of a language model is insufficient to answer questions, integrating additional data sources comprehensively can be beneficial. Retrieval Augmented Generation (RAG) serves this purpose by connecting to data sources outside the trained language model. Microsoft 365 Copilot already works with RAG and is now expanding with GraphRAG to unlock even more extensive knowledge.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Trail of Bits Blog</button>
+                  <a class="source-heading__link" href="https://blog.trailofbits.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.trailofbits.com/?p&#x3D;108229"
+                        open
+                      >
+                        <summary class="article-expander__title">Friends don’t let friends reuse nonces</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2024/09/13/friends-dont-let-friends-reuse-nonces/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.trailofbits.com/wp-content/uploads/2024/09/figure_15.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>By Joe Doyle If you’ve encountered cryptography software, you’ve probably heard the advice to never use a nonce twice—in fact, that’s where the word nonce (number used once) comes from. Depending on the cryptography involved, a reused nonce can reveal encrypted messages, or even leak your secret key! But common knowledge may not cover every […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-12 datetime="2024-09-12T16:48:25.000Z">2024-09-12</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-12 datetime="2024-09-12T16:48:25.000Z"></time>
           </button>
@@ -3956,118 +4035,6 @@ The investigation into this campaign directly influenced further vulnerability r
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Trail of Bits Blog</button>
-                  <a class="source-heading__link" href="https://blog.trailofbits.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.trailofbits.com/?p&#x3D;108024"
-                        open
-                      >
-                        <summary class="article-expander__title">We wrote the code, and the code won</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2024/08/15/we-wrote-the-code-and-the-code-won/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.trailofbits.com/wp-content/uploads/2024/08/DALL·E-2024-08-15-00.34.41-A-logo-for-SPHINCS-featuring-a-stylized-sphinx-symbolizing-ancient-strength-and-wisdom-rendered-in-an-abstract-geometric-style-that-emphasizes-mode.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>By Tjaden Hess Earlier this week, NIST officially announced three standards specifying FIPS-approved algorithms for post-quantum cryptography. The Stateless Hash-Based Digital Signature Algorithm (SLH-DSA) is one of these standardized algorithms. The Trail of Bits cryptography team has been anticipating this announcement, and we are excited to share an announcement of our own: we built an […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SANS Blog</button>
-                  <a class="source-heading__link" href="https://www.sans.org/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sans.org/blog/zero-trust-content-security-a-new-frontier-in-safeguarding-unstructured-data"
-                        open
-                      >
-                        <summary class="article-expander__title">Zero Trust Content Security: A New Frontier in Safeguarding Unstructured Data</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sans.org/blog/zero-trust-content-security-a-new-frontier-in-safeguarding-unstructured-data?msc&#x3D;rss">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A blog about the convergence of Zero Trust and content security</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-14 datetime="2024-08-14T15:12:54.000Z">2024-08-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-14 datetime="2024-08-14T15:12:54.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1585724"
-                        open
-                      >
-                        <summary class="article-expander__title">Microsoft’s new Fix problems using Windows Update tool</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/microsofts-new-fix-problems-using-windows-update-tool/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In a previous post, I discussed various ways of repairing a Windows machine that will not boot up correctly after a faulty update. If you can log into your system but still find it broken, you can use Microsoft&#x27;s Fix problems using Windows Update tool to attempt a repair. This article explores Microsoft&#x27;s new tool.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4404,8 +4371,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/10840985133">
-        <time id="build-timestamp" datetime="2024-09-13T00:43:16.880Z">2024-09-13T00:43:16.880Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/10858007540">
+        <time id="build-timestamp" datetime="2024-09-14T00:42:31.391Z">2024-09-14T00:42:31.391Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
