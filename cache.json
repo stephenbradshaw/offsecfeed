@@ -54,16 +54,6 @@
           "wordCount": 2311,
           "title": "Teach a Man to Phish",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*oWbFcWfdnLAvgjcstIPIpA.jpeg"
-        },
-        {
-          "id": "https://medium.com/p/c5a0a020a144",
-          "author": "Elad Shamir",
-          "description": "This is the second post in a series on Identity-Driven Offensive Tradecraft, which is also the focus of the new course we will launch in…",
-          "link": "https://posts.specterops.io/navigating-the-uncharted-a-framework-for-attack-path-discovery-c5a0a020a144?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-08-20T14:46:44.000Z",
-          "wordCount": 3760,
-          "title": "Navigating the Uncharted: A Framework for Attack Path Discovery",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*lJfd0MLa4gpTgr7c9IrcXg.png"
         }
       ]
     },
@@ -259,6 +249,16 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/vulnerability-management/introducing-hackerone-automations",
+          "author": "Alyona Vysotska",
+          "description": "",
+          "link": "https://www.hackerone.com/vulnerability-management/introducing-hackerone-automations",
+          "publishedOn": "2024-09-16T21:00:00.000Z",
+          "wordCount": 1252,
+          "title": "Introducing HackerOne Automations",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/Automations-900x504-03%20%281%29.png"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-management/bug-bounty-s-1-filings",
           "author": "Jobert Abma",
           "description": "Learn why more organizations are including their bug bounty programs in S-1 filings and other corporate disclosures.",
@@ -357,26 +357,6 @@
           "wordCount": 1550,
           "title": "How Hai Facilitates Clear and Effective Communication",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-08/Hai%20communication%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/ethical-hacker/100-hacking-tools-and-resources",
-          "author": "Shlomie Liberow",
-          "description": "Whether you’ve just started hacking or are a real pro, we’ve created the ultimate list of 100 hacking tools for your toolkit!",
-          "link": "https://www.hackerone.com/ethical-hacker/100-hacking-tools-and-resources",
-          "publishedOn": "2024-08-20T17:00:00.000Z",
-          "wordCount": 3768,
-          "title": "100 Hacking Tools and Resources",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-08/100%20hacking%20tools%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/retail-under-attack",
-          "author": "James Fleming",
-          "description": "Swiss sportswear brand On provides insights into the threats to the retail industry and how human-powered security addresses them.",
-          "link": "https://www.hackerone.com/customer-stories/retail-under-attack",
-          "publishedOn": "2024-08-20T16:21:10.000Z",
-          "wordCount": 1751,
-          "title": "Retail Under Attack: 6 Learnings from a Retail Customer",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-08/RETAIL_BLOG-01.png"
         }
       ]
     },
@@ -403,6 +383,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66eb2241c9b27c27492158f7",
+          "author": "Piotr Bazydło",
+          "description": "As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details. \nIn this article, part 3 of the series, I describe a chain of 3 vulnerabilities that led to remote code execution:\n·       CVE-2023-36744 – Arbitrary File Write vulnerability\n·       CVE-2023-36777 – Arbitrary File Read vulnerability\n·       CVE-2023-36745 – Local DLL Loading vulnerability\nIn the sections that follow, I’m going to describe each of these in detail and show how I chained them to eventually achieve RCE.\nYou can also watch the talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 21:00 to 26:25.\nIntroduction\nI…",
+          "link": "https://www.thezdi.com/blog/2024/9/18/exploiting-exchange-powershell-after-proxynotshell-part-3-dll-loading-chain-for-rce",
+          "publishedOn": "2024-09-19T18:02:10.000Z",
+          "wordCount": null,
+          "title": "Exploiting Exchange PowerShell After ProxyNotShell: Part 3 – DLL Loading Chain for RCE",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66e1d60259527a323d805e5c",
           "author": "Piotr Bazydło",
@@ -610,7 +601,18 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/09/19/phishing-case-study.html",
+          "author": null,
+          "description": "Introduction\nRecently Doyensec was hired by a client offering a “Communication Platform as a Service”. This platform allows their clients to craft a customer service experience and to communicate with their own customers via a plethora of channels: email, web chats, social media and more.\nWhile undoubtedly valuable, such a service introduces a unique threat model. Our client’s users work with a vast amount of incoming correspondence from outside (often anonymous) users, on a daily basis. This makes them particularly vulnerable to phishing and other social engineering attacks.\nWhile such threats cannot be fully eliminated, it is possible to minimize the possibilities for exploitation. Recognizing this, Doyensec was hired to performed a security review, specifically focused on social enginee…",
+          "link": "https://blog.doyensec.com/2024/09/19/phishing-case-study.html",
+          "publishedOn": "2024-09-18T22:00:00.000Z",
+          "wordCount": 2349,
+          "title": "Applying Security Engineering to Make Phishing Harder - A Case Study",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Attack & Defense",
@@ -641,6 +643,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=108295",
+          "author": "Trail of Bits",
+          "description": "At Trail of Bits, we aim to share and develop tools and resources used in our security assessments with the broader security community. Many clients, we observed, don’t use Semgrep to its fullest potential or even at all. To bridge this gap and encourage broader adoption, our CEO, Dan Guido, initiated discussions with the Semgrep […]",
+          "link": "https://blog.trailofbits.com/2024/09/19/announcing-the-trail-of-bits-and-semgrep-partnership/",
+          "publishedOn": "2024-09-19T13:00:30.000Z",
+          "wordCount": 2537,
+          "title": "Announcing the Trail of Bits and Semgrep partnership",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=108279",
           "author": "Trail of Bits",
@@ -807,6 +819,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1586630",
+          "author": "Michael Pietroforte",
+          "description": "Changing the SSH port on Ubuntu 24.04 differs from that on Ubuntu 22.04 and older. Since Ubuntu 22.10, the SSH daemon (sshd) uses socket-based activation, which means that the traditional method of changing the port in /etc/ssh/sshd_config is no longer sufficient. In addition, you need to modify the socket configuration to specify the new port using the ListenStream directive.",
+          "link": "https://4sysops.com/archives/how-to-change-the-ssh-port-on-ubuntu-2404/",
+          "publishedOn": "2024-09-19T20:58:05.000Z",
+          "wordCount": null,
+          "title": "How to change the SSH port on Ubuntu 24.04",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1586714",
           "author": "Wolfgang Miedl",
@@ -1006,16 +1028,6 @@
           "wordCount": null,
           "title": "Send email notifications about expiring Active Directory passwords with a PowerShell script",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1585931",
-          "author": "Michael Pietroforte",
-          "description": "Microsoft 365 Backup is a new solution for recovering and restoring data in case of malicious or accidental deletion. It provides coverage for critical data by backing up SharePoint sites, OneDrive accounts, and Exchange mailboxes. Third-party backup solutions for Microsoft 365 typically provide more comprehensive features, granular control, and cross-platform capabilities for organizations with complex needs.",
-          "link": "https://4sysops.com/archives/what-is-microsoft-365-backup/",
-          "publishedOn": "2024-08-20T16:50:43.000Z",
-          "wordCount": null,
-          "title": "What is Microsoft 365 Backup?",
-          "imageUrl": null
         }
       ]
     },
@@ -1164,6 +1176,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=29704",
+          "author": "Joe Lovett",
+          "description": "TL;DR Two vulnerabilities on the Proroute H685t-w 4G Router Authenticated command injection is possible through the admin interface Reflected Cross Site-Scripting is possible through the admin interface Patch any routers […]\nProroute H685 4G router vulnerabilities first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/proroute-h685-4g-router-vulnerabilities/",
+          "publishedOn": "2024-09-19T05:12:57.000Z",
+          "wordCount": 3039,
+          "title": "Proroute H685 4G router vulnerabilities",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=29689",
           "author": "Andrew Tierney",

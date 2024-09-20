@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-19T00:43:38.680Z</updated>
+    <updated>2024-09-20T00:43:39.924Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to change the SSH port on Ubuntu 24.04]]></title>
+        <id>https://4sysops.com/?p=1586630</id>
+        <link href="https://4sysops.com/archives/how-to-change-the-ssh-port-on-ubuntu-2404/"/>
+        <updated>2024-09-19T20:58:05.000Z</updated>
+        <summary type="html"><![CDATA[Changing the SSH port on Ubuntu 24.04 differs from that on Ubuntu 22.04 and older. Since Ubuntu 22.10, the SSH daemon (sshd) uses socket-based activation, which means that the traditional method of changing the port in /etc/ssh/sshd_config is no longer sufficient. In addition, you need to modify the socket configuration to specify the new port using the ListenStream directive.]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploiting Exchange PowerShell After ProxyNotShell: Part 3 – DLL Loading Chain for RCE]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66eb2241c9b27c27492158f7</id>
+        <link href="https://www.thezdi.com/blog/2024/9/18/exploiting-exchange-powershell-after-proxynotshell-part-3-dll-loading-chain-for-rce"/>
+        <updated>2024-09-19T18:02:10.000Z</updated>
+        <summary type="html"><![CDATA[As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details. 
+In this article, part 3 of the series, I describe a chain of 3 vulnerabilities that led to remote code execution:
+·       CVE-2023-36744 – Arbitrary File Write vulnerability
+·       CVE-2023-36777 – Arbitrary File Read vulnerability
+·       CVE-2023-36745 – Local DLL Loading vulnerability
+In the sections that follow, I’m going to describe each of these in detail and show how I chained them to eventually achieve RCE.
+You can also watch the talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 21:00 to 26:25.
+Introduction
+I…]]></summary>
+        <author>
+            <name>Piotr Bazydło</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the Trail of Bits and Semgrep partnership]]></title>
+        <id>https://blog.trailofbits.com/?p=108295</id>
+        <link href="https://blog.trailofbits.com/2024/09/19/announcing-the-trail-of-bits-and-semgrep-partnership/"/>
+        <updated>2024-09-19T13:00:30.000Z</updated>
+        <summary type="html"><![CDATA[At Trail of Bits, we aim to share and develop tools and resources used in our security assessments with the broader security community. Many clients, we observed, don’t use Semgrep to its fullest potential or even at all. To bridge this gap and encourage broader adoption, our CEO, Dan Guido, initiated discussions with the Semgrep […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proroute H685 4G router vulnerabilities]]></title>
+        <id>https://www.pentestpartners.com/?p=29704</id>
+        <link href="https://www.pentestpartners.com/security-blog/proroute-h685-4g-router-vulnerabilities/"/>
+        <updated>2024-09-19T05:12:57.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Two vulnerabilities on the Proroute H685t-w 4G Router Authenticated command injection is possible through the admin interface Reflected Cross Site-Scripting is possible through the admin interface Patch any routers […]
+Proroute H685 4G router vulnerabilities first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Joe Lovett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Applying Security Engineering to Make Phishing Harder - A Case Study]]></title>
+        <id>https://blog.doyensec.com/2024/09/19/phishing-case-study.html</id>
+        <link href="https://blog.doyensec.com/2024/09/19/phishing-case-study.html"/>
+        <updated>2024-09-18T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Recently Doyensec was hired by a client offering a “Communication Platform as a Service”. This platform allows their clients to craft a customer service experience and to communicate with their own customers via a plethora of channels: email, web chats, social media and more.
+While undoubtedly valuable, such a service introduces a unique threat model. Our client’s users work with a vast amount of incoming correspondence from outside (often anonymous) users, on a daily basis. This makes them particularly vulnerable to phishing and other social engineering attacks.
+While such threats cannot be fully eliminated, it is possible to minimize the possibilities for exploitation. Recognizing this, Doyensec was hired to performed a security review, specifically focused on social enginee…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft 365 Copilot: Wave 2]]></title>
         <id>https://4sysops.com/?p=1586714</id>
@@ -65,6 +127,15 @@ Cyber threats to shipping explained first appeared on Pen Test Partners.]]></sum
         <summary type="html"><![CDATA[Update your emergency accounts before October 15th. Even if you have been out of office for the last couple of months, you should be aware that starting October 15th you will need to provide Multi Factor Authentication (MFA) to logon to Azure portal, Entra admin center and Intune admin center. This will be enforced to … Continue reading Emergency Accounts: Last Call! →]]></summary>
         <author>
             <name>Victor Turegano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing HackerOne Automations]]></title>
+        <id>https://hackerone.com/vulnerability-management/introducing-hackerone-automations</id>
+        <link href="https://www.hackerone.com/vulnerability-management/introducing-hackerone-automations"/>
+        <updated>2024-09-16T21:00:00.000Z</updated>
+        <author>
+            <name>Alyona Vysotska</name>
         </author>
     </entry>
     <entry>
@@ -1110,46 +1181,6 @@ The post An Introduction to GCPwn – Parts 2 and  3 appeared first on NetSPI.]
         <summary type="html"><![CDATA[By Opal Wright Among the cryptographic missteps we see at Trail of Bits, “let’s build our own tool out of a hash function” is one of the most common. Clients have a problem along the lines of “we need to hash a bunch of different values together” or “we need a MAC” or “we need […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100 Hacking Tools and Resources]]></title>
-        <id>https://hackerone.com/ethical-hacker/100-hacking-tools-and-resources</id>
-        <link href="https://www.hackerone.com/ethical-hacker/100-hacking-tools-and-resources"/>
-        <updated>2024-08-20T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Whether you’ve just started hacking or are a real pro, we’ve created the ultimate list of 100 hacking tools for your toolkit!]]></summary>
-        <author>
-            <name>Shlomie Liberow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Microsoft 365 Backup?]]></title>
-        <id>https://4sysops.com/?p=1585931</id>
-        <link href="https://4sysops.com/archives/what-is-microsoft-365-backup/"/>
-        <updated>2024-08-20T16:50:43.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft 365 Backup is a new solution for recovering and restoring data in case of malicious or accidental deletion. It provides coverage for critical data by backing up SharePoint sites, OneDrive accounts, and Exchange mailboxes. Third-party backup solutions for Microsoft 365 typically provide more comprehensive features, granular control, and cross-platform capabilities for organizations with complex needs.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Retail Under Attack: 6 Learnings from a Retail Customer]]></title>
-        <id>https://hackerone.com/customer-stories/retail-under-attack</id>
-        <link href="https://www.hackerone.com/customer-stories/retail-under-attack"/>
-        <updated>2024-08-20T16:21:10.000Z</updated>
-        <summary type="html"><![CDATA[Swiss sportswear brand On provides insights into the threats to the retail industry and how human-powered security addresses them.]]></summary>
-        <author>
-            <name>James Fleming</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Navigating the Uncharted: A Framework for Attack Path Discovery]]></title>
-        <id>https://medium.com/p/c5a0a020a144</id>
-        <link href="https://posts.specterops.io/navigating-the-uncharted-a-framework-for-attack-path-discovery-c5a0a020a144?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-08-20T14:46:44.000Z</updated>
-        <summary type="html"><![CDATA[This is the second post in a series on Identity-Driven Offensive Tradecraft, which is also the focus of the new course we will launch in…]]></summary>
-        <author>
-            <name>Elad Shamir</name>
         </author>
     </entry>
     <entry>
