@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-26T00:45:00.443Z</updated>
+    <updated>2024-09-27T00:45:11.798Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Exploiting Exchange PowerShell After ProxyNotShell: Part 4 – No Argument Constructor]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66f4669df5bec45c78ea5ae6</id>
+        <link href="https://www.thezdi.com/blog/2024/9/25/exploiting-exchange-powershell-after-proxynotshell-part-4-no-argument-constructor"/>
+        <updated>2024-09-26T18:25:07.000Z</updated>
+        <summary type="html"><![CDATA[As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details.
+In this final part, I ’am going to describe the PowerShell Remoting ConvertViaNoArgumentConstructor conversion mechanism, which I underestimated at the beginning of my research. It allowed me to find 3 more vulnerabilities, even after the Exchange PowerShell attack surface had been significantly hardened by switching to a strict allow list of types. The vulnerabilities I found were:  
+•	CVE-2023-36050 – XXE (File Read)
+•	CVE-2023-36039 – NTLM Relaying
+•	CVE-2023-36035 – NTLM Relaying  
+At least at that time, Microsoft was taking seriously NTLM relaying vulnerabilities in Exchange, because it could lead…]]></summary>
+        <author>
+            <name>Piotr Bazydło</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to install the AWS Secrets Manager Agent]]></title>
+        <id>https://4sysops.com/?p=1587053</id>
+        <link href="https://4sysops.com/archives/how-to-install-the-aws-secrets-manager-agent/"/>
+        <updated>2024-09-26T14:51:04.000Z</updated>
+        <summary type="html"><![CDATA[AWS has recently unveiled the open-source release of the Secrets Manager Agent. This local HTTP service is designed to be installed within various compute environments. Its purpose is to fetch secrets from Secrets Manager and cache them in memory for efficient application access. This approach offers a simplified and consistent method to consume secrets across diverse environments.]]></summary>
+        <author>
+            <name>Amr Essam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Direct Memory Access (DMA) attacks. Risks, techniques, and mitigations in hardware hacking]]></title>
+        <id>https://www.pentestpartners.com/?p=29725</id>
+        <link href="https://www.pentestpartners.com/security-blog/direct-memory-access-dma-attacks-risks-techniques-and-mitigations-in-hardware-hacking/"/>
+        <updated>2024-09-26T05:17:32.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Direct Memory Access (DMA) attacks are a powerful class of attack that give read and write access to the memory of a target system, bypassing the main CPU to […]
+Direct Memory Access (DMA) attacks. Risks, techniques, and mitigations in hardware hacking first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Rachel Rabin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical Applications of GenAI in a SOC]]></title>
+        <id>https://www.sans.org/blog/practical-applications-of-genai-in-a-soc</id>
+        <link href="https://www.sans.org/blog/practical-applications-of-genai-in-a-soc?msc=rss"/>
+        <updated>2024-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There are a few standout candidates for the application of GenAI with Data Loss Prevention (DLP) alerts.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Guide To Subdomain Takeovers 2.0]]></title>
+        <id>https://hackerone.com/community/guide-subdomain-takeovers</id>
+        <link href="https://www.hackerone.com/community/guide-subdomain-takeovers"/>
+        <updated>2024-09-25T21:10:01.000Z</updated>
+        <summary type="html"><![CDATA[Written by experienced security researcher EdOverflow, this blog provides an understanding of subdomain configurations with current resources and tools.]]></summary>
+        <author>
+            <name>EdOverflow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Set the default search engine in Chrome, Edge, and Firefox with Group Policy]]></title>
         <id>https://4sysops.com/?p=1586965</id>
@@ -14,6 +70,16 @@
         <summary type="html"><![CDATA[All browser vendors configure a default search engine that handles queries entered into the address bar. Microsoft provides Bing, Google uses its own search engine, and Mozilla partners with Google. The default search engines can be changed through Group Policy.]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Streamline Your SDLC With Hai]]></title>
+        <id>https://hackerone.com/ai/streamline-sdlc-with-hai</id>
+        <link href="https://www.hackerone.com/ai/streamline-sdlc-with-hai"/>
+        <updated>2024-09-25T17:22:54.000Z</updated>
+        <summary type="html"><![CDATA[Hai streamlines the SDLC with the tools to maintain consistency, automate tasks, and improve overall efficiency.]]></summary>
+        <author>
+            <name>Martijn Russchen</name>
         </author>
     </entry>
     <entry>
@@ -1118,36 +1184,6 @@ The post 3CX Phone System Local Privilege Escalation Vulnerability appeared firs
 An integer underflow vulnerability has been reported for VMware vCenter Server. The vulnerability is due to a lack of validation of the calculated response header size u…]]></summary>
         <author>
             <name>Trend Micro Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Offensive Security Under the EU Digital Operational Resilience Act (DORA)]]></title>
-        <id>https://bishopfox.com/blog/offensive-security-eu-dora</id>
-        <link href="https://bishopfox.com/blog/offensive-security-eu-dora"/>
-        <updated>2024-08-28T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore the EU's new DORA regulation and how financial entities and their ICT vendors must promptly align their security frameworks with DORA's requirements to mitigate potential risks and ensure operational stability.]]></summary>
-        <author>
-            <name>Harley Geiger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghostwriter ❤ Tool Integration]]></title>
-        <id>https://medium.com/p/2dfbb952eb8a</id>
-        <link href="https://posts.specterops.io/ghostwriter-tool-integration-2dfbb952eb8a?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-08-27T15:37:37.000Z</updated>
-        <summary type="html"><![CDATA[Incorporating new components into existing systems is such a pain, this process has been labeled “Integration Hell”. To ease tool…]]></summary>
-        <author>
-            <name>Alexander Sou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Provisioning cloud infrastructure the wrong way, but faster]]></title>
-        <id>https://blog.trailofbits.com/?p=108061</id>
-        <link href="https://blog.trailofbits.com/2024/08/27/provisioning-cloud-infrastructure-the-wrong-way-but-faster/"/>
-        <updated>2024-08-27T13:00:06.000Z</updated>
-        <summary type="html"><![CDATA[By Artem Dinaburg Today we’re going to provision some cloud infrastructure the Max Power way: by combining automation with unchecked AI output. Unfortunately, this method produces cloud infrastructure code that 1) works and 2) has terrible security properties. In a nutshell, AI-based tools like Claude and ChatGPT readily provide extremely bad cloud infrastructure provisioning code, […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>

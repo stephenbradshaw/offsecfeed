@@ -34,16 +34,6 @@
           "wordCount": 4189,
           "title": "Mythic 3.3 — Out of Beta",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*PQRpEFr8DXruYhdnY_POsw.png"
-        },
-        {
-          "id": "https://medium.com/p/2dfbb952eb8a",
-          "author": "Alexander Sou",
-          "description": "Incorporating new components into existing systems is such a pain, this process has been labeled “Integration Hell”. To ease tool…",
-          "link": "https://posts.specterops.io/ghostwriter-tool-integration-2dfbb952eb8a?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-08-27T15:37:37.000Z",
-          "wordCount": 2153,
-          "title": "Ghostwriter ❤ Tool Integration",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*NWkP_FYYETEvFCjoEGUhxA.png"
         }
       ]
     },
@@ -229,6 +219,26 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/community/guide-subdomain-takeovers",
+          "author": "EdOverflow",
+          "description": "Written by experienced security researcher EdOverflow, this blog provides an understanding of subdomain configurations with current resources and tools.",
+          "link": "https://www.hackerone.com/community/guide-subdomain-takeovers",
+          "publishedOn": "2024-09-25T21:10:01.000Z",
+          "wordCount": 3546,
+          "title": "A Guide To Subdomain Takeovers 2.0",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/subdomain%20takeovers%20blog%20header%402x.png"
+        },
+        {
+          "id": "https://hackerone.com/ai/streamline-sdlc-with-hai",
+          "author": "Martijn Russchen",
+          "description": "Hai streamlines the SDLC with the tools to maintain consistency, automate tasks, and improve overall efficiency.",
+          "link": "https://www.hackerone.com/ai/streamline-sdlc-with-hai",
+          "publishedOn": "2024-09-25T17:22:54.000Z",
+          "wordCount": 1428,
+          "title": "How to Streamline Your SDLC With Hai",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/hai%20streamline%20sdlc%20blog%20header%402x.png"
+        },
+        {
           "id": "https://hackerone.com/ai/accelerate-vulnerability-remediation-with-hai",
           "author": "Martijn Russchen",
           "description": "Hai, HackerOne's AI co-pilot, streamlines remediation efforts and accelerates the find-to-fix process.",
@@ -373,6 +383,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66f4669df5bec45c78ea5ae6",
+          "author": "Piotr Bazydło",
+          "description": "As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details.\nIn this final part, I ’am going to describe the PowerShell Remoting ConvertViaNoArgumentConstructor conversion mechanism, which I underestimated at the beginning of my research. It allowed me to find 3 more vulnerabilities, even after the Exchange PowerShell attack surface had been significantly hardened by switching to a strict allow list of types. The vulnerabilities I found were:  \n•\tCVE-2023-36050 – XXE (File Read)\n•\tCVE-2023-36039 – NTLM Relaying\n•\tCVE-2023-36035 – NTLM Relaying  \nAt least at that time, Microsoft was taking seriously NTLM relaying vulnerabilities in Exchange, because it could lead…",
+          "link": "https://www.thezdi.com/blog/2024/9/25/exploiting-exchange-powershell-after-proxynotshell-part-4-no-argument-constructor",
+          "publishedOn": "2024-09-26T18:25:07.000Z",
+          "wordCount": null,
+          "title": "Exploiting Exchange PowerShell After ProxyNotShell: Part 4 – No Argument Constructor",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66f1c5f7542ca37795298f1d",
           "author": "Dustin Childs",
@@ -670,16 +691,6 @@
           "wordCount": 2818,
           "title": "What would you do with that old GPU?",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=108061",
-          "author": "Trail of Bits",
-          "description": "By Artem Dinaburg Today we’re going to provision some cloud infrastructure the Max Power way: by combining automation with unchecked AI output. Unfortunately, this method produces cloud infrastructure code that 1) works and 2) has terrible security properties. In a nutshell, AI-based tools like Claude and ChatGPT readily provide extremely bad cloud infrastructure provisioning code, […]",
-          "link": "https://blog.trailofbits.com/2024/08/27/provisioning-cloud-infrastructure-the-wrong-way-but-faster/",
-          "publishedOn": "2024-08-27T13:00:06.000Z",
-          "wordCount": 2936,
-          "title": "Provisioning cloud infrastructure the wrong way, but faster",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/08/image_13.png"
         }
       ]
     },
@@ -777,6 +788,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1587053",
+          "author": "Amr Essam",
+          "description": "AWS has recently unveiled the open-source release of the Secrets Manager Agent. This local HTTP service is designed to be installed within various compute environments. Its purpose is to fetch secrets from Secrets Manager and cache them in memory for efficient application access. This approach offers a simplified and consistent method to consume secrets across diverse environments.",
+          "link": "https://4sysops.com/archives/how-to-install-the-aws-secrets-manager-agent/",
+          "publishedOn": "2024-09-26T14:51:04.000Z",
+          "wordCount": null,
+          "title": "How to install the AWS Secrets Manager Agent",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1586965",
           "author": "Wolfgang Sommergut",
@@ -1155,6 +1176,16 @@
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=29725",
+          "author": "Rachel Rabin",
+          "description": "TL;DR Direct Memory Access (DMA) attacks are a powerful class of attack that give read and write access to the memory of a target system, bypassing the main CPU to […]\nDirect Memory Access (DMA) attacks. Risks, techniques, and mitigations in hardware hacking first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/direct-memory-access-dma-attacks-risks-techniques-and-mitigations-in-hardware-hacking/",
+          "publishedOn": "2024-09-26T05:17:32.000Z",
+          "wordCount": 2996,
+          "title": "Direct Memory Access (DMA) attacks. Risks, techniques, and mitigations in hardware hacking",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=29704",
           "author": "Joe Lovett",
           "description": "TL;DR Two vulnerabilities on the Proroute H685t-w 4G Router Authenticated command injection is possible through the admin interface Reflected Cross Site-Scripting is possible through the admin interface Patch any routers […]\nProroute H685 4G router vulnerabilities first appeared on Pen Test Partners.",
@@ -1221,6 +1252,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/practical-applications-of-genai-in-a-soc",
+          "author": null,
+          "description": "There are a few standout candidates for the application of GenAI with Data Loss Prevention (DLP) alerts.",
+          "link": "https://www.sans.org/blog/practical-applications-of-genai-in-a-soc?msc=rss",
+          "publishedOn": "2024-09-26T00:00:00.000Z",
+          "wordCount": 5393,
+          "title": "Practical Applications of GenAI in a SOC",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/the-business-risks-of-ignoring-ics-security-five-critical-takeaways-from-industry-experts",
           "author": null,
@@ -1557,16 +1598,6 @@
           "wordCount": 8519,
           "title": "Exploring Large Language Models: Local LLM CTF & Lab",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/BishopFox-Blog-Large-Language-Models-Lab-OG.jpg?mtime=1725568525"
-        },
-        {
-          "id": "https://bishopfox.com/blog/offensive-security-eu-dora",
-          "author": "Harley Geiger",
-          "description": "Explore the EU's new DORA regulation and how financial entities and their ICT vendors must promptly align their security frameworks with DORA's requirements to mitigate potential risks and ensure operational stability.",
-          "link": "https://bishopfox.com/blog/offensive-security-eu-dora",
-          "publishedOn": "2024-08-28T07:00:00.000Z",
-          "wordCount": 2306,
-          "title": "Offensive Security Under the EU Digital Operational Resilience Act (DORA)",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/BishopFox-Blog-Offensive-Security-EU-DigitalOperationalResilienceAct-DORA-OG.jpg?mtime=1724179876"
         }
       ]
     },
