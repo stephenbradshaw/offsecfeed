@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/41177a557368",
+          "author": "Luke Luckett",
+          "description": "In conversation: Pete McKernan & Luke Luckett",
+          "link": "https://posts.specterops.io/closing-the-gaps-how-attack-path-management-improves-vulnerability-management-programs-41177a557368?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-10-02T14:23:08.000Z",
+          "wordCount": 2989,
+          "title": "Closing the Gaps: How Attack Path Management Improves Vulnerability Management Programs",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*VLEnug766xHmU6w4"
+        },
+        {
           "id": "https://medium.com/p/76d619b633f5",
           "author": "Jonathan Owens",
           "description": "Introduction",
@@ -493,18 +503,7 @@
       "title": "Security Blog | Praetorian",
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
-      "articles": [
-        {
-          "id": "https://www.praetorian.com/?p=3131",
-          "author": "Nathan Sportsman",
-          "description": "We are excited to announce the release of Goffloader, a pure Go implementation of an in-memory COFFLoader and PE loader. This tool is designed to facilitate the easy execution of Cobalt Strike BOFs and unmanaged PE files directly in memory without writing any files to disk. Goffloader aims to take functionality that is conventionally within […]\nThe post Introducing Goffloader: A Pure Go Implementation of an In-Memory COFFLoader and PE Loader appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/introducing-goffloader-a-pure-go-implementation-of-an-in-memory-coffloader-and-pe-loader/",
-          "publishedOn": "2024-09-02T22:21:34.000Z",
-          "wordCount": 2593,
-          "title": "Introducing Goffloader: A Pure Go Implementation of an In-Memory COFFLoader and PE Loader",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2024/06/praetorian-home-social.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Rhino Security Labs",
@@ -540,6 +539,16 @@
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/10/02/class-pollution-ruby.html",
+          "author": null,
+          "description": "Introduction\nIn this post, we are going to explore a rarely discussed class of vulnerabilities in Ruby, known as class pollution. This concept is inspired by the idea of prototype pollution in JavaScript, where recursive merges are exploited to poison the prototype of objects, leading to unexpected behaviors. This idea was initially discussed in a blog post about prototype pollution in Python, in which the researcher used recursive merging to poison class variables and eventually global variables via the __globals__ attribute.\nIn Ruby, we can categorize class pollution into three main cases:\nMerge on Hashes: In this scenario, class pollution isn’t possible because the merge operation is confined to the hash itself.\nMerge on Attributes (Non-Recursive): Here, we can poison the instance varia…",
+          "link": "https://blog.doyensec.com/2024/10/02/class-pollution-ruby.html",
+          "publishedOn": "2024-10-01T22:00:00.000Z",
+          "wordCount": 3146,
+          "title": "Class Pollution in Ruby: A Deep Dive into Exploiting Recursive Merges",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com/2024/09/19/phishing-case-study.html",
           "author": null,
@@ -758,6 +767,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1587175",
+          "author": "Wolfgang Sommergut",
+          "description": "Alongside the revamped Start Menu, one of the most noticeable changes in Windows 11 is the redesigned context menu in File Explorer. However, these modifications are not merely aesthetic – they also restrict its functionality. You can deploy a registry key using Group Policy Preferences to restore the classic context.",
+          "link": "https://4sysops.com/archives/restore-classic-context-menu-in-windows-11-explorer-using-group-policy-or-powershell/",
+          "publishedOn": "2024-10-02T15:22:06.000Z",
+          "wordCount": null,
+          "title": "Restore classic context menu in Windows 11 Explorer using Group Policy or PowerShell",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1587120",
           "author": "Leos Marek",
           "description": "The latest PowerToys update introduced Workspaces, enabling users to open a group of applications in predefined positions with just one click. This post will explain how to use the Workspaces feature and showcase its key features.",
@@ -966,16 +985,6 @@
           "wordCount": null,
           "title": "Amazon Lightsail vs. AWS EC2: Pricing and flexibility",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1586238",
-          "author": "Wolfgang Sommergut",
-          "description": "Windows Terminal unveiled a range of noteworthy features in versions 1.21 and 1.22 Preview, including the capacity to retrieve previous sessions' output buffer upon startup, store code snippets for reuse within the console, and utilize a scratchpad for crafting intricate commands.",
-          "link": "https://4sysops.com/archives/new-in-windows-terminal-restore-buffers-code-snippets-scratchpad-and-regex/",
-          "publishedOn": "2024-09-02T15:18:37.000Z",
-          "wordCount": null,
-          "title": "New in Windows Terminal: Restore buffers, code snippets, scratchpad and regex",
-          "imageUrl": null
         }
       ]
     },
@@ -1001,6 +1010,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9496",
+          "author": "adam",
+          "description": "A few days ago Karsten asked me what tool did I use for GUID extraction. I replied that it was my own old tool written waaaay before yara’s birth. In this post I will elaborate on this bit a bit… … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/10/02/using-guids-to-guide-the-id-of-samples-capabilities-or-unique-attributable-properties/",
+          "publishedOn": "2024-10-02T23:08:05.000Z",
+          "wordCount": 1223,
+          "title": "Using Guids to guide the ID of samples’ capabilities or unique (attributable) properties…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9481",
           "author": "adam",
@@ -1330,16 +1349,6 @@
           "wordCount": 5316,
           "title": "Why SANS Live Training? What’s in It for You and Your Career?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/the-top-5-items-to-bring-along-to-a-live-training-event",
-          "author": null,
-          "description": "A blog about the top five items you should bring to a SANS Live Training event.",
-          "link": "https://www.sans.org/blog/the-top-5-items-to-bring-along-to-a-live-training-event?msc=rss",
-          "publishedOn": "2024-09-03T00:00:00.000Z",
-          "wordCount": 4043,
-          "title": "The Top 5 Items to Bring Along to a Live Training Event",
-          "imageUrl": null
         }
       ]
     },
@@ -1456,6 +1465,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=18719",
+          "author": "Bart Parys",
+          "description": "NVISO employs several hunting rules in multiple Threat Intelligence Platforms and other sources, such as VirusTotal. As you can imagine, there is no lack of APT (Advanced Persistent Threat) campaigns, cybercriminals and their associated malware families and campaigns, phishing, and so on. But now and then, something slightly different and perhaps novel passes by. In … Continue reading All that JavaScript for… spear phishing? →",
+          "link": "https://blog.nviso.eu/2024/10/02/all-that-javascript-for-spear-phishing/",
+          "publishedOn": "2024-10-02T15:00:00.000Z",
+          "wordCount": 4370,
+          "title": "All that JavaScript for… spear phishing?",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/10/code_line1400x700.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=18604",
           "author": "Victor Turegano",
