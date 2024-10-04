@@ -104,24 +104,24 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": [
-        {
-          "id": "introducing-the-url-validation-bypass-cheat-sheet",
-          "author": null,
-          "description": "URL validation bypasses are the root cause of numerous vulnerabilities including many instances of SSRF, CORS misconfiguration, and open redirection. These work by using ambiguous URLs to trigger URL",
-          "link": "https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet",
-          "publishedOn": "2024-09-03T14:52:12.000Z",
-          "wordCount": 1443,
-          "title": "Introducing the URL validation bypass cheat sheet",
-          "imageUrl": "https://portswigger.net/cms/images/7d/34/f6f3-twittercard-7e196b36-8ae2-4d4a-a883-032ebf436d75.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2024/10/effective-fuzzing-dav1d-case-study.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw);.lst-kix_mfum7ompb01z-4>li:before{content:\"\\0025cb   \"}.lst-kix_mfum7ompb01z-6>li:before{content:\"\\0025cf   \"}.lst-kix_mfum7ompb01z-3>li:before{content:\"\\0025cf   \"}.lst-kix_mfum7ompb01z-7>li:before{content:\"\\0025cb   \"}.lst-kix_mfum7ompb01z-5>li:before{content:\"\\0025a0   \"}.lst-kix_5msm2gllocvg-4>li:before{content:\"\\0025cb   \"}.lst-kix_5msm2gllocvg-5>li:before{content:\"\\0025a0   \"}.lst-kix_5msm2gllocvg-6>li:before{content:\"\\0025cf   \"}.lst-kix_5msm2gllocvg-7>li:before{content:\"\\0025cb   \"}.lst-kix_5msm2gllocvg-8>li:before{content:\"\\0025a0   \"}.lst-kix_mfum7ompb01z-0>li:before{content:\"\\0025cf   \"}.lst-kix_mfum7ompb01z-2>li:before{content:\"\\0025a0   \"}.lst-kix_mfum7ompb01z-1>li:before{content:\"\\0025cb   …",
+          "link": "https://googleprojectzero.blogspot.com/2024/10/effective-fuzzing-dav1d-case-study.html",
+          "publishedOn": "2024-10-03T17:01:00.000Z",
+          "wordCount": 4656,
+          "title": "Effective Fuzzing: A Dav1d Case Study",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Carnal0wnage Blog",
@@ -337,16 +337,6 @@
           "wordCount": 1730,
           "title": "Quantifying the Value of Bug Bounty Programs: ROI, ROM, or Both?",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/rom%20roi%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/crushing-fud",
-          "author": "Antoine Williams-Baisy",
-          "description": "FUD can overshadow proactive collaboration with ethical hackers. Let's explore how to combat FUD and get organizational buy-in for bug bounty and VDP.",
-          "link": "https://www.hackerone.com/vulnerability-management/crushing-fud",
-          "publishedOn": "2024-09-03T18:07:17.000Z",
-          "wordCount": 2196,
-          "title": "Crushing FUD: Embracing Ethical Hackers to Strengthen Cybersecurity",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/fud%20blog%20header%402x.png"
         }
       ]
     },
@@ -373,6 +363,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66fd98460cdf9c480a4f9050",
+          "author": "Connor Ford",
+          "description": "This blog post highlights two additional vulnerabilities in the Autel Maxicharger that were exploited at Pwn2Own Automotive 2024. Details of the patches are also included.\nAutel has been informed and has deployed a firmware update (v1.35) to address both of these issues. If you want to read about other Autel bugs reported at Pwn2Own, you check out our earlier blog here.\nThe First Vulnerability: CVE-2024-23967 (ZDI-CAN-23230)\nResearchers from Computest Sector 7 identified and exploited a stack-based buffer overflow in v1.32 of the Autel firmware. This vulnerability stems from the decoding of base64 encoded data that can be controlled by an attacker. The encoded data is decoded into a fixed-size stack buffer with no bounds checks, leading to a stack buffer overflow and remote code execution.…",
+          "link": "https://www.thezdi.com/blog/2024/10/2/from-pwn2own-automotive-more-autel-maxicharger-vulnerabilities",
+          "publishedOn": "2024-10-03T16:05:14.000Z",
+          "wordCount": null,
+          "title": "From Pwn2Own Automotive: More Autel Maxicharger Vulnerabilities",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66f4669df5bec45c78ea5ae6",
           "author": "Piotr Bazydło",
@@ -436,17 +437,6 @@
           "publishedOn": "2024-09-05T15:39:37.000Z",
           "wordCount": null,
           "title": "Exploiting Exchange PowerShell After ProxyNotShell: Part 1 - MultiValuedProperty",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6571f96c06db0605e399951a",
-          "author": "Simon Zuckerbraun",
-          "description": "This version of the blog is preserved for archival purposes only. An updated version of this blog, including links to new PoC code, can be found here.\nWhat do you do when you’ve found an arbitrary file delete as NT AUTHORITY\\SYSTEM? Probably just sigh and call it a DoS. Well, no more. In this article, we’ll show you some great techniques for getting much more out of your arbitrary file deletes, arbitrary folder deletes, and other seemingly low-impact filesystem-based exploit primitives.\nThe Trouble with Arbitrary File Deletes\nWhen you consider how to leverage an arbitrary file delete on Windows, two great obstacles present themselves:\nMost critical Windows OS files are locked down with DACLs that prevent modification even by SYSTEM. Instead, most OS files are owned by TrustedInstaller, and…",
-          "link": "https://www.thezdi.com/blog/2022/3/16/abusing-arbitrary-file-deletes-to-escalate-privilege-and-other-great-tricks-archive",
-          "publishedOn": "2024-09-03T15:51:07.000Z",
-          "wordCount": null,
-          "title": "Abusing Arbitrary File Deletes to Escalate Privilege and Other Great Tricks (Archive)",
           "itunes": {},
           "imageUrl": null
         }
@@ -767,6 +757,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1587242",
+          "author": "Thomas Joos",
+          "description": "OWASP ModSecurity is an open-source Web Application Firewall (WAF) that protects web servers from common attacks. ModSecurity inspects all incoming requests to prevent attacks such as Cross-Site Scripting (XSS), SQL Injection, or Remote Code Execution. The software supports Apache, Nginx, and IIS on Windows Server. This guide demonstrates how to set up the firewall on a Windows Server 2025. You'll need to use version 2.9.7 since newer versions (3.x and above) are not yet available for Windows.",
+          "link": "https://4sysops.com/archives/owasp-modsecurity-web-application-firewall-waf-for-iis/",
+          "publishedOn": "2024-10-03T22:23:54.000Z",
+          "wordCount": null,
+          "title": "OWASP ModSecurity: Web Application Firewall (WAF) for IIS",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1587175",
           "author": "Wolfgang Sommergut",
           "description": "Alongside the revamped Start Menu, one of the most noticeable changes in Windows 11 is the redesigned context menu in File Explorer. However, these modifications are not merely aesthetic – they also restrict its functionality. You can deploy a registry key using Group Policy Preferences to restore the classic context.",
@@ -975,16 +975,6 @@
           "wordCount": null,
           "title": "Determine effective password policy for AD users with PowerShell",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1586222",
-          "author": "Michael Pietroforte",
-          "description": "Amazon Web Services (AWS) offers two popular solutions for deploying virtual machines (instances): Lightsail and AWS EC2. While Amazon Lightsail is frequently recommended for smaller projects, is it really better than EC2 in terms of ease of use, flexibility, performance, and pricing?",
-          "link": "https://4sysops.com/archives/amazon-lightsail-vs-aws-ec2-pricing-and-flexibility/",
-          "publishedOn": "2024-09-03T13:29:06.000Z",
-          "wordCount": null,
-          "title": "Amazon Lightsail vs. AWS EC2: Pricing and flexibility",
-          "imageUrl": null
         }
       ]
     },
@@ -1109,16 +1099,6 @@
           "wordCount": 603,
           "title": "Rundll32 and Phantom DLL lolbins, 32-bit version",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=9414",
-          "author": "adam",
-          "description": "This may be a new, kinda ephemereal addition to the lolbin world (not sure if anyone covered it before). Windows 11 comes with a large number of DLLs – some of which are broken. DuCsps.dll on Windows 11 Pro 22H2 … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2024/09/03/rundll32-and-phantom-dll-lolbins/",
-          "publishedOn": "2024-09-03T21:23:10.000Z",
-          "wordCount": 640,
-          "title": "Rundll32 and Phantom DLL lolbins",
-          "imageUrl": null
         }
       ]
     },
@@ -1201,16 +1181,6 @@
           "publishedOn": "2024-09-10T05:15:26.000Z",
           "wordCount": 4773,
           "title": "Smart home security advice. Ring, SimpliSafe, Swann, and Yale",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=29571",
-          "author": "Joseph Williams",
-          "description": "TL;DR  A walk-through of forensic data recovery  Detailed example of how to retrieve potentially sensitive deleted data  Includes location, sleep and activity tracking  Understand the security and privacy implications of […]\nAdvanced forensic techniques for recovering hidden data in wearable devices first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/advanced-forensic-techniques-for-recovering-hidden-data-in-wearable-devices/",
-          "publishedOn": "2024-09-04T05:38:40.000Z",
-          "wordCount": 4142,
-          "title": "Advanced forensic techniques for recovering hidden data in wearable devices",
           "imageUrl": null
         }
       ]
@@ -1328,26 +1298,6 @@
           "publishedOn": "2024-09-05T00:00:00.000Z",
           "wordCount": 5186,
           "title": "You’ve Taken a SANS Course – Now What?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/what-to-expect-at-sans-live-training-events",
-          "author": null,
-          "description": "A blog about what you can expect when you attend a SANS Live Training event.",
-          "link": "https://www.sans.org/blog/what-to-expect-at-sans-live-training-events?msc=rss",
-          "publishedOn": "2024-09-04T00:00:00.000Z",
-          "wordCount": 4263,
-          "title": "What to Expect at SANS Live Training Events",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/why-sans-live-training-whats-in-it-for-you-and-your-career",
-          "author": null,
-          "description": "A blog about the professional and personal benefits of attending a SANS Live Training event.",
-          "link": "https://www.sans.org/blog/why-sans-live-training-whats-in-it-for-you-and-your-career?msc=rss",
-          "publishedOn": "2024-09-04T00:00:00.000Z",
-          "wordCount": 5316,
-          "title": "Why SANS Live Training? What’s in It for You and Your Career?",
           "imageUrl": null
         }
       ]
@@ -1514,16 +1464,6 @@
           "wordCount": 5499,
           "title": "Validate your Windows Audit Policy Configuration with KQL",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/08/14001.banner.jpeg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=17972",
-          "author": "Maxime Thiebaut",
-          "description": "MEGAsync forensics can be leveraged to identify exfiltrated files, additional victims and, subsequently, perform attribution.",
-          "link": "https://blog.nviso.eu/2024/09/04/megasync-forensics-and-intrusion-attribution/",
-          "publishedOn": "2024-09-04T07:00:00.000Z",
-          "wordCount": 2682,
-          "title": "MEGAsync Forensics and Intrusion Attribution",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/08/MegaSync_blog_MT.jpg"
         }
       ]
     },
