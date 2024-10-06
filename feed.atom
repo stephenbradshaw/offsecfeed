@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-10-05T00:44:29.865Z</updated>
+    <updated>2024-10-06T00:50:08.892Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -990,79 +990,6 @@ Smart home security advice. Ring, SimpliSafe, Swann, and Yale first appeared on 
         <link href="https://blog.trailofbits.com/2024/09/06/unstripping-binaries-restoring-debugging-information-in-gdb-with-pwndbg/"/>
         <updated>2024-09-06T13:00:21.000Z</updated>
         <summary type="html"><![CDATA[By Jason An GDB loses significant functionality when debugging binaries that lack debugging symbols (also known as “stripped binaries”). Function and variable names become meaningless addresses; setting breakpoints requires tracking down relevant function addresses from an external source; and printing out structured values involves staring at a memory dump trying to manually discern field boundaries. […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hunting Chromium Notifications]]></title>
-        <id>https://blog.nviso.eu/?p=17131</id>
-        <link href="https://blog.nviso.eu/2024/09/06/hunting-chromium-notifications/"/>
-        <updated>2024-09-06T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Browser notifications provide social-engineering opportunities. In this post we'll cover the associated forensic artifacts, threat hunting possibilities and hardening recommendations.]]></summary>
-        <author>
-            <name>Maxime Thiebaut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The art of overDLLoading]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9430</id>
-        <link href="https://www.hexacorn.com/blog/2024/09/05/the-art-of-overdlloading/"/>
-        <updated>2024-09-05T23:05:25.000Z</updated>
-        <summary type="html"><![CDATA[Some time ago I came up with a silly idea: i’d like to build an executable that statically links to most of the c:\windows\system2 libraries. It’s a non-sensical programming exercise, but it’s also an interesting challenge. Forcing a static import … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical debt of C:\Windows\System path]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9423</id>
-        <link href="https://www.hexacorn.com/blog/2024/09/05/technical-debt-of-cwindowssystem-path/"/>
-        <updated>2024-09-05T21:09:13.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to @sixtyvividtails who corrected a mistake I made in the earlier version of the post Updated post One of a less known paths that is being searched when the libraries are loaded is C:\Windows\System. Anytime the search for a … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting Exchange PowerShell After ProxyNotShell: Part 1 - MultiValuedProperty]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66d8b6216c0b0917fc4e4ef7</id>
-        <link href="https://www.thezdi.com/blog/2024/9/4/exploiting-exchange-powershell-after-proxynotshell-part-1-multivaluedproperty"/>
-        <updated>2024-09-05T15:39:37.000Z</updated>
-        <summary type="html"><![CDATA[As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of four blog posts is meant to supplement the talk and provide additional technical details. For those who did not attend OffensiveCon, you can also watch the full talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 12:05 to 18:10.
-In this article, part one of the series, I describe the MultiValuedProperty exploitation primitive, which became fundamental for my further exploitation of Exchange PowerShell. I also present a bypass for Microsoft’s first patch for this vulnerability, accomplished by chaining MultiValuedProperty with the Command class.  
-Introduction
-You might already be familiar with the Exchange…]]></summary>
-        <author>
-            <name>Piotr Bazydło</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How not to block AI crawlers: robots.txt, authentication, CAPTCHA]]></title>
-        <id>https://4sysops.com/?p=1586317</id>
-        <link href="https://4sysops.com/archives/how-not-to-block-ai-crawlers-robotstxt-authentication-captcha/"/>
-        <updated>2024-09-05T15:29:39.000Z</updated>
-        <summary type="html"><![CDATA[The content wars are on. AI crawlers ignore robots.txt, scraping greedily any web content they can reach to train their models. If search engine traffic from Google and Bing is helpful for your website, you must block all AI scrapers. This post covers three standard but ineffective methods for blocking AI crawlers on your site: robots.txt, authentication, and CAPTCHAs. In my next post, I'll introduce a solution that effectively blocks AI crawlers and other web parasites: Cloudflare.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon23 Replay | They Spilled Oil in My Health-Boosting Smoothie]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=104518</id>
-        <link href="https://www.sentinelone.com/labs/labscon23-replay-they-spilled-oil-in-my-health-boosting-smoothie/"/>
-        <updated>2024-09-05T15:25:14.000Z</updated>
-        <summary type="html"><![CDATA[Zuzana Hromcová explores how Iran-aligned APT OilRig targets healthcare and local governments with a stream of updated and newly developed tools.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What would you do with that old GPU?]]></title>
-        <id>https://blog.trailofbits.com/?p=108089</id>
-        <link href="https://blog.trailofbits.com/2024/09/05/what-would-you-do-with-that-old-gpu/"/>
-        <updated>2024-09-05T13:00:11.000Z</updated>
-        <summary type="html"><![CDATA[By Artem Dinaburg and Peter Goodman (Would you get up and throw it away?) [sing to the tune of The Beatles – With A Little Help From My Friends] Here’s a riddle: when new GPUs are constantly being produced, product cycles are ~18-24 months long, and each cycle doubles GPU power (per Huang’s Law), what […]]]></summary>
         <author>
             <name>Trail of Bits</name>
         </author>
