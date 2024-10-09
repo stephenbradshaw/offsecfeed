@@ -364,6 +364,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:670568dfdef3e375888ba8fa",
+          "author": "Dustin Childs",
+          "description": "It’s the spooky season, and there’s nothing spookier than security patches – at least in my world. Microsoft and Adobe have released their latest patches, and no bones about it, there are some skeletons in those closets. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for October 2024\nFor October, Adobe released nine patches addressing 52 CVEs in Adobe Substance 3D Painter, Commerce, Dimension, Animate, Lightroom, InCopy, InDesign, Substance 3D Stager, and Adobe FrameMaker. Two of these bugs were submitted through the ZDI program. The largest and most urgent of these patches covers 22 CVEs in Adobe Commerce, which i…",
+          "link": "https://www.thezdi.com/blog/2024/10/8/the-october-2024-security-update-review",
+          "publishedOn": "2024-10-08T17:54:47.000Z",
+          "wordCount": null,
+          "title": "The October 2024 Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66fd98460cdf9c480a4f9050",
           "author": "Connor Ford",
           "description": "This blog post highlights two additional vulnerabilities in the Autel Maxicharger that were exploited at Pwn2Own Automotive 2024. Details of the patches are also included.\nAutel has been informed and has deployed a firmware update (v1.35) to address both of these issues. If you want to read about other Autel bugs reported at Pwn2Own, you check out our earlier blog here.\nThe First Vulnerability: CVE-2024-23967 (ZDI-CAN-23230)\nResearchers from Computest Sector 7 identified and exploited a stack-based buffer overflow in v1.32 of the Autel firmware. This vulnerability stems from the decoding of base64 encoded data that can be controlled by an attacker. The encoded data is decoded into a fixed-size stack buffer with no bounds checks, leading to a stack buffer overflow and remote code execution.…",
@@ -725,6 +736,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1587383",
+          "author": "Wolfgang Sommergut",
+          "description": "Windows 11 24H2 introduces several Group Policy settings to manage its new features centrally. Windows Defender receives 26 new settings, and many focus on enhancing SMB security. The new settings also control reboots after updates and the transition to Windows Protected Print.",
+          "link": "https://4sysops.com/archives/windows-11-24h2-group-policy-81-new-settings-for-smb-updates-printing-defender-and-more/",
+          "publishedOn": "2024-10-08T15:17:13.000Z",
+          "wordCount": null,
+          "title": "Windows 11 24H2 Group Policy: 81 new settings for SMB, updates, printing, Defender, and more",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1587298",
           "author": "Amr Essam",
@@ -1187,26 +1208,6 @@
           "publishedOn": "2024-09-10T00:00:00.000Z",
           "wordCount": 5888,
           "title": "Strengthen Your Supply Chain Security with Effective SBOM Management",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-summit-2024",
-          "author": null,
-          "description": "SANS Cybersecurity Blog pertaining to a summary of the SANS AI Cybersecurity Summit 2024",
-          "link": "https://www.sans.org/blog/a-visual-summary-of-sans-ai-summit-2024?msc=rss",
-          "publishedOn": "2024-09-09T00:00:00.000Z",
-          "wordCount": 3036,
-          "title": "A Visual Summary of SANS AI Cybersecurity Summit 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/why-ics-is-the-business-essential-cybersecurity-strategies-for-critical-infrastructure",
-          "author": null,
-          "description": "A blog detailing strategies to protect industrial control systems (ICS) and critical infrastructure.",
-          "link": "https://www.sans.org/blog/why-ics-is-the-business-essential-cybersecurity-strategies-for-critical-infrastructure?msc=rss",
-          "publishedOn": "2024-09-09T00:00:00.000Z",
-          "wordCount": 3847,
-          "title": "Why ICS Is the Business: Essential Cybersecurity Strategies for Critical Infrastructure",
           "imageUrl": null
         }
       ]
