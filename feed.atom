@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-10-11T00:44:53.018Z</updated>
+    <updated>2024-10-12T00:44:18.009Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Authd: Cloud-Based OIDC authentication for Ubuntu Linux]]></title>
+        <id>https://4sysops.com/?p=1587526</id>
+        <link href="https://4sysops.com/archives/authd-cloud-based-oidc-authentication-for-ubuntu-linux/"/>
+        <updated>2024-10-11T18:36:40.000Z</updated>
+        <summary type="html"><![CDATA[Historically, Linux daemons such as SSSD (System Security Services Daemon) have facilitated access to remote identity and authentication services like LDAP, Kerberos, FreeIPA, and Active Directory. Authd, recently announced for general availability, takes this approach further by harnessing the cloud. Authd, with initial integration for Microsoft’s Entra ID (previously known as Azure AD), introduces capabilities such as multi-factor authentication (MFA) and conditional access to your local setup. Currently, it is available exclusively for Ubuntu desktops and servers.]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Build a Windows Server 2025 S2D cluster lab with Hyper-V and PowerShell]]></title>
         <id>https://4sysops.com/?p=1587352</id>
@@ -842,87 +852,6 @@ In part 2, I describe the ApprovedApplicationCollection gadget, which was availa
 You can watch the full talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog …]]></summary>
         <author>
             <name>Piotr Bazydło</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Burp Suite’s game-changing performance update ⚡🏎️]]></title>
-        <id>introducing-burp-suites-game-changing-performance-update</id>
-        <link href="https://portswigger.net/blog/introducing-burp-suites-game-changing-performance-update"/>
-        <updated>2024-09-12T11:55:26.000Z</updated>
-        <summary type="html"><![CDATA[Hands-on security testers need the best tools for the job. Tools you have faith in, and enjoy using all day long. Burp Suite has long been that tool, and now, it's faster than ever. We’ve listened to]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to Third-Party Risk Management]]></title>
-        <id>https://blog.nviso.eu/?p=18459</id>
-        <link href="https://blog.nviso.eu/2024/09/12/introduction-to-third-party-risk-management/"/>
-        <updated>2024-09-12T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In today’s world, organizations are increasingly depending on their third-party vendors, suppliers, and partners to support their operations. This way of working, in addition to the digitalization era we’re in, can have great advantages such as being able to offer new services quickly while relying on other’s expertise or cutting costs on already existing processes. … Continue reading Introduction to Third-Party Risk Management →]]></summary>
-        <author>
-            <name>David Fishel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Living off the land, GPO style]]></title>
-        <id>https://www.pentestpartners.com/?p=29636</id>
-        <link href="https://www.pentestpartners.com/security-blog/living-off-the-land-gpo-style/"/>
-        <updated>2024-09-12T05:16:58.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR The ability to edit  Group Policy Object (GPOs) from non-domain joined computers using the native Group Policy editor has been on my list for a long time.  This blog […]
-Living off the land, GPO style first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Ceri Coburn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rundll32.exe bomb]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9463</id>
-        <link href="https://www.hexacorn.com/blog/2024/09/11/rundll32-exe-bomb/"/>
-        <updated>2024-09-11T22:08:46.000Z</updated>
-        <summary type="html"><![CDATA[This is a silly example of a basic mistake leading to a funny discovery… When I was experimenting with the imported phantom DLLs I accidentally placed a dummy 64-bit DLL in a place of a 32-bit phantom DLL called WDSUTIL.dll … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Rise of Bug Bounty Programs in S-1 Filings: A New Standard in Corporate Security]]></title>
-        <id>https://hackerone.com/vulnerability-management/bug-bounty-s-1-filings</id>
-        <link href="https://www.hackerone.com/vulnerability-management/bug-bounty-s-1-filings"/>
-        <updated>2024-09-11T21:22:34.000Z</updated>
-        <summary type="html"><![CDATA[Learn why more organizations are including their bug bounty programs in S-1 filings and other corporate disclosures.]]></summary>
-        <author>
-            <name>Jobert Abma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring Large Language Models: Local LLM CTF & Lab]]></title>
-        <id>https://bishopfox.com/blog/large-language-models-llm-ctf-lab</id>
-        <link href="https://bishopfox.com/blog/large-language-models-llm-ctf-lab"/>
-        <updated>2024-09-11T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore research on isolating functional expectations for LLMs using a controller to manage access between privileged and quarantined LLMs.]]></summary>
-        <author>
-            <name>Derek Rush</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Built-in data security in Microsoft 365: What Microsoft provides and what the customer is responsible for]]></title>
-        <id>https://4sysops.com/?p=1586366</id>
-        <link href="https://4sysops.com/archives/built-in-data-security-in-microsoft-365-what-microsoft-provides-and-what-the-customer-is-responsible-for/"/>
-        <updated>2024-09-11T14:12:02.000Z</updated>
-        <summary type="html"><![CDATA[How secure is the data in Microsoft 365, and what basic measures does Microsoft offer for data protection and reliability? The company has integrated some safeguarding mechanisms to protect customers from data mishaps. There is also a new framework that outlines the responsibilities of both the provider and the customer. Here's an overview of tools and regulations.]]></summary>
-        <author>
-            <name>Wolfgang Miedl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ADCS Attack Paths in BloodHound — Part 3]]></title>
-        <id>https://medium.com/p/33efb00856ac</id>
-        <link href="https://posts.specterops.io/adcs-attack-paths-in-bloodhound-part-3-33efb00856ac?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-09-11T13:46:28.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we will explore the new ESC6/ESC9/ESC10 edges we have introduced with ADCS support in BloodHound.]]></summary>
-        <author>
-            <name>Jonas Bülow Knudsen</name>
         </author>
     </entry>
     <entry>
