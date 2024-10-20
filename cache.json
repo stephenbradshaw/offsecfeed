@@ -277,16 +277,6 @@
           "wordCount": 1428,
           "title": "How to Streamline Your SDLC With Hai",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/hai%20streamline%20sdlc%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/ai/accelerate-vulnerability-remediation-with-hai",
-          "author": "Martijn Russchen",
-          "description": "Hai, HackerOne's AI co-pilot, streamlines remediation efforts and accelerates the find-to-fix process.",
-          "link": "https://www.hackerone.com/ai/accelerate-vulnerability-remediation-with-hai",
-          "publishedOn": "2024-09-19T22:06:48.000Z",
-          "wordCount": 1484,
-          "title": "How to Accelerate Vulnerability Remediation with Hai",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-09/accelerate%20remediation%20blog%20header%402x.png"
         }
       ]
     },
@@ -354,17 +344,6 @@
           "publishedOn": "2024-09-24T14:58:14.000Z",
           "wordCount": null,
           "title": "Announcing Pwn2Own Automotive for 2025",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66eb2241c9b27c27492158f7",
-          "author": "Piotr Bazydło",
-          "description": "As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details. \nIn this article, part 3 of the series, I describe a chain of 3 vulnerabilities that led to remote code execution:\n·       CVE-2023-36744 – Arbitrary File Write vulnerability\n·       CVE-2023-36777 – Arbitrary File Read vulnerability\n·       CVE-2023-36745 – Local DLL Loading vulnerability\nIn the sections that follow, I’m going to describe each of these in detail and show how I chained them to eventually achieve RCE.\nYou can also watch the talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 21:00 to 26:25.\nIntroduction\nI…",
-          "link": "https://www.thezdi.com/blog/2024/9/18/exploiting-exchange-powershell-after-proxynotshell-part-3-dll-loading-chain-for-rce",
-          "publishedOn": "2024-09-19T18:02:10.000Z",
-          "wordCount": null,
-          "title": "Exploiting Exchange PowerShell After ProxyNotShell: Part 3 – DLL Loading Chain for RCE",
           "itunes": {},
           "imageUrl": null
         }
@@ -559,16 +538,6 @@
           "wordCount": 5757,
           "title": "A few notes on AWS Nitro Enclaves: Attack surface",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/09/figure_4-1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=108295",
-          "author": "Trail of Bits",
-          "description": "At Trail of Bits, we aim to share and develop tools and resources used in our security assessments with the broader security community. Many clients, we observed, don’t use Semgrep to its fullest potential or even at all. To bridge this gap and encourage broader adoption, our CEO, Dan Guido, initiated discussions with the Semgrep […]",
-          "link": "https://blog.trailofbits.com/2024/09/19/announcing-the-trail-of-bits-and-semgrep-partnership/",
-          "publishedOn": "2024-09-19T13:00:30.000Z",
-          "wordCount": 2537,
-          "title": "Announcing the Trail of Bits and Semgrep partnership",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
         }
       ]
     },
@@ -875,16 +844,6 @@
           "wordCount": null,
           "title": "Different Copilot responses with identical PDF and DOCX content: Causes and solutions",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1586630",
-          "author": "Michael Pietroforte",
-          "description": "Changing the SSH port on Ubuntu 24.04 differs from that on Ubuntu 22.04 and older. Since Ubuntu 22.10, the SSH daemon (sshd) uses socket-based activation, which means that the traditional method of changing the port in /etc/ssh/sshd_config is no longer sufficient. In addition, you need to modify the socket configuration to specify the new port using the ListenStream directive.",
-          "link": "https://4sysops.com/archives/how-to-change-the-ssh-port-on-ubuntu-2404/",
-          "publishedOn": "2024-09-19T20:58:05.000Z",
-          "wordCount": null,
-          "title": "How to change the SSH port on Ubuntu 24.04",
-          "imageUrl": null
         }
       ]
     },
@@ -910,6 +869,26 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9551",
+          "author": "adam",
+          "description": "This entry is a bit convoluted, but it’s still quite interesting. I have discovered it today only to google around and find out someone posted the info about it back in 2013. So, I will describe what they did in … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/10/19/beyond-good-ol-run-key-part-143/",
+          "publishedOn": "2024-10-19T22:17:28.000Z",
+          "wordCount": 765,
+          "title": "Beyond good ol’ Run key, Part 143",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9547",
+          "author": "adam",
+          "description": "There is a very old hack out there that enables logging for the advpack.dll and IEAdvpack.dll DLLs. Many of their functions include the logging, so enabling this may help to pick up some old-school forensic logs. Of course, the value … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/10/19/advpack-dll-and-ieadvpack-dll-logging-capability/",
+          "publishedOn": "2024-10-19T21:09:47.000Z",
+          "wordCount": 573,
+          "title": "advpack.dll and IEAdvpack.dll logging capability",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9516",
           "author": "adam",

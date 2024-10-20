@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-10-19T00:44:53.281Z</updated>
+    <updated>2024-10-20T00:51:24.660Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 143]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9551</id>
+        <link href="https://www.hexacorn.com/blog/2024/10/19/beyond-good-ol-run-key-part-143/"/>
+        <updated>2024-10-19T22:17:28.000Z</updated>
+        <summary type="html"><![CDATA[This entry is a bit convoluted, but it’s still quite interesting. I have discovered it today only to google around and find out someone posted the info about it back in 2013. So, I will describe what they did in … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[advpack.dll and IEAdvpack.dll logging capability]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9547</id>
+        <link href="https://www.hexacorn.com/blog/2024/10/19/advpack-dll-and-ieadvpack-dll-logging-capability/"/>
+        <updated>2024-10-19T21:09:47.000Z</updated>
+        <summary type="html"><![CDATA[There is a very old hack out there that enables logging for the advpack.dll and IEAdvpack.dll DLLs. Many of their functions include the logging, so enabling this may help to pick up some old-school forensic logs. Of course, the value … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Shellcode: Obfuscation with Permutations]]></title>
         <id>http://modexp.wordpress.com/?p=5702</id>
@@ -826,54 +846,6 @@ Let’s look at this spAIware in detail.]]></summary>
         <summary type="html"><![CDATA[Saving identical text as both a Word file and a PDF leads to different responses from Copilot because of the fragmented nature of PDF files. Here's why this occurs and how to modify your prompt for more consistent results.]]></summary>
         <author>
             <name>Nicki Borell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Accelerate Vulnerability Remediation with Hai]]></title>
-        <id>https://hackerone.com/ai/accelerate-vulnerability-remediation-with-hai</id>
-        <link href="https://www.hackerone.com/ai/accelerate-vulnerability-remediation-with-hai"/>
-        <updated>2024-09-19T22:06:48.000Z</updated>
-        <summary type="html"><![CDATA[Hai, HackerOne's AI co-pilot, streamlines remediation efforts and accelerates the find-to-fix process.]]></summary>
-        <author>
-            <name>Martijn Russchen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to change the SSH port on Ubuntu 24.04]]></title>
-        <id>https://4sysops.com/?p=1586630</id>
-        <link href="https://4sysops.com/archives/how-to-change-the-ssh-port-on-ubuntu-2404/"/>
-        <updated>2024-09-19T20:58:05.000Z</updated>
-        <summary type="html"><![CDATA[Changing the SSH port on Ubuntu 24.04 differs from that on Ubuntu 22.04 and older. Since Ubuntu 22.10, the SSH daemon (sshd) uses socket-based activation, which means that the traditional method of changing the port in /etc/ssh/sshd_config is no longer sufficient. In addition, you need to modify the socket configuration to specify the new port using the ListenStream directive.]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting Exchange PowerShell After ProxyNotShell: Part 3 – DLL Loading Chain for RCE]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66eb2241c9b27c27492158f7</id>
-        <link href="https://www.thezdi.com/blog/2024/9/18/exploiting-exchange-powershell-after-proxynotshell-part-3-dll-loading-chain-for-rce"/>
-        <updated>2024-09-19T18:02:10.000Z</updated>
-        <summary type="html"><![CDATA[As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details. 
-In this article, part 3 of the series, I describe a chain of 3 vulnerabilities that led to remote code execution:
-·       CVE-2023-36744 – Arbitrary File Write vulnerability
-·       CVE-2023-36777 – Arbitrary File Read vulnerability
-·       CVE-2023-36745 – Local DLL Loading vulnerability
-In the sections that follow, I’m going to describe each of these in detail and show how I chained them to eventually achieve RCE.
-You can also watch the talk here: “Half Measures and Full Compromise: Exploiting Microsoft Exchange PowerShell Remoting”. This blog post covers the part from 21:00 to 26:25.
-Introduction
-I…]]></summary>
-        <author>
-            <name>Piotr Bazydło</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing the Trail of Bits and Semgrep partnership]]></title>
-        <id>https://blog.trailofbits.com/?p=108295</id>
-        <link href="https://blog.trailofbits.com/2024/09/19/announcing-the-trail-of-bits-and-semgrep-partnership/"/>
-        <updated>2024-09-19T13:00:30.000Z</updated>
-        <summary type="html"><![CDATA[At Trail of Bits, we aim to share and develop tools and resources used in our security assessments with the broader security community. Many clients, we observed, don’t use Semgrep to its fullest potential or even at all. To bridge this gap and encourage broader adoption, our CEO, Dan Guido, initiated discussions with the Semgrep […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
         </author>
     </entry>
     <entry>
