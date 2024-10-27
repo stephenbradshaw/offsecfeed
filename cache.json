@@ -399,17 +399,6 @@
           "title": "From Pwn2Own Automotive: More Autel Maxicharger Vulnerabilities",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:66f4669df5bec45c78ea5ae6",
-          "author": "Piotr Bazydło",
-          "description": "As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details.\nIn this final part, I ’am going to describe the PowerShell Remoting ConvertViaNoArgumentConstructor conversion mechanism, which I underestimated at the beginning of my research. It allowed me to find 3 more vulnerabilities, even after the Exchange PowerShell attack surface had been significantly hardened by switching to a strict allow list of types. The vulnerabilities I found were:  \n•\tCVE-2023-36050 – XXE (File Read)\n•\tCVE-2023-36039 – NTLM Relaying\n•\tCVE-2023-36035 – NTLM Relaying  \nAt least at that time, Microsoft was taking seriously NTLM relaying vulnerabilities in Exchange, because it could lead…",
-          "link": "https://www.thezdi.com/blog/2024/9/25/exploiting-exchange-powershell-after-proxynotshell-part-4-no-argument-constructor",
-          "publishedOn": "2024-09-26T18:25:07.000Z",
-          "wordCount": null,
-          "title": "Exploiting Exchange PowerShell After ProxyNotShell: Part 4 – No Argument Constructor",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -919,16 +908,6 @@
           "wordCount": null,
           "title": "Windows Server 2025 upgrade: Feature update versus clean install",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1587053",
-          "author": "Amr Essam",
-          "description": "AWS has recently unveiled the open-source release of the Secrets Manager Agent. This local HTTP service is designed to be installed within various compute environments. Its purpose is to fetch secrets from Secrets Manager and cache them in memory for efficient application access. This approach offers a simplified and consistent method to consume secrets across diverse environments.",
-          "link": "https://4sysops.com/archives/how-to-install-the-aws-secrets-manager-agent/",
-          "publishedOn": "2024-09-26T14:51:04.000Z",
-          "wordCount": null,
-          "title": "How to install the AWS Secrets Manager Agent",
-          "imageUrl": null
         }
       ]
     },
@@ -954,6 +933,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9580",
+          "author": "adam",
+          "description": "The new win11 version of Notepad accepts a few command line options that i have not seen documented anywhere (or only documented partially). so analyzing this key and its children may have some DFIR value, potentially. The first value is … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/10/26/some-notes-on-windows-11-notepad/",
+          "publishedOn": "2024-10-26T23:53:59.000Z",
+          "wordCount": 920,
+          "title": "Some notes on Windows 11 Notepad",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9536",
           "author": "adam",
@@ -1172,16 +1161,6 @@
           "publishedOn": "2024-09-30T00:00:00.000Z",
           "wordCount": 3082,
           "title": "A Visual Summary of SANS CloudSecNext Summit 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/advanced-evidence-collection-dfir-s-2024-mobile-and-cloud-shift",
-          "author": null,
-          "description": "A blog about how the increasing use of mobile and cloud technologies affects digital forensics and incident response.",
-          "link": "https://www.sans.org/blog/advanced-evidence-collection-dfir-s-2024-mobile-and-cloud-shift?msc=rss",
-          "publishedOn": "2024-09-27T00:00:00.000Z",
-          "wordCount": 4226,
-          "title": "Advanced Evidence Collection: DFIR's 2024 Mobile and Cloud Shift",
           "imageUrl": null
         }
       ]
