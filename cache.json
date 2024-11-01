@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/9ed71d38d546",
+          "author": "Chris Thompson",
+          "description": "Abusing Intune for Lateral Movement Over C2",
+          "link": "https://posts.specterops.io/maestro-9ed71d38d546?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-10-31T21:24:54.000Z",
+          "wordCount": 5170,
+          "title": "Maestro",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:340/1*Q0HvFPk-PaFefT-lIZpQVw.png"
+        },
+        {
           "id": "https://medium.com/p/91b706bc7958",
           "author": "Matt Creel",
           "description": "TL;DR: BOFHound can now parse Active Directory Certificate Services (AD CS) objects, manually queried from LDAP, for review and attack path…",
@@ -24,16 +34,6 @@
           "wordCount": 2989,
           "title": "Closing the Gaps: How Attack Path Management Improves Vulnerability Management Programs",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*VLEnug766xHmU6w4"
-        },
-        {
-          "id": "https://medium.com/p/76d619b633f5",
-          "author": "Jonathan Owens",
-          "description": "Introduction",
-          "link": "https://posts.specterops.io/dotnet-source-generators-in-2024-part-1-getting-started-76d619b633f5?source=rss----f05f8696e3cc---4",
-          "publishedOn": "2024-10-01T18:10:32.000Z",
-          "wordCount": 8210,
-          "title": "Dotnet Source Generators in 2024 Part 1: Getting Started",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:975/0*sAAfVq4rGtGduDRs"
         }
       ]
     },
@@ -202,16 +202,6 @@
           "wordCount": 3718,
           "title": "Quickpost: The Electric Energy Consumption Of LLMs",
           "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2024/10/screen09.bmp"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10543",
-          "author": "Didier Stevens",
-          "description": "Content: Here is an overview of content I published in September: SANS ISC Diary entries: Wireshark 4.4: Converting Display Filters to BPF Capture Filters Protected OOXML Text Documents Python & Notepad++ Password Cracking & Energy: More Dedails Wireshark 4.4’s IP Address Functions YARA 4.5.2 Release YARA-X’s Dump Command",
-          "link": "https://blog.didierstevens.com/2024/10/02/overview-of-content-published-in-september-8/",
-          "publishedOn": "2024-10-02T00:00:00.000Z",
-          "wordCount": 3305,
-          "title": "Overview of Content Published in September",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -220,6 +210,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ai/who-owns-ai-risk",
+          "author": "Blake Entrekin",
+          "description": "Explore who is and should be accountable for AI risk within organizations and how to empower them to take this significant responsibility.",
+          "link": "https://www.hackerone.com/ai/who-owns-ai-risk",
+          "publishedOn": "2024-10-30T22:35:49.000Z",
+          "wordCount": 1572,
+          "title": "Who Should Own AI Risk at Your Organization?",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-10/who%20owns%20ai%20risk%20header%402x.png"
+        },
         {
           "id": "https://hackerone.com/public-policy/securing-elections-through-vulnerability-testing",
           "author": "Michael Woolslayer",
@@ -563,18 +563,7 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
-      "articles": [
-        {
-          "id": "https://blog.doyensec.com/2024/10/02/class-pollution-ruby.html",
-          "author": null,
-          "description": "Introduction\nIn this post, we are going to explore a rarely discussed class of vulnerabilities in Ruby, known as class pollution. This concept is inspired by the idea of prototype pollution in JavaScript, where recursive merges are exploited to poison the prototype of objects, leading to unexpected behaviors. This idea was initially discussed in a blog post about prototype pollution in Python, in which the researcher used recursive merging to poison class variables and eventually global variables via the __globals__ attribute.\nIn Ruby, we can categorize class pollution into three main cases:\nMerge on Hashes: In this scenario, class pollution isn’t possible because the merge operation is confined to the hash itself.\nMerge on Attributes (Non-Recursive): Here, we can poison the instance varia…",
-          "link": "https://blog.doyensec.com/2024/10/02/class-pollution-ruby.html",
-          "publishedOn": "2024-10-01T22:00:00.000Z",
-          "wordCount": 3146,
-          "title": "Class Pollution in Ruby: A Deep Dive into Exploiting Recursive Merges",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Attack & Defense",
@@ -606,6 +595,16 @@
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/?p=108489",
+          "author": "Trail of Bits",
+          "description": "By Artur Cygan Fuzzing—one of the most successful techniques for finding security bugs, consistently featured in articles and industry conferences—has become so popular that you may think most important software has already been extensively fuzzed. But that’s not always the case. In this blog post, we show how we fuzzed the ZBar barcode scanning library […]",
+          "link": "https://blog.trailofbits.com/2024/10/31/fuzzing-between-the-lines-in-popular-barcode-software/",
+          "publishedOn": "2024-10-31T13:00:18.000Z",
+          "wordCount": 3844,
+          "title": "Fuzzing between the lines in popular barcode software",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/?p=108435",
           "author": "Trail of Bits",
           "description": "By Alan Cao If you love exploit mitigations, you may have heard of a new system call named mseal landing into the Linux kernel’s 6.10 release, providing a protection called “memory sealing.” Beyond notes from the authors, very little information about this mitigation exists. In this blog post, we’ll explain what this syscall is, including […]",
@@ -624,16 +623,6 @@
           "wordCount": 3920,
           "title": "Auditing Gradio 5, Hugging Face’s ML GUI framework",
           "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/10/figure_1-1650x298.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/?p=108366",
-          "author": "Trail of Bits",
-          "description": "By Cliff Smith Software supply chain security has been a hot topic since the Solarwinds breach back in 2020. Thanks to the Supply-chain Levels for Software Artifacts (SLSA) framework, the software industry is now at the threshold of sustainably solving many of the biggest challenges in securely building and distributing open-source software. SLSA is a […]",
-          "link": "https://blog.trailofbits.com/2024/10/01/securing-the-software-supply-chain-with-the-slsa-framework/",
-          "publishedOn": "2024-10-01T13:00:58.000Z",
-          "wordCount": 3842,
-          "title": "Securing the software supply chain with the SLSA framework",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
         }
       ]
     },
@@ -731,6 +720,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1588290",
+          "author": "Robert Pearman",
+          "description": "While API-based SMS platforms are not new, the rise of low or no-code platforms like Power Automate or Logic Apps means you no longer need to be an API expert to use them. Integrating SMS messaging into a Power Automate flow can significantly enhance its functionality and unlock new possibilities. In this post's example, I will use the content of an email message to trigger a Power Automate flow and send an SMS based on the message body.",
+          "link": "https://4sysops.com/archives/sending-sms-messages-with-power-automate/",
+          "publishedOn": "2024-10-31T15:31:56.000Z",
+          "wordCount": null,
+          "title": "Sending SMS messages with Power Automate",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1587946",
           "author": "Wolfgang Miedl",
@@ -940,16 +939,6 @@
           "wordCount": null,
           "title": "Restore classic context menu in Windows 11 Explorer using Group Policy or PowerShell",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1587120",
-          "author": "Leos Marek",
-          "description": "The latest PowerToys update introduced Workspaces, enabling users to open a group of applications in predefined positions with just one click. This post will explain how to use the Workspaces feature and showcase its key features.",
-          "link": "https://4sysops.com/archives/microsoft-powertoys-workspaces-group-windows-apps/",
-          "publishedOn": "2024-10-01T16:06:00.000Z",
-          "wordCount": null,
-          "title": "Microsoft PowerToys Workspaces: Group Windows apps",
-          "imageUrl": null
         }
       ]
     },
@@ -1058,6 +1047,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=29947",
+          "author": "Luke Davis",
+          "description": "Mounting memory? This changes everything! TL;DR Memory forensics is crucial for investigations, providing access to volatile data, like running processes and network connections. MemProcFS is a game-changer tool in memory […]\nMounting memory with MemProcFS for advanced memory forensics first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/mounting-memory-with-memprocfs-for-advanced-memory-forensics/",
+          "publishedOn": "2024-10-31T06:15:15.000Z",
+          "wordCount": 3666,
+          "title": "Mounting memory with MemProcFS for advanced memory forensics",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=29996",
           "author": "Ken Munro",
@@ -1320,6 +1319,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=18812",
+          "author": "Maxou Van Lauwe",
+          "description": "Introduction In the first part of this mini-series, we explored briefly what kind of impacts AI may have on the CIA Triad and whether we should adjust this fundamental framework. The goal of this and subsequent blogposts is assessing the pillars of the proposed Information Security Hexagon, starting with Confidentiality. Maintaining confidentiality in Artificial Intelligence … Continue reading How AI forces us to expand our thinking about basic cybersecurity concepts: Part 2 – Confidentiality →",
+          "link": "https://blog.nviso.eu/2024/10/31/how-ai-forces-us-to-expand-our-thinking-about-basic-cybersecurity-concepts-part-2-confidentiality/",
+          "publishedOn": "2024-10-31T08:48:22.000Z",
+          "wordCount": 3078,
+          "title": "How AI forces us to expand our thinking about basic cybersecurity concepts: Part 2 – Confidentiality",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/10/How-AI-forces-us-to-expand-our-thinking_CONFIDENTIALITY.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=18782",
           "author": "Maxou Van Lauwe",
