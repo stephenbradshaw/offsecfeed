@@ -291,6 +291,16 @@
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-01/Blog%20Header_XSS%20Vulnerability%20763x462.png"
         },
         {
+          "id": "https://hackerone.com/vulnerability-management/stripe-business-logic-error-bug",
+          "author": "Sandeep Singh",
+          "description": "Learn about the impact, severity, and a real-world example of business logic vulnerabilities.",
+          "link": "https://www.hackerone.com/vulnerability-management/stripe-business-logic-error-bug",
+          "publishedOn": "2024-11-01T16:57:09.000Z",
+          "wordCount": 1966,
+          "title": "How a Business Logic Vulnerability Led to Unlimited Discount Redemption",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-05/Stripe%20vulnerability%20blog%20header%402x.png"
+        },
+        {
           "id": "https://hackerone.com/ai/who-owns-ai-risk",
           "author": "Blake Entrekin",
           "description": "Explore who is and should be accountable for AI risk within organizations and how to empower them to take this significant responsibility.",
@@ -399,16 +409,6 @@
           "wordCount": 3110,
           "title": "Pentesting for Internal Networks",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-10/PTaaS_BlogImage10.jpg"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/idor-vulnerability-deep-dive",
-          "author": "Andrew Pratt",
-          "description": "Learn the ins and outs of IDOR vulnerabilities and how one exploitation led to malicious user profile modification.",
-          "link": "https://www.hackerone.com/vulnerability-management/idor-vulnerability-deep-dive",
-          "publishedOn": "2024-10-08T20:53:50.000Z",
-          "wordCount": 2173,
-          "title": "How an IDOR Vulnerability Led to User Profile Modification",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-10/idor%20blog%20header%402x.png"
         }
       ]
     },
@@ -435,6 +435,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:672d3466f5a2c34b7927167a",
+          "author": "Dmitry Janushkevich",
+          "description": "Multiple vulnerabilities have been discovered in the Mazda Connect Connectivity Master Unit (CMU) system installed in multiple car models, such as the Mazda 3 model year 2014-2021. Like in so many cases, these vulnerabilities are caused by insufficient sanitization when handling attacker-supplied input. A physically present attacker could exploit these vulnerabilities by connecting a specially crafted USB device – such as an iPod or mass storage device – to the target system. Successful exploitation of some of these vulnerabilities results in arbitrary code execution with root privileges.\nThe Target\nThe specific CMU unit that was the target of the research was manufactured by Visteon, while the software was initially developed by Johnson Controls Inc (JCI). The research was performed again…",
+          "link": "https://www.thezdi.com/blog/2024/11/7/multiple-vulnerabilities-in-the-mazda-in-vehicle-infotainment-ivi-system",
+          "publishedOn": "2024-11-07T22:09:04.000Z",
+          "wordCount": null,
+          "title": "Multiple Vulnerabilities in the Mazda In-Vehicle Infotainment (IVI) System",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:671b4e7ec6edd2692dc4b79b",
           "author": "Dustin Childs",
@@ -487,17 +498,6 @@
           "publishedOn": "2024-10-21T17:02:59.000Z",
           "wordCount": null,
           "title": "Pwn2Own Ireland - The Full Schedule",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:670568dfdef3e375888ba8fa",
-          "author": "Dustin Childs",
-          "description": "It’s the spooky season, and there’s nothing spookier than security patches – at least in my world. Microsoft and Adobe have released their latest patches, and no bones about it, there are some skeletons in those closets. Take a break from your regular activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for October 2024\nFor October, Adobe released nine patches addressing 52 CVEs in Adobe Substance 3D Painter, Commerce, Dimension, Animate, Lightroom, InCopy, InDesign, Substance 3D Stager, and Adobe FrameMaker. Two of these bugs were submitted through the ZDI program. The largest and most urgent of these patches covers 22 CVEs in Adobe Commerce, which i…",
-          "link": "https://www.thezdi.com/blog/2024/10/8/the-october-2024-security-update-review",
-          "publishedOn": "2024-10-08T17:54:47.000Z",
-          "wordCount": null,
-          "title": "The October 2024 Security Update Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -800,6 +800,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1585903",
+          "author": "Wolfgang Sommergut",
+          "description": "When a user launches the Edge browser for the first time on a PC, the welcome page (also known as the \"first-run experience\") automatically launches a wizard. It guides the users through various settings. You can hide this page in managed environments and configure the respective settings through Group Policy.",
+          "link": "https://4sysops.com/archives/hide-the-first-run-page-in-microsoft-edge-configure-setting-with-gpo/",
+          "publishedOn": "2024-11-07T19:16:44.000Z",
+          "wordCount": null,
+          "title": "Hide the first-run page in Microsoft Edge, configure setting with GPO",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1588459",
           "author": "Brandon Lee",
           "description": "Mobile Device Management (MDM) is now a critical focus for IT administrators, providing essential tools to manage user endpoints centrally, ensuring they remain secure and up-to-date in a hybrid workforce. Pulseway 9.9 has just launched, introducing a new range of MDM features and automation enhancements.",
@@ -1008,16 +1018,6 @@
           "wordCount": null,
           "title": "Customer Managed Planned Failover for Azure Storage using PowerShell",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1587383",
-          "author": "Wolfgang Sommergut",
-          "description": "Windows 11 24H2 introduces several Group Policy settings to manage its new features centrally. Windows Defender receives 26 new settings, and many focus on enhancing SMB security. The new settings also control reboots after updates and the transition to Windows Protected Print.",
-          "link": "https://4sysops.com/archives/windows-11-24h2-group-policy-81-new-settings-for-smb-updates-printing-defender-and-more/",
-          "publishedOn": "2024-10-08T15:17:13.000Z",
-          "wordCount": null,
-          "title": "Windows 11 24H2 Group Policy: 81 new settings for SMB, updates, printing, Defender, and more",
-          "imageUrl": null
         }
       ]
     },
@@ -1043,6 +1043,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9168",
+          "author": "adam",
+          "description": "The windows shatter attack is so old that it’s time for someone to reinvent it. This someone could be me. While looking at wscadminui.exe I noticed that it expects 2 arguments: the first one is a /DefaultProductRequest string, and the … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/11/07/beating-the-dead-horse-only-to-inject-it-some-more/",
+          "publishedOn": "2024-11-07T23:50:33.000Z",
+          "wordCount": 873,
+          "title": "Beating the dead horse, only to inject it some more…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9594",
           "author": "adam",
@@ -1215,16 +1225,6 @@
           "wordCount": 2440,
           "title": "Imposter syndrome in cyber security",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=29855",
-          "author": "PTP Aviation Team",
-          "description": "TL;DR Always thank researchers for reporting vulnerabilities. Acknowledging their efforts can set the right tone. Lead all communications with researchers. Don’t let legal or PR teams take over. Provide regular […]\nHow to handle vulnerability reports in aviation first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/how-to-handle-vulnerability-reports-in-aviation/",
-          "publishedOn": "2024-10-09T05:04:45.000Z",
-          "wordCount": 1920,
-          "title": "How to handle vulnerability reports in aviation",
-          "imageUrl": null
         }
       ]
     },
@@ -1291,16 +1291,6 @@
           "publishedOn": "2024-10-16T00:00:00.000Z",
           "wordCount": 6508,
           "title": "ICS/OT Cybersecurity & AI: Considerations for Now and the Future (Part II)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/key-insights-from-steve-sims-keynote-on-the-current-threat-landscape-and-ai-in-cybersecurity",
-          "author": null,
-          "description": "Organizations must stay vigilant and continuously adapt their security strategies to address both the opportunities and challenges presented by AI.",
-          "link": "https://www.sans.org/blog/key-insights-from-steve-sims-keynote-on-the-current-threat-landscape-and-ai-in-cybersecurity?msc=rss",
-          "publishedOn": "2024-10-09T00:00:00.000Z",
-          "wordCount": 3712,
-          "title": "Key Insights from Steve Sims' Keynote on the Current Threat Landscape and AI in Cybersecurity",
           "imageUrl": null
         }
       ]
@@ -1382,6 +1372,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=108328",
+          "author": "Raffaele Sabato, Phil Stokes &amp; Tom Hegel",
+          "description": "SentinelLabs has observed a suspected DPRK threat actor targeting Crypto-related businesses with novel multi-stage malware.",
+          "link": "https://www.sentinelone.com/labs/bluenoroff-hidden-risk-threat-actor-targets-macs-with-fake-crypto-news-and-novel-persistence/",
+          "publishedOn": "2024-11-07T10:55:47.000Z",
+          "wordCount": 9422,
+          "title": "BlueNoroff Hidden Risk | Threat Actor Targets Macs with Fake Crypto News and Novel Persistence",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief-feature.jpg",
+            "length": "376259",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief-feature.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=107667",
           "author": "Alex Delamotte",
           "description": "Learn about cloud threats, how to hunt for them and how to analyze them in this post based on Alex Delamotte's recent LABScon workshop.",
@@ -1455,6 +1460,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/app-pen-testing-point-in-time-vs-ongoing",
+          "author": "Bishop Fox",
+          "description": "Take an in-depth look at multiple approaches to application penetration testing, and the organizational requirements that would favor one approach over another.   This blog will explore the different approaches and share key considerations for choosing the best approach for your organization.",
+          "link": "https://bishopfox.com/blog/app-pen-testing-point-in-time-vs-ongoing",
+          "publishedOn": "2024-11-07T17:00:00.000Z",
+          "wordCount": 2144,
+          "title": "Application Pen Testing: Point-In-Time vs Ongoing Approaches Explained",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/OG.png?mtime=1731013372"
+        },
         {
           "id": "https://bishopfox.com/blog/a-look-at-fortijump-cve-2024-47575",
           "author": "Bishop Fox",
