@@ -59,6 +59,72 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-11-23 datetime="2024-11-23T19:02:44.000Z">2024-11-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-11-23 datetime="2024-11-23T19:02:44.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hexacorn</button>
+                  <a class="source-heading__link" href="https://www.hexacorn.com/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hexacorn.com/blog/?p&#x3D;9607"
+                        open
+                      >
+                        <summary class="article-expander__title">Portability of old Windows programs…</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hexacorn.com/blog/2024/11/23/portability-of-old-windows-programs/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Many people believe that native Windows programs are so deeply integrated with OS that there is no way to move them between these different OS versions. And it’s fair to say that at first this belief was reinforced by that … Continue reading →</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hexacorn.com/blog/?p&#x3D;9665"
+                        open
+                      >
+                        <summary class="article-expander__title">How to debug Windows service processes in the most old-school possible way…</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hexacorn.com/blog/2024/11/23/how-to-debug-windows-service-processes-in-the-most-old-school-possible-way/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Debugging Service Processes on Windows is a bit tricky – the old IFO / Debugger trick doesn’t work anymore, because services run in their own session. Also, when you attempt to debug a service process by attaching your debugger to … Continue reading →</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-11-22 datetime="2024-11-22T12:45:56.000Z">2024-11-22</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-11-22 datetime="2024-11-22T12:45:56.000Z"></time>
           </button>
@@ -3669,229 +3735,6 @@ The post The CTEM Cookbook: Improving Your Vulnerability Program with Continuous
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Zero Day Initiative - Blog</button>
-                  <a class="source-heading__link" href="https://www.thezdi.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:671b4e7ec6edd2692dc4b79b"
-                        open
-                      >
-                        <summary class="article-expander__title">Pwn2Own Ireland 2024: Day Four and Master of Pwn</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.thezdi.com/blog/2024/10/25/pwn2own-ireland-2024-day-four-and-master-of-pwn">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>It’s the final day of our first ever Pwn2Own Ireland. After three days of exploitation, we have awarded $993,625, so it seem likely we will pass the $1,000,000 mark. Still, there are no guarantees in Pwn2Own, so stay tuned for all the results.
-And we are done! Over the four days of the contest, we awarded $1,066,625 for over 70 0-day vulnerabilities. That makes four contests in a row that exceeded the million-dollar mark. Congratulations to the Viettel Cyber Security team for winning Master of Pwn with 33 points and $205,000. Our next event will be January 22-24, 2025 in Tokyo as we return for the second Pwn2Own Automotive. We hope to see you there.
-COLLISION - A bug collision sends us over one million dollars for the contest. Team Smoking Barrels used two bugs to exploit the True NAS X, but they had been seen before in the contest. It still counts, as they earn $20,000 &amp; 2 Master of Pwn points. 
-SUCCESS/COLLISION - Chris Anastasio (@mufinnnnnnn) and Fabius Watson (@FabiusArtrel) of Team Cluck used 6 bugs to go from the QNAP QHora-322 to the Lexmark CX331adwe, but 1 had already been seen in the contest. They still earn $23,000 and 9.25 Master of Pwn points. 
-COLLISION - The Viettel Cyber Security (@vcslab) team ends their run with a collision. They use 2 bugs to exploit the TrueNAS Mini X. They still earn $20,000 and 2 Master of Pwn points. 
-SUCCESS - Our final attempt of Pwn2Own Ireland is confirmed! PHP Hooligans / Midnight Blue (@midnightbluelab) used an integer overflow to exploit the Lexmark printer and play us a tune. They earn $10,000 and 2 Master of Pwn points.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Embrace The Red</button>
-                  <a class="source-heading__link" href="https://embracethered.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://embracethered.com/blog/posts/2024/claude-computer-use-c2-the-zombais-are-coming/"
-                        open
-                      >
-                        <summary class="article-expander__title">ZombAIs: From Prompt Injection to C2 with Claude Computer Use</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://embracethered.com/blog/posts/2024/claude-computer-use-c2-the-zombais-are-coming/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A few days ago, Anthropic released Claude Computer Use, which is a model + code that allows Claude to control a computer. It takes screenshots to make decisions, can run bash commands and so forth.
-It’s cool, but obviously very dangerous because of prompt injection. Claude Computer Use enables AI to run commands on machines autonomously, posing severe risks if exploited via prompt injection.
-
-Disclaimer So, first a disclaimer: Claude Computer Use is a Beta Feature and what you are going to see is a fundamental design problem in state-of-the-art LLM-powered Applications and Agents.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-24 datetime="2024-10-24T21:29:54.000Z">2024-10-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-24 datetime="2024-10-24T21:29:54.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >HackerOne</button>
-                  <a class="source-heading__link" href="https://www.hackerone.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://hackerone.com/vulnerability-management/hackerone-benchmarks"
-                        open
-                      >
-                        <summary class="article-expander__title">Measure, Compare, and Enhance Security Programs with HackerOne Benchmarks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hackerone.com/vulnerability-management/hackerone-benchmarks">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.hackerone.com/sites/default/files/2024-10/benchmarks%20blog%20header%402x.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn about HackerOne Benchmarks, a set of features designed to provide insights for optimizing your security program’s performance.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1588035"
-                        open
-                      >
-                        <summary class="article-expander__title">Get Active Directory ports with PowerShell</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/get-active-directory-ports-with-powershell/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2024/10/View-Active-Directory-Ports-with-PowerShell-600x328.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Active Directory services communicate over specific ports needed for authentication, replication, and other directory services. Knowing these ports is crucial for configuring firewalls, ensuring secure communication, and troubleshooting network issues related to Active Directory services. This post will teach you how to get the Active Directory ports with PowerShell.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.</button>
-                  <a class="source-heading__link" href="https://www.sentinelone.com/labs/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sentinelone.com/?post_type&#x3D;labs&amp;p&#x3D;107667"
-                        open
-                      >
-                        <summary class="article-expander__title">Cloud Malware | A Threat Hunter’s Guide to Analysis, Techniques and Delivery</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sentinelone.com/labs/cloud-malware-a-threat-hunters-guide-to-analysis-techniques-and-delivery/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.sentinelone.com/wp-content/uploads/2024/10/Cloud-Workshop-blue-ftr.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Learn about cloud threats, how to hunt for them and how to analyze them in this post based on Alex Delamotte&#x27;s recent LABScon workshop.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;28
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Technical Blog Archives - NetSPI</button>
-                  <a class="source-heading__link" href="">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.netspi.com/?p&#x3D;25760"
-                        open
-                      >
-                        <summary class="article-expander__title">Hacking CICS: 7 Ways to Defeat Mainframe Applications</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.netspi.com/blog/technical-blog/mainframe-penetration-testing/hacking-cics-applications/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.netspi.com/wp-content/uploads/2024/10/10.24.24_TECH_Hacking-CICS-Applications_Social.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Explore how modern penetration testing tools uncover vulnerabilities in mainframe applications, highlighting the need for methodical techniques and regular testing to protect these critical systems from threats.
-The post Hacking CICS: 7 Ways to Defeat Mainframe Applications appeared first on NetSPI.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -4188,8 +4031,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/11982456892">
-        <time id="build-timestamp" datetime="2024-11-23T00:47:25.972Z">2024-11-23T00:47:25.972Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/11991772291">
+        <time id="build-timestamp" datetime="2024-11-24T00:52:46.228Z">2024-11-24T00:52:46.228Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

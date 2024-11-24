@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-11-23T00:47:25.992Z</updated>
+    <updated>2024-11-24T00:52:46.249Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Portability of old Windows programs…]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9607</id>
+        <link href="https://www.hexacorn.com/blog/2024/11/23/portability-of-old-windows-programs/"/>
+        <updated>2024-11-23T19:02:44.000Z</updated>
+        <summary type="html"><![CDATA[Many people believe that native Windows programs are so deeply integrated with OS that there is no way to move them between these different OS versions. And it’s fair to say that at first this belief was reinforced by that … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to debug Windows service processes in the most old-school possible way…]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9665</id>
+        <link href="https://www.hexacorn.com/blog/2024/11/23/how-to-debug-windows-service-processes-in-the-most-old-school-possible-way/"/>
+        <updated>2024-11-23T10:28:53.000Z</updated>
+        <summary type="html"><![CDATA[Debugging Service Processes on Windows is a bit tricky – the old IFO / Debugger trick doesn’t work anymore, because services run in their own session. Also, when you attempt to debug a service process by attaching your debugger to … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Entra Private Access: Replacing VPN]]></title>
         <id>https://4sysops.com/?p=1588851</id>
@@ -1072,75 +1092,6 @@ The post The CTEM Cookbook: Improving Your Vulnerability Program with Continuous
         <summary type="html"><![CDATA[By Alan Cao If you love exploit mitigations, you may have heard of a new system call named mseal landing into the Linux kernel’s 6.10 release, providing a protection called “memory sealing.” Beyond notes from the authors, very little information about this mitigation exists. In this blog post, we’ll explain what this syscall is, including […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Ireland 2024: Day Four and Master of Pwn]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:671b4e7ec6edd2692dc4b79b</id>
-        <link href="https://www.thezdi.com/blog/2024/10/25/pwn2own-ireland-2024-day-four-and-master-of-pwn"/>
-        <updated>2024-10-25T07:56:05.000Z</updated>
-        <summary type="html"><![CDATA[It’s the final day of our first ever Pwn2Own Ireland. After three days of exploitation, we have awarded $993,625, so it seem likely we will pass the $1,000,000 mark. Still, there are no guarantees in Pwn2Own, so stay tuned for all the results.
-And we are done! Over the four days of the contest, we awarded $1,066,625 for over 70 0-day vulnerabilities. That makes four contests in a row that exceeded the million-dollar mark. Congratulations to the Viettel Cyber Security team for winning Master of Pwn with 33 points and $205,000. Our next event will be January 22-24, 2025 in Tokyo as we return for the second Pwn2Own Automotive. We hope to see you there.
-COLLISION - A bug collision sends us over one million dollars for the contest. Team Smoking Barrels used two bugs to exploit the True NAS X, but they had been seen before in the contest. It still counts, as they earn $20,000 & 2 Master of Pwn points. 
-SUCCESS/COLLISION - Chris Anastasio (@mufinnnnnnn) and Fabius Watson (@FabiusArtrel) of Team Cluck used 6 bugs to go from the QNAP QHora-322 to the Lexmark CX331adwe, but 1 had already been seen in the contest. They still earn $23,000 and 9.25 Master of Pwn points. 
-COLLISION - The Viettel Cyber Security (@vcslab) team ends their run with a collision. They use 2 bugs to exploit the TrueNAS Mini X. They still earn $20,000 and 2 Master of Pwn points. 
-SUCCESS - Our final attempt of Pwn2Own Ireland is confirmed! PHP Hooligans / Midnight Blue (@midnightbluelab) used an integer overflow to exploit the Lexmark printer and play us a tune. They earn $10,000 and 2 Master of Pwn points.]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZombAIs: From Prompt Injection to C2 with Claude Computer Use]]></title>
-        <id>https://embracethered.com/blog/posts/2024/claude-computer-use-c2-the-zombais-are-coming/</id>
-        <link href="https://embracethered.com/blog/posts/2024/claude-computer-use-c2-the-zombais-are-coming/"/>
-        <updated>2024-10-25T00:00:57.000Z</updated>
-        <summary type="html"><![CDATA[A few days ago, Anthropic released Claude Computer Use, which is a model + code that allows Claude to control a computer. It takes screenshots to make decisions, can run bash commands and so forth.
-It’s cool, but obviously very dangerous because of prompt injection. Claude Computer Use enables AI to run commands on machines autonomously, posing severe risks if exploited via prompt injection.
-
-Disclaimer So, first a disclaimer: Claude Computer Use is a Beta Feature and what you are going to see is a fundamental design problem in state-of-the-art LLM-powered Applications and Agents.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measure, Compare, and Enhance Security Programs with HackerOne Benchmarks]]></title>
-        <id>https://hackerone.com/vulnerability-management/hackerone-benchmarks</id>
-        <link href="https://www.hackerone.com/vulnerability-management/hackerone-benchmarks"/>
-        <updated>2024-10-24T21:29:54.000Z</updated>
-        <summary type="html"><![CDATA[Learn about HackerOne Benchmarks, a set of features designed to provide insights for optimizing your security program’s performance.]]></summary>
-        <author>
-            <name>Naz Bozdemir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get Active Directory ports with PowerShell]]></title>
-        <id>https://4sysops.com/?p=1588035</id>
-        <link href="https://4sysops.com/archives/get-active-directory-ports-with-powershell/"/>
-        <updated>2024-10-24T19:37:21.000Z</updated>
-        <summary type="html"><![CDATA[Active Directory services communicate over specific ports needed for authentication, replication, and other directory services. Knowing these ports is crucial for configuring firewalls, ensuring secure communication, and troubleshooting network issues related to Active Directory services. This post will teach you how to get the Active Directory ports with PowerShell.]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Malware | A Threat Hunter’s Guide to Analysis, Techniques and Delivery]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=107667</id>
-        <link href="https://www.sentinelone.com/labs/cloud-malware-a-threat-hunters-guide-to-analysis-techniques-and-delivery/"/>
-        <updated>2024-10-24T15:17:35.000Z</updated>
-        <summary type="html"><![CDATA[Learn about cloud threats, how to hunt for them and how to analyze them in this post based on Alex Delamotte's recent LABScon workshop.]]></summary>
-        <author>
-            <name>Alex Delamotte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking CICS: 7 Ways to Defeat Mainframe Applications]]></title>
-        <id>https://www.netspi.com/?p=25760</id>
-        <link href="https://www.netspi.com/blog/technical-blog/mainframe-penetration-testing/hacking-cics-applications/"/>
-        <updated>2024-10-24T14:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore how modern penetration testing tools uncover vulnerabilities in mainframe applications, highlighting the need for methodical techniques and regular testing to protect these critical systems from threats.
-The post Hacking CICS: 7 Ways to Defeat Mainframe Applications appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Michelle Eggers</name>
         </author>
     </entry>
     <entry>
