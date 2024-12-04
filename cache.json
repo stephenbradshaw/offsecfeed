@@ -363,6 +363,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:674e26de0863404708c71882",
+          "author": "Dmitry Janushkevich",
+          "description": "The WolfBox E40 is a Level 2 electric vehicle charge station designed for residential home use. Its hardware has a minimal user interface, providing a Bluetooth Low Energy (BLE) interface for configuration and an NFC reader for user authentication. Typical for this class of devices, the appliance employs a mobile application for the owner's installation and regular operation of the equipment.\nAt the moment of writing, the software versions were reported as follows:\n·      Main module: 3.1.17\n·      MCU module: 1.2.6\n·      Mobile application: 1.0.3\nWolfBox EV Mobile Application\nThe manufacturer distributes one application to configure and maintain the device. The application, named WolfBox EV, is available for both Android and iOS users.\nFigure 1 - Application Start Screen\nInterestingly, t…",
+          "link": "https://www.thezdi.com/blog/2024/12/2/detailing-the-attack-surfaces-of-the-wolfbox-e40-ev-charger",
+          "publishedOn": "2024-12-03T18:01:48.000Z",
+          "wordCount": null,
+          "title": "Detailing the Attack Surfaces of the WolfBox E40 EV Charger",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:673e5fd5f4a4c577fa1a5d91",
           "author": "Connor Ford",
           "description": "In our previous Kenwood DMX958XR blog post, we detailed the internals of the Kenwood in-vehicle infotainment (IVI) head unit and provided annotated pictures of each PCB. In this post, we aim to outline the attack surface of the DMX958XR in the hopes of providing inspiration for vulnerability research. \nWe will cover the main supported technologies that present potential attack surfaces, such as USB, Bluetooth, Android Auto, Apple CarPlay, Kenwood apps, and more. We also provide a list of the open-source components the DMX958XR claims to use. \nAll information has been obtained through reverse engineering, experimenting, and combing through the following resources: \n·      Kenwood DMX958XR Product Page\n·      Kenwood DMX958XR Instruction Manual [PDF] \n·      Kenwood DMX958XR Quick Start Guid…",
@@ -486,7 +497,18 @@
       "title": "Rhino Security Labs",
       "feedUrl": "https://rhinosecuritylabs.com/feed/",
       "siteUrl": "https://rhinosecuritylabs.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://rhinosecuritylabs.com/?p=25427",
+          "author": "John De Armas",
+          "description": "The post CloudGoat Official Walkthrough Series: ‘sqs_flag_shop’ appeared first on Rhino Security Labs.",
+          "link": "https://rhinosecuritylabs.com/research/cloudgoat-walkthrough-sqs_flag_shop/",
+          "publishedOn": "2024-12-03T14:05:00.000Z",
+          "wordCount": 1497,
+          "title": "CloudGoat Official Walkthrough Series: ‘sqs_flag_shop’",
+          "imageUrl": "https://rhinosecuritylabs.com/wp-content/uploads/2024/12/Screenshot-2024-12-02-at-2.34.21 PM.png"
+        }
+      ]
     },
     {
       "title": "phoenhex team",
@@ -504,7 +526,18 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.doyensec.com/2024/12/03/cspt-with-eval-villain.html",
+          "author": null,
+          "description": "Doyensec’s Maxence Schmitt recently built a\nplayground to go with his\nCSPT research. In this blog post, we will demonstrate how to find and exploit CSPT bugs with Eval Villain. For this purpose, we will leverage the second challenge of Maxence’s playground.\nA step-by-step intro to CSPT with Eval Villain\nThe next image shows what this methodology yields.\n\n\n\nWe’ve added some boxes and arrows in orange to better illustrate the current situation. First,\nEval Villain saw that part of the page’s path is being used in a fetch request.\nThere, you can plainly see the asdf%2f.. was being URL decoded. Or if you prefer, you can expanded\nthe “Encoder function” group to check. Either way, Eval Villain had discovered the CSPT sink.\nThe second square is on top of a debug statement from evSourcer. This was…",
+          "link": "https://blog.doyensec.com/2024/12/03/cspt-with-eval-villain.html",
+          "publishedOn": "2024-12-02T23:00:00.000Z",
+          "wordCount": 2150,
+          "title": "CSPT the Eval Villain Way!",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Attack & Defense",
@@ -672,6 +705,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1589369",
+          "author": "Michael Pietroforte",
+          "description": "A warning is circulating on social media regarding Microsoft utilizing customer data from its Microsoft 365 applications—such as Word, Excel, and Outlook—for training its AI models. Microsoft has addressed these concerns on X and Bluesky, which seems to have reassured most journalists who reported on the incident across various news platforms. Nonetheless, I highly advise disabling all \"connected experiences that analyze your content\" in your Office apps or for your entire organization via Group Policy.\nSource",
+          "link": "https://4sysops.com/archives/disable-connected-experiences-that-analyze-your-content-in-microsoft-365-ms-office/",
+          "publishedOn": "2024-12-03T15:10:26.000Z",
+          "wordCount": 5420,
+          "title": "Disable connected experiences that analyze your content in Microsoft 365 (MS Office)",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/How-much-do-you-trust-Microsoft-600x352.png"
+        },
         {
           "id": "https://4sysops.com/?p=1589223",
           "author": "Markus Elsberger",
@@ -871,16 +914,6 @@
           "wordCount": null,
           "title": "OpenSSH 9.9 new features: Enhanced security with post-quantum key exchange (mlkem768x25519-sha256) and DSA removal",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1588526",
-          "author": "Michael Pietroforte",
-          "description": "Windows Server 2025 is now generally available, and you can download the ISO and VHD files for Intel-based systems. Since Microsoft hasn't yet provided an ARM ISO for Windows Server 2025, you can download it from uupdump.net. To test the GA release, avoid downloading it from the Windows Insider Program page.",
-          "link": "https://4sysops.com/archives/download-the-windows-server-2025-iso-for-intel-x64-and-arm-arm64/",
-          "publishedOn": "2024-11-04T10:52:18.000Z",
-          "wordCount": null,
-          "title": "Download the Windows Server 2025 ISO for Intel (x64) and ARM (ARM64)",
-          "imageUrl": null
         }
       ]
     },
@@ -1011,13 +1044,34 @@
       "title": "Penetration testing Archives - MDSec",
       "feedUrl": "https://www.mdsec.co.uk/category/penetration-testing/feed/",
       "siteUrl": "https://www.mdsec.co.uk/category/penetration-testing/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.mdsec.co.uk/?p=3568",
+          "author": "Admin",
+          "description": "Introduction On a recent Red Team for a particularly hardened client, we were looking to escalate our privileges in order to move off the endpoint and pivot into the server...\nThe post Extracting Account Connectivity Credentials (ACCs) from Symantec Management Agent (aka Altiris) appeared first on MDSec.",
+          "link": "https://www.mdsec.co.uk/2024/12/extracting-account-connectivity-credentials-accs-from-symantec-management-agent-aka-altiris/",
+          "publishedOn": "2024-12-03T13:03:23.000Z",
+          "wordCount": 6225,
+          "title": "Extracting Account Connectivity Credentials (ACCs) from Symantec Management Agent (aka Altiris)",
+          "imageUrl": "https://www.mdsec.co.uk/wp-content/uploads/2019/11/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+        }
+      ]
     },
     {
       "title": "Pen Test Partners",
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=30207",
+          "author": "Luke Davis",
+          "description": "Introduction When a breach happens, it’s not just technical defences that matter. Preparation in non-technical areas, like having key documents printed or emergency contacts accessible, can make all the difference. […]\n6 non tech things you wish you had done before being breached first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/6-non-tech-things-you-wish-you-had-done-before-being-breached/",
+          "publishedOn": "2024-12-03T06:17:47.000Z",
+          "wordCount": 2199,
+          "title": "6 non tech things you wish you had done before being breached",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=30140",
           "author": "Rachel Rabin",
@@ -1095,6 +1149,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/sof-elks-evolution-a-comprehensive-update-for-enhanced-digital-forensics",
+          "author": null,
+          "description": "A blog about the major updates to the SOF-ELK digital forensics and incident response tool.",
+          "link": "https://www.sans.org/blog/sof-elks-evolution-a-comprehensive-update-for-enhanced-digital-forensics?msc=rss",
+          "publishedOn": "2024-12-03T00:00:00.000Z",
+          "wordCount": 5707,
+          "title": "SOF-ELK®'s Evolution: A Comprehensive Update for Enhanced Digital Forensics",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/why-sec545-genai-and-llm-application-security",
           "author": null,
@@ -1314,6 +1378,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=110004",
+          "author": "LABScon",
+          "description": "Binarly’s Alex Matrosov and Fabio Pagani present PKfail, a firmware supply-chain security issue affecting major device vendors and hundreds of device models.",
+          "link": "https://www.sentinelone.com/labs/labscon24-replay-pkfail-supply-chain-failures-in-secure-boot-key-management/",
+          "publishedOn": "2024-12-03T16:15:30.000Z",
+          "wordCount": 6969,
+          "title": "LABScon24 Replay | PKfail: Supply-Chain Failures in Secure Boot Key Management",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2024/12/pkfail-ftr.jpg",
+            "length": "539312",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/12/pkfail-ftr.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=109618",
           "author": "LABScon",
           "description": "Dr. Cristina Cifuentes, known as the Mother of Decompilation, reflects on three decades of innovation in reverse engineering in her LABScon 2024 keynote.",
@@ -1380,6 +1459,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=18966",
+          "author": "Filippos Raditsas",
+          "description": "Or, “Yet another ransomware blog post?” “Yet another ransomware blog post?” I hear you asking. Well, yes! Besides, Ransomware attacks have been on the rise again costing affected organizations and industries more than ever. Let’s dive into some numbers to set the stage: According to IBM and Ponemon institute, in 2024, the average cost of a … Continue reading Building Cyber Resilience Against Ransomware Attacks →",
+          "link": "https://blog.nviso.eu/2024/12/03/building-cyber-resilience-against-ransomware-attacks/",
+          "publishedOn": "2024-12-03T09:37:21.000Z",
+          "wordCount": 4664,
+          "title": "Building Cyber Resilience Against Ransomware Attacks",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2024/11/Building_Cyber_Resilience_blog_FR.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=19009",
           "author": "Jonathan Prince",
