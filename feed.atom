@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-11T00:51:45.362Z</updated>
+    <updated>2024-12-12T00:51:27.819Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Auditing the Ruby ecosystem’s central package repository]]></title>
+        <id>https://blog.trailofbits.com/?p=108729</id>
+        <link href="https://blog.trailofbits.com/2024/12/11/auditing-the-ruby-ecosystems-central-package-repository/"/>
+        <updated>2024-12-11T14:00:59.000Z</updated>
+        <summary type="html"><![CDATA[Ruby Central hired Trail of Bits to complete a security assessment and a competitive analysis of RubyGems.org, the official package management system for Ruby applications. With over 184+ billion downloads to date, RubyGems.org is critical infrastructure for the Ruby language ecosystem. This is a joint post with the Ruby Central team; read their announcement here! […]]]></summary>
+        <author>
+            <name>Trail of Bits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enable Credential Guard on Windows Server 2025]]></title>
+        <id>https://4sysops.com/?p=1589619</id>
+        <link href="https://4sysops.com/archives/enable-credential-guard-on-windows-server-2025/"/>
+        <updated>2024-12-11T12:57:09.000Z</updated>
+        <summary type="html"><![CDATA[Credential Guard in Windows Server 2025 enhances security by isolating credentials using Virtualization-Based Security (VBS). To enable Credential Guard with PowerShell or Group Policy, ensure your systems meet the hardware and firmware requirements. After enabling Credential Guard, you can use PowerShell to verify its activation.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How easily access cards can be cloned and why your PACS might be vulnerable]]></title>
+        <id>https://www.pentestpartners.com/?p=30233</id>
+        <link href="https://www.pentestpartners.com/security-blog/how-easily-access-cards-can-be-cloned-and-why-your-pacs-might-be-vulnerable/"/>
+        <updated>2024-12-11T06:40:01.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Access cards can be cloned There are practical measures to make card cloning difficult Practical guidance on how these systems work and why you should make sure they’re configured […]
+How easily access cards can be cloned and why your PACS might be vulnerable first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Warren Houghton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SANS Cloud Security Curriculum]]></title>
+        <id>https://www.sans.org/blog/sans-cloud-security-curriculum</id>
+        <link href="https://www.sans.org/blog/sans-cloud-security-curriculum?msc=rss"/>
+        <updated>2024-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog outlining the SANS Cloud Security Curriculum offerings and resources.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflections on the US Government’s OIG Report on CISA’s Automated Indicator Sharing Program]]></title>
+        <id>https://www.sans.org/blog/reflections-on-the-us-governments-oig-report-on-cisas-automated-indicator-sharing-program</id>
+        <link href="https://www.sans.org/blog/reflections-on-the-us-governments-oig-report-on-cisas-automated-indicator-sharing-program?msc=rss"/>
+        <updated>2024-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog summarizing the US Government’s OIG report on CISA’s Automated Indicator Sharing program]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Promoting a Windows 2022 server to Domain Controller and DNS Server]]></title>
         <id>https://www.hexacorn.com/blog/?p=9714</id>
@@ -14,6 +66,26 @@
         <summary type="html"><![CDATA[I asked myself what tangible artifacts present on a file system can immediately tell us that the server system in place is a Domain Controller and/or DNS server. I decided to run a simple experiment. I installed a test version … Continue reading →]]></summary>
         <author>
             <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the Wells Fargo Public Bug Bounty Program]]></title>
+        <id>https://hackerone.com/customer-story/wells-fargo-public-bug-bounty</id>
+        <link href="https://www.hackerone.com/customer-story/wells-fargo-public-bug-bounty"/>
+        <updated>2024-12-10T22:58:21.000Z</updated>
+        <summary type="html"><![CDATA[Wells Fargo announces its public bug bounty program after several years of engaging the HackerOne community.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Six Years of Proactive Defense: Deribit’s Journey with HackerOne]]></title>
+        <id>https://hackerone.com/customer-story/deribit</id>
+        <link href="https://www.hackerone.com/customer-story/deribit"/>
+        <updated>2024-12-10T22:28:52.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Deribit uses its HackerOne bug bounty program for its proactive security strategy.]]></summary>
+        <author>
+            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
@@ -1187,67 +1259,6 @@ For November, Adobe released eight patches addressing 48 CVEs in Adobe Bridge, A
         <summary type="html"><![CDATA[Windows Server 2025 comes with SSH pre-installed, making secure remote server management easier for administrators. This is especially helpful when accessing servers from macOS or Linux machines or Windows computers not part of the Active Directory domain, as enabling PowerShell remoting can be complicated in this scenario. By default, SSH on Windows Server 2025 uses password authentication, which you should change to public key authentication for enhanced security.]]></summary>
         <author>
             <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Did security gaps at Antwerp port enable drug smuggling operations?]]></title>
-        <id>https://www.pentestpartners.com/?p=30095</id>
-        <link href="https://www.pentestpartners.com/security-blog/did-security-gaps-at-antwerp-port-enable-drug-smuggling-operations/"/>
-        <updated>2024-11-12T06:07:20.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Why hack shipping? For profit. Criminals have been proven to have hacked port systems to bypass security and facilitate drug smuggling. Evidence of hacking? Rarely reported, but cases like […]
-Did security gaps at Antwerp port enable drug smuggling operations? first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Ken Munro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Security Strategy: First Principles and Future Opportunities (Part 3 of 5), Modernizing Identity: Navigating Challenges and Embracing Cloud Solutions]]></title>
-        <id>https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-3-of-5-modernizing-identity-navigating-challenges-and-embracing-cloud-solutions</id>
-        <link href="https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-3-of-5-modernizing-identity-navigating-challenges-and-embracing-cloud-solutions?msc=rss"/>
-        <updated>2024-11-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part three of a five-part blog series on cloud security]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Security Strategy: First Principles and Future Opportunities (Part 2 of 5), Secure by Design: Elevating Security Beyond Defaults]]></title>
-        <id>https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-2-of-5-secure-by-design-elevating-security-beyond-defaults</id>
-        <link href="https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-2-of-5-secure-by-design-elevating-security-beyond-defaults?msc=rss"/>
-        <updated>2024-11-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part two of a five-part blog series on cloud security]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Security Strategy: First Principles and Future Opportunities (Part 4 of 5), Evolving Cloud Security with a Modern Approach]]></title>
-        <id>https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-4-of-5-evolving-cloud-security-with-a-modern-approach</id>
-        <link href="https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-4-of-5-evolving-cloud-security-with-a-modern-approach?msc=rss"/>
-        <updated>2024-11-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part four of a five-part blog series on cloud security]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Security Strategy: First Principles and Future Opportunities (Part 5 of 5), Key Insights from Cloud Security Experts: Straight Talk on Cloud Security]]></title>
-        <id>https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-5-of-5-key-insights-from-cloud-security-experts-straight-talk-on-cloud-security</id>
-        <link href="https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-5-of-5-key-insights-from-cloud-security-experts-straight-talk-on-cloud-security?msc=rss"/>
-        <updated>2024-11-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part five of a five-part blog series on cloud security]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Security Strategy: First Principles and Future Opportunities (Part 1 of 5), Building a Cloud Security Strategy: A Step-by-Step Guide]]></title>
-        <id>https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-1-of-5-building-a-cloud-security-strategy-a-step-by-step-guide</id>
-        <link href="https://www.sans.org/blog/cloud-security-strategy-first-principles-and-future-opportunities-part-1-of-5-building-a-cloud-security-strategy-a-step-by-step-guide?msc=rss"/>
-        <updated>2024-11-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Part one of a five-part blog series on cloud security]]></summary>
-        <author>
-            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
