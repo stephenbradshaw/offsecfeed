@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-12T00:51:27.819Z</updated>
+    <updated>2024-12-13T00:52:04.351Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windows Tooling Updates: OleView.NET]]></title>
+        <id>https://googleprojectzero.blogspot.com/2024/12/windows-tooling-updates-oleviewnet.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2024/12/windows-tooling-updates-oleviewnet.html"/>
+        <updated>2024-12-12T23:27:00.000Z</updated>
+        <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=XGMkxXUZTA64h2imyzu79g);.lst-kix_cb3mwjmcuxek-7>li:before{content:"\0025cb   "}.lst-kix_cb3mwjmcuxek-4>li:before{content:"\0025cb   "}.lst-kix_cb3mwjmcuxek-8>li:before{content:"\0025a0   "}ol.lst-kix_p89tpxkie3qv-7.start{counter-reset:lst-ctn-kix_p89tpxkie3qv-7 0}.lst-kix_cb3mwjmcuxek-3>li:before{content:"\0025cf   "}ul.lst-kix_cb3mwjmcuxek-3{list-style-type:none}ul.lst-kix_cb3mwjmcuxek-2{list-style-type:none}ul.lst-kix_cb3mwjmcuxek-5{list-style-type:none}.lst-kix_p89tpxkie3qv-1>li{counter-increment:lst-ctn-kix_p89tpxkie3qv-1}ul.lst-kix_cb3mwjmcuxek-4{list-style-type:none}.lst-kix_cb3mwjmcuxek-1>li:before{content:"\0025cb   "}.lst-kix_p9mqotz9vuw2-4>li:before{content:"\0025cb   "}ul.lst-kix_cb3mwjmcuxek-1{list-style-type:none}.…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolarWinds Access Rights Manager: One Vulnerability to LPE Them All]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6759e9ea060506033d4e531f</id>
+        <link href="https://www.thezdi.com/blog/2024/12/11/solarwinds-access-rights-manager-one-vulnerability-to-lpe-them-all"/>
+        <updated>2024-12-12T16:50:56.000Z</updated>
+        <summary type="html"><![CDATA[Some time ago, I spent some time researching a core SolarWinds product, SolarWinds Platform (previously Orion Platform). At that time, I hadn’t been aware of the SolarWinds Access Right Manager product (Solar Winds ARM).
+Afterward, Trend Micro’s Zero Day Initiative began receiving submissions of vulnerabilities in Access Rights Manager (ARM). The first submissions we received were from Sina Kheirkhah (@SinSinology), and one of those was a pre-auth RCE based on the .NET Remoting service. After his issues were patched, we received some additional, anonymous reports, in which pre-auth RCE was achieved via an unauthenticated gRPC/.NET Remoting based service on port 55555/tcp. An unauthenticated attacker was able to call its many methods, which were vulnerable mainly due to:
+·       Exposing da…]]></summary>
+        <author>
+            <name>Piotr Bazydło</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unwrapping BloodHound v6.3 with Impact Analysis]]></title>
+        <id>https://medium.com/p/acb44b5f0731</id>
+        <link href="https://posts.specterops.io/unwrapping-bloodhound-v6-3-with-impact-analysis-acb44b5f0731?source=rss----f05f8696e3cc---4"/>
+        <updated>2024-12-12T16:05:57.000Z</updated>
+        <summary type="html"><![CDATA[Just in time for the holidays, sharper tools for faster defense]]></summary>
+        <author>
+            <name>Justin Kohler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Subsystem for Linux (WSL) update: Red Hat support, tar-based distros, Intune and Entra integration]]></title>
+        <id>https://4sysops.com/?p=1589727</id>
+        <link href="https://4sysops.com/archives/windows-subsystem-for-linux-wsl-update-red-hat-support-tar-based-distros-intune-and-entra-integration/"/>
+        <updated>2024-12-12T15:05:34.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has rolled out significant updates to Windows Subsystem for Linux (WSL), enhancing its usability and security. This update introduces the official Red Hat Enterprise Linux (RHEL) distribution, simplifies installation with tar-based distros, and revamps the Getting Started experience with helpful documentation and tool integration. Enterprise users benefit from improved compliance and security through Intune and Microsoft Entra integration. Additionally, WSL version 2.4.4 unlocks these features, providing a smoother Linux experience within Windows.
+Source]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Favorite Pen Testing Tools: 2024 Edition]]></title>
+        <id>https://bishopfox.com/blog/pen-testing-tools-2024</id>
+        <link href="https://bishopfox.com/blog/pen-testing-tools-2024"/>
+        <updated>2024-12-12T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's time for another hacking tool roundup! We’ve polled our team of experts to bring you the most powerful and innovative penetration testing tools.]]></summary>
+        <author>
+            <name>Bishop Fox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DORA's Role in Enhancing Cybersecurity for EU Finance]]></title>
+        <id>https://www.sans.org/blog/doras-role-in-enhancing-cybersecurity-for-eu-finance</id>
+        <link href="https://www.sans.org/blog/doras-role-in-enhancing-cybersecurity-for-eu-finance?msc=rss"/>
+        <updated>2024-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about the EU's new financial sector cybersecurity regulations, DORA and TIBER-EU]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Auditing the Ruby ecosystem’s central package repository]]></title>
         <id>https://blog.trailofbits.com/?p=108729</id>
@@ -1227,38 +1290,6 @@ The post Hunting SMB Shares, Again! Charts, Graphs, Passwords & LLM Magic for Po
 The post Skeletons in the Closet: Legacy Software, Novel Exploits appeared first on Praetorian.]]></summary>
         <author>
             <name>Kenneth King</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Killing Filecoin nodes]]></title>
-        <id>https://blog.trailofbits.com/?p=108565</id>
-        <link href="https://blog.trailofbits.com/2024/11/13/killing-filecoin-nodes/"/>
-        <updated>2024-11-13T11:00:12.000Z</updated>
-        <summary type="html"><![CDATA[By Simone Monica In January, we identified and reported a vulnerability in the Lotus and Venus clients of the Filecoin network that allowed an attacker to remotely crash a node and trigger a denial of service. This issue is caused by an incorrect validation of an index, resulting in an index out-of-range panic. The vulnerability […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The November 2024 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67338c6b810f105d40a5543a</id>
-        <link href="https://www.thezdi.com/blog/2024/11/12/the-november-2024-security-update-review"/>
-        <updated>2024-11-12T18:26:35.000Z</updated>
-        <summary type="html"><![CDATA[It’s not quite the holiday season, despite what some early decorators will have you believe. It is the second Tuesday of the month, and that means Adobe and Microsoft have released their regularly scheduled updates. Take a break from your regular activities and join us as we review the details of their latest security alerts.If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for November 2024
-For November, Adobe released eight patches addressing 48 CVEs in Adobe Bridge, Audition, After Effects, Substance 3D Painter, Illustrator, InDesign, Photoshop, and Commerce. The largest of these fixes is for Substance 3D Painter with 22 Critical and Important CVEs. The next largest is the patch for Illustrator, with nine CVEs addressed. The…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install and enable SSH on Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1588720</id>
-        <link href="https://4sysops.com/archives/install-and-enable-ssh-on-windows-server-2025/"/>
-        <updated>2024-11-12T14:46:32.000Z</updated>
-        <summary type="html"><![CDATA[Windows Server 2025 comes with SSH pre-installed, making secure remote server management easier for administrators. This is especially helpful when accessing servers from macOS or Linux machines or Windows computers not part of the Active Directory domain, as enabling PowerShell remoting can be complicated in this scenario. By default, SSH on Windows Server 2025 uses password authentication, which you should change to public key authentication for enhanced security.]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>
