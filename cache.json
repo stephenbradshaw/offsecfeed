@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/8a9828b72dbf",
+          "author": "Joshua Prager",
+          "description": "TL;DR: The Misconfiguration Manager DETECT section has been updated with relevant guidance to help defensive operators identify the most…",
+          "link": "https://posts.specterops.io/misconfiguration-manager-detection-updates-8a9828b72dbf?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2024-12-16T15:42:31.000Z",
+          "wordCount": 3293,
+          "title": "Misconfiguration Manager: Detection Updates",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*lQvAKXfCZ_-R8lbGgq8yhg.png"
+        },
+        {
           "id": "https://medium.com/p/c9cf8c4fb4ee",
           "author": "hotnops",
           "description": "This is part one in a two (maybe three…) part series regarding attacker tradecraft around the syncing mechanics between Active Directory…",
@@ -81,6 +91,16 @@
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2024/12/qualcomm-dsp-driver-unexpectedly-excavating-exploit.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=XGMkxXUZTA64h2imyzu79g);.lst-kix_mz24o9o07kqy-1>li{counter-increment:lst-ctn-kix_mz24o9o07kqy-1}.lst-kix_d27lror3sq5g-6>li:before{content:\"\" counter(lst-ctn-kix_d27lror3sq5g-6,decimal) \". \"}.lst-kix_d27lror3sq5g-7>li:before{content:\"\" counter(lst-ctn-kix_d27lror3sq5g-7,lower-latin) \". \"}ol.lst-kix_d27lror3sq5g-5.start{counter-reset:lst-ctn-kix_d27lror3sq5g-5 0}.lst-kix_d27lror3sq5g-4>li:before{content:\"\" counter(lst-ctn-kix_d27lror3sq5g-4,lower-latin) \". \"}.lst-kix_d27lror3sq5g-5>li:before{content:\"\" counter(lst-ctn-kix_d27lror3sq5g-5,lower-roman) \". \"}.lst-kix_d27lror3sq5g-8>li:before{content:\"\" counter(lst-ctn-kix_d27lror3sq5g-8,lower-roman) \". \"}ul.lst-kix_klp6u7xplfnr-0{list-style-type:none}ul.lst-kix_klp6u7xplfnr-1{list-st…",
+          "link": "https://googleprojectzero.blogspot.com/2024/12/qualcomm-dsp-driver-unexpectedly-excavating-exploit.html",
+          "publishedOn": "2024-12-16T06:11:00.000Z",
+          "wordCount": 10845,
+          "title": "The Qualcomm DSP Driver - Unexpectedly Excavating an Exploit",
+          "imageUrl": null
+        },
         {
           "id": "https://googleprojectzero.blogspot.com/2024/12/windows-tooling-updates-oleviewnet.html",
           "author": null,
@@ -239,6 +259,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/public-policy/new-york-ai-cybersecurity-guidance",
+          "author": "Ilona Cohen",
+          "description": "What does New York's new AI Cybersecurity Guidance mean for financial institutions and other regulated companies?",
+          "link": "https://www.hackerone.com/public-policy/new-york-ai-cybersecurity-guidance",
+          "publishedOn": "2024-12-16T21:37:58.000Z",
+          "wordCount": 1765,
+          "title": "New York Releases AI Cybersecurity Guidance: What You Need to Know",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-12/BlogImages_763x462_BlogImage_Policy-8.png"
+        },
         {
           "id": "https://hackerone.com/penetration-testing/azure-cloud-configuration-review",
           "author": "Paul De Baldo V",
@@ -610,6 +640,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2024/12/16/unsafe-unpacking.html",
+          "author": null,
+          "description": "Introduction\nDuring my recent internship with Doyensec, I had the opportunity to research decompression attacks across different programming languages. As the use of archive file formats is widespread in software development, it is crucial for developers to understand the potential security risks involved in handling these files.\nThe objective of my research was to identify, analyze, and detect vulnerable implementations in several popular programming languages used for web and app development, including Python, Ruby, Swift, Java, PHP, and JavaScript. These languages have libraries for archive decompression that, when used improperly, may potentially lead to vulnerabilities.\nTo demonstrate the risk of unsafe unpacking, I created proof-of-concept (PoC) code with different vulnerable impleme…",
+          "link": "https://blog.doyensec.com/2024/12/16/unsafe-unpacking.html",
+          "publishedOn": "2024-12-15T23:00:00.000Z",
+          "wordCount": 2617,
+          "title": "Unsafe Archive Unpacking: Labs and Semgrep Rules",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2024/12/03/cspt-with-eval-villain.html",
           "author": null,
           "description": "Doyensec’s Maxence Schmitt recently built a\nplayground to go with his\nCSPT research. In this blog post, we will demonstrate how to find and exploit CSPT bugs with Eval Villain. For this purpose, we will leverage the second challenge of Maxence’s playground.\nA step-by-step intro to CSPT with Eval Villain\nThe next image shows what this methodology yields.\n\n\n\nWe’ve added some boxes and arrows in orange to better illustrate the current situation. First,\nEval Villain saw that part of the page’s path is being used in a fetch request.\nThere, you can plainly see the asdf%2f.. was being URL decoded. Or if you prefer, you can expanded\nthe “Encoder function” group to check. Either way, Eval Villain had discovered the CSPT sink.\nThe second square is on top of a debug statement from evSourcer. This was…",
@@ -787,6 +827,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1589836",
+          "author": "Wolfgang Sommergut",
+          "description": "In an Active Directory domain, it is crucial to sync the system time across all computers as accurately as possible. Since the 2016 version, Windows Server can greatly minimize discrepancies in system clocks. This feature, referred to as Accurate Time, can be configured with Group Policy settings, provided that specific conditions are fulfilled.\nSource",
+          "link": "https://4sysops.com/archives/configure-computers-in-an-active-directory-domain-for-accurate-time-sync/",
+          "publishedOn": "2024-12-16T10:13:12.000Z",
+          "wordCount": 5319,
+          "title": "Configure computers in an Active Directory domain for accurate time sync",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/Time-synchronization-between-computers-in-an-AD-domain-600x391.png"
+        },
         {
           "id": "https://4sysops.com/?p=1589780",
           "author": "Wolfgang Sommergut",
@@ -1099,16 +1149,6 @@
           "wordCount": 1181,
           "title": "How to debug Windows service processes in the most old-school possible way…",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=9657",
-          "author": "adam",
-          "description": "Sometimes ‘research’ means browsing the folders of the ‘installed ‘target’ and… just executing programs present inside these directories to see what they do. During this very engaging and fascinating activity I noticed that the program: c:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\OSSLLibs\\AdobeFips.exe … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2024/11/16/adobefips-adobe-reader-lolbin/",
-          "publishedOn": "2024-11-16T18:12:32.000Z",
-          "wordCount": 591,
-          "title": "AdobeFips – Adobe Reader Lolbin",
-          "imageUrl": null
         }
       ]
     },
@@ -1368,6 +1408,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2024/security-probllms-in-xai-grok/",
+          "author": null,
+          "description": "Grok is the chatbot of xAI. It’s a state-of-the-art model, chatbot and recently also API. It has a Web UI and is integrated into the X (former Twitter) app, and recently it’s also accessible via an API.\nSince this post is a bit longer, I’m adding an index for convenience:\nTable of Contents  High Level Overview Analyzing Grok’s System Prompt Prompt Injection from Other User’s Posts Prompt Injection from Images Prompt Injection from PDFs Conditional Prompt Injection and Targeted Disinformation Data Exfiltration - End-to-End Demonstration Rendering of Clickable Hyperlinks to Phishing Sites ASCII Smuggling - Crafting Invisible Text and Decoding Hidden Secrets  Hidden Prompt Injection Creation of Invisible Text Grok API is also Vulnerable to ASCII Smuggling Developer Guidance for Grok API   Automatic Tool Invocation Responsible Disclosure Conclusion  High Level Overview Over the last year I have used Grok quite a bit.",
+          "link": "https://embracethered.com/blog/posts/2024/security-probllms-in-xai-grok/",
+          "publishedOn": "2024-12-16T12:44:57.000Z",
+          "wordCount": 2303,
+          "title": "Security ProbLLMs in xAI's Grok: A Deep Dive",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2024/terminal-dillmas-prompt-injection-ansi-sequences/",
           "author": null,
