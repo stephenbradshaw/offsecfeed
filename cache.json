@@ -465,6 +465,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6760a1b82fda600cc86523c7",
+          "author": "Dmitry Janushkevich",
+          "description": "The Tesla Wall Connector is a Level 2 electric vehicle charge station designed for use by residential home users. The device has a minimal user interface in its hardware, providing a Wi-Fi based interface for configuration and an NFC reader for user authentication. The device does not come with a dedicated mobile application out of the box; the initial configuration—which is rather minimal—is performed via the web interface. After that, the device suggests the Tesla One app is to be used for further configuration. The Tesla app allows connecting to the device but apparently can only be used to perform a few functions such as scheduled charging and viewing information about the device. It does not offer options for further configuration.\nAt the moment of writing, the latest software version…",
+          "link": "https://www.thezdi.com/blog/2024/12/16/detailing-the-attack-surfaces-of-the-tesla-wall-connector-ev-charger",
+          "publishedOn": "2024-12-17T16:49:57.000Z",
+          "wordCount": null,
+          "title": "Detailing the Attack Surfaces of the Tesla Wall Connector EV Charger",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6759e9ea060506033d4e531f",
           "author": "Piotr Bazydło",
           "description": "Some time ago, I spent some time researching a core SolarWinds product, SolarWinds Platform (previously Orion Platform). At that time, I hadn’t been aware of the SolarWinds Access Right Manager product (Solar Winds ARM).\nAfterward, Trend Micro’s Zero Day Initiative began receiving submissions of vulnerabilities in Access Rights Manager (ARM). The first submissions we received were from Sina Kheirkhah (@SinSinology), and one of those was a pre-auth RCE based on the .NET Remoting service. After his issues were patched, we received some additional, anonymous reports, in which pre-auth RCE was achieved via an unauthenticated gRPC/.NET Remoting based service on port 55555/tcp. An unauthenticated attacker was able to call its many methods, which were vulnerable mainly due to:\n·       Exposing da…",
@@ -827,6 +838,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1589908",
+          "author": "Surender Kumar",
+          "description": "Proxmox Virtual Environment (VE), a popular open-source platform for managing virtualized infrastructure, introduces a long-awaited OVA import feature in version 8.3. This update streamlines transferring virtual machines from other hypervisors to your Proxmox setup. However, the Import Wizard introduced in Proxmox 8.2 is likely a more suitable choice for migrating VMware VMs to Proxmox. This post details how to export and import an Oracle VirtualBox VM into Proxmox using the new OVA import feature.\nSource",
+          "link": "https://4sysops.com/archives/ova-import-in-proxmox-83/",
+          "publishedOn": "2024-12-17T15:59:47.000Z",
+          "wordCount": 5429,
+          "title": "OVA import in Proxmox 8.3",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/Advanced-guest-import-settings-in-Proxmox-600x404.png"
+        },
         {
           "id": "https://4sysops.com/?p=1589836",
           "author": "Wolfgang Sommergut",
@@ -1390,16 +1411,6 @@
           "wordCount": 3980,
           "title": "SANS Threat Analysis Rundown in Review: Breaking Down November 2024’s Top Threats",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/women-in-russian-speaking-cybercrime-mythical-creatures-or-significant-members-of-underground",
-          "author": null,
-          "description": "A blog detailing in-depth research into women in Russian-speaking cybercrime.",
-          "link": "https://www.sans.org/blog/women-in-russian-speaking-cybercrime-mythical-creatures-or-significant-members-of-underground?msc=rss",
-          "publishedOn": "2024-11-18T00:00:00.000Z",
-          "wordCount": 14116,
-          "title": "Women In Russian-Speaking Cybercrime: Mythical Creatures or Significant Members of Underground?",
-          "imageUrl": null
         }
       ]
     },
@@ -1628,6 +1639,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/principles-for-the-new-platform",
+          "author": "Aaron Symanski",
+          "description": "In 2023, Bishop Fox reengineered Cosmos to give security teams the speed, scale, and flexibility needed to tackle growing attack surface challenges.",
+          "link": "https://bishopfox.com/blog/principles-for-the-new-platform",
+          "publishedOn": "2024-12-17T13:00:00.000Z",
+          "wordCount": 2192,
+          "title": "Cosmos Series Part 1: Principles for the New Platform",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/Pt1_OG.jpg?mtime=1733946994"
+        },
         {
           "id": "https://bishopfox.com/blog/state-sonicwall-exposure-firmware-decryption-unlocks-insights",
           "author": "Bishop Fox",
