@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-20T00:46:07.489Z</updated>
+    <updated>2024-12-21T00:45:17.029Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 146]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9731</id>
+        <link href="https://www.hexacorn.com/blog/2024/12/20/beyond-good-ol-run-key-part-146/"/>
+        <updated>2024-12-20T13:17:09.000Z</updated>
+        <summary type="html"><![CDATA[I did consider writing about: C:\Windows\System32\WptsExtensions.dll but this phantom DLL has been documented all over the place, so let’s look at a different one: C:\Windows\System32\XboxNetApiSvcExtHost.dll It’s loaded by svchost.exe on Windows 11 24H2 and Windows Server 2022.]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Change Gmail password in Outlook]]></title>
+        <id>https://4sysops.com/?p=1589592</id>
+        <link href="https://4sysops.com/archives/change-gmail-password-in-outlook/"/>
+        <updated>2024-12-20T12:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Several authentication methods are available when using Outlook as an IMAP client for Gmail. Older versions typically rely on username and password, while newer clients support more modern, secure approaches. However, users frequently face challenges accessing their mailbox if a Google account password changes.
+Source]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practice being punched in the face. The realities of incident response preparation]]></title>
+        <id>https://www.pentestpartners.com/?p=30256</id>
+        <link href="https://www.pentestpartners.com/security-blog/practice-being-punched-in-the-face-the-realities-of-incident-response-preparation/"/>
+        <updated>2024-12-20T06:57:00.000Z</updated>
+        <summary type="html"><![CDATA[“Everyone has a plan until they get punched in the face.” This Mike Tyson boxing quote perfectly encapsulates the chaos of a cybersecurity breach. TL;DR Accept that you will get […]
+Practice being punched in the face. The realities of incident response preparation first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Luke Davis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 145]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9729</id>
+        <link href="https://www.hexacorn.com/blog/2024/12/20/beyond-good-ol-run-key-part-145/"/>
+        <updated>2024-12-20T00:46:42.000Z</updated>
+        <summary type="html"><![CDATA[Windows Server 2022 launches ctfmon.exe during its start and this process’ DLL dependencies lead to an execution path that loads a phantom (non-existing) library: C:\Windows\System32\LangDownloader.dll So, you can drop your own and enjoy your stay!]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windows Server 2022 and MsMpEng.exe]]></title>
         <id>https://www.hexacorn.com/blog/?p=9727</id>
@@ -14,6 +56,16 @@
         <summary type="html"><![CDATA[Running Procmon in a boot mode is a very powerful research tool. In this short post I want to share a Procmon boot log of MsMpEng.exe (Windows Defender process) where we clearly see it is attempting to access a lot … Continue reading →]]></summary>
         <author>
             <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC587: Advanced Open-Source Intelligence Course Update – What’s New?]]></title>
+        <id>https://www.sans.org/blog/sec587-advanced-open-source-intelligence-course-update-whats-new</id>
+        <link href="https://www.sans.org/blog/sec587-advanced-open-source-intelligence-course-update-whats-new?msc=rss"/>
+        <updated>2024-12-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about the ipdate to the SANS SEC587 OSINT course.]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -1283,67 +1335,6 @@ All information has been obtained through reverse engineering, experimenting, an
 Source]]></summary>
         <author>
             <name>Baki Onur Okutucu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DPRK IT Workers | A Network of Active Front Companies and Their Links to China]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=109228</id>
-        <link href="https://www.sentinelone.com/labs/dprk-it-workers-a-network-of-active-front-companies-and-their-links-to-china/"/>
-        <updated>2024-11-21T10:55:47.000Z</updated>
-        <summary type="html"><![CDATA[SentinelLabs has identified multiple deceptive websites linked to businesses in China fronting for North Korea's fake IT workers scheme.]]></summary>
-        <author>
-            <name>Tom Hegel &amp; Dakota Cary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quickpost: The Electric Energy Consumption Of A Soundbar]]></title>
-        <id>http://blog.didierstevens.com/?p=10608</id>
-        <link href="https://blog.didierstevens.com/2024/11/21/quickpost-the-electric-energy-consumption-of-a-soundbar/"/>
-        <updated>2024-11-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I have a Samsung Neo QLED 65 inch TV. Its standby power consumption is pretty good: 1,3 Watt. It comes with a soundbar, and its standby power consumption is pretty awful: 5,5 Watt! Quickpost info]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: base64dump.py Version 0.0.26]]></title>
-        <id>http://blog.didierstevens.com/?p=10606</id>
-        <link href="https://blog.didierstevens.com/2024/11/20/update-base64dump-py-version-0-0-26/"/>
-        <updated>2024-11-20T20:04:37.000Z</updated>
-        <summary type="html"><![CDATA[This is a bugfix version. base64dump_V0_0_26.zip (http)MD5: CD4370499288015C7EE13B59CB062129SHA256: 3EEB76875ECCA782293D4486286F8155D1BB04DF23E3D3433E36C6373389B81D]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Inadequate Authentication Logic Led to an MFA Bypass and Account Takeover]]></title>
-        <id>https://hackerone.com/how-inadequate-authentication-logic-led-mfa-bypass-and-account-takeover</id>
-        <link href="https://www.hackerone.com/how-inadequate-authentication-logic-led-mfa-bypass-and-account-takeover"/>
-        <updated>2024-11-20T17:49:14.000Z</updated>
-        <summary type="html"><![CDATA[Learn how inadequate authentication logic led to an MFA bypass, plus 11 authentication best practices to prevent vulnerabilities like these.]]></summary>
-        <author>
-            <name>Andrew Pratt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Key Vault Tradecraft with BARK]]></title>
-        <id>https://medium.com/p/24163abc8de3</id>
-        <link href="https://posts.specterops.io/azure-key-vault-tradecraft-with-bark-24163abc8de3?source=rss----f05f8696e3cc---4"/>
-        <updated>2024-11-20T17:43:32.000Z</updated>
-        <summary type="html"><![CDATA[This post details the existing and new functions in BARK that support Azure Key Vault tradecraft research]]></summary>
-        <author>
-            <name>Andy Robbins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Windows Sandbox: Configuration options with GUI and CLI]]></title>
-        <id>https://4sysops.com/?p=1589010</id>
-        <link href="https://4sysops.com/archives/new-windows-sandbox-configuration-options-with-gui-and-cli/"/>
-        <updated>2024-11-20T13:54:39.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has recently enhanced Windows Sandbox, a feature that allows users to run applications in an isolated environment which enables you to safely test applications.
-Source]]></summary>
-        <author>
-            <name>Edem Afenyo</name>
         </author>
     </entry>
     <entry>
