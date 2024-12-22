@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-21T00:45:17.029Z</updated>
+    <updated>2024-12-22T00:51:24.525Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windows Server 2025 and MsMpEng.exe]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9737</id>
+        <link href="https://www.hexacorn.com/blog/2024/12/22/windows-server-2025-and-msmpeng-exe/"/>
+        <updated>2024-12-22T00:37:54.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post I have provided a long list of paths Windows Defender is trying to access when the Windows Server 2022 starts. Since the Windows Server 2025 is now available, I thought it would be interesting to repeat … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beyond good ol’ Run key, Part 146]]></title>
         <id>https://www.hexacorn.com/blog/?p=9731</id>
@@ -1268,73 +1278,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Debugging Service Processes on Windows is a bit tricky – the old IFO / Debugger trick doesn’t work anymore, because services run in their own session. Also, when you attempt to debug a service process by attaching your debugger to … Continue reading →]]></summary>
         <author>
             <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Entra Private Access: Replacing VPN]]></title>
-        <id>https://4sysops.com/?p=1588851</id>
-        <link href="https://4sysops.com/archives/microsoft-entra-private-access-replacing-vpn/"/>
-        <updated>2024-11-22T12:45:56.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Entra Private Access aims to replace traditional Virtual Private Networks (VPNs) while significantly enhancing security. Employing conditional access policies provides a more secure way to access private resources, ensuring only authorized users can connect to sensitive data and applications. In this blog, you will learn the critical features of Entra Private Access, how to configure it, and how to implement it together with conditional access policies.
-Source]]></summary>
-        <author>
-            <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interfacing With A Cheap Geiger Counter]]></title>
-        <id>http://blog.didierstevens.com/?p=10260</id>
-        <link href="https://blog.didierstevens.com/2024/11/22/interfacing-with-a-cheap-geiger-counter/"/>
-        <updated>2024-11-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I got a cheap Geiger counter from Aliexpress: This picture was taken on an airplane: you have more radiation (cosmic rays) at high altitude. I figured out how to interface with this counter in Python to log real time data:]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking Down the OWASP Top 10: Injection]]></title>
-        <id>https://hackerone.com/community/owasp-top-10-injection</id>
-        <link href="https://www.hackerone.com/community/owasp-top-10-injection"/>
-        <updated>2024-11-21T18:14:31.000Z</updated>
-        <summary type="html"><![CDATA[Gain insights into injection vulnerabilities, the different classifications, and potential security bypass techniques.]]></summary>
-        <author>
-            <name>Andrew Pratt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simple macOS kernel extension fuzzing in userspace with IDA and TinyInst]]></title>
-        <id>https://googleprojectzero.blogspot.com/2024/11/simple-macos-kernel-extension-fuzzing.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2024/11/simple-macos-kernel-extension-fuzzing.html"/>
-        <updated>2024-11-21T17:53:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizH4mR01TXY79of1zCqFsVTVk);.lst-kix_sm5qq1cfkkfw-5>li:before{content:"" counter(lst-ctn-kix_sm5qq1cfkkfw-5,lower-roman) ". "}.lst-kix_novl1in5rjiw-1>li:before{content:"-  "}.lst-kix_sm5qq1cfkkfw-3>li:before{content:"" counter(lst-ctn-kix_sm5qq1cfkkfw-3,decimal) ". "}.lst-kix_sm5qq1cfkkfw-4>li:before{content:"" counter(lst-ctn-kix_sm5qq1cfkkfw-4,lower-latin) ". "}.lst-kix_sm5qq1cfkkfw-2>li:before{content:"" counter(lst-ctn-kix_sm5qq1cfkkfw-2,lower-roman) ". "}.lst-kix_novl1in5rjiw-0>li:before{content:"-  "}ol.lst-kix_sm5qq1cfkkfw-0.start{counter-reset:lst-ctn-kix_sm5qq1cfkkfw-0 0}.lst-kix_sm5qq1cfkkfw-0>li:before{content:"" counter(lst-ctn-kix_sm5qq1cfkkfw-0,decimal) ". "}.lst-kix_sm5qq1cfkkfw-1>li:before{conte…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking at the Attack Surfaces of the Kenwood DMX958XR IVI]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:673e5fd5f4a4c577fa1a5d91</id>
-        <link href="https://www.thezdi.com/blog/2024/11/20/looking-at-the-attack-surfaces-of-the-kenwood-dmx958xr-ivi"/>
-        <updated>2024-11-21T16:52:56.000Z</updated>
-        <summary type="html"><![CDATA[In our previous Kenwood DMX958XR blog post, we detailed the internals of the Kenwood in-vehicle infotainment (IVI) head unit and provided annotated pictures of each PCB. In this post, we aim to outline the attack surface of the DMX958XR in the hopes of providing inspiration for vulnerability research. 
-We will cover the main supported technologies that present potential attack surfaces, such as USB, Bluetooth, Android Auto, Apple CarPlay, Kenwood apps, and more. We also provide a list of the open-source components the DMX958XR claims to use. 
-All information has been obtained through reverse engineering, experimenting, and combing through the following resources: 
-·      Kenwood DMX958XR Product Page
-·      Kenwood DMX958XR Instruction Manual [PDF] 
-·      Kenwood DMX958XR Quick Start Guid…]]></summary>
-        <author>
-            <name>Connor Ford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restrict access to Microsoft Copilot in Azure with PowerShell]]></title>
-        <id>https://4sysops.com/?p=1589096</id>
-        <link href="https://4sysops.com/archives/restrict-access-to-microsoft-copilot-in-azure-with-powershell/"/>
-        <updated>2024-11-21T12:52:54.000Z</updated>
-        <summary type="html"><![CDATA[Azure Copilot, now in preview, introduces AI capabilities to streamline tasks across the Azure platform. Given that Copilot can execute substantial actions within Azure, limiting access to authorized administrators is essential. This responsibility mainly falls on Global Administrators (GAs) in Microsoft Entra ID. The following is a step-by-step guide for managing Azure Copilot access through PowerShell to ensure secure and controlled usage.
-Source]]></summary>
-        <author>
-            <name>Baki Onur Okutucu</name>
         </author>
     </entry>
     <entry>
