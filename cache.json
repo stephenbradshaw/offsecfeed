@@ -368,16 +368,6 @@
           "wordCount": 1817,
           "title": "Why Retail and E-commerce Organizations Trust Security Researchers During the Holiday Shopping Season",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-11/retail%20black%20friday%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/penetration-testing/nis2-directive",
-          "author": "Sandeep Singh",
-          "description": "Learn about the new NIS2 Directive requirements and how to achieve compliance through pentesting, VDP, and bug bounty.",
-          "link": "https://www.hackerone.com/penetration-testing/nis2-directive",
-          "publishedOn": "2024-11-26T17:43:57.000Z",
-          "wordCount": 2009,
-          "title": "Network and Information Systems Directive (NIS2) Compliance: What You Need to Know",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-11/nis2%20blog%20header%402x.png"
         }
       ]
     },
@@ -737,6 +727,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1590181",
+          "author": "Mike Kanakos",
+          "description": "Microsoft has unveiled the first release candidate of PowerShell 7.5, with the General Availability (GA) launch expected in January or February 2025. This release candidate provides the most accurate preview of the upcoming final production version of PowerShell 7.5. This new version includes hundreds of changes, ranging from minor adjustments to major new features. In the following sections, we will discuss the key changes in this major PowerShell update.\nSource",
+          "link": "https://4sysops.com/archives/powershell-75-new-features/",
+          "publishedOn": "2024-12-26T14:56:18.000Z",
+          "wordCount": null,
+          "title": "PowerShell 7.5 new features",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1590199",
           "author": "Michael Pietroforte",
           "description": "A recent Anthropic paper reveals that AI models demonstrate deceptive behaviors, such as lying and bypassing oversight, highlighting why current alignment strategies often fail. For me, the results of this paper come as no surprise, as it's clear that AI models lie and exhibit deceptive behavior if this maximizes the reward signal given during alignment.\nSource",
@@ -945,16 +945,6 @@
           "wordCount": null,
           "title": "LAPS: Automatically create local admin accounts, use passphrases, activate rollback detection",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1589187",
-          "author": "Michael Pietroforte",
-          "description": "In May 2024, Microsoft introduced the Windows Recall, which captures screenshots of user activity. Following significant criticism over privacy and security concerns, its rollout faced multiple delays. Microsoft has now reintroduced Recall in the latest Windows 11 Insider Preview, making it available to Windows Insiders in the Dev Channel who use Copilot Plus PCs equipped with Qualcomm’s Snapdragon X series processors. Its reinstatement raises fresh concerns about whether such intrusive technology should exist at all, given its potential for misuse and privacy concerns.\nSource",
-          "link": "https://4sysops.com/archives/windows-recall-a-helpful-assistant-for-forgetful-users-or-a-security-and-privacy-nightmare/",
-          "publishedOn": "2024-11-26T12:54:11.000Z",
-          "wordCount": null,
-          "title": "Windows Recall: A helpful assitant for forgetful users or a security and privacy nightmare?",
-          "imageUrl": null
         }
       ]
     },
@@ -969,6 +959,36 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9763",
+          "author": "adam",
+          "description": "When you run MoNotificationUxStub.exe on Windows Server 2025, it will try to load the following non-existing library: C:\\Windows\\UUS\\amd64\\UMPDC.dll We can place our own, leading to the code execution: Same as in the previous case, TrustedInstaller rights are required to write … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2024/12/27/monotificationuxstub-exe-lolbin/",
+          "publishedOn": "2024-12-27T00:16:22.000Z",
+          "wordCount": 512,
+          "title": "MoNotificationUxStub.exe lolbin",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9760",
+          "author": "adam",
+          "description": "When you run MLEngineStub.exe on Windows 2025, it will try to locate the following non-existing executable: C:\\Windows\\UUS\\amd64\\MLEngine.exe So, if we place our own executable there, it will be launched: The only caveat – only TrustedInstaller can write to this folder.",
+          "link": "https://www.hexacorn.com/blog/2024/12/27/mlenginestub-exe-lolbin/",
+          "publishedOn": "2024-12-27T00:07:47.000Z",
+          "wordCount": 511,
+          "title": "MLEngineStub.exe lolbin",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=9757",
+          "author": "adam",
+          "description": "When you run la57setup.exe or OOBEFodSetup.exe on Windows Server 2025, they will try to load a non-existing library from the path below: C:\\Windows\\System32\\Dism\\MetaDeployProvider.dll",
+          "link": "https://www.hexacorn.com/blog/2024/12/26/la57setup-exe-lolbin/",
+          "publishedOn": "2024-12-26T23:44:11.000Z",
+          "wordCount": 498,
+          "title": "la57setup.exe & OOBEFodSetup.exe lolbin",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=9741",
           "author": "adam",
@@ -1181,16 +1201,6 @@
           "publishedOn": "2024-12-03T06:17:47.000Z",
           "wordCount": 2199,
           "title": "6 non tech things you wish you had done before being breached",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=30140",
-          "author": "Rachel Rabin",
-          "description": "TL;DR Take lessons learned from investigation, such as reviewing how emails evaded existing phishing controls to update anti-malware policies.   Configure Defender for Office and Defender for Cloud Apps threat and […]\nBEC-ware the Phish (part 3):  Detect and Prevent Incidents in M365 first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/bec-ware-the-phish-part-3-detect-and-prevent-incidents-in-m365/",
-          "publishedOn": "2024-11-27T06:31:08.000Z",
-          "wordCount": 3032,
-          "title": "BEC-ware the Phish (part 3):  Detect and Prevent Incidents in M365",
           "imageUrl": null
         }
       ]
@@ -1517,21 +1527,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/12/pkfail-ftr.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=109618",
-          "author": "LABScon",
-          "description": "Dr. Cristina Cifuentes, known as the Mother of Decompilation, reflects on three decades of innovation in reverse engineering in her LABScon 2024 keynote.",
-          "link": "https://www.sentinelone.com/labs/labscon24-replay-a-30-year-journey-from-compilation-student-to-decompilation-pioneer/",
-          "publishedOn": "2024-11-26T14:00:02.000Z",
-          "wordCount": 6897,
-          "title": "LABScon24 Replay | A 30-Year Journey from Compilation Student to Decompilation Pioneer",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2024/11/Cristina-ftr.jpg",
-            "length": "595795",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2024/11/Cristina-ftr.jpg"
         }
       ]
     },

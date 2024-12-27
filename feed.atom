@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-26T00:45:26.691Z</updated>
+    <updated>2024-12-27T00:45:51.355Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[MoNotificationUxStub.exe lolbin]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9763</id>
+        <link href="https://www.hexacorn.com/blog/2024/12/27/monotificationuxstub-exe-lolbin/"/>
+        <updated>2024-12-27T00:16:22.000Z</updated>
+        <summary type="html"><![CDATA[When you run MoNotificationUxStub.exe on Windows Server 2025, it will try to load the following non-existing library: C:\Windows\UUS\amd64\UMPDC.dll We can place our own, leading to the code execution: Same as in the previous case, TrustedInstaller rights are required to write … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MLEngineStub.exe lolbin]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9760</id>
+        <link href="https://www.hexacorn.com/blog/2024/12/27/mlenginestub-exe-lolbin/"/>
+        <updated>2024-12-27T00:07:47.000Z</updated>
+        <summary type="html"><![CDATA[When you run MLEngineStub.exe on Windows 2025, it will try to locate the following non-existing executable: C:\Windows\UUS\amd64\MLEngine.exe So, if we place our own executable there, it will be launched: The only caveat – only TrustedInstaller can write to this folder.]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[la57setup.exe & OOBEFodSetup.exe lolbin]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9757</id>
+        <link href="https://www.hexacorn.com/blog/2024/12/26/la57setup-exe-lolbin/"/>
+        <updated>2024-12-26T23:44:11.000Z</updated>
+        <summary type="html"><![CDATA[When you run la57setup.exe or OOBEFodSetup.exe on Windows Server 2025, they will try to load a non-existing library from the path below: C:\Windows\System32\Dism\MetaDeployProvider.dll]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PowerShell 7.5 new features]]></title>
+        <id>https://4sysops.com/?p=1590181</id>
+        <link href="https://4sysops.com/archives/powershell-75-new-features/"/>
+        <updated>2024-12-26T14:56:18.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has unveiled the first release candidate of PowerShell 7.5, with the General Availability (GA) launch expected in January or February 2025. This release candidate provides the most accurate preview of the upcoming final production version of PowerShell 7.5. This new version includes hundreds of changes, ranging from minor adjustments to major new features. In the following sections, we will discuss the key changes in this major PowerShell update.
+Source]]></summary>
+        <author>
+            <name>Mike Kanakos</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3 little secrets of netsh.exe]]></title>
         <id>https://www.hexacorn.com/blog/?p=9741</id>
@@ -1222,48 +1263,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Explore concerns around API security, its unique vulnerabilities, and the need for tailored protection against evolving threats in an API-driven world.]]></summary>
         <author>
             <name>Robert Punnett, Nicholas Beacham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BEC-ware the Phish (part 3):  Detect and Prevent Incidents in M365]]></title>
-        <id>https://www.pentestpartners.com/?p=30140</id>
-        <link href="https://www.pentestpartners.com/security-blog/bec-ware-the-phish-part-3-detect-and-prevent-incidents-in-m365/"/>
-        <updated>2024-11-27T06:31:08.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Take lessons learned from investigation, such as reviewing how emails evaded existing phishing controls to update anti-malware policies.   Configure Defender for Office and Defender for Cloud Apps threat and […]
-BEC-ware the Phish (part 3):  Detect and Prevent Incidents in M365 first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Rachel Rabin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Network and Information Systems Directive (NIS2) Compliance: What You Need to Know]]></title>
-        <id>https://hackerone.com/penetration-testing/nis2-directive</id>
-        <link href="https://www.hackerone.com/penetration-testing/nis2-directive"/>
-        <updated>2024-11-26T17:43:57.000Z</updated>
-        <summary type="html"><![CDATA[Learn about the new NIS2 Directive requirements and how to achieve compliance through pentesting, VDP, and bug bounty.]]></summary>
-        <author>
-            <name>Sandeep Singh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon24 Replay | A 30-Year Journey from Compilation Student to Decompilation Pioneer]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=109618</id>
-        <link href="https://www.sentinelone.com/labs/labscon24-replay-a-30-year-journey-from-compilation-student-to-decompilation-pioneer/"/>
-        <updated>2024-11-26T14:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Dr. Cristina Cifuentes, known as the Mother of Decompilation, reflects on three decades of innovation in reverse engineering in her LABScon 2024 keynote.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Recall: A helpful assitant for forgetful users or a security and privacy nightmare?]]></title>
-        <id>https://4sysops.com/?p=1589187</id>
-        <link href="https://4sysops.com/archives/windows-recall-a-helpful-assistant-for-forgetful-users-or-a-security-and-privacy-nightmare/"/>
-        <updated>2024-11-26T12:54:11.000Z</updated>
-        <summary type="html"><![CDATA[In May 2024, Microsoft introduced the Windows Recall, which captures screenshots of user activity. Following significant criticism over privacy and security concerns, its rollout faced multiple delays. Microsoft has now reintroduced Recall in the latest Windows 11 Insider Preview, making it available to Windows Insiders in the Dev Channel who use Copilot Plus PCs equipped with Qualcomm’s Snapdragon X series processors. Its reinstatement raises fresh concerns about whether such intrusive technology should exist at all, given its potential for misuse and privacy concerns.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
