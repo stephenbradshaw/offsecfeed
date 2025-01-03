@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-02T00:45:33.317Z</updated>
+    <updated>2025-01-03T00:45:58.659Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft 365 Copilot Generated Images Accessible Without Authentication -- Fixed!]]></title>
+        <id>https://embracethered.com/blog/posts/2025/m365-copilot-image-generation-without-authentication/</id>
+        <link href="https://embracethered.com/blog/posts/2025/m365-copilot-image-generation-without-authentication/"/>
+        <updated>2025-01-03T00:00:09.000Z</updated>
+        <summary type="html"><![CDATA[I regularly look at how the system prompts of chatbots change over time. Updates frequently highlight new features being added, design changes that occur and potential areas that might benefit from more security scrutiny.
+A few months back I noticed an interesting update to the M365 Copilot (BizChat) system prompt. In particular, there used to be one enterprise_search tool in the past. You might remember that tool was used during the Copirate ASCII Smuggling exploit to search for MFA codes in the user’s inbox.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SALT: Small Model Aided Large Model Training – Knowledge distillation during pre-training]]></title>
+        <id>https://4sysops.com/?p=1590456</id>
+        <link href="https://4sysops.com/archives/salt-small-model-aided-large-model-training-knowledge-distillation-during-pre-training/"/>
+        <updated>2025-01-02T16:14:46.000Z</updated>
+        <summary type="html"><![CDATA[In a recent paper, Google researchers discussed an interesting approach that reduces training time and computational cost while improving the quality of Large Language Models (LLMs). The SALT (Small Model Aided Large Model Training) method uses smaller models to guide the initial training phase of larger models through knowledge distillation (KD). SALTDS (SALT with Data Selection) extends this technique by identifying and prioritizing challenging but learnable training sequences for knowledge transfer during the KD phase.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overview of Content Published in December]]></title>
         <id>http://blog.didierstevens.com/?p=10635</id>
@@ -1046,96 +1068,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[HTTP cookies often control critical website features, but their long and convoluted history exposes them to parser discrepancy vulnerabilities. In this post, I'll explore some dangerous, lesser-known]]></summary>
         <author>
             <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The ABCs of Cybersecurity]]></title>
-        <id>https://www.sans.org/blog/the-abcs-of-cybersecurity</id>
-        <link href="https://www.sans.org/blog/the-abcs-of-cybersecurity?msc=rss"/>
-        <updated>2024-12-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New to cybersecurity? Start with the ABCs of Cybersecurity—a simple, beginner-friendly guide that breaks down key concepts like authentication, backups, and cloud security. From Active Defense to Zero Knowledge, learn the basics and prepare yourself for a successful journey in cybersecurity with this essential resource.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond Compliance: Achieving Cyber Resilience in the Financial Sector with DORA and TIBER-EU]]></title>
-        <id>https://www.sans.org/blog/beyond-compliance-achieving-cyber-resilience-in-the-financial-sector-with-dora-and-tiber-eu</id>
-        <link href="https://www.sans.org/blog/beyond-compliance-achieving-cyber-resilience-in-the-financial-sector-with-dora-and-tiber-eu?msc=rss"/>
-        <updated>2024-12-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the EU's new financial sector cybersecurity regulations, DORA and TIBER-EU]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hai’s Latest Evolution: Intelligence, Context, and More Intuitive UX]]></title>
-        <id>https://hackerone.com/ai/hai-program-insights</id>
-        <link href="https://www.hackerone.com/ai/hai-program-insights"/>
-        <updated>2024-12-03T20:56:31.000Z</updated>
-        <summary type="html"><![CDATA[Hai, HackerOne's AI copilot has 3 new capabilities: Hai analytics, contextual conversations, and an enhanced user experience.]]></summary>
-        <author>
-            <name>Martijn Russchen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detailing the Attack Surfaces of the WolfBox E40 EV Charger]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:674e26de0863404708c71882</id>
-        <link href="https://www.thezdi.com/blog/2024/12/2/detailing-the-attack-surfaces-of-the-wolfbox-e40-ev-charger"/>
-        <updated>2024-12-03T18:01:48.000Z</updated>
-        <summary type="html"><![CDATA[The WolfBox E40 is a Level 2 electric vehicle charge station designed for residential home use. Its hardware has a minimal user interface, providing a Bluetooth Low Energy (BLE) interface for configuration and an NFC reader for user authentication. Typical for this class of devices, the appliance employs a mobile application for the owner's installation and regular operation of the equipment.
-At the moment of writing, the software versions were reported as follows:
-·      Main module: 3.1.17
-·      MCU module: 1.2.6
-·      Mobile application: 1.0.3
-WolfBox EV Mobile Application
-The manufacturer distributes one application to configure and maintain the device. The application, named WolfBox EV, is available for both Android and iOS users.
-Figure 1 - Application Start Screen
-Interestingly, t…]]></summary>
-        <author>
-            <name>Dmitry Janushkevich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon24 Replay | PKfail: Supply-Chain Failures in Secure Boot Key Management]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=110004</id>
-        <link href="https://www.sentinelone.com/labs/labscon24-replay-pkfail-supply-chain-failures-in-secure-boot-key-management/"/>
-        <updated>2024-12-03T16:15:30.000Z</updated>
-        <summary type="html"><![CDATA[Binarly’s Alex Matrosov and Fabio Pagani present PKfail, a firmware supply-chain security issue affecting major device vendors and hundreds of device models.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable connected experiences that analyze your content in Microsoft 365 (MS Office)]]></title>
-        <id>https://4sysops.com/?p=1589369</id>
-        <link href="https://4sysops.com/archives/disable-connected-experiences-that-analyze-your-content-in-microsoft-365-ms-office/"/>
-        <updated>2024-12-03T15:10:26.000Z</updated>
-        <summary type="html"><![CDATA[A warning is circulating on social media regarding Microsoft utilizing customer data from its Microsoft 365 applications—such as Word, Excel, and Outlook—for training its AI models. Microsoft has addressed these concerns on X and Bluesky, which seems to have reassured most journalists who reported on the incident across various news platforms. Nonetheless, I highly advise disabling all "connected experiences that analyze your content" in your Office apps or for your entire organization via Group Policy.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CloudGoat Official Walkthrough Series: ‘sqs_flag_shop’]]></title>
-        <id>https://rhinosecuritylabs.com/?p=25427</id>
-        <link href="https://rhinosecuritylabs.com/research/cloudgoat-walkthrough-sqs_flag_shop/"/>
-        <updated>2024-12-03T14:05:00.000Z</updated>
-        <summary type="html"><![CDATA[The post CloudGoat Official Walkthrough Series: ‘sqs_flag_shop’ appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>John De Armas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Extracting Account Connectivity Credentials (ACCs) from Symantec Management Agent (aka Altiris)]]></title>
-        <id>https://www.mdsec.co.uk/?p=3568</id>
-        <link href="https://www.mdsec.co.uk/2024/12/extracting-account-connectivity-credentials-accs-from-symantec-management-agent-aka-altiris/"/>
-        <updated>2024-12-03T13:03:23.000Z</updated>
-        <summary type="html"><![CDATA[Introduction On a recent Red Team for a particularly hardened client, we were looking to escalate our privileges in order to move off the endpoint and pivot into the server...
-The post Extracting Account Connectivity Credentials (ACCs) from Symantec Management Agent (aka Altiris) appeared first on MDSec.]]></summary>
-        <author>
-            <name>Admin</name>
         </author>
     </entry>
     <entry>
