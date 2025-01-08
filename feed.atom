@@ -2,10 +2,131 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-05T00:51:50.113Z</updated>
+    <updated>2025-01-08T00:46:38.810Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Part 15: Function Type Categories]]></title>
+        <id>https://medium.com/p/5942e70e05ab</id>
+        <link href="https://posts.specterops.io/part-15-function-type-categories-5942e70e05ab?source=rss----f05f8696e3cc---4"/>
+        <updated>2025-01-07T16:06:36.000Z</updated>
+        <summary type="html"><![CDATA[Seven Ways to View API Functions]]></summary>
+        <author>
+            <name>Jared Atkinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmos Series Part 3: The Importance of Automation]]></title>
+        <id>https://bishopfox.com/blog/the-importance-of-automation</id>
+        <link href="https://bishopfox.com/blog/the-importance-of-automation"/>
+        <updated>2025-01-07T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how automation in code integration, deployment, and infrastructure management has streamlined our operations, enhanced deployment velocity, and improved the consistency of our deliverables.]]></summary>
+        <author>
+            <name>Aaron Symanski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ADFS — Living in the Legacy of DRS]]></title>
+        <id>https://medium.com/p/c11f9b371811</id>
+        <link href="https://posts.specterops.io/adfs-living-in-the-legacy-of-drs-c11f9b371811?source=rss----f05f8696e3cc---4"/>
+        <updated>2025-01-07T13:57:32.000Z</updated>
+        <summary type="html"><![CDATA[It’s no secret that Microsoft have been trying to move customers away from ADFS for a while. Short of slapping a “deprecated” label on it…]]></summary>
+        <author>
+            <name>Adam Chester</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Server 2025 Routing and Remote Access Services (RRAS)]]></title>
+        <id>https://4sysops.com/?p=1590538</id>
+        <link href="https://4sysops.com/archives/windows-server-2025-routing-and-remote-access-services-rras/"/>
+        <updated>2025-01-07T13:57:25.000Z</updated>
+        <summary type="html"><![CDATA[Routing and Remote Access Service (RRAS) provides secure remote connectivity and network management on Windows Server. With support for modern VPN protocols like SSTP and IKEv2, RRAS ensures encrypted connections, reliable routing, and seamless access to internal resources, making it ideal for hybrid and remote work environments. This guide covers the latest updates in Windows Server 2025, including changes to VPN protocol support and step-by-step instructions for configuration and optimization.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Non-tech things you wish you had done after being breached]]></title>
+        <id>https://www.pentestpartners.com/?p=30254</id>
+        <link href="https://www.pentestpartners.com/security-blog/10-non-tech-things-you-wish-you-had-done-after-being-breached/"/>
+        <updated>2025-01-07T06:45:53.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Non-tech aspects to breach follow-up are often overlooked but essential NDAs, supply chain, and third party contracts and obligations should be reviewed Reviewing communication protocols and employee training increases […]
+10 Non-tech things you wish you had done after being breached first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Luke Davis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Domination: Remote Controlling ChatGPT ZombAI Instances]]></title>
+        <id>https://embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/</id>
+        <link href="https://embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/"/>
+        <updated>2025-01-07T04:30:53.000Z</updated>
+        <summary type="html"><![CDATA[At Black Hat Europe I did a fun presentation titled SpAIware and More: Advanced Prompt Injection Exploits. Without diving into the details of the entire talk, the key point I was making is that prompt injection can impact all aspects of the CIA security triad.
+However, there is one part that I want to highlight explicitly:
+A Command and Control system (C2) that uses prompt injection to remote control ChatGPT instances.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ksmbd vulnerability research]]></title>
+        <id>https://blog.doyensec.com/2025/01/07/ksmbd-1.html</id>
+        <link href="https://blog.doyensec.com/2025/01/07/ksmbd-1.html"/>
+        <updated>2025-01-06T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+At Doyensec, we decided to perform a vulnerability research activity on the SMB3 Kernel Server (ksmbd), a component of the Linux kernel. Initially, it was enabled as an experimental feature, but in the kernel version 6.6, the experimental flag was removed, and it remains stable.
+Ksmbd splits tasks to optimize performance, handling critical file operations in kernel space and non-performance-related tasks, such as DCE/RPC and user account management, in user space via ksmbd.mountd. The server uses a multi-threaded architecture to efficiently process SMB requests in parallel, leveraging kernel worker threads for scalability and user-space integration for configuration and RPC handling.
+Ksmbd is not enabled by default, but it is a great target for learning the SMB protocol while …]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bypassing File Upload Restrictions To Exploit Client-Side Path Traversal]]></title>
+        <id>https://blog.doyensec.com/2025/01/07/cspt-file-upload.html</id>
+        <link href="https://blog.doyensec.com/2025/01/07/cspt-file-upload.html"/>
+        <updated>2025-01-06T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In my previous blog post, I demonstrated how a JSON file could be used as a gadget for Client-Side Path Traversal (CSPT) to perform Cross-Site Request Forgery (CSRF). That example was straightforward because no file upload restriction was enforced. However, real-world applications often impose restrictions on file uploads to ensure security.
+In this post, we’ll explore how to bypass some of these mechanisms to achieve the same goal. We’ll cover common file validation methods and how they can be subverted.
+Constraint
+In most scenarios, the gadget file will be parsed in the front-end using JSON.parse.
+It means that our file must be a valid input for JSON.parse.
+If we look at the V8 implementation. A valid JSON input is :
+a string
+a number
+true
+false
+null
+an array
+an object
+The parser skips s…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4sysops AI now with Google and Tavily search – Better than ChatGPT for IT]]></title>
+        <id>https://4sysops.com/?p=1590587</id>
+        <link href="https://4sysops.com/archives/4sysops-ai-now-with-google-and-tavily-search-better-than-chatgpt-for-it/"/>
+        <updated>2025-01-06T12:15:58.000Z</updated>
+        <summary type="html"><![CDATA[Not long ago, we used to "google" to find information online. With the rise of chatbots incorporating web search capabilities, a new phrase is becoming popular: "to chat it." 4sysops AI now utilizes Google or Tavily search to help solve your IT challenges. Initially, the AI determines the most effective search terms for your query. It subsequently reviews all the pages returned by the search engine to provide an answer tailored to your specific question, drawing from the retrieved context, its stored knowledge, and the entirety of your previous conversation. The model then provides links to the sources used to generate its answers, allowing you to verify any response. Whether you're still "googling" or ChatGPT Search has become your preferred answering machine, continue reading to discover why 4sysops AI, combined with integrated web search, is the best AI tool for addressing IT issues.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CIS Controls v8]]></title>
+        <id>https://www.sans.org/blog/cis-controls-v8</id>
+        <link href="https://www.sans.org/blog/cis-controls-v8?msc=rss"/>
+        <updated>2025-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn more about the CIS Critical Security Controls v8 released May 18, 2021.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft’s industry-specific small language models (SLM)]]></title>
         <id>https://4sysops.com/?p=1590299</id>
@@ -393,6 +514,16 @@ Source]]></summary>
         <summary type="html"><![CDATA[Max Smeets explores how ransomware groups leverage public reporting and why we must disrupt the trust dynamic between threat actors and victims.]]></summary>
         <author>
             <name>LABScon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The OWASP Top 10 for LLMs 2025: How GenAI Risks Are Evolving]]></title>
+        <id>https://hackerone.com/ai/owasp-top-10-llms-2025</id>
+        <link href="https://www.hackerone.com/ai/owasp-top-10-llms-2025"/>
+        <updated>2024-12-18T21:19:47.000Z</updated>
+        <summary type="html"><![CDATA[The new OWASP Top 10 for LLMs is here. How has it changed, and how can organizations prevent GenAI risks?]]></summary>
+        <author>
+            <name>Manjesh S.</name>
         </author>
     </entry>
     <entry>
@@ -925,78 +1056,6 @@ In this second blogpost in our "Ransomware Readiness" series, we'll look into ho
 Source]]></summary>
         <author>
             <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bishop Fox ASM Delivers 24-Hour Head Start Against Critical PAN-OS Vulnerability]]></title>
-        <id>https://bishopfox.com/blog/bishop-fox-delivers-24-hour-head-start-against-critical-vulnerability</id>
-        <link href="https://bishopfox.com/blog/bishop-fox-delivers-24-hour-head-start-against-critical-vulnerability"/>
-        <updated>2024-12-09T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bishop Fox ASM team gives customers a 24-hour head start against critical PAN-OS vulnerability]]></summary>
-        <author>
-            <name>Caleb Gross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making sure your door access control system is secure: Top 5 things to check]]></title>
-        <id>https://www.pentestpartners.com/?p=30201</id>
-        <link href="https://www.pentestpartners.com/security-blog/making-sure-your-door-access-control-system-is-secure-top-5-things-to-check/"/>
-        <updated>2024-12-09T06:49:37.000Z</updated>
-        <summary type="html"><![CDATA[Your door access control system (aka a physical access control system or PACS), also referred to as RFID cards or ‘swipe’ cards often have a poor reputation for being vulnerable […]
-Making sure your door access control system is secure: Top 5 things to check first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Warren Houghton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Your Organisation Ready for the DORA Deadline?]]></title>
-        <id>https://www.sans.org/blog/is-your-organisation-ready-for-the-dora-deadline</id>
-        <link href="https://www.sans.org/blog/is-your-organisation-ready-for-the-dora-deadline?msc=rss"/>
-        <updated>2024-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the EU's new financial sector cybersecurity regulations, DORA and TIBER-EU]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Not installing the installers, part 4]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9707</id>
-        <link href="https://www.hexacorn.com/blog/2024/12/07/not-installing-the-installers-part-4/"/>
-        <updated>2024-12-07T00:32:10.000Z</updated>
-        <summary type="html"><![CDATA[This old series is not very exciting. Decompiling goodware installation scripts will never lead us to newsworthy discoveries – feel free to stop reading now. Many installers copy files, add/change registry keys and values, install services, drivers, and do all … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hack My Career: Saskia Braucher]]></title>
-        <id>https://hackerone.com/culture-and-talent/hack-my-career-saskia-braucher</id>
-        <link href="https://www.hackerone.com/culture-and-talent/hack-my-career-saskia-braucher"/>
-        <updated>2024-12-06T23:40:43.000Z</updated>
-        <author>
-            <name>Marina Briones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ExecCmd64 lolbin]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9704</id>
-        <link href="https://www.hexacorn.com/blog/2024/12/06/execcmd64-lolbin/"/>
-        <updated>2024-12-06T23:01:13.000Z</updated>
-        <summary type="html"><![CDATA[If you have ASRock Polychrome RGB installed on your system you may find this interesting executable in one of its subfolders: c:\Program Files (x86)\ASRock Utility\ASRRGBLED\HAL\ExecCmd64.exe It is signed: Verified: SignedSigning date: 2:11 AM 3/16/2023Publisher: ASROCK INC.Company: n/aDescription: n/aProduct: n/aProd version: … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Terminal DiLLMa: LLM-powered Apps Can Hijack Your Terminal Via Prompt Injection]]></title>
-        <id>https://embracethered.com/blog/posts/2024/terminal-dillmas-prompt-injection-ansi-sequences/</id>
-        <link href="https://embracethered.com/blog/posts/2024/terminal-dillmas-prompt-injection-ansi-sequences/"/>
-        <updated>2024-12-06T16:00:25.000Z</updated>
-        <summary type="html"><![CDATA[Last week Leon Derczynski described how LLMs can output ANSI escape codes. These codes, also known as control characters, are interpreted by terminal emulators and modify behavior.
-This discovery resonates with areas I had been exploring, so I took some time to apply, and build upon, these newly uncovered insights.
-ANSI Terminal Emulator Escape Codes Here is a simple example that shows how to render blinking, colorful text using control characters.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
