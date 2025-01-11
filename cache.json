@@ -77,7 +77,18 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "make-burp-suite-your-own-high-powered-extensibility-to-customize-and-enhance-your-testing",
+          "author": null,
+          "description": "Extensibility in Burp Suite is about giving you and your team the power to customize, enhance, and extend Burp Suite to match your testing needs and objectives. This comprises a powerful suite of tool",
+          "link": "https://portswigger.net/blog/make-burp-suite-your-own-high-powered-extensibility-to-customize-and-enhance-your-testing",
+          "publishedOn": "2025-01-10T15:53:34.000Z",
+          "wordCount": 1839,
+          "title": "Make Burp Suite your own: high-powered extensibility to customize and enhance your testing. 🛠️",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        }
+      ]
     },
     {
       "title": "PortSwigger Research",
@@ -324,6 +335,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67803a36dd20e30013a830cd",
+          "author": "Connor Ford",
+          "description": "In our previous Sony XAV-AX8500 blog post, we detailed the internals of the head unit and provided annotated pictures of each PCB. In this post we aim to outline the threat landscape of the XAV-AX8500 in the hopes of providing inspiration for vulnerability research.\nWe will cover the main supported technologies that present potential attack surfaces such as USB, Bluetooth, Android Auto, Apple CarPlay, and more. We will also look at some of the open-source components the XAV-AX8500 claims to use.\nAll information has been obtained through reverse engineering, experimenting, and combing through the following resources:\n·      Sony XAV-AX8500 Product Page\n·      Sony XAV-AX8500 Help Guide (PDF)\n·      Sony XAV-AX8500 Operating Instructions (PDF)\n USB\nThe XAV-AX8500 has a single USB-C port that…",
+          "link": "https://www.thezdi.com/blog/2025/1/9/looking-at-the-attack-surfaces-of-the-sony-xav-ax8500-part-2",
+          "publishedOn": "2025-01-10T16:13:26.000Z",
+          "wordCount": null,
+          "title": "Looking at the Attack Surfaces of the Sony XAV-AX8500 Part 2",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:677edc086debe420abb69ae0",
           "author": "Connor Ford",
           "description": "For the upcoming Pwn2Own Automotive contest a total of 4 head units have been selected. One of these is the single DIN Sony XAV-AX8500 that offers a variety of functionality such as wired and wireless Android Auto and Apple CarPlay as well as USB media playback and more. \nThis blog post presents internal photos of the XAV-AX8500 boards and highlights each of the interesting components.\nInternals\nAccessing the internals of the XAV-AX8500 involves removing a few screws and metal plates. Once the main chassis is open 3 interconnected boards are exposed that are connected via flat flexible cables. The main board is shown below.\nFigure 1: Main board (top)\nThe main application processor is an NXP i.MX 8M Mini with part number MIMX8MM6CVTKZAA. This is a powerful processor with 4 Cortex-A53 cores …",
@@ -526,18 +548,7 @@
       "title": "Trail of Bits Blog",
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
-      "articles": [
-        {
-          "id": "https://blog.trailofbits.com/?p=108729",
-          "author": "Trail of Bits",
-          "description": "Ruby Central hired Trail of Bits to complete a security assessment and a competitive analysis of RubyGems.org, the official package management system for Ruby applications. With over 184+ billion downloads to date, RubyGems.org is critical infrastructure for the Ruby language ecosystem. This is a joint post with the Ruby Central team; read their announcement here! […]",
-          "link": "https://blog.trailofbits.com/2024/12/11/auditing-the-ruby-ecosystems-central-package-repository/",
-          "publishedOn": "2024-12-11T14:00:59.000Z",
-          "wordCount": 3534,
-          "title": "Auditing the Ruby ecosystem’s central package repository",
-          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2024/12/ruby_authentication.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Sean Heelan's Blog",
@@ -633,6 +644,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1590757",
+          "author": "Michael Pietroforte",
+          "description": "In my previous post, I explained why o3 offers empirical evidence that we've hit the AI Wall. A separate question is whether o3's performance in the ARC benchmark suggests that OpenAI has achieved human-level intelligence or Artificial General Intelligence (AGI).\nSource",
+          "link": "https://4sysops.com/archives/does-arc-agi-measure-agi-and-is-openai-o3-a-human-level-intelligence/",
+          "publishedOn": "2025-01-10T13:12:38.000Z",
+          "wordCount": null,
+          "title": "Does ARC-AGI measure AGI, and is OpenAI o3 a human-level intelligence?",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1590642",
           "author": "Wolfgang Sommergut",
@@ -832,16 +853,6 @@
           "wordCount": 5043,
           "title": "Windows Subsystem for Linux (WSL) update: Red Hat support, tar-based distros, Intune and Entra integration",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/New-Getting-Started-window-600x383.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1589619",
-          "author": "Markus Elsberger",
-          "description": "Credential Guard in Windows Server 2025 enhances security by isolating credentials using Virtualization-Based Security (VBS). To enable Credential Guard with PowerShell or Group Policy, ensure your systems meet the hardware and firmware requirements. After enabling Credential Guard, you can use PowerShell to verify its activation.\nSource",
-          "link": "https://4sysops.com/archives/enable-credential-guard-on-windows-server-2025/",
-          "publishedOn": "2024-12-11T12:57:09.000Z",
-          "wordCount": 5011,
-          "title": "Enable Credential Guard on Windows Server 2025",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/Check-if-Credential-Guard-is-enabled-with-PowerShell-600x323.png"
         }
       ]
     },
@@ -1115,16 +1126,6 @@
           "wordCount": 5158,
           "title": "ICS Cybersecurity Awareness: Strengthening Critical Infrastructure Through Practical Skill Deployment",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/doras-role-in-enhancing-cybersecurity-for-eu-finance",
-          "author": null,
-          "description": "A blog about the EU's new financial sector cybersecurity regulations, DORA and TIBER-EU",
-          "link": "https://www.sans.org/blog/doras-role-in-enhancing-cybersecurity-for-eu-finance?msc=rss",
-          "publishedOn": "2024-12-12T00:00:00.000Z",
-          "wordCount": 5372,
-          "title": "DORA's Role in Enhancing Cybersecurity for EU Finance",
-          "imageUrl": null
         }
       ]
     },
@@ -1304,6 +1305,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/navigating-workplace-security-with-red-team-insights",
+          "author": "Alethe Denis",
+          "description": "Review how Red Team insights can shed light on gaps in physical security and play a pivotal role in enhancing workplace security during the continued transition back to office environments as we relearn verification, protocol, and authorization.",
+          "link": "https://bishopfox.com/blog/navigating-workplace-security-with-red-team-insights",
+          "publishedOn": "2025-01-10T16:00:00.000Z",
+          "wordCount": 2501,
+          "title": "Navigating Workplace Security: Red Team Insights for the Return to Office",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/BishopFox-Blog-Physical-Penetration-Tests-Return-Office-OG.jpg?mtime=1722280261"
+        },
+        {
           "id": "https://bishopfox.com/blog/cyber-mirage-deepfake-ai-social-engineering",
           "author": "Brandon Kovacs",
           "description": "Bishop Fox explores the escalating threat of AI-driven deepfakes in social engineering attacks, highlighting their potential to deceive individuals and organizations by impersonating trusted figures through hyper-realistic audio and video fabrications.",
@@ -1352,16 +1363,6 @@
           "wordCount": 4533,
           "title": "Current State of SonicWall Exposure: Firmware Decryption Unlocks New Insights",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/OG.jpg?mtime=1734050289"
-        },
-        {
-          "id": "https://bishopfox.com/blog/pen-testing-tools-2024",
-          "author": "Bishop Fox",
-          "description": "It's time for another hacking tool roundup! We’ve polled our team of experts to bring you the most powerful and innovative penetration testing tools.",
-          "link": "https://bishopfox.com/blog/pen-testing-tools-2024",
-          "publishedOn": "2024-12-12T08:00:00.000Z",
-          "wordCount": 2672,
-          "title": "Our Favorite Pen Testing Tools: 2024 Edition",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/BishopFox-Blog-Security-Book-Recommendations-2024-F.jpg?mtime=1729021819"
         }
       ]
     },

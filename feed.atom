@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-10T00:47:42.951Z</updated>
+    <updated>2025-01-11T00:46:30.705Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Looking at the Attack Surfaces of the Sony XAV-AX8500 Part 2]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67803a36dd20e30013a830cd</id>
+        <link href="https://www.thezdi.com/blog/2025/1/9/looking-at-the-attack-surfaces-of-the-sony-xav-ax8500-part-2"/>
+        <updated>2025-01-10T16:13:26.000Z</updated>
+        <summary type="html"><![CDATA[In our previous Sony XAV-AX8500 blog post, we detailed the internals of the head unit and provided annotated pictures of each PCB. In this post we aim to outline the threat landscape of the XAV-AX8500 in the hopes of providing inspiration for vulnerability research.
+We will cover the main supported technologies that present potential attack surfaces such as USB, Bluetooth, Android Auto, Apple CarPlay, and more. We will also look at some of the open-source components the XAV-AX8500 claims to use.
+All information has been obtained through reverse engineering, experimenting, and combing through the following resources:
+·      Sony XAV-AX8500 Product Page
+·      Sony XAV-AX8500 Help Guide (PDF)
+·      Sony XAV-AX8500 Operating Instructions (PDF)
+ USB
+The XAV-AX8500 has a single USB-C port that…]]></summary>
+        <author>
+            <name>Connor Ford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Navigating Workplace Security: Red Team Insights for the Return to Office]]></title>
+        <id>https://bishopfox.com/blog/navigating-workplace-security-with-red-team-insights</id>
+        <link href="https://bishopfox.com/blog/navigating-workplace-security-with-red-team-insights"/>
+        <updated>2025-01-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Review how Red Team insights can shed light on gaps in physical security and play a pivotal role in enhancing workplace security during the continued transition back to office environments as we relearn verification, protocol, and authorization.]]></summary>
+        <author>
+            <name>Alethe Denis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Make Burp Suite your own: high-powered extensibility to customize and enhance your testing. 🛠️]]></title>
+        <id>make-burp-suite-your-own-high-powered-extensibility-to-customize-and-enhance-your-testing</id>
+        <link href="https://portswigger.net/blog/make-burp-suite-your-own-high-powered-extensibility-to-customize-and-enhance-your-testing"/>
+        <updated>2025-01-10T15:53:34.000Z</updated>
+        <summary type="html"><![CDATA[Extensibility in Burp Suite is about giving you and your team the power to customize, enhance, and extend Burp Suite to match your testing needs and objectives. This comprises a powerful suite of tool]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does ARC-AGI measure AGI, and is OpenAI o3 a human-level intelligence?]]></title>
+        <id>https://4sysops.com/?p=1590757</id>
+        <link href="https://4sysops.com/archives/does-arc-agi-measure-agi-and-is-openai-o3-a-human-level-intelligence/"/>
+        <updated>2025-01-10T13:12:38.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post, I explained why o3 offers empirical evidence that we've hit the AI Wall. A separate question is whether o3's performance in the ARC benchmark suggests that OpenAI has achieved human-level intelligence or Artificial General Intelligence (AGI).
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Looking at the Attack Surfaces of the Sony XAV-AX8500]]></title>
         <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:677edc086debe420abb69ae0</id>
@@ -971,47 +1019,6 @@ Afterward, Trend Micro’s Zero Day Initiative began receiving submissions of vu
 Source]]></summary>
         <author>
             <name>Edem Afenyo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our Favorite Pen Testing Tools: 2024 Edition]]></title>
-        <id>https://bishopfox.com/blog/pen-testing-tools-2024</id>
-        <link href="https://bishopfox.com/blog/pen-testing-tools-2024"/>
-        <updated>2024-12-12T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It's time for another hacking tool roundup! We’ve polled our team of experts to bring you the most powerful and innovative penetration testing tools.]]></summary>
-        <author>
-            <name>Bishop Fox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DORA's Role in Enhancing Cybersecurity for EU Finance]]></title>
-        <id>https://www.sans.org/blog/doras-role-in-enhancing-cybersecurity-for-eu-finance</id>
-        <link href="https://www.sans.org/blog/doras-role-in-enhancing-cybersecurity-for-eu-finance?msc=rss"/>
-        <updated>2024-12-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the EU's new financial sector cybersecurity regulations, DORA and TIBER-EU]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Auditing the Ruby ecosystem’s central package repository]]></title>
-        <id>https://blog.trailofbits.com/?p=108729</id>
-        <link href="https://blog.trailofbits.com/2024/12/11/auditing-the-ruby-ecosystems-central-package-repository/"/>
-        <updated>2024-12-11T14:00:59.000Z</updated>
-        <summary type="html"><![CDATA[Ruby Central hired Trail of Bits to complete a security assessment and a competitive analysis of RubyGems.org, the official package management system for Ruby applications. With over 184+ billion downloads to date, RubyGems.org is critical infrastructure for the Ruby language ecosystem. This is a joint post with the Ruby Central team; read their announcement here! […]]]></summary>
-        <author>
-            <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enable Credential Guard on Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1589619</id>
-        <link href="https://4sysops.com/archives/enable-credential-guard-on-windows-server-2025/"/>
-        <updated>2024-12-11T12:57:09.000Z</updated>
-        <summary type="html"><![CDATA[Credential Guard in Windows Server 2025 enhances security by isolating credentials using Virtualization-Based Security (VBS). To enable Credential Guard with PowerShell or Group Policy, ensure your systems meet the hardware and firmware requirements. After enabling Credential Guard, you can use PowerShell to verify its activation.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>
