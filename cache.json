@@ -253,16 +253,6 @@
           "wordCount": 2513,
           "title": "The OWASP Top 10 for LLMs 2025: How GenAI Risks Are Evolving",
           "imageUrl": "https://www.hackerone.com/sites/default/files/2024-12/owasp%20top%2010%202025%20blog%20header%402x.png"
-        },
-        {
-          "id": "https://hackerone.com/community/owasp-top-10-insecure-design",
-          "author": "Andrew Pratt",
-          "description": "Learn about the different types of insecure design vulnerabilities and how to identify them.",
-          "link": "https://www.hackerone.com/community/owasp-top-10-insecure-design",
-          "publishedOn": "2024-12-17T22:23:46.000Z",
-          "wordCount": 2231,
-          "title": "Breaking Down the OWASP Top 10: Insecure Design",
-          "imageUrl": "https://www.hackerone.com/sites/default/files/2024-12/insecure%20design%20blog%20header%402x.png"
         }
       ]
     },
@@ -289,6 +279,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:678895caf2e94b6996e3b67c",
+          "author": "Connor Ford",
+          "description": "Previously, we covered the internals of the Autel MaxiCharger where we highlighted each of the main components. In this post, we aim to outline the attack surface of the MaxiCharger in the hopes of providing inspiration for vulnerability research.\nAll information has been obtained through reverse engineering, experimenting, and combing through the Autel MaxiCharger manual (PDF).\nAt the time of writing the following software versions were applicable:\n·      Autel Charge app v3.0.7\n·      Autel Config app v2.1.0\n·      Autel MaxiCharger modules:\n       ·      Charge Control v1.36.00\n       ·      Power Control v1.21.00\n       ·      LCD Control v0.99.31\n       ·      LCD Information v0.99.08\n       ·      LCD Resources v0.99.08\n       ·      LCD Languages v0.04.04\nMobile Applications\nAutel h…",
+          "link": "https://www.thezdi.com/blog/2025/1/15/reviewing-the-attack-surface-of-the-autel-maxicharger-part-two",
+          "publishedOn": "2025-01-16T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Reviewing the Attack Surface of the Autel MaxiCharger: Part Two",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6787568d70783a6e159e4748",
           "author": "Connor Ford",
@@ -341,17 +342,6 @@
           "publishedOn": "2025-01-08T17:07:59.000Z",
           "wordCount": null,
           "title": "ZDI Threat Hunting 2024: Highlights, Trends, & Challenges",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6760a1b82fda600cc86523c7",
-          "author": "Dmitry Janushkevich",
-          "description": "The Tesla Wall Connector is a Level 2 electric vehicle charge station designed for use by residential home users. The device has a minimal user interface in its hardware, providing a Wi-Fi based interface for configuration and an NFC reader for user authentication. The device does not come with a dedicated mobile application out of the box; the initial configuration—which is rather minimal—is performed via the web interface. After that, the device suggests the Tesla One app is to be used for further configuration. The Tesla app allows connecting to the device but apparently can only be used to perform a few functions such as scheduled charging and viewing information about the device. It does not offer options for further configuration.\nAt the moment of writing, the latest software version…",
-          "link": "https://www.thezdi.com/blog/2024/12/16/detailing-the-attack-surfaces-of-the-tesla-wall-connector-ev-charger",
-          "publishedOn": "2024-12-17T16:49:57.000Z",
-          "wordCount": null,
-          "title": "Detailing the Attack Surfaces of the Tesla Wall Connector EV Charger",
           "itunes": {},
           "imageUrl": null
         }
@@ -584,6 +574,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1591043",
+          "author": "Michael Pietroforte",
+          "description": "Warp, the best terminal app by far, has introduced impressive new AI features: Active AI and Agent Mode. I believe Agent Mode is a real game changer, showcasing the future of system administration, as it will likely make learning a shell language superfluous.\nSource",
+          "link": "https://4sysops.com/archives/game-changing-new-ai-features-for-the-warp-terminal-active-ai-and-agent-mode/",
+          "publishedOn": "2025-01-16T12:16:30.000Z",
+          "wordCount": null,
+          "title": "Game-changing new AI features for the Warp terminal: Active AI and Agent Mode",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1591011",
           "author": "Michael Pietroforte",
           "description": "Pushover is a versatile push notification service for iPhone, Android, Mac, and Windows (via browser plugin), providing real-time alerts from various sources like web applications, network monitoring systems, and IoT devices. It integrates with platforms like IFTTT and Zapier and supports custom scripts, making it useful for admins and developers. \nSource",
@@ -782,16 +782,6 @@
           "wordCount": 4988,
           "title": "Block migration to new Outlook with Group Policy",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/Blocking-the-automatic-switch-to-the-new-Outlook-via-Group-Policy-600x386.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1589908",
-          "author": "Surender Kumar",
-          "description": "Proxmox Virtual Environment (VE), a popular open-source platform for managing virtualized infrastructure, introduces a long-awaited OVA import feature in version 8.3. This update streamlines transferring virtual machines from other hypervisors to your Proxmox setup. However, the Import Wizard introduced in Proxmox 8.2 is likely a more suitable choice for migrating VMware VMs to Proxmox. This post details how to export and import an Oracle VirtualBox VM into Proxmox using the new OVA import feature.\nSource",
-          "link": "https://4sysops.com/archives/ova-import-in-proxmox-83/",
-          "publishedOn": "2024-12-17T15:59:47.000Z",
-          "wordCount": 5429,
-          "title": "OVA import in Proxmox 8.3",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2024/12/Advanced-guest-import-settings-in-Proxmox-600x404.png"
         }
       ]
     },
@@ -1069,16 +1059,6 @@
           "wordCount": 3931,
           "title": "SEC587: Advanced Open-Source Intelligence Course Update – What’s New?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/a-prescription-for-windows-prefetch-analysis",
-          "author": null,
-          "description": "A blog about the latest update to Siftgrab, including a new function that generates several preformatted Excel workbooks.",
-          "link": "https://www.sans.org/blog/a-prescription-for-windows-prefetch-analysis?msc=rss",
-          "publishedOn": "2024-12-18T00:00:00.000Z",
-          "wordCount": 4619,
-          "title": "A Prescription for Windows Prefetch Analysis",
-          "imageUrl": null
         }
       ]
     },
@@ -1246,6 +1226,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=19320",
+          "author": "Stamatis Chatzimangou",
+          "description": "For quite a while now, there has been a new ongoing threat campaign where the adversaries first bomb a user's mailbox with spam emails and then pose as Help Desk or IT Support on Microsoft Teams to trick their potential victims into providing access. This social engineering tactic is being attributed to the ransomware group \"Black Basta\".",
+          "link": "https://blog.nviso.eu/2025/01/16/detecting-teams-chat-phishing-attacks-black-basta/",
+          "publishedOn": "2025-01-16T07:32:14.000Z",
+          "wordCount": 2742,
+          "title": "Detecting Teams Chat Phishing Attacks (Black Basta)",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/01/image-2.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=19140",
           "author": "Matheo Boute",
           "description": "Introduction Microsoft Purview is a comprehensive solution that helps organizations manage and protect their data across various environments, including on-premises, multi-cloud, and software-as-a-service (SaaS) platforms. It provides a unified data catalog, data classification, and data security capabilities, enabling organizations to gain insights into their data landscape, secure their data accordingly, and ensure compliance with regulatory … Continue reading Microsoft Purview – Evading Data Loss Prevention policies →",
@@ -1311,16 +1301,6 @@
           "wordCount": 1940,
           "title": "Cosmos Series Part 2: Outcome-driven for Features and Capabilities",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/Pt2_OG.jpg?mtime=1733931493"
-        },
-        {
-          "id": "https://bishopfox.com/blog/principles-for-the-new-platform",
-          "author": "Aaron Symanski",
-          "description": "In 2023, Bishop Fox reengineered Cosmos to give security teams the speed, scale, and flexibility needed to tackle growing attack surface challenges.",
-          "link": "https://bishopfox.com/blog/principles-for-the-new-platform",
-          "publishedOn": "2024-12-17T13:00:00.000Z",
-          "wordCount": 2192,
-          "title": "Cosmos Series Part 1: Principles for the New Platform",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/Pt1_OG.jpg?mtime=1733946994"
         }
       ]
     },
