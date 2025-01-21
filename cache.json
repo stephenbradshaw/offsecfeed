@@ -259,6 +259,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6789e8cee7de2a6e2a4add4a",
+          "author": "Dmitry Janushkevich",
+          "description": "For the upcoming Pwn2Own Automotive contest, a total of four in-vehicle infotainment (IVI) head units have been selected as targets. One of these is the single-DIN Pioneer DMH-WT7600NEX. This unit offers a variety of functionality, such as wired and wireless Android Auto and Apple CarPlay, USB media playback, and more. \nThis blog post aims to detail some of the attack surfaces of the DMH-WT7600NEX unit as well as provide information on how to extract the software running on this unit for further vulnerability research.\nSoftware Extraction\nThe initial effort to locate a serial console in the hope of easy software extraction bore no fruit. This left only a handful of options:\n·      Work with the software update package instead. However, the package was found to be encrypted, making this app…",
+          "link": "https://www.thezdi.com/blog/2025/1/16/looking-at-the-attack-surfaces-of-the-pioneer-dmh-wt7600nex-ivi",
+          "publishedOn": "2025-01-20T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Looking at the Attack Surfaces of the Pioneer DMH-WT7600NEX IVI",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:678895caf2e94b6996e3b67c",
           "author": "Connor Ford",
           "description": "Previously, we covered the internals of the Autel MaxiCharger where we highlighted each of the main components. In this post, we aim to outline the attack surface of the MaxiCharger in the hopes of providing inspiration for vulnerability research.\nAll information has been obtained through reverse engineering, experimenting, and combing through the Autel MaxiCharger manual (PDF).\nAt the time of writing the following software versions were applicable:\n·      Autel Charge app v3.0.7\n·      Autel Config app v2.1.0\n·      Autel MaxiCharger modules:\n       ·      Charge Control v1.36.00\n       ·      Power Control v1.21.00\n       ·      LCD Control v0.99.31\n       ·      LCD Information v0.99.08\n       ·      LCD Resources v0.99.08\n       ·      LCD Languages v0.04.04\nMobile Applications\nAutel h…",
@@ -575,6 +586,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1591203",
+          "author": "Michael Pietroforte",
+          "description": "Google just announced that Gemini integration in Google Workspace is now available for free. Users in Europe and Japan must first turn on this feature. Workspace admins can enable or disable Gemini in the Google Admin Console. You can also use Gemini to access Gmail if you have a personal Google account, but there are limitations. I tested the Gemini integration in Gmail and shared my experiences in this post.\nSource",
+          "link": "https://4sysops.com/archives/free-gmail-gemini-ai-integration-enable-disable-first-impressions/",
+          "publishedOn": "2025-01-20T14:04:19.000Z",
+          "wordCount": null,
+          "title": "Free Gmail-Gemini AI integration: Enable, disable, first impressions",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1591113",
           "author": "Wolfgang Sommergut",
           "description": "Memory is often one of the most constrained resources on a Hyper-V host, ultimately determining the maximum number of virtual machines (VMs) it can support. As such, accurately assessing the RAM requirements of VMs is critical for effective capacity planning. These requirements can be evaluated using performance counters available in Perfmon.\nSource",
@@ -849,16 +870,6 @@
           "publishedOn": "2024-12-25T23:15:42.000Z",
           "wordCount": 858,
           "title": "3 little secrets of netsh.exe",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=9737",
-          "author": "adam",
-          "description": "In my previous post I have provided a long list of paths Windows Defender is trying to access when the Windows Server 2022 starts. Since the Windows Server 2025 is now available, I thought it would be interesting to repeat … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2024/12/22/windows-server-2025-and-msmpeng-exe/",
-          "publishedOn": "2024-12-22T00:37:54.000Z",
-          "wordCount": 538,
-          "title": "Windows Server 2025 and MsMpEng.exe",
           "imageUrl": null
         }
       ]
