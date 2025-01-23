@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-22T00:45:57.708Z</updated>
+    <updated>2025-01-23T00:45:07.060Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Entra Connect Attacker Tradecraft: Part 2]]></title>
+        <id>https://medium.com/p/672df0147abc</id>
+        <link href="https://posts.specterops.io/entra-connect-attacker-tradecraft-part-2-672df0147abc?source=rss----f05f8696e3cc---4"/>
+        <updated>2025-01-22T17:32:02.000Z</updated>
+        <summary type="html"><![CDATA[Now that we know how to add credentials to an on-premises user, lets pose a question:]]></summary>
+        <author>
+            <name>hotnops</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SonicWall CVE-2024-53704: SSL VPN Session Hijacking]]></title>
+        <id>https://bishopfox.com/blog/sonicwall-cve-2024-53704-ssl-vpn-session-hijacking</id>
+        <link href="https://bishopfox.com/blog/sonicwall-cve-2024-53704-ssl-vpn-session-hijacking"/>
+        <updated>2025-01-22T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox researchers have successfully exploited CVE-2024-53704, an authentication bypass affecting the SSL VPN component of unpatched SonicWall firewalls.]]></summary>
+        <author>
+            <name>Jon Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Add icons to Windows 11 Start with Group Policy]]></title>
+        <id>https://4sysops.com/?p=1591193</id>
+        <link href="https://4sysops.com/archives/add-icons-to-windows-11-start-with-group-policy/"/>
+        <updated>2025-01-22T14:54:00.000Z</updated>
+        <summary type="html"><![CDATA[With Windows 11, Microsoft has not only changed the appearance of the Start menu but also its technical underpinnings. However, the Group Policy settings for configuring Start have not been updated. While it remains possible to add icons using Group Policy Objects (GPO), you must accept some limitations.
+Source]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stealing HttpOnly cookies with the cookie sandwich technique]]></title>
+        <id>stealing-httponly-cookies-with-the-cookie-sandwich-technique</id>
+        <link href="https://portswigger.net/research/stealing-httponly-cookies-with-the-cookie-sandwich-technique"/>
+        <updated>2025-01-22T14:45:11.000Z</updated>
+        <summary type="html"><![CDATA[In this post, I will introduce the "cookie sandwich" technique which lets you bypass the HttpOnly flag on certain servers. This research follows on from Bypassing WAFs with the phantom $Version cookie]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Automotive 2025 - Day One Results]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6790387ec37d6c6cdeecd71e</id>
+        <link href="https://www.thezdi.com/blog/2025/1/21/pwn2own-automotive-2025-day-one-results"/>
+        <updated>2025-01-22T03:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the first day of Pwn2Own Automotive 2025. We have 18 entries to go through today, and we will be updating the results here as we have them.
+SUCCESS - The team from PCAutomotive used a stack-based buffer overflow to gain code execution on the Alpine IVI. They earn $20,000 and two Master of Pwn points. 
+SUCCESS - The team from Viettel Cyber Security used an OS command injection bug to exploit the #Kenwood IVI for code execution. They win $20,000 and 2 Master of Pwn points.
+SUCCESS - Cong Thanh (@ExLuck99) and Nam Dung (@greengrass19000) of ANHTUD used an integer overflow to gain code execution on the Sony XAV-AX8500. The earn themselves $20,000 and 2 Master of Pwn points.
+SUCCESS/COLLISION - Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) used a 3 bug combo to exp…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Life at SpecterOps Part II: From Dream to Reality]]></title>
         <id>https://medium.com/p/99e10df0ba73</id>
@@ -919,30 +974,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>Vignesh Mudliar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trust No AI: Prompt Injection Along the CIA Security Triad Paper]]></title>
-        <id>https://embracethered.com/blog/posts/2024/trust-no-ai-prompt-injection-along-the-cia-security-triad-paper/</id>
-        <link href="https://embracethered.com/blog/posts/2024/trust-no-ai-prompt-injection-along-the-cia-security-triad-paper/"/>
-        <updated>2024-12-24T00:20:53.000Z</updated>
-        <summary type="html"><![CDATA[Happy to share that I authored the paper “Trust No AI: Prompt Injection Along The CIA Security Triad”, based on research conducted over the past 18 months.
-You can download it from arxiv.
-The paper examines how prompt injection attacks compromise Confidentiality, Integrity, and Availability (CIA) of AI systems, with real-world examples targeting vendors like OpenAI, Google, Anthropic and Microsoft.
-It summarizes and references many of the prompt injection examples I explained on this blog, and I hope this research helps bridge the gap between traditional cybersecurity practices and AI research, fostering stronger defenses against these emerging threats.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install Azure Arc on Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1590081</id>
-        <link href="https://4sysops.com/archives/install-azure-arc-on-windows-server-2025/"/>
-        <updated>2024-12-23T15:24:50.000Z</updated>
-        <summary type="html"><![CDATA[Azure Arc is a management platform that enables centralized control of on-premises, multi-cloud, and edge resources through the Azure Portal. In Windows Server 2025, features such as Hotpatching—which allows for applying security updates without requiring a system reboot—require integration with Azure Arc. To install Azure Arc on Windows Server 2025, use a PowerShell script or launch the Azure Arc setup wizard on your server.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>
