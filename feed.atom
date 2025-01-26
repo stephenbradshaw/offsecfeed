@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-25T00:43:23.751Z</updated>
+    <updated>2025-01-26T00:46:43.260Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Being a tool while using a tool]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9828</id>
+        <link href="https://www.hexacorn.com/blog/2025/01/25/being-a-tool-while-using-a-tool/"/>
+        <updated>2025-01-25T01:22:29.000Z</updated>
+        <summary type="html"><![CDATA[This case is kinda DFIR-fascinating. There is an unwritten rule in the DFIR world that says – always check the results provided by one tool, with another tool, or manually… Well… it all sounds nice in theory, until we come … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Restart services or reboot server if load exceeds threshold with a Bash script]]></title>
         <id>https://4sysops.com/?p=1591366</id>
@@ -1040,66 +1050,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>Wolfgang Sommergut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MoNotificationUxStub.exe lolbin]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9763</id>
-        <link href="https://www.hexacorn.com/blog/2024/12/27/monotificationuxstub-exe-lolbin/"/>
-        <updated>2024-12-27T00:16:22.000Z</updated>
-        <summary type="html"><![CDATA[When you run MoNotificationUxStub.exe on Windows Server 2025, it will try to load the following non-existing library: C:\Windows\UUS\amd64\UMPDC.dll We can place our own, leading to the code execution: Same as in the previous case, TrustedInstaller rights are required to write … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MLEngineStub.exe lolbin]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9760</id>
-        <link href="https://www.hexacorn.com/blog/2024/12/27/mlenginestub-exe-lolbin/"/>
-        <updated>2024-12-27T00:07:47.000Z</updated>
-        <summary type="html"><![CDATA[When you run MLEngineStub.exe on Windows 2025, it will try to locate the following non-existing executable: C:\Windows\UUS\amd64\MLEngine.exe So, if we place our own executable there, it will be launched: The only caveat – only TrustedInstaller can write to this folder.]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[la57setup.exe & OOBEFodSetup.exe lolbin]]></title>
-        <id>https://www.hexacorn.com/blog/?p=9757</id>
-        <link href="https://www.hexacorn.com/blog/2024/12/26/la57setup-exe-lolbin/"/>
-        <updated>2024-12-26T23:44:11.000Z</updated>
-        <summary type="html"><![CDATA[When you run la57setup.exe or OOBEFodSetup.exe on Windows Server 2025, they will try to load a non-existing library from the path below: C:\Windows\System32\Dism\MetaDeployProvider.dll]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PowerShell 7.5 new features]]></title>
-        <id>https://4sysops.com/?p=1590181</id>
-        <link href="https://4sysops.com/archives/powershell-75-new-features/"/>
-        <updated>2024-12-26T14:56:18.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has unveiled the first release candidate of PowerShell 7.5, with the General Availability (GA) launch expected in January or February 2025. This release candidate provides the most accurate preview of the upcoming final production version of PowerShell 7.5. This new version includes hundreds of changes, ranging from minor adjustments to major new features. In the following sections, we will discuss the key changes in this major PowerShell update.
-Source]]></summary>
-        <author>
-            <name>Mike Kanakos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2024 Wrapped: Outflank’s Top Tracks]]></title>
-        <id>https://www.outflank.nl/?p=4942</id>
-        <link href="https://www.outflank.nl/blog/2024/12/17/2024-wrapped-outflanks-top-tracks/"/>
-        <updated>2024-12-17T17:29:34.000Z</updated>
-        <summary type="html"><![CDATA[As 2024 nears its end, we feel it is a great time to look back at what we achieved in 2024.
-TLDR: No one would call this a quiet year for Outflank.
-OST Releases: New Tools and Major Releases
-22 releases! We managed to put out 22 releases of OST in 2024.
-Rapid development remains a cornerstone of OST and has allowed us to match the pace of evolving threat landscape to deliver cutting edge tools and capabilities. We have a release note tracker covering every release, but highlights include:
-EDR Presets
-With EDRs becoming more powerful, and bypasses requiring more EDR-specific tricks, it was becoming hard to keep track of the countless options OST operators have for evasion of those EDRs.
-
-Read full post
-The post 2024 Wrapped: Outflank’s Top Tracks appeared first on Outflank.]]></summary>
-        <author>
-            <name>Marc Smeets</name>
         </author>
     </entry>
     <entry>
