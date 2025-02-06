@@ -6,6 +6,16 @@
       "siteUrl": "https://posts.specterops.io?source=rss----f05f8696e3cc---4",
       "articles": [
         {
+          "id": "https://medium.com/p/e8bf24fc2aba",
+          "author": "Cody Thomas",
+          "description": "A new Mythic add-on for Windows Agents",
+          "link": "https://posts.specterops.io/forging-a-better-operator-quality-of-life-e8bf24fc2aba?source=rss----f05f8696e3cc---4",
+          "publishedOn": "2025-02-05T15:05:14.000Z",
+          "wordCount": 3127,
+          "title": "Forging a Better Operator Quality of Life",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*oX1UyMhXYt4B1ofz"
+        },
+        {
           "id": "https://medium.com/p/38b878b740ac",
           "author": "Diego lomellini",
           "description": "TL:DR",
@@ -303,6 +313,16 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/blog/welcome-hackbots-how-ai-shaping-future-vulnerability-discovery",
+          "author": "Michiel Prins",
+          "description": "What are Hackbots and how are they impacting vulnerability discovery and the researcher community?",
+          "link": "https://www.hackerone.com/blog/welcome-hackbots-how-ai-shaping-future-vulnerability-discovery",
+          "publishedOn": "2025-02-03T18:27:27.000Z",
+          "wordCount": 1714,
+          "title": "Welcome, Hackbots: How AI Is Shaping the Future of Vulnerability Discovery",
+          "imageUrl": "https://www.hackerone.com/sites/default/files/2025-02/hackbots%20blog%20header%402x.png"
+        },
         {
           "id": "https://hackerone.com/blog/dora-compliance-here-what-financial-entities-should-know",
           "author": "Vanessa Booth",
@@ -738,26 +758,6 @@
           "wordCount": 2133,
           "title": "Bypassing File Upload Restrictions To Exploit Client-Side Path Traversal",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2025/01/07/ksmbd-1.html",
-          "author": null,
-          "description": "Introduction\nAt Doyensec, we decided to perform a vulnerability research activity on the SMB3 Kernel Server (ksmbd), a component of the Linux kernel. Initially, it was enabled as an experimental feature, but in the kernel version 6.6, the experimental flag was removed, and it remains stable.\nKsmbd splits tasks to optimize performance, handling critical file operations in kernel space and non-performance-related tasks, such as DCE/RPC and user account management, in user space via ksmbd.mountd. The server uses a multi-threaded architecture to efficiently process SMB requests in parallel, leveraging kernel worker threads for scalability and user-space integration for configuration and RPC handling.\nKsmbd is not enabled by default, but it is a great target for learning the SMB protocol while …",
-          "link": "https://blog.doyensec.com/2025/01/07/ksmbd-1.html",
-          "publishedOn": "2025-01-06T23:00:00.000Z",
-          "wordCount": 2692,
-          "title": "ksmbd vulnerability research",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2025/01/07/cspt-file-upload.html",
-          "author": null,
-          "description": "In my previous blog post, I demonstrated how a JSON file could be used as a gadget for Client-Side Path Traversal (CSPT) to perform Cross-Site Request Forgery (CSRF). That example was straightforward because no file upload restriction was enforced. However, real-world applications often impose restrictions on file uploads to ensure security.\nIn this post, we’ll explore how to bypass some of these mechanisms to achieve the same goal. We’ll cover common file validation methods and how they can be subverted.\nConstraint\nIn most scenarios, the gadget file will be parsed in the front-end using JSON.parse.\nIt means that our file must be a valid input for JSON.parse.\nIf we look at the V8 implementation. A valid JSON input is :\na string\na number\ntrue\nfalse\nnull\nan array\nan object\nThe parser skips s…",
-          "link": "https://blog.doyensec.com/2025/01/07/cspt-file-upload.html",
-          "publishedOn": "2025-01-06T23:00:00.000Z",
-          "wordCount": 2138,
-          "title": "Bypassing File Upload Restrictions To Exploit Client-Side Path Traversal",
-          "imageUrl": null
         }
       ]
     },
@@ -790,6 +790,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/?p=108889",
+          "author": "Trail of Bits",
+          "description": "By Kelly Kaoudis and Evan Sultanik This blog post highlights key points from our new white paper Preventing Account Takeovers on Centralized Cryptocurrency Exchanges, which documents ATO-related attack vectors and defenses tailored to CEXes. Imagine trying to log in to your centralized cryptocurrency exchange (CEX) account and your password and username just… don’t work. You […]",
+          "link": "https://blog.trailofbits.com/2025/02/05/preventing-account-takeover-on-centralized-cryptocurrency-exchanges-in-2025/",
+          "publishedOn": "2025-02-05T14:00:37.000Z",
+          "wordCount": 3254,
+          "title": "Preventing account takeover on centralized cryptocurrency exchanges in 2025",
+          "imageUrl": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1.png"
+        },
         {
           "id": "https://blog.trailofbits.com/?p=108849",
           "author": "Trail of Bits",
@@ -910,6 +920,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1591723",
+          "author": "Thomas Joos",
+          "description": "PXE is often used to boot devices over the network, such as for OS deployment. If the clients can't connect to the PXE server, a structured analysis of the associated network traffic helps. Wireshark allows for a detailed analysis of each step.\nSource",
+          "link": "https://4sysops.com/archives/pxe-troubleshooting-analyzing-the-boot-process-with-wireshark/",
+          "publishedOn": "2025-02-05T16:18:33.000Z",
+          "wordCount": null,
+          "title": "PXE Troubleshooting: Analyzing the boot process with Wireshark",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1591748",
           "author": "Michael Pietroforte",
@@ -1128,6 +1148,16 @@
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
         {
+          "id": "https://www.hexacorn.com/blog/?p=9851",
+          "author": "adam",
+          "description": "I learned about DameWare’s DWRCSAccess.log log file from this blog post. Then, when I searched this file name on Google I only got a very small number of results. Obviously, it immediately piqued my interest and I decided to describe … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2025/02/05/dwrcsaccess-log-artifact/",
+          "publishedOn": "2025-02-05T23:29:47.000Z",
+          "wordCount": 794,
+          "title": "DWRCSAccess.log artifact",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hexacorn.com/blog/?p=9839",
           "author": "adam",
           "description": "I really like this MalBeacon’s project because it highlights how easy it is to detect many malware families by just looking at the telemetry/forensic data obtained from a file system. And since I like it so much I decided to … Continue reading →",
@@ -1160,6 +1190,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=30496",
+          "author": "Morgan Davies",
+          "description": "TL;DR In an engagement we found an open directory on the internet belonging to our client By enumerating it we found a zip archive with a configuration file holding usernames […]\nA tale of enumeration, and why pen testing can’t be automated first appeared on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/a-tale-of-enumeration-and-why-pen-testing-cant-be-automated/",
+          "publishedOn": "2025-02-05T06:12:51.000Z",
+          "wordCount": 2770,
+          "title": "A tale of enumeration, and why pen testing can’t be automated",
+          "imageUrl": null
+        },
         {
           "id": "https://www.pentestpartners.com/?p=30475",
           "author": "Joseph Williams",
@@ -1219,16 +1259,6 @@
           "wordCount": 2821,
           "title": "The unexpected effects of GPS spoofing on aviation safety",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=30254",
-          "author": "Luke Davis",
-          "description": "TL;DR Non-tech aspects to breach follow-up are often overlooked but essential NDAs, supply chain, and third party contracts and obligations should be reviewed Reviewing communication protocols and employee training increases […]\n10 Non-tech things you wish you had done after being breached first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/10-non-tech-things-you-wish-you-had-done-after-being-breached/",
-          "publishedOn": "2025-01-07T06:45:53.000Z",
-          "wordCount": 2242,
-          "title": "10 Non-tech things you wish you had done after being breached",
-          "imageUrl": null
         }
       ]
     },
@@ -1237,6 +1267,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/continuous-penetration-testing-and-the-rise-of-the-offensive-soc",
+          "author": null,
+          "description": "A blog about the evolution of continuous penetration testing and the offensive security operations center",
+          "link": "https://www.sans.org/blog/continuous-penetration-testing-and-the-rise-of-the-offensive-soc?msc=rss",
+          "publishedOn": "2025-02-05T00:00:00.000Z",
+          "wordCount": 5950,
+          "title": "Continuous Penetration Testing and the Rise of the Offensive SOC",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/protecting-the-gulf-ics-cybersecurity-skills-for-critical-infrastructure-protection",
           "author": null,
@@ -1323,18 +1363,7 @@
       "title": "Embrace The Red",
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
-      "articles": [
-        {
-          "id": "https://embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/",
-          "author": null,
-          "description": "At Black Hat Europe I did a fun presentation titled SpAIware and More: Advanced Prompt Injection Exploits. Without diving into the details of the entire talk, the key point I was making is that prompt injection can impact all aspects of the CIA security triad.\nHowever, there is one part that I want to highlight explicitly:\nA Command and Control system (C2) that uses prompt injection to remote control ChatGPT instances.",
-          "link": "https://embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/",
-          "publishedOn": "2025-01-07T04:30:53.000Z",
-          "wordCount": 1364,
-          "title": "AI Domination: Remote Controlling ChatGPT ZombAI Instances",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Pentest Blog",
@@ -1489,6 +1518,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/dial-tone-to-throne-ivr-testing",
+          "author": "Alethe Denis",
+          "description": "Explores IVR penetration testing methodologies, common vulnerabilities, and strategies to secure these critical systems against modern threats.",
+          "link": "https://bishopfox.com/blog/dial-tone-to-throne-ivr-testing",
+          "publishedOn": "2025-02-05T15:58:00.000Z",
+          "wordCount": 2432,
+          "title": "From Dial Tone to Throne: IVR Testing in the Spirit of The King of NYNEX",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/BishopFox-Blog-IVR-Testing-OG.jpg?mtime=1738770008"
+        },
         {
           "id": "https://bishopfox.com/blog/hacking-career-journeys-cybersecurity",
           "author": "Gerben Kleijn, Nathan Elendt, Katie Ritchie",
