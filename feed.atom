@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-02-27T00:47:33.823Z</updated>
+    <updated>2025-02-28T00:47:54.413Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Docker container in Server 2025: Windows vs. Hyper-V vs. WSL2]]></title>
+        <id>https://4sysops.com/?p=1592480</id>
+        <link href="https://4sysops.com/archives/docker-container-in-server-2025-windows-vs-hyper-v-vs-wsl2/"/>
+        <updated>2025-02-27T16:41:25.000Z</updated>
+        <summary type="html"><![CDATA[Windows Server 2025 offers multiple options for running Docker containers, supporting both Linux and Windows. Users can choose between two isolation modes for Windows containers, while Linux containers can optionally run on WSL 2. Additionally, Server 2025 improves backward compatibility.
+Source]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic Claude Code — AI-powered CLI? Coding in the terminal?]]></title>
         <id>https://4sysops.com/?p=1592595</id>
@@ -1129,45 +1140,6 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A case study of vulnerabilities in US government systems]]></title>
-        <id>https://medium.com/p/a82e9afbf6c2</id>
-        <link href="https://research.ifcr.dk/a-case-study-of-vulnerabilities-in-us-government-systems-a82e9afbf6c2?source=rss----9372536d3084---4"/>
-        <updated>2025-01-29T08:14:15.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post I will summarize a bunch of vulnerabilities that I have reported to various US government agencies through their VDP…]]></summary>
-        <author>
-            <name>Martin Thirup Christensen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Backups & DRP in the ransomware era]]></title>
-        <id>https://blog.nviso.eu/?p=19201</id>
-        <link href="https://blog.nviso.eu/2025/01/29/backups-drp-in-the-ransomware-era/"/>
-        <updated>2025-01-29T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In today’s digital landscape, the threat of ransomware has forced organizations to reevaluate their disaster recovery plans. Traditional approaches to data protection were focused primarily on high availability and are no longer sufficient. As cyber threats evolve, so must our strategies for safeguarding critical information. This blog post explores the principles and architectures needed to … Continue reading Backups & DRP in the ransomware era →]]></summary>
-        <author>
-            <name>Jelle Aerts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The HackerOne Cake Story]]></title>
-        <id>https://hackerone.com/blog/hackerone-cake-story</id>
-        <link href="https://www.hackerone.com/blog/hackerone-cake-story"/>
-        <updated>2025-01-28T19:28:56.000Z</updated>
-        <author>
-            <name>Marina Briones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Will a New Administration and Congress Mean for Cybersecurity and AI Regulation?]]></title>
-        <id>https://hackerone.com/blog/cybersecurity-ai-regulation-new-administration</id>
-        <link href="https://www.hackerone.com/blog/cybersecurity-ai-regulation-new-administration"/>
-        <updated>2025-01-28T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The HackerOne Policy team analyzes cybersecurity and AI regulation in the U.S. under the incoming administration.]]></summary>
-        <author>
-            <name>Ilona Cohen</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Best practices for key derivation]]></title>
         <id>https://blog.trailofbits.com/?p=108823</id>
         <link href="https://blog.trailofbits.com/2025/01/28/best-practices-for-key-derivation/"/>
@@ -1175,26 +1147,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[By Marc Ilunga Key derivation is essential in many cryptographic applications, including key exchange, key management, secure communications, and building robust cryptographic primitives. But it’s also easy to get wrong: although standard tools exist for different key derivation needs, our audits often uncover improper uses of these tools that could compromise key security. Flickr’s API […]]]></summary>
         <author>
             <name>Trail of Bits</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bypassing character blocklists with unicode overflows]]></title>
-        <id>bypassing-character-blocklists-with-unicode-overflows</id>
-        <link href="https://portswigger.net/research/bypassing-character-blocklists-with-unicode-overflows"/>
-        <updated>2025-01-28T13:58:28.000Z</updated>
-        <summary type="html"><![CDATA[Unicode codepoint truncation - also called a Unicode overflow attack - happens when a server tries to store a Unicode character in a single byte. Because the maximum value of a byte is 255, an overflo]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The complexities of scaling AppSec teams and how to address them in 2025]]></title>
-        <id>the-complexities-of-scaling-appsec-teams-and-how-to-address-them-in-2025</id>
-        <link href="https://portswigger.net/blog/the-complexities-of-scaling-appsec-teams-and-how-to-address-them-in-2025"/>
-        <updated>2025-01-28T13:08:23.000Z</updated>
-        <summary type="html"><![CDATA[Your organization’s application portfolio is growing and so are the risks. With every new web app, API, or microservice, attackers find new vulnerabilities to exploit. Meanwhile, your AppSec teams are]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
         </author>
     </entry>
     <entry>
