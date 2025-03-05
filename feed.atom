@@ -2,10 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-03-04T00:48:54.859Z</updated>
+    <updated>2025-03-05T00:49:14.150Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: zoneidentifier.exe Version 0.0.2]]></title>
+        <id>http://blog.didierstevens.com/?p=10672</id>
+        <link href="https://blog.didierstevens.com/2025/03/05/update-zoneidentifier-exe-version-0-0-2/"/>
+        <updated>2025-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[zoneidentifier.exe, my tool to manage MoTW (ADS Zone.Identifier) data received a small update. A new option, -show, can be used to display the Zone.Identifier data. zoneidentifier_V0_0_2.zip (http)MD5: AD0A127384EA8C0D85CC2701B6CA7739SHA256: C1CFD764F4345ACE924F0449F89337E57A648B2D75226E467E0366A6EF22C96E]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-43639: Remote Code Execution in Microsoft Windows KDC Proxy]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67c60fd823ec3664b2623b84</id>
+        <link href="https://www.thezdi.com/blog/2025/3/3/cve-2024-43639"/>
+        <updated>2025-03-04T17:02:27.000Z</updated>
+        <summary type="html"><![CDATA[In this excerpt of a Trend Micro Vulnerability Research Service vulnerability report, Simon Humbert and Guy Lederfein of the Trend Micro Research Team detail a recently patched code execution vulnerability in the Microsoft Windows Key Distribution Center (KDC) Proxy. This bug was originally discovered by k0shl and Wei in Kunlun Lab with Cyber KunLun. Successful exploitation could result in arbitrary code execution in the security context of the target service. The following is a portion of their write-up covering CVE-2024-43639, with a few minimal modifications.
+An integer overflow has been reported for Microsoft Windows KDC Proxy. The vulnerability is due to a missing check for Kerberos response length.
+A remote, unauthenticated attacker could direct KDC proxy to forward a Kerberos reques…]]></summary>
+        <author>
+            <name>Trend Micro Research Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting the Most Value Out of the OSCP: The PEN-200 Course]]></title>
+        <id>https://medium.com/p/b0d40a47e83d</id>
+        <link href="https://posts.specterops.io/getting-the-most-value-out-of-the-oscp-the-pen-200-course-b0d40a47e83d?source=rss----f05f8696e3cc---4"/>
+        <updated>2025-03-04T15:05:20.000Z</updated>
+        <summary type="html"><![CDATA[In this second post of a five-part series, I provide advice on how to best utilize the PEN-200 course material for a successful career in…]]></summary>
+        <author>
+            <name>Kieran Croucher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Warp for Windows: Finally, AI-powered automation for the PowerShell CLI]]></title>
+        <id>https://4sysops.com/?p=1592780</id>
+        <link href="https://4sysops.com/archives/warp-for-windows-finally-ai-powered-automation-for-the-powershell-cli/"/>
+        <updated>2025-03-04T12:41:53.000Z</updated>
+        <summary type="html"><![CDATA[We have reviewed Warp's Mac and Linux versions multiple times, as it stands out as the top terminal application. The newly released Windows edition introduces AI-driven automation for PowerShell administrators. Even if you have no use for natural language automation because PowerShell is your primary language anyway, you should give Warp a try, as no terminal app can compete with it on Windows.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DNSSEC NSEC. The accidental treasure map to your subdomains]]></title>
+        <id>https://www.pentestpartners.com/?p=30679</id>
+        <link href="https://www.pentestpartners.com/security-blog/dnssec-nsec-the-accidental-treasure-map-to-your-subdomains/"/>
+        <updated>2025-03-04T06:24:53.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: DNSSEC secures DNS but may unintentionally expose domain structures via NSEC/NSEC3 records, enabling zone walking to enumerate subdomains. NSEC openly lists domain names, making enumeration easy. NSEC3 hashes names, […]
+DNSSEC NSEC. The accidental treasure map to your subdomains first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Darrell Hall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SANS Threat Analysis Rundown in Review: Breaking Down February 2025’s Top Threats]]></title>
+        <id>https://www.sans.org/blog/sans-threat-analysis-rundown-in-review-breaking-down-february-2025s-top-threats</id>
+        <link href="https://www.sans.org/blog/sans-threat-analysis-rundown-in-review-breaking-down-february-2025s-top-threats?msc=rss"/>
+        <updated>2025-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog about this month’s SANS Threat Analysis Rundown livestream, covering ransomware, the continued exploitation of old vulnerabilities, and the evolving role of AI.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[!exploitable Episode Two - Enter the Matrix]]></title>
+        <id>https://blog.doyensec.com/2025/03/04/exploitable-sshd.html</id>
+        <link href="https://blog.doyensec.com/2025/03/04/exploitable-sshd.html"/>
+        <updated>2025-03-03T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ol { list-style-type: decimal }
+
+Introduction
+In case you are just tuning in, Doyensec has found themselves on a
+cruse ship touring the Mediterranean. Unwinding, hanging out with colleagues and having
+some fun. Part 1 covered our journey into IoT ARM exploitation, while our next blog post, coming in the next couple weeks, will cover a web target. For this episode, we attempt to exploit one of the most famous vulnerabilities ever. SSHNuke from back in 2001. Better known as the exploit used by Trinity in the movie The Matrix Reloaded.
+
+
+
+Some Quick History
+Back in 1998 Ariel Futoransky and Emiliano Kargieman realized SSH’s protocol
+was fundamentally flawed, as it was possible to inject cipher text. So a crc32
+checksum was added in order to detect this attack.
+On February 8, 2001 Michal Zalew…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Manage Linux with Microsoft Intune]]></title>
         <id>https://4sysops.com/?p=1592538</id>
@@ -1015,42 +1102,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure Enclaves for Offensive Operations (Part I)]]></title>
-        <id>https://www.outflank.nl/?p=5020</id>
-        <link href="https://www.outflank.nl/blog/2025/02/03/secure-enclaves-for-offensive-operations-part-i/"/>
-        <updated>2025-02-03T09:30:19.000Z</updated>
-        <summary type="html"><![CDATA[This blog post was co-authored by Matteo Malvica (Researcher at OffSec and External OST developer) and Cedric Van Bockhaven (OST developer and researcher at Outflank).
-This article is the first in a two-part series in which we investigate the anatomy of Virtualization-Based Security (VBS) enclaves, their internals, and the unique ways they could be leveraged for offensive operations on Windows systems.
-Enclaves provide a software-based Trusted Execution Environment (TEE) and are isolated memory regions. Only code that runs within the enclave can access data within the same enclave. TEEs protect sensitive operations in computing and are designed to keep unauthorized actors away from confidential information, whether that actor is malware with user-mode or kernel-mode access or even someone with physical access to the data center.
-You can imagine that being able to hide away data and code into an enclave is a powerful capability and could also be used for offensive purposes,
-
-Read full post
-The post Secure Enclaves for Offensive Operations (Part I) appeared first on Outflank.]]></summary>
-        <author>
-            <name>Cedric Van Bockhaven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protecting the Gulf: ICS Cybersecurity Skills for Critical Infrastructure Protection]]></title>
-        <id>https://www.sans.org/blog/protecting-the-gulf-ics-cybersecurity-skills-for-critical-infrastructure-protection</id>
-        <link href="https://www.sans.org/blog/protecting-the-gulf-ics-cybersecurity-skills-for-critical-infrastructure-protection?msc=rss"/>
-        <updated>2025-02-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about ICS cybersecurity skills for critical infrastructure protection in the Middle East.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Practical Roadmap for Strengthening Security Awareness Programs]]></title>
-        <id>https://www.sans.org/blog/the-practical-roadmap-for-strengthening-security-awareness-programs</id>
-        <link href="https://www.sans.org/blog/the-practical-roadmap-for-strengthening-security-awareness-programs?msc=rss"/>
-        <updated>2025-02-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about the Security Awareness Maturity Model eBook.]]></summary>
-        <author>
-            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
