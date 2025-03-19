@@ -106,6 +106,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "saml-roulette-the-hacker-always-wins",
+          "author": null,
+          "description": "Introduction In this post, we’ll show precisely how to chain round-trip attacks and namespace confusion to achieve unauthenticated admin access on GitLab Enterprise by exploiting the ruby-saml library",
+          "link": "https://portswigger.net/research/saml-roulette-the-hacker-always-wins",
+          "publishedOn": "2025-03-18T14:55:43.000Z",
+          "wordCount": 2034,
+          "title": "SAML roulette: the hacker always wins",
+          "imageUrl": "https://portswigger.net/cms/images/af/32/5b4c-twittercard-x.png"
+        },
+        {
           "id": "shadow-repeater-ai-enhanced-manual-testing",
           "author": null,
           "description": "Have you ever wondered how many vulnerabilities you've missed by a hair's breadth, due to a single flawed choice? We've just released Shadow Repeater, which enhances your manual testing with AI-powere",
@@ -469,6 +479,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2025/03/18/exploitable-gitlab.html",
+          "author": null,
+          "description": "ol { list-style-type: decimal }\n\nIntroduction\nI know, we have written it multiple times now, but in case you are just tuning in, Doyensec had found themselves on a cruise ship touring the Mediterranean for our company retreat. To kill time between parties, we had some hacking sessions analyzing real-world vulnerabilities resulting in the !exploitable blogpost series.\nIn Part 1 we covered our journey into IoT ARM exploitation, while Part 2 followed our attempts to exploit the bug used by Trinity in The Matrix Reloaded movie.\nFor this episode, we will dive into the exploitation of CVE-2024-0402 in GitLab. Like an onion, there is always another layer beneath the surface of this bug, from YAML parser differentials to path traversal in decompression functions in order to achieve arbitrary file …",
+          "link": "https://blog.doyensec.com/2025/03/18/exploitable-gitlab.html",
+          "publishedOn": "2025-03-17T23:00:00.000Z",
+          "wordCount": 2919,
+          "title": "!exploitable Episode Three - Devfile Adventures",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2025/03/04/exploitable-sshd.html",
           "author": null,
           "description": "ol { list-style-type: decimal }\n\nIntroduction\nIn case you are just tuning in, Doyensec has found themselves on a\ncruse ship touring the Mediterranean. Unwinding, hanging out with colleagues and having\nsome fun. Part 1 covered our journey into IoT ARM exploitation, while our next blog post, coming in the next couple weeks, will cover a web target. For this episode, we attempt to exploit one of the most famous vulnerabilities ever. SSHNuke from back in 2001. Better known as the exploit used by Trinity in the movie The Matrix Reloaded.\n\n\n\nSome Quick History\nBack in 1998 Ariel Futoransky and Emiliano Kargieman realized SSH’s protocol\nwas fundamentally flawed, as it was possible to inject cipher text. So a crc32\nchecksum was added in order to detect this attack.\nOn February 8, 2001 Michal Zalew…",
@@ -690,6 +710,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1593308",
+          "author": "Michael Pietroforte",
+          "description": "In this guide, I’ll walk through installing ShellGPT (shell_gpt) – a command-line AI assistant – on PowerShell using a local Ollama LLM. This approach lets you use AI in your terminal without relying on cloud APIs, which is great for privacy. This review highlights the use of ShellGPT on Windows through PowerShell. If you are using Mac or Linux, check out our earlier review of ShellGPT.\nSource",
+          "link": "https://4sysops.com/archives/shellgpt-for-powershell-ai-assistant-with-local-ollama-support/",
+          "publishedOn": "2025-03-18T14:54:47.000Z",
+          "wordCount": null,
+          "title": "ShellGPT for PowerShell: AI assistant with local Ollama support",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1593265",
           "author": "Michael Pietroforte",
@@ -1058,6 +1088,26 @@
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
         {
+          "id": "https://www.sans.org/blog/file-system-navigation-first-steps-in-the-terminal-part-1-of-5",
+          "author": null,
+          "description": "A blog about Linux fundamentals.",
+          "link": "https://www.sans.org/blog/file-system-navigation-first-steps-in-the-terminal-part-1-of-5?msc=rss",
+          "publishedOn": "2025-03-18T00:00:00.000Z",
+          "wordCount": 7182,
+          "title": "File System Navigation: First Steps in the Terminal - Part 1 of 5 of the Terminal Techniques for You (TTY): Making Linux Security Accessible Blog Series",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/the-quest-to-summit-sans-ics-security-summit",
+          "author": null,
+          "description": "Register for the ICS Security Summit to be able to participate in The Quest to Summit and win big prizes.",
+          "link": "https://www.sans.org/blog/the-quest-to-summit-sans-ics-security-summit?msc=rss",
+          "publishedOn": "2025-03-18T00:00:00.000Z",
+          "wordCount": 3430,
+          "title": "The Quest to Summit | SANS ICS Security Summit 2025",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.sans.org/blog/why-you-cant-afford-to-miss-the-sans-giac-workforce-leadership-summit-at-rsac-2025-conference",
           "author": null,
           "description": "A blog about the SANS | GIAC Workforce Leadership Summit at RSAC 2025 Conference",
@@ -1175,16 +1225,6 @@
           "publishedOn": "2025-02-18T00:00:00.000Z",
           "wordCount": 3216,
           "title": "Why You Should Enroll in SEC488: Cloud Security Essentials",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/securing-leadership-buy-in-the-key-to-scaling-your-security-awareness-program",
-          "author": null,
-          "description": "A blog about strategies in the SANS Maturity Model eBook to strengthen leadership support",
-          "link": "https://www.sans.org/blog/securing-leadership-buy-in-the-key-to-scaling-your-security-awareness-program?msc=rss",
-          "publishedOn": "2025-02-17T00:00:00.000Z",
-          "wordCount": 3907,
-          "title": "Securing Leadership Buy-In: The Key to Scaling Your Security Awareness Program",
           "imageUrl": null
         }
       ]
