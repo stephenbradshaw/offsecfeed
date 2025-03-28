@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-03-27T00:50:31.049Z</updated>
+    <updated>2025-03-28T00:50:24.472Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[MindshaRE: Using Binary Ninja API to Detect Potential Use-After-Free Vulnerabilities]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67dc7e6c4b9e79466bb34051</id>
+        <link href="https://www.thezdi.com/blog/2025/3/20/mindshare-using-binary-ninja-api-to-detect-potential-use-after-free-vulnerabilities"/>
+        <updated>2025-03-27T15:04:29.000Z</updated>
+        <summary type="html"><![CDATA[Use-after-free is a memory corruption condition where a program references memory after it has been released back to the allocator. Statically detecting these bugs can be challenging. In the past, several approaches have addressed this problem, such as GUEB by Josselin Feist and Sean Heelan's work on Finding use-after-free bugs with static analysis. 
+This blog post explores the usage of Binary Ninja’s Medium Level Intermediate Language (MLIL) to establish a data flow graph by tracing interactions between a specific memory allocation and other memory regions. Building on the data flow graph, it is further utilized in context-insensitive reachability analysis across functions to identify potential Use-After-Free (UAF) vulnerabilities in binaries. Like any other static code analysis approach,…]]></summary>
+        <author>
+            <name>Reno Robert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Windows Terminal Chat with GitHub Copilot]]></title>
+        <id>https://4sysops.com/?p=1593656</id>
+        <link href="https://4sysops.com/archives/using-windows-terminal-chat-with-github-copilot/"/>
+        <updated>2025-03-27T12:28:05.000Z</updated>
+        <summary type="html"><![CDATA[Terminal Chat enables the integration of GitHub Copilot, Azure OpenAI, and OpenAI's AI services into Windows Terminal Canary. Through this experimental feature, you can request assistance from an AI for your PowerShell commands and directly execute the AI's recommendations in the terminal.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSPT Resources]]></title>
+        <id>https://blog.doyensec.com/2025/03/27/cspt-resources.html</id>
+        <link href="https://blog.doyensec.com/2025/03/27/cspt-resources.html"/>
+        <updated>2025-03-26T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As a follow up to Maxence Schmitt’s research on Client-Side Path Traversal (CSPT), we wanted to encourage researchers, bug hunters, and security professionals to explore CSPT further, as it remains an underrated yet impactful attack vector.
+To support the community, we have compiled a list of blog posts, vulnerabilities, tools, CTF challenges, and videos related to CSPT. If anything is missing, let us know and we will update the post. Please note that the list is not ranked and does not reflect the quality or importance of the resources.
+Publications (blog posts, advisories, …)
+Maxence Schmitt: Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF
+Maxence Schmitt: CSPT & File Upload Bypasses
+Dafydd Stuttard: PortSwigger - On-Site Request Forger…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blasting Past Webp]]></title>
         <id>https://googleprojectzero.blogspot.com/2025/03/blasting-past-webp.html</id>
@@ -925,65 +962,12 @@ On February 8, 2001 Michal Zalew…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Anthropic Claude Code — AI-powered CLI? Coding in the terminal?]]></title>
-        <id>https://4sysops.com/?p=1592595</id>
-        <link href="https://4sysops.com/archives/anthropic-claude-code-ai-powered-cli-coding-in-the-terminal/"/>
-        <updated>2025-02-26T11:32:12.000Z</updated>
-        <summary type="html"><![CDATA[When I first watched Anthropic's demo of Claude Code, I was thrilled because I believed this tool could be a valuable asset as an AI-driven CLI assistant akin to Warp's AI agent. After all, who even codes in a terminal anymore?
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A dive into the Rockchip Bootloader]]></title>
-        <id>https://www.pentestpartners.com/?p=30652</id>
-        <link href="https://www.pentestpartners.com/security-blog/a-dive-into-the-rockchip-bootloader/"/>
-        <updated>2025-02-26T06:49:09.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Rockchip has a structured sequence of bootloaders. Using various plugs can allow access to the MCU’s RAM and storage. There are many utilities to allow reading of information from […]
-A dive into the Rockchip Bootloader first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>David Lodge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Get Your Talk Accepted at the SANS SSA Summit]]></title>
-        <id>https://www.sans.org/blog/how-to-get-your-talk-accepted-at-the-sans-ssa-summit</id>
-        <link href="https://www.sans.org/blog/how-to-get-your-talk-accepted-at-the-sans-ssa-summit?msc=rss"/>
-        <updated>2025-02-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog providing tips on how to get your presentation seleccted for the 2025 SANS Security Awareness Summit.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Cost Savings of Fixing Security Flaws in Development]]></title>
         <id>https://hackerone.com/blog/cost-savings-fixing-security-flaws</id>
         <link href="https://www.hackerone.com/blog/cost-savings-fixing-security-flaws"/>
         <updated>2025-02-25T18:33:45.000Z</updated>
         <author>
             <name>Dan Mateer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PortSwigger and SAP forge strategic partnership to enhance enterprise web security]]></title>
-        <id>portswigger-and-sap-forge-strategic-partnership-to-enhance-enterprise-web-security</id>
-        <link href="https://portswigger.net/blog/portswigger-and-sap-forge-strategic-partnership-to-enhance-enterprise-web-security"/>
-        <updated>2025-02-25T14:34:46.000Z</updated>
-        <summary type="html"><![CDATA[In today’s rapidly evolving digital landscape, securing web applications at scale is a challenge, even for the most well-resourced organizations. Large enterprises operate thousands of applications an]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pulseway updates: Enhanced remote monitoring and management with improved security, automation, and remote control upgrades]]></title>
-        <id>https://4sysops.com/?p=1592388</id>
-        <link href="https://4sysops.com/archives/pulseway-updates-enhanced-remote-monitoring-and-management-with-improved-security-automation-and-remote-control-upgrades/"/>
-        <updated>2025-02-25T12:54:12.000Z</updated>
-        <summary type="html"><![CDATA[Pulseway, a Remote Monitoring and Management (RMM) solution, has recently released new updates, including Single Sign-On (SSO), upgraded features for security, remote control, automation, and mobile device management (MDM).
-Source]]></summary>
-        <author>
-            <name>Brandon Lee</name>
         </author>
     </entry>
     <entry>

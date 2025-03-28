@@ -107,16 +107,6 @@
           "wordCount": 1276,
           "title": "Behind the Scenes of Burp AI: How we built it, and what's next",
           "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        },
-        {
-          "id": "portswigger-and-sap-forge-strategic-partnership-to-enhance-enterprise-web-security",
-          "author": null,
-          "description": "In today’s rapidly evolving digital landscape, securing web applications at scale is a challenge, even for the most well-resourced organizations. Large enterprises operate thousands of applications an",
-          "link": "https://portswigger.net/blog/portswigger-and-sap-forge-strategic-partnership-to-enhance-enterprise-web-security",
-          "publishedOn": "2025-02-25T14:34:46.000Z",
-          "wordCount": 1218,
-          "title": "PortSwigger and SAP forge strategic partnership to enhance enterprise web security",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
     },
@@ -409,6 +399,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67dc7e6c4b9e79466bb34051",
+          "author": "Reno Robert",
+          "description": "Use-after-free is a memory corruption condition where a program references memory after it has been released back to the allocator. Statically detecting these bugs can be challenging. In the past, several approaches have addressed this problem, such as GUEB by Josselin Feist and Sean Heelan's work on Finding use-after-free bugs with static analysis. \nThis blog post explores the usage of Binary Ninja’s Medium Level Intermediate Language (MLIL) to establish a data flow graph by tracing interactions between a specific memory allocation and other memory regions. Building on the data flow graph, it is further utilized in context-insensitive reachability analysis across functions to identify potential Use-After-Free (UAF) vulnerabilities in binaries. Like any other static code analysis approach,…",
+          "link": "https://www.thezdi.com/blog/2025/3/20/mindshare-using-binary-ninja-api-to-detect-potential-use-after-free-vulnerabilities",
+          "publishedOn": "2025-03-27T15:04:29.000Z",
+          "wordCount": null,
+          "title": "MindshaRE: Using Binary Ninja API to Detect Potential Use-After-Free Vulnerabilities",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67d49727b29f204485c6f8e9",
           "author": "Thanos Kaliyanakis",
           "description": "Researching and reverse engineering Level 2 Electric Vehicle Supply Equipment (EVSE or loosely “charger”) efforts might require the equipment to be placed beyond the idle state. The idle state is straightforward and usually involves nothing more than powering up the charger. Indeed, this is a very useful state for research where the user interface is in operation, communications both wired and wireless are working and the mobile device app can interact. However, there are times when there is a need to force the charger into other states so that it behaves as though the electric vehicle is attached, the EV is asking for charge, or the EV is charging and the EVSE is providing charging current.  \nAt the Pwn2Own Automotive 2025 event, an add-on category was introduced that required a demonstra…",
@@ -551,6 +552,16 @@
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com/2025/03/27/cspt-resources.html",
+          "author": null,
+          "description": "As a follow up to Maxence Schmitt’s research on Client-Side Path Traversal (CSPT), we wanted to encourage researchers, bug hunters, and security professionals to explore CSPT further, as it remains an underrated yet impactful attack vector.\nTo support the community, we have compiled a list of blog posts, vulnerabilities, tools, CTF challenges, and videos related to CSPT. If anything is missing, let us know and we will update the post. Please note that the list is not ranked and does not reflect the quality or importance of the resources.\nPublications (blog posts, advisories, …)\nMaxence Schmitt: Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF\nMaxence Schmitt: CSPT & File Upload Bypasses\nDafydd Stuttard: PortSwigger - On-Site Request Forger…",
+          "link": "https://blog.doyensec.com/2025/03/27/cspt-resources.html",
+          "publishedOn": "2025-03-26T23:00:00.000Z",
+          "wordCount": 979,
+          "title": "CSPT Resources",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com/2025/03/18/exploitable-gitlab.html",
           "author": null,
@@ -742,6 +753,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1593656",
+          "author": "Markus Elsberger",
+          "description": "Terminal Chat enables the integration of GitHub Copilot, Azure OpenAI, and OpenAI's AI services into Windows Terminal Canary. Through this experimental feature, you can request assistance from an AI for your PowerShell commands and directly execute the AI's recommendations in the terminal.\nSource",
+          "link": "https://4sysops.com/archives/using-windows-terminal-chat-with-github-copilot/",
+          "publishedOn": "2025-03-27T12:28:05.000Z",
+          "wordCount": null,
+          "title": "Using Windows Terminal Chat with GitHub Copilot",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1593604",
           "author": "Michael Pietroforte",
@@ -941,26 +962,6 @@
           "wordCount": null,
           "title": "Docker container in Server 2025: Windows vs. Hyper-V vs. WSL2",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1592595",
-          "author": "Michael Pietroforte",
-          "description": "When I first watched Anthropic's demo of Claude Code, I was thrilled because I believed this tool could be a valuable asset as an AI-driven CLI assistant akin to Warp's AI agent. After all, who even codes in a terminal anymore?\nSource",
-          "link": "https://4sysops.com/archives/anthropic-claude-code-ai-powered-cli-coding-in-the-terminal/",
-          "publishedOn": "2025-02-26T11:32:12.000Z",
-          "wordCount": null,
-          "title": "Anthropic Claude Code — AI-powered CLI? Coding in the terminal?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1592388",
-          "author": "Brandon Lee",
-          "description": "Pulseway, a Remote Monitoring and Management (RMM) solution, has recently released new updates, including Single Sign-On (SSO), upgraded features for security, remote control, automation, and mobile device management (MDM).\nSource",
-          "link": "https://4sysops.com/archives/pulseway-updates-enhanced-remote-monitoring-and-management-with-improved-security-automation-and-remote-control-upgrades/",
-          "publishedOn": "2025-02-25T12:54:12.000Z",
-          "wordCount": null,
-          "title": "Pulseway updates: Enhanced remote monitoring and management with improved security, automation, and remote control upgrades",
-          "imageUrl": null
         }
       ]
     },
@@ -1061,16 +1062,6 @@
           "publishedOn": "2025-03-04T06:24:53.000Z",
           "wordCount": 3371,
           "title": "DNSSEC NSEC. The accidental treasure map to your subdomains",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=30652",
-          "author": "David Lodge",
-          "description": "TL;DR Rockchip has a structured sequence of bootloaders. Using various plugs can allow access to the MCU’s RAM and storage. There are many utilities to allow reading of information from […]\nA dive into the Rockchip Bootloader first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/a-dive-into-the-rockchip-bootloader/",
-          "publishedOn": "2025-02-26T06:49:09.000Z",
-          "wordCount": 2883,
-          "title": "A dive into the Rockchip Bootloader",
           "imageUrl": null
         }
       ]
@@ -1208,16 +1199,6 @@
           "publishedOn": "2025-03-04T00:00:00.000Z",
           "wordCount": 4163,
           "title": "SANS Threat Analysis Rundown in Review: Breaking Down February 2025’s Top Threats",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/how-to-get-your-talk-accepted-at-the-sans-ssa-summit",
-          "author": null,
-          "description": "A blog providing tips on how to get your presentation seleccted for the 2025 SANS Security Awareness Summit.",
-          "link": "https://www.sans.org/blog/how-to-get-your-talk-accepted-at-the-sans-ssa-summit?msc=rss",
-          "publishedOn": "2025-02-26T00:00:00.000Z",
-          "wordCount": 3676,
-          "title": "How to Get Your Talk Accepted at the SANS SSA Summit",
           "imageUrl": null
         }
       ]
