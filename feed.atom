@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-04-16T00:52:45.211Z</updated>
+    <updated>2025-04-17T00:51:53.087Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The SQL Server Crypto Detour]]></title>
+        <id>https://blog.xpnsec.com/the-sql-server-crypto-detour/</id>
+        <link href="https://blog.xpnsec.com/the-sql-server-crypto-detour/"/>
+        <updated>2025-04-16T23:01:46.000Z</updated>
+        <summary type="html"><![CDATA[One of the things that I love about my role at SpecterOps is getting to dig into various technologies and seeing the resulting research being used in real-time. This post will explore one such story of how I was able to go from a simple request of recovering credentials from a database backup, to reverse engineering how SQL Server encryption works, finding some new methods of brute-forcing database encryption keys.. and finally identifying a mistake in ManageEngine’s ADSelfService product which allows encrypted database backups to reveal privileged credentials.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Windows Registry Adventure #6: Kernel-mode objects]]></title>
+        <id>https://googleprojectzero.blogspot.com/2025/04/the-windows-registry-adventure-6-kernel.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2025/04/the-windows-registry-adventure-6-kernel.html"/>
+        <updated>2025-04-16T21:19:00.000Z</updated>
+        <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizHz0e5qzIIUg9OvSRGeMDk3I);.lst-kix_404916xkl9yq-4>li:before{content:"\0025cb   "}ul.lst-kix_617gqi1nmysw-0{list-style-type:none}.lst-kix_4j4spo1gm828-8>li:before{content:"\0025a0   "}.lst-kix_twe3knjlgokg-1>li:before{content:"\0025cb   "}.lst-kix_twe3knjlgokg-3>li:before{content:"\0025cf   "}.lst-kix_404916xkl9yq-1>li:before{content:"\0025cb   "}.lst-kix_404916xkl9yq-5>li:before{content:"\0025a0   "}.lst-kix_twe3knjlgokg-2>li:before{content:"\0025a0   "}.lst-kix_twe3knjlgokg-6>li:before{content:"\0025cf   "}.lst-kix_404916xkl9yq-0>li:before{content:"\0025cf   "}.lst-kix_404916xkl9yq-8>li:before{content:"\0025a0   "}.lst-kix_4j4spo1gm828-4>li:before{content:"\0025cb   "}.lst-kix_twe3knjlgokg-7>li:before{conten…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Group Policy changes: Windows 11 compared to Windows 10]]></title>
+        <id>https://4sysops.com/?p=1594475</id>
+        <link href="https://4sysops.com/archives/group-policy-changes-windows-11-compared-to-windows-10/"/>
+        <updated>2025-04-16T13:13:01.000Z</updated>
+        <summary type="html"><![CDATA[Since Group Policy changes remain a cornerstone of centralized Windows system management, admins should know which settings have been introduced or changed before an OS upgrade. Windows 11 adds not only policies for its latest features but also extends configuration options for many existing components.
+Source]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickpost: Testing The Capacity Of My New Power Bank]]></title>
         <id>http://blog.didierstevens.com/?p=10706</id>
@@ -914,52 +945,6 @@ Cybersecurity communities. Small hacker groups, big impact first appeared on Pen
         <link href="https://4sysops.com/archives/shellgpt-for-powershell-ai-assistant-with-local-ollama-support/"/>
         <updated>2025-03-18T14:54:47.000Z</updated>
         <summary type="html"><![CDATA[In this guide, I’ll walk through installing ShellGPT (shell_gpt) – a command-line AI assistant – on PowerShell using a local Ollama LLM. This approach lets you use AI in your terminal without relying on cloud APIs, which is great for privacy. This review highlights the use of ShellGPT on Windows through PowerShell. If you are using Mac or Linux, check out our earlier review of ShellGPT.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[File System Navigation: First Steps in the Terminal - Part 1 of 5 of the Terminal Techniques for You (TTY): Making Linux Security Accessible Blog Series]]></title>
-        <id>https://www.sans.org/blog/file-system-navigation-first-steps-in-the-terminal-part-1-of-5</id>
-        <link href="https://www.sans.org/blog/file-system-navigation-first-steps-in-the-terminal-part-1-of-5?msc=rss"/>
-        <updated>2025-03-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A blog about Linux fundamentals.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Quest to Summit | SANS ICS Security Summit 2025]]></title>
-        <id>https://www.sans.org/blog/the-quest-to-summit-sans-ics-security-summit</id>
-        <link href="https://www.sans.org/blog/the-quest-to-summit-sans-ics-security-summit?msc=rss"/>
-        <updated>2025-03-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Register for the ICS Security Summit to be able to participate in The Quest to Summit and win big prizes.]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[!exploitable Episode Three - Devfile Adventures]]></title>
-        <id>https://blog.doyensec.com/2025/03/18/exploitable-gitlab.html</id>
-        <link href="https://blog.doyensec.com/2025/03/18/exploitable-gitlab.html"/>
-        <updated>2025-03-17T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ol { list-style-type: decimal }
-
-Introduction
-I know, we have written it multiple times now, but in case you are just tuning in, Doyensec had found themselves on a cruise ship touring the Mediterranean for our company retreat. To kill time between parties, we had some hacking sessions analyzing real-world vulnerabilities resulting in the !exploitable blogpost series.
-In Part 1 we covered our journey into IoT ARM exploitation, while Part 2 followed our attempts to exploit the bug used by Trinity in The Matrix Reloaded movie.
-For this episode, we will dive into the exploitation of CVE-2024-0402 in GitLab. Like an onion, there is always another layer beneath the surface of this bug, from YAML parser differentials to path traversal in decompression functions in order to achieve arbitrary file …]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding the impact of Manus AI with WebUI built on Browser Use]]></title>
-        <id>https://4sysops.com/?p=1593265</id>
-        <link href="https://4sysops.com/archives/understanding-the-impact-of-manus-ai-with-webui-built-on-browser-use/"/>
-        <updated>2025-03-17T14:46:20.000Z</updated>
-        <summary type="html"><![CDATA[Manus AI, a Chinese general AI agent, has created significant buzz in the AI community. Some perceive it as the next DeepSeek moment, while others minimize its significance, viewing it merely as a wrapper for Anthropic's Sonnet 3.5. Exploring the open-source tool WebUI helps understand one of the underlying technologies of Manus AI, the open-source framework Browser Use, which is key to Manus AI's web capabilities.
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
