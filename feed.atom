@@ -2,10 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-05-01T00:58:45.914Z</updated>
+    <updated>2025-05-03T00:52:49.073Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Minority (forensic) report aka defending forward w/o hacking back]]></title>
+        <id>https://www.hexacorn.com/blog/?p=9993</id>
+        <link href="https://www.hexacorn.com/blog/2025/05/02/minority-forensic-report-aka-defending-forward-w-o-hacking-back/"/>
+        <updated>2025-05-02T23:28:40.000Z</updated>
+        <summary type="html"><![CDATA[We love to put a wedge between the detection and response. Many of us kinda agree that telemetry analysis is one thing and the actual forensic examination of the evidence is another. However… In this post I will try to … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Model Context Protocol - New Sneaky Exploit, Risks and Mitigations]]></title>
+        <id>https://embracethered.com/blog/posts/2025/model-context-protocol-security-risks-and-exploits/</id>
+        <link href="https://embracethered.com/blog/posts/2025/model-context-protocol-security-risks-and-exploits/"/>
+        <updated>2025-05-02T19:30:35.000Z</updated>
+        <summary type="html"><![CDATA[The Model Context Protocol (MCP) is a protocol definition for how LLM apps/agents can leverage external tools. I have been calling it Model Control Protocol at times, because due to prompt injection, MCP tool servers control the client basically.
+This post will explain in detail why that is, and I will also share a novel exploit chain.
+Why MCP - How Is It Different? The main difference to other tool invocation setups, like OpenAPI is that MCP is dynamic.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disable Windows 11 Hibernate]]></title>
+        <id>https://4sysops.com/?p=1594930</id>
+        <link href="https://4sysops.com/archives/disable-windows-11-hibernation/"/>
+        <updated>2025-05-02T18:49:27.000Z</updated>
+        <summary type="html"><![CDATA[Hibernate is a power management function in Windows 11 that saves the current system state to the hard drive and shuts down the device. Disabling Windows Hibernate frees up disk space used by the hiberfil.sys file. You can disable it in the GUI or at the command prompt with PowerShell.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasig: Fingerprinting AI/ML datasets to stop data-borne attacks]]></title>
+        <id>https://blog.trailofbits.com/2025/05/02/datasig-fingerprinting-ai/ml-datasets-to-stop-data-borne-attacks/</id>
+        <link href="https://blog.trailofbits.com/2025/05/02/datasig-fingerprinting-ai/ml-datasets-to-stop-data-borne-attacks/"/>
+        <updated>2025-05-02T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datasig generates compact, unique fingerprints for AI/ML datasets that let you compare training data with high accuracy—without needing access to the raw data itself.
+This critical capability helps AIBOM (AI bill of materials) tools detect data-borne vulnerabilities that traditional security tools completely miss.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install optional features: Enable-WindowsOptionalFeature vs. Add-WindowsFeature vs. Add-WindowsCapability]]></title>
+        <id>https://4sysops.com/?p=1594908</id>
+        <link href="https://4sysops.com/archives/install-optional-features-enable-windowsoptionalfeature-vs-add-windowsfeature-vs-add-windowscapability/"/>
+        <updated>2025-05-02T00:03:51.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11 and Windows Server include additional components and utilities that are not installed by default. Depending on the operating system and the source used for installing these features, Microsoft provides various GUI tools and PowerShell cmdlets. Unfortunately, the overall concept lacks consistency and often leads to confusion.
+Source]]></summary>
+        <author>
+            <name>Wolfgang Sommergut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: xorsearch.py Version 0.0.5]]></title>
+        <id>http://blog.didierstevens.com/?p=10758</id>
+        <link href="https://blog.didierstevens.com/2025/05/02/update-xorsearch-py-version-0-0-5/"/>
+        <updated>2025-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This version fixes a bug in IsPrintable and adds option -D. xorsearch_v0_0_5.zip (http)MD5: 97621F1FCDED7B1B73091112C3C9FFD5SHA256: 67D5E89A9F3057FF51ADD1C9F66E13D110AA92A64AA2A071828871067AF42241]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221, CVE-2024-38475)]]></title>
+        <id>6813f14f370d1a00019dda9c</id>
+        <link href="https://labs.watchtowr.com/sonicboom-from-stolen-tokens-to-remote-shells-sonicwall-sma100-cve-2023-44221-cve-2024-38475/"/>
+        <updated>2025-05-01T22:31:04.000Z</updated>
+        <summary type="html"><![CDATA[Another day, another edge device being targeted - it’s a typical Thursday!
+In today’s blog post, we’re excited to share our previously private analysis of the now exploited in-the-wild N-day vulnerabilities affecting SonicWall’s SMA100 appliance. Over the last few months, our client]]></summary>
+        <author>
+            <name>Sina Kheirkhah (@SinSinology)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making PyPI's test suite 81% faster]]></title>
+        <id>https://blog.trailofbits.com/2025/05/01/making-pypis-test-suite-81-faster/</id>
+        <link href="https://blog.trailofbits.com/2025/05/01/making-pypis-test-suite-81-faster/"/>
+        <updated>2025-05-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[See how we slashed PyPI’s test suite runtime from 163 to 30 seconds.
+The techniques we share can help you dramatically improve your own project’s
+testing performance without sacrificing coverage.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The remote desktop puzzle. DFIR techniques for dealing with RDP Bitmap Cache]]></title>
+        <id>https://www.pentestpartners.com/?p=30940</id>
+        <link href="https://www.pentestpartners.com/security-blog/the-remote-desktop-puzzle-dfir-techniques-for-dealing-with-rdp-bitmap-cache/"/>
+        <updated>2025-05-01T05:29:51.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR How RDP Bitmap Cache can reveal user activity No RDP logs? How can we reconstruct RDP activity? How cached tiles can uncover insider threats Introduction A lot of people […]
+The remote desktop puzzle. DFIR techniques for dealing with RDP Bitmap Cache first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Joseph Williams</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5 MCP Security Tips]]></title>
         <id>42993a6f-3d6e-47f7-8ee2-8fdab3efb921</id>
@@ -32,6 +131,36 @@
         <summary type="html"><![CDATA[Here is an overview of content I published in April: Blog posts: Update: xorsearch.py Version 0.0.2 Update: xorsearch.py Version 0.0.3 Quickpost: Testing The Capacity Of My New Power Bank Update: xorsearch.py Version 0.0.4 Update: basedump64.py Version 0.0.28 Update: emldump.py Version 0.0.15 Update: pecheck.py Version 0.7.17 Update: rtfdump.py Version 0.0.13 Update: zipdump.py Version 0.0.32 Update: oledump.py […]]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside RSAC 2025: The Five Emerging Attack Techniques That Demand Your Attention]]></title>
+        <id>https://www.sans.org/blog/inside-rsac-2025-the-five-emerging-attack-techniques-that-demand-your-attention</id>
+        <link href="https://www.sans.org/blog/inside-rsac-2025-the-five-emerging-attack-techniques-that-demand-your-attention?msc=rss"/>
+        <updated>2025-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog recaps the RSAC 2025 keynote address identifying the five emerging attack techniques of 2025.]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Happy Password Day! Yes, That’s a Thing – And It’s More Fun Than It Sounds]]></title>
+        <id>https://www.sans.org/blog/happy-password-day-yes-that-s-a-thing-and-its-more-fun-than-it-sounds</id>
+        <link href="https://www.sans.org/blog/happy-password-day-yes-that-s-a-thing-and-its-more-fun-than-it-sounds?msc=rss"/>
+        <updated>2025-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog outlining a few simple steps people can take to strengthen their password security for World Password Day]]></summary>
+        <author>
+            <name>SANS Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SANS Threat Analysis Rundown in Review: Breaking Down April 2025’s Discussion]]></title>
+        <id>https://www.sans.org/blog/sans-threat-analysis-rundown-in-review-breaking-down-april-2025s-discussion</id>
+        <link href="https://www.sans.org/blog/sans-threat-analysis-rundown-in-review-breaking-down-april-2025s-discussion?msc=rss"/>
+        <updated>2025-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[a blog recapping the April SANS Threat Analysis Rundown (STAR) Livestream]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -12690,80 +12819,6 @@ Do you know the fun things about these posts? We can copy text from]]></summary>
 Source]]></summary>
         <author>
             <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future of Application Security: key insights from the webinar]]></title>
-        <id>the-future-of-appsec-portswiggers-vision</id>
-        <link href="https://portswigger.net/blog/the-future-of-appsec-portswiggers-vision"/>
-        <updated>2025-04-03T09:17:42.000Z</updated>
-        <summary type="html"><![CDATA[PortSwigger's Vision In March, PortSwigger hosted its biggest webinar to date and the turnout spoke volumes. With over 7,500 registrants, it’s clear that the future of application security is top of m]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preparing for the EU Radio Equipment Directive security requirements]]></title>
-        <id>https://www.pentestpartners.com/?p=30810</id>
-        <link href="https://www.pentestpartners.com/security-blog/preparing-for-the-eu-radio-equipment-directive-security-requirements/"/>
-        <updated>2025-04-03T05:00:02.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR UK & EU IoT vendors have more security regulation coming in Applies to all wireless devices Comes into force 1st August 2025 It may be absorbed into the Cyber […]
-Preparing for the EU Radio Equipment Directive security requirements first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Adam Bromiley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zapier MCP Server: Automate every web service with an AI]]></title>
-        <id>https://4sysops.com/?p=1593901</id>
-        <link href="https://4sysops.com/archives/zapier-mcp-server-automate-every-web-service-with-an-ai/"/>
-        <updated>2025-04-02T13:28:39.000Z</updated>
-        <summary type="html"><![CDATA[Zapier is a cloud-based automation platform that lets users connect and automate workflows between thousands of web services without coding. Recently, Zapier announced support for Anthropic's MCP standard. MCP is an open protocol that allows AI models to interact with external tools, data sources, and services, and it's now also supported by OpenAI, Microsoft, and Amazon. In this post, I share my experiences with Zapier's MCP server.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Improved Detection Signature for the Kubernetes IngressNightmare Vulnerability]]></title>
-        <id>https://www.praetorian.com/?p=3872</id>
-        <link href="https://www.praetorian.com/blog/an-improved-detection-signature-for-the-kubernetes-ingress-nightmare/"/>
-        <updated>2025-04-01T21:50:22.000Z</updated>
-        <summary type="html"><![CDATA[Wiz recently published a detailed analysis of a critical vulnerability in the NGINX Ingress admission controller—what they’ve dubbed IngressNightmare (CVE-2025-1097, CVE-2025-1098, CVE-2025-1974, CVE-2025-24514). The vulnerability stems from insufficient input validation during configuration file processing, allowing an attacker to inject arbitrary code into the NGINX process. Wiz’s writeup is excellent and covers the technical nuances thoroughly, […]
-The post An Improved Detection Signature for the Kubernetes IngressNightmare Vulnerability appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Harry Hayward</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-powered anomaly detection with ManageEngine Ransomware Protection Plus]]></title>
-        <id>https://4sysops.com/?p=1593734</id>
-        <link href="https://4sysops.com/archives/ai-powered-anomaly-detection-with-manageengine-ransomware-protection-plus/"/>
-        <updated>2025-04-01T14:16:11.000Z</updated>
-        <summary type="html"><![CDATA[Cyberattackers are evolving their tactics and developing more sophisticated ransomware. Advanced AI-driven security solutions are needed to provide the defense mechanisms to detect and remediate ransomware threats. Ransomware Protection Plus is a new solution from ManageEngine that provides a multi-layered defense against ransomware.
-Source]]></summary>
-        <author>
-            <name>Brandon Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SonicWall-CVE-2024-53704: Exploit Details]]></title>
-        <id>https://bishopfox.com/blog/sonicwall-cve-2024-53704-exploit-details-blog</id>
-        <link href="https://bishopfox.com/blog/sonicwall-cve-2024-53704-exploit-details-blog"/>
-        <updated>2025-04-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bishop Fox researcher, Jon Williams, explains how they successfully exploited CVE-2024-53704, an authentication bypass in unpatched SonicWall firewalls.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tomcat CVE-2025-24813: What You Need to Know]]></title>
-        <id>https://bishopfox.com/blog/tomcat-cve-2025-24813-what-you-need-to-know-blog</id>
-        <link href="https://bishopfox.com/blog/tomcat-cve-2025-24813-what-you-need-to-know-blog"/>
-        <updated>2025-04-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A breakdown of CVE-2025-24813 in Apache Tomcat—what it is, who’s actually at risk, and why most users likely aren’t affected. Keep calm and patch your servers.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
         </author>
     </entry>
     <entry>
