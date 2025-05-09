@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-05-08T00:54:40.922Z</updated>
+    <updated>2025-05-09T00:53:56.186Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Public Report - VeChainThor Galactica Security Assessment]]></title>
+        <id>500f237d-5d48-40f2-9249-23e3c2c93f1e</id>
+        <link href="https://www.nccgroup.com/us/research-blog/public-report-vechainthor-galactica-security-assessment/"/>
+        <updated>2025-05-09T00:53:30.854Z</updated>
+        <author>
+            <name>Research Blog: Latest Cyber Security Insights</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: oledump.py Version 0.0.81]]></title>
+        <id>http://blog.didierstevens.com/?p=10774</id>
+        <link href="https://blog.didierstevens.com/2025/05/09/update-oledump-py-version-0-0-81/"/>
+        <updated>2025-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This version brings a new plugin to extract clickable links from Word documents (.doc): plugin_hyperlink.py oledump_V0_0_81.zip (http)MD5: CEC519186C49CEA82811491DD0055D94SHA256: 1F990AC30E6D5992D6888F0CAD6FAECE568DB5C32F54554E3BEA89542481658A]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install the Perplexity MCP server for VS Code GitHub Copilot on Windows and Mac]]></title>
+        <id>https://4sysops.com/?p=1595396</id>
+        <link href="https://4sysops.com/archives/install-the-perplexity-mcp-server-for-vs-code-github-copilot-on-windows-and-mac/"/>
+        <updated>2025-05-08T15:34:24.000Z</updated>
+        <summary type="html"><![CDATA[Perplexity is an AI search engine that answers questions by combining real-time web results with conversational, natural language responses. Installing Perplexity's official MCP server on your Mac or Windows PC allows querying Perplexity from any AI model in VS Code GitHub Copilot. Enabling your AI to search the web for the latest updates is a must-have feature for scripting or working in the terminal.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FreeDrain Unmasked | Uncovering an Industrial-Scale Crypto Theft Network]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=121002</id>
+        <link href="https://www.sentinelone.com/labs/freedrain-unmasked-uncovering-an-industrial-scale-crypto-theft-network/"/>
+        <updated>2025-05-08T13:55:29.000Z</updated>
+        <summary type="html"><![CDATA[FreeDrain is a modern, scalable phishing operation exploiting weaknesses in free publishing platforms to steal cryptocurrency on a global scale.]]></summary>
+        <author>
+            <name>Tom Hegel, Kenneth Kinion (Validin) &amp; Sreekar Madabushi (Validin)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RCEs and more in the KUNBUS GmbH Revolution Pi PLC]]></title>
+        <id>https://www.pentestpartners.com/?p=30985</id>
+        <link href="https://www.pentestpartners.com/security-blog/rces-and-more-in-the-kunbus-gmbh-revolution-pi-plc/"/>
+        <updated>2025-05-08T05:36:30.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Four new vulnerabilities in the Revolution Pi industrial PLCs Two give unauthenticated attackers RCE—potentially a direct impact on safety and operations Documentation and firmware is public, meaning greater oversight […]
+RCEs and more in the KUNBUS GmbH Revolution Pi PLC first appeared on Pen Test Partners.]]></summary>
+        <author>
+            <name>Adam Bromiley</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Where You Inject Matters: The Role-Specific Impact of Prompt Injection Attacks on OpenAI models]]></title>
         <id>baf4c73f-3041-41f0-9414-20f6bef7ee2f</id>
@@ -23,6 +74,28 @@
         <summary type="html"><![CDATA[This new version of myjson-filter brings: Plugin plugin_ooxml_url.py is a plugin that extracts clickable links from OOXML documents: myjson-filter_V0_0_7.zip (http)MD5: E168A38CBC349F972EDD830A56C949BESHA256: AD09A5C50310E9684561FC33AE98C5F8928D6F3B30F8723CF44A3C912590C5AD]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SCIM Hunting - Beyond SSO]]></title>
+        <id>https://blog.doyensec.com/2025/05/08/scim-hunting.html</id>
+        <link href="https://blog.doyensec.com/2025/05/08/scim-hunting.html"/>
+        <updated>2025-05-07T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ol { list-style-type: decimal }
+
+Introduction
+Single Sign-On (SSO) related bugs have gotten an incredible amount of hype and a lot of amazing public disclosures in recent years. Just to cite a few examples:
+Common OAuth Vulnerabilities
+Sign in as anyone: Bypassing SAML SSO authentication with parser differentials
+Account hijacking using “dirty dancing” in sign-in OAuth-flows
+And so on - there is a lot of gold out there.
+
+Not surprisingly, systems using a custom implementation are the most affected since integrating SSO with a platform’s User object model is not trivial.
+
+
+However, while SSO often takes center stage, another standard is often under-tested - SCIM (System for Cross-domain Identity Management). In this blogpost we will dive into its core aspects & the insecure design issues we…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -12758,47 +12831,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Snapshot Fuzzing enables security engineers to effectively test software that is traditionally difficult to analyze, such as kernel-level software (though the technique is not limited to such software). Whether you’re auditing drivers or other kernel-mode components, including antivirus software, snapshot fuzzing provides a robust way to discover critical vulnerabilities. Consult our new Testing Handbook section for a walkthrough on how to conduct snapshot fuzzing on your system.]]></summary>
         <author>
             <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t use corporate email for your personal life]]></title>
-        <id>https://www.pentestpartners.com/?p=30865</id>
-        <link href="https://www.pentestpartners.com/security-blog/dont-use-corporate-email-for-your-personal-life/"/>
-        <updated>2025-04-09T05:52:43.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR People use whatever is convenient. Segregation of work and personal matters is a key part of security. Using corporate addresses tramples on this separation. Corporate email addresses should be […]
-Don’t use corporate email for your personal life first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Lee Parkes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Renaissance of NTLM Relay Attacks: Everything You Need to Know]]></title>
-        <id>https://medium.com/p/abfc3677c34e</id>
-        <link href="https://posts.specterops.io/the-renaissance-of-ntlm-relay-attacks-everything-you-need-to-know-abfc3677c34e?source=rss----f05f8696e3cc---4"/>
-        <updated>2025-04-08T20:54:20.000Z</updated>
-        <author>
-            <name>Elad Shamir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The April 2025 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:67f556eda04f6d0c65aa52a0</id>
-        <link href="https://www.thezdi.com/blog/2025/4/8/the-april-2025-security-update-review"/>
-        <updated>2025-04-08T18:14:25.000Z</updated>
-        <summary type="html"><![CDATA[It’s the second Tuesday of the month, and, as expected, Microsoft and Adobe have released their latest security offerings – all tariff free. Take a break from your scheduled activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for April 2025
-For April, Adobe released 12 bulletins addressing 54 CVEs in Adobe Cold Fusion, After Effects, Media Encoder, Bridge, Commerce, AEM Forms, Premiere Pro, Photoshop, Animate, AEM Screens, FrameMaker, and the Adobe XMP Toolkit SDK. Adobe lists the update for Cold Fusion as Priority 1 but states there are no exploits in the wild for the bugs being patched. The patch for AEM Forms is set to Priority 2. These aren’t new…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The SQL Server Crypto Detour]]></title>
-        <id>https://medium.com/p/5ff9ac7033de</id>
-        <link href="https://posts.specterops.io/the-sql-server-crypto-detour-5ff9ac7033de?source=rss----f05f8696e3cc---4"/>
-        <updated>2025-04-08T15:38:21.000Z</updated>
-        <author>
-            <name>Adam Chester</name>
         </author>
     </entry>
     <entry>
