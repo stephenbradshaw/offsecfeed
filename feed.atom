@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-04T00:56:04.347Z</updated>
+    <updated>2025-06-05T00:55:41.703Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quickpost: emldump Bulk Extraction]]></title>
+        <id>http://blog.didierstevens.com/?p=10670</id>
+        <link href="https://blog.didierstevens.com/2025/06/05/quickpost-emldump-bulk-extraction/"/>
+        <updated>2025-06-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A reader asked about bulk extraction of email attachments with emldump.py If you want to extract all attachments and write them to disk, you can use the following command: This command will produce a MyJSON data structure will the content and metadata of all parts (not only attachments, also the different bodies) and save the […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tokenization Confusion]]></title>
+        <id>https://blog.xpnsec.com/tokenization-confusion/</id>
+        <link href="https://blog.xpnsec.com/tokenization-confusion/"/>
+        <updated>2025-06-04T23:01:46.000Z</updated>
+        <summary type="html"><![CDATA[In this post we look at the new Prompt Guard 2 model from Meta, and introduce a concept I've been calling "Tokenization Confusion" which aims to confuse Unigram tokenization into generating tokens which will result in the misclassification of malicious prompts. We'll also look at why building up our ML knowledge will lead to better findings when assessing LLM API’s, as I discovered during a flight across the Atlantic.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enable Administrator Protection in Windows 11]]></title>
+        <id>https://4sysops.com/?p=1596454</id>
+        <link href="https://4sysops.com/archives/enable-administrator-protection-in-windows-11/"/>
+        <updated>2025-06-04T19:46:30.000Z</updated>
+        <summary type="html"><![CDATA[Enabling Administrator protection in Windows 11 significantly improves security by addressing critical User Account Control (UAC) weaknesses. Unlike UAC’s split-token model, where elevated processes share the user’s session and can be exploited by malware, Administrator Protection creates a separate, system-managed administrator account (SMAA) that generates isolated, just-in-time admin tokens for each task, which are destroyed immediately after use.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2025 Red Team Tools – C2 Frameworks, Active Directory & Network Exploitation]]></title>
+        <id>https://bishopfox.com/blog/2025-red-team-tools-c2-frameworks-active-directory-network-exploitation</id>
+        <link href="https://bishopfox.com/blog/2025-red-team-tools-c2-frameworks-active-directory-network-exploitation"/>
+        <updated>2025-06-04T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore our top Red Team tools for 2025—from powerful C2 frameworks to Active Directory and network exploitation utilities. Built for real-world adversary emulation, this toolkit is your edge in offensive security. Dive into part one of our expert-curated series.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pew Pew, Precisely: The Physics and Practices Behind RayV Lite]]></title>
+        <id>https://www.netspi.com/?p=27498</id>
+        <link href="https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/rayv-lite-open-source-laser-injection-tool/"/>
+        <updated>2025-06-04T15:34:47.000Z</updated>
+        <summary type="html"><![CDATA[We began with a simple question: could laser fault injection be democratized? Our answer is a resounding yes. With back-of-the-envelope physics, modest optics, and basic spare parts, we created a replicable, low-cost method for laser-based hardware attacks.
+The post Pew Pew, Precisely: The Physics and Practices Behind RayV Lite appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Sam. Beaumont</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multiple CVEs in Infoblox NetMRI: RCE, Auth Bypass, SQLi, and File Read Vulnerabilities]]></title>
+        <id>https://rhinosecuritylabs.com/?p=25844</id>
+        <link href="https://rhinosecuritylabs.com/research/infoblox-multiple-cves/"/>
+        <updated>2025-06-04T10:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Multiple CVEs in Infoblox NetMRI: RCE, Auth Bypass, SQLi, and File Read Vulnerabilities   appeared first on Rhino Security Labs.]]></summary>
+        <author>
+            <name>David Yesland</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickpost: Firefox Profiles and Multiple Instances]]></title>
         <id>http://blog.didierstevens.com/?p=6360</id>
@@ -12734,17 +12796,6 @@ Exploiting Copilot AI for SharePoint first appeared on Pen Test Partners.]]></su
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable BitLocker on Windows 11]]></title>
-        <id>https://4sysops.com/?p=1594984</id>
-        <link href="https://4sysops.com/archives/disable-bitlocker-on-windows-11/"/>
-        <updated>2025-05-06T03:34:10.000Z</updated>
-        <summary type="html"><![CDATA[Several reasons exist for wanting to turn off BitLocker on an individual machine or across your network. In Windows 11, you can disable BitLocker using three methods: the GUI, PowerShell, or Group Policy.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>
