@@ -176,6 +176,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10023",
+          "author": "Didier Stevens",
+          "description": "I’ve a feature in some of my tools, that let you choose the hash algorithm. Many of my tools calculate hashes, and for historical reasons, that is the MD5 hash. But if you want another hash, you can change this (for some of my tools) by setting environment variable DSS_DEFAULT_HASH_ALGORITHMS. Like for pdf-parser.py, on Windows, […]",
+          "link": "https://blog.didierstevens.com/2025/06/06/dss_default_hash_algorithms/",
+          "publishedOn": "2025-06-06T00:00:00.000Z",
+          "wordCount": 3488,
+          "title": "DSS_DEFAULT_HASH_ALGORITHMS",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10670",
           "author": "Didier Stevens",
           "description": "A reader asked about bulk extraction of email attachments with emldump.py If you want to extract all attachments and write them to disk, you can use the following command: This command will produce a MyJSON data structure will the content and metadata of all parts (not only attachments, also the different bodies) and save the […]",
@@ -13886,6 +13896,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1596510",
+          "author": "Michael Pietroforte",
+          "description": "Mountpoint for Amazon S3  (mountpoint-s3) now allows you to mount an S3 bucket in AWS at EC2 instance boot time via fstab. However, it remains non-POSIX compliant, so standard filesystem operations like deleting or renaming files still do not work. In contrast, the open-source alternative s3fs-fuse offers substantial POSIX support but comes with its own drawbacks.\nSource",
+          "link": "https://4sysops.com/archives/mount-an-s3-bucket-on-an-ec2-instance-at-boot-using-fstab-with-mountpoint-for-amazon-s3-or-s3fs-fuse/",
+          "publishedOn": "2025-06-05T15:51:02.000Z",
+          "wordCount": null,
+          "title": "Mount an S3 bucket on an EC2 instance at boot using fstab with Mountpoint for Amazon S3 or s3fs-fuse",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1596454",
           "author": "Markus Elsberger",
           "description": "Enabling Administrator protection in Windows 11 significantly improves security by addressing critical User Account Control (UAC) weaknesses. Unlike UAC’s split-token model, where elevated processes share the user’s session and can be exploited by malware, Administrator Protection creates a separate, system-managed administrator account (SMAA) that generates isolated, just-in-time admin tokens for each task, which are destroyed immediately after use.\nSource",
@@ -14094,16 +14114,6 @@
           "wordCount": null,
           "title": "Migrate a file server to Windows Server 2025",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1595311",
-          "author": "Michael Pietroforte",
-          "description": "OpenAI Codex CLI is a new open-source command-line tool that integrates AI models into any terminal. It enables you to generate, edit, and execute code using natural language prompts. I tested Codex CLI on Windows and Mac and concluded that it is no match for advanced AI CLIs such as Warp, Cline, or Roo Code. Do not mix up Codex CLI with OpenAI's Codex model, which was discontinued in March 2023. Perhaps Sam Altman should seek advice from ChatGPT before naming future products.\nSource",
-          "link": "https://4sysops.com/archives/openai-codex-cli-ai-powered-assistant-for-the-terminal/",
-          "publishedOn": "2025-05-06T16:17:37.000Z",
-          "wordCount": null,
-          "title": "OpenAI Codex CLI: AI-powered assistant for the terminal?",
-          "imageUrl": null
         }
       ]
     },
@@ -14234,16 +14244,6 @@
           "wordCount": 3670,
           "title": "RCEs and more in the KUNBUS GmbH Revolution Pi PLC",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=30962",
-          "author": "Jack Barradell-Johns",
-          "description": "TL;DR AI Assistants are becoming far more common Copilot for SharePoint is Microsoft’s answer to generative AI assistance on SharePoint Attackers will look to exploit anything they can get their […]\nExploiting Copilot AI for SharePoint first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/exploiting-copilot-ai-for-sharepoint/",
-          "publishedOn": "2025-05-07T05:36:10.000Z",
-          "wordCount": 3244,
-          "title": "Exploiting Copilot AI for SharePoint",
-          "imageUrl": null
         }
       ]
     },
@@ -14252,6 +14252,16 @@
       "feedUrl": "https://www.sans.org/blog/feed.xml",
       "siteUrl": "https://www.sans.org/blog",
       "articles": [
+        {
+          "id": "https://www.sans.org/blog/stay-ahead-of-ransomware-communication-during-cyber-incident",
+          "author": null,
+          "description": "Learn the critical role of communications during cyber incidents",
+          "link": "https://www.sans.org/blog/stay-ahead-of-ransomware-communication-during-cyber-incident?msc=rss",
+          "publishedOn": "2025-06-04T00:00:00.000Z",
+          "wordCount": 3545,
+          "title": "Stay Ahead of Ransomware: Communication During a Cyber Incident",
+          "imageUrl": null
+        },
         {
           "id": "https://www.sans.org/blog/emerging-threats-summit-2025-recap-unpacking-quantum-revolution",
           "author": null,
@@ -14476,7 +14486,18 @@
       "title": "NVISO Labs",
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=20197",
+          "author": "Jeroen Beckers",
+          "description": "TL;DR: The AlwaysTrustUserCerts module now supports Android 7 until Android 16 Beta. If you want to learn more about Mainline, Conscrypt and how everything works together, keep reading! Intro To properly test the backend of any mobile application, we need to intercept (and modify) the API traffic. We could use Swagger or Postman files if … Continue reading Intercepting traffic on Android with Mainline and Conscrypt →",
+          "link": "https://blog.nviso.eu/2025/06/05/intercepting-traffic-on-android-with-mainline-and-conscrypt/",
+          "publishedOn": "2025-06-05T07:00:00.000Z",
+          "wordCount": 6314,
+          "title": "Intercepting traffic on Android with Mainline and Conscrypt",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/05/cover_android_conscrypt.png"
+        }
+      ]
     },
     {
       "title": "bishopfox.com",
@@ -14590,16 +14611,6 @@
           "wordCount": 3017,
           "title": "Expression Payloads Meet Mayhem - Ivanti EPMM Unauth RCE Chain (CVE-2025-4427 and CVE-2025-4428)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/05/Group-8730--10-.png"
-        },
-        {
-          "id": "6812bfd89b6b920001bf6fbb",
-          "author": "Sina Kheirkhah (@SinSinology)",
-          "description": "It’s… another week, and another vendor who is apparently experienced with ransomware gangs but yet struggles with email.\nIn what we've seen others term \"the watchTowr treatment\", we are once again (surprise, surprise) disclosing vulnerability research that allowed us to gain pre-authenticated Remote",
-          "link": "https://labs.watchtowr.com/sysowned-your-friendly-rce-support-ticket/",
-          "publishedOn": "2025-05-07T09:38:35.000Z",
-          "wordCount": 4969,
-          "title": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/05/Group-8730--7-.png"
         }
       ]
     }

@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-05T00:55:41.703Z</updated>
+    <updated>2025-06-06T00:54:50.111Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[DSS_DEFAULT_HASH_ALGORITHMS]]></title>
+        <id>http://blog.didierstevens.com/?p=10023</id>
+        <link href="https://blog.didierstevens.com/2025/06/06/dss_default_hash_algorithms/"/>
+        <updated>2025-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve a feature in some of my tools, that let you choose the hash algorithm. Many of my tools calculate hashes, and for historical reasons, that is the MD5 hash. But if you want another hash, you can change this (for some of my tools) by setting environment variable DSS_DEFAULT_HASH_ALGORITHMS. Like for pdf-parser.py, on Windows, […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mount an S3 bucket on an EC2 instance at boot using fstab with Mountpoint for Amazon S3 or s3fs-fuse]]></title>
+        <id>https://4sysops.com/?p=1596510</id>
+        <link href="https://4sysops.com/archives/mount-an-s3-bucket-on-an-ec2-instance-at-boot-using-fstab-with-mountpoint-for-amazon-s3-or-s3fs-fuse/"/>
+        <updated>2025-06-05T15:51:02.000Z</updated>
+        <summary type="html"><![CDATA[Mountpoint for Amazon S3  (mountpoint-s3) now allows you to mount an S3 bucket in AWS at EC2 instance boot time via fstab. However, it remains non-POSIX compliant, so standard filesystem operations like deleting or renaming files still do not work. In contrast, the open-source alternative s3fs-fuse offers substantial POSIX support but comes with its own drawbacks.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intercepting traffic on Android with Mainline and Conscrypt]]></title>
+        <id>https://blog.nviso.eu/?p=20197</id>
+        <link href="https://blog.nviso.eu/2025/06/05/intercepting-traffic-on-android-with-mainline-and-conscrypt/"/>
+        <updated>2025-06-05T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: The AlwaysTrustUserCerts module now supports Android 7 until Android 16 Beta. If you want to learn more about Mainline, Conscrypt and how everything works together, keep reading! Intro To properly test the backend of any mobile application, we need to intercept (and modify) the API traffic. We could use Swagger or Postman files if … Continue reading Intercepting traffic on Android with Mainline and Conscrypt →]]></summary>
+        <author>
+            <name>Jeroen Beckers</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickpost: emldump Bulk Extraction]]></title>
         <id>http://blog.didierstevens.com/?p=10670</id>
@@ -76,6 +107,16 @@ The post Pew Pew, Precisely: The Physics and Practices Behind RayV Lite appeared
         <summary type="html"><![CDATA[It’s something that I’ve been doing for 10+years, but every couple of years I need to configure this again (on a new machine), and then I need to look it up because I forgot the details. Hence this quickpost. This is how I run Firefox on Windows: This allow me to run multiple instances (option […]]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stay Ahead of Ransomware: Communication During a Cyber Incident]]></title>
+        <id>https://www.sans.org/blog/stay-ahead-of-ransomware-communication-during-cyber-incident</id>
+        <link href="https://www.sans.org/blog/stay-ahead-of-ransomware-communication-during-cyber-incident?msc=rss"/>
+        <updated>2025-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn the critical role of communications during cyber incidents]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -12763,39 +12804,6 @@ An out-of-bounds write vulnerability has been reported in macOS. The vulnerabili
 A remote attacker could exploit this vulnerability by enticing a victim to open…]]></summary>
         <author>
             <name>Trend Micro Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)]]></title>
-        <id>6812bfd89b6b920001bf6fbb</id>
-        <link href="https://labs.watchtowr.com/sysowned-your-friendly-rce-support-ticket/"/>
-        <updated>2025-05-07T09:38:35.000Z</updated>
-        <summary type="html"><![CDATA[It’s… another week, and another vendor who is apparently experienced with ransomware gangs but yet struggles with email.
-In what we've seen others term "the watchTowr treatment", we are once again (surprise, surprise) disclosing vulnerability research that allowed us to gain pre-authenticated Remote]]></summary>
-        <author>
-            <name>Sina Kheirkhah (@SinSinology)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting Copilot AI for SharePoint]]></title>
-        <id>https://www.pentestpartners.com/?p=30962</id>
-        <link href="https://www.pentestpartners.com/security-blog/exploiting-copilot-ai-for-sharepoint/"/>
-        <updated>2025-05-07T05:36:10.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR AI Assistants are becoming far more common Copilot for SharePoint is Microsoft’s answer to generative AI assistance on SharePoint Attackers will look to exploit anything they can get their […]
-Exploiting Copilot AI for SharePoint first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Jack Barradell-Johns</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI Codex CLI: AI-powered assistant for the terminal?]]></title>
-        <id>https://4sysops.com/?p=1595311</id>
-        <link href="https://4sysops.com/archives/openai-codex-cli-ai-powered-assistant-for-the-terminal/"/>
-        <updated>2025-05-06T16:17:37.000Z</updated>
-        <summary type="html"><![CDATA[OpenAI Codex CLI is a new open-source command-line tool that integrates AI models into any terminal. It enables you to generate, edit, and execute code using natural language prompts. I tested Codex CLI on Windows and Mac and concluded that it is no match for advanced AI CLIs such as Warp, Cline, or Roo Code. Do not mix up Codex CLI with OpenAI's Codex model, which was discontinued in March 2023. Perhaps Sam Altman should seek advice from ChatGPT before naming future products.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
