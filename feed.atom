@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-10T00:56:12.660Z</updated>
+    <updated>2025-06-11T00:56:03.190Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Update: pecheck.py Version 0.7.18]]></title>
+        <id>http://blog.didierstevens.com/?p=10909</id>
+        <link href="https://blog.didierstevens.com/2025/06/11/update-pecheck-py-version-0-7-18/"/>
+        <updated>2025-06-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a bugfix version. pecheck-v0_7_18.zip (http)MD5: 813F309837091B2035A18272AE5F053FSHA256: 2976562A8B12F0CDD3E9DBF56929B391CA73AF91906EABC18E9CD663A17155AD]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delete associated EBS snapshots automatically when deregistering an AMI in AWS EC2]]></title>
+        <id>https://4sysops.com/?p=1596709</id>
+        <link href="https://4sysops.com/archives/delete-associated-ebs-snapshots-automatically-when-deregistering-an-ami-in-aws-ec2/"/>
+        <updated>2025-06-10T20:00:06.000Z</updated>
+        <summary type="html"><![CDATA[AWS now allows automatic deletion of associated Amazon EBS snapshots when deregistering EC2 AMIs, reducing storage costs and simplifying cleanup. Previously, snapshots had to be manually deleted, risking orphaned resources. This feature is long overdue. In a previous post, I introduced a Bash script that deleted the snapshot when an AMI was deregistered. The script should still work, but now you can automatically delete snapshots in the AWS Console and the AWS CLI.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The June 2025 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6848679ac1983250194622e9</id>
+        <link href="https://www.thezdi.com/blog/2025/6/10/the-june-2025-security-update-review"/>
+        <updated>2025-06-10T17:24:53.000Z</updated>
+        <summary type="html"><![CDATA[It’s the second Tuesday of the month, and while many places in the Northern Hemisphere are scorching, Microsoft and Adobe have released their latest security offering in hopes of cooling things down. Grab an iced beverage and take a break from your scheduled activities and join us as we review the details of their latest security alertsIf you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for June 2025
+For June, Adobe released seven bulletins addressing massive 254 CVEs in Adobe Acrobat Reader, InCopy, Experience Manager, Commerce, InDesign, Substance 3D Sampler, and Substance 3D Painter. Four of these bugs were reported through the Trend ZDI program. Of these patches, Adobe rates the fixes for Commerce as Priority 1, even though t…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What we learned reviewing one of the first DKLs23 libraries from Silence Laboratories]]></title>
+        <id>https://blog.trailofbits.com/2025/06/10/what-we-learned-reviewing-one-of-the-first-dkls23-libraries-from-silence-laboratories/</id>
+        <link href="https://blog.trailofbits.com/2025/06/10/what-we-learned-reviewing-one-of-the-first-dkls23-libraries-from-silence-laboratories/"/>
+        <updated>2025-06-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In October 2023, we audited Silence Laboratories’ DKLs23 threshold signature scheme (TSS) library—one of the first production implementations of this then-novel protocol that uses oblivious transfer (OT) instead of traditional Paillier cryptography. Our review uncovered serious flaws that could enable key destruction attacks, which Silence Laboratories promptly fixed.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My Fridge & My Portable Power Station]]></title>
         <id>http://blog.didierstevens.com/?p=10857</id>
