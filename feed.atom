@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-14T00:53:52.077Z</updated>
+    <updated>2025-06-15T01:01:52.450Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Tool: myipaddress.py]]></title>
+        <id>http://blog.didierstevens.com/?p=10929</id>
+        <link href="https://blog.didierstevens.com/2025/06/15/new-tool-myipaddress-py/"/>
+        <updated>2025-06-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a new tool that I use for IPv4 operations, like generating a list of CIDRs based on ASNs, checking if IPv4 addresses are members of CIDRs, … Here is the man page: myipaddress_V0_0_1.zip (http)MD5: 839550C3E5C6A07C088D27EFD51BE2F7SHA256: F4DCF325E578F797B3D15316E797EB359E1DA13255E9644841593A1C1C5A9F54]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wermgr.exe boot offdmpsvc.dll lolbin]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10039</id>
+        <link href="https://www.hexacorn.com/blog/2025/06/14/wermgr-exe-boot-offdmpsvc-dll-lolbin/"/>
+        <updated>2025-06-14T23:35:07.000Z</updated>
+        <summary type="html"><![CDATA[Similarly as in the previous case, wermgr.exe accepts many command line arguments: -boot-clean-datacollectorcreate-nonelevated-outproc-purgestores-queuereporting-queuereporting_svc-queuereporting_s_machine-upload-uploadforce-waitforpendingreports The -boot one is interesting as it triggers the execution of program’s path that attempts to load the following phantom DLL: C:\Windows\System32\offdmpsvc.dll As such, placing your payload … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wpr.exe boottrace phantom dll axeonoffhelper.dll lolbin]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10036</id>
+        <link href="https://www.hexacorn.com/blog/2025/06/14/wpr-exe-boottrace-phantom-dll-axeonoffhelper-dll-lolbin/"/>
+        <updated>2025-06-14T23:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Today I have discovered the PipelineFilterHook Registry entry only to find out that this blog post has already described it in detail. Nice work! So, I decided to take a look at my favorite phantom DLLs again, and came up … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HTTP to MCP Bridge]]></title>
         <id>a699c57f-8fe9-41b2-aab4-6c15a432ac8b</id>
@@ -12726,50 +12756,6 @@ COLLISION - Although Angelboy (@scwuaptx) from DEVCORE Research Team …]]></sum
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Berlin 2025: Day Two Results]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6827009638600570471ffe4e</id>
-        <link href="https://www.thezdi.com/blog/2025/5/16/pwn2own-berlin-2025-day-two-results"/>
-        <updated>2025-05-16T09:17:17.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the second day of our first ever Pwn2OwnBerlin. Yesterday, we awarded $260,000 for some amazing research. Today looks to be even better, with more AI on the line, plus SharePoint and VMware ESXi. As always, we’ll be updating this blog with results as we have them.
-And that wraps up Day Two! We awarded $435,000, which brings the contest total to $695,000. With a third day still to come, there’s a very real chance we could reach the $1,000,000 threshold. The research demonstrated includes 20 unique 0-days. STAR Labs has a commanding lead in the Master of Pwn points, and it seems unlikely anyone will catch them. Tune in tomorrow to find out!
-COLLISION - Mohand Acherir & Patrick Ventuzelo (@pat_ventuzelo) of FuzzingLabs (@fuzzinglabs) exploited #NVIDIA Triton, but the exploit they u…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VNC. RDP for all to see]]></title>
-        <id>https://www.pentestpartners.com/?p=31023</id>
-        <link href="https://www.pentestpartners.com/security-blog/vnc-rdp-for-all-to-see/"/>
-        <updated>2025-05-16T05:30:24.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR VNC still remains in some legacy environments due to legacy deployments and ease of use. Without proprietary extensions, VNC transmits data without encryption, making credential theft through packet sniffing […]
-VNC. RDP for all to see first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>Kieran Larking</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is my computer an AI PC? How to check for Copilot+ PC requirements]]></title>
-        <id>https://4sysops.com/?p=1595634</id>
-        <link href="https://4sysops.com/archives/is-my-computer-an-ai-pc-how-to-check-for-copilot-pc-requirements/"/>
-        <updated>2025-05-15T18:31:58.000Z</updated>
-        <summary type="html"><![CDATA[An AI PC is a new class of Windows 11 computers equipped with powerful NPUs, enabling advanced AI features like Recall and Live Captions to run directly on the device. Learn the different methods to check if your computer is a so-called Copilot+ PC.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Expression Payloads Meet Mayhem - Ivanti EPMM Unauth RCE Chain (CVE-2025-4427 and CVE-2025-4428)]]></title>
-        <id>6825f44d5814e600010f0c86</id>
-        <link href="https://labs.watchtowr.com/expression-payloads-meet-mayhem-cve-2025-4427-and-cve-2025-4428/"/>
-        <updated>2025-05-15T14:51:12.000Z</updated>
-        <summary type="html"><![CDATA[Keeping your ears to the ground and eyes wide open for the latest vulnerability news at watchTowr is a given. Despite rummaging through enterprise code looking for 0days on a daily basis, our interest was piqued this week when news of fresh vulnerabilities was announced in a close friend -]]></summary>
-        <author>
-            <name>Sonny</name>
         </author>
     </entry>
     <entry>
