@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-16T00:58:05.581Z</updated>
+    <updated>2025-06-17T00:56:01.143Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cracking Mifare Classic 1K: RFID, Charlie Cards, and Free Subway Rides]]></title>
+        <id>0208e86c-4e3e-4ad7-a478-0cec97943a70</id>
+        <link href="https://www.nccgroup.com/us/research-blog/cracking-mifare-classic-1k-rfid-charlie-cards-and-free-subway-rides/"/>
+        <updated>2025-06-17T00:55:32.475Z</updated>
+        <author>
+            <name>Research Blog: Latest Cyber Security Insights</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New GitHub Copilot features in VS Code: custom chat modes, chat tool sets, undoing edits, and Simple Browser]]></title>
+        <id>https://4sysops.com/?p=1596921</id>
+        <link href="https://4sysops.com/archives/new-github-copilot-features-in-vs-code-custom-chat-modes-chat-tool-sets-undoing-edits-and-simple-browser/"/>
+        <updated>2025-06-16T15:26:18.000Z</updated>
+        <summary type="html"><![CDATA[The VS Code May 2025 update (version 1.101), released a few days ago, introduces a range of new features primarily focused on GitHub Copilot. My favorite addition is the custom chat mode, which lets you create a personalized mode alongside the built-in options: Ask, Edit, and Agent. In this post, I'll also explore the new chat tool sets and the undoing edits feature. While the Simple Browser feature was included in the previous release, it deserves discussion. Furthermore, I will briefly summarize the MCP enhancements.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Secure Enclaves for Offensive Operations (Part II)]]></title>
+        <id>https://www.outflank.nl/?p=5145</id>
+        <link href="https://www.outflank.nl/blog/2025/06/16/secure-enclaves-for-offensive-operations-part-ii/"/>
+        <updated>2025-06-16T10:17:05.000Z</updated>
+        <summary type="html"><![CDATA[This blog post is the second part in a series about using Secure Enclaves for Offensive Operations. The first part discussed the basics of how enclaves work, provided some ideas on how to develop your own enclave, as well as analyze and debug existing enclaves. We also hinted at how enclaves could potentially be used for offensive purposes. Remember: VTL0 is where the normal kernel lives, VTL1 is where the secure kernel operates (and our enclaves).
+In this follow-up post, we will share what we discovered while digging into enclave internals. It’s been a hands-on journey filled with many (failed) experiments. We’ll walk you through some of the practical techniques we used to exploit a read-write primitive in a vulnerable enclave DLL, and how we managed to turn that into VTL1 code execution.
+
+
+
+The outcome of this research has been integrated into Outflank C2 (part of our OST offering) for implant sleepmasking.
+
+Read full post
+The post Secure Enclaves for Offensive Operations (Part II) appeared first on Outflank.]]></summary>
+        <author>
+            <name>Cedric Van Bockhaven</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[VMwareResolutionSet.exe VMwareResolutionSet.dll lolbin]]></title>
         <id>https://www.hexacorn.com/blog/?p=10041</id>
@@ -116,6 +154,17 @@ The post PTP Cyber Fest 2025. More than just another conference appeared first o
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing: GitHub Device Code Phishing]]></title>
+        <id>https://www.praetorian.com/?p=5488</id>
+        <link href="https://www.praetorian.com/blog/introducing-github-device-code-phishing/"/>
+        <updated>2025-06-12T13:23:57.000Z</updated>
+        <summary type="html"><![CDATA[What if all it took to compromise a GitHub organization–and thus, the organization’s supply chain–was an eight-digit code and a phone call? Introducing: GitHub Device Code Phishing. While security teams have been battling Azure Active Directory device code phishing attacks for years, threat actors have overlooked GitHub’s OAuth2 device flow as an attack vector. At […]
+The post Introducing: GitHub Device Code Phishing appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Harry Hayward</name>
         </author>
     </entry>
     <entry>
@@ -12724,16 +12773,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[This blog is a summary of a webcast about the latest SANS Institute white paper on ransomware in OT/ICS environments.]]></summary>
         <author>
             <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shell32.dll, #44 lolbin]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10023</id>
-        <link href="https://www.hexacorn.com/blog/2025/05/18/shell32-dll-44-lolbin/"/>
-        <updated>2025-05-18T00:51:30.000Z</updated>
-        <summary type="html"><![CDATA[There is a well known shell32.dll lolbas that relies on a function called Control_RunDLL. BUT, there is one more. The shell32.dll library exports a function called Control_RunDLLNoFallback under ordinal #44. We can use it to launch CPL files using the … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
