@@ -457,7 +457,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "https://pentestlab.blog",
+      "siteUrl": "http://pentestlab.blog",
       "articles": []
     },
     {
@@ -477,6 +477,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:685309d50160172cb68cb980",
+          "author": "Dmitry Janushkevich",
+          "description": "Every complex modern device needs non-volatile storage to keep program and configuration data while unpowered. There are several competing options on the market available to today’s systems designers: serial Flash, raw NAND chips, (micro)SD, and Embedded MultiMediaCard (eMMC). eMMC is the topic of this discussion, and specifically how to interact with it without removing the chip from the system.\nSuch an approach is often desirable – after all, even when you are exceptionally skilled with BGA re-balling, there are only so many heating and cooling cycles the chip and the PCB can withstand before the probability of a failure gets too high. That is not to mention the exceptionally fine pitch of the most often encountered packages used by eMMC. The contact balls/pads are just 0.5mm (0.02in) ap…",
+          "link": "https://www.thezdi.com/blog/2025/6/18/extracting-embedded-multimediacard-emmc-contents-in-system",
+          "publishedOn": "2025-06-20T15:00:58.000Z",
+          "wordCount": null,
+          "title": "Extracting Embedded MultiMediaCard (eMMC) contents in-system",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6848679ac1983250194622e9",
           "author": "Dustin Childs",
@@ -13738,16 +13749,6 @@
           "wordCount": 1965,
           "title": "Multiple CVEs in Infoblox NetMRI: RCE, Auth Bypass, SQLi, and File Read Vulnerabilities",
           "imageUrl": "https://rhinosecuritylabs.com/wp-content/uploads/2025/06/socials3.png"
-        },
-        {
-          "id": "https://rhinosecuritylabs.com/?p=25800",
-          "author": "John De Armas",
-          "description": "The post CVE-2025-26147: Authenticated RCE In Denodo Scheduler  appeared first on Rhino Security Labs.",
-          "link": "https://rhinosecuritylabs.com/research/cve-2025-26147-authenticated-rce-in-denodo/",
-          "publishedOn": "2025-05-21T17:16:07.000Z",
-          "wordCount": 1303,
-          "title": "CVE-2025-26147: Authenticated RCE In Denodo Scheduler",
-          "imageUrl": "https://rhinosecuritylabs.com/wp-content/uploads/2025/05/ChatGPT-Image-May-5-2025-09_51_42-AM.png"
         }
       ]
     },
@@ -13855,18 +13856,7 @@
       "title": "Sean Heelan's Blog",
       "feedUrl": "https://sean.heelan.io/feed/",
       "siteUrl": "https://sean.heelan.io",
-      "articles": [
-        {
-          "id": "http://sean.heelan.io/?p=2993",
-          "author": "seanhn",
-          "description": "In this post I’ll show you how I found a zeroday vulnerability in the Linux kernel using OpenAI’s o3 model. I found the vulnerability with nothing more complicated than the o3 API – no scaffolding, no agentic frameworks, no tool use. Recently I’ve been auditing ksmbd for vulnerabilities. ksmbd is “a linux kernel server which […]",
-          "link": "https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/",
-          "publishedOn": "2025-05-22T10:25:30.000Z",
-          "wordCount": 5855,
-          "title": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
-          "imageUrl": "https://sean.heelan.io/wp-content/uploads/2009/05/cropped-oxford_7602.jpg?w=200"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Exodus Intelligence",
@@ -13939,6 +13929,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1596742",
+          "author": "Markus Elsberger",
+          "description": "Rebooting a Windows PC via PowerShell is a routine administrative task. This guide will teach you how to use the PowerShell cmdlet Restart-Computer to reboot a local Windows PC, restart a remote computer, and automate the reboot process for multiple systems.\nSource",
+          "link": "https://4sysops.com/archives/reboot-with-powershell-use-restart-computer-to-restart-locally-remotely-and-automate-reboots-for-multiple-windows-computers/",
+          "publishedOn": "2025-06-20T18:57:48.000Z",
+          "wordCount": null,
+          "title": "Reboot with PowerShell: Use Restart-Computer to restart locally, remotely, and automate reboots for multiple Windows computers",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1597080",
           "author": "Michael Pietroforte",
@@ -14148,16 +14148,6 @@
           "wordCount": null,
           "title": "What is Google’s Agent2Agent (A2A) protocol?",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1595877",
-          "author": "Leos Marek",
-          "description": "Windows Server 2025 introduces several new features and security improvements for Active Directory, including a new functional level and the Database 32k Pages feature. To take advantage of these features, you must first upgrade all domain controllers (DCs) and migrate Active Directory to Windows Server 2025. In this article, I'll guide you through the step-by-step migration process.\nSource",
-          "link": "https://4sysops.com/archives/upgrade-domain-controller-and-migrate-active-directory-to-windows-server-2025/",
-          "publishedOn": "2025-05-21T20:09:45.000Z",
-          "wordCount": null,
-          "title": "Upgrade domain controller and migrate Active Directory to Windows Server 2025",
-          "imageUrl": null
         }
       ]
     },
@@ -14288,16 +14278,6 @@
           "wordCount": 3500,
           "title": "Our capabilities. A story about what we can achieve",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=31128",
-          "author": "JP Milne",
-          "description": "TL;DR Using dual-homed devices as a segregation tool is not recommended as a security design solution Use dedicated hardware and robust firewalls to segregate networks to limit access to critical […]\nFully segregated networks? Your dual-homed devices might disagree first appeared on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/fully-segregated-networks-your-dual-homed-devices-might-disagree/",
-          "publishedOn": "2025-05-22T05:44:20.000Z",
-          "wordCount": 3181,
-          "title": "Fully segregated networks? Your dual-homed devices might disagree",
-          "imageUrl": null
         }
       ]
     },
@@ -14314,6 +14294,16 @@
           "publishedOn": "2025-06-17T00:00:00.000Z",
           "wordCount": 2964,
           "title": "Visual Summary of SANS ICS Security Summit 2025",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission",
+          "author": null,
+          "description": "6 new modules that further enhance the SANS ICS Cybersecurity Awareness Training series",
+          "link": "https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission?msc=rss",
+          "publishedOn": "2025-06-16T00:00:00.000Z",
+          "wordCount": 4352,
+          "title": "Expanding ICS Security Awareness: Part 2 - New Modules, New Risks, Same Mission",
           "imageUrl": null
         },
         {
@@ -14406,6 +14396,20 @@
       "feedUrl": "https://blog.xpnsec.com/rss/",
       "siteUrl": "https://blog.xpnsec.com/",
       "articles": [
+        {
+          "id": "https://blog.xpnsec.com/administrator-protection/",
+          "author": null,
+          "description": "Microsoft will be introducing Administrator Protection into Windows 11, so I wanted to have an understanding of how this technology works and how it interacts with existing offensive tooling. While this technology is just a thin wrapper around a separate account, there are a few nuances such as who is permitted to access these accounts, as well as existing UAC bypasses which are still effective against the new \"backdoorless\" Administrator Protection. This post explores these nuances in detail.",
+          "link": "https://blog.xpnsec.com/administrator-protection/",
+          "publishedOn": "2025-06-20T23:01:46.000Z",
+          "wordCount": 2085,
+          "title": "Administrator Protection Review",
+          "enclosure": {
+            "url": "https://assets.xpnsec.com/administrator-protection/title.png",
+            "type": "image"
+          },
+          "imageUrl": "https://assets.xpnsec.com/administrator-protection/title.png"
+        },
         {
           "id": "https://blog.xpnsec.com/tokenization-confusion/",
           "author": null,

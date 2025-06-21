@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-20T00:56:02.912Z</updated>
+    <updated>2025-06-21T00:54:59.721Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Administrator Protection Review]]></title>
+        <id>https://blog.xpnsec.com/administrator-protection/</id>
+        <link href="https://blog.xpnsec.com/administrator-protection/"/>
+        <updated>2025-06-20T23:01:46.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft will be introducing Administrator Protection into Windows 11, so I wanted to have an understanding of how this technology works and how it interacts with existing offensive tooling. While this technology is just a thin wrapper around a separate account, there are a few nuances such as who is permitted to access these accounts, as well as existing UAC bypasses which are still effective against the new "backdoorless" Administrator Protection. This post explores these nuances in detail.]]></summary>
+        <author>
+            <name>XPN InfoSec Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reboot with PowerShell: Use Restart-Computer to restart locally, remotely, and automate reboots for multiple Windows computers]]></title>
+        <id>https://4sysops.com/?p=1596742</id>
+        <link href="https://4sysops.com/archives/reboot-with-powershell-use-restart-computer-to-restart-locally-remotely-and-automate-reboots-for-multiple-windows-computers/"/>
+        <updated>2025-06-20T18:57:48.000Z</updated>
+        <summary type="html"><![CDATA[Rebooting a Windows PC via PowerShell is a routine administrative task. This guide will teach you how to use the PowerShell cmdlet Restart-Computer to reboot a local Windows PC, restart a remote computer, and automate the reboot process for multiple systems.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Extracting Embedded MultiMediaCard (eMMC) contents in-system]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:685309d50160172cb68cb980</id>
+        <link href="https://www.thezdi.com/blog/2025/6/18/extracting-embedded-multimediacard-emmc-contents-in-system"/>
+        <updated>2025-06-20T15:00:58.000Z</updated>
+        <summary type="html"><![CDATA[Every complex modern device needs non-volatile storage to keep program and configuration data while unpowered. There are several competing options on the market available to today’s systems designers: serial Flash, raw NAND chips, (micro)SD, and Embedded MultiMediaCard (eMMC). eMMC is the topic of this discussion, and specifically how to interact with it without removing the chip from the system.
+Such an approach is often desirable – after all, even when you are exceptionally skilled with BGA re-balling, there are only so many heating and cooling cycles the chip and the PCB can withstand before the probability of a failure gets too high. That is not to mention the exceptionally fine pitch of the most often encountered packages used by eMMC. The contact balls/pads are just 0.5mm (0.02in) ap…]]></summary>
+        <author>
+            <name>Dmitry Janushkevich</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: teeplus.py Version 0.0.2]]></title>
         <id>http://blog.didierstevens.com/?p=10936</id>
@@ -168,6 +200,16 @@ Read full post
 The post Secure Enclaves for Offensive Operations (Part II) appeared first on Outflank.]]></summary>
         <author>
             <name>Cedric Van Bockhaven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Expanding ICS Security Awareness: Part 2 - New Modules, New Risks, Same Mission]]></title>
+        <id>https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission</id>
+        <link href="https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission?msc=rss"/>
+        <updated>2025-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[6 new modules that further enhance the SANS ICS Cybersecurity Awareness Training series]]></summary>
+        <author>
+            <name>SANS Blog</name>
         </author>
     </entry>
     <entry>
@@ -12774,48 +12816,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation]]></title>
-        <id>http://sean.heelan.io/?p=2993</id>
-        <link href="https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/"/>
-        <updated>2025-05-22T10:25:30.000Z</updated>
-        <summary type="html"><![CDATA[In this post I’ll show you how I found a zeroday vulnerability in the Linux kernel using OpenAI’s o3 model. I found the vulnerability with nothing more complicated than the o3 API – no scaffolding, no agentic frameworks, no tool use. Recently I’ve been auditing ksmbd for vulnerabilities. ksmbd is “a linux kernel server which […]]]></summary>
-        <author>
-            <name>seanhn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fully segregated networks? Your dual-homed devices might disagree]]></title>
-        <id>https://www.pentestpartners.com/?p=31128</id>
-        <link href="https://www.pentestpartners.com/security-blog/fully-segregated-networks-your-dual-homed-devices-might-disagree/"/>
-        <updated>2025-05-22T05:44:20.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Using dual-homed devices as a segregation tool is not recommended as a security design solution Use dedicated hardware and robust firewalls to segregate networks to limit access to critical […]
-Fully segregated networks? Your dual-homed devices might disagree first appeared on Pen Test Partners.]]></summary>
-        <author>
-            <name>JP Milne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Upgrade domain controller and migrate Active Directory to Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1595877</id>
-        <link href="https://4sysops.com/archives/upgrade-domain-controller-and-migrate-active-directory-to-windows-server-2025/"/>
-        <updated>2025-05-21T20:09:45.000Z</updated>
-        <summary type="html"><![CDATA[Windows Server 2025 introduces several new features and security improvements for Active Directory, including a new functional level and the Database 32k Pages feature. To take advantage of these features, you must first upgrade all domain controllers (DCs) and migrate Active Directory to Windows Server 2025. In this article, I'll guide you through the step-by-step migration process.
-Source]]></summary>
-        <author>
-            <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2025-26147: Authenticated RCE In Denodo Scheduler]]></title>
-        <id>https://rhinosecuritylabs.com/?p=25800</id>
-        <link href="https://rhinosecuritylabs.com/research/cve-2025-26147-authenticated-rce-in-denodo/"/>
-        <updated>2025-05-21T17:16:07.000Z</updated>
-        <summary type="html"><![CDATA[The post CVE-2025-26147: Authenticated RCE In Denodo Scheduler  appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>John De Armas</name>
         </author>
     </entry>
     <entry>
