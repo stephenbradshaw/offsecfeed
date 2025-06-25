@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-06-24T00:56:36.842Z</updated>
+    <updated>2025-06-25T00:57:05.068Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Security Advisory: Anthropic's Slack MCP Server Vulnerable to Data Exfiltration]]></title>
+        <id>https://embracethered.com/blog/posts/2025/security-advisory-anthropic-slack-mcp-server-data-leakage/</id>
+        <link href="https://embracethered.com/blog/posts/2025/security-advisory-anthropic-slack-mcp-server-data-leakage/"/>
+        <updated>2025-06-24T23:00:46.000Z</updated>
+        <summary type="html"><![CDATA[This is a security advisory for a data leakage and exfiltration vulnerability in a popular, but now deprecated and unmaintained, Slack MCP Server from Anthropic.
+If you are using this MCP server, or run an “MCP Store” that hosts it, it is advised that you analyze how this threat applies to your use case and apply a patch as needed.
+Anthropic’s Slack MCP Server When Anthropic introduced MCP they published reference server implementations on Github.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remote MCP: Streamable Data Input/Output (SDIO), Server-Sent Events (SSE), Streamable HTTP]]></title>
+        <id>https://4sysops.com/?p=1597223</id>
+        <link href="https://4sysops.com/archives/remote-mcp-streamable-data-input-output-sdio-server-sent-events-sse-streamable-http/"/>
+        <updated>2025-06-24T16:29:59.000Z</updated>
+        <summary type="html"><![CDATA[Recently, leading AI companies announced support for remote MCP, allowing an MCP client to connect to a remote MCP server via Streamable HTTP, which still supports Server-Sent Events (SSE). The Streamable Data Input/Output (SDIO) protocol remains essential for local integrations and remote services, which are accessible only through conventional APIs. In my opinion, the excitement surrounding new model releases has lost its significance. AI model developers seem to primarily focus on optimizing their models for AI benchmarks. However, the genuine innovations occur in the technologies surrounding AI models—most notably in AI agents and the supporting infrastructure in which remote MCP servers will play an important role.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maturing your smart contracts beyond private key risk]]></title>
+        <id>https://blog.trailofbits.com/2025/06/25/maturing-your-smart-contracts-beyond-private-key-risk/</id>
+        <link href="https://blog.trailofbits.com/2025/06/25/maturing-your-smart-contracts-beyond-private-key-risk/"/>
+        <updated>2025-06-24T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Private key compromise accounted for 43.8% of crypto hacks in 2024, yet traditional smart contract audits rarely address architectural access control weaknesses. This post introduces a four-level maturity framework for designing protocols that can tolerate key compromise, progressing from single EOA control to radical immutability, with practical examples demonstrating multisigs, timelocks, and the principle of least privilege.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chainspotting 2: The Unofficial Sequel to the 2018 Talk "Chainspotting" - OffensiveCon 2025]]></title>
         <id>adcd7526-66c4-4a8f-ad0b-fcb77f027b3c</id>
