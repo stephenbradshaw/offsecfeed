@@ -233,16 +233,6 @@
           "wordCount": 3505,
           "title": "Python Requirements for Didier Stevens Suite",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10023",
-          "author": "Didier Stevens",
-          "description": "I’ve a feature in some of my tools, that let you choose the hash algorithm. Many of my tools calculate hashes, and for historical reasons, that is the MD5 hash. But if you want another hash, you can change this (for some of my tools) by setting environment variable DSS_DEFAULT_HASH_ALGORITHMS. Like for pdf-parser.py, on Windows, […]",
-          "link": "https://blog.didierstevens.com/2025/06/06/dss_default_hash_algorithms/",
-          "publishedOn": "2025-06-06T00:00:00.000Z",
-          "wordCount": 3488,
-          "title": "DSS_DEFAULT_HASH_ALGORITHMS",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -326,7 +316,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -14026,16 +14016,6 @@
           "wordCount": null,
           "title": "How to activate the built-in Administrator account in Windows 11",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1596510",
-          "author": "Michael Pietroforte",
-          "description": "Mountpoint for Amazon S3  (mountpoint-s3) now allows you to mount an S3 bucket in AWS at EC2 instance boot time via fstab. However, it remains non-POSIX compliant, so standard filesystem operations like deleting or renaming files still do not work. In contrast, the open-source alternative s3fs-fuse offers substantial POSIX support but comes with its own drawbacks.\nSource",
-          "link": "https://4sysops.com/archives/mount-an-s3-bucket-on-an-ec2-instance-at-boot-using-fstab-with-mountpoint-for-amazon-s3-or-s3fs-fuse/",
-          "publishedOn": "2025-06-05T15:51:02.000Z",
-          "wordCount": null,
-          "title": "Mount an S3 bucket on an EC2 instance at boot using fstab with Mountpoint for Amazon S3 or s3fs-fuse",
-          "imageUrl": null
         }
       ]
     },
@@ -14044,6 +14024,26 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10068",
+          "author": "adam",
+          "description": "Analyzing the very same binary (AggregatorHost.exe) that makes the persistence trick described in my previous post work, I noticed that there is one more Registry entry we can use as a persistence mechanism: HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack\\TestHooks\\TestUndockedAggregatorDll=<malware> Same as in the previous post, … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2025/07/05/beyond-good-ol-run-key-part-148/",
+          "publishedOn": "2025-07-05T23:44:20.000Z",
+          "wordCount": 522,
+          "title": "Beyond good ol’ Run key, Part 148",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10063",
+          "author": "adam",
+          "description": "I mentioned TestHook at least twice in the past. I actually love this keyword/string, because it is associated with many undocumented internal Microsoft test frameworks that we can sometimes abuse. And many ‘TestHook’ string references are present in many binaries … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2025/07/05/beyond-good-ol-run-key-part-147/",
+          "publishedOn": "2025-07-05T23:26:46.000Z",
+          "wordCount": 558,
+          "title": "Beyond good ol’ Run key, Part 147",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=10041",
           "author": "adam",
