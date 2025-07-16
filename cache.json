@@ -43,7 +43,18 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": []
+      "articles": [
+        {
+          "id": "repeater-strike-manual-testing-amplified",
+          "author": null,
+          "description": "Manual testing doesn't have to be repetitive. In this post, we're introducing Repeater Strike - a new AI-powered Burp Suite extension designed to automate the hunt for IDOR and similar vulnerabilities",
+          "link": "https://portswigger.net/research/repeater-strike-manual-testing-amplified",
+          "publishedOn": "2025-07-15T13:46:37.000Z",
+          "wordCount": 1423,
+          "title": "Repeater Strike: manual testing, amplified",
+          "imageUrl": "https://portswigger.net/cms/images/8e/11/0c91-twittercard-twitter.png"
+        }
+      ]
     },
     {
       "title": "Project Zero",
@@ -266,6 +277,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68754bb2a03b700b052b6c96",
+          "author": "Hossein Lotfi",
+          "description": "In recent years, there has been an increase interest in the JavaScript engine vulnerabilities in order to compromise web browsers. Notably, vulnerabilities in JIT engines are among the most favorite ones as it provides strong primitives and well-known techniques are already available to facilitate compromise. At Pwn2Own Berlin 2025, Manfred Paul compromised the Mozilla Firefox renderer process using a vulnerability in IonMonkey but did not further escape the JavaScript engine sandbox. IonMonkey is the JavaScript JIT compiler for SpiderMonkey (the Firefox JavaScript and WebAssembly engine) This vulnerability is assigned CVE-2025-4919 and Mozilla swiftly fixed it in Mozilla Firefox 138.0.4 via Security Advisory 2025-36 in the following day. Trend Zero Day Initiative assigned ZDI-25-291 to th…",
+          "link": "https://www.thezdi.com/blog/2025/7/14/cve-2025-4919-corruption-via-math-space-in-mozilla-firefox",
+          "publishedOn": "2025-07-15T14:27:27.000Z",
+          "wordCount": null,
+          "title": "CVE-2025-4919: Corruption via Math Space in Mozilla Firefox",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:686d524906e3011303d5b06d",
           "author": "Dustin Childs",
           "description": "It’s the second Tuesday of the month, and as expected, Adobe and Microsoft have released their latest security patches. Take a break from your scheduled activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for July 2025\nFor July, Adobe (eventually) released 13 bulletins addressing 60 unique CVEs in Adobe ColdFusion, After Effects, Substance 3D Viewer, Audition, InCopy, InDesign, Connect, Dimension, Substance 3D Stager, Illustrator, FrameMaker, Experience Manager Forms, and Experience Manager Screens. The obvious place to start here is ColdFusion. It’s the only update listed as Priority 1 and addresses 13 CVEs, five of which are rated Critical. ColdFus…",
@@ -324,6 +346,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/us/",
       "articles": [
+        {
+          "id": "45218355-9087-47f4-a86c-8b2fe3d661d6",
+          "author": null,
+          "description": "",
+          "link": "https://www.nccgroup.com/us/research-blog/public-report-google-confidential-space-security-assessment/",
+          "publishedOn": "2025-07-16T00:58:49.665Z",
+          "wordCount": 1750,
+          "title": "Public Report - Google Confidential Space Security Assessment",
+          "imageUrl": null
+        },
         {
           "id": "a699c57f-8fe9-41b2-aab4-6c15a432ac8b",
           "author": null,
@@ -13737,6 +13769,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1597871",
+          "author": "Edem Afenyo",
+          "description": "Microsoft recently open sourced Windows Subsystem for Linux (WSL) under the MIT license, allowing anyone to freely inspect, modify, build, or distribute its source code. This article guides you through building WSL 2.6 from source, using CMake, a popular build system generator, on Windows.\nSource",
+          "link": "https://4sysops.com/archives/build-windows-subsystem-for-linux-wsl-from-source/",
+          "publishedOn": "2025-07-15T15:15:02.000Z",
+          "wordCount": null,
+          "title": "Build Windows Subsystem for Linux (WSL) from source",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1598080",
           "author": "Michael Pietroforte",
           "description": "A new study by METR got a lot of attention online. It claims that developers often overestimate the productivity boost from AI tools. In a coding test, the researchers found that AI caused a 19% \"slowdown\" for developers. In my opinion, it's not AI coding that's overhyped, but rather the study's findings.\nSource",
@@ -13992,16 +14034,6 @@
           "wordCount": 558,
           "title": "Beyond good ol’ Run key, Part 147",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10041",
-          "author": "adam",
-          "description": "If you still use VMWare, your Windows guest system will benefit from an installation of VMWare Tools. The VMWare Tools package is usually installed into this directory: c:\\Program Files\\VMware\\VMware Tools It turns out that running the executable: c:\\Program Files\\VMware\\VMware Tools\\VMwareResolutionSet.exe … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/06/15/vmwareresolutionset-exe-vmwareresolutionset-dll-lolbin/",
-          "publishedOn": "2025-06-15T20:49:23.000Z",
-          "wordCount": 545,
-          "title": "VMwareResolutionSet.exe VMwareResolutionSet.dll lolbin",
-          "imageUrl": null
         }
       ]
     },
@@ -14016,6 +14048,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=42300",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Introduction  BIOS protection is the digital equivalent of a locked front door, but what if the doorbell doubled as a reset button?  The Framework 13 laptop has a chassis intrusion detection switch. It’s designed to notify the BIOS when the laptop body has been opened. However, the same switch can be manipulated to reset the […]\nThe post Framework 13. Press here to pwn  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/framework-13-press-here-to-pwn/",
+          "publishedOn": "2025-07-15T05:41:00.000Z",
+          "wordCount": 1918,
+          "title": "Framework 13. Press here to pwn",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/07/framework13vuln-headline.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=42281",
           "author": "Joe Bursell",
@@ -14111,16 +14153,6 @@
           "publishedOn": "2025-06-17T00:00:00.000Z",
           "wordCount": 2964,
           "title": "Visual Summary of SANS ICS Security Summit 2025",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission",
-          "author": null,
-          "description": "6 new modules that further enhance the SANS ICS Cybersecurity Awareness Training series",
-          "link": "https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission?msc=rss",
-          "publishedOn": "2025-06-16T00:00:00.000Z",
-          "wordCount": 4352,
-          "title": "Expanding ICS Security Awareness: Part 2 - New Modules, New Risks, Same Mission",
           "imageUrl": null
         }
       ]

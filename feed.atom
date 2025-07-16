@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-07-15T01:00:06.167Z</updated>
+    <updated>2025-07-16T00:59:19.894Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Public Report - Google Confidential Space Security Assessment]]></title>
+        <id>45218355-9087-47f4-a86c-8b2fe3d661d6</id>
+        <link href="https://www.nccgroup.com/us/research-blog/public-report-google-confidential-space-security-assessment/"/>
+        <updated>2025-07-16T00:58:49.665Z</updated>
+        <author>
+            <name>Research Blog: Latest Cyber Security Insights</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Windows Subsystem for Linux (WSL) from source]]></title>
+        <id>https://4sysops.com/?p=1597871</id>
+        <link href="https://4sysops.com/archives/build-windows-subsystem-for-linux-wsl-from-source/"/>
+        <updated>2025-07-15T15:15:02.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft recently open sourced Windows Subsystem for Linux (WSL) under the MIT license, allowing anyone to freely inspect, modify, build, or distribute its source code. This article guides you through building WSL 2.6 from source, using CMake, a popular build system generator, on Windows.
+Source]]></summary>
+        <author>
+            <name>Edem Afenyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2025-4919: Corruption via Math Space in Mozilla Firefox]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68754bb2a03b700b052b6c96</id>
+        <link href="https://www.thezdi.com/blog/2025/7/14/cve-2025-4919-corruption-via-math-space-in-mozilla-firefox"/>
+        <updated>2025-07-15T14:27:27.000Z</updated>
+        <summary type="html"><![CDATA[In recent years, there has been an increase interest in the JavaScript engine vulnerabilities in order to compromise web browsers. Notably, vulnerabilities in JIT engines are among the most favorite ones as it provides strong primitives and well-known techniques are already available to facilitate compromise. At Pwn2Own Berlin 2025, Manfred Paul compromised the Mozilla Firefox renderer process using a vulnerability in IonMonkey but did not further escape the JavaScript engine sandbox. IonMonkey is the JavaScript JIT compiler for SpiderMonkey (the Firefox JavaScript and WebAssembly engine) This vulnerability is assigned CVE-2025-4919 and Mozilla swiftly fixed it in Mozilla Firefox 138.0.4 via Security Advisory 2025-36 in the following day. Trend Zero Day Initiative assigned ZDI-25-291 to th…]]></summary>
+        <author>
+            <name>Hossein Lotfi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Repeater Strike: manual testing, amplified]]></title>
+        <id>repeater-strike-manual-testing-amplified</id>
+        <link href="https://portswigger.net/research/repeater-strike-manual-testing-amplified"/>
+        <updated>2025-07-15T13:46:37.000Z</updated>
+        <summary type="html"><![CDATA[Manual testing doesn't have to be repetitive. In this post, we're introducing Repeater Strike - a new AI-powered Burp Suite extension designed to automate the hunt for IDOR and similar vulnerabilities]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Framework 13. Press here to pwn]]></title>
+        <id>https://www.pentestpartners.com/?p=42300</id>
+        <link href="https://www.pentestpartners.com/security-blog/framework-13-press-here-to-pwn/"/>
+        <updated>2025-07-15T05:41:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  Introduction  BIOS protection is the digital equivalent of a locked front door, but what if the doorbell doubled as a reset button?  The Framework 13 laptop has a chassis intrusion detection switch. It’s designed to notify the BIOS when the laptop body has been opened. However, the same switch can be manipulated to reset the […]
+The post Framework 13. Press here to pwn  appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HTTP to MCP Bridge]]></title>
         <id>a699c57f-8fe9-41b2-aab4-6c15a432ac8b</id>
@@ -12581,26 +12632,6 @@ Read full post
 The post Secure Enclaves for Offensive Operations (Part II) appeared first on Outflank.]]></summary>
         <author>
             <name>Cedric Van Bockhaven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Expanding ICS Security Awareness: Part 2 - New Modules, New Risks, Same Mission]]></title>
-        <id>https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission</id>
-        <link href="https://www.sans.org/blog/expanding-ics-security-awareness-part2-new-modules-new-risks-same-mission?msc=rss"/>
-        <updated>2025-06-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[6 new modules that further enhance the SANS ICS Cybersecurity Awareness Training series]]></summary>
-        <author>
-            <name>SANS Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMwareResolutionSet.exe VMwareResolutionSet.dll lolbin]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10041</id>
-        <link href="https://www.hexacorn.com/blog/2025/06/15/vmwareresolutionset-exe-vmwareresolutionset-dll-lolbin/"/>
-        <updated>2025-06-15T20:49:23.000Z</updated>
-        <summary type="html"><![CDATA[If you still use VMWare, your Windows guest system will benefit from an installation of VMWare Tools. The VMWare Tools package is usually installed into this directory: c:\Program Files\VMware\VMware Tools It turns out that running the executable: c:\Program Files\VMware\VMware Tools\VMwareResolutionSet.exe … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
