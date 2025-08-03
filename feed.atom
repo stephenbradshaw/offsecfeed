@@ -2,10 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-07-31T01:00:48.466Z</updated>
+    <updated>2025-08-03T02:35:27.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Turning ChatGPT Codex Into A ZombAI Agent]]></title>
+        <id>https://embracethered.com/blog/posts/2025/chatgpt-codex-remote-control-zombai/</id>
+        <link href="https://embracethered.com/blog/posts/2025/chatgpt-codex-remote-control-zombai/"/>
+        <updated>2025-08-02T07:31:58.000Z</updated>
+        <summary type="html"><![CDATA[Today we cover ChatGPT Codex as part of the Month of AI Bugs series.
+ChatGPT Codex is a cloud-based software engineering agent that answers codebase questions, executes code, and drafts pull requests.
+In particular, this post will demonstrate how Codex is vulnerable to prompt injection, and how the use of the “Common Dependencies Allowlist” for Internet access enables an attacker to recruit ChatGPT Codex into a malware botnet.
+The ZombAI attack arrives at ChatGPT Codex today!]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in July]]></title>
+        <id>http://blog.didierstevens.com/?p=10969</id>
+        <link href="https://blog.didierstevens.com/2025/08/01/overview-of-content-published-in-july-10/"/>
+        <updated>2025-08-01T19:31:24.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in July: Blog posts: Quickpost: Doorbell & Condensation Quickpost: 12V Portable Power Station SANS ISC Diary entries: Wireshark 4.4.8 Released WinRAR MoTW Propagation Privacy]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows-MCP: Automating the Windows GUI with AI]]></title>
+        <id>https://4sysops.com/?p=1598815</id>
+        <link href="https://4sysops.com/archives/windows-mcp-automating-the-windows-gui-with-ai/"/>
+        <updated>2025-08-01T19:18:30.000Z</updated>
+        <summary type="html"><![CDATA[Windows-MCP is an open-source MCP server that enables AI agents to control the Windows operating system, supporting tasks such as file navigation, application launching, and GUI automation. It features mouse/keyboard input tools, clipboard management, and window and app state detection. I tested Windows-MCP, one of the extensions listed in Anthropic Claude Desktop that can be installed using the free plan.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exfiltrating Your ChatGPT Chat History and Memories With Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2025/chatgpt-chat-history-data-exfiltration/</id>
+        <link href="https://embracethered.com/blog/posts/2025/chatgpt-chat-history-data-exfiltration/"/>
+        <updated>2025-08-01T15:00:58.000Z</updated>
+        <summary type="html"><![CDATA[In this post we demonstrate how a bypass in OpenAI’s “safe URL” rendering feature allows ChatGPT to send personal information to a third-party server. This can be exploited by an adversary via a prompt injection via untrusted data.
+If you process untrusted content, like summarizing a website, or analyze a pdf document, the author of that document can exfiltrate any information present in the prompt context, including your past chat history.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Unconventional Innovator Scholarship]]></title>
+        <id>https://blog.trailofbits.com/2025/08/01/the-unconventional-innovator-scholarship/</id>
+        <link href="https://blog.trailofbits.com/2025/08/01/the-unconventional-innovator-scholarship/"/>
+        <updated>2025-08-01T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trail of Bits founder Dan Guido establishes a $2,500 scholarship at his alma mater, Mineola High School, to recognize students who demonstrate the hacker spirit through self-driven learning, creative problem-solving, and unconventional technological exploration. The scholarship celebrates tomorrow’s security innovators who push boundaries and think differently about technology.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop Hardcoding Passwords]]></title>
+        <id>https://blog.nviso.eu/?p=21450</id>
+        <link href="https://blog.nviso.eu/2025/08/01/stop-hardcoding-passwords/"/>
+        <updated>2025-08-01T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Deep Dive into CyberArk’s Central CredentialProvider (CCP) Introduction Hardcoded credentials are still among the most critical and overlooked security flaws in modern software development. From leaked Git repos to reverse-engineered binaries, static passwords are easy targets. They also make rotation and access control almost impossible. Enter CyberArk’s Central Credential Provider (CCP): a secure, centralized … Continue reading Stop Hardcoding Passwords →]]></summary>
+        <author>
+            <name>Nikolaos Grigoropoulos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Returns to Ireland with a One Million Dollar WhatsApp Target]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:688ad635ba75553b33467fd6</id>
+        <link href="https://www.thezdi.com/blog/2025/7/30/pwn2own-returns-to-ireland-with-a-one-million-dollar-whatsapp-target"/>
+        <updated>2025-07-31T19:04:37.000Z</updated>
+        <summary type="html"><![CDATA[If you just want to read the rules, you can find them here. 
+
+Last year, we moved our consumer-focused Pwn2Own event to our offices in Cork, Ireland, and the event could not have gone better. Despite some dreary Irish skies, much fun was had as researchers from around the world demonstrated their best exploits – and we were reminded that electricity works a little differently in Europe. With that in mind, we’re excited to return to Cork this fall for yet another great Pwn2Own event. We’ll also be returning to some of the great pubs Ireland has to offer in the evenings and wrapping the event up at the historic Cork City Goal.
+As you might have guessed from the title, we’re excited to announce that Meta is co-sponsoring this year’s event, and they are hoping to see some great WhatsApp exploi…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQL Server real-time monitoring with Grafana]]></title>
+        <id>https://4sysops.com/?p=1598781</id>
+        <link href="https://4sysops.com/archives/sql-server-real-time-monitoring-with-grafana/"/>
+        <updated>2025-07-31T16:16:48.000Z</updated>
+        <summary type="html"><![CDATA[Grafana offers enterprise-grade Microsoft SQL Server monitoring without the high licensing costs, making it ideal for comprehensive database observability, proactive database health monitoring, troubleshooting, and capacity planning. In my previous blog, I explained how to install Grafana 12 on Windows. This post will outline how to connect Grafana to SQL Server for real-time monitoring.
+Source]]></summary>
+        <author>
+            <name>Avi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hijacking multi-agent systems in your PajaMAS]]></title>
+        <id>https://blog.trailofbits.com/2025/07/31/hijacking-multi-agent-systems-in-your-pajamas/</id>
+        <link href="https://blog.trailofbits.com/2025/07/31/hijacking-multi-agent-systems-in-your-pajamas/"/>
+        <updated>2025-07-31T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re releasing pajaMAS: a curated set of MAS hijacking demos that illustrate important principles of MAS security.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DFIR tools and techniques for tracing user footprints through Shellbags]]></title>
+        <id>https://www.pentestpartners.com/?p=42429</id>
+        <link href="https://www.pentestpartners.com/security-blog/dfir-tools-and-techniques-for-tracing-user-footprints-through-shellbags/"/>
+        <updated>2025-07-31T08:49:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  Introduction  Shellbags are a valuable forensic artifact, providing analysts with information about user interactions with folders in Windows. These registry keys record metadata such as folder paths, view settings and timestamps. These artifacts offer insight into what folders a user has accessed, Shellbags persist even if folders are deleted, making them an important artifact […]
+The post DFIR tools and techniques for tracing user footprints through Shellbags  appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Properly Signed Certificates on CPE Devices]]></title>
         <id>fb07f327-2fca-47e3-acc8-6510cf441e34</id>
@@ -24511,120 +24621,6 @@ Sit in your chair, stand at your desk, lick your phone screen - close your eyes 
 Source]]></summary>
         <author>
             <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pet microchip scams and data leaks in the UK]]></title>
-        <id>https://www.pentestpartners.com/?p=42157</id>
-        <link href="https://www.pentestpartners.com/security-blog/pet-microchip-scams-and-data-leaks-in-the-uk/"/>
-        <updated>2025-07-04T05:21:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR We were recently on BBC Morning Live talking about issues with pet microchip data, helping some pet owners understand how they were being billed for services which they didn’t recall signing up for. There was so much more to this piece though, so we’ve written up our findings in more detail here. It’s a […]
-The post Pet microchip scams and data leaks in the UK appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Joe Bursell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Threads layout in Teams channel posts aims to simplify conversations]]></title>
-        <id>https://4sysops.com/?p=1597601</id>
-        <link href="https://4sysops.com/archives/new-threads-layout-in-teams-channel-posts-aims-to-simplify-conversations/"/>
-        <updated>2025-07-03T15:44:03.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft is adding a Threads layout to Teams channel posts. This feature introduces a new level of structure that enables more interactive conversations, similar to social networks like Facebook or X.
-Source]]></summary>
-        <author>
-            <name>Wolfgang Miedl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CI/CD Training from the Front Lines: Offensive Security at Black Hat]]></title>
-        <id>https://www.praetorian.com/?p=5603</id>
-        <link href="https://www.praetorian.com/blog/ci-cd-training-from-the-front-lines-offensive-security-at-black-hat/"/>
-        <updated>2025-07-03T15:35:09.000Z</updated>
-        <summary type="html"><![CDATA[Our Red Team has explored and exploited vulnerabilities in the CI/CD space over the last several years, resulting in numerous successful offensive operations, open-source tool development, and presentations at Black Hat, DEF CON, and Schmoocon. With organizations increasingly relying on automated deployment pipelines, securing CI/CD infrastructure has become more critical than ever — yet many […]
-The post CI/CD Training from the Front Lines: Offensive Security at Black Hat appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Harry Hayward</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 25H2: enablement package with valuable new features]]></title>
-        <id>https://4sysops.com/?p=1597632</id>
-        <link href="https://4sysops.com/archives/windows-11-25h2-enablement-package-with-valuable-new-features/"/>
-        <updated>2025-07-02T16:58:18.000Z</updated>
-        <summary type="html"><![CDATA[Windows 11 25H2 is scheduled for release in fall 2025. Windows Insider Program members can try out the update early in the Dev channel. Notably, Windows 11 25H2 isn’t a traditional in-place upgrade; it’s an enablement package, which is a minor update that unlocks dormant new features such as Quick Machine Recovery and Administrator Protection.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buckle up, Buttercup, AIxCC’s scored round is underway!]]></title>
-        <id>https://blog.trailofbits.com/2025/07/02/buckle-up-buttercup-aixccs-scored-round-is-underway/</id>
-        <link href="https://blog.trailofbits.com/2025/07/02/buckle-up-buttercup-aixccs-scored-round-is-underway/"/>
-        <updated>2025-07-02T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Our CRS (Cyber Reasoning System), Buttercup, is now competing in the one and only scored round of DARPA’s AI Cyber Challenge (AIxCC) against six other teams to see which autonomous AI-driven system can find and patch the most software vulnerabilities.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[macOS NimDoor | DPRK Threat Actors Target Web3 and Crypto Platforms with Nim-Based Malware]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=124926</id>
-        <link href="https://www.sentinelone.com/labs/macos-nimdoor-dprk-threat-actors-target-web3-and-crypto-platforms-with-nim-based-malware/"/>
-        <updated>2025-07-02T09:55:37.000Z</updated>
-        <summary type="html"><![CDATA[NimDoor shows how threat actors are continuing to explore cross-platform languages that introduce new levels of complexity for analysts.]]></summary>
-        <author>
-            <name>Phil Stokes &amp; Raffaele Sabato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Streamlining Global Automotive Cybersecurity Governance to Accelerate Innovation, Assurance, and Compliance]]></title>
-        <id>63a64173-3acd-448b-923a-6ae1a35410ac</id>
-        <link href="https://www.nccgroup.com/us/research-blog/streamlining-global-automotive-cybersecurity-governance-to-accelerate-innovation-assurance-and-compliance/"/>
-        <updated>2025-07-02T00:56:30.927Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 MCP Security Tips]]></title>
-        <id>42993a6f-3d6e-47f7-8ee2-8fdab3efb921</id>
-        <link href="https://www.nccgroup.com/us/research-blog/5-mcp-security-tips/"/>
-        <updated>2025-07-02T00:56:24.598Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quickpost: Doorbell & Condensation]]></title>
-        <id>http://blog.didierstevens.com/?p=10907</id>
-        <link href="https://blog.didierstevens.com/2025/07/02/quickpost-doorbell-condensation/"/>
-        <updated>2025-07-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Remember that I broke the filament of the light-bulb in my doorbell? Turns out there is another advantage to having a light-bulb in your doorbell: it prevents condensation: Quickpost info]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Extracting Sensitive Information from Azure Load Testing]]></title>
-        <id>https://www.netspi.com/?p=27767</id>
-        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/extracting-sensitive-information-azure-load-testing/"/>
-        <updated>2025-07-01T20:24:16.000Z</updated>
-        <summary type="html"><![CDATA[Learn how Azure Load Testing's JMeter JMX and Locust support enables code execution, metadata queries, reverse shells, and Key Vault secret extraction vulnerabilities.
-The post Extracting Sensitive Information from Azure Load Testing appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Karl Fosaaen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Gemini CLI: Free AI-powered terminal assistant for the IT admin]]></title>
-        <id>https://4sysops.com/?p=1597566</id>
-        <link href="https://4sysops.com/archives/google-gemini-cli-free-ai-powered-terminal-assistant-for-the-it-admin/"/>
-        <updated>2025-07-01T16:11:32.000Z</updated>
-        <summary type="html"><![CDATA[Google's new Gemini CLI allows up to 60 model requests per minute and 1,000 daily requests. Professional developers might hit these limits quickly, but many IT admins will find the free plan sufficient. Compared to Anthropic Claude Code and OpenAI Codex CLI, I find Google's open-source AI-powered terminal more useful for the AI-augmented admin.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
