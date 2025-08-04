@@ -27268,16 +27268,6 @@
           "wordCount": null,
           "title": "Install Grafana 12 on Windows",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1597711",
-          "author": "Markus Elsberger",
-          "description": "Windows provides native tools for formatting hard drives, such as Disk Management, File Explorer, and DiskPart. Alternatively, you can use EaseUS Partition Master Free, which enables quick and easy formatting of hard drives and partitions.\nSource",
-          "link": "https://4sysops.com/archives/format-hard-drive-easeus-partition-master-free-vs-windows-tools/",
-          "publishedOn": "2025-07-04T18:22:17.000Z",
-          "wordCount": null,
-          "title": "Format hard drive: EaseUS Partition Master Free vs. Windows tools",
-          "imageUrl": null
         }
       ]
     },
@@ -27453,6 +27443,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2025/anthropic-filesystem-mcp-server-bypass/",
+          "author": null,
+          "description": "A few months ago I was looking at the filesystem MCP server from Anthropic.\nThe server allows to give an AI, like Claude Desktop, access to the local filesystem to read files or edit them and so forth.\nI was curious about access control and in the documentation there is a configuration setting to set allowedDirectories, which the AI should be allowed access to:\nAs you can see the example shows two folders being allowlisted for access.",
+          "link": "https://embracethered.com/blog/posts/2025/anthropic-filesystem-mcp-server-bypass/",
+          "publishedOn": "2025-08-03T08:30:58.000Z",
+          "wordCount": 521,
+          "title": "Anthropic Filesystem MCP Server: Directory Access Bypass via Improper Path Validation",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2025/chatgpt-codex-remote-control-zombai/",
           "author": null,
@@ -27704,6 +27704,16 @@
       "siteUrl": "https://www.outflank.nl/blog/",
       "articles": [
         {
+          "id": "https://www.outflank.nl/?p=5594",
+          "author": "Kyle Avery",
+          "description": "At Outflank, we continually seek ways to accelerate our research and development efforts without compromising quality. In this pursuit, we’ve begun integrating large language models (LLMs) into our internal research workflows. While we’re still exploring the full potential of AI-powered offensive tooling, this post highlights how we’ve already used AI to speed up the delivery of traditional offensive capabilities. \nBy leveraging AI as a research accelerator, we can dedicate more time to refining, testing, and hardening the techniques that ultimately make it into our OST offering. This post is a case study of our AI-assisted exploration of the “trapped COM object” bug class.\n\nJames Forshaw described the idea of trapped COM objects earlier this year. Subsequently, IBM X-Force Red weaponized the technique for lateral movement, which further piqued our interest.\nTags: AI, DCOM, Lateral Movement\nRead full post\nThe post Accelerating Offensive R&D with Large Language Models appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2025/07/29/accelerating-offensive-research-with-llm/",
+          "publishedOn": "2025-07-31T10:36:03.000Z",
+          "wordCount": 2161,
+          "title": "Accelerating Offensive R&D with Large Language Models",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/05/nedump_demo.gif"
+        },
+        {
           "id": "https://www.outflank.nl/?p=5516",
           "author": "Dima van de Wouw",
           "description": "Asynchronous BOFs: Enabling New Use Cases for Red Team Operators\nThe introduction of Beacon Object Files (BOFs) by Cobalt Strike in 2020 revolutionized the capabilities of red team operators and developers, offering a standardized interface for operator code to run within, and interact with, an implant. However, the current BOF standard was designed for synchronous operations, limiting its potential applications.\nAsynchronous BOFs Execution Would Enable New Red Team Capabilities\nWithin this blog we introduce the concept and initial design of real-time monitoring for events (e.g. sleep until an admin logs in, sleep until a user starts his password vault) for Beacon Object Files. This new asynchronous design allows operators to roll out a network of sensors and stream these events to the C2 server for further processing – all while the implant is sleepmasked.\nTags: Async, AsyncBOF, BeaconWakeup, BOF, Monitoring, RedTreat, SleepMask\nRead full post\nThe post Async BOFs – “Wake Me Up, Before You Go Go” appeared first on Outflank.",
@@ -27751,16 +27761,6 @@
           "wordCount": 3790,
           "title": "Pre-Auth SQL Injection to RCE - Fortinet FortiWeb Fabric Connector (CVE-2025-25257)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/07/Group-8730--13-.png"
-        },
-        {
-          "id": "686825056b759800016a46da",
-          "author": "Sina Kheirkhah (@SinSinology)",
-          "description": "Before you dive into our latest diatribe, indulge us and join us on a journey.\nSit in your chair, stand at your desk, lick your phone screen - close your eyes and imagine a world in which things are great. It’s sunny outside, the birds are chirping, and",
-          "link": "https://labs.watchtowr.com/how-much-more-must-we-bleed-citrix-netscaler-memory-disclosure-citrixbleed-2-cve-2025-5777/",
-          "publishedOn": "2025-07-04T19:13:56.000Z",
-          "wordCount": 2755,
-          "title": "How Much More Must We Bleed? - Citrix NetScaler Memory Disclosure (CitrixBleed 2 CVE-2025-5777)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/07/Group-8730--12-.png"
         }
       ]
     }

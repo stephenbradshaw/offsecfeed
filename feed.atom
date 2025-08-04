@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-03T02:35:27.825Z</updated>
+    <updated>2025-08-04T01:05:50.392Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Filesystem MCP Server: Directory Access Bypass via Improper Path Validation]]></title>
+        <id>https://embracethered.com/blog/posts/2025/anthropic-filesystem-mcp-server-bypass/</id>
+        <link href="https://embracethered.com/blog/posts/2025/anthropic-filesystem-mcp-server-bypass/"/>
+        <updated>2025-08-03T08:30:58.000Z</updated>
+        <summary type="html"><![CDATA[A few months ago I was looking at the filesystem MCP server from Anthropic.
+The server allows to give an AI, like Claude Desktop, access to the local filesystem to read files or edit them and so forth.
+I was curious about access control and in the documentation there is a configuration setting to set allowedDirectories, which the AI should be allowed access to:
+As you can see the example shows two folders being allowlisted for access.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Turning ChatGPT Codex Into A ZombAI Agent]]></title>
         <id>https://embracethered.com/blog/posts/2025/chatgpt-codex-remote-control-zombai/</id>
@@ -103,6 +116,22 @@ Source]]></summary>
         <summary type="html"><![CDATA[We’re releasing pajaMAS: a curated set of MAS hijacking demos that illustrate important principles of MAS security.]]></summary>
         <author>
             <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating Offensive R&D with Large Language Models]]></title>
+        <id>https://www.outflank.nl/?p=5594</id>
+        <link href="https://www.outflank.nl/blog/2025/07/29/accelerating-offensive-research-with-llm/"/>
+        <updated>2025-07-31T10:36:03.000Z</updated>
+        <summary type="html"><![CDATA[At Outflank, we continually seek ways to accelerate our research and development efforts without compromising quality. In this pursuit, we’ve begun integrating large language models (LLMs) into our internal research workflows. While we’re still exploring the full potential of AI-powered offensive tooling, this post highlights how we’ve already used AI to speed up the delivery of traditional offensive capabilities. 
+By leveraging AI as a research accelerator, we can dedicate more time to refining, testing, and hardening the techniques that ultimately make it into our OST offering. This post is a case study of our AI-assisted exploration of the “trapped COM object” bug class.
+
+James Forshaw described the idea of trapped COM objects earlier this year. Subsequently, IBM X-Force Red weaponized the technique for lateral movement, which further piqued our interest.
+Tags: AI, DCOM, Lateral Movement
+Read full post
+The post Accelerating Offensive R&D with Large Language Models appeared first on Outflank.]]></summary>
+        <author>
+            <name>Kyle Avery</name>
         </author>
     </entry>
     <entry>
@@ -24599,28 +24628,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[I mentioned TestHook at least twice in the past. I actually love this keyword/string, because it is associated with many undocumented internal Microsoft test frameworks that we can sometimes abuse. And many ‘TestHook’ string references are present in many binaries … Continue reading →]]></summary>
         <author>
             <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Much More Must We Bleed? - Citrix NetScaler Memory Disclosure (CitrixBleed 2 CVE-2025-5777)]]></title>
-        <id>686825056b759800016a46da</id>
-        <link href="https://labs.watchtowr.com/how-much-more-must-we-bleed-citrix-netscaler-memory-disclosure-citrixbleed-2-cve-2025-5777/"/>
-        <updated>2025-07-04T19:13:56.000Z</updated>
-        <summary type="html"><![CDATA[Before you dive into our latest diatribe, indulge us and join us on a journey.
-Sit in your chair, stand at your desk, lick your phone screen - close your eyes and imagine a world in which things are great. It’s sunny outside, the birds are chirping, and]]></summary>
-        <author>
-            <name>Sina Kheirkhah (@SinSinology)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Format hard drive: EaseUS Partition Master Free vs. Windows tools]]></title>
-        <id>https://4sysops.com/?p=1597711</id>
-        <link href="https://4sysops.com/archives/format-hard-drive-easeus-partition-master-free-vs-windows-tools/"/>
-        <updated>2025-07-04T18:22:17.000Z</updated>
-        <summary type="html"><![CDATA[Windows provides native tools for formatting hard drives, such as Disk Management, File Explorer, and DiskPart. Alternatively, you can use EaseUS Partition Master Free, which enables quick and easy formatting of hard drives and partitions.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>
