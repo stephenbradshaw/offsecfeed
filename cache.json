@@ -164,16 +164,6 @@
           "wordCount": 3345,
           "title": "Overview of Content Published in July",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10950",
-          "author": "Didier Stevens",
-          "description": "In blog post “My Fridge & My Portable Power Station” I managed to get a maximum of 778 Wh out of my portable power station with a rated capacity of 1260 Wh. Thinking that quite some power got lost in the AC inverter, I set out to measure the amount of power I can get […]",
-          "link": "https://blog.didierstevens.com/2025/07/06/quickpost-12v-portable-power-station/",
-          "publishedOn": "2025-07-06T09:18:18.000Z",
-          "wordCount": 3507,
-          "title": "Quickpost: 12V Portable Power Station",
-          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2025/06/20250628-231128.png"
         }
       ]
     },
@@ -26986,7 +26976,18 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.exodusintel.com/?p=2334",
+          "author": "Exodus Intel VRT",
+          "description": "Overview In February 2023, researchers at Exodus Intelligence discovered a bug in the Data Flow Graph (DFG) compiler of WebKit, the browser engine used by Safari. This bug, CVE-2024-44308, was patched by Apple in November 2024. While it was alive, its exploit was chained with PAC and APRR bypasses on Apple Silicon to yield renderer ... Read more Oops Safari, I think You Spilled Something!\nThe post Oops Safari, I think You Spilled Something! appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2025/08/04/oops-safari-i-think-you-spilled-something/",
+          "publishedOn": "2025-08-04T15:58:24.000Z",
+          "wordCount": 8308,
+          "title": "Oops Safari, I think You Spilled Something!",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2025/08/img_1.png"
+        }
+      ]
     },
     {
       "title": "markitzeroday.com",
@@ -27064,6 +27065,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1598901",
+          "author": "Thomas Joos",
+          "description": "If you forget the root password for ESXi, VMware recommends reinstalling ESXi. In smaller environments without automated rollouts and central profiles, you must then configure all settings manually. Alternatively, you can reset the password using an unofficial method.\nSource",
+          "link": "https://4sysops.com/archives/reset-forgotten-esxi-7x-8x-root-password-a-recovery-guide/",
+          "publishedOn": "2025-08-04T17:29:47.000Z",
+          "wordCount": null,
+          "title": "Reset forgotten ESXi 7.x / 8.x root password – A recovery guide",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1598815",
           "author": "Michael Pietroforte",
@@ -27295,26 +27306,6 @@
           "wordCount": 674,
           "title": "Beyond good ol’ Run key, Part 149",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10068",
-          "author": "adam",
-          "description": "Analyzing the very same binary (AggregatorHost.exe) that makes the persistence trick described in my previous post work, I noticed that there is one more Registry entry we can use as a persistence mechanism: HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Diagnostics\\DiagTrack\\TestHooks\\TestUndockedAggregatorDll=<malware> Same as in the previous post, … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/07/05/beyond-good-ol-run-key-part-148/",
-          "publishedOn": "2025-07-05T23:44:20.000Z",
-          "wordCount": 522,
-          "title": "Beyond good ol’ Run key, Part 148",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10063",
-          "author": "adam",
-          "description": "I mentioned TestHook at least twice in the past. I actually love this keyword/string, because it is associated with many undocumented internal Microsoft test frameworks that we can sometimes abuse. And many ‘TestHook’ string references are present in many binaries … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/07/05/beyond-good-ol-run-key-part-147/",
-          "publishedOn": "2025-07-05T23:26:46.000Z",
-          "wordCount": 558,
-          "title": "Beyond good ol’ Run key, Part 147",
-          "imageUrl": null
         }
       ]
     },
@@ -27444,6 +27435,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/",
+          "author": null,
+          "description": "Cursor is a popular AI code editor. In this post I want to share how I found an interesting data exfiltration issue, the demo exploits built and how it got fixed.\nWhen using Cursor I noticed that it can render Mermaid diagrams.\nCursor Renders Mermaid Diagrams If you are not familiar with Mermaid, it has a simple syntax:\ngraph TD User --> Computer This will create a diagram as follows:",
+          "link": "https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/",
+          "publishedOn": "2025-08-04T07:04:58.000Z",
+          "wordCount": 967,
+          "title": "Cursor IDE: Arbitrary Data Exfiltration Via Mermaid (CVE-2025-54132)",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2025/anthropic-filesystem-mcp-server-bypass/",
           "author": null,
           "description": "A few months ago I was looking at the filesystem MCP server from Anthropic.\nThe server allows to give an AI, like Claude Desktop, access to the local filesystem to read files or edit them and so forth.\nI was curious about access control and in the documentation there is a configuration setting to set allowedDirectories, which the AI should be allowed access to:\nAs you can see the example shows two folders being allowlisted for access.",
@@ -27544,6 +27545,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=128686",
+          "author": "Jim Walter, Alex Delamotte, Beazley Security’s Francisco Donoso, Sam Mayers, Tell Hause &amp; Bobby Venal",
+          "description": "PXA Stealer uses advanced evasion and Telegram C2 to steal global victim data, fueling a thriving cybercrime market.",
+          "link": "https://www.sentinelone.com/labs/ghost-in-the-zip-new-pxa-stealer-and-its-telegram-powered-ecosystem/",
+          "publishedOn": "2025-08-04T10:00:23.000Z",
+          "wordCount": 9398,
+          "title": "Ghost in the Zip | New PXA Stealer and Its Telegram-Powered Ecosystem",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2025/08/PXA1.jpg",
+            "length": "46902",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/08/PXA1.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=127547",
           "author": "Dakota Cary",

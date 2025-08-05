@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-04T01:05:50.392Z</updated>
+    <updated>2025-08-05T01:02:03.484Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Reset forgotten ESXi 7.x / 8.x root password – A recovery guide]]></title>
+        <id>https://4sysops.com/?p=1598901</id>
+        <link href="https://4sysops.com/archives/reset-forgotten-esxi-7x-8x-root-password-a-recovery-guide/"/>
+        <updated>2025-08-04T17:29:47.000Z</updated>
+        <summary type="html"><![CDATA[If you forget the root password for ESXi, VMware recommends reinstalling ESXi. In smaller environments without automated rollouts and central profiles, you must then configure all settings manually. Alternatively, you can reset the password using an unofficial method.
+Source]]></summary>
+        <author>
+            <name>Thomas Joos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oops Safari, I think You Spilled Something!]]></title>
+        <id>https://blog.exodusintel.com/?p=2334</id>
+        <link href="https://blog.exodusintel.com/2025/08/04/oops-safari-i-think-you-spilled-something/"/>
+        <updated>2025-08-04T15:58:24.000Z</updated>
+        <summary type="html"><![CDATA[Overview In February 2023, researchers at Exodus Intelligence discovered a bug in the Data Flow Graph (DFG) compiler of WebKit, the browser engine used by Safari. This bug, CVE-2024-44308, was patched by Apple in November 2024. While it was alive, its exploit was chained with PAC and APRR bypasses on Apple Silicon to yield renderer ... Read more Oops Safari, I think You Spilled Something!
+The post Oops Safari, I think You Spilled Something! appeared first on Exodus Intelligence.]]></summary>
+        <author>
+            <name>Exodus Intel VRT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ghost in the Zip | New PXA Stealer and Its Telegram-Powered Ecosystem]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=128686</id>
+        <link href="https://www.sentinelone.com/labs/ghost-in-the-zip-new-pxa-stealer-and-its-telegram-powered-ecosystem/"/>
+        <updated>2025-08-04T10:00:23.000Z</updated>
+        <summary type="html"><![CDATA[PXA Stealer uses advanced evasion and Telegram C2 to steal global victim data, fueling a thriving cybercrime market.]]></summary>
+        <author>
+            <name>Jim Walter, Alex Delamotte, Beazley Security’s Francisco Donoso, Sam Mayers, Tell Hause &amp; Bobby Venal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor IDE: Arbitrary Data Exfiltration Via Mermaid (CVE-2025-54132)]]></title>
+        <id>https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/</id>
+        <link href="https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/"/>
+        <updated>2025-08-04T07:04:58.000Z</updated>
+        <summary type="html"><![CDATA[Cursor is a popular AI code editor. In this post I want to share how I found an interesting data exfiltration issue, the demo exploits built and how it got fixed.
+When using Cursor I noticed that it can render Mermaid diagrams.
+Cursor Renders Mermaid Diagrams If you are not familiar with Mermaid, it has a simple syntax:
+graph TD User --> Computer This will create a diagram as follows:]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic Filesystem MCP Server: Directory Access Bypass via Improper Path Validation]]></title>
         <id>https://embracethered.com/blog/posts/2025/anthropic-filesystem-mcp-server-bypass/</id>
@@ -24598,36 +24643,6 @@ The post How to conduct a Password Audit in Active Directory (AD) appeared first
 Source]]></summary>
         <author>
             <name>Avi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quickpost: 12V Portable Power Station]]></title>
-        <id>http://blog.didierstevens.com/?p=10950</id>
-        <link href="https://blog.didierstevens.com/2025/07/06/quickpost-12v-portable-power-station/"/>
-        <updated>2025-07-06T09:18:18.000Z</updated>
-        <summary type="html"><![CDATA[In blog post “My Fridge & My Portable Power Station” I managed to get a maximum of 778 Wh out of my portable power station with a rated capacity of 1260 Wh. Thinking that quite some power got lost in the AC inverter, I set out to measure the amount of power I can get […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 148]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10068</id>
-        <link href="https://www.hexacorn.com/blog/2025/07/05/beyond-good-ol-run-key-part-148/"/>
-        <updated>2025-07-05T23:44:20.000Z</updated>
-        <summary type="html"><![CDATA[Analyzing the very same binary (AggregatorHost.exe) that makes the persistence trick described in my previous post work, I noticed that there is one more Registry entry we can use as a persistence mechanism: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack\TestHooks\TestUndockedAggregatorDll=<malware> Same as in the previous post, … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 147]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10063</id>
-        <link href="https://www.hexacorn.com/blog/2025/07/05/beyond-good-ol-run-key-part-147/"/>
-        <updated>2025-07-05T23:26:46.000Z</updated>
-        <summary type="html"><![CDATA[I mentioned TestHook at least twice in the past. I actually love this keyword/string, because it is associated with many undocumented internal Microsoft test frameworks that we can sometimes abuse. And many ‘TestHook’ string references are present in many binaries … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
