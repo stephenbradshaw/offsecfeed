@@ -304,7 +304,18 @@
       "title": "Active Directory Security",
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://adsecurity.org/?p=4455",
+          "author": "Sean Metcalf",
+          "description": "In early 2020, I published an article on how a Global Administrator could gain control of Azure resources, that no one would know about it, and how this access would persist even after removing them from Global Administrator. From that article: “While Azure leverages Azure Active Directory for some things, Azure AD roles don’t directly … \nContinue reading",
+          "link": "https://adsecurity.org/?p=4455",
+          "publishedOn": "2025-08-10T19:17:37.000Z",
+          "wordCount": 2020,
+          "title": "Entra & Azure Elevated Access Revisited",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/08/image-1.png"
+        }
+      ]
     },
     {
       "title": "Tyranid's Lair",
@@ -26839,6 +26850,41 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=5825",
+          "author": "Justin Copeland",
+          "description": "Overview The Praetorian Labs team recently conducted research into potential initial access vectors for red team engagements, focusing on attack techniques leveraging malicious applications distributed through platforms like the Microsoft Store. This included OAuth applications, malicious Outlook extensions, and other types of applications that could be delivered via the Windows Store. As part of this […]\nThe post OAuthSeeker: Leveraging OAuth Phishing for Initial Access and Lateral Movement on Red Team Engagements appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/oauthseeker-leveraging-oauth-phishing-for-initial-access-and-lateral-movement-on-red-team-engagements/",
+          "publishedOn": "2025-08-07T17:44:41.000Z",
+          "wordCount": 8036,
+          "title": "OAuthSeeker: Leveraging OAuth Phishing for Initial Access and Lateral Movement on Red Team Engagements",
+          "enclosure": {
+            "url": "https://www.praetorian.com/wp-content/uploads/2025/08/BlackHat-OAuthSeeker-Demo-Verified-External-4.mp4",
+            "length": "50930967",
+            "type": "video/mp4"
+          },
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/08/Screenshot-2025-08-07-at-11.23.46-AM.png"
+        },
+        {
+          "id": "https://www.praetorian.com/?p=5086",
+          "author": "Harry Hayward",
+          "description": "In part one, we discussed the architecture of web conferencing applications, with a specific focus on Zoom’s architecture to support web conferencing at a massive global scale. Part two will discuss the approach we developed to support tunneling traffic through Zoom and Microsoft Teams using the TURN protocol.  Let’s start with a quick recap of […]\nThe post Ghost Calls: Abusing Web Conferencing for Covert Command & Control (Part 2 of 2) appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/ghost-calls-abusing-web-conferencing-for-covert-command-control-part-2-of-2/",
+          "publishedOn": "2025-08-06T12:49:53.000Z",
+          "wordCount": 9971,
+          "title": "Ghost Calls: Abusing Web Conferencing for Covert Command & Control (Part 2 of 2)",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/08/ghost-calls-hero-2.jpg"
+        },
+        {
+          "id": "https://www.praetorian.com/?p=5083",
+          "author": "Harry Hayward",
+          "description": "In the middle of a particularly tight red team engagement, we hit a familiar wall. Our long-term implant was rock solid—quiet, persistent, and thoroughly under the radar. But when it came time to pivot into something more interactive—proxy traffic, tunnel HVNC, relay NTLM—we started running into limits. The channel that worked so well for low-and-slow […]\nThe post Ghost Calls: Abusing Web Conferencing for Covert Command & Control (Part 1 of 2) appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/ghost-calls-abusing-web-conferencing-for-covert-command-control-part-1-of-2/",
+          "publishedOn": "2025-08-06T12:49:29.000Z",
+          "wordCount": 11048,
+          "title": "Ghost Calls: Abusing Web Conferencing for Covert Command & Control (Part 1 of 2)",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/08/ghost-calls-hero-2.jpg"
+        },
+        {
           "id": "https://www.praetorian.com/?p=4427",
           "author": "Harry Hayward",
           "description": "In penetration testing and red teaming, success often lies in uncovering hidden paths of least resistance. While sophisticated exploits and zero-days frequently capture headlines, highly effective attack opportunities often hide in plain sight – like within internal logging and monitoring platforms. At Praetorian, we’ve observed first-hand the value of targeting internal logging and monitoring platforms […]\nThe post Hunting for Secrets in Plain Sight: Leveraging Internal Logging and Monitoring Services appeared first on Praetorian.",
@@ -27328,16 +27374,6 @@
           "wordCount": null,
           "title": "METR study: Is AI-assisted coding overhyped?",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1598019",
-          "author": "Michael Pietroforte",
-          "description": "The number of GitHub Copilot concepts continues to grow, and their similar names can easily confuse. This post offers an overview of all the concepts, along with a link to find more information. The main confusion stems from the Copilot tools on GitHub.com and GitHub Copilot in VS Code. Although there is some overlap, keeping these two areas separate is essential.\nSource",
-          "link": "https://4sysops.com/archives/github-copilot-concepts-an-overview-of-all-services-and-tools/",
-          "publishedOn": "2025-07-11T13:25:05.000Z",
-          "wordCount": null,
-          "title": "GitHub Copilot concepts: An overview of all services and tools",
-          "imageUrl": null
         }
       ]
     },
@@ -27354,16 +27390,6 @@
           "publishedOn": "2025-07-12T22:42:00.000Z",
           "wordCount": 586,
           "title": "1 little known secret of advpack.dll, LaunchINFSection",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10073",
-          "author": "adam",
-          "description": "This post is a nothing burger. I didn’t make it work, but I still want to document it. When I came across a ‘GPExtensionDLL’ entry expected under HKLM\\SYSTEM\\CurrentControlSet\\Services\\MPSSVC\\Parameters I got excited, because it looked like a typical undocumented registry entry … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/07/11/beyond-good-ol-run-key-part-149/",
-          "publishedOn": "2025-07-11T23:10:40.000Z",
-          "wordCount": 674,
-          "title": "Beyond good ol’ Run key, Part 149",
           "imageUrl": null
         }
       ]
@@ -27493,6 +27519,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2025/openhands-remote-code-execution-zombai/",
+          "author": null,
+          "description": "Today we have another post about OpenHands from All Hands AI. It is a popular agent, initially named “OpenDevin”, and recently the company also provides a cloud-based service. Which is all pretty cool and exciting.\nPrompt Injection to Full System Compromise However, as you know, LLM powered apps and agents are vulnerable to prompt injection. That also applies to OpenHands and it can be hijacked by untrusted data, e.g. from a website.",
+          "link": "https://embracethered.com/blog/posts/2025/openhands-remote-code-execution-zombai/",
+          "publishedOn": "2025-08-10T11:20:58.000Z",
+          "wordCount": 1151,
+          "title": "OpenHands ZombAI Exploit: Prompt Injection To Remote Code Execution",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2025/openhands-the-lethal-trifecta-strikes-again/",
           "author": null,
@@ -27833,6 +27869,16 @@
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
       "articles": [
+        {
+          "id": "https://www.outflank.nl/?p=5657",
+          "author": "Kyle Avery",
+          "description": "This post complements the presentation I gave at Black Hat USA 2025.\nCan a small, self-hosted LLM outperform state-of-the-art models at evasive malware development?\nIn this technical deep dive, we explore how reinforcement learning with verifiable rewards (RLVR) enables training compact specialist models that rival large generalists in domain-specific tasks.\nIn the first half of this post, we’ll break down the LLM training process and recent opportunities created by RLVR. The second half details our training methodology for Dante-7B, a 7 billion parameter model that generates functional, evasive Cobalt Strike shellcode loaders capable of bypassing Microsoft Defender for Endpoint (MDE). We’ve released Dante-7B on Hugging Face, complete with a demo app so anyone can experiment with the model.\n\nIntroduction\nThe best models from OpenAI,\nTags: AI\nRead full post\nThe post Training Specialist Models: Automating Malware Development appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2025/08/07/training-specialist-models/",
+          "publishedOn": "2025-08-07T19:43:25.000Z",
+          "wordCount": 4688,
+          "title": "Training Specialist Models: Automating Malware Development",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2025/08/image-2.png"
+        },
         {
           "id": "https://www.outflank.nl/?p=5594",
           "author": "Kyle Avery",
