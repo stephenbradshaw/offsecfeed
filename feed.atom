@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-12T00:56:16.537Z</updated>
+    <updated>2025-08-13T00:57:15.441Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot: Remote Code Execution via Prompt Injection (CVE-2025-53773)]]></title>
+        <id>https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/</id>
+        <link href="https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/"/>
+        <updated>2025-08-12T21:20:58.000Z</updated>
+        <summary type="html"><![CDATA[This post is about an important, but also scary, prompt injection discovery that leads to full system compromise of the developer’s machine in GitHub Copilot and VS Code.
+It is achieved by placing Copilot into YOLO mode by modifying the project’s settings.json file.
+As described a few days ago with Amp, a vulnerability pattern in agents that might be overlooked is that if an agent can write to files and modify its own configuration or update security-relevant settings it can lead to remote code execution.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The August 2025 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:689b8068d2db2e3dfead7274</id>
+        <link href="https://www.thezdi.com/blog/2025/8/12/the-august-2025-security-update-review"/>
+        <updated>2025-08-12T18:01:32.000Z</updated>
+        <summary type="html"><![CDATA[We’ve made it through hacker summer camp and made our way to the second Tuesday of the month. Adobe and Microsoft seemed to have survived as well, as they released their latest security patches. Take a break from your scheduled activities and join us as we review the details of their latest security alerts. If you’d rather watch the full video recap covering the entire release, you can check out the Patch Report webcast on our YouTube channel. It should be posted within a couple of hours after the release.
+Adobe Patches for August 2025
+For August, Adobe released 13 bulletins addressing 68 unique CVEs in Commerce, Substance 3D Viewer, Animate, Illustrator, Photoshop, Substance 3D Modeler, Substance 3D Painter, Substance 3D Sampler, InDesign, InCopy, Substance 3D Stager, FrameMaker, and Dime…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who is logged in to PowerShell? Alternatives to whoami]]></title>
+        <id>https://4sysops.com/?p=1599237</id>
+        <link href="https://4sysops.com/archives/who-is-logged-in-to-powershell-alternatives-to-whoami/"/>
+        <updated>2025-08-12T12:53:33.000Z</updated>
+        <summary type="html"><![CDATA[If you are working with PowerShell, you will often face the question: "Under which user is my script running?" In other words, you want to know who is logged in. Many admins use the whoami command on the Command Prompt (cmd). However, PowerShell provides native alternatives to whoami that give you the username and domain.
+Source]]></summary>
+        <author>
+            <name>Markus Elsberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shedding Light on PoisonSeed’s Phishing Kit]]></title>
+        <id>https://blog.nviso.eu/?p=21232</id>
+        <link href="https://blog.nviso.eu/2025/08/12/shedding-light-on-poisonseeds-phishing-kit/"/>
+        <updated>2025-08-12T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Key Findings: Introduction As first reported by SilentPush, PoisonSeed is a threat actor whose TTPs closely align with Scattered Spider and CryptoChameleon, groups that are part of “The Com,” a young, English-speaking threat actor community. They engage in phishing attacks to obtain login information from CRM and bulk email service providers, allowing them to export … Continue reading Shedding Light on PoisonSeed’s Phishing Kit →]]></summary>
+        <author>
+            <name>Efstratios Lontzetidis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GPT-5: Another crash into the AI Wall]]></title>
         <id>https://4sysops.com/?p=1599189</id>
