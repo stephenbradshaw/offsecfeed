@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-15T00:57:39.997Z</updated>
+    <updated>2025-08-16T00:54:40.835Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Should Security Solutions Be Secure? Maybe We're All Wrong - Fortinet FortiSIEM Pre-Auth Command Injection (CVE-2025-25256)]]></title>
+        <id>689f5b2e35ca1100010c094c</id>
+        <link href="https://labs.watchtowr.com/should-security-solutions-be-secure-maybe-were-all-wrong-fortinet-fortisiem-pre-auth-command-injection-cve-2025-25256/"/>
+        <updated>2025-08-15T16:14:48.000Z</updated>
+        <summary type="html"><![CDATA[It’s Friday, but we’re here today with unscheduled content - pushing our previously scheduled shenanigans to next week.
+Fortinet is no stranger to the watchTowr Labs research team. Today we’re looking at CVE-2025-25256 - a pre-authentication command injection in FortiSIEM that lets an attacker]]></summary>
+        <author>
+            <name>Sina Kheirkhah (@SinSinology)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proxmox Backup Server 4.0]]></title>
+        <id>https://4sysops.com/?p=1599368</id>
+        <link href="https://4sysops.com/archives/proxmox-backup-server-40/"/>
+        <updated>2025-08-15T13:17:10.000Z</updated>
+        <summary type="html"><![CDATA[Proxmox Backup Server (PBS) 4.0 is here with a new Debian 13 base, updated kernel, native S3-compatible storage, and useful improvements for managing backups. This release gives you more choices for where to store data and simplifies tasks like using removable drives or syncing to off-site locations. In this post, I will walk you through crucial new features, show the commands you can run, and provide a short upgrade checklist.
+Source]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Discovery with LLM-Powered Patch Diffing]]></title>
+        <id>https://bishopfox.com/blog/vulnerability-discovery-with-llm-powered-patch-diffing</id>
+        <link href="https://bishopfox.com/blog/vulnerability-discovery-with-llm-powered-patch-diffing"/>
+        <updated>2025-08-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Read our most recent research to see how LLMs can assist in scaling patch diffing workflows, saving valuable time in a crucial race against attackers.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terraform Cloud token abuse turns speculative plan into remote code execution]]></title>
+        <id>https://www.pentestpartners.com/?p=42531</id>
+        <link href="https://www.pentestpartners.com/security-blog/terraform-token-abuse-speculative-plan/"/>
+        <updated>2025-08-15T10:57:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Introduction On a Red Team engagement we entered a busy multicloud estate. AWS, GCP and Azure were all used, with Terraform Cloud orchestrating every change. That brings speed and consistency, but it also concentrates risk. If an attacker finds the weak point, one credential can unlock a lot of power. Background Terraform is HashiCorp’s […]
+The post Terraform Cloud token abuse turns speculative plan into remote code execution appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Jules is Vulnerable To Invisible Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2025/google-jules-invisible-prompt-injection/</id>
+        <link href="https://embracethered.com/blog/posts/2025/google-jules-invisible-prompt-injection/"/>
+        <updated>2025-08-15T09:20:58.000Z</updated>
+        <summary type="html"><![CDATA[The latest Gemini models quite reliably interpret hidden Unicode Tag characters as instructions. This vulnerability, first reported to Google over a year ago, has not been mitigated at the model or API level, hence now affects all applications built on top of Gemini.
+This includes Google’s own products and services, like Google Jules.
+Hopefully, this post helps raise awareness of this emerging threat.
+Invisible Prompt Injections in GitHub Issues When Jules is asked to work on a task, such as a GitHub issue, it is possible to plant invisible instructions into a GitHub issue to add backdoor code, or have it run arbitrary commands and tools.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft AI Shell Preview 6: Significant improvements for the AI-enhanced PowerShell admin]]></title>
         <id>https://4sysops.com/?p=1599336</id>
@@ -24799,49 +24855,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[At Bishop Fox, thinking like an adversary comes naturally. So it’s no surprise that comics—where power, perspective, and outsider thinking collide—resonate deeply with our team. Ahead of Comic-Con 2025, we asked our Foxes: what comics still stick with you?]]></summary>
         <author>
             <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detection Engineering: Practicing Detection-as-Code – Repository – Part 2]]></title>
-        <id>https://blog.nviso.eu/?p=19871</id>
-        <link href="https://blog.nviso.eu/2025/07/17/detection-engineering-practicing-detection-as-code-repository-part-2/"/>
-        <updated>2025-07-17T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the second part of the Practicing Detection-as-Code series, where we will cover some basic elements of designing a repository to develop, store, and deploy detections from. We'll go through several different aspects of the setup like the Git platform, branch strategy, repository structure, detections structure, taxonomies, and content packs.]]></summary>
-        <author>
-            <name>Stamatis Chatzimangou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2025-4660: Forescout SecureConnector RCE]]></title>
-        <id>https://www.netspi.com/?p=27881</id>
-        <link href="https://www.netspi.com/blog/technical-blog/red-teaming/cve-2025-4660-forescout-secureconnector-rce/"/>
-        <updated>2025-07-16T21:54:03.000Z</updated>
-        <summary type="html"><![CDATA[Learn about the high-risk RCE vulnerability in Forescout SecureConnector allows attackers to turn security agents into C2 channels.
-The post CVE-2025-4660: Forescout SecureConnector RCE  appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Ceri Coburn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New in VS Code GitHub Copilot: Command allow/deny lists, resubmit requests, MCP server catalog]]></title>
-        <id>https://4sysops.com/?p=1598205</id>
-        <link href="https://4sysops.com/archives/new-in-vs-code-github-copilot-command-allowdeny-lists-resubmit-requests-mcp-server-catalog/"/>
-        <updated>2025-07-16T18:35:16.000Z</updated>
-        <summary type="html"><![CDATA[VS Code version 1.102 introduced several useful new features in GitHub Copilot. Command allow/deny lists let you specify which commands the Copilot agent can execute without asking for permission. The resubmit feature enables you to edit a previous request and resubmit the prompt. Additionally, the new VS Code version includes various updates for managing MCP servers, including a curated catalog of MCP servers.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Framework 13. Press here to pwn]]></title>
-        <id>https://www.pentestpartners.com/?p=42349</id>
-        <link href="https://www.pentestpartners.com/security-blog/framework-13-press-here-to-pwn/"/>
-        <updated>2025-07-16T17:26:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  Introduction  BIOS protection is the digital equivalent of a locked front door, but what if the doorbell doubled as a reset button?  The Framework 13 laptop has a chassis intrusion detection switch. It’s designed to notify the BIOS when the laptop body has been opened. However, the same switch can be manipulated to reset the […]
-The post Framework 13. Press here to pwn  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
         </author>
     </entry>
     <entry>
