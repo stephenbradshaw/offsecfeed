@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-17T01:01:29.648Z</updated>
+    <updated>2025-08-18T01:01:01.718Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Data Exfiltration via Image Rendering Fixed in Amp Code]]></title>
+        <id>https://embracethered.com/blog/posts/2025/amp-code-fixed-data-exfiltration-via-images/</id>
+        <link href="https://embracethered.com/blog/posts/2025/amp-code-fixed-data-exfiltration-via-images/"/>
+        <updated>2025-08-17T11:10:58.000Z</updated>
+        <summary type="html"><![CDATA[In this post we discuss a vulnerability that was present in Amp Code from Sourcegraph by which an attacker could exploit markdown driven image rendering to exfiltrate sensitive information.
+This vulnerability is common in AI applications and agents, and it’s actually similar to one we discussed last year in GitHub Copilot which Microsoft fixed.
+Exploit Demonstration For the proof-of-concept I use a pre-existing demo that created a longer time ago.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beyond good ol’ Run key, Part 150]]></title>
         <id>https://www.hexacorn.com/blog/?p=10106</id>
@@ -14,6 +26,18 @@
         <summary type="html"><![CDATA[I decided to add this post to this old series, but the scope of this post is – as you will find out soon – much wider. You will find servercoreshell.exe program to be present on both Windows Server 2022 … Continue reading →]]></summary>
         <author>
             <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amp Code: Invisible Prompt Injection Fixed by Sourcegraph]]></title>
+        <id>https://embracethered.com/blog/posts/2025/amp-code-fixed-invisible-prompt-injection/</id>
+        <link href="https://embracethered.com/blog/posts/2025/amp-code-fixed-invisible-prompt-injection/"/>
+        <updated>2025-08-16T19:20:58.000Z</updated>
+        <summary type="html"><![CDATA[In this post we will look at Amp, a coding agent from Sourcegraph. The other day we discussed how invisible instructions impact Google Jules.
+Turns out that many client applications are vulnerable to these kinds of attacks when they use models that support invisible instructions, like Claude.
+Invisible Unicode Tag Characters Interpreted as Instructions We have talked about hidden prompt injections quite a bit in the past, and so I’m keeping this short.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
@@ -24785,35 +24809,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Vendetect is our new open-source tool for detecting copied and vendored code between repositories. It uses semantic fingerprinting to identify similar code even when variable names change or comments disappear. More importantly, unlike academic plagiarism detectors, it understands version control history, helping you trace vendored code back to its exact source commit.]]></summary>
         <author>
             <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung Galaxy S24 Pwn2Own Ireland 2024]]></title>
-        <id>9bec7d86-1b81-435f-92c0-1346bc45a86f</id>
-        <link href="https://www.nccgroup.com/us/research-blog/samsung-galaxy-s24-pwn2own-ireland-2024/"/>
-        <updated>2025-07-19T00:57:13.380Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Masquerade: You Downloaded ScreenConnect not Grok AI!]]></title>
-        <id>1e69fac9-e002-4c73-a146-cbbd6dcacfc9</id>
-        <link href="https://www.nccgroup.com/us/research-blog/masquerade-you-downloaded-screenconnect-not-grok-ai/"/>
-        <updated>2025-07-19T00:57:06.372Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install Microsoft AI Shell on Mac]]></title>
-        <id>https://4sysops.com/?p=1598039</id>
-        <link href="https://4sysops.com/archives/install-microsoft-ai-shell-on-mac/"/>
-        <updated>2025-07-18T15:21:23.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released AI Shell v1.0.0‑preview.5, which provides a Windows-only security patch, while Preview 4 delivered substantial improvements—enhanced macOS side‑pane support in iTerm2, Entra ID authentication, expanded Invoke‑AIShell functionality (with new -PostCode, -CopyCode, and -Exit flags)—all based on community feedback to improve workflows across Azure OpenAI, macOS, and PowerShell. This article also explains how to install Microsoft AI Shell on macOS.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>
