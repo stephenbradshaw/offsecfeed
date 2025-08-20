@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-19T00:55:41.416Z</updated>
+    <updated>2025-08-20T00:53:21.316Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[DLL ForwardSideloading]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10115</id>
+        <link href="https://www.hexacorn.com/blog/2025/08/19/dll-forwardsideloading/"/>
+        <updated>2025-08-19T22:31:42.000Z</updated>
+        <summary type="html"><![CDATA[Some DLLs export functions (via export table) that are just forwarding execution to functions implemented in other libraries. It’s a very common practice and one of the most known forwards are: kernel32.dll HeapAlloc -> NTDLL.RtlAllocateHeapkernel32.dll HeapReAlloc -> NTDLL.RtlReAllocateHeapkernel32.dll HeapSize -> … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Q Developer: Remote Code Execution with Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2025/amazon-q-developer-remote-code-execution/</id>
+        <link href="https://embracethered.com/blog/posts/2025/amazon-q-developer-remote-code-execution/"/>
+        <updated>2025-08-19T21:20:58.000Z</updated>
+        <summary type="html"><![CDATA[The Amazon Q Developer VS Code Extension (Amazon Q) is a popular coding agent, with over 1 million downloads.
+The extension is vulnerable to indirect prompt injection, and in this post we discuss a vulnerability that allowed an adversary (or also the AI for that matter) to run arbitrary commands on the host without the developer’s consent.
+The resulting impact of the vulnerability is the same as CVE-2025-53773 that Microsoft fixed in GitHub Copilot, however AWS did not issue a CVE when patching the vulnerabiliy.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install Ollama with OpenAI gpt-oss-20b on Ubuntu within an EC2 instance]]></title>
+        <id>https://4sysops.com/?p=1599486</id>
+        <link href="https://4sysops.com/archives/install-ollama-with-openai-gpt-oss-20b-on-ubuntu-within-an-ec2-instance/"/>
+        <updated>2025-08-19T16:33:03.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post, I explained why you might want to run OpenAI gpt-oss-20b or gpt-oss-120b on your own virtual machine and how to select an appropriate EC2 instance type. Today, I will show you how to install Ollama via script or snap on Ubuntu within an EC2 instance. Most steps can be adapted for other cloud providers, on-premises setups, or Linux distributions with minor modifications. I will also briefly discuss the benefits of running open-weight models on an EC2 instance with Ollama compared to Bedrock, SageMaker, vLLM, or Hugging Face Transformers.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beware the false false-positive: how to distinguish HTTP pipelining from request smuggling]]></title>
+        <id>how-to-distinguish-http-pipelining-from-request-smuggling</id>
+        <link href="https://portswigger.net/research/how-to-distinguish-http-pipelining-from-request-smuggling"/>
+        <updated>2025-08-19T14:30:44.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes people think they've found HTTP request smuggling, when they're actually just observing HTTP keep-alive or pipelining. This is usually a false positive, but sometimes there's actually a real]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Art of the Honeypot Account: Making the Unusual Look Normal]]></title>
+        <id>https://adsecurity.org/?p=4510</id>
+        <link href="https://adsecurity.org/?p=4510"/>
+        <updated>2025-08-19T01:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This article was originally posted on the Trimarc Content Hub on August 6, 2020.Updated here with authentication PowerShell code on August 18, 2025. ADSecurity.org is the new home for this article and all updates will occur here. I have had the idea for a post describing how to best create a honeypot (or honeytoken) account … 
+Continue reading]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Password Spraying with Security Event Auditing]]></title>
+        <id>https://adsecurity.org/?p=4517</id>
+        <link href="https://adsecurity.org/?p=4517"/>
+        <updated>2025-08-19T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This article was originally posted on the Trimarc Content Hub on February 10, 2017. A common method attackers leverage as well as many penetration testers and Red Teamers is called “password spraying”. Password spraying is interesting because it’s automated password guessing. This automated password guessing against all users typically avoids account lockout since the logon … 
+Continue reading]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Look at RTEMS Security]]></title>
         <id>413e3ca1-eead-47c1-9b7b-b6fc54638306</id>
@@ -13,6 +78,42 @@
         <updated>2025-08-19T00:54:50.279Z</updated>
         <author>
             <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trivial C# Random Exploitation]]></title>
+        <id>https://blog.doyensec.com/2025/08/19/trivial-exploit-on-C-random.html</id>
+        <link href="https://blog.doyensec.com/2025/08/19/trivial-exploit-on-C-random.html"/>
+        <updated>2025-08-18T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Exploiting random number generators requires math, right? Thanks to C#’s
+Random, that is not necessarily the case! I ran into an HTTP 2.0 web service
+issuing password reset tokens from a custom encoding of (new Random()).Next(min, max) output. 
+This led to a critical account takeover.
+Exploitation did not require scripting, math or libraries. Just several clicks
+in Burp. While I had source code, I will show a method of discovering and
+exploiting this vulnerability in a black-box or bug-bounty style engagement.
+The exploit uses no math, but I do like math. So, there is a bonus section on how to
+optimize and invert Random.
+The Vulnerability
+I can’t share the client code, but it was something like this:
+
+var num = new Random().Next(min, max);
+var token = make_password_reset_token(num);
+save_r…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Q Developer: Secrets Leaked via DNS and Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2025/amazon-q-developer-data-exfil-via-dns/</id>
+        <link href="https://embracethered.com/blog/posts/2025/amazon-q-developer-data-exfil-via-dns/"/>
+        <updated>2025-08-18T19:20:58.000Z</updated>
+        <summary type="html"><![CDATA[The next three posts will cover high severity vulnerabilities in the Amazon Q Developer VS Code Extension (Amazon Q Developer), which is a very popular coding agent, with over 1 million downloads.
+It is vulnerable to prompt injection from untrusted data and its security depends heavily on model behavior.
+At a high level Amazon Q Developer can leak sensitive information from a developer’s machine, e.g. API keys, to external servers via DNS requests.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
@@ -24819,16 +24920,6 @@ The post Leaked data. Continuous glucose monitoring appeared first on Pen Test P
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting code copying at scale with Vendetect]]></title>
-        <id>https://blog.trailofbits.com/2025/07/21/detecting-code-copying-at-scale-with-vendetect/</id>
-        <link href="https://blog.trailofbits.com/2025/07/21/detecting-code-copying-at-scale-with-vendetect/"/>
-        <updated>2025-07-21T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Vendetect is our new open-source tool for detecting copied and vendored code between repositories. It uses semantic fingerprinting to identify similar code even when variable names change or comments disappear. More importantly, unlike academic plagiarism detectors, it understands version control history, helping you trace vendored code back to its exact source commit.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
         </author>
     </entry>
     <entry>
