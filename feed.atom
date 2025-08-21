@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-20T00:53:21.316Z</updated>
+    <updated>2025-08-21T00:52:14.929Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Proxmox VE 9.0]]></title>
+        <id>https://4sysops.com/?p=1599530</id>
+        <link href="https://4sysops.com/archives/proxmox-ve-90/"/>
+        <updated>2025-08-20T17:06:41.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post, I covered the new features in Proxmox Backup Server 4.0. Released simultaneously, Proxmox Virtual Environment (VE) 9.0 also merits attention. It runs on Debian 13 Trixie with Kernel 6.14 and includes updated QEMU, LXC, ZFS, and Ceph versions. More significantly, it introduces modifications affecting storage management, networking, and high availability within your virtual setup. This article examines these updates more closely, providing commands and examples you can test on your own system.
+Source]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2025/amazon-q-developer-interprets-hidden-instructions/</id>
+        <link href="https://embracethered.com/blog/posts/2025/amazon-q-developer-interprets-hidden-instructions/"/>
+        <updated>2025-08-20T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Amazon Q Developer VS Code Extension (Amazon Q) is a very popular coding agent, with over 1 million downloads.
+In previous posts we showed how prompt injection vulnerabilities in Amazon Q could lead to:
+Exfiltration of sensitive information from the user’s machine , and also to a System compromise by running arbitrary code Today we will show how an attack can leverage invisible Unicode Tag characters that humans cannot see.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guess Who Would Be Stupid Enough To Rob The Same Vault Twice? Pre-Auth RCE Chains in Commvault]]></title>
+        <id>68a59bffbd2093000187b2fb</id>
+        <link href="https://labs.watchtowr.com/guess-who-would-be-stupid-enough-to-rob-the-same-vault-twice-pre-auth-rce-chains-in-commvault/"/>
+        <updated>2025-08-20T10:31:07.000Z</updated>
+        <summary type="html"><![CDATA[We’re back, and we’ve finished telling everyone that our name was on the back of Phrack!!!!1111
+Whatever, nerds.
+Today, we're back to scheduled content. Like our friendly neighbourhood ransomware gangs and APT groups, we've continued to spend irrational amounts of time]]></summary>
+        <author>
+            <name>Piotr Bazydlo (@chudyPB)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DLL ForwardSideloading]]></title>
         <id>https://www.hexacorn.com/blog/?p=10115</id>
@@ -47,6 +82,16 @@ Source]]></summary>
         <summary type="html"><![CDATA[Sometimes people think they've found HTTP request smuggling, when they're actually just observing HTTP keep-alive or pipelining. This is usually a false positive, but sometimes there's actually a real]]></summary>
         <author>
             <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marshal madness: A brief history of Ruby deserialization exploits]]></title>
+        <id>https://blog.trailofbits.com/2025/08/20/marshal-madness-a-brief-history-of-ruby-deserialization-exploits/</id>
+        <link href="https://blog.trailofbits.com/2025/08/20/marshal-madness-a-brief-history-of-ruby-deserialization-exploits/"/>
+        <updated>2025-08-19T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post traces the decade-long evolution of Ruby Marshal deserialization exploits, demonstrating how security researchers have repeatedly bypassed patches and why fundamental changes to the Ruby ecosystem are needed rather than continued patch-and-hope approaches.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
         </author>
     </entry>
     <entry>
@@ -24898,28 +24943,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leaked data. Continuous glucose monitoring]]></title>
-        <id>https://www.pentestpartners.com/?p=42357</id>
-        <link href="https://www.pentestpartners.com/security-blog/leaked-data-continuous-glucose-monitoring/"/>
-        <updated>2025-07-22T05:39:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Closing the Loop Just before COVID struck the world, I was travelling through Colorado on a Sunday on a ski trip with some friends. My work phone pinged with a message from a colleague (the awesome @evstykas who has now moved on to do even more cool things with APIs). That’s not particularly common as […]
-The post Leaked data. Continuous glucose monitoring appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Joe Bursell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic Claude desktop extensions, connectors vs. local, remote MCP servers]]></title>
-        <id>https://4sysops.com/?p=1598333</id>
-        <link href="https://4sysops.com/archives/anthropic-claude-connectors-desktop-extensions-vs-local-remote-mcp-servers/"/>
-        <updated>2025-07-21T13:11:49.000Z</updated>
-        <summary type="html"><![CDATA[Anthropic has introduced two new concepts for connecting AI models to resources through MCP: desktop extensions and connectors. Extensions are available only on Claude Desktop (Windows and Mac), while connectors are supported on both the desktop and the Claude.ai web app. All desktop extensions are local MCP servers, but not all local MCP servers qualify as extensions. Conversely, all remote MCP servers are considered connectors; however, not all connectors are remote MCP servers. Although some theoretical documentation about these new concepts exists, I mainly categorized them based on how Claude Desktop organizes the different types of MCP servers.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
