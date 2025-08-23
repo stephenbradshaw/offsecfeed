@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-22T00:53:30.831Z</updated>
+    <updated>2025-08-23T00:51:21.464Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windsurf: Memory-Persistent Data Exfiltration (SpAIware Exploit)]]></title>
+        <id>https://embracethered.com/blog/posts/2025/windsurf-spaiware-exploit-persistent-prompt-injection/</id>
+        <link href="https://embracethered.com/blog/posts/2025/windsurf-spaiware-exploit-persistent-prompt-injection/"/>
+        <updated>2025-08-22T22:21:58.000Z</updated>
+        <summary type="html"><![CDATA[In this second post about Windsurf Cascade we are exploring the SpAIware attack, which allows memory persistent data exfiltration. SpAIware is an attack we first successfully demonstrated with ChatGPT last year and OpenAI mitigated.
+While inspecting the system prompt of Windsurf Cascade I noticed that it has a create_memory tool.
+Creating Memories The question that immediately popped into my head was if this tool will require human approval when Cascade creates a long-term memory, or if it is added automatically.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Access remote Ollama AI models through an SSH tunnel]]></title>
+        <id>https://4sysops.com/?p=1599644</id>
+        <link href="https://4sysops.com/archives/access-remote-ollama-ai-models-through-an-ssh-tunnel/"/>
+        <updated>2025-08-22T13:29:05.000Z</updated>
+        <summary type="html"><![CDATA[In my previous Ollama series post, I explained how to access self-hosted AI models in Ollama via HTTP. While this method provides convenient connectivity from different apps, it's only secure for on-premises Ollama hosts. For remote internet access, you can set up an SSH tunnel. Alternatively, you can securely connect from GitHub Copilot to your self-hosted AI models by using Microsoft's VS Code extension Remote - SSH.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Remote HTTP access to self-hosted Ollama AI models]]></title>
         <id>https://4sysops.com/?p=1599577</id>
@@ -24946,37 +24969,6 @@ The post Android Services 101  appeared first on Pen Test Partners.]]></summary
 Source]]></summary>
         <author>
             <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fake CAPTCHA led to LUMMA100725]]></title>
-        <id>80d98709-87b1-498f-81dd-19ef2245dc37</id>
-        <link href="https://www.nccgroup.com/us/research-blog/fake-captcha-led-to-lumma100725/"/>
-        <updated>2025-07-24T00:59:17.577Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating Azure App Services Token Decryption]]></title>
-        <id>https://www.netspi.com/?p=27955</id>
-        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/automating-azure-app-services-token-decryption/"/>
-        <updated>2025-07-23T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Discover how to decrypt Azure App Services authentication tokens automatically using MicroBurst’s tooling to extract encrypted tokens for security testing.
-The post Automating Azure App Services Token Decryption appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Karl Fosaaen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-powered email search with Claude Gmail Search, Zapier MCP server, GongRzhe’s MCP Server, and Gemini in Gmail]]></title>
-        <id>https://4sysops.com/?p=1598441</id>
-        <link href="https://4sysops.com/archives/ai-powered-email-search-with-claude-gmail-search-zapier-mcp-server-gongrzhe-s-mcp-server-and-gemini-in-gmail/"/>
-        <updated>2025-07-23T17:44:37.000Z</updated>
-        <summary type="html"><![CDATA[I tested three MCP servers in Anthropic Claude  Sonnet 4: Claude Gmail Search, Zapier Gmail MCP server, and GongRzhe’s Gmail MCP Server. I also submitted the same search prompt to Gemini in Gmail. The results varied greatly. Only two AI tools passed my test, one failed, and the most promising MCP server turned out to be useless.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
