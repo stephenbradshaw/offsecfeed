@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-23T00:51:21.464Z</updated>
+    <updated>2025-08-24T00:59:30.251Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sneaking Invisible Instructions by Developers in Windsurf]]></title>
+        <id>https://embracethered.com/blog/posts/2025/windsurf-sneaking-invisible-instructions-for-prompt-injection/</id>
+        <link href="https://embracethered.com/blog/posts/2025/windsurf-sneaking-invisible-instructions-for-prompt-injection/"/>
+        <updated>2025-08-23T23:20:58.000Z</updated>
+        <summary type="html"><![CDATA[Imagine a malicious instruction hidden in plain sight, invisible to you but not to the AI. This is a vulnerability discovered in Windsurf Cascade, it follows invisible instructions. This means there can be instructions in a file or result of a tool call that the developer cannot see, but the LLM does.
+Some LLMs interpret invisible Unicode Tag characters as instructions, which can lead to hidden prompt injection.
+As far as I can tell the Windsurf SWE-1 model can also “see” these invisible characters, but the SWE-1 is not yet capable of interpreting them as instructions.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windsurf: Memory-Persistent Data Exfiltration (SpAIware Exploit)]]></title>
         <id>https://embracethered.com/blog/posts/2025/windsurf-spaiware-exploit-persistent-prompt-injection/</id>
@@ -24910,65 +24922,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[From a Cybersecurity Architect Who’s Seen the Struggles Firsthand Over the years, we’ve migrated more than a few SIEM environments to Microsoft Sentinel. And no matter how different the organizations were, the same headaches kept showing up: Let’s be real, Microsoft Sentinel has always been powerful, but calling it “cost-effective” felt like a bit of … Continue reading Why Microsoft’s New Sentinel Data Lake Actually Matters →]]></summary>
         <author>
             <name>Maxim Deweerdt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting zero days in abandoned hardware]]></title>
-        <id>https://blog.trailofbits.com/2025/07/25/exploiting-zero-days-in-abandoned-hardware/</id>
-        <link href="https://blog.trailofbits.com/2025/07/25/exploiting-zero-days-in-abandoned-hardware/"/>
-        <updated>2025-07-25T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We successfully exploited two discontinued network devices at DistrictCon’s inaugural Junkyard competition in February, winning runner-up for Most Innovative Exploitation Technique. Our exploit chains demonstrate why end-of-life hardware poses persistent security risks.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android Services 101]]></title>
-        <id>https://www.pentestpartners.com/?p=42381</id>
-        <link href="https://www.pentestpartners.com/security-blog/android-services-101/"/>
-        <updated>2025-07-25T10:16:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  What are Android services?  Android splits its communications into multiple components, some of which we’ve written about before.  One of these components is service, which is a generic component that runs in a background thread. It can be communicated with by the local program through common IPC mechanisms.  Foreground, background, and bound services explained   […]
-The post Android Services 101  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chainspotting 2: The Unofficial Sequel to the 2018 Talk "Chainspotting" - OffensiveCon 2025]]></title>
-        <id>adcd7526-66c4-4a8f-ad0b-fcb77f027b3c</id>
-        <link href="https://www.nccgroup.com/us/research-blog/chainspotting-2-the-unofficial-sequel-to-the-2018-talk-chainspotting-offensivecon-2025/"/>
-        <updated>2025-07-25T00:59:02.358Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OCP S.A.F.E. How-to]]></title>
-        <id>41b47b36-95e7-4de6-9975-c0bf4fe03492</id>
-        <link href="https://www.nccgroup.com/us/research-blog/ocp-safe-how-to/"/>
-        <updated>2025-07-25T00:59:02.351Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Autonomous AI Agents: A hidden Risk in Insecure smolagents “CodeAgent” Usage]]></title>
-        <id>b7e60509-f3ad-4bf3-99da-68132768f8cf</id>
-        <link href="https://www.nccgroup.com/us/research-blog/autonomous-ai-agents-a-hidden-risk-in-insecure-smolagents-codeagent-usage/"/>
-        <updated>2025-07-25T00:58:53.708Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install NFS server on Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1598537</id>
-        <link href="https://4sysops.com/archives/install-nfs-server-on-windows-server-2025/"/>
-        <updated>2025-07-24T20:55:08.000Z</updated>
-        <summary type="html"><![CDATA[NFS is a practical solution for copying data between Windows and Linux systems. It is particularly useful for managing heterogeneous networks. This post will guide you through installing an NFS server on Windows Server 2025, creating an NFS share, and mounting it from Linux or Mac.
-Source]]></summary>
-        <author>
-            <name>Markus Elsberger</name>
         </author>
     </entry>
     <entry>

@@ -59,6 +59,55 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-08-23 datetime="2025-08-23T23:20:58.000Z">2025-08-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-08-23 datetime="2025-08-23T23:20:58.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Embrace The Red</button>
+                  <a class="source-heading__link" href="https://embracethered.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://embracethered.com/blog/posts/2025/windsurf-sneaking-invisible-instructions-for-prompt-injection/"
+                        open
+                      >
+                        <summary class="article-expander__title">Sneaking Invisible Instructions by Developers in Windsurf</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://embracethered.com/blog/posts/2025/windsurf-sneaking-invisible-instructions-for-prompt-injection/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Imagine a malicious instruction hidden in plain sight, invisible to you but not to the AI. This is a vulnerability discovered in Windsurf Cascade, it follows invisible instructions. This means there can be instructions in a file or result of a tool call that the developer cannot see, but the LLM does.
+Some LLMs interpret invisible Unicode Tag characters as instructions, which can lead to hidden prompt injection.
+As far as I can tell the Windsurf SWE-1 model can also “see” these invisible characters, but the SWE-1 is not yet capable of interpreting them as instructions.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-08-22 datetime="2025-08-22T22:21:58.000Z">2025-08-22</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-08-22 datetime="2025-08-22T22:21:58.000Z"></time>
           </button>
@@ -50634,192 +50683,6 @@ Source</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Trail of Bits Blog</button>
-                  <a class="source-heading__link" href="https://blog.trailofbits.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.trailofbits.com/2025/07/25/exploiting-zero-days-in-abandoned-hardware/"
-                        open
-                      >
-                        <summary class="article-expander__title">Exploiting zero days in abandoned hardware</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2025/07/25/exploiting-zero-days-in-abandoned-hardware/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.trailofbits.com/img/districtcon_figure_1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We successfully exploited two discontinued network devices at DistrictCon’s inaugural Junkyard competition in February, winning runner-up for Most Innovative Exploitation Technique. Our exploit chains demonstrate why end-of-life hardware poses persistent security risks.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Pen Test Partners</button>
-                  <a class="source-heading__link" href="https://www.pentestpartners.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.pentestpartners.com/?p&#x3D;42381"
-                        open
-                      >
-                        <summary class="article-expander__title">Android Services 101</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.pentestpartners.com/security-blog/android-services-101/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.pentestpartners.com/wp-content/uploads/2025/07/image-18.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>TL;DR  What are Android services?  Android splits its communications into multiple components, some of which we’ve written about before.  One of these components is service, which is a generic component that runs in a background thread. It can be communicated with by the local program through common IPC mechanisms.  Foreground, background, and bound services explained   […]
-The post Android Services 101  appeared first on Pen Test Partners.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Cyber Security Research</button>
-                  <a class="source-heading__link" href="https://www.nccgroup.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="adcd7526-66c4-4a8f-ad0b-fcb77f027b3c"
-                        open
-                      >
-                        <summary class="article-expander__title">Chainspotting 2: The Unofficial Sequel to the 2018 Talk &quot;Chainspotting&quot; - OffensiveCon 2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.nccgroup.com/us/research-blog/chainspotting-2-the-unofficial-sequel-to-the-2018-talk-chainspotting-offensivecon-2025/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="41b47b36-95e7-4de6-9975-c0bf4fe03492"
-                        open
-                      >
-                        <summary class="article-expander__title">OCP S.A.F.E. How-to</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.nccgroup.com/us/research-blog/ocp-safe-how-to/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="b7e60509-f3ad-4bf3-99da-68132768f8cf"
-                        open
-                      >
-                        <summary class="article-expander__title">Autonomous AI Agents: A hidden Risk in Insecure smolagents “CodeAgent” Usage</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.nccgroup.com/us/research-blog/autonomous-ai-agents-a-hidden-risk-in-insecure-smolagents-codeagent-usage/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-07-24 datetime="2025-07-24T20:55:08.000Z">2025-07-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-07-24 datetime="2025-07-24T20:55:08.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1598537"
-                        open
-                      >
-                        <summary class="article-expander__title">Install NFS server on Windows Server 2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/install-nfs-server-on-windows-server-2025/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFS is a practical solution for copying data between Windows and Linux systems. It is particularly useful for managing heterogeneous networks. This post will guide you through installing an NFS server on Windows Server 2025, creating an NFS share, and mounting it from Linux or Mac.
-Source</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -51420,8 +51283,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/17169074747">
-        <time id="build-timestamp" datetime="2025-08-23T00:51:21.381Z">2025-08-23T00:51:21.381Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/17182171080">
+        <time id="build-timestamp" datetime="2025-08-24T00:59:30.177Z">2025-08-24T00:59:30.177Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
