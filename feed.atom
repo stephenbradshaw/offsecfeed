@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-26T00:54:08.910Z</updated>
+    <updated>2025-08-27T00:52:45.392Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Perplexity Comet: A rising AI browser star]]></title>
+        <id>https://4sysops.com/?p=1599769</id>
+        <link href="https://4sysops.com/archives/perplexity-comet-a-rising-ai-browser-star/"/>
+        <updated>2025-08-26T19:41:26.000Z</updated>
+        <summary type="html"><![CDATA[In my last post, I discussed Perplexity's aim to transform the familiar blinking web we've known for decades. It brings to mind the early days of Google, when many questioned the need for another search engine since AltaVista already did a good job. Although Comet appears to be just another Chromium-based web browser, the AI powering the browser under the hood has the same disruptive potential as Google's PageRank algorithm once did.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Kiro: Arbitrary Code Execution via Indirect Prompt Injection]]></title>
+        <id>https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/</id>
+        <link href="https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/"/>
+        <updated>2025-08-26T14:00:58.000Z</updated>
+        <summary type="html"><![CDATA[On the day AWS Kiro was released, I couldn’t resist putting it through some of my Month of AI Bugs security tests for coding agents.
+AWS Kiro was vulnerable to arbitrary command execution via indirect prompt injection. This means that a remote attacker, who controls data that Kiro processes, could hijack it to run arbitrary operating system commands or write and run custom code.
+In particular two attack paths that enabled this with AWS Kiro were identified:]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inline Style Exfiltration: leaking data with chained CSS conditionals]]></title>
+        <id>inline-style-exfiltration</id>
+        <link href="https://portswigger.net/research/inline-style-exfiltration"/>
+        <updated>2025-08-26T12:54:03.000Z</updated>
+        <summary type="html"><![CDATA[I discovered how to use CSS to steal attribute data without selectors and stylesheet imports! This means you can now exploit CSS injection via style attributes! Learn how below: Someone asked if you c]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detection Engineering: Practicing Detection-as-Code – Documentation – Part 4]]></title>
+        <id>https://blog.nviso.eu/?p=20884</id>
+        <link href="https://blog.nviso.eu/2025/08/26/detection-engineering-practicing-detection-as-code-documentation-part-4/"/>
+        <updated>2025-08-26T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sufficiently documenting our detections is essential in detection engineering as it provides context around the the purpose, detection logic, and expected behaviour of each detection rule. Just as important as documenting individual detections is tracking how the overall detection library evolves. In this part we are looking into how we can tackle both of those issues.]]></summary>
+        <author>
+            <name>Stamatis Chatzimangou</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI browser Comet with efficient ad blocking, Perplexity’s deception and hypocrisy]]></title>
         <id>https://4sysops.com/?p=1599710</id>
@@ -24904,36 +24947,6 @@ Goal Of The Initiative The main purpose of the Month of AI Bugs is to raise awar
 Source]]></summary>
         <author>
             <name>Markus Elsberger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We built the security layer MCP always needed]]></title>
-        <id>https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/</id>
-        <link href="https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/"/>
-        <updated>2025-07-28T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re announcing the beta release of mcp-context-protector, a security wrapper for LLM apps using the Model Context Protocol (MCP). It defends against the line jumping attacks documented earlier in this blog series, such as prompt injection via tool descriptions and ANSI terminal escape codes.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our capabilities. A story about what we can achieve]]></title>
-        <id>https://www.pentestpartners.com/?p=42417</id>
-        <link href="https://www.pentestpartners.com/security-blog/our-capabilities-a-story-about-what-we-can-achieve/"/>
-        <updated>2025-07-28T09:39:44.000Z</updated>
-        <summary type="html"><![CDATA[Two Pwnie Awards The first firm to have ever won two Pwnie Awards (https://en.wikipedia.org/wiki/Pwnie_Awards) at Black Hat. We won them for the Bitfi disclosure, winning ‘worst vendor response’ to the vulnerabilities that we, and a broader group of researchers that we helped coordinate, discovered in the crypto wallet promoted by John McAfee Nation-state grade red […]
-The post Our capabilities. A story about what we can achieve appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Joe Bursell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quantum Data Centre of the Future]]></title>
-        <id>df5fdee3-a813-463d-a897-d86f45b46cd9</id>
-        <link href="https://www.nccgroup.com/us/research-blog/quantum-data-centre-of-the-future/"/>
-        <updated>2025-07-28T01:03:28.877Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
         </author>
     </entry>
     <entry>

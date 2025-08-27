@@ -85,6 +85,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "inline-style-exfiltration",
+          "author": null,
+          "description": "I discovered how to use CSS to steal attribute data without selectors and stylesheet imports! This means you can now exploit CSS injection via style attributes! Learn how below: Someone asked if you c",
+          "link": "https://portswigger.net/research/inline-style-exfiltration",
+          "publishedOn": "2025-08-26T12:54:03.000Z",
+          "wordCount": 972,
+          "title": "Inline Style Exfiltration: leaking data with chained CSS conditionals",
+          "imageUrl": "https://portswigger.net/cms/images/9b/73/22f5-twittercard-twitter.png"
+        },
+        {
           "id": "how-to-distinguish-http-pipelining-from-request-smuggling",
           "author": null,
           "description": "Sometimes people think they've found HTTP request smuggling, when they're actually just observing HTTP keep-alive or pipelining. This is usually a false positive, but sometimes there's actually a real",
@@ -26740,16 +26750,6 @@
           "wordCount": 2610,
           "title": "Fake CAPTCHA led to LUMMA",
           "imageUrl": null
-        },
-        {
-          "id": "df5fdee3-a813-463d-a897-d86f45b46cd9",
-          "author": null,
-          "description": "",
-          "link": "https://www.nccgroup.com/us/research-blog/quantum-data-centre-of-the-future/",
-          "publishedOn": "2025-07-28T01:03:28.877Z",
-          "wordCount": 2898,
-          "title": "Quantum Data Centre of the Future",
-          "imageUrl": null
         }
       ]
     },
@@ -26968,16 +26968,6 @@
           "wordCount": 2818,
           "title": "Hijacking multi-agent systems in your PajaMAS",
           "imageUrl": "https://blog.trailofbits.com/img/Trail-of-Bits-Open-Graph.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/",
-          "author": null,
-          "description": "Today we’re announcing the beta release of mcp-context-protector, a security wrapper for LLM apps using the Model Context Protocol (MCP). It defends against the line jumping attacks documented earlier in this blog series, such as prompt injection via tool descriptions and ANSI terminal escape codes.",
-          "link": "https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/",
-          "publishedOn": "2025-07-28T11:00:00.000Z",
-          "wordCount": 2176,
-          "title": "We built the security layer MCP always needed",
-          "imageUrl": "https://blog.trailofbits.com/img/mcp4_figure_1.png"
         }
       ]
     },
@@ -27080,6 +27070,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1599769",
+          "author": "Michael Pietroforte",
+          "description": "In my last post, I discussed Perplexity's aim to transform the familiar blinking web we've known for decades. It brings to mind the early days of Google, when many questioned the need for another search engine since AltaVista already did a good job. Although Comet appears to be just another Chromium-based web browser, the AI powering the browser under the hood has the same disruptive potential as Google's PageRank algorithm once did.\nSource",
+          "link": "https://4sysops.com/archives/perplexity-comet-a-rising-ai-browser-star/",
+          "publishedOn": "2025-08-26T19:41:26.000Z",
+          "wordCount": null,
+          "title": "Perplexity Comet: A rising AI browser star",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1599710",
           "author": "Michael Pietroforte",
@@ -27394,16 +27394,6 @@
           "wordCount": 1985,
           "title": "Rethinking cyber insurance questions to find real risk",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/07/Cyber-insurance-headline-png.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=42417",
-          "author": "Joe Bursell",
-          "description": "Two Pwnie Awards The first firm to have ever won two Pwnie Awards (https://en.wikipedia.org/wiki/Pwnie_Awards) at Black Hat. We won them for the Bitfi disclosure, winning ‘worst vendor response’ to the vulnerabilities that we, and a broader group of researchers that we helped coordinate, discovered in the crypto wallet promoted by John McAfee Nation-state grade red […]\nThe post Our capabilities. A story about what we can achieve appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/our-capabilities-a-story-about-what-we-can-achieve/",
-          "publishedOn": "2025-07-28T09:39:44.000Z",
-          "wordCount": 3112,
-          "title": "Our capabilities. A story about what we can achieve",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/07/Our-capabilities-2-headline.png"
         }
       ]
     },
@@ -27429,6 +27419,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/",
+          "author": null,
+          "description": "On the day AWS Kiro was released, I couldn’t resist putting it through some of my Month of AI Bugs security tests for coding agents.\nAWS Kiro was vulnerable to arbitrary command execution via indirect prompt injection. This means that a remote attacker, who controls data that Kiro processes, could hijack it to run arbitrary operating system commands or write and run custom code.\nIn particular two attack paths that enabled this with AWS Kiro were identified:",
+          "link": "https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/",
+          "publishedOn": "2025-08-26T14:00:58.000Z",
+          "wordCount": 1150,
+          "title": "AWS Kiro: Arbitrary Code Execution via Indirect Prompt Injection",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2025/manus-ai-kill-chain-expose-port-vs-code-server-on-internet/",
           "author": null,
@@ -27802,6 +27802,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=20884",
+          "author": "Stamatis Chatzimangou",
+          "description": "Sufficiently documenting our detections is essential in detection engineering as it provides context around the the purpose, detection logic, and expected behaviour of each detection rule. Just as important as documenting individual detections is tracking how the overall detection library evolves. In this part we are looking into how we can tackle both of those issues.",
+          "link": "https://blog.nviso.eu/2025/08/26/detection-engineering-practicing-detection-as-code-documentation-part-4/",
+          "publishedOn": "2025-08-26T08:00:00.000Z",
+          "wordCount": 8020,
+          "title": "Detection Engineering: Practicing Detection-as-Code – Documentation – Part 4",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/08/Detection_Engineering_blog_4_SC.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=21232",
           "author": "Efstratios Lontzetidis",
