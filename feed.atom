@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-08-31T00:56:29.851Z</updated>
+    <updated>2025-09-01T01:02:09.854Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in August]]></title>
+        <id>http://blog.didierstevens.com/?p=10976</id>
+        <link href="https://blog.didierstevens.com/2025/09/01/overview-of-content-published-in-august-10/"/>
+        <updated>2025-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in August: Blog posts: Update: pdf-parser.py Version 0.7.13 SANS ISC Diary entries: Wireshark 4.4.9 Released pdf-parser: All Streams]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: pdf-parser.py Version 0.7.13]]></title>
+        <id>http://blog.didierstevens.com/?p=10974</id>
+        <link href="https://blog.didierstevens.com/2025/08/31/update-pdf-parser-py-version-0-7-13/"/>
+        <updated>2025-08-31T18:10:20.000Z</updated>
+        <summary type="html"><![CDATA[This is a bugfix version. pdf-parser_V0_7_13.zip (http)MD5: B9C0EF6EC526CDA51FB147D04FC3C5B8SHA256: F9BA57419998748559D60EE13EEDA3BBC6BA48135C5781CB8801063AE7C29E6E]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wrap Up: The Month of AI Bugs]]></title>
+        <id>https://embracethered.com/blog/posts/2025/wrapping-up-month-of-ai-bugs/</id>
+        <link href="https://embracethered.com/blog/posts/2025/wrapping-up-month-of-ai-bugs/"/>
+        <updated>2025-08-31T01:20:58.000Z</updated>
+        <summary type="html"><![CDATA[That’s it.
+The Month of AI Bugs is done. There won’t be a post tomorrow, because I will be at PAX West.
+Overview of Posts ChatGPT: Exfiltrating Your Chat History and Memories With Prompt Injection | Video ChatGPT Codex: Turning ChatGPT Codex Into a ZombAI Agent | Video Anthropic Filesystem MCP Server: Directory Access Bypass Via Improper Path Validation | Video Cursor: Arbitrary Data Exfiltration via Mermaid | Video Amp Code: Arbitrary Command Execution via Prompt Injection | Video Devin AI: I Spent $500 To Test Devin For Prompt Injection So That You Don’t Have To Devin AI: How Devin AI Can Leak Your Secrets via Multiple Means Devin AI: The AI Kill Chain in Action: Exposing Ports to the Internet via Prompt Injection OpenHands - The Lethal Trifecta Strikes Again: How Prompt Injection Can Le…]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft announces the WMIC command is being retired, Long Live PowerShell]]></title>
         <id>9731f976-853c-4944-85ef-5b5ee65517ac</id>
@@ -13102,51 +13134,6 @@ graph TD User --> Computer This will create a diagram as follows:]]></summary>
 The server allows to give an AI, like Claude Desktop, access to the local filesystem to read files or edit them and so forth.
 I was curious about access control and in the documentation there is a configuration setting to set allowedDirectories, which the AI should be allowed access to:
 As you can see the example shows two folders being allowlisted for access.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turning ChatGPT Codex Into A ZombAI Agent]]></title>
-        <id>https://embracethered.com/blog/posts/2025/chatgpt-codex-remote-control-zombai/</id>
-        <link href="https://embracethered.com/blog/posts/2025/chatgpt-codex-remote-control-zombai/"/>
-        <updated>2025-08-02T07:31:58.000Z</updated>
-        <summary type="html"><![CDATA[Today we cover ChatGPT Codex as part of the Month of AI Bugs series.
-ChatGPT Codex is a cloud-based software engineering agent that answers codebase questions, executes code, and drafts pull requests.
-In particular, this post will demonstrate how Codex is vulnerable to prompt injection, and how the use of the “Common Dependencies Allowlist” for Internet access enables an attacker to recruit ChatGPT Codex into a malware botnet.
-The ZombAI attack arrives at ChatGPT Codex today!]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overview of Content Published in July]]></title>
-        <id>http://blog.didierstevens.com/?p=10969</id>
-        <link href="https://blog.didierstevens.com/2025/08/01/overview-of-content-published-in-july-10/"/>
-        <updated>2025-08-01T19:31:24.000Z</updated>
-        <summary type="html"><![CDATA[Here is an overview of content I published in July: Blog posts: Quickpost: Doorbell & Condensation Quickpost: 12V Portable Power Station SANS ISC Diary entries: Wireshark 4.4.8 Released WinRAR MoTW Propagation Privacy]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows-MCP: Automating the Windows GUI with AI]]></title>
-        <id>https://4sysops.com/?p=1598815</id>
-        <link href="https://4sysops.com/archives/windows-mcp-automating-the-windows-gui-with-ai/"/>
-        <updated>2025-08-01T19:18:30.000Z</updated>
-        <summary type="html"><![CDATA[Windows-MCP is an open-source MCP server that enables AI agents to control the Windows operating system, supporting tasks such as file navigation, application launching, and GUI automation. It features mouse/keyboard input tools, clipboard management, and window and app state detection. I tested Windows-MCP, one of the extensions listed in Anthropic Claude Desktop that can be installed using the free plan.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exfiltrating Your ChatGPT Chat History and Memories With Prompt Injection]]></title>
-        <id>https://embracethered.com/blog/posts/2025/chatgpt-chat-history-data-exfiltration/</id>
-        <link href="https://embracethered.com/blog/posts/2025/chatgpt-chat-history-data-exfiltration/"/>
-        <updated>2025-08-01T15:00:58.000Z</updated>
-        <summary type="html"><![CDATA[In this post we demonstrate how a bypass in OpenAI’s “safe URL” rendering feature allows ChatGPT to send personal information to a third-party server. This can be exploited by an adversary via a prompt injection via untrusted data.
-If you process untrusted content, like summarizing a website, or analyze a pdf document, the author of that document can exfiltrate any information present in the prompt context, including your past chat history.]]></summary>
         <author>
             <name>Embrace The Red</name>
         </author>
