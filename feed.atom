@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-02T00:52:41.187Z</updated>
+    <updated>2025-09-03T00:48:41.927Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 25H2: Changes, installation, and user feedback]]></title>
+        <id>https://4sysops.com/?p=1600046</id>
+        <link href="https://4sysops.com/archives/windows-11-25h2-changes-installation-and-user-feedback/"/>
+        <updated>2025-09-02T19:11:17.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11 25H2 has entered the Release Preview Channel as Microsoft's latest annual feature update. It marks a departure from traditional major releases by prioritizing stability over extensive new functionality. The update shares a servicing branch with Windows 11 24H2, meaning that no new features have been added. This approach represents Microsoft's focus on reliability following previous update challenges.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android Broadcast Receivers 101]]></title>
+        <id>https://www.pentestpartners.com/?p=42732</id>
+        <link href="https://www.pentestpartners.com/security-blog/android-broadcast-receivers-101/"/>
+        <updated>2025-09-02T11:50:29.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  Introduction   This is the next post in our Android 101 series. Today we are looking at broadcast receivers. If you are catching up, start with Android services 101 for background components and scheduling, then Android content providers 101 for shared data surfaces and permissions.  What a broadcast receiver is  Next in the list of […]
+The post Android Broadcast Receivers 101  appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kernel-hack-drill and a new approach to exploiting CVE-2024-50264 in the Linux kernel]]></title>
+        <id>https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html</id>
+        <link href="https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html"/>
+        <updated>2025-09-02T10:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Some memory corruption bugs are much harder to exploit than others. They can involve race conditions, crash the system, and impose limitations that make a researcher's life difficult. Working with such fragile vulnerabilities demands significant time and effort. CVE-2024-50264 in the Linux kernel is one such hard bug, which received the Pwnie Award 2025 as the Best Privilege Escalation. In this article, I introduce my personal project kernel-hack-drill and show how it helped me to exploit CVE-2024-50264.]]></summary>
+        <author>
+            <name>Alexander Popov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ksmbd - Fuzzing Improvements and Vulnerability Discovery (2/3)]]></title>
+        <id>https://blog.doyensec.com/2025/09/02/ksmbd-2.html</id>
+        <link href="https://blog.doyensec.com/2025/09/02/ksmbd-2.html"/>
+        <updated>2025-09-01T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+This is a follow-up to the article originally published here.
+Our initial research uncovered several unauthenticated bugs, but we had only touched the attack surface lightly. Even after patching the code to bypass authentication, most interesting operations required interacting with handlers and state we initially omitted. In this part, we explain how we increased coverage and applied different fuzzing strategies to identify more bugs.
+Some functionalities require additional configuration options. We tried to enable many available features to maximize the exposed attack surface. This helped us trigger code paths that are disabled in the minimalistic configuration example. However, to simplify our setup, we did not consider features like Kerberos support or RDMA. These could be…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windows Backup for Organizations: Features, installation, and user feedback]]></title>
         <id>https://4sysops.com/?p=1600009</id>
@@ -13111,29 +13156,6 @@ Source]]></summary>
 The post Oops Safari, I think You Spilled Something! appeared first on Exodus Intelligence.]]></summary>
         <author>
             <name>Exodus Intel VRT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghost in the Zip | New PXA Stealer and Its Telegram-Powered Ecosystem]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=128686</id>
-        <link href="https://www.sentinelone.com/labs/ghost-in-the-zip-new-pxa-stealer-and-its-telegram-powered-ecosystem/"/>
-        <updated>2025-08-04T10:00:23.000Z</updated>
-        <summary type="html"><![CDATA[PXA Stealer uses advanced evasion and Telegram C2 to steal global victim data, fueling a thriving cybercrime market.]]></summary>
-        <author>
-            <name>Jim Walter, Alex Delamotte, Beazley Security’s Francisco Donoso, Sam Mayers, Tell Hause &amp; Bobby Venal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cursor IDE: Arbitrary Data Exfiltration Via Mermaid (CVE-2025-54132)]]></title>
-        <id>https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/</id>
-        <link href="https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/"/>
-        <updated>2025-08-04T07:04:58.000Z</updated>
-        <summary type="html"><![CDATA[Cursor is a popular AI code editor. In this post I want to share how I found an interesting data exfiltration issue, the demo exploits built and how it got fixed.
-When using Cursor I noticed that it can render Mermaid diagrams.
-Cursor Renders Mermaid Diagrams If you are not familiar with Mermaid, it has a simple syntax:
-graph TD User --> Computer This will create a diagram as follows:]]></summary>
-        <author>
-            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>

@@ -392,7 +392,18 @@
       "title": "Alexander Popov",
       "feedUrl": "https://a13xp0p0v.github.io/feed.xml",
       "siteUrl": "https://a13xp0p0v.github.io/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html",
+          "author": null,
+          "description": "Some memory corruption bugs are much harder to exploit than others. They can involve race conditions, crash the system, and impose limitations that make a researcher's life difficult. Working with such fragile vulnerabilities demands significant time and effort. CVE-2024-50264 in the Linux kernel is one such hard bug, which received the Pwnie Award 2025 as the Best Privilege Escalation. In this article, I introduce my personal project kernel-hack-drill and show how it helped me to exploit CVE-2024-50264.",
+          "link": "https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html",
+          "publishedOn": "2025-09-02T10:37:00.000Z",
+          "wordCount": 6797,
+          "title": "Kernel-hack-drill and a new approach to exploiting CVE-2024-50264 in the Linux kernel",
+          "imageUrl": "https://a13xp0p0v.github.io/img/ava_bg.jpg"
+        }
+      ]
     },
     {
       "title": "Grsecurity Blog RSS Feed",
@@ -13760,6 +13771,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2025/09/02/ksmbd-2.html",
+          "author": null,
+          "description": "Introduction\nThis is a follow-up to the article originally published here.\nOur initial research uncovered several unauthenticated bugs, but we had only touched the attack surface lightly. Even after patching the code to bypass authentication, most interesting operations required interacting with handlers and state we initially omitted. In this part, we explain how we increased coverage and applied different fuzzing strategies to identify more bugs.\nSome functionalities require additional configuration options. We tried to enable many available features to maximize the exposed attack surface. This helped us trigger code paths that are disabled in the minimalistic configuration example. However, to simplify our setup, we did not consider features like Kerberos support or RDMA. These could be…",
+          "link": "https://blog.doyensec.com/2025/09/02/ksmbd-2.html",
+          "publishedOn": "2025-09-01T22:00:00.000Z",
+          "wordCount": 2820,
+          "title": "ksmbd - Fuzzing Improvements and Vulnerability Discovery (2/3)",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2025/08/19/trivial-exploit-on-C-random.html",
           "author": null,
           "description": "Exploiting random number generators requires math, right? Thanks to C#’s\nRandom, that is not necessarily the case! I ran into an HTTP 2.0 web service\nissuing password reset tokens from a custom encoding of (new Random()).Next(min, max) output. \nThis led to a critical account takeover.\nExploitation did not require scripting, math or libraries. Just several clicks\nin Burp. While I had source code, I will show a method of discovering and\nexploiting this vulnerability in a black-box or bug-bounty style engagement.\nThe exploit uses no math, but I do like math. So, there is a bonus section on how to\noptimize and invert Random.\nThe Vulnerability\nI can’t share the client code, but it was something like this:\n\nvar num = new Random().Next(min, max);\nvar token = make_password_reset_token(num);\nsave_r…",
@@ -14001,6 +14022,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1600046",
+          "author": "IT News",
+          "description": "Windows 11 25H2 has entered the Release Preview Channel as Microsoft's latest annual feature update. It marks a departure from traditional major releases by prioritizing stability over extensive new functionality. The update shares a servicing branch with Windows 11 24H2, meaning that no new features have been added. This approach represents Microsoft's focus on reliability following previous update challenges.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-25h2-changes-installation-and-user-feedback/",
+          "publishedOn": "2025-09-02T19:11:17.000Z",
+          "wordCount": 5545,
+          "title": "Windows 11 25H2: Changes, installation, and user feedback",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2025/09/Upgrading-to-Windows-11-25H2-(image-Microsoft).png"
+        },
         {
           "id": "https://4sysops.com/?p=1600009",
           "author": "IT News",
@@ -14251,6 +14282,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=42732",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Introduction   This is the next post in our Android 101 series. Today we are looking at broadcast receivers. If you are catching up, start with Android services 101 for background components and scheduling, then Android content providers 101 for shared data surfaces and permissions.  What a broadcast receiver is  Next in the list of […]\nThe post Android Broadcast Receivers 101  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/android-broadcast-receivers-101/",
+          "publishedOn": "2025-09-02T11:50:29.000Z",
+          "wordCount": 2018,
+          "title": "Android Broadcast Receivers 101",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/09/DL-Android-Broadcast-Receivers-101-10Headline.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=42663",
           "author": "Alex Wallace",
@@ -14584,16 +14625,6 @@
           "wordCount": 893,
           "title": "Amp Code: Arbitrary Command Execution via Prompt Injection Fixed",
           "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/",
-          "author": null,
-          "description": "Cursor is a popular AI code editor. In this post I want to share how I found an interesting data exfiltration issue, the demo exploits built and how it got fixed.\nWhen using Cursor I noticed that it can render Mermaid diagrams.\nCursor Renders Mermaid Diagrams If you are not familiar with Mermaid, it has a simple syntax:\ngraph TD User --> Computer This will create a diagram as follows:",
-          "link": "https://embracethered.com/blog/posts/2025/cursor-data-exfiltration-with-mermaid/",
-          "publishedOn": "2025-08-04T07:04:58.000Z",
-          "wordCount": 967,
-          "title": "Cursor IDE: Arbitrary Data Exfiltration Via Mermaid (CVE-2025-54132)",
-          "imageUrl": null
         }
       ]
     },
@@ -14670,21 +14701,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/08/Ethereum_Drainer_Scam.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=128686",
-          "author": "Jim Walter, Alex Delamotte, Beazley Security’s Francisco Donoso, Sam Mayers, Tell Hause &amp; Bobby Venal",
-          "description": "PXA Stealer uses advanced evasion and Telegram C2 to steal global victim data, fueling a thriving cybercrime market.",
-          "link": "https://www.sentinelone.com/labs/ghost-in-the-zip-new-pxa-stealer-and-its-telegram-powered-ecosystem/",
-          "publishedOn": "2025-08-04T10:00:23.000Z",
-          "wordCount": 9398,
-          "title": "Ghost in the Zip | New PXA Stealer and Its Telegram-Powered Ecosystem",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2025/08/PXA1.jpg",
-            "length": "46902",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/08/PXA1.jpg"
         }
       ]
     },
