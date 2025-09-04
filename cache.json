@@ -86,16 +86,6 @@
           "wordCount": 1267,
           "title": "The Desync Delusion: Are You Really Protected Against HTTP Request Smuggling?",
           "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        },
-        {
-          "id": "http-request-smuggling-explained-with-seasoned-bug-bounty-hunter-nahamsec-and-world-class-researcher-james-kettle",
-          "author": null,
-          "description": "Ever wondered how attackers can compromise modern websites by exploiting invisible cracks in HTTP infrastructure to win big bounties? In his latest video, NahamSec walks through the basics of request",
-          "link": "https://portswigger.net/blog/http-request-smuggling-explained-with-seasoned-bug-bounty-hunter-nahamsec-and-world-class-researcher-james-kettle",
-          "publishedOn": "2025-08-05T11:08:29.000Z",
-          "wordCount": 828,
-          "title": "HTTP Request Smuggling Explained: with seasoned bug bounty hunter NahamSec and world-class researcher James Kettle",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
     },
@@ -104,6 +94,16 @@
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
       "articles": [
+        {
+          "id": "cookie-chaos-how-to-bypass-host-and-secure-cookie-prefixes",
+          "author": null,
+          "description": "Browsers added cookie prefixes to protect your sessions and stop attackers from setting harmful cookies. In this post, you’ll see how to bypass cookie defenses using discrepancies in browser and serve",
+          "link": "https://portswigger.net/research/cookie-chaos-how-to-bypass-host-and-secure-cookie-prefixes",
+          "publishedOn": "2025-09-03T14:46:23.000Z",
+          "wordCount": 1394,
+          "title": "Cookie Chaos: How to bypass __Host and __Secure cookie prefixes",
+          "imageUrl": "https://portswigger.net/cms/images/21/b7/c07c-twittercard-cookie-chaos-twitter-card.png"
+        },
         {
           "id": "inline-style-exfiltration",
           "author": null,
@@ -13910,16 +13910,6 @@
           "wordCount": 2048,
           "title": "Prompt injection engineering for attackers: Exploiting GitHub Copilot",
           "imageUrl": "https://blog.trailofbits.com/img/copilot-prompt-injection/image1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/08/04/uncovering-memory-corruption-in-nvidia-triton-as-a-new-hire/",
-          "author": null,
-          "description": "In my first month at Trail of Bits as an AI/ML security engineer, I found two remotely accessible memory corruption bugs in NVIDIA’s Triton Inference Server during a routine onboarding practice.",
-          "link": "https://blog.trailofbits.com/2025/08/04/uncovering-memory-corruption-in-nvidia-triton-as-a-new-hire/",
-          "publishedOn": "2025-08-05T11:00:00.000Z",
-          "wordCount": 1567,
-          "title": "Uncovering memory corruption in NVIDIA Triton (as a new hire)",
-          "imageUrl": "https://blog.trailofbits.com/img/triton_figure_4.png"
         }
       ]
     },
@@ -13933,18 +13923,7 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": [
-        {
-          "id": "https://blog.exodusintel.com/?p=2334",
-          "author": "Exodus Intel VRT",
-          "description": "Overview In February 2023, researchers at Exodus Intelligence discovered a bug in the Data Flow Graph (DFG) compiler of WebKit, the browser engine used by Safari. This bug, CVE-2024-44308, was patched by Apple in November 2024. While it was alive, its exploit was chained with PAC and APRR bypasses on Apple Silicon to yield renderer ... Read more Oops Safari, I think You Spilled Something!\nThe post Oops Safari, I think You Spilled Something! appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2025/08/04/oops-safari-i-think-you-spilled-something/",
-          "publishedOn": "2025-08-04T15:58:24.000Z",
-          "wordCount": 8308,
-          "title": "Oops Safari, I think You Spilled Something!",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2025/08/img_1.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "markitzeroday.com",
@@ -14022,6 +14001,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1600095",
+          "author": "IT Experts",
+          "description": "Microsoft's Intune August 2025 service release (2508) delivers major endpoint management enhancements, including granular app control targeting, Windows Autopilot OOBE patch integration, and Apple Declarative Device Management reporting capabilities. The update introduces multi-administrator approval workflows for critical operations and expands Linux support to Ubuntu 22.04/24.04 LTS while addressing enterprise security and governance requirements. However, administrators should be aware of reported performance issues with app control policies and several critical bugs affecting Win32 app filtering, iPad Air 2 management, and Linux device enrollment that may impact deployment strategies.\nSource",
+          "link": "https://4sysops.com/archives/new-in-the-intune-august-2025-update/",
+          "publishedOn": "2025-09-03T20:13:25.000Z",
+          "wordCount": null,
+          "title": "New in the Intune August 2025 update",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1600046",
           "author": "IT News",
@@ -14231,16 +14220,6 @@
           "wordCount": null,
           "title": "How to enable Edge Copilot Mode",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1598901",
-          "author": "Thomas Joos",
-          "description": "If you forget the root password for ESXi, VMware recommends reinstalling ESXi. In smaller environments without automated rollouts and central profiles, you must then configure all settings manually. Alternatively, you can reset the password using an unofficial method.\nSource",
-          "link": "https://4sysops.com/archives/reset-forgotten-esxi-7x-8x-root-password-a-recovery-guide/",
-          "publishedOn": "2025-08-04T17:29:47.000Z",
-          "wordCount": null,
-          "title": "Reset forgotten ESXi 7.x / 8.x root password – A recovery guide",
-          "imageUrl": null
         }
       ]
     },
@@ -14249,6 +14228,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10124",
+          "author": "adam",
+          "description": "The 2nd part following my first take on this subject was kinda inevitable. Why? Sixtyvividtails is one of my fav researchers, because a) he reads my posts, breaks them apart, and usually comes up with some amazing/creative comments/additional thoughts that … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2025/09/03/dll-forwardsideloading-part-2/",
+          "publishedOn": "2025-09-03T23:36:09.000Z",
+          "wordCount": 828,
+          "title": "DLL ForwardSideloading, Part 2",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=10115",
           "author": "adam",
@@ -14331,16 +14320,6 @@
           "wordCount": 2382,
           "title": "Thumbnail forensics. DFIR techniques for analysing Windows Thumbcache",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/08/thumcache-forensics-headline.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=42464",
-          "author": "Alex Wallace",
-          "description": "TL;DR The Problem You’ve done a build review on a host and need to get files from a host, or need to access an application, for example, a Nessus instance running internally. There’s always evidence generated, but generally the hosts you’re working on may have outbound Internet access blocked by a firewall, or they are […]\nThe post How to transfer files in AWS using SSM appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/how-to-transfer-files-in-aws-using-ssm/",
-          "publishedOn": "2025-08-05T08:34:00.000Z",
-          "wordCount": 1788,
-          "title": "How to transfer files in AWS using SSM",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/08/AWS-File-Transfer-headlinev1_.png"
         }
       ]
     },
@@ -14686,23 +14665,7 @@
       "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
-      "articles": [
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=125939",
-          "author": "Alex Delamotte",
-          "description": "Crypto scammers use fake YouTube bots, AI videos, and obfuscated smart contracts to steal $900K+, targeting unwary traders.",
-          "link": "https://www.sentinelone.com/labs/smart-contract-scams-ethereum-drainers-pose-as-trading-bots-to-steal-crypto/",
-          "publishedOn": "2025-08-05T10:00:12.000Z",
-          "wordCount": 8400,
-          "title": "Smart Contract Scams | Ethereum Drainers Pose as Trading Bots to Steal Crypto",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2025/08/Ethereum_Drainer_Scam.jpg",
-            "length": "167249",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/08/Ethereum_Drainer_Scam.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "NVISO Labs",
@@ -14728,16 +14691,6 @@
           "wordCount": 8037,
           "title": "Shedding Light on PoisonSeed’s Phishing Kit",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/07/PoisonSeed_blog_EL.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=20012",
-          "author": "Stamatis Chatzimangou",
-          "description": "In this part, we focus on implementing validation checks to improve consistency and ensure a minimum level of quality within the detection repository. Setting up validation pipelines is a key step, as it helps enforce the defined standards, reduce errors, and ensure that detections are reliable and consistent.",
-          "link": "https://blog.nviso.eu/2025/08/05/detection-engineering-practicing-detection-as-code-validation-part-3/",
-          "publishedOn": "2025-08-05T07:02:00.000Z",
-          "wordCount": 8855,
-          "title": "Detection Engineering: Practicing Detection-as-Code – Validation – Part 3",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/07/Detection_Engineering_blog_3_SC.jpg"
         }
       ]
     },

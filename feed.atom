@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-03T00:48:41.927Z</updated>
+    <updated>2025-09-04T00:49:14.055Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[DLL ForwardSideloading, Part 2]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10124</id>
+        <link href="https://www.hexacorn.com/blog/2025/09/03/dll-forwardsideloading-part-2/"/>
+        <updated>2025-09-03T23:36:09.000Z</updated>
+        <summary type="html"><![CDATA[The 2nd part following my first take on this subject was kinda inevitable. Why? Sixtyvividtails is one of my fav researchers, because a) he reads my posts, breaks them apart, and usually comes up with some amazing/creative comments/additional thoughts that … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New in the Intune August 2025 update]]></title>
+        <id>https://4sysops.com/?p=1600095</id>
+        <link href="https://4sysops.com/archives/new-in-the-intune-august-2025-update/"/>
+        <updated>2025-09-03T20:13:25.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft's Intune August 2025 service release (2508) delivers major endpoint management enhancements, including granular app control targeting, Windows Autopilot OOBE patch integration, and Apple Declarative Device Management reporting capabilities. The update introduces multi-administrator approval workflows for critical operations and expands Linux support to Ubuntu 22.04/24.04 LTS while addressing enterprise security and governance requirements. However, administrators should be aware of reported performance issues with app control policies and several critical bugs affecting Win32 app filtering, iPad Air 2 management, and Linux device enrollment that may impact deployment strategies.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cookie Chaos: How to bypass __Host and __Secure cookie prefixes]]></title>
+        <id>cookie-chaos-how-to-bypass-host-and-secure-cookie-prefixes</id>
+        <link href="https://portswigger.net/research/cookie-chaos-how-to-bypass-host-and-secure-cookie-prefixes"/>
+        <updated>2025-09-03T14:46:23.000Z</updated>
+        <summary type="html"><![CDATA[Browsers added cookie prefixes to protect your sessions and stop attackers from setting harmful cookies. In this post, you’ll see how to bypass cookie defenses using discrepancies in browser and serve]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windows 11 25H2: Changes, installation, and user feedback]]></title>
         <id>https://4sysops.com/?p=1600046</id>
@@ -13083,79 +13114,6 @@ The AI coding agent could update its own configuration and:
 Allowlist bash commands or Add a malicious MCP server on the fly to run arbitrary code This could have been exploited by the model itself, or during an indirect prompt injection attack as we will demonstrate in this post.]]></summary>
         <author>
             <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP Request Smuggling Explained: with seasoned bug bounty hunter NahamSec and world-class researcher James Kettle]]></title>
-        <id>http-request-smuggling-explained-with-seasoned-bug-bounty-hunter-nahamsec-and-world-class-researcher-james-kettle</id>
-        <link href="https://portswigger.net/blog/http-request-smuggling-explained-with-seasoned-bug-bounty-hunter-nahamsec-and-world-class-researcher-james-kettle"/>
-        <updated>2025-08-05T11:08:29.000Z</updated>
-        <summary type="html"><![CDATA[Ever wondered how attackers can compromise modern websites by exploiting invisible cracks in HTTP infrastructure to win big bounties? In his latest video, NahamSec walks through the basics of request]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uncovering memory corruption in NVIDIA Triton (as a new hire)]]></title>
-        <id>https://blog.trailofbits.com/2025/08/04/uncovering-memory-corruption-in-nvidia-triton-as-a-new-hire/</id>
-        <link href="https://blog.trailofbits.com/2025/08/04/uncovering-memory-corruption-in-nvidia-triton-as-a-new-hire/"/>
-        <updated>2025-08-05T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In my first month at Trail of Bits as an AI/ML security engineer, I found two remotely accessible memory corruption bugs in NVIDIA’s Triton Inference Server during a routine onboarding practice.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smart Contract Scams | Ethereum Drainers Pose as Trading Bots to Steal Crypto]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=125939</id>
-        <link href="https://www.sentinelone.com/labs/smart-contract-scams-ethereum-drainers-pose-as-trading-bots-to-steal-crypto/"/>
-        <updated>2025-08-05T10:00:12.000Z</updated>
-        <summary type="html"><![CDATA[Crypto scammers use fake YouTube bots, AI videos, and obfuscated smart contracts to steal $900K+, targeting unwary traders.]]></summary>
-        <author>
-            <name>Alex Delamotte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to transfer files in AWS using SSM]]></title>
-        <id>https://www.pentestpartners.com/?p=42464</id>
-        <link href="https://www.pentestpartners.com/security-blog/how-to-transfer-files-in-aws-using-ssm/"/>
-        <updated>2025-08-05T08:34:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR The Problem You’ve done a build review on a host and need to get files from a host, or need to access an application, for example, a Nessus instance running internally. There’s always evidence generated, but generally the hosts you’re working on may have outbound Internet access blocked by a firewall, or they are […]
-The post How to transfer files in AWS using SSM appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detection Engineering: Practicing Detection-as-Code – Validation – Part 3]]></title>
-        <id>https://blog.nviso.eu/?p=20012</id>
-        <link href="https://blog.nviso.eu/2025/08/05/detection-engineering-practicing-detection-as-code-validation-part-3/"/>
-        <updated>2025-08-05T07:02:00.000Z</updated>
-        <summary type="html"><![CDATA[In this part, we focus on implementing validation checks to improve consistency and ensure a minimum level of quality within the detection repository. Setting up validation pipelines is a key step, as it helps enforce the defined standards, reduce errors, and ensure that detections are reliable and consistent.]]></summary>
-        <author>
-            <name>Stamatis Chatzimangou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reset forgotten ESXi 7.x / 8.x root password – A recovery guide]]></title>
-        <id>https://4sysops.com/?p=1598901</id>
-        <link href="https://4sysops.com/archives/reset-forgotten-esxi-7x-8x-root-password-a-recovery-guide/"/>
-        <updated>2025-08-04T17:29:47.000Z</updated>
-        <summary type="html"><![CDATA[If you forget the root password for ESXi, VMware recommends reinstalling ESXi. In smaller environments without automated rollouts and central profiles, you must then configure all settings manually. Alternatively, you can reset the password using an unofficial method.
-Source]]></summary>
-        <author>
-            <name>Thomas Joos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oops Safari, I think You Spilled Something!]]></title>
-        <id>https://blog.exodusintel.com/?p=2334</id>
-        <link href="https://blog.exodusintel.com/2025/08/04/oops-safari-i-think-you-spilled-something/"/>
-        <updated>2025-08-04T15:58:24.000Z</updated>
-        <summary type="html"><![CDATA[Overview In February 2023, researchers at Exodus Intelligence discovered a bug in the Data Flow Graph (DFG) compiler of WebKit, the browser engine used by Safari. This bug, CVE-2024-44308, was patched by Apple in November 2024. While it was alive, its exploit was chained with PAC and APRR bypasses on Apple Silicon to yield renderer ... Read more Oops Safari, I think You Spilled Something!
-The post Oops Safari, I think You Spilled Something! appeared first on Exodus Intelligence.]]></summary>
-        <author>
-            <name>Exodus Intel VRT</name>
         </author>
     </entry>
     <entry>
