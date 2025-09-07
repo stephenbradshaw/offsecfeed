@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-06T00:48:54.593Z</updated>
+    <updated>2025-09-07T00:55:17.574Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -12952,102 +12952,6 @@ We discuss this specific image based attack technique frequently. Sometimes a me
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Chrome renderer code exec to kernel with MSG_OOB]]></title>
-        <id>https://googleprojectzero.blogspot.com/2025/08/from-chrome-renderer-code-exec-to-kernel.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2025/08/from-chrome-renderer-code-exec-to-kernel.html"/>
-        <updated>2025-08-08T10:43:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizHz0e5qzIIUg9OvSRGeMDk3I);ol.lst-kix_paptt0jg97k9-5{list-style-type:none}ol.lst-kix_paptt0jg97k9-6{list-style-type:none}ol.lst-kix_paptt0jg97k9-7{list-style-type:none}ol.lst-kix_paptt0jg97k9-8{list-style-type:none}ol.lst-kix_paptt0jg97k9-1{list-style-type:none}ol.lst-kix_paptt0jg97k9-2{list-style-type:none}ol.lst-kix_paptt0jg97k9-3{list-style-type:none}.lst-kix_kxp4t4ucwvdt-4>li{counter-increment:lst-ctn-kix_kxp4t4ucwvdt-4}ol.lst-kix_paptt0jg97k9-4{list-style-type:none}ol.lst-kix_paptt0jg97k9-0{list-style-type:none}.lst-kix_kxp4t4ucwvdt-2>li{counter-increment:lst-ctn-kix_kxp4t4ucwvdt-2}.lst-kix_paptt0jg97k9-1>li{counter-increment:lst-ctn-kix_paptt0jg97k9-1}ol.lst-kix_paptt0jg97k9-5.start{counter-reset:lst-ctn…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Kill Chain in Action: Devin AI Exposes Ports to the Internet with Prompt Injection]]></title>
-        <id>https://embracethered.com/blog/posts/2025/devin-ai-kill-chain-exposing-ports/</id>
-        <link href="https://embracethered.com/blog/posts/2025/devin-ai-kill-chain-exposing-ports/"/>
-        <updated>2025-08-08T07:02:58.000Z</updated>
-        <summary type="html"><![CDATA[Today let’s explore Devin’s system prompt a bit more. Specifically, an interesing tool that I discovered when reading through it.
-Hidden in Devin’s capabilities is a tool that can open any local port to the public Internet. That means, with the right indirect prompt injection nudge, Devin can be tricked into publishing sensitive files or services for anyone to access.
-This tunneling feature can be invoked without a human in the loop.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thumbnail forensics. DFIR techniques for analysing Windows Thumbcache]]></title>
-        <id>https://www.pentestpartners.com/?p=42497</id>
-        <link href="https://www.pentestpartners.com/security-blog/thumbnail-forensics-dfir-techniques-for-analysing-windows-thumbcache/"/>
-        <updated>2025-08-08T05:18:02.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Introduction Windows thumbnail cache, or thumbcache, is a well-known forensic artifact, but often one that is overlooked. The thumbcache stores small previews of images, videos and documents and can persist even after the original files are deleted, which offers analysts an opportunity to uncover traces of user activity. In this blog, we will show […]
-The post Thumbnail forensics. DFIR techniques for analysing Windows Thumbcache appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Joe Bursell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buttercup is now open-source!]]></title>
-        <id>https://blog.trailofbits.com/2025/08/08/buttercup-is-now-open-source/</id>
-        <link href="https://blog.trailofbits.com/2025/08/08/buttercup-is-now-open-source/"/>
-        <updated>2025-08-08T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Now that DARPA’s AI Cyber Challenge (AIxCC) has officially ended, we can finally make Buttercup, our CRS (Cyber Reasoning System), open source!]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training Specialist Models: Automating Malware Development]]></title>
-        <id>https://www.outflank.nl/?p=5657</id>
-        <link href="https://www.outflank.nl/blog/2025/08/07/training-specialist-models/"/>
-        <updated>2025-08-07T19:43:25.000Z</updated>
-        <summary type="html"><![CDATA[This post complements the presentation I gave at Black Hat USA 2025.
-Can a small, self-hosted LLM outperform state-of-the-art models at evasive malware development?
-In this technical deep dive, we explore how reinforcement learning with verifiable rewards (RLVR) enables training compact specialist models that rival large generalists in domain-specific tasks.
-In the first half of this post, we’ll break down the LLM training process and recent opportunities created by RLVR. The second half details our training methodology for Dante-7B, a 7 billion parameter model that generates functional, evasive Cobalt Strike shellcode loaders capable of bypassing Microsoft Defender for Endpoint (MDE). We’ve released Dante-7B on Hugging Face, complete with a demo app so anyone can experiment with the model.
-
-Introduction
-The best models from OpenAI,
-Tags: AI
-Read full post
-The post Training Specialist Models: Automating Malware Development appeared first on Outflank.]]></summary>
-        <author>
-            <name>Kyle Avery</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OAuthSeeker: Leveraging OAuth Phishing for Initial Access and Lateral Movement on Red Team Engagements]]></title>
-        <id>https://www.praetorian.com/?p=5825</id>
-        <link href="https://www.praetorian.com/blog/oauthseeker-leveraging-oauth-phishing-for-initial-access-and-lateral-movement-on-red-team-engagements/"/>
-        <updated>2025-08-07T17:44:41.000Z</updated>
-        <summary type="html"><![CDATA[Overview The Praetorian Labs team recently conducted research into potential initial access vectors for red team engagements, focusing on attack techniques leveraging malicious applications distributed through platforms like the Microsoft Store. This included OAuth applications, malicious Outlook extensions, and other types of applications that could be delivered via the Windows Store. As part of this […]
-The post OAuthSeeker: Leveraging OAuth Phishing for Initial Access and Lateral Movement on Red Team Engagements appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Justin Copeland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrate a DHCP Server to Windows Server 2025]]></title>
-        <id>https://4sysops.com/?p=1599068</id>
-        <link href="https://4sysops.com/archives/migrate-a-dhcp-server-to-windows-server-2025/"/>
-        <updated>2025-08-07T15:54:57.000Z</updated>
-        <summary type="html"><![CDATA[The Dynamic Host Configuration Protocol (DHCP) server handles automatic IP address assignment within a company network. This article explains how to transfer the DHCP server role to Windows Server 2025 using PowerShell, covering the export and import of DHCP scopes, leases, and reservations to facilitate a seamless migration with minimal disruption to users and systems.
-Source]]></summary>
-        <author>
-            <name>Leos Marek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Devin AI Can Leak Your Secrets via Multiple Means]]></title>
-        <id>https://embracethered.com/blog/posts/2025/devin-can-leak-your-secrets/</id>
-        <link href="https://embracethered.com/blog/posts/2025/devin-can-leak-your-secrets/"/>
-        <updated>2025-08-07T15:20:58.000Z</updated>
-        <summary type="html"><![CDATA[In this post we show how an attacker can make Devin send sensitive information to third-party servers, via multiple means. This post assumes that you read the first post about Devin as well.
-But here is a quick recap: During an indirect prompt injection Devin can be tricked into download malware and extract sensitive information on the machine. But there is more…
-Let’s explore how Devin can leak sensitive information and send it to a third-party server.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
