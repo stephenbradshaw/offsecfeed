@@ -18,6 +18,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities",
+          "author": null,
+          "description": "Arman S., a full-time independent security researcher and bug bounty hunter, talked us through how he uses Burp Suite Professional and HackerOne in tandem to find and report high-value security vulner",
+          "link": "https://portswigger.net/blog/how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities",
+          "publishedOn": "2025-09-12T12:21:38.000Z",
+          "wordCount": 1286,
+          "title": "How this seasoned bug bounty hunter combines Burp Suite and HackerOne to uncover high-impact vulnerabilities",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "watch-the-webinar-scale-secure-coverage-without-scaling-headcount",
           "author": null,
           "description": "Application security teams are under pressure. With expanding application estates, growing API usage, and faster release cycles, many teams struggle to keep up. Backlogs grow, releases are delayed, an",
@@ -129,18 +139,7 @@
       "title": "Technical Blog Archives - NetSPI",
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": null,
-      "articles": [
-        {
-          "id": "https://www.netspi.com/?p=28093",
-          "author": "Karl Fosaaen",
-          "description": "At DEF CON 33, NetSPI presented a talk about how Azure resources supporting Entra ID authentication expose tenant IDs, enabling attackers to attribute cloud resources to specific organizations at scale.\nThe post We Know What You Did (in Azure) Last Summer appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/azure-resource-attribution-via-tenant-id-enumeration/",
-          "publishedOn": "2025-08-13T20:14:35.000Z",
-          "wordCount": 5406,
-          "title": "We Know What You Did (in Azure) Last Summer",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2025/08/08.05.25_TECH_I-know-what-you-did-in-azure-last-summer_1200x630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "All Posts - Malicious Link - Blog by mubix - Rob Fuller",
@@ -267,7 +266,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -275,6 +274,16 @@
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
       "articles": [
+        {
+          "id": "https://adsecurity.org/?p=4577",
+          "author": "Sean Metcalf",
+          "description": "A critical part of Active Directory security is regularly reviewing your AD admins. The simplest way to do this is to recursively enumerate the membership of the domain Administrators group (that group’s members and all member group members). Check the AD Admins output for the following: PowerShell code (using Active Directory PowerShell modules):https://github.com/PyroTek3/Misc/blob/main/Get-ADAdmins.ps1",
+          "link": "https://adsecurity.org/?p=4577",
+          "publishedOn": "2025-09-13T00:03:00.000Z",
+          "wordCount": 1547,
+          "title": "Active Directory Security Tip #1: Active Directory Admins",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GyzetbQWcAANFVq.jpg"
+        },
         {
           "id": "https://adsecurity.org/?p=4510",
           "author": "Sean Metcalf",
@@ -13906,6 +13915,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1600467",
+          "author": "Michael Pietroforte",
+          "description": "OpenAI has finally rolled out Model Context Protocol (MCP) support for all ChatGPT subscription plans. However, the implementation is surprisingly basic and falls short of the MCP support offered by Anthropic's Claude Desktop. Currently, ChatGPT doesn't support local MCP servers (SDIO), and you can only add remote MCP servers (SSE, Streamable HTTP). There's also no MCP server catalog, and the worst part is that GPT-5 isn't fully MCP-ready.\nSource",
+          "link": "https://4sysops.com/archives/add-chatgpt-mcp-serveranother-setback-for-openai/",
+          "publishedOn": "2025-09-12T17:26:34.000Z",
+          "wordCount": null,
+          "title": "Add ChatGPT MCP server—Another setback for OpenAI",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1600409",
           "author": "IT Experts",
           "description": "Citrix has announced a fundamental shift in managing product licensing by replacing traditional file-based licensing with a cloud-based License Activation Service (LAS). This mandatory transition affects all on-premises Citrix components, with file-based licensing reaching end of life on April 15, 2026. The change simplifies license management by eliminating manual license file downloads and uploads. The change simplifies license management by eliminating manual license file downloads and uploads. LAS requires registering with Citrix Cloud and periodic connectivity to maintain activations; limited offline operation is supported via a grace period.\nSource",
@@ -14113,16 +14132,6 @@
           "publishedOn": "2025-08-14T16:24:39.000Z",
           "wordCount": null,
           "title": "Microsoft AI Shell Preview 6: Significant improvements for the AI-enhanced PowerShell admin",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1599276",
-          "author": "Michael Pietroforte",
-          "description": "The ChatGPT Gmail connector was first released in June 2025 for Plus, Pro, Team, Enterprise, and Edu users. However, because of alleged data protection rules, users in the European Economic Area, Switzerland, and the UK were excluded. OpenAI is now deploying connectors for Gmail, Google Calendar, Google Drive, and GitHub across Europe for all plans—notably after Anthropic released their MCP connectors weeks ago in Europe without such concerns, suggesting OpenAI's initial data protection claims were merely pretextual or that MCP has no priority status for the AI company. The announcement mentions Google Contacts, but this connector isn't yet accessible in my ChatGPT with a Plus plan. I tested the Gmail Connector, and following GPT-5's disastrous launch, it appears OpenAI released another flop immediately afterward.\nSource",
-          "link": "https://4sysops.com/archives/chatgpt-gmail-connector-openais-next-flop/",
-          "publishedOn": "2025-08-13T15:29:55.000Z",
-          "wordCount": null,
-          "title": "ChatGPT Gmail Connector: OpenAI’s next flop?",
           "imageUrl": null
         }
       ]
@@ -14427,26 +14436,6 @@
           "publishedOn": "2025-08-15T09:20:58.000Z",
           "wordCount": 943,
           "title": "Google Jules is Vulnerable To Invisible Prompt Injection",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/google-jules-remote-code-execution-zombai/",
-          "author": null,
-          "description": "In the previous post, we explored two data exfiltration vectors that Jules is vulnerable to and that can be exploited via prompt injection. This post takes it further by demonstrating how Jules can be convinced to download malware and join a remote command & control server.\nThis research was performed in May 2025 and findings were shared with Google.\nRemote Command & Control - Proof Of Concept The basic attack chain follows the classic AI Kill Chain:",
-          "link": "https://embracethered.com/blog/posts/2025/google-jules-remote-code-execution-zombai/",
-          "publishedOn": "2025-08-14T11:20:58.000Z",
-          "wordCount": 882,
-          "title": "Jules Zombie Agent: From Prompt Injection to Remote Control",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/google-jules-vulnerable-to-data-exfiltration-issues/",
-          "author": null,
-          "description": "This post explores data exfiltration attacks in Google Jules, an asynchronous coding agent. This is the first of three posts that will highlight my research on Google Jules in May 2025. All information provided was also shared with Google at that time.\nThis first post will focus on data exfiltration, the lethal trifecta.\nBut let’s first talk about Jules’ system prompt.\nJules’ System Prompt and Multiple Agents To grab the system prompt I just asked it to write it into a file.",
-          "link": "https://embracethered.com/blog/posts/2025/google-jules-vulnerable-to-data-exfiltration-issues/",
-          "publishedOn": "2025-08-14T01:20:58.000Z",
-          "wordCount": 1332,
-          "title": "Google Jules: Vulnerable to Multiple Data Exfiltration Issues",
           "imageUrl": null
         }
       ]

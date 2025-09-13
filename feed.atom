@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-12T00:49:05.959Z</updated>
+    <updated>2025-09-13T00:46:05.794Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Security Tip #1: Active Directory Admins]]></title>
+        <id>https://adsecurity.org/?p=4577</id>
+        <link href="https://adsecurity.org/?p=4577"/>
+        <updated>2025-09-13T00:03:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical part of Active Directory security is regularly reviewing your AD admins. The simplest way to do this is to recursively enumerate the membership of the domain Administrators group (that group’s members and all member group members). Check the AD Admins output for the following: PowerShell code (using Active Directory PowerShell modules):https://github.com/PyroTek3/Misc/blob/main/Get-ADAdmins.ps1]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Add ChatGPT MCP server—Another setback for OpenAI]]></title>
+        <id>https://4sysops.com/?p=1600467</id>
+        <link href="https://4sysops.com/archives/add-chatgpt-mcp-serveranother-setback-for-openai/"/>
+        <updated>2025-09-12T17:26:34.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI has finally rolled out Model Context Protocol (MCP) support for all ChatGPT subscription plans. However, the implementation is surprisingly basic and falls short of the MCP support offered by Anthropic's Claude Desktop. Currently, ChatGPT doesn't support local MCP servers (SDIO), and you can only add remote MCP servers (SSE, Streamable HTTP). There's also no MCP server catalog, and the worst part is that GPT-5 isn't fully MCP-ready.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How this seasoned bug bounty hunter combines Burp Suite and HackerOne to uncover high-impact vulnerabilities]]></title>
+        <id>how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities</id>
+        <link href="https://portswigger.net/blog/how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities"/>
+        <updated>2025-09-12T12:21:38.000Z</updated>
+        <summary type="html"><![CDATA[Arman S., a full-time independent security researcher and bug bounty hunter, talked us through how he uses Burp Suite Professional and HackerOne in tandem to find and report high-value security vulner]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Citrix forces customers to migrate to License Activation Service (LAS)]]></title>
         <id>https://4sysops.com/?p=1600409</id>
@@ -12898,53 +12929,6 @@ Invisible Prompt Injections in GitHub Issues When Jules is asked to work on a ta
         <link href="https://4sysops.com/archives/microsoft-ai-shell-preview-6-significant-improvements-for-the-ai-enhanced-powershell-admin/"/>
         <updated>2025-08-14T16:24:39.000Z</updated>
         <summary type="html"><![CDATA[The key new feature in the just-released AI Shell Preview 6 is run_command_in_terminal, among several new built-in tools that allow the AI model to run commands and review outputs directly in your PowerShell terminal. Additionally, AI Shell now supports local and remote MCP servers, transforming it into a versatile AI assistant across Windows, Mac, and Linux.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jules Zombie Agent: From Prompt Injection to Remote Control]]></title>
-        <id>https://embracethered.com/blog/posts/2025/google-jules-remote-code-execution-zombai/</id>
-        <link href="https://embracethered.com/blog/posts/2025/google-jules-remote-code-execution-zombai/"/>
-        <updated>2025-08-14T11:20:58.000Z</updated>
-        <summary type="html"><![CDATA[In the previous post, we explored two data exfiltration vectors that Jules is vulnerable to and that can be exploited via prompt injection. This post takes it further by demonstrating how Jules can be convinced to download malware and join a remote command & control server.
-This research was performed in May 2025 and findings were shared with Google.
-Remote Command & Control - Proof Of Concept The basic attack chain follows the classic AI Kill Chain:]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Jules: Vulnerable to Multiple Data Exfiltration Issues]]></title>
-        <id>https://embracethered.com/blog/posts/2025/google-jules-vulnerable-to-data-exfiltration-issues/</id>
-        <link href="https://embracethered.com/blog/posts/2025/google-jules-vulnerable-to-data-exfiltration-issues/"/>
-        <updated>2025-08-14T01:20:58.000Z</updated>
-        <summary type="html"><![CDATA[This post explores data exfiltration attacks in Google Jules, an asynchronous coding agent. This is the first of three posts that will highlight my research on Google Jules in May 2025. All information provided was also shared with Google at that time.
-This first post will focus on data exfiltration, the lethal trifecta.
-But let’s first talk about Jules’ system prompt.
-Jules’ System Prompt and Multiple Agents To grab the system prompt I just asked it to write it into a file.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Know What You Did (in Azure) Last Summer]]></title>
-        <id>https://www.netspi.com/?p=28093</id>
-        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/azure-resource-attribution-via-tenant-id-enumeration/"/>
-        <updated>2025-08-13T20:14:35.000Z</updated>
-        <summary type="html"><![CDATA[At DEF CON 33, NetSPI presented a talk about how Azure resources supporting Entra ID authentication expose tenant IDs, enabling attackers to attribute cloud resources to specific organizations at scale.
-The post We Know What You Did (in Azure) Last Summer appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Karl Fosaaen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT Gmail Connector: OpenAI’s next flop?]]></title>
-        <id>https://4sysops.com/?p=1599276</id>
-        <link href="https://4sysops.com/archives/chatgpt-gmail-connector-openais-next-flop/"/>
-        <updated>2025-08-13T15:29:55.000Z</updated>
-        <summary type="html"><![CDATA[The ChatGPT Gmail connector was first released in June 2025 for Plus, Pro, Team, Enterprise, and Edu users. However, because of alleged data protection rules, users in the European Economic Area, Switzerland, and the UK were excluded. OpenAI is now deploying connectors for Gmail, Google Calendar, Google Drive, and GitHub across Europe for all plans—notably after Anthropic released their MCP connectors weeks ago in Europe without such concerns, suggesting OpenAI's initial data protection claims were merely pretextual or that MCP has no priority status for the AI company. The announcement mentions Google Contacts, but this connector isn't yet accessible in my ChatGPT with a Plus plan. I tested the Gmail Connector, and following GPT-5's disastrous launch, it appears OpenAI released another flop immediately afterward.
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
