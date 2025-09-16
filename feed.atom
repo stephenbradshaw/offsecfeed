@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-15T00:54:37.295Z</updated>
+    <updated>2025-09-16T00:30:29.042Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Security Tip #3: Computer Accounts]]></title>
+        <id>https://adsecurity.org/?p=4583</id>
+        <link href="https://adsecurity.org/?p=4583"/>
+        <updated>2025-09-16T00:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Active Directory computers should be reviewed about once a year. Old operating systems can hold back security progress like keeping SMBv1 and NTLMv1 active. Inactive computers should be discovered and disabled when no longer in use (and eventually removed). The OperatingSystem & PasswordLastSet attributes are self-explanatory, though we can use the LastLogonDate which represents the … 
+Continue reading]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Forest & Domain Levels]]></title>
+        <id>https://adsecurity.org/?p=4661</id>
+        <link href="https://adsecurity.org/?p=4661"/>
+        <updated>2025-09-16T00:01:00.000Z</updated>
+        <summary type="html"><![CDATA[An important Active Directory setting determines what security capabilities are available which relates to the level of the forest and/or domain. This post is meant to collect the relevant capabilities of Windows domain and forest functional levels. Forest Functional Level Features: Domain Functional Level Features: References: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10) https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Active Directory Password Spraying Article]]></title>
+        <id>https://adsecurity.org/?p=4638</id>
+        <link href="https://adsecurity.org/?p=4638"/>
+        <updated>2025-09-15T19:17:00.000Z</updated>
+        <summary type="html"><![CDATA[I recently published an article on the TrustedSec blog site called “Detecting Active Directory Password-Spraying with a Honeypot Account“. This article describes how to use an Active Directory honeypot account in order to detect Password Spraying. Read the article here:https://trustedsec.com/blog/detecting-password-spraying-with-a-honeypot-account]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTLM authentication deprecation: new BlockNTLMv1SSO registry key and Group Policy settings]]></title>
+        <id>https://4sysops.com/?p=1600560</id>
+        <link href="https://4sysops.com/archives/ntlm-authentication-deprecation-new-blockntlmv1sso-registry-key-and-group-policy-settings/"/>
+        <updated>2025-09-15T17:08:16.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has introduced a new BlockNTLMv1SSO registry key in Windows 11 24H2 and Windows Server 2025 as part of its broader initiative to deprecate NTLM authentication. The new registry key allows administrators to control NTLMv1-derived credential usage. These changes address ongoing security vulnerabilities in NTLM while providing organizations time to transition to modern alternatives like Kerberos.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Active Directory Security Tip #2: Active Directory User Accounts]]></title>
         <id>https://adsecurity.org/?p=4580</id>
@@ -153,6 +195,18 @@ For September, Adobe released nine bulletins addressing 22 unique CVEs in Adobe 
         <summary type="html"><![CDATA[Versioning in the detection library is crucial for maintaining traceability and tracking changes to individual detections and content packs. It enables us to pinpoint the exact state of specific detections at a given point in time, provides a clear history of updates, and facilitates troubleshooting and debugging by identifying which version introduced particular changes.]]></summary>
         <author>
             <name>Stamatis Chatzimangou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Part 6: Recreating Cobalt Strike’s Process Injection Kit]]></title>
+        <id>68bf71343918700001b6a0bf</id>
+        <link href="https://c0rnbread.com/part-6-recreating-cobalt-strikes-process-injection-kit/"/>
+        <updated>2025-09-09T02:02:24.000Z</updated>
+        <summary type="html"><![CDATA[Background
+Process injection or code injection is a technique in which you copy and execute arbitrary code to a target process. It is often used in Offensive Security to execute tasks under the context of another legitimate process on the system.
+Before this blog my Mythic C2 agent, Xenon, only]]></summary>
+        <author>
+            <name>c0rnbread</name>
         </author>
     </entry>
     <entry>
@@ -12841,40 +12895,6 @@ At a high level Amazon Q Developer can leak sensitive information from a develop
 Source]]></summary>
         <author>
             <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Exfiltration via Image Rendering Fixed in Amp Code]]></title>
-        <id>https://embracethered.com/blog/posts/2025/amp-code-fixed-data-exfiltration-via-images/</id>
-        <link href="https://embracethered.com/blog/posts/2025/amp-code-fixed-data-exfiltration-via-images/"/>
-        <updated>2025-08-17T11:10:58.000Z</updated>
-        <summary type="html"><![CDATA[In this post we discuss a vulnerability that was present in Amp Code from Sourcegraph by which an attacker could exploit markdown driven image rendering to exfiltrate sensitive information.
-This vulnerability is common in AI applications and agents, and it’s actually similar to one we discussed last year in GitHub Copilot which Microsoft fixed.
-Exploit Demonstration For the proof-of-concept I use a pre-existing demo that created a longer time ago.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 150]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10106</id>
-        <link href="https://www.hexacorn.com/blog/2025/08/17/beyond-good-ol-run-key-part-150/"/>
-        <updated>2025-08-17T00:08:34.000Z</updated>
-        <summary type="html"><![CDATA[I decided to add this post to this old series, but the scope of this post is – as you will find out soon – much wider. You will find servercoreshell.exe program to be present on both Windows Server 2022 … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amp Code: Invisible Prompt Injection Fixed by Sourcegraph]]></title>
-        <id>https://embracethered.com/blog/posts/2025/amp-code-fixed-invisible-prompt-injection/</id>
-        <link href="https://embracethered.com/blog/posts/2025/amp-code-fixed-invisible-prompt-injection/"/>
-        <updated>2025-08-16T19:20:58.000Z</updated>
-        <summary type="html"><![CDATA[In this post we will look at Amp, a coding agent from Sourcegraph. The other day we discussed how invisible instructions impact Google Jules.
-Turns out that many client applications are vulnerable to these kinds of attacks when they use models that support invisible instructions, like Claude.
-Invisible Unicode Tag Characters Interpreted as Instructions We have talked about hidden prompt injections quite a bit in the past, and so I’m keeping this short.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
         </author>
     </entry>
     <entry>
