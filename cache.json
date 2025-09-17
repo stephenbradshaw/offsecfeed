@@ -275,6 +275,26 @@
       "siteUrl": "https://adsecurity.org",
       "articles": [
         {
+          "id": "https://adsecurity.org/?p=4607",
+          "author": "Sean Metcalf",
+          "description": "There are several default/built-in privileged groups that should be reviewed: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups PowerShell Script leveraging the Active Directory PowerShell module: https://github.com/PyroTek3/Misc/blob/main/Get-ADBuiltInAdmins.ps1",
+          "link": "https://adsecurity.org/?p=4607",
+          "publishedOn": "2025-09-17T00:03:00.000Z",
+          "wordCount": 1538,
+          "title": "Active Directory Security Tip #4: Default/Built-In Active Directory Groups",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GzNrh03X0AANTqH.jpg"
+        },
+        {
+          "id": "https://adsecurity.org/?p=4670",
+          "author": "Sean Metcalf",
+          "description": "Over the summer, I rebuilt my Active Directory lab environment with multiple regional domains. Instead of manually configuring common issues, I decided to create a PowerShell script to do this for me. My Invoke-ADLabBuildOut script does the following: PowerShell AD lab build out script leveraging the Active Directory PowerShell module:https://github.com/PyroTek3/ADLab",
+          "link": "https://adsecurity.org/?p=4670",
+          "publishedOn": "2025-09-17T00:00:00.000Z",
+          "wordCount": 1491,
+          "title": "Active Directory Lab Build Script",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/G06GA6tXwAAFY5y-1.png"
+        },
+        {
           "id": "https://adsecurity.org/?p=4583",
           "author": "Sean Metcalf",
           "description": "Active Directory computers should be reviewed about once a year. Old operating systems can hold back security progress like keeping SMBv1 and NTLMv1 active. Inactive computers should be discovered and disabled when no longer in use (and eventually removed). The OperatingSystem & PasswordLastSet attributes are self-explanatory, though we can use the LastLogonDate which represents the … \nContinue reading",
@@ -13688,6 +13708,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=6222",
+          "author": "Justin Copeland",
+          "description": "Overview At Black Hat and DEF CON, we demonstrated how red teams could tunnel traffic through everyday collaboration platforms like Zoom and Microsoft Teams, effectively transforming them into covert communication channels for command-and-control. That research highlighted a critical blind spot: defenders rarely block traffic to core business services because doing so would disrupt legitimate operations. […]\nThe post Domain Fronting is Dead. Long Live Domain Fronting! appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/domain-fronting-is-dead-long-live-domain-fronting/",
+          "publishedOn": "2025-09-16T18:49:23.000Z",
+          "wordCount": 8160,
+          "title": "Domain Fronting is Dead. Long Live Domain Fronting!",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/09/domain-fronting-hero.jpg"
+        },
+        {
           "id": "https://www.praetorian.com/?p=6240",
           "author": "Justin Copeland",
           "description": "Legacy point-in-time penetration testing was first implemented in the 1960s, back when networks were static, attackers were hobbyists, and change happened slowly. We live in a very different world now. The practice of testing annually was shaped for a world that no longer exists; one without dynamic cloud infrastructure, identity sprawl, or AI-accelerated threats. And […]\nThe post The Security Time Capsule: Evolving Beyond Legacy Pen Testing appeared first on Praetorian.",
@@ -13784,6 +13814,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2025/09/16/ficklings-new-ai/ml-pickle-file-scanner/",
+          "author": null,
+          "description": "We’ve added a pickle file scanner to Fickling that uses an allowlist approach to protect AI/ML environments from malicious pickle files that could compromise models or infrastructure.",
+          "link": "https://blog.trailofbits.com/2025/09/16/ficklings-new-ai/ml-pickle-file-scanner/",
+          "publishedOn": "2025-09-16T11:00:00.000Z",
+          "wordCount": 1333,
+          "title": "Fickling’s new AI/ML pickle file scanner",
+          "imageUrl": "https://blog.trailofbits.com/img/ficklings-new-file-scanner/fickling-pickle-scanner.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2025/09/10/how-sui-move-rethinks-flash-loan-security/",
           "author": null,
@@ -13954,6 +13994,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1600594",
+          "author": "IT Experts",
+          "description": "Microsoft’s September 2025 security updates have broken connectivity to SMBv1 shares over NetBIOS over TCP/IP (NetBT), disrupting Windows client and server systems that still rely on this legacy protocol. This article explains what SMBv1 is, why it remains in use despite being deprecated, and the serious security risks that come with it. We’ll cover the details of the September updates, their impact on affected systems, and the available workarounds for organizations struggling to restore functionality. Finally, we’ll look at user feedback and long-term recommendations for migrating away from SMBv1 to more secure and modern protocols.\nSource",
+          "link": "https://4sysops.com/archives/windows-september-updates-break-smbv1-shares-workarounds-and-user-feedback/",
+          "publishedOn": "2025-09-16T15:00:38.000Z",
+          "wordCount": 5761,
+          "title": "Windows September updates break SMBv1 shares: Workarounds and user feedback",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2025/09/SMBv1-is-disabled-by-default-in-new-versions-of-Windows-Server.png"
+        },
         {
           "id": "https://4sysops.com/?p=1600560",
           "author": "IT Experts",
@@ -14214,6 +14264,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=42840",
+          "author": "Alex Wallace",
+          "description": "TL;DR Why Discord appeals to attackers Discord has become an attractive tool for attackers not because it’s malicious, but because it’s legitimate and trusted. It often flies under the radar of security controls and offers features that make it easy to send data out without user interaction or elevated permissions. We’ve seen similar misuse across […]\nThe post Discord as a C2 and the cached evidence left behind appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/discord-as-a-c2-and-the-cached-evidence-left-behind/",
+          "publishedOn": "2025-09-16T09:21:00.000Z",
+          "wordCount": 3060,
+          "title": "Discord as a C2 and the cached evidence left behind",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/09/Discord-as-a-C2-and-the-cached-evidence-left-behind-headlinev2.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=42811",
           "author": "Alex Wallace",
@@ -14538,6 +14598,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/state-of-the-saas-security-union",
+          "author": null,
+          "description": "Two threat groups are exploiting SaaS at scale: one with phishing and data theft, the other with nation-state level tactics exploiting integrations and credentials. Here’s what you need to know and how to protect against the next wave.",
+          "link": "https://bishopfox.com/blog/state-of-the-saas-security-union",
+          "publishedOn": "2025-09-16T13:00:00.000Z",
+          "wordCount": 1716,
+          "title": "State of the SaaS Security Union",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/bfx25_BishopFox-Blog-SaaS-Security-Union-OG.jpg?mtime=1758059826"
+        },
         {
           "id": "https://bishopfox.com/blog/demystifying-5g-security-understanding-the-registration-protocol",
           "author": null,
