@@ -65,6 +65,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "websocket-turbo-intruder-unearthing-the-websocket-goldmine",
+          "author": null,
+          "description": "Many testers and tools give up the moment a protocol upgrade to WebSocket occurs, or only perform shallow analysis. This is a huge blind spot, leaving many bugs like Broken Access Controls, Race condi",
+          "link": "https://portswigger.net/research/websocket-turbo-intruder-unearthing-the-websocket-goldmine",
+          "publishedOn": "2025-09-17T12:40:06.000Z",
+          "wordCount": 2165,
+          "title": "WebSocket Turbo Intruder: Unearthing the WebSocket Goldmine",
+          "imageUrl": "https://portswigger.net/cms/images/a8/06/be9f-twittercard-twitter-ws.png"
+        },
+        {
           "id": "cookie-chaos-how-to-bypass-host-and-secure-cookie-prefixes",
           "author": null,
           "description": "Browsers added cookie prefixes to protect your sessions and stop attackers from setting harmful cookies. In this post, you’ll see how to bypass cookie defenses using discrepancies in browser and serve",
@@ -275,6 +285,16 @@
       "siteUrl": "https://adsecurity.org",
       "articles": [
         {
+          "id": "https://adsecurity.org/?p=4586",
+          "author": "Sean Metcalf",
+          "description": "In every Active Directory domain, there’s the default domain Administrator account. Here are some key items to check: PowerShell for current domain using the AD PowerShell cmdlets:",
+          "link": "https://adsecurity.org/?p=4586",
+          "publishedOn": "2025-09-18T00:03:00.000Z",
+          "wordCount": 1447,
+          "title": "Active Directory Security Tip #5: The Default Domain Administrator Account",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/Gva7TGYWUAA60cl.png"
+        },
+        {
           "id": "https://adsecurity.org/?p=4607",
           "author": "Sean Metcalf",
           "description": "There are several default/built-in privileged groups that should be reviewed: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups PowerShell Script leveraging the Active Directory PowerShell module: https://github.com/PyroTek3/Misc/blob/main/Get-ADBuiltInAdmins.ps1",
@@ -343,26 +363,6 @@
           "wordCount": 1547,
           "title": "Active Directory Security Tip #1: Active Directory Admins",
           "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GyzetbQWcAANFVq.jpg"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4510",
-          "author": "Sean Metcalf",
-          "description": "This article was originally posted on the Trimarc Content Hub on August 6, 2020.Updated here with authentication PowerShell code on August 18, 2025. ADSecurity.org is the new home for this article and all updates will occur here. I have had the idea for a post describing how to best create a honeypot (or honeytoken) account … \nContinue reading",
-          "link": "https://adsecurity.org/?p=4510",
-          "publishedOn": "2025-08-19T01:45:00.000Z",
-          "wordCount": 4134,
-          "title": "The Art of the Honeypot Account: Making the Unusual Look Normal",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/08/bf9d03_4ebdbeea7f874595a727ac691f6333c3mv2.png"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4517",
-          "author": "Sean Metcalf",
-          "description": "This article was originally posted on the Trimarc Content Hub on February 10, 2017. A common method attackers leverage as well as many penetration testers and Red Teamers is called “password spraying”. Password spraying is interesting because it’s automated password guessing. This automated password guessing against all users typically avoids account lockout since the logon … \nContinue reading",
-          "link": "https://adsecurity.org/?p=4517",
-          "publishedOn": "2025-08-19T01:30:00.000Z",
-          "wordCount": 2323,
-          "title": "Detecting Password Spraying with Security Event Auditing",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/08/bf9d03_16a102d596d4451089473fb3bd6b5151mv2.jpg"
         }
       ]
     },
@@ -430,6 +430,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "d443284b-8788-4599-b228-70a423cab6f8",
+          "author": null,
+          "description": "David Brauchler III delivers a fascinating Black Hat talk on the root cause of AI-based vulnerabilities and why security architecture is the real solution.",
+          "link": "https://www.nccgroup.com/research-blog/when-guardrails-arent-enough-reinventing-agentic-ai-security-with-architectural-controls/",
+          "publishedOn": "2025-09-18T00:48:46.752Z",
+          "wordCount": 1934,
+          "title": "When Guardrails Aren't Enough: Reinventing Agentic AI Security With Architectural Controls",
+          "imageUrl": null
+        },
         {
           "id": "a3c928e5-d12a-4f8d-9ea5-8bdbc263bd9f",
           "author": null,
@@ -13689,16 +13699,6 @@
           "wordCount": 1849,
           "title": "Public Report: Meta Whatsapp message summarization service",
           "imageUrl": null
-        },
-        {
-          "id": "413e3ca1-eead-47c1-9b7b-b6fc54638306",
-          "author": null,
-          "description": "",
-          "link": "https://www.nccgroup.com/research-blog/a-look-at-rtems-security/",
-          "publishedOn": "2025-08-19T00:54:50.279Z",
-          "wordCount": 1757,
-          "title": "A Look at RTEMS Security",
-          "imageUrl": null
         }
       ]
     },
@@ -13771,16 +13771,6 @@
           "publishedOn": "2025-09-01T22:00:00.000Z",
           "wordCount": 2820,
           "title": "ksmbd - Fuzzing Improvements and Vulnerability Discovery (2/3)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2025/08/19/trivial-exploit-on-C-random.html",
-          "author": null,
-          "description": "Exploiting random number generators requires math, right? Thanks to C#’s\nRandom, that is not necessarily the case! I ran into an HTTP 2.0 web service\nissuing password reset tokens from a custom encoding of (new Random()).Next(min, max) output. \nThis led to a critical account takeover.\nExploitation did not require scripting, math or libraries. Just several clicks\nin Burp. While I had source code, I will show a method of discovering and\nexploiting this vulnerability in a black-box or bug-bounty style engagement.\nThe exploit uses no math, but I do like math. So, there is a bonus section on how to\noptimize and invert Random.\nThe Vulnerability\nI can’t share the client code, but it was something like this:\n\nvar num = new Random().Next(min, max);\nvar token = make_password_reset_token(num);\nsave_r…",
-          "link": "https://blog.doyensec.com/2025/08/19/trivial-exploit-on-C-random.html",
-          "publishedOn": "2025-08-18T22:00:00.000Z",
-          "wordCount": 2548,
-          "title": "Trivial C# Random Exploitation",
           "imageUrl": null
         }
       ]
@@ -13893,16 +13883,6 @@
           "wordCount": 1580,
           "title": "Weaponizing image scaling against production AI systems",
           "imageUrl": "https://blog.trailofbits.com/img/image_scaling_figure_1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/08/20/marshal-madness-a-brief-history-of-ruby-deserialization-exploits/",
-          "author": null,
-          "description": "This post traces the decade-long evolution of Ruby Marshal deserialization exploits, demonstrating how security researchers have repeatedly bypassed patches and why fundamental changes to the Ruby ecosystem are needed rather than continued patch-and-hope approaches.",
-          "link": "https://blog.trailofbits.com/2025/08/20/marshal-madness-a-brief-history-of-ruby-deserialization-exploits/",
-          "publishedOn": "2025-08-19T11:00:00.000Z",
-          "wordCount": 2150,
-          "title": "Marshal madness: A brief history of Ruby deserialization exploits",
-          "imageUrl": "https://blog.trailofbits.com/img/ruby-deserialization-exploits-timeline.svg"
         }
       ]
     },
@@ -13994,6 +13974,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1600498",
+          "author": "Leos Marek",
+          "description": "The Print and Document Services role facilitates the deployment and configuration of print servers. This article explains how to migrate a Print Server role to Windows Server 2025, covering the transfer of queues, drivers, and configurations.\nSource",
+          "link": "https://4sysops.com/archives/migrate-a-print-server-to-windows-server-2025/",
+          "publishedOn": "2025-09-17T19:31:36.000Z",
+          "wordCount": null,
+          "title": "Migrate a Print Server to Windows Server 2025",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1600594",
           "author": "IT Experts",
@@ -14202,16 +14192,6 @@
           "publishedOn": "2025-08-19T16:33:03.000Z",
           "wordCount": null,
           "title": "Install Ollama with OpenAI gpt-oss-20b on Ubuntu within an EC2 instance",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1599438",
-          "author": "Michael Pietroforte",
-          "description": "OpenAI recently released its first open-weight models,  gpt-oss-20b and gpt‑oss-120b, which you can download and run with Ollama. If security and privacy are essential when using AI models, you might not want to use the vendor's chat UI or API. The most powerful AI models require significant computing power and memory, and many desktop devices cannot run these models. Although Ollama was not designed with remote connections in mind, it is still possible. In this series, I will explain how to install OpenAI's open-weight models using Ollama and connect to them remotely from various applications, including VS Code GitHub Copilot. In this first post, I will outline how to choose the right size for your virtual machine, using EC2 instance types in AWS as an example.\nSource",
-          "link": "https://4sysops.com/archives/running-openai-gpt-oss-20b-and-gptoss-120b-in-aws-on-your-own-ec2-instance/",
-          "publishedOn": "2025-08-18T16:17:43.000Z",
-          "wordCount": null,
-          "title": "Running OpenAI gpt-oss-20b and gpt‑oss-120b in AWS on your own EC2 instance",
           "imageUrl": null
         }
       ]
@@ -14466,16 +14446,6 @@
           "publishedOn": "2025-08-19T21:20:58.000Z",
           "wordCount": 2027,
           "title": "Amazon Q Developer: Remote Code Execution with Prompt Injection",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/amazon-q-developer-data-exfil-via-dns/",
-          "author": null,
-          "description": "The next three posts will cover high severity vulnerabilities in the Amazon Q Developer VS Code Extension (Amazon Q Developer), which is a very popular coding agent, with over 1 million downloads.\nIt is vulnerable to prompt injection from untrusted data and its security depends heavily on model behavior.\nAt a high level Amazon Q Developer can leak sensitive information from a developer’s machine, e.g. API keys, to external servers via DNS requests.",
-          "link": "https://embracethered.com/blog/posts/2025/amazon-q-developer-data-exfil-via-dns/",
-          "publishedOn": "2025-08-18T19:20:58.000Z",
-          "wordCount": 1296,
-          "title": "Amazon Q Developer: Secrets Leaked via DNS and Prompt Injection",
           "imageUrl": null
         }
       ]
