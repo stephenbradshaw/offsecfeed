@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-19T00:51:43.256Z</updated>
+    <updated>2025-09-19T05:15:19.985Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -86,6 +86,16 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>Leos Marek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens]]></title>
+        <id>https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/</id>
+        <link href="https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/"/>
+        <updated>2025-09-17T13:00:57.000Z</updated>
+        <summary type="html"><![CDATA[While preparing for my Black Hat and DEF CON talks in July of this year, I found the most impactful Entra ID vulnerability that I will probably ever find. One that could have allowed me to compromise every Entra ID tenant in the world (except probably those in national cloud deployments). If you are an Entra ID admin reading this, yes that means complete access to your tenant. The vulnerability consisted of two components: undocumented impersonation tokens that Microsoft uses in their backend for service-to-service (S2S) communication, called "Actor tokens", and a critical vulnerability in the (legacy) Azure AD Graph API that did not properly validate the originating tenant, allowing these tokens to be used for cross-tenant access.]]></summary>
+        <author>
+            <name>dirkjanm.io</name>
         </author>
     </entry>
     <entry>
@@ -12894,17 +12904,6 @@ Overall, the security vulnerability reporting experience with Windsurf has not b
 The post Start hacking Bluetooth Low Energy today! (part 1) appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proxmox VE 9.0]]></title>
-        <id>https://4sysops.com/?p=1599530</id>
-        <link href="https://4sysops.com/archives/proxmox-ve-90/"/>
-        <updated>2025-08-20T17:06:41.000Z</updated>
-        <summary type="html"><![CDATA[In my previous post, I covered the new features in Proxmox Backup Server 4.0. Released simultaneously, Proxmox Virtual Environment (VE) 9.0 also merits attention. It runs on Debian 13 Trixie with Kernel 6.14 and includes updated QEMU, LXC, ZFS, and Ceph versions. More significantly, it introduces modifications affecting storage management, networking, and high availability within your virtual setup. This article examines these updates more closely, providing commands and examples you can test on your own system.
-Source]]></summary>
-        <author>
-            <name>Surender Kumar</name>
         </author>
     </entry>
     <entry>

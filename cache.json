@@ -14213,16 +14213,6 @@
           "wordCount": null,
           "title": "Remote HTTP access to self-hosted Ollama AI models",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1599530",
-          "author": "Surender Kumar",
-          "description": "In my previous post, I covered the new features in Proxmox Backup Server 4.0. Released simultaneously, Proxmox Virtual Environment (VE) 9.0 also merits attention. It runs on Debian 13 Trixie with Kernel 6.14 and includes updated QEMU, LXC, ZFS, and Ceph versions. More significantly, it introduces modifications affecting storage management, networking, and high availability within your virtual setup. This article examines these updates more closely, providing commands and examples you can test on your own system.\nSource",
-          "link": "https://4sysops.com/archives/proxmox-ve-90/",
-          "publishedOn": "2025-08-20T17:06:41.000Z",
-          "wordCount": null,
-          "title": "Proxmox VE 9.0",
-          "imageUrl": null
         }
       ]
     },
@@ -14731,6 +14721,23 @@
           "publishedOn": "2025-09-09T02:02:24.000Z",
           "wordCount": 2276,
           "title": "Part 6: Recreating Cobalt Strike’s Process Injection Kit",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "dirkjanm.io",
+      "feedUrl": "https://dirkjanm.io/feed.xml",
+      "siteUrl": "https://dirkjanm.io/",
+      "articles": [
+        {
+          "id": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
+          "author": null,
+          "description": "While preparing for my Black Hat and DEF CON talks in July of this year, I found the most impactful Entra ID vulnerability that I will probably ever find. One that could have allowed me to compromise every Entra ID tenant in the world (except probably those in national cloud deployments). If you are an Entra ID admin reading this, yes that means complete access to your tenant. The vulnerability consisted of two components: undocumented impersonation tokens that Microsoft uses in their backend for service-to-service (S2S) communication, called \"Actor tokens\", and a critical vulnerability in the (legacy) Azure AD Graph API that did not properly validate the originating tenant, allowing these tokens to be used for cross-tenant access.",
+          "link": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
+          "publishedOn": "2025-09-17T13:00:57.000Z",
+          "wordCount": 3756,
+          "title": "One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens",
           "imageUrl": null
         }
       ]
