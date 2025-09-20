@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-19T05:15:19.985Z</updated>
+    <updated>2025-09-20T00:48:14.682Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Security Tip #7: The Tombstone Lifetime]]></title>
+        <id>https://adsecurity.org/?p=4600</id>
+        <link href="https://adsecurity.org/?p=4600"/>
+        <updated>2025-09-20T00:03:00.000Z</updated>
+        <summary type="html"><![CDATA[The Tombstone lifetime (TSL) in Active Directory is the limit as to how long a deleted object can remain in AD. The original value was 60 (days). Windows versions since Windows 2003 SP2 have this set to 180 (days). Note that this also affects backups, how long a backup is valid and replication – if … 
+Continue reading]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RunDll Exporters]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10148</id>
+        <link href="https://www.hexacorn.com/blog/2025/09/19/rundll-exporters/"/>
+        <updated>2025-09-19T23:13:50.000Z</updated>
+        <summary type="html"><![CDATA[One of the most interesting classes of functions that are exported by DLLs are functions that use the RunDll interface (this archived article describes it). Thanks to traditional (today kinda old-school) programming conventions, many coders name their exported functions compatible … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enter Sandbox 30: Static Analysis gone wrong]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10140</id>
+        <link href="https://www.hexacorn.com/blog/2025/09/19/enter-sandbox-30-static-analysis-gone-wrong/"/>
+        <updated>2025-09-19T22:18:42.000Z</updated>
+        <summary type="html"><![CDATA[This series is quite old, and I kinda abandoned it at some stage, but today I am reviving it to talk about … static analysis… Let’s be honest – last 2 decades changed the way we do malware analysis, and … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prompts as Code & Embedded Keys | The Hunt for LLM-Enabled Malware]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=133005</id>
+        <link href="https://www.sentinelone.com/labs/prompts-as-code-embedded-keys-the-hunt-for-llm-enabled-malware/"/>
+        <updated>2025-09-19T16:50:14.000Z</updated>
+        <summary type="html"><![CDATA[LLM-enabled malware poses new challenges for detection. SentinelLABS presents groundbreaking research on how to hunt for this new class of threats.]]></summary>
+        <author>
+            <name>Alex Delamotte, Vitaly Kamluk &amp; Gabriel Bernadett-Shapiro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware vCenter Converter Standalone 9.0 new features]]></title>
+        <id>https://4sysops.com/?p=1600730</id>
+        <link href="https://4sysops.com/archives/vmware-vcenter-converter-standalone-90-new-features/"/>
+        <updated>2025-09-19T16:37:24.000Z</updated>
+        <summary type="html"><![CDATA[VMware has released vCenter Converter Standalone 9.0, introducing support for VMware Cloud Foundation 9.0, virtual hardware version 22, and expanded Linux synchronization capabilities. The latest iteration brings technical enhancements and addresses several conversion limitations while maintaining the tool's core physical-to-virtual machine migration functionality.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Look at RTEMS Security]]></title>
         <id>413e3ca1-eead-47c1-9b7b-b6fc54638306</id>
@@ -12870,40 +12922,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Cybersecurity faces a paradox: millions of jobs go unfilled while eager newcomers struggle to break in. This blog explores why the gap exists—and how mentorship, realistic hiring, and early-career programs can transform the shortage into a sustainable talent pipeline.]]></summary>
         <author>
             <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weaponizing image scaling against production AI systems]]></title>
-        <id>https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/</id>
-        <link href="https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/"/>
-        <updated>2025-08-21T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we’ll detail how attackers can exploit image scaling on Gemini CLI, Vertex AI Studio, Gemini’s web and API interfaces, Google Assistant, Genspark, and other production AI systems. We’ll also explain how to mitigate and defend against these attacks, and we’ll introduce Anamorpher, our open-source tool that lets you explore and generate these crafted images.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hijacking Windsurf: How Prompt Injection Leaks Developer Secrets]]></title>
-        <id>https://embracethered.com/blog/posts/2025/windsurf-data-exfiltration-vulnerabilities/</id>
-        <link href="https://embracethered.com/blog/posts/2025/windsurf-data-exfiltration-vulnerabilities/"/>
-        <updated>2025-08-21T09:20:58.000Z</updated>
-        <summary type="html"><![CDATA[This is the first post in a series exploring security vulnerabilities in Windsurf. If you are unfamiliar with Windsurf, it is a fork of VS Code and the coding agent is called Windsurf Cascade.
-The attack vectors we will explore today allow an adversary during an indirect prompt injection to exfiltrate data from the developer’s machine.
-These vulnerabilities are a great example of Simon Willison’s lethal trifecta pattern.
-Overall, the security vulnerability reporting experience with Windsurf has not been great.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start hacking Bluetooth Low Energy today! (part 1)]]></title>
-        <id>https://www.pentestpartners.com/?p=42572</id>
-        <link href="https://www.pentestpartners.com/security-blog/start-hacking-bluetooth-low-energy-today-part-1/"/>
-        <updated>2025-08-21T08:14:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Before you start First off, before we start  Bluetooth hacking can be confusing, there are lots of references to tools that are a bit outdated, scripts that don’t run, and more. The actual Bluetooth specs are huge, but honestly, who cares as long as you can make a device do a thing? If we […]
-The post Start hacking Bluetooth Low Energy today! (part 1) appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
         </author>
     </entry>
     <entry>
