@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-24T00:51:04.496Z</updated>
+    <updated>2025-09-25T00:51:12.326Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cross-Agent Privilege Escalation: When Agents Free Each Other]]></title>
+        <id>https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/</id>
+        <link href="https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/"/>
+        <updated>2025-09-24T19:20:58.000Z</updated>
+        <summary type="html"><![CDATA[During the Month of AI Bugs, I described an emerging vulnerability pattern that shows how commonly agentic systems have a design flaw that allows an agent to overwrite its own configuration and security settings.
+This allows the agent to break out of its sandbox and escape by executing arbitrary code.
+My research with GitHub Copilot, AWS Kiro and a few others demonstrated how this can be exploited by an adversary with an indirect prompt injection.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2025-23298: Getting Remote Code Execution in NVIDIA Merlin]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68d33f8bf584cf52223cf0c5</id>
+        <link href="https://www.thezdi.com/blog/2025/9/23/cve-2025-23298-getting-remote-code-execution-in-nvidia-merlin"/>
+        <updated>2025-09-24T16:41:25.000Z</updated>
+        <summary type="html"><![CDATA[While investigating the security posture of various machine learning (ML) and artificial intelligence (AI) frameworks, the Trend Micro Zero Day Initiative (ZDI) Threat Hunting Team discovered a critical vulnerability in the NVIDIA Merlin Transformers4Rec library that could allow an attacker to achieve remote code execution with root privileges. This vulnerability, tracked as CVE-2025-23298, stems from unsafe deserialization practices in the model checkpoint loading functionality. What makes this finding particularly interesting is not just the vulnerability itself, but how it highlights the endemic security challenges facing the ML/AI ecosystem’s reliance on Python’s pickle serialization.
+In this post, I’ll walk through the discovery process, demonstrate the exploitation technique, analyze…]]></summary>
+        <author>
+            <name>Peter Girnus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Administrative Templates (ADMX/ADML) for Windows, Outlook, Word, Excel, and OneNote]]></title>
+        <id>https://4sysops.com/?p=1600863</id>
+        <link href="https://4sysops.com/archives/new-administrative-templates-admxadml-for-outlook-word-excel-and-onenote/"/>
+        <updated>2025-09-24T16:24:07.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has released significant updates to Administrative Templates (ADMX/ADML files) throughout 2025, introducing new Group Policy options for Windows 11 and Microsoft Office applications. These templates enable IT administrators to manage registry-based policy settings through Group Policy and Microsoft Intune.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities]]></title>
+        <id>welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities</id>
+        <link href="https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities"/>
+        <updated>2025-09-24T14:17:34.000Z</updated>
+        <summary type="html"><![CDATA[Whether you’re navigating a client pentest or chasing a bounty target, even the most experienced testers hit roadblocks, burn time on repetitive tasks, or just want a second opinion. Burp AI is design]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is This Bad? This Feels Bad. (Fortra GoAnywhere CVE-2025-10035)]]></title>
+        <id>68d3cf70c129330001cc7a02</id>
+        <link href="https://labs.watchtowr.com/is-this-bad-this-feels-bad-goanywhere-cve-2025-10035/"/>
+        <updated>2025-09-24T13:01:28.000Z</updated>
+        <summary type="html"><![CDATA[File transfer used to be simple fun - fire up your favourite FTP client, log in to a glFTPd site, and you were done.
+Fast forward to 2025, and the same act requires a procurement team, a web interface, and a vendor proudly waving their Secure by Design pledge. 
+Ever]]></summary>
+        <author>
+            <name>Sonny</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supply chain attacks are exploiting our assumptions]]></title>
+        <id>https://blog.trailofbits.com/2025/09/24/supply-chain-attacks-are-exploiting-our-assumptions/</id>
+        <link href="https://blog.trailofbits.com/2025/09/24/supply-chain-attacks-are-exploiting-our-assumptions/"/>
+        <updated>2025-09-24T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Supply chain attacks exploit fundamental trust assumptions in modern software development, from typosquatting to compromised build pipelines, while new defensive tools are emerging to make these trust relationships explicit and verifiable.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to install a MySQL MCP server]]></title>
         <id>https://4sysops.com/?p=1600489</id>
@@ -12876,27 +12942,6 @@ In particular two attack paths that enabled this with AWS Kiro were identified:]
         <summary type="html"><![CDATA[I discovered how to use CSS to steal attribute data without selectors and stylesheet imports! This means you can now exploit CSS injection via style attributes! Learn how below: Someone asked if you c]]></summary>
         <author>
             <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detection Engineering: Practicing Detection-as-Code – Documentation – Part 4]]></title>
-        <id>https://blog.nviso.eu/?p=20884</id>
-        <link href="https://blog.nviso.eu/2025/08/26/detection-engineering-practicing-detection-as-code-documentation-part-4/"/>
-        <updated>2025-08-26T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sufficiently documenting our detections is essential in detection engineering as it provides context around the the purpose, detection logic, and expected behaviour of each detection rule. Just as important as documenting individual detections is tracking how the overall detection library evolves. In this part we are looking into how we can tackle both of those issues.]]></summary>
-        <author>
-            <name>Stamatis Chatzimangou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI browser Comet with efficient ad blocking, Perplexity’s deception and hypocrisy]]></title>
-        <id>https://4sysops.com/?p=1599710</id>
-        <link href="https://4sysops.com/archives/ai-browser-comet-with-efficient-ad-blocking-perplexitys-deception-and-hypocrisy/"/>
-        <updated>2025-08-25T19:03:05.000Z</updated>
-        <summary type="html"><![CDATA[Perplexity's new AI-powered Comet web browser, initially exclusive to Max subscribers at $200 monthly, is now accessible to Pro subscribers for $20. I tested it and am impressed—both by Perplexity's hypocrisy and Comet's truly innovative browsing experience. This post shares my rant against Perplexity, while my next post will praise Comet, the first browser on the battlefield in the new browser war.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
