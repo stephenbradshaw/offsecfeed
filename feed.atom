@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-25T00:51:12.326Z</updated>
+    <updated>2025-09-26T00:50:31.474Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Executing Shellcode with ReadDirectoryChanges’s Hidden Callback]]></title>
+        <id>https://osandamalith.com/?p=4423</id>
+        <link href="https://osandamalith.com/2025/09/25/executing-shellcode-with-readdirectorychangess-hidden-callback/"/>
+        <updated>2025-09-25T21:04:18.000Z</updated>
+        <summary type="html"><![CDATA[While digging into the ReadDirectoryChanges API, I noticed it supports an asynchronous callback via LPOVERLAPPED_COMPLETION_ROUTINE. Most people use this API to monitor file system changes, but what if we could hijack that callback to execute shellcode? This led me to develop a proof-of-concept (PoC) that turns a mundane filesystem monitoring function into a stealthy shellcode […]]]></summary>
+        <author>
+            <name>Osanda Malith Jayathissa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It Is Bad (Exploitation of Fortra GoAnywhere MFT CVE-2025-10035) - Part 2]]></title>
+        <id>68d5935f5523ed000189a865</id>
+        <link href="https://labs.watchtowr.com/it-is-bad-exploitation-of-fortra-goanywhere-mft-cve-2025-10035-part-2/"/>
+        <updated>2025-09-25T19:26:04.000Z</updated>
+        <summary type="html"><![CDATA[We’re back, just over 24 hours later, to share our evolving understanding of CVE-2025-10035.
+Thanks to everyone who reached out after Part 1, and especially to the individual who shared credible intel that informed this update.
+In Part 1 we laid out an odd and worrying picture:
+
+A]]></summary>
+        <author>
+            <name>Ryan Dewhurst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Convert VMware VMs to Hyper-V in Windows Admin Center]]></title>
+        <id>https://4sysops.com/?p=1600930</id>
+        <link href="https://4sysops.com/archives/convert-vmware-vms-to-hyper-v-in-windows-admin-center/"/>
+        <updated>2025-09-25T18:32:23.000Z</updated>
+        <summary type="html"><![CDATA[Windows Admin Center introduces a new tool that enables you to convert VMware virtual machines into Hyper-V, supporting agentless migration with minimal downtime. The extension supports batch conversions of up to 10 VMs at once and uses change block tracking for efficient data replication.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taming 2,500 compiler warnings with CodeQL, an OpenVPN2 case study]]></title>
+        <id>https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/</id>
+        <link href="https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/"/>
+        <updated>2025-09-25T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We created a CodeQL query that reduced 2,500+ compiler warnings about implicit conversions in OpenVPN2 to just 20 high-priority cases, demonstrating how to effectively identify potentially dangerous type conversions in C code.]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Securing Microsoft Entra ID: Lessons from the Field – Part 1]]></title>
+        <id>https://blog.nviso.eu/?p=20855</id>
+        <link href="https://blog.nviso.eu/2025/09/25/securing-microsoft-entra-id-lessons-from-the-field-part-1/"/>
+        <updated>2025-09-25T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This multipart blog series is focused on the real-world lessons learned while securing Microsoft Entra ID. Based on hands-on experience across various environments and organizations, we’ll explore the practical, high-impact strategies that work and more importantly, the common misconfigurations, overlooked settings, and pitfalls that can expose your identity perimeter. Throughout the series, we’ll cover both … Continue reading Securing Microsoft Entra ID: Lessons from the Field – Part 1 →]]></summary>
+        <author>
+            <name>Christos Gourzoulidis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yet Another Random Story: VBScript's Randomize Internals]]></title>
+        <id>https://blog.doyensec.com/2025/09/25/yet-another-random-story.html</id>
+        <link href="https://blog.doyensec.com/2025/09/25/yet-another-random-story.html"/>
+        <updated>2025-09-24T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In one of our recent posts, Dennis shared an interesting case study of C# exploitation that rode on Random-based password-reset tokens. He demonstrated how to use the single-packet attack, or a bit of old-school math, to beat the game. Recently, I performed a security test on a target which had a dependency written in VBScript. This blog post focuses on VBS’s Rnd and shows that the situation there is even worse.
+
+
+
+Target Application
+The application was responsible for generating a secret token. The token was supposed to be unpredictable and expected to remain secret. Here’s a rough copy of the token generation code:
+
+Dim chars, n
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()*&^%$#@!"
+n = 32
+
+function GenerateToken(chars, n)
+	Dim result, pos, i, charsLength
+	cha…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cross-Agent Privilege Escalation: When Agents Free Each Other]]></title>
         <id>https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/</id>
@@ -12866,82 +12944,6 @@ This allows an adversary to exfiltrate sensitive user information during a promp
         <summary type="html"><![CDATA[Security leaders are turning to red teaming to test defenses against real-world adversaries. From validating investments to sharpening blue team skills, discover why this strategy is becoming a must-have for organizations serious about cyber resilience.]]></summary>
         <author>
             <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start hacking Bluetooth Low Energy today! (part 2)]]></title>
-        <id>https://www.pentestpartners.com/?p=42663</id>
-        <link href="https://www.pentestpartners.com/security-blog/start-hacking-bluetooth-low-energy-today-part-2/"/>
-        <updated>2025-08-27T11:19:08.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR   We made it beep for free (ish)  In part one we started hacking Bluetooth and made a little £2 key-finder beep using only Android and Linux. If you haven’t read that post, I would recommend it as a primer to the devices, BLE and what we’re doing, but TLDR we got them to go […]
-The post Start hacking Bluetooth Low Energy today! (part 2)  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implement EIP-7730 today]]></title>
-        <id>https://blog.trailofbits.com/2025/08/27/implement-eip-7730-today/</id>
-        <link href="https://blog.trailofbits.com/2025/08/27/implement-eip-7730-today/"/>
-        <updated>2025-08-27T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[EIP-7730 enables hardware wallets to decode transactions into human-readable formats, eliminating blind signing vulnerabilities with minimal implementation effort for dApp developers.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["The entire internet is broken": ethical hacking expert John Hammond meets James Kettle]]></title>
-        <id>the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle</id>
-        <link href="https://portswigger.net/blog/the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle"/>
-        <updated>2025-08-27T09:11:17.000Z</updated>
-        <summary type="html"><![CDATA[In a brand-new collaboration between ethical hacking and AppSec expert John Hammond and world-renowned security researcher James Kettle, the pair explore how tens of millions of websites are compromis]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The One Where We Just Steal The Vulnerabilities (CrushFTP CVE-2025-54309)]]></title>
-        <id>68ae8c5fb4241b00012712fe</id>
-        <link href="https://labs.watchtowr.com/the-one-where-we-just-steal-the-vulnerabilities-crushftp-cve-2025-54309/"/>
-        <updated>2025-08-27T04:51:44.000Z</updated>
-        <summary type="html"><![CDATA[On July 18, 2025, users of CrushFTP woke up to an announcement:
-https://www.crushftp.com/crush11wiki/Wiki.jsp?page=CompromiseJuly2025
-As we’ve all experienced in 2025, 2025 has been the year of vendors burying their heads in the sand with regard to in-the-wild exploitation, even in the]]></summary>
-        <author>
-            <name>Sonny</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Perplexity Comet: A rising AI browser star]]></title>
-        <id>https://4sysops.com/?p=1599769</id>
-        <link href="https://4sysops.com/archives/perplexity-comet-a-rising-ai-browser-star/"/>
-        <updated>2025-08-26T19:41:26.000Z</updated>
-        <summary type="html"><![CDATA[In my last post, I discussed Perplexity's aim to transform the familiar blinking web we've known for decades. It brings to mind the early days of Google, when many questioned the need for another search engine since AltaVista already did a good job. Although Comet appears to be just another Chromium-based web browser, the AI powering the browser under the hood has the same disruptive potential as Google's PageRank algorithm once did.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Kiro: Arbitrary Code Execution via Indirect Prompt Injection]]></title>
-        <id>https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/</id>
-        <link href="https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/"/>
-        <updated>2025-08-26T14:00:58.000Z</updated>
-        <summary type="html"><![CDATA[On the day AWS Kiro was released, I couldn’t resist putting it through some of my Month of AI Bugs security tests for coding agents.
-AWS Kiro was vulnerable to arbitrary command execution via indirect prompt injection. This means that a remote attacker, who controls data that Kiro processes, could hijack it to run arbitrary operating system commands or write and run custom code.
-In particular two attack paths that enabled this with AWS Kiro were identified:]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inline Style Exfiltration: leaking data with chained CSS conditionals]]></title>
-        <id>inline-style-exfiltration</id>
-        <link href="https://portswigger.net/research/inline-style-exfiltration"/>
-        <updated>2025-08-26T12:54:03.000Z</updated>
-        <summary type="html"><![CDATA[I discovered how to use CSS to steal attribute data without selectors and stylesheet imports! This means you can now exploit CSS injection via style attributes! Learn how below: Someone asked if you c]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
         </author>
     </entry>
     <entry>

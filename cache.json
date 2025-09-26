@@ -66,16 +66,6 @@
           "wordCount": 1711,
           "title": "The year so far: How Burp Suite DAST is leveling up enterprise security in 2025",
           "imageUrl": "https://portswigger.net/cms/images/c1/a4/540c-twittercard-dast_twitter.png"
-        },
-        {
-          "id": "the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle",
-          "author": null,
-          "description": "In a brand-new collaboration between ethical hacking and AppSec expert John Hammond and world-renowned security researcher James Kettle, the pair explore how tens of millions of websites are compromis",
-          "link": "https://portswigger.net/blog/the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle",
-          "publishedOn": "2025-08-27T09:11:17.000Z",
-          "wordCount": 889,
-          "title": "\"The entire internet is broken\": ethical hacking expert John Hammond meets James Kettle",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
     },
@@ -103,16 +93,6 @@
           "wordCount": 1394,
           "title": "Cookie Chaos: How to bypass __Host and __Secure cookie prefixes",
           "imageUrl": "https://portswigger.net/cms/images/21/b7/c07c-twittercard-cookie-chaos-twitter-card.png"
-        },
-        {
-          "id": "inline-style-exfiltration",
-          "author": null,
-          "description": "I discovered how to use CSS to steal attribute data without selectors and stylesheet imports! This means you can now exploit CSS injection via style attributes! Learn how below: Someone asked if you c",
-          "link": "https://portswigger.net/research/inline-style-exfiltration",
-          "publishedOn": "2025-08-26T12:54:03.000Z",
-          "wordCount": 972,
-          "title": "Inline Style Exfiltration: leaking data with chained CSS conditionals",
-          "imageUrl": "https://portswigger.net/cms/images/9b/73/22f5-twittercard-twitter.png"
         }
       ]
     },
@@ -286,7 +266,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "https://pentestlab.blog",
+      "siteUrl": "http://pentestlab.blog",
       "articles": []
     },
     {
@@ -13835,6 +13815,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2025/09/25/yet-another-random-story.html",
+          "author": null,
+          "description": "In one of our recent posts, Dennis shared an interesting case study of C# exploitation that rode on Random-based password-reset tokens. He demonstrated how to use the single-packet attack, or a bit of old-school math, to beat the game. Recently, I performed a security test on a target which had a dependency written in VBScript. This blog post focuses on VBS’s Rnd and shows that the situation there is even worse.\n\n\n\nTarget Application\nThe application was responsible for generating a secret token. The token was supposed to be unpredictable and expected to remain secret. Here’s a rough copy of the token generation code:\n\nDim chars, n\nchars = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()*&^%$#@!\"\nn = 32\n\nfunction GenerateToken(chars, n)\n\tDim result, pos, i, charsLength\n\tcha…",
+          "link": "https://blog.doyensec.com/2025/09/25/yet-another-random-story.html",
+          "publishedOn": "2025-09-24T22:00:00.000Z",
+          "wordCount": 2529,
+          "title": "Yet Another Random Story: VBScript's Randomize Internals",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2025/09/02/ksmbd-2.html",
           "author": null,
           "description": "Introduction\nThis is a follow-up to the article originally published here.\nOur initial research uncovered several unauthenticated bugs, but we had only touched the attack surface lightly. Even after patching the code to bypass authentication, most interesting operations required interacting with handlers and state we initially omitted. In this part, we explain how we increased coverage and applied different fuzzing strategies to identify more bugs.\nSome functionalities require additional configuration options. We tried to enable many available features to maximize the exposed attack surface. This helped us trigger code paths that are disabled in the minimalistic configuration example. However, to simplify our setup, we did not consider features like Kerberos support or RDMA. These could be…",
@@ -13875,6 +13865,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/",
+          "author": null,
+          "description": "We created a CodeQL query that reduced 2,500+ compiler warnings about implicit conversions in OpenVPN2 to just 20 high-priority cases, demonstrating how to effectively identify potentially dangerous type conversions in C code.",
+          "link": "https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/",
+          "publishedOn": "2025-09-25T11:00:00.000Z",
+          "wordCount": 1649,
+          "title": "Taming 2,500 compiler warnings with CodeQL, an OpenVPN2 case study",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2025/09/24/supply-chain-attacks-are-exploiting-our-assumptions/",
           "author": null,
@@ -13944,16 +13944,6 @@
           "wordCount": 1042,
           "title": "Intern projects that outlived the internship",
           "imageUrl": "https://blog.trailofbits.com/img/aidan-internship/internship-projects-post-4.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/08/27/implement-eip-7730-today/",
-          "author": null,
-          "description": "EIP-7730 enables hardware wallets to decode transactions into human-readable formats, eliminating blind signing vulnerabilities with minimal implementation effort for dApp developers.",
-          "link": "https://blog.trailofbits.com/2025/08/27/implement-eip-7730-today/",
-          "publishedOn": "2025-08-27T11:00:00.000Z",
-          "wordCount": 2318,
-          "title": "Implement EIP-7730 today",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -13991,7 +13981,18 @@
       "title": "🔐Blog of Osanda",
       "feedUrl": "https://osandamalith.com/feed/",
       "siteUrl": "https://osandamalith.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://osandamalith.com/?p=4423",
+          "author": "Osanda Malith Jayathissa",
+          "description": "While digging into the ReadDirectoryChanges API, I noticed it supports an asynchronous callback via LPOVERLAPPED_COMPLETION_ROUTINE. Most people use this API to monitor file system changes, but what if we could hijack that callback to execute shellcode? This led me to develop a proof-of-concept (PoC) that turns a mundane filesystem monitoring function into a stealthy shellcode […]",
+          "link": "https://osandamalith.com/2025/09/25/executing-shellcode-with-readdirectorychangess-hidden-callback/",
+          "publishedOn": "2025-09-25T21:04:18.000Z",
+          "wordCount": 3316,
+          "title": "Executing Shellcode with ReadDirectoryChanges’s Hidden Callback",
+          "imageUrl": "http://img.youtube.com/vi/Q7WXdfcftzQ/0.jpg"
+        }
+      ]
     },
     {
       "title": "Max Justicz",
@@ -14045,6 +14046,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1600930",
+          "author": "IT Experts",
+          "description": "Windows Admin Center introduces a new tool that enables you to convert VMware virtual machines into Hyper-V, supporting agentless migration with minimal downtime. The extension supports batch conversions of up to 10 VMs at once and uses change block tracking for efficient data replication.\nSource",
+          "link": "https://4sysops.com/archives/convert-vmware-vms-to-hyper-v-in-windows-admin-center/",
+          "publishedOn": "2025-09-25T18:32:23.000Z",
+          "wordCount": null,
+          "title": "Convert VMware VMs to Hyper-V in Windows Admin Center",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1600863",
           "author": "IT Experts",
@@ -14254,16 +14265,6 @@
           "wordCount": null,
           "title": "Reduce hallucination risk by prompting multiple AI models simultaneously with Chorus",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1599769",
-          "author": "Michael Pietroforte",
-          "description": "In my last post, I discussed Perplexity's aim to transform the familiar blinking web we've known for decades. It brings to mind the early days of Google, when many questioned the need for another search engine since AltaVista already did a good job. Although Comet appears to be just another Chromium-based web browser, the AI powering the browser under the hood has the same disruptive potential as Google's PageRank algorithm once did.\nSource",
-          "link": "https://4sysops.com/archives/perplexity-comet-a-rising-ai-browser-star/",
-          "publishedOn": "2025-08-26T19:41:26.000Z",
-          "wordCount": null,
-          "title": "Perplexity Comet: A rising AI browser star",
-          "imageUrl": null
         }
       ]
     },
@@ -14364,16 +14365,6 @@
           "wordCount": 2018,
           "title": "Android Broadcast Receivers 101",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/09/DL-Android-Broadcast-Receivers-101-10Headline.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=42663",
-          "author": "Alex Wallace",
-          "description": "TL;DR   We made it beep for free (ish)  In part one we started hacking Bluetooth and made a little £2 key-finder beep using only Android and Linux. If you haven’t read that post, I would recommend it as a primer to the devices, BLE and what we’re doing, but TLDR we got them to go […]\nThe post Start hacking Bluetooth Low Energy today! (part 2)  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/start-hacking-bluetooth-low-energy-today-part-2/",
-          "publishedOn": "2025-08-27T11:19:08.000Z",
-          "wordCount": 2581,
-          "title": "Start hacking Bluetooth Low Energy today! (part 2)",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/08/Final-Sam-T-Hacking-Bluetooth-part-2-Headline-image_.png"
         }
       ]
     },
@@ -14447,16 +14438,6 @@
           "publishedOn": "2025-08-27T15:20:58.000Z",
           "wordCount": 761,
           "title": "Cline: Vulnerable To Data Exfiltration And How To Protect Your Data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/",
-          "author": null,
-          "description": "On the day AWS Kiro was released, I couldn’t resist putting it through some of my Month of AI Bugs security tests for coding agents.\nAWS Kiro was vulnerable to arbitrary command execution via indirect prompt injection. This means that a remote attacker, who controls data that Kiro processes, could hijack it to run arbitrary operating system commands or write and run custom code.\nIn particular two attack paths that enabled this with AWS Kiro were identified:",
-          "link": "https://embracethered.com/blog/posts/2025/aws-kiro-aribtrary-command-execution-with-indirect-prompt-injection/",
-          "publishedOn": "2025-08-26T14:00:58.000Z",
-          "wordCount": 1150,
-          "title": "AWS Kiro: Arbitrary Code Execution via Indirect Prompt Injection",
           "imageUrl": null
         }
       ]
@@ -14557,6 +14538,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=20855",
+          "author": "Christos Gourzoulidis",
+          "description": "This multipart blog series is focused on the real-world lessons learned while securing Microsoft Entra ID. Based on hands-on experience across various environments and organizations, we’ll explore the practical, high-impact strategies that work and more importantly, the common misconfigurations, overlooked settings, and pitfalls that can expose your identity perimeter. Throughout the series, we’ll cover both … Continue reading Securing Microsoft Entra ID: Lessons from the Field – Part 1 →",
+          "link": "https://blog.nviso.eu/2025/09/25/securing-microsoft-entra-id-lessons-from-the-field-part-1/",
+          "publishedOn": "2025-09-25T08:00:00.000Z",
+          "wordCount": 4237,
+          "title": "Securing Microsoft Entra ID: Lessons from the Field – Part 1",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/07/Securing-Microsoft-Entra-ID-–-Lessons-from-the-Field.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=20168",
           "author": "Stamatis Chatzimangou",
@@ -14713,6 +14704,16 @@
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
         {
+          "id": "68d5935f5523ed000189a865",
+          "author": "Ryan Dewhurst",
+          "description": "We’re back, just over 24 hours later, to share our evolving understanding of CVE-2025-10035.\nThanks to everyone who reached out after Part 1, and especially to the individual who shared credible intel that informed this update.\nIn Part 1 we laid out an odd and worrying picture:\n\nA",
+          "link": "https://labs.watchtowr.com/it-is-bad-exploitation-of-fortra-goanywhere-mft-cve-2025-10035-part-2/",
+          "publishedOn": "2025-09-25T19:26:04.000Z",
+          "wordCount": 1032,
+          "title": "It Is Bad (Exploitation of Fortra GoAnywhere MFT CVE-2025-10035) - Part 2",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/09/Group-8730--23-.png"
+        },
+        {
           "id": "68d3cf70c129330001cc7a02",
           "author": "Sonny",
           "description": "File transfer used to be simple fun - fire up your favourite FTP client, log in to a glFTPd site, and you were done.\nFast forward to 2025, and the same act requires a procurement team, a web interface, and a vendor proudly waving their Secure by Design pledge. \nEver",
@@ -14741,16 +14742,6 @@
           "wordCount": 6679,
           "title": "Cache Me If You Can (Sitecore Experience Platform Cache Poisoning to RCE)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/08/Group-8730--20-.png"
-        },
-        {
-          "id": "68ae8c5fb4241b00012712fe",
-          "author": "Sonny",
-          "description": "On July 18, 2025, users of CrushFTP woke up to an announcement:\nhttps://www.crushftp.com/crush11wiki/Wiki.jsp?page=CompromiseJuly2025\nAs we’ve all experienced in 2025, 2025 has been the year of vendors burying their heads in the sand with regard to in-the-wild exploitation, even in the",
-          "link": "https://labs.watchtowr.com/the-one-where-we-just-steal-the-vulnerabilities-crushftp-cve-2025-54309/",
-          "publishedOn": "2025-08-27T04:51:44.000Z",
-          "wordCount": 1766,
-          "title": "The One Where We Just Steal The Vulnerabilities (CrushFTP CVE-2025-54309)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/08/Group-8730--19-.png"
         }
       ]
     },
