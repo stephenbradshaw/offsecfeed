@@ -56,16 +56,6 @@
           "wordCount": 1100,
           "title": "Watch the webinar: Scale secure coverage without scaling headcount",
           "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        },
-        {
-          "id": "the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025",
-          "author": null,
-          "description": "Enterprise security teams are under more pressure than ever to secure sprawling application estates, without slowing down delivery. That's why, over the first half of 2025, we've delivered some of our",
-          "link": "https://portswigger.net/blog/the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025",
-          "publishedOn": "2025-08-28T12:07:45.000Z",
-          "wordCount": 1711,
-          "title": "The year so far: How Burp Suite DAST is leveling up enterprise security in 2025",
-          "imageUrl": "https://portswigger.net/cms/images/c1/a4/540c-twittercard-dast_twitter.png"
         }
       ]
     },
@@ -100,7 +90,18 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
+          "author": null,
+          "description": "Posted by Jann Horn, Google Project Zero\n\n\n\nIntroduction\nSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenarios where an attack surface can be reached that deserializes attacker-provided data, re-serializes the resulting objects, and sends the re-serialized data back to the attacker.\nThe team brainstormed, and we couldn't immediately come up with any specific atta…",
+          "link": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
+          "publishedOn": "2025-09-26T17:00:00.000Z",
+          "wordCount": 6200,
+          "title": "Pointer leaks through pointer-keyed data structures",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Carnal0wnage Blog",
@@ -266,7 +267,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -13730,16 +13731,6 @@
           "wordCount": 2126,
           "title": "Technical Advisory: Espressif Systems - ESP32 BluFi Reference Application Vulnerabilities",
           "imageUrl": null
-        },
-        {
-          "id": "9120d3d9-3398-4dfa-a0e1-59f3efde5fd2",
-          "author": null,
-          "description": "",
-          "link": "https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/",
-          "publishedOn": "2025-08-28T00:51:19.734Z",
-          "wordCount": 1849,
-          "title": "Public Report: Meta Whatsapp message summarization service",
-          "imageUrl": null
         }
       ]
     },
@@ -13784,18 +13775,7 @@
       "title": "Rhino Security Labs",
       "feedUrl": "https://rhinosecuritylabs.com/feed/",
       "siteUrl": "https://rhinosecuritylabs.com/",
-      "articles": [
-        {
-          "id": "https://rhinosecuritylabs.com/?p=25934",
-          "author": "Whit Taylor",
-          "description": "The post Referral Beware, Your Rewards are Mine (Part 1) appeared first on Rhino Security Labs.",
-          "link": "https://rhinosecuritylabs.com/research/referral-beware-your-rewards-are-mine-part-1/",
-          "publishedOn": "2025-08-27T17:03:12.000Z",
-          "wordCount": 2163,
-          "title": "Referral Beware, Your Rewards are Mine (Part 1)",
-          "imageUrl": "https://rhinosecuritylabs.com/wp-content/uploads/2025/08/image-1024x688.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "phoenhex team",
@@ -13934,16 +13914,6 @@
           "wordCount": 1637,
           "title": "Subverting code integrity checks to locally backdoor Signal, 1Password, Slack, and more",
           "imageUrl": "https://blog.trailofbits.com/img/electron-cve-2025-55305/electron-cve-2025-55305-1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/08/28/intern-projects-that-outlived-the-internship/",
-          "author": null,
-          "description": "Our business operations intern at Trail of Bits built two AI-powered tools that became permanent company resources—a podcast workflow that saves 1,250 hours annually and a Slack exporter that enables efficient knowledge retrieval across the organization.",
-          "link": "https://blog.trailofbits.com/2025/08/28/intern-projects-that-outlived-the-internship/",
-          "publishedOn": "2025-08-28T11:00:00.000Z",
-          "wordCount": 1042,
-          "title": "Intern projects that outlived the internship",
-          "imageUrl": "https://blog.trailofbits.com/img/aidan-internship/internship-projects-post-4.png"
         }
       ]
     },
@@ -14046,6 +14016,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1600951",
+          "author": "Michael Pietroforte",
+          "description": "The end of support for Office 2016 and Office 2019 on October 14, 2025, forces organizations to choose between upgrading to Office 2024 or adopting Microsoft 365 Apps. Both solutions offer Office applications like Word, Excel, and PowerPoint, but differ significantly in pricing models, AI capabilities, cloud integration, and update cycles. While Office 2024 delivers a one-time purchase with long-term stability and offline functionality, Microsoft 365 Apps provides continuous feature updates, AI-powered Copilot integration, and collaborative cloud tools through a subscription model. This guide compares Office 2024 vs. Microsoft 365 Apps to help you make the right upgrade decision before support ends.\nSource",
+          "link": "https://4sysops.com/archives/upgrade-from-office-2016-2019-office-2024-vs-microsoft-365-apps/",
+          "publishedOn": "2025-09-26T15:03:22.000Z",
+          "wordCount": null,
+          "title": "Upgrade from Office 2016, 2019 – Office 2024 vs Microsoft 365 Apps",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1600930",
           "author": "IT Experts",
@@ -14255,16 +14235,6 @@
           "wordCount": null,
           "title": "Windows Terminal v1.23 and v1.24: new features and installation",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1599833",
-          "author": "Michael Pietroforte",
-          "description": "The Chorus app is built to send prompts to multiple AI models from different providers simultaneously. You can also query several search engines with each prompt. Both methods significantly reduce the risk of hallucinations.\nSource",
-          "link": "https://4sysops.com/archives/reduce-hallucination-risk-by-prompting-multiple-ai-models-simultaneously-with-chorus/",
-          "publishedOn": "2025-08-27T19:00:12.000Z",
-          "wordCount": null,
-          "title": "Reduce hallucination risk by prompting multiple AI models simultaneously with Chorus",
-          "imageUrl": null
         }
       ]
     },
@@ -14428,16 +14398,6 @@
           "publishedOn": "2025-08-28T19:20:58.000Z",
           "wordCount": 1298,
           "title": "Windsurf MCP Integration: Missing Security Controls Put Users at Risk",
-          "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/cline-vulnerable-to-data-exfiltration/",
-          "author": null,
-          "description": "Cline is quite a popular AI coding agent, according to the product website it has 2+ million downloads and over 47k stars on GitHub.\nUnfortunately, Cline is vulnerable to data exfiltration through the rendering of markdown images from untrusted domains in the chat box.\nThis allows an adversary to exfiltrate sensitive user information during a prompt injection attack by reading sensitive data (e.g. .env file) and appending its contents to the URL of an image.",
-          "link": "https://embracethered.com/blog/posts/2025/cline-vulnerable-to-data-exfiltration/",
-          "publishedOn": "2025-08-27T15:20:58.000Z",
-          "wordCount": 761,
-          "title": "Cline: Vulnerable To Data Exfiltration And How To Protect Your Data",
           "imageUrl": null
         }
       ]
@@ -14614,16 +14574,6 @@
           "wordCount": 2911,
           "title": "Demystifying 5G Security: Understanding the Registration Protocol",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Demystifying-5g_Blog.png?mtime=1757019546"
-        },
-        {
-          "id": "https://bishopfox.com/blog/top-reasons-security-leaders-choose-red-teaming",
-          "author": null,
-          "description": "Security leaders are turning to red teaming to test defenses against real-world adversaries. From validating investments to sharpening blue team skills, discover why this strategy is becoming a must-have for organizations serious about cyber resilience.",
-          "link": "https://bishopfox.com/blog/top-reasons-security-leaders-choose-red-teaming",
-          "publishedOn": "2025-08-27T13:00:00.000Z",
-          "wordCount": 2254,
-          "title": "The Top Reasons Security Leaders Choose Red Teaming",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Top-Reasons-Choose-RT_Tile.jpg?mtime=1756328141"
         }
       ]
     },

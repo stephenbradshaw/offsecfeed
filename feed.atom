@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-09-26T00:50:31.474Z</updated>
+    <updated>2025-09-27T00:47:59.715Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pointer leaks through pointer-keyed data structures]]></title>
+        <id>https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html"/>
+        <updated>2025-09-26T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Jann Horn, Google Project Zero
+
+
+
+Introduction
+Some time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of "where would be a good first place to look for a remote ASLR leak", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenarios where an attack surface can be reached that deserializes attacker-provided data, re-serializes the resulting objects, and sends the re-serialized data back to the attacker.
+The team brainstormed, and we couldn't immediately come up with any specific atta…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Upgrade from Office 2016, 2019 – Office 2024 vs Microsoft 365 Apps]]></title>
+        <id>https://4sysops.com/?p=1600951</id>
+        <link href="https://4sysops.com/archives/upgrade-from-office-2016-2019-office-2024-vs-microsoft-365-apps/"/>
+        <updated>2025-09-26T15:03:22.000Z</updated>
+        <summary type="html"><![CDATA[The end of support for Office 2016 and Office 2019 on October 14, 2025, forces organizations to choose between upgrading to Office 2024 or adopting Microsoft 365 Apps. Both solutions offer Office applications like Word, Excel, and PowerPoint, but differ significantly in pricing models, AI capabilities, cloud integration, and update cycles. While Office 2024 delivers a one-time purchase with long-term stability and offline functionality, Microsoft 365 Apps provides continuous feature updates, AI-powered Copilot integration, and collaborative cloud tools through a subscription model. This guide compares Office 2024 vs. Microsoft 365 Apps to help you make the right upgrade decision before support ends.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Executing Shellcode with ReadDirectoryChanges’s Hidden Callback]]></title>
         <id>https://osandamalith.com/?p=4423</id>
@@ -12872,78 +12899,6 @@ Especially when running an agent on your local computer. Stakes are much higher.
 Source]]></summary>
         <author>
             <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The year so far: How Burp Suite DAST is leveling up enterprise security in 2025]]></title>
-        <id>the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025</id>
-        <link href="https://portswigger.net/blog/the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025"/>
-        <updated>2025-08-28T12:07:45.000Z</updated>
-        <summary type="html"><![CDATA[Enterprise security teams are under more pressure than ever to secure sprawling application estates, without slowing down delivery. That's why, over the first half of 2025, we've delivered some of our]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intern projects that outlived the internship]]></title>
-        <id>https://blog.trailofbits.com/2025/08/28/intern-projects-that-outlived-the-internship/</id>
-        <link href="https://blog.trailofbits.com/2025/08/28/intern-projects-that-outlived-the-internship/"/>
-        <updated>2025-08-28T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Our business operations intern at Trail of Bits built two AI-powered tools that became permanent company resources—a podcast workflow that saves 1,250 hours annually and a Slack exporter that enables efficient knowledge retrieval across the organization.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report: Meta Whatsapp message summarization service]]></title>
-        <id>9120d3d9-3398-4dfa-a0e1-59f3efde5fd2</id>
-        <link href="https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/"/>
-        <updated>2025-08-28T00:51:19.734Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reduce hallucination risk by prompting multiple AI models simultaneously with Chorus]]></title>
-        <id>https://4sysops.com/?p=1599833</id>
-        <link href="https://4sysops.com/archives/reduce-hallucination-risk-by-prompting-multiple-ai-models-simultaneously-with-chorus/"/>
-        <updated>2025-08-27T19:00:12.000Z</updated>
-        <summary type="html"><![CDATA[The Chorus app is built to send prompts to multiple AI models from different providers simultaneously. You can also query several search engines with each prompt. Both methods significantly reduce the risk of hallucinations.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Referral Beware, Your Rewards are Mine (Part 1)]]></title>
-        <id>https://rhinosecuritylabs.com/?p=25934</id>
-        <link href="https://rhinosecuritylabs.com/research/referral-beware-your-rewards-are-mine-part-1/"/>
-        <updated>2025-08-27T17:03:12.000Z</updated>
-        <summary type="html"><![CDATA[The post Referral Beware, Your Rewards are Mine (Part 1) appeared first on Rhino Security Labs.]]></summary>
-        <author>
-            <name>Whit Taylor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cline: Vulnerable To Data Exfiltration And How To Protect Your Data]]></title>
-        <id>https://embracethered.com/blog/posts/2025/cline-vulnerable-to-data-exfiltration/</id>
-        <link href="https://embracethered.com/blog/posts/2025/cline-vulnerable-to-data-exfiltration/"/>
-        <updated>2025-08-27T15:20:58.000Z</updated>
-        <summary type="html"><![CDATA[Cline is quite a popular AI coding agent, according to the product website it has 2+ million downloads and over 47k stars on GitHub.
-Unfortunately, Cline is vulnerable to data exfiltration through the rendering of markdown images from untrusted domains in the chat box.
-This allows an adversary to exfiltrate sensitive user information during a prompt injection attack by reading sensitive data (e.g. .env file) and appending its contents to the URL of an image.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Top Reasons Security Leaders Choose Red Teaming]]></title>
-        <id>https://bishopfox.com/blog/top-reasons-security-leaders-choose-red-teaming</id>
-        <link href="https://bishopfox.com/blog/top-reasons-security-leaders-choose-red-teaming"/>
-        <updated>2025-08-27T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Security leaders are turning to red teaming to test defenses against real-world adversaries. From validating investments to sharpening blue team skills, discover why this strategy is becoming a must-have for organizations serious about cyber resilience.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
         </author>
     </entry>
     <entry>
