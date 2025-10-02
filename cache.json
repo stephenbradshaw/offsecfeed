@@ -18,6 +18,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test",
+          "author": null,
+          "description": "Bug bounty legend, NahamSec, has taken Burp AI for a spin. If you're curious how Burp AI fits into a real workflow, his new video is the perfect place to start. Watch on YouTube Burp AI was built to a",
+          "link": "https://portswigger.net/blog/hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test",
+          "publishedOn": "2025-10-01T14:31:40.000Z",
+          "wordCount": 879,
+          "title": "Hacking smarter with Burp AI: NahamSec puts Burp AI to the test",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities",
           "author": null,
           "description": "Whether you’re navigating a client pentest or chasing a bounty target, even the most experienced testers hit roadblocks, burn time on repetitive tasks, or just want a second opinion. Burp AI is design",
@@ -154,7 +164,18 @@
       "title": "Didier Stevens",
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10978",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in September: SANS ISC Diary entries: BASE64 Over DNS Web Searches For Archives",
+          "link": "https://blog.didierstevens.com/2025/10/02/overview-of-content-published-in-september-9/",
+          "publishedOn": "2025-10-02T00:00:00.000Z",
+          "wordCount": 3238,
+          "title": "Overview of Content Published in September",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        }
+      ]
     },
     {
       "title": "HackerOne",
@@ -236,7 +257,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "https://pentestlab.blog",
+      "siteUrl": "http://pentestlab.blog",
       "articles": []
     },
     {
@@ -244,6 +265,16 @@
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
       "articles": [
+        {
+          "id": "https://adsecurity.org/?p=4591",
+          "author": "Sean Metcalf",
+          "description": "Getting Microsoft supported backups of Domain Controllers is an important part of recovery strategy. A best practice is to locate all Flexible Master Single Operator (FSMO) roles on a single DC in the domain. That way you can more easily target the DC that hosts the FSMOs for backup. PowerShell code to check for FSMO … \nContinue reading",
+          "link": "https://adsecurity.org/?p=4591",
+          "publishedOn": "2025-10-02T00:03:00.000Z",
+          "wordCount": 1449,
+          "title": "Active Directory Security Tip #10: FSMO Roles",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GvglqFXXEAkNJuG.png"
+        },
         {
           "id": "https://adsecurity.org/?p=4589",
           "author": "Sean Metcalf",
@@ -411,18 +442,7 @@
       "title": "Alexander Popov",
       "feedUrl": "https://a13xp0p0v.github.io/feed.xml",
       "siteUrl": "https://a13xp0p0v.github.io/",
-      "articles": [
-        {
-          "id": "https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html",
-          "author": null,
-          "description": "Some memory corruption bugs are much harder to exploit than others. They can involve race conditions, crash the system, and impose limitations that make a researcher's life difficult. Working with such fragile vulnerabilities demands significant time and effort. CVE-2024-50264 in the Linux kernel is one such hard bug, which received the Pwnie Award 2025 as the Best Privilege Escalation. In this article, I introduce my personal project kernel-hack-drill and show how it helped me to exploit CVE-2024-50264.",
-          "link": "https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html",
-          "publishedOn": "2025-09-02T10:37:00.000Z",
-          "wordCount": 6797,
-          "title": "Kernel-hack-drill and a new approach to exploiting CVE-2024-50264 in the Linux kernel",
-          "imageUrl": "https://a13xp0p0v.github.io/img/ava_bg.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Grsecurity Blog RSS Feed",
@@ -13822,16 +13842,6 @@
           "wordCount": 2529,
           "title": "Yet Another Random Story: VBScript's Randomize Internals",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2025/09/02/ksmbd-2.html",
-          "author": null,
-          "description": "Introduction\nThis is a follow-up to the article originally published here.\nOur initial research uncovered several unauthenticated bugs, but we had only touched the attack surface lightly. Even after patching the code to bypass authentication, most interesting operations required interacting with handlers and state we initially omitted. In this part, we explain how we increased coverage and applied different fuzzing strategies to identify more bugs.\nSome functionalities require additional configuration options. We tried to enable many available features to maximize the exposed attack surface. This helped us trigger code paths that are disabled in the minimalistic configuration example. However, to simplify our setup, we did not consider features like Kerberos support or RDMA. These could be…",
-          "link": "https://blog.doyensec.com/2025/09/02/ksmbd-2.html",
-          "publishedOn": "2025-09-01T22:00:00.000Z",
-          "wordCount": 2820,
-          "title": "ksmbd - Fuzzing Improvements and Vulnerability Discovery (2/3)",
-          "imageUrl": null
         }
       ]
     },
@@ -14035,6 +14045,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1601152",
+          "author": "Surender Kumar",
+          "description": "Proxmox Datacenter Manager (PDM) is a brand new, open-source platform designed to provide centralized management and monitoring for Proxmox VE clusters and nodes. Launched in late 2024, PDM offers a modern web interface that simplifies large-scale virtualization administration across multiple datacenters. As organizations seek alternatives to VMware’s increasingly costly and restrictive ecosystem, Proxmox Datacenter Manager emerges as a promising vCenter competitor for cost-effective and flexible enterprise virtualization management.\nSource",
+          "link": "https://4sysops.com/archives/proxmox-datacenter-manager-a-new-alternative-to-vmware-vcenter/",
+          "publishedOn": "2025-10-01T14:53:07.000Z",
+          "wordCount": null,
+          "title": "Proxmox Datacenter Manager: A new alternative to VMware vCenter?",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1601090",
           "author": "Michael Pietroforte",
@@ -14244,16 +14264,6 @@
           "wordCount": 5545,
           "title": "Windows 11 25H2: Changes, installation, and user feedback",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2025/09/Upgrading-to-Windows-11-25H2-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1600009",
-          "author": "IT News",
-          "description": "Windows Backup for Organizations is Microsoft's new cloud-based solution that helps enterprises preserve user settings and Microsoft Store app lists, enabling rapid restoration during device transitions, resets, and migrations to new Windows environments. This article examines the technical requirements for backup and restore operations, including supported Windows versions and device configurations. The coverage includes three deployment methods through Group Policy, Microsoft Intune, and Configuration Service Provider (CSP) settings, along with their installation requirements. Operational aspects include the automated eight-day backup schedule, Out-of-Box Experience integration, and Conditional Access considerations that affect authentication during restore processes. The article also addresses limitations, regional availability restrictions, and critical user feedback.\nSource",
-          "link": "https://4sysops.com/archives/windows-backup-for-organizations-features-installation-and-user-feedback/",
-          "publishedOn": "2025-09-01T18:25:57.000Z",
-          "wordCount": 5738,
-          "title": "Windows Backup for Organizations: Features, installation, and user feedback",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2025/09/Windows-Backup-for-Organizations-(image-Microsoft).png"
         }
       ]
     },
@@ -14344,16 +14354,6 @@
           "wordCount": 2922,
           "title": "Start hacking Bluetooth Low Energy today! (part 3)",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/09/Sam-T-Hacking-Bluetooth-part-3-Headline-image_2.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=42732",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Introduction   This is the next post in our Android 101 series. Today we are looking at broadcast receivers. If you are catching up, start with Android services 101 for background components and scheduling, then Android content providers 101 for shared data surfaces and permissions.  What a broadcast receiver is  Next in the list of […]\nThe post Android Broadcast Receivers 101  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/android-broadcast-receivers-101/",
-          "publishedOn": "2025-09-02T11:50:29.000Z",
-          "wordCount": 2018,
-          "title": "Android Broadcast Receivers 101",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/09/DL-Android-Broadcast-Receivers-101-10Headline.png"
         }
       ]
     },
@@ -14487,6 +14487,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=22081",
+          "author": "Efstratios Lontzetidis",
+          "description": "Key Findings Introduction NVISO has observed and correlated information regarding the latest attack chain employed by Lunar Spider. Lunar Spider, also known as Gold SwathMore, is a Russian-speaking cybercriminal group motivated by financial gain. They have built their reputation on developing and operating the IcedID (also known as BokBot) Malware-as-a-Service (MaaS) since 2019. Following the … Continue reading Lunar Spider Expands their Web via FakeCaptcha →",
+          "link": "https://blog.nviso.eu/2025/10/01/lunar-spider-expands-their-web-via-fakecaptcha/",
+          "publishedOn": "2025-10-01T07:00:00.000Z",
+          "wordCount": 8381,
+          "title": "Lunar Spider Expands their Web via FakeCaptcha",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/10/Lunar-Spider_blog.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=22538",
           "author": "Maxime Thiebaut",

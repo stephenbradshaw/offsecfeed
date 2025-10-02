@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-01T00:57:35.455Z</updated>
+    <updated>2025-10-02T00:49:37.781Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Security Tip #10: FSMO Roles]]></title>
+        <id>https://adsecurity.org/?p=4591</id>
+        <link href="https://adsecurity.org/?p=4591"/>
+        <updated>2025-10-02T00:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Getting Microsoft supported backups of Domain Controllers is an important part of recovery strategy. A best practice is to locate all Flexible Master Single Operator (FSMO) roles on a single DC in the domain. That way you can more easily target the DC that hosts the FSMOs for backup. PowerShell code to check for FSMO … 
+Continue reading]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in September]]></title>
+        <id>http://blog.didierstevens.com/?p=10978</id>
+        <link href="https://blog.didierstevens.com/2025/10/02/overview-of-content-published-in-september-9/"/>
+        <updated>2025-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in September: SANS ISC Diary entries: BASE64 Over DNS Web Searches For Archives]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proxmox Datacenter Manager: A new alternative to VMware vCenter?]]></title>
+        <id>https://4sysops.com/?p=1601152</id>
+        <link href="https://4sysops.com/archives/proxmox-datacenter-manager-a-new-alternative-to-vmware-vcenter/"/>
+        <updated>2025-10-01T14:53:07.000Z</updated>
+        <summary type="html"><![CDATA[Proxmox Datacenter Manager (PDM) is a brand new, open-source platform designed to provide centralized management and monitoring for Proxmox VE clusters and nodes. Launched in late 2024, PDM offers a modern web interface that simplifies large-scale virtualization administration across multiple datacenters. As organizations seek alternatives to VMware’s increasingly costly and restrictive ecosystem, Proxmox Datacenter Manager emerges as a promising vCenter competitor for cost-effective and flexible enterprise virtualization management.
+Source]]></summary>
+        <author>
+            <name>Surender Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking smarter with Burp AI: NahamSec puts Burp AI to the test]]></title>
+        <id>hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test</id>
+        <link href="https://portswigger.net/blog/hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test"/>
+        <updated>2025-10-01T14:31:40.000Z</updated>
+        <summary type="html"><![CDATA[Bug bounty legend, NahamSec, has taken Burp AI for a spin. If you're curious how Burp AI fits into a real workflow, his new video is the perfect place to start. Watch on YouTube Burp AI was built to a]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lunar Spider Expands their Web via FakeCaptcha]]></title>
+        <id>https://blog.nviso.eu/?p=22081</id>
+        <link href="https://blog.nviso.eu/2025/10/01/lunar-spider-expands-their-web-via-fakecaptcha/"/>
+        <updated>2025-10-01T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Key Findings Introduction NVISO has observed and correlated information regarding the latest attack chain employed by Lunar Spider. Lunar Spider, also known as Gold SwathMore, is a Russian-speaking cybercriminal group motivated by financial gain. They have built their reputation on developing and operating the IcedID (also known as BokBot) Malware-as-a-Service (MaaS) since 2019. Following the … Continue reading Lunar Spider Expands their Web via FakeCaptcha →]]></summary>
+        <author>
+            <name>Efstratios Lontzetidis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RSA Conference – Mobile Threat War Room]]></title>
         <id>2f17320a-a094-49ef-b3fe-e1a45c71a80a</id>
@@ -12842,51 +12894,6 @@ Source]]></summary>
         <link href="https://4sysops.com/archives/windows-11-25h2-changes-installation-and-user-feedback/"/>
         <updated>2025-09-02T19:11:17.000Z</updated>
         <summary type="html"><![CDATA[Windows 11 25H2 has entered the Release Preview Channel as Microsoft's latest annual feature update. It marks a departure from traditional major releases by prioritizing stability over extensive new functionality. The update shares a servicing branch with Windows 11 24H2, meaning that no new features have been added. This approach represents Microsoft's focus on reliability following previous update challenges.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android Broadcast Receivers 101]]></title>
-        <id>https://www.pentestpartners.com/?p=42732</id>
-        <link href="https://www.pentestpartners.com/security-blog/android-broadcast-receivers-101/"/>
-        <updated>2025-09-02T11:50:29.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  Introduction   This is the next post in our Android 101 series. Today we are looking at broadcast receivers. If you are catching up, start with Android services 101 for background components and scheduling, then Android content providers 101 for shared data surfaces and permissions.  What a broadcast receiver is  Next in the list of […]
-The post Android Broadcast Receivers 101  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kernel-hack-drill and a new approach to exploiting CVE-2024-50264 in the Linux kernel]]></title>
-        <id>https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html</id>
-        <link href="https://a13xp0p0v.github.io/2025/09/02/kernel-hack-drill-and-CVE-2024-50264.html"/>
-        <updated>2025-09-02T10:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Some memory corruption bugs are much harder to exploit than others. They can involve race conditions, crash the system, and impose limitations that make a researcher's life difficult. Working with such fragile vulnerabilities demands significant time and effort. CVE-2024-50264 in the Linux kernel is one such hard bug, which received the Pwnie Award 2025 as the Best Privilege Escalation. In this article, I introduce my personal project kernel-hack-drill and show how it helped me to exploit CVE-2024-50264.]]></summary>
-        <author>
-            <name>Alexander Popov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ksmbd - Fuzzing Improvements and Vulnerability Discovery (2/3)]]></title>
-        <id>https://blog.doyensec.com/2025/09/02/ksmbd-2.html</id>
-        <link href="https://blog.doyensec.com/2025/09/02/ksmbd-2.html"/>
-        <updated>2025-09-01T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-This is a follow-up to the article originally published here.
-Our initial research uncovered several unauthenticated bugs, but we had only touched the attack surface lightly. Even after patching the code to bypass authentication, most interesting operations required interacting with handlers and state we initially omitted. In this part, we explain how we increased coverage and applied different fuzzing strategies to identify more bugs.
-Some functionalities require additional configuration options. We tried to enable many available features to maximize the exposed attack surface. This helped us trigger code paths that are disabled in the minimalistic configuration example. However, to simplify our setup, we did not consider features like Kerberos support or RDMA. These could be…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Backup for Organizations: Features, installation, and user feedback]]></title>
-        <id>https://4sysops.com/?p=1600009</id>
-        <link href="https://4sysops.com/archives/windows-backup-for-organizations-features-installation-and-user-feedback/"/>
-        <updated>2025-09-01T18:25:57.000Z</updated>
-        <summary type="html"><![CDATA[Windows Backup for Organizations is Microsoft's new cloud-based solution that helps enterprises preserve user settings and Microsoft Store app lists, enabling rapid restoration during device transitions, resets, and migrations to new Windows environments. This article examines the technical requirements for backup and restore operations, including supported Windows versions and device configurations. The coverage includes three deployment methods through Group Policy, Microsoft Intune, and Configuration Service Provider (CSP) settings, along with their installation requirements. Operational aspects include the automated eight-day backup schedule, Out-of-Box Experience integration, and Conditional Access considerations that affect authentication during restore processes. The article also addresses limitations, regional availability restrictions, and critical user feedback.
 Source]]></summary>
         <author>
             <name>IT News</name>
