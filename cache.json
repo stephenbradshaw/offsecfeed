@@ -236,7 +236,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "https://pentestlab.blog",
+      "siteUrl": "http://pentestlab.blog",
       "articles": []
     },
     {
@@ -244,6 +244,16 @@
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
       "articles": [
+        {
+          "id": "https://adsecurity.org/?p=4784",
+          "author": "Sean Metcalf",
+          "description": "Review the membership of groups for accounts and groups from another Active Directory forest (technically another domain, but using forest here). These are called “Foreign Security Principals” (FSPs) like the ones highlighted in the image. These FSPs are accounts that exist in another forest but have rights in the AD forest. Any FSPs should be … \nContinue reading",
+          "link": "https://adsecurity.org/?p=4784",
+          "publishedOn": "2025-10-09T00:03:00.000Z",
+          "wordCount": 1450,
+          "title": "Active Directory Security Tip #13: Kerberos Delegation",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/ADSecTip-FSPs-PowerShell.jpg"
+        },
         {
           "id": "https://adsecurity.org/?p=4658",
           "author": "Sean Metcalf",
@@ -417,6 +427,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68e41e702030c84f2e3fed07",
+          "author": "Simon Zuckerbraun",
+          "description": "In April of 2025, my colleague Mat Powell was hunting for vulnerabilities in Autodesk Revit 2025. While fuzzing RFA files, he found the following crash (CVE-2025-5037 / ZDI-CAN-26922, addressed by Autodesk in July 2025):\nIs this an exploitable crash? From the debugger output crash point as seen above, unclear whether anything is controllable.\nAt around this time, my colleague Nitesh Surana uncovered a highly impactful cloud-based supply chain vulnerability in Axis Communications Plugin for Autodesk Revit. This vulnerability made it possible for a malicious actor to force the distribution of corrupted RFA files to Axis plugin users globally, which Autodesk Revit would parse upon use of the Axis Communications plugin. Refer to the blog post here for a full discussion of his research.\nSince T…",
+          "link": "https://www.thezdi.com/blog/2025/10/6/crafting-a-full-exploit-rce-from-a-crash-in-autodesk-revit-rfa-file-parsing",
+          "publishedOn": "2025-10-08T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Crafting a Full Exploit RCE from a Crash in Autodesk Revit RFA File Parsing",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68d33f8bf584cf52223cf0c5",
           "author": "Peter Girnus",
@@ -13904,6 +13925,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2025/10/08/ksmbd-3.html",
+          "author": null,
+          "description": "Introduction\nThis is the last of our posts about ksmbd. For the previous posts, see part1 and part2.\nConsidering all discovered bugs and proof-of-concept exploits we reported, we had to select some suitable candidates for exploitation. In particular, we wanted to use something reported more recently to avoid downgrading our working environment.\nWe first experimented with several use-after-free (UAF) bugs, since this class of bugs has a reputation for almost always being exploitable, as proven in numerous articles. However, many of them required race conditions and specific timing, so we postponed them in favor of bugs with more reliable or deterministic exploitation paths.\nThen there were bugs that depended on factors outside user control, or that had peculiar behavior. Let’s first look at…",
+          "link": "https://blog.doyensec.com/2025/10/08/ksmbd-3.html",
+          "publishedOn": "2025-10-07T22:00:00.000Z",
+          "wordCount": 3517,
+          "title": "ksmbd - Exploiting CVE-2025-37947 (3/3)",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2025/09/25/yet-another-random-story.html",
           "author": null,
           "description": "In one of our recent posts, Dennis shared an interesting case study of C# exploitation that rode on Random-based password-reset tokens. He demonstrated how to use the single-packet attack, or a bit of old-school math, to beat the game. Recently, I performed a security test on a target which had a dependency written in VBScript. This blog post focuses on VBS’s Rnd and shows that the situation there is even worse.\n\n\n\nTarget Application\nThe application was responsible for generating a secret token. The token was supposed to be unpredictable and expected to remain secret. Here’s a rough copy of the token generation code:\n\nDim chars, n\nchars = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()*&^%$#@!\"\nn = 32\n\nfunction GenerateToken(chars, n)\n\tDim result, pos, i, charsLength\n\tcha…",
@@ -14106,6 +14137,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1601256",
+          "author": "IT Experts",
+          "description": "Windows 365 Cloud Apps operate on Windows 365 Frontline Cloud PCs in shared mode and entered public preview in September 2025. They allow organizations to deliver individual applications from the cloud without provisioning full Cloud PC virtual desktops for each user.\nSource",
+          "link": "https://4sysops.com/archives/what-are-windows-365-cloud-apps/",
+          "publishedOn": "2025-10-08T20:40:46.000Z",
+          "wordCount": null,
+          "title": "What are Windows 365 Cloud Apps?",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1601378",
           "author": "IT Experts",
@@ -14362,16 +14403,6 @@
           "wordCount": 1680,
           "title": "Enter Sandbox 30: Static Analysis gone wrong",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10134",
-          "author": "adam",
-          "description": "Yes, they keep coming. There are still many Windows persistence mechanisms that are not described properly and my mission is to cover it all. Some of these mechanisms may be seen as archaic, unusual, or ‘there is no way it … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/09/08/beyond-good-ol-run-key-part-151/",
-          "publishedOn": "2025-09-08T23:46:18.000Z",
-          "wordCount": 618,
-          "title": "Beyond good ol’ Run key, Part 151",
-          "imageUrl": null
         }
       ]
     },
@@ -14386,6 +14417,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=42793",
+          "author": "Alex Wallace",
+          "description": "TL;DR   Introduction   In the field of maritime cyber, we often cite the movie Speed 2: Cruise Control from 1997 as an interesting prediction of the future. It illustrates the reality of today quite well, despite being nearly 30 years old!  It’s not a great movie, but the hacking concepts shown in it are actually fairly […]\nThe post What Speed 2 gets right and wrong about ship hacking appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/what-speed-2-gets-right-and-wrong-about-ship-hacking/",
+          "publishedOn": "2025-10-08T01:13:00.000Z",
+          "wordCount": 2531,
+          "title": "What Speed 2 gets right and wrong about ship hacking",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2015/09/Speed-2-headline-V5.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=42939",
           "author": "Alex Wallace",
@@ -14602,16 +14643,6 @@
           "wordCount": 7036,
           "title": "Vulnerability Management – common understanding and language enable teamwork",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/09/Graphic-Part-1.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=21657",
-          "author": "Stamatis Chatzimangou",
-          "description": "Versioning in the detection library is crucial for maintaining traceability and tracking changes to individual detections and content packs. It enables us to pinpoint the exact state of specific detections at a given point in time, provides a clear history of updates, and facilitates troubleshooting and debugging by identifying which version introduced particular changes.",
-          "link": "https://blog.nviso.eu/2025/09/09/detection-engineering-practicing-detection-as-code-versioning-part-5/",
-          "publishedOn": "2025-09-09T08:00:00.000Z",
-          "wordCount": 6977,
-          "title": "Detection Engineering: Practicing Detection-as-Code – Versioning – Part 5",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/08/Detection_Engineering_blog_5_VERSIONING_SC.jpg"
         }
       ]
     },
@@ -14794,18 +14825,7 @@
       "title": "c0rnbread blog",
       "feedUrl": "https://c0rnbread.com/rss/",
       "siteUrl": "https://c0rnbread.com/",
-      "articles": [
-        {
-          "id": "68bf71343918700001b6a0bf",
-          "author": "c0rnbread",
-          "description": "Background\nProcess injection or code injection is a technique in which you copy and execute arbitrary code to a target process. It is often used in Offensive Security to execute tasks under the context of another legitimate process on the system.\nBefore this blog my Mythic C2 agent, Xenon, only",
-          "link": "https://c0rnbread.com/part-6-recreating-cobalt-strikes-process-injection-kit/",
-          "publishedOn": "2025-09-09T02:02:24.000Z",
-          "wordCount": 2276,
-          "title": "Part 6: Recreating Cobalt Strike’s Process Injection Kit",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "dirkjanm.io",

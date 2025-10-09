@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-08T00:50:02.763Z</updated>
+    <updated>2025-10-09T00:51:34.745Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Active Directory Security Tip #13: Kerberos Delegation]]></title>
+        <id>https://adsecurity.org/?p=4784</id>
+        <link href="https://adsecurity.org/?p=4784"/>
+        <updated>2025-10-09T00:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Review the membership of groups for accounts and groups from another Active Directory forest (technically another domain, but using forest here). These are called “Foreign Security Principals” (FSPs) like the ones highlighted in the image. These FSPs are accounts that exist in another forest but have rights in the AD forest. Any FSPs should be … 
+Continue reading]]></summary>
+        <author>
+            <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What are Windows 365 Cloud Apps?]]></title>
+        <id>https://4sysops.com/?p=1601256</id>
+        <link href="https://4sysops.com/archives/what-are-windows-365-cloud-apps/"/>
+        <updated>2025-10-08T20:40:46.000Z</updated>
+        <summary type="html"><![CDATA[Windows 365 Cloud Apps operate on Windows 365 Frontline Cloud PCs in shared mode and entered public preview in September 2025. They allow organizations to deliver individual applications from the cloud without provisioning full Cloud PC virtual desktops for each user.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crafting a Full Exploit RCE from a Crash in Autodesk Revit RFA File Parsing]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68e41e702030c84f2e3fed07</id>
+        <link href="https://www.thezdi.com/blog/2025/10/6/crafting-a-full-exploit-rce-from-a-crash-in-autodesk-revit-rfa-file-parsing"/>
+        <updated>2025-10-08T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In April of 2025, my colleague Mat Powell was hunting for vulnerabilities in Autodesk Revit 2025. While fuzzing RFA files, he found the following crash (CVE-2025-5037 / ZDI-CAN-26922, addressed by Autodesk in July 2025):
+Is this an exploitable crash? From the debugger output crash point as seen above, unclear whether anything is controllable.
+At around this time, my colleague Nitesh Surana uncovered a highly impactful cloud-based supply chain vulnerability in Axis Communications Plugin for Autodesk Revit. This vulnerability made it possible for a malicious actor to force the distribution of corrupted RFA files to Axis plugin users globally, which Autodesk Revit would parse upon use of the Axis Communications plugin. Refer to the blog post here for a full discussion of his research.
+Since T…]]></summary>
+        <author>
+            <name>Simon Zuckerbraun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Speed 2 gets right and wrong about ship hacking]]></title>
+        <id>https://www.pentestpartners.com/?p=42793</id>
+        <link href="https://www.pentestpartners.com/security-blog/what-speed-2-gets-right-and-wrong-about-ship-hacking/"/>
+        <updated>2025-10-08T01:13:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR   Introduction   In the field of maritime cyber, we often cite the movie Speed 2: Cruise Control from 1997 as an interesting prediction of the future. It illustrates the reality of today quite well, despite being nearly 30 years old!  It’s not a great movie, but the hacking concepts shown in it are actually fairly […]
+The post What Speed 2 gets right and wrong about ship hacking appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Public Report: VetKeys Cryptography Review]]></title>
         <id>66743159-4475-4666-9519-fa2569e6c9e0</id>
@@ -24,6 +70,20 @@
         <summary type="html"><![CDATA[Unmasking Techno Sophists]]></summary>
         <author>
             <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ksmbd - Exploiting CVE-2025-37947 (3/3)]]></title>
+        <id>https://blog.doyensec.com/2025/10/08/ksmbd-3.html</id>
+        <link href="https://blog.doyensec.com/2025/10/08/ksmbd-3.html"/>
+        <updated>2025-10-07T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+This is the last of our posts about ksmbd. For the previous posts, see part1 and part2.
+Considering all discovered bugs and proof-of-concept exploits we reported, we had to select some suitable candidates for exploitation. In particular, we wanted to use something reported more recently to avoid downgrading our working environment.
+We first experimented with several use-after-free (UAF) bugs, since this class of bugs has a reputation for almost always being exploitable, as proven in numerous articles. However, many of them required race conditions and specific timing, so we postponed them in favor of bugs with more reliable or deterministic exploitation paths.
+Then there were bugs that depended on factors outside user control, or that had peculiar behavior. Let’s first look at…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -12969,38 +13029,6 @@ Adobe Patches for September 2025
 For September, Adobe released nine bulletins addressing 22 unique CVEs in Adobe Acrobat Reader, After Effects, Premiere Pro, Commerce, Substance 3D Viewer, Experience Manager, Dreamweaver, Adobe 3D Substance Modeler, and ColdFusion. Of these, the ColdFusion update is the only Priority 1 patch, although Adobe notes no exploitation has been detected. The patch for Commerce addresses a single, Critical-rated bug tha…]]></summary>
         <author>
             <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detection Engineering: Practicing Detection-as-Code – Versioning – Part 5]]></title>
-        <id>https://blog.nviso.eu/?p=21657</id>
-        <link href="https://blog.nviso.eu/2025/09/09/detection-engineering-practicing-detection-as-code-versioning-part-5/"/>
-        <updated>2025-09-09T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Versioning in the detection library is crucial for maintaining traceability and tracking changes to individual detections and content packs. It enables us to pinpoint the exact state of specific detections at a given point in time, provides a clear history of updates, and facilitates troubleshooting and debugging by identifying which version introduced particular changes.]]></summary>
-        <author>
-            <name>Stamatis Chatzimangou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Part 6: Recreating Cobalt Strike’s Process Injection Kit]]></title>
-        <id>68bf71343918700001b6a0bf</id>
-        <link href="https://c0rnbread.com/part-6-recreating-cobalt-strikes-process-injection-kit/"/>
-        <updated>2025-09-09T02:02:24.000Z</updated>
-        <summary type="html"><![CDATA[Background
-Process injection or code injection is a technique in which you copy and execute arbitrary code to a target process. It is often used in Offensive Security to execute tasks under the context of another legitimate process on the system.
-Before this blog my Mythic C2 agent, Xenon, only]]></summary>
-        <author>
-            <name>c0rnbread</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 151]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10134</id>
-        <link href="https://www.hexacorn.com/blog/2025/09/08/beyond-good-ol-run-key-part-151/"/>
-        <updated>2025-09-08T23:46:18.000Z</updated>
-        <summary type="html"><![CDATA[Yes, they keep coming. There are still many Windows persistence mechanisms that are not described properly and my mission is to cover it all. Some of these mechanisms may be seen as archaic, unusual, or ‘there is no way it … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
