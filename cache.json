@@ -245,6 +245,26 @@
       "siteUrl": "https://adsecurity.org",
       "articles": [
         {
+          "id": "https://adsecurity.org/?p=4799",
+          "author": "Sean Metcalf",
+          "description": "My BSides NoVa talk slides are now posted. My BSides NoVA talk was called “10 Ways to Improve Entra ID Security Quickly” and I focused on the areas that tend to be missed in Entra ID. Downoad Presentation Slides",
+          "link": "https://adsecurity.org/?p=4799",
+          "publishedOn": "2025-10-13T00:04:31.000Z",
+          "wordCount": 1360,
+          "title": "BSides NoVa 2025 Presentation Slides Posted",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/image-2.png"
+        },
+        {
+          "id": "https://adsecurity.org/?p=4802",
+          "author": "Sean Metcalf",
+          "description": "A couple years ago, the Microsoft Security Experts Blog interviewed me regarding Azure Active Directory (Entra ID) security. Read the Interview here",
+          "link": "https://adsecurity.org/?p=4802",
+          "publishedOn": "2025-10-12T23:37:00.000Z",
+          "wordCount": 1327,
+          "title": "Microsoft Interview",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/image-3.png"
+        },
+        {
           "id": "https://adsecurity.org/?p=4784",
           "author": "Sean Metcalf",
           "description": "Review the membership of groups for accounts and groups from another Active Directory forest (technically another domain, but using forest here). These are called “Foreign Security Principals” (FSPs) like the ones highlighted in the image. These FSPs are accounts that exist in another forest but have rights in the AD forest. Any FSPs should be … \nContinue reading",
@@ -403,16 +423,6 @@
           "wordCount": 1598,
           "title": "Active Directory Security Tip #2: Active Directory User Accounts",
           "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GyKTAXxWYAAKtjh.jpg"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4577",
-          "author": "Sean Metcalf",
-          "description": "A critical part of Active Directory security is regularly reviewing your AD admins. The simplest way to do this is to recursively enumerate the membership of the domain Administrators group (that group’s members and all member group members). Check the AD Admins output for the following: PowerShell code (using Active Directory PowerShell modules):https://github.com/PyroTek3/Misc/blob/main/Get-ADAdmins.ps1",
-          "link": "https://adsecurity.org/?p=4577",
-          "publishedOn": "2025-09-13T00:03:00.000Z",
-          "wordCount": 1547,
-          "title": "Active Directory Security Tip #1: Active Directory Admins",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GyzetbQWcAANFVq.jpg"
         }
       ]
     },
@@ -14324,16 +14334,6 @@
           "publishedOn": "2025-09-15T17:08:16.000Z",
           "wordCount": null,
           "title": "NTLM authentication deprecation: new BlockNTLMv1SSO registry key and Group Policy settings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1600467",
-          "author": "Michael Pietroforte",
-          "description": "OpenAI has finally rolled out Model Context Protocol (MCP) support for all ChatGPT subscription plans. However, the implementation is surprisingly basic and falls short of the MCP support offered by Anthropic's Claude Desktop. Currently, ChatGPT doesn't support local MCP servers (SDIO), and you can only add remote MCP servers (SSE, Streamable HTTP). There's also no MCP server catalog, and the worst part is that GPT-5 isn't fully MCP-ready.\nSource",
-          "link": "https://4sysops.com/archives/add-chatgpt-mcp-serveranother-setback-for-openai/",
-          "publishedOn": "2025-09-12T17:26:34.000Z",
-          "wordCount": null,
-          "title": "Add ChatGPT MCP server—Another setback for OpenAI",
           "imageUrl": null
         }
       ]
