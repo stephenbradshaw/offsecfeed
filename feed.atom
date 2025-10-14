@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-13T00:55:05.694Z</updated>
+    <updated>2025-10-14T00:50:56.086Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AD replication error 8418: The replication operation failed because of a schema mismatch between the servers involved]]></title>
+        <id>https://4sysops.com/?p=1601575</id>
+        <link href="https://4sysops.com/archives/ad-replication-error-8418-the-replication-operation-failed-because-of-a-schema-mismatch-between-the-servers-involved/"/>
+        <updated>2025-10-13T16:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Active Directory domain controllers running Windows Server 2025 with the schema master FSMO role may create duplicate schema attribute values when performing Exchange Server schema extensions, causing replication failures across the entire forest. This issue triggers this error message: Error 8418: The replication operation failed because of a schema mismatch between the servers involved. The issue affects environments attempting to deploy Exchange Server cumulative updates or Exchange Server Subscription Edition. Microsoft has acknowledged this as a known issue in KB5065426.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yet Another DCOM Object for Command Execution Part 1]]></title>
+        <id>68ecd74cc2074f00016c8ea0</id>
+        <link href="https://sud0ru.ghost.io/yet-another-dcom-object-for-command-execution-part-1/"/>
+        <updated>2025-10-13T11:29:57.000Z</updated>
+        <summary type="html"><![CDATA[If you’re a penetration tester, you know that lateral movement is becoming increasingly difficult, especially in well defended environments. One technique for command execution has been the use of DCOM objects. The Impacket dcomexec.py script allows you to leverage three different types of DCOM objects: ShellWindows, ShellBrowserWindow,]]></summary>
+        <author>
+            <name>Sud0Ru</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BSides NoVa 2025 Presentation Slides Posted]]></title>
         <id>https://adsecurity.org/?p=4799</id>
@@ -14,6 +35,16 @@
         <summary type="html"><![CDATA[My BSides NoVa talk slides are now posted. My BSides NoVA talk was called “10 Ways to Improve Entra ID Security Quickly” and I focused on the areas that tend to be missed in Entra ID. Downoad Presentation Slides]]></summary>
         <author>
             <name>Sean Metcalf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lucid Dreams II: Harness Development]]></title>
+        <id>https://h0mbre.github.io/Lucid_Dreams_2/</id>
+        <link href="https://h0mbre.github.io/Lucid_Dreams_2/"/>
+        <updated>2025-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Background Last episode on the blog we took a shallow and broad approach to fuzzing several Netlink-plumbed subsystems like Netfilter, Route, Crypto, and Xfrm. This endeavor wasn’t necessarily an earnest bug finding mission since we mostly wanted to just see how fuzzing a real target with Lucid would go and what things would need tweaking. We ended up changing quite a bit of the core-fuzzer features, specifically Redqueen issues, and were able to improve the fuzzer quite a bit. We modularized the mutator component of Lucid so now writing your own fuzzer for Lucid is as simple as implementing your own mutator. We can extend this even more, and will, by enabling the user to pass command line arguments directly to the bespoke mutator.]]></summary>
+        <author>
+            <name>The Human Machine Interface</name>
         </author>
     </entry>
     <entry>
