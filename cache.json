@@ -383,36 +383,6 @@
           "wordCount": 1491,
           "title": "Active Directory Lab Build Script",
           "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/G06GA6tXwAAFY5y-1.png"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4583",
-          "author": "Sean Metcalf",
-          "description": "Active Directory computers should be reviewed about once a year. Old operating systems can hold back security progress like keeping SMBv1 and NTLMv1 active. Inactive computers should be discovered and disabled when no longer in use (and eventually removed). The OperatingSystem & PasswordLastSet attributes are self-explanatory, though we can use the LastLogonDate which represents the … \nContinue reading",
-          "link": "https://adsecurity.org/?p=4583",
-          "publishedOn": "2025-09-16T00:03:00.000Z",
-          "wordCount": 1477,
-          "title": "Active Directory Security Tip #3: Computer Accounts",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GxwySLOWoAEkJSj.jpg"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4661",
-          "author": "Sean Metcalf",
-          "description": "An important Active Directory setting determines what security capabilities are available which relates to the level of the forest and/or domain. This post is meant to collect the relevant capabilities of Windows domain and forest functional levels. Forest Functional Level Features: Domain Functional Level Features: References: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10) https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels",
-          "link": "https://adsecurity.org/?p=4661",
-          "publishedOn": "2025-09-16T00:01:00.000Z",
-          "wordCount": 2344,
-          "title": "Active Directory Forest & Domain Levels",
-          "imageUrl": null
-        },
-        {
-          "id": "https://adsecurity.org/?p=4638",
-          "author": "Sean Metcalf",
-          "description": "I recently published an article on the TrustedSec blog site called “Detecting Active Directory Password-Spraying with a Honeypot Account“. This article describes how to use an Active Directory honeypot account in order to detect Password Spraying. Read the article here:https://trustedsec.com/blog/detecting-password-spraying-with-a-honeypot-account",
-          "link": "https://adsecurity.org/?p=4638",
-          "publishedOn": "2025-09-15T19:17:00.000Z",
-          "wordCount": 1370,
-          "title": "Detecting Active Directory Password Spraying Article",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/image.png"
         }
       ]
     },
@@ -502,6 +472,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "a870dfef-e5c2-4d36-b53f-c6f564be8285",
+          "author": null,
+          "description": "State of the Art of Private Key Security in Blockchain Ops - 3. Private Key\nStorage and Signing Module",
+          "link": "https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-3-private-key-storage-and-signing-module/",
+          "publishedOn": "2025-10-16T00:51:54.031Z",
+          "wordCount": 3612,
+          "title": "State of the Art of Private Key Security in Blockchain Ops - 3. Private Key Storage and Signing Module",
+          "imageUrl": null
+        },
         {
           "id": "b681c62e-41b9-42ef-a3eb-bd250341b515",
           "author": null,
@@ -14024,16 +14004,6 @@
           "wordCount": 1980,
           "title": "Use mutation testing to find the bugs your tests don't catch",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/09/16/ficklings-new-ai/ml-pickle-file-scanner/",
-          "author": null,
-          "description": "We’ve added a pickle file scanner to Fickling that uses an allowlist approach to protect AI/ML environments from malicious pickle files that could compromise models or infrastructure.",
-          "link": "https://blog.trailofbits.com/2025/09/16/ficklings-new-ai/ml-pickle-file-scanner/",
-          "publishedOn": "2025-09-16T11:00:00.000Z",
-          "wordCount": 1333,
-          "title": "Fickling’s new AI/ML pickle file scanner",
-          "imageUrl": "https://blog.trailofbits.com/img/ficklings-new-file-scanner/fickling-pickle-scanner.png"
         }
       ]
     },
@@ -14157,6 +14127,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1601650",
+          "author": "Markus Elsberger",
+          "description": "This article explains the differences between WSL 1 and WSL 2, how they compare to WSL on Windows Server 2022 and Windows Server 2025, and how to install WSL on Windows Server 2025 using the graphical user interface (GUI) or PowerShell.\nSource",
+          "link": "https://4sysops.com/archives/install-linux-subsystem-for-windows-wsl-on-windows-server-2025/",
+          "publishedOn": "2025-10-15T16:02:28.000Z",
+          "wordCount": null,
+          "title": "Install Linux Subsystem for Windows (WSL) on Windows Server 2025",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1601538",
           "author": "IT Experts",
@@ -14366,16 +14346,6 @@
           "wordCount": 5761,
           "title": "Windows September updates break SMBv1 shares: Workarounds and user feedback",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2025/09/SMBv1-is-disabled-by-default-in-new-versions-of-Windows-Server.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1600560",
-          "author": "IT Experts",
-          "description": "Microsoft has introduced a new BlockNTLMv1SSO registry key in Windows 11 24H2 and Windows Server 2025 as part of its broader initiative to deprecate NTLM authentication. The new registry key allows administrators to control NTLMv1-derived credential usage. These changes address ongoing security vulnerabilities in NTLM while providing organizations time to transition to modern alternatives like Kerberos.\nSource",
-          "link": "https://4sysops.com/archives/ntlm-authentication-deprecation-new-blockntlmv1sso-registry-key-and-group-policy-settings/",
-          "publishedOn": "2025-09-15T17:08:16.000Z",
-          "wordCount": null,
-          "title": "NTLM authentication deprecation: new BlockNTLMv1SSO registry key and Group Policy settings",
-          "imageUrl": null
         }
       ]
     },
@@ -14466,16 +14436,6 @@
           "wordCount": 3135,
           "title": "Spot trouble early with honeypots and Suricata",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/10/Headlinev2.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=42840",
-          "author": "Alex Wallace",
-          "description": "TL;DR Why Discord appeals to attackers Discord has become an attractive tool for attackers not because it’s malicious, but because it’s legitimate and trusted. It often flies under the radar of security controls and offers features that make it easy to send data out without user interaction or elevated permissions. We’ve seen similar misuse across […]\nThe post Discord as a C2 and the cached evidence left behind appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/discord-as-a-c2-and-the-cached-evidence-left-behind/",
-          "publishedOn": "2025-09-16T09:21:00.000Z",
-          "wordCount": 3060,
-          "title": "Discord as a C2 and the cached evidence left behind",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/09/Discord-as-a-C2-and-the-cached-evidence-left-behind-headlinev2.png"
         }
       ]
     },
