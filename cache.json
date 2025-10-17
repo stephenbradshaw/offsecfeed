@@ -73,18 +73,7 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": [
-        {
-          "id": "websocket-turbo-intruder-unearthing-the-websocket-goldmine",
-          "author": null,
-          "description": "Many testers and tools give up the moment a protocol upgrade to WebSocket occurs, or only perform shallow analysis. This is a huge blind spot, leaving many bugs like Broken Access Controls, Race condi",
-          "link": "https://portswigger.net/research/websocket-turbo-intruder-unearthing-the-websocket-goldmine",
-          "publishedOn": "2025-09-17T12:40:06.000Z",
-          "wordCount": 2165,
-          "title": "WebSocket Turbo Intruder: Unearthing the WebSocket Goldmine",
-          "imageUrl": "https://portswigger.net/cms/images/a8/06/be9f-twittercard-twitter-ws.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Project Zero",
@@ -363,26 +352,6 @@
           "wordCount": 1447,
           "title": "Active Directory Security Tip #5: The Default Domain Administrator Account",
           "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/Gva7TGYWUAA60cl.png"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4607",
-          "author": "Sean Metcalf",
-          "description": "There are several default/built-in privileged groups that should be reviewed: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups PowerShell Script leveraging the Active Directory PowerShell module: https://github.com/PyroTek3/Misc/blob/main/Get-ADBuiltInAdmins.ps1",
-          "link": "https://adsecurity.org/?p=4607",
-          "publishedOn": "2025-09-17T00:03:00.000Z",
-          "wordCount": 1538,
-          "title": "Active Directory Security Tip #4: Default/Built-In Active Directory Groups",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/GzNrh03X0AANTqH.jpg"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4670",
-          "author": "Sean Metcalf",
-          "description": "Over the summer, I rebuilt my Active Directory lab environment with multiple regional domains. Instead of manually configuring common issues, I decided to create a PowerShell script to do this for me. My Invoke-ADLabBuildOut script does the following: PowerShell AD lab build out script leveraging the Active Directory PowerShell module:https://github.com/PyroTek3/ADLab",
-          "link": "https://adsecurity.org/?p=4670",
-          "publishedOn": "2025-09-17T00:00:00.000Z",
-          "wordCount": 1491,
-          "title": "Active Directory Lab Build Script",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/09/G06GA6tXwAAFY5y-1.png"
         }
       ]
     },
@@ -397,6 +366,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68f0cb903f5be604e51f6403",
+          "author": "Dustin Childs",
+          "description": "If you just want to read the rules, click here.\n Now entering its third year, Pwn2Own Automotive returns to Automotive World in Tokyo on January 21 – 23, 2026. Over the last two years, we’ve awarded more than $2,000,000 for the latest in automotive exploitations, and this year looks to be even better.\nAs always, we’re pleased to be working with our cohorts over at VicOne again. Their help was instrumental in the success we had at our first event, and we’re glad to be partnering with them once more. Tesla also returns as a sponsor. They’ve worked with us since 2019, and their help has been crucial in advancing the state of the art in automotive research. This year, we’re introducing a new supercharger category and Alpitronic has joined as a partner and provided their Level 3 charger as a ta…",
+          "link": "https://www.thezdi.com/blog/2025/10/16/pwn2own-automotive-returns-to-tokyo-with-expanded-chargers-and-more",
+          "publishedOn": "2025-10-16T15:00:42.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Automotive Returns to Tokyo with Expanded Chargers and More!",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68ee8873d8083d21ef2aa37d",
           "author": "Dustin Childs",
@@ -13888,16 +13868,6 @@
           "wordCount": 9096,
           "title": "Your Vulnerability Scanner Might Be Your Weakest Link",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/09/vuln-weakest-link-hero.jpg"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=6222",
-          "author": "Justin Copeland",
-          "description": "Overview At Black Hat and DEF CON, we demonstrated how red teams could tunnel traffic through everyday collaboration platforms like Zoom and Microsoft Teams, effectively transforming them into covert communication channels for command-and-control. That research highlighted a critical blind spot: defenders rarely block traffic to core business services because doing so would disrupt legitimate operations. […]\nThe post Domain Fronting is Dead. Long Live Domain Fronting! appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/domain-fronting-is-dead-long-live-domain-fronting/",
-          "publishedOn": "2025-09-16T18:49:23.000Z",
-          "wordCount": 8160,
-          "title": "Domain Fronting is Dead. Long Live Domain Fronting!",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/09/domain-fronting-hero.jpg"
         }
       ]
     },
@@ -14128,6 +14098,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1601672",
+          "author": "IT Experts",
+          "description": "Microsoft has released the Azure DevOps local MCP Server as generally available, transitioning from public preview to production-ready status. The server enables AI assistants to access Azure DevOps data, including work items, pull requests, test plans, builds, and wikis. This allows IT professionals to automate DevOps workflows through natural language commands while maintaining data security within their local network.\nSource",
+          "link": "https://4sysops.com/archives/azure-devops-local-mcp-server-reaches-general-availability/",
+          "publishedOn": "2025-10-16T21:07:46.000Z",
+          "wordCount": null,
+          "title": "Azure DevOps local MCP Server reaches general availability",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1601650",
           "author": "Markus Elsberger",
           "description": "This article explains the differences between WSL 1 and WSL 2, how they compare to WSL on Windows Server 2022 and Windows Server 2025, and how to install WSL on Windows Server 2025 using the graphical user interface (GUI) or PowerShell.\nSource",
@@ -14336,16 +14316,6 @@
           "wordCount": null,
           "title": "Migrate a Print Server to Windows Server 2025",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1600594",
-          "author": "IT Experts",
-          "description": "Microsoft’s September 2025 security updates have broken connectivity to SMBv1 shares over NetBIOS over TCP/IP (NetBT), disrupting Windows client and server systems that still rely on this legacy protocol. This article explains what SMBv1 is, why it remains in use despite being deprecated, and the serious security risks that come with it. We’ll cover the details of the September updates, their impact on affected systems, and the available workarounds for organizations struggling to restore functionality. Finally, we’ll look at user feedback and long-term recommendations for migrating away from SMBv1 to more secure and modern protocols.\nSource",
-          "link": "https://4sysops.com/archives/windows-september-updates-break-smbv1-shares-workarounds-and-user-feedback/",
-          "publishedOn": "2025-09-16T15:00:38.000Z",
-          "wordCount": 5761,
-          "title": "Windows September updates break SMBv1 shares: Workarounds and user feedback",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2025/09/SMBv1-is-disabled-by-default-in-new-versions-of-Windows-Server.png"
         }
       ]
     },
@@ -14705,16 +14675,6 @@
           "wordCount": 2708,
           "title": "What Does “Good” Look Like in Red Teaming",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_What-Does-Good-Red-Teaming_Featured-Tile.jpg?mtime=1758312363"
-        },
-        {
-          "id": "https://bishopfox.com/blog/state-of-the-saas-security-union",
-          "author": null,
-          "description": "Two threat groups are exploiting SaaS at scale: one with phishing and data theft, the other with nation-state level tactics exploiting integrations and credentials. Here’s what you need to know and how to protect against the next wave.",
-          "link": "https://bishopfox.com/blog/state-of-the-saas-security-union",
-          "publishedOn": "2025-09-16T13:00:00.000Z",
-          "wordCount": 1716,
-          "title": "State of the SaaS Security Union",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/Open-Graph/_1200x630_crop_center-center_82_none/bfx25_BishopFox-Blog-SaaS-Security-Union-OG.jpg?mtime=1758059826"
         }
       ]
     },
@@ -14794,6 +14754,16 @@
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
+        {
+          "id": "68effad74925f90001d4e2a3",
+          "author": "McCaulay Hudson",
+          "description": "Note from editor: Before we begin, a big welcome to McCaulay Hudson, the newest member of the watchTowr Labs team with his inaugural blog post! Welcome to the mayhem, McCaulay!\nToday is the 8th of November 1996, and we’re thrilled to be exploring this new primitive we call",
+          "link": "https://labs.watchtowr.com/yikes-watchguard-fireware-os-ikev2-out-of-bounds-write-cve-2025-9242/",
+          "publishedOn": "2025-10-16T10:02:58.000Z",
+          "wordCount": 3436,
+          "title": "yIKEs (WatchGuard Fireware OS IKEv2 Out-of-Bounds Write CVE-2025-9242)",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/10/Group-8730--26-.png"
+        },
         {
           "id": "68e90e97c784180001b0ffb8",
           "author": "Piotr Bazydlo (@chudyPB)",
