@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-24T00:49:30.418Z</updated>
+    <updated>2025-10-25T00:51:47.535Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 153]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10203</id>
+        <link href="https://www.hexacorn.com/blog/2025/10/25/beyond-good-ol-run-key-part-153/"/>
+        <updated>2025-10-25T00:26:18.000Z</updated>
+        <summary type="html"><![CDATA[This Registry entry: HKLM\Software\Microsoft\Windows\CurrentVersion\Group Policy\Test\AdmParseLibrary=<DLL> is of interest as it relates to TestHooks library that is loaded when *.admx template files are being parsed.]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft announces Office Online Server retirement]]></title>
+        <id>https://4sysops.com/?p=1602027</id>
+        <link href="https://4sysops.com/archives/microsoft-announces-office-online-server-retirement/"/>
+        <updated>2025-10-24T11:56:21.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft will discontinue support for Office Online Server on December 31, 2026, ending security updates and technical assistance for the on-premises solution that provides browser-based Office applications. Organizations are encouraged to migrate to Microsoft 365 or use supported desktop clients for SharePoint Server and Exchange Server Subscription Edition deployments.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Azure Fabric Backdoor With A Twist]]></title>
         <id>e5c621aa-6738-4c1d-a9d1-2506eef72360</id>
@@ -131,6 +152,16 @@ Day Two of Pwn2Own Ireland 2025 is complete! We saw some great work today, with 
         <summary type="html"><![CDATA[SentinelLABS uncovers a coordinated spearphishing campaign targeting organizations critical to Ukraine's war relief efforts.]]></summary>
         <author>
             <name>Tom Hegel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM i LIBL Autopwn: Kill the Vulnerability Class]]></title>
+        <id>https://blog.silentsignal.eu/2025/10/22/IBM-i-LIBL-Autopwn-Kill-the-Vulnerability-Class/</id>
+        <link href="https://blog.silentsignal.eu/2025/10/22/IBM-i-LIBL-Autopwn-Kill-the-Vulnerability-Class/"/>
+        <updated>2025-10-22T07:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Intro]]></summary>
+        <author>
+            <name>Silent Signal Techblog</name>
         </author>
     </entry>
     <entry>
@@ -13038,105 +13069,6 @@ A]]></summary>
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taming 2,500 compiler warnings with CodeQL, an OpenVPN2 case study]]></title>
-        <id>https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/</id>
-        <link href="https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/"/>
-        <updated>2025-09-25T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We created a CodeQL query that reduced 2,500+ compiler warnings about implicit conversions in OpenVPN2 to just 20 high-priority cases, demonstrating how to effectively identify potentially dangerous type conversions in C code.]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Securing Microsoft Entra ID: Lessons from the Field – Part 1]]></title>
-        <id>https://blog.nviso.eu/?p=20855</id>
-        <link href="https://blog.nviso.eu/2025/09/25/securing-microsoft-entra-id-lessons-from-the-field-part-1/"/>
-        <updated>2025-09-25T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This multipart blog series is focused on the real-world lessons learned while securing Microsoft Entra ID. Based on hands-on experience across various environments and organizations, we’ll explore the practical, high-impact strategies that work and more importantly, the common misconfigurations, overlooked settings, and pitfalls that can expose your identity perimeter. Throughout the series, we’ll cover both … Continue reading Securing Microsoft Entra ID: Lessons from the Field – Part 1 →]]></summary>
-        <author>
-            <name>Christos Gourzoulidis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yet Another Random Story: VBScript's Randomize Internals]]></title>
-        <id>https://blog.doyensec.com/2025/09/25/yet-another-random-story.html</id>
-        <link href="https://blog.doyensec.com/2025/09/25/yet-another-random-story.html"/>
-        <updated>2025-09-24T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In one of our recent posts, Dennis shared an interesting case study of C# exploitation that rode on Random-based password-reset tokens. He demonstrated how to use the single-packet attack, or a bit of old-school math, to beat the game. Recently, I performed a security test on a target which had a dependency written in VBScript. This blog post focuses on VBS’s Rnd and shows that the situation there is even worse.
-
-
-
-Target Application
-The application was responsible for generating a secret token. The token was supposed to be unpredictable and expected to remain secret. Here’s a rough copy of the token generation code:
-
-Dim chars, n
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()*&^%$#@!"
-n = 32
-
-function GenerateToken(chars, n)
-	Dim result, pos, i, charsLength
-	cha…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cross-Agent Privilege Escalation: When Agents Free Each Other]]></title>
-        <id>https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/</id>
-        <link href="https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/"/>
-        <updated>2025-09-24T19:20:58.000Z</updated>
-        <summary type="html"><![CDATA[During the Month of AI Bugs, I described an emerging vulnerability pattern that shows how commonly agentic systems have a design flaw that allows an agent to overwrite its own configuration and security settings.
-This allows the agent to break out of its sandbox and escape by executing arbitrary code.
-My research with GitHub Copilot, AWS Kiro and a few others demonstrated how this can be exploited by an adversary with an indirect prompt injection.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2025-23298: Getting Remote Code Execution in NVIDIA Merlin]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68d33f8bf584cf52223cf0c5</id>
-        <link href="https://www.thezdi.com/blog/2025/9/23/cve-2025-23298-getting-remote-code-execution-in-nvidia-merlin"/>
-        <updated>2025-09-24T16:41:25.000Z</updated>
-        <summary type="html"><![CDATA[While investigating the security posture of various machine learning (ML) and artificial intelligence (AI) frameworks, the Trend Micro Zero Day Initiative (ZDI) Threat Hunting Team discovered a critical vulnerability in the NVIDIA Merlin Transformers4Rec library that could allow an attacker to achieve remote code execution with root privileges. This vulnerability, tracked as CVE-2025-23298, stems from unsafe deserialization practices in the model checkpoint loading functionality. What makes this finding particularly interesting is not just the vulnerability itself, but how it highlights the endemic security challenges facing the ML/AI ecosystem’s reliance on Python’s pickle serialization.
-In this post, I’ll walk through the discovery process, demonstrate the exploitation technique, analyze…]]></summary>
-        <author>
-            <name>Peter Girnus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Administrative Templates (ADMX/ADML) for Windows, Outlook, Word, Excel, and OneNote]]></title>
-        <id>https://4sysops.com/?p=1600863</id>
-        <link href="https://4sysops.com/archives/new-administrative-templates-admxadml-for-outlook-word-excel-and-onenote/"/>
-        <updated>2025-09-24T16:24:07.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released significant updates to Administrative Templates (ADMX/ADML files) throughout 2025, introducing new Group Policy options for Windows 11 and Microsoft Office applications. These templates enable IT administrators to manage registry-based policy settings through Group Policy and Microsoft Intune.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities]]></title>
-        <id>welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities</id>
-        <link href="https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities"/>
-        <updated>2025-09-24T14:17:34.000Z</updated>
-        <summary type="html"><![CDATA[Whether you’re navigating a client pentest or chasing a bounty target, even the most experienced testers hit roadblocks, burn time on repetitive tasks, or just want a second opinion. Burp AI is design]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is This Bad? This Feels Bad. (Fortra GoAnywhere CVE-2025-10035)]]></title>
-        <id>68d3cf70c129330001cc7a02</id>
-        <link href="https://labs.watchtowr.com/is-this-bad-this-feels-bad-goanywhere-cve-2025-10035/"/>
-        <updated>2025-09-24T13:01:28.000Z</updated>
-        <summary type="html"><![CDATA[File transfer used to be simple fun - fire up your favourite FTP client, log in to a glFTPd site, and you were done.
-Fast forward to 2025, and the same act requires a procurement team, a web interface, and a vendor proudly waving their Secure by Design pledge. 
-Ever]]></summary>
-        <author>
-            <name>Sonny</name>
         </author>
     </entry>
     <entry>

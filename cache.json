@@ -66,16 +66,6 @@
           "wordCount": 879,
           "title": "Hacking smarter with Burp AI: NahamSec puts Burp AI to the test",
           "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        },
-        {
-          "id": "welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities",
-          "author": null,
-          "description": "Whether you’re navigating a client pentest or chasing a bounty target, even the most experienced testers hit roadblocks, burn time on repetitive tasks, or just want a second opinion. Burp AI is design",
-          "link": "https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities",
-          "publishedOn": "2025-09-24T14:17:34.000Z",
-          "wordCount": 1491,
-          "title": "Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
     },
@@ -112,7 +102,18 @@
       "title": "Silent Signal Techblog",
       "feedUrl": "https://blog.silentsignal.eu/feed/",
       "siteUrl": "https://blog.silentsignal.eu/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.silentsignal.eu/2025/10/22/IBM-i-LIBL-Autopwn-Kill-the-Vulnerability-Class/",
+          "author": null,
+          "description": "Intro",
+          "link": "https://blog.silentsignal.eu/2025/10/22/IBM-i-LIBL-Autopwn-Kill-the-Vulnerability-Class/",
+          "publishedOn": "2025-10-22T07:50:00.000Z",
+          "wordCount": 1157,
+          "title": "IBM i LIBL Autopwn: Kill the Vulnerability Class",
+          "imageUrl": "https://blog.silentsignal.eu/assets/img//img/Matrix_He_Is_The_One.gif"
+        }
+      ]
     },
     {
       "title": "Technical Blog Archives - NetSPI",
@@ -431,17 +432,6 @@
           "publishedOn": "2025-10-08T14:00:00.000Z",
           "wordCount": null,
           "title": "Crafting a Full Exploit RCE from a Crash in Autodesk Revit RFA File Parsing",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68d33f8bf584cf52223cf0c5",
-          "author": "Peter Girnus",
-          "description": "While investigating the security posture of various machine learning (ML) and artificial intelligence (AI) frameworks, the Trend Micro Zero Day Initiative (ZDI) Threat Hunting Team discovered a critical vulnerability in the NVIDIA Merlin Transformers4Rec library that could allow an attacker to achieve remote code execution with root privileges. This vulnerability, tracked as CVE-2025-23298, stems from unsafe deserialization practices in the model checkpoint loading functionality. What makes this finding particularly interesting is not just the vulnerability itself, but how it highlights the endemic security challenges facing the ML/AI ecosystem’s reliance on Python’s pickle serialization.\nIn this post, I’ll walk through the discovery process, demonstrate the exploitation technique, analyze…",
-          "link": "https://www.thezdi.com/blog/2025/9/23/cve-2025-23298-getting-remote-code-execution-in-nvidia-merlin",
-          "publishedOn": "2025-09-24T16:41:25.000Z",
-          "wordCount": null,
-          "title": "CVE-2025-23298: Getting Remote Code Execution in NVIDIA Merlin",
           "itunes": {},
           "imageUrl": null
         }
@@ -13947,16 +13937,6 @@
           "wordCount": 3517,
           "title": "ksmbd - Exploiting CVE-2025-37947 (3/3)",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2025/09/25/yet-another-random-story.html",
-          "author": null,
-          "description": "In one of our recent posts, Dennis shared an interesting case study of C# exploitation that rode on Random-based password-reset tokens. He demonstrated how to use the single-packet attack, or a bit of old-school math, to beat the game. Recently, I performed a security test on a target which had a dependency written in VBScript. This blog post focuses on VBS’s Rnd and shows that the situation there is even worse.\n\n\n\nTarget Application\nThe application was responsible for generating a secret token. The token was supposed to be unpredictable and expected to remain secret. Here’s a rough copy of the token generation code:\n\nDim chars, n\nchars = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789()*&^%$#@!\"\nn = 32\n\nfunction GenerateToken(chars, n)\n\tDim result, pos, i, charsLength\n\tcha…",
-          "link": "https://blog.doyensec.com/2025/09/25/yet-another-random-story.html",
-          "publishedOn": "2025-09-24T22:00:00.000Z",
-          "wordCount": 2529,
-          "title": "Yet Another Random Story: VBScript's Randomize Internals",
-          "imageUrl": null
         }
       ]
     },
@@ -13997,16 +13977,6 @@
           "publishedOn": "2025-10-22T11:00:00.000Z",
           "wordCount": 2731,
           "title": "Prompt injection to RCE in AI agents",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/",
-          "author": null,
-          "description": "We created a CodeQL query that reduced 2,500+ compiler warnings about implicit conversions in OpenVPN2 to just 20 high-priority cases, demonstrating how to effectively identify potentially dangerous type conversions in C code.",
-          "link": "https://blog.trailofbits.com/2025/09/25/taming-2500-compiler-warnings-with-codeql-an-openvpn2-case-study/",
-          "publishedOn": "2025-09-25T11:00:00.000Z",
-          "wordCount": 1649,
-          "title": "Taming 2,500 compiler warnings with CodeQL, an OpenVPN2 case study",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
@@ -14152,6 +14122,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1602027",
+          "author": "IT Experts",
+          "description": "Microsoft will discontinue support for Office Online Server on December 31, 2026, ending security updates and technical assistance for the on-premises solution that provides browser-based Office applications. Organizations are encouraged to migrate to Microsoft 365 or use supported desktop clients for SharePoint Server and Exchange Server Subscription Edition deployments.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-announces-office-online-server-retirement/",
+          "publishedOn": "2025-10-24T11:56:21.000Z",
+          "wordCount": null,
+          "title": "Microsoft announces Office Online Server retirement",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1601975",
           "author": "IT Experts",
@@ -14361,16 +14341,6 @@
           "wordCount": null,
           "title": "Convert VMware VMs to Hyper-V in Windows Admin Center",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1600863",
-          "author": "IT Experts",
-          "description": "Microsoft has released significant updates to Administrative Templates (ADMX/ADML files) throughout 2025, introducing new Group Policy options for Windows 11 and Microsoft Office applications. These templates enable IT administrators to manage registry-based policy settings through Group Policy and Microsoft Intune.\nSource",
-          "link": "https://4sysops.com/archives/new-administrative-templates-admxadml-for-outlook-word-excel-and-onenote/",
-          "publishedOn": "2025-09-24T16:24:07.000Z",
-          "wordCount": null,
-          "title": "New Administrative Templates (ADMX/ADML) for Windows, Outlook, Word, Excel, and OneNote",
-          "imageUrl": null
         }
       ]
     },
@@ -14379,6 +14349,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10203",
+          "author": "adam",
+          "description": "This Registry entry: HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\Test\\AdmParseLibrary=<DLL> is of interest as it relates to TestHooks library that is loaded when *.admx template files are being parsed.",
+          "link": "https://www.hexacorn.com/blog/2025/10/25/beyond-good-ol-run-key-part-153/",
+          "publishedOn": "2025-10-25T00:26:18.000Z",
+          "wordCount": 500,
+          "title": "Beyond good ol’ Run key, Part 153",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=10197",
           "author": "adam",
@@ -14545,18 +14525,7 @@
       "title": "Embrace The Red",
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
-      "articles": [
-        {
-          "id": "https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/",
-          "author": null,
-          "description": "During the Month of AI Bugs, I described an emerging vulnerability pattern that shows how commonly agentic systems have a design flaw that allows an agent to overwrite its own configuration and security settings.\nThis allows the agent to break out of its sandbox and escape by executing arbitrary code.\nMy research with GitHub Copilot, AWS Kiro and a few others demonstrated how this can be exploited by an adversary with an indirect prompt injection.",
-          "link": "https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/",
-          "publishedOn": "2025-09-24T19:20:58.000Z",
-          "wordCount": 1046,
-          "title": "Cross-Agent Privilege Escalation: When Agents Free Each Other",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Pentest Blog",
@@ -14713,16 +14682,6 @@
           "wordCount": 4021,
           "title": "You name it, VMware elevates it (CVE-2025-41244)",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/09/CVE-2025-41244.png"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=20855",
-          "author": "Christos Gourzoulidis",
-          "description": "This multipart blog series is focused on the real-world lessons learned while securing Microsoft Entra ID. Based on hands-on experience across various environments and organizations, we’ll explore the practical, high-impact strategies that work and more importantly, the common misconfigurations, overlooked settings, and pitfalls that can expose your identity perimeter. Throughout the series, we’ll cover both … Continue reading Securing Microsoft Entra ID: Lessons from the Field – Part 1 →",
-          "link": "https://blog.nviso.eu/2025/09/25/securing-microsoft-entra-id-lessons-from-the-field-part-1/",
-          "publishedOn": "2025-09-25T08:00:00.000Z",
-          "wordCount": 4237,
-          "title": "Securing Microsoft Entra ID: Lessons from the Field – Part 1",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/07/Securing-Microsoft-Entra-ID-–-Lessons-from-the-Field.png"
         }
       ]
     },
@@ -14908,16 +14867,6 @@
           "wordCount": 1032,
           "title": "It Is Bad (Exploitation of Fortra GoAnywhere MFT CVE-2025-10035) - Part 2",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/09/Group-8730--23-.png"
-        },
-        {
-          "id": "68d3cf70c129330001cc7a02",
-          "author": "Sonny",
-          "description": "File transfer used to be simple fun - fire up your favourite FTP client, log in to a glFTPd site, and you were done.\nFast forward to 2025, and the same act requires a procurement team, a web interface, and a vendor proudly waving their Secure by Design pledge. \nEver",
-          "link": "https://labs.watchtowr.com/is-this-bad-this-feels-bad-goanywhere-cve-2025-10035/",
-          "publishedOn": "2025-09-24T13:01:28.000Z",
-          "wordCount": 2841,
-          "title": "Is This Bad? This Feels Bad. (Fortra GoAnywhere CVE-2025-10035)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/09/Group-8730--22-.png"
         }
       ]
     },
