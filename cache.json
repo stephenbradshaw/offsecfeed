@@ -79,18 +79,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
-          "author": null,
-          "description": "Posted by Jann Horn, Google Project Zero\n\n\n\nIntroduction\nSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenarios where an attack surface can be reached that deserializes attacker-provided data, re-serializes the resulting objects, and sends the re-serialized data back to the attacker.\nThe team brainstormed, and we couldn't immediately come up with any specific atta…",
-          "link": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
-          "publishedOn": "2025-09-26T17:00:00.000Z",
-          "wordCount": 6200,
-          "title": "Pointer leaks through pointer-keyed data structures",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Carnal0wnage Blog",
@@ -155,6 +144,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=10987",
+          "author": "Didier Stevens",
+          "description": "This update brings function= to the definition of a resolve command. Key-value pair function is optional. If provided, the value will be interpreted as a Python function and called when there is a match. The function must inspect the request and update the reply. Arguments to the function are request, reply and dCommand. The function […]",
+          "link": "https://blog.didierstevens.com/2025/10/27/update-dnsresolver-py-version-0-0-4/",
+          "publishedOn": "2025-10-27T00:00:00.000Z",
+          "wordCount": 3329,
+          "title": "Update: dnsresolver.py Version 0.0.4",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=10980",
           "author": "Didier Stevens",
@@ -487,6 +486,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "08a43b7a-88c9-4919-a224-c039bdf02c6b",
+          "author": null,
+          "description": "Explore how hardcoded SSH host keys in Tandberg Video Communication Server could expose systems to impersonation and MITM attacks.",
+          "link": "https://www.nccgroup.com/research-blog/tandberg-video-communication-server-static-ssh-host-keysn/",
+          "publishedOn": "2025-10-27T00:57:18.507Z",
+          "wordCount": 2518,
+          "title": "TANDBERG Video Communication Server Static SSH Host KeysN",
+          "imageUrl": null
+        },
         {
           "id": "e5c621aa-6738-4c1d-a9d1-2506eef72360",
           "author": null,
@@ -14320,16 +14329,6 @@
           "publishedOn": "2025-09-29T17:15:34.000Z",
           "wordCount": null,
           "title": "What is Microsoft Azure Logic Apps? Now with MCP support",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1600951",
-          "author": "Michael Pietroforte",
-          "description": "The end of support for Office 2016 and Office 2019 on October 14, 2025, forces organizations to choose between upgrading to Office 2024 or adopting Microsoft 365 Apps. Both solutions offer Office applications like Word, Excel, and PowerPoint, but differ significantly in pricing models, AI capabilities, cloud integration, and update cycles. While Office 2024 delivers a one-time purchase with long-term stability and offline functionality, Microsoft 365 Apps provides continuous feature updates, AI-powered Copilot integration, and collaborative cloud tools through a subscription model. This guide compares Office 2024 vs. Microsoft 365 Apps to help you make the right upgrade decision before support ends.\nSource",
-          "link": "https://4sysops.com/archives/upgrade-from-office-2016-2019-office-2024-vs-microsoft-365-apps/",
-          "publishedOn": "2025-09-26T15:03:22.000Z",
-          "wordCount": null,
-          "title": "Upgrade from Office 2016, 2019 – Office 2024 vs Microsoft 365 Apps",
           "imageUrl": null
         }
       ]

@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-10-26T00:56:54.185Z</updated>
+    <updated>2025-10-27T00:57:51.691Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TANDBERG Video Communication Server Static SSH Host KeysN]]></title>
+        <id>08a43b7a-88c9-4919-a224-c039bdf02c6b</id>
+        <link href="https://www.nccgroup.com/research-blog/tandberg-video-communication-server-static-ssh-host-keysn/"/>
+        <updated>2025-10-27T00:57:18.507Z</updated>
+        <summary type="html"><![CDATA[Explore how hardcoded SSH host keys in Tandberg Video Communication Server could expose systems to impersonation and MITM attacks.]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: dnsresolver.py Version 0.0.4]]></title>
+        <id>http://blog.didierstevens.com/?p=10987</id>
+        <link href="https://blog.didierstevens.com/2025/10/27/update-dnsresolver-py-version-0-0-4/"/>
+        <updated>2025-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This update brings function= to the definition of a resolve command. Key-value pair function is optional. If provided, the value will be interpreted as a Python function and called when there is a match. The function must inspect the request and update the reply. Arguments to the function are request, reply and dCommand. The function […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickpost: PEP 515 – Underscores in Numeric Literals]]></title>
         <id>http://blog.didierstevens.com/?p=10980</id>
@@ -13017,33 +13037,6 @@ Source]]></summary>
         <updated>2025-09-28T00:55:44.044Z</updated>
         <author>
             <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pointer leaks through pointer-keyed data structures]]></title>
-        <id>https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html"/>
-        <updated>2025-09-26T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Jann Horn, Google Project Zero
-
-
-
-Introduction
-Some time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of "where would be a good first place to look for a remote ASLR leak", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenarios where an attack surface can be reached that deserializes attacker-provided data, re-serializes the resulting objects, and sends the re-serialized data back to the attacker.
-The team brainstormed, and we couldn't immediately come up with any specific atta…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Upgrade from Office 2016, 2019 – Office 2024 vs Microsoft 365 Apps]]></title>
-        <id>https://4sysops.com/?p=1600951</id>
-        <link href="https://4sysops.com/archives/upgrade-from-office-2016-2019-office-2024-vs-microsoft-365-apps/"/>
-        <updated>2025-09-26T15:03:22.000Z</updated>
-        <summary type="html"><![CDATA[The end of support for Office 2016 and Office 2019 on October 14, 2025, forces organizations to choose between upgrading to Office 2024 or adopting Microsoft 365 Apps. Both solutions offer Office applications like Word, Excel, and PowerPoint, but differ significantly in pricing models, AI capabilities, cloud integration, and update cycles. While Office 2024 delivers a one-time purchase with long-term stability and offline functionality, Microsoft 365 Apps provides continuous feature updates, AI-powered Copilot integration, and collaborative cloud tools through a subscription model. This guide compares Office 2024 vs. Microsoft 365 Apps to help you make the right upgrade decision before support ends.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
         </author>
     </entry>
     <entry>
