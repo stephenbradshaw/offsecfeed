@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-01T00:56:54.293Z</updated>
+    <updated>2025-11-02T00:57:15.038Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Overview of Content Published in October]]></title>
+        <id>http://blog.didierstevens.com/?p=11004</id>
+        <link href="https://blog.didierstevens.com/2025/11/01/overview-of-content-published-in-october-11/"/>
+        <updated>2025-11-01T07:38:49.000Z</updated>
+        <summary type="html"><![CDATA[Here is an overview of content I published in October: Blog posts: Quickpost: PEP 515 ? Underscores in Numeric Literals Update: dnsresolver.py Version 0.0.4 Bytes over DNS Tools SANS ISC Diary entries: Wireshark 4.4.10 and 4.6.0 Released Kaitai Struct WebIDE Bytes over DNS]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Conference Talks – October 2021]]></title>
         <id>88224850-eee1-4625-b68c-0530077c3654</id>
@@ -12026,6 +12036,21 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The cryptography behind electronic passports]]></title>
+        <id>https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/</id>
+        <link href="https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/"/>
+        <updated>2025-10-31T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Did you know that most modern passports are actually embedded devices containing an entire filesystem, access controls, and support for several cryptographic protocols? Such passports display a small symbol indicating an electronic machine-readable travel document (eMRTD), which digitally stores the same personal data printed in traditional passport booklets in its embedded filesystem. Beyond allowing travelers in some countries to skip a chat at border control, these documents use cryptography to prevent unauthorized reading, eavesdropping, forgery, and copying.
+Figure 1: Chip Inside symbol (ICAO Doc 9303 Part 9)
+ 
+
+
+This blog post describes how electronic passports work, the threats within their threat model, and how they protect against those threats using cryptography. It also discusse…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Technical Advisory: Tesla Telematics Control Unit - ADB Auth Bypass]]></title>
         <id>6685db25-ab08-4e1d-b8dc-1593a39d8a23</id>
         <link href="https://www.nccgroup.com/research-blog/technical-advisory-tesla-telematics-control-unit-adb-auth-bypass/"/>
@@ -13049,48 +13074,6 @@ Continue reading]]></summary>
         <link href="https://4sysops.com/archives/sending-encrypted-emails-with-gmail-client-side-encryption-cse-to-external-recipients/"/>
         <updated>2025-10-03T16:44:13.000Z</updated>
         <summary type="html"><![CDATA[On October 2, 2025, Google announced that Gmail Client-side Encryption (CSE) now enables Google Workspace Enterprise Plus users with the Assured Controls add-on to send end-to-end encrypted emails to external recipients across any email platform. The encryption occurs in the browser before data reaches Google's servers, allowing organizations to maintain control over their encryption keys while external recipients access encrypted messages through guest accounts without requiring S/MIME certificate exchanges.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's Never Simple Until It Is (Dell UnityVSA Pre-Auth Command Injection CVE-2025-36604)]]></title>
-        <id>68dfbf43b708720001b493a2</id>
-        <link href="https://labs.watchtowr.com/its-never-simple-until-it-is-dell-unityvsa-pre-auth-command-injection-cve-2025-36604/"/>
-        <updated>2025-10-03T12:44:44.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back, and what a week! We’re glad that happened for you and/or sorry that happened to you. It will get better and/or worse, and you will likely survive.
-Today, we’re walking down the garden path and digging into the archives, publishing our analysis]]></summary>
-        <author>
-            <name>Sina Kheirkhah (@SinSinology)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[ru] Kernel-hack-drill и новый эксплойт для CVE-2024-50264 в ядре Linux]]></title>
-        <id>https://a13xp0p0v.github.io/2025/10/03/kernel-hack-drill-and-CVE-2024-50264-ru.html</id>
-        <link href="https://a13xp0p0v.github.io/2025/10/03/kernel-hack-drill-and-CVE-2024-50264-ru.html"/>
-        <updated>2025-10-03T10:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Некоторые уязвимости, связанные с повреждением памяти, невероятно сложны для эксплуатации. Они могут вызывать состояния гонки, приводить к сбоям системы и накладывать разные ограничения, которые усложняют жизнь исследователя. Работа с такими «хрупкими» багами требует значительно больше времени и усилий. CVE-2024-50264 в ядре Linux — как раз одна из таких сложных уязвимостей, которая получила премию Pwnie Award 2025 в категории «Лучшее повышение привилегий» (Best Privilege Escalation). В этой статье я представлю свой проект kernel-hack-drill и покажу, как он помог мне разработать прототип эксплойта для уязвимости CVE-2024-50264.]]></summary>
-        <author>
-            <name>Alexander Popov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your point of departure for forensic readiness]]></title>
-        <id>dc4d1ff4-2c6b-4061-9e19-d427664e6172</id>
-        <link href="https://www.nccgroup.com/research-blog/your-point-of-departure-for-forensic-readiness/"/>
-        <updated>2025-10-03T00:49:24.584Z</updated>
-        <summary type="html"><![CDATA[Your point of departure for forensic readiness - Digital Forensics Incident Response]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Intune September 2025 update: Intel vPro integration, PowerShell app scripts, iOS/macOS 26 support, and Copilot enhancements]]></title>
-        <id>https://4sysops.com/?p=1601198</id>
-        <link href="https://4sysops.com/archives/microsoft-intune-september-2025-update-intel-vpro-integration-powershell-app-scripts-iosmacos-26-support-and-copilot-enhancements/"/>
-        <updated>2025-10-02T13:51:29.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Intune's September 2025 update introduces hardware-level device recovery through Intel vPro integration, PowerShell installer script support for Enterprise Application Management, and day-zero compatibility for Apple's iOS/iPadOS and macOS 26 operating systems. Service release 2509 also expands Copilot capabilities for Windows 365 Cloud PC management and updates the minimum supported versions for Apple platforms.
 Source]]></summary>
         <author>
             <name>IT Experts</name>

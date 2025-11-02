@@ -135,6 +135,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=11004",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in October: Blog posts: Quickpost: PEP 515 ? Underscores in Numeric Literals Update: dnsresolver.py Version 0.0.4 Bytes over DNS Tools SANS ISC Diary entries: Wireshark 4.4.10 and 4.6.0 Released Kaitai Struct WebIDE Bytes over DNS",
+          "link": "https://blog.didierstevens.com/2025/11/01/overview-of-content-published-in-october-11/",
+          "publishedOn": "2025-11-01T07:38:49.000Z",
+          "wordCount": 3255,
+          "title": "Overview of Content Published in October",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=10992",
           "author": "Didier Stevens",
           "description": "Here are the tools I used to conduct my “Bytes over DNS” tests. On the server side, I start my dnsresolver.py program with the following custom script: Start it as follows: dnsresolver.py -s bod-dnsresolver-test.py type=resolve,label=bytes,function=BoDTest And make sure your DNS glue records (e.g., for mydomain.com) point to your server. Then you can do a small […]",
@@ -246,7 +256,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -426,18 +436,7 @@
       "title": "Alexander Popov",
       "feedUrl": "https://a13xp0p0v.github.io/feed.xml",
       "siteUrl": "https://a13xp0p0v.github.io/",
-      "articles": [
-        {
-          "id": "https://a13xp0p0v.github.io/2025/10/03/kernel-hack-drill-and-CVE-2024-50264-ru.html",
-          "author": null,
-          "description": "Некоторые уязвимости, связанные с повреждением памяти, невероятно сложны для эксплуатации. Они могут вызывать состояния гонки, приводить к сбоям системы и накладывать разные ограничения, которые усложняют жизнь исследователя. Работа с такими «хрупкими» багами требует значительно больше времени и усилий. CVE-2024-50264 в ядре Linux — как раз одна из таких сложных уязвимостей, которая получила премию Pwnie Award 2025 в категории «Лучшее повышение привилегий» (Best Privilege Escalation). В этой статье я представлю свой проект kernel-hack-drill и покажу, как он помог мне разработать прототип эксплойта для уязвимости CVE-2024-50264.",
-          "link": "https://a13xp0p0v.github.io/2025/10/03/kernel-hack-drill-and-CVE-2024-50264-ru.html",
-          "publishedOn": "2025-10-03T10:37:00.000Z",
-          "wordCount": 6797,
-          "title": "[ru] Kernel-hack-drill и новый эксплойт для CVE-2024-50264 в ядре Linux",
-          "imageUrl": "https://a13xp0p0v.github.io/img/ava_bg.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Grsecurity Blog RSS Feed",
@@ -13875,16 +13874,6 @@
           "wordCount": 3424,
           "title": "State of the Art of Private Key Security in Blockchain Ops - 1. Concepts, Types of Wallets and Signing Strategies",
           "imageUrl": null
-        },
-        {
-          "id": "dc4d1ff4-2c6b-4061-9e19-d427664e6172",
-          "author": null,
-          "description": "Your point of departure for forensic readiness - Digital Forensics Incident Response",
-          "link": "https://www.nccgroup.com/research-blog/your-point-of-departure-for-forensic-readiness/",
-          "publishedOn": "2025-10-03T00:49:24.584Z",
-          "wordCount": 2748,
-          "title": "Your point of departure for forensic readiness",
-          "imageUrl": null
         }
       ]
     },
@@ -13958,6 +13947,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/",
+          "author": null,
+          "description": "Did you know that most modern passports are actually embedded devices containing an entire filesystem, access controls, and support for several cryptographic protocols? Such passports display a small symbol indicating an electronic machine-readable travel document (eMRTD), which digitally stores the same personal data printed in traditional passport booklets in its embedded filesystem. Beyond allowing travelers in some countries to skip a chat at border control, these documents use cryptography to prevent unauthorized reading, eavesdropping, forgery, and copying.\nFigure 1: Chip Inside symbol (ICAO Doc 9303 Part 9)\n \n\n\nThis blog post describes how electronic passports work, the threats within their threat model, and how they protect against those threats using cryptography. It also discusse…",
+          "link": "https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/",
+          "publishedOn": "2025-10-31T11:00:00.000Z",
+          "wordCount": 3532,
+          "title": "The cryptography behind electronic passports",
+          "imageUrl": "https://blog.trailofbits.com/img/passports_figure_5.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2025/10/30/vulnerabilities-in-luks2-disk-encryption-for-confidential-vms/",
           "author": null,
@@ -14319,16 +14318,6 @@
           "publishedOn": "2025-10-03T16:44:13.000Z",
           "wordCount": null,
           "title": "Sending encrypted emails with Gmail Client-side Encryption (CSE) to external recipients",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1601198",
-          "author": "IT Experts",
-          "description": "Microsoft Intune's September 2025 update introduces hardware-level device recovery through Intel vPro integration, PowerShell installer script support for Enterprise Application Management, and day-zero compatibility for Apple's iOS/iPadOS and macOS 26 operating systems. Service release 2509 also expands Copilot capabilities for Windows 365 Cloud PC management and updates the minimum supported versions for Apple platforms.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-intune-september-2025-update-intel-vpro-integration-powershell-app-scripts-iosmacos-26-support-and-copilot-enhancements/",
-          "publishedOn": "2025-10-02T13:51:29.000Z",
-          "wordCount": null,
-          "title": "Microsoft Intune September 2025 update: Intel vPro integration, PowerShell app scripts, iOS/macOS 26 support, and Copilot enhancements",
           "imageUrl": null
         }
       ]
@@ -14817,16 +14806,6 @@
           "wordCount": 3036,
           "title": "Well, Well, Well. It’s Another Day. (Oracle E-Business Suite Pre-Auth RCE Chain - CVE-2025-61882)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/10/Oracle-E-Business-Suite.png"
-        },
-        {
-          "id": "68dfbf43b708720001b493a2",
-          "author": "Sina Kheirkhah (@SinSinology)",
-          "description": "Welcome back, and what a week! We’re glad that happened for you and/or sorry that happened to you. It will get better and/or worse, and you will likely survive.\nToday, we’re walking down the garden path and digging into the archives, publishing our analysis",
-          "link": "https://labs.watchtowr.com/its-never-simple-until-it-is-dell-unityvsa-pre-auth-command-injection-cve-2025-36604/",
-          "publishedOn": "2025-10-03T12:44:44.000Z",
-          "wordCount": 1799,
-          "title": "It's Never Simple Until It Is (Dell UnityVSA Pre-Auth Command Injection CVE-2025-36604)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/10/Group-8730--24-.png"
         }
       ]
     },
