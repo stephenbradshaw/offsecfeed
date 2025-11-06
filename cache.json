@@ -286,6 +286,16 @@
       "siteUrl": "https://adsecurity.org",
       "articles": [
         {
+          "id": "https://adsecurity.org/?p=4904",
+          "author": "Sean Metcalf",
+          "description": "Group Managed Service Accounts (GMSAs) User accounts created to be used as service accounts rarely have their password changed. Group Managed Service Accounts (GMSAs) provide a better approach (starting in the Windows 2012 timeframe). The password is managed by AD and automatically changed. This means that the GMSA has to have security principals explicitly delegated … \nContinue reading",
+          "link": "https://adsecurity.org/?p=4904",
+          "publishedOn": "2025-11-05T01:03:00.000Z",
+          "wordCount": 1900,
+          "title": "Active Directory Security Tip #14: Group Managed Service Accounts (GMSAs)",
+          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/image-42.png"
+        },
+        {
           "id": "https://adsecurity.org/?p=4825",
           "author": "Sean Metcalf",
           "description": "At BSides Northern Virginia (BSides NoVa) in October 2025, I presented a talk on how to improve Entra ID security quickly. This post captures the key information from my talk slides. This article describes the Entra ID settings and configuration that should be set to improve security including: User Default Configurations Users are able to … \nContinue reading",
@@ -324,16 +334,6 @@
           "wordCount": 1450,
           "title": "Active Directory Security Tip #13: Kerberos Delegation",
           "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/ADSecTip-FSPs-PowerShell.jpg"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4658",
-          "author": "Sean Metcalf",
-          "description": "I have mentioned in several presentations that Kerberos delegation is impersonation. Kerberos delegation is used when a service (ex. web server) needs to impersonate a user when connecting to a resource (ex. database). There are a 4 types of Kerberos delegation: Unconstrained delegation should be converted to constrained delegation due to security concerns. Any Kerberos … \nContinue reading",
-          "link": "https://adsecurity.org/?p=4658",
-          "publishedOn": "2025-10-07T00:03:00.000Z",
-          "wordCount": 1484,
-          "title": "Active Directory Security Tip #12: Kerberos Delegation",
-          "imageUrl": null
         }
       ]
     },
@@ -13875,26 +13875,6 @@
           "wordCount": 1814,
           "title": "Unmasking Techno Sophists",
           "imageUrl": null
-        },
-        {
-          "id": "a3c928e5-d12a-4f8d-9ea5-8bdbc263bd9f",
-          "author": null,
-          "description": "",
-          "link": "https://www.nccgroup.com/research-blog/rapid-breach-social-engineering-to-remote-access-in-300-seconds/",
-          "publishedOn": "2025-10-07T00:50:23.602Z",
-          "wordCount": 3977,
-          "title": "Rapid Breach: Social Engineering to Remote Access in 300 Seconds",
-          "imageUrl": null
-        },
-        {
-          "id": "76dfc32b-a35c-4091-849f-169c179d4912",
-          "author": null,
-          "description": "Goal-Based Regulation",
-          "link": "https://www.nccgroup.com/research-blog/goal-based-regulation/",
-          "publishedOn": "2025-10-07T00:50:15.681Z",
-          "wordCount": 1959,
-          "title": "Goal-Based Regulation",
-          "imageUrl": null
         }
       ]
     },
@@ -14122,6 +14102,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1602374",
+          "author": "IT Experts",
+          "description": "Microsoft introduced simplified Windows 11 update titles in late October 2025, removing date prefixes and version information to improve readability. The change faced immediate criticism from IT administrators who found the new naming scheme confusing and impractical for enterprise environments. Within days, Microsoft confirmed it would restore the date format while maintaining other simplifications.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-reverses-windows-11-update-naming-changes-after-it-admin-backlash/",
+          "publishedOn": "2025-11-05T14:32:50.000Z",
+          "wordCount": null,
+          "title": "Microsoft reverses Windows 11 update naming changes after IT admin backlash",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1602326",
           "author": "IT Experts",
           "description": "Microsoft Intune's October 2025 release introduces technical improvements in enrollment reporting, privilege management, and network infrastructure. The updates target enhanced security posture, reduced administrative friction, and improved deployment visibility across Windows Autopilot and Android Enterprise environments.\nSource",
@@ -14329,16 +14319,6 @@
           "publishedOn": "2025-10-07T20:48:19.000Z",
           "wordCount": null,
           "title": "Understanding the interaction between Microsoft Defender for Identity and Secure Score",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1601267",
-          "author": "Markus Elsberger",
-          "description": "In Windows Server 2025, LBFO NIC Teaming is blocked for Hyper-V virtual switches, and Switch Embedded Teaming (SET) is the only supported teaming method for Hyper-V. However, LBFO remains available for non-virtualization use cases. In this article, I’ll show you how to enable and configure both LBFO and SET in Windows Server 2025 using the GUI and PowerShell.\nSource",
-          "link": "https://4sysops.com/archives/enable-nic-teaming-lbfo-and-switch-embedded-teaming-set-in-windows-server-2025/",
-          "publishedOn": "2025-10-06T21:21:49.000Z",
-          "wordCount": null,
-          "title": "Enable NIC Teaming (LBFO) and Switch Embedded Teaming (SET) in Windows Server 2025",
           "imageUrl": null
         }
       ]
@@ -14677,16 +14657,6 @@
           "wordCount": 8522,
           "title": "Vulnerability Management – Requirements, Scoping & Target Setting",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/10/Vulnerability_Management_blog_Requirements.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=20761",
-          "author": "Christos Giampoulakis",
-          "description": "In this part, we are going to introduce automation to effectively monitor our deployed detections. By setting up automations at this phase we adopt a proactive approach towards maintenance, allowing our team to take action before a blowout of alerts or an untuned detection is escalated by the SOC.",
-          "link": "https://blog.nviso.eu/2025/10/07/detection-engineering-practicing-detection-as-code-monitoring-part-7/",
-          "publishedOn": "2025-10-07T08:00:00.000Z",
-          "wordCount": 10460,
-          "title": "Detection Engineering: Practicing Detection-as-Code – Monitoring – Part 7",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/09/Detection_Engineering_blog_7_CG_SC.jpg"
         }
       ]
     },
@@ -14832,16 +14802,6 @@
           "wordCount": 3978,
           "title": "More Than DoS (Progress Telerik UI for ASP.NET AJAX Unsafe Reflection CVE-2025-3600)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/10/Group-8730--25-.png"
-        },
-        {
-          "id": "68e3fd5dd12c95000100b3de",
-          "author": "Sonny",
-          "description": "We bet you thought you’d be allowed to sit there, breathe, and savour the few moments of peace you’d earned after a painful week in cyber security.\nObviously, you were horribly wrong, and you need to wake up now - we’re back, it’",
-          "link": "https://labs.watchtowr.com/well-well-well-its-another-day-oracle-e-business-suite-pre-auth-rce-chain-cve-2025-61882well-well-well-its-another-day-oracle-e-business-suite-pre-auth-rce-chain-cve-2025-61882/",
-          "publishedOn": "2025-10-06T17:41:51.000Z",
-          "wordCount": 3036,
-          "title": "Well, Well, Well. It’s Another Day. (Oracle E-Business Suite Pre-Auth RCE Chain - CVE-2025-61882)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/10/Oracle-E-Business-Suite.png"
         }
       ]
     },
