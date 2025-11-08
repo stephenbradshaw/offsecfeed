@@ -267,7 +267,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -314,16 +314,6 @@
           "wordCount": 1327,
           "title": "Microsoft Interview",
           "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/image-3.png"
-        },
-        {
-          "id": "https://adsecurity.org/?p=4784",
-          "author": "Sean Metcalf",
-          "description": "Review the membership of groups for accounts and groups from another Active Directory forest (technically another domain, but using forest here). These are called “Foreign Security Principals” (FSPs) like the ones highlighted in the image. These FSPs are accounts that exist in another forest but have rights in the AD forest. Any FSPs should be … \nContinue reading",
-          "link": "https://adsecurity.org/?p=4784",
-          "publishedOn": "2025-10-09T00:03:00.000Z",
-          "wordCount": 1450,
-          "title": "Active Directory Security Tip #13: Kerberos Delegation",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2025/10/ADSecTip-FSPs-PowerShell.jpg"
         }
       ]
     },
@@ -403,17 +393,6 @@
           "title": "The October 2025 Security Update Review",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68e41e702030c84f2e3fed07",
-          "author": "Simon Zuckerbraun",
-          "description": "In April of 2025, my colleague Mat Powell was hunting for vulnerabilities in Autodesk Revit 2025. While fuzzing RFA files, he found the following crash (CVE-2025-5037 / ZDI-CAN-26922, addressed by Autodesk in July 2025):\nIs this an exploitable crash? From the debugger output crash point as seen above, unclear whether anything is controllable.\nAt around this time, my colleague Nitesh Surana uncovered a highly impactful cloud-based supply chain vulnerability in Axis Communications Plugin for Autodesk Revit. This vulnerability made it possible for a malicious actor to force the distribution of corrupted RFA files to Axis plugin users globally, which Autodesk Revit would parse upon use of the Axis Communications plugin. Refer to the blog post here for a full discussion of his research.\nSince T…",
-          "link": "https://www.thezdi.com/blog/2025/10/6/crafting-a-full-exploit-rce-from-a-crash-in-autodesk-revit-rfa-file-parsing",
-          "publishedOn": "2025-10-08T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Crafting a Full Exploit RCE from a Crash in Autodesk Revit RFA File Parsing",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -446,6 +425,26 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "005bafe8-3db8-4a7a-830c-5ea730dd803a",
+          "author": null,
+          "description": "Unmasking Techno Sophists",
+          "link": "https://www.nccgroup.com/research-blog/unmasking-techno-sophists/",
+          "publishedOn": "2025-11-08T00:50:57.073Z",
+          "wordCount": 1800,
+          "title": "Unmasking Techno Sophists",
+          "imageUrl": null
+        },
+        {
+          "id": "66743159-4475-4666-9519-fa2569e6c9e0",
+          "author": null,
+          "description": "Public Report: VetKeys Cryptography Review",
+          "link": "https://www.nccgroup.com/research-blog/public-report-vetkeys-cryptography-review/",
+          "publishedOn": "2025-11-08T00:50:47.341Z",
+          "wordCount": 1837,
+          "title": "Public Report: VetKeys Cryptography Review",
+          "imageUrl": null
+        },
         {
           "id": "a3c928e5-d12a-4f8d-9ea5-8bdbc263bd9f",
           "author": null,
@@ -13872,7 +13871,18 @@
       "title": "Security Blog | Praetorian",
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=7115",
+          "author": "Justin Copeland",
+          "description": "Introduction Earlier this year, I earned a $10,000 bounty from Microsoft after discovering a critical HTTP request smuggling vulnerability in ASP.NET Core’s Kestrel server (CVE-2025-55315). The vulnerability garnered significant media attention after Microsoft assigned it a CVSS score of 9.9, the highest severity rating ever assigned to an ASP.NET Core vulnerability. This post walks through […]\nThe post How I Found the Worst ASP.NET Vulnerability — A $10K Bug (CVE-2025-55315) appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/how-i-found-the-worst-asp-net-vulnerability-a-10k-bug-cve-2025-55315/",
+          "publishedOn": "2025-11-07T14:56:18.000Z",
+          "wordCount": 9471,
+          "title": "How I Found the Worst ASP.NET Vulnerability — A $10K Bug (CVE-2025-55315)",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2025/11/asp.net-blog-hero.webp"
+        }
+      ]
     },
     {
       "title": "Rhino Security Labs",
@@ -13927,6 +13937,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2025/11/07/balancer-hack-analysis-and-guidance-for-the-defi-ecosystem/",
+          "author": null,
+          "description": ".content img {\n border: 1px solid black;\n}\n\nTL;DR\nThe root cause of the hack was a rounding direction issue that had been present in the code for many years.\nWhen the bug was first introduced, the threat landscape of the blockchain ecosystem was significantly different, and arithmetic issues in particular were not widely considered likely vectors for exploitation.\nAs low-hanging attack paths have become increasingly scarce, attackers have become more sophisticated and will continue to hunt for novel threats, such as arithmetic edge cases, in DeFi protocols.\nComprehensive invariant documentation and testing are now essential; the simple rule “rounding must favor the protocol” is no longer sufficient to catch edge cases.\nThis incident highlights the importance of both targeted security techn…",
+          "link": "https://blog.trailofbits.com/2025/11/07/balancer-hack-analysis-and-guidance-for-the-defi-ecosystem/",
+          "publishedOn": "2025-11-07T23:00:00.000Z",
+          "wordCount": 1989,
+          "title": "Balancer hack analysis and guidance for the DeFi ecosystem",
+          "imageUrl": "https://blog.trailofbits.com/img/balancer_image2.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/",
           "author": null,
@@ -14080,6 +14100,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1602495",
+          "author": "IT Experts",
+          "description": "Microsoft confirmed a bug affecting Windows 10 systems enrolled in the Extended Security Updates (ESU) program and LTSC editions. The issue causes enrolled devices to display incorrect end-of-support messages despite having active security coverage: \"Your version of Windows has reached the end of support. Your device is no longer receiving security updates.\"\nSource",
+          "link": "https://4sysops.com/archives/windows-10-esu-and-ltsc-users-receive-incorrect-warning-your-version-of-windows-has-reached-the-end-of-support/",
+          "publishedOn": "2025-11-07T09:44:14.000Z",
+          "wordCount": null,
+          "title": "Windows 10 ESU and LTSC users receive incorrect warning: Your version of Windows has reached the end of support",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1602413",
           "author": "IT Experts",
@@ -14289,16 +14319,6 @@
           "wordCount": null,
           "title": "Remote Desktop credential delegation (SSO) not working after enabling Credential Guard",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1601256",
-          "author": "IT Experts",
-          "description": "Windows 365 Cloud Apps operate on Windows 365 Frontline Cloud PCs in shared mode and entered public preview in September 2025. They allow organizations to deliver individual applications from the cloud without provisioning full Cloud PC virtual desktops for each user.\nSource",
-          "link": "https://4sysops.com/archives/what-are-windows-365-cloud-apps/",
-          "publishedOn": "2025-10-08T20:40:46.000Z",
-          "wordCount": null,
-          "title": "What are Windows 365 Cloud Apps?",
-          "imageUrl": null
         }
       ]
     },
@@ -14390,6 +14410,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=43122",
+          "author": "Alex Wallace",
+          "description": "TL;DR Introduction I live in the countryside & as a result, know quite a few farmers. The subject of connected farming systems comes up quite a lot in the local pub. Those of you who have watched Clarkson’s Farm will understand just how complex and confusing some tractor systems are. Tractors spend a lot of […]\nThe post Exploiting AgTech connectivity to corner the grain market appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/exploiting-agtech-connectivity-to-corner-the-grain-market/",
+          "publishedOn": "2025-11-07T09:25:00.000Z",
+          "wordCount": 2176,
+          "title": "Exploiting AgTech connectivity to corner the grain market",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/KM-exploiting-AgTech-to-corner-the-grain-market-Headlinev3.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=43069",
           "author": "Alex Wallace",
@@ -14616,16 +14646,6 @@
           "wordCount": 5797,
           "title": "Patching Android ARM64 library initializers for easy Frida instrumentation and debugging",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/10/arm_patching_header_img.png"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=22393",
-          "author": "Sascha Artelt",
-          "description": "Introduction Part 2 With the next blog posts, we dive deeper into vulnerability management. It is challenging  to encapsulate the complexity of vulnerability management in a just a few paragraphs. To fully cover it, one could easily write a complete guide or even a book. Therefore, I tried to find an appropriate balance between width … Continue reading Vulnerability Management – Requirements, Scoping & Target Setting →",
-          "link": "https://blog.nviso.eu/2025/10/09/vulnerability-management-requirements-scoping-target-setting/",
-          "publishedOn": "2025-10-09T07:00:00.000Z",
-          "wordCount": 8522,
-          "title": "Vulnerability Management – Requirements, Scoping & Target Setting",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/10/Vulnerability_Management_blog_Requirements.jpg"
         }
       ]
     },
@@ -14762,6 +14782,16 @@
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
+        {
+          "id": "690d6d91f8f158000109cbad",
+          "author": "Sonny",
+          "description": "Happy Friday, friends and.. others.\nWe’re glad/sorry to hear that your week has been good/bad, and it’s the weekend/but at least it’s almost the weekend!\nWhat’re We Doing Today, Mr Fox?\nToday, in a tale that seems all too",
+          "link": "https://labs.watchtowr.com/whats-that-coming-over-the-hill-monsta-ftp-remote-code-execution-cve-2025-34299/",
+          "publishedOn": "2025-11-07T11:00:07.000Z",
+          "wordCount": 2596,
+          "title": "What’s That Coming Over The Hill? (Monsta FTP Remote Code Execution CVE-2025-34299)",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/11/Group-8730--27-.png"
+        },
         {
           "id": "68effad74925f90001d4e2a3",
           "author": "McCaulay Hudson",
