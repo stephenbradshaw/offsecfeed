@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-18T00:54:58.872Z</updated>
+    <updated>2025-11-19T00:55:07.470Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[When Guardrails Aren't Enough: Reinventing Agentic AI Security With Architectural Controls]]></title>
+        <id>d443284b-8788-4599-b228-70a423cab6f8</id>
+        <link href="https://www.nccgroup.com/research-blog/when-guardrails-arent-enough-reinventing-agentic-ai-security-with-architectural-controls/"/>
+        <updated>2025-11-19T00:54:24.038Z</updated>
+        <summary type="html"><![CDATA[David Brauchler III delivers a fascinating Black Hat talk on the root cause of AI-based vulnerabilities and why security architecture is the real solution.]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We found cryptography bugs in the elliptic library using Wycheproof]]></title>
+        <id>https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof/</id>
+        <link href="https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof/"/>
+        <updated>2025-11-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trail of Bits is publicly disclosing two vulnerabilities in elliptic, a widely used JavaScript library for elliptic curve cryptography that is downloaded over 10 million times weekly and is used by close to 3,000 projects. These vulnerabilities, caused by missing modular reductions and a missing length check, could allow attackers to forge signatures or prevent valid signatures from being verified, respectively.
+One vulnerability is still not fixed after a 90-day disclosure window that ended in October 2024. It remains unaddressed as of this publication.
+I discovered these vulnerabilities using Wycheproof, a collection of test vectors designed to test various cryptographic algorithms against known vulnerabilities. If you’d like to learn more about how to use Wycheproof, check out this guid…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Common Kubernetes misconfigurations and how to avoid them]]></title>
+        <id>https://www.pentestpartners.com/?p=43173</id>
+        <link href="https://www.pentestpartners.com/security-blog/common-kubernetes-misconfigurations-and-how-to-avoid-them/"/>
+        <updated>2025-11-18T10:14:37.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  Introduction  Kubernetes has changed the way we deploy and scale workloads. It’s powerful, flexible, and very good at hiding a lot of complexity. It is also very good at hiding security problems until someone starts poking at it.  Attackers usually take the path of least resistance. If they find an exposed API, dashboard, or port, that is often enough for them to gain a foothold. Once they are in, attackers can exploit misconfigurations […]
+The post Common Kubernetes misconfigurations and how to avoid them appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 10 KB5068781 ESU update fails with 0x800f0922 error: There were some problems installing updates, but we’ll try again later]]></title>
+        <id>https://4sysops.com/?p=1602831</id>
+        <link href="https://4sysops.com/archives/windows-10-kb5068781-esu-update-fails-with-0x800f0922-error-there-were-some-problems-installing-updates-but-well-try-again-later/"/>
+        <updated>2025-11-18T08:31:57.000Z</updated>
+        <summary type="html"><![CDATA[Windows 10 devices enrolled in Extended Security Updates may experience installation failures when attempting to install the November 2025 security update (KB5068781). There were some problems installing updates, but we'll try again later. "Error encountered: If you keep seeing this and want to search the web or contact support for information, this may help: (0x800f0922)." The issue affects a specific subset of commercial customers using cloud-based licensing activation. This ESU issue appears to be unrelated to the error, 'We can't enroll you in Extended Security Updates right now,' because the enrollment error prevents access to ESU updates, while the current issue affects installation on devices that are already enrolled. Microsoft now released the KB5072653 update to fix the 0x800f0922 error.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MCP Bridge Upgrade]]></title>
         <id>3d9e6f24-f38a-464e-ad0b-5d463ed8acd6</id>
@@ -13032,37 +13076,6 @@ Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS ta
 Team Neodyme (@Neodyme) targeting HP DeskJet 2855e in the Printers category for $20,000 and 2 Maste…]]></summary>
         <author>
             <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disable OneDrive as the default save option in Microsoft Word with Group Policy]]></title>
-        <id>https://4sysops.com/?p=1601680</id>
-        <link href="https://4sysops.com/archives/disable-onedrive-as-the-default-save-option-in-microsoft-word-with-group-policy/"/>
-        <updated>2025-10-20T10:33:33.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Word for Windows has implemented automatic cloud saving for new documents starting with version 2509 (Build 19221.20000). This change affects how users save documents, with all new files defaulting to OneDrive or SharePoint locations. Organizations can control this behavior through Group Policy and Microsoft Intune configurations.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Look at RTEMS Security]]></title>
-        <id>413e3ca1-eead-47c1-9b7b-b6fc54638306</id>
-        <link href="https://www.nccgroup.com/research-blog/a-look-at-rtems-security/"/>
-        <updated>2025-10-20T00:55:35.089Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improve Entra ID Security More Quickly]]></title>
-        <id>https://adsecurity.org/?p=4825</id>
-        <link href="https://adsecurity.org/?p=4825"/>
-        <updated>2025-10-20T00:03:00.000Z</updated>
-        <summary type="html"><![CDATA[At BSides Northern Virginia (BSides NoVa) in October 2025, I presented a talk on how to improve Entra ID security quickly. This post captures the key information from my talk slides. This article describes the Entra ID settings and configuration that should be set to improve security including: User Default Configurations Users are able to … 
-Continue reading]]></summary>
-        <author>
-            <name>Sean Metcalf</name>
         </author>
     </entry>
     <entry>
