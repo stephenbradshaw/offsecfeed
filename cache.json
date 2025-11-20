@@ -351,28 +351,6 @@
           "title": "Pwn2Own Ireland 2025 - Day Two Results",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68f68d334f6ae70632ce9940",
-          "author": "Dustin Childs",
-          "description": "Welcome to Day One of Pwn2Own Ireland 2025! We have 17 attempts today with some exciting research on display. We’ll be posting results here as we have them, and follow us on Twitter, Mastodon, and Bluesky.\nDay One has come to a close and we haven’t had a single failure! We awarded $522,500 for 34 unique bugs on the first day of the contest. Here’s how the Master of Pwn leader board currently sits: \nOf course, there’s plenty of time left with some big exploits still to come. Stay tuned for the results from Day Two and Three!\nSUCCESS - Team Neodyme used a stack based buffer overflow to exploit the HP DeskJet 2855e. They earn $20,000 and 2 Master of Pwn points.\nDaniel Kilimnik of Team Neodyme shows off his successful exploitation\nSUCCESS - Nguyen Hoang Thach (@hi_im_d4rkn3ss), Tan Ze Jian, Li…",
-          "link": "https://www.thezdi.com/blog/2025/10/21/pwn2own-ireland-2025-day-one-results",
-          "publishedOn": "2025-10-21T09:26:57.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Ireland 2025: Day One Results",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:68f0d137d6a57e20c01cf1e2",
-          "author": "Dustin Childs",
-          "description": "Welcome to Pwn2Own Ireland 2025! We have some amazing spooky entries for this year’s contest, and a potential of up to $2,000,000 - including our largest ever single prize for a 0-click in WhatsApp for $1,000,000. As always, we began our contest with a random drawing to determine the order of attempts. If you missed it, you can watch the replay here. \nThe complete schedule for the contest is below (all times Irish Standard Time [UTC +1]). \nNote: All times subject to change\nTuesday, October 21 – 0930\nBongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS targeting SOHO SMASHUP (QNAP Qhora-322 + QNAP TS-453E) in the SOHO category for $100,000 and 10 Master of Pwn Points.\nTeam Neodyme (@Neodyme) targeting HP DeskJet 2855e in the Printers category for $20,000 and 2 Maste…",
-          "link": "https://www.thezdi.com/blog/2025/20/pwn2own-ireland-2025-the-full-schedule",
-          "publishedOn": "2025-10-20T17:01:58.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Ireland 2025: The Full Schedule",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -405,6 +383,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "413e3ca1-eead-47c1-9b7b-b6fc54638306",
+          "author": null,
+          "description": "",
+          "link": "https://www.nccgroup.com/research-blog/a-look-at-rtems-security/",
+          "publishedOn": "2025-11-20T00:53:09.254Z",
+          "wordCount": 1826,
+          "title": "A Look at RTEMS Security",
+          "imageUrl": null
+        },
         {
           "id": "d443284b-8788-4599-b228-70a423cab6f8",
           "author": null,
@@ -14029,18 +14017,7 @@
       "title": "Exodus Intelligence",
       "feedUrl": "https://blog.exodusintel.com/feed/",
       "siteUrl": "https://blog.exodusintel.com/",
-      "articles": [
-        {
-          "id": "https://blog.exodusintel.com/?p=2350",
-          "author": "Exodus Intel VRT",
-          "description": "By Michele Campa Overview In this blog post we take a look at a race condition we found in Microsoft Windows Cloud Minifilter (i.e. cldflt.sys ) in March 2024. This vulnerability was patched in October 2025 and assigned CVE-2025-55680 . The vulnerability occurs within the HsmpOpCreatePlaceholders() function, which is invoked when the CfCreatePlaceholders() function is ... Read more Microsoft Windows Cloud Files Minifilter TOCTOU Privilege Escalation\nThe post Microsoft Windows Cloud Files Minifilter TOCTOU Privilege Escalation appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2025/10/20/microsoft-windows-cloud-files-minifilter-toctou-privilege-escalation/",
-          "publishedOn": "2025-10-20T18:12:14.000Z",
-          "wordCount": 3823,
-          "title": "Microsoft Windows Cloud Files Minifilter TOCTOU Privilege Escalation",
-          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2025/10/exploit-diagram-2-1024x495.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "markitzeroday.com",
@@ -14118,6 +14095,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1602937",
+          "author": "Michael Pietroforte",
+          "description": "A blog post by Matthew Prince, Cloudflare's CEO, suggests that Cloudflare repeated CrowdStrike's mistake: updating the entire infrastructure without first testing on a small group of hosts. As a result, large portions of the internet, including 4sysops, were inaccessible for several hours. Apologies for the latter. While most news sites reported that 20% of internet traffic was affected, the actual impact was much higher because the outage disproportionately affected high-traffic, top-ranking websites like X, ChatGPT, Perplexity, and Spotify. While Cloudflare's CEO blames a manual database permissions change, the incident exposes a deeper design flaw: a single engineer can disrupt massive portions of global internet infrastructure. In contrast, blockchain networks like Ethereum demonstrate how truly decentralized systems can prevent such single points of failure.\nSource",
+          "link": "https://4sysops.com/archives/cloudflare-ceo-blames-single-engineer-for-internal-server-error-that-took-down-roughly-half-of-the-internetthe-real-cause-runs-deeper/",
+          "publishedOn": "2025-11-19T10:13:01.000Z",
+          "wordCount": null,
+          "title": "Cloudflare CEO blames single engineer for internal server error that took down roughly half of the internet—the real cause runs deeper",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1602831",
           "author": "IT Experts",
@@ -14384,16 +14371,6 @@
           "wordCount": 500,
           "title": "Beyond good ol’ Run key, Part 153",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10197",
-          "author": "adam",
-          "description": "A few days ago, I have received the following note from mike.zhang@domainregistrar [.] net [.] cn: Without thinking too much, I replied that I don’t know that company. Darn, that was the hook. Scammer – Adam: 1:0. A few days … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/10/20/china-domain-name-scammers-target-hexacorn/",
-          "publishedOn": "2025-10-20T21:39:32.000Z",
-          "wordCount": 696,
-          "title": "China Domain Name Scammers target Hexacorn",
-          "imageUrl": null
         }
       ]
     },
@@ -14467,16 +14444,6 @@
           "wordCount": 3961,
           "title": "Hardening your home lab",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/10/headline-v4-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=42983",
-          "author": "Alex Wallace",
-          "description": "Tl;DR Introduction In my previous job as the SOC manager for a public sector organisation, I would often see attempts from scammers trying to get some unlucky employee’s payroll details changed to their own bank account. The emails weren’t exactly sophisticated and looked a bit like this: The sender’s email address would usually be a […]\nThe post Stop payroll diversion scams before they start appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/stop-payroll-diversion-scams-before-they-start/",
-          "publishedOn": "2025-10-21T10:44:00.000Z",
-          "wordCount": 2147,
-          "title": "Stop payroll diversion scams before they start",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/10/Dave-W-payroll-fraud.headline-v2.png"
         }
       ]
     },
@@ -14652,6 +14619,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/fortinet-fortiweb-authentication-bypass-cve-2025-64446",
+          "author": null,
+          "description": "Bishop Fox researchers discovered an authentication bypass in FortiWeb that lets attackers add their own admin accounts, take over the device, and erase evidence. Organizations can quickly check if they’re exposed using a new Bishop Fox scanner and should remove public access and update immediately.",
+          "link": "https://bishopfox.com/blog/fortinet-fortiweb-authentication-bypass-cve-2025-64446",
+          "publishedOn": "2025-11-19T14:00:00.000Z",
+          "wordCount": 2194,
+          "title": "Fortinet FortiWeb Authentication Bypass – CVE-2025-64446",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Fortinet-Fortiweb-CVE-2025-64446.png?mtime=1763573645"
+        },
         {
           "id": "https://bishopfox.com/blog/ready-to-hack-an-llm-our-top-ctf-recommendations",
           "author": null,
