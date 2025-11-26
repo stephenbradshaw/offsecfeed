@@ -143,26 +143,6 @@
           "wordCount": 3255,
           "title": "Overview of Content Published in October",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10992",
-          "author": "Didier Stevens",
-          "description": "Here are the tools I used to conduct my “Bytes over DNS” tests. On the server side, I start my dnsresolver.py program with the following custom script: Start it as follows: dnsresolver.py -s bod-dnsresolver-test.py type=resolve,label=bytes,function=BoDTest And make sure your DNS glue records (e.g., for mydomain.com) point to your server. Then you can do a small […]",
-          "link": "https://blog.didierstevens.com/2025/10/27/bytes-over-dns-tools/",
-          "publishedOn": "2025-10-27T09:07:48.000Z",
-          "wordCount": 3866,
-          "title": "Bytes over DNS Tools",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10987",
-          "author": "Didier Stevens",
-          "description": "This update brings function= to the definition of a resolve command. Key-value pair function is optional. If provided, the value will be interpreted as a Python function and called when there is a match. The function must inspect the request and update the reply. Arguments to the function are request, reply and dCommand. The function […]",
-          "link": "https://blog.didierstevens.com/2025/10/27/update-dnsresolver-py-version-0-0-4/",
-          "publishedOn": "2025-10-27T00:00:00.000Z",
-          "wordCount": 3329,
-          "title": "Update: dnsresolver.py Version 0.0.4",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
     },
@@ -13778,16 +13758,6 @@
           "wordCount": 1900,
           "title": "Adventures in EM Side-channel Attacks",
           "imageUrl": null
-        },
-        {
-          "id": "08a43b7a-88c9-4919-a224-c039bdf02c6b",
-          "author": null,
-          "description": "Explore how hardcoded SSH host keys in Tandberg Video Communication Server could expose systems to impersonation and MITM attacks.",
-          "link": "https://www.nccgroup.com/research-blog/tandberg-video-communication-server-static-ssh-host-keysn/",
-          "publishedOn": "2025-10-27T00:57:18.507Z",
-          "wordCount": 2518,
-          "title": "TANDBERG Video Communication Server Static SSH Host KeysN",
-          "imageUrl": null
         }
       ]
     },
@@ -14032,6 +14002,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1603057",
+          "author": "IT Experts",
+          "description": "The bug was caused by the Windows 11 Media Creation Tool version 26100.6584, released September 29 2025, which could close unexpectedly when used on Windows 10 devices. The bug was addressed in the update KB5067036 (OS builds 26100.7019 / 26200.7019), released on October 28, 2025.\r\n\r\nKB5067036 also introduces several new Windows 11 features, including a redesigned Start menu, improvements to File Explorer, Copilot shortcuts, colorful battery icons, enhanced taskbar performance, updated shutdown behavior, and new security features such as Administrator Protection.\nSource",
+          "link": "https://4sysops.com/archives/download-windows-11-media-creation-tool-for-usb-installations-bug-fix-and-new-features/",
+          "publishedOn": "2025-11-25T09:45:34.000Z",
+          "wordCount": null,
+          "title": "Download Windows 11 Media Creation Tool for USB installations – Bug fix and new features",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1603051",
           "author": "IT Experts",
           "description": "Microsoft began automatically upgrading Windows 11 Home and Pro devices from version 23H2 to 25H2 on November 11, 2025, following the end of support for consumer editions. This mandatory update ensures that devices continue to receive security patches and maintain protection against vulnerabilities. This article outlines the technical requirements for the update, provides manual installation procedures, and explains methods to postpone the automatic upgrade temporarily.\nSource",
@@ -14259,6 +14239,16 @@
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
         {
+          "id": "https://www.hexacorn.com/blog/?p=10219",
+          "author": "adam",
+          "description": "Webshells are malicious scripts/programs that are uploaded to compromised web servers. Most webshells are written in JSP, ASP, PHP and they are interpreted by a dedicated script processor/interpreter executed by the web server (f.ex. Apache, IIS, Tomcat). The results of … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2025/11/26/enter-sandbox-31-web-shells/",
+          "publishedOn": "2025-11-26T00:46:25.000Z",
+          "wordCount": 1553,
+          "title": "Enter Sandbox 31: Web Shells",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hexacorn.com/blog/?p=10214",
           "author": "adam",
           "description": "If you use Process Monitor as often as I do, you probably know that loading a DLL via rundll32.exe produces this curious set of events: It turns out that the code of rundll32.exe includes a routine called RunDLL_InitActCtx that tries … Continue reading →",
@@ -14301,6 +14291,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=43204",
+          "author": "Alex Wallace",
+          "description": "TL;DR   Introduction   Cloud compliance frameworks are a good place to start. Dashboards that show how your estate compares to benchmarks like CIS and vendor-specific best practice checks are available from most major cloud providers. These tools let teams quickly see how clean their configurations are and how easy it is to spot obvious gaps. But […]\nThe post Beyond cloud compliance dashboards, what’s next?  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/beyond-cloud-compliance-dashboards-whats-next/",
+          "publishedOn": "2025-11-25T13:50:15.000Z",
+          "wordCount": 2179,
+          "title": "Beyond cloud compliance dashboards, what’s next?",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/Beyond-cloud-compliance-dashboards-whats-nextv4.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=43173",
           "author": "Alex Wallace",
@@ -14376,6 +14376,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2025/security-keeps-google-antigravity-grounded/",
+          "author": null,
+          "description": "Last week Google released an IDE called Antigravity. It’s basically the outcome of the Windsurf licensing deal from a few months ago, where Google paid some $2.4 billion for a non-exclusive license to the code.\nBecause it’s based on Windsurf, I was curious if vulnerabilities that I reported to Windsurf back in May 2025, long before the deal, would have been addressed in the Antigravity IDE. See Month of AI Bugs for some detailed write-ups.",
+          "link": "https://embracethered.com/blog/posts/2025/security-keeps-google-antigravity-grounded/",
+          "publishedOn": "2025-11-25T13:00:58.000Z",
+          "wordCount": 1913,
+          "title": "Antigravity Grounded! Security Vulnerabilities in Google's Latest IDE",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/",
           "author": null,
           "description": "Recently, Anthropic added the capability for Claude’s Code Interpreter to perform network requests. This is obviously very dangerous as we will see in this post.\nAt a high level, this post is about a data exfiltration attack chain, where an adversary (either the model or third-party attacker via indirect prompt injection) can exfiltrate data the user has access to.\nThe interesting part is that this is not via hyperlink rendering as we often see, but by leveraging the built-in Anthropic Claude APIs!",
@@ -14447,6 +14457,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=135193",
+          "author": "LABScon",
+          "description": "Mei Danowski & Eugenio Benincasa unpack how Chinese firms running attack-defense exercises fuel state-linked offensive cyber operations.",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-simulation-meets-reality-how-chinas-cyber-ranges-fuel-cyber-operations/",
+          "publishedOn": "2025-11-25T14:00:55.000Z",
+          "wordCount": 6739,
+          "title": "LABScon25 Replay | Simulation Meets Reality: How China’s Cyber Ranges Fuel Cyber Operations",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2025/11/mei_eugenio_Ftr_2.jpg",
+            "length": "632040",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/11/mei_eugenio_Ftr_2.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=134979",
           "author": "Tomas Gatial",
           "description": "Accelerate adversary tracking and reveal hidden infrastructure with our open-source Synapse Rapid Power-Up for Validin.",
@@ -14484,6 +14509,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=21661",
+          "author": "Kristof Baute",
+          "description": "In Part 7, we showcased how we can leverage automation to continuously monitor the performance and trigger rate of our deployed detections. In this part, we are going to investigate how we can introduce automation and utilize continuous deployment pipelines to streamline the tedious task of tuning our detections.",
+          "link": "https://blog.nviso.eu/2025/11/25/detection-engineering-practicing-detection-as-code-tuning-part-8/",
+          "publishedOn": "2025-11-25T08:40:00.000Z",
+          "wordCount": 7873,
+          "title": "Detection Engineering: Practicing Detection-as-Code – Tuning – Part 8",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/09/Detection_Engineering_blog_8_KB_SC.jpg"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=23072",
           "author": "Bart Parys",
           "description": "NVISO reports a new development in the Contagious Interview campaign. The threat actors have recently resorted to utilizing JSON storage services like JSON Keeper, JSONsilo, and npoint.io to host and deliver malware from trojanized code projects, with the lure being a use case or demo project as part of an interview process. Background Contagious Interview … Continue reading Contagious Interview Actors Now Utilize JSON Storage Services for Malware Delivery →",
@@ -14510,6 +14545,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/a-note-on-ai-from-christie-terrill-ciso-bishop-fox",
+          "author": null,
+          "description": "After a month of conferences and CISO conversations, one thing is clear: AI is reshaping security—fast. But the excitement comes with uncertainty, risk, and big unanswered questions. Here’s what leaders are really saying.",
+          "link": "https://bishopfox.com/blog/a-note-on-ai-from-christie-terrill-ciso-bishop-fox",
+          "publishedOn": "2025-11-25T14:00:00.000Z",
+          "wordCount": 1855,
+          "title": "A Note on AI from Christie Terrill, CISO, Bishop Fox",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Christie-T_Note-On-AI.png?mtime=1764096715"
+        },
         {
           "id": "https://bishopfox.com/blog/fortinet-fortiweb-authentication-bypass-cve-2025-64446",
           "author": null,
@@ -14618,6 +14663,16 @@
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
+        {
+          "id": "690d7636f8f158000109cbfb",
+          "author": "Jake Knott (@inkmoro)",
+          "description": "Welcome to watchTowr vs the Internet, part 68.\nThat feeling you’re experiencing? Dread. You should be used to it by now.\nAs is fast becoming an unofficial and, apparently, frowned upon tradition - we identified incredible amounts of publicly exposed passwords, secrets, keys and more for very sensitive",
+          "link": "https://labs.watchtowr.com/stop-putting-your-passwords-into-random-websites-yes-seriously-you-are-the-problem/",
+          "publishedOn": "2025-11-25T11:01:15.000Z",
+          "wordCount": 4216,
+          "title": "Stop Putting Your Passwords Into Random Websites (Yes, Seriously, You Are The Problem)",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/11/1920--1080---3.png"
+        },
         {
           "id": "69173b214640410001c67ccd",
           "author": "Sina Kheirkhah (@SinSinology)",
