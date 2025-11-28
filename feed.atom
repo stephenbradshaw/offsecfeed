@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-11-27T00:54:17.996Z</updated>
+    <updated>2025-11-28T00:53:30.250Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Adventures in EM Side-channel Attacks]]></title>
+        <id>f350fc87-a7fe-46e9-97a8-237dc30e75d2</id>
+        <link href="https://www.nccgroup.com/research-blog/adventures-in-em-side-channel-attacks/"/>
+        <updated>2025-11-28T00:52:45.220Z</updated>
+        <summary type="html"><![CDATA[Adventures in EM Side-channel Attacks Eucleak]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A silly rundll-ish feature of ShellAbout function…]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10257</id>
+        <link href="https://www.hexacorn.com/blog/2025/11/27/a-silly-rundll-ish-feature-of-shellabout-function/"/>
+        <updated>2025-11-27T23:28:55.000Z</updated>
+        <summary type="html"><![CDATA[When you run winver it calls the shell32.dll!ShellAbout function to display the following dialog box: It turns out the ShellAbout function’s declaration makes it a potential target for calling it from rundll32.exe, even if its prototype doesn’t follow the rundll32 … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android Activities 101]]></title>
+        <id>https://www.pentestpartners.com/?p=43212</id>
+        <link href="https://www.pentestpartners.com/security-blog/android-activities-101/"/>
+        <updated>2025-11-27T14:17:35.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  Introduction   Android splits its communications into multiple components, some of which we’ve written about before. One of these components is Activities, which are generic components that run in a foreground thread and interact directly with the user.  Is this a fancy way of saying windows?  You got me. Yes, it’s a fancy way […]
+The post Android Activities 101 appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft removes WINS after Windows Server 2025]]></title>
+        <id>https://4sysops.com/?p=1603121</id>
+        <link href="https://4sysops.com/archives/microsoft-removes-wins-after-windows-server-2025/"/>
+        <updated>2025-11-27T12:04:49.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft will retire the legacy Windows Internet Name Service after Windows Server 2025, strongly encouraging organizations to transition to DNS by November 2034.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TANDBERG Video Communication Server Static SSH Host KeysN]]></title>
         <id>08a43b7a-88c9-4919-a224-c039bdf02c6b</id>
@@ -12944,49 +12986,6 @@ Phala Network: dstack …]]></summary>
 The post Security awareness: four pillars for staying safe online  appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Insider Preview Build 26220.6982 (KB5067109) introduces clipboard search and proactive diagnostics]]></title>
-        <id>https://4sysops.com/?p=1602189</id>
-        <link href="https://4sysops.com/archives/windows-11-insider-preview-build-262206982-kb5067109-introduces-clipboard-search-and-proactive-diagnostics/"/>
-        <updated>2025-10-29T12:48:19.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft released Windows 11 Insider Preview Build 26220.6982 (KB5067109) to the Dev Channel on October 24, 2025. This update introduces Copy & Search functionality, voice typing configuration options, and proactive memory diagnostics capabilities for improved system reliability.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report: Meta Whatsapp message summarization service]]></title>
-        <id>9120d3d9-3398-4dfa-a0e1-59f3efde5fd2</id>
-        <link href="https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/"/>
-        <updated>2025-10-29T00:55:09.729Z</updated>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Pirate: Abusing Anthropic's File API For Data Exfiltration]]></title>
-        <id>https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/</id>
-        <link href="https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/"/>
-        <updated>2025-10-28T15:36:30.000Z</updated>
-        <summary type="html"><![CDATA[Recently, Anthropic added the capability for Claude’s Code Interpreter to perform network requests. This is obviously very dangerous as we will see in this post.
-At a high level, this post is about a data exfiltration attack chain, where an adversary (either the model or third-party attacker via indirect prompt injection) can exfiltrate data the user has access to.
-The interesting part is that this is not via hyperlink rendering as we often see, but by leveraging the built-in Anthropic Claude APIs!]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware Workstation 25H2 new features and critical bugs]]></title>
-        <id>https://4sysops.com/?p=1602070</id>
-        <link href="https://4sysops.com/archives/vmware-workstation-25h2-new-features-and-critical-bugs/"/>
-        <updated>2025-10-28T13:28:09.000Z</updated>
-        <summary type="html"><![CDATA[VMware Workstation Pro 25H2 introduces calendar-based versioning, a command-line configuration tool, expanded hardware support, and multiple bug fixes. The release adds support for USB 3.2, virtual hardware version 22, and new guest operating systems, including Red Hat Enterprise Linux 10 and Fedora Linux 42. Unfortunately, early adopters have experienced several critical bugs.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>
