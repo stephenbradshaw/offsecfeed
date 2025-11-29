@@ -105,6 +105,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10943",
+          "author": "Didier Stevens",
+          "description": "I had to replace a button cell, a CR1225, but I only had a CR1220. So I just used that CR1220 in stead. This works, because a CR1220 and CR1225 differ in mechanical properties (dimension), but not in electrical properties (voltage). Both cells have a nominal voltage of 3 Volts. CR1220 means the following: The […]",
+          "link": "https://blog.didierstevens.com/2025/11/29/quickpost-cr1225-vs-cr1220/",
+          "publishedOn": "2025-11-29T00:00:00.000Z",
+          "wordCount": 3444,
+          "title": "Quickpost: CR1225 vs CR1220",
+          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2025/11/20251120-105312.png"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=11019",
           "author": "Didier Stevens",
           "description": "I did some tests with a Keelog keylogger, the AirDrive Forensic Keylogger: I wanted to find out how much power that keylogger requires. This is my test setup: In this standby state, with all its LEDs turned of, the keyboard consumes 11 mW. That’s not much power. Compare this with the Numlock LED turned on, […]",
@@ -299,6 +309,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "9120d3d9-3398-4dfa-a0e1-59f3efde5fd2",
+          "author": null,
+          "description": "",
+          "link": "https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/",
+          "publishedOn": "2025-11-29T00:53:04.444Z",
+          "wordCount": 1913,
+          "title": "Public Report: Meta Whatsapp message summarization service",
+          "imageUrl": null
+        },
         {
           "id": "f350fc87-a7fe-46e9-97a8-237dc30e75d2",
           "author": null,
@@ -13900,16 +13920,6 @@
           "wordCount": 3532,
           "title": "The cryptography behind electronic passports",
           "imageUrl": "https://blog.trailofbits.com/img/passports_figure_5.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/10/30/vulnerabilities-in-luks2-disk-encryption-for-confidential-vms/",
-          "author": null,
-          "description": "Trail of Bits is disclosing vulnerabilities in eight different confidential computing systems that use Linux Unified Key Setup version 2 (LUKS2) for disk encryption. Using these vulnerabilities, a malicious actor with access to storage disks can extract all confidential data stored on that disk and can modify the contents of the disk arbitrarily. The vulnerabilities are caused by malleable metadata headers that allow an attacker to trick a trusted execution environment guest into encrypting secret data with a null cipher.\nThe following CVEs are associated with this disclosure:\nCVE-2025-59054\nCVE-2025-58356\nThis is a coordinated disclosure; we have notified the following projects, which remediated the issues prior to our publication.\nOasis Protocol: oasis-sdk (v0.7.2)\nPhala Network: dstack …",
-          "link": "https://blog.trailofbits.com/2025/10/30/vulnerabilities-in-luks2-disk-encryption-for-confidential-vms/",
-          "publishedOn": "2025-10-30T11:00:00.000Z",
-          "wordCount": 1755,
-          "title": "Vulnerabilities in LUKS2 disk encryption for confidential VMs",
-          "imageUrl": "https://blog.trailofbits.com/img/luks2-vuln-disclosure/luks2-disclosure-1.png"
         }
       ]
     },
@@ -14001,6 +14011,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1602683",
+          "author": "Thomas Joos",
+          "description": "OPNsense firewalls can also function as DHCP servers. IP addresses are then assigned directly at the point where network separation and packet filtering take place. The firewall manages all active hosts, controls their assignment to VLANs and segmented networks, and documents each allocation in its own lease tables.\nSource",
+          "link": "https://4sysops.com/archives/running-a-dhcp-server-on-opnsense-with-kea/",
+          "publishedOn": "2025-11-28T15:21:56.000Z",
+          "wordCount": null,
+          "title": "Running a DHCP Server on OPNsense with Kea",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1603121",
           "author": "IT Experts",
@@ -14210,16 +14230,6 @@
           "wordCount": null,
           "title": "Uninstall Microsoft Store apps with Group Policy and Intune in Windows 11 25H2",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1602224",
-          "author": "Michael Pietroforte",
-          "description": "In his latest video, CNBC contributor and popular tech podcaster Alex Kantrowitz dissects a Wall Street Journal article titled \"Tens of Thousands of White Collar Jobs Are Disappearing as AI Starts to Bite.\" Kantrowitz argues that the sensational headline stokes panic about AI causing mass job loss, yet provides no evidence that AI can actually perform these jobs. In my view, Kantrowitz's perspective is naive.\nSource",
-          "link": "https://4sysops.com/archives/is-ai-really-replacing-tens-of-thousands-of-white-collar-jobs-oh-yeah-ai-is-starting-to-bite/",
-          "publishedOn": "2025-10-30T11:10:43.000Z",
-          "wordCount": null,
-          "title": "Is AI really replacing tens of thousands of white-collar jobs? Oh yeah, AI is starting to bite!",
-          "imageUrl": null
         }
       ]
     },
@@ -14350,16 +14360,6 @@
           "wordCount": 2112,
           "title": "What testers need to know about the changes to the CHECK scheme",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/headline.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=43036",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Introduction   When it comes to being security aware, there are seemingly endless things you need to consider. Here are four key areas as a user you can focus on to keep yourself secure:  Pillar 1: Social media   Think before you post on social media   Even if you think you’re only sharing with friends and […]\nThe post Security awareness: four pillars for staying safe online  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/security-awareness-four-pillars-for-staying-safe-online/",
-          "publishedOn": "2025-10-30T10:36:42.000Z",
-          "wordCount": 3284,
-          "title": "Security awareness: four pillars for staying safe online",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/10/Eime-Adomaviciute-Security-awareness-four-pillars-for-staying-safe-online-headline.v2png-1024x576.png"
         }
       ]
     },
@@ -14564,16 +14564,6 @@
           "wordCount": 2659,
           "title": "Ready to Hack an LLM? Our Top CTF Recommendations",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25-Q4-Blogs-LLM-CTFs_Featured_Tile.jpg?mtime=1762448280"
-        },
-        {
-          "id": "https://bishopfox.com/blog/invasion-of-the-face-changers-halloween-hijinks-with-bluetooth-led-masks",
-          "author": null,
-          "description": "This Halloween, Bluetooth LED masks promise eerie fun — until anyone with a pocket-sized controller can change your face. I built one. Read how a common BLE flaw turns glowing costumes into prankable (and revealing) security lessons.",
-          "link": "https://bishopfox.com/blog/invasion-of-the-face-changers-halloween-hijinks-with-bluetooth-led-masks",
-          "publishedOn": "2025-10-30T12:00:00.000Z",
-          "wordCount": 2367,
-          "title": "Invasion of the Face Changers: Halloween Hijinks with Bluetooth LED Masks",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Invasion-of-Face-Changers_Halloween-Blog.png?mtime=1761824674"
         }
       ]
     },
