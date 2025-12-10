@@ -2,10 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-09T00:56:24.211Z</updated>
+    <updated>2025-12-10T00:57:58.217Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Operationalizing BloodHound Enterprise: Security automation with Tines]]></title>
+        <id>https://specterops.io/?p=21000</id>
+        <link href="https://specterops.io/blog/2025/12/09/bloodhound-enterprise-tines-security-automation/"/>
+        <updated>2025-12-09T22:57:32.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR This blog demonstrates how to operationalize BloodHound Enterprise by using Tines to quickly assess the blast radius of potentially compromised accounts. It describes manual workflows as well as automation by leveraging our new Tines integration, We also provide a ready-to-use story in the Tines Library that automate manual investigation steps and generate AI-powered risk […]
+The post Operationalizing BloodHound Enterprise: Security automation with Tines appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Hugo van den Toorn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The December 2025 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69386598ba3a5d18c2ca357a</id>
+        <link href="https://www.thezdi.com/blog/2025/12/9/the-december-2025-security-update-review"/>
+        <updated>2025-12-09T18:29:16.000Z</updated>
+        <summary type="html"><![CDATA[It’s the final patch Tuesday of 2025, but that doesn’t make it any less exciting. Put aside your holiday planning for just a moment as we review the latest security offering from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for December 2025
+For December, Adobe released five bulletins addressing 139 unique CVEs in Adobe Reader, ColdFusion, Experience Manager, Creative Cloud Desktop, and the Adobe DNG Software Development Kit (SDK). Don’t panic at that large of a CVE count. Most of those are simple cross-site scripting (XSS) bugs in Adobe Experience Manager. There are a few Critical-rated DOM-based XSS bugs in the mix, so don’t ignore this patch by any means – just don’t panic at the large number of CVE…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Process Injection via Seccomp Notifier]]></title>
+        <id>https://www.outflank.nl/?p=6010</id>
+        <link href="https://www.outflank.nl/blog/2025/12/09/seccomp-notify-injection/"/>
+        <updated>2025-12-09T18:05:10.000Z</updated>
+        <summary type="html"><![CDATA[This post demonstrates the use of seccomp user notifications to inject a shared library into a Linux process. I haven’t seen this combination documented as a process injection technique before, and it has some benefits over alternatives. In summary, seccomp user notifications enable user-space injection from parent to child without any LD_* environment variables or privileged capabilities, regardless of the ptrace_scope configuration. However, seccomp user notifications have some notable limitations:
+Seccomp user notifications were introduced in Linux kernel version 5.0, but this PoC relies on SECCOMP_ADDFD_FLAG_SEND (Linux 5.14+) to avoid TOCTOU issues when hooking openat.
+Requires you to create the target process (parent-to-child injection only).
+The injected code runs with the same UID, namespaces, and LSM label as the target process.
+Tags: Injection, Linux
+Read full post
+The post Linux Process Injection via Seccomp Notifier appeared first on Outflank.]]></summary>
+        <author>
+            <name>Kyle Avery</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git SCOMmit – Putting the Ops in OpsMgr]]></title>
+        <id>https://specterops.io/?p=20950</id>
+        <link href="https://specterops.io/blog/2025/12/09/git-scommit-putting-the-ops-in-opsmgr/"/>
+        <updated>2025-12-09T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Yet another System Center Ludus configuration for your collection. https://github.com/Synzack/ludus_scom Intro As you may know, here at SpecterOps we have been big on SCCM. See https://specterops.io/blog/category/research/?s=sccm.  But SCCM is only a part of the larger Microsoft System Center product suite.  Among the suite’s other offerings is System Center Operations Manager, more commonly recognized by […]
+The post Git SCOMmit – Putting the Ops in OpsMgr appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Zach Stein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft 365 price increase:  New AI features, improved security, and expanded Intune capabilities]]></title>
+        <id>https://4sysops.com/?p=1603553</id>
+        <link href="https://4sysops.com/archives/microsoft-365-price-increase-new-ai-features-improved-security-and-expanded-intune-capabilities/"/>
+        <updated>2025-12-09T12:25:05.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announced price increases for Microsoft 365 and Office 365 commercial subscriptions. The new list prices will go into effect on July 1, 2026, though existing customers will generally not pay the higher rates until their next renewal after that date. The company justifies the changes by pointing to more than 1,100 new features added across the platform, particularly AI-powered capabilities, security enhancements, and device management tools.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Windows Autopatch CVE report]]></title>
+        <id>https://4sysops.com/?p=1603546</id>
+        <link href="https://4sysops.com/archives/new-windows-autopatch-cve-report/"/>
+        <updated>2025-12-09T12:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft introduced a Common Vulnerabilities and Exposures (CVE) report within Windows Autopatch, providing security teams with consolidated visibility into Windows vulnerabilities, patch status, and affected devices across their organization. The feature integrates vulnerability tracking directly into the Microsoft Intune admin center alongside existing Windows quality update reports.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Download and install Windows 11 25H2]]></title>
         <id>https://4sysops.com/?p=1603509</id>
@@ -191,6 +263,17 @@ The original term Normalization of Deviance comes from the American sociologist 
 I use the term Normalization of Deviance in AI to describe the gradual and systemic over-reliance on LLM outputs, especially in agentic systems.]]></summary>
         <author>
             <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Advisory: Remote Code Execution in Next.js (CVE-2025-66478) with Working Exploit]]></title>
+        <id>https://www.praetorian.com/?p=7416</id>
+        <link href="https://www.praetorian.com/blog/critical-advisory-remote-code-execution-in-next-js-cve-2025-66478-with-working-exploit/"/>
+        <updated>2025-12-04T22:07:53.000Z</updated>
+        <summary type="html"><![CDATA[Date: December 4, 2025Severity: Critical (CVSS 10.0)Components: Next.js App Router & React Server Components We are alerting all customers to a critical Remote Code Execution (RCE) vulnerability affecting Next.js applications using the App Router. This vulnerability, tracked as CVE-2025-66478, stems from an upstream issue in the React Server Components (RSC) protocol (CVE-2025-55182). React provided a […]
+The post Critical Advisory: Remote Code Execution in Next.js (CVE-2025-66478) with Working Exploit appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Nathan Sportsman</name>
         </author>
     </entry>
     <entry>
@@ -13136,60 +13219,6 @@ Source]]></summary>
 The post Finding your path into DFIR  appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10 ESU enrollment fails: We can’t enroll you in Extended Security Updates right now]]></title>
-        <id>https://4sysops.com/?p=1602574</id>
-        <link href="https://4sysops.com/archives/windows-10-esu-enrollment-fails-we-cant-enroll-you-in-extended-security-updates-right-now/"/>
-        <updated>2025-11-10T12:07:41.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft's Extended Security Updates program for Windows 10 is unavailable on some devices due to technical restrictions and regional rollout delays, requiring affected users to upgrade to Windows 11 or accept unpatched systems. Users attempting enrollment may encounter generic error messages such as "We can't enroll you in Extended Security Updates right now. Close this window and try again" or simply "Something went wrong," which provide minimal diagnostic information about the underlying issues.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 2. Common Custody Solutions Architectures]]></title>
-        <id>0cc38e9f-2303-43b8-9c8c-c74bb9dfba8d</id>
-        <link href="https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-2-common-custody-solutions-architectures/"/>
-        <updated>2025-11-10T00:56:52.066Z</updated>
-        <summary type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 2. Common
-Custody Solutions Architectures]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Legacy Technology in Transport: More Than “Old Tech”]]></title>
-        <id>6a026c13-75f4-4914-a1a1-57c15424c3e3</id>
-        <link href="https://www.nccgroup.com/research-blog/legacy-technology-in-transport-more-than-old-tech/"/>
-        <updated>2025-11-10T00:56:43.928Z</updated>
-        <summary type="html"><![CDATA[Legacy Technology in Transport: More Than “Old Tech”]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Inter Process Communication A Deep Dive Beyond the Surface - Part 7]]></title>
-        <id>691081ea097dcf0001de2cff</id>
-        <link href="https://sud0ru.ghost.io/windows-inter-process-communication-a-deep-dive-beyond-the-surface-part-7/"/>
-        <updated>2025-11-09T14:46:47.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the new part of the IPC series. This is the sixth part, about RPC, where we will talk about external tools you can use to conduct RPC research.
-To get good research results you need a good toolset, tools that help you reach your goal without spending a]]></summary>
-        <author>
-            <name>Sud0Ru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Found the Worst ASP.NET Vulnerability — A $10K Bug (CVE-2025-55315)]]></title>
-        <id>https://www.praetorian.com/?p=7115</id>
-        <link href="https://www.praetorian.com/blog/how-i-found-the-worst-asp-net-vulnerability-a-10k-bug-cve-2025-55315/"/>
-        <updated>2025-11-07T14:56:18.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Earlier this year, I earned a $10,000 bounty from Microsoft after discovering a critical HTTP request smuggling vulnerability in ASP.NET Core’s Kestrel server (CVE-2025-55315). The vulnerability garnered significant media attention after Microsoft assigned it a CVSS score of 9.9, the highest severity rating ever assigned to an ASP.NET Core vulnerability. This post walks through […]
-The post How I Found the Worst ASP.NET Vulnerability — A $10K Bug (CVE-2025-55315) appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Justin Copeland</name>
         </author>
     </entry>
     <entry>
