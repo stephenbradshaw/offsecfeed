@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=20907",
+          "author": "Andrew Gomez",
+          "description": "TL;DR The cookie crumbled when it expired, but the attack path didn’t. Learn how BloodHound graph analysis and Azure Seamless SSO enabled pivoting into the cloud. There’s nothing worse than stealing some cookies, just to find out they’ve gone bad and expired. However, that doesn’t mean lateral movement into the cloud is off the table. […]\nThe post Azure Seamless SSO: When Cookie Theft Doesn’t Cut It appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2025/12/11/azure-seamless-sso-when-cookie-theft-doesnt-cut-it/",
+          "publishedOn": "2025-12-11T17:00:00.000Z",
+          "wordCount": 5497,
+          "title": "Azure Seamless SSO: When Cookie Theft Doesn’t Cut It",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2025/12/image_4cf22c_76f9bc.png"
+        },
+        {
           "id": "https://specterops.io/?p=20673",
           "author": "Matt Johnson",
           "description": "TL;DR: We found that SCOM RunAs credentials could be obtained on-host and also off-host in certain configurations and wrote a tool to help automate their recovery. To skip straight to the tool, go here https://github.com/breakfix/SharpSCOM Introduction In our previous blog post, we demonstrated a series of attacks focused on attacking the SCOM server directly. Specifically, […]\nThe post SCOMmand And Conquer – Attacking System Center Operations Manager (Part 2) appeared first on SpecterOps.",
@@ -109,6 +119,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "burp-suite-dast-winter-update-2025",
+          "author": null,
+          "description": "AppSec teams are under constant pressure to secure fast-moving applications without slowing anything down. But scanning windows, fragile authentication, and sprawling API estates often get in the way",
+          "link": "https://portswigger.net/blog/burp-suite-dast-winter-update-2025",
+          "publishedOn": "2025-12-11T13:09:30.000Z",
+          "wordCount": 1096,
+          "title": "DAST without disruption: Burp Suite DAST winter update 2025",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "how-to-detect-react2shell-with-burp-suite",
           "author": null,
           "description": "Detecting React2Shell with Burp Suite React2Shell vulnerabilities in Next.js applications are now scannable across Burp Suite, making it fast to validate your exposure and begin automated coverage usi",
@@ -144,18 +164,7 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": [
-        {
-          "id": "introducing-http-anomaly-rank",
-          "author": null,
-          "description": "HTTP Anomaly Rank If you've ever used Burp Intruder or Turbo Intruder, you'll be familiar with the ritual of manually digging through thousands of responses by repeatedly sorting the table via length,",
-          "link": "https://portswigger.net/research/introducing-http-anomaly-rank",
-          "publishedOn": "2025-11-11T14:41:53.000Z",
-          "wordCount": 1145,
-          "title": "Introducing HTTP Anomaly Rank",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Project Zero",
@@ -395,17 +404,6 @@
           "publishedOn": "2025-12-09T18:29:16.000Z",
           "wordCount": null,
           "title": "The December 2025 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6913768575aec2096dbbc92c",
-          "author": "Dustin Childs",
-          "description": "I’ve made it through Pwn2Own Ireland, and while many are celebrated those who served their country in the armed services, patch Tuesday stops for no one. So affix your poppy accordingly, and let’s take a look at the latest security offerings from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for November 2025\nFor November, Adobe released eight bulletins addressing 29 unique CVEs in Adobe InDesign, InCopy, Photoshop, Illustrator, Illustrator Mobile, Substance 3D Stager, Format Plugins, and Adobe Pass. Nine of these CVEs were reported by Trend ZDI researcher Michel DePlante. He discovered the bugs fixed by the patch for Adobe Format Plugins. If you must prioritize, the update for InDesign fixes four Criti…",
-          "link": "https://www.thezdi.com/blog/2025/11/11/the-november-2025-security-update-review",
-          "publishedOn": "2025-11-11T18:30:42.000Z",
-          "wordCount": null,
-          "title": "The November 2025 Security Update Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -13899,16 +13897,6 @@
           "wordCount": 1826,
           "title": "Public Report: AWS EKS Security Claims",
           "imageUrl": null
-        },
-        {
-          "id": "f2d0e1b1-f430-42cc-97f7-500cd4149b16",
-          "author": null,
-          "description": "Public Report: Google Private AI Compute Review",
-          "link": "https://www.nccgroup.com/research-blog/public-report-google-private-ai-compute-review/",
-          "publishedOn": "2025-11-12T00:54:50.116Z",
-          "wordCount": 1953,
-          "title": "Public Report: Google Private AI Compute Review",
-          "imageUrl": null
         }
       ]
     },
@@ -14003,6 +13991,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
+          "author": null,
+          "description": "In 2023 GitHub introduced CodeQL multi-repository variant analysis (MRVA). This functionality lets you run queries across thousands of projects using pre-built databases and drastically reduces the time needed to find security bugs at scale. There’s just one problem: it’s largely built on VS Code and I’m a Vim user and a terminal junkie. That’s why I built mrva, a composable, terminal-first alternative that runs entirely on your machine and outputs results wherever stdout leads you.\nIn this post I will cover installing and using mrva, compare its feature set to GitHub’s MRVA functionality, and discuss a few interesting implementation details I discovered while working on it. Here is a quick example of what you’ll see at the end of your mrva journey:\nFigure 1: Pretty-printing CodeQL SARIF r…",
+          "link": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
+          "publishedOn": "2025-12-11T12:00:00.000Z",
+          "wordCount": 1989,
+          "title": "Introducing mrva, a terminal-first approach to CodeQL multi-repo variant analysis",
+          "imageUrl": "https://blog.trailofbits.com/content/2025/introducing-mrva/introducing-mrva-image.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2025/12/02/introducing-constant-time-support-for-llvm-to-protect-cryptographic-code/",
           "author": null,
@@ -14143,6 +14141,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1603621",
+          "author": "IT Experts",
+          "description": "Microsoft Entra PowerShell is a module that lets administrators manage and automate Microsoft Entra ID resources—such as users, groups, applications, and policies—via PowerShell, built on and interoperable with the Microsoft Graph PowerShell SDK. ​Microsoft released version 1.1.0 of the Entra PowerShell module, introducing compatibility improvements and new filtering parameters for device and service principal management. The update removes version restrictions for Microsoft Graph PowerShell and adds functionality for administrators managing identity resources.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-entra-powershell-v110-removes-graph-version-pinning-adds-device-and-service-principal-filtering/",
+          "publishedOn": "2025-12-11T14:15:06.000Z",
+          "wordCount": null,
+          "title": "Microsoft Entra PowerShell v1.1.0 removes Graph version pinning, adds device and service principal filtering",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1603454",
+          "author": "IT Experts",
+          "description": "Microsoft announced that advanced Intune Suite capabilities will be included in Microsoft 365 E3 and E5 subscriptions at no additional cost, expanding endpoint management and security features to more organizations. The changes take effect in 2026 and aim to help IT teams manage devices at scale while strengthening Zero Trust security.\nSource",
+          "link": "https://4sysops.com/archives/new-intune-features-for-microsoft-365-e3e5-subscribers/",
+          "publishedOn": "2025-12-11T14:12:58.000Z",
+          "wordCount": null,
+          "title": "New Intune features for Microsoft 365 E3/E5 subscribers",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1603230",
           "author": "IT Experts",
@@ -14401,26 +14419,6 @@
           "publishedOn": "2025-11-13T12:25:02.000Z",
           "wordCount": null,
           "title": "New Windows 11 25H2 Group Policy settings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1602655",
-          "author": "IT Experts",
-          "description": "Microsoft announced the passkey plugin API for Windows 11 in October 2024, with the feature becoming generally available with the November 2025 security update. This API enables third-party passkey managers, such as 1Password and Bitwarden, to integrate directly into Windows 11's native authentication system, allowing end-users to authenticate with a passkey on multiple devices.\nSource",
-          "link": "https://4sysops.com/archives/windows-hello-passkey-manager-plugin-api/",
-          "publishedOn": "2025-11-12T12:14:14.000Z",
-          "wordCount": null,
-          "title": "Windows Hello Passkey Manager Plugin API",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1601709",
-          "author": "IT Experts",
-          "description": "Microsoft is rolling out Auto-Archiving for Exchange Online for public clouds and government clouds. This new threshold-based archiving feature automatically moves the oldest items from a user's primary mailbox to their archive mailbox when mailbox utilization exceeds 90% of the quota, complementing existing time-based archiving policies to prevent disruptions to mail flow.\nSource",
-          "link": "https://4sysops.com/archives/auto-archiving-for-exchange-online/",
-          "publishedOn": "2025-11-11T15:00:26.000Z",
-          "wordCount": null,
-          "title": "Auto-archiving for Exchange Online",
           "imageUrl": null
         }
       ]
@@ -14755,6 +14753,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=23712",
+          "author": "Tryfon Skandamis",
+          "description": "A Security Operations Center (SOC) watches an organization’s IT systems for cyber threats 24/7. It quickly finds and fixes security problems and uses Security Information and Event Management (SIEM) tools to collect and analyze alerts and logs. SIEMs depend on log Collectors servers, which gather data from many sources and send it to the SIEM. … Continue reading Managing SIEM Log Collectors at Scale with Ansible and GitHub Actions – Part 1 →",
+          "link": "https://blog.nviso.eu/2025/12/11/managing-siem-log-collectors-at-scale-with-ansible-and-github-actions-part-1/",
+          "publishedOn": "2025-12-11T08:39:13.000Z",
+          "wordCount": 3419,
+          "title": "Managing SIEM Log Collectors at Scale with Ansible and GitHub Actions – Part 1",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/12/Managing_SIEM_logs_blog_TS.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=21661",
           "author": "Kristof Baute",
