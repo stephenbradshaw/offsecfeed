@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-12-12T00:58:02.052Z</updated>
+    <updated>2025-12-13T00:54:44.332Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Public Report: Google Private AI Compute Review]]></title>
+        <id>f2d0e1b1-f430-42cc-97f7-500cd4149b16</id>
+        <link href="https://www.nccgroup.com/research-blog/public-report-google-private-ai-compute-review/"/>
+        <updated>2025-12-13T00:54:00.308Z</updated>
+        <summary type="html"><![CDATA[Public Report: Google Private AI Compute Review]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A look at an Android ITW DNG exploit]]></title>
+        <id>https://googleprojectzero.blogspot.com/2025/12/a-look-at-android-itw-dng-exploit.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2025/12/a-look-at-android-itw-dng-exploit.html"/>
+        <updated>2025-12-12T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Benoît Sevens, Google Threat Intelligence Group
+
+Introduction
+Between July 2024 and February 2025, 6 suspicious image files were uploaded to VirusTotal. Thanks to a lead from Meta, these samples came to the attention of Google Threat Intelligence Group.
+
+
+Investigation of these images showed that these images were DNG files targeting the Quram library, an image parsing library specific to Samsung devices.
+
+
+On November 7, 2025 Unit 42 released a blogpost describing how these exploits were used and the spyware they dropped. In this blogpost, we would like to focus on the technical details about how the exploits worked. The exploited Samsung vulnerability was fixed in April 2025.
+
+
+There has been excellent prior work describing image-based exploits targeting iOS, such as Project Ze…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Catching malicious package releases using a transparency log]]></title>
+        <id>https://blog.trailofbits.com/2025/12/12/catching-malicious-package-releases-using-a-transparency-log/</id>
+        <link href="https://blog.trailofbits.com/2025/12/12/catching-malicious-package-releases-using-a-transparency-log/"/>
+        <updated>2025-12-12T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re getting Sigstore’s rekor-monitor ready for production use, making it easier for developers to detect tampering and unauthorized uses of their identities in the Rekor transparency log. This work, funded by the OpenSSF, includes support for the new Rekor v2 log, certificate validation, and integration with The Update Framework (TUF).
+For package maintainers that publish attestations signed using Sigstore (as supported by PyPI and npm), monitoring the Rekor log can help them quickly become aware of a compromise of their release process by notifying them of new signing events related to the package they maintain.
+Transparency logs like Rekor provide a critical security function: they create append-only, tamper-evident records that are easy to monitor. But having entries in a log doesn’t …]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Burp On Tour 2025: bringing the AppSec community together around the world]]></title>
+        <id>burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world</id>
+        <link href="https://portswigger.net/blog/burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world"/>
+        <updated>2025-12-12T11:34:28.000Z</updated>
+        <summary type="html"><![CDATA[In 2025, we set out with a simple mission: take Burp Suite on the road and meet the global AppSec community where you are. Burp On Tour was born from our desire to learn from you; the brilliant people]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Admin Center version 2511: high availability deployments, VM conversion tool, NetApp Shift Toolkit, security improvments]]></title>
+        <id>https://4sysops.com/?p=1603732</id>
+        <link href="https://4sysops.com/archives/windows-admin-center-version-2511-high-availability-deployments-vm-conversion-tool-netapp-shift-toolkit-security-improvements/"/>
+        <updated>2025-12-12T09:55:18.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft released Windows Admin Center version 2511 on December 11, 2025, restoring support for high availability deployments and delivering broad updates across deployment, virtualization, and security. The release enhances core management workflows, introduces a new VM conversion tool alongside the NetApp Shift Toolkit for cross-hypervisor migrations, and brings notable security improvements together with expanded international keyboard support for remote desktop connections.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Intune December updates:  Workflow automation, macOS, iOS, Android enhancements]]></title>
+        <id>https://4sysops.com/?p=1603758</id>
+        <link href="https://4sysops.com/archives/microsoft-intune-december-updates-workflow-automation-macos-ios-android-enhancements/"/>
+        <updated>2025-12-12T09:54:21.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft released significant updates to Intune in December 2025, focusing on workflow automation, cross-platform enhancements, and improved security controls. The updates introduce a centralized admin task view, enhanced Android privacy controls, and customizable iOS enrollment experiences.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Azure Seamless SSO: When Cookie Theft Doesn’t Cut It]]></title>
         <id>https://specterops.io/?p=20907</id>
@@ -144,6 +220,16 @@ The post SCOMmand and Conquer – Attacking System Center Operations Manager (Pa
         <summary type="html"><![CDATA[Shopping for a hacker? Skip the gimmicks. Here are the tools, training, and books they actually want: Flipper Zero, Proxmark3, Shodan, HTB, and must-read vuln research picks, perfect for deal-season lab upgrades.]]></summary>
         <author>
             <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fragile Lock:&nbsp;Novel Bypasses For SAML Authentication]]></title>
+        <id>the-fragile-lock</id>
+        <link href="https://portswigger.net/research/the-fragile-lock"/>
+        <updated>2025-12-10T12:32:00.000Z</updated>
+        <summary type="html"><![CDATA[TLDR This post shows how to achieve a full authentication bypass in the Ruby and PHP SAML ecosystem by exploiting several parser-level inconsistencies: including attribute pollution, namespace confusi]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
         </author>
     </entry>
     <entry>
@@ -13253,69 +13339,6 @@ SLH-DSA (FIPS-205) is relatively easy to implement without introducing sid…]]>
 The post Taming the Attack Graph: A Many Subgraphs Approach to Attack Path Analysis appeared first on SpecterOps.]]></summary>
         <author>
             <name>JD Crandell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Windows 11 25H2 Group Policy settings]]></title>
-        <id>https://4sysops.com/?p=1601703</id>
-        <link href="https://4sysops.com/archives/new-windows-11-25h2-group-policy-settings/"/>
-        <updated>2025-11-13T12:25:02.000Z</updated>
-        <summary type="html"><![CDATA[Windows 11 version 25H2 introduces 42 new Group Policy settings for administrators to manage system behavior, security features, and user interface customization. The update includes options for controlling AI features like Copilot and Recall, removing preinstalled Store apps, and configuring enhanced security protocols for printing and network communications.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building checksec without boundaries with Checksec Anywhere]]></title>
-        <id>https://blog.trailofbits.com/2025/11/13/building-checksec-without-boundaries-with-checksec-anywhere/</id>
-        <link href="https://blog.trailofbits.com/2025/11/13/building-checksec-without-boundaries-with-checksec-anywhere/"/>
-        <updated>2025-11-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since its original release in 2009, checksec has become widely used in the software security community, proving useful in CTF challenges, security posturing, and general binary analysis. The tool inspects executables to determine which exploit mitigations (e.g., ASLR, DEP, stack canaries, etc.) are enabled, rapidly gauging a program’s defensive hardening. This success inspired numerous spinoffs: a contemporary Go implementation, Trail of Bits’ Winchecksec for PE binaries, and various scripts targeting Apple’s Mach-O binary format. However, this created an unwieldy ecosystem where security professionals must juggle multiple tools, each with different interfaces, dependencies, and feature sets.
-During my summer internship at Trail of Bits, I built Checksec Anywhere to consolidate this fragme…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting AgTech connectivity to corner the grain market]]></title>
-        <id>https://www.pentestpartners.com/?p=43122</id>
-        <link href="https://www.pentestpartners.com/security-blog/exploiting-agtech-connectivity-to-corner-the-grain-market/"/>
-        <updated>2025-11-13T09:25:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR Introduction I live in the countryside & as a result, know quite a few farmers. The subject of connected farming systems comes up quite a lot in the local pub. Those of you who have watched Clarkson’s Farm will understand just how complex and confusing some tractor systems are. Tractors spend a lot of […]
-The post Exploiting AgTech connectivity to corner the grain market appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Contagious Interview Actors Now Utilize JSON Storage Services for Malware Delivery]]></title>
-        <id>https://blog.nviso.eu/?p=23072</id>
-        <link href="https://blog.nviso.eu/2025/11/13/contagious-interview-actors-now-utilize-json-storage-services-for-malware-delivery/"/>
-        <updated>2025-11-13T08:41:12.000Z</updated>
-        <summary type="html"><![CDATA[NVISO reports a new development in the Contagious Interview campaign. The threat actors have recently resorted to utilizing JSON storage services like JSON Keeper, JSONsilo, and npoint.io to host and deliver malware from trojanized code projects, with the lure being a use case or demo project as part of an interview process. Background Contagious Interview … Continue reading Contagious Interview Actors Now Utilize JSON Storage Services for Malware Delivery →]]></summary>
-        <author>
-            <name>Bart Parys</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report: AWS EKS Security Claims]]></title>
-        <id>52639df7-25a4-45aa-b98f-03e7d00e6ef3</id>
-        <link href="https://www.nccgroup.com/research-blog/public-report-aws-eks-security-claims/"/>
-        <updated>2025-11-13T00:54:37.997Z</updated>
-        <summary type="html"><![CDATA[Public Report: AWS EKS Security Claims]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is It CitrixBleed4? Well, No. Is It Good? Also, No. (Citrix NetScaler Memory Leak & RXSS CVE-2025-12101)]]></title>
-        <id>6914846e50a65b0001a6adf6</id>
-        <link href="https://labs.watchtowr.com/is-it-citrixbleed4-well-no-is-it-good-also-no-citrix-netscalers-memory-leak-rxss-cve-2025-12101/"/>
-        <updated>2025-11-12T13:03:43.000Z</updated>
-        <summary type="html"><![CDATA[There’s an elegance to vulnerability research that feels almost poetic - the quiet dance between chaos and control. It’s the art of peeling back the layers of complexity, not to destroy but to understand; to trace the fragile threads that hold systems together and see where]]></summary>
-        <author>
-            <name>Sina Kheirkhah (@SinSinology)</name>
         </author>
     </entry>
     <entry>

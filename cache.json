@@ -119,6 +119,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world",
+          "author": null,
+          "description": "In 2025, we set out with a simple mission: take Burp Suite on the road and meet the global AppSec community where you are. Burp On Tour was born from our desire to learn from you; the brilliant people",
+          "link": "https://portswigger.net/blog/burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world",
+          "publishedOn": "2025-12-12T11:34:28.000Z",
+          "wordCount": 1416,
+          "title": "Burp On Tour 2025: bringing the AppSec community together around the world",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "burp-suite-dast-winter-update-2025",
           "author": null,
           "description": "AppSec teams are under constant pressure to secure fast-moving applications without slowing anything down. But scanning windows, fragile authentication, and sprawling API estates often get in the way",
@@ -164,13 +174,35 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": []
+      "articles": [
+        {
+          "id": "the-fragile-lock",
+          "author": null,
+          "description": "TLDR This post shows how to achieve a full authentication bypass in the Ruby and PHP SAML ecosystem by exploiting several parser-level inconsistencies: including attribute pollution, namespace confusi",
+          "link": "https://portswigger.net/research/the-fragile-lock",
+          "publishedOn": "2025-12-10T12:32:00.000Z",
+          "wordCount": 3735,
+          "title": "The Fragile Lock:&nbsp;Novel Bypasses For SAML Authentication",
+          "imageUrl": "https://portswigger.net/cms/images/1d/b6/e1f2-twittercard-twitter-card.png"
+        }
+      ]
     },
     {
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2025/12/a-look-at-android-itw-dng-exploit.html",
+          "author": null,
+          "description": "Posted by Benoît Sevens, Google Threat Intelligence Group\n\nIntroduction\nBetween July 2024 and February 2025, 6 suspicious image files were uploaded to VirusTotal. Thanks to a lead from Meta, these samples came to the attention of Google Threat Intelligence Group.\n\n\nInvestigation of these images showed that these images were DNG files targeting the Quram library, an image parsing library specific to Samsung devices.\n\n\nOn November 7, 2025 Unit 42 released a blogpost describing how these exploits were used and the spyware they dropped. In this blogpost, we would like to focus on the technical details about how the exploits worked. The exploited Samsung vulnerability was fixed in April 2025.\n\n\nThere has been excellent prior work describing image-based exploits targeting iOS, such as Project Ze…",
+          "link": "https://googleprojectzero.blogspot.com/2025/12/a-look-at-android-itw-dng-exploit.html",
+          "publishedOn": "2025-12-12T18:01:00.000Z",
+          "wordCount": 10523,
+          "title": "A look at an Android ITW DNG exploit",
+          "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiiwr_N_KPj_7IxkyMILQw6UiTrRKfIWj4y45LHcc44O79yYN-BMo-2Ex59570Ekwdwhsf5kjvrDmmWSOETFa_KLLGlSe6uL0zvgm-3_75rJssKQ-wsaGjwH7o0yHQcLvFOepn9tL7NGyOjVt1w0zK3wHT9O8yEIkD1CQkV2sPDuH69iy4laJsi_y19lnM=w1200-h630-p-k-no-nu"
+        }
+      ]
     },
     {
       "title": "Carnal0wnage Blog",
@@ -438,6 +470,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "f2d0e1b1-f430-42cc-97f7-500cd4149b16",
+          "author": null,
+          "description": "Public Report: Google Private AI Compute Review",
+          "link": "https://www.nccgroup.com/research-blog/public-report-google-private-ai-compute-review/",
+          "publishedOn": "2025-12-13T00:54:00.308Z",
+          "wordCount": 2044,
+          "title": "Public Report: Google Private AI Compute Review",
+          "imageUrl": null
+        },
         {
           "id": "0cc38e9f-2303-43b8-9c8c-c74bb9dfba8d",
           "author": null,
@@ -13887,16 +13929,6 @@
           "wordCount": 1813,
           "title": "The Symbols of Operation",
           "imageUrl": null
-        },
-        {
-          "id": "52639df7-25a4-45aa-b98f-03e7d00e6ef3",
-          "author": null,
-          "description": "Public Report: AWS EKS Security Claims",
-          "link": "https://www.nccgroup.com/research-blog/public-report-aws-eks-security-claims/",
-          "publishedOn": "2025-11-13T00:54:37.997Z",
-          "wordCount": 1826,
-          "title": "Public Report: AWS EKS Security Claims",
-          "imageUrl": null
         }
       ]
     },
@@ -13992,6 +14024,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2025/12/12/catching-malicious-package-releases-using-a-transparency-log/",
+          "author": null,
+          "description": "We’re getting Sigstore’s rekor-monitor ready for production use, making it easier for developers to detect tampering and unauthorized uses of their identities in the Rekor transparency log. This work, funded by the OpenSSF, includes support for the new Rekor v2 log, certificate validation, and integration with The Update Framework (TUF).\nFor package maintainers that publish attestations signed using Sigstore (as supported by PyPI and npm), monitoring the Rekor log can help them quickly become aware of a compromise of their release process by notifying them of new signing events related to the package they maintain.\nTransparency logs like Rekor provide a critical security function: they create append-only, tamper-evident records that are easy to monitor. But having entries in a log doesn’t …",
+          "link": "https://blog.trailofbits.com/2025/12/12/catching-malicious-package-releases-using-a-transparency-log/",
+          "publishedOn": "2025-12-12T12:00:00.000Z",
+          "wordCount": 1342,
+          "title": "Catching malicious package releases using a transparency log",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
           "author": null,
           "description": "In 2023 GitHub introduced CodeQL multi-repository variant analysis (MRVA). This functionality lets you run queries across thousands of projects using pre-built databases and drastically reduces the time needed to find security bugs at scale. There’s just one problem: it’s largely built on VS Code and I’m a Vim user and a terminal junkie. That’s why I built mrva, a composable, terminal-first alternative that runs entirely on your machine and outputs results wherever stdout leads you.\nIn this post I will cover installing and using mrva, compare its feature set to GitHub’s MRVA functionality, and discuss a few interesting implementation details I discovered while working on it. Here is a quick example of what you’ll see at the end of your mrva journey:\nFigure 1: Pretty-printing CodeQL SARIF r…",
@@ -14040,16 +14082,6 @@
           "wordCount": 1492,
           "title": "How we avoided side-channels in our new post-quantum Go cryptography libraries",
           "imageUrl": "https://blog.trailofbits.com/img/post-quantum-crypto-go-preview.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/11/13/building-checksec-without-boundaries-with-checksec-anywhere/",
-          "author": null,
-          "description": "Since its original release in 2009, checksec has become widely used in the software security community, proving useful in CTF challenges, security posturing, and general binary analysis. The tool inspects executables to determine which exploit mitigations (e.g., ASLR, DEP, stack canaries, etc.) are enabled, rapidly gauging a program’s defensive hardening. This success inspired numerous spinoffs: a contemporary Go implementation, Trail of Bits’ Winchecksec for PE binaries, and various scripts targeting Apple’s Mach-O binary format. However, this created an unwieldy ecosystem where security professionals must juggle multiple tools, each with different interfaces, dependencies, and feature sets.\nDuring my summer internship at Trail of Bits, I built Checksec Anywhere to consolidate this fragme…",
-          "link": "https://blog.trailofbits.com/2025/11/13/building-checksec-without-boundaries-with-checksec-anywhere/",
-          "publishedOn": "2025-11-13T12:00:00.000Z",
-          "wordCount": 928,
-          "title": "Building checksec without boundaries with Checksec Anywhere",
-          "imageUrl": "https://blog.trailofbits.com/img/checksec-anywhere/checksec-anywhere-2.png"
         }
       ]
     },
@@ -14141,6 +14173,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1603732",
+          "author": "IT Experts",
+          "description": "Microsoft released Windows Admin Center version 2511 on December 11, 2025, restoring support for high availability deployments and delivering broad updates across deployment, virtualization, and security. The release enhances core management workflows, introduces a new VM conversion tool alongside the NetApp Shift Toolkit for cross-hypervisor migrations, and brings notable security improvements together with expanded international keyboard support for remote desktop connections.\nSource",
+          "link": "https://4sysops.com/archives/windows-admin-center-version-2511-high-availability-deployments-vm-conversion-tool-netapp-shift-toolkit-security-improvements/",
+          "publishedOn": "2025-12-12T09:55:18.000Z",
+          "wordCount": null,
+          "title": "Windows Admin Center version 2511: high availability deployments, VM conversion tool, NetApp Shift Toolkit, security improvments",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1603758",
+          "author": "IT Experts",
+          "description": "Microsoft released significant updates to Intune in December 2025, focusing on workflow automation, cross-platform enhancements, and improved security controls. The updates introduce a centralized admin task view, enhanced Android privacy controls, and customizable iOS enrollment experiences.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-intune-december-updates-workflow-automation-macos-ios-android-enhancements/",
+          "publishedOn": "2025-12-12T09:54:21.000Z",
+          "wordCount": null,
+          "title": "Microsoft Intune December updates:  Workflow automation, macOS, iOS, Android enhancements",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1603621",
           "author": "IT Experts",
@@ -14410,16 +14462,6 @@
           "wordCount": null,
           "title": "Migrate WSUS: Install role and move data to Windows Server 2025",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1601703",
-          "author": "IT Experts",
-          "description": "Windows 11 version 25H2 introduces 42 new Group Policy settings for administrators to manage system behavior, security features, and user interface customization. The update includes options for controlling AI features like Copilot and Recall, removing preinstalled Store apps, and configuring enhanced security protocols for printing and network communications.\nSource",
-          "link": "https://4sysops.com/archives/new-windows-11-25h2-group-policy-settings/",
-          "publishedOn": "2025-11-13T12:25:02.000Z",
-          "wordCount": null,
-          "title": "New Windows 11 25H2 Group Policy settings",
-          "imageUrl": null
         }
       ]
     },
@@ -14570,16 +14612,6 @@
           "wordCount": 1965,
           "title": "Common Kubernetes misconfigurations and how to avoid them",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/Craig-Dowey-Common-‘kube-misconfigurations-and-how-to-avoid-them-headlinev5png.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=43122",
-          "author": "Alex Wallace",
-          "description": "TL;DR Introduction I live in the countryside & as a result, know quite a few farmers. The subject of connected farming systems comes up quite a lot in the local pub. Those of you who have watched Clarkson’s Farm will understand just how complex and confusing some tractor systems are. Tractors spend a lot of […]\nThe post Exploiting AgTech connectivity to corner the grain market appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/exploiting-agtech-connectivity-to-corner-the-grain-market/",
-          "publishedOn": "2025-11-13T09:25:00.000Z",
-          "wordCount": 2317,
-          "title": "Exploiting AgTech connectivity to corner the grain market",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/KM-exploiting-AgTech-to-corner-the-grain-market-Headlinev3.png"
         }
       ]
     },
@@ -14772,16 +14804,6 @@
           "wordCount": 7873,
           "title": "Detection Engineering: Practicing Detection-as-Code – Tuning – Part 8",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/09/Detection_Engineering_blog_8_KB_SC.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=23072",
-          "author": "Bart Parys",
-          "description": "NVISO reports a new development in the Contagious Interview campaign. The threat actors have recently resorted to utilizing JSON storage services like JSON Keeper, JSONsilo, and npoint.io to host and deliver malware from trojanized code projects, with the lure being a use case or demo project as part of an interview process. Background Contagious Interview … Continue reading Contagious Interview Actors Now Utilize JSON Storage Services for Malware Delivery →",
-          "link": "https://blog.nviso.eu/2025/11/13/contagious-interview-actors-now-utilize-json-storage-services-for-malware-delivery/",
-          "publishedOn": "2025-11-13T08:41:12.000Z",
-          "wordCount": 3587,
-          "title": "Contagious Interview Actors Now Utilize JSON Storage Services for Malware Delivery",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/11/contagious_Interview_actors_blog.jpg"
         }
       ]
     },
@@ -14958,16 +14980,6 @@
           "wordCount": 1738,
           "title": "When The Impersonation Function Gets Used To Impersonate Users (Fortinet FortiWeb Auth. Bypass CVE-2025-64446)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/11/Group-8730--29-.png"
-        },
-        {
-          "id": "6914846e50a65b0001a6adf6",
-          "author": "Sina Kheirkhah (@SinSinology)",
-          "description": "There’s an elegance to vulnerability research that feels almost poetic - the quiet dance between chaos and control. It’s the art of peeling back the layers of complexity, not to destroy but to understand; to trace the fragile threads that hold systems together and see where",
-          "link": "https://labs.watchtowr.com/is-it-citrixbleed4-well-no-is-it-good-also-no-citrix-netscalers-memory-leak-rxss-cve-2025-12101/",
-          "publishedOn": "2025-11-12T13:03:43.000Z",
-          "wordCount": 1514,
-          "title": "Is It CitrixBleed4? Well, No. Is It Good? Also, No. (Citrix NetScaler Memory Leak & RXSS CVE-2025-12101)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/11/Group-8730--28-.png"
         }
       ]
     },
