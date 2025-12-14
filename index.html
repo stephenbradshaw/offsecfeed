@@ -59,6 +59,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-12-14 datetime="2025-12-14T01:01:53.685Z">2025-12-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-12-14 datetime="2025-12-14T01:01:53.685Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Cyber Security Research</button>
+                  <a class="source-heading__link" href="https://www.nccgroup.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="52639df7-25a4-45aa-b98f-03e7d00e6ef3"
+                        open
+                      >
+                        <summary class="article-expander__title">Public Report: AWS EKS Security Claims</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.nccgroup.com/research-blog/public-report-aws-eks-security-claims/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Public Report: AWS EKS Security Claims</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-12-13 datetime="2025-12-13T00:54:00.308Z">2025-12-13</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-12-13 datetime="2025-12-13T00:54:00.308Z"></time>
           </button>
@@ -28230,124 +28277,6 @@ As many are now aware, an unnamed (and potentially silently</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1602704"
-                        open
-                      >
-                        <summary class="article-expander__title">Migrate WSUS: Install role and move data to Windows Server 2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/migrate-wsus-install-role-and-move-data-to-windows-server-2025/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This guide walks you through the process of installing the WSUS (Windows Server Update Services) role and migrating your configuration and data to Windows Server 2025. You&#x27;ll perform a clean setup to ensure a stable, efficient patch management environment on the latest Windows Server release. Follow these steps to safely move WSUS settings, groups, and approvals, and prepare your system for long-term support.
-Source</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Trail of Bits Blog</button>
-                  <a class="source-heading__link" href="https://blog.trailofbits.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.trailofbits.com/2025/11/14/how-we-avoided-side-channels-in-our-new-post-quantum-go-cryptography-libraries/"
-                        open
-                      >
-                        <summary class="article-expander__title">How we avoided side-channels in our new post-quantum Go cryptography libraries</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2025/11/14/how-we-avoided-side-channels-in-our-new-post-quantum-go-cryptography-libraries/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://blog.trailofbits.com/img/post-quantum-crypto-go-preview.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Trail of Bits cryptography team is releasing our open-source pure Go implementations of ML-DSA (FIPS-204) and SLH-DSA (FIPS-205), two NIST-standardized post-quantum signature algorithms. These implementations have been engineered and reviewed by several of our cryptographers, so if you or your organization is looking to transition to post-quantum support for digital signatures, try them out!
-This post will detail some of the work we did to ensure the implementations are constant time. These tricks specifically apply to the ML-DSA (FIPS-204) algorithm, protecting from attacks like KyberSlash, but they also apply to any cryptographic algorithm that requires branching or division.
-The road to constant-time FIPS-204
-SLH-DSA (FIPS-205) is relatively easy to implement without introducing sid…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-11-13 datetime="2025-11-13T17:00:00.000Z">2025-11-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-11-13 datetime="2025-11-13T17:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Blog Archives - SpecterOps</button>
-                  <a class="source-heading__link" href="https://specterops.io/blog/category/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://specterops.io/?p&#x3D;20405"
-                        open
-                      >
-                        <summary class="article-expander__title">Taming the Attack Graph: A Many Subgraphs Approach to Attack Path Analysis</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://specterops.io/blog/2025/11/13/taming-the-attack-graph-a-many-subgraphs-approach-to-attack-path-analysis/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://specterops.io/wp-content/uploads/sites/3/2025/11/image7.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>TL;DR This blog presents a framework using technology subgraphs, decomposition, and graph abstraction to model hybrid attack paths and scale attack path management across enterprise technology platforms. I am also releasing SecretHound to model secrets using BloodHound OpenGraph. Backstory While performing a recent red team assessment, my team came across the GitHub Secret Scanning service. […]
-The post Taming the Attack Graph: A Many Subgraphs Approach to Attack Path Analysis appeared first on SpecterOps.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -28968,8 +28897,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/20184150812">
-        <time id="build-timestamp" datetime="2025-12-13T00:54:44.277Z">2025-12-13T00:54:44.277Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/20200417831">
+        <time id="build-timestamp" datetime="2025-12-14T01:02:38.296Z">2025-12-14T01:02:38.296Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
