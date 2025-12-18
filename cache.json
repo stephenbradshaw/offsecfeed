@@ -266,6 +266,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=10963",
+          "author": "Didier Stevens",
+          "description": "In blog post “Quickpost: USB Electric Razor” I mention USB trigger boards. A USB trigger board is a small electronic device that receives power via a USB-C connector, and delivers power with a voltage that it negotiates with the USB power source. This one for example is set to deliver 12V: Left you have the USB-C […]",
+          "link": "https://blog.didierstevens.com/2025/12/18/usb-trigger-boards/",
+          "publishedOn": "2025-12-18T00:00:00.000Z",
+          "wordCount": 3823,
+          "title": "USB Trigger Boards",
+          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2025/12/20251217-165952.png"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=11048",
           "author": "Didier Stevens",
           "description": "I discovered USB-C rechargeable batteries, and bought a set of AA and AAA batteries. They have a USB-C connector for recharging, so you don’t need a separate charger like you do for NiMH batteries. This post is not a full blog post, but more a collection of lab notes. These USB-C batteries deliver 1,5 Volt […]",
@@ -407,7 +417,7 @@
     {
       "title": "Penetration Testing Lab",
       "feedUrl": "https://pentestlab.blog/feed/",
-      "siteUrl": "http://pentestlab.blog",
+      "siteUrl": "https://pentestlab.blog",
       "articles": []
     },
     {
@@ -13939,16 +13949,6 @@
           "wordCount": 1943,
           "title": "When Guardrails Aren't Enough: Reinventing Agentic AI Security With Architectural Controls",
           "imageUrl": null
-        },
-        {
-          "id": "3d9e6f24-f38a-464e-ad0b-5d463ed8acd6",
-          "author": null,
-          "description": "MCP Bridge Upgrade",
-          "link": "https://www.nccgroup.com/research-blog/mcp-bridge-upgrade/",
-          "publishedOn": "2025-11-18T00:54:09.994Z",
-          "wordCount": 1837,
-          "title": "MCP Bridge Upgrade",
-          "imageUrl": null
         }
       ]
     },
@@ -14082,16 +14082,6 @@
           "wordCount": 1451,
           "title": "Introducing constant-time support for LLVM to protect cryptographic code",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof/",
-          "author": null,
-          "description": "Trail of Bits is publicly disclosing two vulnerabilities in elliptic, a widely used JavaScript library for elliptic curve cryptography that is downloaded over 10 million times weekly and is used by close to 3,000 projects. These vulnerabilities, caused by missing modular reductions and a missing length check, could allow attackers to forge signatures or prevent valid signatures from being verified, respectively.\nOne vulnerability is still not fixed after a 90-day disclosure window that ended in October 2024. It remains unaddressed as of this publication.\nI discovered these vulnerabilities using Wycheproof, a collection of test vectors designed to test various cryptographic algorithms against known vulnerabilities. If you’d like to learn more about how to use Wycheproof, check out this guid…",
-          "link": "https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof/",
-          "publishedOn": "2025-11-18T12:00:00.000Z",
-          "wordCount": 1547,
-          "title": "We found cryptography bugs in the elliptic library using Wycheproof",
-          "imageUrl": "https://blog.trailofbits.com/img/wycheproof-elliptic-library/wycheproof-2.png"
         }
       ]
     },
@@ -14183,6 +14173,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1603938",
+          "author": "IT Experts",
+          "description": "Microsoft has released native Non-Volatile Memory Express (NVMe) support for Windows Server 2025, delivering performance improvements of up to 80 percent in IOPS and delivering a 45 percent savings in CPU cycles per I/O compared to Windows Server 2022.\nSource",
+          "link": "https://4sysops.com/archives/windows-server-2025-introduces-native-nvme-support-with-performance-gains-of-up-to-80-percent/",
+          "publishedOn": "2025-12-17T15:10:01.000Z",
+          "wordCount": null,
+          "title": "Windows Server 2025 introduces native NVMe support with performance gains of up to 80 percent",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1603676",
+          "author": "IT Experts",
+          "description": "Microsoft has clarified the key differences between its one-time purchase Office 2024 and the subscription-based Microsoft 365 suite in an official support document. The comparison helps users understand the trade-offs between a single upfront payment for static software and ongoing subscription fees for continuously updated services.\nSource",
+          "link": "https://4sysops.com/archives/difference-between-office-2024-and-microsoft-365/",
+          "publishedOn": "2025-12-17T15:06:17.000Z",
+          "wordCount": null,
+          "title": "Difference between Office 2024 and Microsoft 365",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1603581",
           "author": "IT Experts",
@@ -14482,26 +14492,6 @@
           "wordCount": null,
           "title": "Cloudflare CEO blames single engineer for internal server error that took down roughly half of the internet—the real cause runs deeper",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1602831",
-          "author": "IT Experts",
-          "description": "Windows 10 devices enrolled in Extended Security Updates may experience installation failures when attempting to install the November 2025 security update (KB5068781). There were some problems installing updates, but we'll try again later. \"Error encountered: If you keep seeing this and want to search the web or contact support for information, this may help: (0x800f0922).\" The issue affects a specific subset of commercial customers using cloud-based licensing activation. This ESU issue appears to be unrelated to the error, 'We can't enroll you in Extended Security Updates right now,' because the enrollment error prevents access to ESU updates, while the current issue affects installation on devices that are already enrolled. Microsoft now released the KB5072653 update to fix the 0x800f0922 error.\nSource",
-          "link": "https://4sysops.com/archives/windows-10-kb5068781-esu-update-fails-with-0x800f0922-error-there-were-some-problems-installing-updates-but-well-try-again-later/",
-          "publishedOn": "2025-11-18T08:31:57.000Z",
-          "wordCount": null,
-          "title": "Windows 10 KB5068781 ESU update fails with 0x800f0922 error: There were some problems installing updates, but we’ll try again later",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1602857",
-          "author": "Michael Pietroforte",
-          "description": "Microsoft's announcement to transform Windows 11 into an agentic operating system has sparked widespread criticism from users and developers. The company's Windows chief, Pavan Davuluri, disclosed plans to evolve Windows into a system that connects devices, cloud, and AI to enable autonomous task execution. However, the response from the tech community has been overwhelmingly negative, forcing Microsoft to address concerns about the platform's direction. The backlash has brought AI skeptics and change-resistant IT professionals into the open.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-faces-massive-backlash-over-windows-11-agentic-os-plans-the-ai-naysayers-come-out-of-hiding/",
-          "publishedOn": "2025-11-17T13:37:28.000Z",
-          "wordCount": null,
-          "title": "Microsoft faces massive backlash over Windows 11 agentic OS plans – The AI naysayers come out of hiding",
-          "imageUrl": null
         }
       ]
     },
@@ -14622,16 +14612,6 @@
           "wordCount": 2179,
           "title": "Beyond cloud compliance dashboards, what’s next?",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/Beyond-cloud-compliance-dashboards-whats-nextv4.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=43173",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Introduction  Kubernetes has changed the way we deploy and scale workloads. It’s powerful, flexible, and very good at hiding a lot of complexity. It is also very good at hiding security problems until someone starts poking at it.  Attackers usually take the path of least resistance. If they find an exposed API, dashboard, or port, that is often enough for them to gain a foothold. Once they are in, attackers can exploit misconfigurations […]\nThe post Common Kubernetes misconfigurations and how to avoid them appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/common-kubernetes-misconfigurations-and-how-to-avoid-them/",
-          "publishedOn": "2025-11-18T10:14:37.000Z",
-          "wordCount": 1965,
-          "title": "Common Kubernetes misconfigurations and how to avoid them",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/Craig-Dowey-Common-‘kube-misconfigurations-and-how-to-avoid-them-headlinev5png.png"
         }
       ]
     },
@@ -14797,21 +14777,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/11/mei_eugenio_Ftr_2.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=134979",
-          "author": "Tomas Gatial",
-          "description": "Accelerate adversary tracking and reveal hidden infrastructure with our open-source Synapse Rapid Power-Up for Validin.",
-          "link": "https://www.sentinelone.com/labs/threat-hunting-power-up-enhance-campaign-discovery-with-validin-and-synapse/",
-          "publishedOn": "2025-11-17T14:00:14.000Z",
-          "wordCount": 8504,
-          "title": "Threat Hunting Power Up | Enhance Campaign Discovery With Validin and Synapse",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2025/11/2.jpg",
-            "length": "447767",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/11/2.jpg"
         }
       ]
     },
@@ -14857,6 +14822,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/mitre-aadapt-framework-as-a-red-team-roadmap",
+          "author": null,
+          "description": "MITRE’s AADAPT framework exposes how attackers target digital-asset systems but the real value comes from testing those threats. Learn how red teaming turns AADAPT into evidence-driven detection, stronger controls, and measurable protection against economic loss.",
+          "link": "https://bishopfox.com/blog/mitre-aadapt-framework-as-a-red-team-roadmap",
+          "publishedOn": "2025-12-17T14:00:00.000Z",
+          "wordCount": 2801,
+          "title": "MITRE AADAPT Framework as a Red Team Roadmap",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_MITRE-AADAPT-Framework-blog.png?mtime=1764629047"
+        },
         {
           "id": "https://bishopfox.com/blog/hacker-holiday-gift-guide-2025-edition",
           "author": null,
