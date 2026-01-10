@@ -24,26 +24,6 @@
           "wordCount": 5497,
           "title": "Azure Seamless SSO: When Cookie Theft Doesn’t Cut It",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2025/12/image_4cf22c_76f9bc.png"
-        },
-        {
-          "id": "https://specterops.io/?p=20673",
-          "author": "Matt Johnson",
-          "description": "TL;DR: We found that SCOM RunAs credentials could be obtained on-host and also off-host in certain configurations and wrote a tool to help automate their recovery. To skip straight to the tool, go here https://github.com/breakfix/SharpSCOM Introduction In our previous blog post, we demonstrated a series of attacks focused on attacking the SCOM server directly. Specifically, […]\nThe post SCOMmand And Conquer – Attacking System Center Operations Manager (Part 2) appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2025/12/10/scommand-and-conquer-attacking-system-center-operations-manager-part-2/",
-          "publishedOn": "2025-12-10T17:00:00.000Z",
-          "wordCount": 12284,
-          "title": "SCOMmand And Conquer – Attacking System Center Operations Manager (Part 2)",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2025/11/cb62a1cd-a2f6-4ee0-a97c-ec812246c053.png"
-        },
-        {
-          "id": "https://specterops.io/?p=21031",
-          "author": "Garrett Foster",
-          "description": "TL:DR SCOM suffers from similar insecure default configurations as its SCCM counterpart, enabling attackers to escalate privileges, harvest credentials, and ultimately compromise the entire management group and its monitored infrastructure. Intro At this point, I think it’s acceptable for me to just start each blog with a screenshot of Duane triggering me to look into […]\nThe post SCOMmand and Conquer – Attacking System Center Operations Manager (Part 1) appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2025/12/10/scommand-and-conquer-attacking-system-center-operations-manager-part-1/",
-          "publishedOn": "2025-12-10T17:00:00.000Z",
-          "wordCount": 7204,
-          "title": "SCOMmand and Conquer – Attacking System Center Operations Manager (Part 1)",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2025/12/image_abadb4.png"
         }
       ]
     },
@@ -347,6 +327,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69601079534e4805a81f5ae9",
+          "author": "Connor Ford",
+          "description": "In our previous Kenwood DNR1007XR blog, we detailed the internals of the Kenwood in-vehicle infotainment (IVI) head unit and provided annotated pictures of the main PCB. In this post, we aim to outline the attack surface of the DNR1007XR in the hopes of providing inspiration for vulnerability research.\nWe will cover the main supported technologies that present potential attack surfaces, such as USB, Bluetooth, Android Auto, Apple CarPlay, Kenwood apps, and more.\nAll information has been obtained through reverse engineering, experimenting, and combing through the following resources:\n·      DNR1007XR product page\n·      DNR1007XR instruction manual\n·      DNR1007XR quick start guide\n·      Kenwood Portal app\n·      Kenwood Remote S app\nUSB\nThe DNR1007XR is equipped with a single USB-A port …",
+          "link": "https://www.thezdi.com/blog/2026/1/8/breaking-down-the-attack-surface-of-the-kenwood-dnr1007xr-part-two",
+          "publishedOn": "2026-01-09T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Breaking Down the Attack Surface of the Kenwood DNR1007XR – Part Two",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:695db0a46cf7980da541b102",
           "author": "Connor Ford",
@@ -13848,26 +13839,6 @@
           "wordCount": 2044,
           "title": "Public Report: Google Private AI Compute Review",
           "imageUrl": null
-        },
-        {
-          "id": "0cc38e9f-2303-43b8-9c8c-c74bb9dfba8d",
-          "author": null,
-          "description": "State of the Art of Private Key Security in Blockchain Ops - 2. Common\nCustody Solutions Architectures",
-          "link": "https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-2-common-custody-solutions-architectures/",
-          "publishedOn": "2025-12-11T00:58:02.787Z",
-          "wordCount": 3591,
-          "title": "State of the Art of Private Key Security in Blockchain Ops - 2. Common Custody Solutions Architectures",
-          "imageUrl": null
-        },
-        {
-          "id": "6a026c13-75f4-4914-a1a1-57c15424c3e3",
-          "author": null,
-          "description": "Legacy Technology in Transport: More Than “Old Tech”",
-          "link": "https://www.nccgroup.com/research-blog/legacy-technology-in-transport-more-than-old-tech/",
-          "publishedOn": "2025-12-11T00:57:55.855Z",
-          "wordCount": 1955,
-          "title": "Legacy Technology in Transport: More Than “Old Tech”",
-          "imageUrl": null
         }
       ]
     },
@@ -13980,16 +13951,6 @@
           "wordCount": 1342,
           "title": "Catching malicious package releases using a transparency log",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
-          "author": null,
-          "description": "In 2023 GitHub introduced CodeQL multi-repository variant analysis (MRVA). This functionality lets you run queries across thousands of projects using pre-built databases and drastically reduces the time needed to find security bugs at scale. There’s just one problem: it’s largely built on VS Code and I’m a Vim user and a terminal junkie. That’s why I built mrva, a composable, terminal-first alternative that runs entirely on your machine and outputs results wherever stdout leads you.\nIn this post I will cover installing and using mrva, compare its feature set to GitHub’s MRVA functionality, and discuss a few interesting implementation details I discovered while working on it. Here is a quick example of what you’ll see at the end of your mrva journey:\nFigure 1: Pretty-printing CodeQL SARIF r…",
-          "link": "https://blog.trailofbits.com/2025/12/11/introducing-mrva-a-terminal-first-approach-to-codeql-multi-repo-variant-analysis/",
-          "publishedOn": "2025-12-11T12:00:00.000Z",
-          "wordCount": 1989,
-          "title": "Introducing mrva, a terminal-first approach to CodeQL multi-repo variant analysis",
-          "imageUrl": "https://blog.trailofbits.com/content/2025/introducing-mrva/introducing-mrva-image.png"
         }
       ]
     },
@@ -14081,6 +14042,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1604298",
+          "author": "IT Experts",
+          "description": "Microsoft Copilot Studio is a low-code platform that lets you build, customize, and manage AI agents without extensive programming knowledge. The platform provides a graphical interface for creating intelligent agents in natural language that handle conversations and automate tasks across Microsoft Teams, Microsoft 365 Copilot, websites, mobile apps, and third-party platforms such as Facebook or Slack. To ground agents, you can integrate your organization's data sources. Recent updates have introduced enhanced AI models, improved authoring experiences, and new governance capabilities, making the platform more accessible and secure.\nSource",
+          "link": "https://4sysops.com/archives/what-is-microsoft-copilot-studio-automate-with-natural-language-in-microsoft-365-and-microsoft-teams/",
+          "publishedOn": "2026-01-09T16:41:11.000Z",
+          "wordCount": null,
+          "title": "What is Microsoft Copilot Studio? Automate with natural language in Microsoft 365 and Microsoft Teams",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1604652",
           "author": "IT Experts",
@@ -14482,6 +14453,16 @@
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=43400",
+          "author": "Alex Wallace",
+          "description": "Managing vulnerability reports is difficult for an organisation.  In an ideal world, something like this happens:  Everyone is happy.  In practice, things are rarely this smooth.  From the organisation’s perspective: From the perspective of the researcher:  In these situations, no-one wins  AI output vs signal  Perhaps the biggest challenge is resourcing the vulnerability disclosure program team to deal […]\nThe post AI noise and the effect it’s having on vulnerability disclosure programs  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/ai-noise-and-the-effect-its-having-on-vulnerability-disclosure-programs/",
+          "publishedOn": "2026-01-09T10:19:00.000Z",
+          "wordCount": 1785,
+          "title": "AI noise and the effect it’s having on vulnerability disclosure programs",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/01/AI-VDP-HeadlineV3.png"
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=43360",
           "author": "Alex Wallace",
           "description": "TL;DR  Introduction Infostealers are not new malware. They have been around for decades. What has changed is how effective they have become, and how easily they blend into normal user behaviour.  In 2025, infostealers became the fastest growing malware category, overtaking ransomware in terms of deployment and spread. The H1 2025 reports highlighted a sharp rise in simple […]\nThe post 2025, the year of the Infostealer  appeared first on Pen Test Partners.",
@@ -14610,21 +14591,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/12/LLMs-Ransomware.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=135693",
-          "author": "Dakota Cary",
-          "description": "Read how two Cisco Network Academy Cup winners went from students to operators behind Salt Typhoon, a global cyber espionage campaign targeting telecoms.",
-          "link": "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/",
-          "publishedOn": "2025-12-10T16:55:08.000Z",
-          "wordCount": 8113,
-          "title": "Malicious Apprentice | How Two Hackers Went From Cisco Academy to Cisco CVEs",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2025/12/Malicious-Apprentice-6.jpg",
-            "length": "560083",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2025/12/Malicious-Apprentice-6.jpg"
         }
       ]
     },
@@ -14633,6 +14599,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=24008",
+          "author": "Dominik Holzapfel",
+          "description": "Every three to four years, OWASP releases a new version of arguably its most famous project, the “OWASP Top Ten”. Originally started in 2003, this list serves as an awareness document to highlight the 10 most prevalent issues for web applications. The newest release marks the eighth iteration and has once again undergone a few … Continue reading OWASP Top 10 2025 – A Pentester’s Perspective →",
+          "link": "https://blog.nviso.eu/2026/01/09/owasp-top-10-2025-a-pentesters-perspective/",
+          "publishedOn": "2026-01-09T08:28:03.000Z",
+          "wordCount": 4792,
+          "title": "OWASP Top 10 2025 – A Pentester’s Perspective",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/01/OWASP_top10_2025_webinar_V2.jpg"
+        },
         {
           "id": "https://blog.nviso.eu/?p=23828",
           "author": "Alexandros Georgopoulos",
@@ -14652,16 +14628,6 @@
           "wordCount": 3862,
           "title": "The Detection & Response Chronicles: Exploring Telegram Abuse",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/12/DRC_Exploring_Telegram_Abuse_blog_image.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=23712",
-          "author": "Tryfon Skandamis",
-          "description": "A Security Operations Center (SOC) watches an organization’s IT systems for cyber threats 24/7. It quickly finds and fixes security problems and uses Security Information and Event Management (SIEM) tools to collect and analyze alerts and logs. SIEMs depend on log Collectors servers, which gather data from many sources and send it to the SIEM. … Continue reading Managing SIEM Log Collectors at Scale with Ansible and GitHub Actions – Part 1 →",
-          "link": "https://blog.nviso.eu/2025/12/11/managing-siem-log-collectors-at-scale-with-ansible-and-github-actions-part-1/",
-          "publishedOn": "2025-12-11T08:39:13.000Z",
-          "wordCount": 3419,
-          "title": "Managing SIEM Log Collectors at Scale with Ansible and GitHub Actions – Part 1",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/12/Managing_SIEM_logs_blog_TS.jpg"
         }
       ]
     },
@@ -14709,16 +14675,6 @@
           "wordCount": 2801,
           "title": "MITRE AADAPT Framework as a Red Team Roadmap",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_MITRE-AADAPT-Framework-blog.png?mtime=1764629047"
-        },
-        {
-          "id": "https://bishopfox.com/blog/hacker-holiday-gift-guide-2025-edition",
-          "author": null,
-          "description": "Shopping for a hacker? Skip the gimmicks. Here are the tools, training, and books they actually want: Flipper Zero, Proxmark3, Shodan, HTB, and must-read vuln research picks, perfect for deal-season lab upgrades.",
-          "link": "https://bishopfox.com/blog/hacker-holiday-gift-guide-2025-edition",
-          "publishedOn": "2025-12-10T14:00:00.000Z",
-          "wordCount": 2363,
-          "title": "A Hacker Holiday Gift Guide: 2025 Edition",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Blog-Hacker-Holiday-Gift-Guide-2025.png?mtime=1765378022"
         }
       ]
     },
@@ -14818,16 +14774,6 @@
           "wordCount": 2490,
           "title": "Do Smart People Ever Say They’re Smart? (SmarterTools SmarterMail Pre-Auth RCE CVE-2025-52691)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/01/Group-8730--31-.png"
-        },
-        {
-          "id": "69322f43e0507f0001d93241",
-          "author": "Piotr Bazydlo (@chudyPB)",
-          "description": "Welcome back! As we near the end of 2025, we are, of course, waiting for the next round of SSLVPN exploitation to occur in January (as it did in 2024 and 2025).\nWeeeeeeeee. Before then, we want to clear the decks and see how much research we can publish.\nThis",
-          "link": "https://labs.watchtowr.com/soapwn-pwning-net-framework-applications-through-http-client-proxies-and-wsdl/",
-          "publishedOn": "2025-12-10T17:00:56.000Z",
-          "wordCount": 5169,
-          "title": "SOAPwn: Pwning .NET Framework Applications Through HTTP Client Proxies And WSDL",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2025/12/Group-8730--30-.png"
         }
       ]
     },
