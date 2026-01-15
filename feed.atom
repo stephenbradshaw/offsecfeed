@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-14T01:02:05.412Z</updated>
+    <updated>2026-01-15T00:58:27.963Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Wait, Why is my WebClient Started?: SCCM Hierarchy Takeover via NTLM Relay to LDAP]]></title>
+        <id>https://specterops.io/?p=20926</id>
+        <link href="https://specterops.io/blog/2026/01/14/wait-why-is-my-webclient-started-sccm-hierarchy-takeover-via-ntlm-relay-to-ldap/"/>
+        <updated>2026-01-14T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR – During automatic client push installation, an SCCM site server automatically attempts to map WebDav shares on clients, starting WebClient when installed. This allows an adversary to coerce both high-privilege siteserver machine account NTLM authentication and client push installation account HTTP NTLM authentication and perform an NTLM relay to LDAP for SCCM or (sometimes) […]
+The post Wait, Why is my WebClient Started?: SCCM Hierarchy Takeover via NTLM Relay to LDAP appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Logan Goins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LABScon25 Replay | Hacktivism and War: A Clarifying Discussion]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=136756</id>
+        <link href="https://www.sentinelone.com/labs/labscon25-replay-hacktivism-and-war-a-clarifying-discussion/"/>
+        <updated>2026-01-14T14:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Jim Walter unpacks the hacktivist landscape and reveals how to distinguish different levels of threat based on persona characteristics.]]></summary>
+        <author>
+            <name>LABScon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft 365 admin center will block accounts without  MFA in February]]></title>
+        <id>https://4sysops.com/?p=1604854</id>
+        <link href="https://4sysops.com/archives/microsoft-365-admin-center-will-block-accounts-without-mfa-in-february/"/>
+        <updated>2026-01-14T11:32:51.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft will enforce multi-factor authentication (MFA) for all users signing in to the Microsoft 365 admin center starting February 9, 2026. This critical security measure aims to prevent unauthorized access to administrative accounts that manage tenant configurations, user provisioning, and compliance settings.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Public Report: AWS EKS Security Claims]]></title>
         <id>52639df7-25a4-45aa-b98f-03e7d00e6ef3</id>
@@ -12936,133 +12968,6 @@ Source]]></summary>
 Storage and Signing Module]]></summary>
         <author>
             <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use GWP-ASan to detect exploits in production environments]]></title>
-        <id>https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/</id>
-        <link href="https://blog.trailofbits.com/2025/12/16/use-gwp-asan-to-detect-exploits-in-production-environments/"/>
-        <updated>2025-12-16T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Memory safety bugs like use-after-free and buffer overflows remain among the most exploited vulnerability classes in production software. While AddressSanitizer (ASan) excels at catching these bugs during development, its performance overhead (2 to 4 times) and security concerns make it unsuitable for production. What if you could detect many of the same critical bugs in live systems with virtually no performance impact?
-GWP-ASan (GWP-ASan Will Provide Allocation SANity) addresses this gap by using a sampling-based approach. By instrumenting only a fraction of memory allocations, it can detect double-free, use-after-free, and heap-buffer-overflow errors in production at scale while maintaining near-native performance.
-In this post, we’ll explain how allocation sanitizers like GWP-ASan work…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UserLock 13.0: IAM for Active Directory with granular MFA, contextual access controls, and real-time session management]]></title>
-        <id>https://4sysops.com/?p=1603581</id>
-        <link href="https://4sysops.com/archives/userlock-130-iam-for-active-directory-with-granular-mfa-contextual-access-controls-and-real-time-session-management/"/>
-        <updated>2025-12-16T11:14:24.000Z</updated>
-        <summary type="html"><![CDATA[IS Decisions’ UserLock is an identity-and-access-management (IAM) tool that adds multi-factor authentication (MFA), contextual access controls, session management, and login auditing to on-premises (or hybrid) Microsoft Active Directory environments to secure and manage all user access. UserLock 13.0 introduces a redesigned interface and strengthened security features for Active Directory environments. The release focuses on simplified navigation, certificate-based authentication, and improved remote access management while maintaining the solution's core identity and access management capabilities.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VS Code 1.107 brings chat-integrated background agents and Agent HQ for multi-agent orchestration]]></title>
-        <id>https://4sysops.com/?p=1603777</id>
-        <link href="https://4sysops.com/archives/vs-code-1107-brings-chat-integrated-background-agents-and-agent-hq-for-multi-agent-orchestration/"/>
-        <updated>2025-12-16T11:12:56.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft released Visual Studio Code version 1.107 with new features focused on Agent HQ, a multi-agent orchestration interface introduced in version 1.106. In version 1.107, background agents are promoted beyond pure CLI-based sessions: they run as named background tasks with isolated worktrees and richer context attachment, and appear as manageable sessions in the Agent HQ experience (the integrated Chat + sessions UI), rather than existing only as Copilot CLI or cloud sessions.
-Source]]></summary>
-        <author>
-            <name>Michael Pietroforte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canary build 28020.1362 explores Windows 11 26H1 new features: AI-Agent in Settings, Quick Machine Recovery changes, and more]]></title>
-        <id>https://4sysops.com/?p=1603907</id>
-        <link href="https://4sysops.com/archives/canary-build-280201362-explores-windows-11-26h1-new-features-ai-agent-in-settings-quick-machine-recovery-changes-and-more/"/>
-        <updated>2025-12-16T11:11:47.000Z</updated>
-        <summary type="html"><![CDATA[Some human bloggers hallucinated that the Canary build 28020.1362 was Windows 11 26H1. Although this build shows the version string, there is no guarantee that Windows 11 26H1 will include the features seen in the Canary build. This build introduces several new features, including an AI-powered Settings agent for Copilot+ PCs, a redesigned Advanced settings page that replaces the For Developers page, and enhanced Quick Machine Recovery performance. The release also expands File Explorer dark mode to more dialogs and system surfaces, and includes additional new features and refinements across device management, input, recovery, and core system experiences.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to the new Project Zero Blog]]></title>
-        <id>https://projectzero.google/2025/12/welcome.html</id>
-        <link href="https://projectzero.google/2025/12/welcome.html"/>
-        <updated>2025-12-16T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While on Project Zero, we aim for our research to be leading-edge, our blog design was … not so much. We welcome readers to our shiny new blog! For the occasion, we asked members of Project Zero to dust off old blog posts that never quite saw the light of day. And while we wish we could say the techniques they cover are no longer relevant, there is still a lot of work that needs to be done to protect users against zero days. Our new blog will continue to shine a light on the capabilities of attackers and the many opportunities that exist to protect against them. From 2016: Windows Exploitation Techniques: Race conditions with path lookups by James Forshaw From 2017: Thinking Outside The Box by Jann Horn]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Detection & Response Chronicles: Exploring Telegram Abuse]]></title>
-        <id>https://blog.nviso.eu/?p=23384</id>
-        <link href="https://blog.nviso.eu/2025/12/16/the-detection-response-chronicles-exploring-telegram-abuse/"/>
-        <updated>2025-12-16T09:05:04.000Z</updated>
-        <summary type="html"><![CDATA[Adversaries utilizing popular messaging apps throughout different attack phases is nothing new. Telegram, in particular, has constantly been the subject of abuse by multiple threat actors, favoured for its anonymity, accessibility, resilience, and operational advantages. In this blog, we explore popular Telegram Bot APIs, recent campaigns involving Telegram abuse, and provide detection and hunting opportunities.]]></summary>
-        <author>
-            <name>Efstratios Lontzetidis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thinking Outside The Box [dusted off draft from 2017]]]></title>
-        <id>https://projectzero.google/2025/12/thinking-outside-the-box.html</id>
-        <link href="https://projectzero.google/2025/12/thinking-outside-the-box.html"/>
-        <updated>2025-12-16T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Preface Hello from the future! This is a blogpost I originally drafted in early 2017. I wrote what I intended to be the first half of this post (about escaping from the VM to the VirtualBox host userspace process with CVE-2017-3558), but I never got around to writing the second half (going from the VirtualBox host userspace process to the host kernel), and eventually sorta forgot about this old post draft… But it seems a bit sad to just leave this old draft rotting around forever, so I decided to put it in our blogpost queue now, 8 years after I originally drafted it. I’ve very lightly edited it now (added some links, fixed some grammar), but it’s still almost as I drafted it back then. When you read this post, keep in mind that unless otherwise noted, it is describing the situation as of 2017. Though a lot of the described code seems to not have changed much since then…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Exploitation Techniques: Winning Race Conditions with Path Lookups]]></title>
-        <id>https://projectzero.google/2025/12/windows-exploitation-techniques.html</id>
-        <link href="https://projectzero.google/2025/12/windows-exploitation-techniques.html"/>
-        <updated>2025-12-16T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post was originally written in 2016 for the Project Zero blog. However, in the end it was published separately in the journal PoC||GTFO issue #13 as well as in the second volume of the printed version. In honor of our new blog we’re republishing it on this blog and included an updated analysis to see if it still works on a modern Windows 11 system. During my Windows research I tend to find quite a few race condition vulnerabilities. A fairly typical exploitable form look something like this: Do some security check Access some resource Perform secure action]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Symbols of Operation]]></title>
-        <id>b681c62e-41b9-42ef-a3eb-bd250341b515</id>
-        <link href="https://www.nccgroup.com/research-blog/the-symbols-of-operation/"/>
-        <updated>2025-12-16T00:57:50.381Z</updated>
-        <summary type="html"><![CDATA[The Symbols of Operation code data confusion ada lovelace]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLMs & Ransomware | An Operational Accelerator, Not a Revolution]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=136138</id>
-        <link href="https://www.sentinelone.com/labs/llms-ransomware-an-operational-accelerator-not-a-revolution/"/>
-        <updated>2025-12-15T14:00:15.000Z</updated>
-        <summary type="html"><![CDATA[LLMs make competent ransomware crews faster and novices more dangerous. The risk is not superintelligent malware, but rather industrialized extortion.]]></summary>
-        <author>
-            <name>Gabriel Bernadett-Shapiro, Jim Walter &amp; Alex Delamotte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New features in Microsoft Entra: WebView2, AI Agents ID, synced passkeys]]></title>
-        <id>https://4sysops.com/?p=1603878</id>
-        <link href="https://4sysops.com/archives/new-features-in-microsoft-entra-webview2-ai-agents-id-synced-passkeys/"/>
-        <updated>2025-12-15T13:49:19.000Z</updated>
-        <summary type="html"><![CDATA[Recent Microsoft Entra and Windows updates introduce multiple changes across authentication, identity management, and access control. The updates include an option to replace the legacy EdgeHTML WebView with the Chromium-based WebView2 for Entra ID authentication flows, improved identity constructs for AI agents, public preview support for synced passkeys, and expanded self-service account recovery. Additional changes cover jailbreak detection in Microsoft Authenticator, enforcement of a stricter Content Security Policy for browser-based sign-ins, updates to session revocation behavior, and new capabilities in Entra ID Governance, External ID, and Global Secure Access.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Self-service password reset with SMS in Microsoft Entra External ID]]></title>
-        <id>https://4sysops.com/?p=1603083</id>
-        <link href="https://4sysops.com/archives/self-service-password-reset-with-sms-in-microsoft-entra-external-id/"/>
-        <updated>2025-12-15T13:27:44.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Entra External ID now supports SMS-based verification for self-service password reset (SSPR), providing external users an additional recovery method beyond email one-time passcodes. The feature entered public preview in September 2025 and includes built-in fraud protection through integration with Microsoft's Phone Reputation platform.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>
