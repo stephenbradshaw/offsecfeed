@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-15T00:58:27.963Z</updated>
+    <updated>2026-01-16T01:00:44.215Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Symbols of Operation]]></title>
+        <id>b681c62e-41b9-42ef-a3eb-bd250341b515</id>
+        <link href="https://www.nccgroup.com/research-blog/the-symbols-of-operation/"/>
+        <updated>2026-01-16T01:00:04.137Z</updated>
+        <summary type="html"><![CDATA[The Symbols of Operation code data confusion ada lovelace]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MSSQL and SCCM Elevation of Privilege Vulnerabilities]]></title>
+        <id>https://specterops.io/?p=22979</id>
+        <link href="https://specterops.io/blog/2026/01/15/mssql-and-sccm-elevation-of-privilege-vulnerabilities/"/>
+        <updated>2026-01-15T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: I found two privilege escalation vulnerabilities, one in MSSQL (CVE-2025-49758) and one in Microsoft Configuration Manager (CVE-2025-47179), while mapping their permission models for inclusion in BloodHound, an open-source tool with Maps-style navigation and an interactive graph that helps users visualize and remediate attack paths. I learned a few things about submitting a good bug […]
+The post MSSQL and SCCM Elevation of Privilege Vulnerabilities appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Chris Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alternatives to the retired Microsoft Deployment Toolkit (MDT)]]></title>
+        <id>https://4sysops.com/?p=1604915</id>
+        <link href="https://4sysops.com/archives/alternatives-to-the-retired-microsoft-deployment-toolkit-mdt/"/>
+        <updated>2026-01-15T13:39:10.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announced the immediate retirement of Microsoft Deployment Toolkit (MDT) on January 6, 2026, marking the end of a tool that has served IT administrators for over 20 years. You will no longer receive updates, fixes, or support for MDT, and the download packages have been removed from official distribution channels. Find out about alternatives to the MDT and how administrators reacted to its retirement announcement.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minting Next.js Authentication Cookies]]></title>
+        <id>https://embracethered.com/blog/posts/2026/minting-next-auth-nextjs-auth-cookies-react2shell-threat/</id>
+        <link href="https://embracethered.com/blog/posts/2026/minting-next-auth-nextjs-auth-cookies-react2shell-threat/"/>
+        <updated>2026-01-15T06:58:58.000Z</updated>
+        <summary type="html"><![CDATA[In this post, we’ll look how an adversary can mint authentication cookies for Next.js (next-auth/Auth.js) applications to maintain persistent access to the application as any user.
+
+The reason this is important is because of React2Shell, which is a deserialization vulnerability that allows an adversary to run arbitrary code. Much has been discussed about this vulnerability, and you can read up the original details from the finder here.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]]></title>
+        <id>https://projectzero.google/2026/01/pixel-0-click-part-3.html</id>
+        <link href="https://projectzero.google/2026/01/pixel-0-click-part-3.html"/>
+        <updated>2026-01-14T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the Google Messages application. Incoming audio messages are transcribed before a user interacts with the message. On Pixel 9, a second process com.google.android.tts also decodes incoming audio. Its purpose is not completely clear, but it seems to be related to making incoming messages searchable.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]]></title>
+        <id>https://projectzero.google/2026/01/pixel-0-click-part-2.html</id>
+        <link href="https://projectzero.google/2026/01/pixel-0-click-part-2.html"/>
+        <updated>2026-01-14T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible from the mediacodec SELinux context. BigWave is hardware present on the Pixel SOC that accelerates AV1 decoding tasks, which explains why it is accessible from the mediacodec context. As previous research has copiously affirmed, Android drivers for hardware devices are prime places to find powerful local privilege escalation bugs. The BigWave driver was no exception - across a couple hours of auditing the code, I discovered three separate bugs, including one that was powerful enough to escape the mediacodec sandbox and get kernel arbitrary read/write on the Pixel 9.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]]></title>
+        <id>https://projectzero.google/2026/01/pixel-0-click-part-1.html</id>
+        <link href="https://projectzero.google/2026/01/pixel-0-click-part-1.html"/>
+        <updated>2026-01-14T17:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, audio decoders are now in the 0-click attack surface of most Android phones. I’ve spent a fair bit of time investigating these decoders, first reporting CVE-2025-49415 in the Monkey’s Audio codec on Samsung devices. Based on this research, the team reviewed the Dolby Unified Decoder, and Ivan Fratric and I reported CVE-2025-54957. This vulnerability is likely in the 0-click attack surface of most Android devices in use today. In parallel, Seth Jenkins investigated a driver accessible from the sandbox the decoder runs in on a Pixel 9, and reported CVE-2025-36934.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wait, Why is my WebClient Started?: SCCM Hierarchy Takeover via NTLM Relay to LDAP]]></title>
         <id>https://specterops.io/?p=20926</id>
@@ -12957,17 +13031,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[MITRE’s AADAPT framework exposes how attackers target digital-asset systems but the real value comes from testing those threats. Learn how red teaming turns AADAPT into evidence-driven detection, stronger controls, and measurable protection against economic loss.]]></summary>
         <author>
             <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 3. Private Key Storage and Signing Module]]></title>
-        <id>a870dfef-e5c2-4d36-b53f-c6f564be8285</id>
-        <link href="https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-3-private-key-storage-and-signing-module/"/>
-        <updated>2025-12-17T00:53:51.918Z</updated>
-        <summary type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 3. Private Key
-Storage and Signing Module]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
         </author>
     </entry>
     <entry>
