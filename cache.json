@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=23004",
+          "author": "Daniel Mayer",
+          "description": "TL;DR – Windows Subsystem for Linux (WSL) is a powerful way for attackers to hide from defenders, since WSL2 is a completely separate VM running in Hyper-V, and is rarely monitored in any way. I’ve had lots of success pivoting from heavily monitored Windows hosts into WSL2 and going hog wild on the host and […]\nThe post One WSL BOF to Rule Them All appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/01/16/one-wsl-bof-to-rule-them-all/",
+          "publishedOn": "2026-01-16T17:00:00.000Z",
+          "wordCount": 5824,
+          "title": "One WSL BOF to Rule Them All",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/01/image_4f4338.png"
+        },
+        {
           "id": "https://specterops.io/?p=22979",
           "author": "Chris Thompson",
           "description": "TL;DR: I found two privilege escalation vulnerabilities, one in MSSQL (CVE-2025-49758) and one in Microsoft Configuration Manager (CVE-2025-47179), while mapping their permission models for inclusion in BloodHound, an open-source tool with Maps-style navigation and an interactive graph that helps users visualize and remediate attack paths. I learned a few things about submitting a good bug […]\nThe post MSSQL and SCCM Elevation of Privilege Vulnerabilities appeared first on SpecterOps.",
@@ -57,7 +67,18 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "functional-pocs-in-less-than-a-minute",
+          "author": null,
+          "description": "Note: This is a guest post by pentester Julen Garrido Estévez (@b3xal). Methodology Key results Examples Key learnings Prompt template A pentester's POV on Burp AI Pentester Julen Garrido Es",
+          "link": "https://portswigger.net/blog/functional-pocs-in-less-than-a-minute",
+          "publishedOn": "2026-01-16T00:00:00.000Z",
+          "wordCount": 2533,
+          "title": "Functional PoCs in less than a minute? Julen Garrido Estévez puts Burp AI to the test",
+          "imageUrl": "https://portswigger.net/cms/images/89/f2/763c-twittercard-functional_pocs_-_blog_cover.png"
+        }
+      ]
     },
     {
       "title": "PortSwigger Research",
@@ -193,16 +214,6 @@
           "wordCount": 3267,
           "title": "Update: pecheck.py Version 0.7.19",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=10963",
-          "author": "Didier Stevens",
-          "description": "In blog post “Quickpost: USB Electric Razor” I mention USB trigger boards. A USB trigger board is a small electronic device that receives power via a USB-C connector, and delivers power with a voltage that it negotiates with the USB power source. This one for example is set to deliver 12V: Left you have the USB-C […]",
-          "link": "https://blog.didierstevens.com/2025/12/18/usb-trigger-boards/",
-          "publishedOn": "2025-12-18T00:00:00.000Z",
-          "wordCount": 3823,
-          "title": "USB Trigger Boards",
-          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2025/12/20251217-165952.png"
         }
       ]
     },
@@ -381,6 +392,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "a870dfef-e5c2-4d36-b53f-c6f564be8285",
+          "author": null,
+          "description": "State of the Art of Private Key Security in Blockchain Ops - 3. Private Key\nStorage and Signing Module",
+          "link": "https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-3-private-key-storage-and-signing-module/",
+          "publishedOn": "2026-01-17T00:57:07.827Z",
+          "wordCount": 3689,
+          "title": "State of the Art of Private Key Security in Blockchain Ops - 3. Private Key Storage and Signing Module",
+          "imageUrl": null
+        },
         {
           "id": "b681c62e-41b9-42ef-a3eb-bd250341b515",
           "author": null,
@@ -14054,6 +14075,26 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1604903",
+          "author": "IT Experts",
+          "description": "Microsoft has started automatically updating Secure Boot certificates on eligible Windows 11 systems with the January 2026 security update. The update replaces certificates that are set to expire in June and October 2026, ensuring devices maintain boot security and continue receiving critical updates. Learn what admins need to know.\nSource",
+          "link": "https://4sysops.com/archives/windows-secure-boot-certificates-expire-in-2026/",
+          "publishedOn": "2026-01-16T12:11:44.000Z",
+          "wordCount": null,
+          "title": "Windows Secure Boot certificates expire in 2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1604333",
+          "author": "IT Experts",
+          "description": "Microsoft has launched a native migration orchestrator in public preview that enables you to move user data between Microsoft 365 tenants during mergers, acquisitions, divestitures, and organizational restructurings. This cloud-based solution consolidates Exchange mailboxes, OneDrive files, and Teams chats and meetings into a single migration workflow, eliminating the need for multiple third-party tools and reducing administrative complexity.\nSource",
+          "link": "https://4sysops.com/archives/move-microsoft-365-users-from-tenant-to-tenant-with-migration-orchestrator/",
+          "publishedOn": "2026-01-16T11:00:02.000Z",
+          "wordCount": null,
+          "title": "Move Microsoft 365 users from tenant to tenant with migration orchestrator",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1604915",
           "author": "IT Experts",
           "description": "Microsoft announced the immediate retirement of Microsoft Deployment Toolkit (MDT) on January 6, 2026, marking the end of a tool that has served IT administrators for over 20 years. You will no longer receive updates, fixes, or support for MDT, and the download packages have been removed from official distribution channels. Find out about alternatives to the MDT and how administrators reacted to its retirement announcement.\nSource",
@@ -14312,46 +14353,6 @@
           "wordCount": null,
           "title": "Exchange Online to block legacy ActiveSync clients in 2026",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1603285",
-          "author": "IT Experts",
-          "description": "Microsoft is enforcing stricter Content Security Policy (CSP) for Entra ID authentication, blocking unauthorized scripts from executing during sign-in. Organizations using browser extensions or third-party tools that inject scripts into login.microsoftonline.com must identify and replace these tools before enforcement, as they will stop functioning while users can still sign in successfully.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-to-block-unauthorized-scripts-in-entra-id-logins-with-2026-csp-update/",
-          "publishedOn": "2025-12-18T11:45:56.000Z",
-          "wordCount": null,
-          "title": "Microsoft to block unauthorized scripts in Entra ID logins with 2026 CSP update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1603078",
-          "author": "IT Experts",
-          "description": "Microsoft has introduced Windows 365 AI-enabled Cloud PCs, a new cloud-based computing solution that delivers AI-powered Windows experiences to any device. This offering differs significantly from Copilot+ PCs, which are physical computers with specialized AI hardware. This article compares the technical specifications, requirements, and capabilities of both platforms.\nSource",
-          "link": "https://4sysops.com/archives/windows-365-ai-enabled-cloud-pc-vs-copilot-pc/",
-          "publishedOn": "2025-12-18T11:43:32.000Z",
-          "wordCount": null,
-          "title": "Windows 365 AI-enabled Cloud PC vs. Copilot+ PC",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1603938",
-          "author": "IT Experts",
-          "description": "Microsoft has released native Non-Volatile Memory Express (NVMe) support for Windows Server 2025, delivering performance improvements of up to 80 percent in IOPS and delivering a 45 percent savings in CPU cycles per I/O compared to Windows Server 2022.\nSource",
-          "link": "https://4sysops.com/archives/windows-server-2025-introduces-native-nvme-support-with-performance-gains-of-up-to-80-percent/",
-          "publishedOn": "2025-12-17T15:10:01.000Z",
-          "wordCount": null,
-          "title": "Windows Server 2025 introduces native NVMe support with performance gains of up to 80 percent",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1603676",
-          "author": "IT Experts",
-          "description": "Microsoft has clarified the key differences between its one-time purchase Office 2024 and the subscription-based Microsoft 365 suite in an official support document. The comparison helps users understand the trade-offs between a single upfront payment for static software and ongoing subscription fees for continuously updated services.\nSource",
-          "link": "https://4sysops.com/archives/difference-between-office-2024-and-microsoft-365/",
-          "publishedOn": "2025-12-17T15:06:17.000Z",
-          "wordCount": null,
-          "title": "Difference between Office 2024 and Microsoft 365",
-          "imageUrl": null
         }
       ]
     },
@@ -14423,6 +14424,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=43442",
+          "author": "Alex Wallace",
+          "description": "TL;DR  The exhibition  My Wife and I visited the Carlsberg exhibition in Copenhagen in August 2025 and we were given wristbands with a QR code on them. As we went through the exhibition, there were various interactive elements where you could create your own blend of beer, create a video of you dancing in a beer glass, and […]\nThe post Carlsberg… probably not the best cybersecurity in the world appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/carlsberg-probably-not-the-best-cybersecurity-in-the-world/",
+          "publishedOn": "2026-01-16T11:00:36.000Z",
+          "wordCount": 2410,
+          "title": "Carlsberg… probably not the best cybersecurity in the world",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/01/Not-the-best-headlinev2.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=43422",
           "author": "Alex Wallace",
@@ -14614,16 +14625,6 @@
           "wordCount": 4792,
           "title": "OWASP Top 10 2025 – A Pentester’s Perspective",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/01/OWASP_top10_2025_webinar_V2.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=23828",
-          "author": "Alexandros Georgopoulos",
-          "description": "Introduction In many penetration testing assessments, it is common to encounter applications that support multiple user roles, such as admin, normal user, approver, and others. Consequently, testers are often provided with accounts and credentials for various roles during a grey-box assessment. During a penetration test, the focus is often on identifying technical vulnerabilities such as … Continue reading Integrating Abuse Case Scenarios to Improve Authorization Testing →",
-          "link": "https://blog.nviso.eu/2025/12/18/integrating-abuse-case-scenarios-to-improve-authorization-testing/",
-          "publishedOn": "2025-12-18T09:01:30.000Z",
-          "wordCount": 5797,
-          "title": "Integrating Abuse Case Scenarios to Improve Authorization Testing",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2025/12/Blog_Post_Image.jpg"
         }
       ]
     },
@@ -14671,16 +14672,6 @@
           "wordCount": 1837,
           "title": "Bishop Fox Wrapped: Research Worth Replaying",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Bishop-Fox-Wrapped_Blog.png?mtime=1766529984"
-        },
-        {
-          "id": "https://bishopfox.com/blog/mitre-aadapt-framework-as-a-red-team-roadmap",
-          "author": null,
-          "description": "MITRE’s AADAPT framework exposes how attackers target digital-asset systems but the real value comes from testing those threats. Learn how red teaming turns AADAPT into evidence-driven detection, stronger controls, and measurable protection against economic loss.",
-          "link": "https://bishopfox.com/blog/mitre-aadapt-framework-as-a-red-team-roadmap",
-          "publishedOn": "2025-12-17T14:00:00.000Z",
-          "wordCount": 2801,
-          "title": "MITRE AADAPT Framework as a Red Team Roadmap",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_MITRE-AADAPT-Framework-blog.png?mtime=1764629047"
         }
       ]
     },
