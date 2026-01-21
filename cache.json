@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=23017",
+          "author": "Chris Thompson",
+          "description": "tl;dr: MSSQLHound, a PowerShell script that collects security information from remote MSSQL Server instances, now scans them to determine whether or not NTLM relay attacks are possible, accounts for a recent privilege escalation vulnerability, and includes queries you can import into the BloodHound attack path graph to visualize, navigate, and remediate misconfigurations in MSSQL. Updates […]\nThe post Updates to the MSSQLHound OpenGraph Collector for BloodHound appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/01/20/updates-to-the-mssqlhound-opengraph-collector-for-bloodhound/",
+          "publishedOn": "2026-01-20T17:00:00.000Z",
+          "wordCount": 4432,
+          "title": "Updates to the MSSQLHound OpenGraph Collector for BloodHound",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/01/Screenshot-2026-01-15-at-11.33.16-AM.png"
+        },
+        {
           "id": "https://specterops.io/?p=23004",
           "author": "Daniel Mayer",
           "description": "TL;DR – Windows Subsystem for Linux (WSL) is a powerful way for attackers to hide from defenders, since WSL2 is a completely separate VM running in Hyper-V, and is rarely monitored in any way. I’ve had lots of success pivoting from heavily monitored Windows hosts into WSL2 and going hog wild on the host and […]\nThe post One WSL BOF to Rule Them All appeared first on SpecterOps.",
@@ -318,6 +328,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:696c7566cc72a54f2744b9e8",
+          "author": "Dustin Childs",
+          "description": "おかえりなさい (Welcome back!) The third annual Pwn2Own Automotive competition has returned to Automotive World in Tokyo, and the excitement is building. This year marks a major milestone for Pwn2Own, with a record 73 entries. We’ve brought together some of the world’s most talented security researchers to take on the latest automotive components, pushing them to their limits in a real-world testing environment.\nEarlier today, we held the random drawing to determine the order of attempts, setting the stage for an exciting lineup of demonstrations and discoveries. Below is the official schedule based on that draw. All times are listed in Tokyo local time and may change as the competition progresses - updates will be posted as the event unfolds.\nIn case you missed it, you can watch the draw here. \n…",
+          "link": "https://www.thezdi.com/blog/2026/1/20/pwn2own-automotive-2026-the-full-schedule",
+          "publishedOn": "2026-01-20T10:25:51.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Automotive 2026 - The Full Schedule",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69668ea6abbeed6e1b16025a",
           "author": "Dustin Childs",
           "description": "I may be in Tokyo preparing for Pwn2Own Automotive, but that doesn’t stop patch Tuesday from coming. Put aside you broken New Year’s resolutions for just a moment as we review the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check out the Patch Report webcast on our YouTube channel. It should be posted within a couple of hours after the release.\nAdobe Patches for January 2026\nFor January, Adobe released 11 bulletins addressing 25 unique CVEs in Adobe Dreamweaver, InDesign, Illustrator, InCopy, Bridge, Substance 3D Modeler, Substance 3D Stager, Substance 3D Painter, Substance 3D Sampler, Substance 3D Designer, and ColdFusion. The patch for ColdFusion fixes a single code execution bug, but the update is list…",
@@ -392,6 +413,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "413e3ca1-eead-47c1-9b7b-b6fc54638306",
+          "author": null,
+          "description": "",
+          "link": "https://www.nccgroup.com/research-blog/a-look-at-rtems-security/",
+          "publishedOn": "2026-01-21T01:00:46.919Z",
+          "wordCount": 1935,
+          "title": "A Look at RTEMS Security",
+          "imageUrl": null
+        },
         {
           "id": "d443284b-8788-4599-b228-70a423cab6f8",
           "author": null,
@@ -14066,6 +14097,26 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1604549",
+          "author": "IT Experts",
+          "description": "Microsoft announces the general availability of the Azure Test Run Hub, which delivers a new interface for managing test execution in Azure DevOps Test Plans.\nSource",
+          "link": "https://4sysops.com/archives/what-is-azure-test-run-hub/",
+          "publishedOn": "2026-01-20T17:10:26.000Z",
+          "wordCount": null,
+          "title": "What is Azure Test Run Hub",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1605050",
+          "author": "IT Experts",
+          "description": "Microsoft has initiated a critical security hardening phase for Windows Active Directory domain controllers to address CVE-2026-20833, a Kerberos vulnerability that enables Kerberoasting attacks by allowing attackers to exploit weak RC4 encryption. The January 2026 security updates mark the beginning of a phased transition that will disable RC4 encryption by default and enforce AES-SHA1 as the standard encryption method for Kerberos authentication.\nSource",
+          "link": "https://4sysops.com/archives/disable-weak-rc4-encryption-on-active-directory-domain-controllers-to-prevent-kerberoasting-attacks-exploiting-kerberos-vulnerability-cve-2026-20833/",
+          "publishedOn": "2026-01-20T16:59:28.000Z",
+          "wordCount": null,
+          "title": "Disable weak RC4 encryption on Active Directory domain controllers to prevent Kerberoasting attacks exploiting Kerberos vulnerability CVE-2026-20833",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1605034",
           "author": "IT Experts",
           "description": "Microsoft released Windows 11 Insider Preview Build 26220.7653 (KB5074157) to the Beta Channel on January 16, 2026. This update introduces modernized user interface elements with dark mode support, enhanced desktop background options, and multiple performance fixes. The build is based on Windows 11 version 25H2 and includes changes that are gradually rolling out to Insiders who enable the toggle for the latest updates in Settings > Windows Update.\nSource",
@@ -14454,16 +14505,6 @@
           "wordCount": 3086,
           "title": "2025, the year of the Infostealer",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/01/Joe-infostealers-headline-v6.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=43317",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Introduction  I first encountered the chatbot as a normal Eurostar customer while planning a trip. When it opened, it clearly told me that “the answers in this chatbot are generated by AI”, which is good disclosure but immediately raised my curiosity about how it worked and what its limits were. Eurostar publishes a […]\nThe post Eurostar AI vulnerability: when a chatbot goes off the rails appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/eurostar-ai-vulnerability-when-a-chatbot-goes-off-the-rails/",
-          "publishedOn": "2025-12-22T07:14:16.000Z",
-          "wordCount": 4427,
-          "title": "Eurostar AI vulnerability: when a chatbot goes off the rails",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/12/Ross-Ai-eurostar-headlinev3-1024x576.png"
         }
       ]
     },
@@ -14570,6 +14611,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=136810",
+          "author": "Gabriel Bernadett-Shapiro &amp; Edir Garcia Lazo",
+          "description": "LLM cybersecurity benchmarks fail to measure what defenders need: faster detection, reduced containment time, and better decisions under pressure.",
+          "link": "https://www.sentinelone.com/labs/llms-in-the-soc-part-1-why-benchmarks-fail-security-operations-teams/",
+          "publishedOn": "2026-01-20T14:00:09.000Z",
+          "wordCount": 10188,
+          "title": "LLMs in the SOC (Part 1) | Why Benchmarks Fail Security Operations Teams",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/01/AI_Benchmarks_ftr.jpg",
+            "length": "383808",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/01/AI_Benchmarks_ftr.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=136756",
           "author": "LABScon",
