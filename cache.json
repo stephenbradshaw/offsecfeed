@@ -123,6 +123,16 @@
       "siteUrl": "https://projectzero.google/",
       "articles": [
         {
+          "id": "https://projectzero.google/2026/26/windows-administrator-protection.html",
+          "author": null,
+          "description": "A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC. I’ll then describe some of the security research I undertook while it was in the insider preview builds on Windows 11. Finally I’ll detail one of the nine separate vulnerabilities that I found to bypass the feature to silently gain full administrator privileges. All the issues that I reported to Microsoft have been fixed, either prior to the feature being officially released (in optional update KB5067036) or as subsequent security bulletins. Note: As of 1st December 2025 the Administrator Protection feature has been disabled by Microsoft while an application compatibility issue is dealt with. The issue is unlikely to be related to anything described in this blog post so the analysis doesn’t change.",
+          "link": "https://projectzero.google/2026/26/windows-administrator-protection.html",
+          "publishedOn": "2026-01-26T08:00:00.000Z",
+          "wordCount": 4601,
+          "title": "Bypassing Windows Administrator Protection",
+          "imageUrl": null
+        },
+        {
           "id": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
           "author": null,
           "description": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the Google Messages application. Incoming audio messages are transcribed before a user interacts with the message. On Pixel 9, a second process com.google.android.tts also decodes incoming audio. Its purpose is not completely clear, but it seems to be related to making incoming messages searchable.",
@@ -13936,16 +13946,6 @@
           "wordCount": 1993,
           "title": "Adventures in EM Side-channel Attacks",
           "imageUrl": null
-        },
-        {
-          "id": "08a43b7a-88c9-4919-a224-c039bdf02c6b",
-          "author": null,
-          "description": "Explore how hardcoded SSH host keys in Tandberg Video Communication Server could expose systems to impersonation and MITM attacks.",
-          "link": "https://www.nccgroup.com/research-blog/tandberg-video-communication-server-static-ssh-host-keysn/",
-          "publishedOn": "2025-12-28T01:04:58.581Z",
-          "wordCount": 2597,
-          "title": "TANDBERG Video Communication Server Static SSH Host KeysN",
-          "imageUrl": null
         }
       ]
     },
@@ -13954,6 +13954,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=7826",
+          "author": "Justin Copeland",
+          "description": "Eventually after you write a tool, the time comes to make it public. That time has come for Swarmer, a tool for stealthy modification of the Windows Registry as a low privilege user. It’s been almost a year since we first deployed this technique in the wild, and given enough time has passed, it seems appropriate […]\nThe post Corrupting the Hive Mind: Persistence Through Forgotten Windows Internals appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/corrupting-the-hive-mind-persistence-through-forgotten-windows-internals/",
+          "publishedOn": "2026-01-26T20:35:16.000Z",
+          "wordCount": 3375,
+          "title": "Corrupting the Hive Mind: Persistence Through Forgotten Windows Internals",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/01/Hive-Mind-Hero.png"
+        },
         {
           "id": "https://www.praetorian.com/?p=7544",
           "author": "Justin Copeland",
@@ -14181,6 +14191,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1605219",
+          "author": "IT Experts",
+          "description": "Microsoft is disabling hands-free WDS deployments that use unattend.xml answer files due to security concerns (CVE-2026-0386), with the feature first warning after January 2026 updates and then being turned off by default from April 2026. However, it can still be re‑enabled via a registry key, and alternative WinPE-based methods remain supported for Windows 11 deployments.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-discontinues-support-for-answer-files-unattendxml-in-windows-deployment-services-wds-reasons-and-alternatives/",
+          "publishedOn": "2026-01-26T13:26:28.000Z",
+          "wordCount": null,
+          "title": "Microsoft discontinues support for answer files (unattend.xml) in Windows Deployment Services (WDS): Reasons and alternatives",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1605145",
           "author": "IT Experts",
@@ -14937,18 +14957,7 @@
       "title": "Sud0Ru",
       "feedUrl": "https://sud0ru.ghost.io/rss/",
       "siteUrl": "https://sud0ru.ghost.io/",
-      "articles": [
-        {
-          "id": "694e70fb90ff48000149d0a8",
-          "author": "Sud0Ru",
-          "description": "Introduction \nI suppose most of you have watched Tom Hanks’ masterpiece “The Terminal”, the movie about a man inspired by Mehran Karimi Nasseri, an Iranian refugee who lived in Charles de Gaulle Airport in Paris from 1988 to 2006—almost 18 years.\nTom Hanks plays the",
-          "link": "https://sud0ru.ghost.io/termainl-2/",
-          "publishedOn": "2025-12-27T16:15:50.000Z",
-          "wordCount": 1927,
-          "title": "Terminal 2: My Own Version of “The Terminal”",
-          "imageUrl": "https://sud0ru.ghost.io/content/images/2025/12/ChatGPT-Image-Dec-27--2025--07_04_06-PM-1.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "ZephrSec - Adventures In Information Security",
