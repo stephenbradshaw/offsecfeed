@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=23201",
+          "author": "Sev Kocharian",
+          "description": "TL;DR : BloodHound Enterprise on-premises brings enterprise-grade identity attack path management to air-gapped, classified, and highly regulated environments. It uses the same engine as our SaaS solution while keeping all identity data within your security boundary. Cloud adoption has transformed how organizations deploy and scale security tools. For many use cases, SaaS delivers speed, simplicity, […]\nThe post Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/01/29/why-on-premises-apm-matters-in-a-cloud-world/",
+          "publishedOn": "2026-01-29T17:00:00.000Z",
+          "wordCount": 4005,
+          "title": "Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/01/SpectorOps_ZoomBackground_A1.png"
+        },
+        {
           "id": "https://specterops.io/?p=23210",
           "author": "John Wotton",
           "description": "TL;DR : Social engineering engagements are the most exciting and heart pumping, “in my opinion”. It doesn’t begin at the badge reader or the front desk. The access occurs when someone makes a decision. The cameras work. The badges work. The locks work. Failure happens when an employee makes a decision: “Does this person belong […]\nThe post Hacking Humans: Social Engineering and the Psychology appeared first on SpecterOps.",
@@ -487,6 +497,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "9120d3d9-3398-4dfa-a0e1-59f3efde5fd2",
+          "author": null,
+          "description": "",
+          "link": "https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/",
+          "publishedOn": "2026-01-30T01:08:26.368Z",
+          "wordCount": 2023,
+          "title": "Public Report: Meta Whatsapp message summarization service",
+          "imageUrl": null
+        },
         {
           "id": "f350fc87-a7fe-46e9-97a8-237dc30e75d2",
           "author": null,
@@ -14081,6 +14101,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
+          "author": null,
+          "description": "Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signatures will fail, but whether we’re prepared for when they do.\nSigstore, an open-source ecosystem for software signing, recognized this challenge early but initially chose security over flexibility by adopting new cryptographic algorithms as older ones became obsolete. By hard coding ECDSA with P-256 curves and SHA-256 throughout its infrastructure, Sigstore avoided the dangerous pitfalls that have …",
+          "link": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
+          "publishedOn": "2026-01-29T12:00:00.000Z",
+          "wordCount": 1887,
+          "title": "Building cryptographic agility into Sigstore",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/",
           "author": null,
           "description": "With browser-embedded AI agents, we’re essentially starting the security journey over again. We exploited a lack of isolation mechanisms in multiple agentic browsers to perform attacks ranging from the dissemination of false information to cross-site data leaks. These attacks, which are functionally similar to cross-site scripting (XSS) and cross-site request forgery (CSRF), resurface decades-old patterns of vulnerabilities that the web security community spent years building effective defenses against.\nThe root cause of these vulnerabilities is inadequate isolation. Many users implicitly trust browsers with their most sensitive data, using them to access bank accounts, healthcare portals, and social media. The rapid, bolt-on integration of AI agents into the browser environment gives them…",
@@ -14089,16 +14119,6 @@
           "wordCount": 4344,
           "title": "Lack of isolation in agentic browsers resurfaces old vulnerabilities",
           "imageUrl": "https://blog.trailofbits.com/content/2026/lack-of-isolation-in-agentic-browsers_figure_15.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/",
-          "author": null,
-          "description": "Go’s arithmetic operations on standard integer types are silent by default, meaning overflows “wrap around” without panicking. This behavior has hidden an entire class of security vulnerabilities from fuzzing campaigns. Today we’re changing that by releasing go-panikint, a modified Go compiler that turns silent integer overflows into explicit panics. We used it to find a live integer overflow in the Cosmos SDK’s RPC pagination logic, showing how this approach eliminates a major blind spot for anyone fuzzing Go projects. (The issue in the Cosmos SDK has not been fixed, but a pull request has been created to mitigate it.)\nThe sound of silence\nIn Rust, debug builds are designed to panic on integer overflow, a feature that is highly valuable for fuzzing. Go, however, takes a different approach…",
-          "link": "https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/",
-          "publishedOn": "2025-12-31T12:00:00.000Z",
-          "wordCount": 1383,
-          "title": "Detect Go’s silent arithmetic bugs with go-panikint",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -14201,6 +14221,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1605261",
+          "author": "IT Experts",
+          "description": "Microsoft announced significant changes to its Teams licensing structure, effective April 1, 2026. The updates move several advanced capabilities from Teams Premium into core Teams Enterprise licenses, expand access to Microsoft Places features, and introduce new attendee capacity options for large-scale events. These changes aim to simplify licensing and provide broader access to powerful collaboration tools across organizations.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-teams-licensing-updates/",
+          "publishedOn": "2026-01-29T14:22:48.000Z",
+          "wordCount": null,
+          "title": "Microsoft Teams licensing updates",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1605267",
           "author": "IT Experts",
@@ -14547,16 +14577,6 @@
           "wordCount": 521,
           "title": "Beyond good ol’ Run key, Part 152",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10293",
-          "author": "adam",
-          "description": "In my older post, I described the persistence mechanism (GPExtensionDLL Registry entry) that I couldn’t make to work at that time. I eventually found a way to trigger it, using a function LoadGPExtensionDll exported by the fwpolicyiomgr.dll. One can execute: … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/12/31/beyond-good-ol-run-key-part-149-update/",
-          "publishedOn": "2025-12-31T00:48:11.000Z",
-          "wordCount": 534,
-          "title": "Beyond good ol’ Run key, Part 149 – update",
-          "imageUrl": null
         }
       ]
     },
@@ -14664,16 +14684,6 @@
           "wordCount": 1080,
           "title": "Minting Next.js Authentication Cookies",
           "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2025/39c3-agentic-probllms-exploiting-computer-use-and-coding-agents/",
-          "author": null,
-          "description": "It was great to attend the 39C3 - Power Cycles in Hamburg this year. The Chaos Communication Congress was once again packed with great talks, amazing people, awesome events and side quests - and I even got to present!\nYou can watch the talk with translation options on media.ccc.de.\nI also uploaded the English version to the Embrace The Red YouTube channel. I hope it’s interesting and helpful.\nThe talk is titled “Agentic ProbLLMs: Exploiting AI Computer-Use and Coding Agents” and is about my security research on vulnerabilities in agentic systems and the Month of AI Bugs with lots of demos.",
-          "link": "https://embracethered.com/blog/posts/2025/39c3-agentic-probllms-exploiting-computer-use-and-coding-agents/",
-          "publishedOn": "2025-12-31T05:20:58.000Z",
-          "wordCount": 261,
-          "title": "Agentic ProbLLMs: Exploiting AI Computer-Use And Coding Agents (39C3 Video + Slides)",
-          "imageUrl": null
         }
       ]
     },
@@ -14736,6 +14746,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=136816",
+          "author": "Gabriel Bernadett-Shapiro &amp; Silas Cutler (Censys)",
+          "description": "Analysis of 175,000 open-source AI hosts across 130 countries reveals a vast compute layer susceptible to resource hijacking and code execution attacks.",
+          "link": "https://www.sentinelone.com/labs/silent-brothers-ollama-hosts-form-anonymous-ai-network-beyond-platform-guardrails/",
+          "publishedOn": "2026-01-29T10:55:47.000Z",
+          "wordCount": 9140,
+          "title": "Silent Brothers | Ollama Hosts Form Anonymous AI Network Beyond Platform Guardrails",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/01/silent_brothers_ftr.jpeg",
+            "length": "348675",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/01/silent_brothers_ftr.jpeg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=136878",
           "author": "LABScon",
@@ -14804,6 +14829,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=24212",
+          "author": "Stamatis Chatzimangou",
+          "description": "ConsentFix (a.k.a.AuthCodeFix) is the latest variant of the fix-type phishing attacks, initially identified by Push Security. In this technique, the adversary tricks the victim into generating an OAuth authorization code that is part of a localhost URL, by signing in to the Azure CLI instance (or other vulnerable applications). Then, the victim is instructed to copy that URL and paste it into a phishing website, essentially handing over the authorization code to the adversary, who is now able to exchange it for an access token. Using the access token, the adversary gets access to the victim's Microsoft account.",
+          "link": "https://blog.nviso.eu/2026/01/29/consentfix-a-k-a-authcodefix-detecting-oauth2-authorization-code-phishing/",
+          "publishedOn": "2026-01-29T08:14:04.000Z",
+          "wordCount": 5849,
+          "title": "ConsentFix (a.k.a. AuthCodeFix): Detecting OAuth2 Authorization Code Phishing",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/01/consent_fix_blog.jpg"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=24008",
           "author": "Dominik Holzapfel",
           "description": "Every three to four years, OWASP releases a new version of arguably its most famous project, the “OWASP Top Ten”. Originally started in 2003, this list serves as an awareness document to highlight the 10 most prevalent issues for web applications. The newest release marks the eighth iteration and has once again undergone a few … Continue reading OWASP Top 10 2025 – A Pentester’s Perspective →",
@@ -14849,16 +14884,6 @@
           "wordCount": 2212,
           "title": "What to Look for in a Red Team Vendor",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Look-Red-Team-Vendors_Blog.png?mtime=1767902817"
-        },
-        {
-          "id": "https://bishopfox.com/blog/genai-devops-more-code-more-problems",
-          "author": null,
-          "description": "GenAI has made it possible for anyone to ship production code, but security hasn’t caught up. The real risk isn’t bad AI code, it’s how quickly unsafe behavior reaches production. Here’s how to build guardrails so speed doesn’t become liability.",
-          "link": "https://bishopfox.com/blog/genai-devops-more-code-more-problems",
-          "publishedOn": "2025-12-30T14:00:00.000Z",
-          "wordCount": 2779,
-          "title": "GenAI DevOps: More Code, More Problems",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_GenAI-DevOps-Secure-Guardrails-Blog.png?mtime=1767128764"
         }
       ]
     },

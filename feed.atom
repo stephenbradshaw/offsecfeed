@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-01-29T01:09:43.644Z</updated>
+    <updated>2026-01-30T01:09:13.099Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Public Report: Meta Whatsapp message summarization service]]></title>
+        <id>9120d3d9-3398-4dfa-a0e1-59f3efde5fd2</id>
+        <link href="https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/"/>
+        <updated>2026-01-30T01:08:26.368Z</updated>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World]]></title>
+        <id>https://specterops.io/?p=23201</id>
+        <link href="https://specterops.io/blog/2026/01/29/why-on-premises-apm-matters-in-a-cloud-world/"/>
+        <updated>2026-01-29T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR : BloodHound Enterprise on-premises brings enterprise-grade identity attack path management to air-gapped, classified, and highly regulated environments. It uses the same engine as our SaaS solution while keeping all identity data within your security boundary. Cloud adoption has transformed how organizations deploy and scale security tools. For many use cases, SaaS delivers speed, simplicity, […]
+The post Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Sev Kocharian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Teams licensing updates]]></title>
+        <id>https://4sysops.com/?p=1605261</id>
+        <link href="https://4sysops.com/archives/microsoft-teams-licensing-updates/"/>
+        <updated>2026-01-29T14:22:48.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announced significant changes to its Teams licensing structure, effective April 1, 2026. The updates move several advanced capabilities from Teams Premium into core Teams Enterprise licenses, expand access to Microsoft Places features, and introduce new attendee capacity options for large-scale events. These changes aim to simplify licensing and provide broader access to powerful collaboration tools across organizations.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building cryptographic agility into Sigstore]]></title>
+        <id>https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/</id>
+        <link href="https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/"/>
+        <updated>2026-01-29T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signatures will fail, but whether we’re prepared for when they do.
+Sigstore, an open-source ecosystem for software signing, recognized this challenge early but initially chose security over flexibility by adopting new cryptographic algorithms as older ones became obsolete. By hard coding ECDSA with P-256 curves and SHA-256 throughout its infrastructure, Sigstore avoided the dangerous pitfalls that have …]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Silent Brothers | Ollama Hosts Form Anonymous AI Network Beyond Platform Guardrails]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=136816</id>
+        <link href="https://www.sentinelone.com/labs/silent-brothers-ollama-hosts-form-anonymous-ai-network-beyond-platform-guardrails/"/>
+        <updated>2026-01-29T10:55:47.000Z</updated>
+        <summary type="html"><![CDATA[Analysis of 175,000 open-source AI hosts across 130 countries reveals a vast compute layer susceptible to resource hijacking and code execution attacks.]]></summary>
+        <author>
+            <name>Gabriel Bernadett-Shapiro &amp; Silas Cutler (Censys)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ConsentFix (a.k.a. AuthCodeFix): Detecting OAuth2 Authorization Code Phishing]]></title>
+        <id>https://blog.nviso.eu/?p=24212</id>
+        <link href="https://blog.nviso.eu/2026/01/29/consentfix-a-k-a-authcodefix-detecting-oauth2-authorization-code-phishing/"/>
+        <updated>2026-01-29T08:14:04.000Z</updated>
+        <summary type="html"><![CDATA[ConsentFix (a.k.a.AuthCodeFix) is the latest variant of the fix-type phishing attacks, initially identified by Push Security. In this technique, the adversary tricks the victim into generating an OAuth authorization code that is part of a localhost URL, by signing in to the Azure CLI instance (or other vulnerable applications). Then, the victim is instructed to copy that URL and paste it into a phishing website, essentially handing over the authorization code to the adversary, who is now able to exchange it for an access token. Using the access token, the adversary gets access to the victim's Microsoft account.]]></summary>
+        <author>
+            <name>Stamatis Chatzimangou</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adventures in EM Side-channel Attacks]]></title>
         <id>f350fc87-a7fe-46e9-97a8-237dc30e75d2</id>
@@ -13174,51 +13236,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detect Go’s silent arithmetic bugs with go-panikint]]></title>
-        <id>https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/</id>
-        <link href="https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/"/>
-        <updated>2025-12-31T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Go’s arithmetic operations on standard integer types are silent by default, meaning overflows “wrap around” without panicking. This behavior has hidden an entire class of security vulnerabilities from fuzzing campaigns. Today we’re changing that by releasing go-panikint, a modified Go compiler that turns silent integer overflows into explicit panics. We used it to find a live integer overflow in the Cosmos SDK’s RPC pagination logic, showing how this approach eliminates a major blind spot for anyone fuzzing Go projects. (The issue in the Cosmos SDK has not been fixed, but a pull request has been created to mitigate it.)
-The sound of silence
-In Rust, debug builds are designed to panic on integer overflow, a feature that is highly valuable for fuzzing. Go, however, takes a different approach…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Agentic ProbLLMs: Exploiting AI Computer-Use And Coding Agents (39C3 Video + Slides)]]></title>
-        <id>https://embracethered.com/blog/posts/2025/39c3-agentic-probllms-exploiting-computer-use-and-coding-agents/</id>
-        <link href="https://embracethered.com/blog/posts/2025/39c3-agentic-probllms-exploiting-computer-use-and-coding-agents/"/>
-        <updated>2025-12-31T05:20:58.000Z</updated>
-        <summary type="html"><![CDATA[It was great to attend the 39C3 - Power Cycles in Hamburg this year. The Chaos Communication Congress was once again packed with great talks, amazing people, awesome events and side quests - and I even got to present!
-You can watch the talk with translation options on media.ccc.de.
-I also uploaded the English version to the Embrace The Red YouTube channel. I hope it’s interesting and helpful.
-The talk is titled “Agentic ProbLLMs: Exploiting AI Computer-Use and Coding Agents” and is about my security research on vulnerabilities in agentic systems and the Month of AI Bugs with lots of demos.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond good ol’ Run key, Part 149 – update]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10293</id>
-        <link href="https://www.hexacorn.com/blog/2025/12/31/beyond-good-ol-run-key-part-149-update/"/>
-        <updated>2025-12-31T00:48:11.000Z</updated>
-        <summary type="html"><![CDATA[In my older post, I described the persistence mechanism (GPExtensionDLL Registry entry) that I couldn’t make to work at that time. I eventually found a way to trigger it, using a function LoadGPExtensionDll exported by the fwpolicyiomgr.dll. One can execute: … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GenAI DevOps: More Code, More Problems]]></title>
-        <id>https://bishopfox.com/blog/genai-devops-more-code-more-problems</id>
-        <link href="https://bishopfox.com/blog/genai-devops-more-code-more-problems"/>
-        <updated>2025-12-30T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GenAI has made it possible for anyone to ship production code, but security hasn’t caught up. The real risk isn’t bad AI code, it’s how quickly unsafe behavior reaches production. Here’s how to build guardrails so speed doesn’t become liability.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
         </author>
     </entry>
     <entry>
