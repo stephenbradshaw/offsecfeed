@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=23137",
+          "author": "Andrew Gomez",
+          "description": "TL;DR: Mature enterprises lock down egress but often carve out broad exceptions for trusted cloud services. This post shows how reviewing deployment guides can help identify those exceptions and weaponize them with a new Mythic C2 profile called azureBlob. During a recent Hackathon, we discussed some common issues operators run into. One unfortunately common one: […]\nThe post Weaponizing Whitelists: An Azure Blob Storage Mythic C2 Profile appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/01/30/weaponizing-whitelists-an-azure-blob-storage-mythic-c2-profile/",
+          "publishedOn": "2026-01-30T17:00:00.000Z",
+          "wordCount": 5007,
+          "title": "Weaponizing Whitelists: An Azure Blob Storage Mythic C2 Profile",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/01/Screenshot-2026-01-21-at-10.19.48-AM.png"
+        },
+        {
           "id": "https://specterops.io/?p=23201",
           "author": "Sev Kocharian",
           "description": "TL;DR : BloodHound Enterprise on-premises brings enterprise-grade identity attack path management to air-gapped, classified, and highly regulated environments. It uses the same engine as our SaaS solution while keeping all identity data within your security boundary. Cloud adoption has transformed how organizations deploy and scale security tools. For many use cases, SaaS delivers speed, simplicity, […]\nThe post Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World appeared first on SpecterOps.",
@@ -142,6 +152,16 @@
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://projectzero.google/",
       "articles": [
+        {
+          "id": "https://projectzero.google/2026/01/sound-barrier-2.html",
+          "author": null,
+          "description": "In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system daemon through a process I call knowledge-driven fuzzing. While the first post focused on the process of finding the vulnerabilities, this post dives into the intricate process of exploiting the type confusion vulnerability. I’ll explain the technical details of turning a potentially exploitable crash into a working exploit: a journey filled with dead ends, creative problem solving, and ultimately, success. The Vulnerability: A Quick Recap If you haven’t already, I highly recommend reading my detailed writeup on this vulnerability before proceeding. As a refresher, CVE-2024-54529 is a type confusion vulnerability within the com.apple.audio.audiohald Mach service in the CoreAudio framework used by the coreaudiod process. Several Mach message handlers, such as _XIOContext_Fetch_Workgroup_Port, would fetch a HALS_Object from the Object Map based on an ID from the Mach message, and then perform operations on it, assuming it was of a specific type (ioct) without proper validation.",
+          "link": "https://projectzero.google/2026/01/sound-barrier-2.html",
+          "publishedOn": "2026-01-30T08:00:00.000Z",
+          "wordCount": 2945,
+          "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
+          "imageUrl": null
+        },
         {
           "id": "https://projectzero.google/2026/26/windows-administrator-protection.html",
           "author": null,
@@ -13966,16 +13986,6 @@
           "wordCount": 3192,
           "title": "Writing Robust Yara Detection Rules for Heartbleed",
           "imageUrl": null
-        },
-        {
-          "id": "6685db25-ab08-4e1d-b8dc-1593a39d8a23",
-          "author": null,
-          "description": "Technical Advisory: Tesla Telematics Control Unit - ADB Auth Bypass",
-          "link": "https://www.nccgroup.com/research-blog/technical-advisory-tesla-telematics-control-unit-adb-auth-bypass/",
-          "publishedOn": "2026-01-01T01:04:40.520Z",
-          "wordCount": 3464,
-          "title": "Technical Advisory: Tesla Telematics Control Unit - ADB Auth Bypass",
-          "imageUrl": null
         }
       ]
     },
@@ -13984,6 +13994,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=8388",
+          "author": "Justin Copeland",
+          "description": "LLM infrastructure is sprawling across corporate networks faster than security teams can track it. Developers spin up Ollama instances for local testing. Teams deploy LiteLLM proxies to unify model access. Open WebUI installations give employees ChatGPT-like interfaces without IT oversight. The result: LLM services are proliferating everywhere, from internal networks to internet-facing endpoints, often without […]\nThe post Introducing Julius: Open Source LLM Service Fingerprinting appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/introducing-julius-open-source-llm-service-fingerprinting/",
+          "publishedOn": "2026-01-30T21:22:18.000Z",
+          "wordCount": 3825,
+          "title": "Introducing Julius: Open Source LLM Service Fingerprinting",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/01/julius-hero-blog-Open-Source-LLM-.webp"
+        },
         {
           "id": "https://www.praetorian.com/?p=7826",
           "author": "Justin Copeland",
@@ -14100,6 +14120,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/",
+          "author": null,
+          "description": "Last year, our engineers submitted over 375 pull requests that were merged into non–Trail of Bits repositories, touching more than 90 projects from cryptography libraries to the Rust compiler.\nThis work reflects one of our driving values: “share what others can use.” The measure isn’t whether you share something, but whether it’s actually useful to someone else. This principle is why we publish handbooks, write blog posts, and release tools like Claude skills, Slither, Buttercup, and Anamorpher.\nBut this value isn’t limited to our own projects; we also share our efforts with the wider open-source community. When we hit limitations in tools we depend on, we fix them upstream. When we find ways to make the software ecosystem more secure, we contribute those improvements.\nMost of these contri…",
+          "link": "https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/",
+          "publishedOn": "2026-01-30T12:00:00.000Z",
+          "wordCount": 3312,
+          "title": "Celebrating our 2025 open-source contributions",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
           "author": null,
@@ -14221,6 +14251,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1605346",
+          "author": "IT Experts",
+          "description": "Microsoft will improve how Conditional Access policies are enforced in Microsoft Entra ID starting March 27, 2026. This change addresses a security loophole in which policies targeting all resources with specific exclusions could be bypassed in certain authentication scenarios. The rollout continues through June 2026 and forms part of Microsoft's Secure Future Initiative. Because these sign-ins will no longer bypass Conditional Access, users may now be required to complete MFA, meet device compliance requirements, or satisfy other configured Conditional Access controls, such as approved apps, app protection policies, or authentication strength, before accessing the resource.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-entra-id-fixes-conditional-access-policy-bypass-will-enforce-mfa-sign-in-for-oidc-only-requests/",
+          "publishedOn": "2026-01-30T13:43:17.000Z",
+          "wordCount": null,
+          "title": "Microsoft Entra ID fixes Conditional Access policy bypass, will enforce MFA sign-in for OIDC-only requests",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1605261",
           "author": "IT Experts",
@@ -14520,16 +14560,6 @@
           "wordCount": null,
           "title": "Microsoft Entra certificate change: what admins need to do now",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1603999",
-          "author": "IT Experts",
-          "description": "Microsoft Entra ID introduces synced passkeys to simplify multi-factor authentication and reduce the security risks associated with traditional methods such as passwords and SMS codes. This feature, announced at Microsoft Ignite 2025, enables users to authenticate with biometrics or device PINs without entering passwords when syncing credentials across devices via cloud-based passkey providers. The implementation also includes high-assurance account recovery using government-issued ID verification to restore access when users lose all authentication methods.\nSource",
-          "link": "https://4sysops.com/archives/syncing-passkeys-with-microsoft-entra-id/",
-          "publishedOn": "2025-12-31T13:15:27.000Z",
-          "wordCount": null,
-          "title": "Syncing passkeys with Microsoft Entra ID",
-          "imageUrl": null
         }
       ]
     },
@@ -14567,16 +14597,6 @@
           "wordCount": 655,
           "title": "Beyond good ol’ Run key, Part 154",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10161",
-          "author": "adam",
-          "description": "Forgot to post this one before 153… As this is often the case in this series, this persistence mechanism is a documented feature of Microsoft Windows. The following Registry entry: HKLM\\Software\\Microsoft\\MSDTC\\XADLL can store a list of DLL files that can … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2025/12/31/beyond-good-ol-run-key-part-152/",
-          "publishedOn": "2025-12-31T23:08:39.000Z",
-          "wordCount": 521,
-          "title": "Beyond good ol’ Run key, Part 152",
-          "imageUrl": null
         }
       ]
     },
@@ -14591,6 +14611,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=43507",
+          "author": "Alex Wallace",
+          "description": "Introduction Before you start, how about getting the Hackers soundtrack playing as you read this? Get a bit of the Stereo MCs pumping… https://open.spotify.com/playlist/5uMdR4Mb3ZL2FYTNjs9nnD How plausible are the hacks? We’ll ignore the dodgy CGI, IRC sessions, l33t speak and questionable acting in the quest to find what stacks up in the real world.  Robot videotape vault Now, […]\nThe post Movie breakdown: Hackers (1995)  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/movie-breakdown-hackers-1995/",
+          "publishedOn": "2026-01-30T14:53:13.000Z",
+          "wordCount": 2104,
+          "title": "Movie breakdown: Hackers (1995)",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/01/hack-the-planet-headlinev3-1024x576.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=43204",
           "author": "Alex Wallace",
@@ -14984,6 +15014,16 @@
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
+        {
+          "id": "697cd33bfabc060001a16103",
+          "author": "Piotr Bazydlo (@chudyPB)",
+          "description": "When Ivanti removed the embargoes from CVE-2026-1281 and CVE-2026-1340 - actively exploited pre-auth Remote Command Execution vulnerabilities in Ivanti’s Endpoint Manager Mobile (EPMM) solution - we sighed with relief.\nClearly, the universe had decided to continue mocking Secure-By-Design signers right on schedule - every January. \n\nWelcome back to",
+          "link": "https://labs.watchtowr.com/someone-knows-bash-far-too-well-and-we-love-it-ivanti-epmm-pre-auth-rces-cve-2026-1281-cve-2026-1340/",
+          "publishedOn": "2026-01-30T16:15:16.000Z",
+          "wordCount": 2032,
+          "title": "Someone Knows Bash Far Too Well, And We Love It (Ivanti EPMM Pre-Auth RCEs CVE-2026-1281 & CVE-2026-1340)",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/01/Group-8730.png"
+        },
         {
           "id": "69716dd9e04d920001ca6407",
           "author": "Piotr Bazydlo (@chudyPB)",
