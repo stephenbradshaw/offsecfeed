@@ -146,14 +146,14 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
-          "id": "top-10-web-hacking-techniques-of-2025-nominations-open",
+          "id": "top-10-web-hacking-techniques-of-2025",
           "author": null,
-          "description": "Over the last year, security researchers have shared a huge amount of work with the community through blog posts, presentations, and whitepapers. This is great, but it also means genuinely reusable te",
-          "link": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2025-nominations-open",
-          "publishedOn": "2026-01-06T15:31:28.000Z",
-          "wordCount": 1484,
-          "title": "Top 10 web hacking techniques of 2025: call for nominations",
-          "imageUrl": "https://portswigger.net/cms/images/fa/0c/ba98-twittercard-top_10_wht_2025_nom_x.png"
+          "description": "Welcome to the Top 10 Web Hacking Techniques of 2025, the 19th edition of our annual community-powered effort to identify the most innovative must-read web security research published in the last year",
+          "link": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2025",
+          "publishedOn": "2026-02-05T15:28:08.000Z",
+          "wordCount": 1655,
+          "title": "Top 10 web hacking techniques of 2025",
+          "imageUrl": "https://portswigger.net/cms/images/08/b9/185c-twittercard-top_10_wht_2025_results_x(1).png"
         }
       ]
     },
@@ -408,6 +408,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69839830564edd7293968ba2",
+          "author": "TrendAI Research Team",
+          "description": "In this excerpt of a TrendAI Research Services vulnerability report, Jonathan Lein and Simon Humbert of the TrendAI Research team detail a recently patched command injection vulnerability in the Arista NG Firewall. This bug was originally discovered by Gereon Huppertz and reported through the TrendAI Zero Day Initiative (ZDI) program. Successful exploitation could result in arbitrary command execution under the security context of the root user. The following is a portion of their write-up covering CVE-2025-6798, with a few minimal modifications.\nA command injection vulnerability has been reported in Arista NG Firewall. The vulnerability is due to improper validation of user data in the diagnostics component.\nA remote, authenticated attacker could exploit this vulnerability by sending craf…",
+          "link": "https://www.thezdi.com/blog/2026/2/4/cve-2025-6978-arbitrary-code-execution-in-the-arista-ng-firewall",
+          "publishedOn": "2026-02-05T16:45:49.000Z",
+          "wordCount": null,
+          "title": "CVE-2025-6978: Arbitrary Code Execution in the Arista NG Firewall",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:696d90310e78bb785b753226",
           "author": "Dustin Childs",
@@ -14015,6 +14026,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=8541",
+          "author": "Nathan Sportsman",
+          "description": "Executive Summary The primary bottleneck in autonomous software development is not model intelligence, but context management and architectural determinism. Current “Agentic” approaches fail at scale because they rely on probabilistic guidance (prompts) for deterministic engineering tasks (builds, security, state management). Furthermore, the linear cost of token consumption versus the non-linear degradation of model attention creates a “Context Trap” […]\nThe post Deterministic AI Orchestration: A Platform Architecture for Autonomous Development appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/deterministic-ai-orchestration-a-platform-architecture-for-autonomous-development/",
+          "publishedOn": "2026-02-05T22:44:38.000Z",
+          "wordCount": 8056,
+          "title": "Deterministic AI Orchestration: A Platform Architecture for Autonomous Development",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/ai-orchestration.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=7580",
           "author": "Justin Copeland",
           "description": "TL;DR: Two medium-severity flaws, an unsecured email API endpoint and verbose error messages exposing OAuth tokens, chain together to enable authenticated phishing that bypasses all email security controls, persistent access to Microsoft 365 environments, and full infrastructure compromise. Neither flaw alone would be critical; combined, they’re devastating. Modern web applications increasingly create attack surfaces through […]\nThe post Gone Phishing, Got a Token: When Separate Flaws Combine appeared first on Praetorian.",
@@ -14291,6 +14312,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1605491",
+          "author": "IT Experts",
+          "description": "The new admin tasks feature in Microsoft Intune aggregates high-impact IT actions, approvals, and remediation workflows into a single, prioritized queue in the Microsoft Intune admin center. This centralized feature helps you act quickly on critical decisions without navigating through multiple console areas, reducing response times while maintaining security oversight across endpoint management operations.\nSource",
+          "link": "https://4sysops.com/archives/what-are-admin-tasks-in-microsoft-intune/",
+          "publishedOn": "2026-02-05T15:25:30.000Z",
+          "wordCount": null,
+          "title": "What are admin tasks in Microsoft Intune?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1605248",
+          "author": "IT Experts",
+          "description": "Microsoft Purview Data Security Investigations became generally available in January, providing data security teams with AI-powered tools to identify, investigate, and mitigate sensitive data risks across Microsoft 365 environments. The solution addresses the challenge of managing 220 zettabytes of organizational data while facing over 12,000 confirmed breaches annually by streamlining investigations that previously took weeks or months into hours.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-purview-data-security-investigations-ai-powered-threat-detection-for-microsoft-365/",
+          "publishedOn": "2026-02-05T15:18:28.000Z",
+          "wordCount": null,
+          "title": "Microsoft Purview Data Security Investigations: AI-powered threat detection for  Microsoft 365",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1605460",
           "author": "IT Experts",
@@ -14715,6 +14756,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2026/data-exfiltration-mitigation-paper-by-openai/",
+          "author": null,
+          "description": "Last week I saw this paper from OpenAI called “Preventing URL-Based Data Exfiltration in\nLanguage-Model Agents”, which goes into detail on new mitigations they’ve added.\n\nThis is a great read. I like this transparency.\nInitial Disclosure in 2023\nNearly three years ago I reported the zero-click data exfiltration exploit to OpenAI. Back in early 2023 OpenAI did not have a bug bounty program, so communication was via email, and unfortunately there was little traction or appetite to fix the problem in ChatGPT. I also reported the same issue to Microsoft as Bing Chat was impacted, and Microsoft applied a fix (via a Content-Security-Policy header) in May 2023 to generally prevent loading of images.",
+          "link": "https://embracethered.com/blog/posts/2026/data-exfiltration-mitigation-paper-by-openai/",
+          "publishedOn": "2026-02-05T06:59:30.000Z",
+          "wordCount": 1057,
+          "title": "OpenAI Explains URL-Based Data Exfiltration Mitigations in New Paper",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2026/minting-next-auth-nextjs-auth-cookies-react2shell-threat/",
           "author": null,
           "description": "In this post, we’ll look how an adversary can mint authentication cookies for Next.js (next-auth/Auth.js) applications to maintain persistent access to the application as any user.\n\nThe reason this is important is because of React2Shell, which is a deserialization vulnerability that allows an adversary to run arbitrary code. Much has been discussed about this vulnerability, and you can read up the original details from the finder here.",
@@ -14868,6 +14919,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=23483",
+          "author": "Tanguy Snoeck",
+          "description": "Introduction As large language models become increasingly embedded in production applications, from customer service chatbots to code assistants and document analysis tools, the security implications of these systems have moved from theoretical concern to practical necessity. Unlike traditional software security testing, LLM red teaming addresses unique challenges: prompt injection attacks, data leakage through carefully crafted … Continue reading An introduction to automated LLM red teaming →",
+          "link": "https://blog.nviso.eu/2026/02/05/an-introduction-to-automated-llm-red-teaming/",
+          "publishedOn": "2026-02-05T10:54:04.000Z",
+          "wordCount": 3914,
+          "title": "An introduction to automated LLM red teaming",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/02/automated_LLM_red_teaming_blog.jpg"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=24111",
           "author": "Dimitris Vagiakakos",
           "description": "In modern digital infrastructure, containerization has become one of the most significant technologies, offering automation, portability, and resilience of services across cloud and on-premises environments. Containers can simplify backup processes and enhance upgrade safety while significantly reducing recovery times following system incidents or failed updates.This article provides an overview of the container technology and focuses … Continue reading Rootless Containers with Podman →",
@@ -14904,6 +14965,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/get-the-most-from-testing-your-applications",
+          "author": null,
+          "description": "Pen tests don’t fail because testers miss bugs. They fail when no one agrees what questions the test should answer. In today’s cloud- and AI-driven apps, scoping, execution, and follow-through determine whether results drive real decisions or just become another filed report.",
+          "link": "https://bishopfox.com/blog/get-the-most-from-testing-your-applications",
+          "publishedOn": "2026-02-04T14:00:00.000Z",
+          "wordCount": 3236,
+          "title": "Get the Most from Testing Your Applications",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Get-Most-Testing-Applications_Blog_Image.png?mtime=1770322454"
+        },
         {
           "id": "https://bishopfox.com/blog/get-the-most-from-testing-your-ai-powered-application",
           "author": null,
