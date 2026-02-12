@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-11T01:21:24.085Z</updated>
+    <updated>2026-02-12T01:14:20.682Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[V8 Heap Archaeology: Finding Exploitation Artifacts in Chrome’s Memory]]></title>
+        <id>https://specterops.io/?p=23339</id>
+        <link href="https://specterops.io/blog/2026/02/11/v8-heap-archaeology-finding-exploitation-artifacts-in-chromes-memory/"/>
+        <updated>2026-02-11T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR : This post aims to introduce readers to the anatomy and detection of JavaScript memory corruption exploits that target Google Chrome’s V8 JavaScript engine. We’ll dive into the primitives attackers need during the first stage of a Chrome full-chain exploit and what artifacts these primitives leave behind in memory. It is these artifacts that defenders […]
+The post V8 Heap Archaeology: Finding Exploitation Artifacts in Chrome’s Memory appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Liam D</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shelly IoT door controller config fail: leaving your garage, home and security exposed]]></title>
+        <id>https://www.pentestpartners.com/?p=43491</id>
+        <link href="https://www.pentestpartners.com/security-blog/shelly-iot-door-controller-config-fail-leaving-your-garage-home-and-security-exposed/"/>
+        <updated>2026-02-11T15:19:03.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Introduction I love my Shelly devices. They are an essential part of my smart home setup. I use them for everything from lights and plugs to garage doors and garden sprinkler control! One of the first Shelly devices I installed about five years ago recently stopped working, so I replaced it with one of […]
+The post Shelly IoT door controller config fail: leaving your garage, home and security exposed appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scary Agent Skills: Hidden Unicode Instructions in Skills ...And How To Catch Them]]></title>
+        <id>https://embracethered.com/blog/posts/2026/scary-agent-skills/</id>
+        <link href="https://embracethered.com/blog/posts/2026/scary-agent-skills/"/>
+        <updated>2026-02-11T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There is a lot of talk about Skills recently, both in terms of capabilities and security concerns. However, so far I haven’t seen anyone bring up hidden prompt injection. So, I figured to demo a Skills supply chain backdoor that survives human review.
+
+Additionally, I also built a basic scanner, and had my agent propose updates to OpenClaw to catch such attacks.
+Attack Surface
+Skills introduce common threats, like prompt injection, supply chain attacks, RCE, data exfiltration,…  This post discusses some basics, highlights the most simple prompt injection avenue, and shows how one can backdoor a real Skill from OpenAI with invisible Unicode Tag codepoints that certain models, like Gemini, Claude, Grok are known to interpret as instructions.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update expiring Windows Secure Boot certificates now]]></title>
+        <id>https://4sysops.com/?p=1605834</id>
+        <link href="https://4sysops.com/archives/update-expiring-windows-secure-boot-certificates-now/"/>
+        <updated>2026-02-11T12:12:22.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft's original Secure Boot certificates, issued in 2011, begin expiring in late June 2026, potentially affecting millions of Windows devices worldwide. While your device will continue to boot normally after expiration, it will enter a degraded security state where new boot-level protections cannot be applied. To maintain full protection against emerging threats, ensure your system receives the latest 2023 certificates before the deadline.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 KB5074110 and KB5074111 updates enhance setup and recovery]]></title>
+        <id>https://4sysops.com/?p=1605775</id>
+        <link href="https://4sysops.com/archives/windows-11-kb5074110-and-kb5074111-updates-enhance-setup-and-recovery/"/>
+        <updated>2026-02-11T12:11:26.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft released two dynamic updates for Windows 11 on January 29, 2026, targeting the setup and recovery infrastructure. KB5074110 is particularly important because older Secure Boot certificates will begin expiring in June 2026. KB5074110 and KB5074111 also bring improvements to feature update installations and recovery tools for Windows 11 versions 24H2 and 25H2. These updates ensure smoother upgrades and more reliable system recovery without introducing new user-facing features.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 2. Common Custody Solutions Architectures]]></title>
         <id>0cc38e9f-2303-43b8-9c8c-c74bb9dfba8d</id>
@@ -13303,39 +13361,6 @@ Source]]></summary>
 The post Compromising a multi-cloud environment from a single exposed secret  appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lack of isolation in agentic browsers resurfaces old vulnerabilities]]></title>
-        <id>https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/</id>
-        <link href="https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/"/>
-        <updated>2026-01-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With browser-embedded AI agents, we’re essentially starting the security journey over again. We exploited a lack of isolation mechanisms in multiple agentic browsers to perform attacks ranging from the dissemination of false information to cross-site data leaks. These attacks, which are functionally similar to cross-site scripting (XSS) and cross-site request forgery (CSRF), resurface decades-old patterns of vulnerabilities that the web security community spent years building effective defenses against.
-The root cause of these vulnerabilities is inadequate isolation. Many users implicitly trust browsers with their most sensitive data, using them to access bank accounts, healthcare portals, and social media. The rapid, bolt-on integration of AI agents into the browser environment gives them…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report: Google Private AI Compute Review]]></title>
-        <id>f2d0e1b1-f430-42cc-97f7-500cd4149b16</id>
-        <link href="https://www.nccgroup.com/research-blog/public-report-google-private-ai-compute-review/"/>
-        <updated>2026-01-13T00:55:28.614Z</updated>
-        <summary type="html"><![CDATA[Public Report: Google Private AI Compute Review]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Alpitronic HYC50 Hardware Teardown for Pwn2Own Automotive 2026]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:696450dc670ed34eb1fcbd0e</id>
-        <link href="https://www.thezdi.com/blog/2026/1/11/the-alpitronic-hyc50-hardware-teardown-for-pwn2own-automotive-2026"/>
-        <updated>2026-01-12T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As we ramp up to the premier automotive and charging station hacking competition, Pwn2Own Automotive 2026 in Tokyo, the Trend Micro Zero Day Initiative (ZDI) is providing a preliminary look at one of the main targets: the Alpitronic HYC50 High-Power Charger.
-The HYC50 series represents the leading edge of fast-charging infrastructure, blending complex high-voltage power electronics with a robust, networked digital control system. For Pwn2Own contestants, the digital attack surface is often the most accessible path to a top-tier bounty. This post serves as a hardware identification primer, guiding researchers through the core components that make up the device's control and low-voltage sections.
-This is strictly a hardware reconnaissance report. We encourage all participants to begin their …]]></summary>
-        <author>
-            <name>The ZDI Research Team</name>
         </author>
     </entry>
     <entry>
