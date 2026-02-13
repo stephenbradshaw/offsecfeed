@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-12T01:14:20.682Z</updated>
+    <updated>2026-02-13T01:17:56.630Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Public Report: Google Private AI Compute Review]]></title>
+        <id>f2d0e1b1-f430-42cc-97f7-500cd4149b16</id>
+        <link href="https://www.nccgroup.com/research-blog/public-report-google-private-ai-compute-review/"/>
+        <updated>2026-02-13T01:17:24.443Z</updated>
+        <summary type="html"><![CDATA[Public Report: Google Private AI Compute Review]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Et Tu, Default Creds? Introducing Brutus for Modern Credential Testing]]></title>
+        <id>https://www.praetorian.com/?p=9311</id>
+        <link href="https://www.praetorian.com/blog/et-tu-default-creds-introducing-brutus-for-modern-credential-testing/"/>
+        <updated>2026-02-13T00:58:50.000Z</updated>
+        <summary type="html"><![CDATA[It’s day three of staring at a spreadsheet of 700,000 live hosts. Your port scans are done. Fingerprintx has identified thousands of SSH services, databases, admin panels, and file shares across a sprawling enterprise network. Now comes the part that every penetration tester hates: auditing and testing credentials at scale. You need to check for […]
+The post Et Tu, Default Creds? Introducing Brutus for Modern Credential Testing appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Justin Copeland</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VS Code agent orchestrations: A simple example]]></title>
+        <id>https://4sysops.com/?p=1605894</id>
+        <link href="https://4sysops.com/archives/vs-code-agent-orchestrations-a-simple-example/"/>
+        <updated>2026-02-12T15:07:22.000Z</updated>
+        <summary type="html"><![CDATA[Visual Studio Code version 1.109 introduces agent orchestrations — a feature that transforms the IDE into a multi-agent development platform. You can now create custom agents that collaborate, delegate tasks to specialized subagents, and execute complex workflows autonomously. This article explains the concept and demonstrates agent orchestration with a simple example. I'll also share my opinion on Microsoft's concept of agent orchestrations. It's not particularly favorable.
+Source]]></summary>
+        <author>
+            <name>Michael Pietroforte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Capture the Kerberos Flag: Detecting Kerberos Anomalies]]></title>
+        <id>https://blog.nviso.eu/?p=23429</id>
+        <link href="https://blog.nviso.eu/2026/02/12/capture-the-kerberos-flag-detecting-kerberos-anomalies/"/>
+        <updated>2026-02-12T08:48:30.000Z</updated>
+        <summary type="html"><![CDATA[Kerberos is one of the most common protocols in organizations that utilize Windows Active Directory, and an essential part of Windows authentication used to verify the identity of a user or a host [1]. As such, Kerberos is often a target for adversaries trying to either steal or forge Kerberos tickets [2]. In this blog … Continue reading Capture the Kerberos Flag: Detecting Kerberos Anomalies →]]></summary>
+        <author>
+            <name>Thomas Papaloukas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bypassing Administrator Protection by Abusing UI Access]]></title>
+        <id>https://projectzero.google/2026/02/windows-administrator-protection.html</id>
+        <link href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
+        <updated>2026-02-12T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues, specifically the implementation of UI Access, how this has been a long standing problem with UAC that’s been under-appreciated, and how it’s being fixed now. A Question of Accessibility Prior to Windows Vista any process running on a user’s desktop could control any window created by another, such as by sending window messages. This behavior could be abused if a privileged user, such as SYSTEM, displayed a user interface on the desktop. A limited user could control the UI and potentially elevate privileges. This was referred to as a Shatter Attack, and was usually fixed by removing user interface components from privileged code.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[V8 Heap Archaeology: Finding Exploitation Artifacts in Chrome’s Memory]]></title>
         <id>https://specterops.io/?p=23339</id>
@@ -117,6 +169,16 @@ The post Introducing BloodHound Scentry: Accelerate Your Identity Attack Path Ma
 Source]]></summary>
         <author>
             <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Most Security Programs Test a Fraction of Their Applications. That Changes Today.]]></title>
+        <id>https://bishopfox.com/blog/most-security-programs-test-a-fraction-of-their-applications-that-changes-today</id>
+        <link href="https://bishopfox.com/blog/most-security-programs-test-a-fraction-of-their-applications-that-changes-today"/>
+        <updated>2026-02-10T05:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox's Rob Ragan explores how Cosmos AI transforms application security testing from a logistical bottleneck into a scalable service—enabling organizations to test entire portfolios.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
         </author>
     </entry>
     <entry>
@@ -13264,103 +13326,6 @@ The post Wait, Why is my WebClient Started?: SCCM Hierarchy Takeover via NTLM Re
         <summary type="html"><![CDATA[Jim Walter unpacks the hacktivist landscape and reveals how to distinguish different levels of threat based on persona characteristics.]]></summary>
         <author>
             <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 365 admin center will block accounts without  MFA in February]]></title>
-        <id>https://4sysops.com/?p=1604854</id>
-        <link href="https://4sysops.com/archives/microsoft-365-admin-center-will-block-accounts-without-mfa-in-february/"/>
-        <updated>2026-01-14T11:32:51.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft will enforce multi-factor authentication (MFA) for all users signing in to the Microsoft 365 admin center starting February 9, 2026. This critical security measure aims to prevent unauthorized access to administrative accounts that manage tenant configurations, user provisioning, and compliance settings.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public Report: AWS EKS Security Claims]]></title>
-        <id>52639df7-25a4-45aa-b98f-03e7d00e6ef3</id>
-        <link href="https://www.nccgroup.com/research-blog/public-report-aws-eks-security-claims/"/>
-        <updated>2026-01-14T01:01:20.484Z</updated>
-        <summary type="html"><![CDATA[Public Report: AWS EKS Security Claims]]></summary>
-        <author>
-            <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploiting LLM Write Primitives: System Prompt Extraction When Chat Output Is Locked Down]]></title>
-        <id>https://www.praetorian.com/?p=7469</id>
-        <link href="https://www.praetorian.com/blog/exploiting-llm-write-primitives-system-prompt-extraction-when-chat-output-is-locked-down/"/>
-        <updated>2026-01-13T22:08:12.000Z</updated>
-        <summary type="html"><![CDATA[Prompt injection allows attackers to manipulate LLMs into ignoring their original instructions. As organizations integrate AI assistants into their applications, many are adopting architectural constraints to mitigate this risk. One increasingly common pattern: locking chatbots into templated responses so they can’t return free-form text. This seems secure. If an LLM can’t speak freely, it can’t […]
-The post Exploiting LLM Write Primitives: System Prompt Extraction When Chat Output Is Locked Down appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Justin Copeland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The January 2026 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69668ea6abbeed6e1b16025a</id>
-        <link href="https://www.thezdi.com/blog/2026/1/13/the-january-2026-security-update-review"/>
-        <updated>2026-01-13T19:01:16.000Z</updated>
-        <summary type="html"><![CDATA[I may be in Tokyo preparing for Pwn2Own Automotive, but that doesn’t stop patch Tuesday from coming. Put aside you broken New Year’s resolutions for just a moment as we review the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check out the Patch Report webcast on our YouTube channel. It should be posted within a couple of hours after the release.
-Adobe Patches for January 2026
-For January, Adobe released 11 bulletins addressing 25 unique CVEs in Adobe Dreamweaver, InDesign, Illustrator, InCopy, Bridge, Substance 3D Modeler, Substance 3D Stager, Substance 3D Painter, Substance 3D Sampler, Substance 3D Designer, and ColdFusion. The patch for ColdFusion fixes a single code execution bug, but the update is list…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing ConfigManBearPig, a BloodHound OpenGraph Collector for SCCM]]></title>
-        <id>https://specterops.io/?p=22819</id>
-        <link href="https://specterops.io/blog/2026/01/13/introducing-configmanbearpig-a-bloodhound-opengraph-collector-for-sccm/"/>
-        <updated>2026-01-13T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: ConfigManBearPig is a standalone PowerShell collector that adds new SCCM attack path nodes and edges to BloodHound using OpenGraph. This post details how ConfigManBearPig collects information and provides practical examples of how it can be used in operations to discover SCCM attack paths using BloodHound. It’s been a goal of mine for a long […]
-The post Introducing ConfigManBearPig, a BloodHound OpenGraph Collector for SCCM appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Chris Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Block external users in Microsoft Teams from Defender for Office 365]]></title>
-        <id>https://4sysops.com/?p=1604400</id>
-        <link href="https://4sysops.com/archives/block-external-users-in-microsoft-teams-from-defender-for-office-365/"/>
-        <updated>2026-01-13T14:50:01.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft integrates Teams with Defender for Office 365, enabling security admins to block external users directly from the Microsoft Defender portal using the Tenant Allow/Block List. This centralized security management feature rolls out in January 2026, supporting up to 4,000 domains and 200 email addresses with automatic blocking across chats, meetings, channels, and calls.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Total Cost of AI Ownership: The Costs Not on Your Budget Sheet]]></title>
-        <id>https://bishopfox.com/blog/the-total-cost-of-ai-ownership-the-costs-not-on-your-budget-sheet</id>
-        <link href="https://bishopfox.com/blog/the-total-cost-of-ai-ownership-the-costs-not-on-your-budget-sheet"/>
-        <updated>2026-01-13T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AI looks affordable at first, licenses, cloud, headcount. But once it’s in production, costs spread across teams, systems, and decisions in ways most models miss. Here’s what we’ve learned about the hidden costs of owning AI long-term.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside the LLM | Understanding AI & the Mechanics of Modern Attacks]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=136712</id>
-        <link href="https://www.sentinelone.com/labs/inside-the-llm-understanding-ai-the-mechanics-of-modern-attacks/"/>
-        <updated>2026-01-13T13:58:17.000Z</updated>
-        <summary type="html"><![CDATA[Learn how attackers exploit tokenization, embeddings and LLM attention mechanisms to bypass LLM security filters and hijack model behavior.]]></summary>
-        <author>
-            <name>Phil Stokes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compromising a multi-cloud environment from a single exposed secret]]></title>
-        <id>https://www.pentestpartners.com/?p=43422</id>
-        <link href="https://www.pentestpartners.com/security-blog/compromising-a-multi-cloud-environment-from-a-single-exposed-secret/"/>
-        <updated>2026-01-13T13:24:34.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  Introduction  In practice, it is still hard to keep secrets safe in the cloud. All major cloud service providers have managed secrets solutions, but they only work if secrets are added, stored, and used correctly. In the real world, credentials, API keys, and tokens still tend to leak through everyday operational shortcuts instead of complicated failures.  […]
-The post Compromising a multi-cloud environment from a single exposed secret  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
         </author>
     </entry>
     <entry>
