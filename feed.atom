@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-16T01:14:05.603Z</updated>
+    <updated>2026-02-17T01:13:17.293Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 3. Private Key Storage and Signing Module]]></title>
+        <id>a870dfef-e5c2-4d36-b53f-c6f564be8285</id>
+        <link href="https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-3-private-key-storage-and-signing-module/"/>
+        <updated>2026-02-17T01:13:00.474Z</updated>
+        <summary type="html"><![CDATA[State of the Art of Private Key Security in Blockchain Ops - 3. Private Key
+Storage and Signing Module]]></summary>
+        <author>
+            <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enable DoH (DNS over HTTPS) in Windows Server 2025 DNS server, configure Windows 11 DNS clients]]></title>
+        <id>https://4sysops.com/?p=1605966</id>
+        <link href="https://4sysops.com/archives/enable-doh-dns-over-https-in-windows-server-2025-dns-server-configure-windows-11-dns-clients/"/>
+        <updated>2026-02-16T15:32:16.000Z</updated>
+        <summary type="html"><![CDATA[DNS over HTTPS (DoH) is a protocol that encrypts Domain Name System (DNS) queries and transmits them over HTTPS. This security enhancement prevents eavesdropping and manipulation of DNS traffic, addressing fundamental vulnerabilities in traditional DNS infrastructure that operates in plaintext. The DoH architecture consists of two components: the client, which initiates encrypted DNS queries, and the resolver (or server), which processes them. Windows has supported DoH on the client side since Windows 11. While Windows 10 includes the underlying client support in later builds (Insider Preview 19628 and later), it does not expose this functionality in the Settings app and requires manual Registry configuration, making it effectively unsupported for most users.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Microsoft’s and Google’s new WebMCP standard?]]></title>
+        <id>https://4sysops.com/?p=1606170</id>
+        <link href="https://4sysops.com/archives/what-is-microsofts-and-googles-new-webmcp-standard/"/>
+        <updated>2026-02-16T13:21:23.000Z</updated>
+        <summary type="html"><![CDATA[WebMCP is a proposed web standard that enables websites to expose structured, callable tools directly to AI agents through a new browser API. Developed jointly by engineers at Google and Microsoft and incubated through the W3C's Web Machine Learning Community Group, WebMCP allows you to wrap your existing client-side JavaScript logic into agent-readable tools without re-architecting your web pages. Instead of AI agents relying on screen scraping or DOM manipulation to interact with websites, WebMCP provides a standardized way for agents to discover and invoke specific functions with defined schemas, ensuring more reliable and precise interactions.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exchange Online deprecates -Credential parameter in Connect-ExchangeOnline PowerShell cmdlet]]></title>
+        <id>https://4sysops.com/?p=1606209</id>
+        <link href="https://4sysops.com/archives/exchange-online-deprecates-credential-parameter-in-connect-exchangeonline-powershell-cmdlet/"/>
+        <updated>2026-02-16T13:07:29.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announced on February 12, 2026, a significant change to its Exchange Online PowerShell module: the deprecation of the -Credential parameter for the Connect-ExchangeOnline cmdlet. This change represents part of a broader initiative to enhance security across Microsoft 365 administrative interfaces by eliminating authentication methods that do not support multifactor authentication.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Symbols of Operation]]></title>
         <id>b681c62e-41b9-42ef-a3eb-bd250341b515</id>
@@ -14,6 +58,21 @@
         <summary type="html"><![CDATA[The Symbols of Operation code data confusion ada lovelace]]></summary>
         <author>
             <name>Cyber Security Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Secure Electron Auto-Updater]]></title>
+        <id>https://blog.doyensec.com/2026/02/16/electron-safe-updater.html</id>
+        <link href="https://blog.doyensec.com/2026/02/16/electron-safe-updater.html"/>
+        <updated>2026-02-15T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+In cooperation with the Polytechnic University of Valencia and Doyensec, I spent over six months during my internship in a research that combines theoretical foundations in code signing and secure update designs with a practical implementation of these learnings.
+This motivated the development of SafeUpdater, a macOS updater vaguely based on the update mechanisms used by Signal Desktop, but otherwise designed as a modular extension.
+SafeUpdater is a package designed for MacOS systems, but its interfaces are easily extensible to both Windows and Linux.
+Please note that “SafeUpdater” is not intended to be used as a general-purpose package, but as a reference design illustrating how update mechanisms can be built around explicit threat models and concrete attack mitigations.
+⚠️ T…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -13250,16 +13309,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Recently I ran an experiment where I built agents on top of Opus 4.5 and GPT-5.2 and then challenged them to write exploits for a zeroday vulnerability in the QuickJS Javascript interpreter. I added a variety of modern exploit mitigations, various constraints (like assuming an unknown heap starting state, or forbidding hardcoded offsets in the […]]]></summary>
         <author>
             <name>seanhn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: zipdump.py Version 0.0.33]]></title>
-        <id>http://blog.didierstevens.com/?p=11124</id>
-        <link href="https://blog.didierstevens.com/2026/01/18/update-zipdump-py-version-0-0-33/"/>
-        <updated>2026-01-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This update adds pseudo-field sha256 which can be used to calculate the sha256 hash of the content (compressed or decompressed):-E sha256:data-E sha256:data:decompress-E sha256:decompress-E sha256:extra zipdump_v0_0_33.zip (http)MD5: ABF2AC037D2CB7E26664D28B109E9293SHA256: A80E956072E9C4E3051992EA3E551444585854747EFE2A997A232E6F5B94E8E4]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>

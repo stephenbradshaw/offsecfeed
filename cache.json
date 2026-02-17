@@ -235,16 +235,6 @@
           "wordCount": 3314,
           "title": "Overview of Content Published in January",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11124",
-          "author": "Didier Stevens",
-          "description": "This update adds pseudo-field sha256 which can be used to calculate the sha256 hash of the content (compressed or decompressed):-E sha256:data-E sha256:data:decompress-E sha256:decompress-E sha256:extra zipdump_v0_0_33.zip (http)MD5: ABF2AC037D2CB7E26664D28B109E9293SHA256: A80E956072E9C4E3051992EA3E551444585854747EFE2A997A232E6F5B94E8E4",
-          "link": "https://blog.didierstevens.com/2026/01/18/update-zipdump-py-version-0-0-33/",
-          "publishedOn": "2026-01-18T00:00:00.000Z",
-          "wordCount": 3289,
-          "title": "Update: zipdump.py Version 0.0.33",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
     },
@@ -445,6 +435,16 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "a870dfef-e5c2-4d36-b53f-c6f564be8285",
+          "author": null,
+          "description": "State of the Art of Private Key Security in Blockchain Ops - 3. Private Key\nStorage and Signing Module",
+          "link": "https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-3-private-key-storage-and-signing-module/",
+          "publishedOn": "2026-02-17T01:13:00.474Z",
+          "wordCount": 3736,
+          "title": "State of the Art of Private Key Security in Blockchain Ops - 3. Private Key Storage and Signing Module",
+          "imageUrl": null
+        },
         {
           "id": "b681c62e-41b9-42ef-a3eb-bd250341b515",
           "author": null,
@@ -14048,6 +14048,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/02/16/electron-safe-updater.html",
+          "author": null,
+          "description": "Introduction\nIn cooperation with the Polytechnic University of Valencia and Doyensec, I spent over six months during my internship in a research that combines theoretical foundations in code signing and secure update designs with a practical implementation of these learnings.\nThis motivated the development of SafeUpdater, a macOS updater vaguely based on the update mechanisms used by Signal Desktop, but otherwise designed as a modular extension.\nSafeUpdater is a package designed for MacOS systems, but its interfaces are easily extensible to both Windows and Linux.\nPlease note that “SafeUpdater” is not intended to be used as a general-purpose package, but as a reference design illustrating how update mechanisms can be built around explicit threat models and concrete attack mitigations.\n⚠️ T…",
+          "link": "https://blog.doyensec.com/2026/02/16/electron-safe-updater.html",
+          "publishedOn": "2026-02-15T23:00:00.000Z",
+          "wordCount": 3466,
+          "title": "Building a Secure Electron Auto-Updater",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/02/03/outline-audit-q32025.html",
           "author": null,
           "description": "In July 2025, we performed a brief audit of Outline - an OSS wiki similar in many ways to Notion. This activity was meant to evaluate the overall posture of the application, and involved two researchers for a total of 60 person-days. In parallel, we thought it would be a valuable firsthand experience to use three AI security platforms to perform an audit on the very same codebase. Given that all issues are now fixed, we believe it would be interesting to provide an overview of our effort and a few interesting findings and considerations.\n\"Generate an image that well describes the content of this blog post\"\n\nDisclaimer: Outline\nWhile this activity was not sufficient to evaluate the entirety of the Outline codebase, we believe we have a good understanding of its quality and resilience. The s…",
@@ -14219,6 +14229,36 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1605966",
+          "author": "IT Experts",
+          "description": "DNS over HTTPS (DoH) is a protocol that encrypts Domain Name System (DNS) queries and transmits them over HTTPS. This security enhancement prevents eavesdropping and manipulation of DNS traffic, addressing fundamental vulnerabilities in traditional DNS infrastructure that operates in plaintext. The DoH architecture consists of two components: the client, which initiates encrypted DNS queries, and the resolver (or server), which processes them. Windows has supported DoH on the client side since Windows 11. While Windows 10 includes the underlying client support in later builds (Insider Preview 19628 and later), it does not expose this functionality in the Settings app and requires manual Registry configuration, making it effectively unsupported for most users.\nSource",
+          "link": "https://4sysops.com/archives/enable-doh-dns-over-https-in-windows-server-2025-dns-server-configure-windows-11-dns-clients/",
+          "publishedOn": "2026-02-16T15:32:16.000Z",
+          "wordCount": null,
+          "title": "Enable DoH (DNS over HTTPS) in Windows Server 2025 DNS server, configure Windows 11 DNS clients",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1606170",
+          "author": "IT Experts",
+          "description": "WebMCP is a proposed web standard that enables websites to expose structured, callable tools directly to AI agents through a new browser API. Developed jointly by engineers at Google and Microsoft and incubated through the W3C's Web Machine Learning Community Group, WebMCP allows you to wrap your existing client-side JavaScript logic into agent-readable tools without re-architecting your web pages. Instead of AI agents relying on screen scraping or DOM manipulation to interact with websites, WebMCP provides a standardized way for agents to discover and invoke specific functions with defined schemas, ensuring more reliable and precise interactions.\nSource",
+          "link": "https://4sysops.com/archives/what-is-microsofts-and-googles-new-webmcp-standard/",
+          "publishedOn": "2026-02-16T13:21:23.000Z",
+          "wordCount": null,
+          "title": "What is Microsoft’s and Google’s new WebMCP standard?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1606209",
+          "author": "IT Experts",
+          "description": "Microsoft announced on February 12, 2026, a significant change to its Exchange Online PowerShell module: the deprecation of the -Credential parameter for the Connect-ExchangeOnline cmdlet. This change represents part of a broader initiative to enhance security across Microsoft 365 administrative interfaces by eliminating authentication methods that do not support multifactor authentication.\nSource",
+          "link": "https://4sysops.com/archives/exchange-online-deprecates-credential-parameter-in-connect-exchangeonline-powershell-cmdlet/",
+          "publishedOn": "2026-02-16T13:07:29.000Z",
+          "wordCount": null,
+          "title": "Exchange Online deprecates -Credential parameter in Connect-ExchangeOnline PowerShell cmdlet",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1606087",
           "author": "IT Experts",
@@ -14587,7 +14627,7 @@
     {
       "title": "Pen Test Partners",
       "feedUrl": "https://www.pentestpartners.com/feed/",
-      "siteUrl": "https://www.pentestpartners.com/",
+      "siteUrl": "https://uat.pentestpartners.com/",
       "articles": [
         {
           "id": "https://www.pentestpartners.com/?p=43491",
