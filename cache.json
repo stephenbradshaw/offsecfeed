@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=23402",
+          "author": "Lee Robinson",
+          "description": "TL;DR: Conditional Access is powerful but hard to reason about once policies start to overlap. CAPSlock is an offline Conditional Access analysis tool built on ROADrecon that helps you understand which policies apply, which might apply depending on signals during sign-in, and where enforcement falls apart. What are we talking about? After red teaming for […]\nThe post STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/02/17/stop-the-cap-making-entra-id-conditional-access-make-sense-offline/",
+          "publishedOn": "2026-02-17T17:05:00.000Z",
+          "wordCount": 7047,
+          "title": "STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/02/Screenshot-2026-02-10-at-1.51.13-PM.png"
+        },
+        {
           "id": "https://specterops.io/?p=23339",
           "author": "Liam D",
           "description": "TL;DR : This post aims to introduce readers to the anatomy and detection of JavaScript memory corruption exploits that target Google Chrome’s V8 JavaScript engine. We’ll dive into the primitives attackers need during the first stage of a Chrome full-chain exploit and what artifacts these primitives leave behind in memory. It is these artifacts that defenders […]\nThe post V8 Heap Archaeology: Finding Exploitation Artifacts in Chrome’s Memory appeared first on SpecterOps.",
@@ -13904,26 +13914,6 @@
           "wordCount": 2034,
           "title": "When Guardrails Aren't Enough: Reinventing Agentic AI Security With Architectural Controls",
           "imageUrl": null
-        },
-        {
-          "id": "3d9e6f24-f38a-464e-ad0b-5d463ed8acd6",
-          "author": null,
-          "description": "MCP Bridge Upgrade",
-          "link": "https://www.nccgroup.com/research-blog/mcp-bridge-upgrade/",
-          "publishedOn": "2026-01-19T01:03:49.121Z",
-          "wordCount": 1928,
-          "title": "MCP Bridge Upgrade",
-          "imageUrl": null
-        },
-        {
-          "id": "88f58a77-60b6-47f1-aa0c-ba51e8370f32",
-          "author": null,
-          "description": "Black Hole of Trust: SEO Poisoning in Silver Fox’s Space Odyssey",
-          "link": "https://www.nccgroup.com/research-blog/black-hole-of-trust-seo-poisoning-in-silver-fox-s-space-odyssey/",
-          "publishedOn": "2026-01-19T01:03:40.078Z",
-          "wordCount": 1917,
-          "title": "Black Hole of Trust: SEO Poisoning in Silver Fox’s Space Odyssey",
-          "imageUrl": null
         }
       ]
     },
@@ -13932,6 +13922,16 @@
       "feedUrl": "https://www.praetorian.com/blog/feed/",
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
+        {
+          "id": "https://www.praetorian.com/?p=9409",
+          "author": "Justin Copeland",
+          "description": "TL;DR – MCP servers – the integration layer connecting AI assistants to external tools and data – are a significant and underexplored attack surface. Our research demonstrates that both locally hosted and third-party MCP servers can be exploited to execute arbitrary code, exfiltrate sensitive data, and manipulate user behavior, often with zero indication to the […]\nThe post MCP Server Security: The Hidden AI Attack Surface appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/mcp-server-security-the-hidden-ai-attack-surface/",
+          "publishedOn": "2026-02-17T15:25:06.000Z",
+          "wordCount": 4318,
+          "title": "MCP Server Security: The Hidden AI Attack Surface",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/MCP-HIdden-AI-Attack-Surface-Blog-Hero.png"
+        },
         {
           "id": "https://www.praetorian.com/?p=9388",
           "author": "Justin Copeland",
@@ -14134,18 +14134,7 @@
       "title": "Sean Heelan's Blog",
       "feedUrl": "https://sean.heelan.io/feed/",
       "siteUrl": "https://sean.heelan.io",
-      "articles": [
-        {
-          "id": "http://sean.heelan.io/?p=3330",
-          "author": "seanhn",
-          "description": "Recently I ran an experiment where I built agents on top of Opus 4.5 and GPT-5.2 and then challenged them to write exploits for a zeroday vulnerability in the QuickJS Javascript interpreter. I added a variety of modern exploit mitigations, various constraints (like assuming an unknown heap starting state, or forbidding hardcoded offsets in the […]",
-          "link": "https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/",
-          "publishedOn": "2026-01-18T20:51:55.000Z",
-          "wordCount": 5097,
-          "title": "On the Coming Industrialisation of Exploit Generation with LLMs",
-          "imageUrl": "https://sean.heelan.io/wp-content/uploads/2009/05/cropped-oxford_7602.jpg?w=200"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Exodus Intelligence",
@@ -14229,6 +14218,36 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1606282",
+          "author": "IT Experts",
+          "description": "The Windows January 2026 security update introduces security hardening that restricts applications from autofilling credentials in Windows authentication dialogs, affecting remote support tools, automated authentication workflows, and screen-sharing applications. This change addresses CVE-2026-20804, a Windows Hello vulnerability that allows biometric injection attacks.\nSource",
+          "link": "https://4sysops.com/archives/autofill-credentials-into-the-windows-authentication-dialog-fails/",
+          "publishedOn": "2026-02-17T16:33:09.000Z",
+          "wordCount": null,
+          "title": "Autofill credentials into the Windows authentication dialog fails",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1606165",
+          "author": "IT Experts",
+          "description": "ChatGPT Lockdown Mode is an advanced security setting designed to protect organizations against prompt-injection-based data exfiltration attacks. Introduced by OpenAI in February 2026, you can enable this optional feature through workspace settings if you manage enterprise ChatGPT accounts.\nSource",
+          "link": "https://4sysops.com/archives/how-to-enable-chatgpt-lockdown-mode-for-enterprise-security/",
+          "publishedOn": "2026-02-17T16:31:54.000Z",
+          "wordCount": null,
+          "title": "How to enable ChatGPT Lockdown Mode for enterprise security",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1605975",
+          "author": "IT Experts",
+          "description": "Microsoft released service update 2601 for Intune. The update introduces Endpoint Privilege Management support for Azure Virtual Desktop, brings admin tasks to general availability, and adds Lenovo Device Orchestration integration. Key configuration updates include new Windows settings catalog policies for Microsoft Edge version 143 and Google Chrome version 141, expanded Android Enterprise management mode filtering, and Zimperium Mobile Threat Defense certificate inventory integration for iOS devices.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-intune-february-2026-update-endpoint-privilege-management-for-azure-virtual-desktop-and-admin-tasks/",
+          "publishedOn": "2026-02-17T12:34:11.000Z",
+          "wordCount": null,
+          "title": "Microsoft Intune February 2026 update: Endpoint Privilege Management for Azure Virtual Desktop and admin tasks",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1605966",
           "author": "IT Experts",
