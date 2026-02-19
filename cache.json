@@ -335,7 +335,18 @@
       "title": "Active Directory & Azure AD/Entra ID Security",
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://adsecurity.org/?p=4955",
+          "author": "Sean Metcalf",
+          "description": "There are two main password attacks leveraged by adversaries; one is called Password Spraying and the other is called Kerberoasting. This post focuses on identifying accounts that may be targeted for Kerberoasting and how to harden the environment against Kerberoasting. Password spraying involves the attacker using a list of passwords and for each password attempts … \nContinue reading",
+          "link": "https://adsecurity.org/?p=4955",
+          "publishedOn": "2026-01-21T01:17:00.000Z",
+          "wordCount": 1845,
+          "title": "Active Directory Security Tip #16: Mitigating Kerberoast Attacks",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Tyranid's Lair",
@@ -402,17 +413,6 @@
           "title": "Pwn2Own Automotive 2026 - Day One Results",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:696c7566cc72a54f2744b9e8",
-          "author": "Dustin Childs",
-          "description": "おかえりなさい (Welcome back!) The third annual Pwn2Own Automotive competition has returned to Automotive World in Tokyo, and the excitement is building. This year marks a major milestone for Pwn2Own, with a record 73 entries. We’ve brought together some of the world’s most talented security researchers to take on the latest automotive components, pushing them to their limits in a real-world testing environment.\nEarlier today, we held the random drawing to determine the order of attempts, setting the stage for an exciting lineup of demonstrations and discoveries. Below is the official schedule based on that draw. All times are listed in Tokyo local time and may change as the competition progresses - updates will be posted as the event unfolds.\nIn case you missed it, you can watch the draw here. \n…",
-          "link": "https://www.thezdi.com/blog/2026/1/20/pwn2own-automotive-2026-the-full-schedule",
-          "publishedOn": "2026-01-20T10:25:51.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Automotive 2026 - The Full Schedule",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -445,6 +445,26 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "3d9e6f24-f38a-464e-ad0b-5d463ed8acd6",
+          "author": null,
+          "description": "MCP Bridge Upgrade",
+          "link": "https://www.nccgroup.com/research-blog/mcp-bridge-upgrade/",
+          "publishedOn": "2026-02-19T01:14:41.670Z",
+          "wordCount": 1975,
+          "title": "MCP Bridge Upgrade",
+          "imageUrl": null
+        },
+        {
+          "id": "88f58a77-60b6-47f1-aa0c-ba51e8370f32",
+          "author": null,
+          "description": "Black Hole of Trust: SEO Poisoning in Silver Fox’s Space Odyssey",
+          "link": "https://www.nccgroup.com/research-blog/black-hole-of-trust-seo-poisoning-in-silver-fox-s-space-odyssey/",
+          "publishedOn": "2026-02-19T01:14:33.773Z",
+          "wordCount": 1964,
+          "title": "Black Hole of Trust: SEO Poisoning in Silver Fox’s Space Odyssey",
+          "imageUrl": null
+        },
         {
           "id": "a870dfef-e5c2-4d36-b53f-c6f564be8285",
           "author": null,
@@ -13904,16 +13924,6 @@
           "wordCount": 1935,
           "title": "A Look at RTEMS Security",
           "imageUrl": null
-        },
-        {
-          "id": "d443284b-8788-4599-b228-70a423cab6f8",
-          "author": null,
-          "description": "David Brauchler III delivers a fascinating Black Hat talk on the root cause of AI-based vulnerabilities and why security architecture is the real solution.",
-          "link": "https://www.nccgroup.com/research-blog/when-guardrails-arent-enough-reinventing-agentic-ai-security-with-architectural-controls/",
-          "publishedOn": "2026-01-20T00:58:45.048Z",
-          "wordCount": 2034,
-          "title": "When Guardrails Aren't Enough: Reinventing Agentic AI Security With Architectural Controls",
-          "imageUrl": null
         }
       ]
     },
@@ -14109,6 +14119,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
+          "author": null,
+          "description": "Two popular AES libraries, aes-js and pyaes, “helpfully” provide a default IV in their AES-CTR API, leading to a large number of key/IV reuse bugs. These bugs potentially affect thousands of downstream projects. When we shared one of these bugs with an affected vendor, strongSwan, the maintainer provided a model response for security vendors. The aes-js/pyaes maintainer, on the other hand, has taken a more… cavalier approach.\nTrail of Bits doesn’t usually make a point of publicly calling out specific products as unsafe. Our motto is that we don’t just fix bugs—we fix software. We do better by the world when we work to address systemic threats, not individual bugs. That’s why we work to provide static analysis tools, auditing tools, and documentation for folks looking to implement cryptogra…",
+          "link": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
+          "publishedOn": "2026-02-18T12:00:00.000Z",
+          "wordCount": 2070,
+          "title": "Carelessness versus craftsmanship in cryptography",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/",
           "author": null,
           "description": "Last year, our engineers submitted over 375 pull requests that were merged into non–Trail of Bits repositories, touching more than 90 projects from cryptography libraries to the Rust compiler.\nThis work reflects one of our driving values: “share what others can use.” The measure isn’t whether you share something, but whether it’s actually useful to someone else. This principle is why we publish handbooks, write blog posts, and release tools like Claude skills, Slither, Buttercup, and Anamorpher.\nBut this value isn’t limited to our own projects; we also share our efforts with the wider open-source community. When we hit limitations in tools we depend on, we fix them upstream. When we find ways to make the software ecosystem more secure, we contribute those improvements.\nMost of these contri…",
@@ -14218,6 +14238,36 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1606381",
+          "author": "IT Experts",
+          "description": "Microsoft has published its planned team investments for PowerShell 7.7, Windows OpenSSH, and Desired State Configuration (DSC) v3.2. The roadmap for PowerShell 7.7 includes relocating PSUserContentPath, non-profile-based module loading, Bash-style aliases, and a Model Context Protocol (MCP) server. For Windows OpenSSH, the primary addition under evaluation is support for Entra ID authentication. Desired State Configuration (DSC) v3.2 will include a new Python adapter to enable the creation of DSC resources on Linux.\nSource",
+          "link": "https://4sysops.com/archives/new-features-in-powershell-77-windows-openssh-and-desired-state-configuration-dsc-v32/",
+          "publishedOn": "2026-02-18T15:01:19.000Z",
+          "wordCount": null,
+          "title": "New features in PowerShell 7.7, Windows OpenSSH, and Desired State Configuration (DSC) v3.2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1605985",
+          "author": "IT Experts",
+          "description": "Autonomous AI agents can perform complex tasks without human intervention, but face a critical challenge: how can they trust agents from other organizations? ERC-8004, developed by teams from the Ethereum Foundation, Google, Coinbase, and MetaMask, addresses this by providing a decentralized identity, reputation, and verification system for AI agents. Launched on Ethereum mainnet on January 29, 2026, the standard enables agents to discover reliable service providers and verify past performance. Over 20,000 AI agents were deployed across multiple blockchains within the first two weeks.\nSource",
+          "link": "https://4sysops.com/archives/what-is-erc-8004-ai-agents-build-trust-using-blockchain-technology/",
+          "publishedOn": "2026-02-18T15:00:25.000Z",
+          "wordCount": null,
+          "title": "What is ERC-8004? AI agents build trust using blockchain technology",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1606400",
+          "author": "IT Experts",
+          "description": "Microsoft released KB5077868 on February 16, 2026, to resolve a TrustedInstaller deadlock bug that causes Windows 11, version 26H1, to hang during the out-of-box experience (OOBE). The fix is delivered automatically as an OOBE update when the device has an active internet connection at first boot. No restart is required after applying the update, and Microsoft reports no known issues with KB5077868.\nSource",
+          "link": "https://4sysops.com/archives/kb5077868-fixes-trustedinstaller-deadlock-causing-windows-11-oobe-boot-hang-after-update/",
+          "publishedOn": "2026-02-18T14:58:32.000Z",
+          "wordCount": null,
+          "title": "KB5077868 fixes TrustedInstaller deadlock, causing Windows 11 OOBE boot hang after update",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1606282",
           "author": "IT Experts",
@@ -14566,26 +14616,6 @@
           "publishedOn": "2026-01-20T16:44:31.000Z",
           "wordCount": null,
           "title": "How to use ExcludeFromAllHolds to remove retention holds from inactive mailboxes in Exchange Online",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1605034",
-          "author": "IT Experts",
-          "description": "Microsoft released Windows 11 Insider Preview Build 26220.7653 (KB5074157) to the Beta Channel on January 16, 2026. This update introduces modernized user interface elements with dark mode support, enhanced desktop background options, and multiple performance fixes. The build is based on Windows 11 version 25H2 and includes changes that are gradually rolling out to Insiders who enable the toggle for the latest updates in Settings > Windows Update.\nSource",
-          "link": "https://4sysops.com/archives/windows-11-insider-preview-build-262207653-kb5074157-brings-dark-mode-improvements-and-performance-fixes/",
-          "publishedOn": "2026-01-19T14:15:17.000Z",
-          "wordCount": null,
-          "title": "Windows 11 Insider Preview Build 26220.7653 (KB5074157) brings dark mode improvements and performance fixes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1604949",
-          "author": "IT Experts",
-          "description": "Microsoft is expanding Windows Backup for Organizations with a first-sign-in restore feature that lets you recover Windows settings and Microsoft Store apps immediately after logging in on Windows 11 devices. This new capability, currently in private preview, provides a safety net for users who miss or encounter issues during the initial device setup process.\nSource",
-          "link": "https://4sysops.com/archives/first-sign-in-restore-for-windows-backup-for-organizations/",
-          "publishedOn": "2026-01-19T14:06:02.000Z",
-          "wordCount": null,
-          "title": "First sign-in restore for Windows Backup for Organizations",
           "imageUrl": null
         }
       ]
