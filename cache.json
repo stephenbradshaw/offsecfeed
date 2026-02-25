@@ -130,16 +130,6 @@
           "wordCount": 2945,
           "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
           "imageUrl": null
-        },
-        {
-          "id": "https://projectzero.google/2026/26/windows-administrator-protection.html",
-          "author": null,
-          "description": "A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC. I’ll then describe some of the security research I undertook while it was in the insider preview builds on Windows 11. Finally I’ll detail one of the nine separate vulnerabilities that I found to bypass the feature to silently gain full administrator privileges. All the issues that I reported to Microsoft have been fixed, either prior to the feature being officially released (in optional update KB5067036) or as subsequent security bulletins. Note: As of 1st December 2025 the Administrator Protection feature has been disabled by Microsoft while an application compatibility issue is dealt with. The issue is unlikely to be related to anything described in this blog post so the analysis doesn’t change.",
-          "link": "https://projectzero.google/2026/26/windows-administrator-protection.html",
-          "publishedOn": "2026-01-26T08:00:00.000Z",
-          "wordCount": 4601,
-          "title": "Bypassing Windows Administrator Protection",
-          "imageUrl": null
         }
       ]
     },
@@ -391,6 +381,26 @@
       "feedUrl": "https://www.nccgroup.com/us/research-blog/feed/",
       "siteUrl": "https://www.nccgroup.com/",
       "articles": [
+        {
+          "id": "e5c621aa-6738-4c1d-a9d1-2506eef72360",
+          "author": null,
+          "description": "Azure Fabric Backdoor With A Twist",
+          "link": "https://www.nccgroup.com/research-blog/azure-fabric-backdoor-with-a-twist/",
+          "publishedOn": "2026-02-25T01:16:54.557Z",
+          "wordCount": 4639,
+          "title": "Azure Fabric Backdoor With A Twist",
+          "imageUrl": null
+        },
+        {
+          "id": "24384eed-4475-407b-abef-d541a7bea0b8",
+          "author": null,
+          "description": "State of the Art of Private Key Security in Blockchain Ops - 4. Approvals\nand Policies",
+          "link": "https://www.nccgroup.com/research-blog/state-of-the-art-of-private-key-security-in-blockchain-ops-4-approvals-and-policies/",
+          "publishedOn": "2026-02-25T01:16:47.840Z",
+          "wordCount": 3794,
+          "title": "State of the Art of Private Key Security in Blockchain Ops - 4. Approvals and Policies",
+          "imageUrl": null
+        },
         {
           "id": "413e3ca1-eead-47c1-9b7b-b6fc54638306",
           "author": null,
@@ -14175,6 +14185,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1606684",
+          "author": "IT Experts",
+          "description": "Windows 10 Enterprise LTSB 2016 reaches end of support (EOS) on October 13, 2026, after which Microsoft will stop delivering security updates, bug fixes, and technical support. Organizations that cannot migrate to a newer release by that date can purchase Extended Security Updates (ESU), a paid program that provides critical security patches for up to three years. ESU licenses for LTSB 2016 will be sold through Volume Licensing or a Cloud Solution Provider (CSP) starting in Q2 2026. Activation is performed using a Multiple Activation Key (MAK) and the slmgr.vbs command-line tool.\nSource",
+          "link": "https://4sysops.com/archives/windows-10-enterprise-ltsb-2016-end-of-support-activate-extended-security-updates-esu/",
+          "publishedOn": "2026-02-24T15:34:25.000Z",
+          "wordCount": null,
+          "title": "Windows 10 Enterprise LTSB 2016 end of support: activate Extended Security Updates (ESU)",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1606673",
           "author": "Michael Pietroforte",
           "description": "OpenAI, once the undisputed leader of the generative AI boom, is now caught in a convergence of technical, competitive, financial, and trust crises that threaten its long-term survival. This is a shortened version of my article, the OpenAI Bubble.\nSource",
@@ -14645,6 +14665,16 @@
       "siteUrl": "https://uat.pentestpartners.com/",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=43769",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Introduction   I’m a huge fan of micro generation and domestic power storage batteries. However, as we dash for net zero, one of the ways to balance the grid is to capitalise on EV batteries and their large capacity to store power.  BUT  To take advantage of their capacity, we need bidirectional EV chargers and vehicles […]\nThe post EV batteries as grid infrastructure and the security risk that follows  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/ev-batteries-as-grid-infrastructure-and-the-security-risk-that-follows/",
+          "publishedOn": "2026-02-24T12:26:10.000Z",
+          "wordCount": 2168,
+          "title": "EV batteries as grid infrastructure and the security risk that follows",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/02/Shellys-AP-mode-and-the-garage-you-thought-was-secure-headlinev2-1024x576.png"
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=43491",
           "author": "Alex Wallace",
           "description": "TL;DR Introduction I love my Shelly devices. They are an essential part of my smart home setup. I use them for everything from lights and plugs to garage doors and garden sprinkler control! One of the first Shelly devices I installed about five years ago recently stopped working, so I replaced it with one of […]\nThe post Shelly IoT door controller config fail: leaving your garage, home and security exposed appeared first on Pen Test Partners.",
@@ -14858,6 +14888,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/samsung-tizen-os-version-through-9-0",
+          "author": null,
+          "description": "Bishop Fox identified a low-risk command injection flaw in Samsung Tizen OS (through 9.0) that allows OS-level code execution on smart TVs with developer mode enabled. Exploitation requires local access and the configured developer IP. Organizations should disable developer mode or use kiosk mode.",
+          "link": "https://bishopfox.com/blog/samsung-tizen-os-version-through-9-0",
+          "publishedOn": "2026-02-24T14:00:00.000Z",
+          "wordCount": 2952,
+          "title": "Samsung Tizen OS | Version Through 9.0",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Advisory-Samsung-Tizen-OS_600x314.jpg?mtime=1771964518"
+        },
         {
           "id": "https://bishopfox.com/blog/ai-security-risks-reviewing-governance-and-guardrails",
           "author": null,
