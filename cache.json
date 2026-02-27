@@ -122,6 +122,16 @@
       "siteUrl": "https://projectzero.google/",
       "articles": [
         {
+          "id": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
+          "author": null,
+          "description": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an idea of how long the API has existed as well as its security properties. The documentation’s remarks contain the following three statements that I thought were interesting: If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller. GetProcessHandleFromHwnd is a convenience function that uses this technique to obtain the handle of the process that owns the specified HWND. Note that it only succeeds in cases where the caller and target process are running as the same user.",
+          "link": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
+          "publishedOn": "2026-02-26T08:00:00.000Z",
+          "wordCount": 3150,
+          "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
+          "imageUrl": null
+        },
+        {
           "id": "https://projectzero.google/2026/02/windows-administrator-protection.html",
           "author": null,
           "description": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues, specifically the implementation of UI Access, how this has been a long standing problem with UAC that’s been under-appreciated, and how it’s being fixed now. A Question of Accessibility Prior to Windows Vista any process running on a user’s desktop could control any window created by another, such as by sending window messages. This behavior could be abused if a privileged user, such as SYSTEM, displayed a user interface on the desktop. A limited user could control the UI and potentially elevate privileges. This was referred to as a Shatter Attack, and was usually fixed by removing user interface components from privileged code.",
@@ -13889,6 +13899,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=10082",
+          "author": "Justin Copeland",
+          "description": "The CVE Researcher is a multi-agent AI pipeline that automates vulnerability research, detection template generation, and exploitation analysis. Built on Google’s Agent Development Kit (ADK), it coordinates specialized AI models through four phases — deep research, technology reconnaissance, actor-critic template generation, and exploitation analysis — to produce production-ready Nuclei detection templates overnight. Beyond Simple Automation […]\nThe post How AI Agents Automate CVE Vulnerability Research appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/how-ai-agents-automate-cve-vulnerability-research/",
+          "publishedOn": "2026-02-26T20:05:02.000Z",
+          "wordCount": 3752,
+          "title": "How AI Agents Automate CVE Vulnerability Research",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/inside-the-cve-researcher.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=10026",
           "author": "Justin Copeland",
           "description": "The Vulnerability Time Gap When CISA adds a new CVE to the Known Exploited Vulnerabilities catalog, a clock starts ticking. Security teams must understand the vulnerability, determine if they are exposed, and deploy detection mechanisms before adversaries weaponize the flaw. This process traditionally takes days or weeks of manual research by skilled security engineers who […]\nThe post AI-Powered CVE Research: Winning the Race Against Emerging Vulnerabilities appeared first on Praetorian.",
@@ -14204,6 +14224,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1606860",
+          "author": "IT Experts",
+          "description": "Microsoft released version 2602 of the Security Baseline for Windows Server 2025, approximately eight months after the previous version 2506. The update adds 10 new Group Policy settings and removes one, focusing on NTLM auditing, printer security, and authentication hardening. Most of the new policies were already included in the Windows 11 Security Baselines since 2022 and are now being backported to the server edition. The baseline is available as part of the Microsoft Security Compliance Toolkit 1.0.\nSource",
+          "link": "https://4sysops.com/archives/windows-server-2025-security-baseline-2602-10-new-settings/",
+          "publishedOn": "2026-02-26T12:55:12.000Z",
+          "wordCount": 5277,
+          "title": "Windows Server 2025 security baseline 2602: 10 new settings",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Windows-Server-2025-Security-Baseline.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1606870",
+          "author": "IT Experts",
+          "description": "Microsoft Defender for Endpoint has received a set of new features and enhancements in February 2026, covering live response management, configuration visibility, vulnerability reporting, and predictive threat mitigation. These updates span endpoints running Windows, macOS, Linux, Android, and iOS. This article covers the most significant additions to the Defender portal and their operational impact on security teams.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-defender-for-endpoint-library-management-for-live-response-vulnerability-reporting-predictive-shielding/",
+          "publishedOn": "2026-02-26T12:54:27.000Z",
+          "wordCount": 5423,
+          "title": "Microsoft Defender for Endpoint: library management for live response, vulnerability reporting, predictive shielding",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Details-of-a-software-component-(image-Microsoft).png"
+        },
         {
           "id": "https://4sysops.com/?p=1606807",
           "author": "IT Experts",
@@ -14593,26 +14633,6 @@
           "wordCount": null,
           "title": "Microsoft Entra ID auto-enables passkey profiles in March 2026",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1605172",
-          "author": "IT Experts",
-          "description": "Microsoft has introduced trust-based enhancements to the Teams Admin Center (TAC), designed to simplify app security and compliance management for IT administrators. These updates, known as Trust Through Certification, enable you to quickly identify trusted applications, enforce organizational standards, and streamline governance workflows through features such as \"apps to consider allowing,\" security compliance filters, and Microsoft-certified app collections. The enhancements build on existing foundational features while adding dedicated trust indicators that consolidate security signals in a centralized dashboard. You can now evaluate apps based on industry-standard certifications without leaving the Teams Admin Center, reducing the time spent on manual reviews and cross-checking vendor documentation.\nSource",
-          "link": "https://4sysops.com/archives/trust-through-certification-tac-for-microsoft-teams-apps-to-consider-allowing-compliance-filter-microsoft-certified-apps-collections/",
-          "publishedOn": "2026-01-27T15:41:02.000Z",
-          "wordCount": null,
-          "title": "Trust Through Certification (TAC) for Microsoft Teams: Apps to consider allowing, compliance filter, Microsoft certified apps collections",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1604441",
-          "author": "IT Experts",
-          "description": "Microsoft Entra Connect will enforce new security hardening measures starting March 2026 to prevent SyncJacking, a sophisticated attack technique that exploits synchronization mechanisms to hijack privileged accounts in hybrid identity environments.\nSource",
-          "link": "https://4sysops.com/archives/blocking-user-syncjacking-account-hijacking-in-microsoft-entra-connect/",
-          "publishedOn": "2026-01-27T15:30:38.000Z",
-          "wordCount": null,
-          "title": "Blocking user SyncJacking (account hijacking) in Microsoft Entra Connect",
-          "imageUrl": null
         }
       ]
     },
@@ -14621,6 +14641,16 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10336",
+          "author": "adam",
+          "description": "Windows 11 brings us a lot of new Shim-related goodies and it makes sense to cover at least some of them. In the second part of this series I listed a number of process names that are treated in a … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/02/26/shimbad-the-sailor-part-3/",
+          "publishedOn": "2026-02-26T01:16:00.000Z",
+          "wordCount": 648,
+          "title": "ShimBad the Sailor, Part 3",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=10333",
           "author": "adam",
@@ -14723,16 +14753,6 @@
           "wordCount": 2104,
           "title": "Movie breakdown: Hackers (1995)",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/01/hack-the-planet-headlinev3-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=43204",
-          "author": "Alex Wallace",
-          "description": "TL;DR   Introduction   Cloud compliance frameworks are a good place to start. Dashboards that show how your estate compares to benchmarks like CIS and vendor-specific best practice checks are available from most major cloud providers. These tools let teams quickly see how clean their configurations are and how easy it is to spot obvious gaps. But […]\nThe post Beyond cloud compliance dashboards, what’s next?  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/beyond-cloud-compliance-dashboards-whats-next/",
-          "publishedOn": "2026-01-27T16:00:00.000Z",
-          "wordCount": 2180,
-          "title": "Beyond cloud compliance dashboards, what’s next?",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2025/11/Beyond-cloud-compliance-dashboards-whats-nextv4.png"
         }
       ]
     },
@@ -14908,6 +14928,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/introducing-cloudfox-gcp-attack-path-identification-for-google-cloud",
+          "author": null,
+          "description": "Meet CloudFox GCP, an offensive security tool built to map identities, enumerate resources, and uncover real attack paths in Google Cloud. Designed for practitioners, it exposes privilege escalation, lateral movement, and data exfiltration risks so you can secure GCP before attackers exploit it.",
+          "link": "https://bishopfox.com/blog/introducing-cloudfox-gcp-attack-path-identification-for-google-cloud",
+          "publishedOn": "2026-02-26T14:00:00.000Z",
+          "wordCount": 3727,
+          "title": "Introducing CloudFox GCP: Attack Path Identification for Google Cloud",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_CloudFox-GCP-Attack-Path_Blog.png?mtime=1771966580"
+        },
         {
           "id": "https://bishopfox.com/blog/samsung-tizen-os-version-through-9-0",
           "author": null,

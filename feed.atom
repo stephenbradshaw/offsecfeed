@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-26T01:10:48.002Z</updated>
+    <updated>2026-02-27T01:09:08.755Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How AI Agents Automate CVE Vulnerability Research]]></title>
+        <id>https://www.praetorian.com/?p=10082</id>
+        <link href="https://www.praetorian.com/blog/how-ai-agents-automate-cve-vulnerability-research/"/>
+        <updated>2026-02-26T20:05:02.000Z</updated>
+        <summary type="html"><![CDATA[The CVE Researcher is a multi-agent AI pipeline that automates vulnerability research, detection template generation, and exploitation analysis. Built on Google’s Agent Development Kit (ADK), it coordinates specialized AI models through four phases — deep research, technology reconnaissance, actor-critic template generation, and exploitation analysis — to produce production-ready Nuclei detection templates overnight. Beyond Simple Automation […]
+The post How AI Agents Automate CVE Vulnerability Research appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Justin Copeland</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing CloudFox GCP: Attack Path Identification for Google Cloud]]></title>
+        <id>https://bishopfox.com/blog/introducing-cloudfox-gcp-attack-path-identification-for-google-cloud</id>
+        <link href="https://bishopfox.com/blog/introducing-cloudfox-gcp-attack-path-identification-for-google-cloud"/>
+        <updated>2026-02-26T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet CloudFox GCP, an offensive security tool built to map identities, enumerate resources, and uncover real attack paths in Google Cloud. Designed for practitioners, it exposes privilege escalation, lateral movement, and data exfiltration risks so you can secure GCP before attackers exploit it.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Server 2025 security baseline 2602: 10 new settings]]></title>
+        <id>https://4sysops.com/?p=1606860</id>
+        <link href="https://4sysops.com/archives/windows-server-2025-security-baseline-2602-10-new-settings/"/>
+        <updated>2026-02-26T12:55:12.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft released version 2602 of the Security Baseline for Windows Server 2025, approximately eight months after the previous version 2506. The update adds 10 new Group Policy settings and removes one, focusing on NTLM auditing, printer security, and authentication hardening. Most of the new policies were already included in the Windows 11 Security Baselines since 2022 and are now being backported to the server edition. The baseline is available as part of the Microsoft Security Compliance Toolkit 1.0.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Defender for Endpoint: library management for live response, vulnerability reporting, predictive shielding]]></title>
+        <id>https://4sysops.com/?p=1606870</id>
+        <link href="https://4sysops.com/archives/microsoft-defender-for-endpoint-library-management-for-live-response-vulnerability-reporting-predictive-shielding/"/>
+        <updated>2026-02-26T12:54:27.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Defender for Endpoint has received a set of new features and enhancements in February 2026, covering live response management, configuration visibility, vulnerability reporting, and predictive threat mitigation. These updates span endpoints running Windows, macOS, Linux, Android, and iOS. This article covers the most significant additions to the Defender portal and their operational impact on security teams.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Deep Dive into the GetProcessHandleFromHwnd API]]></title>
+        <id>https://projectzero.google/2026/02/gphfh-deep-dive.html</id>
+        <link href="https://projectzero.google/2026/02/gphfh-deep-dive.html"/>
+        <updated>2026-02-26T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an idea of how long the API has existed as well as its security properties. The documentation’s remarks contain the following three statements that I thought were interesting: If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller. GetProcessHandleFromHwnd is a convenience function that uses this technique to obtain the handle of the process that owns the specified HWND. Note that it only succeeds in cases where the caller and target process are running as the same user.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ShimBad the Sailor, Part 3]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10336</id>
+        <link href="https://www.hexacorn.com/blog/2026/02/26/shimbad-the-sailor-part-3/"/>
+        <updated>2026-02-26T01:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11 brings us a lot of new Shim-related goodies and it makes sense to cover at least some of them. In the second part of this series I listed a number of process names that are treated in a … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Buy A Help Desk, Bundle A Remote Access Solution? (SolarWinds Web Help Desk Pre-Auth RCE Chain(s))]]></title>
         <id>699f52782905d20001da6f79</id>
@@ -13326,39 +13389,6 @@ Source]]></summary>
         <summary type="html"><![CDATA[Explore how hardcoded SSH host keys in Tandberg Video Communication Server could expose systems to impersonation and MITM attacks.]]></summary>
         <author>
             <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond cloud compliance dashboards, what’s next?]]></title>
-        <id>https://www.pentestpartners.com/?p=43204</id>
-        <link href="https://www.pentestpartners.com/security-blog/beyond-cloud-compliance-dashboards-whats-next/"/>
-        <updated>2026-01-27T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR   Introduction   Cloud compliance frameworks are a good place to start. Dashboards that show how your estate compares to benchmarks like CIS and vendor-specific best practice checks are available from most major cloud providers. These tools let teams quickly see how clean their configurations are and how easy it is to spot obvious gaps. But […]
-The post Beyond cloud compliance dashboards, what’s next?  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trust Through Certification (TAC) for Microsoft Teams: Apps to consider allowing, compliance filter, Microsoft certified apps collections]]></title>
-        <id>https://4sysops.com/?p=1605172</id>
-        <link href="https://4sysops.com/archives/trust-through-certification-tac-for-microsoft-teams-apps-to-consider-allowing-compliance-filter-microsoft-certified-apps-collections/"/>
-        <updated>2026-01-27T15:41:02.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has introduced trust-based enhancements to the Teams Admin Center (TAC), designed to simplify app security and compliance management for IT administrators. These updates, known as Trust Through Certification, enable you to quickly identify trusted applications, enforce organizational standards, and streamline governance workflows through features such as "apps to consider allowing," security compliance filters, and Microsoft-certified app collections. The enhancements build on existing foundational features while adding dedicated trust indicators that consolidate security signals in a centralized dashboard. You can now evaluate apps based on industry-standard certifications without leaving the Teams Admin Center, reducing the time spent on manual reviews and cross-checking vendor documentation.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blocking user SyncJacking (account hijacking) in Microsoft Entra Connect]]></title>
-        <id>https://4sysops.com/?p=1604441</id>
-        <link href="https://4sysops.com/archives/blocking-user-syncjacking-account-hijacking-in-microsoft-entra-connect/"/>
-        <updated>2026-01-27T15:30:38.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft Entra Connect will enforce new security hardening measures starting March 2026 to prevent SyncJacking, a sophisticated attack technique that exploits synchronization mechanisms to hijack privileged accounts in hybrid identity environments.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>
