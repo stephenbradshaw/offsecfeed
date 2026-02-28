@@ -13909,6 +13909,16 @@
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/inside-the-cve-researcher.webp"
         },
         {
+          "id": "https://www.praetorian.com/?p=10167",
+          "author": "Justin Copeland",
+          "description": "Nerva is a high-performance, open-source CLI tool that identifies what services are running on open network ports. It fingerprints 120+ protocols across TCP, UDP, and SCTP, averaging 4x faster than nmap -sV with 99% detection accuracy. Written in Go as a single binary, Nerva helps security teams rapidly move from port discovery to service identification. […]\nThe post What’s Running on That Port? Introducing Nerva for Service Fingerprinting appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/whats-running-on-that-port-introducing-nerva-for-service-fingerprinting/",
+          "publishedOn": "2026-02-26T19:04:41.000Z",
+          "wordCount": 3919,
+          "title": "What’s Running on That Port? Introducing Nerva for Service Fingerprinting",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/Nerva-Blog-hero.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=10026",
           "author": "Justin Copeland",
           "description": "The Vulnerability Time Gap When CISA adds a new CVE to the Known Exploited Vulnerabilities catalog, a clock starts ticking. Security teams must understand the vulnerability, determine if they are exposed, and deploy detection mechanisms before adversaries weaponize the flaw. This process traditionally takes days or weeks of manual research by skilled security engineers who […]\nThe post AI-Powered CVE Research: Winning the Race Against Emerging Vulnerabilities appeared first on Praetorian.",
@@ -14123,16 +14133,6 @@
           "wordCount": 3312,
           "title": "Celebrating our 2025 open-source contributions",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
-          "author": null,
-          "description": "Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signatures will fail, but whether we’re prepared for when they do.\nSigstore, an open-source ecosystem for software signing, recognized this challenge early but initially chose security over flexibility by adopting new cryptographic algorithms as older ones became obsolete. By hard coding ECDSA with P-256 curves and SHA-256 throughout its infrastructure, Sigstore avoided the dangerous pitfalls that have …",
-          "link": "https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/",
-          "publishedOn": "2026-01-29T12:00:00.000Z",
-          "wordCount": 1887,
-          "title": "Building cryptographic agility into Sigstore",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -14224,6 +14224,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1606962",
+          "author": "IT Experts",
+          "description": "Windows Server vNext Insider Preview build 29531 introduces ReFS boot, allowing you to install and start Windows Server from a Resilient File System (ReFS)-formatted boot volume for the first time. This feature brings integrity-level metadata checksums, online corruption repair, block cloning, and 35-petabyte volume scalability to the OS boot partition — capabilities that NTFS cannot match. ReFS boot requires UEFI firmware and a minimum of 2 GB for the WinRE partition. Learn how to enable Windows ReFS boot during Windows Server installation.\nSource",
+          "link": "https://4sysops.com/archives/enable-windows-refs-boot-install-windows-server-on-resilient-file-system-volumes/",
+          "publishedOn": "2026-02-27T13:57:24.000Z",
+          "wordCount": 4883,
+          "title": "Enable Windows ReFS boot: Install Windows Server on Resilient File System volumes",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Enable-ReFS-boot-on-Windows-Server-volume.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1606979",
+          "author": "IT Experts",
+          "description": "Microsoft Secure Boot certificates issued by the 2011 Certificate Authorities (CAs) are expiring starting June 2026. Every Windows device with Secure Boot enabled must be updated to trust the 2023 certificates before expiration to retain security update support. Microsoft provides a monitoring-only approach using Intune Remediations that runs a PowerShell detection script on enrolled devices and reports Secure Boot and certificate status back to the Intune admin center — without making any changes to devices. This article explains the prerequisites, deployment steps, data collected, and how to read the results.\nSource",
+          "link": "https://4sysops.com/archives/monitoring-secure-boot-certificate-installation-status-with-intune-and-powershell/",
+          "publishedOn": "2026-02-27T13:51:27.000Z",
+          "wordCount": 5402,
+          "title": "Monitoring Secure Boot certificate installation status with Intune and PowerShell",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Secure-Boot-Status-Monitor-(image-Microsoft).png"
+        },
         {
           "id": "https://4sysops.com/?p=1606860",
           "author": "IT Experts",
@@ -14613,26 +14633,6 @@
           "wordCount": null,
           "title": "Microsoft Teams licensing updates",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1605267",
-          "author": "IT Experts",
-          "description": "Specops Secure Access is a multi-factor authentication solution that adds a second authentication layer to Windows logon, Remote Desktop Protocol (RDP), and VPN connections in Active Directory environments. It is designed for on-premises or hybrid Active Directory environments and extends MFA to critical Windows access points without replacing Active Directory as the identity store. The solution addresses the growing vulnerability of password-based authentication and helps organizations fulfill compliance requirements for modern cybersecurity standards. It can also help organizations meet cybersecurity insurance requirements by strengthening access controls.\nSource",
-          "link": "https://4sysops.com/archives/specops-secure-access-multi-factor-authentication-mfa-for-remote-desktop-protocol-rdp-and-vpn-connections-in-active-directory/",
-          "publishedOn": "2026-01-28T13:35:19.000Z",
-          "wordCount": null,
-          "title": "Specops Secure Access: Multi-factor authentication (MFA) for Remote Desktop Protocol (RDP), and VPN connections in Active Directory",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1605185",
-          "author": "IT Experts",
-          "description": "Starting March 2026, Microsoft Entra ID will introduce passkey profiles and synced passkeys to general availability, enabling group-based authentication configurations with granular control over device-bound and synced passkeys. Microsoft will automatically enable passkey profiles for tenants that don't opt in during the initial rollout, with existing settings preserved to maintain their current security posture.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-entra-id-auto-enables-passkey-profiles-in-march-2026/",
-          "publishedOn": "2026-01-28T13:24:44.000Z",
-          "wordCount": null,
-          "title": "Microsoft Entra ID auto-enables passkey profiles in March 2026",
-          "imageUrl": null
         }
       ]
     },
@@ -14858,23 +14858,7 @@
       "title": "SentinelLabs - We are hunters, reversers, exploit developers, and tinkerers shedding light on the world of malware, exploits, APTs, and cybercrime across all platforms.",
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
-      "articles": [
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=136816",
-          "author": "Gabriel Bernadett-Shapiro &amp; Silas Cutler (Censys)",
-          "description": "Analysis of 175,000 open-source AI hosts across 130 countries reveals a vast compute layer susceptible to resource hijacking and code execution attacks.",
-          "link": "https://www.sentinelone.com/labs/silent-brothers-ollama-hosts-form-anonymous-ai-network-beyond-platform-guardrails/",
-          "publishedOn": "2026-01-29T10:55:47.000Z",
-          "wordCount": 9140,
-          "title": "Silent Brothers | Ollama Hosts Form Anonymous AI Network Beyond Platform Guardrails",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2026/01/silent_brothers_ftr.jpeg",
-            "length": "348675",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/01/silent_brothers_ftr.jpeg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "NVISO Labs",
@@ -14910,16 +14894,6 @@
           "wordCount": 5183,
           "title": "Rootless Containers with Podman",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/01/Rootless_Containers_BP_Dimitris.png"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=24212",
-          "author": "Stamatis Chatzimangou",
-          "description": "ConsentFix (a.k.a.AuthCodeFix) is the latest variant of the fix-type phishing attacks, initially identified by Push Security. In this technique, the adversary tricks the victim into generating an OAuth authorization code that is part of a localhost URL, by signing in to the Azure CLI instance (or other vulnerable applications). Then, the victim is instructed to copy that URL and paste it into a phishing website, essentially handing over the authorization code to the adversary, who is now able to exchange it for an access token. Using the access token, the adversary gets access to the victim's Microsoft account.",
-          "link": "https://blog.nviso.eu/2026/01/29/consentfix-a-k-a-authcodefix-detecting-oauth2-authorization-code-phishing/",
-          "publishedOn": "2026-01-29T08:14:04.000Z",
-          "wordCount": 5849,
-          "title": "ConsentFix (a.k.a. AuthCodeFix): Detecting OAuth2 Authorization Code Phishing",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/01/consent_fix_blog.jpg"
         }
       ]
     },

@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-27T01:09:08.755Z</updated>
+    <updated>2026-02-28T01:03:55.944Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Enable Windows ReFS boot: Install Windows Server on Resilient File System volumes]]></title>
+        <id>https://4sysops.com/?p=1606962</id>
+        <link href="https://4sysops.com/archives/enable-windows-refs-boot-install-windows-server-on-resilient-file-system-volumes/"/>
+        <updated>2026-02-27T13:57:24.000Z</updated>
+        <summary type="html"><![CDATA[Windows Server vNext Insider Preview build 29531 introduces ReFS boot, allowing you to install and start Windows Server from a Resilient File System (ReFS)-formatted boot volume for the first time. This feature brings integrity-level metadata checksums, online corruption repair, block cloning, and 35-petabyte volume scalability to the OS boot partition — capabilities that NTFS cannot match. ReFS boot requires UEFI firmware and a minimum of 2 GB for the WinRE partition. Learn how to enable Windows ReFS boot during Windows Server installation.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monitoring Secure Boot certificate installation status with Intune and PowerShell]]></title>
+        <id>https://4sysops.com/?p=1606979</id>
+        <link href="https://4sysops.com/archives/monitoring-secure-boot-certificate-installation-status-with-intune-and-powershell/"/>
+        <updated>2026-02-27T13:51:27.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Secure Boot certificates issued by the 2011 Certificate Authorities (CAs) are expiring starting June 2026. Every Windows device with Secure Boot enabled must be updated to trust the 2023 certificates before expiration to retain security update support. Microsoft provides a monitoring-only approach using Intune Remediations that runs a PowerShell detection script on enrolled devices and reports Secure Boot and certificate status back to the Intune admin center — without making any changes to devices. This article explains the prerequisites, deployment steps, data collected, and how to read the results.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How AI Agents Automate CVE Vulnerability Research]]></title>
         <id>https://www.praetorian.com/?p=10082</id>
@@ -13,6 +35,17 @@
         <updated>2026-02-26T20:05:02.000Z</updated>
         <summary type="html"><![CDATA[The CVE Researcher is a multi-agent AI pipeline that automates vulnerability research, detection template generation, and exploitation analysis. Built on Google’s Agent Development Kit (ADK), it coordinates specialized AI models through four phases — deep research, technology reconnaissance, actor-critic template generation, and exploitation analysis — to produce production-ready Nuclei detection templates overnight. Beyond Simple Automation […]
 The post How AI Agents Automate CVE Vulnerability Research appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Justin Copeland</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s Running on That Port? Introducing Nerva for Service Fingerprinting]]></title>
+        <id>https://www.praetorian.com/?p=10167</id>
+        <link href="https://www.praetorian.com/blog/whats-running-on-that-port-introducing-nerva-for-service-fingerprinting/"/>
+        <updated>2026-02-26T19:04:41.000Z</updated>
+        <summary type="html"><![CDATA[Nerva is a high-performance, open-source CLI tool that identifies what services are running on open network ports. It fingerprints 120+ protocols across TCP, UDP, and SCTP, averaging 4x faster than nmap -sV with 99% detection accuracy. Written in Go as a single binary, Nerva helps security teams rapidly move from port discovery to service identification. […]
+The post What’s Running on That Port? Introducing Nerva for Service Fingerprinting appeared first on Praetorian.]]></summary>
         <author>
             <name>Justin Copeland</name>
         </author>
@@ -13319,37 +13352,6 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building cryptographic agility into Sigstore]]></title>
-        <id>https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/</id>
-        <link href="https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/"/>
-        <updated>2026-01-29T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Software signatures carry an invisible expiration date. The container image or firmware you sign today might be deployed for 20 years, but the cryptographic signature protecting it may become untrustworthy within 10 years. SHA-1 certificates become worthless, weak RSA keys are banned, and quantum computers may crack today’s elliptic curve cryptography. The question isn’t whether our current signatures will fail, but whether we’re prepared for when they do.
-Sigstore, an open-source ecosystem for software signing, recognized this challenge early but initially chose security over flexibility by adopting new cryptographic algorithms as older ones became obsolete. By hard coding ECDSA with P-256 curves and SHA-256 throughout its infrastructure, Sigstore avoided the dangerous pitfalls that have …]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Silent Brothers | Ollama Hosts Form Anonymous AI Network Beyond Platform Guardrails]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=136816</id>
-        <link href="https://www.sentinelone.com/labs/silent-brothers-ollama-hosts-form-anonymous-ai-network-beyond-platform-guardrails/"/>
-        <updated>2026-01-29T10:55:47.000Z</updated>
-        <summary type="html"><![CDATA[Analysis of 175,000 open-source AI hosts across 130 countries reveals a vast compute layer susceptible to resource hijacking and code execution attacks.]]></summary>
-        <author>
-            <name>Gabriel Bernadett-Shapiro &amp; Silas Cutler (Censys)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ConsentFix (a.k.a. AuthCodeFix): Detecting OAuth2 Authorization Code Phishing]]></title>
-        <id>https://blog.nviso.eu/?p=24212</id>
-        <link href="https://blog.nviso.eu/2026/01/29/consentfix-a-k-a-authcodefix-detecting-oauth2-authorization-code-phishing/"/>
-        <updated>2026-01-29T08:14:04.000Z</updated>
-        <summary type="html"><![CDATA[ConsentFix (a.k.a.AuthCodeFix) is the latest variant of the fix-type phishing attacks, initially identified by Push Security. In this technique, the adversary tricks the victim into generating an OAuth authorization code that is part of a localhost URL, by signing in to the Azure CLI instance (or other vulnerable applications). Then, the victim is instructed to copy that URL and paste it into a phishing website, essentially handing over the authorization code to the adversary, who is now able to exchange it for an access token. Using the access token, the adversary gets access to the victim's Microsoft account.]]></summary>
-        <author>
-            <name>Stamatis Chatzimangou</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Adventures in EM Side-channel Attacks]]></title>
         <id>f350fc87-a7fe-46e9-97a8-237dc30e75d2</id>
         <link href="https://www.nccgroup.com/research-blog/adventures-in-em-side-channel-attacks/"/>
@@ -13357,28 +13359,6 @@ Sigstore, an open-source ecosystem for software signing, recognized this challen
         <summary type="html"><![CDATA[Adventures in EM Side-channel Attacks Eucleak]]></summary>
         <author>
             <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Specops Secure Access: Multi-factor authentication (MFA) for Remote Desktop Protocol (RDP), and VPN connections in Active Directory]]></title>
-        <id>https://4sysops.com/?p=1605267</id>
-        <link href="https://4sysops.com/archives/specops-secure-access-multi-factor-authentication-mfa-for-remote-desktop-protocol-rdp-and-vpn-connections-in-active-directory/"/>
-        <updated>2026-01-28T13:35:19.000Z</updated>
-        <summary type="html"><![CDATA[Specops Secure Access is a multi-factor authentication solution that adds a second authentication layer to Windows logon, Remote Desktop Protocol (RDP), and VPN connections in Active Directory environments. It is designed for on-premises or hybrid Active Directory environments and extends MFA to critical Windows access points without replacing Active Directory as the identity store. The solution addresses the growing vulnerability of password-based authentication and helps organizations fulfill compliance requirements for modern cybersecurity standards. It can also help organizations meet cybersecurity insurance requirements by strengthening access controls.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Entra ID auto-enables passkey profiles in March 2026]]></title>
-        <id>https://4sysops.com/?p=1605185</id>
-        <link href="https://4sysops.com/archives/microsoft-entra-id-auto-enables-passkey-profiles-in-march-2026/"/>
-        <updated>2026-01-28T13:24:44.000Z</updated>
-        <summary type="html"><![CDATA[Starting March 2026, Microsoft Entra ID will introduce passkey profiles and synced passkeys to general availability, enabling group-based authentication configurations with granular control over device-bound and synced passkeys. Microsoft will automatically enable passkey profiles for tenants that don't opt in during the initial rollout, with existing settings preserved to maintain their current security posture.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>
