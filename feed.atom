@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-02-28T01:03:55.944Z</updated>
+    <updated>2026-03-01T01:19:26.125Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -13298,57 +13298,12 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Celebrating our 2025 open-source contributions]]></title>
-        <id>https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/</id>
-        <link href="https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/"/>
-        <updated>2026-01-30T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last year, our engineers submitted over 375 pull requests that were merged into non–Trail of Bits repositories, touching more than 90 projects from cryptography libraries to the Rust compiler.
-This work reflects one of our driving values: “share what others can use.” The measure isn’t whether you share something, but whether it’s actually useful to someone else. This principle is why we publish handbooks, write blog posts, and release tools like Claude skills, Slither, Buttercup, and Anamorpher.
-But this value isn’t limited to our own projects; we also share our efforts with the wider open-source community. When we hit limitations in tools we depend on, we fix them upstream. When we find ways to make the software ecosystem more secure, we contribute those improvements.
-Most of these contri…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]]></title>
-        <id>https://projectzero.google/2026/01/sound-barrier-2.html</id>
-        <link href="https://projectzero.google/2026/01/sound-barrier-2.html"/>
-        <updated>2026-01-30T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system daemon through a process I call knowledge-driven fuzzing. While the first post focused on the process of finding the vulnerabilities, this post dives into the intricate process of exploiting the type confusion vulnerability. I’ll explain the technical details of turning a potentially exploitable crash into a working exploit: a journey filled with dead ends, creative problem solving, and ultimately, success. The Vulnerability: A Quick Recap If you haven’t already, I highly recommend reading my detailed writeup on this vulnerability before proceeding. As a refresher, CVE-2024-54529 is a type confusion vulnerability within the com.apple.audio.audiohald Mach service in the CoreAudio framework used by the coreaudiod process. Several Mach message handlers, such as _XIOContext_Fetch_Workgroup_Port, would fetch a HALS_Object from the Object Map based on an ID from the Mach message, and then perform operations on it, assuming it was of a specific type (ioct) without proper validation.]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Public Report: Meta Whatsapp message summarization service]]></title>
         <id>9120d3d9-3398-4dfa-a0e1-59f3efde5fd2</id>
         <link href="https://www.nccgroup.com/research-blog/public-report-meta-whatsapp-message-summarization-service/"/>
         <updated>2026-01-30T01:08:26.368Z</updated>
         <author>
             <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World]]></title>
-        <id>https://specterops.io/?p=23201</id>
-        <link href="https://specterops.io/blog/2026/01/29/why-on-premises-apm-matters-in-a-cloud-world/"/>
-        <updated>2026-01-29T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR : BloodHound Enterprise on-premises brings enterprise-grade identity attack path management to air-gapped, classified, and highly regulated environments. It uses the same engine as our SaaS solution while keeping all identity data within your security boundary. Cloud adoption has transformed how organizations deploy and scale security tools. For many use cases, SaaS delivers speed, simplicity, […]
-The post Introducing BloodHound Enterprise On-Premises: Why On-Prem Identity Attack Path Management Still Matters in a Cloud World appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Sev Kocharian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Teams licensing updates]]></title>
-        <id>https://4sysops.com/?p=1605261</id>
-        <link href="https://4sysops.com/archives/microsoft-teams-licensing-updates/"/>
-        <updated>2026-01-29T14:22:48.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft announced significant changes to its Teams licensing structure, effective April 1, 2026. The updates move several advanced capabilities from Teams Premium into core Teams Enterprise licenses, expand access to Microsoft Places features, and introduce new attendee capacity options for large-scale events. These changes aim to simplify licensing and provide broader access to powerful collaboration tools across organizations.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>
