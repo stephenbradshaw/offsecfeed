@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-04T01:09:46.778Z</updated>
+    <updated>2026-03-05T01:12:04.760Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Offensive DPAPI With Nemesis]]></title>
+        <id>https://specterops.io/?p=24028</id>
+        <link href="https://specterops.io/blog/2026/03/04/offensive-dpapi-with-nemesis/"/>
+        <updated>2026-03-04T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Nemesis 2.2 automates the entire DPAPI decryption chain – from SYSTEM/user masterkeys through CNG keys to Chromium’s latest App-Bound Encryption – with robust forward as well as retroactive decryption. The Windows Data Protection API, or DPAPI, is the fun little technology that just won’t disappear from offensive operations. I first talked about abusing DPAPI […]
+The post Offensive DPAPI With Nemesis appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Will Schroeder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to install Windows Admin Center vMode on Windows Server 2025]]></title>
+        <id>https://4sysops.com/?p=1606880</id>
+        <link href="https://4sysops.com/archives/how-to-install-windows-admin-center-vmode-on-windows-server-2025/"/>
+        <updated>2026-03-04T16:44:37.000Z</updated>
+        <summary type="html"><![CDATA[Windows Admin Center (WAC) vMode (Virtualization Mode) is a current in-preview management gateway for Hyper-V environments, deployable as a stateful appliance with an integrated PostgreSQL database. Unlike aMode (Administration Mode), vMode targets centralized virtualization management across multiple hosts and clusters, without requiring System Center Virtual Machine Manager (SCVMM). The only mandatory prerequisite is the Microsoft Visual C++ Redistributable. This article covers the system requirements, environment preparation, and installer walkthrough for vMode, and briefly explains how aMode installation differs.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enable Windows Group Policy Preferences (GPP) debug logging]]></title>
+        <id>https://4sysops.com/?p=1607154</id>
+        <link href="https://4sysops.com/archives/enable-windows-group-policy-preferences-gpp-debug-logging/"/>
+        <updated>2026-03-04T16:42:27.000Z</updated>
+        <summary type="html"><![CDATA[Starting with the February 2026 preview updates for Windows 11 24H2 and 25H2, Microsoft has made Group Policy Preferences (GPP) debug logging configurable directly in Local Group Policy via gpedit.msc. Previously, these settings were primarily managed through domain-based Group Policy Objects (GPOs); enabling them via Local Group Policy typically required manually copying the GroupPolicyPreferences .admx/.adml templates into the local PolicyDefinitions store. You can now enable per-CSE (client-side extension) event logging and file-based tracing on individual client devices without a domain controller.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 Ways to Execute Command on Azure Virtual Machine & Virtual Machine Scale Sets]]></title>
+        <id>https://www.netspi.com/?p=32150</id>
+        <link href="https://www.netspi.com/blog/technical-blog/adversary-simulation/7-ways-to-execute-command-on-azure-virtual-machine-virtual-machine-scale-sets/"/>
+        <updated>2026-03-04T12:33:12.000Z</updated>
+        <summary type="html"><![CDATA[Examples of different command execution paths for Azure Virtual Machines and Virtual Machine Scale Sets.
+The post 7 Ways to Execute Command on Azure Virtual Machine & Virtual Machine Scale Sets appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Alexander Polce Leary</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[4sysops turns 20]]></title>
         <id>https://4sysops.com/?p=1607169</id>
@@ -25,6 +69,16 @@ Source]]></summary>
         <summary type="html"><![CDATA[On today’s ‘good news disguised as other things’ segment, we’re turning our gaze to CVE-2026-21902 - a recently disclosed “Incorrect Permission Assignment for Critical Resource” vulnerability affecting Juniper’s Junos OS Evolved platform. This vulnerability affects only Juniper’s PTX]]></summary>
         <author>
             <name>McCaulay Hudson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Electron: Attacking Alternative Desktop Application Frameworks]]></title>
+        <id>https://bishopfox.com/blog/beyond-electron-attacking-alternative-desktop-application-frameworks</id>
+        <link href="https://bishopfox.com/blog/beyond-electron-attacking-alternative-desktop-application-frameworks"/>
+        <updated>2026-03-03T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tauri promises a lighter, security-first future beyond Electron—but does it actually reduce risk? Carlos Yanez uncovers how XSS and permissive configs can still be chained into RCE, walking through real-world exploitation techniques every appsec team should understand.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
         </author>
     </entry>
     <entry>
@@ -1273,41 +1327,6 @@ Source]]></summary>
 The post Covert recording is easy, which is the problem   appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rootless Containers with Podman]]></title>
-        <id>https://blog.nviso.eu/?p=24111</id>
-        <link href="https://blog.nviso.eu/2026/02/03/rootless-containers-with-podman/"/>
-        <updated>2026-02-03T08:06:49.000Z</updated>
-        <summary type="html"><![CDATA[In modern digital infrastructure, containerization has become one of the most significant technologies, offering automation, portability, and resilience of services across cloud and on-premises environments. Containers can simplify backup processes and enhance upgrade safety while significantly reducing recovery times following system incidents or failed updates.This article provides an overview of the container technology and focuses … Continue reading Rootless Containers with Podman →]]></summary>
-        <author>
-            <name>Dimitris Vagiakakos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Auditing Outline. Firsthand lessons from comparing manual testing and AI security platforms]]></title>
-        <id>https://blog.doyensec.com/2026/02/03/outline-audit-q32025.html</id>
-        <link href="https://blog.doyensec.com/2026/02/03/outline-audit-q32025.html"/>
-        <updated>2026-02-02T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In July 2025, we performed a brief audit of Outline - an OSS wiki similar in many ways to Notion. This activity was meant to evaluate the overall posture of the application, and involved two researchers for a total of 60 person-days. In parallel, we thought it would be a valuable firsthand experience to use three AI security platforms to perform an audit on the very same codebase. Given that all issues are now fixed, we believe it would be interesting to provide an overview of our effort and a few interesting findings and considerations.
-"Generate an image that well describes the content of this blog post"
-
-Disclaimer: Outline
-While this activity was not sufficient to evaluate the entirety of the Outline codebase, we believe we have a good understanding of its quality and resilience. The s…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft to disable NTLM by default in Windows]]></title>
-        <id>https://4sysops.com/?p=1605353</id>
-        <link href="https://4sysops.com/archives/microsoft-to-disable-ntlm-by-default-in-windows/"/>
-        <updated>2026-02-02T14:46:32.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft announced a comprehensive roadmap to phase out the legacy NTLM (New Technology LAN Manager) authentication protocol in favor of more secure Kerberos-based alternatives. The company plans to disable NTLM by default in the next major Windows Server release and associated Windows client versions, marking a significant step toward enhancing Windows security after more than three decades of NTLM usage.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>

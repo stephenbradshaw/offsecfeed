@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=24028",
+          "author": "Will Schroeder",
+          "description": "TL;DR: Nemesis 2.2 automates the entire DPAPI decryption chain – from SYSTEM/user masterkeys through CNG keys to Chromium’s latest App-Bound Encryption – with robust forward as well as retroactive decryption. The Windows Data Protection API, or DPAPI, is the fun little technology that just won’t disappear from offensive operations. I first talked about abusing DPAPI […]\nThe post Offensive DPAPI With Nemesis appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/03/04/offensive-dpapi-with-nemesis/",
+          "publishedOn": "2026-03-04T17:00:00.000Z",
+          "wordCount": 5506,
+          "title": "Offensive DPAPI With Nemesis",
+          "imageUrl": null
+        },
+        {
           "id": "https://specterops.io/?p=23976",
           "author": "Will Schroeder",
           "description": "TL;DR: Nemesis 2.2 introduces a number of powerful new features focusing on large container processing, data processing agents, enhanced DPAPI support, and a host of performance improvements. It’s been several months since we released Nemesis 2.0: our ground-up rewrite of the Nemesis file enrichment project. Since then, @tifkin_ and I have worked hard on another […]\nThe post Nemesis 2.2 appeared first on SpecterOps.",
@@ -139,7 +149,18 @@
       "title": "NetSPI Technical Blog -",
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.netspi.com/?p=32150",
+          "author": "Alexander Polce Leary",
+          "description": "Examples of different command execution paths for Azure Virtual Machines and Virtual Machine Scale Sets.\nThe post 7 Ways to Execute Command on Azure Virtual Machine & Virtual Machine Scale Sets appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/adversary-simulation/7-ways-to-execute-command-on-azure-virtual-machine-virtual-machine-scale-sets/",
+          "publishedOn": "2026-03-04T12:33:12.000Z",
+          "wordCount": 8190,
+          "title": "7 Ways to Execute Command on Azure Virtual Machine & Virtual Machine Scale Sets",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/02/02.26.26_TECH_7-Ways-to-Execute-Commands-on-Azure-Machines_1200x630.png"
+        }
+      ]
     },
     {
       "title": "All Posts - Malicious Link - Blog by mubix - Rob Fuller",
@@ -14012,16 +14033,6 @@
           "wordCount": 3466,
           "title": "Building a Secure Electron Auto-Updater",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/02/03/outline-audit-q32025.html",
-          "author": null,
-          "description": "In July 2025, we performed a brief audit of Outline - an OSS wiki similar in many ways to Notion. This activity was meant to evaluate the overall posture of the application, and involved two researchers for a total of 60 person-days. In parallel, we thought it would be a valuable firsthand experience to use three AI security platforms to perform an audit on the very same codebase. Given that all issues are now fixed, we believe it would be interesting to provide an overview of our effort and a few interesting findings and considerations.\n\"Generate an image that well describes the content of this blog post\"\n\nDisclaimer: Outline\nWhile this activity was not sufficient to evaluate the entirety of the Outline codebase, we believe we have a good understanding of its quality and resilience. The s…",
-          "link": "https://blog.doyensec.com/2026/02/03/outline-audit-q32025.html",
-          "publishedOn": "2026-02-02T23:00:00.000Z",
-          "wordCount": 2075,
-          "title": "Auditing Outline. Firsthand lessons from comparing manual testing and AI security platforms",
-          "imageUrl": null
         }
       ]
     },
@@ -14174,6 +14185,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1606880",
+          "author": "IT Experts",
+          "description": "Windows Admin Center (WAC) vMode (Virtualization Mode) is a current in-preview management gateway for Hyper-V environments, deployable as a stateful appliance with an integrated PostgreSQL database. Unlike aMode (Administration Mode), vMode targets centralized virtualization management across multiple hosts and clusters, without requiring System Center Virtual Machine Manager (SCVMM). The only mandatory prerequisite is the Microsoft Visual C++ Redistributable. This article covers the system requirements, environment preparation, and installer walkthrough for vMode, and briefly explains how aMode installation differs.\nSource",
+          "link": "https://4sysops.com/archives/how-to-install-windows-admin-center-vmode-on-windows-server-2025/",
+          "publishedOn": "2026-03-04T16:44:37.000Z",
+          "wordCount": 5327,
+          "title": "How to install Windows Admin Center vMode on Windows Server 2025",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Windows-Admin-Center-vMode-(image-Microsoft).png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1607154",
+          "author": "IT Experts",
+          "description": "Starting with the February 2026 preview updates for Windows 11 24H2 and 25H2, Microsoft has made Group Policy Preferences (GPP) debug logging configurable directly in Local Group Policy via gpedit.msc. Previously, these settings were primarily managed through domain-based Group Policy Objects (GPOs); enabling them via Local Group Policy typically required manually copying the GroupPolicyPreferences .admx/.adml templates into the local PolicyDefinitions store. You can now enable per-CSE (client-side extension) event logging and file-based tracing on individual client devices without a domain controller.\nSource",
+          "link": "https://4sysops.com/archives/enable-windows-group-policy-preferences-gpp-debug-logging/",
+          "publishedOn": "2026-03-04T16:42:27.000Z",
+          "wordCount": 5501,
+          "title": "Enable Windows Group Policy Preferences (GPP) debug logging",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Enable-Preference-Logging-(image-Microsoft).png"
+        },
         {
           "id": "https://4sysops.com/?p=1607169",
           "author": "Michael Pietroforte",
@@ -14583,16 +14614,6 @@
           "wordCount": null,
           "title": "Configure RDP Shortpath with Group Policy and Intune to optimize connections to Azure Virtual Desktop and Windows 365",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1605353",
-          "author": "IT Experts",
-          "description": "Microsoft announced a comprehensive roadmap to phase out the legacy NTLM (New Technology LAN Manager) authentication protocol in favor of more secure Kerberos-based alternatives. The company plans to disable NTLM by default in the next major Windows Server release and associated Windows client versions, marking a significant step toward enhancing Windows security after more than three decades of NTLM usage.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-to-disable-ntlm-by-default-in-windows/",
-          "publishedOn": "2026-02-02T14:46:32.000Z",
-          "wordCount": null,
-          "title": "Microsoft to disable NTLM by default in Windows",
-          "imageUrl": null
         }
       ]
     },
@@ -14844,16 +14865,6 @@
           "wordCount": 3914,
           "title": "An introduction to automated LLM red teaming",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/02/automated_LLM_red_teaming_blog.jpg"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=24111",
-          "author": "Dimitris Vagiakakos",
-          "description": "In modern digital infrastructure, containerization has become one of the most significant technologies, offering automation, portability, and resilience of services across cloud and on-premises environments. Containers can simplify backup processes and enhance upgrade safety while significantly reducing recovery times following system incidents or failed updates.This article provides an overview of the container technology and focuses … Continue reading Rootless Containers with Podman →",
-          "link": "https://blog.nviso.eu/2026/02/03/rootless-containers-with-podman/",
-          "publishedOn": "2026-02-03T08:06:49.000Z",
-          "wordCount": 5183,
-          "title": "Rootless Containers with Podman",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/01/Rootless_Containers_BP_Dimitris.png"
         }
       ]
     },
@@ -14862,6 +14873,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/beyond-electron-attacking-alternative-desktop-application-frameworks",
+          "author": null,
+          "description": "Tauri promises a lighter, security-first future beyond Electron—but does it actually reduce risk? Carlos Yanez uncovers how XSS and permissive configs can still be chained into RCE, walking through real-world exploitation techniques every appsec team should understand.",
+          "link": "https://bishopfox.com/blog/beyond-electron-attacking-alternative-desktop-application-frameworks",
+          "publishedOn": "2026-03-03T14:00:00.000Z",
+          "wordCount": 3484,
+          "title": "Beyond Electron: Attacking Alternative Desktop Application Frameworks",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Beyond-Electron-Application-Framework_Blog.png?mtime=1772578578"
+        },
         {
           "id": "https://bishopfox.com/blog/introducing-cloudfox-gcp-attack-path-identification-for-google-cloud",
           "author": null,
