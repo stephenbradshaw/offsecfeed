@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-05T01:12:04.760Z</updated>
+    <updated>2026-03-06T01:16:11.645Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Defender onboarding deployment with a single EXE]]></title>
+        <id>https://4sysops.com/?p=1607268</id>
+        <link href="https://4sysops.com/archives/microsoft-defender-onboarding-deployment-with-a-single-exe/"/>
+        <updated>2026-03-05T15:00:09.000Z</updated>
+        <summary type="html"><![CDATA[The Defender deployment tool for Windows now ships as a single .exe with the onboarding package baked in, with configurable expiry dates, a required portal key to activate it, and onboarding event logs visible in the device timeline — replacing the old script/blob approach. The previous tool gave no clear status feedback, leaving admins unable to tell if onboarding was in progress or had failed.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Autopatch update readiness: management status report, quality update journey, alerts, and update readiness checker]]></title>
+        <id>https://4sysops.com/?p=1607294</id>
+        <link href="https://4sysops.com/archives/windows-autopatch-update-readiness-management-status-report-quality-update-journey-alerts-and-update-readiness-checker/"/>
+        <updated>2026-03-05T14:58:06.000Z</updated>
+        <summary type="html"><![CDATA[Windows Autopatch update readiness reached general availability, adding four capabilities to the Windows Autopatch blade in the Microsoft Intune admin center. The new features—management status report, quality update journey, alerts and remediations, and Update Readiness Checker—give IT teams proactive visibility into device readiness, update blockers, and remediation guidance across Intune-managed Windows fleets. All capabilities are included in the existing Windows Autopatch license at no additional cost. Windows Autopatch is available for customers with Windows Enterprise, Frontline, US Government, Education, and Business Premium SKUs.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Effectiveness of Mutational Grammar Fuzzing]]></title>
+        <id>https://projectzero.google/2026/03/mutational-grammar-fuzzing.html</id>
+        <link href="https://projectzero.google/2026/03/mutational-grammar-fuzzing.html"/>
+        <updated>2026-03-05T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the sample corpus and used as a basis for future mutations. This technique has proven capable of finding complex issues and I have used it successfully in the past, including to find issues in XSLT implementations in web browsers and even JIT engine bugs. However, despite the approach being effective, it is not without its flaws which, for a casual fuzzer user, might not be obvious. In this blogpost I will introduce what I perceive to be the flaws of the mutational coverage-guided grammar fuzzing approach. I will also describe a very simple but effective technique I use in my fuzzing runs to counter these flaws.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Offensive DPAPI With Nemesis]]></title>
         <id>https://specterops.io/?p=24028</id>
@@ -1305,28 +1337,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Configure RDP Shortpath with Group Policy and Intune to optimize connections to Azure Virtual Desktop and Windows 365]]></title>
-        <id>https://4sysops.com/?p=1605329</id>
-        <link href="https://4sysops.com/archives/configure-rdp-shortpath-with-group-policy-and-intune-to-optimize-connections-to-azure-virtual-desktop-and-windows-365/"/>
-        <updated>2026-02-03T15:09:11.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft announced the general availability (GA) of centralized RDP Shortpath configuration using Intune and Group Policy (GPO). RDP Shortpath is a UDP-based direct transport protocol that establishes connections between Remote Desktop clients and session hosts, reducing latency and improving reliability for Azure Virtual Desktop and Windows 365 Cloud PCs. You can now centrally configure this feature using Group Policy and Microsoft Intune, eliminating the need for manual per-host configuration.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Covert recording is easy, which is the problem]]></title>
-        <id>https://www.pentestpartners.com/?p=43521</id>
-        <link href="https://www.pentestpartners.com/security-blog/covert-recording-is-easy-which-is-the-problem/"/>
-        <updated>2026-02-03T14:54:28.000Z</updated>
-        <summary type="html"><![CDATA[TL; DR   A normal shopping trip into ethically dubious kit  As part of physical social engineering engagements, I will often trawl the common online stores for devices that could be abused to gain information. This is not technical abuse. It is using the device as it was designed, but not in the most ethical way.  That often includes things […]
-The post Covert recording is easy, which is the problem   appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
         </author>
     </entry>
     <entry>
