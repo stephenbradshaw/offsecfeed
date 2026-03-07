@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-06T01:16:11.645Z</updated>
+    <updated>2026-03-07T01:07:30.626Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Building Bridges, Breaking Pipelines: Introducing Trajan]]></title>
+        <id>https://www.praetorian.com/?p=10338</id>
+        <link href="https://www.praetorian.com/blog/building-bridges-breaking-pipelines-introducing-trajan/"/>
+        <updated>2026-03-06T18:04:58.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Trajan is an open-source CI/CD security tool from Praetorian that unifies vulnerability detection and attack validation across GitHub Actions, GitLab CI, Azure DevOps, and Jenkins in a single cross-platform engine. It ships with 32 detection plugins and 24 attack plugins covering poisoned pipeline execution, secrets exposure, self-hosted runner risks, and AI/LLM pipeline vulnerabilities. It […]
+The post Building Bridges, Breaking Pipelines: Introducing Trajan appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Justin Copeland</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Terminal Preview 1.25: Kitty protocol, settings search, and GUI for key bindings]]></title>
+        <id>https://4sysops.com/?p=1607383</id>
+        <link href="https://4sysops.com/archives/windows-terminal-preview-125-kitty-protocol-settings-search-and-gui-for-key-bindings/"/>
+        <updated>2026-03-06T16:58:24.000Z</updated>
+        <summary type="html"><![CDATA[Windows Terminal Preview 1.25 was released in March, after a brief pause in the quarterly release cycle to focus on reliability and performance. The update introduces a Settings search UI, a rewritten Actions editor for key binding configuration, built-in support for Kitty's Keyboard protocol, two new community translations, and several miscellaneous improvements and bug fixes. You can install it from the Microsoft Store, the GitHub releases page, or via winget.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Defender onboarding deployment with a single EXE]]></title>
         <id>https://4sysops.com/?p=1607268</id>
@@ -36,6 +58,19 @@ Source]]></summary>
         <summary type="html"><![CDATA[Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the sample corpus and used as a basis for future mutations. This technique has proven capable of finding complex issues and I have used it successfully in the past, including to find issues in XSLT implementations in web browsers and even JIT engine bugs. However, despite the approach being effective, it is not without its flaws which, for a casual fuzzer user, might not be obvious. In this blogpost I will introduce what I perceive to be the flaws of the mutational coverage-guided grammar fuzzing approach. I will also describe a very simple but effective technique I use in my fuzzing runs to counter these flaws.]]></summary>
         <author>
             <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The MCP AuthN/Z Nightmare]]></title>
+        <id>https://blog.doyensec.com/2026/03/05/mcp-nightmare.html</id>
+        <link href="https://blog.doyensec.com/2026/03/05/mcp-nightmare.html"/>
+        <updated>2026-03-04T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article shares our perspective on the current state of authentication and authorization in enterprise-ready, remote MCP server deployments.
+Before diving into that discussion, we’ll first outline the most common attack vectors. Understanding these threats is essential to properly frame the security challenges that follow. If you’re already familiar with them, feel free to skip to the section “Enterprise Authentication and Authorization: a Work in Progress” below.
+Huge shoutout to Teleport for sponsoring this research. Thanks to their support, we have been able to conduct cutting-edge security research on this topic. Stay tuned for upcoming MCP security updates!
+At this stage, introducing the Model Context Protocol (MCP) would be redundant since it has already been thoroughly covered i…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1245,95 +1280,6 @@ Source]]></summary>
         <link href="https://4sysops.com/archives/microsoft-purview-data-security-investigations-ai-powered-threat-detection-for-microsoft-365/"/>
         <updated>2026-02-05T15:18:28.000Z</updated>
         <summary type="html"><![CDATA[Microsoft Purview Data Security Investigations became generally available in January, providing data security teams with AI-powered tools to identify, investigate, and mitigate sensitive data risks across Microsoft 365 environments. The solution addresses the challenge of managing 220 zettabytes of organizational data while facing over 12,000 confirmed breaches annually by streamlining investigations that previously took weeks or months into hours.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An introduction to automated LLM red teaming]]></title>
-        <id>https://blog.nviso.eu/?p=23483</id>
-        <link href="https://blog.nviso.eu/2026/02/05/an-introduction-to-automated-llm-red-teaming/"/>
-        <updated>2026-02-05T10:54:04.000Z</updated>
-        <summary type="html"><![CDATA[Introduction As large language models become increasingly embedded in production applications, from customer service chatbots to code assistants and document analysis tools, the security implications of these systems have moved from theoretical concern to practical necessity. Unlike traditional software security testing, LLM red teaming addresses unique challenges: prompt injection attacks, data leakage through carefully crafted … Continue reading An introduction to automated LLM red teaming →]]></summary>
-        <author>
-            <name>Tanguy Snoeck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI Explains URL-Based Data Exfiltration Mitigations in New Paper]]></title>
-        <id>https://embracethered.com/blog/posts/2026/data-exfiltration-mitigation-paper-by-openai/</id>
-        <link href="https://embracethered.com/blog/posts/2026/data-exfiltration-mitigation-paper-by-openai/"/>
-        <updated>2026-02-05T06:59:30.000Z</updated>
-        <summary type="html"><![CDATA[Last week I saw this paper from OpenAI called “Preventing URL-Based Data Exfiltration in
-Language-Model Agents”, which goes into detail on new mitigations they’ve added.
-
-This is a great read. I like this transparency.
-Initial Disclosure in 2023
-Nearly three years ago I reported the zero-click data exfiltration exploit to OpenAI. Back in early 2023 OpenAI did not have a bug bounty program, so communication was via email, and unfortunately there was little traction or appetite to fix the problem in ChatGPT. I also reported the same issue to Microsoft as Bing Chat was impacted, and Microsoft applied a fix (via a Content-Security-Policy header) in May 2023 to generally prevent loading of images.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gone Phishing, Got a Token: When Separate Flaws Combine]]></title>
-        <id>https://www.praetorian.com/?p=7580</id>
-        <link href="https://www.praetorian.com/blog/gone-phishing-got-a-token-when-separate-flaws-combine/"/>
-        <updated>2026-02-04T15:21:18.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Two medium-severity flaws, an unsecured email API endpoint and verbose error messages exposing OAuth tokens, chain together to enable authenticated phishing that bypasses all email security controls, persistent access to Microsoft 365 environments, and full infrastructure compromise. Neither flaw alone would be critical; combined, they’re devastating. Modern web applications increasingly create attack surfaces through […]
-The post Gone Phishing, Got a Token: When Separate Flaws Combine appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Justin Copeland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpecterOps + Cisco: BloodHound Enterprise Now Available on Cisco Marketplace]]></title>
-        <id>https://specterops.io/?p=23237</id>
-        <link href="https://specterops.io/blog/2026/02/04/specterops-cisco-bloodhound-enterprise-now-available-on-cisco-marketplace/"/>
-        <updated>2026-02-04T14:07:00.000Z</updated>
-        <summary type="html"><![CDATA[We are excited to announce a new partnership with worldwide technology leader Cisco, adding BloodHound Enterprise to the Cisco Solutions Plus Marketplace. Cisco revolutionizes how organizations connect and protect themselves in the AI era. BloodHound Enterprise expands on Cisco’s mission with our proactive, attack path management approach for Cisco customers and complements Cisco’s Identity Intelligence, […]
-The post SpecterOps + Cisco: BloodHound Enterprise Now Available on Cisco Marketplace appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>SpecterOps</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get the Most from Testing Your Applications]]></title>
-        <id>https://bishopfox.com/blog/get-the-most-from-testing-your-applications</id>
-        <link href="https://bishopfox.com/blog/get-the-most-from-testing-your-applications"/>
-        <updated>2026-02-04T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Pen tests don’t fail because testers miss bugs. They fail when no one agrees what questions the test should answer. In today’s cloud- and AI-driven apps, scoping, execution, and follow-through determine whether results drive real decisions or just become another filed report.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get the Most from Testing Your AI-Powered Application]]></title>
-        <id>https://bishopfox.com/blog/get-the-most-from-testing-your-ai-powered-application</id>
-        <link href="https://bishopfox.com/blog/get-the-most-from-testing-your-ai-powered-application"/>
-        <updated>2026-02-04T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Pen tests don’t fail because testers miss bugs. They fail when no one agrees what questions the test should answer. In today’s cloud- and AI-driven apps, scoping, execution, and follow-through determine whether results drive real decisions or just become another filed report.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking Windows 11 Administrator Protection – What administrators need to do]]></title>
-        <id>https://4sysops.com/?p=1605460</id>
-        <link href="https://4sysops.com/archives/hacking-windows-11-administrator-protection-what-administrators-need-to-do/"/>
-        <updated>2026-02-04T13:39:20.000Z</updated>
-        <summary type="html"><![CDATA[Google Project Zero researcher James Forshaw discovered nine critical vulnerabilities in Windows 11's Administrator Protection feature during its preview phase in late 2025. The feature was disabled after its initial preview release in October 2025, but before the planned general availability rollout.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sysmon in Windows 11 Insider Preview builds 26300.7733 (KB5074178) and 26220.7752 (KB5074177)]]></title>
-        <id>https://4sysops.com/?p=1605447</id>
-        <link href="https://4sysops.com/archives/sysmon-in-windows-11-insider-preview-builds-263007733-kb5074178-and-262207752-kb5074177/"/>
-        <updated>2026-02-04T13:38:40.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft released Windows 11 Insider Preview Build 26300.7733 (KB5074178) and Build 26220.7752 (KB5074177), to the Dev and Beta Channels, respectively. These updates introduce native System Monitor (Sysmon) functionality, expand Voice Access support, and include several fixes for File Explorer and cloud storage integration. The releases represent cumulative quality updates for Windows 11 version 25H2 through enablement packages.
 Source]]></summary>
         <author>
             <name>IT Experts</name>
