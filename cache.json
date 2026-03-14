@@ -74,16 +74,6 @@
           "wordCount": 7047,
           "title": "STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/02/Screenshot-2026-02-10-at-1.51.13-PM.png"
-        },
-        {
-          "id": "https://specterops.io/?p=23339",
-          "author": "Liam D",
-          "description": "TL;DR : This post aims to introduce readers to the anatomy and detection of JavaScript memory corruption exploits that target Google Chrome’s V8 JavaScript engine. We’ll dive into the primitives attackers need during the first stage of a Chrome full-chain exploit and what artifacts these primitives leave behind in memory. It is these artifacts that defenders […]\nThe post V8 Heap Archaeology: Finding Exploitation Artifacts in Chrome’s Memory appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/02/11/v8-heap-archaeology-finding-exploitation-artifacts-in-chromes-memory/",
-          "publishedOn": "2026-02-11T17:00:00.000Z",
-          "wordCount": 7455,
-          "title": "V8 Heap Archaeology: Finding Exploitation Artifacts in Chrome’s Memory",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/01/Screenshot-2026-01-31-154306.png"
         }
       ]
     },
@@ -98,6 +88,16 @@
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
+        {
+          "id": "http-1-1-must-die-conquering-the-0-cl-challenge",
+          "author": null,
+          "description": "Note: This is a guest post by pentester Julen Garrido Estévez (@b3xal). 1. Acknowledgements 2. Intro 3. Required tools 4. Strategy to solve/exploit the lab 5. Detecting 0.CL 5.1. Practical confirmatio",
+          "link": "https://portswigger.net/blog/http-1-1-must-die-conquering-the-0-cl-challenge",
+          "publishedOn": "2026-03-13T09:21:19.000Z",
+          "wordCount": 5955,
+          "title": "HTTP/1.1 Must Die: Conquering the 0.CL Challenge",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
         {
           "id": "automation-without-alignment-the-hidden-cost-of-modern-dast",
           "author": null,
@@ -150,16 +150,6 @@
           "wordCount": 3150,
           "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
           "imageUrl": null
-        },
-        {
-          "id": "https://projectzero.google/2026/02/windows-administrator-protection.html",
-          "author": null,
-          "description": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues, specifically the implementation of UI Access, how this has been a long standing problem with UAC that’s been under-appreciated, and how it’s being fixed now. A Question of Accessibility Prior to Windows Vista any process running on a user’s desktop could control any window created by another, such as by sending window messages. This behavior could be abused if a privileged user, such as SYSTEM, displayed a user interface on the desktop. A limited user could control the UI and potentially elevate privileges. This was referred to as a Shatter Attack, and was usually fixed by removing user interface components from privileged code.",
-          "link": "https://projectzero.google/2026/02/windows-administrator-protection.html",
-          "publishedOn": "2026-02-12T08:00:00.000Z",
-          "wordCount": 4158,
-          "title": "Bypassing Administrator Protection by Abusing UI Access",
-          "imageUrl": null
         }
       ]
     },
@@ -209,6 +199,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=11152",
+          "author": "Didier Stevens",
+          "description": "This is a fix for option –yarastrings. oledump_V0_0_84.zip (http)MD5: 24EA0DEAA6FCB2FA234F33DD179BBAAFSHA256: C966607C864AAE1D956279B4C3087D37BD003072ED39143512979E771BA5462A",
+          "link": "https://blog.didierstevens.com/2026/03/14/update-oledump-py-version-0-0-84/",
+          "publishedOn": "2026-03-14T00:00:00.000Z",
+          "wordCount": 3299,
+          "title": "Update: oledump.py Version 0.0.84",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=11149",
           "author": "Didier Stevens",
@@ -13984,6 +13984,31 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=10618",
+          "author": "n8n-publisher",
+          "description": "Everyone knows that one person on the team who’s inexplicably lucky, the one who stumbles upon a random vulnerability seemingly by chance. A few days ago, my coworker Michael Weber was telling me about a friend like this who, on a recent penetration test, pressed the shift key five times at an RDP login screen […]\nThe post Et Tu, RDP? Detecting Sticky Keys Backdoors with Brutus and WebAssembly appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/rdp-sticky-keys-backdoor-brutus/",
+          "publishedOn": "2026-03-13T19:01:07.000Z",
+          "wordCount": 6383,
+          "title": "Et Tu, RDP? Detecting Sticky Keys Backdoors with Brutus and WebAssembly",
+          "enclosure": {
+            "url": "https://www.praetorian.com/wp-content/uploads/2026/03/BrutusStickyKeysDemo.mov",
+            "length": "14263803",
+            "type": "video/quicktime"
+          },
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Et-Tu-Hero.webp"
+        },
+        {
+          "id": "https://www.praetorian.com/?p=10610",
+          "author": "n8n-publisher",
+          "description": "Asset discovery is an essential part of Praetorian’s service delivery process. When we are engaged to carry out continuous external penetration testing, one key action is to build and maintain a thorough target asset inventory that goes beyond any lists or databases provided by the system owner. Pius is our open-source attack surface mapping tool […]\nThe post Mapping the Unknown: Introducing Pius for Organizational Asset Discovery appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/attack-surface-mapping-tool-pius/",
+          "publishedOn": "2026-03-13T16:38:41.000Z",
+          "wordCount": 4419,
+          "title": "Mapping the Unknown: Introducing Pius for Organizational Asset Discovery",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Pius-Hero.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=10584",
           "author": "n8n-publisher",
           "description": "Many Reverse proxy attack vectors expose a flawed assumption in modern web architectures that backends can blindly trust security-critical headers from upstream reverse proxies. This assumption breaks down because HTTP RFC flexibility allows different servers to interpret the same headers in fundamentally different ways, creating exploitable gaps that attackers are increasingly targeting. I want to […]\nThe post When Proxies Become the Attack Vectors in Web Architectures appeared first on Praetorian.",
@@ -14309,6 +14334,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1607737",
+          "author": "IT Experts",
+          "description": "Microsoft released KB5079387 to the Release Preview Channel, covering Windows 11 versions 24H2 (build 26100.8106) and 25H2 (build 26200.8106). The update is a non-security preview of the upcoming monthly quality update and delivers improvements across security management, Group Policy, Remote Desktop, File Explorer, printing compatibility, and display handling. Some features roll out gradually; others are available immediately upon installation.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-kb5079387-no-more-clean-install-for-smart-app-control-group-policy-start-menu-fix-remote-desktop-disableseamlesslanguagebar-parameter-for-set-rdsessioncollectionconfiguration/",
+          "publishedOn": "2026-03-13T16:39:07.000Z",
+          "wordCount": 5857,
+          "title": "Windows 11 KB5079387: No more clean install for Smart App Control, Group Policy start menu fix, Remote Desktop DisableSeamlessLanguageBar parameter for Set-RDSessionCollectionConfiguration",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Policy-Signing-Rules-in-the--App-Control-Policy-Wizard-(image-Microsoft).png"
+        },
         {
           "id": "https://4sysops.com/?p=1607671",
           "author": "IT Experts",
@@ -14818,16 +14853,6 @@
           "wordCount": 2168,
           "title": "EV batteries as grid infrastructure and the security risk that follows",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/02/Shellys-AP-mode-and-the-garage-you-thought-was-secure-headlinev2-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=43491",
-          "author": "Alex Wallace",
-          "description": "TL;DR Introduction I love my Shelly devices. They are an essential part of my smart home setup. I use them for everything from lights and plugs to garage doors and garden sprinkler control! One of the first Shelly devices I installed about five years ago recently stopped working, so I replaced it with one of […]\nThe post Shelly IoT door controller config fail: leaving your garage, home and security exposed appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/shelly-iot-door-controller-config-fail-leaving-your-garage-home-and-security-exposed/",
-          "publishedOn": "2026-02-11T15:19:03.000Z",
-          "wordCount": 2665,
-          "title": "Shelly IoT door controller config fail: leaving your garage, home and security exposed",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/01/Shellys-AP-mode-and-the-garage-you-thought-was-secure-headlinev2-1024x576.png"
         }
       ]
     },
@@ -14936,14 +14961,14 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
-          "id": "https://blog.nviso.eu/?p=23429",
-          "author": "Thomas Papaloukas",
-          "description": "Kerberos is one of the most common protocols in organizations that utilize Windows Active Directory, and an essential part of Windows authentication used to verify the identity of a user or a host [1]. As such, Kerberos is often a target for adversaries trying to either steal or forge Kerberos tickets [2]. In this blog … Continue reading Capture the Kerberos Flag: Detecting Kerberos Anomalies →",
-          "link": "https://blog.nviso.eu/2026/02/12/capture-the-kerberos-flag-detecting-kerberos-anomalies/",
-          "publishedOn": "2026-02-12T08:48:30.000Z",
-          "wordCount": 4193,
-          "title": "Capture the Kerberos Flag: Detecting Kerberos Anomalies",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/02/Capture_the_Kerberos_BP_Thomas.jpg"
+          "id": "https://blog.nviso.eu/?p=24756",
+          "author": "Olaf Schwarz",
+          "description": "In late January 2026 an advisory covering two remote code execution vulnerabilities (CVE-2026-1281 & CVE-2026-1340) in Ivanti Endpoint Manager Mobile (EPMM) was published. Shortly after reports (in example by tenable) mentioned publicly available proof-of-concept exploits. On 09th February 2026, Defused published a blog post mentioning a specific webshell being deployed on EPMM devices via this … Continue reading Ivanti EPMM ‘Sleeper Shells’ not so sleepy? →",
+          "link": "https://blog.nviso.eu/2026/03/13/ivanti-epmm-sleeper-shells-not-so-sleepy/",
+          "publishedOn": "2026-03-13T15:43:53.000Z",
+          "wordCount": 3261,
+          "title": "Ivanti EPMM ‘Sleeper Shells’ not so sleepy?",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/03/featuredImage_ivantiEPMM_v2.png"
         }
       ]
     },
@@ -14952,6 +14977,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/winning-ctfs-a-proving-ground-at-hackmex-ekoparty",
+          "author": null,
+          "description": "CTF competitions push offensive security skills to their limits. In 2025, the Bishop Fox Mexico team claimed first place at both HackMex Finals and EkoParty Red Team Space. Discover how the team navigated web exploitation, infrastructure compromise, and AWS attack paths to win.",
+          "link": "https://bishopfox.com/blog/winning-ctfs-a-proving-ground-at-hackmex-ekoparty",
+          "publishedOn": "2026-03-13T13:00:00.000Z",
+          "wordCount": 2406,
+          "title": "Winning CTFs: A Proving Ground at HackMex & Ekoparty",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Winning-CTFs_Blog.jpg?mtime=1773418004"
+        },
         {
           "id": "https://bishopfox.com/blog/cve-2026-21643-pre-authentication-sql-injection-in-forticlient-ems-7-4-4",
           "author": null,
