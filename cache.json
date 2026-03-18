@@ -14162,16 +14162,6 @@
           "wordCount": 2963,
           "title": "The MCP AuthN/Z Nightmare",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/02/16/electron-safe-updater.html",
-          "author": null,
-          "description": "Introduction\nIn cooperation with the Polytechnic University of Valencia and Doyensec, I spent over six months during my internship in a research that combines theoretical foundations in code signing and secure update designs with a practical implementation of these learnings.\nThis motivated the development of SafeUpdater, a macOS updater vaguely based on the update mechanisms used by Signal Desktop, but otherwise designed as a modular extension.\nSafeUpdater is a package designed for MacOS systems, but its interfaces are easily extensible to both Windows and Linux.\nPlease note that “SafeUpdater” is not intended to be used as a general-purpose package, but as a reference design illustrating how update mechanisms can be built around explicit threat models and concrete attack mitigations.\n⚠️ T…",
-          "link": "https://blog.doyensec.com/2026/02/16/electron-safe-updater.html",
-          "publishedOn": "2026-02-15T23:00:00.000Z",
-          "wordCount": 3466,
-          "title": "Building a Secure Electron Auto-Updater",
-          "imageUrl": null
         }
       ]
     },
@@ -14334,6 +14324,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1607826",
+          "author": "IT Experts",
+          "description": "Microsoft released a dedicated upgrade tool called Windows 11 Installation Assistant 25H2 that lets you perform an in-place upgrade from Windows 10 or older Windows 11 versions directly to Windows 11 25H2 (the 2025 Update). The assistant automates the hardware compatibility check, download, and installation, preserving your files, applications, and most settings. It is available from the Microsoft Download Center and works only on x64-based PCs. Understanding the requirements and process before you start helps you avoid common pitfalls.\nSource",
+          "link": "https://4sysops.com/archives/upgrade-windows-10-and-11-to-windows-11-25h2-with-the-installation-assistant/",
+          "publishedOn": "2026-03-17T14:34:38.000Z",
+          "wordCount": 4781,
+          "title": "Upgrade Windows 10 and 11 to Windows 11 25H2 with the Installation Assistant",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Using-the-PC-Health-Check-to-confirm-Windows-11-compatibility.png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1607705",
+          "author": "IT Experts",
+          "description": "Azure Copilot Migration Agent is a new AI agent built into the Azure portal that assists with planning migrations from VMware, Hyper-V, and bare-metal servers to Azure. It works on top of Azure Migrate data and goes beyond answering questions: it can actively create business cases and assessments, apply tags to discovered servers, and generate deployable landing zone templates — all through natural language prompts. What it cannot do is execute the actual migration. Replication, test migrations, and cutover are performed in the Azure Migrate portal, not through the agent. The agent is currently in public preview.\nSource",
+          "link": "https://4sysops.com/archives/azure-copilot-migration-agent-ai-assisted-migration-planning-for-vmware-hyper-v-and-bare-metal-servers/",
+          "publishedOn": "2026-03-17T14:32:20.000Z",
+          "wordCount": 6408,
+          "title": "Azure Copilot Migration Agent: AI-assisted migration planning for VMware, Hyper-V, and bare-metal servers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Azure-Copilot-Migration-Agent-image-Microsoft.png"
+        },
         {
           "id": "https://4sysops.com/?p=1607783",
           "author": "IT Experts",
@@ -14713,16 +14723,6 @@
           "wordCount": null,
           "title": "What is Microsoft’s and Google’s new WebMCP standard?",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1606209",
-          "author": "IT Experts",
-          "description": "Microsoft announced on February 12, 2026, a significant change to its Exchange Online PowerShell module: the deprecation of the -Credential parameter for the Connect-ExchangeOnline cmdlet. This change represents part of a broader initiative to enhance security across Microsoft 365 administrative interfaces by eliminating authentication methods that do not support multifactor authentication.\nSource",
-          "link": "https://4sysops.com/archives/exchange-online-deprecates-credential-parameter-in-connect-exchangeonline-powershell-cmdlet/",
-          "publishedOn": "2026-02-16T13:07:29.000Z",
-          "wordCount": null,
-          "title": "Exchange Online deprecates -Credential parameter in Connect-ExchangeOnline PowerShell cmdlet",
-          "imageUrl": null
         }
       ]
     },
@@ -14817,7 +14817,18 @@
       "title": "Embrace The Red",
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2026/agent-commander-your-agent-works-for-me-now/",
+          "author": null,
+          "description": "This post is about prompt-based command and control (C2), which is becoming more relevant.\nWhat is Promptware-Powered C2?\nThree years ago, when ChatGPT introduced the browsing tool, we already experimented with the idea of prompt-based command and control. And when ChatGPT got memories we showed that this can be combined and abused for a full command and control channel.\nRecent work uses the term promptware to describe prompt-injection payloads that are more complex in behavior and closer to malware. I’m using that term here as it fits well.",
+          "link": "https://embracethered.com/blog/posts/2026/agent-commander-your-agent-works-for-me-now/",
+          "publishedOn": "2026-03-17T03:20:58.000Z",
+          "wordCount": 2086,
+          "title": "Agent Commander: Promptware-Powered Command and Control",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Pentest Blog",
@@ -14879,6 +14890,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=138103",
+          "author": "LABScon",
+          "description": "Andrew MacPherson exposes how crypto thieves exploit DeFi architecture, from the $1.5 billion Bybit heist to drainers-as-a-service and fund laundering.",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-your-apps-may-be-gone-but-the-hackers-made-9-billion-and-theyre-still-here/",
+          "publishedOn": "2026-03-17T13:00:02.000Z",
+          "wordCount": 6996,
+          "title": "LABScon25 Replay | Your Apps May Be Gone, But the Hackers Made $9 Billion and They’re Still Here",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/03/LABScon25-Andrew_MacPherson-ftr.jpg",
+            "length": "499297",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/03/LABScon25-Andrew_MacPherson-ftr.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=137977",
           "author": "Aleksandar Milenkoski &amp; Razvan Gabriel Cirstea",
           "description": "LLMs can turn CTI narratives into structured intelligence at scale, but speed-accuracy trade-offs demand careful design for operational defense workflows.",
@@ -14917,6 +14943,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/accidental-engineer-building-my-first-hardware-tool-the-hard-way",
+          "author": null,
+          "description": "I set out to build a rugged badge-cloning tool for field use, with zero hardware background. This is the story of learning electrical engineering from scratch, navigating bad assumptions, and discovering that curiosity, persistence, and hands-on testing can take you further than you think.",
+          "link": "https://bishopfox.com/blog/accidental-engineer-building-my-first-hardware-tool-the-hard-way",
+          "publishedOn": "2026-03-17T13:00:00.000Z",
+          "wordCount": 2897,
+          "title": "Accidental Engineer: Building My First Hardware Tool the Hard Way",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Accidental-Engineer_Blog.png?mtime=1773773853"
+        },
         {
           "id": "https://bishopfox.com/blog/winning-ctfs-a-proving-ground-at-hackmex-ekoparty",
           "author": null,
