@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=24676",
+          "author": "JD Crandell",
+          "description": "TL;DR: This blog looks at the Shai-Hulud 2.0 worm through an Attack Path Management lens. I also introduce NPMHound which can be used to visualize NPM package dependencies in BloodHound OpenGraph. Introduction A recent supply chain attack, referred to as Shai-Hulud 2.0, involved an attacker using a worm to infect developer systems that contained credentials […]\nThe post Graph the Planet: Shai-Hulud 2.0 appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/03/19/graph-the-planet-shai-hulud-2-0/",
+          "publishedOn": "2026-03-19T16:00:00.000Z",
+          "wordCount": 3794,
+          "title": "Graph the Planet: Shai-Hulud 2.0",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/image_981cd0.png"
+        },
+        {
           "id": "https://specterops.io/?p=24980",
           "author": "Jared Atkinson",
           "description": "Learn how GitHub acts as both a target and pivot point in attack paths—and how to uncover and remediate the risks hidden in identity and CI/CD relationships.\nThe post Introducing Attack Path Management for GitHub in BloodHound Enterprise appeared first on SpecterOps.",
@@ -84,16 +94,6 @@
           "wordCount": 6520,
           "title": "Mapping Deception Solutions With BloodHound OpenGraph  – Configuration Manager",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/02/Screenshot-2026-02-09-at-11.46.45-AM-2.png"
-        },
-        {
-          "id": "https://specterops.io/?p=23402",
-          "author": "Lee Robinson",
-          "description": "TL;DR: Conditional Access is powerful but hard to reason about once policies start to overlap. CAPSlock is an offline Conditional Access analysis tool built on ROADrecon that helps you understand which policies apply, which might apply depending on signals during sign-in, and where enforcement falls apart. What are we talking about? After red teaming for […]\nThe post STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/02/17/stop-the-cap-making-entra-id-conditional-access-make-sense-offline/",
-          "publishedOn": "2026-02-17T17:05:00.000Z",
-          "wordCount": 7047,
-          "title": "STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/02/Screenshot-2026-02-10-at-1.51.13-PM.png"
         }
       ]
     },
@@ -14014,6 +14014,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=10723",
+          "author": "n8n-publisher",
+          "description": "Key Takeaways CVSS v3.1 base score of 9.8 (Critical) with vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H, according to the CNA Delta Electronics COMMGR2 contains an out-of-bounds write vulnerability (CWE-787) enabling unauthenticated remote code execution NVD lists the vulnerability as analyzed; vendor advisory Delta-PCSA-2026-00005 is available addressing multiple COMMGR2 vulnerabilities No evidence of active exploitation in the wild; specific affected […]\nThe post CVE-2026-3630: Critical Buffer Overflow in Delta Electronics COMMGR2 Enables Remote Code Execution appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/cve-2026-3630/",
+          "publishedOn": "2026-03-19T05:46:46.000Z",
+          "wordCount": 3800,
+          "title": "CVE-2026-3630: Critical Buffer Overflow in Delta Electronics COMMGR2 Enables Remote Code Execution",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/01/favicon.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=10737",
           "author": "n8n-publisher",
           "description": "What started as a standard cross-site scripting vulnerability in a document processing platform turned into a full administrative takeover of the application and, ultimately, remote code execution on the underlying server. The HttpOnly flag protected the session cookie from Javascript, but did the application keep it safe? During a recent assessment of a document processing […]\nThe post When HttpOnly Isn’t Enough: Chaining XSS and GhostScript for Full RCE Compromise appeared first on Praetorian.",
@@ -14157,16 +14167,6 @@
           "wordCount": 3401,
           "title": "Praetorian Guard finds critical flaws in OpenClaw – And What It Means for Your Software Supply Chain",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/AI-PoweredZeroDay-hero-ezgif.com-png-to-webp-converter.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=9409",
-          "author": "Justin Copeland",
-          "description": "TL;DR – MCP servers – the integration layer connecting AI assistants to external tools and data – are a significant and underexplored attack surface. Our research demonstrates that both locally hosted and third-party MCP servers can be exploited to execute arbitrary code, exfiltrate sensitive data, and manipulate user behavior, often with zero indication to the […]\nThe post MCP Server Security: The Hidden AI Attack Surface appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/mcp-server-security-the-hidden-ai-attack-surface/",
-          "publishedOn": "2026-02-17T15:25:06.000Z",
-          "wordCount": 4318,
-          "title": "MCP Server Security: The Hidden AI Attack Surface",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/MCP-HIdden-AI-Attack-Surface-Blog-Hero.png"
         }
       ]
     },
@@ -14263,16 +14263,6 @@
           "wordCount": 1628,
           "title": "Using threat modeling and prompt injection to audit Comet",
           "imageUrl": "https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/using-threat-modeling-and-prompt-injection-to-audit-comet-image-1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
-          "author": null,
-          "description": "Two popular AES libraries, aes-js and pyaes, “helpfully” provide a default IV in their AES-CTR API, leading to a large number of key/IV reuse bugs. These bugs potentially affect thousands of downstream projects. When we shared one of these bugs with an affected vendor, strongSwan, the maintainer provided a model response for security vendors. The aes-js/pyaes maintainer, on the other hand, has taken a more… cavalier approach.\nTrail of Bits doesn’t usually make a point of publicly calling out specific products as unsafe. Our motto is that we don’t just fix bugs—we fix software. We do better by the world when we work to address systemic threats, not individual bugs. That’s why we work to provide static analysis tools, auditing tools, and documentation for folks looking to implement cryptogra…",
-          "link": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
-          "publishedOn": "2026-02-18T12:00:00.000Z",
-          "wordCount": 2070,
-          "title": "Carelessness versus craftsmanship in cryptography",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -14733,26 +14723,6 @@
           "wordCount": null,
           "title": "KB5077868 fixes TrustedInstaller deadlock, causing Windows 11 OOBE boot hang after update",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1606282",
-          "author": "IT Experts",
-          "description": "The Windows January 2026 security update introduces security hardening that restricts applications from autofilling credentials in Windows authentication dialogs, affecting remote support tools, automated authentication workflows, and screen-sharing applications. This change addresses CVE-2026-20804, a Windows Hello vulnerability that allows biometric injection attacks.\nSource",
-          "link": "https://4sysops.com/archives/autofill-credentials-into-the-windows-authentication-dialog-fails/",
-          "publishedOn": "2026-02-17T16:33:09.000Z",
-          "wordCount": null,
-          "title": "Autofill credentials into the Windows authentication dialog fails",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1606165",
-          "author": "IT Experts",
-          "description": "ChatGPT Lockdown Mode is an advanced security setting designed to protect organizations against prompt-injection-based data exfiltration attacks. Introduced by OpenAI in February 2026, you can enable this optional feature through workspace settings if you manage enterprise ChatGPT accounts.\nSource",
-          "link": "https://4sysops.com/archives/how-to-enable-chatgpt-lockdown-mode-for-enterprise-security/",
-          "publishedOn": "2026-02-17T16:31:54.000Z",
-          "wordCount": null,
-          "title": "How to enable ChatGPT Lockdown Mode for enterprise security",
-          "imageUrl": null
         }
       ]
     },
@@ -14919,6 +14889,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=138142",
+          "author": "Phil Stokes",
+          "description": "Single-tool LLM analysis produces reports that look authoritative but aren't. A serial consensus pipeline catches artifacts and hallucinations at source.",
+          "link": "https://www.sentinelone.com/labs/building-an-adversarial-consensus-engine-multi-agent-llms-for-automated-malware-analysis/",
+          "publishedOn": "2026-03-19T10:00:07.000Z",
+          "wordCount": 9555,
+          "title": "Building an Adversarial Consensus Engine | Multi-Agent LLMs for Automated Malware Analysis",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/03/Adversarial_LLM9.jpg",
+            "length": "147754",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/03/Adversarial_LLM9.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=138103",
           "author": "LABScon",
@@ -15132,6 +15117,16 @@
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
+        {
+          "id": "69bc576e61eca100016f2c62",
+          "author": "McCaulay Hudson",
+          "description": "A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability.\nIn fact, this vulnerability was born so long ago (way back in 1994) that it may even be older than you. To put the timespan",
+          "link": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
+          "publishedOn": "2026-03-19T20:21:07.000Z",
+          "wordCount": 5245,
+          "title": "A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/Group-8730.png"
+        },
         {
           "id": "69b9cf8461eca100016f2b6b",
           "author": "Sonny",

@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-19T01:16:26.143Z</updated>
+    <updated>2026-03-20T01:12:38.101Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)]]></title>
+        <id>69bc576e61eca100016f2c62</id>
+        <link href="https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/"/>
+        <updated>2026-03-19T20:21:07.000Z</updated>
+        <summary type="html"><![CDATA[A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability.
+In fact, this vulnerability was born so long ago (way back in 1994) that it may even be older than you. To put the timespan]]></summary>
+        <author>
+            <name>McCaulay Hudson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Graph the Planet: Shai-Hulud 2.0]]></title>
+        <id>https://specterops.io/?p=24676</id>
+        <link href="https://specterops.io/blog/2026/03/19/graph-the-planet-shai-hulud-2-0/"/>
+        <updated>2026-03-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: This blog looks at the Shai-Hulud 2.0 worm through an Attack Path Management lens. I also introduce NPMHound which can be used to visualize NPM package dependencies in BloodHound OpenGraph. Introduction A recent supply chain attack, referred to as Shai-Hulud 2.0, involved an attacker using a worm to infect developer systems that contained credentials […]
+The post Graph the Planet: Shai-Hulud 2.0 appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>JD Crandell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building an Adversarial Consensus Engine | Multi-Agent LLMs for Automated Malware Analysis]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=138142</id>
+        <link href="https://www.sentinelone.com/labs/building-an-adversarial-consensus-engine-multi-agent-llms-for-automated-malware-analysis/"/>
+        <updated>2026-03-19T10:00:07.000Z</updated>
+        <summary type="html"><![CDATA[Single-tool LLM analysis produces reports that look authoritative but aren't. A serial consensus pipeline catches artifacts and hallucinations at source.]]></summary>
+        <author>
+            <name>Phil Stokes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-3630: Critical Buffer Overflow in Delta Electronics COMMGR2 Enables Remote Code Execution]]></title>
+        <id>https://www.praetorian.com/?p=10723</id>
+        <link href="https://www.praetorian.com/blog/cve-2026-3630/"/>
+        <updated>2026-03-19T05:46:46.000Z</updated>
+        <summary type="html"><![CDATA[Key Takeaways CVSS v3.1 base score of 9.8 (Critical) with vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H, according to the CNA Delta Electronics COMMGR2 contains an out-of-bounds write vulnerability (CWE-787) enabling unauthenticated remote code execution NVD lists the vulnerability as analyzed; vendor advisory Delta-PCSA-2026-00005 is available addressing multiple COMMGR2 vulnerabilities No evidence of active exploitation in the wild; specific affected […]
+The post CVE-2026-3630: Critical Buffer Overflow in Delta Electronics COMMGR2 Enables Remote Code Execution appeared first on Praetorian.]]></summary>
+        <author>
+            <name>n8n-publisher</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft adds passkeys to Entra ID registration campaigns]]></title>
         <id>https://4sysops.com/?p=1608022</id>
@@ -1218,61 +1261,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Carelessness versus craftsmanship in cryptography]]></title>
-        <id>https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/</id>
-        <link href="https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/"/>
-        <updated>2026-02-18T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Two popular AES libraries, aes-js and pyaes, “helpfully” provide a default IV in their AES-CTR API, leading to a large number of key/IV reuse bugs. These bugs potentially affect thousands of downstream projects. When we shared one of these bugs with an affected vendor, strongSwan, the maintainer provided a model response for security vendors. The aes-js/pyaes maintainer, on the other hand, has taken a more… cavalier approach.
-Trail of Bits doesn’t usually make a point of publicly calling out specific products as unsafe. Our motto is that we don’t just fix bugs—we fix software. We do better by the world when we work to address systemic threats, not individual bugs. That’s why we work to provide static analysis tools, auditing tools, and documentation for folks looking to implement cryptogra…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline]]></title>
-        <id>https://specterops.io/?p=23402</id>
-        <link href="https://specterops.io/blog/2026/02/17/stop-the-cap-making-entra-id-conditional-access-make-sense-offline/"/>
-        <updated>2026-02-17T17:05:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Conditional Access is powerful but hard to reason about once policies start to overlap. CAPSlock is an offline Conditional Access analysis tool built on ROADrecon that helps you understand which policies apply, which might apply depending on signals during sign-in, and where enforcement falls apart. What are we talking about? After red teaming for […]
-The post STOP THE CAP: Making Entra ID Conditional Access Make Sense Offline appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Lee Robinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Autofill credentials into the Windows authentication dialog fails]]></title>
-        <id>https://4sysops.com/?p=1606282</id>
-        <link href="https://4sysops.com/archives/autofill-credentials-into-the-windows-authentication-dialog-fails/"/>
-        <updated>2026-02-17T16:33:09.000Z</updated>
-        <summary type="html"><![CDATA[The Windows January 2026 security update introduces security hardening that restricts applications from autofilling credentials in Windows authentication dialogs, affecting remote support tools, automated authentication workflows, and screen-sharing applications. This change addresses CVE-2026-20804, a Windows Hello vulnerability that allows biometric injection attacks.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to enable ChatGPT Lockdown Mode for enterprise security]]></title>
-        <id>https://4sysops.com/?p=1606165</id>
-        <link href="https://4sysops.com/archives/how-to-enable-chatgpt-lockdown-mode-for-enterprise-security/"/>
-        <updated>2026-02-17T16:31:54.000Z</updated>
-        <summary type="html"><![CDATA[ChatGPT Lockdown Mode is an advanced security setting designed to protect organizations against prompt-injection-based data exfiltration attacks. Introduced by OpenAI in February 2026, you can enable this optional feature through workspace settings if you manage enterprise ChatGPT accounts.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MCP Server Security: The Hidden AI Attack Surface]]></title>
-        <id>https://www.praetorian.com/?p=9409</id>
-        <link href="https://www.praetorian.com/blog/mcp-server-security-the-hidden-ai-attack-surface/"/>
-        <updated>2026-02-17T15:25:06.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR – MCP servers – the integration layer connecting AI assistants to external tools and data – are a significant and underexplored attack surface. Our research demonstrates that both locally hosted and third-party MCP servers can be exploited to execute arbitrary code, exfiltrate sensitive data, and manipulate user behavior, often with zero indication to the […]
-The post MCP Server Security: The Hidden AI Attack Surface appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Justin Copeland</name>
         </author>
     </entry>
     <entry>
