@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-03-26T01:21:14.866Z</updated>
+    <updated>2026-03-27T01:21:10.729Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing Cobalt Strike Research Labs]]></title>
+        <id>https://www.outflank.nl/?p=6169</id>
+        <link href="https://www.outflank.nl/blog/2026/03/26/introducing-cobalt-strike-research-labs/"/>
+        <updated>2026-03-26T16:29:19.000Z</updated>
+        <summary type="html"><![CDATA[.img-popup-trigger {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 0;
+  }
+  .img-thumb-wrap {
+    position: relative;
+    display: inline-block;
+    max-width: 800px;
+    border-radius: .3rem;
+    overflow: hidden;
+    transition: transform 0.25s ease;
+  }
+  .img-popup-trigger:hover .img-thumb-wrap {
+    transform: scale(1.03);
+  }
+  .img-thumb-wrap figure {
+    margin: 0;
+    display: block;
+  }
+  .img-thumb-wrap figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .3rem;
+  }
+  .img-expand-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.35);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    border-radius: .3rem;
+    pointer-events: none;
+    z-index: 2;
+  }
+  .img-popup-trigger:hover .img-expand-overlay {
+    opacity: 1;
+  }
+  .img-expand-btn {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: .3rem;
+    backdrop-filter: blur(3px);
+    line-height: 1.2;
+  }
+  .img-popup-modal {
+    display: none;
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0,0,0,0.7) !important;
+    z-index: 2147483647 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+
+Read full post
+The post Introducing Cobalt Strike Research Labs appeared first on Outflank.]]></summary>
+        <author>
+            <name>Stan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leveling Up Secure Code Reviews with Claude Code]]></title>
+        <id>https://specterops.io/?p=24934</id>
+        <link href="https://specterops.io/blog/2026/03/26/leveling-up-secure-code-reviews-with-claude-code/"/>
+        <updated>2026-03-26T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Claude Code is a force multiplier when performing secure code reviews during an assessment. In this post, we discuss how to leverage Claude Code to produce digestible output that helps up better understand analyzed code base while surfacing secure and insecure coding patterns. After years of manually reviewing source code for vulnerabilities during web […]
+The post Leveling Up Secure Code Reviews with Claude Code appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Andrew Luke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New in Microsoft Defender: AI-powered triage agents, new dashboard, automated hardening, voice call monitoring in Teams]]></title>
+        <id>https://4sysops.com/?p=1608389</id>
+        <link href="https://4sysops.com/archives/new-in-microsoft-defender-ai-powered-triage-agents-new-dashboard-automated-hardening-voice-call-monitoring-in-teams/"/>
+        <updated>2026-03-26T15:21:46.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announced several features at the RSA Conference 2026, most of which are in preview and have minimal technical documentation. The primary additions include AI-powered triage agents in Security Copilot that automatically classify security alerts, a new dashboard that consolidates identity-related security events, automated hardening actions based on attack predictions, and voice-call monitoring in Microsoft Teams.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using OpenID Connect (OIDC) for external MFA in Entra ID]]></title>
+        <id>https://4sysops.com/?p=1608400</id>
+        <link href="https://4sysops.com/archives/using-openid-connect-oidc-for-external-mfa-in-entra-id/"/>
+        <updated>2026-03-26T15:20:27.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has introduced external Multi-Factor Authentication (MFA) as the new, fully integrated OpenID Connect (OIDC)-based way to connect third-party MFA providers, replacing the Custom Controls mechanism that previously enabled external MFA in a more limited way. Custom Controls will be deprecated on September 30, 2026.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[strongSwan CVE-2026-25075: Integer Underflow in VPN Authentication]]></title>
+        <id>https://bishopfox.com/blog/strongswan-cve-2026-25075-integer-underflow-in-vpn-authentication</id>
+        <link href="https://bishopfox.com/blog/strongswan-cve-2026-25075-integer-underflow-in-vpn-authentication"/>
+        <updated>2026-03-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox researchers took a deep dive into a new strongSwan vulnerability that allows unauthenticated attackers to take VPN services offline. We created an easy tool to test your strongSwan deployment & recommend upgrading to version 6.0.5 and later.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Permanently delete emails in Exchange Online with Priority Cleanup V2]]></title>
         <id>https://4sysops.com/?p=1608100</id>
@@ -1138,17 +1257,6 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[mquire: Linux memory forensics without external dependencies]]></title>
-        <id>https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/</id>
-        <link href="https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/"/>
-        <updated>2026-02-25T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’ve ever done Linux memory forensics, you know the frustration: without debug symbols that match the exact kernel version, you’re stuck. These symbols aren’t typically installed on production systems and must be sourced from external repositories, which quickly become outdated when systems receive updates. If you’ve ever tried to analyze a memory dump only to discover that no one has published symbols for that specific kernel build, you know the frustration.
-Today, we’re open-sourcing mquire, a tool that eliminates this dependency entirely. mquire analyzes Linux memory dumps without requiring any external debug information. It works by extracting everything it needs directly from the memory dump itself. This means you can analyze unknown kernels, custom builds, or any Linux distribut…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Azure Fabric Backdoor With A Twist]]></title>
         <id>e5c621aa-6738-4c1d-a9d1-2506eef72360</id>
         <link href="https://www.nccgroup.com/research-blog/azure-fabric-backdoor-with-a-twist/"/>
@@ -1167,27 +1275,6 @@ Today, we’re open-sourcing mquire, a tool that eliminates this dependency enti
 and Policies]]></summary>
         <author>
             <name>Cyber Security Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10 Enterprise LTSB 2016 end of support: activate Extended Security Updates (ESU)]]></title>
-        <id>https://4sysops.com/?p=1606684</id>
-        <link href="https://4sysops.com/archives/windows-10-enterprise-ltsb-2016-end-of-support-activate-extended-security-updates-esu/"/>
-        <updated>2026-02-24T15:34:25.000Z</updated>
-        <summary type="html"><![CDATA[Windows 10 Enterprise LTSB 2016 reaches end of support (EOS) on October 13, 2026, after which Microsoft will stop delivering security updates, bug fixes, and technical support. Organizations that cannot migrate to a newer release by that date can purchase Extended Security Updates (ESU), a paid program that provides critical security patches for up to three years. ESU licenses for LTSB 2016 will be sold through Volume Licensing or a Cloud Solution Provider (CSP) starting in Q2 2026. Activation is performed using a Multiple Activation Key (MAK) and the slmgr.vbs command-line tool.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung Tizen OS | Version Through 9.0]]></title>
-        <id>https://bishopfox.com/blog/samsung-tizen-os-version-through-9-0</id>
-        <link href="https://bishopfox.com/blog/samsung-tizen-os-version-through-9-0"/>
-        <updated>2026-02-24T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bishop Fox identified a low-risk command injection flaw in Samsung Tizen OS (through 9.0) that allows OS-level code execution on smart TVs with developer mode enabled. Exploitation requires local access and the configured developer IP. Organizations should disable developer mode or use kiosk mode.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
         </author>
     </entry>
     <entry>
