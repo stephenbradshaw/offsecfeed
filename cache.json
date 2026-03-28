@@ -114,16 +114,6 @@
           "wordCount": 5506,
           "title": "Offensive DPAPI With Nemesis",
           "imageUrl": null
-        },
-        {
-          "id": "https://specterops.io/?p=23976",
-          "author": "Will Schroeder",
-          "description": "TL;DR: Nemesis 2.2 introduces a number of powerful new features focusing on large container processing, data processing agents, enhanced DPAPI support, and a host of performance improvements. It’s been several months since we released Nemesis 2.0: our ground-up rewrite of the Nemesis file enrichment project. Since then, @tifkin_ and I have worked hard on another […]\nThe post Nemesis 2.2 appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/02/25/nemesis-2-2/",
-          "publishedOn": "2026-02-25T17:00:00.000Z",
-          "wordCount": 6672,
-          "title": "Nemesis 2.2",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/02/image_242e30.png"
         }
       ]
     },
@@ -190,16 +180,6 @@
           "wordCount": 1990,
           "title": "On the Effectiveness of Mutational Grammar Fuzzing",
           "imageUrl": "https://projectzero.google/images/preview/2026-03-05-mutational-grammar-fuzzing-image-preview.png"
-        },
-        {
-          "id": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
-          "author": null,
-          "description": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an idea of how long the API has existed as well as its security properties. The documentation’s remarks contain the following three statements that I thought were interesting: If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller. GetProcessHandleFromHwnd is a convenience function that uses this technique to obtain the handle of the process that owns the specified HWND. Note that it only succeeds in cases where the caller and target process are running as the same user.",
-          "link": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
-          "publishedOn": "2026-02-26T08:00:00.000Z",
-          "wordCount": 3150,
-          "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
-          "imageUrl": null
         }
       ]
     },
@@ -14013,6 +13993,26 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=11111",
+          "author": "n8n-publisher",
+          "description": "Authorization vulnerabilities are the most common critical finding in our API penetration tests. We find them on nearly every engagement: a user changes an ID in the URL and gets back another user’s data. Broken Object Level Authorization (BOLA) has been the #1 risk on the OWASP API Security Top 10 since the list was […]\nThe post Your API Has Authorization Bugs. Hadrian Finds Them. appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/hadrian-api-authorization-testing/",
+          "publishedOn": "2026-03-27T13:00:00.000Z",
+          "wordCount": 4641,
+          "title": "Your API Has Authorization Bugs. Hadrian Finds Them.",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Hadrian-Blog-Hero.webp"
+        },
+        {
+          "id": "https://www.praetorian.com/?p=11085",
+          "author": "n8n-publisher",
+          "description": "The False Sense of Security SMB signing on domain controllers has become standard practice across most Active Directory environments. But this hardening may have created a false sense of security. CVE-2025-33073 changes the calculus by removing the prerequisite of admin access, enabling NTLM relay attack Active Directory exploitation through unconstrained delegation. Domain controllers enforce SMB […]\nThe post Reflecting on Your Tier Model: CVE-2025-33073 and the One-Hop Problem appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/cve-2025-33073-ntlm-reflection-one-hop/",
+          "publishedOn": "2026-03-27T03:12:31.000Z",
+          "wordCount": 4199,
+          "title": "Reflecting on Your Tier Model: CVE-2025-33073 and the One-Hop Problem",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Tier-Model-Blog.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=10919",
           "author": "n8n-publisher",
           "description": "During a recent penetration test, we came across an AI-powered desktop application that acted as a bridge between Claude (Opus 4.5) and a third-party asset management platform. The idea is simple: instead of clicking through dashboards and making API calls, users just ask the agent to do it for them. “How many open tickets do […]\nThe post Which Came First: The System Prompt, or the RCE? appeared first on Praetorian.",
@@ -14186,16 +14186,6 @@
           "wordCount": 3919,
           "title": "What’s Running on That Port? Introducing Nerva for Service Fingerprinting",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/Nerva-Blog-hero.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=10026",
-          "author": "Justin Copeland",
-          "description": "The Vulnerability Time Gap When CISA adds a new CVE to the Known Exploited Vulnerabilities catalog, a clock starts ticking. Security teams must understand the vulnerability, determine if they are exposed, and deploy detection mechanisms before adversaries weaponize the flaw. This process traditionally takes days or weeks of manual research by skilled security engineers who […]\nThe post AI-Powered CVE Research: Winning the Race Against Emerging Vulnerabilities appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/ai-powered-cve-research-winning-the-race-against-emerging-vulnerabilities/",
-          "publishedOn": "2026-02-25T16:06:06.000Z",
-          "wordCount": 3095,
-          "title": "AI-Powered CVE Research: Winning the Race Against Emerging Vulnerabilities",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/02/Janani-Blog-Hero.webp"
         }
       ]
     },
@@ -14383,6 +14373,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1608011",
+          "author": "IT Experts",
+          "description": "Microsoft Defender for Cloud Apps is a Cloud Access Security Broker (CASB) solution that delivers comprehensive security for Software as a Service (SaaS) applications across your organization. This security platform provides visibility into shadow IT, threat protection, data loss prevention capabilities, and security posture management for cloud-based applications. The tool integrates with Microsoft Defender XDR to offer extended detection and response across the full attack chain. Recent updates include March 2026 changes to Secure Score category calculations that reclassify some recommendations from the Cloud apps category to Identity, more accurately reflecting where controls apply without changing the overall Secure Score.\nSource",
+          "link": "https://4sysops.com/archives/what-is-microsoft-defender-for-cloud-apps/",
+          "publishedOn": "2026-03-27T14:50:23.000Z",
+          "wordCount": 5908,
+          "title": "What is Microsoft Defender for Cloud Apps?",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Microsoft-Defender-for-Cloud-Apps-protects-SaaS-applications-(image-Microsoft).png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1607855",
+          "author": "IT Experts",
+          "description": "Exchange Online now lets you choose, per outbound connector, whether SMTP DANE and MTA-STS are enforced opportunistically, mandatorily (for DANE), or not at all. These new connector modes give you granular control over how strictly Exchange Online enforces modern email security standards when sending mail to external domains.\nSource",
+          "link": "https://4sysops.com/archives/new-smtp-dane-and-mta-sts-connector-modes-in-exchange-online/",
+          "publishedOn": "2026-03-27T14:47:31.000Z",
+          "wordCount": 6200,
+          "title": "New SMTP DANE and MTA-STS connector modes in Exchange Online",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/SMTP-DANE-and-MTA-STS-modes-in-Exchange-Online.png"
+        },
         {
           "id": "https://4sysops.com/?p=1608389",
           "author": "IT Experts",
@@ -14702,36 +14712,6 @@
           "wordCount": 5402,
           "title": "Monitoring Secure Boot certificate installation status with Intune and PowerShell",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Secure-Boot-Status-Monitor-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1606860",
-          "author": "IT Experts",
-          "description": "Microsoft released version 2602 of the Security Baseline for Windows Server 2025, approximately eight months after the previous version 2506. The update adds 10 new Group Policy settings and removes one, focusing on NTLM auditing, printer security, and authentication hardening. Most of the new policies were already included in the Windows 11 Security Baselines since 2022 and are now being backported to the server edition. The baseline is available as part of the Microsoft Security Compliance Toolkit 1.0.\nSource",
-          "link": "https://4sysops.com/archives/windows-server-2025-security-baseline-2602-10-new-settings/",
-          "publishedOn": "2026-02-26T12:55:12.000Z",
-          "wordCount": 5277,
-          "title": "Windows Server 2025 security baseline 2602: 10 new settings",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Windows-Server-2025-Security-Baseline.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1606870",
-          "author": "IT Experts",
-          "description": "Microsoft Defender for Endpoint has received a set of new features and enhancements in February 2026, covering live response management, configuration visibility, vulnerability reporting, and predictive threat mitigation. These updates span endpoints running Windows, macOS, Linux, Android, and iOS. This article covers the most significant additions to the Defender portal and their operational impact on security teams.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-defender-for-endpoint-library-management-for-live-response-vulnerability-reporting-predictive-shielding/",
-          "publishedOn": "2026-02-26T12:54:27.000Z",
-          "wordCount": 5423,
-          "title": "Microsoft Defender for Endpoint: library management for live response, vulnerability reporting, predictive shielding",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Details-of-a-software-component-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1606807",
-          "author": "IT Experts",
-          "description": "Microsoft's original Secure Boot certificates — issued in 2011 — begin expiring in June 2026. Unlike Windows 11, Windows Server does not receive these updates automatically via Windows Update. Administrators must manually deploy the 2023 replacement certificates to all applicable servers and Generation 2 virtual machines before the deadline. Systems that remain on the 2011 certificates after expiration enter a degraded security posture and cannot receive future Secure Boot updates.\nSource",
-          "link": "https://4sysops.com/archives/update-secure-boot-certificates-on-windows-server-and-vms-before-june-2026/",
-          "publishedOn": "2026-02-25T15:28:13.000Z",
-          "wordCount": null,
-          "title": "Update Secure Boot certificates on Windows Server and VMs before June 2026",
-          "imageUrl": null
         }
       ]
     },
@@ -14739,18 +14719,7 @@
       "title": "Hexacorn",
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
-      "articles": [
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10336",
-          "author": "adam",
-          "description": "Windows 11 brings us a lot of new Shim-related goodies and it makes sense to cover at least some of them. In the second part of this series I listed a number of process names that are treated in a … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2026/02/26/shimbad-the-sailor-part-3/",
-          "publishedOn": "2026-02-26T01:16:00.000Z",
-          "wordCount": 648,
-          "title": "ShimBad the Sailor, Part 3",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Penetration testing Archives - MDSec",
@@ -14940,6 +14909,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=24702",
+          "author": "Hussein Bahmad",
+          "description": "About the author Hussein Bahmad Hussein is a penetration testing manager in NVISO’s SSA team in which he manages a variety of application security projects. He plays an active role on the R&D team, focusing on AI and automation within the security assessment domain.",
+          "link": "https://blog.nviso.eu/2026/03/27/why-the-pentesting-playbook-doesnt-fit-belief-assumptions-and-non-determinism/",
+          "publishedOn": "2026-03-27T08:22:08.000Z",
+          "wordCount": 4698,
+          "title": "Why the pentesting playbook doesn’t fit: belief, assumptions, and non-determinism",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/03/preface-1.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=24756",
           "author": "Olaf Schwarz",
@@ -15135,16 +15114,6 @@
           "wordCount": 2128,
           "title": "Sometimes, You Can Just Feel The Security In The Design (Juniper Junos Evolved CVE-2026-21902 Pre-Auth RCE)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/Group-8730--34-.png"
-        },
-        {
-          "id": "699f52782905d20001da6f79",
-          "author": "Piotr Bazydlo (@chudyPB)",
-          "description": "It’s been a while, but we’re back - in time for story time.\nGather round, strap in, and prepare for another depressing journey of “all we wanted to do was reproduce an N-day, and here we are with 0-days”.\nToday, friends, we’re",
-          "link": "https://labs.watchtowr.com/buy-a-help-desk-bundle-a-remote-access-solution-solarwinds-web-help-desk-pre-auth-rce-chain-s/",
-          "publishedOn": "2026-02-25T20:06:32.000Z",
-          "wordCount": 5961,
-          "title": "Buy A Help Desk, Bundle A Remote Access Solution? (SolarWinds Web Help Desk Pre-Auth RCE Chain(s))",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/02/Group-8730--33-.png"
         }
       ]
     },
