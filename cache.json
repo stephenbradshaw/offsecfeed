@@ -6,6 +6,26 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=25411",
+          "author": "Jared Atkinson",
+          "description": "Introduction Attack path management has historically focused on identity systems like Active Directory and Entra ID. That focus made sense. These systems define authentication, authorization, and privilege at scale, and they remain central to how access is granted across an environment. But they are not the full picture. There are entire classes of systems that […]\nThe post Expanding Attack Path Management to macOS Environments appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/03/31/expanding-attack-path-management-to-macos-environments/",
+          "publishedOn": "2026-03-31T20:16:22.000Z",
+          "wordCount": 4981,
+          "title": "Expanding Attack Path Management to macOS Environments",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/image_6fa4fe.png"
+        },
+        {
+          "id": "https://specterops.io/?p=25141",
+          "author": "Lance B. Cain",
+          "description": "TL;DR : New SSO Attack Paths and Okta Edges in JamfHound: Updates have been added to the JamfHound OpenGraph collector to identify IDP integrated attack paths starting with Okta and JamfHound is now an official OpenGraph collector of BloodHound Enterprise. Since the initial release at Black Hat USA 2025, JamfHound has received positive feedback from […]\nThe post JamfHound v1.1 Update: SSO Attack Paths and Okta Additions appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/03/31/jamfhound-v1-1-update-sso-attack-paths-and-okta-additions/",
+          "publishedOn": "2026-03-31T15:00:00.000Z",
+          "wordCount": 4736,
+          "title": "JamfHound v1.1 Update: SSO Attack Paths and Okta Additions",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/Untitled-design-5-e1774288449391.png"
+        },
+        {
           "id": "https://specterops.io/?p=24934",
           "author": "Andrew Luke",
           "description": "TL;DR: Claude Code is a force multiplier when performing secure code reviews during an assessment. In this post, we discuss how to leverage Claude Code to produce digestible output that helps up better understand analyzed code base while surfacing secure and insecure coding patterns. After years of manually reviewing source code for vulnerabilities during web […]\nThe post Leveling Up Secure Code Reviews with Claude Code appeared first on SpecterOps.",
@@ -317,16 +337,6 @@
           "publishedOn": "2026-03-08T00:00:00.000Z",
           "wordCount": 3299,
           "title": "Update: base64dump.py Version 0.0.29",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11136",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in February: Blog posts: Update: rtfdump.py Version 0.0.14 Update: rtfdump.py Version 0.0.15 SANS ISC Diary entries: YARA-X 1.13.0 Release Quick Howto: Extract URLs from RTF files",
-          "link": "https://blog.didierstevens.com/2026/03/02/overview-of-content-published-in-february-9/",
-          "publishedOn": "2026-03-02T09:06:15.000Z",
-          "wordCount": 3311,
-          "title": "Overview of Content Published in February",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
@@ -14234,6 +14244,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
+          "author": null,
+          "description": "This post is adapted from a talk I gave at [un]prompted, the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides.\nMost companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead.\nA year ago, about 5% of Trail of Bits was on board with our AI initiative. The other 95% ranged from passively skeptical to actively resistant. Today we have 94 plugins, 201 skills, 84 specialized agents, and on the right engagements, AI-augmented auditors finding 200 bugs a week. This post is the playbook for how we got there. We open sourced most of it, so you can steal it today.\n\n \nA recent Fortune article reported that a National Bureau of Economic Research stud…",
+          "link": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
+          "publishedOn": "2026-03-31T11:00:00.000Z",
+          "wordCount": 3077,
+          "title": "How we made Trail of Bits AI-native (so far)",
+          "imageUrl": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/title_slide.jpg"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/",
           "author": null,
           "description": "We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post. Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanically. In testing against real audit findings, it achieved 93% recall versus 50% for baseline prompts.\nYou can download and use our new dimensional-analysis plugin by running these commands:\nHow our plugin differs from most skills\nThis plugin release is quite different from the wave of security analysis skills released over the past few weeks. The skills we’ve seen tend to take a relatively simple appr…",
@@ -14353,6 +14373,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1608593",
+          "author": "IT Experts",
+          "description": "Microsoft released new preview builds across three Windows Insider channels. The Dev and Beta channels (Builds 26300.8142 and 26220.8138, both based on Windows 11 25H2) introduce the most notable changes: continued rollout of Administrator Protection—a new security feature that limits what admin accounts can do by default—plus Task Manager improvements for monitoring the Neural Processing Unit (NPU) and a new touchpad setting. The Canary Channel receives Build 29558, which primarily introduces Windows Console Host improvements but also includes other fixes.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-insider-builds-administrator-protection-npu-monitoring-console-updates/",
+          "publishedOn": "2026-03-31T14:27:42.000Z",
+          "wordCount": null,
+          "title": "Windows 11 Insider builds: Administrator Protection, NPU monitoring, console updates",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1608538",
           "author": "IT Experts",
