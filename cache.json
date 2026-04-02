@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=25122",
+          "author": "Chris Thompson",
+          "description": "TL;DR : While writing ConfigManBearPig, a PowerShell script that enables collection of SCCM-related attack paths for visualization in BloodHound, I needed a lab that was representative of enterprise SCCM hierarchies to test my code against a variety of possible configurations. I wanted to publish these Ludus templates that automate deployment of a large SCCM lab […]\nThe post Ludus SCCM Lab Expansion appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/04/01/ludus-sccm-lab-expansion/",
+          "publishedOn": "2026-04-01T16:00:00.000Z",
+          "wordCount": 3997,
+          "title": "Ludus SCCM Lab Expansion",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/ludus-sccm-small.png"
+        },
+        {
           "id": "https://specterops.io/?p=25411",
           "author": "Jared Atkinson",
           "description": "Introduction Attack path management has historically focused on identity systems like Active Directory and Entra ID. That focus made sense. These systems define authentication, authorization, and privilege at scale, and they remain central to how access is granted across an environment. But they are not the full picture. There are entire classes of systems that […]\nThe post Expanding Attack Path Management to macOS Environments appeared first on SpecterOps.",
@@ -250,6 +260,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=11165",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in March: Blog posts: Update: base64dump.py Version 0.0.29 Update: emldump.py Version 0.0.16 Update: search-for-compression.py 0.0.6 Update: pecheck.py Version 0.7.20 Update: zipdump.py Version 0.0.34 Update: zipdump.py Version 0.0.34 Update: pdf-parser.py Version 0.7.14 Update: oledump.py Version 0.0.84 Update: oledump.py Version 0.0.85 SANS ISC Diary entries: Wireshark 4.6.4 Released Quick […]",
+          "link": "https://blog.didierstevens.com/2026/04/02/overview-of-content-published-in-march-11/",
+          "publishedOn": "2026-04-02T00:00:00.000Z",
+          "wordCount": 3326,
+          "title": "Overview of Content Published in March",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=11159",
           "author": "Didier Stevens",
           "description": "Fixing newlines in some plugins. oledump_V0_0_85.zip (http)MD5: D972CE411B395EF77DBCE9A63059E8C1SHA256: 721C095F3126745A42720316A0B3AC1BCCB9DCDBBA9FF59F5FE1F70F8BA3A1AB",
@@ -428,18 +448,7 @@
       "title": "Active Directory & Azure AD/Entra ID Security",
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
-      "articles": [
-        {
-          "id": "https://adsecurity.org/?p=4969",
-          "author": "Sean Metcalf",
-          "description": "In Active Directory, there has been a method that’s been around for many years which changes the password last set date but not the actual password. This is what I call a “fake password change” since the account appears to have a recent password when scanning for old passwords based on password last set, but … \nContinue reading",
-          "link": "https://adsecurity.org/?p=4969",
-          "publishedOn": "2026-03-03T01:17:00.000Z",
-          "wordCount": 2271,
-          "title": "Detecting Fake Active Directory Password Changes",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2026/02/image-7.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Tyranid's Lair",
@@ -14003,6 +14012,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=3755",
+          "author": "Nathan Sportsman",
+          "description": "Introduction The Zodiac Killer, one of America’s most notorious unsolved serial killer cases, sent numerous encrypted messages to newspapers during his reign of terror in the late 1960s and early 1970s. While his 408-character cipher was eventually cracked, the shorter “Z32” cipher that accompanied a map of the San Francisco Bay Area has remained unsolved […]\nThe post A Possible Solution to the Zodiac Killer Z32 Cipher appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/a-possible-solution-to-the-zodiac-killer-z32-cipher/",
+          "publishedOn": "2026-04-01T22:37:08.000Z",
+          "wordCount": 7310,
+          "title": "A Possible Solution to the Zodiac Killer Z32 Cipher",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/04/zodiac.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=11111",
           "author": "n8n-publisher",
           "description": "Authorization vulnerabilities are the most common critical finding in our API penetration tests. We find them on nearly every engagement: a user changes an ID in the URL and gets back another user’s data. Broken Object Level Authorization (BOLA) has been the #1 risk on the OWASP API Security Top 10 since the list was […]\nThe post Your API Has Authorization Bugs. Hadrian Finds Them. appeared first on Praetorian.",
@@ -14244,6 +14263,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/",
+          "author": null,
+          "description": "Code coverage is one of the most dangerous quality metrics in software testing. Many developers fail to realize that code coverage lies by omission: it measures execution, not verification. Test suites with high coverage can obfuscate the fact that critical functionality is untested as software develops over time. We saw this when mutation testing uncovered a high-severity Arkis protocol vulnerability, overlooked by coverage metrics, that would have allowed attackers to drain funds.\nToday, we’re announcing MuTON and mewt, two new mutation testing tools optimized for agentic use, along with a configuration optimization skill to help agents set up campaigns efficiently. MuTON provides first-class support for TON blockchain languages (FunC, Tolk, and Tact), while mewt is the language-agnostic…",
+          "link": "https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/",
+          "publishedOn": "2026-04-01T11:00:00.000Z",
+          "wordCount": 1749,
+          "title": "Mutation testing for the agentic era",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/",
           "author": null,
           "description": "This post is adapted from a talk I gave at [un]prompted, the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides.\nMost companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead.\nA year ago, about 5% of Trail of Bits was on board with our AI initiative. The other 95% ranged from passively skeptical to actively resistant. Today we have 94 plugins, 201 skills, 84 specialized agents, and on the right engagements, AI-augmented auditors finding 200 bugs a week. This post is the playbook for how we got there. We open sourced most of it, so you can steal it today.\n\n \nA recent Fortune article reported that a National Bureau of Economic Research stud…",
@@ -14373,6 +14402,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1608690",
+          "author": "IT Experts",
+          "description": "Microsoft is making a decisive shift as Windows App is finally replacing Remote Desktop, introducing a unified way to access cloud PCs, virtual desktops, and local machines. Alongside this transition come key upgrades, including LAN support, built-in keylogging protection, more reliable connections with RDP Multipath, and flexible Mobile Application Management (MAM).\nSource",
+          "link": "https://4sysops.com/archives/windows-app-is-replacing-remote-desktop-lan-support-keylogging-protection-rdp-multipath-mobile-application-management-mam/",
+          "publishedOn": "2026-04-01T15:42:24.000Z",
+          "wordCount": null,
+          "title": "Windows App is replacing Remote Desktop: LAN support, keylogging protection, RDP Multipath, Mobile Application Management (MAM)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1608705",
+          "author": "IT Experts",
+          "description": "Microsoft released the March 2026 updates for Intune, its cloud-based service for managing devices and apps across an organization. The most significant change is that hotpatch security updates—patches that apply without requiring a device restart—will become the default for eligible Windows 11 devices starting May 2026. On the Apple side, two notable additions arrive: a Recovery Lock for macOS and expanded support for Apple's modern device management framework. Improved push notifications and a managed installer change also streamline Windows device deployment.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-intune-march-2026-hotpatch-by-default-macos-recovery-lock-apple-ddm/",
+          "publishedOn": "2026-04-01T15:40:02.000Z",
+          "wordCount": null,
+          "title": "Microsoft Intune March 2026: Hotpatch by default, macOS Recovery Lock, Apple DDM",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1608593",
           "author": "IT Experts",
@@ -14692,26 +14741,6 @@
           "wordCount": 4634,
           "title": "4sysops turns 20",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Computers-haven't-changed-much-in-the-last-50-years,-since-my-first-computer,-the-Commodore-PET-3032.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1607031",
-          "author": "IT Experts",
-          "description": "Windows 365 Reserve and Windows 365 Boot are two complementary Microsoft cloud services that, when combined, let employees resume work on a preconfigured Cloud PC from any Windows 11 device without additional setup. Windows 365 Reserve provides short-term Cloud PC access for users whose primary physical device is unavailable. Windows 365 Boot redirects the Windows 11 sign-in experience directly to a Cloud PC, though administrators can configure policies to allow users to access the physical device's local OS if needed.\nSource",
-          "link": "https://4sysops.com/archives/enable-windows-365-reserve-on-a-windows-365-boot-device/",
-          "publishedOn": "2026-03-02T15:36:39.000Z",
-          "wordCount": 5364,
-          "title": "Enable Windows 365 Reserve on a Windows 365 Boot device",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Windows-365-Boot-device-in-Intune-admin-center-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1607042",
-          "author": "IT Experts",
-          "description": "Windows 11 Insider Preview builds introduce a new secure processing mode for batch files and CMD scripts. IT administrators can enable it via a registry value named LockBatchFilesWhenInUse, which prevents batch files from being altered while they execute. The feature also improves performance when Windows Defender Application Control (WDAC) code integrity policies are active. It is currently available in the Dev Channel build 26300.7939, and the Beta Channel build 26220.7934.\nSource",
-          "link": "https://4sysops.com/archives/enable-batch-file-secure-mode-in-windows-11-with-lockbatchfileswheninuse-lock-running-batch-scripts/",
-          "publishedOn": "2026-03-02T15:35:52.000Z",
-          "wordCount": 4431,
-          "title": "Enable batch file secure mode in Windows 11 with LockBatchFilesWhenInUse: Lock running batch scripts",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Add-LockBatchFilesWhenInUse-value-to-Registry.png"
         }
       ]
     },
@@ -14761,16 +14790,6 @@
           "wordCount": 3776,
           "title": "Taming the dragon: reverse engineering firmware with Ghidra",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/03/Headline-Tame-the-dragon-AB-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=1712",
-          "author": "PTP Admin",
-          "description": "Introduction Many organisations are turning to virtualisation of apps and desktops. This often involves virtualisation platforms such as Citrix to deliver these services.  Get your configuration or lock-down wrong and you’ll find users ‘breaking out’ of the environment you thought you had secured. It might not be long after that when you find that your entire domain […]\nThe post Breaking Out of Citrix and other Restricted Desktop Environments appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/breaking-out-of-citrix-and-other-restricted-desktop-environments/",
-          "publishedOn": "2026-03-02T17:57:16.000Z",
-          "wordCount": 6313,
-          "title": "Breaking Out of Citrix and other Restricted Desktop Environments",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2014/06/Breaking-out-of-Cirtix-Headline-v3.png"
         }
       ]
     },
