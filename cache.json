@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=25443",
+          "author": "Allen DeMoura",
+          "description": "TL;DR: ntlmrelayx‘s SOCKS proxy works great for SMB and MSSQL but fails when you try to browse a web application through it – I dug into why, found several fundamental issues with how it handles HTTP, built ghostsurf to fix them, and along the way, discovered (and circumvented) some undocumented Windows kernel auth behavior. ghostsurf […]\nThe post ghostsurf: From NTLM Relay to Browser Session Hijacking appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/04/02/ghostsurf-from-ntlm-relay-to-browser-session-hijacking/",
+          "publishedOn": "2026-04-02T16:00:00.000Z",
+          "wordCount": 6193,
+          "title": "ghostsurf: From NTLM Relay to Browser Session Hijacking",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/image_94b03f.png"
+        },
+        {
           "id": "https://specterops.io/?p=25122",
           "author": "Chris Thompson",
           "description": "TL;DR : While writing ConfigManBearPig, a PowerShell script that enables collection of SCCM-related attack paths for visualization in BloodHound, I needed a lab that was representative of enterprise SCCM hierarchies to test my code against a variety of possible configurations. I wanted to publish these Ludus templates that automate deployment of a large SCCM lab […]\nThe post Ludus SCCM Lab Expansion appeared first on SpecterOps.",
@@ -229,18 +239,7 @@
       "title": "NetSPI Technical Blog -",
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
-      "articles": [
-        {
-          "id": "https://www.netspi.com/?p=32150",
-          "author": "Alexander Polce Leary",
-          "description": "Examples of different command execution paths for Azure Virtual Machines and Virtual Machine Scale Sets.\nThe post 7 Ways to Execute Command on Azure Virtual Machine & Virtual Machine Scale Sets appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/adversary-simulation/7-ways-to-execute-command-on-azure-virtual-machine-virtual-machine-scale-sets/",
-          "publishedOn": "2026-03-04T12:33:12.000Z",
-          "wordCount": 8190,
-          "title": "7 Ways to Execute Command on Azure Virtual Machine & Virtual Machine Scale Sets",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/02/02.26.26_TECH_7-Ways-to-Execute-Commands-on-Azure-Machines_1200x630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "All Posts - Malicious Link - Blog by mubix - Rob Fuller",
@@ -14403,6 +14402,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1608749",
+          "author": "IT Experts",
+          "description": "Microsoft has released file-level archiving for Microsoft 365 Archive in public preview on March 30, 2026. The feature lets you move individual files in SharePoint document libraries to a low-cost cold storage tier while the rest of the site remains fully active. This builds on site-level archiving, which has been generally available since May 2024. General availability of Microsoft 365 Archive file-level archiving is targeted for July 2026. Policy-based automation for automatic archiving is planned for late 2026.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-365-archive-file-level-archiving-sharepoint-cold-storage-for-individual-files/",
+          "publishedOn": "2026-04-02T16:12:35.000Z",
+          "wordCount": null,
+          "title": "Microsoft 365 Archive file-level archiving: SharePoint cold storage for individual files",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1608690",
           "author": "IT Experts",
           "description": "Microsoft is making a decisive shift as Windows App is finally replacing Remote Desktop, introducing a unified way to access cloud PCs, virtual desktops, and local machines. Alongside this transition come key upgrades, including LAN support, built-in keylogging protection, more reliable connections with RDP Multipath, and flexible Mobile Application Management (MAM).\nSource",
@@ -14731,16 +14740,6 @@
           "wordCount": 5501,
           "title": "Enable Windows Group Policy Preferences (GPP) debug logging",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Enable-Preference-Logging-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1607169",
-          "author": "Michael Pietroforte",
-          "description": "Twenty years ago, I authored my first 4sysops blog post. However, my fascination with IT started much earlier. I can't recall exactly how I came to this realization, but I initially believed that computers were superior learning tools to books and that studying how to use them would give me superpowers. Forgive me, I was just an immature teenager. Although I soon forgot this idea, I was already hooked after the initial lines of my first computer program.\nSource",
-          "link": "https://4sysops.com/archives/4sysops-turns-20/",
-          "publishedOn": "2026-03-03T15:35:31.000Z",
-          "wordCount": 4634,
-          "title": "4sysops turns 20",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Computers-haven't-changed-much-in-the-last-50-years,-since-my-first-computer,-the-Commodore-PET-3032.png"
         }
       ]
     },
@@ -15004,16 +15003,6 @@
           "wordCount": 4291,
           "title": "Pre-Authentication SQL Injection in FortiClient EMS 7.4.4 - CVE-2026-21643",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/bfx25_Blog-Forticlient-CVE-2026-21643-F.jpg?mtime=1773095402"
-        },
-        {
-          "id": "https://bishopfox.com/blog/beyond-electron-attacking-alternative-desktop-application-frameworks",
-          "author": null,
-          "description": "Tauri promises a lighter, security-first future beyond Electron—but does it actually reduce risk? Carlos Yanez uncovers how XSS and permissive configs can still be chained into RCE, walking through real-world exploitation techniques every appsec team should understand.",
-          "link": "https://bishopfox.com/blog/beyond-electron-attacking-alternative-desktop-application-frameworks",
-          "publishedOn": "2026-03-03T14:00:00.000Z",
-          "wordCount": 3484,
-          "title": "Beyond Electron: Attacking Alternative Desktop Application Frameworks",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Beyond-Electron-Application-Framework_Blog.png?mtime=1772578578"
         }
       ]
     },
@@ -15076,6 +15065,16 @@
       "siteUrl": "https://www.outflank.nl/blog/",
       "articles": [
         {
+          "id": "https://www.outflank.nl/?p=6167",
+          "author": "Daniel Duggan",
+          "description": "For those who don’t know me, my name is Daniel Duggan, known online as RastaMouse. I spent over a decade working as a penetration tester and red teamer across the public and private sector, before founding Zero-Point Security in 2018. My mission was to build the kind of training I wish had existed when I was coming up: practical, accessible, cost-effective, and rooted in real adversary tradecraft.\nMy Red Team Ops and Red Team Ops II training courses are the fruits of that labour, which are now recognised across multiple industry sectors including financial services, military, manufacturing, and naturally, security consultancies.\nIn 2025, Fortra and Zero-Point Security collaborated to launch a dedicated Cobalt Strike training course, giving operators a hands-on foundation in red team assessments and adversary simulations, built directly around the tool.\n\nRead full post\nThe post New Mouse in the House: Zero-Point Security Training Joins the Fortra Family appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2026/04/02/new-mouse-in-the-house-zero-point-security-training-joins-the-fortra-family/",
+          "publishedOn": "2026-04-02T14:10:28.000Z",
+          "wordCount": 1802,
+          "title": "New Mouse in the House: Zero-Point Security Training Joins the Fortra Family",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/03/Outflank-Security-1200x675-1.png"
+        },
+        {
           "id": "https://www.outflank.nl/?p=6169",
           "author": "Stan",
           "description": ".img-popup-trigger {\n    display: inline-block;\n    cursor: pointer;\n    text-decoration: none;\n    line-height: 0;\n  }\n  .img-thumb-wrap {\n    position: relative;\n    display: inline-block;\n    max-width: 800px;\n    border-radius: .3rem;\n    overflow: hidden;\n    transition: transform 0.25s ease;\n  }\n  .img-popup-trigger:hover .img-thumb-wrap {\n    transform: scale(1.03);\n  }\n  .img-thumb-wrap figure {\n    margin: 0;\n    display: block;\n  }\n  .img-thumb-wrap figure img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: .3rem;\n  }\n  .img-expand-overlay {\n    position: absolute;\n    inset: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background: rgba(0,0,0,0.35);\n    opacity: 0;\n    transition: opacity 0.25s ease;\n    border-radius: .3rem;\n    pointer-events: none;\n    z-index: 2;\n  }\n  .img-popup-trigger:hover .img-expand-overlay {\n    opacity: 1;\n  }\n  .img-expand-btn {\n    background: rgba(0,0,0,0.6);\n    color: #fff;\n    border: 1px solid rgba(255,255,255,0.3);\n    padding: 8px 12px;\n    font-size: 0.9rem;\n    border-radius: .3rem;\n    backdrop-filter: blur(3px);\n    line-height: 1.2;\n  }\n  .img-popup-modal {\n    display: none;\n    position: fixed !important;\n    inset: 0 !important;\n    width: 100vw !important;\n    height: 100vh !important;\n    background: rgba(0,0,0,0.7) !important;\n    z-index: 2147483647 !important;\n    justify-content: center !important;\n    align-items: center !important;\n    margin: 0 !important;\n\nRead full post\nThe post Introducing Cobalt Strike Research Labs appeared first on Outflank.",
@@ -15104,6 +15103,16 @@
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
       "articles": [
+        {
+          "id": "69cb1ed520fa5600011992b9",
+          "author": "Sonny",
+          "description": "If you squint and look at the CISA KEV list, you might think it's made up exclusively of vulnerabilities in file transfer solutions.\nWhile this would be wrong (and you shouldn’t squint, it’s bad for your eyes), file transfer solutions do play a decent",
+          "link": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
+          "publishedOn": "2026-04-02T10:00:42.000Z",
+          "wordCount": 4616,
+          "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701)",
+          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/Group-8730--1-.png"
+        },
         {
           "id": "69c96d7120fa5600011991fc",
           "author": "Aliz Hammond",
@@ -15143,16 +15152,6 @@
           "wordCount": 3981,
           "title": "The Most Organized Threat Actors Use Your ITSM (BMC FootPrints Pre-Auth Remote Code Execution Chains)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/Group-8730--38-.png"
-        },
-        {
-          "id": "69a6eb68b1e9ba000140cb74",
-          "author": "McCaulay Hudson",
-          "description": "On today’s ‘good news disguised as other things’ segment, we’re turning our gaze to CVE-2026-21902 - a recently disclosed “Incorrect Permission Assignment for Critical Resource” vulnerability affecting Juniper’s Junos OS Evolved platform. This vulnerability affects only Juniper’s PTX",
-          "link": "https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce/",
-          "publishedOn": "2026-03-03T14:15:18.000Z",
-          "wordCount": 2128,
-          "title": "Sometimes, You Can Just Feel The Security In The Design (Juniper Junos Evolved CVE-2026-21902 Pre-Auth RCE)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/Group-8730--34-.png"
         }
       ]
     },
