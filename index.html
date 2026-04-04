@@ -59,6 +59,161 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-03 datetime="2026-04-03T16:26:54.000Z">2026-04-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-03 datetime="2026-04-03T16:26:54.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Offensive Security Blog: Latest Trends in Hacking | Praetorian</button>
+                  <a class="source-heading__link" href="https://www.praetorian.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.praetorian.com/?p&#x3D;11375"
+                        open
+                      >
+                        <summary class="article-expander__title">Meet Vespasian. It Sees What Static Analysis Can’t.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.praetorian.com/blog/vespasian-api-endpoint-discovery-tool/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.praetorian.com/wp-content/uploads/2026/04/Vespasian-Blog-Hero.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Praetorian is excited to announce the release of Vespasian, a probabilistic API endpoint discovery, enumeration, and analysis tool. Vespasian watches real HTTP traffic from a headless browser or your existing proxy captures and turns it into API specifications (OpenAPI, GraphQL SDL, WSDL). We built it because pentesters spend the first days of every API engagement […]
+The post Meet Vespasian. It Sees What Static Analysis Can’t. appeared first on Praetorian.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >4sysops</button>
+                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://4sysops.com/?p&#x3D;1608818"
+                        open
+                      >
+                        <summary class="article-expander__title">Windows updates in Intune vs. SCCM patch management—April Fools and human hallucinations</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/windows-updates-in-intune-vs-sccm-patch-managementapril-fools-and-human-hallucinations/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>On April 1, Microsoft published a TechCommunity blog post explaining how Windows Update management in Intune differs from Configuration Manager (still widely known as SCCM). A Techzine author read the post as an announcement of upcoming changes and reported that &quot;patch behavior is set to change significantly for Microsoft Intune.&quot; That framing is a human hallucination, as Microsoft&#x27;s post does not announce any changes.
+Source</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Trail of Bits Blog</button>
+                  <a class="source-heading__link" href="https://blog.trailofbits.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/"
+                        open
+                      >
+                        <summary class="article-expander__title">Simplifying MBA obfuscation with CoBRA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.trailofbits.com/img/tob.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic.
+We’re releasing CoBRA, an open-source tool that simplifies the full range of MBA expressions used in the wild. Point it at an obfuscated expression and it recovers a simplified equivalent:
+$ cobra-cli --mba &quot;(x&amp;y)+(x|y)&quot;
+x + y
+$ cobra-cli --mba &quot;((a^b)|(a^c)) + 65469 * ~((a&amp;(b&amp;c))) + 65470 * (a&amp;(b&amp;c))&quot; --bitwidth 16
+67 + (a | b | c)
+CoBRA simplifies 99.86% of the 73,000+ expressions drawn from seven independent datasets. It ship…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >NVISO Labs</button>
+                  <a class="source-heading__link" href="https://blog.nviso.eu">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.nviso.eu/?p&#x3D;24939"
+                        open
+                      >
+                        <summary class="article-expander__title">The Axios npm supply chain incident: fake dependency, real backdoor</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.nviso.eu/2026/04/03/the-axios-npm-supply-chain-incident-fake-dependency-real-backdoor/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://blog.nviso.eu/wp-content/uploads/2026/04/Image-18.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>On March 31, 2026, two malicious Axios versions (1.14.1 and 0.30.4) were briefly published to npm via a compromised maintainer account. The only change performed was the addition of a trojanized dependency, whose postinstall script deployed a cross‑platform RAT (for macOS, Windows, and Linux). Although the Axios packages were removed within hours, multiple hits were … Continue reading The Axios npm supply chain incident: fake dependency, real backdoor →</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-04-02 datetime="2026-04-02T16:12:35.000Z">2026-04-02</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-04-02 datetime="2026-04-02T16:12:35.000Z"></time>
           </button>
@@ -3861,180 +4016,6 @@ Source</span>
                               <span>Windows Autopatch update readiness reached general availability, adding four capabilities to the Windows Autopatch blade in the Microsoft Intune admin center. The new features—management status report, quality update journey, alerts and remediations, and Update Readiness Checker—give IT teams proactive visibility into device readiness, update blockers, and remediation guidance across Intune-managed Windows fleets. All capabilities are included in the existing Windows Autopatch license at no additional cost. Windows Autopatch is available for customers with Windows Enterprise, Frontline, US Government, Education, and Business Premium SKUs.
 Source</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Project Zero</button>
-                  <a class="source-heading__link" href="https://projectzero.google/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://projectzero.google/2026/03/mutational-grammar-fuzzing.html"
-                        open
-                      >
-                        <summary class="article-expander__title">On the Effectiveness of Mutational Grammar Fuzzing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://projectzero.google/2026/03/mutational-grammar-fuzzing.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://projectzero.google/images/preview/2026-03-05-mutational-grammar-fuzzing-image-preview.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the sample corpus and used as a basis for future mutations. This technique has proven capable of finding complex issues and I have used it successfully in the past, including to find issues in XSLT implementations in web browsers and even JIT engine bugs. However, despite the approach being effective, it is not without its flaws which, for a casual fuzzer user, might not be obvious. In this blogpost I will introduce what I perceive to be the flaws of the mutational coverage-guided grammar fuzzing approach. I will also describe a very simple but effective technique I use in my fuzzing runs to counter these flaws.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-03-04 datetime="2026-03-04T23:00:00.000Z">2026-03-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-03-04 datetime="2026-03-04T23:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Doyensec&#x27;s Blog</button>
-                  <a class="source-heading__link" href="https://blog.doyensec.com/atom.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.doyensec.com/2026/03/05/mcp-nightmare.html"
-                        open
-                      >
-                        <summary class="article-expander__title">The MCP AuthN/Z Nightmare</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.doyensec.com/2026/03/05/mcp-nightmare.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This article shares our perspective on the current state of authentication and authorization in enterprise-ready, remote MCP server deployments.
-Before diving into that discussion, we’ll first outline the most common attack vectors. Understanding these threats is essential to properly frame the security challenges that follow. If you’re already familiar with them, feel free to skip to the section “Enterprise Authentication and Authorization: a Work in Progress” below.
-Huge shoutout to Teleport for sponsoring this research. Thanks to their support, we have been able to conduct cutting-edge security research on this topic. Stay tuned for upcoming MCP security updates!
-At this stage, introducing the Model Context Protocol (MCP) would be redundant since it has already been thoroughly covered i…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Blog Archives - SpecterOps</button>
-                  <a class="source-heading__link" href="https://specterops.io/blog/category/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://specterops.io/?p&#x3D;24028"
-                        open
-                      >
-                        <summary class="article-expander__title">Offensive DPAPI With Nemesis</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://specterops.io/blog/2026/03/04/offensive-dpapi-with-nemesis/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>TL;DR: Nemesis 2.2 automates the entire DPAPI decryption chain – from SYSTEM/user masterkeys through CNG keys to Chromium’s latest App-Bound Encryption – with robust forward as well as retroactive decryption. The Windows Data Protection API, or DPAPI, is the fun little technology that just won’t disappear from offensive operations. I first talked about abusing DPAPI […]
-The post Offensive DPAPI With Nemesis appeared first on SpecterOps.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >4sysops</button>
-                  <a class="source-heading__link" href="https://4sysops.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1606880"
-                        open
-                      >
-                        <summary class="article-expander__title">How to install Windows Admin Center vMode on Windows Server 2025</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/how-to-install-windows-admin-center-vmode-on-windows-server-2025/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2026/02/Windows-Admin-Center-vMode-(image-Microsoft).png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Windows Admin Center (WAC) vMode (Virtualization Mode) is a current in-preview management gateway for Hyper-V environments, deployable as a stateful appliance with an integrated PostgreSQL database. Unlike aMode (Administration Mode), vMode targets centralized virtualization management across multiple hosts and clusters, without requiring System Center Virtual Machine Manager (SCVMM). The only mandatory prerequisite is the Microsoft Visual C++ Redistributable. This article covers the system requirements, environment preparation, and installer walkthrough for vMode, and briefly explains how aMode installation differs.
-Source</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://4sysops.com/?p&#x3D;1607154"
-                        open
-                      >
-                        <summary class="article-expander__title">Enable Windows Group Policy Preferences (GPP) debug logging</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://4sysops.com/archives/enable-windows-group-policy-preferences-gpp-debug-logging/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://4sysops.com/wp-content/uploads/2026/03/Enable-Preference-Logging-(image-Microsoft).png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Starting with the February 2026 preview updates for Windows 11 24H2 and 25H2, Microsoft has made Group Policy Preferences (GPP) debug logging configurable directly in Local Group Policy via gpedit.msc. Previously, these settings were primarily managed through domain-based Group Policy Objects (GPOs); enabling them via Local Group Policy typically required manually copying the GroupPolicyPreferences .admx/.adml templates into the local PolicyDefinitions store. You can now enable per-CSE (client-side extension) event logging and file-based tracing on individual client devices without a domain controller.
-Source</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -28838,8 +28819,8 @@ The post The U.S. has a new cybersecurity strategy. What’s next for CISOs? app
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/23929536173">
-        <time id="build-timestamp" datetime="2026-04-03T01:21:07.009Z">2026-04-03T01:21:07.009Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/23968157519">
+        <time id="build-timestamp" datetime="2026-04-04T01:16:10.340Z">2026-04-04T01:16:10.340Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

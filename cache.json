@@ -144,16 +144,6 @@
           "wordCount": 5471,
           "title": "The Nemesis 2.X Development Guide",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/nemesis_codex.png"
-        },
-        {
-          "id": "https://specterops.io/?p=24028",
-          "author": "Will Schroeder",
-          "description": "TL;DR: Nemesis 2.2 automates the entire DPAPI decryption chain – from SYSTEM/user masterkeys through CNG keys to Chromium’s latest App-Bound Encryption – with robust forward as well as retroactive decryption. The Windows Data Protection API, or DPAPI, is the fun little technology that just won’t disappear from offensive operations. I first talked about abusing DPAPI […]\nThe post Offensive DPAPI With Nemesis appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/03/04/offensive-dpapi-with-nemesis/",
-          "publishedOn": "2026-03-04T17:00:00.000Z",
-          "wordCount": 5506,
-          "title": "Offensive DPAPI With Nemesis",
-          "imageUrl": null
         }
       ]
     },
@@ -210,18 +200,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://projectzero.google/",
-      "articles": [
-        {
-          "id": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
-          "author": null,
-          "description": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the sample corpus and used as a basis for future mutations. This technique has proven capable of finding complex issues and I have used it successfully in the past, including to find issues in XSLT implementations in web browsers and even JIT engine bugs. However, despite the approach being effective, it is not without its flaws which, for a casual fuzzer user, might not be obvious. In this blogpost I will introduce what I perceive to be the flaws of the mutational coverage-guided grammar fuzzing approach. I will also describe a very simple but effective technique I use in my fuzzing runs to counter these flaws.",
-          "link": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
-          "publishedOn": "2026-03-05T08:00:00.000Z",
-          "wordCount": 1990,
-          "title": "On the Effectiveness of Mutational Grammar Fuzzing",
-          "imageUrl": "https://projectzero.google/images/preview/2026-03-05-mutational-grammar-fuzzing-image-preview.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Carnal0wnage Blog",
@@ -14011,6 +13990,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=11375",
+          "author": "n8n-publisher",
+          "description": "Praetorian is excited to announce the release of Vespasian, a probabilistic API endpoint discovery, enumeration, and analysis tool. Vespasian watches real HTTP traffic from a headless browser or your existing proxy captures and turns it into API specifications (OpenAPI, GraphQL SDL, WSDL). We built it because pentesters spend the first days of every API engagement […]\nThe post Meet Vespasian. It Sees What Static Analysis Can’t. appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/vespasian-api-endpoint-discovery-tool/",
+          "publishedOn": "2026-04-03T16:26:54.000Z",
+          "wordCount": 5168,
+          "title": "Meet Vespasian. It Sees What Static Analysis Can’t.",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/04/Vespasian-Blog-Hero.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=3755",
           "author": "Nathan Sportsman",
           "description": "Introduction The Zodiac Killer, one of America’s most notorious unsolved serial killer cases, sent numerous encrypted messages to newspapers during his reign of terror in the late 1960s and early 1970s. While his 408-character cipher was eventually cracked, the shorter “Z32” cipher that accompanied a map of the San Francisco Bay Area has remained unsolved […]\nThe post A Possible Solution to the Zodiac Killer Z32 Cipher appeared first on Praetorian.",
@@ -14219,18 +14208,7 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
-      "articles": [
-        {
-          "id": "https://blog.doyensec.com/2026/03/05/mcp-nightmare.html",
-          "author": null,
-          "description": "This article shares our perspective on the current state of authentication and authorization in enterprise-ready, remote MCP server deployments.\nBefore diving into that discussion, we’ll first outline the most common attack vectors. Understanding these threats is essential to properly frame the security challenges that follow. If you’re already familiar with them, feel free to skip to the section “Enterprise Authentication and Authorization: a Work in Progress” below.\nHuge shoutout to Teleport for sponsoring this research. Thanks to their support, we have been able to conduct cutting-edge security research on this topic. Stay tuned for upcoming MCP security updates!\nAt this stage, introducing the Model Context Protocol (MCP) would be redundant since it has already been thoroughly covered i…",
-          "link": "https://blog.doyensec.com/2026/03/05/mcp-nightmare.html",
-          "publishedOn": "2026-03-04T23:00:00.000Z",
-          "wordCount": 2963,
-          "title": "The MCP AuthN/Z Nightmare",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Attack & Defense (Archive)",
@@ -14261,6 +14239,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/",
+          "author": null,
+          "description": "Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic.\nWe’re releasing CoBRA, an open-source tool that simplifies the full range of MBA expressions used in the wild. Point it at an obfuscated expression and it recovers a simplified equivalent:\n$ cobra-cli --mba \"(x&y)+(x|y)\"\nx + y\n$ cobra-cli --mba \"((a^b)|(a^c)) + 65469 * ~((a&(b&c))) + 65470 * (a&(b&c))\" --bitwidth 16\n67 + (a | b | c)\nCoBRA simplifies 99.86% of the 73,000+ expressions drawn from seven independent datasets. It ship…",
+          "link": "https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/",
+          "publishedOn": "2026-04-03T11:00:00.000Z",
+          "wordCount": 1178,
+          "title": "Simplifying MBA obfuscation with CoBRA",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/",
           "author": null,
@@ -14401,6 +14389,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1608818",
+          "author": "IT Experts",
+          "description": "On April 1, Microsoft published a TechCommunity blog post explaining how Windows Update management in Intune differs from Configuration Manager (still widely known as SCCM). A Techzine author read the post as an announcement of upcoming changes and reported that \"patch behavior is set to change significantly for Microsoft Intune.\" That framing is a human hallucination, as Microsoft's post does not announce any changes.\nSource",
+          "link": "https://4sysops.com/archives/windows-updates-in-intune-vs-sccm-patch-managementapril-fools-and-human-hallucinations/",
+          "publishedOn": "2026-04-03T16:02:47.000Z",
+          "wordCount": null,
+          "title": "Windows updates in Intune vs. SCCM patch management—April Fools and human hallucinations",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1608749",
           "author": "IT Experts",
@@ -14720,26 +14718,6 @@
           "wordCount": 5020,
           "title": "Windows Autopatch update readiness: management status report, quality update journey, alerts, and update readiness checker",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Autopatch-management-status-report-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1606880",
-          "author": "IT Experts",
-          "description": "Windows Admin Center (WAC) vMode (Virtualization Mode) is a current in-preview management gateway for Hyper-V environments, deployable as a stateful appliance with an integrated PostgreSQL database. Unlike aMode (Administration Mode), vMode targets centralized virtualization management across multiple hosts and clusters, without requiring System Center Virtual Machine Manager (SCVMM). The only mandatory prerequisite is the Microsoft Visual C++ Redistributable. This article covers the system requirements, environment preparation, and installer walkthrough for vMode, and briefly explains how aMode installation differs.\nSource",
-          "link": "https://4sysops.com/archives/how-to-install-windows-admin-center-vmode-on-windows-server-2025/",
-          "publishedOn": "2026-03-04T16:44:37.000Z",
-          "wordCount": 5327,
-          "title": "How to install Windows Admin Center vMode on Windows Server 2025",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/Windows-Admin-Center-vMode-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1607154",
-          "author": "IT Experts",
-          "description": "Starting with the February 2026 preview updates for Windows 11 24H2 and 25H2, Microsoft has made Group Policy Preferences (GPP) debug logging configurable directly in Local Group Policy via gpedit.msc. Previously, these settings were primarily managed through domain-based Group Policy Objects (GPOs); enabling them via Local Group Policy typically required manually copying the GroupPolicyPreferences .admx/.adml templates into the local PolicyDefinitions store. You can now enable per-CSE (client-side extension) event logging and file-based tracing on individual client devices without a domain controller.\nSource",
-          "link": "https://4sysops.com/archives/enable-windows-group-policy-preferences-gpp-debug-logging/",
-          "publishedOn": "2026-03-04T16:42:27.000Z",
-          "wordCount": 5501,
-          "title": "Enable Windows Group Policy Preferences (GPP) debug logging",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Enable-Preference-Logging-(image-Microsoft).png"
         }
       ]
     },
@@ -14937,6 +14915,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=24939",
+          "author": "Thomas Papaloukas",
+          "description": "On March 31, 2026, two malicious Axios versions (1.14.1 and 0.30.4) were briefly published to npm via a compromised maintainer account. The only change performed was the addition of a trojanized dependency, whose postinstall script deployed a cross‑platform RAT (for macOS, Windows, and Linux). Although the Axios packages were removed within hours, multiple hits were … Continue reading The Axios npm supply chain incident: fake dependency, real backdoor →",
+          "link": "https://blog.nviso.eu/2026/04/03/the-axios-npm-supply-chain-incident-fake-dependency-real-backdoor/",
+          "publishedOn": "2026-04-03T09:24:56.000Z",
+          "wordCount": 3544,
+          "title": "The Axios npm supply chain incident: fake dependency, real backdoor",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/04/Image-18.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=24702",
           "author": "Hussein Bahmad",
