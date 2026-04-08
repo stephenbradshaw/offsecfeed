@@ -169,6 +169,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses",
+          "author": null,
+          "description": "More power for bug hunters An education-first approach to bug bounty Rewards on Meta's Bug Bounty Platform Our shared vision Ready to get started? We’re excited to announce a new partnership with Meta",
+          "link": "https://portswigger.net/blog/portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses",
+          "publishedOn": "2026-04-07T12:12:07.000Z",
+          "wordCount": 1026,
+          "title": "PortSwigger partners with Meta Bug Bounty to empower bug hunters with training and Pro licenses",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "http-1-1-must-die-conquering-the-0-cl-challenge",
           "author": null,
           "description": "Note: This is a guest post by pentester Julen Garrido Estévez (@b3xal). 1. Acknowledgements 2. Intro 3. Required tools 4. Strategy to solve/exploit the lab 5. Detecting 0.CL 5.1. Practical confirmatio",
@@ -325,16 +335,6 @@
           "publishedOn": "2026-03-10T00:00:00.000Z",
           "wordCount": 3295,
           "title": "Update: search-for-compression.py 0.0.6",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11141",
-          "author": "Didier Stevens",
-          "description": "This is a fix for option –yarastrings. emldump_V0_0_16.zip (http)MD5: FF80F7768800EB5AB3A77FEF3E162285SHA256: 87A33A9345C927B56377CBEC04811826930866C181885A6793F70C53A3418426",
-          "link": "https://blog.didierstevens.com/2026/03/09/update-emldump-py-version-0-0-16/",
-          "publishedOn": "2026-03-09T00:00:00.000Z",
-          "wordCount": 3299,
-          "title": "Update: emldump.py Version 0.0.16",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
@@ -14240,6 +14240,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/",
+          "author": null,
+          "description": "WhatsApp’s new “Private Inference” feature represents one of the most ambitious attempts to combine end-to-end encryption with AI-powered capabilities, such as message summarization. To make this possible, Meta built a system that processes encrypted user messages inside trusted execution environments (TEEs), secure hardware enclaves designed so that not even Meta can access the plaintext. Our now-public audit, conducted before launch, identified several vulnerabilities that compromised WhatsApp’s privacy model, all of which Meta has patched. Our findings show that TEEs aren’t a silver bullet: every unmeasured input and missing validation can become a vulnerability, and to securely deploy TEEs, developers need to measure critical data, validate and never trust any unmeasured data, and test…",
+          "link": "https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/",
+          "publishedOn": "2026-04-07T11:00:00.000Z",
+          "wordCount": 1758,
+          "title": "What we learned about TEE security from auditing WhatsApp's Private Inference",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/",
           "author": null,
           "description": "Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic.\nWe’re releasing CoBRA, an open-source tool that simplifies the full range of MBA expressions used in the wild. Point it at an obfuscated expression and it recovers a simplified equivalent:\n$ cobra-cli --mba \"(x&y)+(x|y)\"\nx + y\n$ cobra-cli --mba \"((a^b)|(a^c)) + 65469 * ~((a&(b&c))) + 65470 * (a&(b&c))\" --bitwidth 16\n67 + (a | b | c)\nCoBRA simplifies 99.86% of the 73,000+ expressions drawn from seven independent datasets. It ship…",
@@ -14389,6 +14399,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1609024",
+          "author": "IT Experts",
+          "description": "GitHub Copilot CLI—GitHub's AI assistant for the terminal—introduced an experimental feature called Rubber Duck that pairs your primary AI model with an independent reviewer from a completely different AI vendor. The goal is to catch early planning mistakes before they compound into harder-to-fix downstream errors, a known weakness of single-model AI agents. In performance testing on real-world coding problems, combining Claude Sonnet with Rubber Duck closed 74.7% of the performance gap between Sonnet and the more capable Opus tier.\nSource",
+          "link": "https://4sysops.com/archives/rubber-duck-in-github-copilot-cli-reducing-ai-hallucinations-with-a-second-opinion/",
+          "publishedOn": "2026-04-07T14:17:05.000Z",
+          "wordCount": null,
+          "title": "Rubber Duck in GitHub Copilot CLI: reducing AI hallucinations with a second opinion",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1608456",
           "author": "IT Experts",
@@ -14872,21 +14892,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/03/LABScon25-Andrew_MacPherson-ftr.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=137977",
-          "author": "Aleksandar Milenkoski &amp; Razvan Gabriel Cirstea",
-          "description": "LLMs can turn CTI narratives into structured intelligence at scale, but speed-accuracy trade-offs demand careful design for operational defense workflows.",
-          "link": "https://www.sentinelone.com/labs/from-narrative-to-knowledge-graph-llm-driven-information-extraction-in-cyber-threat-intelligence/",
-          "publishedOn": "2026-03-09T10:00:26.000Z",
-          "wordCount": 13659,
-          "title": "From Narrative to Knowledge Graph | LLM-Driven Information Extraction in Cyber Threat Intelligence",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2026/03/2.jpg",
-            "length": "43855",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/03/2.jpg"
         }
       ]
     },
@@ -14933,6 +14938,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/api-authentication-bypass-in-forticlient-ems-7-4-5-7-4-6-cve-2026-35616",
+          "author": null,
+          "description": "Bishop Fox researchers expanded on Fortinet's disclosure of CVE-2026-35616 by identifying the root cause via the released hotfix.",
+          "link": "https://bishopfox.com/blog/api-authentication-bypass-in-forticlient-ems-7-4-5-7-4-6-cve-2026-35616",
+          "publishedOn": "2026-04-07T13:00:00.000Z",
+          "wordCount": 3691,
+          "title": "API Authentication Bypass in FortiClient EMS 7.4.5-7.4.6–CVE-2026-35616",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/API-Authentication-Bypass-in-FortiClient-EMS-7.4.5-7.4.6–CVE-2026-35616_Blog.png"
+        },
+        {
           "id": "https://bishopfox.com/blog/delivered-by-trust-what-the-axios-supply-chain-attack-means-for-security-leaders",
           "author": null,
           "description": "A trusted package turned into an attacker’s gateway overnight. The Axios supply chain breach shows how quickly risk can spread—and why security leaders must rethink trust in modern development.",
@@ -14971,16 +14986,6 @@
           "wordCount": 2406,
           "title": "Winning CTFs: A Proving Ground at HackMex & Ekoparty",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/tiles/_1200x630_crop_center-center_82_none/bfx25_Winning-CTFs_Blog.jpg?mtime=1773418004"
-        },
-        {
-          "id": "https://bishopfox.com/blog/cve-2026-21643-pre-authentication-sql-injection-in-forticlient-ems-7-4-4",
-          "author": null,
-          "description": "FortiClient EMS 7.4.4 contains a pre-authentication SQL injection vulnerability (CVSS 9.1) in its multi-tenant site routing middleware. An unauthenticated attacker can inject arbitrary SQL by sending a crafted Site HTTP header to any pre-auth endpoint.",
-          "link": "https://bishopfox.com/blog/cve-2026-21643-pre-authentication-sql-injection-in-forticlient-ems-7-4-4",
-          "publishedOn": "2026-03-09T13:00:00.000Z",
-          "wordCount": 4291,
-          "title": "Pre-Authentication SQL Injection in FortiClient EMS 7.4.4 - CVE-2026-21643",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/bfx25_Blog-Forticlient-CVE-2026-21643-F.jpg?mtime=1773095402"
         }
       ]
     },

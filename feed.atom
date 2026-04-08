@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-07T01:22:38.410Z</updated>
+    <updated>2026-04-08T01:23:21.270Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rubber Duck in GitHub Copilot CLI: reducing AI hallucinations with a second opinion]]></title>
+        <id>https://4sysops.com/?p=1609024</id>
+        <link href="https://4sysops.com/archives/rubber-duck-in-github-copilot-cli-reducing-ai-hallucinations-with-a-second-opinion/"/>
+        <updated>2026-04-07T14:17:05.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Copilot CLI—GitHub's AI assistant for the terminal—introduced an experimental feature called Rubber Duck that pairs your primary AI model with an independent reviewer from a completely different AI vendor. The goal is to catch early planning mistakes before they compound into harder-to-fix downstream errors, a known weakness of single-model AI agents. In performance testing on real-world coding problems, combining Claude Sonnet with Rubber Duck closed 74.7% of the performance gap between Sonnet and the more capable Opus tier.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API Authentication Bypass in FortiClient EMS 7.4.5-7.4.6–CVE-2026-35616]]></title>
+        <id>https://bishopfox.com/blog/api-authentication-bypass-in-forticlient-ems-7-4-5-7-4-6-cve-2026-35616</id>
+        <link href="https://bishopfox.com/blog/api-authentication-bypass-in-forticlient-ems-7-4-5-7-4-6-cve-2026-35616"/>
+        <updated>2026-04-07T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bishop Fox researchers expanded on Fortinet's disclosure of CVE-2026-35616 by identifying the root cause via the released hotfix.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PortSwigger partners with Meta Bug Bounty to empower bug hunters with training and Pro licenses]]></title>
+        <id>portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses</id>
+        <link href="https://portswigger.net/blog/portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses"/>
+        <updated>2026-04-07T12:12:07.000Z</updated>
+        <summary type="html"><![CDATA[More power for bug hunters An education-first approach to bug bounty Rewards on Meta's Bug Bounty Platform Our shared vision Ready to get started? We’re excited to announce a new partnership with Meta]]></summary>
+        <author>
+            <name>PortSwigger Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What we learned about TEE security from auditing WhatsApp's Private Inference]]></title>
+        <id>https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/</id>
+        <link href="https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/"/>
+        <updated>2026-04-07T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WhatsApp’s new “Private Inference” feature represents one of the most ambitious attempts to combine end-to-end encryption with AI-powered capabilities, such as message summarization. To make this possible, Meta built a system that processes encrypted user messages inside trusted execution environments (TEEs), secure hardware enclaves designed so that not even Meta can access the plaintext. Our now-public audit, conducted before launch, identified several vulnerabilities that compromised WhatsApp’s privacy model, all of which Meta has patched. Our findings show that TEEs aren’t a silver bullet: every unmeasured input and missing validation can become a vulnerability, and to securely deploy TEEs, developers need to measure critical data, validate and never trust any unmeasured data, and test…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Attack Helix: Praetorian Guard’s AI Architecture for Offensive Security]]></title>
         <id>https://www.praetorian.com/?p=11532</id>
@@ -1229,36 +1270,6 @@ The post Beyond Prompt Injection: The Hidden AI Security Threats in Machine Lear
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pre-Authentication SQL Injection in FortiClient EMS 7.4.4 - CVE-2026-21643]]></title>
-        <id>https://bishopfox.com/blog/cve-2026-21643-pre-authentication-sql-injection-in-forticlient-ems-7-4-4</id>
-        <link href="https://bishopfox.com/blog/cve-2026-21643-pre-authentication-sql-injection-in-forticlient-ems-7-4-4"/>
-        <updated>2026-03-09T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[FortiClient EMS 7.4.4 contains a pre-authentication SQL injection vulnerability (CVSS 9.1) in its multi-tenant site routing middleware. An unauthenticated attacker can inject arbitrary SQL by sending a crafted Site HTTP header to any pre-auth endpoint.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Narrative to Knowledge Graph | LLM-Driven Information Extraction in Cyber Threat Intelligence]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=137977</id>
-        <link href="https://www.sentinelone.com/labs/from-narrative-to-knowledge-graph-llm-driven-information-extraction-in-cyber-threat-intelligence/"/>
-        <updated>2026-03-09T10:00:26.000Z</updated>
-        <summary type="html"><![CDATA[LLMs can turn CTI narratives into structured intelligence at scale, but speed-accuracy trade-offs demand careful design for operational defense workflows.]]></summary>
-        <author>
-            <name>Aleksandar Milenkoski &amp; Razvan Gabriel Cirstea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: emldump.py Version 0.0.16]]></title>
-        <id>http://blog.didierstevens.com/?p=11141</id>
-        <link href="https://blog.didierstevens.com/2026/03/09/update-emldump-py-version-0-0-16/"/>
-        <updated>2026-03-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a fix for option –yarastrings. emldump_V0_0_16.zip (http)MD5: FF80F7768800EB5AB3A77FEF3E162285SHA256: 87A33A9345C927B56377CBEC04811826930866C181885A6793F70C53A3418426]]></summary>
-        <author>
-            <name>Didier Stevens</name>
         </author>
     </entry>
     <entry>
