@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-08T01:23:21.270Z</updated>
+    <updated>2026-04-09T01:14:44.996Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How I Became A Red Hat Certified Architect In 6 Months And Everything I Wish I Knew Beforehand.]]></title>
+        <id>https://medium.com/p/5ff489ec9136</id>
+        <link href="https://assume-breach.medium.com/how-i-became-a-red-hat-certified-architect-in-6-months-and-everything-i-wish-i-knew-beforehand-5ff489ec9136?source=rss-fe83402397b0------2"/>
+        <updated>2026-04-08T18:32:17.000Z</updated>
+        <author>
+            <name>assume-breach</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js Trust Falls: Dangerous Module Resolution on Windows]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69cec3c33cf47c14f0ce73e1</id>
+        <link href="https://www.thezdi.com/blog/2026/4/8/nodejs-trust-falls-dangerous-module-resolution-on-windows"/>
+        <updated>2026-04-08T16:18:48.000Z</updated>
+        <summary type="html"><![CDATA[In September of 2024, ZDI received a vulnerability submission from an anonymous researcher affecting npm CLI that revealed a fundamental design issue in Node.js. This blog details how it continues to expose applications to local privilege escalation (LPE) attacks on Windows systems, including the Discord desktop app (CVE-2026-0776 0-Day), which remains unpatched and vulnerable.
+The issue is straightforward: when Node.js resolves modules, the runtime searches for packages in C:\node_modules as part of its default behavior. Since low-privileged Windows users can create this directory and plant malicious modules there, any Node.js application with missing or optional dependencies becomes vulnerable to privilege escalation.
+This issue is not new. Concerned discussions about Node.js's module se…]]></summary>
+        <author>
+            <name>Bobby Gould and Michael DePlante</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Entra March 2026: Passkeys GA, backup preview, and Hybrid Security Fix]]></title>
+        <id>https://4sysops.com/?p=1608882</id>
+        <link href="https://4sysops.com/archives/microsoft-entra-march-2026-passkeys-ga-backup-preview-and-hybrid-security-fix/"/>
+        <updated>2026-04-08T15:52:24.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft's March 2026 Entra update promotes passkey authentication to general availability, introduces a built-in tenant backup feature in public preview, and announces a breaking security change for hybrid environments, taking effect June 1, 2026. Additional changes enforce TLS 1.2 for Entra Connect Health agents and bring several multi-tenant governance capabilities into preview. This article covers changes relevant to administrators managing Microsoft 365 tenants and hybrid Active Directory environments.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Given Enough Agents, All Bugs Become Shallow]]></title>
+        <id>https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/</id>
+        <link href="https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/"/>
+        <updated>2026-04-08T06:58:58.000Z</updated>
+        <summary type="html"><![CDATA[A few months ago I had this realization that agents have become really good at identifying bugs in code, especially security vulnerabilities. They are relentless in analyzing code and you can spin up multiple of them to go through source code quickly.
+given enough agents, all bugs are shallow
+— Johann Rehberger (@wunderwuzzi23) February 10, 2026
+
+
+
+It is an emerging capability that many security researchers and bug bounty hunters have observed over the last few months.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rubber Duck in GitHub Copilot CLI: reducing AI hallucinations with a second opinion]]></title>
         <id>https://4sysops.com/?p=1609024</id>
@@ -1238,49 +1286,6 @@ Source]]></summary>
 The post The Nemesis 2.X Development Guide appeared first on SpecterOps.]]></summary>
         <author>
             <name>Will Schroeder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: search-for-compression.py 0.0.6]]></title>
-        <id>http://blog.didierstevens.com/?p=11143</id>
-        <link href="https://blog.didierstevens.com/2026/03/10/update-search-for-compression-py-0-0-6/"/>
-        <updated>2026-03-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a fix for option –yarastrings in search-for-compression.py.]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond Prompt Injection: The Hidden AI Security Threats in Machine Learning Platforms]]></title>
-        <id>https://praestage.wpenginepowered.com/?p=10463</id>
-        <link href="https://www.praetorian.com/blog/hidden-ai-security-threats-in-machine-learning-platforms/"/>
-        <updated>2026-03-09T18:20:05.000Z</updated>
-        <summary type="html"><![CDATA[What’s the first thing you think of when you hear about AI attacks and vulnerabilities? If you’re like most people, your mind probably jumps to Large Language Model (LLM) vulnerabilities—system prompt disclosures, jailbreaks, or prompt injections that trick chatbots into revealing sensitive information or behaving in unintended ways. These risks have dominated headlines and security […]
-The post Beyond Prompt Injection: The Hidden AI Security Threats in Machine Learning Platforms appeared first on Praetorian.]]></summary>
-        <author>
-            <name>n8n-publisher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Teams VDI optimization: migrating from WebRTC to SlimCore (VDI 2.0)]]></title>
-        <id>https://4sysops.com/?p=1607460</id>
-        <link href="https://4sysops.com/archives/microsoft-teams-vdi-optimization-migrating-from-webrtc-to-slimcore-vdi-20/"/>
-        <updated>2026-03-09T15:29:56.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft is retiring the legacy WebRTC-based optimization for Teams in Virtual Desktop Infrastructure (VDI) and replacing it with a new architecture called SlimCore — also referred to as VDI 2.0 — introduced in Q4 2024. The change affects Windows endpoints connecting to Azure Virtual Desktop (AVD), Windows 365, and Citrix, with defined End of Support and End of Availability milestones. In parallel, Microsoft has announced a public tech preview of the new optimization for Omnissa Horizon. This article covers the architectural differences, supported platforms, new features, and the steps required to complete the migration.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Inter Process Communication A Deep Dive Beyond the Surface - Part 10]]></title>
-        <id>69763f8a15945d0001c2e1d5</id>
-        <link href="https://sud0ru.ghost.io/windows-inter-process-communication-a-deep-dive-beyond-the-surface-part-10/"/>
-        <updated>2026-03-08T13:39:20.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the next wave of the RPC series. This will be the first post of 2026, and the first post in a new wave that will bring a lot of information that, as far as I know, has never been discussed before.
-This wave will mainly follow two paths.]]></summary>
-        <author>
-            <name>Sud0Ru</name>
         </author>
     </entry>
     <entry>

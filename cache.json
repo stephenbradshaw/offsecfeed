@@ -326,16 +326,6 @@
           "wordCount": 3299,
           "title": "Update: pecheck.py Version 0.7.20",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11143",
-          "author": "Didier Stevens",
-          "description": "This is a fix for option –yarastrings in search-for-compression.py.",
-          "link": "https://blog.didierstevens.com/2026/03/10/update-search-for-compression-py-0-0-6/",
-          "publishedOn": "2026-03-10T00:00:00.000Z",
-          "wordCount": 3295,
-          "title": "Update: search-for-compression.py 0.0.6",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
     },
@@ -439,6 +429,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69cec3c33cf47c14f0ce73e1",
+          "author": "Bobby Gould and Michael DePlante",
+          "description": "In September of 2024, ZDI received a vulnerability submission from an anonymous researcher affecting npm CLI that revealed a fundamental design issue in Node.js. This blog details how it continues to expose applications to local privilege escalation (LPE) attacks on Windows systems, including the Discord desktop app (CVE-2026-0776 0-Day), which remains unpatched and vulnerable.\nThe issue is straightforward: when Node.js resolves modules, the runtime searches for packages in C:\\node_modules as part of its default behavior. Since low-privileged Windows users can create this directory and plant malicious modules there, any Node.js application with missing or optional dependencies becomes vulnerable to privilege escalation.\nThis issue is not new. Concerned discussions about Node.js's module se…",
+          "link": "https://www.thezdi.com/blog/2026/4/8/nodejs-trust-falls-dangerous-module-resolution-on-windows",
+          "publishedOn": "2026-04-08T16:18:48.000Z",
+          "wordCount": null,
+          "title": "Node.js Trust Falls: Dangerous Module Resolution on Windows",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69b1e261a93cf1761e8fa418",
           "author": "Dustin Childs",
@@ -14173,16 +14174,6 @@
           "wordCount": 6919,
           "title": "When Proxies Become the Attack Vectors in Web Architectures",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Web-Architecture-blog-1-1.webp"
-        },
-        {
-          "id": "https://praestage.wpenginepowered.com/?p=10463",
-          "author": "n8n-publisher",
-          "description": "What’s the first thing you think of when you hear about AI attacks and vulnerabilities? If you’re like most people, your mind probably jumps to Large Language Model (LLM) vulnerabilities—system prompt disclosures, jailbreaks, or prompt injections that trick chatbots into revealing sensitive information or behaving in unintended ways. These risks have dominated headlines and security […]\nThe post Beyond Prompt Injection: The Hidden AI Security Threats in Machine Learning Platforms appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/hidden-ai-security-threats-in-machine-learning-platforms/",
-          "publishedOn": "2026-03-09T18:20:05.000Z",
-          "wordCount": 4312,
-          "title": "Beyond Prompt Injection: The Hidden AI Security Threats in Machine Learning Platforms",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Beyond-Prompt-Injection-hero.webp"
         }
       ]
     },
@@ -14399,6 +14390,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1608882",
+          "author": "IT Experts",
+          "description": "Microsoft's March 2026 Entra update promotes passkey authentication to general availability, introduces a built-in tenant backup feature in public preview, and announces a breaking security change for hybrid environments, taking effect June 1, 2026. Additional changes enforce TLS 1.2 for Entra Connect Health agents and bring several multi-tenant governance capabilities into preview. This article covers changes relevant to administrators managing Microsoft 365 tenants and hybrid Active Directory environments.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-entra-march-2026-passkeys-ga-backup-preview-and-hybrid-security-fix/",
+          "publishedOn": "2026-04-08T15:52:24.000Z",
+          "wordCount": null,
+          "title": "Microsoft Entra March 2026: Passkeys GA, backup preview, and Hybrid Security Fix",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1609024",
           "author": "IT Experts",
@@ -14708,16 +14709,6 @@
           "wordCount": 5400,
           "title": "Microsoft 365 Copilot Wave 3 – Why Copilot Cowork is not a coworker",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Copilot-Cowork-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1607460",
-          "author": "IT Experts",
-          "description": "Microsoft is retiring the legacy WebRTC-based optimization for Teams in Virtual Desktop Infrastructure (VDI) and replacing it with a new architecture called SlimCore — also referred to as VDI 2.0 — introduced in Q4 2024. The change affects Windows endpoints connecting to Azure Virtual Desktop (AVD), Windows 365, and Citrix, with defined End of Support and End of Availability milestones. In parallel, Microsoft has announced a public tech preview of the new optimization for Omnissa Horizon. This article covers the architectural differences, supported platforms, new features, and the steps required to complete the migration.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-teams-vdi-optimization-migrating-from-webrtc-to-slimcore-vdi-20/",
-          "publishedOn": "2026-03-09T15:29:56.000Z",
-          "wordCount": 5901,
-          "title": "Microsoft Teams VDI optimization: migrating from WebRTC to SlimCore (VDI 2.0)",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/SlimCore-networking-architecture-(image-Microsoft).png"
         }
       ]
     },
@@ -14793,6 +14784,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/",
+          "author": null,
+          "description": "A few months ago I had this realization that agents have become really good at identifying bugs in code, especially security vulnerabilities. They are relentless in analyzing code and you can spin up multiple of them to go through source code quickly.\ngiven enough agents, all bugs are shallow\n— Johann Rehberger (@wunderwuzzi23) February 10, 2026\n\n\n\nIt is an emerging capability that many security researchers and bug bounty hunters have observed over the last few months.",
+          "link": "https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/",
+          "publishedOn": "2026-04-08T06:58:58.000Z",
+          "wordCount": 1377,
+          "title": "Given Enough Agents, All Bugs Become Shallow",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2026/agent-commander-your-agent-works-for-me-now/",
           "author": null,
           "description": "This post is about prompt-based command and control (C2), which is becoming more relevant.\nWhat is Promptware-Powered C2?\nThree years ago, when ChatGPT introduced the browsing tool, we already experimented with the idea of prompt-based command and control. And when ChatGPT got memories we showed that this can be combined and abused for a full command and control channel.\nRecent work uses the term promptware to describe prompt-injection payloads that are more complex in behavior and closer to malware. I’m using that term here as it fits well.",
@@ -14850,7 +14851,18 @@
       "title": "Stories by assume-breach on Medium",
       "feedUrl": "https://medium.com/feed/@assume-breach",
       "siteUrl": "https://medium.com/@assume-breach?source=rss-fe83402397b0------2",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/5ff489ec9136",
+          "author": "assume-breach",
+          "description": "",
+          "link": "https://assume-breach.medium.com/how-i-became-a-red-hat-certified-architect-in-6-months-and-everything-i-wish-i-knew-beforehand-5ff489ec9136?source=rss-fe83402397b0------2",
+          "publishedOn": "2026-04-08T18:32:17.000Z",
+          "wordCount": null,
+          "title": "How I Became A Red Hat Certified Architect In 6 Months And Everything I Wish I Knew Beforehand.",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "SecureAuth Blogs - Identity and Access Management Solution",
@@ -15164,16 +15176,6 @@
           "wordCount": 1339,
           "title": "Windows Inter Process Communication A Deep Dive Beyond the Surface - Part 11",
           "imageUrl": "https://sud0ru.ghost.io/content/images/size/w1200/2026/03/ChatGPT-Image-Mar-29--2026--02_56_47-PM.png"
-        },
-        {
-          "id": "69763f8a15945d0001c2e1d5",
-          "author": "Sud0Ru",
-          "description": "Welcome to the next wave of the RPC series. This will be the first post of 2026, and the first post in a new wave that will bring a lot of information that, as far as I know, has never been discussed before.\nThis wave will mainly follow two paths.",
-          "link": "https://sud0ru.ghost.io/windows-inter-process-communication-a-deep-dive-beyond-the-surface-part-10/",
-          "publishedOn": "2026-03-08T13:39:20.000Z",
-          "wordCount": 2267,
-          "title": "Windows Inter Process Communication A Deep Dive Beyond the Surface - Part 10",
-          "imageUrl": "https://sud0ru.ghost.io/content/images/size/w1200/2026/03/ChatGPT-Image-Mar-8--2026--02_37_06-AM.png"
         }
       ]
     },
