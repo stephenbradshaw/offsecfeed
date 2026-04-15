@@ -370,6 +370,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69de767930fb0735efb23ae6",
+          "author": "Dustin Childs",
+          "description": "It’s time once again for Patch Tuesday, and this one is huge. We’ve also got multiple exploits in the wild, which adds another layer of urgency to this month’s release. Take a break from your regularly scheduled activities, and let’s take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for April 2026\nFor April, Adobe released 12 bulletins addressing 61 unique CVEs in Adobe Acrobat Reader, InDesign, InCopy, FrameMaker, Connect, ColdFusion, Bridge, Photoshop, Illustrator, Experience Manager Screens, and the Adobe DNG SDK. Three of the Cold Fusion bugs came through the TrendAI ZDI program. For this month, I’m introducing an Adobe table as well. I’d love to get your …",
+          "link": "https://www.thezdi.com/blog/2026/4/14/the-april-2026-security-update-review",
+          "publishedOn": "2026-04-14T17:49:19.000Z",
+          "wordCount": null,
+          "title": "The April 2026 Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69cec3c33cf47c14f0ce73e1",
           "author": "Bobby Gould and Michael DePlante",
           "description": "In September of 2024, ZDI received a vulnerability submission from an anonymous researcher affecting npm CLI that revealed a fundamental design issue in Node.js. This blog details how it continues to expose applications to local privilege escalation (LPE) attacks on Windows systems, including the Discord desktop app (CVE-2026-0776 0-Day), which remains unpatched and vulnerable.\nThe issue is straightforward: when Node.js resolves modules, the runtime searches for packages in C:\\node_modules as part of its default behavior. Since low-privileged Windows users can create this directory and plant malicious modules there, any Node.js application with missing or optional dependencies becomes vulnerable to privilege escalation.\nThis issue is not new. Concerned discussions about Node.js's module se…",
@@ -14274,6 +14285,16 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1608841",
+          "author": "IT Experts",
+          "description": "Microsoft introduced new SCIM 2.0 APIs for Microsoft Entra. The APIs now support bidirectional provisioning, which allows external identity systems to provision users and groups directly into Entra. SCIM (System for Cross-domain Identity Management) is an open internet standard that defines a common HTTP-based protocol for managing user accounts across different systems. Previously, Entra could only push user data to other applications via SCIM. Now, it also accepts incoming SCIM requests. The APIs follow a consumption-based pricing model, require an Azure subscription, and are generally available in the Microsoft public cloud.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-entra-scim-20-now-with-bidirectional-provisioning/",
+          "publishedOn": "2026-04-14T12:53:57.000Z",
+          "wordCount": null,
+          "title": "Microsoft Entra SCIM 2.0: Now with bidirectional provisioning",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1608496",
           "author": "IT Experts",
           "description": "Microsoft's Conditional Access Optimization Agent uses AI to continuously scan your Microsoft Entra ID environment for policy gaps and recommend remediations. It requires a Microsoft Entra ID P1 license and a Microsoft Security Copilot subscription. Several new features are in public preview, including context-aware recommendations, deep gap analysis across all policies, and phased policy rollouts. This article explains what Conditional Access policies are, how the agent works, what you need to run it, and where its limitations lie.\nSource",
@@ -14812,6 +14833,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/anthropics-claude-mythos-preview-the-ai-cybersecurity-inflection-point",
+          "author": null,
+          "description": "AI just crossed a threshold. Anthropic’s Claude Mythos can discover and chain vulnerabilities at scale—faster than teams can remediate. What does this mean for your security program, your providers, and your ability to keep up before attackers do?",
+          "link": "https://bishopfox.com/blog/anthropics-claude-mythos-preview-the-ai-cybersecurity-inflection-point",
+          "publishedOn": "2026-04-14T13:00:00.000Z",
+          "wordCount": 2996,
+          "title": "Anthropic’s Claude Mythos Preview: The AI Cybersecurity Inflection Point",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/bfx25_Anthropic’s-Claude-Mythos-Preview.png"
+        },
         {
           "id": "https://bishopfox.com/blog/inside-cirro-attack-paths-cloud-graphs-and-extensible-schemas",
           "author": null,
