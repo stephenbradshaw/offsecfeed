@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-17T01:28:39.134Z</updated>
+    <updated>2026-04-18T01:21:45.855Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A few more protocol handlers :), Part 2]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10356</id>
+        <link href="https://www.hexacorn.com/blog/2026/04/18/a-few-more-protocol-handlers-part-2/"/>
+        <updated>2026-04-18T00:09:41.000Z</updated>
+        <summary type="html"><![CDATA[In 2018 I published this post. In 2022 I published this post and this post. @Radkeyboard7984 and I continue chatting about the new Windows 11 protocols and I just did a quick comparison between the protocols I posted before, and … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking Opus 4.7 with ChatGPT (Hacking Claude's Memory)]]></title>
+        <id>https://embracethered.com/blog/posts/2026/breaking-opus-4.7-with-chatgpt/</id>
+        <link href="https://embracethered.com/blog/posts/2026/breaking-opus-4.7-with-chatgpt/"/>
+        <updated>2026-04-17T23:00:58.000Z</updated>
+        <summary type="html"><![CDATA[In this post, we explore how ChatGPT generated an adversarial image that hijacked my Claude Opus 4.7 to invoke the memory tool and persist false memories for future chats.
+
+This matters because Opus 4.6+ is genuinely a lot harder to attack than previous models, but it still fell for a ChatGPT generated image. A trick that works well with reasoning models is to challenge them with puzzles.
+Indirect Prompt Injection and Alignment Progress
+Claude Opus 4.6+ is more resilient against basic attacks, and reasons before taking actions. This means that most of the well-known, basic adversarial examples and attacks typically do not work.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Walking Through an Attack Path with ForceHound]]></title>
+        <id>https://www.netspi.com/?p=32879</id>
+        <link href="https://www.netspi.com/blog/technical-blog/web-application-pentesting/walking-through-an-attack-path-with-forcehound/"/>
+        <updated>2026-04-17T18:25:18.000Z</updated>
+        <summary type="html"><![CDATA[In Part 2 of the series, Weylon covers how to use ForceHound to visualize Salesforce attack paths in BloodHound CE, identify transitive privilege escalation, and legacy Connected App exposures.
+The post Walking Through an Attack Path with ForceHound appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Weylon Solis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Auditing Salesforce Permission Hierarchies with ForceHound]]></title>
+        <id>https://www.netspi.com/?p=32877</id>
+        <link href="https://www.netspi.com/blog/technical-blog/web-application-pentesting/auditing-salesforce-permission-hierarchies-with-forcehound/"/>
+        <updated>2026-04-17T18:22:29.000Z</updated>
+        <summary type="html"><![CDATA[Discover how ForceHound automates the collection of profiles, permission sets, and connected apps to reveal the true trust boundaries of your Salesforce organization.
+The post Auditing Salesforce Permission Hierarchies with ForceHound  appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Weylon Solis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We beat Google’s zero-knowledge proof of quantum cryptanalysis]]></title>
+        <id>https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/</id>
+        <link href="https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/"/>
+        <updated>2026-04-17T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Two weeks ago, Google’s Quantum AI group published a zero-knowledge proof of a quantum circuit so optimized, they concluded that first-generation quantum computers will break elliptic curve cryptography keys in as little as 9 minutes. Today, Trail of Bits is publishing our own zero-knowledge proof that significantly improves Google’s on all metrics. Our result is not due to some quantum breakthrough, but rather the exploitation of multiple subtle memory safety and logic vulnerabilities in Google’s Rust prover code. Google has patched their proof, and their scientific claims are unaffected, but this story reflects the unique attack surface that systems introduce when they use zero-knowledge proofs.
+Google’s proof uses a zero-knowledge virtual machine (zkVM) to calculate the cost of a quantu…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WerReportCreate API]]></title>
         <id>https://www.hexacorn.com/blog/?p=10354</id>
@@ -1069,49 +1126,6 @@ In fact, this vulnerability was born so long ago (way back in 1994) that it may 
 The post Graph the Planet: Shai-Hulud 2.0 appeared first on SpecterOps.]]></summary>
         <author>
             <name>JD Crandell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building an Adversarial Consensus Engine | Multi-Agent LLMs for Automated Malware Analysis]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=138142</id>
-        <link href="https://www.sentinelone.com/labs/building-an-adversarial-consensus-engine-multi-agent-llms-for-automated-malware-analysis/"/>
-        <updated>2026-03-19T10:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Single-tool LLM analysis produces reports that look authoritative but aren't. A serial consensus pipeline catches artifacts and hallucinations at source.]]></summary>
-        <author>
-            <name>Phil Stokes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2026-3630: Critical Buffer Overflow in Delta Electronics COMMGR2 Enables Remote Code Execution]]></title>
-        <id>https://www.praetorian.com/?p=10723</id>
-        <link href="https://www.praetorian.com/blog/cve-2026-3630/"/>
-        <updated>2026-03-19T05:46:46.000Z</updated>
-        <summary type="html"><![CDATA[Key Takeaways CVSS v3.1 base score of 9.8 (Critical) with vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H, according to the CNA Delta Electronics COMMGR2 contains an out-of-bounds write vulnerability (CWE-787) enabling unauthenticated remote code execution NVD lists the vulnerability as analyzed; vendor advisory Delta-PCSA-2026-00005 is available addressing multiple COMMGR2 vulnerabilities No evidence of active exploitation in the wild; specific affected […]
-The post CVE-2026-3630: Critical Buffer Overflow in Delta Electronics COMMGR2 Enables Remote Code Execution appeared first on Praetorian.]]></summary>
-        <author>
-            <name>n8n-publisher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft adds passkeys to Entra ID registration campaigns]]></title>
-        <id>https://4sysops.com/?p=1608022</id>
-        <link href="https://4sysops.com/archives/microsoft-adds-passkeys-to-entra-id-registration-campaigns/"/>
-        <updated>2026-03-18T13:41:45.000Z</updated>
-        <summary type="html"><![CDATA[Starting April 2026, Microsoft Registration Campaigns in Entra ID will support Passkeys (FIDO2) as an authentication method, enabling organizations to deploy phishing-resistant credentials. The update introduces significant configuration changes, particularly for tenants using the Microsoft-managed state, where several campaign settings become non-configurable. This rollout is part of Microsoft's broader strategy to eliminate passwords and aligns with the introduction of Windows Hello passkey support for Entra accounts.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comparing AI protocols: MCP, A2A, AGP, AGNTCY, IBM ACP, Zed ACP]]></title>
-        <id>https://4sysops.com/?p=1605402</id>
-        <link href="https://4sysops.com/archives/comparing-ai-protocols-mcp-a2a-agp-agntcy-ibm-acp-zed-acp/"/>
-        <updated>2026-03-18T13:39:49.000Z</updated>
-        <summary type="html"><![CDATA[Seven protocols have emerged to standardize communication between AI agents, models, and external systems: Anthropic Model Context Protocol (MCP), Google Agent2Agent (A2A), Google Agent Gateway Protocol (AGP), Cisco AGNTCY, IBM Agent Communication Protocol (ACP), and Zed Agent Client Protocol (AGP). This article provides an overview of these AI protocols and compares their use cases.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
         </author>
     </entry>
     <entry>
