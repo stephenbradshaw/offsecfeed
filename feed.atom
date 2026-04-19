@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-18T01:21:45.855Z</updated>
+    <updated>2026-04-19T01:44:12.128Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Azure Migrate: auto-discover SMB and NFS file shares]]></title>
+        <id>https://4sysops.com/?p=1609160</id>
+        <link href="https://4sysops.com/archives/azure-migrate-auto-discover-smb-and-nfs-file-shares/"/>
+        <updated>2026-04-18T01:47:32.000Z</updated>
+        <summary type="html"><![CDATA[Azure Migrate, Microsoft's cloud migration hub, gained a new capability in April 2026: automated, agentless discovery and assessment of SMB and NFS file shares hosted on Windows and Linux servers. The feature extends Azure Migrate's existing workload coverage — which already included servers, databases, and web apps — to file shares. It recommends which of Microsoft's two Azure Files storage tiers is appropriate for each share and estimates monthly costs. Previously, file share migration planning relied on manual scripts or spreadsheets. This article explains how the feature works, what you need to use it, and where its limitations lie.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A few more protocol handlers :), Part 2]]></title>
         <id>https://www.hexacorn.com/blog/?p=10356</id>
@@ -1060,72 +1071,6 @@ Source]]></summary>
 The post AI-Driven Offensive Security: The Current Landscape and What It Means for Defense appeared first on Praetorian.]]></summary>
         <author>
             <name>n8n-publisher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PowerShell 7.6: new features, install, and upgrade]]></title>
-        <id>https://4sysops.com/?p=1608092</id>
-        <link href="https://4sysops.com/archives/powershell-76-new-features-install-and-upgrade/"/>
-        <updated>2026-03-20T12:27:19.000Z</updated>
-        <summary type="html"><![CDATA[PowerShell 7.6 introduces several new features as part of Microsoft's latest Long-Term Support (LTS) release. With three years of support, it's a strong choice for production servers. Among the key new features in PowerShell 7.6 are improvements that address long-standing annoyances with autocomplete and enhance reliability for common administrative tasks. If you've ever been frustrated by tab completion not working in certain situations or noticed that PowerShell is missing obvious suggestions, this release addresses many of those issues. This article also covers installing PowerShell 7.6 on Windows and upgrading from earlier versions using winget or the MSI installer.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comparing AI chips: GPU, ASIC, and NPU]]></title>
-        <id>https://4sysops.com/?p=1606301</id>
-        <link href="https://4sysops.com/archives/comparing-ai-chips-gpu-asic-and-npu/"/>
-        <updated>2026-03-20T12:26:44.000Z</updated>
-        <summary type="html"><![CDATA[This article breaks down the three main categories of AI chips—GPUs, ASICs, and NPUs—and compares the leading hardware defining the future of artificial intelligence. You might think of NVIDIA as the undisputed king of artificial intelligence hardware, but the reality is far more complex. While NVIDIA's graphics processing units (GPUs) currently power the majority of AI model training, a diverse ecosystem of specialized chips is rapidly emerging. Tech giants like Google, Amazon, and Microsoft are designing their own custom silicon to cut costs and improve efficiency, while mobile chipmakers are racing to bring powerful AI capabilities directly to your laptop and smartphone.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reunifying the Cloud: Introducing Aurelian for Multi-Cloud Security Testing]]></title>
-        <id>https://www.praetorian.com/?p=10880</id>
-        <link href="https://www.praetorian.com/blog/aurelian-cloud-security-tool/"/>
-        <updated>2026-03-20T09:25:00.000Z</updated>
-        <summary type="html"><![CDATA[You are one week into a cloud penetration test. The client handed you an AWS access key, pointed you at three Azure subscriptions, and mentioned a GCP project that “someone on the platform team set up last year.” Your objective: find everything that is exposed, misconfigured, or one IAM policy away from a full compromise. […]
-The post Reunifying the Cloud: Introducing Aurelian for Multi-Cloud Security Testing appeared first on Praetorian.]]></summary>
-        <author>
-            <name>n8n-publisher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update Windows Secure Boot DB certificates with Group Policy and PowerShell]]></title>
-        <id>https://4sysops.com/?p=1607929</id>
-        <link href="https://4sysops.com/archives/update-windows-secure-boot-db-certificates-with-group-policy-and-powershell/"/>
-        <updated>2026-03-20T03:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft's original Secure Boot certificates from 2011 begin expiring in June 2026. Windows devices that still rely on these certificates will no longer receive security updates for boot components, leaving them out of compliance. To address this, Microsoft is rolling out new 2023 certificates for the UEFI Secure Boot Signature Database (DB). Administrators can deploy these certificates to domain-joined machines using Group Policy, PowerShell, or the Windows Configuration System (WinCS). This article covers the technical background, the registry-based deployment mechanism, and Microsoft's sample automation framework for enterprise rollouts.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)]]></title>
-        <id>69bc576e61eca100016f2c62</id>
-        <link href="https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/"/>
-        <updated>2026-03-19T20:21:07.000Z</updated>
-        <summary type="html"><![CDATA[A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability.
-In fact, this vulnerability was born so long ago (way back in 1994) that it may even be older than you. To put the timespan]]></summary>
-        <author>
-            <name>McCaulay Hudson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graph the Planet: Shai-Hulud 2.0]]></title>
-        <id>https://specterops.io/?p=24676</id>
-        <link href="https://specterops.io/blog/2026/03/19/graph-the-planet-shai-hulud-2-0/"/>
-        <updated>2026-03-19T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: This blog looks at the Shai-Hulud 2.0 worm through an Attack Path Management lens. I also introduce NPMHound which can be used to visualize NPM package dependencies in BloodHound OpenGraph. Introduction A recent supply chain attack, referred to as Shai-Hulud 2.0, involved an attacker using a worm to infect developer systems that contained credentials […]
-The post Graph the Planet: Shai-Hulud 2.0 appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>JD Crandell</name>
         </author>
     </entry>
     <entry>

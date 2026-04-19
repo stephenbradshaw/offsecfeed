@@ -164,16 +164,6 @@
           "wordCount": 5435,
           "title": "Discovering Unexpected Okta Attack Paths with BloodHound",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/image_254d11.png"
-        },
-        {
-          "id": "https://specterops.io/?p=24676",
-          "author": "JD Crandell",
-          "description": "TL;DR: This blog looks at the Shai-Hulud 2.0 worm through an Attack Path Management lens. I also introduce NPMHound which can be used to visualize NPM package dependencies in BloodHound OpenGraph. Introduction A recent supply chain attack, referred to as Shai-Hulud 2.0, involved an attacker using a worm to infect developer systems that contained credentials […]\nThe post Graph the Planet: Shai-Hulud 2.0 appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/03/19/graph-the-planet-shai-hulud-2-0/",
-          "publishedOn": "2026-03-19T16:00:00.000Z",
-          "wordCount": 3794,
-          "title": "Graph the Planet: Shai-Hulud 2.0",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/image_981cd0.png"
         }
       ]
     },
@@ -14049,16 +14039,6 @@
           "wordCount": 3546,
           "title": "AI-Driven Offensive Security: The Current Landscape and What It Means for Defense",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/AI-Driven-Security-Blog.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=10880",
-          "author": "n8n-publisher",
-          "description": "You are one week into a cloud penetration test. The client handed you an AWS access key, pointed you at three Azure subscriptions, and mentioned a GCP project that “someone on the platform team set up last year.” Your objective: find everything that is exposed, misconfigured, or one IAM policy away from a full compromise. […]\nThe post Reunifying the Cloud: Introducing Aurelian for Multi-Cloud Security Testing appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/aurelian-cloud-security-tool/",
-          "publishedOn": "2026-03-20T09:25:00.000Z",
-          "wordCount": 4327,
-          "title": "Reunifying the Cloud: Introducing Aurelian for Multi-Cloud Security Testing",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Aurelian-Hero.webp"
         }
       ]
     },
@@ -14285,6 +14265,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1609160",
+          "author": "IT Experts",
+          "description": "Azure Migrate, Microsoft's cloud migration hub, gained a new capability in April 2026: automated, agentless discovery and assessment of SMB and NFS file shares hosted on Windows and Linux servers. The feature extends Azure Migrate's existing workload coverage — which already included servers, databases, and web apps — to file shares. It recommends which of Microsoft's two Azure Files storage tiers is appropriate for each share and estimates monthly costs. Previously, file share migration planning relied on manual scripts or spreadsheets. This article explains how the feature works, what you need to use it, and where its limitations lie.\nSource",
+          "link": "https://4sysops.com/archives/azure-migrate-auto-discover-smb-and-nfs-file-shares/",
+          "publishedOn": "2026-04-18T01:47:32.000Z",
+          "wordCount": null,
+          "title": "Azure Migrate: auto-discover SMB and NFS file shares",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1608977",
           "author": "IT Experts",
@@ -14524,36 +14514,6 @@
           "wordCount": 5646,
           "title": "Microsoft 365 Backup: delegate administration, configure billing policies",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Configuring-Microsoft-365-Backup-billing-policies-(image-Microsoft).png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1608092",
-          "author": "IT Experts",
-          "description": "PowerShell 7.6 introduces several new features as part of Microsoft's latest Long-Term Support (LTS) release. With three years of support, it's a strong choice for production servers. Among the key new features in PowerShell 7.6 are improvements that address long-standing annoyances with autocomplete and enhance reliability for common administrative tasks. If you've ever been frustrated by tab completion not working in certain situations or noticed that PowerShell is missing obvious suggestions, this release addresses many of those issues. This article also covers installing PowerShell 7.6 on Windows and upgrading from earlier versions using winget or the MSI installer.\nSource",
-          "link": "https://4sysops.com/archives/powershell-76-new-features-install-and-upgrade/",
-          "publishedOn": "2026-03-20T12:27:19.000Z",
-          "wordCount": 6123,
-          "title": "PowerShell 7.6: new features, install, and upgrade",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Install-PowerShell-7.6-with-winget.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1606301",
-          "author": "IT Experts",
-          "description": "This article breaks down the three main categories of AI chips—GPUs, ASICs, and NPUs—and compares the leading hardware defining the future of artificial intelligence. You might think of NVIDIA as the undisputed king of artificial intelligence hardware, but the reality is far more complex. While NVIDIA's graphics processing units (GPUs) currently power the majority of AI model training, a diverse ecosystem of specialized chips is rapidly emerging. Tech giants like Google, Amazon, and Microsoft are designing their own custom silicon to cut costs and improve efficiency, while mobile chipmakers are racing to bring powerful AI capabilities directly to your laptop and smartphone.\nSource",
-          "link": "https://4sysops.com/archives/comparing-ai-chips-gpu-asic-and-npu/",
-          "publishedOn": "2026-03-20T12:26:44.000Z",
-          "wordCount": 5700,
-          "title": "Comparing AI chips: GPU, ASIC, and NPU",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/02/AI-chip-architectures.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1607929",
-          "author": "IT Experts",
-          "description": "Microsoft's original Secure Boot certificates from 2011 begin expiring in June 2026. Windows devices that still rely on these certificates will no longer receive security updates for boot components, leaving them out of compliance. To address this, Microsoft is rolling out new 2023 certificates for the UEFI Secure Boot Signature Database (DB). Administrators can deploy these certificates to domain-joined machines using Group Policy, PowerShell, or the Windows Configuration System (WinCS). This article covers the technical background, the registry-based deployment mechanism, and Microsoft's sample automation framework for enterprise rollouts.\nSource",
-          "link": "https://4sysops.com/archives/update-windows-secure-boot-db-certificates-with-group-policy-and-powershell/",
-          "publishedOn": "2026-03-20T03:31:00.000Z",
-          "wordCount": 5941,
-          "title": "Update Windows Secure Boot DB certificates with Group Policy and PowerShell",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Windows-Secure-Boot-DB-Certificate-Update-Architecture.png"
         }
       ]
     },
@@ -14972,16 +14932,6 @@
           "wordCount": 2826,
           "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
           "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/netscaler1.png"
-        },
-        {
-          "id": "69bc576e61eca100016f2c62",
-          "author": "McCaulay Hudson",
-          "description": "A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability.\nIn fact, this vulnerability was born so long ago (way back in 1994) that it may even be older than you. To put the timespan",
-          "link": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
-          "publishedOn": "2026-03-19T20:21:07.000Z",
-          "wordCount": 5245,
-          "title": "A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)",
-          "imageUrl": "https://labs.watchtowr.com/content/images/size/w1200/2026/03/Group-8730.png"
         }
       ]
     },
