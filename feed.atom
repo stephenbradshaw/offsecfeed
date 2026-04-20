@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-19T01:44:12.128Z</updated>
+    <updated>2026-04-20T01:47:07.051Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CFITSIO Fuzzing: Memory Corruptions and a Codex-Assisted Pipeline]]></title>
+        <id>https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html</id>
+        <link href="https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html"/>
+        <updated>2026-04-19T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wondered how those amazing space photos are taken? Are they exclusive to the big telescopes floating in space or can you take one from your backyard? What does it take to extract hydrogen colors out of a seemingly black sky?
+
+ 
+Those are great questions, but you won’t learn it from here.
+Instead, I’ll show how I set up and performed fuzzing of the CFITSIO library which is how those space photos are usually processed. I’ll show how the bugs were triaged at scale, and how Codex was used to unblock the fuzzing and to develop the initial security fixes.
+Note: the work described in this blogpost used the GPT-5-Codex, which was the latest model I had access to at the time.
+FITS Format
+The Flexible Image Transport System (FITS) is a data standard created in the late 1970s by NASA, E…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update: cut-bytes.py Version 0.0.18]]></title>
+        <id>http://blog.didierstevens.com/?p=11167</id>
+        <link href="https://blog.didierstevens.com/2026/04/19/update-cut-bytes-py-version-0-0-18/"/>
+        <updated>2026-04-19T09:18:21.000Z</updated>
+        <summary type="html"><![CDATA[This is a fix for escape sequences that trigger warnings in the latest Python versions. cut-bytes_V0_0_18.zip (http)MD5: C5FE455A5371C6675EDF16200D7C5657SHA256: A4F2A2CFE3614F32F9127F1BAA898260B7C3DF6DEA9544513A375519DE7A5595]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Azure Migrate: auto-discover SMB and NFS file shares]]></title>
         <id>https://4sysops.com/?p=1609160</id>
@@ -1060,17 +1087,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-Driven Offensive Security: The Current Landscape and What It Means for Defense]]></title>
-        <id>https://www.praetorian.com/?p=10909</id>
-        <link href="https://www.praetorian.com/blog/ai-driven-offensive-security/"/>
-        <updated>2026-03-20T23:07:20.000Z</updated>
-        <summary type="html"><![CDATA[The capabilities of modern AI models have advanced far beyond what most people in the security industry have fully internalized. AI-generated phishing, script writing, and basic offensive automation are getting plenty of attention, but what happens when you apply agentic AI to the full lifecycle of building, testing, and refining custom malware and command-and-control (C2) […]
-The post AI-Driven Offensive Security: The Current Landscape and What It Means for Defense appeared first on Praetorian.]]></summary>
-        <author>
-            <name>n8n-publisher</name>
         </author>
     </entry>
     <entry>
