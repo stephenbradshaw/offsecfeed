@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=26254",
+          "author": "Jared Atkinson",
+          "description": "Every AI tool connected to a corporate identity system is a non-human identity with delegated rights. The Vercel breach shows exactly what happens when no one maps where those rights lead.\nThe post The Vercel Breach Explains Why Identity Attack Path Management Can’t Wait appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/04/21/the-vercel-breach-explains-why-identity-attack-path-management-cant-wait/",
+          "publishedOn": "2026-04-21T16:02:36.000Z",
+          "wordCount": 4225,
+          "title": "The Vercel Breach Explains Why Identity Attack Path Management Can’t Wait",
+          "imageUrl": null
+        },
+        {
           "id": "https://specterops.io/?p=25779",
           "author": "Skyler Knecht",
           "description": "TL;DR: Google published a blog post with accompanying rainbow tables targeting the Data Encryption Standard (DES) key space. The tables enable recovery of the NT hash used to generate the ciphertexts in NTLMv1 responses. We’ll dive into the tables, the recovery process, and ideally demystify any lingering questions. Acknowledgements There are many previous works on […]\nThe post Into The Rainbow: Google’s NTLMv1 Rainbow Tables Explained in a Bit Too Much Detail appeared first on SpecterOps.",
@@ -424,7 +434,18 @@
       "title": "Alexander Popov",
       "feedUrl": "https://a13xp0p0v.github.io/feed.xml",
       "siteUrl": "https://a13xp0p0v.tech/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html",
+          "author": null,
+          "description": "Many exploits of Linux kernel vulnerabilities use the pipe_buffer kernel object to build strong exploit primitives. When I was experimenting with my personal project kernel-hack-drill, I discovered some interesting properties of pipe_buffer, which may not be described in public articles (at least, I didn't find them). That's why I decided to write this short post and share my thoughts.",
+          "link": "https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html",
+          "publishedOn": "2026-04-20T10:37:00.000Z",
+          "wordCount": null,
+          "title": "Some notes on the security properties of the pipe_buffer kernel object",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Grsecurity Blog RSS Feed",
@@ -13941,6 +13962,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=12030",
+          "author": "Praetorian",
+          "description": "When 500,000 Findings Hide 14 Real Threats Modern enterprises ingest vulnerability data from dozens of sources: endpoint detection and response platforms, vulnerability scanners, cloud security posture tools, container image scanners. A large organization can easily accumulate hundreds of thousands of individual findings. The standard response is to sort by CVSS score, filter for criticals, and […]\nThe post 500,000 Vulnerabilities, 14 That Matter: How Exploit Chain Analysis Cuts Through the Noise appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/exploit-chain-analysis/",
+          "publishedOn": "2026-04-21T16:35:20.000Z",
+          "wordCount": 5420,
+          "title": "500,000 Vulnerabilities, 14 That Matter: How Exploit Chain Analysis Cuts Through the Noise",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/04/500000-vulns-14-matter-1.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=11990",
           "author": "Michelle Rhodes",
           "description": "What Are Shadow Admins in AD? A common problem we encounter within many customer AD environments are accounts that, at first glance, may appear innocuous, but that actually have hidden administrative privileges equivalent to those of a domain administrator account. We call these accounts shadow admins. They represent one of the most persistent shadow admin […]\nThe post Shadow Admins in Active Directory: Hidden Privilege Paths Attackers Exploit appeared first on Praetorian.",
@@ -14277,6 +14308,26 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1609716",
+          "author": "IT Experts",
+          "description": "The April 2026 Patch Tuesday updates add anti-phishing protection to the Windows Remote Desktop client (mstsc.exe). The change — assigned CVE-2026-26151 — means that opening an .rdp file now triggers a security dialog that lists all requested resource-sharing settings, each disabled by default. Files without a verifiable publisher show a red \"Caution: Unknown remote connection\" banner. The update affects Windows 10 and Windows 11 versions 23H2 and later.\nSource",
+          "link": "https://4sysops.com/archives/new-windows-rdp-phishing-warning-caution-unknown-remote-connection/",
+          "publishedOn": "2026-04-21T19:24:49.000Z",
+          "wordCount": null,
+          "title": "New Windows RDP phishing warning: Caution: Unknown remote connection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1609793",
+          "author": "IT Experts",
+          "description": "Rufus is a free, open-source tool that creates bootable USB drives for installing Windows. Version 4.14 Beta, released on April 21, 2026, adds a new option to disable or remove preinstalled Microsoft apps such as Copilot, Teams, and Outlook during a fresh Windows installation. It also introduces a fully silent, unattended installation mode and an option to deploy a Secure Boot policy file at install time. This article explains what these new features do, how to use them, and where to be careful.\nSource",
+          "link": "https://4sysops.com/archives/remove-copilot-and-bloatware-from-windows-11-with-rufus-4-14/",
+          "publishedOn": "2026-04-21T19:24:16.000Z",
+          "wordCount": null,
+          "title": "Remove Copilot and bloatware from Windows 11 with Rufus 4.14",
+          "imageUrl": null
+        },
+        {
           "id": "https://4sysops.com/?p=1608928",
           "author": "IT Experts",
           "description": "Remote Desktop Protocol (RDP) has supported extensibility through virtual channels for decades, but the modern approach—dynamic virtual channels (DVCs)—is what you need today, especially in cloud environments like Azure Virtual Desktop and Windows 365. This article explains what DVCs are, how they differ from the older static model, how a plugin is structured and registered, and how to get started with Microsoft's newly released sample repository.\nSource",
@@ -14544,6 +14595,16 @@
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
         {
+          "id": "https://www.hexacorn.com/blog/?p=10359",
+          "author": "adam",
+          "description": "In my previous post I have provided a list of ‘new’ protocols I noticed in the latest Windows 11 build. One that immediately caught my attention was “ms-notepad://”. You can use it to launch Notepad via “ms-notepad://<filename>” links and it … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/04/22/some-unintelligent-fun-with-ms-notepad-protocol/",
+          "publishedOn": "2026-04-22T00:44:33.000Z",
+          "wordCount": 697,
+          "title": "Some unintelligent fun with ms-notepad protocol",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hexacorn.com/blog/?p=10356",
           "author": "adam",
           "description": "In 2018 I published this post. In 2022 I published this post and this post. @Radkeyboard7984 and I continue chatting about the new Windows 11 protocols and I just did a quick comparison between the protocols I posted before, and … Continue reading →",
@@ -14576,6 +14637,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=44100",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Introduction   In my previous blog post, I wrote about finding your path into DFIR; how to get started, where to focus your time, and why curiosity and good fundamentals matter more than just chasing every certification.  That is still true, but once you have been in the field for a while, you start to realise that getting into DFIR is only […]\nThe post AI can help in DFIR, but it cannot replace investigator judgement appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/ai-can-help-in-dfir-but-it-cannot-replace-investigator-judgement/",
+          "publishedOn": "2026-04-21T14:37:30.000Z",
+          "wordCount": 2883,
+          "title": "AI can help in DFIR, but it cannot replace investigator judgement",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/04/AI-can-help-in-DFIR-but-it-cannot-replace-investigator-judgementv3.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=44071",
           "author": "Alex Wallace",

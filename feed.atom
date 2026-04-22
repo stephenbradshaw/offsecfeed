@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-04-21T01:28:01.393Z</updated>
+    <updated>2026-04-22T01:26:51.805Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Some unintelligent fun with ms-notepad protocol]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10359</id>
+        <link href="https://www.hexacorn.com/blog/2026/04/22/some-unintelligent-fun-with-ms-notepad-protocol/"/>
+        <updated>2026-04-22T00:44:33.000Z</updated>
+        <summary type="html"><![CDATA[In my previous post I have provided a list of ‘new’ protocols I noticed in the latest Windows 11 build. One that immediately caught my attention was “ms-notepad://”. You can use it to launch Notepad via “ms-notepad://<filename>” links and it … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Windows RDP phishing warning: Caution: Unknown remote connection]]></title>
+        <id>https://4sysops.com/?p=1609716</id>
+        <link href="https://4sysops.com/archives/new-windows-rdp-phishing-warning-caution-unknown-remote-connection/"/>
+        <updated>2026-04-21T19:24:49.000Z</updated>
+        <summary type="html"><![CDATA[The April 2026 Patch Tuesday updates add anti-phishing protection to the Windows Remote Desktop client (mstsc.exe). The change — assigned CVE-2026-26151 — means that opening an .rdp file now triggers a security dialog that lists all requested resource-sharing settings, each disabled by default. Files without a verifiable publisher show a red "Caution: Unknown remote connection" banner. The update affects Windows 10 and Windows 11 versions 23H2 and later.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remove Copilot and bloatware from Windows 11 with Rufus 4.14]]></title>
+        <id>https://4sysops.com/?p=1609793</id>
+        <link href="https://4sysops.com/archives/remove-copilot-and-bloatware-from-windows-11-with-rufus-4-14/"/>
+        <updated>2026-04-21T19:24:16.000Z</updated>
+        <summary type="html"><![CDATA[Rufus is a free, open-source tool that creates bootable USB drives for installing Windows. Version 4.14 Beta, released on April 21, 2026, adds a new option to disable or remove preinstalled Microsoft apps such as Copilot, Teams, and Outlook during a fresh Windows installation. It also introduces a fully silent, unattended installation mode and an option to deploy a Secure Boot policy file at install time. This article explains what these new features do, how to use them, and where to be careful.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[500,000 Vulnerabilities, 14 That Matter: How Exploit Chain Analysis Cuts Through the Noise]]></title>
+        <id>https://www.praetorian.com/?p=12030</id>
+        <link href="https://www.praetorian.com/blog/exploit-chain-analysis/"/>
+        <updated>2026-04-21T16:35:20.000Z</updated>
+        <summary type="html"><![CDATA[When 500,000 Findings Hide 14 Real Threats Modern enterprises ingest vulnerability data from dozens of sources: endpoint detection and response platforms, vulnerability scanners, cloud security posture tools, container image scanners. A large organization can easily accumulate hundreds of thousands of individual findings. The standard response is to sort by CVSS score, filter for criticals, and […]
+The post 500,000 Vulnerabilities, 14 That Matter: How Exploit Chain Analysis Cuts Through the Noise appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Praetorian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Vercel Breach Explains Why Identity Attack Path Management Can’t Wait]]></title>
+        <id>https://specterops.io/?p=26254</id>
+        <link href="https://specterops.io/blog/2026/04/21/the-vercel-breach-explains-why-identity-attack-path-management-cant-wait/"/>
+        <updated>2026-04-21T16:02:36.000Z</updated>
+        <summary type="html"><![CDATA[Every AI tool connected to a corporate identity system is a non-human identity with delegated rights. The Vercel breach shows exactly what happens when no one maps where those rights lead.
+The post The Vercel Breach Explains Why Identity Attack Path Management Can’t Wait appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Jared Atkinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI can help in DFIR, but it cannot replace investigator judgement]]></title>
+        <id>https://www.pentestpartners.com/?p=44100</id>
+        <link href="https://www.pentestpartners.com/security-blog/ai-can-help-in-dfir-but-it-cannot-replace-investigator-judgement/"/>
+        <updated>2026-04-21T14:37:30.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  Introduction   In my previous blog post, I wrote about finding your path into DFIR; how to get started, where to focus your time, and why curiosity and good fundamentals matter more than just chasing every certification.  That is still true, but once you have been in the field for a while, you start to realise that getting into DFIR is only […]
+The post AI can help in DFIR, but it cannot replace investigator judgement appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What are RDP plugins? Build your own dynamic virtual channel (DVC) plugin using Microsoft’s new sample repo]]></title>
         <id>https://4sysops.com/?p=1608928</id>
@@ -15,6 +80,16 @@
 Source]]></summary>
         <author>
             <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some notes on the security properties of the pipe_buffer kernel object]]></title>
+        <id>https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html</id>
+        <link href="https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html"/>
+        <updated>2026-04-20T10:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Many exploits of Linux kernel vulnerabilities use the pipe_buffer kernel object to build strong exploit primitives. When I was experimenting with my personal project kernel-hack-drill, I discovered some interesting properties of pipe_buffer, which may not be described in public articles (at least, I didn't find them). That's why I decided to write this short post and share my thoughts.]]></summary>
+        <author>
+            <name>Alexander Popov</name>
         </author>
     </entry>
     <entry>
