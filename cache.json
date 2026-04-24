@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=26222",
+          "author": "Chris Thompson",
+          "description": "TL;DR: Javier Azofra and I vibe-ported MSSQLHound to Go to drastically improve run duration, enable cross-platform execution, support SOCKS proxying for stealth and NT hashes/Kerberos tickets for authentication, enhance logging, detect the latest encryption and extended protection for authentication (EPA) settings, and enable pathfinding in BloodHound. MSSQLHound adds 7 new nodes and 37 new MSSQL […]\nThe post MSSQLHound Now Available in Go appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/04/23/mssqlhound-now-available-in-go/",
+          "publishedOn": "2026-04-23T16:00:00.000Z",
+          "wordCount": 3306,
+          "title": "MSSQLHound Now Available in Go",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/Screenshot-2026-04-20-at-11.08.29-AM.png"
+        },
+        {
           "id": "https://specterops.io/?p=26271",
           "author": "Jared Atkinson",
           "description": "SpecterOps has been named to OpenAI's inaugural Trusted Access for Cyber (TAC) cohort (alongside Nvidia, CrowdStrike, JPMorgan Chase, and Bank of America and others) giving verified defenders governed access to advanced AI models for legitimate security use cases. \nThe post SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program appeared first on SpecterOps.",
@@ -154,26 +164,6 @@
           "wordCount": 6174,
           "title": "Leveling Up Secure Code Reviews with Claude Code",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/image_27fb83.png"
-        },
-        {
-          "id": "https://specterops.io/?p=25281",
-          "author": "Jared Atkinson",
-          "description": "Modeling Okta in BloodHound Enterprise to uncover cross-platform identity risk Introduction Identity is no longer confined to a single system. In modern environments, identity spans multiple platforms: Active Directory, Okta, Entra, GitHub, and others; each operating within its own environment, with its own model for authentication and access. These systems are connected through federation, synchronization, […]\nThe post Attack Paths Don’t Stop at Identity Providers appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/03/24/attack-paths-dont-stop-at-identity-providers/",
-          "publishedOn": "2026-03-24T18:20:32.000Z",
-          "wordCount": 4773,
-          "title": "Attack Paths Don’t Stop at Identity Providers",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/SpectorOps.png"
-        },
-        {
-          "id": "https://specterops.io/?p=24271",
-          "author": "Martin Sohn Christensen",
-          "description": "TL;DR: Trusted vendor documentation across 16 major technology companies were actively guiding administrators to deploy critical misconfigurations (often Active Directory Certificate Services) – a misconfiguration known by the community for over four years. These documentation flaws create attack paths that can be worse than traditional CVE-worthy bugs. Through responsible disclosure, some vendors fixed issues within […]\nThe post RTFM: Read The Fatal Manual – When Vendor Documentation Creates Critical Attack Paths appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/03/24/rtfm-read-the-fatal-manual-when-vendor-documentation-creates-critical-attack-paths/",
-          "publishedOn": "2026-03-24T16:00:00.000Z",
-          "wordCount": 14653,
-          "title": "RTFM: Read The Fatal Manual – When Vendor Documentation Creates Critical Attack Paths",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/03/Blog_RTFM_2000x1020.jpg"
         }
       ]
     },
@@ -401,6 +391,17 @@
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
         {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69e93cc3fd53604cb3167c32",
+          "author": "TrendAI Research Team",
+          "description": "In this excerpt of a TrendAI Research Services vulnerability report, Richard Chen and Lucas Miller of the TrendAI Research team detail a recently patched double free vulnerability in the Windows Internet Key Exchange (IKE) service. This bug was originally discovered by WARP & MORSE team at Microsoft. Successful exploitation could result in a crash of the IKEEXT service, or potentially arbitrary code execution. The following is a portion of their write-up covering CVE-2026-33824, with a few minimal modifications.\nA double free vulnerability has been reported in the Windows Internet Key Exchange (IKEv2) service. The vulnerability is due to an error when processing fragments.\nAn unauthenticated, remote attacker could exploit this vulnerability by sending crafted packets to the target server. …",
+          "link": "https://www.thezdi.com/blog/2026/4/22/cve-2026-33824-remote-code-execution-in-windows-ikev2",
+          "publishedOn": "2026-04-23T15:42:11.000Z",
+          "wordCount": null,
+          "title": "CVE-2026-33824: Remote Code Execution in Windows IKEv2",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69de767930fb0735efb23ae6",
           "author": "Dustin Childs",
           "description": "It’s time once again for Patch Tuesday, and this one is huge. We’ve also got multiple exploits in the wild, which adds another layer of urgency to this month’s release. Take a break from your regularly scheduled activities, and let’s take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for April 2026\nFor April, Adobe released 12 bulletins addressing 61 unique CVEs in Adobe Acrobat Reader, InDesign, InCopy, FrameMaker, Connect, ColdFusion, Bridge, Photoshop, Illustrator, Experience Manager Screens, and the Adobe DNG SDK. Three of the Cold Fusion bugs came through the TrendAI ZDI program. For this month, I’m introducing an Adobe table as well. I’d love to get your …",
@@ -428,7 +429,18 @@
       "title": "Winsider Seminars & Solutions Inc.",
       "feedUrl": "https://windows-internals.com/feed/",
       "siteUrl": "https://windows-internals.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://windows-internals.com/?p=557931",
+          "author": "Yarden Shafir",
+          "description": "Kernel Data Protection (KDP) is a Windows 11 VBS feature that allows drivers to protect their data from being modified by other kernel drivers or malware that achieved kernel write access. It actually contains two separate features: static and dynamic KDP. Static KDP, that allows drivers to enforce read-only protection on a data section be […]",
+          "link": "https://windows-internals.com/goodbye-secure-pool-hello-kdp-pool/?utm_source=rss&utm_medium=rss&utm_campaign=goodbye-secure-pool-hello-kdp-pool",
+          "publishedOn": "2026-04-23T16:49:19.000Z",
+          "wordCount": 3858,
+          "title": "Goodbye Secure Pool, Hello KDP Pool",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Alexander Popov",
@@ -14040,36 +14052,6 @@
           "wordCount": 4199,
           "title": "Reflecting on Your Tier Model: CVE-2025-33073 and the One-Hop Problem",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Tier-Model-Blog.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=10919",
-          "author": "n8n-publisher",
-          "description": "During a recent penetration test, we came across an AI-powered desktop application that acted as a bridge between Claude (Opus 4.5) and a third-party asset management platform. The idea is simple: instead of clicking through dashboards and making API calls, users just ask the agent to do it for them. “How many open tickets do […]\nThe post Which Came First: The System Prompt, or the RCE? appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/which-came-first-system-prompt-or-rce/",
-          "publishedOn": "2026-03-25T02:30:53.000Z",
-          "wordCount": 5356,
-          "title": "Which Came First: The System Prompt, or the RCE?",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Which-Came-First-Blog.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=10982",
-          "author": "Michelle Rhodes",
-          "description": "TL;DR: Julius v0.2.0 nearly doubles LLM fingerprinting probe coverage from 33 to 63, adding detection for cloud-managed AI services (AWS Bedrock, Azure OpenAI, Vertex AI), high-performance inference servers (SGLang, TensorRT-LLM, Triton), AI gateways (Portkey, Helicone, Bifrost), and self-hosted RAG platforms (PrivateGPT, RAGFlow, Quivr). This release also hardens the scanner itself with response size limiting and […]\nThe post Julius v0.2.0: From 33 to 63 Probes — Now Detecting Cloud AI, Enterprise Inference, and RAG Pipelines appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/julius-v020-cloud-ai-rag-detection/",
-          "publishedOn": "2026-03-25T01:13:11.000Z",
-          "wordCount": 3525,
-          "title": "Julius v0.2.0: From 33 to 63 Probes — Now Detecting Cloud AI, Enterprise Inference, and RAG Pipelines",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Julius-v0.2.0-Blog.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=10966",
-          "author": "n8n-publisher",
-          "description": "The Azure APIM signup bypass is a critical vulnerability affecting 97.9% of internet-facing Developer Portals. Azure API Management (APIM) exposes APIs to external consumers through a Developer Portal, the interface where developers self-register, obtain API keys, and make API calls. The default APIM configuration ships with Basic Authentication enabled as the identity provider and the […]\nThe post Azure APIM Signup Bypass: 97.9% of Developer Portals Still Exploitable Anonymously and from the Internet appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/azure-apim-signup-bypass/",
-          "publishedOn": "2026-03-24T16:01:37.000Z",
-          "wordCount": 6086,
-          "title": "Azure APIM Signup Bypass: 97.9% of Developer Portals Still Exploitable Anonymously and from the Internet",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/03/Azure-APIM-Signup-Bypass-Blog.webp"
         }
       ]
     },
@@ -14138,6 +14120,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/",
+          "author": null,
+          "description": "We’re open-sourcing Trailmark, a library that parses source code into a queryable call graph of functions, classes, call relationships, and semantic metadata, then exposes that graph through a Python API that Claude skills can call directly. Install it now:\nuv pip install trailmark\n“Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win.” John Lambert’s widely cited observation about network security applies just as well to AI-assisted software analysis.\nWhen Claude reasons about a codebase, it reasons about lists: findings from static analyzers, surviving mutants from mutation testing, and line-by-line coverage reports. But the question that actually matters is a graph question: can untrusted input reach this code, and what breaks if it’s wrong?\nWe bui…",
+          "link": "https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/",
+          "publishedOn": "2026-04-23T12:00:00.000Z",
+          "wordCount": 1986,
+          "title": "Trailmark turns code into graphs",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/",
           "author": null,
           "description": "Two weeks ago, Google’s Quantum AI group published a zero-knowledge proof of a quantum circuit so optimized, they concluded that first-generation quantum computers will break elliptic curve cryptography keys in as little as 9 minutes. Today, Trail of Bits is publishing our own zero-knowledge proof that significantly improves Google’s on all metrics. Our result is not due to some quantum breakthrough, but rather the exploitation of multiple subtle memory safety and logic vulnerabilities in Google’s Rust prover code. Google has patched their proof, and their scientific claims are unaffected, but this story reflects the unique attack surface that systems introduce when they use zero-knowledge proofs.\nGoogle’s proof uses a zero-knowledge virtual machine (zkVM) to calculate the cost of a quantu…",
@@ -14196,16 +14188,6 @@
           "wordCount": 3077,
           "title": "How we made Trail of Bits AI-native (so far)",
           "imageUrl": "https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/title_slide.jpg"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/",
-          "author": null,
-          "description": "We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post. Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanically. In testing against real audit findings, it achieved 93% recall versus 50% for baseline prompts.\nYou can download and use our new dimensional-analysis plugin by running these commands:\nHow our plugin differs from most skills\nThis plugin release is quite different from the wave of security analysis skills released over the past few weeks. The skills we’ve seen tend to take a relatively simple appr…",
-          "link": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/",
-          "publishedOn": "2026-03-25T11:00:00.000Z",
-          "wordCount": 1153,
-          "title": "Try our new dimensional analysis Claude plugin",
-          "imageUrl": "https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/try-our-new-dimensional-analysis-claude-plugin-image-1.png"
         }
       ]
     },
@@ -14297,6 +14279,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1609943",
+          "author": "Michael Pietroforte",
+          "description": "Anthropic has spent the last year turning Claude into the darling of power coders just as AI usage has exploded across companies, workflows, and entire industries, pushing demand for agentic coding tools to unprecedented levels. In this environment of runaway adoption, a brutal miscalculation on compute and capacity is now blowing Anthropic’s strategy up in public. In a rare, sharply critical video, AI YouTuber Matthew Berman explains how opaque quotas, shifting policies, and confusing restrictions are undermining Anthropic’s once brilliant flywheel and handing OpenAI an effortless PR win. In this post, I summarize his critique, explain why I stopped trusting Anthropic for professional work a while back, and outline why building provider-agnostic agents is the only sane strategy in this unstable industry.\nSource",
+          "link": "https://4sysops.com/archives/anthropics-pr-nightmare-matthew-bermans-outburst-and-ai-usage-explosion/",
+          "publishedOn": "2026-04-23T20:12:45.000Z",
+          "wordCount": null,
+          "title": "Anthropic’s PR nightmare, Matthew Berman’s outburst, and AI usage explosion",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1609446",
           "author": "IT Experts",
@@ -14566,16 +14558,6 @@
           "wordCount": 5255,
           "title": "What are MCP extensions?",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/An-MCP-app-in-Claude.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1608175",
-          "author": "IT Experts",
-          "description": "At RSA Conference 2026, Microsoft announced a comprehensive set of updates to Microsoft Sentinel, its cloud-native Security Information and Event Management (SIEM) platform. The announcements focus on AI-driven automation, simplified multi-tenant management, and enhanced data integration capabilities designed to help security operations centers (SOCs) operate more efficiently at scale.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-sentinel-introduces-ai-powered-automation-and-delegated-access-at-rsac-2026/",
-          "publishedOn": "2026-03-24T16:40:33.000Z",
-          "wordCount": 6145,
-          "title": "Microsoft Sentinel introduces AI-powered automation and delegated access at RSAC 2026",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/The-new-graph-visualization-in-Sentinel-(image-Microsoft).png"
         }
       ]
     },
@@ -14656,16 +14638,6 @@
           "wordCount": 2611,
           "title": "Digital Operational Resilience Act (DORA)",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/03/KieranDORA-headlineV3-1.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44007",
-          "author": "Alex Wallace",
-          "description": "TL;DR   Introduction Identity and Access Management, or IAM, is one of the most important security controls in any cloud environment. If it is weak, attackers can often work around the protections that sit on top of it.  We see this regularly in cloud penetration tests. Once an attacker has access to compromised credentials, they can […]\nThe post Insecure IAM is the root of many cloud security failures appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/insecure-iam-is-the-root-of-many-cloud-security-failures/",
-          "publishedOn": "2026-03-24T16:03:40.000Z",
-          "wordCount": 2129,
-          "title": "Insecure IAM is the root of many cloud security failures",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/03/Cloud-IAM-JDv2.png"
         }
       ]
     },
@@ -14784,6 +14756,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=139015",
+          "author": "Vitaly Kamluk &amp; Juan Andrés Guerrero-Saade",
+          "description": "A previously unknown 2005 cyber sabotage framework patches high-precision calculation software in memory to silently corrupt results.",
+          "link": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+          "publishedOn": "2026-04-23T22:00:45.000Z",
+          "wordCount": 13583,
+          "title": "fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/04/fast16_3.jpg",
+            "length": "195967",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/04/fast16_3.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=139092",
           "author": "LABScon",
           "description": "Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
@@ -14842,6 +14829,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge",
+          "author": null,
+          "description": "Bishop Fox built a vulnerable MCP-based customer support tool and turned it into a security challenge. Explore how AI agents interact with tools, escalate privileges, and expose sensitive data. If you work with AI systems, this CTF shows exactly how these architectures fail in the real world.",
+          "link": "https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge",
+          "publishedOn": "2026-04-23T13:00:00.000Z",
+          "wordCount": 3130,
+          "title": "Otto Support – An MCP, Agentic-AI Security Challenge",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/Otto-Support-–-An-MCP-Agentic-AI-Security-Challenge_Blog.png"
+        },
         {
           "id": "https://bishopfox.com/blog/understanding-the-cve-ecosystem-and-nists-changing-role",
           "author": null,
