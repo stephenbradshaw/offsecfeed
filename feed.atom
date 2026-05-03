@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-02T01:50:41.203Z</updated>
+    <updated>2026-05-03T01:53:11.820Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -2280,94 +2280,6 @@ The post Meet Vespasian. It Sees What Static Analysis Can’t. appeared first on
 Source]]></summary>
         <author>
             <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simplifying MBA obfuscation with CoBRA]]></title>
-        <id>https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/</id>
-        <link href="https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/"/>
-        <updated>2026-04-03T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic.
-We’re releasing CoBRA, an open-source tool that simplifies the full range of MBA expressions used in the wild. Point it at an obfuscated expression and it recovers a simplified equivalent:
-$ cobra-cli --mba "(x&y)+(x|y)"
-x + y
-$ cobra-cli --mba "((a^b)|(a^c)) + 65469 * ~((a&(b&c))) + 65470 * (a&(b&c))" --bitwidth 16
-67 + (a | b | c)
-CoBRA simplifies 99.86% of the 73,000+ expressions drawn from seven independent datasets. It ship…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Axios npm supply chain incident: fake dependency, real backdoor]]></title>
-        <id>https://blog.nviso.eu/?p=24939</id>
-        <link href="https://blog.nviso.eu/2026/04/03/the-axios-npm-supply-chain-incident-fake-dependency-real-backdoor/"/>
-        <updated>2026-04-03T09:24:56.000Z</updated>
-        <summary type="html"><![CDATA[On March 31, 2026, two malicious Axios versions (1.14.1 and 0.30.4) were briefly published to npm via a compromised maintainer account. The only change performed was the addition of a trojanized dependency, whose postinstall script deployed a cross‑platform RAT (for macOS, Windows, and Linux). Although the Axios packages were removed within hours, multiple hits were … Continue reading The Axios npm supply chain incident: fake dependency, real backdoor →]]></summary>
-        <author>
-            <name>Thomas Papaloukas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ClickFix technique uses Script Editor instead of Terminal on macOS]]></title>
-        <id>https://www.jamf.com/blog/clickfix-macos-script-editor-atomic-stealer/</id>
-        <link href="https://www.jamf.com/blog/clickfix-macos-script-editor-atomic-stealer/"/>
-        <updated>2026-04-02T20:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Jamf Threat Labs discovered a ClickFix-style macOS attack that abuses the applescript:// URL scheme to launch Script Editor and deliver an Atomic Stealer infostealer payload — bypassing Terminal entirely.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 365 Archive file-level archiving: SharePoint cold storage for individual files]]></title>
-        <id>https://4sysops.com/?p=1608749</id>
-        <link href="https://4sysops.com/archives/microsoft-365-archive-file-level-archiving-sharepoint-cold-storage-for-individual-files/"/>
-        <updated>2026-04-02T16:12:35.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released file-level archiving for Microsoft 365 Archive in public preview on March 30, 2026. The feature lets you move individual files in SharePoint document libraries to a low-cost cold storage tier while the rest of the site remains fully active. This builds on site-level archiving, which has been generally available since May 2024. General availability of Microsoft 365 Archive file-level archiving is targeted for July 2026. Policy-based automation for automatic archiving is planned for late 2026.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ghostsurf: From NTLM Relay to Browser Session Hijacking]]></title>
-        <id>https://specterops.io/?p=25443</id>
-        <link href="https://specterops.io/blog/2026/04/02/ghostsurf-from-ntlm-relay-to-browser-session-hijacking/"/>
-        <updated>2026-04-02T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: ntlmrelayx‘s SOCKS proxy works great for SMB and MSSQL but fails when you try to browse a web application through it – I dug into why, found several fundamental issues with how it handles HTTP, built ghostsurf to fix them, and along the way, discovered (and circumvented) some undocumented Windows kernel auth behavior. ghostsurf […]
-The post ghostsurf: From NTLM Relay to Browser Session Hijacking appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Allen DeMoura</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Mouse in the House: Zero-Point Security Training Joins the Fortra Family]]></title>
-        <id>https://www.outflank.nl/?p=6167</id>
-        <link href="https://www.outflank.nl/blog/2026/04/02/new-mouse-in-the-house-zero-point-security-training-joins-the-fortra-family/"/>
-        <updated>2026-04-02T14:10:28.000Z</updated>
-        <summary type="html"><![CDATA[For those who don’t know me, my name is Daniel Duggan, known online as RastaMouse. I spent over a decade working as a penetration tester and red teamer across the public and private sector, before founding Zero-Point Security in 2018. My mission was to build the kind of training I wish had existed when I was coming up: practical, accessible, cost-effective, and rooted in real adversary tradecraft.
-My Red Team Ops and Red Team Ops II training courses are the fruits of that labour, which are now recognised across multiple industry sectors including financial services, military, manufacturing, and naturally, security consultancies.
-In 2025, Fortra and Zero-Point Security collaborated to launch a dedicated Cobalt Strike training course, giving operators a hands-on foundation in red team assessments and adversary simulations, built directly around the tool.
-
-Read full post
-The post New Mouse in the House: Zero-Point Security Training Joins the Fortra Family appeared first on Outflank.]]></summary>
-        <author>
-            <name>Daniel Duggan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Mouse in the House: Zero-Point Security Training Joins the Fortra Family]]></title>
-        <id>https://www.outflank.nl/?p=6167</id>
-        <link href="https://www.outflank.nl/blog/2026/04/02/new-mouse-in-the-house-zero-point-security-training-joins-the-fortra-family/"/>
-        <updated>2026-04-02T14:10:28.000Z</updated>
-        <summary type="html"><![CDATA[For those who don’t know me, my name is Daniel Duggan, known online as RastaMouse. I spent over a decade working as a penetration tester and red teamer across the public and private sector, before founding Zero-Point Security in 2018. My mission was to build the kind of training I wish had existed when I was coming up: practical, accessible, cost-effective, and rooted in real adversary tradecraft.
-My Red Team Ops and Red Team Ops II training courses are the fruits of that labour, which are now recognised across multiple industry sectors including financial services, military, manufacturing, and naturally, security consultancies.
-In 2025, Fortra and Zero-Point Security collaborated to launch a dedicated Cobalt Strike training course, giving operators a hands-on foundation in red team assessments and adversary simulations, built directly around the tool.
-
-Read full post
-The post New Mouse in the House: Zero-Point Security Training Joins the Fortra Family appeared first on Outflank.]]></summary>
-        <author>
-            <name>Daniel Duggan</name>
         </author>
     </entry>
     <entry>
