@@ -14009,6 +14009,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso.html",
+          "author": null,
+          "description": "After a small detour, the CloudSecTidbits series is back with new episodes. We had the opportunity to present them at the first DEFCON in Singapore few days ago during our DemoLabs sessions. Meeting Singapore’s community was indeed amazing - thanks again for having us!\n\n\n\nFrom the Previous Episodes\nCloudSec Tidbits is a blogpost series showcasing interesting bugs found by Doyensec during cloud security testing activities.\nWe focus on vulnerabilities resulting from an insecure combination of web and cloud related technologies.\nEvery article includes an Infrastructure as Code (IaC) laboratory that can be easily deployed to experiment with the described vulnerability.\n\n\nTime to get ready and dive into a new tidbit.\nTidbit No. 4 - The Danger of Multi-SSO User Pools\nWhat is AWS Cognito? If you …",
+          "link": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso.html",
+          "publishedOn": "2026-05-04T22:00:00.000Z",
+          "wordCount": 2554,
+          "title": "The Danger of Multi-SSO AWS Cognito User Pools",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html",
           "author": null,
           "description": "Have you ever wondered how those amazing space photos are taken? Are they exclusive to the big telescopes floating in space or can you take one from your backyard? What does it take to extract hydrogen colors out of a seemingly black sky?\n\n \nThose are great questions, but you won’t learn it from here.\nInstead, I’ll show how I set up and performed fuzzing of the CFITSIO library which is how those space photos are usually processed. I’ll show how the bugs were triaged at scale, and how Codex was used to unblock the fuzzing and to develop the initial security fixes.\nNote: the work described in this blogpost used the GPT-5-Codex, which was the latest model I had access to at the time.\nFITS Format\nThe Flexible Image Transport System (FITS) is a data standard created in the late 1970s by NASA, E…",
@@ -14049,6 +14059,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
+          "author": null,
+          "description": "We recently added a C/C++ security checklist to the Testing Handbook and challenged readers to spot the bugs in two code samples: a deceptively simple Linux ping program and a Windows driver registry handler. If you found the inet_ntoa global buffer gotcha or the missing RTL_QUERY_REGISTRY_TYPECHECK flag, nice work. If not, here’s a full walkthrough of both challenges, plus a deep dive into how the Windows registry type confusion escalates from a local denial of service to a kernel write primitive.\nSince we first released the new C/C++ security checklist, we also developed a new Claude skill, c-review. It turns the checklist into bug-finding prompts that an LLM can run against a codebase. It’s also platform and threat-model aware. Run these commands to install the skill:\nThe Linux ping pro…",
+          "link": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
+          "publishedOn": "2026-05-05T11:00:00.000Z",
+          "wordCount": 3988,
+          "title": "C/C++ checklist challenges, solved",
+          "imageUrl": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/cc-checklist-challenges-solved-image-1.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
           "author": null,
@@ -14189,6 +14209,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1610526",
+          "author": "IT Experts",
+          "description": "Microsoft 365 Copilot Cowork moves beyond chat-based AI responses by acting as an autonomous agent—an AI that can perform multi-step tasks on your behalf across Outlook, Teams, Word, Excel, and other Microsoft 365 services. Cowork is built on top of Work IQ, Microsoft's intelligence layer that reads your emails, meetings, files, and organizational data to provide context for actions. As of May 2026, Cowork is available through the Frontier preview program and has expanded to include mobile support, custom skills, plugins, and integration with Agent 365. Access requires a Microsoft 365 Copilot license and enrollment in the Frontier early-access program.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-copilot-cowork-new-ai-features-for-microsoft-365/",
+          "publishedOn": "2026-05-05T19:01:21.000Z",
+          "wordCount": null,
+          "title": "Microsoft Copilot Cowork: New AI features for Microsoft 365",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1610507",
+          "author": "IT Experts",
+          "description": "Microsoft announced three updates for its cloud desktop products in May 2026: a 20% price cut for Windows 365 Business, a rename of Windows 365 Frontline to Windows 365 Flex, and a public preview of Azure Virtual Desktop (AVD) Hybrid, which lets you run cloud-managed virtual desktops on your own on-premises servers. This article focuses on the technical aspects of these changes, particularly AVD Hybrid, which introduces meaningful new infrastructure options for organizations that cannot fully migrate workloads to Azure.\nSource",
+          "link": "https://4sysops.com/archives/windows-365-flex-avd-hybrid-and-pricing-changes-explained/",
+          "publishedOn": "2026-05-05T19:00:52.000Z",
+          "wordCount": null,
+          "title": "Windows 365 Flex, AVD Hybrid, and pricing changes explained",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1610414",
           "author": "IT Experts",
@@ -15834,6 +15874,51 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "entity-analytics-watchlists",
+          "author": null,
+          "description": "Elastic Security v9.4 introduces Entity Analytics Watchlists, a way to codify what your team already knows about high-risk entities and feed that context directly into risk scoring, without custom pipelines or detection engineering overhead",
+          "link": "https://www.elastic.co/security-labs/entity-analytics-watchlists",
+          "publishedOn": "2026-05-05T00:00:00.000Z",
+          "wordCount": 4519,
+          "title": "Know who to watch before the incident finds you",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/entity-analytics-watchlists/entity-analytics-watchlists.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/entity-analytics-watchlists/entity-analytics-watchlists.webp"
+        },
+        {
+          "id": "proactive-threat-hunting-ai-generated-leads",
+          "author": null,
+          "description": "Introducing AI-generated hunting leads, proactive, environment-aware threat hypotheses powered by Elastic Entity analytics and integrated AI reasoning.",
+          "link": "https://www.elastic.co/security-labs/proactive-threat-hunting-ai-generated-leads",
+          "publishedOn": "2026-05-05T00:00:00.000Z",
+          "wordCount": 3302,
+          "title": "AI-generated hunting leads: The hunt starts before you ask the question",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/proactive-threat-hunting-ai-generated-leads/proactive-threat-hunting-ai-generated-leads.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/proactive-threat-hunting-ai-generated-leads/proactive-threat-hunting-ai-generated-leads.webp"
+        },
+        {
+          "id": "ueba-entity-record-quality-analytics",
+          "author": null,
+          "description": "Most entity analytics systems are confidently wrong. They track users who do not exist, generate risk scores built on noise, and call it behavioral analytics. Learn why the entities records you don't create matter as much as the ones you do and how a confidence-tiered model changes the game.",
+          "link": "https://www.elastic.co/security-labs/ueba-entity-record-quality-analytics",
+          "publishedOn": "2026-05-05T00:00:00.000Z",
+          "wordCount": 6180,
+          "title": "Your UEBA is lying to you: Why entity record quality decides everything",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/ueba-entity-record-quality-analytics/header.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/ueba-entity-record-quality-analytics/header.png"
+        },
+        {
           "id": "elastic-workflows-ga-9-4",
           "author": null,
           "description": "Elastic Workflows is generally available in 9.4, bringing production-ready security automation with deeper case management integration, human-in-the-loop support, natural language authoring, and more.",
@@ -16174,6 +16259,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/pen-test-findings",
+          "author": "Eyal Golombek",
+          "description": "Streamline pen-testing by unifying findings from bug bounties, manual audits, and Wiz Red Agent into a single, context-rich view.",
+          "link": "https://www.wiz.io/blog/pen-test-findings",
+          "publishedOn": "2026-05-05T13:00:34.000Z",
+          "wordCount": 15718,
+          "title": "Introducing Penetration Test Findings: Unified Offensive Security in Wiz",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg"
+        },
         {
           "id": "https://www.wiz.io/blog/practical-package-security-the-unofficial-guide",
           "author": "Rami McCarthy",
