@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=25536",
+          "author": "Remi GASCOU",
+          "description": "TL;DR: Two command injection vulnerabilities exist in the Windows Explorer “Open PowerShell window here” context menu due to improper quoting and command injection through user-controlled folder paths. By creating folders with crafted names (e.g., folder; calc), an attacker can trigger arbitrary PowerShell command execution when a user uses Shift + Right-Click → Open PowerShell window […]\nThe post Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/05/07/shift-happens-uncovering-two-built-in-command-injections-in-windows-context-menus/",
+          "publishedOn": "2026-05-07T16:00:00.000Z",
+          "wordCount": 5456,
+          "title": "Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/ShitHappens-cover-image.jpg"
+        },
+        {
           "id": "https://specterops.io/?p=26302",
           "author": "Adam Chester",
           "description": "Dev Tunnels aren’t \"just port forwarding\". They consist of layers of embedded protocols with RPC messages being exchanged. Once you peal the layers, you quickly see how Dev Tunnels are a C2 framework with extra steps.\nThe post The Accidental C2: Exploring Dev Tunnels for Remote Access appeared first on SpecterOps.",
@@ -13954,6 +13964,16 @@
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/04/500000-vulns-14-matter-1.webp"
         },
         {
+          "id": "https://www.praetorian.com/?p=11532",
+          "author": "Nathan Sportsman",
+          "description": "The Kill Chain models how an attack succeeds. The Attack Helix models how the offensive baseline improves. The Tipping Point One person. Two AI subscriptions. Ten government agencies. 150 gigabytes of sovereign data. In December of 2025, a single unidentified operator used Anthropic’s Claude and OpenAI’s ChatGPT to breach the Mexican government agencies and a financial institution. […]\nThe post The Attack Helix: Praetorian’s AI & Economic Architecture for Offensive Security appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/the-attack-helix-praetorian-guards-ai-architecture-for-offensive-security/",
+          "publishedOn": "2026-04-17T18:40:00.000Z",
+          "wordCount": 9963,
+          "title": "The Attack Helix: Praetorian’s AI & Economic Architecture for Offensive Security",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/04/Attack-Helix-2.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=11990",
           "author": "Michelle Rhodes",
           "description": "What Are Shadow Admins in AD? A common problem we encounter within many customer AD environments are accounts that, at first glance, may appear innocuous, but that actually have hidden administrative privileges equivalent to those of a domain administrator account. We call these accounts shadow admins. They represent one of the most persistent shadow admin […]\nThe post Shadow Admins in Active Directory: Hidden Privilege Paths Attackers Exploit appeared first on Praetorian.",
@@ -14189,6 +14209,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1610597",
+          "author": "IT Experts",
+          "description": "Windows 11 version 25H2 introduces a new Group Policy setting, Configure maintenance windows for automatic updates, that lets you define precise time windows for downloading, installing, and restarting after updates. The policy ships with version 3.0 of the ADMX administrative templates and is currently available only in Windows 11 Insider Preview builds. It takes priority over several existing update-related policies, but the interaction rules are only partially documented.\nSource",
+          "link": "https://4sysops.com/archives/new-group-policy-for-windows-update-maintenance-window-in-windows-11-25h2/",
+          "publishedOn": "2026-05-07T19:09:31.000Z",
+          "wordCount": null,
+          "title": "New Group Policy for Windows Update maintenance window in Windows 11 25H2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1609921",
+          "author": "IT Experts",
+          "description": "Microsoft is rolling out a long-overdue change to the browser-based versions of Word, Excel, and PowerPoint: you can now apply sensitivity labels with user-defined permissions directly in the web apps without switching to the desktop client. Sensitivity labels are classification tags you attach to a file to control who can read, edit, or print it. They are configured centrally in Microsoft Purview (Microsoft's compliance and information protection platform) and enforced by the Rights Management Service (RMS), which is the encryption engine built into Microsoft 365. This update started rolling out in mid-April 2026 and is expected to be completed worldwide by early May 2026. It requires enabling coauthoring on encrypted files in your tenant beforehand.\nSource",
+          "link": "https://4sysops.com/archives/sensitivity-labels-now-in-microsoft-365-web-apps/",
+          "publishedOn": "2026-05-07T19:08:51.000Z",
+          "wordCount": null,
+          "title": "Sensitivity labels now in Microsoft 365 web apps",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1610550",
           "author": "IT Experts",
@@ -14458,16 +14498,6 @@
           "wordCount": null,
           "title": "Microsoft Entra March 2026: Passkeys GA, backup preview, and Hybrid Security Fix",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1609024",
-          "author": "IT Experts",
-          "description": "GitHub Copilot CLI—GitHub's AI assistant for the terminal—introduced an experimental feature called Rubber Duck that pairs your primary AI model with an independent reviewer from a completely different AI vendor. The goal is to catch early planning mistakes before they compound into harder-to-fix downstream errors, a known weakness of single-model AI agents. In performance testing on real-world coding problems, combining Claude Sonnet with Rubber Duck closed 74.7% of the performance gap between Sonnet and the more capable Opus tier.\nSource",
-          "link": "https://4sysops.com/archives/rubber-duck-in-github-copilot-cli-reducing-ai-hallucinations-with-a-second-opinion/",
-          "publishedOn": "2026-04-07T14:17:05.000Z",
-          "wordCount": null,
-          "title": "Rubber Duck in GitHub Copilot CLI: reducing AI hallucinations with a second opinion",
-          "imageUrl": null
         }
       ]
     },
@@ -14592,16 +14622,6 @@
           "wordCount": 1647,
           "title": "Breaking Opus 4.7 with ChatGPT (Hacking Claude's Memory)",
           "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/",
-          "author": null,
-          "description": "A few months ago I had this realization that agents have become really good at identifying bugs in code, especially security vulnerabilities. They are relentless in analyzing code and you can spin up multiple of them to go through source code quickly.\ngiven enough agents, all bugs are shallow\n— Johann Rehberger (@wunderwuzzi23) February 10, 2026\n\n\n\nIt is an emerging capability that many security researchers and bug bounty hunters have observed over the last few months.",
-          "link": "https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/",
-          "publishedOn": "2026-04-08T06:58:58.000Z",
-          "wordCount": 1377,
-          "title": "Given Enough Agents, All Bugs Become Shallow",
-          "imageUrl": null
         }
       ]
     },
@@ -14676,6 +14696,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=139670",
+          "author": "Alex Delamotte",
+          "description": "Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.",
+          "link": "https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/",
+          "publishedOn": "2026-05-07T10:00:17.000Z",
+          "wordCount": 10170,
+          "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg",
+            "length": "43088",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=139307",
           "author": "LABScon",
           "description": "Joe FitzPatrick reveals how consumer imports of networked devices pose a real security risk to small businesses and critical infrastructure alike.",
@@ -14744,6 +14779,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp",
+          "author": null,
+          "description": "SSRF and token passthrough are not new, but MCP servers are reintroducing them at scale. From a chained SSRF-to-RCE in mcp-atlassian to Microsoft's MarkItDown and OpenClaw, this post walks through three recent disclosures and the controls that actually prevent them.",
+          "link": "https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp",
+          "publishedOn": "2026-05-07T13:00:00.000Z",
+          "wordCount": 2855,
+          "title": "Otto Support - SSRF and Token Passthrough with MCP",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/Otto-Support_SSRF-Token-Passthrough-MCP_Blog.png"
+        },
         {
           "id": "https://bishopfox.com/blog/otto-support-excessive-agency-and-tool-privileges",
           "author": null,
@@ -15822,6 +15867,16 @@
       "siteUrl": "https://redcanary.com/blog/",
       "articles": [
         {
+          "id": "https://redcanary.com/?p=43673",
+          "author": "Laura Brosnan",
+          "description": "Clean up your browser by removing unneeded extensions, clearing cached data, scanning for info-stealing malware, and more.",
+          "link": "https://redcanary.com/blog/security-operations/spring-cleaning-your-browser/",
+          "publishedOn": "2026-05-07T14:13:27.000Z",
+          "wordCount": 8192,
+          "title": "Spring cleaning your browser",
+          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/05/1200x628-SpringCleaningBlog-RedCanary.jpg"
+        },
+        {
           "id": "https://redcanary.com/?p=43670",
           "author": "Shelley Moore",
           "description": "Red Canary's monthly roundup of upcoming security conferences and call for papers (CFP) submission deadlines May 2026",
@@ -15870,16 +15925,6 @@
           "wordCount": 8131,
           "title": "New: Use response actions to update Zscaler policies and block threats",
           "imageUrl": "https://redcanary.com/wp-content/uploads/2026/04/1200x628_ResponseActions-Blog_RedCanary.jpg"
-        },
-        {
-          "id": "https://redcanary.com/?p=43570",
-          "author": "Chris Brook",
-          "description": "The 2026 Threat Detection Report surveys the AI landscape for both defenders and adversaries. Here’s how you can stay ahead.",
-          "link": "https://redcanary.com/blog/security-operations/ai-in-cybersecurity/",
-          "publishedOn": "2026-04-08T13:43:10.000Z",
-          "wordCount": 8345,
-          "title": "AI in cybersecurity: The good, the bad, and the FUD",
-          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/03/1200x628-AIinCybersecurity-Blog-RedCanary.jpg"
         }
       ]
     },
@@ -15888,6 +15933,21 @@
       "feedUrl": "https://www.elastic.co/security-labs/rss/feed.xml",
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
+        {
+          "id": "detecting-web-server-probing-and-fuzzing",
+          "author": null,
+          "description": "This article shows how a customized Elastic Security ES|QL detection rule can identify web server probing and fuzzing activity in Traefik logs and automatically block the attacking IP via Cloudflare.",
+          "link": "https://www.elastic.co/security-labs/detecting-web-server-probing-and-fuzzing",
+          "publishedOn": "2026-05-08T00:00:00.000Z",
+          "wordCount": 6496,
+          "title": "Detecting Web Server Probing & Fuzzing in Traefik with Automated Cloudflare Response",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/detecting-web-server-probing-and-fuzzing/detecting-web-server-probing-and-fuzzing.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/detecting-web-server-probing-and-fuzzing/detecting-web-server-probing-and-fuzzing.webp"
+        },
         {
           "id": "tclbanker-brazilian-banking-trojan",
           "author": null,
@@ -16106,6 +16166,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/",
+          "author": null,
+          "description": "Read our e-book to discover how Declarative Device Management (DDM) can help your organization scale up with faster updates, proactive compliance and real-time fleet visibility.",
+          "link": "https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/",
+          "publishedOn": "2026-05-06T22:54:00.000Z",
+          "wordCount": 1489,
+          "title": "Gain faster updates and real-time fleet visibility with DDM",
+          "imageUrl": "https://media.jamf.com/images/news/2026/a-practical-guide-to-modern-apple-device-management-with-ddm.webp?h=500&q=80&w=800"
+        },
+        {
           "id": "https://www.jamf.com/blog/apple-device-management-education/",
           "author": null,
           "description": "As education technology evolves, schools need a complete Apple device management approach that unifies identity, security and insight to support better learning outcomes. Learn how Jamf helps.",
@@ -16234,16 +16304,6 @@
           "wordCount": 3805,
           "title": "Inside Predator’s kernel engine",
           "imageUrl": "https://media.jamf.com/images/news/2026/jtl-predator-kernel.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/rsa-conference-2026-recap-ai-security-enterprise-mobile-mac/",
-          "author": null,
-          "description": "RSA Conference 2026 highlighted how AI is reshaping security operations and introducing new risks while Mac and mobile adoption continues to accelerate in the enterprise — reinforcing the need for connected, identity-driven security platforms. Find out more.",
-          "link": "https://www.jamf.com/blog/rsa-conference-2026-recap-ai-security-enterprise-mobile-mac/",
-          "publishedOn": "2026-04-07T14:29:00.000Z",
-          "wordCount": 2598,
-          "title": "RSA Conference 2026 recap: AI security, enterprise mobile security and the shift to connected security platforms",
-          "imageUrl": "https://media.jamf.com/images/news/2026/rsac-2026-jamfs.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16252,6 +16312,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=139670",
+          "author": "Alex Delamotte",
+          "description": "Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.",
+          "link": "https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/",
+          "publishedOn": "2026-05-07T10:00:17.000Z",
+          "wordCount": 10170,
+          "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg",
+            "length": "43088",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=139307",
           "author": "LABScon",
@@ -16304,6 +16379,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+          "author": "Bandhna Bedi",
+          "description": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+          "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+          "publishedOn": "2026-05-07T13:00:00.000Z",
+          "wordCount": 15639,
+          "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1778022258-lovable-copy-2x-100.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1778022258-lovable-copy-2x-100.jpg"
+        },
+        {
+          "id": "https://www.wiz.io/blog/wiz-zero-code-criticals-challenge",
+          "author": "Bandhna Bedi",
+          "description": "Ready to hit Zero Code Criticals? Here's how Wiz helps you get there and stay there, with the badge to prove you did.",
+          "link": "https://www.wiz.io/blog/wiz-zero-code-criticals-challenge",
+          "publishedOn": "2026-05-07T12:00:00.000Z",
+          "wordCount": 15552,
+          "title": "It's Time to Go After Achieving Zero Code Criticals",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1777988333-zero-race-2x-100.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1777988333-zero-race-2x-100.jpg"
+        },
         {
           "id": "https://www.wiz.io/blog/jenkins-threat-risk-insights",
           "author": "Merav Bar",

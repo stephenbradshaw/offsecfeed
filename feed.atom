@@ -2,10 +2,113 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-07T01:57:56.084Z</updated>
+    <updated>2026-05-08T02:03:32.838Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Detecting Web Server Probing & Fuzzing in Traefik with Automated Cloudflare Response]]></title>
+        <id>detecting-web-server-probing-and-fuzzing</id>
+        <link href="https://www.elastic.co/security-labs/detecting-web-server-probing-and-fuzzing"/>
+        <updated>2026-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article shows how a customized Elastic Security ES|QL detection rule can identify web server probing and fuzzing activity in Traefik logs and automatically block the attacking IP via Cloudflare.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Group Policy for Windows Update maintenance window in Windows 11 25H2]]></title>
+        <id>https://4sysops.com/?p=1610597</id>
+        <link href="https://4sysops.com/archives/new-group-policy-for-windows-update-maintenance-window-in-windows-11-25h2/"/>
+        <updated>2026-05-07T19:09:31.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11 version 25H2 introduces a new Group Policy setting, Configure maintenance windows for automatic updates, that lets you define precise time windows for downloading, installing, and restarting after updates. The policy ships with version 3.0 of the ADMX administrative templates and is currently available only in Windows 11 Insider Preview builds. It takes priority over several existing update-related policies, but the interaction rules are only partially documented.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sensitivity labels now in Microsoft 365 web apps]]></title>
+        <id>https://4sysops.com/?p=1609921</id>
+        <link href="https://4sysops.com/archives/sensitivity-labels-now-in-microsoft-365-web-apps/"/>
+        <updated>2026-05-07T19:08:51.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft is rolling out a long-overdue change to the browser-based versions of Word, Excel, and PowerPoint: you can now apply sensitivity labels with user-defined permissions directly in the web apps without switching to the desktop client. Sensitivity labels are classification tags you attach to a file to control who can read, edit, or print it. They are configured centrally in Microsoft Purview (Microsoft's compliance and information protection platform) and enforced by the Rights Management Service (RMS), which is the encryption engine built into Microsoft 365. This update started rolling out in mid-April 2026 and is expected to be completed worldwide by early May 2026. It requires enabling coauthoring on encrypted files in your tenant beforehand.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus]]></title>
+        <id>https://specterops.io/?p=25536</id>
+        <link href="https://specterops.io/blog/2026/05/07/shift-happens-uncovering-two-built-in-command-injections-in-windows-context-menus/"/>
+        <updated>2026-05-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Two command injection vulnerabilities exist in the Windows Explorer “Open PowerShell window here” context menu due to improper quoting and command injection through user-controlled folder paths. By creating folders with crafted names (e.g., folder; calc), an attacker can trigger arbitrary PowerShell command execution when a user uses Shift + Right-Click → Open PowerShell window […]
+The post Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Remi GASCOU</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring cleaning your browser]]></title>
+        <id>https://redcanary.com/?p=43673</id>
+        <link href="https://redcanary.com/blog/security-operations/spring-cleaning-your-browser/"/>
+        <updated>2026-05-07T14:13:27.000Z</updated>
+        <summary type="html"><![CDATA[Clean up your browser by removing unneeded extensions, clearing cached data, scanning for info-stealing malware, and more.]]></summary>
+        <author>
+            <name>Laura Brosnan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Otto Support - SSRF and Token Passthrough with MCP]]></title>
+        <id>https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp</id>
+        <link href="https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp"/>
+        <updated>2026-05-07T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SSRF and token passthrough are not new, but MCP servers are reintroducing them at scale. From a chained SSRF-to-RCE in mcp-atlassian to Microsoft's MarkItDown and OpenClaw, this post walks through three recent disclosures and the controls that actually prevent them.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Fast, Build Secure: Wiz findings are now in Lovable]]></title>
+        <id>https://www.wiz.io/blog/introducing-wiz-lovable-integration</id>
+        <link href="https://www.wiz.io/blog/introducing-wiz-lovable-integration"/>
+        <updated>2026-05-07T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></summary>
+        <author>
+            <name>Bandhna Bedi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It's Time to Go After Achieving Zero Code Criticals]]></title>
+        <id>https://www.wiz.io/blog/wiz-zero-code-criticals-challenge</id>
+        <link href="https://www.wiz.io/blog/wiz-zero-code-criticals-challenge"/>
+        <updated>2026-05-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ready to hit Zero Code Criticals? Here's how Wiz helps you get there and stay there, with the badge to prove you did.]]></summary>
+        <author>
+            <name>Bandhna Bedi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=139670</id>
+        <link href="https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/"/>
+        <updated>2026-05-07T10:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.]]></summary>
+        <author>
+            <name>Alex Delamotte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=139670</id>
+        <link href="https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/"/>
+        <updated>2026-05-07T10:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.]]></summary>
+        <author>
+            <name>Alex Delamotte</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook]]></title>
         <id>tclbanker-brazilian-banking-trojan</id>
@@ -14,6 +117,16 @@
         <summary type="html"><![CDATA[REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.]]></summary>
         <author>
             <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gain faster updates and real-time fleet visibility with DDM]]></title>
+        <id>https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/</id>
+        <link href="https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/"/>
+        <updated>2026-05-06T22:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Read our e-book to discover how Declarative Device Management (DDM) can help your organization scale up with faster updates, proactive compliance and real-time fleet visibility.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -1909,6 +2022,17 @@ Claude Opus 4.6+ is more resilient against basic attacks, and reasons before tak
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Attack Helix: Praetorian’s AI & Economic Architecture for Offensive Security]]></title>
+        <id>https://www.praetorian.com/?p=11532</id>
+        <link href="https://www.praetorian.com/blog/the-attack-helix-praetorian-guards-ai-architecture-for-offensive-security/"/>
+        <updated>2026-04-17T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The Kill Chain models how an attack succeeds. The Attack Helix models how the offensive baseline improves. The Tipping Point One person. Two AI subscriptions. Ten government agencies. 150 gigabytes of sovereign data. In December of 2025, a single unidentified operator used Anthropic’s Claude and OpenAI’s ChatGPT to breach the Mexican government agencies and a financial institution. […]
+The post The Attack Helix: Praetorian’s AI & Economic Architecture for Offensive Security appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Nathan Sportsman</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Walking Through an Attack Path with ForceHound]]></title>
         <id>https://www.netspi.com/?p=32879</id>
         <link href="https://www.netspi.com/blog/technical-blog/web-application-pentesting/walking-through-an-attack-path-with-forcehound/"/>
@@ -2448,53 +2572,6 @@ This issue is not new. Concerned discussions about Node.js's module se…]]></su
         <link href="https://4sysops.com/archives/microsoft-entra-march-2026-passkeys-ga-backup-preview-and-hybrid-security-fix/"/>
         <updated>2026-04-08T15:52:24.000Z</updated>
         <summary type="html"><![CDATA[Microsoft's March 2026 Entra update promotes passkey authentication to general availability, introduces a built-in tenant backup feature in public preview, and announces a breaking security change for hybrid environments, taking effect June 1, 2026. Additional changes enforce TLS 1.2 for Entra Connect Health agents and bring several multi-tenant governance capabilities into preview. This article covers changes relevant to administrators managing Microsoft 365 tenants and hybrid Active Directory environments.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI in cybersecurity: The good, the bad, and the FUD]]></title>
-        <id>https://redcanary.com/?p=43570</id>
-        <link href="https://redcanary.com/blog/security-operations/ai-in-cybersecurity/"/>
-        <updated>2026-04-08T13:43:10.000Z</updated>
-        <summary type="html"><![CDATA[The 2026 Threat Detection Report surveys the AI landscape for both defenders and adversaries. Here’s how you can stay ahead.]]></summary>
-        <author>
-            <name>Chris Brook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Given Enough Agents, All Bugs Become Shallow]]></title>
-        <id>https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/</id>
-        <link href="https://embracethered.com/blog/posts/2026/given-enough-agents-all-bugs-become-shallow/"/>
-        <updated>2026-04-08T06:58:58.000Z</updated>
-        <summary type="html"><![CDATA[A few months ago I had this realization that agents have become really good at identifying bugs in code, especially security vulnerabilities. They are relentless in analyzing code and you can spin up multiple of them to go through source code quickly.
-given enough agents, all bugs are shallow
-— Johann Rehberger (@wunderwuzzi23) February 10, 2026
-
-
-
-It is an emerging capability that many security researchers and bug bounty hunters have observed over the last few months.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RSA Conference 2026 recap: AI security, enterprise mobile security and the shift to connected security platforms]]></title>
-        <id>https://www.jamf.com/blog/rsa-conference-2026-recap-ai-security-enterprise-mobile-mac/</id>
-        <link href="https://www.jamf.com/blog/rsa-conference-2026-recap-ai-security-enterprise-mobile-mac/"/>
-        <updated>2026-04-07T14:29:00.000Z</updated>
-        <summary type="html"><![CDATA[RSA Conference 2026 highlighted how AI is reshaping security operations and introducing new risks while Mac and mobile adoption continues to accelerate in the enterprise — reinforcing the need for connected, identity-driven security platforms. Find out more.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rubber Duck in GitHub Copilot CLI: reducing AI hallucinations with a second opinion]]></title>
-        <id>https://4sysops.com/?p=1609024</id>
-        <link href="https://4sysops.com/archives/rubber-duck-in-github-copilot-cli-reducing-ai-hallucinations-with-a-second-opinion/"/>
-        <updated>2026-04-07T14:17:05.000Z</updated>
-        <summary type="html"><![CDATA[GitHub Copilot CLI—GitHub's AI assistant for the terminal—introduced an experimental feature called Rubber Duck that pairs your primary AI model with an independent reviewer from a completely different AI vendor. The goal is to catch early planning mistakes before they compound into harder-to-fix downstream errors, a known weakness of single-model AI agents. In performance testing on real-world coding problems, combining Claude Sonnet with Rubber Duck closed 74.7% of the performance gap between Sonnet and the more capable Opus tier.
 Source]]></summary>
         <author>
             <name>IT Experts</name>
