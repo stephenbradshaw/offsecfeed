@@ -6,6 +6,16 @@
       "siteUrl": "https://specterops.io/blog/category/blog/",
       "articles": [
         {
+          "id": "https://specterops.io/?p=26562",
+          "author": "Brandon Shearin",
+          "description": "TL;DR: A year ago, my company handed me a project bigger than anything I’d worked on before. The project was OpenGraph, the new extensibility foundation for a cybersecurity tool called BloodHound, and this essay is partly about building it. Mostly it’s about what happens when an engineer leaves the comfortable bounds of individual ownership and […]\nThe post What Comes Before Tickets appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/05/08/what-comes-before-tickets/",
+          "publishedOn": "2026-05-08T16:00:00.000Z",
+          "wordCount": 7772,
+          "title": "What Comes Before Tickets",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/05/image-4.png"
+        },
+        {
           "id": "https://specterops.io/?p=25536",
           "author": "Remi GASCOU",
           "description": "TL;DR: Two command injection vulnerabilities exist in the Windows Explorer “Open PowerShell window here” context menu due to improper quoting and command injection through user-controlled folder paths. By creating folders with crafted names (e.g., folder; calc), an attacker can trigger arbitrary PowerShell command execution when a user uses Shift + Right-Click → Open PowerShell window […]\nThe post Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus appeared first on SpecterOps.",
@@ -389,17 +399,6 @@
           "publishedOn": "2026-04-14T17:49:19.000Z",
           "wordCount": null,
           "title": "The April 2026 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69cec3c33cf47c14f0ce73e1",
-          "author": "Bobby Gould and Michael DePlante",
-          "description": "In September of 2024, ZDI received a vulnerability submission from an anonymous researcher affecting npm CLI that revealed a fundamental design issue in Node.js. This blog details how it continues to expose applications to local privilege escalation (LPE) attacks on Windows systems, including the Discord desktop app (CVE-2026-0776 0-Day), which remains unpatched and vulnerable.\nThe issue is straightforward: when Node.js resolves modules, the runtime searches for packages in C:\\node_modules as part of its default behavior. Since low-privileged Windows users can create this directory and plant malicious modules there, any Node.js application with missing or optional dependencies becomes vulnerable to privilege escalation.\nThis issue is not new. Concerned discussions about Node.js's module se…",
-          "link": "https://www.thezdi.com/blog/2026/4/8/nodejs-trust-falls-dangerous-module-resolution-on-windows",
-          "publishedOn": "2026-04-08T16:18:48.000Z",
-          "wordCount": null,
-          "title": "Node.js Trust Falls: Dangerous Module Resolution on Windows",
           "itunes": {},
           "imageUrl": null
         }
@@ -14108,16 +14107,6 @@
           "wordCount": 4114,
           "title": "We beat Google’s zero-knowledge proof of quantum cryptanalysis",
           "imageUrl": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis-image-1.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/",
-          "author": null,
-          "description": "We added a new chapter to our Testing Handbook: a comprehensive security checklist for C and C++ code. We’ve identified a broad range of common bug classes, known footguns, and API gotchas across C and C++ codebases and organized them into sections covering Linux, Windows, and seccomp. Whereas other handbook chapters focus on static and dynamic analysis, this chapter offers a strong basis for manual code review.\nLLM enthusiasts rejoice: we’re also developing a Claude skill based on this new chapter. It will turn the checklist into bug-finding prompts that an LLM can run against a codebase, and it’ll be platform and threat-model aware. Be sure to give it a try when we release it.\nAnd after reading the chapter, you can test your C/C++ review skills against two challenges at the end of this p…",
-          "link": "https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/",
-          "publishedOn": "2026-04-09T11:00:00.000Z",
-          "wordCount": 1299,
-          "title": "Master C and C++ with our new Testing Handbook chapter",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -14209,6 +14198,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1610287",
+          "author": "IT Experts",
+          "description": "TeamViewer is a remote assistance solution that lets you remotely connect to and control Intune-managed Windows, macOS, Android, and iOS/iPadOS devices directly from the Intune admin center to support your users. Microsoft Intune's April 2026 update (service release 2604) introduces a redesigned TeamViewer connector for remote assistance. The new connector replaces the existing one with a simplified setup process and adds SSO (single sign-on) support, device group synchronization, and granular role-based permissions. If you still use the old connector, you have 12 months to migrate before it stops working. This article explains what changed, what you need, and how to configure the new connector.\nSource",
+          "link": "https://4sysops.com/archives/new-teamviewer-connector-in-microsoft-intune-remote-control-for-windows-macos-ios-android/",
+          "publishedOn": "2026-05-08T19:56:34.000Z",
+          "wordCount": null,
+          "title": "New TeamViewer connector in Microsoft Intune: remote control for Windows, macOS, iOS, Android",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1610597",
           "author": "IT Experts",
@@ -14488,16 +14487,6 @@
           "wordCount": null,
           "title": "Windows 365 connector for Power Platform and Logic Apps: automate Cloud PC management",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1608882",
-          "author": "IT Experts",
-          "description": "Microsoft's March 2026 Entra update promotes passkey authentication to general availability, introduces a built-in tenant backup feature in public preview, and announces a breaking security change for hybrid environments, taking effect June 1, 2026. Additional changes enforce TLS 1.2 for Entra Connect Health agents and bring several multi-tenant governance capabilities into preview. This article covers changes relevant to administrators managing Microsoft 365 tenants and hybrid Active Directory environments.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-entra-march-2026-passkeys-ga-backup-preview-and-hybrid-security-fix/",
-          "publishedOn": "2026-04-08T15:52:24.000Z",
-          "wordCount": null,
-          "title": "Microsoft Entra March 2026: Passkeys GA, backup preview, and Hybrid Security Fix",
-          "imageUrl": null
         }
       ]
     },
@@ -14568,16 +14557,6 @@
           "wordCount": 2883,
           "title": "AI can help in DFIR, but it cannot replace investigator judgement",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/04/AI-can-help-in-DFIR-but-it-cannot-replace-investigator-judgementv3.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44071",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Introduction   There is a widely held belief that penetration testing Operational Technology networks is impossible. That simply connecting a laptop to a network will take down everything. That running nmap will take down a factory. That the only safe approach is to not test at all.  This belief is wrong. Or rather, it is a massive […]\nThe post You can pen test OT networks without breaking them  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/you-can-pen-test-ot-networks-without-breaking-them/",
-          "publishedOn": "2026-04-09T11:43:17.000Z",
-          "wordCount": 3386,
-          "title": "You can pen test OT networks without breaking them",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/04/You-can-pen-test-OT-networks-without-breaking-them-headlinev2-1-1024x576.png"
         }
       ]
     },
@@ -14671,18 +14650,7 @@
       "title": "Stories by assume-breach on Medium",
       "feedUrl": "https://medium.com/feed/@assume-breach",
       "siteUrl": "https://medium.com/@assume-breach?source=rss-fe83402397b0------2",
-      "articles": [
-        {
-          "id": "https://medium.com/p/5ff489ec9136",
-          "author": "assume-breach",
-          "description": "",
-          "link": "https://assume-breach.medium.com/how-i-became-a-red-hat-certified-architect-in-6-months-and-everything-i-wish-i-knew-beforehand-5ff489ec9136?source=rss-fe83402397b0------2",
-          "publishedOn": "2026-04-08T18:32:17.000Z",
-          "wordCount": null,
-          "title": "How I Became A Red Hat Certified Architect In 6 Months And Everything I Wish I Knew Beforehand.",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "SecureAuth Blogs - Identity and Access Management Solution",
@@ -14779,6 +14747,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/otto-support-confused-deputy",
+          "author": null,
+          "description": "When an agent reads attacker-controlled content and acts on it using its own privileges, the user's name ends up on every audit log entry. From Microsoft Copilot to ConfusedPilot, this post walks through how confused deputy attacks work and the layered controls that help contain them.",
+          "link": "https://bishopfox.com/blog/otto-support-confused-deputy",
+          "publishedOn": "2026-05-08T13:00:00.000Z",
+          "wordCount": 2498,
+          "title": "Otto Support - The Confused Deputy",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Otto-Support_The-Confused-Deputy.png?mtime=1778270996"
+        },
         {
           "id": "https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp",
           "author": null,
@@ -16142,21 +16120,6 @@
             "type": "image/webp"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/phantom-in-the-vault/phantom-in-the-vault.webp"
-        },
-        {
-          "id": "elastic-defence-cyber-marvel",
-          "author": null,
-          "description": "An overview of the Elastic Security and AI infrastructure deployed to support the UK Ministry of Defence's flagship cyber exercise, Defence Cyber Marvel 2026.",
-          "link": "https://www.elastic.co/security-labs/elastic-defence-cyber-marvel",
-          "publishedOn": "2026-04-09T00:00:00.000Z",
-          "wordCount": 17096,
-          "title": "Elastic on Defence Cyber Marvel 2026: A Technical overview from the Exercise Floor",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/elastic-defence-cyber-marvel/elastic-defence-cyber-marvel.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/elastic-defence-cyber-marvel/elastic-defence-cyber-marvel.webp"
         }
       ]
     },
@@ -16165,6 +16128,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/what-the-canvas-breach-tells-us-about-the-state-of-education-security/",
+          "author": null,
+          "description": "The Canvas incident reflects systemic patterns in how education technology is deployed and how trust gets extended. Learn how to protect your school.",
+          "link": "https://www.jamf.com/blog/what-the-canvas-breach-tells-us-about-the-state-of-education-security/",
+          "publishedOn": "2026-05-08T21:22:00.000Z",
+          "wordCount": 2271,
+          "title": "What the Canvas breach tells us about the state of education security",
+          "imageUrl": "https://media.jamf.com/images/news/2026/what-the-canvas-breach-tells-k-12-about-the-state-of-education-security.webp?h=500&q=80&w=800"
+        },
         {
           "id": "https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/",
           "author": null,
@@ -16294,16 +16267,6 @@
           "wordCount": 2757,
           "title": "MacBook Neo and Apple Business: expanding the entry point for Mac in the enterprise",
           "imageUrl": "https://media.jamf.com/images/news/2026/macbook-neo-enterprise.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/predator-spyware-ios-kernel-exploitation-engine/",
-          "author": null,
-          "description": "Commercial spyware defeats Apple's pointer authentication and achieves kernel memory access. Jamf Threat Labs investigates.",
-          "link": "https://www.jamf.com/blog/predator-spyware-ios-kernel-exploitation-engine/",
-          "publishedOn": "2026-04-08T19:44:00.000Z",
-          "wordCount": 3805,
-          "title": "Inside Predator’s kernel engine",
-          "imageUrl": "https://media.jamf.com/images/news/2026/jtl-predator-kernel.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16379,6 +16342,51 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/ai-threat-readiness-framework",
+          "author": "Alon Schindel",
+          "description": "AI models now find and exploit zero-days autonomously. This 4-pillar framework accelerates patching, analysis, and threat response.",
+          "link": "https://www.wiz.io/blog/ai-threat-readiness-framework",
+          "publishedOn": "2026-05-08T18:42:17.000Z",
+          "wordCount": 20076,
+          "title": "A Framework for AI Threat Readiness",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1778259316-mythos-2x-100.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1778259316-mythos-2x-100.jpg"
+        },
+        {
+          "id": "https://www.wiz.io/blog/introducing-wiz-akamai-integration",
+          "author": "Mike McGuire",
+          "description": "Akamai edge configurations are now visible on the Wiz Security Graph, giving teams a single understanding of risk from edge to runtime",
+          "link": "https://www.wiz.io/blog/introducing-wiz-akamai-integration",
+          "publishedOn": "2026-05-08T12:00:02.000Z",
+          "wordCount": 16025,
+          "title": "See and Secure Everything at the Edge with Wiz and Akamai",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1777993101-akami-2x-100.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1777993101-akami-2x-100.jpg"
+        },
+        {
+          "id": "https://www.wiz.io/blog/dirty-frag-linux-kernel-local-privilege-escalation-via-esp-and-rxrpc",
+          "author": "Merav Bar",
+          "description": "Unpatched kernel flaw chain (CVE-2026-43284, CVE-2026-43500) enables root escalation on major Linux distributions.",
+          "link": "https://www.wiz.io/blog/dirty-frag-linux-kernel-local-privilege-escalation-via-esp-and-rxrpc",
+          "publishedOn": "2026-05-08T08:57:17.000Z",
+          "wordCount": 15174,
+          "title": "Dirty Frag: Linux Kernel Local Privilege Escalation via ESP and RxRPC",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1778236280-image-19.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1778236280-image-19.png"
+        },
         {
           "id": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
           "author": "Bandhna Bedi",
@@ -16828,36 +16836,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1775834079-ai-y2k-copy-3-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/cloud-threat-retrospective-2026",
-          "author": null,
-          "description": "Insights from public incidents, cloud telemetry, and investigations into how cloud risk evolved in 2025",
-          "link": "https://www.wiz.io/blog/cloud-threat-retrospective-2026",
-          "publishedOn": "2026-04-09T13:00:02.000Z",
-          "wordCount": 15235,
-          "title": "Cloud Threats Retrospective 2026: What AI Changed (and What It Didn’t)",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1775576616-blog_cover_open_graph.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1775576616-blog_cover_open_graph.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/introducing-wiz-vercel-integration",
-          "author": null,
-          "description": "Giving developers and security teams a shared view of application risk as it evolves.",
-          "link": "https://www.wiz.io/blog/introducing-wiz-vercel-integration",
-          "publishedOn": "2026-04-09T12:00:03.000Z",
-          "wordCount": 15656,
-          "title": "Bringing Security Visibility to Vercel with Wiz",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1775676481-wiz_vercel.gif",
-            "length": "0",
-            "type": "image/gif"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1775676481-wiz_vercel.gif"
         }
       ]
     },
