@@ -119,6 +119,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "the-beast-needs-a-cage-whats-next-for-appsec-post-mythos",
+          "author": null,
+          "description": "Now that the dust has settled on Mythos dropping, there is space for more considered reflection on the direction of travel. Mythos wasn't a surprise; it's another data point on a trajectory that's bee",
+          "link": "https://portswigger.net/blog/the-beast-needs-a-cage-whats-next-for-appsec-post-mythos",
+          "publishedOn": "2026-05-12T14:18:47.000Z",
+          "wordCount": 2550,
+          "title": "The beast needs a cage: What's next for AppSec post-Mythos",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
+        {
           "id": "3-ways-custom-scan-checks-turn-practitioner-knowledge-into-scalable-automation",
           "author": null,
           "description": "Senior pentesters have a deeply refined intuition about what is vulnerable in an environment. The problem? That expertise is often siloed with an individual and trapped in their notes or Python scripts.",
@@ -340,6 +350,28 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a035a738ba7e427f52e0bc0",
+          "author": "Dustin Childs",
+          "description": "I’m currently in Berlin helping set up for Pwn2Own Berlin, but that doesn’t stop Patch Tuesday from coming, and it’s another big one. At least nothing is listed as being in the wild – for now. Take a break from your regularly scheduled activities and let’s take a look at the latest security patches from Adobe and Microsoft. Due to technical difficulties, there will not be a video companion for this month.\nAdobe Patches for May 2026\nFor May, Adobe released 10 bulletins addressing 52 unique CVEs in Adobe Commerce, After Effects, Adobe Connect, Illustrator, Media Encoder, Premiere Pro, Substance 3D Painter, Substance 3D Sampler, Content Authenticity SDK, and the Adobe Substance 3D Designer. Here’s this month’s overview table:\nBulletin ID\n    Product\n    CVE Count\n    Highest Severity\n    High…",
+          "link": "https://www.thezdi.com/blog/2026/5/12/the-may-2026-security-update-review",
+          "publishedOn": "2026-05-12T18:38:43.000Z",
+          "wordCount": null,
+          "title": "The May 2026 Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a0315388b297910e94dfde2",
+          "author": "Dustin Childs",
+          "description": "We’ve received some feedback from those who read the Patch Blog that they would like something similar for macOS updates. Unfortunately, Apple doesn’t schedule these for a particular day, but we can provide our thoughts and analysis on the days they do release their latest patches. \nFor May 2026, Apple released 82 unique CVEs across the three macOS versions: 79 for macOS Tahoe 26.5, 45 for macOS Sequoia 15.7.7, and 42 for macOS Sonoma 14.8.7. Since Apple doesn’t provide CVSS scores or other severity information, we’re left to speculate on which of these bugs is the most severe. However, there are a couple that stand out.\n-              CVE-2026-28819 (Wi-Fi) stands out as the strongest candidate for the most severe as it states, “An app may be able to execute arbitrary code with kernel pri…",
+          "link": "https://www.thezdi.com/blog/2026/5/12/the-apple-macos-security-update-review",
+          "publishedOn": "2026-05-12T12:21:51.000Z",
+          "wordCount": null,
+          "title": "The Apple macOS Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:69e93cc3fd53604cb3167c32",
           "author": "TrendAI Research Team",
@@ -14019,6 +14051,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./",
+          "author": null,
+          "description": "Go’s native fuzzing is useful, but it stands far behind state-of-the-art tooling that the Rust, C, and C++ ecosystems offer with LibAFL and AFL++. Path constraints are hard to solve. Structured inputs usually need handmade parsing. It doesn’t even detect several common bug classes, such as integer overflows, goroutine leaks, data races, and execution timeouts. So to make it better, we built gosentry, a fuzzing-oriented fork of the Go toolchain that keeps the standard testing.F workflow while using a stronger fuzzing stack underneath to tackle those issues.\nWith gosentry, go test -fuzz uses LibAFL by default. It can fuzz structs natively, run grammar-based fuzzing with Nautilus, detect bug classes that it couldn’t detect before, and create a fuzzing campaign coverage report in one command.\n…",
+          "link": "https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./",
+          "publishedOn": "2026-05-12T11:00:00.000Z",
+          "wordCount": 1365,
+          "title": "Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
           "author": null,
           "description": "We recently added a C/C++ security checklist to the Testing Handbook and challenged readers to spot the bugs in two code samples: a deceptively simple Linux ping program and a Windows driver registry handler. If you found the inet_ntoa global buffer gotcha or the missing RTL_QUERY_REGISTRY_TYPECHECK flag, nice work. If not, here’s a full walkthrough of both challenges, plus a deep dive into how the Windows registry type confusion escalates from a local denial of service to a kernel write primitive.\nSince we first released the new C/C++ security checklist, we also developed a new Claude skill, c-review. It turns the checklist into bug-finding prompts that an LLM can run against a codebase. It’s also platform and threat-model aware. Run these commands to install the skill:\nThe Linux ping pro…",
@@ -14148,6 +14190,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1610258",
+          "author": "IT Experts",
+          "description": "Microsoft Discovery is a cloud-based enterprise platform that uses agentic AI — software that can plan and independently execute multi-step research tasks without constant human input — to accelerate research and development (R&D). Announced at Microsoft Build 2025 and now in expanded preview as of April 2026, it combines specialized AI agents, a graph-based knowledge engine, and high-performance computing (HPC — large-scale cloud server clusters for compute-intensive simulations) on Azure. The platform targets organizations in chemistry, pharmaceuticals, materials science, semiconductor design, and general engineering. You interact with it through a conversational interface orchestrated by Microsoft Copilot. General availability has not been announced.\nSource",
+          "link": "https://4sysops.com/archives/what-is-microsoft-discovery/",
+          "publishedOn": "2026-05-12T20:25:54.000Z",
+          "wordCount": null,
+          "title": "What is Microsoft Discovery?",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1610695",
           "author": "IT Experts",
@@ -14427,16 +14479,6 @@
           "wordCount": null,
           "title": "Microsoft Entra SCIM 2.0: Now with bidirectional provisioning",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1608496",
-          "author": "IT Experts",
-          "description": "Microsoft's Conditional Access Optimization Agent uses AI to continuously scan your Microsoft Entra ID environment for policy gaps and recommend remediations. It requires a Microsoft Entra ID P1 license and a Microsoft Security Copilot subscription. Several new features are in public preview, including context-aware recommendations, deep gap analysis across all policies, and phased policy rollouts. This article explains what Conditional Access policies are, how the agent works, what you need to run it, and where its limitations lie.\nSource",
-          "link": "https://4sysops.com/archives/entra-id-conditional-access-optimization-agent-ai-driven-policy-gap-detection/",
-          "publishedOn": "2026-04-13T13:40:32.000Z",
-          "wordCount": null,
-          "title": "Entra ID Conditional Access Optimization Agent: AI-driven policy gap detection",
-          "imageUrl": null
         }
       ]
     },
@@ -14701,6 +14743,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/introducing-joro-using-ai-build-security-tooling",
+          "author": null,
+          "description": "Bishop Fox is releasing Joro, a collaborative web exploitation framework built almost entirely with AI. From intercepting proxy to C2 integration, this post covers how it was built, what it does, and what AI-assisted security tool development actually looks like in practice.",
+          "link": "https://bishopfox.com/blog/introducing-joro-using-ai-build-security-tooling",
+          "publishedOn": "2026-05-12T13:00:00.000Z",
+          "wordCount": 2621,
+          "title": "Introducing Joro: Using AI to Build Security Tooling",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Introducing-Joro-Using-AI-Build-Security-Tooling.png?mtime=1778535095"
+        },
         {
           "id": "https://bishopfox.com/blog/otto-support-confused-deputy",
           "author": null,
@@ -16103,6 +16155,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/jamf-okta-businesses-at-work-2026/",
+          "author": null,
+          "description": "Jamf earns a top 15 ranking and leads retail growth in Okta's 2026 report, a powerful validation of Apple security's role in the enterprise.",
+          "link": "https://www.jamf.com/blog/jamf-okta-businesses-at-work-2026/",
+          "publishedOn": "2026-05-12T16:54:00.000Z",
+          "wordCount": 1951,
+          "title": "Jamf spotlighted in Okta Businesses at Work 2026 Report",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jamf-spotlighted-in-okta-businesses-at-work-2026-whitepaper.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/k-12-web-filtering-that-travels-with-devices/",
           "author": null,
           "description": "In-network filtering stops securing online activity the moment students leave campus, but Jamf Safe Internet delivers consistent content filtering everywhere they go.",
@@ -16326,6 +16388,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/introducing-audit-history",
+          "author": "Guy Silberman",
+          "description": "Wiz Audit History is now GA, providing a continuous, cross-cloud timeline of changes to resource configurations and findings to accelerate incident response and simplify compliance.",
+          "link": "https://www.wiz.io/blog/introducing-audit-history",
+          "publishedOn": "2026-05-12T13:24:56.000Z",
+          "wordCount": 15560,
+          "title": "Introducing Wiz Audit History: Track Every Change Across your Environment",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1778576189-audit-history-3x-100.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1778576189-audit-history-3x-100.jpg"
+        },
+        {
+          "id": "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+          "author": "Rami McCarthy",
+          "description": "Detect and mitigate malicious npm packages linked to the latest Mini Shai-Hulud supply chain campaign targeting high-value developer tooling.",
+          "link": "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+          "publishedOn": "2026-05-12T01:38:56.000Z",
+          "wordCount": 17172,
+          "title": "Mini Shai-Hulud Strikes Again: TanStack + more npm Packages Compromised",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1778542566-tanstack.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1778542566-tanstack.png"
+        },
         {
           "id": "https://www.wiz.io/blog/reducing-risk-through-service-ownership",
           "author": "Kelsey Nelson",
