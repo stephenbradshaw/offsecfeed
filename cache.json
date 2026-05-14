@@ -94,16 +94,6 @@
           "wordCount": 3635,
           "title": "What’s New in the BloodHound Query Library: BYOL, OpenGraph, Multi-Server, and More",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/Screenshot-2026-04-14-at-12.47.45-PM.png"
-        },
-        {
-          "id": "https://specterops.io/?p=25721",
-          "author": "Justin Kohler",
-          "description": "Two weeks ago, we announced the new BloodHound Enterprise with OpenGraph extensions to extend attack path management to environments like Okta, GitHub, and Jamf. Along with this announcement, I’m pleased to share the release of BloodHound 9.0.  Attack paths move through SaaS apps, cloud platforms, endpoints, and identity providers; wherever relationships create opportunity. Attackers have […]\nThe post BloodHound 9.0 — Product Updates appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/04/13/bloodhound-9-0-product-updates/",
-          "publishedOn": "2026-04-13T19:00:00.000Z",
-          "wordCount": 3684,
-          "title": "BloodHound 9.0 — Product Updates",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/BH9.0_BlogGraphic.jpg"
         }
       ]
     },
@@ -170,7 +160,18 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://projectzero.google/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+          "author": null,
+          "description": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it was patched in January 2026. While we had an exploit chain for the Pixel 9, we wanted to see if it was possible to write a similar exploit chain for Pixel 10. Updating the Dolby Exploit Altering our exploit for CVE-2025-54957 was fairly straightforward. The majority of needed changes involved updating offsets calculated for the specific version of the library we targeted on the Pixel 9 to similar offsets in the library for Pixel 10. The only challenge (outside of wishing we’d better documented which syncframes contained offsets) was that the Pixel 10 uses RET PAC in the place of -fstack-protector, which meant that __stack_chk_fail wasn’t available to be overwritten by code. After a bit of trial and error, we used dap_cpdp_init, initialization code that can be overwritten without causing functional problems, as it is called once when the decoder is initialized and never again.",
+          "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+          "publishedOn": "2026-05-13T07:00:00.000Z",
+          "wordCount": 1153,
+          "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
+          "imageUrl": "https://projectzero.google/images/preview_image.png"
+        }
+      ]
     },
     {
       "title": "Carnal0wnage Blog",
@@ -350,6 +351,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a01e59d63fd433de7fd480f",
+          "author": "Dustin Childs",
+          "description": "Willkommen! (Welcome!) Pwn2Own Berlin 2026 has arrived at OffensiveCon, and the world’s top security researchers are ready. This year’s enterprise-focused competition features AI Databases, Coding Agents, Local Inferences, and a separate category for NVIDIA products.\nEarlier today, we held the random draw to determine attempt order. Below is the official schedule. All times are Berlin local time (CET) and may change as the competition progresses. Check back for live updates.\nIn case you missed it, you can watch the draw here. \n\n        \n        \n            \n          \n        \n        \n      \n    \n  \n\nJump to: \n\nDay One\nDay Two\nDay Three\n\nDAY ONE\nThursday, May 14 - 1030\nchompie of IBM X-Force Offensive Research (XOR) targeting NV Container Toolkit in the NVIDIA category for a total of $50…",
+          "link": "https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-the-full-schedule",
+          "publishedOn": "2026-05-13T16:23:07.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Berlin 2026: The Full Schedule",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a035a738ba7e427f52e0bc0",
           "author": "Dustin Childs",
@@ -13945,6 +13957,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=12611",
+          "author": "Michelle Rhodes",
+          "description": "TL;DR: Single-page applications ship their entire frontend codebase to every visitor, including unauthenticated ones. Even a login page with no visible functionality delivers JavaScript bundles containing route definitions, API endpoint URLs, authentication logic, data models, and sometimes hardcoded secrets. As part of Guard’s continuous penetration testing, we use AI-assisted tooling to extract this information and […]\nThe post Your Login Page Is Lying: What AI Agents Find When They Read Your Frontend appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/spa-frontend-security/",
+          "publishedOn": "2026-05-13T17:18:10.000Z",
+          "wordCount": 4554,
+          "title": "Your Login Page Is Lying: What AI Agents Find When They Read Your Frontend",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/05/praetorian-static-16-9-1024x572.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=12030",
           "author": "Praetorian",
           "description": "When 500,000 Findings Hide 14 Real Threats Modern enterprises ingest vulnerability data from dozens of sources: endpoint detection and response platforms, vulnerability scanners, cloud security posture tools, container image scanners. A large organization can easily accumulate hundreds of thousands of individual findings. The standard response is to sort by CVSS score, filter for criticals, and […]\nThe post 500,000 Vulnerabilities, 14 That Matter: How Exploit Chain Analysis Cuts Through the Noise appeared first on Praetorian.",
@@ -14190,6 +14212,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1610885",
+          "author": "IT Experts",
+          "description": "Microsoft is introducing Cloud-Initiated Driver Recovery, a mechanism that automatically rolls back a faulty driver on your devices via Windows Update, without requiring any action from you or your hardware vendor. The feature is aimed at closing a gap where a bad driver could linger on devices for weeks before a fixed version became available. It works through the existing Windows Update pipeline and requires no new software on the client side. The feature is currently in a manual testing phase and is targeted for full automation in September 2026.\nSource",
+          "link": "https://4sysops.com/archives/cloud-initiated-driver-recovery-automatic-windows-update-rollback/",
+          "publishedOn": "2026-05-13T19:39:25.000Z",
+          "wordCount": null,
+          "title": "Cloud-Initiated Driver Recovery: automatic Windows Update rollback",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1610817",
+          "author": "IT Experts",
+          "description": "Microsoft announced two significant updates: Agent 365 reached general availability as a management tool for AI agents in the Microsoft 365 admin center, and Copilot Cowork — a feature that runs multi-step tasks on your behalf in the background — gained mobile support, reusable task templates called skills, and new third-party integrations. Agent 365 is licensed separately per user at $15/month or is included with Microsoft 365 E7; Copilot Cowork requires a Microsoft 365 Copilot license and is currently limited to participants in the Frontier early-access program.\nSource",
+          "link": "https://4sysops.com/archives/agent-365-ga-and-copilot-cowork-new-m365-ai-agent-controls/",
+          "publishedOn": "2026-05-13T19:38:59.000Z",
+          "wordCount": null,
+          "title": "Agent 365 GA and Copilot Cowork: new M365 AI agent controls",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1610258",
           "author": "IT Experts",
@@ -14469,16 +14511,6 @@
           "wordCount": null,
           "title": "Microsoft 365 Copilot security: Purview DLP, oversharing controls, and dashboard analytics",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1608841",
-          "author": "IT Experts",
-          "description": "Microsoft introduced new SCIM 2.0 APIs for Microsoft Entra. The APIs now support bidirectional provisioning, which allows external identity systems to provision users and groups directly into Entra. SCIM (System for Cross-domain Identity Management) is an open internet standard that defines a common HTTP-based protocol for managing user accounts across different systems. Previously, Entra could only push user data to other applications via SCIM. Now, it also accepts incoming SCIM requests. The APIs follow a consumption-based pricing model, require an Azure subscription, and are generally available in the Microsoft public cloud.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-entra-scim-20-now-with-bidirectional-provisioning/",
-          "publishedOn": "2026-04-14T12:53:57.000Z",
-          "wordCount": null,
-          "title": "Microsoft Entra SCIM 2.0: Now with bidirectional provisioning",
-          "imageUrl": null
         }
       ]
     },
@@ -14744,6 +14776,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/otto-support-supply-chain-risks-mcp-servers",
+          "author": null,
+          "description": "What if the MCP server itself is the attacker? Supply chain risk in MCP tools is structural, and the postmark-mcp and ClawHub compromises made it concrete. This post pairs those case studies with otto-support's selfpwn module to show exactly what a hostile MCP server can access the moment it runs.",
+          "link": "https://bishopfox.com/blog/otto-support-supply-chain-risks-mcp-servers",
+          "publishedOn": "2026-05-13T13:00:00.000Z",
+          "wordCount": 2980,
+          "title": "Otto-Support: Supply Chain Risks in MCP Servers",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Otto-Support-Supply-Chain-Risks-MCP-Servers.png?mtime=1778710513"
+        },
+        {
           "id": "https://bishopfox.com/blog/introducing-joro-using-ai-build-security-tooling",
           "author": null,
           "description": "Bishop Fox is releasing Joro, a collaborative web exploitation framework built almost entirely with AI. From intercepting proxy to C2 integration, this post covers how it was built, what it does, and what AI-assisted security tool development actually looks like in practice.",
@@ -14852,16 +14894,6 @@
           "wordCount": 4125,
           "title": "Taking Maestro in Stride",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/bfx25_Taking-Maestro-in-Stride_Blog.png"
-        },
-        {
-          "id": "https://bishopfox.com/blog/anthropics-claude-mythos-preview-the-ai-cybersecurity-inflection-point",
-          "author": null,
-          "description": "AI just crossed a threshold. Anthropic’s Claude Mythos can discover and chain vulnerabilities at scale—faster than teams can remediate. What does this mean for your security program, your providers, and your ability to keep up before attackers do?",
-          "link": "https://bishopfox.com/blog/anthropics-claude-mythos-preview-the-ai-cybersecurity-inflection-point",
-          "publishedOn": "2026-04-14T13:00:00.000Z",
-          "wordCount": 2996,
-          "title": "Anthropic’s Claude Mythos Preview: The AI Cybersecurity Inflection Point",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/bfx25_Anthropic’s-Claude-Mythos-Preview.png"
         }
       ]
     },
@@ -15841,6 +15873,16 @@
       "siteUrl": "https://redcanary.com/blog/",
       "articles": [
         {
+          "id": "https://redcanary.com/?p=43690",
+          "author": "Thomas Gardner",
+          "description": "Used primarily for resource management, cgroups unlock valuable telemetry for investigating malicious processes on Linux",
+          "link": "https://redcanary.com/blog/threat-detection/linux-cgroups/",
+          "publishedOn": "2026-05-13T13:01:43.000Z",
+          "wordCount": 10494,
+          "title": "Investigating server compromises with cgroups: A Linux DFIR primer",
+          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/05/1200x628_LinuxDFIR_RedCanary.jpg"
+        },
+        {
           "id": "https://redcanary.com/?p=43673",
           "author": "Laura Brosnan",
           "description": "Clean up your browser by removing unneeded extensions, clearing cached data, scanning for info-stealing malware, and more.",
@@ -15889,16 +15931,6 @@
           "wordCount": 8278,
           "title": "Identity, browsers, and node.js: Everything you missed in the Threat Detection Report miniseries",
           "imageUrl": "https://redcanary.com/wp-content/uploads/2026/04/1200x628-WatchNow.jpg"
-        },
-        {
-          "id": "https://redcanary.com/?p=43615",
-          "author": "Dylan Solomon",
-          "description": "A new integration gives teams an easy way to update Zscaler Internet Access (ZIA) network policies using Red Canary response actions.",
-          "link": "https://redcanary.com/blog/product-updates/zia-response-actions/",
-          "publishedOn": "2026-04-14T12:55:58.000Z",
-          "wordCount": 8131,
-          "title": "New: Use response actions to update Zscaler policies and block threats",
-          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/04/1200x628_ResponseActions-Blog_RedCanary.jpg"
         }
       ]
     },
@@ -16131,21 +16163,6 @@
             "type": "image/webp"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/llm-reversing-vs-llm-obfuscation/llm-reversing-vs-llm-obfuscation.webp"
-        },
-        {
-          "id": "phantom-in-the-vault",
-          "author": null,
-          "description": "Elastic Security Labs uncovers a novel social engineering campaign that abuses the popular note-taking application, Obsidian's legitimate community plugin ecosystem. The campaign, which we track as REF6598, targets individuals in the financial and cryptocurrency sectors through elaborate social engineering on LinkedIn and Telegram.",
-          "link": "https://www.elastic.co/security-labs/phantom-in-the-vault",
-          "publishedOn": "2026-04-14T00:00:00.000Z",
-          "wordCount": 12849,
-          "title": "Phantom in the vault: Obsidian abused to deliver PhantomPulse RAT",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/phantom-in-the-vault/phantom-in-the-vault.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/phantom-in-the-vault/phantom-in-the-vault.webp"
         }
       ]
     },
@@ -16163,6 +16180,16 @@
           "wordCount": 1951,
           "title": "Jamf spotlighted in Okta Businesses at Work 2026 Report",
           "imageUrl": "https://media.jamf.com/images/news/2026/jamf-spotlighted-in-okta-businesses-at-work-2026-whitepaper.webp?h=400&q=80&w=700"
+        },
+        {
+          "id": "https://www.jamf.com/blog/jamf-nation-live-2026-recap/",
+          "author": null,
+          "description": "Jamf Nation Live (JNL) is a great way to connect with other admins and Jamfs alike. Did you miss it this year? Get a recap of this year's JNLs.",
+          "link": "https://www.jamf.com/blog/jamf-nation-live-2026-recap/",
+          "publishedOn": "2026-05-12T15:07:00.000Z",
+          "wordCount": 1573,
+          "title": "Jamf Nation Live 2026 recap",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jnl-26-recap.webp?h=400&q=80&w=700"
         },
         {
           "id": "https://www.jamf.com/blog/k-12-web-filtering-that-travels-with-devices/",
@@ -16283,36 +16310,6 @@
           "wordCount": 2761,
           "title": "Automation that saves IT time: what small teams should prioritize",
           "imageUrl": "https://media.jamf.com/pexels-pavel-danilyuk-8439069.jpg?h=1800&q=80&w=2600"
-        },
-        {
-          "id": "https://www.jamf.com/blog/platform-authentication-across-jamf/",
-          "author": null,
-          "description": "When we introduced blueprints to Jamf Pro and Jamf School, we introduced more than a feature. It's Jamf's approach to delivering declarative device management (DDM) capabilities — and how we'll continue to ship new ones as Apple's framework evolves.",
-          "link": "https://www.jamf.com/blog/platform-authentication-across-jamf/",
-          "publishedOn": "2026-04-14T12:13:00.000Z",
-          "wordCount": 3347,
-          "title": "Platform Authentication Across Jamf: A Year of Progress",
-          "imageUrl": "https://media.jamf.com/images/news/2026/GettyImages-2216302894.jpg?h=700&q=80&w=1200"
-        },
-        {
-          "id": "https://www.jamf.com/blog/maximizing-employee-productivity-on-apple/",
-          "author": null,
-          "description": "It's possible to improve employee experience and productivity without compromising control. Learn how to reduce downtime, empower users and keep devices secure and compliant.",
-          "link": "https://www.jamf.com/blog/maximizing-employee-productivity-on-apple/",
-          "publishedOn": "2026-04-14T00:43:00.000Z",
-          "wordCount": 2825,
-          "title": "Maximizing employee productivity on Apple devices",
-          "imageUrl": "https://media.jamf.com/images/news/2026/maximizing-employee-productivity-on-apple.webp?h=500&q=80&w=800"
-        },
-        {
-          "id": "https://www.jamf.com/blog/macbook-neo-enterprise-mac-business-jamf/",
-          "author": null,
-          "description": "MacBook Neo lowers the cost barrier to Mac adoption, creating a clear path from first device to enterprise scale. Learn how to start your Mac deployment with Apple tools and discover how to grow with Jamf.",
-          "link": "https://www.jamf.com/blog/macbook-neo-enterprise-mac-business-jamf/",
-          "publishedOn": "2026-04-13T14:53:00.000Z",
-          "wordCount": 2757,
-          "title": "MacBook Neo and Apple Business: expanding the entry point for Mac in the enterprise",
-          "imageUrl": "https://media.jamf.com/images/news/2026/macbook-neo-enterprise.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16388,6 +16385,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/wiz-hackerone-integration",
+          "author": "Rom Gendler",
+          "description": "See proven, exploitable risk in the context of your full cloud environment",
+          "link": "https://www.wiz.io/blog/wiz-hackerone-integration",
+          "publishedOn": "2026-05-13T13:00:02.000Z",
+          "wordCount": 15539,
+          "title": "Beyond Findings: Connecting Exploitable Risk to Cloud Context with Wiz and HackerOne",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1777988929-hackerone-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1777988929-hackerone-2x.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
+          "author": "Merav Bar",
+          "description": "A new page-cache corruption vulnerability in the Dirty Frag family enables unprivileged local attackers to achieve root",
+          "link": "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
+          "publishedOn": "2026-05-13T12:13:44.000Z",
+          "wordCount": 14937,
+          "title": "Fragnesia: Linux Kernel Local Privilege Escalation via ESP-in-TCP",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1778670009-fragnesia.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1778670009-fragnesia.png"
+        },
         {
           "id": "https://www.wiz.io/blog/introducing-audit-history",
           "author": "Guy Silberman",
@@ -16867,51 +16894,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1746194378-github-actions-security.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-cloudflare-ai-security-integration",
-          "author": null,
-          "description": "Gain a unified view of AI application endpoints and DNS exposure across your environment, including which are protected by Cloudflare and which need to be secured",
-          "link": "https://www.wiz.io/blog/wiz-cloudflare-ai-security-integration",
-          "publishedOn": "2026-04-14T13:00:02.000Z",
-          "wordCount": 16170,
-          "title": "Securing the AI Edge: Wiz and Cloudflare Integrate for End-to-End AI Protection",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1776093943-cloudflare-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1776093943-cloudflare-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/introducing-shadow-data-detection-in-wiz",
-          "author": null,
-          "description": "Identify stale, duplicated, and inefficient data — and take action to shrink both your storage spend and exposure surface.",
-          "link": "https://www.wiz.io/blog/introducing-shadow-data-detection-in-wiz",
-          "publishedOn": "2026-04-14T12:00:02.000Z",
-          "wordCount": 15809,
-          "title": "Introducing Shadow Data Detection: Reduce Cost and Risk Across Your Cloud",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1776142318-shadow-data-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1776142318-shadow-data-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/github-actions-security-threat-model-and-defenses",
-          "author": null,
-          "description": "Understanding and defending your GitHub Actions - from threat model to security controls.",
-          "link": "https://www.wiz.io/blog/github-actions-security-threat-model-and-defenses",
-          "publishedOn": "2026-04-14T11:33:05.000Z",
-          "wordCount": 18194,
-          "title": "Primer on GitHub Actions Security - Threat Model, Attacks and Defenses (Part 1/2)",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1776096234-github-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1776096234-github-2x.png"
         }
       ]
     },
