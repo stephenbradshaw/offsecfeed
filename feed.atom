@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-19T02:14:28.724Z</updated>
+    <updated>2026-05-20T02:13:20.500Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Windows Autopatch Secure Boot status report in Intune admin center]]></title>
+        <id>https://4sysops.com/?p=1611243</id>
+        <link href="https://4sysops.com/archives/new-windows-autopatch-secure-boot-status-report-in-intune-admin-center/"/>
+        <updated>2026-05-19T19:46:13.000Z</updated>
+        <summary type="html"><![CDATA[Windows Autopatch in the Intune admin center now includes an updated Secure Boot status report that provides device-level visibility into certificate readiness ahead of the 2026 expiry deadline. The report shows which devices have Secure Boot enabled, whether their certificates are up to date, and whether automatic or manual deployment applies. New columns for trust configuration, confidence level, and alerts help you make targeted decisions instead of broad deployments.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 SecureBoot folder: PowerShell scripts explained]]></title>
+        <id>https://4sysops.com/?p=1611216</id>
+        <link href="https://4sysops.com/archives/windows-11-secureboot-folder-powershell-scripts-explained/"/>
+        <updated>2026-05-19T19:44:37.000Z</updated>
+        <summary type="html"><![CDATA[The May 2026 cumulative update KB5089549 added a new C:\Windows\SecureBoot\ExampleRolloutScripts folder containing seven PowerShell scripts. These scripts are part of Microsoft's sample toolkit for managing Secure Boot certificate migration across enterprise environments. This article explains what each script does, how to run it, and its limitations.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[durabletask: TeamPCP's Latest PyPi Compromise]]></title>
+        <id>https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack</id>
+        <link href="https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack"/>
+        <updated>2026-05-19T17:30:20.000Z</updated>
+        <summary type="html"><![CDATA[Discover the latest on malicious versions of the pypi package durabletask, matching TeamPCP tactics.]]></summary>
+        <author>
+            <name>Rami McCarthy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacBook Neo in K-12]]></title>
+        <id>https://www.jamf.com/blog/macbook-neo-in-k-12/</id>
+        <link href="https://www.jamf.com/blog/macbook-neo-in-k-12/"/>
+        <updated>2026-05-19T13:38:00.000Z</updated>
+        <summary type="html"><![CDATA[MacBook Neo brings powerful, affordable Mac computing to K-12 classrooms — and with Jamf, deploying and managing it alongside iPad has never been easier.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Runtime Threat Detection for Google Cloud Run]]></title>
+        <id>https://www.wiz.io/blog/introducing-runtime-threat-detection-for-google-cloud-run</id>
+        <link href="https://www.wiz.io/blog/introducing-runtime-threat-detection-for-google-cloud-run"/>
+        <updated>2026-05-19T13:17:41.000Z</updated>
+        <summary type="html"><![CDATA[Wiz Runtime Sensor support for Google Cloud Run Containers is now generally available, giving teams real-time threat detection and response for their serverless container workloads.]]></summary>
+        <author>
+            <name>Shashank Golla</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Worm That Keeps on Digging: TeamPCP Hits @antv in Latest Wave]]></title>
+        <id>https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain</id>
+        <link href="https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain"/>
+        <updated>2026-05-19T08:29:30.000Z</updated>
+        <summary type="html"><![CDATA[Multi-ecosystem supply chain compromise by TeamPCP targets GitHub, NPM, and VSCode to steal credentials and establish persistence.]]></summary>
+        <author>
+            <name>Rami McCarthy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When Filenames Become Attack Surfaces: Weaponizing NASA's CFITSIO Extended Filename Syntax]]></title>
+        <id>https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html</id>
+        <link href="https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html"/>
+        <updated>2026-05-18T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This research was recently presented at BSides Luxembourg 2026. This blogpost documents our findings presented during the talk. The BSides slides are posted here. Today, we’re also releasing the Docker-based playground utilized for the demos so anyone interested can reproduce the findings locally: doyensec/cfitsio-efs-playground.
+In our previous post on CFITSIO, we wrote about the AI-assisted fuzzing pipeline and the memory corruption issues found in its Extended Filename Syntax (EFS). This was only half of the story. We kept thinking that even without memory issues, EFS seems like a pretty powerful and rather risky feature. The EFS page is full of very interesting use cases. To quote some of them (emphasis mine):
+‘rawfile.dat[i512,512]’: reads raw binary data array (a 512x512 short intege…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Automate Platform SSO setup during macOS enrollment with Microsoft Intune]]></title>
         <id>https://4sysops.com/?p=1611160</id>
@@ -2428,53 +2502,6 @@ Source]]></summary>
 Learn how to assess the risk in your environment and how to prevent the next attack.]]></summary>
         <author>
             <name>Wiz Blog | RSS feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wiz and Databricks: Adding Databricks to the Wiz Security Graph]]></title>
-        <id>https://www.wiz.io/blog/wiz-databricks-security-graph</id>
-        <link href="https://www.wiz.io/blog/wiz-databricks-security-graph"/>
-        <updated>2026-04-20T12:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Extending Wiz Visibility with the Databricks Data & AI Platform]]></summary>
-        <author>
-            <name>Wiz Blog | RSS feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Code to Pipeline: Wiz Code Now Secures Your Build Environment]]></title>
-        <id>https://www.wiz.io/blog/from-code-to-pipeline-wiz-code-now-secures-your-build-environment</id>
-        <link href="https://www.wiz.io/blog/from-code-to-pipeline-wiz-code-now-secures-your-build-environment"/>
-        <updated>2026-04-20T12:00:01.000Z</updated>
-        <summary type="html"><![CDATA[Threat actors have moved upstream, and while security teams have focused on the code developers write, the systems that build and deliver that code have remained a blind spot.]]></summary>
-        <author>
-            <name>Wiz Blog | RSS feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some notes on the security properties of the pipe_buffer kernel object]]></title>
-        <id>https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html</id>
-        <link href="https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html"/>
-        <updated>2026-04-20T10:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Many exploits of Linux kernel vulnerabilities use the pipe_buffer kernel object to build strong exploit primitives. When I was experimenting with my personal project kernel-hack-drill, I discovered some interesting properties of pipe_buffer, which may not be described in public articles (at least, I didn't find them). That's why I decided to write this short post and share my thoughts.]]></summary>
-        <author>
-            <name>Alexander Popov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CFITSIO Fuzzing: Memory Corruptions and a Codex-Assisted Pipeline]]></title>
-        <id>https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html</id>
-        <link href="https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html"/>
-        <updated>2026-04-19T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever wondered how those amazing space photos are taken? Are they exclusive to the big telescopes floating in space or can you take one from your backyard? What does it take to extract hydrogen colors out of a seemingly black sky?
-
- 
-Those are great questions, but you won’t learn it from here.
-Instead, I’ll show how I set up and performed fuzzing of the CFITSIO library which is how those space photos are usually processed. I’ll show how the bugs were triaged at scale, and how Codex was used to unblock the fuzzing and to develop the initial security fixes.
-Note: the work described in this blogpost used the GPT-5-Codex, which was the latest model I had access to at the time.
-FITS Format
-The Flexible Image Transport System (FITS) is a data standard created in the late 1970s by NASA, E…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
         </author>
     </entry>
     <entry>

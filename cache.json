@@ -390,18 +390,7 @@
       "title": "Alexander Popov",
       "feedUrl": "https://a13xp0p0v.github.io/feed.xml",
       "siteUrl": "https://a13xp0p0v.tech/",
-      "articles": [
-        {
-          "id": "https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html",
-          "author": null,
-          "description": "Many exploits of Linux kernel vulnerabilities use the pipe_buffer kernel object to build strong exploit primitives. When I was experimenting with my personal project kernel-hack-drill, I discovered some interesting properties of pipe_buffer, which may not be described in public articles (at least, I didn't find them). That's why I decided to write this short post and share my thoughts.",
-          "link": "https://a13xp0p0v.tech/2026/04/20/pipe-buffer-experiments.html",
-          "publishedOn": "2026-04-20T10:37:00.000Z",
-          "wordCount": null,
-          "title": "Some notes on the security properties of the pipe_buffer kernel object",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Grsecurity Blog RSS Feed",
@@ -13963,6 +13952,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html",
+          "author": null,
+          "description": "This research was recently presented at BSides Luxembourg 2026. This blogpost documents our findings presented during the talk. The BSides slides are posted here. Today, we’re also releasing the Docker-based playground utilized for the demos so anyone interested can reproduce the findings locally: doyensec/cfitsio-efs-playground.\nIn our previous post on CFITSIO, we wrote about the AI-assisted fuzzing pipeline and the memory corruption issues found in its Extended Filename Syntax (EFS). This was only half of the story. We kept thinking that even without memory issues, EFS seems like a pretty powerful and rather risky feature. The EFS page is full of very interesting use cases. To quote some of them (emphasis mine):\n‘rawfile.dat[i512,512]’: reads raw binary data array (a 512x512 short intege…",
+          "link": "https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html",
+          "publishedOn": "2026-05-18T22:00:00.000Z",
+          "wordCount": 3204,
+          "title": "When Filenames Become Attack Surfaces: Weaponizing NASA's CFITSIO Extended Filename Syntax",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso.html",
           "author": null,
           "description": "After a small detour, the CloudSecTidbits series is back with new episodes. We had the opportunity to present them at the first DEFCON in Singapore few days ago during our DemoLabs sessions. Meeting Singapore’s community was indeed amazing - thanks again for having us!\n\n\n\nFrom the Previous Episodes\nCloudSec Tidbits is a blogpost series showcasing interesting bugs found by Doyensec during cloud security testing activities.\nWe focus on vulnerabilities resulting from an insecure combination of web and cloud related technologies.\nEvery article includes an Infrastructure as Code (IaC) laboratory that can be easily deployed to experiment with the described vulnerability.\n\n\nTime to get ready and dive into a new tidbit.\nTidbit No. 4 - The Danger of Multi-SSO User Pools\nWhat is AWS Cognito? If you …",
@@ -13970,16 +13969,6 @@
           "publishedOn": "2026-05-04T22:00:00.000Z",
           "wordCount": 2554,
           "title": "The Danger of Multi-SSO AWS Cognito User Pools",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html",
-          "author": null,
-          "description": "Have you ever wondered how those amazing space photos are taken? Are they exclusive to the big telescopes floating in space or can you take one from your backyard? What does it take to extract hydrogen colors out of a seemingly black sky?\n\n \nThose are great questions, but you won’t learn it from here.\nInstead, I’ll show how I set up and performed fuzzing of the CFITSIO library which is how those space photos are usually processed. I’ll show how the bugs were triaged at scale, and how Codex was used to unblock the fuzzing and to develop the initial security fixes.\nNote: the work described in this blogpost used the GPT-5-Codex, which was the latest model I had access to at the time.\nFITS Format\nThe Flexible Image Transport System (FITS) is a data standard created in the late 1970s by NASA, E…",
-          "link": "https://blog.doyensec.com/2026/04/20/cfitsio-fuzzing.html",
-          "publishedOn": "2026-04-19T22:00:00.000Z",
-          "wordCount": 2395,
-          "title": "CFITSIO Fuzzing: Memory Corruptions and a Codex-Assisted Pipeline",
           "imageUrl": null
         }
       ]
@@ -14143,6 +14132,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1611243",
+          "author": "IT Experts",
+          "description": "Windows Autopatch in the Intune admin center now includes an updated Secure Boot status report that provides device-level visibility into certificate readiness ahead of the 2026 expiry deadline. The report shows which devices have Secure Boot enabled, whether their certificates are up to date, and whether automatic or manual deployment applies. New columns for trust configuration, confidence level, and alerts help you make targeted decisions instead of broad deployments.\nSource",
+          "link": "https://4sysops.com/archives/new-windows-autopatch-secure-boot-status-report-in-intune-admin-center/",
+          "publishedOn": "2026-05-19T19:46:13.000Z",
+          "wordCount": null,
+          "title": "New Windows Autopatch Secure Boot status report in Intune admin center",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1611216",
+          "author": "IT Experts",
+          "description": "The May 2026 cumulative update KB5089549 added a new C:\\Windows\\SecureBoot\\ExampleRolloutScripts folder containing seven PowerShell scripts. These scripts are part of Microsoft's sample toolkit for managing Secure Boot certificate migration across enterprise environments. This article explains what each script does, how to run it, and its limitations.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-secureboot-folder-powershell-scripts-explained/",
+          "publishedOn": "2026-05-19T19:44:37.000Z",
+          "wordCount": null,
+          "title": "Windows 11 SecureBoot folder: PowerShell scripts explained",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1611160",
           "author": "IT Experts",
@@ -16088,6 +16097,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/macbook-neo-in-k-12/",
+          "author": null,
+          "description": "MacBook Neo brings powerful, affordable Mac computing to K-12 classrooms — and with Jamf, deploying and managing it alongside iPad has never been easier.",
+          "link": "https://www.jamf.com/blog/macbook-neo-in-k-12/",
+          "publishedOn": "2026-05-19T13:38:00.000Z",
+          "wordCount": 1762,
+          "title": "MacBook Neo in K-12",
+          "imageUrl": "https://media.jamf.com/images/news/2026/macbook-neo-promo.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/jamf-okta-businesses-at-work-2026/",
           "author": null,
           "description": "Jamf earns a top 15 ranking and leads retail growth in Okta's 2026 report, a powerful validation of Apple security's role in the enterprise.",
@@ -16286,6 +16305,51 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack",
+          "author": "Rami McCarthy",
+          "description": "Discover the latest on malicious versions of the pypi package durabletask, matching TeamPCP tactics.",
+          "link": "https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack",
+          "publishedOn": "2026-05-19T17:30:20.000Z",
+          "wordCount": 15415,
+          "title": "durabletask: TeamPCP's Latest PyPi Compromise",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1779210111-threat-update-large-title_custom.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1779210111-threat-update-large-title_custom.jpeg"
+        },
+        {
+          "id": "https://www.wiz.io/blog/introducing-runtime-threat-detection-for-google-cloud-run",
+          "author": "Shashank Golla",
+          "description": "Wiz Runtime Sensor support for Google Cloud Run Containers is now generally available, giving teams real-time threat detection and response for their serverless container workloads.",
+          "link": "https://www.wiz.io/blog/introducing-runtime-threat-detection-for-google-cloud-run",
+          "publishedOn": "2026-05-19T13:17:41.000Z",
+          "wordCount": 16120,
+          "title": "Introducing Runtime Threat Detection for Google Cloud Run",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1779192896-gcr01-2x-8.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1779192896-gcr01-2x-8.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain",
+          "author": "Rami McCarthy",
+          "description": "Multi-ecosystem supply chain compromise by TeamPCP targets GitHub, NPM, and VSCode to steal credentials and establish persistence.",
+          "link": "https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain",
+          "publishedOn": "2026-05-19T08:29:30.000Z",
+          "wordCount": 16899,
+          "title": "The Worm That Keeps on Digging: TeamPCP Hits @antv in Latest Wave",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1779178134-threat-update-mini-worm_custom.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1779178134-threat-update-mini-worm_custom.jpeg"
+        },
         {
           "id": "https://www.wiz.io/blog/wiz-for-pqc-readiness",
           "author": "Addi Grinbaum",
@@ -16735,36 +16799,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1776693881-8.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-databricks-security-graph",
-          "author": null,
-          "description": "Extending Wiz Visibility with the Databricks Data & AI Platform",
-          "link": "https://www.wiz.io/blog/wiz-databricks-security-graph",
-          "publishedOn": "2026-04-20T12:00:16.000Z",
-          "wordCount": 16058,
-          "title": "Wiz and Databricks: Adding Databricks to the Wiz Security Graph",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1776685071-wiz-logo-3_1.gif",
-            "length": "0",
-            "type": "image/gif"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1776685071-wiz-logo-3_1.gif"
-        },
-        {
-          "id": "https://www.wiz.io/blog/from-code-to-pipeline-wiz-code-now-secures-your-build-environment",
-          "author": null,
-          "description": "Threat actors have moved upstream, and while security teams have focused on the code developers write, the systems that build and deliver that code have remained a blind spot.",
-          "link": "https://www.wiz.io/blog/from-code-to-pipeline-wiz-code-now-secures-your-build-environment",
-          "publishedOn": "2026-04-20T12:00:01.000Z",
-          "wordCount": 17535,
-          "title": "From Code to Pipeline: Wiz Code Now Secures Your Build Environment",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1776686029-ci-visibility-2x-100-1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1776686029-ci-visibility-2x-100-1.jpg"
         }
       ]
     },
