@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-20T02:13:20.500Z</updated>
+    <updated>2026-05-21T02:12:38.345Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Closing the gaps: How Jamf protects macOS and iOS with real-time threat prevention]]></title>
+        <id>https://www.jamf.com/blog/closing-the-gaps-real-time-threat-prevention-macos-ios/</id>
+        <link href="https://www.jamf.com/blog/closing-the-gaps-real-time-threat-prevention-macos-ios/"/>
+        <updated>2026-05-21T01:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Jamf uses native macOS and iOS threat prevention to close security gaps and prove compliance where PC-based tooling leaves Apple devices exposed.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Admin Insights for Windows 365: Monitoring Cloud PCs in Intune]]></title>
+        <id>https://4sysops.com/?p=1611297</id>
+        <link href="https://4sysops.com/archives/admin-insights-for-windows-365-monitoring-cloud-pcs-in-intune/"/>
+        <updated>2026-05-20T20:46:25.000Z</updated>
+        <summary type="html"><![CDATA[Admin Insights for Windows 365 is a feature, currently in public preview, that surfaces prioritized health and performance signals for your Cloud PCs directly in the Microsoft Intune admin center. Instead of hunting through separate reports, you see dynamically generated insight cards on a single overview page. The feature covers connectivity, provisioning, performance, and utilization issues. It requires Windows 365 Enterprise or Windows 365 Flex licensing and appropriate read permissions.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exchange attribute writeback for cloud-managed remote mailboxes in public preview]]></title>
+        <id>https://4sysops.com/?p=1611038</id>
+        <link href="https://4sysops.com/archives/exchange-attribute-writeback-for-cloud-managed-remote-mailboxes-in-public-preview/"/>
+        <updated>2026-05-20T20:45:53.000Z</updated>
+        <summary type="html"><![CDATA[In hybrid Exchange environments, organizations have long been forced to keep an on-premises Exchange Server running just to manage Exchange-related settings for mailboxes already hosted in Exchange Online. Microsoft has been addressing this with the Cloud-Managed Remote Mailboxes feature, and its latest addition — writeback — entered public preview on May 15, 2026. Writeback automatically pushes Exchange attribute changes made in Exchange Online back to your on-premises Active Directory, so internal line-of-business applications that read from AD stay in sync. This article explains what writeback does, what you need to configure it, and how it supports decommissioning your last on-premises Exchange Server.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Windows Autopatch Secure Boot status report in Intune admin center]]></title>
         <id>https://4sysops.com/?p=1611243</id>
@@ -2440,68 +2472,6 @@ The post The Vercel Breach Explains Why Identity Attack Path Management Can’t 
 The post AI can help in DFIR, but it cannot replace investigator judgement appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Closing the Security Gap in the Age of Agentic Coding]]></title>
-        <id>https://www.wiz.io/blog/securing-software-age-of-agentic-coding</id>
-        <link href="https://www.wiz.io/blog/securing-software-age-of-agentic-coding"/>
-        <updated>2026-04-21T12:57:16.000Z</updated>
-        <summary type="html"><![CDATA[AI agents are writing more and more code. Ensure it's secure. Learn how Wiz Code plugins and the Green Agent bring machine-speed remediation to your AI-IDE.]]></summary>
-        <author>
-            <name>Wiz Blog | RSS feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mapping Your API Ecosystem: Wiz Expands API Discovery with Apigee]]></title>
-        <id>https://www.wiz.io/blog/wiz-apigee-integration-for-api-discovery</id>
-        <link href="https://www.wiz.io/blog/wiz-apigee-integration-for-api-discovery"/>
-        <updated>2026-04-21T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[See your full Apigee architecture on the Wiz Security Graph,  from API gateways and environments to every endpoint and its authorization scheme.]]></summary>
-        <author>
-            <name>Wiz Blog | RSS feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Cost of Understanding: LLM-Driven Reverse Engineering vs Iterative LLM Obfuscation]]></title>
-        <id>llm-reversing-vs-llm-obfuscation</id>
-        <link href="https://www.elastic.co/security-labs/llm-reversing-vs-llm-obfuscation"/>
-        <updated>2026-04-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Security Labs explores the ongoing arms race between LLM-driven reverse engineering and obfuscation.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What are RDP plugins? Build your own dynamic virtual channel (DVC) plugin using Microsoft’s new sample repo]]></title>
-        <id>https://4sysops.com/?p=1608928</id>
-        <link href="https://4sysops.com/archives/what-are-rdp-plugins-build-your-own-dynamic-virtual-channel-dvc-plugin-using-microsofts-new-sample-repo/"/>
-        <updated>2026-04-20T22:07:52.000Z</updated>
-        <summary type="html"><![CDATA[Remote Desktop Protocol (RDP) has supported extensibility through virtual channels for decades, but the modern approach—dynamic virtual channels (DVCs)—is what you need today, especially in cloud environments like Azure Virtual Desktop and Windows 365. This article explains what DVCs are, how they differ from the older static model, how a plugin is structured and registered, and how to get started with Microsoft's newly released sample repository.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three lessons from DarkSword: inside a government-grade iPhone exploit kit]]></title>
-        <id>https://www.jamf.com/blog/darksword-ios-exploit-kit-three-lessons-mobile-security/</id>
-        <link href="https://www.jamf.com/blog/darksword-ios-exploit-kit-three-lessons-mobile-security/"/>
-        <updated>2026-04-20T19:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Jamf Threat Labs analyzes leaked source code of a Safari exploitation kit (DarkSword) and the impact of this disclosure on the mobile ecosystem.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Context.ai OAuth Token Compromise]]></title>
-        <id>https://www.wiz.io/blog/contextai-oauth-token-compromise</id>
-        <link href="https://www.wiz.io/blog/contextai-oauth-token-compromise"/>
-        <updated>2026-04-20T18:20:06.000Z</updated>
-        <summary type="html"><![CDATA[Compromised Context.ai OAuth tokens enabled attackers to perform a supply chain attack via trusted SaaS integrations.
-Learn how to assess the risk in your environment and how to prevent the next attack.]]></summary>
-        <author>
-            <name>Wiz Blog | RSS feed</name>
         </author>
     </entry>
     <entry>
