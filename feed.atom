@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-05-22T02:15:31.786Z</updated>
+    <updated>2026-05-23T02:03:02.147Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Exchange ActiveSync CBA ending: avoid “Can’t Connect” errors by migrating now]]></title>
+        <id>https://4sysops.com/?p=1611069</id>
+        <link href="https://4sysops.com/archives/exchange-activesync-cba-ending-avoid-cant-connect-errors-by-migrating-now/"/>
+        <updated>2026-05-22T21:45:45.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announced on May 8, 2026, that it will retire direct certificate-based authentication (CBA) for Exchange ActiveSync (EAS) by the end of 2026. If your organization uses certificates to authenticate mobile devices against Exchange Online, you must migrate to a new method before the deadline, or your users' mobile email will stop working. This article explains what the change means, who is affected, and what steps you need to take.
+Source]]></summary>
+        <author>
+            <name>IT Experts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Securing AI systems without overconfidence or fear – Part 2: Attack surfaces and the checkpoint flow]]></title>
+        <id>https://blog.nviso.eu/?p=25524</id>
+        <link href="https://blog.nviso.eu/2026/05/22/securing-ai-systems-without-overconfidence-or-fear-part-2-attack-surfaces-and-the-checkpoint-flow/"/>
+        <updated>2026-05-22T13:25:11.000Z</updated>
+        <summary type="html"><![CDATA[The RAG bot, with checkpoints Let’s circle back to the team from our introduction. With the three checkpoints in place, the same attack would have been intercepted three different ways: Three layers, three different ways to catch the same attack. That is what defense in depth means in this stack: not a single perfect filter, … Continue reading Securing AI systems without overconfidence or fear – Part 2: Attack surfaces and the checkpoint flow →]]></summary>
+        <author>
+            <name>Hussein Bahmad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting CVE-2026-0265 at Scale: PAN-OS CAS Authentication Bypass]]></title>
+        <id>https://bishopfox.com/blog/detecting-cve-2026-0265-at-scale-pan-os-cas-authentication-bypass</id>
+        <link href="https://bishopfox.com/blog/detecting-cve-2026-0265-at-scale-pan-os-cas-authentication-bypass"/>
+        <updated>2026-05-22T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CVE-2026-0265 lets unauthenticated attackers forge a JWT and log in as any trusted user on CAS-enabled PAN-OS deployments. Bishop Fox built a detection tool that returns a definitive verdict from a single anonymous request, and breaks down exactly how the bug works and what to do about it.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We hardened zizmor's GitHub Actions static analyzer]]></title>
+        <id>https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/</id>
+        <link href="https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/"/>
+        <updated>2026-05-22T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In March 2026, attackers exploited a pull_request_target misconfiguration in
+the aquasecurity/trivy-action GitHub Action to exfiltrate organization and
+repository secrets, then used those credentials to backdoor LiteLLM on PyPI (see
+Trivy’s post-mortem for the full timeline). zizmor is a static analyzer
+that GitHub Actions users run to catch exactly these misconfigurations before they ship.
+When GitHub Actions added support for YAML anchors in September 2025, a small but
+high-value slice of the ecosystem started writing workflows that zizmor could only
+analyze on a best-effort basis.
+Over the past three months, Trail of Bits collaborated with the zizmor maintainers
+to bring zizmor’s anchor support up to full coverage. First, we fixed parsing bugs
+that caused crashes, produced wrong-locatio…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-27886: Unauthenticated Boolean-Oracle Exfiltration of Administrator Secrets in Strapi]]></title>
+        <id>https://bishopfox.com/blog/cve-2026-27886-unauthenticated-boolean-oracle-exfiltration-of-administrator-secrets-in-strapi</id>
+        <link href="https://bishopfox.com/blog/cve-2026-27886-unauthenticated-boolean-oracle-exfiltration-of-administrator-secrets-in-strapi"/>
+        <updated>2026-05-22T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A sanitization bypass in Strapi 4.0.0 through 5.36.1 lets unauthenticated attackers extract an admin's password reset token character by character and take over the account. With over 20,000 internet-facing hosts exposed, Bishop Fox breaks down how the exploit works and how to remediate it.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Exchange Hybrid after EWS retirement: Upgrade to Exchange SE and move to Microsoft Graph]]></title>
         <id>https://4sysops.com/?p=1611099</id>
@@ -2390,103 +2451,6 @@ A double free vulnerability has been reported in the Windows Internet Key Exchan
 An unauthenticated, remote attacker could exploit this vulnerability by sending crafted packets to the target server. …]]></summary>
         <author>
             <name>TrendAI Research Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Otto Support – An MCP, Agentic-AI Security Challenge]]></title>
-        <id>https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge</id>
-        <link href="https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge"/>
-        <updated>2026-04-23T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bishop Fox built a vulnerable MCP-based customer support tool and turned it into a security challenge. Explore how AI agents interact with tools, escalate privileges, and expose sensitive data. If you work with AI systems, this CTF shows exactly how these architectures fail in the real world.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trailmark turns code into graphs]]></title>
-        <id>https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/</id>
-        <link href="https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/"/>
-        <updated>2026-04-23T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re open-sourcing Trailmark, a library that parses source code into a queryable call graph of functions, classes, call relationships, and semantic metadata, then exposes that graph through a Python API that Claude skills can call directly. Install it now:
-uv pip install trailmark
-“Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win.” John Lambert’s widely cited observation about network security applies just as well to AI-assisted software analysis.
-When Claude reasons about a codebase, it reasons about lists: findings from static analyzers, surviving mutants from mutation testing, and line-by-line coverage reports. But the question that actually matters is a graph question: can untrusted input reach this code, and what breaks if it’s wrong?
-We bui…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MacOS malware persistence 10: caffeinate LOLBin. Simple C example]]></title>
-        <id>https://cocomelonc.github.io/macos/2026/04/23/mac-malware-persistence-10.html</id>
-        <link href="https://cocomelonc.github.io/macos/2026/04/23/mac-malware-persistence-10.html"/>
-        <updated>2026-04-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[﷽]]></summary>
-        <author>
-            <name>cocomelonc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You?]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=139092</id>
-        <link href="https://www.sentinelone.com/labs/labscon25-replay-are-your-chinese-cameras-spying-for-you-or-on-you/"/>
-        <updated>2026-04-22T22:00:15.000Z</updated>
-        <summary type="html"><![CDATA[Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You?]]></title>
-        <id>https://www.sentinelone.com/?post_type=labs&amp;p=139092</id>
-        <link href="https://www.sentinelone.com/labs/labscon25-replay-are-your-chinese-cameras-spying-for-you-or-on-you/"/>
-        <updated>2026-04-22T22:00:15.000Z</updated>
-        <summary type="html"><![CDATA[Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.]]></summary>
-        <author>
-            <name>LABScon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Sentinel Logstash output plugin: DCR-based log ingestion]]></title>
-        <id>https://4sysops.com/?p=1609446</id>
-        <link href="https://4sysops.com/archives/microsoft-sentinel-logstash-output-plugin-dcr-based-log-ingestion/"/>
-        <updated>2026-04-22T19:35:06.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released a new version of the Logstash output plugin for Microsoft Sentinel in public preview. The plugin replaces the older authentication method—a shared workspace key—with Microsoft Entra ID app-based authentication and routes data through Azure Monitor's Data Collection Rules. This article explains how the plugin works, what you need to set it up, and its current limitations.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exchange 2016/2019 ESU Period 2: paid security updates until October 2026]]></title>
-        <id>https://4sysops.com/?p=1609773</id>
-        <link href="https://4sysops.com/archives/exchange-2016-2019-esu-period-2-paid-security-updates-until-october-2026/"/>
-        <updated>2026-04-22T19:31:23.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft announced on April 15, 2026, a second paid security update period—called "Period 2"—for Exchange Server 2016 and 2019. This extends coverage from May through October 2026 for organizations unable to complete their migration to Exchange Server Subscription Edition (SE). The program covers only security-related patches and requires a separate purchase via a Microsoft Enterprise Agreement. This article explains what the program includes, who qualifies, and the practical limitations.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program]]></title>
-        <id>https://specterops.io/?p=26271</id>
-        <link href="https://specterops.io/blog/2026/04/22/specterops-selected-for-openai-trusted-access-for-cyber-program/"/>
-        <updated>2026-04-22T18:05:15.000Z</updated>
-        <summary type="html"><![CDATA[SpecterOps has been named to OpenAI's inaugural Trusted Access for Cyber (TAC) cohort (alongside Nvidia, CrowdStrike, JPMorgan Chase, and Bank of America and others) giving verified defenders governed access to advanced AI models for legitimate security use cases. 
-The post SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Jared Atkinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Balancing safety and learning: managing risky content in K-12]]></title>
-        <id>https://www.jamf.com/blog/k-12-content-filtering-device-level-controls/</id>
-        <link href="https://www.jamf.com/blog/k-12-content-filtering-device-level-controls/"/>
-        <updated>2026-04-22T16:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Discover how granular, device-level content filtering gives K-12 IT teams the precision to protect students everywhere without blocking the tools teachers depend on.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>

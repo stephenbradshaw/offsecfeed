@@ -64,16 +64,6 @@
           "wordCount": 3306,
           "title": "MSSQLHound Now Available in Go",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/Screenshot-2026-04-20-at-11.08.29-AM.png"
-        },
-        {
-          "id": "https://specterops.io/?p=26271",
-          "author": "Jared Atkinson",
-          "description": "SpecterOps has been named to OpenAI's inaugural Trusted Access for Cyber (TAC) cohort (alongside Nvidia, CrowdStrike, JPMorgan Chase, and Bank of America and others) giving verified defenders governed access to advanced AI models for legitimate security use cases. \nThe post SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/04/22/specterops-selected-for-openai-trusted-access-for-cyber-program/",
-          "publishedOn": "2026-04-22T18:05:15.000Z",
-          "wordCount": 3371,
-          "title": "SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/OpenAI-TAC-Blog-Image-1.png"
         }
       ]
     },
@@ -14015,6 +14005,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/",
+          "author": null,
+          "description": "In March 2026, attackers exploited a pull_request_target misconfiguration in\nthe aquasecurity/trivy-action GitHub Action to exfiltrate organization and\nrepository secrets, then used those credentials to backdoor LiteLLM on PyPI (see\nTrivy’s post-mortem for the full timeline). zizmor is a static analyzer\nthat GitHub Actions users run to catch exactly these misconfigurations before they ship.\nWhen GitHub Actions added support for YAML anchors in September 2025, a small but\nhigh-value slice of the ecosystem started writing workflows that zizmor could only\nanalyze on a best-effort basis.\nOver the past three months, Trail of Bits collaborated with the zizmor maintainers\nto bring zizmor’s anchor support up to full coverage. First, we fixed parsing bugs\nthat caused crashes, produced wrong-locatio…",
+          "link": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/",
+          "publishedOn": "2026-05-22T11:00:00.000Z",
+          "wordCount": 1227,
+          "title": "We hardened zizmor's GitHub Actions static analyzer",
+          "imageUrl": "https://blog.trailofbits.com/img/Trail-of-Bits-Open-Graph.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./",
           "author": null,
           "description": "Go’s native fuzzing is useful, but it stands far behind state-of-the-art tooling that the Rust, C, and C++ ecosystems offer with LibAFL and AFL++. Path constraints are hard to solve. Structured inputs usually need handmade parsing. It doesn’t even detect several common bug classes, such as integer overflows, goroutine leaks, data races, and execution timeouts. So to make it better, we built gosentry, a fuzzing-oriented fork of the Go toolchain that keeps the standard testing.F workflow while using a stronger fuzzing stack underneath to tackle those issues.\nWith gosentry, go test -fuzz uses LibAFL by default. It can fuzz structs natively, run grammar-based fuzzing with Nautilus, detect bug classes that it couldn’t detect before, and create a fuzzing campaign coverage report in one command.\n…",
@@ -14042,16 +14042,6 @@
           "publishedOn": "2026-04-29T11:00:00.000Z",
           "wordCount": 2606,
           "title": "Extending Ruzzy with LibAFL",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/",
-          "author": null,
-          "description": "We’re open-sourcing Trailmark, a library that parses source code into a queryable call graph of functions, classes, call relationships, and semantic metadata, then exposes that graph through a Python API that Claude skills can call directly. Install it now:\nuv pip install trailmark\n“Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win.” John Lambert’s widely cited observation about network security applies just as well to AI-assisted software analysis.\nWhen Claude reasons about a codebase, it reasons about lists: findings from static analyzers, surviving mutants from mutation testing, and line-by-line coverage reports. But the question that actually matters is a graph question: can untrusted input reach this code, and what breaks if it’s wrong?\nWe bui…",
-          "link": "https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/",
-          "publishedOn": "2026-04-23T12:00:00.000Z",
-          "wordCount": 1986,
-          "title": "Trailmark turns code into graphs",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
@@ -14144,6 +14134,16 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1611069",
+          "author": "IT Experts",
+          "description": "Microsoft announced on May 8, 2026, that it will retire direct certificate-based authentication (CBA) for Exchange ActiveSync (EAS) by the end of 2026. If your organization uses certificates to authenticate mobile devices against Exchange Online, you must migrate to a new method before the deadline, or your users' mobile email will stop working. This article explains what the change means, who is affected, and what steps you need to take.\nSource",
+          "link": "https://4sysops.com/archives/exchange-activesync-cba-ending-avoid-cant-connect-errors-by-migrating-now/",
+          "publishedOn": "2026-05-22T21:45:45.000Z",
+          "wordCount": null,
+          "title": "Exchange ActiveSync CBA ending: avoid “Can’t Connect” errors by migrating now",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1611099",
           "author": "IT Experts",
@@ -14463,26 +14463,6 @@
           "wordCount": null,
           "title": "Anthropic’s PR nightmare, Matthew Berman’s outburst, and AI usage explosion",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1609446",
-          "author": "IT Experts",
-          "description": "Microsoft has released a new version of the Logstash output plugin for Microsoft Sentinel in public preview. The plugin replaces the older authentication method—a shared workspace key—with Microsoft Entra ID app-based authentication and routes data through Azure Monitor's Data Collection Rules. This article explains how the plugin works, what you need to set it up, and its current limitations.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-sentinel-logstash-output-plugin-dcr-based-log-ingestion/",
-          "publishedOn": "2026-04-22T19:35:06.000Z",
-          "wordCount": null,
-          "title": "Microsoft Sentinel Logstash output plugin: DCR-based log ingestion",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1609773",
-          "author": "IT Experts",
-          "description": "Microsoft announced on April 15, 2026, a second paid security update period—called \"Period 2\"—for Exchange Server 2016 and 2019. This extends coverage from May through October 2026 for organizations unable to complete their migration to Exchange Server Subscription Edition (SE). The program covers only security-related patches and requires a separate purchase via a Microsoft Enterprise Agreement. This article explains what the program includes, who qualifies, and the practical limitations.\nSource",
-          "link": "https://4sysops.com/archives/exchange-2016-2019-esu-period-2-paid-security-updates-until-october-2026/",
-          "publishedOn": "2026-04-22T19:31:23.000Z",
-          "wordCount": null,
-          "title": "Exchange 2016/2019 ESU Period 2: paid security updates until October 2026",
-          "imageUrl": null
         }
       ]
     },
@@ -14693,21 +14673,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/04/fast16_3.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=139092",
-          "author": "LABScon",
-          "description": "Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-are-your-chinese-cameras-spying-for-you-or-on-you/",
-          "publishedOn": "2026-04-22T22:00:15.000Z",
-          "wordCount": 7098,
-          "title": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You?",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2026/03/LC25-Rogers-Cutler-1.jpg",
-            "length": "84777",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/03/LC25-Rogers-Cutler-1.jpg"
         }
       ]
     },
@@ -14715,13 +14680,44 @@
       "title": "NVISO Labs",
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=25524",
+          "author": "Hussein Bahmad",
+          "description": "The RAG bot, with checkpoints Let’s circle back to the team from our introduction. With the three checkpoints in place, the same attack would have been intercepted three different ways: Three layers, three different ways to catch the same attack. That is what defense in depth means in this stack: not a single perfect filter, … Continue reading Securing AI systems without overconfidence or fear – Part 2: Attack surfaces and the checkpoint flow →",
+          "link": "https://blog.nviso.eu/2026/05/22/securing-ai-systems-without-overconfidence-or-fear-part-2-attack-surfaces-and-the-checkpoint-flow/",
+          "publishedOn": "2026-05-22T13:25:11.000Z",
+          "wordCount": 4917,
+          "title": "Securing AI systems without overconfidence or fear – Part 2: Attack surfaces and the checkpoint flow",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/03/20260330_1516_Image-Generation_simple_compose_01kmze6ww2f51ry1fd1zehwd6r.png"
+        }
+      ]
     },
     {
       "title": "bishopfox.com",
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/detecting-cve-2026-0265-at-scale-pan-os-cas-authentication-bypass",
+          "author": null,
+          "description": "CVE-2026-0265 lets unauthenticated attackers forge a JWT and log in as any trusted user on CAS-enabled PAN-OS deployments. Bishop Fox built a detection tool that returns a definitive verdict from a single anonymous request, and breaks down exactly how the bug works and what to do about it.",
+          "link": "https://bishopfox.com/blog/detecting-cve-2026-0265-at-scale-pan-os-cas-authentication-bypass",
+          "publishedOn": "2026-05-22T13:00:00.000Z",
+          "wordCount": 3681,
+          "title": "Detecting CVE-2026-0265 at Scale: PAN-OS CAS Authentication Bypass",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Detecting-CVE-2026-0265-at-Scale-PAN-OS-CAS-Authentication-Bypass.png?mtime=1779485862"
+        },
+        {
+          "id": "https://bishopfox.com/blog/cve-2026-27886-unauthenticated-boolean-oracle-exfiltration-of-administrator-secrets-in-strapi",
+          "author": null,
+          "description": "A sanitization bypass in Strapi 4.0.0 through 5.36.1 lets unauthenticated attackers extract an admin's password reset token character by character and take over the account. With over 20,000 internet-facing hosts exposed, Bishop Fox breaks down how the exploit works and how to remediate it.",
+          "link": "https://bishopfox.com/blog/cve-2026-27886-unauthenticated-boolean-oracle-exfiltration-of-administrator-secrets-in-strapi",
+          "publishedOn": "2026-05-22T07:00:00.000Z",
+          "wordCount": 5100,
+          "title": "CVE-2026-27886: Unauthenticated Boolean-Oracle Exfiltration of Administrator Secrets in Strapi",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/CVE-2026-27886-Unauthenticated-Boolean-Oracle-Exfiltration-of-Administrator-Secrets-in-Strapi.png"
+        },
         {
           "id": "https://bishopfox.com/blog/otto-support-logging-visibility-in-mcp-servers",
           "author": null,
@@ -14811,16 +14807,6 @@
           "wordCount": 2647,
           "title": "Introducing AIMap: Security Testing For AI Agent Infrastructure",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Introducing-AIMap-Security-Testing-AI-Agent-Infrastructure_Blog.png?mtime=1777503636"
-        },
-        {
-          "id": "https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge",
-          "author": null,
-          "description": "Bishop Fox built a vulnerable MCP-based customer support tool and turned it into a security challenge. Explore how AI agents interact with tools, escalate privileges, and expose sensitive data. If you work with AI systems, this CTF shows exactly how these architectures fail in the real world.",
-          "link": "https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge",
-          "publishedOn": "2026-04-23T13:00:00.000Z",
-          "wordCount": 3130,
-          "title": "Otto Support – An MCP, Agentic-AI Security Challenge",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/Otto-Support-–-An-MCP-Agentic-AI-Security-Challenge_Blog.png"
         }
       ]
     },
@@ -16203,16 +16189,6 @@
           "wordCount": 3536,
           "title": "20 years of Jamf Training: Empowering IT professionals to succeed with Apple",
           "imageUrl": "https://media.jamf.com/images/news/2026/jamf-training-20-years-apple-it-education-certification.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/k-12-content-filtering-device-level-controls/",
-          "author": null,
-          "description": "Discover how granular, device-level content filtering gives K-12 IT teams the precision to protect students everywhere without blocking the tools teachers depend on.",
-          "link": "https://www.jamf.com/blog/k-12-content-filtering-device-level-controls/",
-          "publishedOn": "2026-04-22T16:08:00.000Z",
-          "wordCount": 2241,
-          "title": "Balancing safety and learning: managing risky content in K-12",
-          "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
         }
       ]
     },
@@ -16280,21 +16256,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/04/fast16_3.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=139092",
-          "author": "LABScon",
-          "description": "Marc Rogers and Silas Cutler expose how cheap smart home devices conceal a shadow supply chain of shell companies, firmware flaws, and foreign data routing.",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-are-your-chinese-cameras-spying-for-you-or-on-you/",
-          "publishedOn": "2026-04-22T22:00:15.000Z",
-          "wordCount": 7098,
-          "title": "LABScon25 Replay | Are Your Chinese Cameras Spying For You Or On You?",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2026/03/LC25-Rogers-Cutler-1.jpg",
-            "length": "84777",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/03/LC25-Rogers-Cutler-1.jpg"
         }
       ]
     },
@@ -16769,16 +16730,6 @@
           "wordCount": 1090,
           "title": "MacOS malware persistence 11: osascript LOLBin. Simple C example",
           "imageUrl": "https://cocomelonc.github.io/assets/images/202/2026-04-30_06-24.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/macos/2026/04/23/mac-malware-persistence-10.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/macos/2026/04/23/mac-malware-persistence-10.html",
-          "publishedOn": "2026-04-23T00:00:00.000Z",
-          "wordCount": 835,
-          "title": "MacOS malware persistence 10: caffeinate LOLBin. Simple C example",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/201/2026-04-23_17-55.png"
         }
       ]
     }
