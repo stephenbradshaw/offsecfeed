@@ -13932,6 +13932,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/05/25/cloudsectidbits-elbaph-alb.html",
+          "author": null,
+          "description": "After our last episode on Multi-SSO Cognito User Pools, we are back with another issue. This time, we are looking at one of those AWS components that is everywhere and rarely questioned deeply enough: the Elastic Load Balancer.\n\n\n\nTidbit No. 5 - Navigating Lax Load Balancers\nWhat is AWS ELB?\nAWS Elastic Load Balancing (ELB) distributes traffic to backend services and serves as the entry point between the Internet and your applications.\nIt supports Layer 7 routing (Application Load Balancer - ALB) and Layer 4 routing (Network Load Balancer - NLB). It decides where traffic goes and under which conditions. ELB is commonly found fronting multiple applications, environments, and trust zones across the same infrastructure.\nWhy It Matters\nELB is often the first public entry point before applicati…",
+          "link": "https://blog.doyensec.com/2026/05/25/cloudsectidbits-elbaph-alb.html",
+          "publishedOn": "2026-05-24T22:00:00.000Z",
+          "wordCount": 2039,
+          "title": "Navigating Lax Load Balancers: When an Intersection Gets You Inside",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html",
           "author": null,
           "description": "This research was recently presented at BSides Luxembourg 2026. This blogpost documents our findings presented during the talk. The BSides slides are posted here. Today, we’re also releasing the Docker-based playground utilized for the demos so anyone interested can reproduce the findings locally: doyensec/cfitsio-efs-playground.\nIn our previous post on CFITSIO, we wrote about the AI-assisted fuzzing pipeline and the memory corruption issues found in its Extended Filename Syntax (EFS). This was only half of the story. We kept thinking that even without memory issues, EFS seems like a pretty powerful and rather risky feature. The EFS page is full of very interesting use cases. To quote some of them (emphasis mine):\n‘rawfile.dat[i512,512]’: reads raw binary data array (a 512x512 short intege…",
@@ -14112,6 +14122,26 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1611431",
+          "author": "IT Experts",
+          "description": "Proxmox VE 9.2, released on May 21, 2026, adds cluster load balancing, software-defined networking changes, custom CPU model management, High Availability maintenance controls, and updated virtualization components. Proxmox VE is a virtualization platform for running virtual machines and Linux containers on bare-metal servers. The main technical changes are relevant if you operate clustered hosts, use Proxmox High Availability, or manage routed virtual networks. This is not a redesign release, but it changes several operational areas that administrators should review before upgrading.\nSource",
+          "link": "https://4sysops.com/archives/proxmox-ve-9-2-new-features-dynamic-load-balancer-sdn-and-ceph-tentacle/",
+          "publishedOn": "2026-05-25T18:55:07.000Z",
+          "wordCount": null,
+          "title": "Proxmox VE 9.2 new features: Dynamic Load Balancer, SDN, and Ceph Tentacle",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/?p=1611463",
+          "author": "IT Experts",
+          "description": "VMware Workstation Pro 26H1 is a desktop virtualization update for hosts running Windows and Linux. For Windows administrators, the main changes are the 64-bit Windows application, updated virtual machine metadata, support for remote connections to ARM-based ESXi hosts, and new supported Linux host and guest systems. Broadcom released Workstation Pro 26H1 on May 14, 2026, with build 25388281, and updated the release notes on May 15, 2026.\nSource",
+          "link": "https://4sysops.com/archives/vmware-workstation-26h1-64-bit-windows-app-esxi-arm-access-and-update-limits/",
+          "publishedOn": "2026-05-25T18:53:45.000Z",
+          "wordCount": null,
+          "title": "VMware Workstation 26H1: 64-bit Windows app, ESXi ARM access, and update limits",
+          "imageUrl": null
+        },
         {
           "id": "https://4sysops.com/?p=1611069",
           "author": "IT Experts",
