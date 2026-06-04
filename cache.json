@@ -14010,16 +14010,6 @@
           "wordCount": 3204,
           "title": "When Filenames Become Attack Surfaces: Weaponizing NASA's CFITSIO Extended Filename Syntax",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso.html",
-          "author": null,
-          "description": "After a small detour, the CloudSecTidbits series is back with new episodes. We had the opportunity to present them at the first DEFCON in Singapore few days ago during our DemoLabs sessions. Meeting Singapore’s community was indeed amazing - thanks again for having us!\n\n\n\nFrom the Previous Episodes\nCloudSec Tidbits is a blogpost series showcasing interesting bugs found by Doyensec during cloud security testing activities.\nWe focus on vulnerabilities resulting from an insecure combination of web and cloud related technologies.\nEvery article includes an Infrastructure as Code (IaC) laboratory that can be easily deployed to experiment with the described vulnerability.\n\n\nTime to get ready and dive into a new tidbit.\nTidbit No. 4 - The Danger of Multi-SSO User Pools\nWhat is AWS Cognito? If you …",
-          "link": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso.html",
-          "publishedOn": "2026-05-04T22:00:00.000Z",
-          "wordCount": 2554,
-          "title": "The Danger of Multi-SSO AWS Cognito User Pools",
-          "imageUrl": null
         }
       ]
     },
@@ -14053,6 +14043,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/",
+          "author": null,
+          "description": "Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work.\nWe recently bypassed ClawHub’s malicious skill detector, Cisco’s agent skill scanner, and all three of the scanners integrated into skills.sh. These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills, using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some t…",
+          "link": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/",
+          "publishedOn": "2026-06-03T11:00:00.000Z",
+          "wordCount": 3058,
+          "title": "The sorry state of skill distribution",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/",
           "author": null,
           "description": "In March 2026, attackers exploited a pull_request_target misconfiguration in\nthe aquasecurity/trivy-action GitHub Action to exfiltrate organization and\nrepository secrets, then used those credentials to backdoor LiteLLM on PyPI (see\nTrivy’s post-mortem for the full timeline). zizmor is a static analyzer\nthat GitHub Actions users run to catch exactly these misconfigurations before they ship.\nWhen GitHub Actions added support for YAML anchors in September 2025, a small but\nhigh-value slice of the ecosystem started writing workflows that zizmor could only\nanalyze on a best-effort basis.\nOver the past three months, Trail of Bits collaborated with the zizmor maintainers\nto bring zizmor’s anchor support up to full coverage. First, we fixed parsing bugs\nthat caused crashes, produced wrong-locatio…",
@@ -14071,16 +14071,6 @@
           "wordCount": 1365,
           "title": "Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.",
           "imageUrl": "https://blog.trailofbits.com/img/tob.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
-          "author": null,
-          "description": "We recently added a C/C++ security checklist to the Testing Handbook and challenged readers to spot the bugs in two code samples: a deceptively simple Linux ping program and a Windows driver registry handler. If you found the inet_ntoa global buffer gotcha or the missing RTL_QUERY_REGISTRY_TYPECHECK flag, nice work. If not, here’s a full walkthrough of both challenges, plus a deep dive into how the Windows registry type confusion escalates from a local denial of service to a kernel write primitive.\nSince we first released the new C/C++ security checklist, we also developed a new Claude skill, c-review. It turns the checklist into bug-finding prompts that an LLM can run against a codebase. It’s also platform and threat-model aware. Run these commands to install the skill:\nThe Linux ping pro…",
-          "link": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/",
-          "publishedOn": "2026-05-05T11:00:00.000Z",
-          "wordCount": 3988,
-          "title": "C/C++ checklist challenges, solved",
-          "imageUrl": "https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/cc-checklist-challenges-solved-image-1.png"
         }
       ]
     },
@@ -14183,6 +14173,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1610835",
+          "author": "IT Experts",
+          "description": "EventSentry 6.0 is a significant update to the Windows event log monitoring and SIEM platform. It adds native Azure log import, support for Sigma threat detection rules, cryptographic log signing, OAuth authentication for email and HTTP actions, and an HTTP Event Collector (HEC).\nSource",
+          "link": "https://4sysops.com/archives/eventsentry-60-azure-logs-sigma-rules-oauth-and-log-signing/",
+          "publishedOn": "2026-06-03T22:10:55.000Z",
+          "wordCount": 6981,
+          "title": "EventSentry 6.0: Azure logs, Sigma rules, OAuth, and log signing",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/05/One-practical-limitation:-Sigma-rules-are-more-complex-to-write-and-debug-than-native-filters.-If-you-are-new-to-the-Sigma-format,-plan-time-for-testing..png"
+        },
+        {
+          "id": "https://4sysops.com/?p=1612029",
+          "author": "IT Experts",
+          "description": "This post lists Microsoft Build 2026 product announcements and provides links for more details. You can ask 4sysops AI for more details.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-build-2026-product-announcements/",
+          "publishedOn": "2026-06-03T22:00:21.000Z",
+          "wordCount": 6939,
+          "title": "Microsoft Build 2026 product announcements",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Microsoft-CEO-Satya-Nadella-announcing-Aion-1.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-web-iq-provides-ai-agents-with-high-speed-web-grounding/",
+          "author": "IT News",
+          "description": "Microsoft has introduced Web IQ, a specialized search engine designed to provide autonomous AI agents and applications with real-time web data. Unlike traditional search engines that return lists of links for human users, this service delivers structured evidence objects and specific text passages. This architectural shift allows large language models to access information published after their training cutoff while minimizing unnecessary data processing.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-web-iq-provides-ai-agents-with-high-speed-web-grounding/",
+          "publishedOn": "2026-06-03T21:30:38.000Z",
+          "wordCount": 4817,
+          "title": "Microsoft Web IQ provides AI agents with high speed web grounding",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-web-iq-provides-ai-agents-with-high-speed-web-grounding.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-introduces-iakerb-and-localkdc-to-phase-out-ntlm-authentication/",
+          "author": "IT News",
+          "description": "Microsoft is accelerating the transition away from NTLM authentication by disabling the legacy protocol by default in upcoming Windows client and server releases. To facilitate this shift, the company is introducing two new Kerberos-based capabilities called IAKerb and LocalKDC. These features are designed to handle scenarios that previously necessitated NTLM, such as local account logins and restricted network environments.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-introduces-iakerb-and-localkdc-to-phase-out-ntlm-authentication/",
+          "publishedOn": "2026-06-03T21:30:36.000Z",
+          "wordCount": 4757,
+          "title": "Microsoft introduces IAKerb and LocalKDC to phase out NTLM authentication",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-introduces-iakerb-and-localkdc-to-phase-out-ntlm-authentication.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-365-android-apps-exposed-account-tokens-via-debug-flag/",
+          "author": "IT News",
+          "description": "A development flag accidentally left active in several Microsoft 365 Android applications allowed unauthorized apps to bypass security checks and harvest account access tokens. This vulnerability, dubbed FlagLeft, originated from a single line of code in a shared software development kit that disabled identity verification for cross-app communication. Because the \"isDebugMode\" flag was set to true, any malicious application on the same device could request and receive tokens without user interaction or password prompts.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-365-android-apps-exposed-account-tokens-via-debug-flag/",
+          "publishedOn": "2026-06-03T21:30:34.000Z",
+          "wordCount": 4846,
+          "title": "Microsoft 365 Android apps exposed account tokens via debug flag",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-365-android-apps-exposed-account-tokens-via-debug-flag.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/google-doubleclick-abused-to-distribute-desckvb-rat-via-automated-phishing/",
+          "author": "IT News",
+          "description": "A new malspam campaign leverages the legitimate Google DoubleClick domain to bypass security filters and deliver the DesckVB remote access trojan. The attack begins with an HTML attachment that redirects users through Google's infrastructure to a dynamically branded landing page. This automated kit scales the operation by pulling company logos and location details based on the recipient's email address.\nSource",
+          "link": "https://4sysops.com/archives/google-doubleclick-abused-to-distribute-desckvb-rat-via-automated-phishing/",
+          "publishedOn": "2026-06-03T21:30:32.000Z",
+          "wordCount": 4738,
+          "title": "Google DoubleClick abused to distribute DesckVB RAT via automated phishing",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/google-doubleclick-abused-to-distribute-desckvb-rat-via-automated-phishing.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/poisoned-android-notifications-could-hijack-google-gemini-via-prompt-injection/",
+          "author": "IT News",
+          "description": "Researchers discovered a vulnerability where malicious notifications from apps like WhatsApp or Slack could hijack the Google Gemini voice assistant on Android devices. This attack vector, known as indirect prompt injection, allowed attackers to deliver payloads through standard message notifications without requiring a malicious app on the phone. By treating notification text as actionable instructions, the assistant could be tricked into faking messages, manipulating smart home devices, or joining unauthorized video calls.\nSource",
+          "link": "https://4sysops.com/archives/poisoned-android-notifications-could-hijack-google-gemini-via-prompt-injection/",
+          "publishedOn": "2026-06-03T21:30:30.000Z",
+          "wordCount": 4818,
+          "title": "Poisoned Android notifications could hijack Google Gemini via prompt injection",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/poisoned-android-notifications-could-hijack-google-gemini-via-prompt-injection.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/robot-dogs-and-drone-countermeasures-to-secure-fifa-world-cup-venues/",
+          "author": "IT News",
+          "description": "The upcoming FIFA World Cup will feature advanced security technologies, including the deployment of Boston Dynamics' Spot robot dogs at major venues like AT&T Stadium. These four-legged autonomous units are designed to assist security personnel by patrolling grounds and investigating suspicious packages or hazardous materials. While public concerns regarding facial recognition have surfaced, manufacturers clarify that the robots are currently configured for mobility and hazard detection rather than biometric surveillance.\nSource",
+          "link": "https://4sysops.com/archives/robot-dogs-and-drone-countermeasures-to-secure-fifa-world-cup-venues/",
+          "publishedOn": "2026-06-03T20:14:05.000Z",
+          "wordCount": 4861,
+          "title": "Robot dogs and drone countermeasures to secure FIFA World Cup venues",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/robot-dogs-and-drone-countermeasures-to-secure-fifa-world-cup-venues.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/mit-researchers-develop-chartnet-to-improve-ai-chart-interpretation/",
+          "author": "IT News",
+          "description": "Researchers from MIT and the MIT-IBM Computing Research Lab have developed a multifaceted resource called ChartNet to improve how vision-language models interpret complex charts. Traditional models often struggle with these tasks because they require a simultaneous understanding of visual, numerical, and linguistic data. This new dataset provides over a million diverse chart images to help bridge the performance gap in automated data analysis.\nSource",
+          "link": "https://4sysops.com/archives/mit-researchers-develop-chartnet-to-improve-ai-chart-interpretation/",
+          "publishedOn": "2026-06-03T20:14:03.000Z",
+          "wordCount": 4747,
+          "title": "MIT researchers develop ChartNet to improve AI chart interpretation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/mit-researchers-develop-chartnet-to-improve-ai-chart-interpretation.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/new-executive-order-grants-us-government-early-access-to-advanced-ai-models/",
+          "author": "IT News",
+          "description": "President Donald Trump signed an executive order establishing a framework for the federal government to review the most advanced artificial intelligence models before their public release. The order requests that AI developers voluntarily provide agencies like the NSA and CISA with access to \"frontier models\" up to 30 days before they are made available to other partners. This initiative aims to evaluate potential cybersecurity risks and protect critical infrastructure from threats posed by advanced AI capabilities.\nSource",
+          "link": "https://4sysops.com/archives/new-executive-order-grants-us-government-early-access-to-advanced-ai-models/",
+          "publishedOn": "2026-06-03T20:14:01.000Z",
+          "wordCount": 4903,
+          "title": "New executive order grants US government early access to advanced AI models",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/new-executive-order-grants-us-government-early-access-to-advanced-ai-models.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/alibaba-qwen3-7-plus-offers-low-cost-multimodal-reasoning-for-automated-workflows/",
+          "author": "IT News",
+          "description": "Alibaba has launched Qwen3.7-Plus, a multimodal large language model designed for high-performance tasks involving text, video, and imagery. Unlike previous open-source versions, this model is proprietary and accessible only through cloud-based APIs. It features a 1-million token context window and a specialized reasoning state that helps maintain logic during complex, multi-step operations.\nSource",
+          "link": "https://4sysops.com/archives/alibaba-qwen3-7-plus-offers-low-cost-multimodal-reasoning-for-automated-workflows/",
+          "publishedOn": "2026-06-03T20:14:00.000Z",
+          "wordCount": 4738,
+          "title": "Alibaba Qwen3.7-Plus offers low-cost multimodal reasoning for automated workflows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/alibaba-qwen3-7-plus-offers-low-cost-multimodal-reasoning-for-automated-workflows.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-claude-4-8-opus-introduces-dynamic-workflows-and-parallel-ai-agents/",
+          "author": "IT News",
+          "description": "Anthropic has released Claude 4.8 Opus, an updated model designed to provide more honest responses and greater control over task execution. A new feature called dynamic workflows allows the model to plan complex tasks and deploy hundreds of parallel sub-agents within a single session. Users can now also manage the \"effort\" level of responses, choosing between high-token detailed outputs or lower-effort responses to preserve rate limits.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-claude-4-8-opus-introduces-dynamic-workflows-and-parallel-ai-agents/",
+          "publishedOn": "2026-06-03T20:13:58.000Z",
+          "wordCount": 4859,
+          "title": "Anthropic Claude 4.8 Opus introduces dynamic workflows and parallel AI agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-claude-4-8-opus-introduces-dynamic-workflows-and-parallel-ai-agents.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/optimizing-ai-agents-with-modular-skills-and-automated-verification/",
+          "author": "IT News",
+          "description": "Anthropic has identified nine categories for organizing AI agent skills, ranging from API references and data fetching to infrastructure operations and CI/CD automation. Effective skills avoid restating obvious coding knowledge and instead focus on \"gotchas,\" internal business logic, and specific organizational patterns. Verification skills, which use tools like headless browsers or programmatic assertions to confirm code functionality, provide the most significant measurable impact on output quality.\nSource",
+          "link": "https://4sysops.com/archives/optimizing-ai-agents-with-modular-skills-and-automated-verification/",
+          "publishedOn": "2026-06-03T20:13:57.000Z",
+          "wordCount": 4769,
+          "title": "Optimizing AI agents with modular skills and automated verification",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/optimizing-ai-agents-with-modular-skills-and-automated-verification.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/automating-complex-workflows-with-claude-cowork-and-desktop-integration/",
+          "author": "IT News",
+          "description": "Anthropic has introduced Claude Cowork, a specialized workspace within the Claude desktop application designed for executing multi-step tasks and creating deliverables. Unlike standard chat interfaces meant for brainstorming, this tool allows users to point the AI at local folders or connect it to external applications like Slack, Gmail, and Google Drive. It is specifically built to handle \"agentic\" workflows where the AI performs autonomous actions across multiple files and platforms to produce a final output.\nSource",
+          "link": "https://4sysops.com/archives/automating-complex-workflows-with-claude-cowork-and-desktop-integration/",
+          "publishedOn": "2026-06-03T20:13:55.000Z",
+          "wordCount": 4809,
+          "title": "Automating complex workflows with Claude Cowork and desktop integration",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/automating-complex-workflows-with-claude-cowork-and-desktop-integration.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-and-deepmind-hire-experts-to-investigate-machine-consciousness/",
+          "author": "IT News",
+          "description": "Major AI developers including Anthropic, Google DeepMind, and Meta are hiring specialists in philosophy, ethics, and psychology to study machine consciousness. These companies are investigating whether advanced models can experience \"panic\" or \"anxiety\" and if they possess moral significance. While some researchers remain skeptical, the industry is increasingly focused on the potential for models to exhibit human-like agency and emotions.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-and-deepmind-hire-experts-to-investigate-machine-consciousness/",
+          "publishedOn": "2026-06-03T20:13:53.000Z",
+          "wordCount": 4753,
+          "title": "Anthropic and DeepMind hire experts to investigate machine consciousness",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-and-deepmind-hire-experts-to-investigate-machine-consciousness.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-launches-copilot-health-preview-for-personal-and-premium-subscribers/",
+          "author": "IT News",
+          "description": "Microsoft has launched a consumer preview of Copilot Health, a specialized AI assistant designed to aggregate personal medical data. The service integrates information from wearable devices, such as Apple Health, with medical records from over 50,000 US healthcare providers. This platform aims to provide users with personalized health insights and guidance based on clinical intelligence and verified medical sources.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-launches-copilot-health-preview-for-personal-and-premium-subscribers/",
+          "publishedOn": "2026-06-03T20:13:51.000Z",
+          "wordCount": 4777,
+          "title": "Microsoft launches Copilot Health preview for personal and premium subscribers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-launches-copilot-health-preview-for-personal-and-premium-subscribers.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-shifts-to-in-house-ai-development-with-new-reasoning-models-and-agents/",
+          "author": "IT News",
+          "description": "Microsoft is pivoting its strategy to become a top-tier independent AI laboratory by developing frontier models from the ground up. This shift reduces the company's reliance on its partnership with OpenAI and focuses on building proprietary intellectual property. The initiative includes the launch of MAI-Thinking-1, a reasoning model designed specifically for complex mathematics, coding, and enterprise deployments.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-shifts-to-in-house-ai-development-with-new-reasoning-models-and-agents/",
+          "publishedOn": "2026-06-03T20:13:49.000Z",
+          "wordCount": 4793,
+          "title": "Microsoft shifts to in-house AI development with new reasoning models and agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-shifts-to-in-house-ai-development-with-new-reasoning-models-and-agents.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/eu-proposes-tech-sovereignty-package-to-reduce-reliance-on-foreign-cloud-and-ai/",
+          "author": "IT News",
+          "description": "The European Commission has introduced a comprehensive legislative package designed to establish technological sovereignty and reduce the bloc's dependence on American and Chinese providers. These proposals target critical sectors including semiconductor manufacturing, artificial intelligence development, and cloud computing infrastructure. The initiative seeks to foster a domestic ecosystem capable of competing with global technology giants by directing public funding toward local innovations.\nSource",
+          "link": "https://4sysops.com/archives/eu-proposes-tech-sovereignty-package-to-reduce-reliance-on-foreign-cloud-and-ai/",
+          "publishedOn": "2026-06-03T20:13:47.000Z",
+          "wordCount": 4851,
+          "title": "EU proposes tech sovereignty package to reduce reliance on foreign cloud and AI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/eu-proposes-tech-sovereignty-package-to-reduce-reliance-on-foreign-cloud-and-ai.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/florida-sues-openai-and-sam-altman-over-alleged-safety-failures-and-violent-outcomes/",
+          "author": "IT News",
+          "description": "Florida Attorney General James Uthmeier has filed a civil lawsuit against OpenAI and its CEO, Sam Altman, alleging the prioritization of profits over public safety. The legal action includes ten counts ranging from deceptive trade practices and negligence to product liability and public nuisance. This lawsuit marks the first time a state government has targeted the company specifically for design flaws that allegedly facilitate violence and cognitive harm.\nSource",
+          "link": "https://4sysops.com/archives/florida-sues-openai-and-sam-altman-over-alleged-safety-failures-and-violent-outcomes/",
+          "publishedOn": "2026-06-03T20:13:44.000Z",
+          "wordCount": 4922,
+          "title": "Florida sues OpenAI and Sam Altman over alleged safety failures and violent outcomes",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/florida-sues-openai-and-sam-altman-over-alleged-safety-failures-and-violent-outcomes.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-doubles-macbook-neo-production-as-demand-exceeds-expectations/",
+          "author": "IT News",
+          "description": "Apple’s MacBook Neo has achieved significant market success by shipping 1.1 million units within its first three weeks of availability. This entry-level laptop utilizes an A18 Pro chip and 8GB of memory to reach a lower price point than the MacBook Air. The strategy aims to capture a larger share of the budget notebook market, which has historically been dominated by Windows-based devices.\nSource",
+          "link": "https://4sysops.com/archives/apple-doubles-macbook-neo-production-as-demand-exceeds-expectations/",
+          "publishedOn": "2026-06-03T20:13:43.000Z",
+          "wordCount": 4782,
+          "title": "Apple doubles MacBook Neo production as demand exceeds expectations",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-doubles-macbook-neo-production-as-demand-exceeds-expectations.jpg"
+        },
         {
           "id": "https://4sysops.com/archives/ai-leaders-walk-back-predictions-of-a-white-collar-jobs-apocalypse/",
           "author": "IT News",
@@ -14982,16 +15172,6 @@
           "wordCount": null,
           "title": "Windows 365 Flex, AVD Hybrid, and pricing changes explained",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1610414",
-          "author": "IT Experts",
-          "description": "Microsoft 365 Backup now lets you recover individual files and folders from SharePoint and OneDrive backups without rolling back an entire site or account. This granular restore feature became generally available in late April 2026. You need the SharePoint Backup Administrator role to use it, and the service charges $0.15 per GB per month for protected data. This article explains how the feature works, its limitations, and how to perform a restore.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-365-backup-restore-individual-files-and-folders-with-granular-restore/",
-          "publishedOn": "2026-05-04T20:10:45.000Z",
-          "wordCount": null,
-          "title": "Microsoft 365 Backup: Restore individual files and folders with granular restore",
-          "imageUrl": null
         }
       ]
     },
@@ -15227,6 +15407,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/otto-support-testing-mcp-servers",
+          "author": null,
+          "description": "MCP servers introduce a new attack surface, but the security fundamentals are familiar. In this final otto-support post, we use nmap, a Nuclei template, and MCP Inspector to discover, enumerate, and exploit an authorization gap without ever touching an LLM.",
+          "link": "https://bishopfox.com/blog/otto-support-testing-mcp-servers",
+          "publishedOn": "2026-06-03T13:00:00.000Z",
+          "wordCount": 2299,
+          "title": "Otto Support - Testing MCP Servers",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Otto-Support-Testing-MCP-Servers.png?mtime=1780521728"
+        },
+        {
           "id": "https://bishopfox.com/blog/looting-unifi-controllers-detecting-and-weaponizing-cve-2026-22557",
           "author": null,
           "description": "A CVSS 10.0 path traversal in UniFi Network Application lets unauthenticated attackers read controller backups, extract credentials, and take over every managed device on the network. Bishop Fox breaks down the attack paths, the preconditions, and a safe detection tool to check your exposure.",
@@ -15402,26 +15592,6 @@
           "wordCount": 3972,
           "title": "What’s New with Sara Pentest: Closing the Coverage Gap, One Test at a Time",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/05/3d-futuristic-abstract-low-poly-design.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=25572",
-          "author": "Jay Kaplan",
-          "description": "The Model We’ve Relied on Is Starting to Break Over the past 20 years, I’ve seen the threat landscape evolve from opportunistic attackers, to organized cybercrime, to nation-state campaigns. Each shift forced security teams to adapt. What’s happening right now is different. AI models coming out of Anthropic, OpenAI, Google, and X are rewriting the […]\nThe post Sara AI Pentesting Is Now Generally Available: The Model Is Changing appeared first on Synack.",
-          "link": "https://www.synack.com/blog/sara-ai-pentesting-is-now-generally-available-the-model-is-changing/",
-          "publishedOn": "2026-05-04T23:55:17.000Z",
-          "wordCount": 4319,
-          "title": "Sara AI Pentesting Is Now Generally Available: The Model Is Changing",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/05/3d-futuristic-abstract-low-poly-design.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=25558",
-          "author": "Angela Heindl-Schober",
-          "description": "Key Takeaways Why the Industry Is Moving from Detection to Validation Over the past year, the conversation around offensive security has changed faster than most enterprise programs have been able to adapt. AI is compressing attacker timelines; cloud and SaaS environments change daily; identity systems, APIs, and infrastructure shift continuously, not quarterly. And still, most […]\nThe post Continuous Security Validation Is Replacing Periodic Penetration Testing appeared first on Synack.",
-          "link": "https://www.synack.com/blog/continuous-security-validation-aev-cost/",
-          "publishedOn": "2026-05-04T16:42:21.000Z",
-          "wordCount": 4385,
-          "title": "Continuous Security Validation Is Replacing Periodic Penetration Testing",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/04/marek-piwnicki-fNWRjmHMYkU-unsplash-scaled.jpg"
         }
       ]
     },
@@ -16349,9 +16519,9 @@
       "articles": []
     },
     {
-      "title": "Blog – Red Canary",
+      "title": "The Red Canary Blog: Information Security Insights",
       "feedUrl": "https://redcanary.com/blog/feed/",
-      "siteUrl": "https://redcanary.com",
+      "siteUrl": "https://redcanary.com/blog/",
       "articles": [
         {
           "id": "https://redcanary.com/?p=47961",
@@ -16422,16 +16592,6 @@
           "wordCount": 8192,
           "title": "Spring cleaning your browser",
           "imageUrl": "https://redcanary.com/wp-content/uploads/2026/05/1200x628-SpringCleaningBlog-RedCanary.jpg"
-        },
-        {
-          "id": "https://redcanary.com/?p=43670",
-          "author": "Shelley Moore",
-          "description": "Red Canary's monthly roundup of upcoming security conferences and call for papers (CFP) submission deadlines May 2026",
-          "link": "https://redcanary.com/blog/news-events/red-canary-cfp-tracker-may-2026/",
-          "publishedOn": "2026-05-04T15:44:20.000Z",
-          "wordCount": 7605,
-          "title": "Red Canary CFP tracker: May 2026",
-          "imageUrl": "https://redcanary.com/wp-content/uploads/2025/08/Blog_CFPTracker_RedCanary_1200x628.jpg"
         }
       ]
     },
@@ -16544,66 +16704,6 @@
             "type": "image/webp"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/tclbanker-brazilian-banking-trojan/tclbanker-brazilian-banking-trojan.webp"
-        },
-        {
-          "id": "entity-analytics-watchlists",
-          "author": null,
-          "description": "Elastic Security v9.4 introduces Entity Analytics Watchlists, a way to codify what your team already knows about high-risk entities and feed that context directly into risk scoring, without custom pipelines or detection engineering overhead",
-          "link": "https://www.elastic.co/security-labs/entity-analytics-watchlists",
-          "publishedOn": "2026-05-05T00:00:00.000Z",
-          "wordCount": 4519,
-          "title": "Know who to watch before the incident finds you",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/entity-analytics-watchlists/entity-analytics-watchlists.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/entity-analytics-watchlists/entity-analytics-watchlists.webp"
-        },
-        {
-          "id": "proactive-threat-hunting-ai-generated-leads",
-          "author": null,
-          "description": "Introducing AI-generated hunting leads, proactive, environment-aware threat hypotheses powered by Elastic Entity analytics and integrated AI reasoning.",
-          "link": "https://www.elastic.co/security-labs/proactive-threat-hunting-ai-generated-leads",
-          "publishedOn": "2026-05-05T00:00:00.000Z",
-          "wordCount": 3302,
-          "title": "AI-generated hunting leads: The hunt starts before you ask the question",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/proactive-threat-hunting-ai-generated-leads/proactive-threat-hunting-ai-generated-leads.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/proactive-threat-hunting-ai-generated-leads/proactive-threat-hunting-ai-generated-leads.webp"
-        },
-        {
-          "id": "ueba-entity-record-quality-analytics",
-          "author": null,
-          "description": "Most entity analytics systems are confidently wrong. They track users who do not exist, generate risk scores built on noise, and call it behavioral analytics. Learn why the entities records you don't create matter as much as the ones you do and how a confidence-tiered model changes the game.",
-          "link": "https://www.elastic.co/security-labs/ueba-entity-record-quality-analytics",
-          "publishedOn": "2026-05-05T00:00:00.000Z",
-          "wordCount": 6180,
-          "title": "Your UEBA is lying to you: Why entity record quality decides everything",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/ueba-entity-record-quality-analytics/header.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/ueba-entity-record-quality-analytics/header.png"
-        },
-        {
-          "id": "elastic-workflows-ga-9-4",
-          "author": null,
-          "description": "Elastic Workflows is generally available in 9.4, bringing production-ready security automation with deeper case management integration, human-in-the-loop support, natural language authoring, and more.",
-          "link": "https://www.elastic.co/security-labs/elastic-workflows-ga-9-4",
-          "publishedOn": "2026-05-05T00:00:00.000Z",
-          "wordCount": 6726,
-          "title": "Elastic Workflows GA: automation where your security data already lives",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/elastic-workflows-ga-9-4/elastic-workflows-ga-9-4.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/elastic-workflows-ga-9-4/elastic-workflows-ga-9-4.webp"
         }
       ]
     },
@@ -17155,21 +17255,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1778064378-threat-update-pink-subtitle_custom.jpeg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/pen-test-findings",
-          "author": "Eyal Golombek",
-          "description": "Streamline pen-testing by unifying findings from bug bounties, manual audits, and Wiz Red Agent into a single, context-rich view.",
-          "link": "https://www.wiz.io/blog/pen-test-findings",
-          "publishedOn": "2026-05-05T13:00:34.000Z",
-          "wordCount": 15718,
-          "title": "Introducing Penetration Test Findings: Unified Offensive Security in Wiz",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg"
         }
       ]
     },
