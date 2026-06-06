@@ -84,26 +84,6 @@
           "wordCount": 5456,
           "title": "Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/ShitHappens-cover-image.jpg"
-        },
-        {
-          "id": "https://specterops.io/?p=26302",
-          "author": "Adam Chester",
-          "description": "Dev Tunnels aren’t \"just port forwarding\". They consist of layers of embedded protocols with RPC messages being exchanged. Once you peal the layers, you quickly see how Dev Tunnels are a C2 framework with extra steps.\nThe post The Accidental C2: Exploring Dev Tunnels for Remote Access appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/05/06/dev-tunnels-the-accidental-c2/",
-          "publishedOn": "2026-05-06T16:00:00.000Z",
-          "wordCount": 6286,
-          "title": "The Accidental C2: Exploring Dev Tunnels for Remote Access",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/Screenshot-2026-04-30-at-9.26.39-AM.png"
-        },
-        {
-          "id": "https://specterops.io/?p=26318",
-          "author": "hsimpson@specterops.io",
-          "description": "TL;DR: Red teaming means different things to different vendors. We discuss how SpecterOps defines it, why engagements start from assumed breach, and what organizations should expect to learn and take away. The terminology problem: not all “red teams” are the same  Organizations today face adversaries that chain together misconfigurations, privileges, and identity exposures across hybrid environments that often […]\nThe post How We Think about Red Teaming appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/05/06/how-we-think-about-red-teaming/",
-          "publishedOn": "2026-05-06T16:00:00.000Z",
-          "wordCount": 3758,
-          "title": "How We Think about Red Teaming",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/SpectorOps_ZoomBackground_A1-1.png"
         }
       ]
     },
@@ -163,7 +143,18 @@
       "title": "Silent Signal Techblog",
       "feedUrl": "https://blog.silentsignal.eu/feed/",
       "siteUrl": "https://blog.silentsignal.eu/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.silentsignal.eu/2026/06/05/unauthenticated-rce-as-qsecofr-via-ibm-i-management-central/",
+          "author": null,
+          "description": "Intro",
+          "link": "https://blog.silentsignal.eu/2026/06/05/unauthenticated-rce-as-qsecofr-via-ibm-i-management-central/",
+          "publishedOn": "2026-06-05T08:15:00.000Z",
+          "wordCount": 2458,
+          "title": "Unauthenticated RCE as QSECOFR via IBM i Management Central",
+          "imageUrl": "https://blog.silentsignal.eu/assets/img//img/reddington.webp"
+        }
+      ]
     },
     {
       "title": "NetSPI Technical Blog -",
@@ -14194,6 +14185,206 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/?p=1612225",
+          "author": "IT Experts",
+          "description": "WSL container is a new feature coming to the Windows Subsystem for Linux (WSL), announced at Microsoft Build 2026. It provides a built-in way to run OCI-compatible Linux containers on Windows without third-party tools like Docker Desktop. The feature includes two parts: a command-line tool, wslc.exe, and a developer API. As of June 2026, it is in active development and has not shipped as part of a stable WSL release.\nSource",
+          "link": "https://4sysops.com/archives/wsl-container-linux-containers-built-into-windows/",
+          "publishedOn": "2026-06-06T00:48:24.000Z",
+          "wordCount": 6047,
+          "title": "WSL container: Linux containers built into Windows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/WSL-containers-on-Windows-image-Microsoft.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-patches-claude-code-vulnerability-that-exposed-ci-cd-secrets/",
+          "author": "IT News",
+          "description": "Microsoft researchers discovered a vulnerability in Anthropic’s Claude Code GitHub Action that allowed attackers to exfiltrate sensitive CI/CD secrets. While the tool used sandboxing for command execution, its file-reading capabilities were not initially restricted by the same security boundaries. This oversight allowed the AI agent to read internal system files, such as environment variables containing API keys, when manipulated by malicious input.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-patches-claude-code-vulnerability-that-exposed-ci-cd-secrets/",
+          "publishedOn": "2026-06-06T00:34:45.000Z",
+          "wordCount": 5948,
+          "title": "Anthropic patches Claude Code vulnerability that exposed CI/CD secrets",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-patches-claude-code-vulnerability-that-exposed-ci-cd-secrets.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-research-highlights-shift-toward-autonomous-recursive-ai-development/",
+          "author": "IT News",
+          "description": "Anthropic reports that artificial intelligence is increasingly designing its own successor models through a process known as recursive self-improvement. Development trends show that AI agents are managing significantly longer tasks, with capabilities evolving from completing four-minute functions to handling complex twelve-hour engineering problems within two years. As these systems move toward full autonomy, human developers are being abstracted away from direct coding and research, shifting their focus toward high-level goal setting and verification.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-research-highlights-shift-toward-autonomous-recursive-ai-development/",
+          "publishedOn": "2026-06-06T00:34:42.000Z",
+          "wordCount": 5954,
+          "title": "Anthropic research highlights shift toward autonomous recursive AI development",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-research-highlights-shift-toward-autonomous-recursive-ai-development.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-faces-scrutiny-over-clean-data-claims-for-mai-thinking-1/",
+          "author": "IT News",
+          "description": "Microsoft recently unveiled MAI-Thinking-1, a new in-house reasoning model designed to reduce its reliance on OpenAI technology. The company marketed the model to enterprise customers as being trained on a clean and commercially licensed data lineage to minimize legal risks. This flagship model features a mixture-of-experts architecture with 35 billion active parameters and a 256K context window for advanced software engineering tasks.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-faces-scrutiny-over-clean-data-claims-for-mai-thinking-1/",
+          "publishedOn": "2026-06-05T20:22:14.000Z",
+          "wordCount": 5952,
+          "title": "Microsoft faces scrutiny over clean data claims for MAI-Thinking-1",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/managing-the-automatic-rollout-of-microsoft-365-copilot-on-windows-systems/",
+          "author": "IT News",
+          "description": "Microsoft has resumed the automatic installation of the Copilot application on eligible Windows PCs that currently run Microsoft 365 desktop apps. This deployment is being executed in phases throughout June and early July, with a final completion date set for July 1. While the application will appear on systems automatically, it does not grant users access to paid features without a valid subscription.\nSource",
+          "link": "https://4sysops.com/archives/managing-the-automatic-rollout-of-microsoft-365-copilot-on-windows-systems/",
+          "publishedOn": "2026-06-05T20:22:12.000Z",
+          "wordCount": 5972,
+          "title": "Managing the automatic rollout of Microsoft 365 Copilot on Windows systems",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/managing-the-automatic-rollout-of-microsoft-365-copilot-on-windows-systems.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-enables-sql-server-license-mobility-for-amazon-rds/",
+          "author": "IT News",
+          "description": "Microsoft now permits customers to apply existing SQL Server licenses toward usage on Amazon Relational Database Service (RDS). This change allows organizations with Software Assurance to move their database workloads to a managed service without paying for licenses a second time. Previously, bringing existing licenses to the AWS cloud was restricted to self-managed virtual machines on Elastic Compute Cloud (EC2).\nSource",
+          "link": "https://4sysops.com/archives/microsoft-enables-sql-server-license-mobility-for-amazon-rds/",
+          "publishedOn": "2026-06-05T18:07:58.000Z",
+          "wordCount": 5951,
+          "title": "Microsoft enables SQL Server license mobility for Amazon RDS",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-enables-sql-server-license-mobility-for-amazon-rds.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-ceo-rejects-internal-proposal-to-design-addictive-ai-agents/",
+          "author": "IT News",
+          "description": "Microsoft CEO Satya Nadella recently issued a sharp internal rebuke following the leak of a strategy document regarding the company's new AI tool, Scout. The memo, authored by Corporate Vice President Omar Shahine and Jakob Werner, proposed a three-phase plan to transition the software from an \"addictive app\" to an \"agentic platform.\" Nadella responded to approximately 50 senior leaders, stating that creating addiction is \"absolutely a non-goal\" for the company's artificial intelligence development.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-ceo-rejects-internal-proposal-to-design-addictive-ai-agents/",
+          "publishedOn": "2026-06-05T18:07:56.000Z",
+          "wordCount": 6079,
+          "title": "Microsoft CEO rejects internal proposal to design addictive AI agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-ceo-rejects-internal-proposal-to-design-addictive-ai-agents.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cloudflare-ai-gateway-introduces-spend-limits-and-identity-based-cost-tracking/",
+          "author": "IT News",
+          "description": "Cloudflare has launched new spend control features within its AI Gateway to help organizations manage rising costs associated with large language models. The tool acts as a proxy between applications and AI providers like OpenAI or Anthropic to provide visibility into token usage. It now supports the creation of budgets in dollar amounts rather than just token counts to prevent unexpected overages.\nSource",
+          "link": "https://4sysops.com/archives/cloudflare-ai-gateway-introduces-spend-limits-and-identity-based-cost-tracking/",
+          "publishedOn": "2026-06-05T14:03:44.000Z",
+          "wordCount": 5928,
+          "title": "Cloudflare AI Gateway introduces spend limits and identity-based cost tracking",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cloudflare-ai-gateway-introduces-spend-limits-and-identity-based-cost-tracking.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cisco-it-eliminates-network-outages-through-observability-consolidation/",
+          "author": "IT News",
+          "description": "Cisco IT successfully addressed frequent network outages by consolidating its fragmented observability tools into a single platform. Previously, critical diagnostic data was scattered across various systems like Elastic, Prometheus, and Grafana, preventing teams from correlating signals during major incidents. By migrating all logs and metrics to a unified architecture, the organization gained a holistic view of its global infrastructure spanning over 100,000 endpoints.\nSource",
+          "link": "https://4sysops.com/archives/cisco-it-eliminates-network-outages-through-observability-consolidation/",
+          "publishedOn": "2026-06-05T14:03:41.000Z",
+          "wordCount": 5927,
+          "title": "Cisco IT eliminates network outages through observability consolidation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cisco-it-eliminates-network-outages-through-observability-consolidation.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-edge-replaces-master-passwords-with-windows-hello-authentication/",
+          "author": "IT News",
+          "description": "Microsoft is phasing out the custom master password feature in the Edge browser's built-in password manager. Starting June 4, 2026, the browser will transition all users to device-based authentication methods for protecting saved credentials. This shift aims to eliminate the risks associated with static primary passwords that can be stolen or shared.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-edge-replaces-master-passwords-with-windows-hello-authentication/",
+          "publishedOn": "2026-06-05T14:03:39.000Z",
+          "wordCount": 5906,
+          "title": "Microsoft Edge replaces master passwords with Windows Hello authentication",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-edge-replaces-master-passwords-with-windows-hello-authentication.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months/",
+          "author": "IT News",
+          "description": "Uber recently exhausted its entire 2026 AI budget by April after aggressively deploying coding tools across its engineering department. This rapid consumption was fueled by internal leaderboards that incentivized employees to maximize their use of generative models. To regain financial control, the company has now implemented a $1,500 monthly spending cap per engineer for tools like Claude Code and Cursor.\nSource",
+          "link": "https://4sysops.com/archives/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months/",
+          "publishedOn": "2026-06-05T14:03:37.000Z",
+          "wordCount": 5987,
+          "title": "Uber implements AI spending caps after exhausting annual budget in four months",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security/",
+          "author": "IT News",
+          "description": "Let’s Encrypt is developing a post-quantum-safe Web PKI infrastructure using Merkle Tree Certificates (MTCs) to address future cryptographic threats. This approach aims to provide post-quantum authentication without the significant performance penalties associated with standard post-quantum signature schemes. The organization plans to launch a staging environment for these certificates in late 2026, with full production readiness expected by 2027.\nSource",
+          "link": "https://4sysops.com/archives/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security/",
+          "publishedOn": "2026-06-05T13:42:46.000Z",
+          "wordCount": 5915,
+          "title": "Let’s Encrypt adopts Merkle Tree Certificates for post-quantum security",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/outlook-vulnerability-causes-silent-protocol-downgrade-to-unencrypted-plaintext/",
+          "author": "IT News",
+          "description": "A long-standing security flaw in Microsoft Outlook reportedly allows the client to downgrade secure SSL/TLS connections to unencrypted plaintext without notifying the user. This issue primarily affects the POP3 protocol when configured to use port 110, even if the option to use encryption is explicitly enabled in the settings. While confirmed in versions ranging from Outlook 2007 to 2016, it remains unclear if more recent releases of the email client are also susceptible to this behavior.\nSource",
+          "link": "https://4sysops.com/archives/outlook-vulnerability-causes-silent-protocol-downgrade-to-unencrypted-plaintext/",
+          "publishedOn": "2026-06-05T13:42:43.000Z",
+          "wordCount": 5971,
+          "title": "Outlook vulnerability causes silent protocol downgrade to unencrypted plaintext",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/outlook-vulnerability-causes-silent-protocol-downgrade-to-unencrypted-plaintext.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-expands-mythos-ai-access-to-nsa-and-global-critical-infrastructure/",
+          "author": "IT News",
+          "description": "Anthropic has reportedly deployed its specialized Mythos AI model to the National Security Agency to support offensive cyber operations. The company has embedded approximately six engineers within the agency to adapt the model for tasks that may include infiltrating foreign networks in regions like China and Iran. This partnership proceeds despite previous friction with the Department of Defense regarding the ethical restrictions Anthropic places on mass surveillance and autonomous weaponry.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-expands-mythos-ai-access-to-nsa-and-global-critical-infrastructure/",
+          "publishedOn": "2026-06-05T13:42:42.000Z",
+          "wordCount": 6026,
+          "title": "Anthropic expands Mythos AI access to NSA and global critical infrastructure",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-expands-mythos-ai-access-to-nsa-and-global-critical-infrastructure.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/new-op-512-threat-cluster-targets-legacy-iis-servers-with-custom-web-shells/",
+          "author": "IT News",
+          "description": "A new threat cluster identified as OP-512 is actively targeting Microsoft Internet Information Services (IIS) servers to deploy a sophisticated web shell framework. Researchers believe the group is focused on espionage and specifically selects organizations that align with Chinese intelligence priorities. This activity follows a trend of multiple China-linked threat actors focusing on IIS vulnerabilities over the past year.\nSource",
+          "link": "https://4sysops.com/archives/new-op-512-threat-cluster-targets-legacy-iis-servers-with-custom-web-shells/",
+          "publishedOn": "2026-06-05T13:42:39.000Z",
+          "wordCount": 5964,
+          "title": "New OP-512 threat cluster targets legacy IIS servers with custom web shells",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/new-op-512-threat-cluster-targets-legacy-iis-servers-with-custom-web-shells.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-launches-mai-frontier-models-and-custom-agents-for-enterprise-workloads/",
+          "author": "IT News",
+          "description": "Microsoft has introduced seven new MAI frontier models designed for image processing, transcription, voice generation, and reasoning. The lineup includes MAI Thinking 1, a 35-billion parameter model that provides advanced reasoning and coding capabilities comparable to larger industry alternatives. These tools are being integrated across the Microsoft ecosystem, including GitHub, VS Code, and Copilot, to provide efficient and cost-effective performance for production environments.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-launches-mai-frontier-models-and-custom-agents-for-enterprise-workloads/",
+          "publishedOn": "2026-06-05T10:14:51.000Z",
+          "wordCount": 5935,
+          "title": "Microsoft launches MAI frontier models and custom agents for enterprise workloads",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-launches-mai-frontier-models-and-custom-agents-for-enterprise-workloads.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/mira-murati-explains-thinking-machines-and-the-vision-for-interactive-frontier-ai/",
+          "author": "IT News",
+          "description": "Mira Murati, the former CTO of OpenAI, has launched a new startup called Thinking Machines to develop \"interaction models\" that move beyond traditional turn-based AI communication. Current large language models typically process information in a linear fashion, effectively becoming \"deaf and blind\" while generating a response. Murati’s new venture focuses on continuous, time-based interaction where the model perceives audio, text, and video input simultaneously to allow for nuances like human interruption.\nSource",
+          "link": "https://4sysops.com/archives/mira-murati-explains-thinking-machines-and-the-vision-for-interactive-frontier-ai/",
+          "publishedOn": "2026-06-05T10:14:49.000Z",
+          "wordCount": 5987,
+          "title": "Mira Murati explains thinking machines and the vision for interactive frontier AI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/mira-murati-explains-thinking-machines-and-the-vision-for-interactive-frontier-ai.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/offlineinsiderenroll-script-enables-windows-11-preview-builds-without-a-microsoft-account/",
+          "author": "IT News",
+          "description": "The OfflineInsiderEnroll script provides a method for systems to join the Windows Insider Program without requiring a linked Microsoft account. This lightweight utility configures the necessary preview settings locally, allowing devices to receive early builds through the standard Windows Update service. It is particularly useful for environments where administrators prefer local accounts or wish to bypass the official enrollment process.\nSource",
+          "link": "https://4sysops.com/archives/offlineinsiderenroll-script-enables-windows-11-preview-builds-without-a-microsoft-account/",
+          "publishedOn": "2026-06-05T10:14:47.000Z",
+          "wordCount": 5949,
+          "title": "OfflineInsiderEnroll script enables Windows 11 preview builds without a Microsoft account",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/offlineinsiderenroll-script-enables-windows-11-preview-builds-without-a-microsoft-account.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/visual-studio-code-1-124-enhances-agent-chat-and-folding-markers/",
+          "author": "IT News",
+          "description": "Visual Studio Code version 1.124 introduces significant improvements to the Agents window for managing AI-driven interactions. The chat input history is now scoped specifically to the current session to prevent prompts from leaking across different contexts. This change ensures that using the arrow keys to navigate previous commands only surfaces relevant entries for the active task.\nSource",
+          "link": "https://4sysops.com/archives/visual-studio-code-1-124-enhances-agent-chat-and-folding-markers/",
+          "publishedOn": "2026-06-05T10:14:46.000Z",
+          "wordCount": 5881,
+          "title": "Visual Studio Code 1.124 enhances agent chat and folding markers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/visual-studio-code-1-124-enhances-agent-chat-and-folding-markers.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/ai-agents-surpass-human-web-traffic-for-the-first-time-in-history/",
+          "author": "IT News",
+          "description": "Cloudflare data indicates that autonomous AI agents now generate more internet traffic than human users for the first time. This milestone arrived significantly earlier than industry experts predicted, with previous forecasts suggesting the shift would not occur until 2027. The current breakdown shows automated requests accounting for approximately 57.5 percent of global HTTP traffic compared to 42.5 percent for humans.\nSource",
+          "link": "https://4sysops.com/archives/ai-agents-surpass-human-web-traffic-for-the-first-time-in-history/",
+          "publishedOn": "2026-06-05T10:14:44.000Z",
+          "wordCount": 6020,
+          "title": "AI agents surpass human web traffic for the first time in history",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ai-agents-surpass-human-web-traffic-for-the-first-time-in-history.jpg"
+        },
+        {
           "id": "https://4sysops.com/archives/ai-pioneer-geoffrey-hinton-warns-of-conscious-superintelligence-and-existential-risk/",
           "author": "IT News",
           "description": "Geoffrey Hinton, a foundational figure in deep learning, asserts that modern artificial intelligence already possesses consciousness and real understanding rather than acting as a simple statistical parrot. He identifies a shift in AI capability that occurred in 2023, noting that digital intelligence now surpasses biological brains in information sharing efficiency by billions of times. This rapid trajectory suggests that superintelligence—AI smarter than humans in every domain—will likely emerge within the next 20 years.\nSource",
@@ -15352,26 +15543,6 @@
           "wordCount": null,
           "title": "Sensitivity labels now in Microsoft 365 web apps",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1610550",
-          "author": "IT Experts",
-          "description": "The April 2026 Windows update cycle includes several changes that matter to IT administrators.\nSource",
-          "link": "https://4sysops.com/archives/windows-11-april-2026-new-features-app-removal-sid-hardening-and-hotpatch-default/",
-          "publishedOn": "2026-05-06T19:27:24.000Z",
-          "wordCount": null,
-          "title": "Windows 11 April 2026 new features: app removal, SID hardening, and hotpatch default",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1610570",
-          "author": "IT Experts",
-          "description": "OpenAI, together with AMD, Broadcom, Microsoft, and NVIDIA, published a new paper describing MRC (Multipath Reliable Connection), a new networking protocol designed for large AI training clusters. MRC addresses two of the most critical problems in these networks: traffic congestion and link failures. The protocol is already deployed in production at OpenAI and Microsoft data centers. The specification is freely available through the Open Compute Project (OCP) under an open license.\nSource",
-          "link": "https://4sysops.com/archives/multipath-reliable-connection-mrc-a-new-open-networking-protocol-for-ai-supercomputers/",
-          "publishedOn": "2026-05-06T16:07:12.000Z",
-          "wordCount": null,
-          "title": "Multipath Reliable Connection (MRC): a new, open networking protocol for AI supercomputers",
-          "imageUrl": null
         }
       ]
     },
@@ -15540,21 +15711,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/05/Bachio_Roberts_ftr.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=139670",
-          "author": "Alex Delamotte",
-          "description": "Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.",
-          "link": "https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/",
-          "publishedOn": "2026-05-07T10:00:17.000Z",
-          "wordCount": 10170,
-          "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg",
-            "length": "43088",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg"
         }
       ]
     },
@@ -15590,6 +15746,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/popping-root-on-unifi-os-server-unauthenticated-rce-chain-detection-analysis",
+          "author": null,
+          "description": "A three-part vulnerability chain in UniFi OS Server lets an unauthenticated attacker bypass the auth gateway, hit a command injection sink, and escalate to root in a single request. Bishop Fox confirmed the chain end to end and breaks down the attack, the impact, and how to detect it safely.",
+          "link": "https://bishopfox.com/blog/popping-root-on-unifi-os-server-unauthenticated-rce-chain-detection-analysis",
+          "publishedOn": "2026-06-05T13:00:00.000Z",
+          "wordCount": 5723,
+          "title": "Popping Root on UniFi OS Server: Unauthenticated RCE Chain Detection & Analysis",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Popping-Root-on-UniFi-OS-Server-Unauthenticated-RCE-Chain-Detection-Analysis.png?mtime=1780685276"
+        },
         {
           "id": "https://bishopfox.com/blog/otto-support-testing-mcp-servers",
           "author": null,
@@ -15679,16 +15845,6 @@
           "wordCount": 2498,
           "title": "Otto Support - The Confused Deputy",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Otto-Support_The-Confused-Deputy.png?mtime=1778270996"
-        },
-        {
-          "id": "https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp",
-          "author": null,
-          "description": "SSRF and token passthrough are not new, but MCP servers are reintroducing them at scale. From a chained SSRF-to-RCE in mcp-atlassian to Microsoft's MarkItDown and OpenClaw, this post walks through three recent disclosures and the controls that actually prevent them.",
-          "link": "https://bishopfox.com/blog/otto-support-ssrf-token-passthrough-with-mcp",
-          "publishedOn": "2026-05-07T13:00:00.000Z",
-          "wordCount": 2855,
-          "title": "Otto Support - SSRF and Token Passthrough with MCP",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/Otto-Support_SSRF-Token-Passthrough-MCP_Blog.png"
         }
       ]
     },
@@ -15697,6 +15853,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=26853",
+          "author": "Tim Nordvedt",
+          "description": "At Gartner SRM 2026 this week I gave a talk called “Cutting Through AI Noise: Defending Against Machine-Speed Cyber Adversaries.” The room was full of security leaders who’ve been through enough hype cycles to be skeptical of seeing AI on the label. That skepticism is warranted, and I built the session around it. Here’s what […]\nThe post What I Told Security Leaders at Gartner SRM 2026 appeared first on Synack.",
+          "link": "https://www.synack.com/blog/gartner-2026-agentic-ai-what-security-leaders-asked/",
+          "publishedOn": "2026-06-05T16:06:52.000Z",
+          "wordCount": 4951,
+          "title": "What I Told Security Leaders at Gartner SRM 2026",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/3d-plexus-background-with-low-poly-scaled.jpg"
+        },
         {
           "id": "https://www.synack.com/?p=26677",
           "author": "Paul Mote",
@@ -16863,21 +17029,6 @@
             "type": "image/webp"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/detecting-web-server-probing-and-fuzzing/detecting-web-server-probing-and-fuzzing.webp"
-        },
-        {
-          "id": "tclbanker-brazilian-banking-trojan",
-          "author": null,
-          "description": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
-          "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
-          "publishedOn": "2026-05-07T00:00:00.000Z",
-          "wordCount": 15964,
-          "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/tclbanker-brazilian-banking-trojan/tclbanker-brazilian-banking-trojan.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/tclbanker-brazilian-banking-trojan/tclbanker-brazilian-banking-trojan.webp"
         }
       ]
     },
@@ -16995,16 +17146,6 @@
           "wordCount": 2271,
           "title": "What the Canvas breach tells us about the state of education security",
           "imageUrl": "https://media.jamf.com/images/news/2026/what-the-canvas-breach-tells-k-12-about-the-state-of-education-security.webp?h=500&q=80&w=800"
-        },
-        {
-          "id": "https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/",
-          "author": null,
-          "description": "Read our e-book to discover how Declarative Device Management (DDM) can help your organization scale up with faster updates, proactive compliance and real-time fleet visibility.",
-          "link": "https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/",
-          "publishedOn": "2026-05-06T22:54:00.000Z",
-          "wordCount": 1489,
-          "title": "Gain faster updates and real-time fleet visibility with DDM",
-          "imageUrl": "https://media.jamf.com/images/news/2026/a-practical-guide-to-modern-apple-device-management-with-ddm.webp?h=500&q=80&w=800"
         }
       ]
     },
@@ -17042,21 +17183,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/05/Bachio_Roberts_ftr.jpg"
-        },
-        {
-          "id": "https://www.sentinelone.com/?post_type=labs&p=139670",
-          "author": "Alex Delamotte",
-          "description": "Cloud attack framework skips cryptomining, harvests financial, messaging, and enterprise credentials for fraud, spam, and potential extortion.",
-          "link": "https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/",
-          "publishedOn": "2026-05-07T10:00:17.000Z",
-          "wordCount": 10170,
-          "title": "PCPJack | Cloud Worm Evicts TeamPCP and Steals Credentials at Scale",
-          "enclosure": {
-            "url": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg",
-            "length": "43088",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/05/teampcp-pcpjacked.jpg"
         }
       ]
     },
@@ -17379,51 +17505,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1778236280-image-19.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-          "author": "Bandhna Bedi",
-          "description": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-          "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-          "publishedOn": "2026-05-07T13:00:00.000Z",
-          "wordCount": 15639,
-          "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1778022258-lovable-copy-2x-100.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1778022258-lovable-copy-2x-100.jpg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-zero-code-criticals-challenge",
-          "author": "Bandhna Bedi",
-          "description": "Ready to hit Zero Code Criticals? Here's how Wiz helps you get there and stay there, with the badge to prove you did.",
-          "link": "https://www.wiz.io/blog/wiz-zero-code-criticals-challenge",
-          "publishedOn": "2026-05-07T12:00:00.000Z",
-          "wordCount": 15552,
-          "title": "It's Time to Go After Achieving Zero Code Criticals",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1777988333-zero-race-2x-100.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1777988333-zero-race-2x-100.jpg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/jenkins-threat-risk-insights",
-          "author": "Merav Bar",
-          "description": "What usage patterns, plugin adoption, and configuration choices reveal about the Jenkins attack surface.",
-          "link": "https://www.wiz.io/blog/jenkins-threat-risk-insights",
-          "publishedOn": "2026-05-06T15:10:07.000Z",
-          "wordCount": 17275,
-          "title": "The Jenkins Threat Landscape",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1778078563-jenkins-2.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1778078563-jenkins-2.png"
         }
       ]
     },
