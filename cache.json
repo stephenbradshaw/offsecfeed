@@ -74,16 +74,6 @@
           "wordCount": 7772,
           "title": "What Comes Before Tickets",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/05/image-4.png"
-        },
-        {
-          "id": "https://specterops.io/?p=25536",
-          "author": "Remi GASCOU",
-          "description": "TL;DR: Two command injection vulnerabilities exist in the Windows Explorer “Open PowerShell window here” context menu due to improper quoting and command injection through user-controlled folder paths. By creating folders with crafted names (e.g., folder; calc), an attacker can trigger arbitrary PowerShell command execution when a user uses Shift + Right-Click → Open PowerShell window […]\nThe post Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/05/07/shift-happens-uncovering-two-built-in-command-injections-in-windows-context-menus/",
-          "publishedOn": "2026-05-07T16:00:00.000Z",
-          "wordCount": 5456,
-          "title": "Shift Happens – Uncovering Two Built-in Command Injections in Windows Context Menus",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/04/ShitHappens-cover-image.jpg"
         }
       ]
     },
@@ -14185,6 +14175,86 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/archives/microsoft-removes-edge-collections-and-sidebar-to-prioritize-copilot-ai/",
+          "author": "IT News",
+          "description": "Microsoft has officially discontinued the Collections and Sidebar features in Edge version 149 to focus on AI integration. Collections previously allowed users to organize web research, shopping items, and travel plans with rich visual previews and notes. This change marks a significant shift in the browser's development strategy under the current Microsoft AI leadership team.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-removes-edge-collections-and-sidebar-to-prioritize-copilot-ai/",
+          "publishedOn": "2026-06-06T20:51:14.000Z",
+          "wordCount": 6005,
+          "title": "Microsoft removes Edge Collections and Sidebar to prioritize Copilot AI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-removes-edge-collections-and-sidebar-to-prioritize-copilot-ai.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/miasma-worm-compromises-73-microsoft-github-repositories-in-supply-chain-attack/",
+          "author": "IT News",
+          "description": "A self-replicating worm named Miasma has successfully compromised 73 Microsoft GitHub repositories across several organizations, including Azure and MicrosoftDocs. GitHub staff responded by disabling access to high-profile repositories such as the Azure Functions host and various Durable Task implementations. This incident appears to be a continuation of a previous compromise, suggesting that the threat actors maintained access to credentials from earlier attacks.\nSource",
+          "link": "https://4sysops.com/archives/miasma-worm-compromises-73-microsoft-github-repositories-in-supply-chain-attack/",
+          "publishedOn": "2026-06-06T20:51:12.000Z",
+          "wordCount": 6048,
+          "title": "Miasma worm compromises 73 Microsoft GitHub repositories in supply chain attack",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/miasma-worm-compromises-73-microsoft-github-repositories-in-supply-chain-attack.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/ai-agents-uncover-long-standing-zero-days-as-chrome-patches-record-429-bugs/",
+          "author": "IT News",
+          "description": "An autonomous AI agent recently discovered 21 previously unknown vulnerabilities in the FFmpeg media library, some of which had remained hidden for over 20 years. These flaws include heap and stack overflows in various parsers and decoders that are widely used across numerous video processing applications. The discovery highlights how AI tools can now perform deep security analysis of complex codebases at a significantly lower cost than traditional manual methods.\nSource",
+          "link": "https://4sysops.com/archives/ai-agents-uncover-long-standing-zero-days-as-chrome-patches-record-429-bugs/",
+          "publishedOn": "2026-06-06T20:51:10.000Z",
+          "wordCount": 6064,
+          "title": "AI agents uncover long-standing zero-days as Chrome patches record 429 bugs",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ai-agents-uncover-long-standing-zero-days-as-chrome-patches-record-429-bugs.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/google-releases-gemma-4-qat-models-for-local-ai-on-enterprise-laptops/",
+          "author": "IT News",
+          "description": "Google has launched Gemma 4 QAT, a series of open-weights models optimized for local execution on hardware with limited memory. These models utilize Quantization-Aware Training to simulate lower-precision calculations during the training phase, which preserves output quality even when the model files are heavily compressed. The release includes a 12B parameter version specifically designed to run on standard enterprise laptops equipped with 16GB of RAM or unified memory.\nSource",
+          "link": "https://4sysops.com/archives/google-releases-gemma-4-qat-models-for-local-ai-on-enterprise-laptops/",
+          "publishedOn": "2026-06-06T20:51:08.000Z",
+          "wordCount": 6106,
+          "title": "Google releases Gemma 4 QAT models for local AI on enterprise laptops",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/hugging-face-transformers-flaw-enables-rce-via-malicious-model-configs/",
+          "author": "IT News",
+          "description": "A critical vulnerability in the Hugging Face Transformers library, tracked as CVE-2026-4372, allows attackers to execute arbitrary code through specially crafted model configuration files. The flaw bypasses the standard security setting intended to block untrusted remote code by exploiting how the library processes internal attributes during model loading. This vulnerability specifically targets the from_pretrained() function, which is a standard method used to initialize pre-trained models from the Hugging Face Hub.\nSource",
+          "link": "https://4sysops.com/archives/hugging-face-transformers-flaw-enables-rce-via-malicious-model-configs/",
+          "publishedOn": "2026-06-06T20:51:07.000Z",
+          "wordCount": 6091,
+          "title": "Hugging Face Transformers flaw enables RCE via malicious model configs",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/hugging-face-transformers-flaw-enables-rce-via-malicious-model-configs.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-expands-chatgpt-lockdown-mode-to-protect-against-prompt-injection/",
+          "author": "IT News",
+          "description": "OpenAI is expanding the availability of Lockdown Mode to all eligible personal and self-serve ChatGPT Business accounts. This advanced security setting is designed to mitigate the risk of data exfiltration resulting from prompt injection attacks. While the feature provides enhanced protection for sensitive data, it functions by disabling several core capabilities that require external network connectivity.\nSource",
+          "link": "https://4sysops.com/archives/openai-expands-chatgpt-lockdown-mode-to-protect-against-prompt-injection/",
+          "publishedOn": "2026-06-06T20:51:05.000Z",
+          "wordCount": 6047,
+          "title": "OpenAI expands ChatGPT Lockdown Mode to protect against prompt injection",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-expands-chatgpt-lockdown-mode-to-protect-against-prompt-injection.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-updates-defender-definitions-for-windows-and-server-installation-images/",
+          "author": "IT News",
+          "description": "Microsoft has released a new update package designed to refresh the security definitions and engine within Windows installation images. These updates target WIM and VHD files as well as ISOs used for deploying operating systems across the network. By integrating these patches into the installation media, the protection gap that exists between the initial OS setup and the first online update is significantly reduced.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-updates-defender-definitions-for-windows-and-server-installation-images/",
+          "publishedOn": "2026-06-06T20:51:03.000Z",
+          "wordCount": 6030,
+          "title": "Microsoft updates Defender definitions for Windows and Server installation images",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-updates-defender-definitions-for-windows-and-server-installation-images.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-addresses-windows-11-performance-issues-in-the-context-and-start-menus/",
+          "author": "IT News",
+          "description": "Microsoft has officially acknowledged that the Windows 11 modern context menu suffers from performance lag caused by late-loading app extensions. These extensions, which include options like \"Edit with Clipchamp\" or \"Ask Copilot,\" often cause the menu to shift or resize while a user is attempting to click an item. This behavior frequently leads to misclicks and frustration, particularly on systems with lower hardware specifications where the delay is more pronounced.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-addresses-windows-11-performance-issues-in-the-context-and-start-menus/",
+          "publishedOn": "2026-06-06T20:51:01.000Z",
+          "wordCount": 6115,
+          "title": "Microsoft addresses Windows 11 performance issues in the context and Start menus",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-addresses-windows-11-performance-issues-in-the-context-and-start-menus.jpg"
+        },
+        {
           "id": "https://4sysops.com/?p=1612225",
           "author": "IT Experts",
           "description": "WSL container is a new feature coming to the Windows Subsystem for Linux (WSL), announced at Microsoft Build 2026. It provides a built-in way to run OCI-compatible Linux containers on Windows without third-party tools like Docker Desktop. The feature includes two parts: a command-line tool, wslc.exe, and a developer API. As of June 2026, it is in active development and has not shipped as part of a stable WSL release.\nSource",
@@ -15523,26 +15593,6 @@
           "wordCount": null,
           "title": "New TeamViewer connector in Microsoft Intune: remote control for Windows, macOS, iOS, Android",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1610597",
-          "author": "IT Experts",
-          "description": "Windows 11 version 25H2 introduces a new Group Policy setting, Configure maintenance windows for automatic updates, that lets you define precise time windows for downloading, installing, and restarting after updates. The policy ships with version 3.0 of the ADMX administrative templates and is currently available only in Windows 11 Insider Preview builds. It takes priority over several existing update-related policies, but the interaction rules are only partially documented.\nSource",
-          "link": "https://4sysops.com/archives/new-group-policy-for-windows-update-maintenance-window-in-windows-11-25h2/",
-          "publishedOn": "2026-05-07T19:09:31.000Z",
-          "wordCount": null,
-          "title": "New Group Policy for Windows Update maintenance window in Windows 11 25H2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1609921",
-          "author": "IT Experts",
-          "description": "Microsoft is rolling out a long-overdue change to the browser-based versions of Word, Excel, and PowerPoint: you can now apply sensitivity labels with user-defined permissions directly in the web apps without switching to the desktop client. Sensitivity labels are classification tags you attach to a file to control who can read, edit, or print it. They are configured centrally in Microsoft Purview (Microsoft's compliance and information protection platform) and enforced by the Rights Management Service (RMS), which is the encryption engine built into Microsoft 365. This update started rolling out in mid-April 2026 and is expected to be completed worldwide by early May 2026. It requires enabling coauthoring on encrypted files in your tenant beforehand.\nSource",
-          "link": "https://4sysops.com/archives/sensitivity-labels-now-in-microsoft-365-web-apps/",
-          "publishedOn": "2026-05-07T19:08:51.000Z",
-          "wordCount": null,
-          "title": "Sensitivity labels now in Microsoft 365 web apps",
-          "imageUrl": null
         }
       ]
     },
@@ -15550,7 +15600,18 @@
       "title": "Hexacorn",
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10368",
+          "author": "adam",
+          "description": "This post doesn’t include anything ground breaking, but is just yet another attempt to describe/document less-known command line arguments of many known, often native to the platform, Windows programs. When you launch msconfig.exe it shows a well-known configuration dialog box: … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/06/07/little-secret-of-msconfig-exe/",
+          "publishedOn": "2026-06-07T00:41:46.000Z",
+          "wordCount": 607,
+          "title": "little secret of msconfig.exe",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Penetration testing Archives - MDSec",
@@ -15835,16 +15896,6 @@
           "wordCount": 2621,
           "title": "Introducing Joro: Using AI to Build Security Tooling",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Introducing-Joro-Using-AI-Build-Security-Tooling.png?mtime=1778535095"
-        },
-        {
-          "id": "https://bishopfox.com/blog/otto-support-confused-deputy",
-          "author": null,
-          "description": "When an agent reads attacker-controlled content and acts on it using its own privileges, the user's name ends up on every audit log entry. From Microsoft Copilot to ConfusedPilot, this post walks through how confused deputy attacks work and the layered controls that help contain them.",
-          "link": "https://bishopfox.com/blog/otto-support-confused-deputy",
-          "publishedOn": "2026-05-08T13:00:00.000Z",
-          "wordCount": 2498,
-          "title": "Otto Support - The Confused Deputy",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Otto-Support_The-Confused-Deputy.png?mtime=1778270996"
         }
       ]
     },
@@ -16922,16 +16973,6 @@
           "wordCount": 10494,
           "title": "Investigating server compromises with cgroups: A Linux DFIR primer",
           "imageUrl": "https://redcanary.com/wp-content/uploads/2026/05/1200x628_LinuxDFIR_RedCanary.jpg"
-        },
-        {
-          "id": "https://redcanary.com/?p=43673",
-          "author": "Laura Brosnan",
-          "description": "Clean up your browser by removing unneeded extensions, clearing cached data, scanning for info-stealing malware, and more.",
-          "link": "https://redcanary.com/blog/security-operations/spring-cleaning-your-browser/",
-          "publishedOn": "2026-05-07T14:13:27.000Z",
-          "wordCount": 8192,
-          "title": "Spring cleaning your browser",
-          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/05/1200x628-SpringCleaningBlog-RedCanary.jpg"
         }
       ]
     },
@@ -17014,21 +17055,6 @@
             "type": "image/webp"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/copy-fail-dirtyfrag-linux-page-bugs-in-the-wild/copy-fail-dirtyfrag-linux-page-bugs-in-the-wild.webp"
-        },
-        {
-          "id": "detecting-web-server-probing-and-fuzzing",
-          "author": null,
-          "description": "This article shows how a customized Elastic Security ES|QL detection rule can identify web server probing and fuzzing activity in Traefik logs and automatically block the attacking IP via Cloudflare.",
-          "link": "https://www.elastic.co/security-labs/detecting-web-server-probing-and-fuzzing",
-          "publishedOn": "2026-05-08T00:00:00.000Z",
-          "wordCount": 6496,
-          "title": "Detecting Web Server Probing & Fuzzing in Traefik with Automated Cloudflare Response",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/detecting-web-server-probing-and-fuzzing/detecting-web-server-probing-and-fuzzing.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/detecting-web-server-probing-and-fuzzing/detecting-web-server-probing-and-fuzzing.webp"
         }
       ]
     },
@@ -17475,36 +17501,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1778259316-mythos-2x-100.jpg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/introducing-wiz-akamai-integration",
-          "author": "Mike McGuire",
-          "description": "Akamai edge configurations are now visible on the Wiz Security Graph, giving teams a single understanding of risk from edge to runtime",
-          "link": "https://www.wiz.io/blog/introducing-wiz-akamai-integration",
-          "publishedOn": "2026-05-08T12:00:02.000Z",
-          "wordCount": 16025,
-          "title": "See and Secure Everything at the Edge with Wiz and Akamai",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1777993101-akami-2x-100.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1777993101-akami-2x-100.jpg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/dirty-frag-linux-kernel-local-privilege-escalation-via-esp-and-rxrpc",
-          "author": "Merav Bar",
-          "description": "Unpatched kernel flaw chain (CVE-2026-43284, CVE-2026-43500) enables root escalation on major Linux distributions.",
-          "link": "https://www.wiz.io/blog/dirty-frag-linux-kernel-local-privilege-escalation-via-esp-and-rxrpc",
-          "publishedOn": "2026-05-08T08:57:17.000Z",
-          "wordCount": 15174,
-          "title": "Dirty Frag: Linux Kernel Local Privilege Escalation via ESP and RxRPC",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1778236280-image-19.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1778236280-image-19.png"
         }
       ]
     },
