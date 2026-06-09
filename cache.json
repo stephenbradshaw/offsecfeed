@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=27102",
+          "author": "Martin Sohn Christensen",
+          "description": "TL;DR: AzureHound now has documented least-privilege permissions. This post walks through the research behind those permissions. We recommend least privilege for tighter access control, while recognizing broader read rights can reduce maintenance across future releases. Introduction At SpecterOps, the Research team’s role is to ensure we stay ahead in adversary simulation and identity attack path […]\nThe post Keeping a Short Leash: New AzureHound Least-Privilege Documentation appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/06/08/keeping-a-short-leash-new-azurehound-least-privilege-documentation/",
+          "publishedOn": "2026-06-08T16:00:00.000Z",
+          "wordCount": 5556,
+          "title": "Keeping a Short Leash: New AzureHound Least-Privilege Documentation",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/06/913fab75-ecb9-496c-b064-e4c0b1264e42.png"
+        },
+        {
           "id": "https://specterops.io/?p=27064",
           "author": "Christopher Maddalena",
           "description": "TL;DR: Ghostwriter v7 is a major step forward for authentication and automation. This release replaces user-managed JWT API tokens with opaque credentials, introduces scoped service tokens for non-human integrations, and tightens how tokens are validated and used across the platform. The result is a simpler, safer model for automation that opens up more possibilities for […]\nThe post Ghostwriter v7: Safer Tokens, Scoped Access, and Better Automation appeared first on SpecterOps.",
@@ -141,6 +151,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=33367",
+          "author": "Matt Lashner",
+          "description": "Walk through the path of an internal network test: from a constrained foothold to full domain compromise, and how an overlooked integration point became the weakest link.\nThe post Legacy Meets Modern: Breaking AD Through NIS & MFA Infrastructure appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/network-pentesting/legacy-meets-modern-breaking-ad-through-nis-mfa-infrastructure/",
+          "publishedOn": "2026-06-08T20:48:08.000Z",
+          "wordCount": 5032,
+          "title": "Legacy Meets Modern: Breaking AD Through NIS & MFA Infrastructure",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/06/06.04.26_TECH_NiFi_Matt-Lasher_1200x630.png"
+        },
         {
           "id": "https://www.netspi.com/?p=33311",
           "author": "Lucas Zahorik",
@@ -289,7 +309,18 @@
       "title": "Active Directory & Azure AD/Entra ID Security",
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://adsecurity.org/?p=5044",
+          "author": "Sean Metcalf",
+          "description": "This series of posts focuses on key Active Directory (AD) components that need to be secured in order to ensure AD security is leveled up. In this post, we focus on the mostly unknown AD component called DSHeuristics DSHeuristics is like a registry editor for changing behavior in the Active Directory forest (and AD Lightweight … \nContinue reading",
+          "link": "https://adsecurity.org/?p=5044",
+          "publishedOn": "2026-05-13T00:17:00.000Z",
+          "wordCount": 3527,
+          "title": "AD Fundamentals: DSHeuristics",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Tyranid's Lair",
@@ -14077,6 +14108,16 @@
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
         {
+          "id": "https://blog.exodusintel.com/?p=2502",
+          "author": "Exodus Intel VRT",
+          "description": "By Oliver Sieber Overview In this blog post, we discuss a use-after-free vulnerability that we found in the nftables subsystem of the Linux kernel in early 2025. This vulnerability was patched upstream on 5 February 2026 and assigned CVE-2026-23111. This blog post covers a technical analysis of the vulnerability and how we exploited it to perform a local ... Read more Off By !: Exploiting a Use-after-Free in the Linux Kernel\nThe post Off By !: Exploiting a Use-after-Free in the Linux Kernel appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2026/06/08/off-by-exploiting-a-use-after-free-in-the-linux-kernel/",
+          "publishedOn": "2026-06-08T13:21:04.000Z",
+          "wordCount": 6535,
+          "title": "Off By !: Exploiting a Use-after-Free in the Linux Kernel",
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2026/06/1st-image-1024x546.png"
+        },
+        {
           "id": "https://blog.exodusintel.com/?p=2496",
           "author": "Exodus Intel VRT",
           "description": "Adobe Acrobat Reader Escript.api Use-After-Free Remote Code Execution By Michele Campa Overview In this blog post we take a look at a use-after-free vulnerability found in Adobe Acrobat Reader’s Escript.api module in February 2025. This issue was patched on April 2026 and likely assigned CVE-2026-34621,  CVE-2026-34626 , or CVE-2026-34622. Disclaimer: Every offset and function name referenced in this blog ... Read more Adobe Acrobat Reader Escript.api Use-After-Free Remote Code Execution\nThe post Adobe Acrobat Reader Escript.api Use-After-Free Remote Code Execution appeared first on Exodus Intelligence.",
@@ -14164,6 +14205,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/archives/windows-11-update-to-boost-bulk-file-deletion-speeds-by-at-least-30-percent/",
+          "author": "IT News",
+          "description": "Microsoft is developing a significant performance update for Windows 11 that targets file system operations. The primary focus of this optimization is the bulk deletion of files, which is expected to become at least 30% faster. These improvements address the software overhead involved in updating NTFS entries, metadata, and indexing during large-scale file tasks.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-update-to-boost-bulk-file-deletion-speeds-by-at-least-30-percent/",
+          "publishedOn": "2026-06-08T20:39:55.000Z",
+          "wordCount": 5983,
+          "title": "Windows 11 update to boost bulk file deletion speeds by at least 30 percent",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/windows-11-update-to-boost-bulk-file-deletion-speeds-by-at-least-30-percent.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/canonical-introduces-workshop-for-sandboxed-ai-development-on-ubuntu/",
+          "author": "IT News",
+          "description": "Canonical has unveiled Workshop, a new open-source project designed to provide sandboxed development environments for Large Language Model agents. The tool utilizes LXD containers and snap packaging to isolate AI agents from sensitive personal data and root system access. This architecture allows users to run untrusted code from the internet while still granting the AI necessary access to local GPUs and specific files.\nSource",
+          "link": "https://4sysops.com/archives/canonical-introduces-workshop-for-sandboxed-ai-development-on-ubuntu/",
+          "publishedOn": "2026-06-08T20:39:53.000Z",
+          "wordCount": 5946,
+          "title": "Canonical introduces Workshop for sandboxed AI development on Ubuntu",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/canonical-introduces-workshop-for-sandboxed-ai-development-on-ubuntu.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/hackers-breach-microsoft-open-source-projects-to-inject-credential-stealing-malware/",
+          "author": "IT News",
+          "description": "Microsoft recently disabled access to dozens of open-source repositories on GitHub following a supply chain attack. The breach targeted projects primarily related to Azure cloud services and various AI development tools used within VS Code. Attackers successfully injected malicious code designed to exfiltrate passwords and sensitive credentials from developers who utilized the compromised tools.\nSource",
+          "link": "https://4sysops.com/archives/hackers-breach-microsoft-open-source-projects-to-inject-credential-stealing-malware/",
+          "publishedOn": "2026-06-08T20:39:51.000Z",
+          "wordCount": 5972,
+          "title": "Hackers breach Microsoft open source projects to inject credential stealing malware",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/hackers-breach-microsoft-open-source-projects-to-inject-credential-stealing-malware.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/perplexity-computer-offers-a-hosted-alternative-to-open-source-ai-agents/",
+          "author": "IT News",
+          "description": "Perplexity Computer is a fully hosted AI agent platform designed to perform tasks like writing and executing code, searching the web, and managing complex workflows. It serves as a user-friendly alternative to self-hosted solutions like OpenClaw, which often require significant technical maintenance and manual configuration. The system operates in an environment where it can install software packages and use frontier models such as GPT and Claude to process requests.\nSource",
+          "link": "https://4sysops.com/archives/perplexity-computer-offers-a-hosted-alternative-to-open-source-ai-agents/",
+          "publishedOn": "2026-06-08T20:39:47.000Z",
+          "wordCount": 5950,
+          "title": "Perplexity computer offers a hosted alternative to open source AI agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/perplexity-computer-offers-a-hosted-alternative-to-open-source-ai-agents.jpg"
+        },
+        {
+          "id": "https://4sysops.com/?p=1612316",
+          "author": "IT Experts",
+          "description": "Microsoft announced Intelligent Terminal 0.1 at Build 2026. This experimental, open-source fork of Windows Terminal adds a dedicated AI agent pane to the command-line environment. The app installs alongside your existing Windows Terminal without modifying it. GitHub Copilot CLI is the default AI agent, but any agent compatible with the Agent Client Protocol (ACP) works. The current release requires Windows 11 22H2 or later.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-intelligent-terminal-0-1-ai-powered-alternative-to-windows-terminal/",
+          "publishedOn": "2026-06-08T19:45:33.000Z",
+          "wordCount": 6237,
+          "title": "Microsoft Intelligent Terminal 0.1: AI-powered alternative to Windows Terminal",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Agent-management-panel-image-Microsoft.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/google-gemma-4-12b-brings-native-multimodal-ai-to-standard-laptops-2/",
+          "author": "IT News",
+          "description": "Google has released Gemma 4 12B, an open-weight AI model designed to run locally on consumer hardware with at least 16GB of RAM. This 12-billion parameter model is unique for its size because it natively processes text, images, and audio without requiring separate encoder modules. By utilizing an integrated architecture, the model allows standard notebooks to function as multimodal AI agents without relying on cloud-based processing.\nSource",
+          "link": "https://4sysops.com/archives/google-gemma-4-12b-brings-native-multimodal-ai-to-standard-laptops-2/",
+          "publishedOn": "2026-06-08T19:38:46.000Z",
+          "wordCount": 6041,
+          "title": "Google Gemma 4 12B brings native multimodal AI to standard laptops",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/google-gemma-4-12b-brings-native-multimodal-ai-to-standard-laptops-1.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-pivots-to-pragmatic-ai-integration-at-wwdc-amid-leadership-transition/",
+          "author": "IT News",
+          "description": "Apple is entering a significant period of transition as Tim Cook prepares to hand over the CEO role to John Ternus following this year's developer conference. While the company previously marketed ambitious, context-aware AI features that faced technical hurdles and legal settlements, its current strategy focuses on practical delivery. This shift moves away from \"omniscient\" assistants toward integrating established third-party models like ChatGPT, Gemini, and Claude directly into the operating system.\nSource",
+          "link": "https://4sysops.com/archives/apple-pivots-to-pragmatic-ai-integration-at-wwdc-amid-leadership-transition/",
+          "publishedOn": "2026-06-08T19:38:44.000Z",
+          "wordCount": 6101,
+          "title": "Apple pivots to pragmatic AI integration at WWDC amid leadership transition",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-pivots-to-pragmatic-ai-integration-at-wwdc-amid-leadership-transition.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-introduces-observability-tools-and-in-app-directory-for-claude-connectors/",
+          "author": "IT News",
+          "description": "Anthropic has launched a new observability dashboard for developers and administrators managing connectors within Claude products. These connectors utilize the Model Context Protocol to bridge external data sources with AI models for enhanced functionality. The dashboard provides a centralized view of performance metrics, including active user counts, total tool calls, and directory rankings.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-introduces-observability-tools-and-in-app-directory-for-claude-connectors/",
+          "publishedOn": "2026-06-08T19:38:42.000Z",
+          "wordCount": 5908,
+          "title": "Anthropic introduces observability tools and in-app directory for Claude connectors",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-introduces-observability-tools-and-in-app-directory-for-claude-connectors.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-launches-economic-research-exchange-to-study-ai-impact-on-labor-and-firms/",
+          "author": "IT News",
+          "description": "OpenAI has introduced the Economic Research Exchange to facilitate empirical studies on how artificial intelligence influences the global economy. This platform aims to move beyond anecdotal evidence by supporting structured collaborations with external researchers. The program focuses on generating independent data regarding the effects of AI on workers, business operations, and institutional productivity.\nSource",
+          "link": "https://4sysops.com/archives/openai-launches-economic-research-exchange-to-study-ai-impact-on-labor-and-firms/",
+          "publishedOn": "2026-06-08T19:38:40.000Z",
+          "wordCount": 5955,
+          "title": "OpenAI launches Economic Research Exchange to study AI impact on labor and firms",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-launches-economic-research-exchange-to-study-ai-impact-on-labor-and-firms.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-announces-macos-golden-gate-and-siri-ai-with-gemini-integration/",
+          "author": "IT News",
+          "description": "Apple's latest software updates focus on system responsiveness, reaching back to support hardware as old as the iPhone 11 with optimized CPU scheduling. The new macOS Golden Gate introduces a refined \"Liquid Glass\" design language that allows users to adjust UI transparency and tinting via a dedicated slider. Performance enhancements are central to these releases, with claims of 30% faster app launches and significantly improved search indexing for local files and communications.\nSource",
+          "link": "https://4sysops.com/archives/apples-wwdc-2026-video-presentation/",
+          "publishedOn": "2026-06-08T19:38:38.000Z",
+          "wordCount": 5924,
+          "title": "Apple’s WWDC 2026 video presentation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-announces-macos-golden-gate-and-siri-ai-with-gemini-integration.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-partners-with-google-to-launch-gemini-powered-siri-ai-at-wwdc-2026/",
+          "author": "IT News",
+          "description": "Apple has unveiled a significant overhaul of its virtual assistant, now rebranded as Siri AI and powered by Google’s Gemini technology. This update introduces advanced contextual awareness, allowing the assistant to understand on-screen content and engage in natural, back-and-forth conversations. The integration extends across the Apple ecosystem, including a standalone Siri AI app and a dedicated \"Siri Mode\" within the iOS 27 camera application.\nSource",
+          "link": "https://4sysops.com/archives/apple-partners-with-google-to-launch-gemini-powered-siri-ai-at-wwdc-2026/",
+          "publishedOn": "2026-06-08T19:38:36.000Z",
+          "wordCount": 6055,
+          "title": "Apple partners with Google to launch Gemini-powered Siri AI at WWDC 2026",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-partners-with-google-to-launch-gemini-powered-siri-ai-at-wwdc-2026.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-unveils-visionos-27-with-integrated-siri-ai-and-curved-window-support/",
+          "author": "IT News",
+          "description": "Apple has announced visionOS 27, the latest operating system for the Vision Pro headset, featuring a deeply integrated Siri AI assistant. This updated digital assistant utilizes visual intelligence to answer questions about objects and content within the user's physical or digital environment. While the developer beta is available immediately, the AI features are expected to launch in beta later this year with initial support for English.\nSource",
+          "link": "https://4sysops.com/archives/apple-unveils-visionos-27-with-integrated-siri-ai-and-curved-window-support/",
+          "publishedOn": "2026-06-08T19:38:34.000Z",
+          "wordCount": 5987,
+          "title": "Apple unveils visionOS 27 with integrated Siri AI and curved window support",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-unveils-visionos-27-with-integrated-siri-ai-and-curved-window-support.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-revamps-siri-with-google-powered-ai-models-and-enhanced-privacy/",
+          "author": "IT News",
+          "description": "Apple has unveiled a significant overhaul of Siri and its broader Apple Intelligence suite, introducing a dedicated conversational app and more expressive voice capabilities. Developed in collaboration with Google, these new foundation models allow the assistant to understand onscreen context and interact directly with various applications across the Apple ecosystem. The update emphasizes a privacy-first approach, utilizing on-device processing and a new Private Cloud Compute infrastructure to handle complex queries securely.\nSource",
+          "link": "https://4sysops.com/archives/apple-revamps-siri-with-google-powered-ai-models-and-enhanced-privacy/",
+          "publishedOn": "2026-06-08T19:38:32.000Z",
+          "wordCount": 6089,
+          "title": "Apple revamps Siri with Google-powered AI models and enhanced privacy",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-revamps-siri-with-google-powered-ai-models-and-enhanced-privacy.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-unveils-macos-27-golden-gate-with-ai-enhancements-and-ui-refinements/",
+          "author": "IT News",
+          "description": "Apple has officially announced macOS 27, named Golden Gate, which introduces a significant architectural shift for Apple Intelligence and Siri. The update features a rebuilt search infrastructure designed to index device content almost instantly, allowing users to perform complex queries across multiple files. This version also marks the end of support for Intel-based Macs, as the operating system is now exclusive to Apple silicon hardware.\nSource",
+          "link": "https://4sysops.com/archives/apple-unveils-macos-27-golden-gate-with-ai-enhancements-and-ui-refinements/",
+          "publishedOn": "2026-06-08T19:38:29.000Z",
+          "wordCount": 6046,
+          "title": "Apple unveils macOS 27 Golden Gate with AI enhancements and UI refinements",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-unveils-macos-27-golden-gate-with-ai-enhancements-and-ui-refinements.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cloudflare-integrates-real-time-threat-intelligence-into-waf-rules/",
+          "author": "IT News",
+          "description": "Cloudflare has introduced a new integration that allows its Web Application Firewall to use live threat intelligence data for proactive mitigation. This feature enables the creation of rules based on specific threat actor names, targeted industries, and attack types like DDoS or cybercrime. By populating these fields during the early stages of a request, the system can block high-risk traffic before it reaches the origin infrastructure.\nSource",
+          "link": "https://4sysops.com/archives/cloudflare-integrates-real-time-threat-intelligence-into-waf-rules/",
+          "publishedOn": "2026-06-08T19:21:25.000Z",
+          "wordCount": null,
+          "title": "Cloudflare integrates real-time threat intelligence into WAF rules",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/confidential-live-migration-enables-secure-azure-vm-transfers-without-restarts/",
+          "author": "IT News",
+          "description": "Microsoft has introduced confidential live migration for Azure to improve the availability of highly secure virtual machines. Previously, confidential VMs often required full restarts during host maintenance or patching due to the isolation of protected hardware environments. This new feature allows these specialized workloads to move between hosts with only a brief pause, maintaining operational agility.\nSource",
+          "link": "https://4sysops.com/archives/confidential-live-migration-enables-secure-azure-vm-transfers-without-restarts/",
+          "publishedOn": "2026-06-08T19:21:23.000Z",
+          "wordCount": 5922,
+          "title": "Confidential live migration enables secure Azure VM transfers without restarts",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/confidential-live-migration-enables-secure-azure-vm-transfers-without-restarts.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-lens-uses-detailed-captions-to-train-efficient-image-generators/",
+          "author": "IT News",
+          "description": "Microsoft Research has developed Lens, a text-to-image model that achieves high performance using significantly less computational power than its competitors. While traditional models rely on massive datasets of web-scraped alt-text, Lens utilizes 800 million image-text pairs featuring highly detailed descriptions generated by GPT-4. This approach demonstrates that the quality and depth of training captions are more critical for model efficiency than the sheer volume of raw data.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-lens-uses-detailed-captions-to-train-efficient-image-generators/",
+          "publishedOn": "2026-06-08T19:21:20.000Z",
+          "wordCount": 5995,
+          "title": "Microsoft Lens uses detailed captions to train efficient image generators",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-lens-uses-detailed-captions-to-train-efficient-image-generators.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/google-colab-cli-enables-remote-execution-and-ai-agent-integration/",
+          "author": "IT News",
+          "description": "Google has released the Google Colab Command-Line Interface to bridge local terminal environments with remote Colab runtimes. This tool allows for the provisioning of high-performance compute resources, such as GPUs and TPUs, directly from a local machine. It facilitates the execution of local Python scripts on remote hardware and the subsequent retrieval of generated artifacts or logs.\nSource",
+          "link": "https://4sysops.com/archives/google-colab-cli-enables-remote-execution-and-ai-agent-integration/",
+          "publishedOn": "2026-06-08T15:34:33.000Z",
+          "wordCount": null,
+          "title": "Google Colab CLI enables remote execution and AI agent integration",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/docksec-combines-ai-with-open-source-scanners-to-automate-docker-remediation/",
+          "author": "IT News",
+          "description": "DockSec is an open-source Python tool and OWASP Incubator Project designed to bridge the gap between vulnerability detection and remediation in container environments. It integrates established security scanners including Trivy, Hadolint, and Docker Scout to analyze Dockerfiles and images for security flaws. By correlating findings from these tools, it generates a security score and provides developers with specific code fixes and contextual explanations.\nSource",
+          "link": "https://4sysops.com/archives/docksec-combines-ai-with-open-source-scanners-to-automate-docker-remediation/",
+          "publishedOn": "2026-06-08T15:34:31.000Z",
+          "wordCount": 6044,
+          "title": "DockSec combines AI with open-source scanners to automate Docker remediation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/docksec-combines-ai-with-open-source-scanners-to-automate-docker-remediation.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/blocking-copilot-and-connected-services-with-sensitivity-labels/",
+          "author": "IT News",
+          "description": "Microsoft is expanding the BlockContentAnalysisServices sensitivity label setting to cover all connected experiences that analyze content in Word, Excel, and PowerPoint. This update ensures that any service relying on content analysis is blocked consistently across different platforms and applications. While this enhances data privacy, it also disables helpful features like text predictions, suggested replies, and certain client-side DLP checks.\nSource",
+          "link": "https://4sysops.com/archives/blocking-copilot-and-connected-services-with-sensitivity-labels/",
+          "publishedOn": "2026-06-08T15:34:29.000Z",
+          "wordCount": 5976,
+          "title": "Blocking Copilot and connected services with sensitivity labels",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/blocking-copilot-and-connected-services-with-sensitivity-labels.jpg"
+        },
         {
           "id": "https://4sysops.com/archives/inside-metas-strategy-for-scaling-ai-models-and-personal-agents/",
           "author": "IT News",
@@ -17025,6 +17266,16 @@
       "siteUrl": "https://redcanary.com/blog/",
       "articles": [
         {
+          "id": "https://redcanary.com/?p=48014",
+          "author": "Matt Graeber",
+          "description": "Assistive AI agents aren't always helpful—it all depends on who they're working on behalf of.",
+          "link": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/",
+          "publishedOn": "2026-06-08T15:37:01.000Z",
+          "wordCount": 10225,
+          "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Assistive agents",
+          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/06/1200x628-Blog-3.jpg"
+        },
+        {
           "id": "https://redcanary.com/?p=47961",
           "author": "Shelley Moore",
           "description": "Red Canary's monthly roundup of upcoming security conferences and call for papers (CFP) submission deadlines May 2026",
@@ -17158,6 +17409,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/apple-wwdc26-keynote-recap/",
+          "author": null,
+          "description": "Get a full overview of Apple’s 2026 Worldwide Developers Conference (WWDC) announcements, including a major leap forward in Apple Intelligence, a refined design system, expanded child safety tools and meaningful performance improvements across every platform.",
+          "link": "https://www.jamf.com/blog/apple-wwdc26-keynote-recap/",
+          "publishedOn": "2026-06-08T21:47:00.000Z",
+          "wordCount": 2056,
+          "title": "Apple WWDC26: Keynote recap",
+          "imageUrl": "https://media.jamf.com/images/news/2026/wwdc26.webp?h=400&q=80&w=700"
+        },
         {
           "id": "https://www.jamf.com/blog/mac-deployment-remediation-reduces-it-manual-work/",
           "author": null,
@@ -17302,6 +17563,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/introducing-wiz-cloud-cost",
+          "author": "Rotem Zarin",
+          "description": "Wiz unifies cloud and AI cost visibility to help teams eliminate waste and improve spend efficiency across their AWS, Azure, and GCP environments.",
+          "link": "https://www.wiz.io/blog/introducing-wiz-cloud-cost",
+          "publishedOn": "2026-06-08T12:00:00.000Z",
+          "wordCount": 17877,
+          "title": "Introducing Wiz Cloud Cost: Powering Cost Management and Optimization with Context",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1780884857-cloud-cost-ga-launch.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1780884857-cloud-cost-ga-launch.png"
+        },
         {
           "id": "https://www.wiz.io/blog/ai-threat-readiness-pillar-1",
           "author": "Shaked Rotlevi",
