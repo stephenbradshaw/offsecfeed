@@ -14081,6 +14081,21 @@
       "siteUrl": "https://blog.exodusintel.com/",
       "articles": [
         {
+          "id": "https://blog.exodusintel.com/?p=2521",
+          "author": "Exodus Intel VRT",
+          "description": "By Luca Ginex Overview This blog post discusses a use-after-free vulnerability that we found in VirtualBox in 2025. This vulnerability was patched on Oracle Critical Patch Update – January 2026. The vulnerability was also presented, along with others, at OffensiveCon 2026. This post describes the exploitation process for the vulnerability on a Linux system. First, a ... Read more Zombie COTables: Resurrecting Freed Memory to Escape VirtualBox\nThe post Zombie COTables: Resurrecting Freed Memory to Escape VirtualBox appeared first on Exodus Intelligence.",
+          "link": "https://blog.exodusintel.com/2026/06/15/zombie-cotables-resurrecting-freed-memory-to-escape-virtualbox/",
+          "publishedOn": "2026-06-15T15:44:54.000Z",
+          "wordCount": 5627,
+          "title": "Zombie COTables: Resurrecting Freed Memory to Escape VirtualBox",
+          "enclosure": {
+            "url": "https://blog.exodusintel.com/wp-content/uploads/2026/06/Vbox-0day.mp4",
+            "length": "1719271",
+            "type": "video/mp4"
+          },
+          "imageUrl": "https://blog.exodusintel.com/wp-content/uploads/2026/06/vbox1-1024x816.png"
+        },
+        {
           "id": "https://blog.exodusintel.com/?p=2502",
           "author": "Exodus Intel VRT",
           "description": "By Oliver Sieber Overview In this blog post, we discuss a use-after-free vulnerability that we found in the nftables subsystem of the Linux kernel in early 2025. This vulnerability was patched upstream on 5 February 2026 and assigned CVE-2026-23111. This blog post covers a technical analysis of the vulnerability and how we exploited it to perform a local ... Read more Off By !: Exploiting a Use-after-Free in the Linux Kernel\nThe post Off By !: Exploiting a Use-after-Free in the Linux Kernel appeared first on Exodus Intelligence.",
@@ -14178,6 +14193,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1613305",
+          "author": "IT Experts",
+          "description": "DNS over HTTPS (DoH) -- a protocol that encrypts DNS queries inside HTTPS connections -- is now generally available for the Windows Server DNS Server role. Starting with the June 9, 2026 cumulative update for Windows Server 2025, you can deploy DoH on your on-premises DNS infrastructure without a third-party resolver. This article explains what DoH does, how it differs from traditional DNS, what the configuration requires, and what limitations currently apply.\nSource",
+          "link": "https://4sysops.com/archives/dns-over-https-doh-for-windows-server-2025-dns-server-is-generally-available/",
+          "publishedOn": "2026-06-15T16:26:54.000Z",
+          "wordCount": 8791,
+          "title": "DNS over HTTPS (DoH) for Windows Server 2025 DNS Server is generally available",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/DoH-architecture-diagram-image-Microsoft.webp"
+        },
+        {
+          "id": "https://4sysops.com/?p=1607465",
+          "author": "IT Experts",
+          "description": "Azure introduced instant access support for incremental snapshots of Premium SSD v2 and Ultra Disk, enabling immediate disk restores without waiting for the background data copy to finish. By specifying the InstantAccessDurationMins parameter at snapshot creation time, snapshots enter the InstantAccess state immediately, allowing you to create and attach new disks right away with near-full performance. This article covers the requirements, configuration steps using the Azure CLI, PowerShell, and the portal, the available snapshot states, billing model, and key limitations.\nSource",
+          "link": "https://4sysops.com/archives/instant-access-incremental-snapshots-for-azure-premium-ssd-v2-and-ultra-disk-recovery/",
+          "publishedOn": "2026-06-15T16:26:34.000Z",
+          "wordCount": 8096,
+          "title": "Instant access incremental snapshots for Azure Premium SSD v2 and Ultra Disk recovery",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/03/Incremental-snapshots-with-and-without-instant-access-image-Microsoft.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/morale-collapses-at-metas-ai-unit/",
+          "author": "IT News",
+          "description": "Meta has established a new Applied AI unit to support its Superintelligence Labs, but the transition has triggered significant internal turmoil. More than 1,600 employees have signed a petition protesting a new program that monitors clicks and keystrokes on work computers to gather training data. This surveillance initiative aims to create autonomous agents that can eventually perform the bulk of the company's operational work.\nSource",
+          "link": "https://4sysops.com/archives/morale-collapses-at-metas-ai-unit/",
+          "publishedOn": "2026-06-15T16:23:50.000Z",
+          "wordCount": 6019,
+          "title": "Morale collapses at Meta’s AI unit",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/morale-collapses-at-metas-ai-unit.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/scaling-ai-research-with-amazon-bedrock-agentcore-and-deep-agents/",
+          "author": "IT News",
+          "description": "Amazon Bedrock AgentCore provides a specialized infrastructure for AI agents to perform deep research tasks within isolated environments. By utilizing LangChain Deep Agents, a coordinator agent can delegate complex work to ephemeral subagents that run in dedicated MicroVMs. This architecture prevents the main context window from becoming cluttered with raw data, allowing the coordinator to focus on high-level reasoning and synthesis.\nSource",
+          "link": "https://4sysops.com/archives/scaling-ai-research-with-amazon-bedrock-agentcore-and-deep-agents/",
+          "publishedOn": "2026-06-15T16:23:49.000Z",
+          "wordCount": 6001,
+          "title": "Scaling AI research with Amazon Bedrock AgentCore and deep agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/scaling-ai-research-with-amazon-bedrock-agentcore-and-deep-agents.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/arch-linux-suspends-aur-registrations-following-massive-supply-chain-attack/",
+          "author": "IT News",
+          "description": "The Arch Linux security team has disabled new account registrations for the Arch User Repository (AUR) following a large-scale supply chain compromise. Attackers hijacked or created over 1,500 community-maintained packages to deliver malicious payloads, including information stealers and eBPF-based rootkits. While the community-driven AUR was heavily targeted, the official core repositories remained unaffected due to their more stringent review processes.\nSource",
+          "link": "https://4sysops.com/archives/arch-linux-suspends-aur-registrations-following-massive-supply-chain-attack/",
+          "publishedOn": "2026-06-15T16:20:33.000Z",
+          "wordCount": 6070,
+          "title": "Arch Linux suspends AUR registrations following massive supply chain attack",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/arch-linux-suspends-aur-registrations-following-massive-supply-chain-attack.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/evaluating-the-risks-of-azure-consumption-commitments-amid-capacity-shortages/",
+          "author": "IT News",
+          "description": "The Microsoft Azure Consumption Commitment (MACC) was designed during an era of abundant cloud capacity to provide discounts in exchange for revenue certainty. However, increasing demand for AI workloads has led to infrastructure shortages, causing quota backlogs and deployment struggles in flagship regions. This scarcity shifts significant risk onto customers, who may find themselves financially committed to spending targets even if Microsoft cannot provide the necessary hardware.\nSource",
+          "link": "https://4sysops.com/archives/evaluating-the-risks-of-azure-consumption-commitments-amid-capacity-shortages/",
+          "publishedOn": "2026-06-15T16:20:32.000Z",
+          "wordCount": 6041,
+          "title": "Evaluating the risks of Azure consumption commitments amid capacity shortages",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/evaluating-the-risks-of-azure-consumption-commitments-amid-capacity-shortages.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/us-federal-government-ai-adoption-surges-by-70-percent-amid-transparency-concerns/",
+          "author": "IT News",
+          "description": "The United States federal government has reported a significant increase in the adoption of artificial intelligence to automate various administrative processes. A recent disclosure from the Office of Management and Budget reveals over 3,600 active or planned AI use cases across federal agencies. This represents a 70% growth in implementation compared to previous years, signaling a rapid shift toward machine-driven governance.\nSource",
+          "link": "https://4sysops.com/archives/us-federal-government-ai-adoption-surges-by-70-percent-amid-transparency-concerns/",
+          "publishedOn": "2026-06-15T13:27:52.000Z",
+          "wordCount": 6003,
+          "title": "US federal government AI adoption surges by 70 percent amid transparency concerns",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/us-federal-government-ai-adoption-surges-by-70-percent-amid-transparency-concerns.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-drops-intel-support-in-macos-27-golden-gate-to-boost-performance/",
+          "author": "IT News",
+          "description": "Apple is transitioning its desktop operating system to an ARM-only architecture with the upcoming release of macOS 27, codenamed Golden Gate. This update officially removes legacy Intel x86 code and APIs, meaning the software will run exclusively on machines powered by Apple Silicon. By shedding this technical ballast, the company aims to improve system consistency and overall execution speed across its hardware lineup.\nSource",
+          "link": "https://4sysops.com/archives/apple-drops-intel-support-in-macos-27-golden-gate-to-boost-performance/",
+          "publishedOn": "2026-06-15T13:27:51.000Z",
+          "wordCount": 6037,
+          "title": "Apple drops Intel support in macOS 27 Golden Gate to boost performance",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-drops-intel-support-in-macos-27-golden-gate-to-boost-performance.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-is-right-technology-must-get-out-of-the-way/",
+          "author": "IT News",
+          "description": "Apple is positioning its artificial intelligence strategy as a tool for utility rather than a means to drive user engagement. Unlike many competitors that design chatbots to foster long-term dependence or emotional connections, Apple aims for its technology to assist and then disappear. This philosophy focuses on helping users accomplish specific tasks or learn about the world without encouraging addictive behaviors.\nSource",
+          "link": "https://4sysops.com/archives/apple-is-right-technology-must-get-out-of-the-way/",
+          "publishedOn": "2026-06-15T13:27:50.000Z",
+          "wordCount": 6005,
+          "title": "Apple is right. Technology must get out of the way",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-is-right-technology-must-get-out-of-the-way.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/windows-11-july-2026-update-introduces-new-security-and-performance-tools/",
+          "author": "IT News",
+          "description": "Microsoft is rolling out the July 2026 security update, identified as KB5095093, for Windows 11 versions 24H2 and 25H2. While the update includes various fixes and system stability improvements, many new features are being deployed via a gradual rollout. To bypass this staggered release, administrators can use the third-party ViVeTool utility with specific feature IDs to force-enable hidden functionality immediately.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-july-2026-update-introduces-new-security-and-performance-tools/",
+          "publishedOn": "2026-06-15T13:19:41.000Z",
+          "wordCount": 6112,
+          "title": "Windows 11 July 2026 update introduces new security and performance tools",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/windows-11-july-2026-update-introduces-new-security-and-performance-tools.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/beyond-transformers-deepminds-multi-path-strategy-for-artificial-general-intelligence/",
+          "author": "IT News",
+          "description": "Google DeepMind is actively moving beyond standard transformer architectures to address scaling costs and memory limitations in modern AI. By developing alternatives like the Griffin architecture and Recurrent Gemma, they utilize \"index card\" states that synthesize past information rather than carrying a full data cache. These innovations aim to improve long-context reasoning while reducing the computational overhead typically associated with quadratic sequence growth.\nSource",
+          "link": "https://4sysops.com/archives/beyond-transformers-deepminds-multi-path-strategy-for-artificial-general-intelligence/",
+          "publishedOn": "2026-06-15T10:21:44.000Z",
+          "wordCount": 5991,
+          "title": "Beyond transformers: DeepMind’s multi-path strategy for artificial general intelligence",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/beyond-transformers-deepminds-multi-path-strategy-for-artificial-general-intelligence.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-launches-partner-network-to-accelerate-enterprise-ai-adoption/",
+          "author": "IT News",
+          "description": "OpenAI has launched the OpenAI Partner Network to help organizations integrate frontier models into their existing workflows and systems. The program aims to bridge the gap between model capabilities and actual business value by leveraging an ecosystem of trusted consultants and technology providers. A significant investment of $150 million will support this initiative, which includes a goal to train 300,000 certified consultants by 2026.\nSource",
+          "link": "https://4sysops.com/archives/openai-launches-partner-network-to-accelerate-enterprise-ai-adoption/",
+          "publishedOn": "2026-06-15T10:21:43.000Z",
+          "wordCount": 6000,
+          "title": "OpenAI launches partner network to accelerate enterprise AI adoption",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-launches-partner-network-to-accelerate-enterprise-ai-adoption.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-technical-staff-meet-white-house-officials-over-model-export-ban/",
+          "author": "IT News",
+          "description": "Anthropic has dispatched senior technical staff to Washington, D.C., to resolve a regulatory dispute with the U.S. government. The conflict centers on the company's most advanced artificial intelligence models, known as Fable 5 and Mythos 5. These models were recently taken offline following a directive from the Department of Commerce regarding export restrictions.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-technical-staff-meet-white-house-officials-over-model-export-ban/",
+          "publishedOn": "2026-06-15T10:21:42.000Z",
+          "wordCount": 6038,
+          "title": "Anthropic technical staff meet White House officials over model export ban",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-technical-staff-meet-white-house-officials-over-model-export-ban.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/wake-up-call-for-europe-as-us-blocks-access-to-anthropics-latest-models/",
+          "author": "IT News",
+          "description": "Anthropic has abruptly disabled access to its most advanced AI models, Fable 5 and Mythos 5, for all users worldwide. This decision follows a directive from the U.S. Commerce Department that utilized national security export controls to prohibit foreign nationals from accessing these specific systems. The restrictions were reportedly triggered after researchers at Amazon identified a vulnerability within the software of the models.\nSource",
+          "link": "https://4sysops.com/archives/wake-up-call-for-europe-as-us-blocks-access-to-anthropics-latest-models/",
+          "publishedOn": "2026-06-15T10:21:41.000Z",
+          "wordCount": 6157,
+          "title": "Wake-up call for Europe as US blocks access to Anthropic’s latest models",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/wake-up-call-for-europe-as-us-blocks-access-to-anthropics-latest-models.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/mark-carney-of-canada-says-that-the-u-s-s-ai-restrictions-highlight-the-risks-of-dependence/",
+          "author": "IT News",
+          "description": "The Trump administration has implemented new export controls that prohibit foreign nationals from accessing Anthropic’s most advanced artificial intelligence systems. In response to these directives, Anthropic recently took its powerful Fable 5 and Mythos 5 models offline to ensure regulatory compliance. This sudden restriction prevents international users and organizations from utilizing these specific high-performance LLMs.\nSource",
+          "link": "https://4sysops.com/archives/mark-carney-of-canada-says-that-the-u-s-s-ai-restrictions-highlight-the-risks-of-dependence/",
+          "publishedOn": "2026-06-15T10:21:40.000Z",
+          "wordCount": 6112,
+          "title": "Mark Carney of Canada says that the U.S.’s AI restrictions highlight the risks of dependence",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/mark-carney-of-canada-says-that-the-u-s-s-ai-restrictions-highlight-the-risks-of-dependence.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/hands-on-review-of-siri-ai-ios-27-macos-27/",
+          "author": "IT News",
+          "description": "Apple has released developer betas for iOS 27 and macOS 27, introducing a significant generative AI overhaul for the Siri virtual assistant. This update allows the assistant to perform complex tasks across multiple applications, such as drafting documents and locating specific photos based on natural language descriptions. The new system can also analyze on-screen content to provide context-aware assistance and search the web more effectively for information.\nSource",
+          "link": "https://4sysops.com/archives/hands-on-review-of-siri-ai-ios-27-macos-27/",
+          "publishedOn": "2026-06-15T10:21:39.000Z",
+          "wordCount": 6120,
+          "title": "Hands-on review of Siri AI; iOS 27, macOS 27",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/hands-on-review-of-siri-ai-ios-27-macos-27.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/amazon-ceo-triggers-government-shutdown-of-anthropic-ai-models-over-security-risks/",
+          "author": "IT News",
+          "description": "The Trump administration has halted foreign access to Anthropic’s most advanced AI models, Fable 5 and Mythos 5, following security warnings from Amazon. Amazon CEO Andy Jassy reportedly informed Treasury Secretary Scott Bessent that internal researchers successfully used the Fable 5 model to generate information for potential cyberattacks. This intervention led the U.S. government to implement immediate export controls, effectively forcing the models offline for all users globally.\nSource",
+          "link": "https://4sysops.com/archives/amazon-ceo-triggers-government-shutdown-of-anthropic-ai-models-over-security-risks/",
+          "publishedOn": "2026-06-15T10:21:38.000Z",
+          "wordCount": 6124,
+          "title": "Amazon CEO triggers government shutdown of Anthropic AI models over security risks",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amazon-ceo-triggers-government-shutdown-of-anthropic-ai-models-over-security-risks.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/european-union-proposes-digital-sovereignty-package-to-reduce-us-cloud-dependence/",
+          "author": "IT News",
+          "description": "The European Commission has introduced a digital sovereignty package aimed at reducing the continent's heavy reliance on American technology providers. This initiative follows concerns that US political shifts could lead to the weaponization of tech services, such as cloud computing and AI access. The centerpiece of this strategy is the Cloud and AI Development Act, which establishes a ranking system for providers handling public-sector data.\nSource",
+          "link": "https://4sysops.com/archives/european-union-proposes-digital-sovereignty-package-to-reduce-us-cloud-dependence/",
+          "publishedOn": "2026-06-15T10:21:37.000Z",
+          "wordCount": 6056,
+          "title": "European Union proposes digital sovereignty package to reduce US cloud dependence",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/european-union-proposes-digital-sovereignty-package-to-reduce-us-cloud-dependence.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/while-anthropic-suspends-access-to-new-models-india-is-debating-its-future-with-ai/",
+          "author": "IT News",
+          "description": "Anthropic has suspended access to its newest artificial intelligence models, Fable 5 and Mythos 5, following a directive from the United States government. The order bars foreign nationals and even the company's own non-U.S. employees from accessing these high-end systems. This historic move underscores a shift toward stricter export controls on advanced technology to maintain national security and competitive advantages.\nSource",
+          "link": "https://4sysops.com/archives/while-anthropic-suspends-access-to-new-models-india-is-debating-its-future-with-ai/",
+          "publishedOn": "2026-06-15T10:21:36.000Z",
+          "wordCount": 6118,
+          "title": "While Anthropic suspends access to new models, India is debating its future with AI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/while-anthropic-suspends-access-to-new-models-india-is-debating-its-future-with-ai.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/china-may-have-accessed-mythos/",
+          "author": "IT News",
+          "description": "The Trump administration has issued an unprecedented order requiring Anthropic to suspend access to its most advanced artificial intelligence models for all foreign nationals. This directive affects the Mythos 5 and Fable 5 models, which are sophisticated large language models used for complex data processing and automation. The restriction applies to individuals both inside and outside the United States, citing significant national security concerns regarding the technology.\nSource",
+          "link": "https://4sysops.com/archives/china-may-have-accessed-mythos/",
+          "publishedOn": "2026-06-15T10:21:35.000Z",
+          "wordCount": 6026,
+          "title": "China may have accessed Mythos",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/china-may-have-accessed-mythos.webp"
+        },
         {
           "id": "https://4sysops.com/archives/anthropics-statement-on-the-us-government-directive-to-suspend-access-to-fable-5-and-mythos-5/",
           "author": "IT News",
@@ -18412,6 +18627,16 @@
           "publishedOn": "2026-06-12T15:02:00.000Z",
           "wordCount": 1231,
           "title": "The JNUC 2026 session catalog is live — and the clock is ticking",
+          "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
+        },
+        {
+          "id": "https://www.jamf.com/blog/ai-governance-for-mac/",
+          "author": null,
+          "description": "Somewhere in your organization, an engineer is running Claude Code. A few desks over, someone in finance is drafting in Claude Desktop. The decision to adopt AI has, in practice, already been made by the business and by people quietly getting more done with it.",
+          "link": "https://www.jamf.com/blog/ai-governance-for-mac/",
+          "publishedOn": "2026-06-12T12:38:00.000Z",
+          "wordCount": 2283,
+          "title": "AI governance for Mac: bringing AI under management",
           "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
         },
         {
