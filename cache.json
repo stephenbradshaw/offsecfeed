@@ -190,6 +190,16 @@
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": [
         {
+          "id": "https://www.netspi.com/?p=33470",
+          "author": "Rafael Seferyan",
+          "description": "Dive into this real-world social engineering assessment where a fake anonymous tip and an adversary-in-the-middle framework tested the limits of an organization's security policies.\nThe post I’m Just Asking Questions: Social Engineering as a Reporter  appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/social-engineering/im-just-asking-questions-social-engineering-as-a-reporter/",
+          "publishedOn": "2026-06-17T22:11:38.000Z",
+          "wordCount": 3832,
+          "title": "I’m Just Asking Questions: Social Engineering as a Reporter",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/06/06.18.26_TECH_Local-Reporter-Social-Engineering_Rafael-Seferyan_1200x630.jpg"
+        },
+        {
           "id": "https://www.netspi.com/?p=33367",
           "author": "Matt Lashner",
           "description": "Walk through the path of an internal network test: from a constrained foothold to full domain compromise, and how an overlooked integration point became the weakest link.\nThe post Legacy Meets Modern: Breaking AD Through NIS & MFA Infrastructure appeared first on NetSPI.",
@@ -13911,6 +13921,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=12848",
+          "author": "Michelle Rhodes",
+          "description": "Overview Earlier this year, a team at Praetorian was building Constantine, our automated 0-day discovery engine. I wanted to find techniques worth folding into it, so on the side I started poking at the FreeBSD kernel with Claude Code, running on Opus 4.6, which was the latest Opus model at the time. A few days […]\nThe post FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 1 of 2) appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/ai-vulnerability-research-freebsd-kernel/",
+          "publishedOn": "2026-06-17T19:15:57.000Z",
+          "wordCount": 5581,
+          "title": "FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 1 of 2)",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/06/part1-FreeBSod.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=12767",
           "author": "Michelle Rhodes",
           "description": "TL;DR: Sulla is an open source SMB secret scanner for discovering credentials exposed in SMB shares across enterprise networks. It leverages our recently released Titus Go library, resulting in an easy-to-use, adaptable, and highly performant standalone binary. Every network penetration tester knows the struggle: reviewing network shares for sensitive material is a painful must-do. With […]\nThe post Sharing is Caring: SMB Secret Scanning with Sulla appeared first on Praetorian.",
@@ -13997,6 +14017,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/06/17/session-switcher.html",
+          "author": null,
+          "description": "Authorization testing is one of the most repetitive, yet critical tasks in web app security testing. Checking for horizontal and vertical privilege escalation, IDORs, and other access control issues requires constantly swapping cookies and headers between different user sessions, a process that is error-prone and often becomes tedious.\nToday, we’re excited to release Session Switcher, a Burp Suite extension that lets you save and switch HTTP sessions with just a couple of clicks, right from the request editor.\nThe Problem\nDuring a typical authorization test, you might very often find yourself needing to to:\nCopy cookies from one browser session and paste them into Repeater requests\nKeep track of multiple user roles and their authentication tokens\nManually update expired JWTs or session coo…",
+          "link": "https://blog.doyensec.com/2026/06/17/session-switcher.html",
+          "publishedOn": "2026-06-16T22:00:00.000Z",
+          "wordCount": 1739,
+          "title": "Introducing Session Switcher. Swap Burp Sessions with One Click!",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/05/27/aikido-xbow.html",
           "author": null,
           "description": "Doyensec performed a side-by-side comparison of two leading AI-powered penetration\ntesting platforms: Aikido’s Attack AI Pentest and XBOW’s Lightspeed in order to evaluate their abilities to properly identify vulnerabilities in modern web applications. This included manually validating all findings and classifying them as either true positives or false positives. Additionally, we looked at their overall testing process, including the configuration, impact on tested applications, quality and content of the reports, cost, and speed.\n\nAs a leading boutique application security consultancy, we were also curious about how the\nadoption of AI will impact the future of testing. To understand the current maturity levels of these AI platforms, it was necessary for us to put some vendors’ claims to the test.\nIf you’re interested in the current state of AI-powered pentesting, we encourage you to give it a read:\nComparing AI Application Security Testing Platforms: Aikido vs. XBOW (PDF, 5 MB)",
@@ -14014,16 +14044,6 @@
           "publishedOn": "2026-05-24T22:00:00.000Z",
           "wordCount": 2039,
           "title": "Navigating Lax Load Balancers: When an Intersection Gets You Inside",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html",
-          "author": null,
-          "description": "This research was recently presented at BSides Luxembourg 2026. This blogpost documents our findings presented during the talk. The BSides slides are posted here. Today, we’re also releasing the Docker-based playground utilized for the demos so anyone interested can reproduce the findings locally: doyensec/cfitsio-efs-playground.\nIn our previous post on CFITSIO, we wrote about the AI-assisted fuzzing pipeline and the memory corruption issues found in its Extended Filename Syntax (EFS). This was only half of the story. We kept thinking that even without memory issues, EFS seems like a pretty powerful and rather risky feature. The EFS page is full of very interesting use cases. To quote some of them (emphasis mine):\n‘rawfile.dat[i512,512]’: reads raw binary data array (a 512x512 short intege…",
-          "link": "https://blog.doyensec.com/2026/05/19/cfitsio-weaponized-filenames.html",
-          "publishedOn": "2026-05-18T22:00:00.000Z",
-          "wordCount": 3204,
-          "title": "When Filenames Become Attack Surfaces: Weaponizing NASA's CFITSIO Extended Filename Syntax",
           "imageUrl": null
         }
       ]
@@ -14213,6 +14233,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/?p=1613504",
+          "author": "IT Experts",
+          "description": "Microsoft Defender for Cloud Apps has received several updates in 2026, focusing on SaaS application monitoring, OAuth app governance, and AI agent protection. The latest releases introduce enhanced Salesforce connector capabilities, real-time protection for AI agents built with Copilot Studio, and improvements to app governance workflows. This article covers the most relevant changes for administrators managing cloud application security.\nSource",
+          "link": "https://4sysops.com/archives/new-features-in-microsoft-defender-for-cloud-apps/",
+          "publishedOn": "2026-06-17T20:18:19.000Z",
+          "wordCount": 8577,
+          "title": "New features in Microsoft Defender for Cloud Apps",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Defender-for-Cloud-Apps-pillars-image-Microsoft.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/unlocking-hidden-processor-performance-boost-modes-in-windows-11/",
+          "author": "IT News",
+          "description": "Windows 11 contains a hidden configuration menu called Processor Performance Boost Mode that allows for granular control over CPU frequency scaling. This feature is typically concealed from the standard power options interface to balance heat, power consumption, and system stability. It relies on Collaborative Processor Performance Control technology, which is a standard feature found in most modern Intel and AMD processors.\nSource",
+          "link": "https://4sysops.com/archives/unlocking-hidden-processor-performance-boost-modes-in-windows-11/",
+          "publishedOn": "2026-06-17T18:30:50.000Z",
+          "wordCount": 6207,
+          "title": "Unlocking hidden processor performance boost modes in Windows 11",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-patches-critical-copilot-vulnerabilities-that-enabled-silent-data-exfiltration/",
+          "author": "IT News",
+          "description": "Security researchers recently identified critical vulnerabilities in Microsoft 365 Copilot that allowed attackers to exfiltrate sensitive organizational data. These exploits, known as SearchLeak and EchoLeak, utilized prompt injection techniques to bypass standard security boundaries without requiring user interaction. The flaws targeted the enterprise tier of the service, potentially exposing any information the AI could access within a tenant's environment.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-patches-critical-copilot-vulnerabilities-that-enabled-silent-data-exfiltration/",
+          "publishedOn": "2026-06-17T15:24:30.000Z",
+          "wordCount": 6278,
+          "title": "Microsoft patches critical Copilot vulnerabilities that enabled silent data exfiltration",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-patches-critical-copilot-vulnerabilities-that-enabled-silent-data-exfiltration.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cloudflare-one-stack-uses-ai-agents-to-automate-zero-trust-migrations/",
+          "author": "IT News",
+          "description": "Cloudflare has introduced the Cloudflare One stack to simplify the transition to Zero Trust network architectures. This toolkit provides specialized skills for AI agents to automate the configuration, deployment, and management of security environments. It aims to reduce the manual effort required to decode complex network topologies and existing vendor policies.\nSource",
+          "link": "https://4sysops.com/archives/cloudflare-one-stack-uses-ai-agents-to-automate-zero-trust-migrations/",
+          "publishedOn": "2026-06-17T15:24:29.000Z",
+          "wordCount": 6189,
+          "title": "Cloudflare One stack uses AI agents to automate Zero Trust migrations",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cloudflare-one-stack-uses-ai-agents-to-automate-zero-trust-migrations.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/amd-mustang-peak-threadripper-cpus-to-feature-pcie-6-0-and-new-tr6-socket/",
+          "author": "IT News",
+          "description": "AMD's next-generation Threadripper processors, codenamed Mustang Peak, will utilize the Zen 6 architecture and a 2nm-class manufacturing process. These high-end chips are expected to support the PCI Express 6.0 standard, which doubles the bandwidth of the previous generation. Due to these significant architectural changes, the processors will require a new platform and physical interface known as the TR6 socket.\nSource",
+          "link": "https://4sysops.com/archives/amd-mustang-peak-threadripper-cpus-to-feature-pcie-6-0-and-new-tr6-socket/",
+          "publishedOn": "2026-06-17T15:24:28.000Z",
+          "wordCount": 6255,
+          "title": "AMD Mustang Peak Threadripper CPUs to feature PCIe 6.0 and new TR6 socket",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amd-mustang-peak-threadripper-cpus-to-feature-pcie-6-0-and-new-tr6-socket.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cisco-expands-max-severity-sd-wan-advisory-as-exploitation-continues/",
+          "author": "IT News",
+          "description": "Cisco has updated a critical security advisory to include the Catalyst SD-WAN Validator, formerly known as vBond, as a product vulnerable to a maximum-severity flaw. This vulnerability, tracked as CVE-2026-20127, involves an improper authentication issue that allows attackers to gain administrative rights and reconfigure the SD-WAN fabric. When combined with a secondary path traversal bug, unauthorized actors can achieve persistent root access to affected networking instances.\nSource",
+          "link": "https://4sysops.com/archives/cisco-expands-max-severity-sd-wan-advisory-as-exploitation-continues/",
+          "publishedOn": "2026-06-17T15:24:27.000Z",
+          "wordCount": 6233,
+          "title": "Cisco expands max-severity SD-WAN advisory as exploitation continues",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cisco-expands-max-severity-sd-wan-advisory-as-exploitation-continues.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-accelerates-windows-11-performance-through-the-k2-initiative/",
+          "author": "IT News",
+          "description": "Microsoft is prioritizing system fundamentals through the Windows K2 initiative, a project focused on enhancing Windows 11 performance and reliability. Rather than waiting for major version releases, the company is delivering these optimizations through monthly cumulative updates. The initiative targets core user experiences, including faster application launches, more responsive shell interactions, and improved biometric sign-in speeds via Windows Hello.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-accelerates-windows-11-performance-through-the-k2-initiative/",
+          "publishedOn": "2026-06-17T15:24:26.000Z",
+          "wordCount": 6258,
+          "title": "Microsoft accelerates Windows 11 performance through the K2 initiative",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-accelerates-windows-11-performance-through-the-k2-initiative.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/economic-hurdles-delay-jeff-bezoss-vision-for-orbital-ai-data-centers/",
+          "author": "IT News",
+          "description": "Jeff Bezos identifies the primary obstacle to orbital data centers as a massive financial gap rather than a technical or physical limitation. While the founder of Blue Origin views space-based computing as realistic, he cautions that the current costs of AI chips and orbital logistics are prohibitive. The economic math must shift significantly before these facilities can compete with the infrastructure currently operating on the ground.\nSource",
+          "link": "https://4sysops.com/archives/economic-hurdles-delay-jeff-bezoss-vision-for-orbital-ai-data-centers/",
+          "publishedOn": "2026-06-17T13:35:26.000Z",
+          "wordCount": 6250,
+          "title": "Economic hurdles delay Jeff Bezos’s vision for orbital AI data centers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/economic-hurdles-delay-jeff-bezoss-vision-for-orbital-ai-data-centers.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/jensen-huang-is-urging-society-to-overcome-its-fear-of-ai/",
+          "author": "IT News",
+          "description": "Nvidia CEO Jensen Huang emphasizes that society must move past the fear of artificial intelligence to embrace its potential for economic growth and scientific breakthroughs. He argues that the current industrial revolution will be won at the application layer, where the speed of adoption determines long-term success. To facilitate this transition, Huang suggests that society needs to develop new social norms that accommodate the rapid integration of AI into daily life and infrastructure.\nSource",
+          "link": "https://4sysops.com/archives/jensen-huang-is-urging-society-to-overcome-its-fear-of-ai/",
+          "publishedOn": "2026-06-17T13:35:25.000Z",
+          "wordCount": 6263,
+          "title": "Jensen Huang is urging society to overcome its fear of AI",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/jensen-huang-is-urging-society-to-overcome-its-fear-of-ai.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/unlocking-ai-roi-by-structuring-enterprise-data-for-autonomous-agent-workflows/",
+          "author": "IT News",
+          "description": "Organizations often struggle with AI return on investment because pilot programs frequently lack intentional business strategies or focus on commoditized public data. Success in production environments requires leveraging proprietary unstructured data, which constitutes roughly 90% of enterprise information within systems like emails, contracts, and medical records. By using large language models to provide structure to this data, businesses can transition from simple data \"swamps\" to sophisticated context engines that inform autonomous agents.\nSource",
+          "link": "https://4sysops.com/archives/unlocking-ai-roi-by-structuring-enterprise-data-for-autonomous-agent-workflows/",
+          "publishedOn": "2026-06-17T13:35:24.000Z",
+          "wordCount": 6260,
+          "title": "Unlocking AI ROI by structuring enterprise data for autonomous agent workflows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/unlocking-ai-roi-by-structuring-enterprise-data-for-autonomous-agent-workflows.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/amd-removes-memory-encryption-from-consumer-ryzen-cpus-via-firmware-update/",
+          "author": "IT News",
+          "description": "AMD has reportedly disabled Transparent Secure Memory Encryption (TSME) on consumer-grade Ryzen processors through recent firmware updates. TSME is a hardware-level feature that automatically encrypts data stored in system RAM to protect against physical attacks, such as cold-boot exploits or memory snooping. While previously available on standard Ryzen chips, the functionality now appears restricted to the more expensive Ryzen Pro and EPYC product lines.\nSource",
+          "link": "https://4sysops.com/archives/amd-removes-memory-encryption-from-consumer-ryzen-cpus-via-firmware-update/",
+          "publishedOn": "2026-06-17T13:23:56.000Z",
+          "wordCount": 6326,
+          "title": "AMD removes memory encryption from consumer Ryzen CPUs via firmware update",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amd-removes-memory-encryption-from-consumer-ryzen-cpus-via-firmware-update.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/uk-government-deploys-google-cloud-ai-to-halve-planning-application-wait-times/",
+          "author": "IT News",
+          "description": "The UK government is deploying generative AI tools across local planning authorities to automate the processing of housing applications and reduce administrative backlogs. Built on Google Cloud using Gemini foundation models, the \"Extract\" tool and \"Augmented Planning Decisions\" prototype aim to cut decision timelines from eight weeks to four. These systems address the high volume of unstructured data found in legacy PDF records, which currently forces planning officers to spend hours on manual data entry and cross-referencing.\nSource",
+          "link": "https://4sysops.com/archives/uk-government-deploys-google-cloud-ai-to-halve-planning-application-wait-times/",
+          "publishedOn": "2026-06-17T13:23:55.000Z",
+          "wordCount": 6308,
+          "title": "UK government deploys Google Cloud AI to halve planning application wait times",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/uk-government-deploys-google-cloud-ai-to-halve-planning-application-wait-times.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/nvidia-ai-requirements-drive-silicon-motion-toward-pcie-6-0-storage/",
+          "author": "IT News",
+          "description": "Silicon Motion is prioritizing the development of PCIe 6.0 SSD controllers to align with Nvidia’s upcoming hardware roadmaps. While AMD and Intel have not yet committed to the high-speed interface for consumer platforms, Nvidia’s focus on agentic AI requires significantly higher data throughput. The storage manufacturer expects its first client-grade PCIe Gen6 platform to emerge in late 2027 to meet these specific bandwidth demands.\nSource",
+          "link": "https://4sysops.com/archives/nvidia-ai-requirements-drive-silicon-motion-toward-pcie-6-0-storage/",
+          "publishedOn": "2026-06-17T13:23:54.000Z",
+          "wordCount": 6244,
+          "title": "Nvidia AI requirements drive Silicon Motion toward PCIe 6.0 storage",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/nvidia-ai-requirements-drive-silicon-motion-toward-pcie-6-0-storage.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/windows-june-updates-break-office-integration-in-third-party-business-apps/",
+          "author": "IT News",
+          "description": "The June 2026 Windows updates have introduced a bug that prevents various third-party applications from launching Microsoft Office programs or opening documents. This issue specifically impacts software that utilizes OLE automation to interact with Word, Excel, PowerPoint, and Access. While the Office applications still function correctly when opened directly, they fail to trigger when called by external document management or accounting systems.\nSource",
+          "link": "https://4sysops.com/archives/windows-june-updates-break-office-integration-in-third-party-business-apps/",
+          "publishedOn": "2026-06-17T13:23:53.000Z",
+          "wordCount": 6255,
+          "title": "Windows June updates break Office integration in third-party business apps",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/windows-june-updates-break-office-integration-in-third-party-business-apps.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cybersecurity-leaders-urge-us-to-lift-restrictions-on-anthropic-ai-models/",
+          "author": "IT News",
+          "description": "More than 100 cybersecurity executives and researchers are calling on the Trump administration to reverse export controls placed on Anthropic’s advanced AI models. The government recently ordered the company to suspend access to its Fable 5 and Mythos 5 models for foreign nationals due to national security concerns. Experts argue these restrictions hinder the ability of defenders to identify and patch software vulnerabilities at a critical time.\nSource",
+          "link": "https://4sysops.com/archives/cybersecurity-leaders-urge-us-to-lift-restrictions-on-anthropic-ai-models/",
+          "publishedOn": "2026-06-17T09:49:03.000Z",
+          "wordCount": 6310,
+          "title": "Cybersecurity leaders urge US to lift restrictions on Anthropic AI models",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cybersecurity-leaders-urge-us-to-lift-restrictions-on-anthropic-ai-models.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-halts-controversial-token-based-billing-for-claude-agent-sdk/",
+          "author": "IT News",
+          "description": "Anthropic has suspended its plan to transition Claude Agent SDK users from flat-rate subscriptions to usage-based token billing. This decision follows significant pushback from developers who argued the change would lead to unsustainable cost increases for heavy workloads. The company stated it is currently re-evaluating how to better support users who build applications using Claude subscriptions.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-halts-controversial-token-based-billing-for-claude-agent-sdk/",
+          "publishedOn": "2026-06-17T09:45:47.000Z",
+          "wordCount": 6197,
+          "title": "Anthropic halts controversial token based billing for Claude Agent SDK",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-halts-controversial-token-based-billing-for-claude-agent-sdk.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/databricks-launches-genie-one-to-automate-business-workflows-with-ai-agents/",
+          "author": "IT News",
+          "description": "Databricks has introduced Genie One, a new tool designed to function as an \"agentic coworker\" for various business departments. This offering expands the company's existing Genie suite by moving beyond simple conversational analytics to active task automation. The platform aims to help teams in finance, marketing, and sales make better decisions by interacting directly with corporate data.\nSource",
+          "link": "https://4sysops.com/archives/databricks-launches-genie-one-to-automate-business-workflows-with-ai-agents/",
+          "publishedOn": "2026-06-17T09:45:46.000Z",
+          "wordCount": 6245,
+          "title": "Databricks launches Genie One to automate business workflows with AI agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/databricks-launches-genie-one-to-automate-business-workflows-with-ai-agents.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-losses-outpace-revenue-growth-as-infrastructure-costs-soar/",
+          "author": "IT News",
+          "description": "Leaked internal documents reveal that OpenAI is facing a widening gap between its surging revenue and even faster-growing expenses. While the company’s revenue increased from approximately $700 million in 2024 to over $10 billion in 2025, its net losses reportedly jumped from $5 billion to $39 billion in the same period. This trend indicates that the capital required to develop and distribute artificial intelligence is currently scaling more aggressively than the income it generates.\nSource",
+          "link": "https://4sysops.com/archives/openai-losses-outpace-revenue-growth-as-infrastructure-costs-soar/",
+          "publishedOn": "2026-06-17T09:45:45.000Z",
+          "wordCount": 6294,
+          "title": "OpenAI losses outpace revenue growth as infrastructure costs soar",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-losses-outpace-revenue-growth-as-infrastructure-costs-soar.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/government-restrictions-drive-record-business-adoption-for-anthropic-ai-models/",
+          "author": "IT News",
+          "description": "The Trump administration has issued an export control directive banning foreign entities and individuals from accessing Anthropic’s most advanced AI models, Fable 5 and Mythos 5. This mandate follows reports that users successfully bypassed safety guardrails on Fable 5 to access the more restricted capabilities of the Mythos system. Anthropic has responded by dispatching technical staff to Washington to negotiate a resolution while effectively pulling the affected models from the market.\nSource",
+          "link": "https://4sysops.com/archives/government-restrictions-drive-record-business-adoption-for-anthropic-ai-models/",
+          "publishedOn": "2026-06-17T09:45:44.000Z",
+          "wordCount": 6318,
+          "title": "Government restrictions drive record business adoption for Anthropic AI models",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/government-restrictions-drive-record-business-adoption-for-anthropic-ai-models.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/apple-to-move-hide-my-email-to-a-dedicated-subdomain/",
+          "author": "IT News",
+          "description": "Apple is planning to modify its Hide My Email service by transitioning generated addresses to a new dedicated subdomain. Currently, these anonymous addresses use the standard @icloud.com domain, making them indistinguishable from primary user accounts. In the coming weeks, the service will shift to using @private.icloud.com for all newly created aliases.\nSource",
+          "link": "https://4sysops.com/archives/apple-to-move-hide-my-email-to-a-dedicated-subdomain/",
+          "publishedOn": "2026-06-17T09:45:43.000Z",
+          "wordCount": 6270,
+          "title": "Apple to move Hide My Email to a dedicated subdomain",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-to-move-hide-my-email-to-a-dedicated-subdomain.webp"
+        },
         {
           "id": "https://4sysops.com/?p=1613401",
           "author": "IT Experts",
@@ -17312,26 +17532,6 @@
           "wordCount": null,
           "title": "Windows 11 SecureBoot folder: PowerShell scripts explained",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1611160",
-          "author": "IT Experts",
-          "description": "Microsoft has made Platform Single Sign-On (PSSO) during Automated Device Enrollment (ADE) generally available for macOS. The new EnableRegistrationDuringSetup setting in Microsoft Intune completes device registration and SSO configuration automatically during Setup Assistant — the initial macOS setup wizard — before the user ever reaches the desktop. This article explains what PSSO is, why the new setting matters, what you need to configure it, and what limitations to expect.\nSource",
-          "link": "https://4sysops.com/archives/automate-platform-sso-setup-during-macos-enrollment-with-microsoft-intune/",
-          "publishedOn": "2026-05-18T19:11:43.000Z",
-          "wordCount": null,
-          "title": "Automate Platform SSO setup during macOS enrollment with Microsoft Intune",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1611027",
-          "author": "IT Experts",
-          "description": "Microsoft Identity Manager (MIM) 2016 Service Pack 3 (SP3) became generally available on May 14, 2026, after an initial release in late March 2026 that Microsoft quietly withdrew without public explanation. SP3 is primarily a platform compatibility update: it adds support for SQL Server 2022, SharePoint Subscription Edition (SE), and Exchange Server SE. The most technically significant additions are Azure SQL Database support for the Synchronization Service using managed identities and claims-based authentication via Active Directory Federation Services (AD FS) for the MIM Portal. MIM 2016 remains supported until January 9, 2029.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-identity-manager-2016-sp3-sql-server-2022-azure-sql-and-ad-fs-sso/",
-          "publishedOn": "2026-05-18T19:10:51.000Z",
-          "wordCount": null,
-          "title": "Microsoft Identity Manager 2016 SP3: SQL Server 2022, Azure SQL, and AD FS SSO",
-          "imageUrl": null
         }
       ]
     },
@@ -17515,6 +17715,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=25054",
+          "author": "Christos Giampoulakis",
+          "description": "This blog is the first in a series exploring how Summary Rules, together with Auxiliary or Data Lake storage, can help organizations optimize SIEM costs without compromising core threat detection and monitoring capabilities.",
+          "link": "https://blog.nviso.eu/2026/06/17/reducing-microsoft-sentinel-costs-without-compromising-detection-part-1-the-summary-rules-quest/",
+          "publishedOn": "2026-06-17T08:49:40.000Z",
+          "wordCount": 5067,
+          "title": "Reducing Microsoft Sentinel Costs Without Compromising Detection – Part 1: The Summary Rules Quest",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/05/the_summary_rules_quest_1-1.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=26015",
           "author": "Stamatis Chatzimangou",
           "description": "Adversaries have always relied on legitimate tools to carry out their attacks. These tools are already trusted by security solutions, which allows them to blend in with normal activity, maintain a low footprint, and make detection much harder for defenders. By using these legitimate tools, adversaries can carry out a wide range of actions, such as moving laterally across networks, establishing C2 channels, or maintaining persistence, all without triggering any alerts.",
@@ -17541,6 +17751,26 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/the-smash-and-grab-era",
+          "author": null,
+          "description": "We walk through three eras of cyber attacks and makes a troubling case that LLMs are removing the one constraint that kept attackers slow and detectable.",
+          "link": "https://bishopfox.com/blog/the-smash-and-grab-era",
+          "publishedOn": "2026-06-18T00:24:00.000Z",
+          "wordCount": 2690,
+          "title": "The Smash-and-Grab Era",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/_1200x630_crop_center-center_82_none/Screenshot-2026-06-17-at-5.22.39-PM.png?mtime=1781742450"
+        },
+        {
+          "id": "https://bishopfox.com/blog/a-crash-not-a-shell-solarwinds-serv-u-cve-2026-28318",
+          "author": null,
+          "description": "A single unauthenticated request can kill SolarWinds Serv-U, and the heap corruption underneath it looked like it could be more. Bishop Fox chased three separate roads to remote code execution and hit a wall on every one. Here is what we found, why it matters, and how to detect exposure safely.",
+          "link": "https://bishopfox.com/blog/a-crash-not-a-shell-solarwinds-serv-u-cve-2026-28318",
+          "publishedOn": "2026-06-16T13:00:00.000Z",
+          "wordCount": 2641,
+          "title": "A Crash, Not a Shell: SolarWinds Serv-U CVE-2026-28318",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/A-Crash-Not-a-Shell-SolarWinds-Serve-U-CVE-2026-28318.png?mtime=1781710520"
+        },
         {
           "id": "https://bishopfox.com/blog/a-crash-not-a-shell-solarwinds-serev-u-cve-2026-28318",
           "author": null,
@@ -17737,16 +17967,6 @@
           "wordCount": 3562,
           "title": "AI Can Find More Vulnerabilities. Humans Still Decide What Matters.",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/05/ai-pentesting-finds-more-humans-decide-what-matters-blog-image.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=26019",
-          "author": "Angela Heindl-Schober",
-          "description": "Key Takeaways Why Continuous Security Validation Matters California’s evolving privacy regulations are doing more than adding another compliance requirement. They’re changing how organizations think about cybersecurity governance, accountability, and operational resilience. The latest guidance around cybersecurity audits under the California Consumer Privacy Act (CCPA) signals a broader shift happening across the industry: security leaders are […]\nThe post How CCPA Cybersecurity Audits Are Reshaping Cyber Governance appeared first on Synack.",
-          "link": "https://www.synack.com/blog/ccpa-audits-continuous-security-validation/",
-          "publishedOn": "2026-05-15T15:33:01.000Z",
-          "wordCount": 4618,
-          "title": "How CCPA Cybersecurity Audits Are Reshaping Cyber Governance",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/04/marek-piwnicki-fNWRjmHMYkU-unsplash-scaled.jpg"
         }
       ]
     },
@@ -18721,6 +18941,16 @@
       "siteUrl": "https://redcanary.com/blog/",
       "articles": [
         {
+          "id": "https://redcanary.com/?p=48043",
+          "author": "Jason Killam",
+          "description": "A comprehensive guide to the most commonly abused RMM tools, including technical guidance for detection and prevention",
+          "link": "https://redcanary.com/blog/security-operations/rmm-detection/",
+          "publishedOn": "2026-06-17T16:15:51.000Z",
+          "wordCount": 10257,
+          "title": "The dual-use dilemma: Rethinking detection for remote access tool abuse",
+          "imageUrl": "https://redcanary.com/wp-content/uploads/2026/06/1200x628_Blog-RedCanary.jpg"
+        },
+        {
           "id": "https://redcanary.com/?p=48030",
           "author": "Brittany Sattler",
           "description": "We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program",
@@ -18978,26 +19208,6 @@
           "wordCount": 1883,
           "title": "MSP engineering: The art of scoping in Jamf Pro at scale",
           "imageUrl": "https://media.jamf.com/images/news/2026/smarter-scoping-jamf-pro-msp-scale.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/macbook-neo-in-k-12/",
-          "author": null,
-          "description": "MacBook Neo brings powerful, affordable Mac computing to K-12 classrooms — and with Jamf, deploying and managing it alongside iPad has never been easier.",
-          "link": "https://www.jamf.com/blog/macbook-neo-in-k-12/",
-          "publishedOn": "2026-05-19T13:38:00.000Z",
-          "wordCount": 1762,
-          "title": "MacBook Neo in K-12",
-          "imageUrl": "https://media.jamf.com/images/news/2026/macbook-neo-promo.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/seamless-learning-access-k12-ipad-login-experience/",
-          "author": null,
-          "description": "Learn what seamless learning access means and discover how it supports classroom delivery while simplifying iPad usage.",
-          "link": "https://www.jamf.com/blog/seamless-learning-access-k12-ipad-login-experience/",
-          "publishedOn": "2026-05-18T14:51:00.000Z",
-          "wordCount": 1680,
-          "title": "Seamless Learning Access: Simplicity that puts learning first",
-          "imageUrl": "https://media.jamf.com/images/news/2026/seamless-learning-access-k12-ipad-login-experience.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -19043,6 +19253,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/red-agent-pov-ssrf",
+          "author": "Red Agent",
+          "description": "Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on GCP Cloud Run",
+          "link": "https://www.wiz.io/blog/red-agent-pov-ssrf",
+          "publishedOn": "2026-06-17T14:33:51.000Z",
+          "wordCount": 17790,
+          "title": "The Red Agent POV: How it Reasoned its Way to SSRF",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1781693144-red1-2x-1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1781693144-red1-2x-1.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/red-agent-pov-series",
+          "author": "Red Agent",
+          "description": "An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild",
+          "link": "https://www.wiz.io/blog/red-agent-pov-series",
+          "publishedOn": "2026-06-17T14:33:41.000Z",
+          "wordCount": 16747,
+          "title": "Introducing the Red Agent POV Series",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1781685807-pov-2x-2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1781685807-pov-2x-2.png"
+        },
         {
           "id": "https://www.wiz.io/blog/exposure-management-dashboard",
           "author": "Eyal Golombek",
@@ -19267,36 +19507,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1779210111-threat-update-large-title_custom.jpeg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/introducing-runtime-threat-detection-for-google-cloud-run",
-          "author": "Shashank Golla",
-          "description": "Wiz Runtime Sensor support for Google Cloud Run Containers is now generally available, giving teams real-time threat detection and response for their serverless container workloads.",
-          "link": "https://www.wiz.io/blog/introducing-runtime-threat-detection-for-google-cloud-run",
-          "publishedOn": "2026-05-19T13:17:41.000Z",
-          "wordCount": 16120,
-          "title": "Introducing Runtime Threat Detection for Google Cloud Run",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1779192896-gcr01-2x-8.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1779192896-gcr01-2x-8.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain",
-          "author": "Rami McCarthy",
-          "description": "Multi-ecosystem supply chain compromise by TeamPCP targets GitHub, NPM, and VSCode to steal credentials and establish persistence.",
-          "link": "https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain",
-          "publishedOn": "2026-05-19T08:29:30.000Z",
-          "wordCount": 16899,
-          "title": "The Worm That Keeps on Digging: TeamPCP Hits @antv in Latest Wave",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1779178134-threat-update-mini-worm_custom.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1779178134-threat-update-mini-worm_custom.jpeg"
         }
       ]
     },
@@ -19305,6 +19515,16 @@
       "feedUrl": "https://cocomelonc.github.io/feed.xml",
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
+        {
+          "id": "https://cocomelonc.github.io/linux/2026/06/17/linux-hacking-11.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/linux/2026/06/17/linux-hacking-11.html",
+          "publishedOn": "2026-06-17T00:00:00.000Z",
+          "wordCount": 2603,
+          "title": "Linux hacking part 11: GOT/PLT hijacking. Simple C example.",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/206/2026-06-17_07-26.png"
+        },
         {
           "id": "https://cocomelonc.github.io/malware/2026/05/28/malware-tricks-58.html",
           "author": null,
