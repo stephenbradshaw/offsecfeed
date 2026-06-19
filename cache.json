@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=27430",
+          "author": "Matthew Nickerson",
+          "description": "The first version of BloodHound MCP proved that an LLM could converse with BloodHound. The current version drove home the lesson that MCP design is context design. The most useful changes were smaller but more flexible tools, better error recovery, domain-specific resources, and a prompt that guides the model instead of trying to teach everything up front.\nThe post BloodHound MCP, One Year Later: What I Learned About MCPs, Models, and Context appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/06/18/bloodhound-mcp-one-year-later-what-i-learned-about-mcps-models-and-context/",
+          "publishedOn": "2026-06-18T16:30:00.000Z",
+          "wordCount": 5778,
+          "title": "BloodHound MCP, One Year Later: What I Learned About MCPs, Models, and Context",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/06/ChatGPT-Image-Jun-18-2026-11_41_36-AM.png"
+        },
+        {
           "id": "https://specterops.io/?p=27213",
           "author": "Alex Rodriguez",
           "description": "TL;DR: We created new Mythic extensions to simplify container-centric assessments, including Kubernetes and Docker-based ceded access workflows. These tools help operators wrap Mythic payloads in OCI-compatible containers and publish them to a self-hosted registry. Check the container_wrapper and container_registry on GitHub. Introduction There are quite a few command and control (C2) frameworks available for teams […]\nThe post Mythic Embarking on the Open Seas: Containerized Payload Delivery for Kubernetes Assessments appeared first on SpecterOps.",
@@ -357,18 +367,7 @@
       "title": "Active Directory & Azure AD/Entra ID Security",
       "feedUrl": "https://adsecurity.org/?feed=rss2",
       "siteUrl": "https://adsecurity.org",
-      "articles": [
-        {
-          "id": "https://adsecurity.org/?p=5061",
-          "author": "Sean Metcalf",
-          "description": "This series of posts focuses on key Active Directory (AD) components that need to be secured in order to ensure AD security is leveled up. In this post, we focus on Group Policy Objects (GPOs) and their permissions. Group Policy provides the ability to change application settings, security settings, install and run code, and more! … \nContinue reading",
-          "link": "https://adsecurity.org/?p=5061",
-          "publishedOn": "2026-05-20T00:17:00.000Z",
-          "wordCount": 1930,
-          "title": "AD Fundamentals: Group Policy Permissions & Owner Rights",
-          "imageUrl": "https://adsecurity.org/wp-content/uploads/2026/06/Screenshot-2026-06-09-at-1.05.04-PM.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Tyranid's Lair",
@@ -13921,6 +13920,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=12861",
+          "author": "Michelle Rhodes",
+          "description": "In the previous post we walked through WasmForge, our Go-to-WebAssembly loader that takes existing signatured Go tools and ships them as opsec-safe binaries. This approach doesn’t just apply to Go, however, as there are many languages that can compile to WebAssembly. Another language of interest to us, especially regarding legacy tools which have been over-signatured, […]\nThe post GhostPack Necromancy: Reforging C# Tools with WasmForge appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/wasmforge-csharp-ghostpack-edr-evasion/",
+          "publishedOn": "2026-06-19T01:55:33.000Z",
+          "wordCount": 7719,
+          "title": "GhostPack Necromancy: Reforging C# Tools with WasmForge",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/06/part3-Wasmforge-2.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=12848",
           "author": "Michelle Rhodes",
           "description": "Overview Earlier this year, a team at Praetorian was building Constantine, our automated 0-day discovery engine. I wanted to find techniques worth folding into it, so on the side I started poking at the FreeBSD kernel with Claude Code, running on Opus 4.6, which was the latest Opus model at the time. A few days […]\nThe post FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 1 of 2) appeared first on Praetorian.",
@@ -14233,6 +14242,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/archives/are-ai-data-centres-in-space-realistic/",
+          "author": "IT News",
+          "description": "The rapid expansion of AI is straining terrestrial resources, particularly in regions like Arizona where data centers face severe water and power shortages. To circumvent these physical limits, the tech industry is exploring orbital data centers equipped with high-performance processors like the Nvidia H100. This shift aims to move heavy compute tasks, such as training large AI models, into space where solar energy is abundant and unimpeded.\nSource",
+          "link": "https://4sysops.com/archives/are-ai-data-centres-in-space-realistic/",
+          "publishedOn": "2026-06-18T22:12:01.000Z",
+          "wordCount": 6142,
+          "title": "Are AI data centres in space realistic?",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/are-ai-data-centres-in-space-realistic.jpg"
+        },
+        {
+          "id": "https://4sysops.com/?p=1613586",
+          "author": "IT Experts",
+          "description": "The Microsoft Entra June 2026 update adds phishing-resistant multifactor authentication for Linux desktops, expands passkey support on Windows, and changes how Self-Service Password Reset verifies identity. It also brings new Conditional Access enforcement during credential registration and a public preview for recovering deleted device objects. This article explains the practical and technical details of these changes for everyday administration.\nSource",
+          "link": "https://4sysops.com/archives/what-is-new-in-microsoft-entra-june-2026-updates/",
+          "publishedOn": "2026-06-18T21:39:12.000Z",
+          "wordCount": 8271,
+          "title": "What is new in Microsoft Entra: June 2026 updates",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Cross-tenant-synchronization-diagram-image-Microsoft.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/ibm-and-microsoft-partner-to-automate-identity-threat-response/",
+          "author": "IT News",
+          "description": "IBM and Microsoft have launched a collaborative service designed to bridge the gap between detecting identity-based threats and executing governed remediation. The partnership integrates Microsoft’s security telemetry with IBM’s managed response services to address the rising volume of credential-based attacks. This solution specifically targets risks such as multi-factor authentication abuse, token theft, and unauthorized privilege escalation.\nSource",
+          "link": "https://4sysops.com/archives/ibm-and-microsoft-partner-to-automate-identity-threat-response/",
+          "publishedOn": "2026-06-18T21:02:37.000Z",
+          "wordCount": 6124,
+          "title": "IBM and Microsoft partner to automate identity threat response",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ibm-and-microsoft-partner-to-automate-identity-threat-response.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments/",
+          "author": "IT News",
+          "description": "Citrix has launched DaaS Flex, a service designed to reduce virtualization costs by analyzing an organization's actual endpoint requirements. The tool assesses the existing fleet to identify where users are over-provisioned with expensive virtual machine instances. By evaluating hardware utilization, the service determines whether a user requires a full cloud PC, a managed browser, or just specific published applications.\nSource",
+          "link": "https://4sysops.com/archives/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments/",
+          "publishedOn": "2026-06-18T21:02:36.000Z",
+          "wordCount": 6159,
+          "title": "Citrix DaaS Flex optimizes virtual desktop costs through user persona assessments",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/building-a-model-agnostic-harness-for-automated-vulnerability-scanning/",
+          "author": "IT News",
+          "description": "Cloudflare has developed a specialized orchestration layer to manage fleet-wide security audits using interchangeable large language models. This architecture treats models as stateless compute engines to prevent context exhaustion and ensure that vulnerabilities are cross-verified by different logical weights. By decoupling the security logic from specific AI providers, the system maintains persistence and reliability even when underlying models or APIs fluctuate.\nSource",
+          "link": "https://4sysops.com/archives/building-a-model-agnostic-harness-for-automated-vulnerability-scanning/",
+          "publishedOn": "2026-06-18T21:02:35.000Z",
+          "wordCount": 6127,
+          "title": "Building a model-agnostic harness for automated vulnerability scanning",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/building-a-model-agnostic-harness-for-automated-vulnerability-scanning.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/glm-5-2-sets-new-open-weights-benchmark-for-ai-coding-and-long-context/",
+          "author": "IT News",
+          "description": "The Chinese AI lab Z.ai has released GLM-5.2, a new open-weights model that currently leads the Intelligence Index v4.1 for its category. This model is distributed under an MIT license, allowing administrators and developers to download, modify, and run the weights commercially without the restrictions typical of proprietary systems. Its performance represents a significant leap over previous versions, with benchmarks showing rapid improvements in terminal and coding tasks achieved in just a few weeks.\nSource",
+          "link": "https://4sysops.com/archives/glm-5-2-sets-new-open-weights-benchmark-for-ai-coding-and-long-context/",
+          "publishedOn": "2026-06-18T21:02:34.000Z",
+          "wordCount": 6276,
+          "title": "GLM-5.2 sets new open weights benchmark for AI coding and long context",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/glm-5-2-sets-new-open-weights-benchmark-for-ai-coding-and-long-context.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact/",
+          "author": "IT News",
+          "description": "Recent data from Pew Research indicates that half of American adults now utilize AI chatbots, a significant increase from one-third just last year. OpenAI’s ChatGPT remains the dominant platform with 44% of the population reporting its use, followed by Google Gemini and Microsoft Copilot. Despite this growing adoption, only 16% of respondents believe the technology will have a positive impact on society over the next two decades.\nSource",
+          "link": "https://4sysops.com/archives/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact/",
+          "publishedOn": "2026-06-18T15:01:41.000Z",
+          "wordCount": 6313,
+          "title": "Americans embrace AI chatbot usage despite deep skepticism over societal impact",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-eliminates-static-api-keys-with-workload-identity-federation/",
+          "author": "IT News",
+          "description": "Anthropic has announced the general availability of Workload Identity Federation (WIF) on the Claude Platform. This feature supports any OpenID Connect (OIDC) compliant identity provider, including AWS IAM, Azure managed identities, and Google Cloud Platform service accounts. It applies to all Claude API endpoints, first-party software development kits (SDKs), and Claude Code.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-eliminates-static-api-keys-with-workload-identity-federation/",
+          "publishedOn": "2026-06-18T15:01:40.000Z",
+          "wordCount": 6112,
+          "title": "Anthropic eliminates static API keys with workload identity federation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-eliminates-static-api-keys-with-workload-identity-federation.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases/",
+          "author": "IT News",
+          "description": "Apple plans to increase the prices of its products due to the surging costs of memory and storage chips. Chief Executive Officer Tim Cook stated that these price hikes are unavoidable because the current supply situation has become unsustainable for the company. The rising costs and subsequent chip shortages are primarily driven by the massive demand for hardware from artificial intelligence companies.\nSource",
+          "link": "https://4sysops.com/archives/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases/",
+          "publishedOn": "2026-06-18T15:01:39.000Z",
+          "wordCount": 6231,
+          "title": "Rising AI memory chip costs force upcoming Apple price increases",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases-scaled.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost/",
+          "author": "IT News",
+          "description": "Microsoft has announced the Release Candidate for TypeScript 7.0, which features a significant architectural shift from a bootstrapped codebase to one written in Go. This new foundation leverages native code speed and shared memory parallelism to deliver performance that is often ten times faster than the previous version. The update is designed to be highly compatible with existing projects, as the type-checking logic was methodically ported to ensure identical semantics to version 6.0.\nSource",
+          "link": "https://4sysops.com/archives/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost/",
+          "publishedOn": "2026-06-18T15:01:38.000Z",
+          "wordCount": 6218,
+          "title": "TypeScript 7.0 RC arrives with Go-based compiler and 10x speed boost",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management/",
+          "author": "IT News",
+          "description": "Microsoft has released Visual Studio Code version 1.126 with several updates focused on the user interface and AI features. The update introduces visual enhancements to the chat session list items within the development environment. These list items now utilize a pixel spinner, which aligns the interface with the design of the Agents window.\nSource",
+          "link": "https://4sysops.com/archives/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management/",
+          "publishedOn": "2026-06-18T15:01:37.000Z",
+          "wordCount": 6065,
+          "title": "Visual Studio Code 1.126 streamlines AI model customization and chat management",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/optimizing-ai-agent-skills-by-reducing-redundant-documentation-tokens/",
+          "author": "IT News",
+          "description": "Large language models often already possess extensive knowledge of common API references, authentication flows, and standard SDK patterns from their training data. When developers create skills that repeat this information, they consume valuable space within the finite context window of the AI. This redundancy pushes out critical data like conversation history or workspace files, which can actually degrade the quality of the generated output.\nSource",
+          "link": "https://4sysops.com/archives/optimizing-ai-agent-skills-by-reducing-redundant-documentation-tokens/",
+          "publishedOn": "2026-06-18T15:01:36.000Z",
+          "wordCount": 6147,
+          "title": "Optimizing AI agent skills by reducing redundant documentation tokens",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/optimizing-ai-agent-skills-by-reducing-redundant-documentation-tokens.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/google-develops-ai-control-roadmap-to-mitigate-risks-from-autonomous-agents/",
+          "author": "IT News",
+          "description": "Google has introduced a framework called the AI Control Roadmap to manage autonomous agents that may exhibit imperfectly aligned behavior. This defense-in-depth strategy treats internal AI agents as potential insider threats, similar to how organizations monitor employees with high-level access. The system aims to provide security assurance by moving beyond traditional model alignment to include active system-level monitoring.\nSource",
+          "link": "https://4sysops.com/archives/google-develops-ai-control-roadmap-to-mitigate-risks-from-autonomous-agents/",
+          "publishedOn": "2026-06-18T15:01:35.000Z",
+          "wordCount": 6166,
+          "title": "Google develops AI Control Roadmap to mitigate risks from autonomous agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/google-develops-ai-control-roadmap-to-mitigate-risks-from-autonomous-agents.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-integrates-claude-design-and-claude-code-for-seamless-developer-workflows/",
+          "author": "IT News",
+          "description": "Anthropic has announced a major update to Claude Design that introduces bidirectional integration with Claude Code to streamline the transition between prototyping and development. Developers can now use the /design-sync command to import local design systems into Claude Design, ensuring prototypes utilize real code components. Conversely, the /design command allows users to create and sync design projects directly from a terminal without switching applications.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-integrates-claude-design-and-claude-code-for-seamless-developer-workflows/",
+          "publishedOn": "2026-06-18T14:43:49.000Z",
+          "wordCount": 6204,
+          "title": "Anthropic integrates Claude Design and Claude Code for seamless developer workflows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-integrates-claude-design-and-claude-code-for-seamless-developer-workflows.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/f5-patches-critical-code-execution-flaws-in-nginx-web-servers/",
+          "author": "IT News",
+          "description": "F5 has released out-of-band security updates to address multiple vulnerabilities in the NGINX web server. The patches resolve two critical-severity flaws, CVE-2026-42530 and CVE-2026-42055, which could allow remote attackers to execute arbitrary code. These vulnerabilities affect NGINX systems with non-default configurations and can trigger a denial-of-service condition or worker process restart.\nSource",
+          "link": "https://4sysops.com/archives/f5-patches-critical-code-execution-flaws-in-nginx-web-servers/",
+          "publishedOn": "2026-06-18T14:43:48.000Z",
+          "wordCount": 6113,
+          "title": "F5 patches critical code execution flaws in NGINX web servers",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/f5-patches-critical-code-execution-flaws-in-nginx-web-servers.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/fortibleed-campaign-compromises-credentials-for-75000-fortinet-firewalls/",
+          "author": "IT News",
+          "description": "A massive credential-compromise campaign known as FortiBleed has exposed the login details for approximately 75,000 Fortinet FortiGate firewalls worldwide. Security researchers discovered an attacker-controlled server containing a highly automated infrastructure used to collect and crack configuration files from internet-facing devices. The stolen data includes a mix of administrative and SSL VPN credentials, potentially granting threat actors deep persistent access to enterprise networks.\nSource",
+          "link": "https://4sysops.com/archives/fortibleed-campaign-compromises-credentials-for-75000-fortinet-firewalls/",
+          "publishedOn": "2026-06-18T14:43:47.000Z",
+          "wordCount": 6198,
+          "title": "FortiBleed campaign compromises credentials for 75,000 Fortinet firewalls",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/fortibleed-campaign-compromises-credentials-for-75000-fortinet-firewalls.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-reportedly-cancels-three-billion-dollar-oracle-cloud-deal-over-security/",
+          "author": "IT News",
+          "description": "Reports indicate that Microsoft abandoned a $3 billion deal to lease capacity from Oracle Cloud Infrastructure due to compliance disagreements. The partnership was intended to provide Microsoft with additional computing power to support its growing artificial intelligence workloads. However, negotiations allegedly stalled when Oracle declined to implement specific security standards required for certain government-related data processing.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-reportedly-cancels-three-billion-dollar-oracle-cloud-deal-over-security/",
+          "publishedOn": "2026-06-18T14:43:46.000Z",
+          "wordCount": 6212,
+          "title": "Microsoft reportedly cancels three billion dollar Oracle cloud deal over security",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-reportedly-cancels-three-billion-dollar-oracle-cloud-deal-over-security.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/manage-external-monitor-settings-via-software-with-powertoys-power-display/",
+          "author": "IT News",
+          "description": "Microsoft has introduced the Power Display utility within the PowerToys suite to centralize the management of external monitor settings. This tool utilizes the Display Data Channel/Command Interface (DDC/CI) standard to communicate directly with hardware displays from the Windows desktop. It allows for the adjustment of brightness, contrast, volume, and input sources without the need to use physical buttons on the monitor.\nSource",
+          "link": "https://4sysops.com/archives/manage-external-monitor-settings-via-software-with-powertoys-power-display/",
+          "publishedOn": "2026-06-18T14:43:45.000Z",
+          "wordCount": 6163,
+          "title": "Manage external monitor settings via software with PowerToys Power Display",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/manage-external-monitor-settings-via-software-with-powertoys-power-display.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-authenticator-enforces-manual-number-matching-for-personal-accounts/",
+          "author": "IT News",
+          "description": "Microsoft is updating the sign-in experience for personal accounts by requiring users to manually type a two-digit code into the Authenticator app. This replaces the previous method where users simply chose the correct number from three visible options on their mobile device. The change is being rolled out gradually to ensure all users eventually transition to this more deliberate verification process.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-authenticator-enforces-manual-number-matching-for-personal-accounts/",
+          "publishedOn": "2026-06-18T14:43:44.000Z",
+          "wordCount": 6159,
+          "title": "Microsoft Authenticator enforces manual number matching for personal accounts",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-authenticator-enforces-manual-number-matching-for-personal-accounts.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-edge-to-support-google-account-sign-in-for-data-synchronization/",
+          "author": "IT News",
+          "description": "Microsoft is updating the Edge browser to allow users on Windows and macOS to sign in using a Google account. This change, scheduled for global rollout in July 2026, removes the strict requirement for a Microsoft account to manage browser profiles. Users will soon find the Google sign-in option directly within the browser's profile menu and initial setup screens.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-edge-to-support-google-account-sign-in-for-data-synchronization/",
+          "publishedOn": "2026-06-18T11:02:11.000Z",
+          "wordCount": 6144,
+          "title": "Microsoft Edge to support Google account sign-in for data synchronization",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-edge-to-support-google-account-sign-in-for-data-synchronization.webp"
+        },
         {
           "id": "https://4sysops.com/?p=1613504",
           "author": "IT Experts",
@@ -17512,26 +17721,6 @@
           "wordCount": null,
           "title": "Exchange attribute writeback for cloud-managed remote mailboxes in public preview",
           "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1611243",
-          "author": "IT Experts",
-          "description": "Windows Autopatch in the Intune admin center now includes an updated Secure Boot status report that provides device-level visibility into certificate readiness ahead of the 2026 expiry deadline. The report shows which devices have Secure Boot enabled, whether their certificates are up to date, and whether automatic or manual deployment applies. New columns for trust configuration, confidence level, and alerts help you make targeted decisions instead of broad deployments.\nSource",
-          "link": "https://4sysops.com/archives/new-windows-autopatch-secure-boot-status-report-in-intune-admin-center/",
-          "publishedOn": "2026-05-19T19:46:13.000Z",
-          "wordCount": null,
-          "title": "New Windows Autopatch Secure Boot status report in Intune admin center",
-          "imageUrl": null
-        },
-        {
-          "id": "https://4sysops.com/?p=1611216",
-          "author": "IT Experts",
-          "description": "The May 2026 cumulative update KB5089549 added a new C:\\Windows\\SecureBoot\\ExampleRolloutScripts folder containing seven PowerShell scripts. These scripts are part of Microsoft's sample toolkit for managing Secure Boot certificate migration across enterprise environments. This article explains what each script does, how to run it, and its limitations.\nSource",
-          "link": "https://4sysops.com/archives/windows-11-secureboot-folder-powershell-scripts-explained/",
-          "publishedOn": "2026-05-19T19:44:37.000Z",
-          "wordCount": null,
-          "title": "Windows 11 SecureBoot folder: PowerShell scripts explained",
-          "imageUrl": null
         }
       ]
     },
@@ -17715,6 +17904,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=25917",
+          "author": "Sven-Christian Kruse",
+          "description": "Post-Quantum Cryptography is no longer a future-only concern. Standards are final, major providers have already deployed hybrid protection, and the real risk now is data captured today and decrypted later. Part 1 explains the fundamentals, the threat, and why organizations can no longer afford to wait.",
+          "link": "https://blog.nviso.eu/2026/06/18/the-road-to-post-quantum-readiness-part-1/",
+          "publishedOn": "2026-06-18T15:17:35.000Z",
+          "wordCount": 5915,
+          "title": "The Road to Post-Quantum Readiness Part 1 of 2: Understanding the Risk",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/06/part1.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=25054",
           "author": "Christos Giampoulakis",
           "description": "This blog is the first in a series exploring how Summary Rules, together with Auxiliary or Data Lake storage, can help organizations optimize SIEM costs without compromising core threat detection and monitoring capabilities.",
@@ -17751,6 +17950,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/shynet-version-0-13-1",
+          "author": null,
+          "description": "The following document describes identified vulnerabilities in the Shynet application version 0.13.1.",
+          "link": "https://bishopfox.com/blog/shynet-version-0-13-1",
+          "publishedOn": "2026-06-18T13:00:00.000Z",
+          "wordCount": 3955,
+          "title": "Shynet | VERSION 0.13.1",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Shynet-VERSION-0.13.1.png?mtime=1781723519"
+        },
         {
           "id": "https://bishopfox.com/blog/the-smash-and-grab-era",
           "author": null,
@@ -17869,6 +18078,16 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=27106",
+          "author": "Melissa Wooten",
+          "description": "The tech sector was the only industry in Synack's 2026 State of Vulnerabilities Report to get slower at remediating critical vulnerabilities—growing from 74 to 98 days while manufacturing, government, and financial services all improved. This post breaks down the technical and cultural forces driving that gap, and what it takes to close it.\nThe post The Tech Sector’s Critical Vulnerability Paradox appeared first on Synack.",
+          "link": "https://www.synack.com/blog/tech-sector-critical-vulnerability-remediation/",
+          "publishedOn": "2026-06-18T21:35:12.000Z",
+          "wordCount": 4909,
+          "title": "The Tech Sector’s Critical Vulnerability Paradox",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/synack-blog-tech-sector-critical-vulnerability-gap-og.jpg"
+        },
+        {
           "id": "https://www.synack.com/?p=26990",
           "author": "Mark Kuhr",
           "description": "On June 2, the White House signed a new executive order (EO), “Promoting Advanced Artificial Intelligence Innovation and Security.” While most coverage has focused on the voluntary framework for frontier model access, there’s language around defensive cybersecurity that also deserves attention from security leaders.The order directs CISA to establish or expand federal programs and cybersecurity […]\nThe post What the New AI Executive Order Means for Federal Security Testing appeared first on Synack.",
@@ -17957,16 +18176,6 @@
           "wordCount": 3417,
           "title": "The 2026 State of Vulnerabilities Report: Industry Insights",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/05/2026-state-of-vulnerabilities-report-industry-insights-linkedin.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=26069",
-          "author": "Angela Heindl-Schober",
-          "description": "Key Takeaways What AI Pentesting Means for Continuous Security Validation Every CISO conversation I’ve had this quarter circles back to the same problem: AI produces more vulnerability findings than security teams can read in a week, and it clouds their understanding of which findings are connected to real business risk. This week’s Wall Street Journal […]\nThe post AI Can Find More Vulnerabilities. Humans Still Decide What Matters. appeared first on Synack.",
-          "link": "https://www.synack.com/blog/ai-pentesting-finds-more-humans-decide-what-matters/",
-          "publishedOn": "2026-05-19T18:40:01.000Z",
-          "wordCount": 3562,
-          "title": "AI Can Find More Vulnerabilities. Humans Still Decide What Matters.",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/05/ai-pentesting-finds-more-humans-decide-what-matters-blog-image.jpg"
         }
       ]
     },
@@ -18941,6 +19150,16 @@
       "siteUrl": "https://redcanary.com/blog/",
       "articles": [
         {
+          "id": "https://redcanary.com/?p=48054",
+          "author": "The Red Canary Team",
+          "description": "ClearFake is the clear-cut number one again and Kali365 debuts in this month’s edition of Intelligence Insights",
+          "link": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/",
+          "publishedOn": "2026-06-18T17:49:20.000Z",
+          "wordCount": 9174,
+          "title": "Intelligence Insights: June 2026",
+          "imageUrl": "https://redcanary.com/wp-content/uploads/2025/08/RedCanaryIntelligenceInsights_1200x627-3.jpg"
+        },
+        {
           "id": "https://redcanary.com/?p=48043",
           "author": "Jason Killam",
           "description": "A comprehensive guide to the most commonly abused RMM tools, including technical guidance for detection and prevention",
@@ -19028,6 +19247,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "oxloader-malware-loader-infostealer",
+          "author": null,
+          "description": "Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.",
+          "link": "https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer",
+          "publishedOn": "2026-06-19T00:00:00.000Z",
+          "wordCount": 6867,
+          "title": "Lost in relocation: analysis of a new loader distributing CASTLESTEALER",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/oxloader-malware-loader-infostealer/oxloader-malware-loader-infostealer.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/oxloader-malware-loader-infostealer/oxloader-malware-loader-infostealer.webp"
+        },
+        {
           "id": "elastic-security-google-threat-intelligence",
           "author": null,
           "description": "Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.",
@@ -19079,6 +19313,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/klue-incident/",
+          "author": null,
+          "description": "The latest updates from Jamf on the Klue third-party cybersecurity incident. Here's what we know and what we're doing about it.",
+          "link": "https://www.jamf.com/blog/klue-incident/",
+          "publishedOn": "2026-06-18T18:06:00.000Z",
+          "wordCount": 1370,
+          "title": "Klue Third-Party Cybersecurity Incident",
+          "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
+        },
         {
           "id": "https://www.jamf.com/blog/ai-adoption-governance-gap-apple-enterprise/",
           "author": null,
@@ -19198,16 +19442,6 @@
           "wordCount": 1866,
           "title": "Closing the gaps: How Jamf protects macOS and iOS with real-time threat prevention",
           "imageUrl": "https://media.jamf.com/images/news/2026/closing-the-gaps-real-time-threat-prevention-macos-ios.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/smarter-scoping-jamf-pro-msp-scale/",
-          "author": null,
-          "description": "MSP engineers must resist quick-win scoping in Jamf Pro and build scalable, automated, code-driven deployments instead.",
-          "link": "https://www.jamf.com/blog/smarter-scoping-jamf-pro-msp-scale/",
-          "publishedOn": "2026-05-19T21:15:00.000Z",
-          "wordCount": 1883,
-          "title": "MSP engineering: The art of scoping in Jamf Pro at scale",
-          "imageUrl": "https://media.jamf.com/images/news/2026/smarter-scoping-jamf-pro-msp-scale.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -19253,6 +19487,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/ai-executive-order-cybersecurity",
+          "author": "Mitch Herckis",
+          "description": "The spotlight has been on frontier models, but the goals are more far reaching -- including supercharging cyber defense and remediating risk at machine speed",
+          "link": "https://www.wiz.io/blog/ai-executive-order-cybersecurity",
+          "publishedOn": "2026-06-18T12:52:21.000Z",
+          "wordCount": 19207,
+          "title": "The President’s Executive Actions on AI Have a Lot to Say on Cybersecurity",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1781728444-pqc-copy-2-2x-1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1781728444-pqc-copy-2-2x-1.png"
+        },
         {
           "id": "https://www.wiz.io/blog/red-agent-pov-ssrf",
           "author": "Red Agent",
@@ -19492,21 +19741,6 @@
             "type": "image/gif"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1779371374-wiz-claude-1-2.gif"
-        },
-        {
-          "id": "https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack",
-          "author": "Rami McCarthy",
-          "description": "Discover the latest on malicious versions of the pypi package durabletask, matching TeamPCP tactics.",
-          "link": "https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack",
-          "publishedOn": "2026-05-19T17:30:20.000Z",
-          "wordCount": 15415,
-          "title": "durabletask: TeamPCP's Latest PyPi Compromise",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1779210111-threat-update-large-title_custom.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1779210111-threat-update-large-title_custom.jpeg"
         }
       ]
     },
