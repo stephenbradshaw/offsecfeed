@@ -14034,16 +14034,6 @@
           "wordCount": 658,
           "title": "Comparing AI Application Security Testing Platforms",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/05/25/cloudsectidbits-elbaph-alb.html",
-          "author": null,
-          "description": "After our last episode on Multi-SSO Cognito User Pools, we are back with another issue. This time, we are looking at one of those AWS components that is everywhere and rarely questioned deeply enough: the Elastic Load Balancer.\n\n\n\nTidbit No. 5 - Navigating Lax Load Balancers\nWhat is AWS ELB?\nAWS Elastic Load Balancing (ELB) distributes traffic to backend services and serves as the entry point between the Internet and your applications.\nIt supports Layer 7 routing (Application Load Balancer - ALB) and Layer 4 routing (Network Load Balancer - NLB). It decides where traffic goes and under which conditions. ELB is commonly found fronting multiple applications, environments, and trust zones across the same infrastructure.\nWhy It Matters\nELB is often the first public entry point before applicati…",
-          "link": "https://blog.doyensec.com/2026/05/25/cloudsectidbits-elbaph-alb.html",
-          "publishedOn": "2026-05-24T22:00:00.000Z",
-          "wordCount": 2039,
-          "title": "Navigating Lax Load Balancers: When an Intersection Gets You Inside",
-          "imageUrl": null
         }
       ]
     },
@@ -14242,6 +14232,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/archives/managing-microsoft-defender-configuration-drift-to-prevent-silent-endpoint-exposure/",
+          "author": "IT News",
+          "description": "Microsoft Defender configuration drift occurs when endpoint security settings gradually diverge from their intended hardened state due to troubleshooting or policy conflicts. This divergence often happens silently because Defender does not generate telemetry or XDR alerts when enforcement settings, such as Attack Surface Reduction rules, are modified. Standard monitoring tools frequently report these devices as compliant even when their actual protection posture has been significantly weakened.\nSource",
+          "link": "https://4sysops.com/archives/managing-microsoft-defender-configuration-drift-to-prevent-silent-endpoint-exposure/",
+          "publishedOn": "2026-06-23T21:00:16.000Z",
+          "wordCount": 6246,
+          "title": "Managing Microsoft Defender configuration drift to prevent silent endpoint exposure",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/managing-microsoft-defender-configuration-drift-to-prevent-silent-endpoint-exposure.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/june-security-updates-trigger-internal-filename-bug-in-windows-recycle-bin/",
+          "author": "IT News",
+          "description": "Microsoft confirmed a regression in the Recycle Bin following the June 9, 2026, security updates. When users attempt to permanently delete a single item, the confirmation dialog displays an internal system filename starting with $R instead of the original name. This behavior stems from a failure in the shell's translation layer, which usually hides these implementation details from the user.\nSource",
+          "link": "https://4sysops.com/archives/june-security-updates-trigger-internal-filename-bug-in-windows-recycle-bin/",
+          "publishedOn": "2026-06-23T21:00:15.000Z",
+          "wordCount": 6213,
+          "title": "June security updates trigger internal filename bug in Windows Recycle Bin",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/june-security-updates-trigger-internal-filename-bug-in-windows-recycle-bin.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/gemini-ai-now-diagnoses-and-corrects-formula-errors-in-google-sheets/",
+          "author": "IT News",
+          "description": "Google has integrated new Gemini AI capabilities into Google Sheets to help users identify and resolve formula errors automatically. This update allows the AI to analyze data structures and suggest corrections for both simple arithmetic and complex calculations. Workspace administrators must ensure that Gemini for Workspace is enabled for users to access these troubleshooting features.\nSource",
+          "link": "https://4sysops.com/archives/gemini-ai-now-diagnoses-and-corrects-formula-errors-in-google-sheets/",
+          "publishedOn": "2026-06-23T20:57:56.000Z",
+          "wordCount": 6200,
+          "title": "Gemini AI now diagnoses and corrects formula errors in Google Sheets",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/gemini-ai-now-diagnoses-and-corrects-formula-errors-in-google-sheets.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/federal-agencies-face-new-2030-deadlines-for-post-quantum-encryption-migration/",
+          "author": "IT News",
+          "description": "President Trump has signed Executive Order 14409, establishing strict deadlines for federal agencies to adopt post-quantum cryptography. This directive aims to protect sensitive government data against \"harvest now, decrypt later\" attacks, where adversaries steal encrypted data today to decrypt it once powerful quantum computers are developed. The order significantly accelerates previous timelines, moving the compliance target forward by approximately five years to stay ahead of rapid advancements in quantum technology.\nSource",
+          "link": "https://4sysops.com/archives/federal-agencies-face-new-2030-deadlines-for-post-quantum-encryption-migration/",
+          "publishedOn": "2026-06-23T20:57:55.000Z",
+          "wordCount": 6294,
+          "title": "Federal agencies face new 2030 deadlines for post-quantum encryption migration",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/federal-agencies-face-new-2030-deadlines-for-post-quantum-encryption-migration.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/malicious-ai-agent-skill-bypasses-security-scanners-to-reach-26000-users/",
+          "author": "IT News",
+          "description": "A security experiment successfully compromised over 26,000 AI agents by exploiting structural flaws in how agent skills are vetted and trusted. Researchers created a deceptive skill that appeared legitimate to non-technical users and bypassed automated security scanners from major vendors. By hosting malicious instructions on an external URL rather than within the skill package itself, the attackers ensured the payload remained invisible during initial inspections.\nSource",
+          "link": "https://4sysops.com/archives/malicious-ai-agent-skill-bypasses-security-scanners-to-reach-26000-users/",
+          "publishedOn": "2026-06-23T20:57:54.000Z",
+          "wordCount": 6231,
+          "title": "Malicious AI agent skill bypasses security scanners to reach 26,000 users",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/malicious-ai-agent-skill-bypasses-security-scanners-to-reach-26000-users.jpg"
+        },
+        {
+          "id": "https://4sysops.com/?p=1613785",
+          "author": "IT Experts",
+          "description": "Microsoft is retiring Exchange Web Services in Exchange Online, with phased disablement beginning in October 2026 and full retirement in April 2027. It is replacing it with the Microsoft Graph API, the unified endpoint for accessing Microsoft 365 services. To prepare for this transition, you can now use the EWSAllowedAppIDs parameter to restrict access by application identifier. This article explains how to inventory your current dependencies and configure the new allow list to prevent service disruptions.\nSource",
+          "link": "https://4sysops.com/archives/ewsallowedappids-configure-the-application-allow-list-for-exchange-web-services-ews/",
+          "publishedOn": "2026-06-23T20:39:41.000Z",
+          "wordCount": 7437,
+          "title": "EWSAllowedAppIDs: Configure the application allow list for Exchange Web Services (EWS)",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Using-EWSAllowedAppIDs-to-prepare-for-Exchange-Web-Services-retirement.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/ibm-and-openai-launch-ai-driven-application-security-service-for-enterprise-defense/",
+          "author": "IT News",
+          "description": "IBM has joined the OpenAI Daybreak Cyber Partner Program to integrate advanced frontier AI models into its managed security operations. This collaboration introduces a new application security service designed to identify and validate software vulnerabilities with greater precision than traditional code scanners. The initiative aims to help organizations counter machine-speed threats by automating the prioritization of high-risk software components and exploitable paths.\nSource",
+          "link": "https://4sysops.com/archives/ibm-and-openai-launch-ai-driven-application-security-service-for-enterprise-defense/",
+          "publishedOn": "2026-06-23T15:04:00.000Z",
+          "wordCount": 6235,
+          "title": "IBM and OpenAI launch AI-driven application security service for enterprise defense",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ibm-and-openai-launch-ai-driven-application-security-service-for-enterprise-defense.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cloudflare-and-major-browsers-develop-pact-to-replace-captchas-with-anonymous-tokens/",
+          "author": "IT News",
+          "description": "Cloudflare has partnered with Google, Microsoft, and Mozilla to develop Private Access Control Tokens, a new protocol designed to verify web traffic legitimacy. This initiative aims to distinguish between human users, authorized AI agents, and malicious bots without relying on intrusive tracking or repetitive manual challenges. The protocol allows trusted platforms to issue anonymous digital tokens that a browser can present to other websites as proof of a legitimate session.\nSource",
+          "link": "https://4sysops.com/archives/cloudflare-and-major-browsers-develop-pact-to-replace-captchas-with-anonymous-tokens/",
+          "publishedOn": "2026-06-23T15:03:59.000Z",
+          "wordCount": 6293,
+          "title": "Cloudflare and major browsers develop PACT to replace CAPTCHAs with anonymous tokens",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cloudflare-and-major-browsers-develop-pact-to-replace-captchas-with-anonymous-tokens.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-codex-cli-logging-bug-causes-excessive-ssd-wear/",
+          "author": "IT News",
+          "description": "OpenAI’s Codex CLI contains a misconfiguration that triggers excessive diagnostic logging to a local SQLite database located in the user's home directory. This issue stems from the application defaulting to the TRACE logging level, which is the most verbose setting available for developers. Reports indicate that the tool captures low-level telemetry, including raw WebSocket payloads and filesystem events, which are typically unnecessary for standard production use.\nSource",
+          "link": "https://4sysops.com/archives/openai-codex-cli-logging-bug-causes-excessive-ssd-wear/",
+          "publishedOn": "2026-06-23T15:03:58.000Z",
+          "wordCount": 6256,
+          "title": "OpenAI Codex CLI logging bug causes excessive SSD wear",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-codex-cli-logging-bug-causes-excessive-ssd-wear.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cursor-unveils-origin-git-platform-and-custom-ai-model-to-scale-agentic-workflows/",
+          "author": "IT News",
+          "description": "Cursor has announced Origin, a purpose-built Git hosting platform designed to handle the high-frequency workloads of AI agents. Traditional version control systems are often optimized for human developers who commit code at a relatively slow pace. Origin utilizes a new architecture backed by S3 storage to support massive parallel operations, such as hundreds of thousands of clones per hour.\nSource",
+          "link": "https://4sysops.com/archives/cursor-unveils-origin-git-platform-and-custom-ai-model-to-scale-agentic-workflows/",
+          "publishedOn": "2026-06-23T15:03:57.000Z",
+          "wordCount": 6283,
+          "title": "Cursor unveils Origin git platform and custom AI model to scale agentic workflows",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cursor-unveils-origin-git-platform-and-custom-ai-model-to-scale-agentic-workflows.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/scaling-azure-kubernetes-service-to-75000-nodes-for-massive-ai-workloads/",
+          "author": "IT News",
+          "description": "Microsoft is pushing the scaling boundaries of Azure Kubernetes Service (AKS) to support massive AI workloads for organizations like OpenAI and Anthropic. Some clusters now reach up to 75,000 nodes, far exceeding original industry recommendations of 100 nodes per cluster. To achieve this, engineers optimize the API server, etcd performance, and controller responsiveness while contributing these improvements back to the upstream Kubernetes project.\nSource",
+          "link": "https://4sysops.com/archives/scaling-azure-kubernetes-service-to-75000-nodes-for-massive-ai-workloads/",
+          "publishedOn": "2026-06-23T15:03:56.000Z",
+          "wordCount": 6210,
+          "title": "Scaling Azure Kubernetes Service to 75,000 nodes for massive AI workloads",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/scaling-azure-kubernetes-service-to-75000-nodes-for-massive-ai-workloads.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/aws-lambda-microvms-enable-isolated-stateful-execution-for-up-to-eight-hours/",
+          "author": "IT News",
+          "description": "AWS has launched Lambda MicroVMs, a serverless compute primitive designed to run isolated Linux environments for significantly longer durations than standard functions. Built on Firecracker virtualization technology, these units extend the maximum execution time from 15 minutes to eight hours. This new capability allows developers to run complex tasks like vulnerability scanning, CI/CD pipelines, and AI-generated code execution within a secure hardware-virtualized boundary.\nSource",
+          "link": "https://4sysops.com/archives/aws-lambda-microvms-enable-isolated-stateful-execution-for-up-to-eight-hours/",
+          "publishedOn": "2026-06-23T15:03:55.000Z",
+          "wordCount": 6206,
+          "title": "AWS Lambda MicroVMs enable isolated stateful execution for up to eight hours",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/aws-lambda-microvms-enable-isolated-stateful-execution-for-up-to-eight-hours.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/linux-foundation-launches-agent-name-service-to-secure-ai-identities-via-dns/",
+          "author": "IT News",
+          "description": "The Linux Foundation has introduced the Agent Name Service (ANS), an open standard designed to provide artificial intelligence agents with trusted identities. This framework utilizes the existing Domain Name System (DNS) to verify an agent's organizational affiliation and specific permissions. By anchoring identity to DNS, the service avoids proprietary registries and allows for the verification of an agent's code integrity and activity history.\nSource",
+          "link": "https://4sysops.com/archives/linux-foundation-launches-agent-name-service-to-secure-ai-identities-via-dns/",
+          "publishedOn": "2026-06-23T15:03:54.000Z",
+          "wordCount": 6256,
+          "title": "Linux Foundation launches Agent Name Service to secure AI identities via DNS",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/linux-foundation-launches-agent-name-service-to-secure-ai-identities-via-dns.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/lastpass-data-breach-exposes-customer-data/",
+          "author": "IT News",
+          "description": "A supply chain attack targeting the market intelligence platform Klue has resulted in the theft of OAuth tokens used by several high-profile organizations. The Icarus extortion group gained access to Klue's infrastructure by exploiting a dormant legacy credential for a prototype integration service. Once inside, the threat actors exfiltrated OAuth tokens that allowed them to query connected third-party environments, specifically targeting Salesforce CRM data.\nSource",
+          "link": "https://4sysops.com/archives/lastpass-data-breach-exposes-customer-data/",
+          "publishedOn": "2026-06-23T15:03:53.000Z",
+          "wordCount": 6174,
+          "title": "LastPass data breach exposes customer data",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/lastpass-data-breach-exposes-customer-data.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/meta-halts-employee-tracking-program-after-ai-training-data-leak/",
+          "author": "IT News",
+          "description": "Meta has suspended an internal AI training initiative known as the Model Capability Initiative after sensitive employee data became accessible company-wide. The program was designed to improve AI models by recording the keystrokes and mouse movements of staff members during their daily work. This mandatory data collection effort had already faced significant internal pushback from employees concerned about their digital privacy.\nSource",
+          "link": "https://4sysops.com/archives/meta-halts-employee-tracking-program-after-ai-training-data-leak/",
+          "publishedOn": "2026-06-23T10:53:44.000Z",
+          "wordCount": 6227,
+          "title": "Meta halts employee tracking program after AI training data leak",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/meta-halts-employee-tracking-program-after-ai-training-data-leak.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/china-beats-us-in-supercomputing-with-record-breaking-lineshine-system/",
+          "author": "IT News",
+          "description": "The 67th Top500 list reveals that China has overtaken the United States with its new Lineshine supercomputer, the first to exceed 2.2 exaflops in performance. This system, also known as Ling Chen, utilizes entirely domestic hardware developments to bypass international export restrictions on high-end components. It marks a significant return to the public rankings for China, which had largely stopped sharing official performance data for its leading systems since 2019.\nSource",
+          "link": "https://4sysops.com/archives/china-beats-us-in-supercomputing-with-record-breaking-lineshine-system/",
+          "publishedOn": "2026-06-23T10:53:43.000Z",
+          "wordCount": 6197,
+          "title": "China beats US in supercomputing with record-breaking LineShine system",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/china-beats-us-in-supercomputing-with-record-breaking-lineshine-system.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-shifts-focus-from-vulnerability-discovery-to-automated-patch-remediation/",
+          "author": "IT News",
+          "description": "OpenAI has expanded its Daybreak cybersecurity initiative to address the growing bottleneck in software remediation. While AI has significantly accelerated the discovery of security flaws, the manual process of fixing them often overwhelms development teams. The program aims to democratize patching at machine speed by combining advanced models with human oversight to validate and resolve vulnerabilities.\nSource",
+          "link": "https://4sysops.com/archives/openai-launches-gpt-5-5-cyber-and-patch-the-planet-to-automate-vulnerability-remediation/",
+          "publishedOn": "2026-06-23T10:25:10.000Z",
+          "wordCount": 6209,
+          "title": "OpenAI launches GPT-5.5-Cyber and Patch the Planet to automate vulnerability remediation",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-shifts-focus-from-vulnerability-discovery-to-automated-patch-remediation.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/anthropic-mythos-ai-breaches-nsa-classified-systems-in-hours-during-red-team-test/",
+          "author": "IT News",
+          "description": "Anthropic’s advanced Mythos AI model reportedly compromised nearly all classified systems belonging to the NSA and U.S. Cyber Command during a security evaluation. General Joshua Rudd, head of both agencies, informed the Senate Intelligence Committee that the breach occurred within hours rather than weeks. This capability stems from the model's specialized design for identifying zero-day vulnerabilities in highly hardened software environments.\nSource",
+          "link": "https://4sysops.com/archives/anthropic-mythos-ai-breaches-nsa-classified-systems-in-hours-during-red-team-test/",
+          "publishedOn": "2026-06-23T10:25:09.000Z",
+          "wordCount": 6276,
+          "title": "Anthropic Mythos AI breaches NSA classified systems in hours during red team test",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-mythos-ai-breaches-nsa-classified-systems-in-hours-during-red-team-test.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/managing-macos-filevault-encryption-and-recovery-keys-with-microsoft-intune/",
+          "author": "IT News",
+          "description": "Microsoft Intune allows administrators to deploy and manage FileVault full-disk encryption for macOS 10.13 and later. The platform supports multiple deployment methods, including standard interactive prompts and automated enforcement during the Setup Assistant for devices on macOS 14 or newer. Encryption is standardized at XTS-AES 128-bit, which Apple considers sufficient for enterprise security requirements.\nSource",
+          "link": "https://4sysops.com/archives/managing-macos-filevault-encryption-and-recovery-keys-with-microsoft-intune/",
+          "publishedOn": "2026-06-23T10:25:08.000Z",
+          "wordCount": 6154,
+          "title": "Managing macOS FileVault encryption and recovery keys with Microsoft Intune",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/managing-macos-filevault-encryption-and-recovery-keys-with-microsoft-intune.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/managing-windows-endpoints-with-powershell-scripts-and-intune-policies/",
+          "author": "IT News",
+          "description": "Microsoft Intune utilizes the Intune management extension to deploy PowerShell scripts to Windows 10 and later devices. This extension enhances modern management by allowing administrators to run scripts in either the system context or using logged-on user credentials. Scripts execute before Win32 apps and are automatically retried up to three times if an initial failure occurs during check-in.\nSource",
+          "link": "https://4sysops.com/archives/managing-windows-endpoints-with-powershell-scripts-and-intune-policies/",
+          "publishedOn": "2026-06-23T10:25:07.000Z",
+          "wordCount": 6191,
+          "title": "Managing Windows endpoints with PowerShell scripts and Intune policies",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/managing-windows-endpoints-with-powershell-scripts-and-intune-policies.png"
+        },
         {
           "id": "https://4sysops.com/?p=1613733",
           "author": "IT Experts",
@@ -18193,6 +18383,16 @@
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=44285",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Introduction  Recently in a test I had the joy of reverse engineering the custom binary that acts as a webserver and system controller for their ARM based device. Normally this isn’t a problem: extract the binary, throw it into Ghidra, do stuff.  The problem here was that the binary was in written in Rust. Which does a lot of things differently […]\nThe post Decoding Rust strings  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/decoding-rust-strings/",
+          "publishedOn": "2026-06-23T12:30:00.000Z",
+          "wordCount": 2491,
+          "title": "Decoding Rust strings",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/06/headline-rust-strings.png"
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=44270",
           "author": "Alex Wallace",
           "description": "TL;DR  Not your usual cybersecurity event  Our PTP Cyber Fest returned this year as part of a busy week for the cybersecurity community in London.  The cyber community came together over two days at The Fox, located next to Infosecurity Europe at ExCeL London.  Some came for the talks. Some came for the demos. Some came […]\nThe post PTP Cyber Fest 2026. Built for people to get involved  appeared first on Pen Test Partners.",
@@ -18306,6 +18506,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=140991",
+          "author": "Phil Stokes",
+          "description": "DPRK-linked implant embeds 38 fabricated system messages that spoof an LLM triage harness, hiding a credential stealer and Telegram C2 underneath.",
+          "link": "https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/",
+          "publishedOn": "2026-06-23T21:59:42.000Z",
+          "wordCount": 8563,
+          "title": "macOS.Gaslight | Rust Backdoor Turns Prompt Injection on the Analyst, Not the Sandbox",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/06/gaslight_ftr.jpeg",
+            "length": "122549",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/06/gaslight_ftr.jpeg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=140638",
           "author": "LABScon",
@@ -19647,6 +19862,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "security-advisory-automation-rag-elastic-agent-builder",
+          "author": null,
+          "description": "How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.",
+          "link": "https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder",
+          "publishedOn": "2026-06-23T00:00:00.000Z",
+          "wordCount": 12074,
+          "title": "From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/security-advisory-automation-rag-elastic-agent-builder/cover.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/security-advisory-automation-rag-elastic-agent-builder/cover.jpg"
+        },
+        {
           "id": "aad-graph-activity-logs-threat-detection",
           "author": null,
           "description": "Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.",
@@ -19851,6 +20081,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=140991",
+          "author": "Phil Stokes",
+          "description": "DPRK-linked implant embeds 38 fabricated system messages that spoof an LLM triage harness, hiding a credential stealer and Telegram C2 underneath.",
+          "link": "https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/",
+          "publishedOn": "2026-06-23T21:59:42.000Z",
+          "wordCount": 8563,
+          "title": "macOS.Gaslight | Rust Backdoor Turns Prompt Injection on the Analyst, Not the Sandbox",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/06/gaslight_ftr.jpeg",
+            "length": "122549",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/06/gaslight_ftr.jpeg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=140638",
           "author": "LABScon",
           "description": "Decades of piling complexity onto non-standardized stacks have left security unsteerable. Juan Andrés Guerrero-Saade makes the case for a new approach.",
@@ -19887,6 +20132,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/ai-threat-readiness-pillar-4",
+          "author": "Shashank Golla",
+          "description": "Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.",
+          "link": "https://www.wiz.io/blog/ai-threat-readiness-pillar-4",
+          "publishedOn": "2026-06-23T12:33:11.000Z",
+          "wordCount": 19405,
+          "title": "AI Threat Readiness Pillar 4: Detect and contain threats in real-time",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1782158783-ai-race4-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1782158783-ai-race4-2x.png"
+        },
         {
           "id": "https://www.wiz.io/blog/wiz-runtime-sensor-for-your-windows-environment",
           "author": "Shashank Golla",
@@ -20188,16 +20448,6 @@
           "wordCount": 2755,
           "title": "Malware shellcode delivery via signal - part 2. The Linux receiver (Goertzel Algorithm). Simple C example",
           "imageUrl": "https://cocomelonc.github.io/assets/images/204/2026-05-28_02-12.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/malware/2026/05/24/malware-tricks-56.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/malware/2026/05/24/malware-tricks-56.html",
-          "publishedOn": "2026-05-24T23:00:00.000Z",
-          "wordCount": 2392,
-          "title": "Malware shellcode delivery via signal - part 1. FSK Basics. Simple python script",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/203/2026-05-26_08-32.png"
         }
       ]
     }
