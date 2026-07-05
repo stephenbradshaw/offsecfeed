@@ -134,16 +134,6 @@
           "wordCount": 5556,
           "title": "Keeping a Short Leash: New AzureHound Least-Privilege Documentation",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/06/913fab75-ecb9-496c-b064-e4c0b1264e42.png"
-        },
-        {
-          "id": "https://specterops.io/?p=27064",
-          "author": "Christopher Maddalena",
-          "description": "TL;DR: Ghostwriter v7 is a major step forward for authentication and automation. This release replaces user-managed JWT API tokens with opaque credentials, introduces scoped service tokens for non-human integrations, and tightens how tokens are validated and used across the platform. The result is a simpler, safer model for automation that opens up more possibilities for […]\nThe post Ghostwriter v7: Safer Tokens, Scoped Access, and Better Automation appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/06/04/ghostwriter-v7-safer-tokens-scoped-access-and-better-automation/",
-          "publishedOn": "2026-06-04T16:00:00.000Z",
-          "wordCount": 3850,
-          "title": "Ghostwriter v7: Safer Tokens, Scoped Access, and Better Automation",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/05/Ghostwriter-7-Banner.png"
         }
       ]
     },
@@ -192,18 +182,7 @@
       "title": "Silent Signal Techblog",
       "feedUrl": "https://blog.silentsignal.eu/feed/",
       "siteUrl": "https://blog.silentsignal.eu/",
-      "articles": [
-        {
-          "id": "https://blog.silentsignal.eu/2026/06/05/unauthenticated-rce-as-qsecofr-via-ibm-i-management-central/",
-          "author": null,
-          "description": "Intro",
-          "link": "https://blog.silentsignal.eu/2026/06/05/unauthenticated-rce-as-qsecofr-via-ibm-i-management-central/",
-          "publishedOn": "2026-06-05T08:15:00.000Z",
-          "wordCount": 2458,
-          "title": "Unauthenticated RCE as QSECOFR via IBM i Management Central",
-          "imageUrl": "https://blog.silentsignal.eu/assets/img//img/reddington.webp"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "NetSPI Technical Blog -",
@@ -14048,16 +14027,6 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
-          "id": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
-          "author": null,
-          "description": "We’re running Patch the Planet, an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run.\nWe’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag.\nThe expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber buil…",
-          "link": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
-          "publishedOn": "2026-07-02T11:00:00.000Z",
-          "wordCount": 1234,
-          "title": "GPT-5.5-Cyber built a zlib fuzzing lab in a day",
-          "imageUrl": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/ptp-preview.png"
-        },
-        {
           "id": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
           "author": null,
           "description": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.\nOn June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030, and post-quant…",
@@ -14086,6 +14055,16 @@
           "wordCount": 2660,
           "title": "Factoring \"short-sleeve\" RSA keys with polynomials",
           "imageUrl": "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/shortsleevekeys_figure1.png"
+        },
+        {
+          "id": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/",
+          "author": null,
+          "description": "Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work.\nWe recently bypassed ClawHub’s malicious skill detector, Cisco’s agent skill scanner, and all three of the scanners integrated into skills.sh. These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills, using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some t…",
+          "link": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/",
+          "publishedOn": "2026-06-03T11:00:00.000Z",
+          "wordCount": 3058,
+          "title": "The sorry state of skill distribution",
+          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -14214,12 +14193,82 @@
       "siteUrl": "https://4sysops.com",
       "articles": [
         {
+          "id": "https://4sysops.com/archives/ai-server-demand-to-strain-supply-chains-and-components-through-2027/",
+          "author": "IT News",
+          "description": "Demand for AI servers is projected to remain robust through 2027, driven by aggressive data center investments from major cloud providers like Amazon, Google, and Microsoft. This sustained demand is shifting the primary industry challenge from a lack of AI chips to broader shortages across the hardware supply chain. Analysts warn that these supply constraints will likely intensify, leading to higher prices and extended lead times for critical infrastructure.\nSource",
+          "link": "https://4sysops.com/archives/ai-server-demand-to-strain-supply-chains-and-components-through-2027/",
+          "publishedOn": "2026-07-04T10:47:20.000Z",
+          "wordCount": 6984,
+          "title": "AI server demand to strain supply chains and components through 2027",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/ai-server-demand-to-strain-supply-chains-and-components-through-2027.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-co-founder-predicts-a-future-without-software-interfaces/",
+          "author": "IT News",
+          "description": "Greg Brockman, co-founder of OpenAI, recently acknowledged that the ChatGPT plugins heavily promoted in 2023 ultimately failed to gain traction. He attributes this failure to the underlying AI models not being sufficiently advanced at the time to support the plugin ecosystem effectively. The plugin system was initially designed to allow ChatGPT to interact with third-party applications and data sources, extending its utility beyond basic text generation.\nSource",
+          "link": "https://4sysops.com/archives/openai-co-founder-predicts-a-future-without-software-interfaces/",
+          "publishedOn": "2026-07-04T10:47:19.000Z",
+          "wordCount": 6891,
+          "title": "OpenAI co-founder predicts a future without software interfaces",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/openai-co-founder-predicts-a-future-without-software-interfaces.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-merges-copilot-apps-and-introduces-autonomous-autopilot-agents/",
+          "author": "IT News",
+          "description": "Microsoft is consolidating its separate consumer and enterprise Copilot applications into a single unified app by August 2026, allowing users to switch between personal and work contexts within one interface. The company is simultaneously cutting underperforming features such as Copilot Podcasts and Copilot Labs, with an internal memo stating that every feature must \"earn the right to exist\" by delivering measurable business outcomes. Jacob Andreou, who oversees both Copilot product lines, is leading the consolidation effort.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-merges-copilot-apps-and-introduces-autonomous-autopilot-agents/",
+          "publishedOn": "2026-07-04T10:34:17.000Z",
+          "wordCount": 7068,
+          "title": "Microsoft merges Copilot apps and introduces autonomous AutoPilot agents",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-merges-copilot-apps-and-introduces-autonomous-autopilot-agents.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/bad-epoll-linux-kernel-flaw-grants-root-access-to-unprivileged-users/",
+          "author": "IT News",
+          "description": "A newly disclosed Linux kernel vulnerability named Bad Epoll (CVE-2026-46242) enables unprivileged local users to gain complete root access. The flaw is a use-after-free memory corruption issue located within the epoll subsystem, a core component heavily utilized by modern server applications and network daemons. Affecting Linux kernel versions 6.4 and later, the vulnerability impacts desktops, enterprise servers, cloud workloads, and potentially Android devices.\nSource",
+          "link": "https://4sysops.com/archives/bad-epoll-linux-kernel-flaw-grants-root-access-to-unprivileged-users/",
+          "publishedOn": "2026-07-04T10:34:16.000Z",
+          "wordCount": 7009,
+          "title": "Bad Epoll Linux kernel flaw grants root access to unprivileged users",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/bad-epoll-linux-kernel-flaw-grants-root-access-to-unprivileged-users.gif"
+        },
+        {
+          "id": "https://4sysops.com/archives/seven-unpatched-fatfs-vulnerabilities-expose-millions-of-embedded-devices/",
+          "author": "IT News",
+          "description": "Security firm runZero has disclosed seven vulnerabilities in FatFs, a widely used filesystem library that enables devices to read and write FAT and exFAT formats on USB drives and SD cards. The flaws affect FAT, exFAT, and GPT parsing, and they can be triggered by malicious media or mounted firmware images. Exploitation can lead to memory corruption, denial of service, information disclosure, silent data corruption, and potential code execution.\nSource",
+          "link": "https://4sysops.com/archives/seven-unpatched-fatfs-vulnerabilities-expose-millions-of-embedded-devices/",
+          "publishedOn": "2026-07-04T10:34:15.000Z",
+          "wordCount": 6929,
+          "title": "Seven unpatched FatFs vulnerabilities expose millions of embedded devices",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/seven-unpatched-fatfs-vulnerabilities-expose-millions-of-embedded-devices.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/mistral-ai-releases-open-source-leanstral-1-5-for-formal-math-and-code-verification/",
+          "author": "IT News",
+          "description": "Mistral AI has released Leanstral 1.5, an open-source model designed for formal verification in Lean 4. The model is licensed under Apache-2.0 and features a Mixture of Experts architecture with 119 billion total parameters, though only 6 billion are active during inference. It was trained using a three-stage process involving mid-training, supervised fine-tuning, and reinforcement learning.\nSource",
+          "link": "https://4sysops.com/archives/mistral-ai-releases-open-source-leanstral-1-5-for-formal-math-and-code-verification/",
+          "publishedOn": "2026-07-04T10:34:14.000Z",
+          "wordCount": 6925,
+          "title": "Mistral AI releases open-source Leanstral 1.5 for formal math and code verification",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/mistral-ai-releases-open-source-leanstral-1-5-for-formal-math-and-code-verification.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-overhauls-copilot-to-merge-apps-and-prove-enterprise-value/",
+          "author": "IT News",
+          "description": "Microsoft is planning a major overhaul of its Copilot AI assistant, aiming to merge its consumer and enterprise applications into a single unified product as soon as August. Executive Vice President Jacob Andreou reportedly told staff that the AI tool must \"earn the right to exist\" by focusing on real work rather than chasing intelligence for its own sake. As part of this reset, Microsoft is discontinuing underutilized features like Copilot Podcasts and Copilot Labs to reduce overlapping product surfaces.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-overhauls-copilot-to-merge-apps-and-prove-enterprise-value/",
+          "publishedOn": "2026-07-04T10:34:13.000Z",
+          "wordCount": 7074,
+          "title": "Microsoft overhauls Copilot to merge apps and prove enterprise value",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-overhauls-copilot-to-merge-apps-and-prove-enterprise-value.jpg"
+        },
+        {
           "id": "https://4sysops.com/archives/alibaba-bans-anthropic-claude-code-over-hidden-spyware/",
           "author": "IT News",
           "description": "Alibaba has prohibited its employees from using Anthropic's Claude Code in workplace environments starting July 10, citing security concerns. An internal notice classified the AI coding tool as \"high-risk software\" due to alleged backdoor risks. The ban requires staff to switch to domestic alternatives like Alibaba's own Qoder platform.\nSource",
           "link": "https://4sysops.com/archives/alibaba-bans-anthropic-claude-code-over-hidden-spyware/",
           "publishedOn": "2026-07-03T19:41:44.000Z",
-          "wordCount": 6923,
+          "wordCount": 6944,
           "title": "Alibaba bans Anthropic Claude Code over hidden spyware",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/alibaba-bans-anthropic-claude-code-over-hidden-spyware.webp"
         },
@@ -14229,7 +14278,7 @@
           "description": "Microsoft announced general availability of dynamic thresholds for log search alerts in Azure Monitor on June 16, 2026. This feature uses machine learning to learn normal behavior from your historical log query results and automatically calculates alert thresholds, eliminating the need to configure and maintain static limits manually. The feature detects seasonal patterns such as hourly, daily, and weekly variations, and adapts as your environment changes. Dynamic thresholds are available at no additional cost beyond the standard log search alert rule rate.\nSource",
           "link": "https://4sysops.com/archives/dynamic-thresholds-for-log-search-alerts-in-azure-monitor/",
           "publishedOn": "2026-07-03T17:52:22.000Z",
-          "wordCount": 10076,
+          "wordCount": 10086,
           "title": "Dynamic thresholds for log search alerts in Azure Monitor",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/How-Azure-Monitor-alert-rules-work-image-Microsoft.png"
         },
@@ -14239,7 +14288,7 @@
           "description": "Microsoft is retiring several legacy SharePoint Online components to modernize its extensibility platform and align with current security standards. SharePoint Designer 2013 and InfoPath 2013 will both reach the end of support on July 14, 2026. After this deadline, these tools will no longer receive security updates and will be phased out across all Microsoft 365 environments.\nSource",
           "link": "https://4sysops.com/archives/microsoft-sets-retirement-dates-for-legacy-sharepoint-tools-and-event-receivers/",
           "publishedOn": "2026-07-03T17:28:11.000Z",
-          "wordCount": 6929,
+          "wordCount": 6939,
           "title": "Microsoft sets retirement dates for legacy SharePoint tools and event receivers",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-sets-retirement-dates-for-legacy-sharepoint-tools-and-event-receivers.webp"
         },
@@ -14249,7 +14298,7 @@
           "description": "Intel has officially confirmed price increases for several consumer and server processor families, citing a combination of rising supply chain costs and high market demand. The adjustments affect the latest Core Ultra 200S Plus desktop chips, with recommended customer prices rising by $30 to $50 per unit. While enthusiast models saw modest hikes, the impact on data center hardware is significantly more substantial, with some high-end server CPUs increasing by over $1,000.\nSource",
           "link": "https://4sysops.com/archives/intel-raises-prices-for-core-ultra-and-xeon-cpus-due-to-supply-chain-costs/",
           "publishedOn": "2026-07-03T17:28:10.000Z",
-          "wordCount": 7068,
+          "wordCount": 7078,
           "title": "Intel raises prices for Core Ultra and Xeon CPUs due to supply chain costs",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/intel-raises-prices-for-core-ultra-and-xeon-cpus-due-to-supply-chain-costs.jpg"
         },
@@ -14259,7 +14308,7 @@
           "description": "Meta has developed a custom ASIC named Vistara to repurpose DDR4 memory modules from decommissioned servers for use in modern DDR5-based machines. This initiative addresses a significant hardware lifecycle imbalance where memory modules typically remain functional for up to ten years, far outlasting the three-to-five-year lifespan of server processors. By utilizing Compute Express Link (CXL) technology, the company can bridge the gap between older memory standards and new PCIe 5.0 interfaces without the performance penalties associated with traditional legacy compatibility.\nSource",
           "link": "https://4sysops.com/archives/meta-reuses-legacy-ddr4-memory-in-new-servers-via-custom-cxl-asic/",
           "publishedOn": "2026-07-03T17:24:40.000Z",
-          "wordCount": 7030,
+          "wordCount": 7040,
           "title": "Meta reuses legacy DDR4 memory in new servers via custom CXL ASIC",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/meta-reuses-legacy-ddr4-memory-in-new-servers-via-custom-cxl-asic.webp"
         },
@@ -14269,7 +14318,7 @@
           "description": "Microsoft has introduced a native orchestrated user data migration tool to simplify transitions during corporate mergers, acquisitions, and restructurings. This new capability allows administrators to move Exchange mailboxes, OneDrive files, Teams chats, and Teams meetings through a single unified workflow. By utilizing Graph APIs, organizations can now avoid the risks associated with fragmented third-party point tools and manual PowerShell scripts.\nSource",
           "link": "https://4sysops.com/archives/microsoft-launches-native-orchestrated-cross-tenant-data-migration-for-m365/",
           "publishedOn": "2026-07-03T14:23:17.000Z",
-          "wordCount": 6887,
+          "wordCount": 6897,
           "title": "Microsoft launches native orchestrated cross-tenant data migration for M365",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-launches-native-orchestrated-cross-tenant-data-migration-for-m365.png"
         },
@@ -14279,7 +14328,7 @@
           "description": "Amazon's greenhouse gas emissions increased by 16% last year, reaching a record high as the company expanded its artificial intelligence infrastructure. This surge was primarily driven by a 34% rise in electricity consumption and a 20% increase in emissions from manufacturing supply chains. The company added more data center capacity globally than any other organization during this period, significantly outpacing its internal efficiency improvements.\nSource",
           "link": "https://4sysops.com/archives/amazon-emissions-surge-as-ai-infrastructure-expansion-outpaces-efficiency-gains/",
           "publishedOn": "2026-07-03T14:23:16.000Z",
-          "wordCount": 6911,
+          "wordCount": 6921,
           "title": "Amazon emissions surge as AI infrastructure expansion outpaces efficiency gains",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/amazon-emissions-surge-as-ai-infrastructure-expansion-outpaces-efficiency-gains.webp"
         },
@@ -14289,7 +14338,7 @@
           "description": "The Vect ransomware group and the TeamPCP cybercriminal collective have formed a strategic partnership to industrialize the deployment of ransomware. This collaboration combines TeamPCP’s large-scale credential harvesting from software supply chains with Vect’s established ransomware-as-a-service infrastructure. Security researchers warn that this business-like model significantly lowers the barrier to entry for cybercriminals by automating complex attack pipelines.\nSource",
           "link": "https://4sysops.com/archives/industrialized-ransomware-alliance-targets-software-supply-chains-and-developers/",
           "publishedOn": "2026-07-03T13:53:20.000Z",
-          "wordCount": 6871,
+          "wordCount": 6881,
           "title": "Industrialized ransomware alliance targets software supply chains and developers",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/industrialized-ransomware-alliance-targets-software-supply-chains-and-developers.jpg"
         },
@@ -14299,7 +14348,7 @@
           "description": "HPE has integrated post-quantum cryptography into its latest iLO management controllers to protect server firmware against future threats. The Gen12 hardware utilizes NIST-standardized algorithms, specifically Leighton-Micali Signatures and Module-Lattice-Based Digital Signature Algorithm, to secure the boot process. These mathematical approaches are designed to resist decryption attempts from quantum computers, addressing the \"save now, decrypt later\" strategy used by some adversaries.\nSource",
           "link": "https://4sysops.com/archives/protecting-the-server-lifecycle-with-quantum-safe-management-hardware/",
           "publishedOn": "2026-07-03T13:53:19.000Z",
-          "wordCount": 6877,
+          "wordCount": 6887,
           "title": "Protecting the server lifecycle with quantum-safe management hardware",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/protecting-the-server-lifecycle-with-quantum-safe-management-hardware.jpg"
         },
@@ -14309,7 +14358,7 @@
           "description": "The FBI and Google coordinated a global operation to disrupt NetNut, a massive residential proxy network that co-opted over two million consumer devices. This network, also tracked as the Popa botnet, primarily targeted Android-based smart TVs and streaming boxes through deceptive software development kits. These SDKs were often bundled into unofficial apps or inexpensive hardware, turning home internet connections into exit nodes for third-party traffic without meaningful user consent.\nSource",
           "link": "https://4sysops.com/archives/fbi-and-google-dismantle-netnut-proxy-botnet-hiding-in-smart-tvs/",
           "publishedOn": "2026-07-03T13:53:18.000Z",
-          "wordCount": 7006,
+          "wordCount": 7016,
           "title": "FBI and Google dismantle NetNut proxy botnet hiding in smart TVs",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/fbi-and-google-dismantle-netnut-proxy-botnet-hiding-in-smart-tvs.jpg"
         },
@@ -14319,7 +14368,7 @@
           "description": "Microsoft is updating Outlook for iOS to utilize Apple’s Contact Provider framework, allowing contact data to be visible across the entire operating system. This change ensures that Outlook contacts will appear in native applications such as Phone and Messages without requiring full address book access. By leveraging this framework, Microsoft aims to provide a more unified experience for users who manage professional contacts within the Outlook ecosystem.\nSource",
           "link": "https://4sysops.com/archives/outlook-for-ios-to-integrate-system-wide-contacts-via-apple-framework/",
           "publishedOn": "2026-07-03T13:53:17.000Z",
-          "wordCount": 6967,
+          "wordCount": 6977,
           "title": "Outlook for iOS to integrate system-wide contacts via Apple framework",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/outlook-for-ios-to-integrate-system-wide-contacts-via-apple-framework.webp"
         },
@@ -14329,7 +14378,7 @@
           "description": "Bridgewater Associates and Thinking Machines Lab developed a specialized AI model that outperforms frontier systems like GPT-4, Claude, and Gemini on financial tasks. While general-purpose models initially achieved only 50% accuracy on document filtering, the custom solution reached 84.7% accuracy. This performance gap exists because the nuanced judgment required for financial triage relies on proprietary expert data rather than public information.\nSource",
           "link": "https://4sysops.com/archives/fine-tuned-models-beat-frontier-models-in-bridgewater-finance-tests/",
           "publishedOn": "2026-07-03T12:24:24.000Z",
-          "wordCount": 6927,
+          "wordCount": 6937,
           "title": "Fine-tuned models beat frontier models in Bridgewater finance tests",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/fine-tuned-models-beat-frontier-models-in-bridgewater-finance-tests.png"
         },
@@ -14339,79 +14388,9 @@
           "description": "Meta is currently training its next flagship artificial intelligence model, internally codenamed Watermelon, which reportedly matches the performance of OpenAI's GPT-5.5. This development was shared by Alexandr Wang, head of Meta Superintelligence Labs, during a recent internal town hall meeting. The claim is based on industry-standard benchmarks, though specific metrics and third-party evaluations have not yet been released to the public.\nSource",
           "link": "https://4sysops.com/archives/meta-claims-its-next-flagship-ai-model-watermelon-matches-gpt-5-5-performance/",
           "publishedOn": "2026-07-03T12:24:23.000Z",
-          "wordCount": 6957,
+          "wordCount": 6967,
           "title": "Meta claims its next flagship AI model Watermelon matches GPT-5.5 performance",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/meta-claims-its-next-flagship-ai-model-watermelon-matches-gpt-5-5-performance.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/tesla-caps-employee-ai-spending-to-curb-ballooning-token-costs/",
-          "author": "IT News",
-          "description": "Tesla has implemented a $200 weekly limit on employee spending for third-party AI tools to control rising operational costs. This policy follows a period where software engineers reportedly incurred thousands of dollars in weekly expenses using external large language model APIs. Staff members requiring resources beyond this threshold must now obtain formal management approval to continue their work.\nSource",
-          "link": "https://4sysops.com/archives/tesla-caps-employee-ai-spending-to-curb-ballooning-token-costs/",
-          "publishedOn": "2026-07-03T12:24:22.000Z",
-          "wordCount": 6921,
-          "title": "Tesla caps employee AI spending to curb ballooning token costs",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/tesla-caps-employee-ai-spending-to-curb-ballooning-token-costs.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/research-by-check-point-reveals-that-automated-ai-tools-have-high-false-positive-rates/",
-          "author": "IT News",
-          "description": "Cybersecurity teams are experiencing a massive surge in security alerts as attackers utilize automated AI tools to scan for vulnerabilities at scale. Research from Check Point Software indicates that the proportion of critical risks has jumped from 18.7% to 42.6% within a single year. This rapid escalation has created an exposure gap where the volume of incoming reports far exceeds the manual assessment capacity of security personnel.\nSource",
-          "link": "https://4sysops.com/archives/research-by-check-point-reveals-that-automated-ai-tools-have-high-false-positive-rates/",
-          "publishedOn": "2026-07-03T12:24:21.000Z",
-          "wordCount": 7024,
-          "title": "Research by Check Point reveals that automated AI tools have high false positive rates",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/research-by-check-point-reveals-that-automated-ai-tools-have-high-false-positive-rates.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/business-leaders-struggle-with-ai-cost-visibility-as-usage-based-expenses-surge/",
-          "author": "IT News",
-          "description": "Organizations are rapidly integrating artificial intelligence into daily workflows, yet many leadership teams lack a clear understanding of the associated financial structures. Recent data indicates that nearly one-third of business leaders struggle with usage-based costs, while many report only partial visibility into their total AI spending. This lack of transparency often leads to budget exhaustion, as seen in cases where annual allocations were consumed in just a few months.\nSource",
-          "link": "https://4sysops.com/archives/business-leaders-struggle-with-ai-cost-visibility-as-usage-based-expenses-surge/",
-          "publishedOn": "2026-07-03T12:24:20.000Z",
-          "wordCount": 6955,
-          "title": "Business leaders struggle with AI cost visibility as usage-based expenses surge",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/business-leaders-struggle-with-ai-cost-visibility-as-usage-based-expenses-surge.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/azure-files-enhances-nfs-support-for-ai-and-enterprise-linux-workloads/",
-          "author": "IT News",
-          "description": "Azure Files now offers fully managed NFS 4.1 storage designed to accelerate data-intensive Linux workloads such as AI inferencing and containerized applications. By utilizing the nconnect mount option, clients can establish multiple parallel TCP connections to a single share to significantly improve throughput. New zonal placement capabilities allow administrators to co-locate file shares with GPU virtual machines, reducing latency and maximizing expensive hardware utilization.\nSource",
-          "link": "https://4sysops.com/archives/azure-files-enhances-nfs-support-for-ai-and-enterprise-linux-workloads/",
-          "publishedOn": "2026-07-03T12:24:19.000Z",
-          "wordCount": 6940,
-          "title": "Azure Files enhances NFS support for AI and enterprise Linux workloads",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/azure-files-enhances-nfs-support-for-ai-and-enterprise-linux-workloads.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/pamstealer-is-a-new-type-of-of-macos-malware/",
-          "author": "IT News",
-          "description": "A new macOS infostealer named PamStealer is targeting users by masquerading as the legitimate open-source clipboard manager Maccy. The infection begins when a victim downloads a malicious disk image from a fraudulent website designed to mimic the official project page. This initial stage utilizes a clever AppleScript wrapper that executes hidden JavaScript for Automation to retrieve the final payload.\nSource",
-          "link": "https://4sysops.com/archives/pamstealer-is-a-new-type-of-of-macos-malware/",
-          "publishedOn": "2026-07-03T12:24:18.000Z",
-          "wordCount": 6879,
-          "title": "PamStealer is a new type of of macOS malware",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/pamstealer-is-a-new-type-of-of-macos-malware.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/enterprises-are-shifting-towards-open-weight-models-and-localized-compute/",
-          "author": "IT News",
-          "description": "The transition from model rental to ownership Enterprise customers are increasingly frustrated with the high costs and perceived security risks of sending proprietary data into closed third-party systems. A significant shift is occurring as organizations move away from renting models from providers like OpenAI or Anthropic in favor of owning their own infrastructure and weights. This transition is motivated by a desire to control the \"alpha\" of the business and ensure that technical improvements remain internal assets rather than subsidized improvements for external providers.\nSource",
-          "link": "https://4sysops.com/archives/enterprises-are-shifting-towards-open-weight-models-and-localized-compute/",
-          "publishedOn": "2026-07-03T12:24:17.000Z",
-          "wordCount": 6968,
-          "title": "Enterprises are shifting towards open-weight models and localized compute",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/enterprises-are-shifting-towards-open-weight-models-and-localized-compute.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/anthropic-claude-fable-5-intelligence-disappoints/",
-          "author": "IT News",
-          "description": "Anthropic has redeployed its flagship Claude Fable 5 model following a regulatory suspension, but users report a significant decline in practical utility. While the underlying model remains unchanged, aggressive new safety classifiers frequently block legitimate requests to prevent potential cybersecurity exploits. These restrictions are particularly disruptive for systems-level development, as the system often triggers a fallback to the less capable Claude Opus 4.8 model when encountering technical keywords.\nSource",
-          "link": "https://4sysops.com/archives/anthropic-claude-fable-5-disappoints/",
-          "publishedOn": "2026-07-03T11:53:46.000Z",
-          "wordCount": 6892,
-          "title": "Anthropic Claude Fable 5 disappoints",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/anthropic-claude-fable-5-intelligence-disappoints.jpg"
         },
         {
           "id": "https://4sysops.com/archives/court-documents-reveal-how-anthropic-ai-ethics-sparked-government-clash/",
@@ -19032,236 +19011,6 @@
           "wordCount": 5987,
           "title": "Uber implements AI spending caps after exhausting annual budget in four months",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security/",
-          "author": "IT News",
-          "description": "Let’s Encrypt is developing a post-quantum-safe Web PKI infrastructure using Merkle Tree Certificates (MTCs) to address future cryptographic threats. This approach aims to provide post-quantum authentication without the significant performance penalties associated with standard post-quantum signature schemes. The organization plans to launch a staging environment for these certificates in late 2026, with full production readiness expected by 2027.\nSource",
-          "link": "https://4sysops.com/archives/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security/",
-          "publishedOn": "2026-06-05T13:42:46.000Z",
-          "wordCount": 5915,
-          "title": "Let’s Encrypt adopts Merkle Tree Certificates for post-quantum security",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/outlook-vulnerability-causes-silent-protocol-downgrade-to-unencrypted-plaintext/",
-          "author": "IT News",
-          "description": "A long-standing security flaw in Microsoft Outlook reportedly allows the client to downgrade secure SSL/TLS connections to unencrypted plaintext without notifying the user. This issue primarily affects the POP3 protocol when configured to use port 110, even if the option to use encryption is explicitly enabled in the settings. While confirmed in versions ranging from Outlook 2007 to 2016, it remains unclear if more recent releases of the email client are also susceptible to this behavior.\nSource",
-          "link": "https://4sysops.com/archives/outlook-vulnerability-causes-silent-protocol-downgrade-to-unencrypted-plaintext/",
-          "publishedOn": "2026-06-05T13:42:43.000Z",
-          "wordCount": 5971,
-          "title": "Outlook vulnerability causes silent protocol downgrade to unencrypted plaintext",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/outlook-vulnerability-causes-silent-protocol-downgrade-to-unencrypted-plaintext.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/anthropic-expands-mythos-ai-access-to-nsa-and-global-critical-infrastructure/",
-          "author": "IT News",
-          "description": "Anthropic has reportedly deployed its specialized Mythos AI model to the National Security Agency to support offensive cyber operations. The company has embedded approximately six engineers within the agency to adapt the model for tasks that may include infiltrating foreign networks in regions like China and Iran. This partnership proceeds despite previous friction with the Department of Defense regarding the ethical restrictions Anthropic places on mass surveillance and autonomous weaponry.\nSource",
-          "link": "https://4sysops.com/archives/anthropic-expands-mythos-ai-access-to-nsa-and-global-critical-infrastructure/",
-          "publishedOn": "2026-06-05T13:42:42.000Z",
-          "wordCount": 6026,
-          "title": "Anthropic expands Mythos AI access to NSA and global critical infrastructure",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-expands-mythos-ai-access-to-nsa-and-global-critical-infrastructure.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/new-op-512-threat-cluster-targets-legacy-iis-servers-with-custom-web-shells/",
-          "author": "IT News",
-          "description": "A new threat cluster identified as OP-512 is actively targeting Microsoft Internet Information Services (IIS) servers to deploy a sophisticated web shell framework. Researchers believe the group is focused on espionage and specifically selects organizations that align with Chinese intelligence priorities. This activity follows a trend of multiple China-linked threat actors focusing on IIS vulnerabilities over the past year.\nSource",
-          "link": "https://4sysops.com/archives/new-op-512-threat-cluster-targets-legacy-iis-servers-with-custom-web-shells/",
-          "publishedOn": "2026-06-05T13:42:39.000Z",
-          "wordCount": 5964,
-          "title": "New OP-512 threat cluster targets legacy IIS servers with custom web shells",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/new-op-512-threat-cluster-targets-legacy-iis-servers-with-custom-web-shells.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-launches-mai-frontier-models-and-custom-agents-for-enterprise-workloads/",
-          "author": "IT News",
-          "description": "Microsoft has introduced seven new MAI frontier models designed for image processing, transcription, voice generation, and reasoning. The lineup includes MAI Thinking 1, a 35-billion parameter model that provides advanced reasoning and coding capabilities comparable to larger industry alternatives. These tools are being integrated across the Microsoft ecosystem, including GitHub, VS Code, and Copilot, to provide efficient and cost-effective performance for production environments.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-launches-mai-frontier-models-and-custom-agents-for-enterprise-workloads/",
-          "publishedOn": "2026-06-05T10:14:51.000Z",
-          "wordCount": 5935,
-          "title": "Microsoft launches MAI frontier models and custom agents for enterprise workloads",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-launches-mai-frontier-models-and-custom-agents-for-enterprise-workloads.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/mira-murati-explains-thinking-machines-and-the-vision-for-interactive-frontier-ai/",
-          "author": "IT News",
-          "description": "Mira Murati, the former CTO of OpenAI, has launched a new startup called Thinking Machines to develop \"interaction models\" that move beyond traditional turn-based AI communication. Current large language models typically process information in a linear fashion, effectively becoming \"deaf and blind\" while generating a response. Murati’s new venture focuses on continuous, time-based interaction where the model perceives audio, text, and video input simultaneously to allow for nuances like human interruption.\nSource",
-          "link": "https://4sysops.com/archives/mira-murati-explains-thinking-machines-and-the-vision-for-interactive-frontier-ai/",
-          "publishedOn": "2026-06-05T10:14:49.000Z",
-          "wordCount": 5987,
-          "title": "Mira Murati explains thinking machines and the vision for interactive frontier AI",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/mira-murati-explains-thinking-machines-and-the-vision-for-interactive-frontier-ai.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/offlineinsiderenroll-script-enables-windows-11-preview-builds-without-a-microsoft-account/",
-          "author": "IT News",
-          "description": "The OfflineInsiderEnroll script provides a method for systems to join the Windows Insider Program without requiring a linked Microsoft account. This lightweight utility configures the necessary preview settings locally, allowing devices to receive early builds through the standard Windows Update service. It is particularly useful for environments where administrators prefer local accounts or wish to bypass the official enrollment process.\nSource",
-          "link": "https://4sysops.com/archives/offlineinsiderenroll-script-enables-windows-11-preview-builds-without-a-microsoft-account/",
-          "publishedOn": "2026-06-05T10:14:47.000Z",
-          "wordCount": 5949,
-          "title": "OfflineInsiderEnroll script enables Windows 11 preview builds without a Microsoft account",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/offlineinsiderenroll-script-enables-windows-11-preview-builds-without-a-microsoft-account.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/visual-studio-code-1-124-enhances-agent-chat-and-folding-markers/",
-          "author": "IT News",
-          "description": "Visual Studio Code version 1.124 introduces significant improvements to the Agents window for managing AI-driven interactions. The chat input history is now scoped specifically to the current session to prevent prompts from leaking across different contexts. This change ensures that using the arrow keys to navigate previous commands only surfaces relevant entries for the active task.\nSource",
-          "link": "https://4sysops.com/archives/visual-studio-code-1-124-enhances-agent-chat-and-folding-markers/",
-          "publishedOn": "2026-06-05T10:14:46.000Z",
-          "wordCount": 5881,
-          "title": "Visual Studio Code 1.124 enhances agent chat and folding markers",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/visual-studio-code-1-124-enhances-agent-chat-and-folding-markers.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/ai-agents-surpass-human-web-traffic-for-the-first-time-in-history/",
-          "author": "IT News",
-          "description": "Cloudflare data indicates that autonomous AI agents now generate more internet traffic than human users for the first time. This milestone arrived significantly earlier than industry experts predicted, with previous forecasts suggesting the shift would not occur until 2027. The current breakdown shows automated requests accounting for approximately 57.5 percent of global HTTP traffic compared to 42.5 percent for humans.\nSource",
-          "link": "https://4sysops.com/archives/ai-agents-surpass-human-web-traffic-for-the-first-time-in-history/",
-          "publishedOn": "2026-06-05T10:14:44.000Z",
-          "wordCount": 6020,
-          "title": "AI agents surpass human web traffic for the first time in history",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ai-agents-surpass-human-web-traffic-for-the-first-time-in-history.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/ai-pioneer-geoffrey-hinton-warns-of-conscious-superintelligence-and-existential-risk/",
-          "author": "IT News",
-          "description": "Geoffrey Hinton, a foundational figure in deep learning, asserts that modern artificial intelligence already possesses consciousness and real understanding rather than acting as a simple statistical parrot. He identifies a shift in AI capability that occurred in 2023, noting that digital intelligence now surpasses biological brains in information sharing efficiency by billions of times. This rapid trajectory suggests that superintelligence—AI smarter than humans in every domain—will likely emerge within the next 20 years.\nSource",
-          "link": "https://4sysops.com/archives/ai-pioneer-geoffrey-hinton-warns-of-conscious-superintelligence-and-existential-risk/",
-          "publishedOn": "2026-06-05T00:14:59.000Z",
-          "wordCount": 4794,
-          "title": "AI pioneer Geoffrey Hinton warns of conscious superintelligence and existential risk",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ai-pioneer-geoffrey-hinton-warns-of-conscious-superintelligence-and-existential-risk.jpg"
-        },
-        {
-          "id": "https://4sysops.com/?p=1612214",
-          "author": "IT Experts",
-          "description": "Microsoft announced Coreutils for Windows at Build 2026, making a set of Unix-style command-line tools available as native Windows applications. Built on an open-source Rust reimplementation of GNU coreutils, the package ships as a single binary. It bundles the standard coreutils, findutils, and a GNU-compatible grep. Because many command names overlap with existing Windows built-ins, you must be aware of shell conflicts before using them in cmd or PowerShell. The project carries a preview label on GitHub despite being announced as generally available.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-coreutils-for-windows-native-linux-command-line-tools/",
-          "publishedOn": "2026-06-04T23:20:05.000Z",
-          "wordCount": 6069,
-          "title": "Microsoft Coreutils for Windows: native Linux command-line tools",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Coreutils-grep-running-in-a-Windows-terminal-image-Microsoft.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/github-copilot-in-visual-studio-2026-adds-planning-agent-and-context-management/",
-          "author": "IT News",
-          "description": "The May update for GitHub Copilot in Visual Studio 2026 introduces a dedicated Plan agent designed to assist with pre-coding architecture. This tool analyzes the existing codebase to draft implementation strategies in markdown format before any actual code is written. Once the strategy is finalized, it can be handed off to the Agent mode for automated implementation.\nSource",
-          "link": "https://4sysops.com/archives/github-copilot-in-visual-studio-2026-adds-planning-agent-and-context-management/",
-          "publishedOn": "2026-06-04T20:19:11.000Z",
-          "wordCount": 4760,
-          "title": "GitHub Copilot in Visual Studio 2026 adds planning agent and context management",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/github-copilot-in-visual-studio-2026-adds-planning-agent-and-context-management.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/nvidia-and-microsoft-partner-to-bring-agentic-ai-systems-to-pcs-and-data-centers/",
-          "author": "IT News",
-          "description": "Microsoft and Nvidia are collaborating to transition personal computers from simple tools into autonomous assistants capable of performing complex tasks independently. These modern AI PCs leverage high-performance hardware and integrated software stacks to run sophisticated reasoning models locally at the edge. This shift enables persistent agentic systems that can iterate on coding or design projects even when the user is away from the device.\nSource",
-          "link": "https://4sysops.com/archives/nvidia-and-microsoft-partner-to-bring-agentic-ai-systems-to-pcs-and-data-centers/",
-          "publishedOn": "2026-06-04T20:19:09.000Z",
-          "wordCount": 4812,
-          "title": "Nvidia and Microsoft partner to bring agentic AI systems to PCs and data centers",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/nvidia-and-microsoft-partner-to-bring-agentic-ai-systems-to-pcs-and-data-centers.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/ai-industry-leaders-urge-congress-to-regulate-synthetic-dna-to-prevent-bioweapons/",
-          "author": "IT News",
-          "description": "The CEOs of major artificial intelligence firms, including OpenAI, Anthropic, Microsoft, and Google DeepMind, have signed a public letter calling for stricter oversight of synthetic DNA. This initiative aims to prevent bad actors from using advanced AI models to design or acquire dangerous pathogens and toxins. The signatories are urging Congress to pass legislation that requires all providers of synthetic genetic material to screen both their customers and their orders.\nSource",
-          "link": "https://4sysops.com/archives/ai-industry-leaders-urge-congress-to-regulate-synthetic-dna-to-prevent-bioweapons/",
-          "publishedOn": "2026-06-04T20:19:08.000Z",
-          "wordCount": 4874,
-          "title": "AI industry leaders urge Congress to regulate synthetic DNA to prevent bioweapons",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/ai-industry-leaders-urge-congress-to-regulate-synthetic-dna-to-prevent-bioweapons.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/cloudflare-ceo-predicts-pay-to-crawl-model-as-bot-traffic-surpasses-humans/",
-          "author": "IT News",
-          "description": "Automated traffic from AI agents and crawlers now accounts for over 57 percent of global HTTP requests. This shift occurred much faster than industry experts anticipated, largely driven by the rapid expansion of generative AI models. Cloudflare reports that the volume of bot-driven data requests has officially overtaken human-generated traffic within the last few months.\nSource",
-          "link": "https://4sysops.com/archives/cloudflare-ceo-predicts-pay-to-crawl-model-as-bot-traffic-surpasses-humans/",
-          "publishedOn": "2026-06-04T20:19:06.000Z",
-          "wordCount": 4766,
-          "title": "Cloudflare CEO predicts pay-to-crawl model as bot traffic surpasses humans",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cloudflare-ceo-predicts-pay-to-crawl-model-as-bot-traffic-surpasses-humans.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/amd-captures-one-third-of-the-server-cpu-market-amid-ai-demand/",
-          "author": "IT News",
-          "description": "The x86 processor market experienced a significant decline in total shipments during the first quarter of 2026. Despite this general downturn, the server CPU segment bucked the trend by growing more than 10 percent compared to the previous year. This growth is largely attributed to the sustained demand for high-performance hardware required for artificial intelligence workloads in datacenters.\nSource",
-          "link": "https://4sysops.com/archives/amd-captures-one-third-of-the-server-cpu-market-amid-ai-demand/",
-          "publishedOn": "2026-06-04T20:19:04.000Z",
-          "wordCount": 4779,
-          "title": "AMD captures one third of the server CPU market amid AI demand",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amd-captures-one-third-of-the-server-cpu-market-amid-ai-demand.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/github-copilot-chat-adds-deep-pull-request-context-and-side-by-side-editing/",
-          "author": "IT News",
-          "description": "GitHub Copilot Chat now offers enhanced context and new capabilities for managing code diffs and pull requests directly on the GitHub platform. This update is now generally available to all users holding a valid Copilot license. The integration allows for a more streamlined workflow by placing the chat interface directly alongside the code being reviewed.\nSource",
-          "link": "https://4sysops.com/archives/github-copilot-chat-adds-deep-pull-request-context-and-side-by-side-editing/",
-          "publishedOn": "2026-06-04T20:19:02.000Z",
-          "wordCount": 4747,
-          "title": "GitHub Copilot Chat adds deep pull request context and side-by-side editing",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/github-copilot-chat-adds-deep-pull-request-context-and-side-by-side-editing.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/openai-enhances-chatgpt-memory-with-automated-narrative-user-profiles/",
-          "author": "IT News",
-          "description": "OpenAI has updated the ChatGPT memory system to automatically generate narrative profiles of users based on their conversation history. Instead of storing isolated facts in bulleted lists, the system now synthesizes information into categorized prose dossiers covering work, hobbies, and travel. This background processing, referred to as \"Dreaming,\" allows the AI to maintain context without requiring explicit commands from the user to remember specific details.\nSource",
-          "link": "https://4sysops.com/archives/openai-enhances-chatgpt-memory-with-automated-narrative-user-profiles/",
-          "publishedOn": "2026-06-04T19:46:11.000Z",
-          "wordCount": 4795,
-          "title": "OpenAI enhances ChatGPT memory with automated narrative user profiles",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/openai-enhances-chatgpt-memory-with-automated-narrative-user-profiles.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-promotes-15-features-to-encourage-migration-to-the-new-outlook/",
-          "author": "IT News",
-          "description": "Microsoft is intensifying its efforts to transition users from the classic Outlook desktop application to the new Outlook for Windows. The company recently highlighted 15 specific features designed to improve email management and calendar workflows for modern users. While many of these capabilities already exist in the classic version, Microsoft is emphasizing their refined implementation in the newer interface.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-promotes-15-features-to-encourage-migration-to-the-new-outlook/",
-          "publishedOn": "2026-06-04T19:46:09.000Z",
-          "wordCount": 4770,
-          "title": "Microsoft promotes 15 features to encourage migration to the new Outlook",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-promotes-15-features-to-encourage-migration-to-the-new-outlook.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/uk-regulator-forces-google-to-provide-ai-scraping-opt-out-for-publishers/",
-          "author": "IT News",
-          "description": "The UK Competition and Markets Authority has issued a landmark order requiring Google to allow publishers to opt out of AI-generated search features. This mandate ensures that news organizations can prevent their content from appearing in AI Overviews without losing visibility in traditional search results. Previously, website owners had to block Google's crawlers entirely to avoid AI scraping, which effectively removed them from all search engine indexing.\nSource",
-          "link": "https://4sysops.com/archives/uk-regulator-forces-google-to-provide-ai-scraping-opt-out-for-publishers/",
-          "publishedOn": "2026-06-04T15:16:04.000Z",
-          "wordCount": 4870,
-          "title": "UK regulator forces Google to provide AI scraping opt out for publishers",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/uk-regulator-forces-google-to-provide-ai-scraping-opt-out-for-publishers.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/cisco-patches-critical-privilege-escalation-flaw-in-unified-communications-manager/",
-          "author": "IT News",
-          "description": "Cisco has released security updates to address a critical vulnerability in its Unified Communications Manager and Session Management Edition platforms. This flaw, identified as CVE-2026-20230, allows remote attackers to perform server-side request forgery attacks without any prior authentication. Although the vulnerability received a CVSS score of 8.6, Cisco elevated its internal rating to critical because successful exploitation grants full root privileges.\nSource",
-          "link": "https://4sysops.com/archives/cisco-patches-critical-privilege-escalation-flaw-in-unified-communications-manager/",
-          "publishedOn": "2026-06-04T15:16:02.000Z",
-          "wordCount": 4802,
-          "title": "Cisco patches critical privilege escalation flaw in Unified Communications Manager",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cisco-patches-critical-privilege-escalation-flaw-in-unified-communications-manager.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/sam-altman-addresses-rising-ai-token-costs-as-corporate-budgets-vanish/",
-          "author": "IT News",
-          "description": "OpenAI CEO Sam Altman recently acknowledged that the escalating cost of artificial intelligence tokens has become a significant concern for enterprise clients. While customers were initially satisfied with their expenditures at the start of 2024, many are now reporting that entire annual budgets are being exhausted within the first quarter. This shift has turned AI cost management into a prominent industry meme and a primary focus for organizations attempting to scale their operations.\nSource",
-          "link": "https://4sysops.com/archives/sam-altman-addresses-rising-ai-token-costs-as-corporate-budgets-vanish/",
-          "publishedOn": "2026-06-04T15:15:59.000Z",
-          "wordCount": 4899,
-          "title": "Sam Altman addresses rising AI token costs as corporate budgets vanish",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/sam-altman-addresses-rising-ai-token-costs-as-corporate-budgets-vanish.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-resolves-windows-update-caching-bug-that-bypassed-driver-policies/",
-          "author": "IT News",
-          "description": "A misconfiguration in the Windows Update caching service recently caused Windows devices to ignore administrative policies designed to block automatic driver updates. This glitch resulted in the temporary loss of device enrollment data, which led the update service to treat managed systems as unmanaged endpoints. Consequently, driver-approval controls were bypassed, allowing updates to install on tens of thousands of machines without authorization.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-resolves-windows-update-caching-bug-that-bypassed-driver-policies/",
-          "publishedOn": "2026-06-04T15:15:57.000Z",
-          "wordCount": 4764,
-          "title": "Microsoft resolves Windows Update caching bug that bypassed driver policies",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-resolves-windows-update-caching-bug-that-bypassed-driver-policies.jpg"
         }
       ]
     },
@@ -19509,16 +19258,6 @@
           "wordCount": 5067,
           "title": "Reducing Microsoft Sentinel Costs Without Compromising Detection – Part 1: The Summary Rules Quest",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/05/the_summary_rules_quest_1-1.png"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=26015",
-          "author": "Stamatis Chatzimangou",
-          "description": "Adversaries have always relied on legitimate tools to carry out their attacks. These tools are already trusted by security solutions, which allows them to blend in with normal activity, maintain a low footprint, and make detection much harder for defenders. By using these legitimate tools, adversaries can carry out a wide range of actions, such as moving laterally across networks, establishing C2 channels, or maintaining persistence, all without triggering any alerts.",
-          "link": "https://blog.nviso.eu/2026/06/04/the-detection-response-chronicles-covert-operations-through-qemu/",
-          "publishedOn": "2026-06-04T14:26:05.000Z",
-          "wordCount": 4965,
-          "title": "The Detection & Response Chronicles: Covert Operations Through QEMU",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/06/The-Detection-Response-Chronicles-QEMU-blog.png"
         }
       ]
     },
@@ -19606,16 +19345,6 @@
           "wordCount": 2788,
           "title": "Mythos Doesn't Deploy Itself",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/Mythos-Doesnt-Deploy-Itself.png"
-        },
-        {
-          "id": "https://bishopfox.com/blog/popping-root-on-unifi-os-server-unauthenticated-rce-chain-detection-analysis",
-          "author": null,
-          "description": "A three-part vulnerability chain in UniFi OS Server lets an unauthenticated attacker bypass the auth gateway, hit a command injection sink, and escalate to root in a single request. Bishop Fox confirmed the chain end to end and breaks down the attack, the impact, and how to detect it safely.",
-          "link": "https://bishopfox.com/blog/popping-root-on-unifi-os-server-unauthenticated-rce-chain-detection-analysis",
-          "publishedOn": "2026-06-05T13:00:00.000Z",
-          "wordCount": 5723,
-          "title": "Popping Root on UniFi OS Server: Unauthenticated RCE Chain Detection & Analysis",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/channels/blog/featured-images/_1200x630_crop_center-center_82_none/Popping-Root-on-UniFi-OS-Server-Unauthenticated-RCE-Chain-Detection-Analysis.png?mtime=1780685276"
         }
       ]
     },
@@ -19624,16 +19353,6 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
-        {
-          "id": "https://www.synack.com/?p=27578",
-          "author": "Angela Heindl-Schober",
-          "description": "“Continuous” has become the most stretched word in offensive security. This guide breaks down what continuous penetration testing  means, why most of the market doesn’t deliver it, and how Synack’s Sara is bringing always-on, human-validated testing to the enterprise.\nThe post Continuous Penetration Testing: What Security Leaders Need to Know appeared first on Synack.",
-          "link": "https://www.synack.com/blog/continuous-penetration-testing-sara-ai/",
-          "publishedOn": "2026-06-30T13:48:44.000Z",
-          "wordCount": 5571,
-          "title": "Continuous Penetration Testing: What Security Leaders Need to Know",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/synack-continuous-penetration-testing-what-security-leaders-need-to-know-blog.jpg"
-        },
         {
           "id": "https://www.synack.com/?p=27569",
           "author": "Paul Mote",
@@ -19813,6 +19532,26 @@
           "wordCount": 4951,
           "title": "What I Told Security Leaders at Gartner SRM 2026",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/3d-plexus-background-with-low-poly-scaled.jpg"
+        },
+        {
+          "id": "https://www.synack.com/?p=26677",
+          "author": "Paul Mote",
+          "description": "At Accenture’s scale, training alone cannot solve every security problem. That was the reality facing Kris Burkhardt, Global CISO at Accenture. With a workforce of more than 800,000 people, close to 80,000 new hires each year, and a sprawling global attack surface, traditional penetration testing was no longer enough. A once-a-year compliance audit may check […]\nThe post How Accenture Turned Penetration Testing Into a Force Multiplier for Security appeared first on Synack.",
+          "link": "https://www.synack.com/blog/how-accenture-turned-penetration-testing-into-a-force-multiplier-for-security/",
+          "publishedOn": "2026-06-04T06:18:54.000Z",
+          "wordCount": 4189,
+          "title": "How Accenture Turned Penetration Testing Into a Force Multiplier for Security",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/abstract-laser-effect-horizontal-background-scaled.jpg"
+        },
+        {
+          "id": "https://www.synack.com/?p=26626",
+          "author": "Greg Copeland",
+          "description": "Key Takeaways We just got back from Tenable Exposure 2026 in Boston and three big questions dominated every conversation we had on the floor:  The good news is, Synack is exactly positioned to answer these questions. Tenable Finds It. Sara AI Pentesting Proves What’s Exploitable. The Synack and Tenable integration addresses a gap that’s gotten […]\nThe post Tenable Exposure 2026: How AI Pentesting Helps Partners Turn Scanner Findings into Actionable Risk appeared first on Synack.",
+          "link": "https://www.synack.com/blog/tenable-exposure-2026-ai-pentesting-helps-partners-turn-scanner-findings-actionable-risk/",
+          "publishedOn": "2026-06-01T18:51:34.000Z",
+          "wordCount": 3765,
+          "title": "Tenable Exposure 2026: How AI Pentesting Helps Partners Turn Scanner Findings into Actionable Risk",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/Screenshot-2026-06-01-at-2.24.42-PM-scaled.png"
         }
       ]
     },
@@ -21423,21 +21162,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1780884857-cloud-cost-ga-launch.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/ai-threat-readiness-pillar-1",
-          "author": "Shaked Rotlevi",
-          "description": "Diving into the first pillar of the AI Threat Readiness Framework and how Wiz helps",
-          "link": "https://www.wiz.io/blog/ai-threat-readiness-pillar-1",
-          "publishedOn": "2026-06-04T14:19:33.000Z",
-          "wordCount": 17424,
-          "title": "AI Threat Readiness Pillar 1: Reduce Critical Exposures & Scan with AI",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1779856993-aitr-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1779856993-aitr-2x.png"
         }
       ]
     },
