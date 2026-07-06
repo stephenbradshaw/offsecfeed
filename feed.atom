@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-05T02:03:32.256Z</updated>
+    <updated>2026-07-06T02:09:21.465Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Playing a Different Game: Rethinking Modern Defense Evasion]]></title>
+        <id>6a4af4a57db49c000155a13e</id>
+        <link href="https://c0rnbread.com/playing-a-different-game-rethinking-modern-defense-evasion/"/>
+        <updated>2026-07-06T00:59:29.000Z</updated>
+        <summary type="html"><![CDATA[Background
+Hi, it's been a while.
+A couple of months ago I was working on some payload development for an upcoming engagement. I needed to bypass a few security products.
+I was working on a payload that used the kitchen sink of evasion: stack spoofing, indirect syscalls, sleep]]></summary>
+        <author>
+            <name>c0rnbread</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI server demand to strain supply chains and components through 2027]]></title>
         <id>https://4sysops.com/archives/ai-server-demand-to-strain-supply-chains-and-components-through-2027/</id>
@@ -507,6 +520,18 @@ Source]]></summary>
         <summary type="html"><![CDATA[Favicons are small, static, and rarely changed, which makes them a surprisingly durable fingerprint for identifying software across the internet. Bishop Fox built an AI-assisted pipeline to hash and enrich them at scale, and this post shares the methodology, the dataset, and why it matters.]]></summary>
         <author>
             <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-5.5-Cyber built a zlib fuzzing lab in a day]]></title>
+        <id>https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</id>
+        <link href="https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/"/>
+        <updated>2026-07-02T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re running Patch the Planet, an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run.
+We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag.
+The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber buil…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
         </author>
     </entry>
     <entry>
@@ -1016,6 +1041,17 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Continuous Penetration Testing: What Security Leaders Need to Know]]></title>
+        <id>https://www.synack.com/?p=27578</id>
+        <link href="https://www.synack.com/blog/continuous-penetration-testing-sara-ai/"/>
+        <updated>2026-06-30T13:48:44.000Z</updated>
+        <summary type="html"><![CDATA[“Continuous” has become the most stretched word in offensive security. This guide breaks down what continuous penetration testing  means, why most of the market doesn’t deliver it, and how Synack’s Sara is bringing always-on, human-validated testing to the enterprise.
+The post Continuous Penetration Testing: What Security Leaders Need to Know appeared first on Synack.]]></summary>
+        <author>
+            <name>Angela Heindl-Schober</name>
         </author>
     </entry>
     <entry>
@@ -7393,171 +7429,6 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WSL container: Linux containers built into Windows]]></title>
-        <id>https://4sysops.com/?p=1612225</id>
-        <link href="https://4sysops.com/archives/wsl-container-linux-containers-built-into-windows/"/>
-        <updated>2026-06-06T00:48:24.000Z</updated>
-        <summary type="html"><![CDATA[WSL container is a new feature coming to the Windows Subsystem for Linux (WSL), announced at Microsoft Build 2026. It provides a built-in way to run OCI-compatible Linux containers on Windows without third-party tools like Docker Desktop. The feature includes two parts: a command-line tool, wslc.exe, and a developer API. As of June 2026, it is in active development and has not shipped as part of a stable WSL release.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic patches Claude Code vulnerability that exposed CI/CD secrets]]></title>
-        <id>https://4sysops.com/archives/anthropic-patches-claude-code-vulnerability-that-exposed-ci-cd-secrets/</id>
-        <link href="https://4sysops.com/archives/anthropic-patches-claude-code-vulnerability-that-exposed-ci-cd-secrets/"/>
-        <updated>2026-06-06T00:34:45.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft researchers discovered a vulnerability in Anthropic’s Claude Code GitHub Action that allowed attackers to exfiltrate sensitive CI/CD secrets. While the tool used sandboxing for command execution, its file-reading capabilities were not initially restricted by the same security boundaries. This oversight allowed the AI agent to read internal system files, such as environment variables containing API keys, when manipulated by malicious input.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic research highlights shift toward autonomous recursive AI development]]></title>
-        <id>https://4sysops.com/archives/anthropic-research-highlights-shift-toward-autonomous-recursive-ai-development/</id>
-        <link href="https://4sysops.com/archives/anthropic-research-highlights-shift-toward-autonomous-recursive-ai-development/"/>
-        <updated>2026-06-06T00:34:42.000Z</updated>
-        <summary type="html"><![CDATA[Anthropic reports that artificial intelligence is increasingly designing its own successor models through a process known as recursive self-improvement. Development trends show that AI agents are managing significantly longer tasks, with capabilities evolving from completing four-minute functions to handling complex twelve-hour engineering problems within two years. As these systems move toward full autonomy, human developers are being abstracted away from direct coding and research, shifting their focus toward high-level goal setting and verification.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft faces scrutiny over clean data claims for MAI-Thinking-1]]></title>
-        <id>https://4sysops.com/archives/microsoft-faces-scrutiny-over-clean-data-claims-for-mai-thinking-1/</id>
-        <link href="https://4sysops.com/archives/microsoft-faces-scrutiny-over-clean-data-claims-for-mai-thinking-1/"/>
-        <updated>2026-06-05T20:22:14.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft recently unveiled MAI-Thinking-1, a new in-house reasoning model designed to reduce its reliance on OpenAI technology. The company marketed the model to enterprise customers as being trained on a clean and commercially licensed data lineage to minimize legal risks. This flagship model features a mixture-of-experts architecture with 35 billion active parameters and a 256K context window for advanced software engineering tasks.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing the automatic rollout of Microsoft 365 Copilot on Windows systems]]></title>
-        <id>https://4sysops.com/archives/managing-the-automatic-rollout-of-microsoft-365-copilot-on-windows-systems/</id>
-        <link href="https://4sysops.com/archives/managing-the-automatic-rollout-of-microsoft-365-copilot-on-windows-systems/"/>
-        <updated>2026-06-05T20:22:12.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has resumed the automatic installation of the Copilot application on eligible Windows PCs that currently run Microsoft 365 desktop apps. This deployment is being executed in phases throughout June and early July, with a final completion date set for July 1. While the application will appear on systems automatically, it does not grant users access to paid features without a valid subscription.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft enables SQL Server license mobility for Amazon RDS]]></title>
-        <id>https://4sysops.com/archives/microsoft-enables-sql-server-license-mobility-for-amazon-rds/</id>
-        <link href="https://4sysops.com/archives/microsoft-enables-sql-server-license-mobility-for-amazon-rds/"/>
-        <updated>2026-06-05T18:07:58.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft now permits customers to apply existing SQL Server licenses toward usage on Amazon Relational Database Service (RDS). This change allows organizations with Software Assurance to move their database workloads to a managed service without paying for licenses a second time. Previously, bringing existing licenses to the AWS cloud was restricted to self-managed virtual machines on Elastic Compute Cloud (EC2).
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft CEO rejects internal proposal to design addictive AI agents]]></title>
-        <id>https://4sysops.com/archives/microsoft-ceo-rejects-internal-proposal-to-design-addictive-ai-agents/</id>
-        <link href="https://4sysops.com/archives/microsoft-ceo-rejects-internal-proposal-to-design-addictive-ai-agents/"/>
-        <updated>2026-06-05T18:07:56.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft CEO Satya Nadella recently issued a sharp internal rebuke following the leak of a strategy document regarding the company's new AI tool, Scout. The memo, authored by Corporate Vice President Omar Shahine and Jakob Werner, proposed a three-phase plan to transition the software from an "addictive app" to an "agentic platform." Nadella responded to approximately 50 senior leaders, stating that creating addiction is "absolutely a non-goal" for the company's artificial intelligence development.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What I Told Security Leaders at Gartner SRM 2026]]></title>
-        <id>https://www.synack.com/?p=26853</id>
-        <link href="https://www.synack.com/blog/gartner-2026-agentic-ai-what-security-leaders-asked/"/>
-        <updated>2026-06-05T16:06:52.000Z</updated>
-        <summary type="html"><![CDATA[At Gartner SRM 2026 this week I gave a talk called “Cutting Through AI Noise: Defending Against Machine-Speed Cyber Adversaries.” The room was full of security leaders who’ve been through enough hype cycles to be skeptical of seeing AI on the label. That skepticism is warranted, and I built the session around it. Here’s what […]
-The post What I Told Security Leaders at Gartner SRM 2026 appeared first on Synack.]]></summary>
-        <author>
-            <name>Tim Nordvedt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare AI Gateway introduces spend limits and identity-based cost tracking]]></title>
-        <id>https://4sysops.com/archives/cloudflare-ai-gateway-introduces-spend-limits-and-identity-based-cost-tracking/</id>
-        <link href="https://4sysops.com/archives/cloudflare-ai-gateway-introduces-spend-limits-and-identity-based-cost-tracking/"/>
-        <updated>2026-06-05T14:03:44.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare has launched new spend control features within its AI Gateway to help organizations manage rising costs associated with large language models. The tool acts as a proxy between applications and AI providers like OpenAI or Anthropic to provide visibility into token usage. It now supports the creation of budgets in dollar amounts rather than just token counts to prevent unexpected overages.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cisco IT eliminates network outages through observability consolidation]]></title>
-        <id>https://4sysops.com/archives/cisco-it-eliminates-network-outages-through-observability-consolidation/</id>
-        <link href="https://4sysops.com/archives/cisco-it-eliminates-network-outages-through-observability-consolidation/"/>
-        <updated>2026-06-05T14:03:41.000Z</updated>
-        <summary type="html"><![CDATA[Cisco IT successfully addressed frequent network outages by consolidating its fragmented observability tools into a single platform. Previously, critical diagnostic data was scattered across various systems like Elastic, Prometheus, and Grafana, preventing teams from correlating signals during major incidents. By migrating all logs and metrics to a unified architecture, the organization gained a holistic view of its global infrastructure spanning over 100,000 endpoints.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Edge replaces master passwords with Windows Hello authentication]]></title>
-        <id>https://4sysops.com/archives/microsoft-edge-replaces-master-passwords-with-windows-hello-authentication/</id>
-        <link href="https://4sysops.com/archives/microsoft-edge-replaces-master-passwords-with-windows-hello-authentication/"/>
-        <updated>2026-06-05T14:03:39.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft is phasing out the custom master password feature in the Edge browser's built-in password manager. Starting June 4, 2026, the browser will transition all users to device-based authentication methods for protecting saved credentials. This shift aims to eliminate the risks associated with static primary passwords that can be stolen or shared.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uber implements AI spending caps after exhausting annual budget in four months]]></title>
-        <id>https://4sysops.com/archives/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months/</id>
-        <link href="https://4sysops.com/archives/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months/"/>
-        <updated>2026-06-05T14:03:37.000Z</updated>
-        <summary type="html"><![CDATA[Uber recently exhausted its entire 2026 AI budget by April after aggressively deploying coding tools across its engineering department. This rapid consumption was fueled by internal leaderboards that incentivized employees to maximize their use of generative models. To regain financial control, the company has now implemented a $1,500 monthly spending cap per engineer for tools like Claude Code and Cursor.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Accenture Turned Penetration Testing Into a Force Multiplier for Security]]></title>
-        <id>https://www.synack.com/?p=26677</id>
-        <link href="https://www.synack.com/blog/how-accenture-turned-penetration-testing-into-a-force-multiplier-for-security/"/>
-        <updated>2026-06-04T06:18:54.000Z</updated>
-        <summary type="html"><![CDATA[At Accenture’s scale, training alone cannot solve every security problem. That was the reality facing Kris Burkhardt, Global CISO at Accenture. With a workforce of more than 800,000 people, close to 80,000 new hires each year, and a sprawling global attack surface, traditional penetration testing was no longer enough. A once-a-year compliance audit may check […]
-The post How Accenture Turned Penetration Testing Into a Force Multiplier for Security appeared first on Synack.]]></summary>
-        <author>
-            <name>Paul Mote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The sorry state of skill distribution]]></title>
-        <id>https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/</id>
-        <link href="https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/"/>
-        <updated>2026-06-03T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work.
-We recently bypassed ClawHub’s malicious skill detector, Cisco’s agent skill scanner, and all three of the scanners integrated into skills.sh. These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills, using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some t…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tenable Exposure 2026: How AI Pentesting Helps Partners Turn Scanner Findings into Actionable Risk]]></title>
-        <id>https://www.synack.com/?p=26626</id>
-        <link href="https://www.synack.com/blog/tenable-exposure-2026-ai-pentesting-helps-partners-turn-scanner-findings-actionable-risk/"/>
-        <updated>2026-06-01T18:51:34.000Z</updated>
-        <summary type="html"><![CDATA[Key Takeaways We just got back from Tenable Exposure 2026 in Boston and three big questions dominated every conversation we had on the floor:  The good news is, Synack is exactly positioned to answer these questions. Tenable Finds It. Sara AI Pentesting Proves What’s Exploitable. The Synack and Tenable integration addresses a gap that’s gotten […]
-The post Tenable Exposure 2026: How AI Pentesting Helps Partners Turn Scanner Findings into Actionable Risk appeared first on Synack.]]></summary>
-        <author>
-            <name>Greg Copeland</name>
         </author>
     </entry>
     <entry>
