@@ -2,10 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-07-18T01:27:41.988Z</updated>
+    <updated>2026-07-19T01:44:25.111Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nvidia publishes first N1X GPU drivers for Windows 11 Arm RTX Spark PCs]]></title>
+        <id>https://4sysops.com/archives/nvidia-publishes-first-n1x-gpu-drivers-for-windows-11-arm-rtx-spark-pcs/</id>
+        <link href="https://4sysops.com/archives/nvidia-publishes-first-n1x-gpu-drivers-for-windows-11-arm-rtx-spark-pcs/"/>
+        <updated>2026-07-18T15:02:17.000Z</updated>
+        <summary type="html"><![CDATA[Nvidia has begun releasing Windows 11 Arm64 GPU drivers for its N1X processor used in upcoming RTX Spark systems, with the initial version 616.00 package optimized specifically for the Surface RTX Dev Box rather than general consumer hardware. The native Arm64 installer includes the nv_surface_woa.inf file that defines supported devices, listing two RTX Spark N1X GPU variants based on Blackwell architecture with 6144 and 5120 CUDA cores plus an unidentified desktop device entry. The same package also registers NVIDIA NPU components via Deep Learning Accelerator device IDs, confirming integrated AI acceleration support in the platform.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese open-source model Kimmy K3 is now the most intelligent model on the planet]]></title>
+        <id>https://4sysops.com/archives/chinese-open-source-model-kimmy-k3-is-now-the-most-intelligent-model-on-the-planet/</id>
+        <link href="https://4sysops.com/archives/chinese-open-source-model-kimmy-k3-is-now-the-most-intelligent-model-on-the-planet/"/>
+        <updated>2026-07-18T10:21:52.000Z</updated>
+        <summary type="html"><![CDATA[Moonshot AI has launched Kimi K3, a massive 2.8 trillion parameter model that currently leads several front-end development and web engineering benchmarks. This open-weights release from the Chinese AI lab challenges the dominance of proprietary models like GPT-5.6 and Claude Fable 5 in specialized coding tasks. While the model demonstrates elite performance in 3D asset creation and long-horizon reasoning, its high token consumption and slow inference speeds present unique trade-offs for enterprise integration.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face detects autonomous AI agent executing multi-stage production breach]]></title>
+        <id>https://4sysops.com/archives/hugging-face-detects-autonomous-ai-agent-executing-multi-stage-production-breach/</id>
+        <link href="https://4sysops.com/archives/hugging-face-detects-autonomous-ai-agent-executing-multi-stage-production-breach/"/>
+        <updated>2026-07-18T10:16:24.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face recently disclosed a high-velocity cyberattack on its production infrastructure carried out by an autonomous AI agent. The intrusion began when a malicious dataset exploited two code-execution paths within the platform's data-processing pipeline. Once inside, the agent escalated privileges and harvested cloud and cluster credentials to move laterally across internal systems over a weekend.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical wp2shell vulnerability enables unauthenticated RCE in WordPress core]]></title>
+        <id>https://4sysops.com/archives/critical-wp2shell-vulnerability-enables-unauthenticated-rce-in-wordpress-core/</id>
+        <link href="https://4sysops.com/archives/critical-wp2shell-vulnerability-enables-unauthenticated-rce-in-wordpress-core/"/>
+        <updated>2026-07-18T10:16:23.000Z</updated>
+        <summary type="html"><![CDATA[A critical vulnerability chain dubbed wp2shell allows unauthenticated attackers to execute arbitrary code on stock WordPress installations. The exploit combines a REST API batch-route confusion (CVE-2026-63030) with a SQL injection flaw in the core author query parameter (CVE-2026-60137). Because the vulnerability resides in the core software, it affects default installations even if no third-party plugins are active.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft and OEMs clarify Secure Boot certificate updates ahead of 2026 deadline]]></title>
+        <id>https://4sysops.com/archives/microsoft-and-oems-clarify-secure-boot-certificate-updates-ahead-of-2026-deadline/</id>
+        <link href="https://4sysops.com/archives/microsoft-and-oems-clarify-secure-boot-certificate-updates-ahead-of-2026-deadline/"/>
+        <updated>2026-07-18T10:16:22.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft and major hardware manufacturers recently held a technical session to address challenges regarding the transition from 2011 to 2023 Secure Boot certificates. Engineers confirmed that while some certificates have already expired, the final compliance deadline is October 19, 2026, after which unpatched devices may face boot failures. Administrators were assured that eligible devices, including those currently offline or in storage, will remain capable of receiving the new certificate chain indefinitely via Windows Update or manual firmware packages.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Internal Dell document warns against force-installing problematic Windows update]]></title>
+        <id>https://4sysops.com/archives/internal-dell-document-warns-against-force-installing-problematic-windows-update/</id>
+        <link href="https://4sysops.com/archives/internal-dell-document-warns-against-force-installing-problematic-windows-update/"/>
+        <updated>2026-07-18T10:16:21.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has halted the deployment of the July 2026 mandatory security update, KB5101650, for specific Dell computer models. The pause stems from a compatibility conflict between a new Windows USB-C Connection Manager interface and Intel Innovation Platform Framework (IPF) drivers. Affected devices include various Dell XPS, Precision, and Pro Max models that rely on these drivers for power management and thermal regulation.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft ends support for SQL Server 2016 despite widespread enterprise use]]></title>
+        <id>https://4sysops.com/archives/microsoft-ends-support-for-sql-server-2016-despite-widespread-enterprise-use/</id>
+        <link href="https://4sysops.com/archives/microsoft-ends-support-for-sql-server-2016-despite-widespread-enterprise-use/"/>
+        <updated>2026-07-18T10:16:20.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has officially ended extended support for SQL Server 2016 as of July 14, 2026, marking the conclusion of its ten-year lifecycle. This milestone means the relational database management system will no longer receive security patches, bug fixes, or standard technical assistance. Despite the termination of support, the vendor acknowledges that the platform remains heavily deployed across critical sectors like healthcare, manufacturing, and billing.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft retires Outlook Meeting Insights in favor of paid Copilot features]]></title>
+        <id>https://4sysops.com/archives/microsoft-retires-outlook-meeting-insights-in-favor-of-paid-copilot-features/</id>
+        <link href="https://4sysops.com/archives/microsoft-retires-outlook-meeting-insights-in-favor-of-paid-copilot-features/"/>
+        <updated>2026-07-18T10:16:19.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft is retiring the Meeting Insights feature across all versions of Outlook starting in mid-August 2026. This built-in capability currently surfaces recently modified files and emails relevant to a meeting directly within the calendar invite. The retirement process is expected to conclude by mid-September, affecting users across multiple platforms.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic restricts Claude Fable 5 access and shifts Pro users to API pricing]]></title>
+        <id>https://4sysops.com/archives/anthropic-restricts-claude-fable-5-access-and-shifts-pro-users-to-api-pricing/</id>
+        <link href="https://4sysops.com/archives/anthropic-restricts-claude-fable-5-access-and-shifts-pro-users-to-api-pricing/"/>
+        <updated>2026-07-18T10:16:18.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic is restructuring access to its flagship Claude Fable 5 model starting July 20 due to high demand and capacity constraints. The model will be bundled into Max and Team Premium subscription plans, but users will face significantly reduced usage caps. These limits are set at 50% of the standard subscription levels, which were already cut by one-third on the same date.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New North Korean campaign uses fake coding interviews to steal developer credentials]]></title>
         <id>contagious-interview-malware-svg-steganography</id>
@@ -14,6 +113,19 @@
         <summary type="html"><![CDATA[DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.]]></summary>
         <author>
             <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Most AI skeptics share David Letterman’s position]]></title>
+        <id>https://4sysops.com/archives/if-you-are-an-ai-skeptic-have-you-also-been-an-internet-skeptic/</id>
+        <link href="https://4sysops.com/archives/most-ai-skeptics-share-david-lettermans-position/"/>
+        <updated>2026-07-17T22:06:40.000Z</updated>
+        <summary type="html"><![CDATA[Because it's easy to criticize something you don't fully understand, which is my position here.
+
+In this 1995 interview, Bill Gates describes the emerging internet as a revolutionary platform for publishing personal homepages and exchanging electronic mail. David Letterman questions the necessity of the technology, comparing digital broadcasts to traditional mediums like radio and tape recorders. The conversation highlights the early skepticism surrounding online connectivity and its potential to transform how people access information and build communities.
+Source]]></summary>
+        <author>
+            <name>IT News</name>
         </author>
     </entry>
     <entry>
@@ -6844,341 +6956,6 @@ Source]]></summary>
         <link href="https://4sysops.com/archives/microsoft-introduces-ai-powered-tools-to-streamline-azure-storage-migrations/"/>
         <updated>2026-06-19T14:03:16.000Z</updated>
         <summary type="html"><![CDATA[Microsoft has introduced new tools and guidance to help organizations migrate large-scale data estates to Azure Storage more efficiently. The process begins with Azure Migrate, a centralized hub that discovers infrastructure, assesses readiness, and analyzes workload dependencies across on-premises and multicloud environments. To bridge the gap between planning and execution, a new AI-powered Azure Copilot Migration Agent is now available in preview to recommend specific storage services and migration tools.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 June 2026 updates cause boot failures and Recycle Bin errors]]></title>
-        <id>https://4sysops.com/archives/windows-11-june-2026-updates-cause-boot-failures-and-recycle-bin-errors/</id>
-        <link href="https://4sysops.com/archives/windows-11-june-2026-updates-cause-boot-failures-and-recycle-bin-errors/"/>
-        <updated>2026-06-19T13:26:40.000Z</updated>
-        <summary type="html"><![CDATA[The June 2026 cumulative update for Windows 11, identified as KB5094126, is causing significant stability issues across various hardware platforms. Affected systems, particularly HP EliteBook and Dell Precision models, may experience Blue Screen of Death errors, system freezes, and forced BitLocker recovery loops. Beyond hardware-specific failures, the update disrupts OneDrive integration within File Explorer and prevents some third-party applications from launching Microsoft Office documents.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RIPE NCC to exit US cloud hyperscalers for independent infrastructure]]></title>
-        <id>https://4sysops.com/archives/ripe-ncc-to-exit-us-cloud-hyperscalers-for-independent-infrastructure/</id>
-        <link href="https://4sysops.com/archives/ripe-ncc-to-exit-us-cloud-hyperscalers-for-independent-infrastructure/"/>
-        <updated>2026-06-19T13:26:39.000Z</updated>
-        <summary type="html"><![CDATA[RIPE NCC is the Regional Internet Registry for Europe, the Middle East, and parts of Central Asia. It allocates and registers internet number resources such as IP addresses and AS numbers, and it keeps the related public registry up to date.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome tests sending Windows antivirus data to Google during downloads]]></title>
-        <id>https://4sysops.com/archives/chrome-tests-sending-windows-antivirus-data-to-google-during-downloads/</id>
-        <link href="https://4sysops.com/archives/chrome-tests-sending-windows-antivirus-data-to-google-during-downloads/"/>
-        <updated>2026-06-19T13:26:38.000Z</updated>
-        <summary type="html"><![CDATA[Google is currently testing a new telemetry feature in the Canary version of Chrome that identifies installed antivirus software on Windows systems. This functionality is designed to trigger when a user downloads a file while having Enhanced Safe Browsing enabled. The browser retrieves the name of the security product, such as Microsoft Defender or third-party alternatives, directly from the operating system.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Burp Extensibility 2026: Awards, Talks, and Highlights]]></title>
-        <id>burp-extensibility-2026-awards-talks-and-highlights</id>
-        <link href="https://portswigger.net/blog/burp-extensibility-2026-awards-talks-and-highlights"/>
-        <updated>2026-06-19T12:18:14.000Z</updated>
-        <summary type="html"><![CDATA[The 2026 Burp Suite Extension Awards Best Recon & Discovery Best Auth & Access Control Best Workflow & Manipulation Best API & Specialist Testing Hidden Gem Most Nominated The talks In]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GhostPack Necromancy: Reforging C# Tools with WasmForge]]></title>
-        <id>https://www.praetorian.com/?p=12861</id>
-        <link href="https://www.praetorian.com/blog/wasmforge-csharp-ghostpack-edr-evasion/"/>
-        <updated>2026-06-19T01:55:33.000Z</updated>
-        <summary type="html"><![CDATA[In the previous post we walked through WasmForge, our Go-to-WebAssembly loader that takes existing signatured Go tools and ships them as opsec-safe binaries. This approach doesn’t just apply to Go, however, as there are many languages that can compile to WebAssembly. Another language of interest to us, especially regarding legacy tools which have been over-signatured, […]
-The post GhostPack Necromancy: Reforging C# Tools with WasmForge appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Michelle Rhodes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap]]></title>
-        <id>aad-graph-activity-logs-threat-detection</id>
-        <link href="https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection"/>
-        <updated>2026-06-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lost in relocation: analysis of a new loader distributing CASTLESTEALER]]></title>
-        <id>oxloader-malware-loader-infostealer</id>
-        <link href="https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer"/>
-        <updated>2026-06-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are AI data centres in space realistic?]]></title>
-        <id>https://4sysops.com/archives/are-ai-data-centres-in-space-realistic/</id>
-        <link href="https://4sysops.com/archives/are-ai-data-centres-in-space-realistic/"/>
-        <updated>2026-06-18T22:12:01.000Z</updated>
-        <summary type="html"><![CDATA[The rapid expansion of AI is straining terrestrial resources, particularly in regions like Arizona where data centers face severe water and power shortages. To circumvent these physical limits, the tech industry is exploring orbital data centers equipped with high-performance processors like the Nvidia H100. This shift aims to move heavy compute tasks, such as training large AI models, into space where solar energy is abundant and unimpeded.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is new in Microsoft Entra: June 2026 updates]]></title>
-        <id>https://4sysops.com/?p=1613586</id>
-        <link href="https://4sysops.com/archives/what-is-new-in-microsoft-entra-june-2026-updates/"/>
-        <updated>2026-06-18T21:39:12.000Z</updated>
-        <summary type="html"><![CDATA[The Microsoft Entra June 2026 update adds phishing-resistant multifactor authentication for Linux desktops, expands passkey support on Windows, and changes how Self-Service Password Reset verifies identity. It also brings new Conditional Access enforcement during credential registration and a public preview for recovering deleted device objects. This article explains the practical and technical details of these changes for everyday administration.
-Source]]></summary>
-        <author>
-            <name>IT Experts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Tech Sector’s Critical Vulnerability Paradox]]></title>
-        <id>https://www.synack.com/?p=27106</id>
-        <link href="https://www.synack.com/blog/tech-sector-critical-vulnerability-remediation/"/>
-        <updated>2026-06-18T21:35:12.000Z</updated>
-        <summary type="html"><![CDATA[The tech sector was the only industry in Synack's 2026 State of Vulnerabilities Report to get slower at remediating critical vulnerabilities—growing from 74 to 98 days while manufacturing, government, and financial services all improved. This post breaks down the technical and cultural forces driving that gap, and what it takes to close it.
-The post The Tech Sector’s Critical Vulnerability Paradox appeared first on Synack.]]></summary>
-        <author>
-            <name>Melissa Wooten</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IBM and Microsoft partner to automate identity threat response]]></title>
-        <id>https://4sysops.com/archives/ibm-and-microsoft-partner-to-automate-identity-threat-response/</id>
-        <link href="https://4sysops.com/archives/ibm-and-microsoft-partner-to-automate-identity-threat-response/"/>
-        <updated>2026-06-18T21:02:37.000Z</updated>
-        <summary type="html"><![CDATA[IBM and Microsoft have launched a collaborative service designed to bridge the gap between detecting identity-based threats and executing governed remediation. The partnership integrates Microsoft’s security telemetry with IBM’s managed response services to address the rising volume of credential-based attacks. This solution specifically targets risks such as multi-factor authentication abuse, token theft, and unauthorized privilege escalation.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citrix DaaS Flex optimizes virtual desktop costs through user persona assessments]]></title>
-        <id>https://4sysops.com/archives/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments/</id>
-        <link href="https://4sysops.com/archives/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments/"/>
-        <updated>2026-06-18T21:02:36.000Z</updated>
-        <summary type="html"><![CDATA[Citrix has launched DaaS Flex, a service designed to reduce virtualization costs by analyzing an organization's actual endpoint requirements. The tool assesses the existing fleet to identify where users are over-provisioned with expensive virtual machine instances. By evaluating hardware utilization, the service determines whether a user requires a full cloud PC, a managed browser, or just specific published applications.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a model-agnostic harness for automated vulnerability scanning]]></title>
-        <id>https://4sysops.com/archives/building-a-model-agnostic-harness-for-automated-vulnerability-scanning/</id>
-        <link href="https://4sysops.com/archives/building-a-model-agnostic-harness-for-automated-vulnerability-scanning/"/>
-        <updated>2026-06-18T21:02:35.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare has developed a specialized orchestration layer to manage fleet-wide security audits using interchangeable large language models. This architecture treats models as stateless compute engines to prevent context exhaustion and ensure that vulnerabilities are cross-verified by different logical weights. By decoupling the security logic from specific AI providers, the system maintains persistence and reliability even when underlying models or APIs fluctuate.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GLM-5.2 sets new open weights benchmark for AI coding and long context]]></title>
-        <id>https://4sysops.com/archives/glm-5-2-sets-new-open-weights-benchmark-for-ai-coding-and-long-context/</id>
-        <link href="https://4sysops.com/archives/glm-5-2-sets-new-open-weights-benchmark-for-ai-coding-and-long-context/"/>
-        <updated>2026-06-18T21:02:34.000Z</updated>
-        <summary type="html"><![CDATA[The Chinese AI lab Z.ai has released GLM-5.2, a new open-weights model that currently leads the Intelligence Index v4.1 for its category. This model is distributed under an MIT license, allowing administrators and developers to download, modify, and run the weights commercially without the restrictions typical of proprietary systems. Its performance represents a significant leap over previous versions, with benchmarks showing rapid improvements in terminal and coding tasks achieved in just a few weeks.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Klue Third-Party Cybersecurity Incident]]></title>
-        <id>https://www.jamf.com/blog/klue-incident/</id>
-        <link href="https://www.jamf.com/blog/klue-incident/"/>
-        <updated>2026-06-18T18:06:00.000Z</updated>
-        <summary type="html"><![CDATA[The latest updates from Jamf on the Klue third-party cybersecurity incident. Here's what we know and what we're doing about it.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intelligence Insights: June 2026]]></title>
-        <id>https://redcanary.com/?p=48054</id>
-        <link href="https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/"/>
-        <updated>2026-06-18T17:49:20.000Z</updated>
-        <summary type="html"><![CDATA[ClearFake is the clear-cut number one again and Kali365 debuts in this month’s edition of Intelligence Insights]]></summary>
-        <author>
-            <name>The Red Canary Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BloodHound MCP, One Year Later: What I Learned About MCPs, Models, and Context]]></title>
-        <id>https://specterops.io/?p=27430</id>
-        <link href="https://specterops.io/blog/2026/06/18/bloodhound-mcp-one-year-later-what-i-learned-about-mcps-models-and-context/"/>
-        <updated>2026-06-18T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The first version of BloodHound MCP proved that an LLM could converse with BloodHound. The current version drove home the lesson that MCP design is context design. The most useful changes were smaller but more flexible tools, better error recovery, domain-specific resources, and a prompt that guides the model instead of trying to teach everything up front.
-The post BloodHound MCP, One Year Later: What I Learned About MCPs, Models, and Context appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Matthew Nickerson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Road to Post-Quantum Readiness Part 1 of 2: Understanding the Risk]]></title>
-        <id>https://blog.nviso.eu/?p=25917</id>
-        <link href="https://blog.nviso.eu/2026/06/18/the-road-to-post-quantum-readiness-part-1/"/>
-        <updated>2026-06-18T15:17:35.000Z</updated>
-        <summary type="html"><![CDATA[Post-Quantum Cryptography is no longer a future-only concern. Standards are final, major providers have already deployed hybrid protection, and the real risk now is data captured today and decrypted later. Part 1 explains the fundamentals, the threat, and why organizations can no longer afford to wait.]]></summary>
-        <author>
-            <name>Sven-Christian Kruse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Americans embrace AI chatbot usage despite deep skepticism over societal impact]]></title>
-        <id>https://4sysops.com/archives/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact/</id>
-        <link href="https://4sysops.com/archives/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact/"/>
-        <updated>2026-06-18T15:01:41.000Z</updated>
-        <summary type="html"><![CDATA[Recent data from Pew Research indicates that half of American adults now utilize AI chatbots, a significant increase from one-third just last year. OpenAI’s ChatGPT remains the dominant platform with 44% of the population reporting its use, followed by Google Gemini and Microsoft Copilot. Despite this growing adoption, only 16% of respondents believe the technology will have a positive impact on society over the next two decades.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic eliminates static API keys with workload identity federation]]></title>
-        <id>https://4sysops.com/archives/anthropic-eliminates-static-api-keys-with-workload-identity-federation/</id>
-        <link href="https://4sysops.com/archives/anthropic-eliminates-static-api-keys-with-workload-identity-federation/"/>
-        <updated>2026-06-18T15:01:40.000Z</updated>
-        <summary type="html"><![CDATA[Anthropic has announced the general availability of Workload Identity Federation (WIF) on the Claude Platform. This feature supports any OpenID Connect (OIDC) compliant identity provider, including AWS IAM, Azure managed identities, and Google Cloud Platform service accounts. It applies to all Claude API endpoints, first-party software development kits (SDKs), and Claude Code.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rising AI memory chip costs force upcoming Apple price increases]]></title>
-        <id>https://4sysops.com/archives/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases/</id>
-        <link href="https://4sysops.com/archives/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases/"/>
-        <updated>2026-06-18T15:01:39.000Z</updated>
-        <summary type="html"><![CDATA[Apple plans to increase the prices of its products due to the surging costs of memory and storage chips. Chief Executive Officer Tim Cook stated that these price hikes are unavoidable because the current supply situation has become unsustainable for the company. The rising costs and subsequent chip shortages are primarily driven by the massive demand for hardware from artificial intelligence companies.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript 7.0 RC arrives with Go-based compiler and 10x speed boost]]></title>
-        <id>https://4sysops.com/archives/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost/</id>
-        <link href="https://4sysops.com/archives/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost/"/>
-        <updated>2026-06-18T15:01:38.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has announced the Release Candidate for TypeScript 7.0, which features a significant architectural shift from a bootstrapped codebase to one written in Go. This new foundation leverages native code speed and shared memory parallelism to deliver performance that is often ten times faster than the previous version. The update is designed to be highly compatible with existing projects, as the type-checking logic was methodically ported to ensure identical semantics to version 6.0.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visual Studio Code 1.126 streamlines AI model customization and chat management]]></title>
-        <id>https://4sysops.com/archives/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management/</id>
-        <link href="https://4sysops.com/archives/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management/"/>
-        <updated>2026-06-18T15:01:37.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released Visual Studio Code version 1.126 with several updates focused on the user interface and AI features. The update introduces visual enhancements to the chat session list items within the development environment. These list items now utilize a pixel spinner, which aligns the interface with the design of the Agents window.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimizing AI agent skills by reducing redundant documentation tokens]]></title>
-        <id>https://4sysops.com/archives/optimizing-ai-agent-skills-by-reducing-redundant-documentation-tokens/</id>
-        <link href="https://4sysops.com/archives/optimizing-ai-agent-skills-by-reducing-redundant-documentation-tokens/"/>
-        <updated>2026-06-18T15:01:36.000Z</updated>
-        <summary type="html"><![CDATA[Large language models often already possess extensive knowledge of common API references, authentication flows, and standard SDK patterns from their training data. When developers create skills that repeat this information, they consume valuable space within the finite context window of the AI. This redundancy pushes out critical data like conversation history or workspace files, which can actually degrade the quality of the generated output.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google develops AI Control Roadmap to mitigate risks from autonomous agents]]></title>
-        <id>https://4sysops.com/archives/google-develops-ai-control-roadmap-to-mitigate-risks-from-autonomous-agents/</id>
-        <link href="https://4sysops.com/archives/google-develops-ai-control-roadmap-to-mitigate-risks-from-autonomous-agents/"/>
-        <updated>2026-06-18T15:01:35.000Z</updated>
-        <summary type="html"><![CDATA[Google has introduced a framework called the AI Control Roadmap to manage autonomous agents that may exhibit imperfectly aligned behavior. This defense-in-depth strategy treats internal AI agents as potential insider threats, similar to how organizations monitor employees with high-level access. The system aims to provide security assurance by moving beyond traditional model alignment to include active system-level monitoring.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic integrates Claude Design and Claude Code for seamless developer workflows]]></title>
-        <id>https://4sysops.com/archives/anthropic-integrates-claude-design-and-claude-code-for-seamless-developer-workflows/</id>
-        <link href="https://4sysops.com/archives/anthropic-integrates-claude-design-and-claude-code-for-seamless-developer-workflows/"/>
-        <updated>2026-06-18T14:43:49.000Z</updated>
-        <summary type="html"><![CDATA[Anthropic has announced a major update to Claude Design that introduces bidirectional integration with Claude Code to streamline the transition between prototyping and development. Developers can now use the /design-sync command to import local design systems into Claude Design, ensuring prototypes utilize real code components. Conversely, the /design command allows users to create and sync design projects directly from a terminal without switching applications.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[F5 patches critical code execution flaws in NGINX web servers]]></title>
-        <id>https://4sysops.com/archives/f5-patches-critical-code-execution-flaws-in-nginx-web-servers/</id>
-        <link href="https://4sysops.com/archives/f5-patches-critical-code-execution-flaws-in-nginx-web-servers/"/>
-        <updated>2026-06-18T14:43:48.000Z</updated>
-        <summary type="html"><![CDATA[F5 has released out-of-band security updates to address multiple vulnerabilities in the NGINX web server. The patches resolve two critical-severity flaws, CVE-2026-42530 and CVE-2026-42055, which could allow remote attackers to execute arbitrary code. These vulnerabilities affect NGINX systems with non-default configurations and can trigger a denial-of-service condition or worker process restart.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FortiBleed campaign compromises credentials for 75,000 Fortinet firewalls]]></title>
-        <id>https://4sysops.com/archives/fortibleed-campaign-compromises-credentials-for-75000-fortinet-firewalls/</id>
-        <link href="https://4sysops.com/archives/fortibleed-campaign-compromises-credentials-for-75000-fortinet-firewalls/"/>
-        <updated>2026-06-18T14:43:47.000Z</updated>
-        <summary type="html"><![CDATA[A massive credential-compromise campaign known as FortiBleed has exposed the login details for approximately 75,000 Fortinet FortiGate firewalls worldwide. Security researchers discovered an attacker-controlled server containing a highly automated infrastructure used to collect and crack configuration files from internet-facing devices. The stolen data includes a mix of administrative and SSL VPN credentials, potentially granting threat actors deep persistent access to enterprise networks.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft reportedly cancels three billion dollar Oracle cloud deal over security]]></title>
-        <id>https://4sysops.com/archives/microsoft-reportedly-cancels-three-billion-dollar-oracle-cloud-deal-over-security/</id>
-        <link href="https://4sysops.com/archives/microsoft-reportedly-cancels-three-billion-dollar-oracle-cloud-deal-over-security/"/>
-        <updated>2026-06-18T14:43:46.000Z</updated>
-        <summary type="html"><![CDATA[Reports indicate that Microsoft abandoned a $3 billion deal to lease capacity from Oracle Cloud Infrastructure due to compliance disagreements. The partnership was intended to provide Microsoft with additional computing power to support its growing artificial intelligence workloads. However, negotiations allegedly stalled when Oracle declined to implement specific security standards required for certain government-related data processing.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manage external monitor settings via software with PowerToys Power Display]]></title>
-        <id>https://4sysops.com/archives/manage-external-monitor-settings-via-software-with-powertoys-power-display/</id>
-        <link href="https://4sysops.com/archives/manage-external-monitor-settings-via-software-with-powertoys-power-display/"/>
-        <updated>2026-06-18T14:43:45.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has introduced the Power Display utility within the PowerToys suite to centralize the management of external monitor settings. This tool utilizes the Display Data Channel/Command Interface (DDC/CI) standard to communicate directly with hardware displays from the Windows desktop. It allows for the adjustment of brightness, contrast, volume, and input sources without the need to use physical buttons on the monitor.
-Source]]></summary>
-        <author>
-            <name>IT News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Authenticator enforces manual number matching for personal accounts]]></title>
-        <id>https://4sysops.com/archives/microsoft-authenticator-enforces-manual-number-matching-for-personal-accounts/</id>
-        <link href="https://4sysops.com/archives/microsoft-authenticator-enforces-manual-number-matching-for-personal-accounts/"/>
-        <updated>2026-06-18T14:43:44.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft is updating the sign-in experience for personal accounts by requiring users to manually type a two-digit code into the Authenticator app. This replaces the previous method where users simply chose the correct number from three visible options on their mobile device. The change is being rolled out gradually to ensure all users eventually transition to this more deliberate verification process.
 Source]]></summary>
         <author>
             <name>IT News</name>
