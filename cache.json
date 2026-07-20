@@ -14134,14 +14134,24 @@
       "siteUrl": "https://blog.zsec.uk/",
       "articles": [
         {
-          "id": "663cbd24748ff8079069f78f",
+          "id": "6a5b4c017284eafb1174d533",
           "author": "Andy Gill",
-          "description": "GoClipC2: A covert Windows clipboard-based C2 channel for VDI/RDP environments. Bypasses network monitoring with encrypted Base64 messaging.",
-          "link": "https://blog.zsec.uk/clippy-goes-rogue/",
-          "publishedOn": "2025-06-15T10:59:58.000Z",
-          "wordCount": 2905,
-          "title": "Expanding on ChunkyIngress - Clippy Goes Rogue (GoClipC2)",
-          "imageUrl": "https://blog.zsec.uk/content/images/2025/06/DSC05745.jpg"
+          "description": "wp2shell carries two CVEs (so far); CVE-2026-63030 & CVE-2026-60137.",
+          "link": "https://blog.zsec.uk/wp2shell-code-trace-deep-dive/",
+          "publishedOn": "2026-07-18T11:05:01.000Z",
+          "wordCount": null,
+          "title": "wp2shell - Code Trace Deep Dive",
+          "imageUrl": null
+        },
+        {
+          "id": "69ede2c9589324f66092b53c",
+          "author": "Andy Gill",
+          "description": "Trying to coerce useful work out of LLMs without the harness is like supervising a room full of drunk toddlers, each convinced they're helping, none of them checking with each other and falling over the next.",
+          "link": "https://blog.zsec.uk/harnessing-harnesses/",
+          "publishedOn": "2026-06-27T14:12:45.000Z",
+          "wordCount": null,
+          "title": "Harnessing Harnesses - Climbing the LLM Hills",
+          "imageUrl": null
         }
       ]
     },
@@ -14174,6 +14184,136 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/archives/microsoft-makes-passkeys-default-and-retires-sms-mfa-by-2027/",
+          "author": "IT News",
+          "description": "Microsoft Entra ID will make passkeys the default authentication method beginning September 1, while Microsoft-provided SMS and voice multifactor authentication will be retired in February 2027. Organizations that still require telephony-based MFA after that date must obtain it from a third-party telecom provider. The shift requires tenants to revise MFA rollout and migration plans well ahead of the cutoffs.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-makes-passkeys-default-and-retires-sms-mfa-by-2027/",
+          "publishedOn": "2026-07-19T20:13:22.000Z",
+          "wordCount": 7086,
+          "title": "Microsoft makes passkeys default and retires SMS MFA by 2027",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-makes-passkeys-default-and-retires-sms-mfa-by-2027.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/7-zip-26-02-patches-rce-flaw-triggered-by-malicious-xz-archives/",
+          "author": "IT News",
+          "description": "7-Zip version 26.02 addresses a remote code execution vulnerability tracked as CVE-2026-14266 that stems from a heap-based buffer overflow when processing specially crafted XZ-compressed data. An attacker can trigger the flaw if a user opens a malicious archive or visits a page delivering a crafted XZ payload, allowing arbitrary code to run with the privileges of the logged-in user. The issue was disclosed by researcher Landon Peng and detailed in a Zero Day Initiative advisory, with the patch adding checks to prevent the decoder from writing beyond available buffer space.\nSource",
+          "link": "https://4sysops.com/archives/7-zip-26-02-patches-rce-flaw-triggered-by-malicious-xz-archives/",
+          "publishedOn": "2026-07-19T19:38:11.000Z",
+          "wordCount": 7112,
+          "title": "7-Zip 26.02 patches RCE flaw triggered by malicious XZ archives",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/7-zip-26-02-patches-rce-flaw-triggered-by-malicious-xz-archives.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-ships-kb5121767-to-fix-intel-ipf-issues-on-dell-pcs/",
+          "author": "IT News",
+          "description": "Microsoft released out-of-band update KB5121767 (OS build 26200.8894) for Windows 11 to resolve compatibility problems with the Intel Innovation Platform Framework driver on a limited set of Dell systems. The Intel IPF driver bundle includes Dynamic Tuning Technology for thermal and power management plus Context Sensing Technology for presence-based features such as Wake on Approach. Recent cumulative updates including the July 2026 security release KB5101650 triggered performance changes, unexpected shutdowns, overheating, elevated power use, and battery drain on the affected hardware, prompting Microsoft to apply a temporary safeguard hold.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-ships-kb5121767-to-fix-intel-ipf-issues-on-dell-pcs/",
+          "publishedOn": "2026-07-19T19:38:10.000Z",
+          "wordCount": 7211,
+          "title": "Microsoft ships KB5121767 to fix Intel IPF issues on Dell PCs",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-ships-kb5121767-to-fix-intel-ipf-issues-on-dell-pcs.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-rolls-out-windows-11-dynamic-updates-for-setup-and-winre/",
+          "author": "IT News",
+          "description": "Microsoft released three Windows 11 Dynamic Updates on July 14 2026 alongside Patch Tuesday to improve feature-upgrade reliability and the recovery environment. Setup Dynamic Updates refresh the binaries and files used during installations and upgrades, while Safe OS Dynamic Updates enhance the Windows Recovery Environment (WinRE). These packages can be applied to existing Windows images before deployment so that Language Packs and Features on Demand are preserved during later upgrades.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-rolls-out-windows-11-dynamic-updates-for-setup-and-winre/",
+          "publishedOn": "2026-07-19T19:38:09.000Z",
+          "wordCount": 7145,
+          "title": "Microsoft rolls out Windows 11 dynamic updates for setup and WinRE",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-rolls-out-windows-11-dynamic-updates-for-setup-and-winre.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-will-auto-enable-copilot-in-outlook-classic-by-late-2026/",
+          "author": "IT News",
+          "description": "Microsoft has largely halted new feature development for Outlook Classic in favor of bug fixes while actively encouraging a shift to New Outlook. Despite this, a Copilot-powered compose box for drafting and refining emails will roll out to Outlook Classic by the end of 2026 and turn on automatically without requiring admin action. The feature needs a Microsoft 365 Copilot license, which Microsoft now promotes as the standard option over basic subscriptions.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-will-auto-enable-copilot-in-outlook-classic-by-late-2026/",
+          "publishedOn": "2026-07-19T19:38:08.000Z",
+          "wordCount": 7156,
+          "title": "Microsoft will auto-enable Copilot in Outlook Classic by late 2026",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-will-auto-enable-copilot-in-outlook-classic-by-late-2026.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/moonshots-kimi-k3-tops-frontend-coding-but-lags-in-expert-math/",
+          "author": "IT News",
+          "description": "Moonshot AI's Kimi K3 has claimed the top position on the Code Arena Frontend leaderboard with 1,679 points based on human preference ratings. It surpasses Claude Fable 5 at 1,631 points and GPT-5.6 Sol at 1,618 points, becoming the first Chinese model to lead this ranking. The model is a 2.8-trillion-parameter sparse mixture-of-experts system with a 1-million-token context window.\nSource",
+          "link": "https://4sysops.com/archives/moonshots-kimi-k3-tops-frontend-coding-but-lags-in-expert-math/",
+          "publishedOn": "2026-07-19T19:38:07.000Z",
+          "wordCount": 7069,
+          "title": "Moonshot’s Kimi K3 tops frontend coding but lags in expert math",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/moonshots-kimi-k3-tops-frontend-coding-but-lags-in-expert-math.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-confirms-wsus-sync-delays-from-metadata-buildup/",
+          "author": "IT News",
+          "description": "Microsoft has confirmed service degradation in Windows Server Update Services that produces longer synchronization times and timeouts. The problem was listed on the Windows Release Health dashboard on July 17 after peaking around July 13. It originates in Microsoft’s update infrastructure from an accumulation of publishing metadata that slows WSUS operations.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-confirms-wsus-sync-delays-from-metadata-buildup/",
+          "publishedOn": "2026-07-19T19:38:06.000Z",
+          "wordCount": 6971,
+          "title": "Microsoft confirms WSUS sync delays from metadata buildup",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-confirms-wsus-sync-delays-from-metadata-buildup.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/alibaba-unveils-qwen-3-8-with-2-4-trillion-parameters-second-only-to-fable-5/",
+          "author": "IT News",
+          "description": "Alibaba has released a preview of Qwen 3.8, a 2.4-trillion-parameter multimodal foundation model built on a sparse Mixture-of-Experts architecture that activates only relevant parameter subsets per query for efficiency. The model handles text, images, videos, and documents and marks the team's first multimodal system exceeding one trillion parameters. Alibaba states it should outperform Qwen 3.7-Max on coding, full-stack development, data analysis, and office workflows while ranking second only to Anthropic's Fable 5 among frontier models.\nSource",
+          "link": "https://4sysops.com/archives/alibaba-unveils-qwen-3-8-with-2-4-trillion-parameters-second-only-to-fable-5/",
+          "publishedOn": "2026-07-19T19:38:05.000Z",
+          "wordCount": 7132,
+          "title": "Alibaba unveils Qwen 3.8 with 2.4 trillion parameters, second only to Fable 5",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/alibaba-unveils-qwen-3-8-with-2-4-trillion-parameters-second-only-to-fable-5.png"
+        },
+        {
+          "id": "https://4sysops.com/archives/windows-11-file-explorer-this-pc-search-set-for-major-speed-gains/",
+          "author": "IT News",
+          "description": "Microsoft has confirmed that File Explorer search in Windows 11 will receive the same performance and relevance upgrades already applied to Windows Search, beginning with searches across This PC. A Microsoft design lead stated that these file-searching improvements are next for File Explorer and will deliver dramatic speed gains in that scope. An earlier March update had already targeted reliability for multi-drive and This PC searches, yet real-world gains remained limited.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-file-explorer-this-pc-search-set-for-major-speed-gains/",
+          "publishedOn": "2026-07-19T19:38:04.000Z",
+          "wordCount": 7191,
+          "title": "Windows 11 File Explorer This PC search set for major speed gains",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/windows-11-file-explorer-this-pc-search-set-for-major-speed-gains.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/windows-11-26h2-is-mostly-an-enablement-package-for-longer-support/",
+          "author": "IT News",
+          "description": "Windows 11 version 26H2 is expected later in 2026 as the fifth desktop feature update, but it shares the same underlying platform and feature set as version 25H2. Differences center on version and build numbers (26300 series versus 26200) and the support lifecycle rather than new capabilities at launch. Cumulative updates for both versions typically share the same KB identifiers because they are built from the same code base.\nSource",
+          "link": "https://4sysops.com/archives/windows-11-26h2-is-mostly-an-enablement-package-for-longer-support/",
+          "publishedOn": "2026-07-19T19:38:03.000Z",
+          "wordCount": 7228,
+          "title": "Windows 11 26H2 is mostly an enablement package for longer support",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/windows-11-26h2-is-mostly-an-enablement-package-for-longer-support.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/attackers-chain-sonicwall-sma-zero-days-for-root-access/",
+          "author": "IT News",
+          "description": "SonicWall Secure Mobile Access (SMA) 1000 series appliances, which provide VPN remote access, contain two newly disclosed vulnerabilities that were exploited as zero-days. CVE-2026-15409 is a critical pre-authentication server-side request forgery flaw (CVSS 10.0) in the /wsproxy endpoint that lets unauthenticated attackers tunnel to localhost services. CVE-2026-15410 is a path-traversal issue (CVSS 7.2) in the remove_hotfix workflow that enables elevated command execution.\nSource",
+          "link": "https://4sysops.com/archives/attackers-chain-sonicwall-sma-zero-days-for-root-access/",
+          "publishedOn": "2026-07-19T19:38:02.000Z",
+          "wordCount": 7104,
+          "title": "Attackers chain SonicWall SMA zero-days for root access",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/attackers-chain-sonicwall-sma-zero-days-for-root-access.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/connecting-ai-agents-to-external-services-explodes-their-risk-blast-radius/",
+          "author": "IT News",
+          "description": "Connecting AI agents to external services through connectors significantly widens the attack surface by adding new sources of private data, untrusted content, and executable actions. PromptArmor research on OpenAI ChatGPT and Anthropic Claude connectors showed that 37 percent of 2,517 connectors changed in a six-week span, with 1,686 new tools added and many descriptions rewritten. Such rapid shifts can invalidate earlier security assumptions about tool capabilities, write access, and destructive potential, as seen when a Dropbox connector grew from eight to 24 tools including new destructive ones.\nSource",
+          "link": "https://4sysops.com/archives/connecting-ai-agents-to-external-services-explodes-their-risk-blast-radius/",
+          "publishedOn": "2026-07-19T19:38:01.000Z",
+          "wordCount": 7202,
+          "title": "Connecting AI agents to external services explodes their risk blast radius",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-halts-windows-11-secure-boot-updates-amid-unfixable-firmware-issues/",
+          "author": "IT News",
+          "description": "Microsoft has temporarily paused Secure Boot certificate updates for Windows 11 on affected devices after the new 2023 certificates failed to install reliably on many systems. The update replaces expired 2011 certificates that underpin Secure Boot, a UEFI feature that verifies only trusted software loads before the OS starts. Failures stem mainly from outdated or faulty UEFI firmware on older PCs that no longer receive OEM updates, leaving Microsoft unable to supply a universal fix.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-halts-windows-11-secure-boot-updates-amid-unfixable-firmware-issues/",
+          "publishedOn": "2026-07-19T19:38:00.000Z",
+          "wordCount": 7279,
+          "title": "Microsoft halts Windows 11 Secure Boot updates amid unfixable firmware issues",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-halts-windows-11-secure-boot-updates-amid-unfixable-firmware-issues.jpg"
+        },
         {
           "id": "https://4sysops.com/archives/nvidia-publishes-first-n1x-gpu-drivers-for-windows-11-arm-rtx-spark-pcs/",
           "author": "IT News",
@@ -18413,196 +18553,6 @@
           "wordCount": 6249,
           "title": "New ARD protocol creates a universal discovery layer for enterprise AI agents",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/new-ard-protocol-creates-a-universal-discovery-layer-for-enterprise-ai-agents.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/amd-restores-memory-encryption-to-ryzen-9000-cpus-after-community-backlash/",
-          "author": "IT News",
-          "description": "AMD has announced it will reinstate Transparent Secure Memory Encryption (TSME) for consumer-grade Ryzen 9000 desktop processors via a BIOS update in July. This decision follows significant community feedback after the feature was quietly removed in a recent firmware update. TSME, which AMD brands as Memory Guard for its professional product lines, provides a hardware-based layer of protection for data stored in system memory.\nSource",
-          "link": "https://4sysops.com/archives/amd-restores-memory-encryption-to-ryzen-9000-cpus-after-community-backlash/",
-          "publishedOn": "2026-06-20T09:24:29.000Z",
-          "wordCount": 6247,
-          "title": "AMD restores memory encryption to Ryzen 9000 CPUs after community backlash",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amd-restores-memory-encryption-to-ryzen-9000-cpus-after-community-backlash.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-edge-to-support-google-account-sign-in-as-account-requirements-ease/",
-          "author": "IT News",
-          "description": "Microsoft is shifting its strategy by reducing the mandatory use of Microsoft accounts across its ecosystem. A significant update to the Microsoft 365 Roadmap reveals that Microsoft Edge will soon allow users to sign in using a Google account instead of a Microsoft account. This feature, expected to roll out in July 2026 for Windows and macOS, aims to lower the barrier for Chrome users considering a switch to Edge.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-edge-to-support-google-account-sign-in-as-account-requirements-ease/",
-          "publishedOn": "2026-06-20T09:24:28.000Z",
-          "wordCount": 6223,
-          "title": "Microsoft Edge to support Google account sign-in as account requirements ease",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-edge-to-support-google-account-sign-in-as-account-requirements-ease.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/enhancing-software-development-with-autonomous-ai-loops/",
-          "author": "IT News",
-          "description": "AI loops are emerging as a transformative method for building software by allowing coding agents to work autonomously toward specific goals. These loops require a trigger—such as a manual command, a set schedule, or an action like opening a pull request—to initiate the process without constant human intervention. Success is determined either through verifiable metrics, such as specific page load speeds, or by using the large language model itself as a judge for qualitative tasks like code refactoring.\nSource",
-          "link": "https://4sysops.com/archives/enhancing-software-development-with-autonomous-ai-loops/",
-          "publishedOn": "2026-06-19T22:31:51.000Z",
-          "wordCount": 6178,
-          "title": "Enhancing software development with autonomous AI loops",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/enhancing-software-development-with-autonomous-ai-loops.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/norway-restricts-ai-in-schools-to-prioritize-traditional-learning/",
-          "author": "IT News",
-          "description": "Norway is implementing strict regulations on artificial intelligence in classrooms to prioritize fundamental skills like reading, writing, and mathematics. Prime Minister Jonas Gahr Støre announced that the new rules will take effect in August 2025 to address concerns about the negative impact of technology on student development. The government aims to shift the educational focus back to analog methods following a decline in literacy rates and test scores.\nSource",
-          "link": "https://4sysops.com/archives/norway-restricts-ai-in-schools-to-prioritize-traditional-learning/",
-          "publishedOn": "2026-06-19T21:26:04.000Z",
-          "wordCount": 6167,
-          "title": "Norway restricts AI in schools to prioritize traditional learning",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/norway-restricts-ai-in-schools-to-prioritize-traditional-learning.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-resolves-windows-server-2016-update-failures-caused-by-missing-prerequisites/",
-          "author": "IT News",
-          "description": "Microsoft has addressed a deployment issue affecting Windows Server 2016 systems that failed to install the June 2026 cumulative security update, KB5094122. The problem primarily impacted servers that had skipped the previous month's update, KB5087537, which serves as a necessary baseline. Without this prerequisite, the installation process would fail, leaving legacy systems vulnerable to security risks.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-resolves-windows-server-2016-update-failures-caused-by-missing-prerequisites/",
-          "publishedOn": "2026-06-19T21:16:19.000Z",
-          "wordCount": 6156,
-          "title": "Microsoft resolves Windows Server 2016 update failures caused by missing prerequisites",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-resolves-windows-server-2016-update-failures-caused-by-missing-prerequisites.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/alibaba-cloud-expands-to-france-with-focus-on-data-sovereignty-and-agentic-ai/",
-          "author": "IT News",
-          "description": "Alibaba Cloud has launched its first cloud region in France, establishing two new availability zones in Paris. This expansion increases the provider's European footprint, joining existing hubs in Germany and the United Kingdom. The new infrastructure supports a comprehensive suite of enterprise services, including elastic computing, containerization, and database management, designed to meet local regulatory requirements.\nSource",
-          "link": "https://4sysops.com/archives/alibaba-cloud-expands-to-france-with-focus-on-data-sovereignty-and-agentic-ai/",
-          "publishedOn": "2026-06-19T21:16:18.000Z",
-          "wordCount": 6180,
-          "title": "Alibaba Cloud expands to France with focus on data sovereignty and agentic AI",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/alibaba-cloud-expands-to-france-with-focus-on-data-sovereignty-and-agentic-ai.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/salesforce-disables-klue-integration-following-oauth-token-supply-chain-attack/",
-          "author": "IT News",
-          "description": "Salesforce has disabled the Klue Battlecards app integration after a security breach at the competitive intelligence firm exposed customer data. The incident originated from a compromised legacy credential within Klue's infrastructure, which allowed an extortion group known as Icarus to push malicious code. This code collected OAuth tokens that customers use to connect Klue to their own environments, effectively bypassing standard authentication measures like passwords or multi-factor authentication.\nSource",
-          "link": "https://4sysops.com/archives/salesforce-disables-klue-integration-following-oauth-token-supply-chain-attack/",
-          "publishedOn": "2026-06-19T21:16:17.000Z",
-          "wordCount": 6256,
-          "title": "Salesforce disables Klue integration following OAuth token supply chain attack",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/salesforce-disables-klue-integration-following-oauth-token-supply-chain-attack.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/amazon-considers-selling-trainium-ai-chips-for-external-data-centers/",
-          "author": "IT News",
-          "description": "Amazon is exploring a significant shift in its hardware strategy by considering the sale of its custom Trainium AI chips to third-party data centers. Currently, these processors are exclusive to the Amazon Web Services (AWS) cloud environment, where they are used by organizations like OpenAI and Anthropic for AI training and inference. This potential move marks a direct challenge to Nvidia's dominance in the semiconductor market by offering a proprietary alternative for high-performance AI infrastructure.\nSource",
-          "link": "https://4sysops.com/archives/amazon-considers-selling-trainium-ai-chips-for-external-data-centers/",
-          "publishedOn": "2026-06-19T21:16:16.000Z",
-          "wordCount": 6266,
-          "title": "Amazon considers selling Trainium AI chips for external data centers",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amazon-considers-selling-trainium-ai-chips-for-external-data-centers.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/nobel-laureate-john-jumper-leaves-google-deepmind-for-anthropic/",
-          "author": "IT News",
-          "description": "John Jumper, a prominent research scientist and Nobel Prize winner, has announced his departure from Google DeepMind to join the AI startup Anthropic. Jumper is widely recognized for his pioneering work on AlphaFold, an artificial intelligence system capable of predicting protein structures. This breakthrough has significantly accelerated biological research by providing data on over 200 million protein structures, a task that previously required years of manual labor.\nSource",
-          "link": "https://4sysops.com/archives/nobel-laureate-john-jumper-leaves-google-deepmind-for-anthropic/",
-          "publishedOn": "2026-06-19T21:16:15.000Z",
-          "wordCount": 6251,
-          "title": "Nobel laureate John Jumper leaves Google DeepMind for Anthropic",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/nobel-laureate-john-jumper-leaves-google-deepmind-for-anthropic.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/apple-updates-iphone-mirroring-with-flexible-window-resizing-and-control-center/",
-          "author": "IT News",
-          "description": "Apple is introducing significant updates to iPhone Mirroring in macOS 27, allowing users to flexibly resize app windows for the first time. Previously, the feature was restricted to fixed aspect ratios and preset scaling options. This change enables users to drag windows wider or taller, provided the applications are compiled with the latest software development kit.\nSource",
-          "link": "https://4sysops.com/archives/apple-updates-iphone-mirroring-with-flexible-window-resizing-and-control-center/",
-          "publishedOn": "2026-06-19T21:16:14.000Z",
-          "wordCount": 6181,
-          "title": "Apple updates iPhone Mirroring with flexible window resizing and Control Center",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-updates-iphone-mirroring-with-flexible-window-resizing-and-control-center.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-purview-update-allows-blocking-copilot-from-analyzing-sensitive-files/",
-          "author": "IT News",
-          "description": "Microsoft is enhancing its Purview data governance service to provide organizations with stricter control over how AI interacts with confidential information. Purview is a suite of tools designed to help commercial customers manage, secure, and govern large volumes of data across their digital estate. This upcoming change specifically addresses concerns regarding artificial intelligence services accessing and processing protected corporate content without explicit permission.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-purview-update-allows-blocking-copilot-from-analyzing-sensitive-files/",
-          "publishedOn": "2026-06-19T21:04:26.000Z",
-          "wordCount": 6154,
-          "title": "Microsoft Purview update allows blocking Copilot from analyzing sensitive files",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-purview-update-allows-blocking-copilot-from-analyzing-sensitive-files.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/windows-11-beta-build-28020-2308-enhances-hd-audio-driver-reliability/",
-          "author": "IT News",
-          "description": "Microsoft has released Windows 11 Beta (26H1) Build 28020.2308 to the Insider program, focusing on stability and underlying system components. This update specifically targets the reliability of the inbox High Definition (HD) Audio driver to ensure better hardware compatibility. The release follows a series of June updates aimed at refining the core operating system experience for upcoming versions.\nSource",
-          "link": "https://4sysops.com/archives/windows-11-beta-build-28020-2308-enhances-hd-audio-driver-reliability/",
-          "publishedOn": "2026-06-19T21:04:25.000Z",
-          "wordCount": 6181,
-          "title": "Windows 11 Beta build 28020.2308 enhances HD audio driver reliability",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/windows-11-beta-build-28020-2308-enhances-hd-audio-driver-reliability.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/windows-11-beta-build-26220-8690-resolves-hypervisor-and-startup-errors/",
-          "author": "IT News",
-          "description": "Microsoft has released Windows 11 build 26220.8690 to the Beta channel, focusing on system stability rather than new features. This update addresses critical stop errors that previously triggered bug checks on certain hardware configurations. Specifically, it resolves issues leading to HYPERVISOR_ERROR and KMODE_EXCEPTION_NOT_HANDLED codes that occurred after recent updates.\nSource",
-          "link": "https://4sysops.com/archives/windows-11-beta-build-26220-8690-resolves-hypervisor-and-startup-errors/",
-          "publishedOn": "2026-06-19T21:04:24.000Z",
-          "wordCount": 6156,
-          "title": "Windows 11 beta build 26220.8690 resolves hypervisor and startup errors",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/windows-11-beta-build-26220-8690-resolves-hypervisor-and-startup-errors.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-confirms-windows-11-26h2-will-arrive-as-a-small-enablement-package/",
-          "author": "IT News",
-          "description": "Microsoft has officially confirmed the upcoming release of Windows 11 version 26H2, marking a return to its standard update cadence for the broader user base. This version follows the recent 26H1 release, which was a specialized build restricted to specific new hardware. The 26H2 update is intended for users currently running versions 24H2 and 25H2, as these versions share a common servicing branch.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-confirms-windows-11-26h2-will-arrive-as-a-small-enablement-package/",
-          "publishedOn": "2026-06-19T21:04:23.000Z",
-          "wordCount": 6219,
-          "title": "Microsoft confirms Windows 11 26H2 will arrive as a small enablement package",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-confirms-windows-11-26h2-will-arrive-as-a-small-enablement-package.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-confirms-end-of-support-for-office-2021-in-october-2026/",
-          "author": "IT News",
-          "description": "Microsoft has officially announced that support for the Office 2021 suite will conclude on October 13, 2026. After this date, the software will no longer receive security patches, bug fixes, or technical assistance from the company. This move is part of a broader strategy to transition users toward subscription-based services or newer perpetual licenses.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-confirms-end-of-support-for-office-2021-in-october-2026/",
-          "publishedOn": "2026-06-19T21:04:22.000Z",
-          "wordCount": 6161,
-          "title": "Microsoft confirms end of support for Office 2021 in October 2026",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-confirms-end-of-support-for-office-2021-in-october-2026.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1613649",
-          "author": "IT Experts",
-          "description": "Starting in August 2026, Microsoft Edge will ship major updates every two weeks instead of every four weeks. Google Chrome will adopt the same schedule in September 2026. This accelerated cadence affects the Stable channel that most organizations use by default. If you want to avoid the increased update frequency, you can move your browsers to the Extended Stable channel, which retains an eight-week release cycle. This article explains how to configure the channel switch using Group Policy for both browsers.\nSource",
-          "link": "https://4sysops.com/archives/new-edge-and-chrome-two-week-update-cycle-switch-to-extended-stable-8-week-schedule-using-group-policy/",
-          "publishedOn": "2026-06-19T20:33:42.000Z",
-          "wordCount": 8313,
-          "title": "New Edge and Chrome two-week update cycle: switch to Extended Stable 8-week schedule using Group Policy",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/Enabled-Extended-Stable-with-Group-Policy.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/amazon-bedrock-agentcore-adds-managed-web-search-for-real-time-ai-grounding/",
-          "author": "IT News",
-          "description": "Amazon has launched a managed web search tool for Bedrock AgentCore to provide AI agents with real-time information. This feature addresses the limitation of static training data by allowing agents to access current web content, such as stock prices or recent news. The service is fully managed, meaning administrators do not need to provision external search APIs or manage third-party credentials.\nSource",
-          "link": "https://4sysops.com/archives/amazon-bedrock-agentcore-adds-managed-web-search-for-real-time-ai-grounding/",
-          "publishedOn": "2026-06-19T15:45:05.000Z",
-          "wordCount": 6197,
-          "title": "Amazon Bedrock AgentCore adds managed web search for real-time AI grounding",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amazon-bedrock-agentcore-adds-managed-web-search-for-real-time-ai-grounding.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/amazon-mgm-studios-drops-sam-altman-biopic-following-openai-partnership/",
-          "author": "IT News",
-          "description": "Amazon MGM Studios has officially cancelled its plans to distribute \"Artificial,\" a biographical film centered on OpenAI CEO Sam Altman. The production was set to dramatize the intense five-day period in late 2023 when Altman was briefly fired and then reinstated at the artificial intelligence company. This decision comes shortly after Amazon strengthened its corporate relationship with OpenAI by integrating the startup's models into its own cloud services.\nSource",
-          "link": "https://4sysops.com/archives/amazon-mgm-studios-drops-sam-altman-biopic-following-openai-partnership/",
-          "publishedOn": "2026-06-19T15:45:04.000Z",
-          "wordCount": 6271,
-          "title": "Amazon MGM Studios drops Sam Altman biopic following OpenAI partnership",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amazon-mgm-studios-drops-sam-altman-biopic-following-openai-partnership.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-introduces-ai-powered-tools-to-streamline-azure-storage-migrations/",
-          "author": "IT News",
-          "description": "Microsoft has introduced new tools and guidance to help organizations migrate large-scale data estates to Azure Storage more efficiently. The process begins with Azure Migrate, a centralized hub that discovers infrastructure, assesses readiness, and analyzes workload dependencies across on-premises and multicloud environments. To bridge the gap between planning and execution, a new AI-powered Azure Copilot Migration Agent is now available in preview to recommend specific storage services and migration tools.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-introduces-ai-powered-tools-to-streamline-azure-storage-migrations/",
-          "publishedOn": "2026-06-19T14:03:16.000Z",
-          "wordCount": 6198,
-          "title": "Microsoft introduces AI-powered tools to streamline Azure Storage migrations",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-introduces-ai-powered-tools-to-streamline-azure-storage-migrations.jpg"
         }
       ]
     },
@@ -19183,14 +19133,24 @@
       "siteUrl": "https://blog.zsec.uk/",
       "articles": [
         {
-          "id": "663cbd24748ff8079069f78f",
+          "id": "6a5b4c017284eafb1174d533",
           "author": "Andy Gill",
-          "description": "GoClipC2: A covert Windows clipboard-based C2 channel for VDI/RDP environments. Bypasses network monitoring with encrypted Base64 messaging.",
-          "link": "https://blog.zsec.uk/clippy-goes-rogue/",
-          "publishedOn": "2025-06-15T10:59:58.000Z",
-          "wordCount": 2905,
-          "title": "Expanding on ChunkyIngress - Clippy Goes Rogue (GoClipC2)",
-          "imageUrl": "https://blog.zsec.uk/content/images/2025/06/DSC05745.jpg"
+          "description": "wp2shell carries two CVEs (so far); CVE-2026-63030 & CVE-2026-60137.",
+          "link": "https://blog.zsec.uk/wp2shell-code-trace-deep-dive/",
+          "publishedOn": "2026-07-18T11:05:01.000Z",
+          "wordCount": null,
+          "title": "wp2shell - Code Trace Deep Dive",
+          "imageUrl": null
+        },
+        {
+          "id": "69ede2c9589324f66092b53c",
+          "author": "Andy Gill",
+          "description": "Trying to coerce useful work out of LLMs without the harness is like supervising a room full of drunk toddlers, each convinced they're helping, none of them checking with each other and falling over the next.",
+          "link": "https://blog.zsec.uk/harnessing-harnesses/",
+          "publishedOn": "2026-06-27T14:12:45.000Z",
+          "wordCount": null,
+          "title": "Harnessing Harnesses - Climbing the LLM Hills",
+          "imageUrl": null
         }
       ]
     },
