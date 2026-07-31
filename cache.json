@@ -119,6 +119,16 @@
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
         {
+          "id": "from-capable-ai-models-to-trusted-security-testing",
+          "author": null,
+          "description": "This week, we launched Burp AT in public beta for Burp Suite Professional users. Next week at Black Hat, PortSwigger Research will reveal more of the work that helped shape our direction. Burp AT is o",
+          "link": "https://portswigger.net/blog/from-capable-ai-models-to-trusted-security-testing",
+          "publishedOn": "2026-07-30T14:58:47.000Z",
+          "wordCount": 1969,
+          "title": "From capable AI models to trusted security testing",
+          "imageUrl": "https://portswigger.net/cms/images/00/44/d301-twittercard-burp_at_banner_-02_(1).png"
+        },
+        {
           "id": "introducing-burp-at",
           "author": null,
           "description": "Burp AT brings agentic AI to human-led pentesting, with Burp Suite’s proven tools, your project context, and purpose-built skills. You decide how much work agents take on. Burp enforces the boundaries",
@@ -238,28 +248,7 @@
       "title": "Didier Stevens",
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
-      "articles": [
-        {
-          "id": "http://blog.didierstevens.com/?p=11191",
-          "author": "Didier Stevens",
-          "description": "Here is an overview of content I published in June: Blog posts: Update: base64dump.py Version 0.0.30 SANS ISC Diary entries: Microsoft’s Coreutils for Windows Evil MSI Background: BASE64 Statistical Analysis YARA-X 1.18.0 and 1.19.0 Release",
-          "link": "https://blog.didierstevens.com/2026/07/01/overview-of-content-published-in-june-11/",
-          "publishedOn": "2026-07-01T09:04:08.000Z",
-          "wordCount": 3332,
-          "title": "Overview of Content Published in June",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11185",
-          "author": "Didier Stevens",
-          "description": "This new version adds option –stats. For more details, take a look at SANS Internet Storm Center diary entry “Evil MSI Background: BASE64 Statistical Analysis“. base64dump_V0_0_30.zip (http)MD5: E54FFB4F618E47FAA724C9F16CF21E7ASHA256: 9475E4184790583265106CBA0FBD04546A7BF4B1B67A569F2B96D432E6F16E2D",
-          "link": "https://blog.didierstevens.com/2026/06/30/update-base64dump-py-version-0-0-30/",
-          "publishedOn": "2026-06-30T19:12:07.000Z",
-          "wordCount": 3319,
-          "title": "Update: base64dump.py Version 0.0.30",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "HackerOne",
@@ -361,6 +350,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a6a7a6eb2ec3c7bbeb384d7",
+          "author": "Dustin Childs",
+          "description": "Welcome to our monthly look at Apple security patches. This release shows that Apple is not immune to the bug apocalypse that is impacting other vendors. Last month, they released 37 unique CVEs compare to this month’s 210. Quite a jump.\nFor July 2026, Apple released 210 unique CVEs across iOS/iPadOS 26.6, macOS Tahoe 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, tvOS 26.6, watchOS 26.6, visionOS 26.6, and Safari 26.6. Since Apple doesn’t provide CVSS scores or other severity information, we’re left to speculate on which of these bugs is the most severe. However, there are a couple that stand out.\n·      CVE-2026-43818 (ImageIO) – This bug could allow the “Processing [of] a maliciously crafted image may lead to arbitrary code execution.\" ImageIO is the classic zero-/one-click remote sur…",
+          "link": "https://www.thezdi.com/blog/2026/7/29/the-july-2026-apple-security-update-review",
+          "publishedOn": "2026-07-30T14:00:00.000Z",
+          "wordCount": null,
+          "title": "The July 2026 Apple Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a5f98cdbcf1322696068f15",
           "author": "Dustin Childs",
@@ -14040,6 +14040,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
+          "author": null,
+          "description": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code.\nThe Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks.\nAfter analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, in…",
+          "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
+          "publishedOn": "2026-07-30T11:00:00.000Z",
+          "wordCount": 2515,
+          "title": "Building secure Uniswap v4 hooks",
+          "imageUrl": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/uniswapv4-social-banner.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/",
           "author": null,
           "description": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and again in our internal bug-report channels: /goal, which hands Codex an open-ended objective and lets it work independently toward a success condition. Here are a few highlights:\n/goal found every Rust bug we submitted, including a soundness hole and a miscompilation now patched in Rust 1.98, from a single variant-analysis pipeline.\nIt turned every project’s past CVEs into Semgrep rules that had t…",
@@ -14078,16 +14088,6 @@
           "wordCount": 1234,
           "title": "GPT-5.5-Cyber built a zlib fuzzing lab in a day",
           "imageUrl": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/ptp-preview.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
-          "author": null,
-          "description": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.\nOn June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030, and post-quant…",
-          "link": "https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/",
-          "publishedOn": "2026-06-30T11:00:00.000Z",
-          "wordCount": 1121,
-          "title": "Shipping post-quantum cryptography to Python",
-          "imageUrl": "https://blog.trailofbits.com/img/tob.png"
         }
       ]
     },
@@ -14261,6 +14261,206 @@
       "feedUrl": "https://4sysops.com/feed/",
       "siteUrl": "https://4sysops.com",
       "articles": [
+        {
+          "id": "https://4sysops.com/archives/mai-code-1-flash-beats-larger-coding-models-on-efficiency-in-vs-code/",
+          "author": "IT News",
+          "description": "Microsoft’s MAI-Code-1-Flash is showing a notable advantage in real VS Code and GitHub Copilot workflows: lower usage costs without sacrificing coding quality. Production data indicates the 5-billion-parameter model outperforms Claude Haiku 4.5 and GPT-5.4 Mini on code survival, commit survival, and code acceptance.\nSource",
+          "link": "https://4sysops.com/archives/mai-code-1-flash-beats-larger-coding-models-on-efficiency-in-vs-code/",
+          "publishedOn": "2026-07-30T20:34:53.000Z",
+          "wordCount": 7168,
+          "title": "MAI-Code-1-Flash beats larger coding models on efficiency in VS Code",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/mai-code-1-flash-beats-larger-coding-models-on-efficiency-in-vs-code.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-boosts-ai-spending-to-41-billion-as-azure-growth-hits-43/",
+          "author": "IT News",
+          "description": "Microsoft’s AI infrastructure spending is accelerating faster than its cloud business, with quarterly capital expenditures reaching $41 billion. Azure revenue growth nevertheless surged 43%, suggesting Microsoft is beginning to turn its data-center expansion into measurable demand.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-boosts-ai-spending-to-41-billion-as-azure-growth-hits-43/",
+          "publishedOn": "2026-07-30T20:34:52.000Z",
+          "wordCount": 7927,
+          "title": "Microsoft boosts AI spending to $41 billion as Azure growth hits 43%",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-boosts-ai-spending-to-41-billion-as-azure-growth-hits-43.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/deploying-kimi-k3-on-aws/",
+          "author": "IT News",
+          "description": "Kimi K3 can now be self-hosted on AWS, but its 2.8 trillion parameters put the model far beyond ordinary GPU servers. The official deployment uses an eight-GPU NVIDIA B300 instance and requires organizations to reserve capacity before they can launch an endpoint.\nSource",
+          "link": "https://4sysops.com/archives/deploying-kimi-k3-on-aws/",
+          "publishedOn": "2026-07-30T20:34:51.000Z",
+          "wordCount": 7877,
+          "title": "Deploying Kimi K3 on AWS",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/deploying-kimi-k3-on-aws.webp"
+        },
+        {
+          "id": "https://4sysops.com/?p=1616323",
+          "author": "IT Experts",
+          "description": "Microsoft has introduced a redesigned Microsoft Security Exposure Management dashboard in the Microsoft Defender Portal, which is currently in public preview. This new interface helps you consolidate security findings and prioritize critical exposures across your environment. The new Resolve Now feature helps you quickly identify and address vulnerabilities, misconfigurations, and internet-exposed assets. The dashboard aims to reduce alert fatigue by providing a clear path to remediation.\nSource",
+          "link": "https://4sysops.com/archives/resolve-now-in-microsoft-security-exposure-management-dashboard-in-defender-portal/",
+          "publishedOn": "2026-07-30T20:32:50.000Z",
+          "wordCount": 8540,
+          "title": "Resolve now in Microsoft Security Exposure Management dashboard in Defender Portal",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/Exposure-Management-dashboard-showing-Resolve-Now-with-Patch-Mitigate-and-Fix-categories-image-Microsoft.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/amazon-accidentally-spent-1-8-million-on-anthropic-claude-sonnet/",
+          "author": "IT News",
+          "description": "Amazon engineers are building automated spending guardrails after internal reviews found that AI deployments had generated millions of dollars in unexpected costs. One failed Anthropic Claude Sonnet project ran 860% over budget before Amazon detected the problem five months later.\nSource",
+          "link": "https://4sysops.com/archives/amazon-accidentally-spent-1-8-million-on-anthropic-claude-sonnet/",
+          "publishedOn": "2026-07-30T19:34:43.000Z",
+          "wordCount": 7161,
+          "title": "Amazon accidentally spent $1.8 million on Anthropic Claude Sonnet",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/amazon-accidentally-spent-1-8-million-on-anthropic-claude-sonnet.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/ai-defense-is-starting-to-act-autonomous/",
+          "author": "IT News",
+          "description": "One-third of organizations already let AI remediate security issues without human approval, while nearly half expect vulnerability management to become mostly machine-led within 18 months. But trust, not funding, remains the biggest obstacle to autonomous defense.\nSource",
+          "link": "https://4sysops.com/archives/ai-defense-is-starting-to-act-autonomous/",
+          "publishedOn": "2026-07-30T19:34:42.000Z",
+          "wordCount": 7154,
+          "title": "AI defense is starting to act autonomous",
+          "imageUrl": null
+        },
+        {
+          "id": "https://4sysops.com/archives/mariadb-sets-a-september-2026-deadline-for-mysql-galera-users/",
+          "author": "IT News",
+          "description": "MariaDB will end support for MySQL Galera Cluster on September 30, 2026, pushing users toward MariaDB Galera Cluster as it develops separate premium replication technology for enterprise customers. The company says the Galera implementation will remain open source, but future clustering innovation will increasingly be delivered in a different, proprietary product line.\nSource",
+          "link": "https://4sysops.com/archives/mariadb-sets-a-september-2026-deadline-for-mysql-galera-users/",
+          "publishedOn": "2026-07-30T19:34:41.000Z",
+          "wordCount": 7107,
+          "title": "MariaDB sets a September 2026 deadline for MySQL Galera users",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/mariadb-sets-a-september-2026-deadline-for-mysql-galera-users.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/off-premises-it-takes-the-lead/",
+          "author": "IT News",
+          "description": "Third-party facilities now host more enterprise IT workloads than corporate-owned data centers for the first time, according to Uptime Institute’s 2026 Global Data Center Survey. At the same time, typical rack power density has passed 11 kW as organizations deploy more powerful servers and AI infrastructure.\nSource",
+          "link": "https://4sysops.com/archives/off-premises-it-takes-the-lead/",
+          "publishedOn": "2026-07-30T19:34:40.000Z",
+          "wordCount": 8020,
+          "title": "Off-premises IT takes the lead",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/off-premises-it-takes-the-lead.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/openai-cuts-gpt-5-6-luna-api-prices-by-80-terra-by-20-and-adds-faster-sol-mode/",
+          "author": "IT News",
+          "description": "OpenAI is cutting GPT-5.6 Luna API prices by 80% and Terra prices by 20%, while introducing a Fast mode for GPT-5.6 Sol that can deliver responses up to 2.5 times faster. The changes make high-volume AI workloads cheaper and time-sensitive API operations faster without changing model intelligence.\nSource",
+          "link": "https://4sysops.com/archives/openai-cuts-gpt-5-6-luna-api-prices-by-80-terra-by-20-and-adds-faster-sol-mode/",
+          "publishedOn": "2026-07-30T19:34:39.000Z",
+          "wordCount": 7248,
+          "title": "OpenAI cuts GPT-5.6 Luna API prices by 80%, Terra by 20%, and adds faster Sol mode",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/openai-cuts-gpt-5-6-luna-api-prices-by-80-terra-by-20-and-adds-faster-sol-mode.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/two-gpt-5-6-settings-tripled-arc-agi-3-scores-and-cut-tokens-sixfold/",
+          "author": "IT News",
+          "description": "GPT-5.6 Sol’s weak ARC-AGI-3 benchmark result was largely a harness problem: retaining reasoning and enabling compaction raised its public-set score from 13.3% to 38.3%. The same changes also reduced output-token use by roughly six times.\nSource",
+          "link": "https://4sysops.com/archives/two-gpt-5-6-settings-tripled-arc-agi-3-scores-and-cut-tokens-sixfold/",
+          "publishedOn": "2026-07-30T19:34:38.000Z",
+          "wordCount": 7931,
+          "title": "Two GPT-5.6 settings tripled ARC-AGI-3 scores and cut tokens sixfold",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/two-gpt-5-6-settings-tripled-arc-agi-3-scores-and-cut-tokens-sixfold.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/gpt-5-6-sol-cuts-its-own-serving-costs-by-20-through-gpu-optimization/",
+          "author": "IT News",
+          "description": "OpenAI says GPT-5.6 Sol helped optimize the infrastructure that runs GPT-5.6, reducing end-to-end serving costs by 20%. The model also improved speculative decoding by more than 15%, showing how AI-assisted engineering is beginning to reduce the cost of operating AI systems.\nSource",
+          "link": "https://4sysops.com/archives/gpt-5-6-sol-cuts-its-own-serving-costs-by-20-through-gpu-optimization/",
+          "publishedOn": "2026-07-30T19:34:37.000Z",
+          "wordCount": 8016,
+          "title": "GPT-5.6 Sol cuts its own serving costs by 20% through GPU optimization",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/gpt-5-6-sol-cuts-its-own-serving-costs-by-20-through-gpu-optimization.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/uk-watchdog-investigates-microsoft-365-copilot-price-increases/",
+          "author": "IT News",
+          "description": "The UK Competition and Markets Authority (CMA) is investigating whether Microsoft gave Microsoft 365 Personal and Family customers enough information about cheaper subscription options before renewals. The probe centers on the addition of Copilot and the possibility that customers were moved to more expensive plans without clearly understanding the alternatives.\nSource",
+          "link": "https://4sysops.com/archives/uk-watchdog-investigates-microsoft-365-copilot-price-increases/",
+          "publishedOn": "2026-07-30T15:21:55.000Z",
+          "wordCount": 7817,
+          "title": "UK watchdog investigates Microsoft 365 Copilot price increases",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/uk-watchdog-investigates-microsoft-365-copilot-price-increases.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/windows-11s-slow-context-menus-are-getting-a-faster-customizable-overhaul/",
+          "author": "IT News",
+          "description": "Microsoft is developing a new compact context menu for Windows 11 that should open faster by prioritizing common commands instead of loading every third-party action immediately. A separate customization feature will let users hide, reorder, and choose which apps and commands appear in right-click menus.\nSource",
+          "link": "https://4sysops.com/archives/windows-11s-slow-context-menus-are-getting-a-faster-customizable-overhaul/",
+          "publishedOn": "2026-07-30T15:21:54.000Z",
+          "wordCount": 7301,
+          "title": "Windows 11’s slow context menus are getting a faster, customizable overhaul",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/windows-11s-slow-context-menus-are-getting-a-faster-customizable-overhaul.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-eliminates-cosmos-master-key-after-critical-azure-cosmos-db-vulnerability/",
+          "author": "IT News",
+          "description": "Microsoft has completed a global remediation for CosmosEscape, a critical Azure Cosmos DB vulnerability that could have exposed databases across customer tenants. The fix removes the platform-wide signing key, and Microsoft says its investigation found no unauthorized customer activity or need for customer action.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-eliminates-cosmos-master-key-after-critical-azure-cosmos-db-vulnerability/",
+          "publishedOn": "2026-07-30T15:21:53.000Z",
+          "wordCount": 7307,
+          "title": "Microsoft eliminates Cosmos Master Key after critical Azure Cosmos DB vulnerability",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-eliminates-cosmos-master-key-after-critical-azure-cosmos-db-vulnerability.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/microsoft-365-copilot-word-worm-survives-model-updates/",
+          "author": "IT News",
+          "description": "A self-propagating Word worm can still alter documents and copy hidden instructions into new files after Microsoft 365 Copilot mitigations, including a model upgrade, failed to close the broader vulnerability class. The attack requires no macros, executable code, or access to a victim’s Microsoft 365 tenant—only a malicious document that enters Copilot’s context.\nSource",
+          "link": "https://4sysops.com/archives/microsoft-365-copilot-word-worm-survives-model-updates/",
+          "publishedOn": "2026-07-30T09:36:35.000Z",
+          "wordCount": 7199,
+          "title": "Microsoft 365 Copilot Word worm survives model updates",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-365-copilot-word-worm-survives-model-updates.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/gpt-5-6-sol-blocked-a-linux-bug-hunt-while-open-models-found-the-trail/",
+          "author": "IT News",
+          "description": "OpenAI’s GPT-5.6 Sol was not the problem during a researcher’s ripgrep investigation—the separate cybersecurity classifier was. After repeated refusals, Daniel Fox Franke switched to Z’ai GLM 5.2 and Moonshot AI’s Kimi K3, which helped trace the recurring segmentation fault to a suspected Linux kernel bug.\nSource",
+          "link": "https://4sysops.com/archives/gpt-5-6-sol-blocked-a-linux-bug-hunt-while-open-models-found-the-trail/",
+          "publishedOn": "2026-07-30T09:36:34.000Z",
+          "wordCount": 7921,
+          "title": "GPT-5.6 Sol blocked a Linux bug hunt, while open models found the trail",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/gpt-5-6-sol-blocked-a-linux-bug-hunt-while-open-models-found-the-trail.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cisco-retires-azure-local-bundles-after-microsoft-drops-validated-nodes/",
+          "author": "IT News",
+          "description": "Cisco will stop selling its Azure Local bundles on October 24, 2026, with final shipments due by January 24, 2027. The company is offering no direct replacement, leaving customers to assess other HCI platforms through Cisco Compute or third-party providers.\nSource",
+          "link": "https://4sysops.com/archives/cisco-retires-azure-local-bundles-after-microsoft-drops-validated-nodes/",
+          "publishedOn": "2026-07-30T09:36:33.000Z",
+          "wordCount": 7275,
+          "title": "Cisco retires Azure Local bundles after Microsoft drops Validated Nodes",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/cisco-retires-azure-local-bundles-after-microsoft-drops-validated-nodes.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/cisco-secure-fmc-zero-day-check-for-license-tmp-and-patch-now/",
+          "author": "IT News",
+          "description": "Cisco Secure Firewall Management Center (FMC) is under active zero-day attack through hard-coded credentials that let unauthenticated remote attackers access a low-privilege account and sensitive data. Cisco has released hotfixes for supported FMC versions, while CISA has added CVE-2026-20316 to its Known Exploited Vulnerabilities catalog.\nSource",
+          "link": "https://4sysops.com/archives/cisco-secure-fmc-zero-day-check-for-license-tmp-and-patch-now/",
+          "publishedOn": "2026-07-30T09:36:32.000Z",
+          "wordCount": 7850,
+          "title": "Cisco Secure FMC zero-day: check for license.tmp and patch now",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/cisco-secure-fmc-zero-day-check-for-license-tmp-and-patch-now.jpg"
+        },
+        {
+          "id": "https://4sysops.com/archives/qwen-audio-3-0-beats-openai-in-speech-to-speech-benchmark/",
+          "author": "IT News",
+          "description": "Alibaba’s Qwen-Audio-3.0-Realtime Plus has taken the top position on Artificial Analysis’s Speech-to-Speech Index, scoring 84.1% versus 79.1% for OpenAI’s GPT-Realtime-2.1 High. The result gives Alibaba its first lead over OpenAI on the benchmark, but Qwen’s roughly four-second startup latency is a significant trade-off for interactive deployments.\nSource",
+          "link": "https://4sysops.com/archives/qwen-audio-3-0-beats-openai-in-speech-to-speech-benchmark/",
+          "publishedOn": "2026-07-30T09:36:31.000Z",
+          "wordCount": 7216,
+          "title": "Qwen Audio 3.0 beats OpenAI in speech-to-speech benchmark",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/qwen-audio-3-0-beats-openai-in-speech-to-speech-benchmark.webp"
+        },
+        {
+          "id": "https://4sysops.com/archives/azure-hits-100-billion-as-microsoft-says-ai-demand-still-outruns-capacity/",
+          "author": "IT News",
+          "description": "Azure surpassed $100 billion in annual revenue during fiscal 2026, even as Microsoft says it still cannot deliver enough AI and cloud capacity to meet demand. Quarterly Azure growth reached 43%, its fastest pace since early 2022, and Microsoft expects growth to accelerate to about 45% in the current quarter.\nSource",
+          "link": "https://4sysops.com/archives/azure-hits-100-billion-as-microsoft-says-ai-demand-still-outruns-capacity/",
+          "publishedOn": "2026-07-30T09:36:30.000Z",
+          "wordCount": 7229,
+          "title": "Azure hits $100 billion as Microsoft says AI demand still outruns capacity",
+          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/azure-hits-100-billion-as-microsoft-says-ai-demand-still-outruns-capacity.jpg"
+        },
         {
           "id": "https://4sysops.com/?p=1616217",
           "author": "IT Experts",
@@ -18800,156 +19000,6 @@
           "wordCount": 6197,
           "title": "Intel updates wireless drivers to enhance 6GHz performance and stability",
           "imageUrl": "https://4sysops.com/wp-content/uploads/2026/07/intel-updates-wireless-drivers-to-enhance-6ghz-performance-and-stability.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-has-removed-119-malicious-extensions-from-the-edge-add-ons-store/",
-          "author": "IT News",
-          "description": "Microsoft has removed 119 malicious extensions from the Edge Add-ons store and suspended over 90 associated developer accounts. The campaign, dubbed StegoAd, utilized steganography to hide executable code within seemingly harmless image and font files like PNG, WebP, and WOFF2. These extensions reached up to 2.6 million installs by posing as legitimate tools such as ad blockers, VPNs, and translators.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-has-removed-119-malicious-extensions-from-the-edge-add-ons-store/",
-          "publishedOn": "2026-06-30T23:14:19.000Z",
-          "wordCount": 6220,
-          "title": "Microsoft has removed 119 malicious extensions from the Edge Add-ons store",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-has-removed-119-malicious-extensions-from-the-edge-add-ons-store.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/cursor-for-ios-enables-remote-management-of-ai-coding-agents/",
-          "author": "IT News",
-          "description": "The AI-powered code editor Cursor has launched a native iOS application in public beta to facilitate mobile development workflows. This tool allows developers to initiate and manage AI agents that can perform coding tasks either on a local workstation or within isolated cloud environments. By providing a mobile interface for these agents, the platform aims to reduce the need for developers to remain physically present at their primary machines.\nSource",
-          "link": "https://4sysops.com/archives/cursor-for-ios-enables-remote-management-of-ai-coding-agents/",
-          "publishedOn": "2026-06-30T23:14:18.000Z",
-          "wordCount": 6302,
-          "title": "Cursor for iOS enables remote management of AI coding agents",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/cursor-for-ios-enables-remote-management-of-ai-coding-agents.png"
-        },
-        {
-          "id": "https://4sysops.com/?p=1614272",
-          "author": "IT Experts",
-          "description": "Microsoft Intune's June 2026 service release introduces several features that affect application lifecycle management, privilege controls, and device enrollment. Enterprise Application Management (EAM) auto-updates reach general availability, a Vulnerability Remediation Agent enters public preview, Endpoint Privilege Management (EPM) gains support for shared devices and network configuration, and Apple Automated Device Enrollment receives a redesigned policy experience. This article covers the technical details, configuration requirements, and limitations of each feature.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-intune-june-2026-app-auto-updates-privilege-controls-and-enrollment-improvements/",
-          "publishedOn": "2026-06-30T22:23:03.000Z",
-          "wordCount": 9027,
-          "title": "Microsoft Intune June 2026: App auto-updates, privilege controls, and enrollment improvements",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/EAM-auto-update-method-configuration-image-Microsoft.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/open-memory-protocol-enables-cross-tool-context-sharing-for-ai-agents/",
-          "author": "IT News",
-          "description": "The Open Memory Protocol (OMP) has launched as a vendor-neutral specification designed to provide a unified memory store for disparate AI tools. This system allows developers to maintain context and user preferences when switching between different platforms like Claude and ChatGPT. By using a shared-memory architecture, compatible clients can read and write to a single user-controlled server instead of maintaining isolated data silos.\nSource",
-          "link": "https://4sysops.com/archives/open-memory-protocol-enables-cross-tool-context-sharing-for-ai-agents/",
-          "publishedOn": "2026-06-30T22:11:21.000Z",
-          "wordCount": 6229,
-          "title": "Open Memory Protocol enables cross-tool context sharing for AI agents",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/open-memory-protocol-enables-cross-tool-context-sharing-for-ai-agents.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/anthropic-launches-claude-sonnet-5-with-enhanced-agentic-capabilities-and-safety/",
-          "author": "IT News",
-          "description": "Anthropic has released Claude Sonnet 5, a mid-tier model designed to deliver high-level performance at a lower price point than the premium Opus class. This new model emphasizes agentic capabilities, allowing it to autonomously plan, use tools like browsers and terminals, and execute multi-step tasks. It is currently available as the default model for Free and Pro users and can be accessed by developers via the API.\nSource",
-          "link": "https://4sysops.com/archives/anthropic-launches-claude-sonnet-5-with-enhanced-agentic-capabilities-and-safety/",
-          "publishedOn": "2026-06-30T22:11:20.000Z",
-          "wordCount": 6295,
-          "title": "Anthropic launches Claude Sonnet 5 with enhanced agentic capabilities and safety",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/anthropic-launches-claude-sonnet-5-with-enhanced-agentic-capabilities-and-safety.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-accelerates-post-quantum-cryptography-transition-for-critical-services/",
-          "author": "IT News",
-          "description": "Microsoft is accelerating its transition to post-quantum cryptography (PQC) due to rapid advancements in quantum computing that threaten current encryption standards. The company now aims to migrate its critical products and services to quantum-resistant algorithms by 2029 through its Quantum Safe Program. This shift addresses \"harvest now, decrypt later\" risks, where attackers collect encrypted data today to decrypt it once powerful quantum computers become available.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-accelerates-post-quantum-cryptography-transition-for-critical-services/",
-          "publishedOn": "2026-06-30T22:11:19.000Z",
-          "wordCount": 6207,
-          "title": "Microsoft accelerates post-quantum cryptography transition for critical services",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-accelerates-post-quantum-cryptography-transition-for-critical-services.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/securing-microsoft-365-against-rogue-ai-agents-and-identity-threats/",
-          "author": "IT News",
-          "description": "Organizations are increasingly facing risks from rogue AI agents that bypass traditional security perimeters by masquerading as legitimate user identities. These autonomous systems can gain persistent background access through unmanaged user consent or by exploiting legacy authentication flows like device-code and Resource Owner Password Credentials. Because these agents often borrow first-party application IDs, they leave no distinct service principal footprint in Microsoft Entra, making them difficult to distinguish from standard user activity.\nSource",
-          "link": "https://4sysops.com/archives/securing-microsoft-365-against-rogue-ai-agents-and-identity-threats/",
-          "publishedOn": "2026-06-30T18:27:46.000Z",
-          "wordCount": 6277,
-          "title": "Securing Microsoft 365 against rogue AI agents and identity threats",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/securing-microsoft-365-against-rogue-ai-agents-and-identity-threats.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/securing-autonomous-ai-agents-against-model-context-protocol-tool-poisoning/",
-          "author": "IT News",
-          "description": "As enterprise AI matures, agents are transitioning from passive content summarization to autonomous execution using the Model Context Protocol (MCP). This shift introduces significant risks because agents can now plan multi-step tasks and trigger real-world actions across connected business systems. Unlike traditional chatbots, these agents operate with non-human identities and permissions, making their ability to execute API calls a primary target for exploitation.\nSource",
-          "link": "https://4sysops.com/archives/securing-autonomous-ai-agents-against-model-context-protocol-tool-poisoning/",
-          "publishedOn": "2026-06-30T18:27:45.000Z",
-          "wordCount": 6244,
-          "title": "Securing autonomous AI agents against model context protocol tool poisoning",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/securing-autonomous-ai-agents-against-model-context-protocol-tool-poisoning.webp"
-        },
-        {
-          "id": "https://4sysops.com/archives/microsoft-reportedly-ends-budget-surface-lines-to-focus-on-premium-hardware/",
-          "author": "IT News",
-          "description": "Microsoft is reportedly discontinuing its budget-friendly Surface Go and Surface Laptop Go product lines. Sources indicate that the company has ceased manufacturing the Surface Go 4 and Surface Laptop Go 3 with no plans for future successors. This shift effectively removes the entry-level price points from Microsoft's flagship hardware portfolio.\nSource",
-          "link": "https://4sysops.com/archives/microsoft-reportedly-ends-budget-surface-lines-to-focus-on-premium-hardware/",
-          "publishedOn": "2026-06-30T18:27:44.000Z",
-          "wordCount": 6205,
-          "title": "Microsoft reportedly ends budget Surface lines to focus on premium hardware",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-reportedly-ends-budget-surface-lines-to-focus-on-premium-hardware.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/amd-introduces-low-power-core-type-in-linux-kernel-for-future-zen-6-processors/",
-          "author": "IT News",
-          "description": "AMD has submitted new Linux kernel patches that officially introduce a \"Low Power\" CPU core classification for its future heterogeneous processors. This new core type joins the existing Performance and Efficiency categories to help the operating system better manage diverse workloads. The patches enable the Linux kernel to identify these cores via specific CPUID functions, ensuring they are correctly recognized by the system's performance management infrastructure.\nSource",
-          "link": "https://4sysops.com/archives/amd-introduces-low-power-core-type-in-linux-kernel-for-future-zen-6-processors/",
-          "publishedOn": "2026-06-30T18:27:43.000Z",
-          "wordCount": 6340,
-          "title": "AMD introduces low power core type in Linux kernel for future Zen 6 processors",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/amd-introduces-low-power-core-type-in-linux-kernel-for-future-zen-6-processors.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/aws-invests-1-billion-in-forward-deployed-engineering-to-accelerate-ai-adoption/",
-          "author": "IT News",
-          "description": "Amazon Web Services is launching a new Forward Deployed Engineering unit backed by a $1 billion investment to help customers implement artificial intelligence. This initiative involves embedding thousands of specialized engineers directly into enterprise operations to accelerate technical transformations. The primary goal is to bridge the gap between experimental AI concepts and production-grade systems within complex business environments.\nSource",
-          "link": "https://4sysops.com/archives/aws-invests-1-billion-in-forward-deployed-engineering-to-accelerate-ai-adoption/",
-          "publishedOn": "2026-06-30T18:27:42.000Z",
-          "wordCount": 6279,
-          "title": "AWS invests $1 billion in forward deployed engineering to accelerate AI adoption",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/aws-invests-1-billion-in-forward-deployed-engineering-to-accelerate-ai-adoption.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/meituan-open-sources-longcat-2-0-ai-model-trained-on-domestic-chinese-hardware/",
-          "author": "IT News",
-          "description": "Chinese food delivery giant Meituan has released LongCat-2.0, a large language model featuring 1.6 trillion parameters and a context window of one million tokens. The model is notable for being the first of its scale to complete both pre-training and inference entirely on domestic Chinese hardware. This development serves as a significant milestone for China’s goal of technological self-sufficiency amid ongoing U.S. export restrictions on high-end AI chips.\nSource",
-          "link": "https://4sysops.com/archives/meituan-open-sources-longcat-2-0-ai-model-trained-on-domestic-chinese-hardware/",
-          "publishedOn": "2026-06-30T18:27:41.000Z",
-          "wordCount": 6289,
-          "title": "Meituan open-sources LongCat-2.0 AI model trained on domestic Chinese hardware",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/meituan-open-sources-longcat-2-0-ai-model-trained-on-domestic-chinese-hardware.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/google-releases-high-speed-image-and-video-generation-models-for-developers/",
-          "author": "IT News",
-          "description": "Google has introduced two new generative AI models designed for high-throughput workflows and rapid creative iteration. Nano Banana 2 Lite serves as a cost-efficient image generation model capable of producing visuals in approximately four seconds. Meanwhile, Gemini Omni Flash debuts as a preview model that enables video generation and conversational editing through natural language prompts.\nSource",
-          "link": "https://4sysops.com/archives/google-releases-high-speed-image-and-video-generation-models-for-developers/",
-          "publishedOn": "2026-06-30T18:27:40.000Z",
-          "wordCount": 6231,
-          "title": "Google releases high-speed image and video generation models for developers",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/google-releases-high-speed-image-and-video-generation-models-for-developers.png"
-        },
-        {
-          "id": "https://4sysops.com/archives/apple-accelerates-security-patching-to-counter-ai-driven-exploit-development/",
-          "author": "IT News",
-          "description": "Apple has shifted its security strategy by releasing an unexpected out-of-band update to address over 30 vulnerabilities across its ecosystem. This move targets flaws in iOS, iPadOS, macOS, and Safari, including a high-severity use-after-free bug in the WebKit engine. The company indicated that this accelerated release schedule is a direct response to the decreasing time between vulnerability discovery and active exploitation.\nSource",
-          "link": "https://4sysops.com/archives/apple-accelerates-security-patching-to-counter-ai-driven-exploit-development/",
-          "publishedOn": "2026-06-30T15:02:07.000Z",
-          "wordCount": 6254,
-          "title": "Apple accelerates security patching to counter AI-driven exploit development",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/apple-accelerates-security-patching-to-counter-ai-driven-exploit-development.jpg"
-        },
-        {
-          "id": "https://4sysops.com/archives/windows-365-gains-granular-trust-based-controls-for-data-redirection/",
-          "author": "IT News",
-          "description": "Microsoft has launched a public preview of context-based redirections for Windows 365 Enterprise and Flex environments. This feature replaces static allow or block rules with dynamic controls that evaluate the security posture of a session in real time. It aims to balance user productivity with data security by adjusting permissions based on the specific circumstances of a connection.\nSource",
-          "link": "https://4sysops.com/archives/windows-365-gains-granular-trust-based-controls-for-data-redirection/",
-          "publishedOn": "2026-06-30T15:02:06.000Z",
-          "wordCount": 6167,
-          "title": "Windows 365 gains granular trust based controls for data redirection",
-          "imageUrl": "https://4sysops.com/wp-content/uploads/2026/06/windows-365-gains-granular-trust-based-controls-for-data-redirection.png"
         }
       ]
     },
@@ -19024,6 +19074,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
+          "author": null,
+          "description": "This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat.\nClaude Code was also excited finding this:\n\nOnce discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat.",
+          "link": "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
+          "publishedOn": "2026-07-30T16:00:00.000Z",
+          "wordCount": 1273,
+          "title": "Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2026/ai-intrusion-are-now-real/",
           "author": null,
@@ -19267,6 +19327,36 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=28158",
+          "author": "Synack",
+          "description": "Craig Rosewarne, Managing Director of Wolfpack Information Risk, explains why continuous, AI-enabled validation, paired with human-verified exploitability, gives security leaders a real-time view of what's actually at risk.\nThe post Guest Blog: The Annual Pentest Is No Longer Enough appeared first on Synack.",
+          "link": "https://www.synack.com/blog/continuous-penetration-testing-wolfpack-information-risk/",
+          "publishedOn": "2026-07-30T20:20:33.000Z",
+          "wordCount": 4435,
+          "title": "Guest Blog: The Annual Pentest Is No Longer Enough",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/07/wolfpack-annual-pentest-no-longer-enough-og.png"
+        },
+        {
+          "id": "https://www.synack.com/?p=28121",
+          "author": "Angela Heindl-Schober",
+          "description": "Europe regulates AI through risk tiers and conformity checks. America accelerates AI through deregulation and infrastructure speed. Both models ask different questions but land on the same gap: neither tells you whether a live AI system actually holds up against real attacks. Enterprise AI security depends on evidence, not paperwork or policy. Continuous, human-validated offensive testing is the layer that both regulatory philosophies are missing and that every organization operating across borders actually needs.\nThe post Europe Is Regulating AI. America Is Accelerating AI. Both Need Offensive Security Validation. appeared first on Synack.",
+          "link": "https://www.synack.com/blog/prove-dont-assume-ai-security-validation/",
+          "publishedOn": "2026-07-29T18:52:46.000Z",
+          "wordCount": 5352,
+          "title": "Europe Is Regulating AI. America Is Accelerating AI. Both Need Offensive Security Validation.",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/07/synack-europe-america-regulatory-ai-security-validation-og.jpg"
+        },
+        {
+          "id": "https://www.synack.com/?p=28139",
+          "author": "Scott Ormiston",
+          "description": "CISA's Binding Operational Directive 26-04, issued June 10, 2026, replaces the KEV directive with a four-variable risk model: asset exposure, KEV status, exploit automation, and technical impact. CISA publishes three of the four answers generically per CVE. The two that decide whether prioritization is defensible (real exposure and real impact in your environment) can only be proven by testing the asset the way an adversary would. Continuous, human-validated pentesting is built to produce that evidence.\nThe post BOD 26-04 Makes Exploitability the Priority Signal: Scanners Can’t Measure It appeared first on Synack.",
+          "link": "https://www.synack.com/blog/bod-26-04-exposure-validation/",
+          "publishedOn": "2026-07-29T16:04:09.000Z",
+          "wordCount": 5296,
+          "title": "BOD 26-04 Makes Exploitability the Priority Signal: Scanners Can’t Measure It",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/07/cisa-bod-26-04-exploitability-synack-og.png"
+        },
+        {
           "id": "https://www.synack.com/?p=28039",
           "author": "Paul Mote",
           "description": "Iberia Cards CISO José Manuel Rivera García explains why he's stuck with Synack's PTaaS model across multiple organizations, and how running Sara AI Pentest alongside human researchers helps him balance regulatory compliance with real risk reduction. He also shares candid advice for other CISOs on avoiding the false sense of security that comes from infrequent testing and over-reliance on perimeter controls.\nThe post How Iberia Cards Uses Sara AI Pentesting to Stay Ahead of Modern Threats appeared first on Synack.",
@@ -19365,26 +19455,6 @@
           "wordCount": 5957,
           "title": "The 2026 State of Vulnerabilities: What the Data Misses, According to Our Red Team",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/07/synack-state-of-vulns-data-synack-red-team-og-1024x576.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=27578",
-          "author": "Angela Heindl-Schober",
-          "description": "“Continuous” has become the most stretched word in offensive security. This guide breaks down what continuous penetration testing  means, why most of the market doesn’t deliver it, and how Synack’s Sara is bringing always-on, human-validated testing to the enterprise.\nThe post Continuous Penetration Testing: What Security Leaders Need to Know appeared first on Synack.",
-          "link": "https://www.synack.com/blog/continuous-penetration-testing-sara-ai/",
-          "publishedOn": "2026-06-30T13:48:44.000Z",
-          "wordCount": 5571,
-          "title": "Continuous Penetration Testing: What Security Leaders Need to Know",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/synack-continuous-penetration-testing-what-security-leaders-need-to-know-blog.jpg"
-        },
-        {
-          "id": "https://www.synack.com/?p=27569",
-          "author": "Paul Mote",
-          "description": "Boards and CIOs are pushing security teams to build internal AI pentesting tools, but is it worth it? This piece walks through the five questions security teams should ask when deciding between build vs buy for AI pentesting. \nThe post Considering Build vs. Buy for AI Pentesting? Top 5 Questions to Ask appeared first on Synack.",
-          "link": "https://www.synack.com/blog/ai-pentesting-build-vs-buy/",
-          "publishedOn": "2026-06-26T17:50:41.000Z",
-          "wordCount": 4801,
-          "title": "Considering Build vs. Buy for AI Pentesting? Top 5 Questions to Ask",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/06/ai-pentesting-build-vs-buy-blog-og-1024x576.png"
         }
       ]
     },
@@ -19395,7 +19465,7 @@
       "articles": []
     },
     {
-      "title": "Publications | Outflank",
+      "title": "Outflank Blog | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
       "articles": []
@@ -19426,16 +19496,6 @@
           "wordCount": 2254,
           "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
           "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/07/Group-8730--4-.png"
-        },
-        {
-          "id": "6a4418a8af74350001707638",
-          "author": "Aliz Hammond",
-          "description": "Well, well, well - once again, the cat has dragged us in and spat us out.\nToday, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? “But watchTowr, what do you mean?”\nWell, if you’re here, you likely fit",
-          "link": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
-          "publishedOn": "2026-06-30T19:35:58.000Z",
-          "wordCount": 4252,
-          "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
-          "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/06/1920--1080---2--4-.png"
         }
       ]
     },
@@ -19522,7 +19582,818 @@
       "title": "Objective-See's Blog",
       "feedUrl": "https://objective-see.org/rss.xml",
       "siteUrl": "https://www.objective-see.org",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://objective-see.org/blog/blog_0x53.html",
+          "author": null,
+          "description": "Our annual report on all the Mac malware of the year - including samples for download, infection vectors, persistence mechanisms, payloads and more!",
+          "link": "https://objective-see.org/blog/blog_0x53.html",
+          "publishedOn": "2026-07-31T01:50:48.337Z",
+          "wordCount": 12203,
+          "title": "The Mac Malware of 2019",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x53/yortPersist.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry9",
+          "author": null,
+          "description": "Why BlockBlock needs a kext (hint: process monitoring), and how the kext was created",
+          "link": "https://objective-see.org/blog.html#blogEntry9",
+          "publishedOn": "2026-07-31T01:50:45.434Z",
+          "wordCount": 12654,
+          "title": "Monitoring Process Creation via the Kernel (Part I)",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry2",
+          "author": null,
+          "description": "Announcing the release of DHS; a tool to help detect (dylib) hijackers",
+          "link": "https://objective-see.org/blog.html#blogEntry2",
+          "publishedOn": "2026-07-31T01:50:45.418Z",
+          "wordCount": 12654,
+          "title": "Dylib Hijack Scanner Released",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry6",
+          "author": null,
+          "description": "How to build HackingTeam's OS X implant in Xcode",
+          "link": "https://objective-see.org/blog.html#blogEntry6",
+          "publishedOn": "2026-07-31T01:50:45.406Z",
+          "wordCount": 12654,
+          "title": "Building HackingTeam's OS X Implant For Fun & Profit",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry8",
+          "author": null,
+          "description": "How to remotely kernel-debug a OS X 10.11 VM",
+          "link": "https://objective-see.org/blog.html#blogEntry8",
+          "publishedOn": "2026-07-31T01:50:45.388Z",
+          "wordCount": 12654,
+          "title": "Kernel Debugging a Virtualized OS X El Capitan Image",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry3",
+          "author": null,
+          "description": "Exploiting RootPipe on OS X 10.10.3",
+          "link": "https://objective-see.org/blog.html#blogEntry3",
+          "publishedOn": "2026-07-31T01:50:45.372Z",
+          "wordCount": 12654,
+          "title": "Phoenix: RootPipe lives! ...even on OS X 10.10.3",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry7",
+          "author": null,
+          "description": "How reversing Apple's 'RootPipe' patch provided the means to secure TaskExplorer's XPC service",
+          "link": "https://objective-see.org/blog.html#blogEntry7",
+          "publishedOn": "2026-07-31T01:50:45.355Z",
+          "wordCount": 12654,
+          "title": "Reversing to Engineer: Learning to 'Secure' XPC from a Patch",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry1",
+          "author": null,
+          "description": "NSLog(@\"Hello World\"); objective-see.org is alive!",
+          "link": "https://objective-see.org/blog.html#blogEntry1",
+          "publishedOn": "2026-07-31T01:50:43.436Z",
+          "wordCount": 12654,
+          "title": "Website Launch",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry4",
+          "author": null,
+          "description": "A deeper dive into 'MacInstaller' and the adware it installs",
+          "link": "https://objective-see.org/blog.html#blogEntry4",
+          "publishedOn": "2026-07-31T01:50:43.421Z",
+          "wordCount": 12654,
+          "title": "More on, \"Adware for OS X Distributes Trojans\"",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog.html#blogEntry5",
+          "author": null,
+          "description": "Details on bypassing Apple's original rootpipe patch",
+          "link": "https://objective-see.org/blog.html#blogEntry5",
+          "publishedOn": "2026-07-31T01:50:43.404Z",
+          "wordCount": 12654,
+          "title": "CVE-2015-3673: Goodbye Rootpipe...(for now?)",
+          "imageUrl": "https://objective-see.org/images/mainBackground.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x22.html",
+          "author": null,
+          "description": "Here, we reverse, then 'extend' a popular macOS anti-virus engine. With the creation of a new anti-virus signature, classified documents will be automatically detected!",
+          "link": "https://objective-see.org/blog/blog_0x22.html",
+          "publishedOn": "2026-07-31T01:50:43.322Z",
+          "wordCount": 4210,
+          "title": "All Your Docs Are Belong To Us",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x22/detected.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x57.html",
+          "author": null,
+          "description": "A sophisticated Lazarus Group implant has arrived on macOS. In this post, we deconstruct the Mac variant of a OSX.Dacls, detailing its install logic, persistence, and capabilities.",
+          "link": "https://objective-see.org/blog/blog_0x57.html",
+          "publishedOn": "2026-07-31T01:50:43.316Z",
+          "wordCount": 3175,
+          "title": "The Dacls RAT ...now on macOS!",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x57/plist.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x17.html",
+          "author": null,
+          "description": "A Word document targets Mac users with malicious macros and an open-source payload.",
+          "link": "https://objective-see.org/blog/blog_0x17.html",
+          "publishedOn": "2026-07-31T01:50:43.293Z",
+          "wordCount": 1213,
+          "title": "New Attack, Old Tricks",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x17/warning.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x3E.html",
+          "author": null,
+          "description": "A core Mojave utility is rather disastrously broken - causing a full-system lockup. Let's find out why!",
+          "link": "https://objective-see.org/blog/blog_0x3E.html",
+          "publishedOn": "2026-07-31T01:50:43.291Z",
+          "wordCount": 1944,
+          "title": "Death by vmmap",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x3E/entitlements.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x16.html",
+          "author": null,
+          "description": "Let's analyse the malware that appeared in 2016, discussing the infection vector, persistence mechanism, feature, and disinfection for each.",
+          "link": "https://objective-see.org/blog/blog_0x16.html",
+          "publishedOn": "2026-07-31T01:50:43.279Z",
+          "wordCount": 3602,
+          "title": "Mac Malware of 2016",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x16/CVE_2015-3715_0x2.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x13.html",
+          "author": null,
+          "description": "Does Shazam's Mac App keep recording even when you turn the app off? ...yes :/",
+          "link": "https://objective-see.org/blog/blog_0x13.html",
+          "publishedOn": "2026-07-31T01:50:43.273Z",
+          "wordCount": 2286,
+          "title": "Forget the NSA, it's Shazam that's always listening!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x37.html",
+          "author": null,
+          "description": "A massively popular app from the official Mac App Store, surreptitiously steals your browsing history! By fully reversing the application, we can fully expose its functionality and rather shady capabilities.",
+          "link": "https://objective-see.org/blog/blog_0x37.html",
+          "publishedOn": "2026-07-31T01:50:43.254Z",
+          "wordCount": 3858,
+          "title": "A Deceitful 'Doctor' in the Mac App Store",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x37/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x0D.html",
+          "author": null,
+          "description": "HackingTeam using native OS X crypto to protect malware -neat! New blog w/ sample + decryptions/dumpings/detections",
+          "link": "https://objective-see.org/blog/blog_0x0D.html",
+          "publishedOn": "2026-07-31T01:50:43.239Z",
+          "wordCount": 1483,
+          "title": "HackingTeam Reborn; A Brief Analyis of the RCS Implant Installer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x55.html",
+          "author": null,
+          "description": "CVE-2017-7170 was a local priv-esc vulnerability that affected OSX/macOS for over a decade! Here (for the first time!), we dive into the technical details of finding the bug, the core flaw, and exploitation.",
+          "link": "https://objective-see.org/blog/blog_0x55.html",
+          "publishedOn": "2026-07-31T01:50:43.236Z",
+          "wordCount": 3076,
+          "title": "Sniffing Authentication References on macOS",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x55/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x1C.html",
+          "author": null,
+          "description": "Analyzing code within the macOS kernel audit subsystem uncovered an exploitable heap overflow.",
+          "link": "https://objective-see.org/blog/blog_0x1C.html",
+          "publishedOn": "2026-07-31T01:50:43.228Z",
+          "wordCount": 1450,
+          "title": "Two Bugs, One Func(), part three",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x1C/heapOverflow.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x23.html",
+          "author": null,
+          "description": "High Sierra suffered from a nasty bug (CVE-2017-7149) that afforded local attackers access to the contents of encrypted APFS volumes.",
+          "link": "https://objective-see.org/blog/blog_0x23.html",
+          "publishedOn": "2026-07-31T01:50:43.214Z",
+          "wordCount": 3687,
+          "title": "From the Top to the Bottom; Tracking down CVE-2017-7149",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x23/password.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x27.html",
+          "author": null,
+          "description": "On my flight to ShmooCon, I managed to panic my fully-patched MacBook. Here we analyze the kernel panic report, finding that Apple's AMDRadeonX4150 kext is responsible for the crash.",
+          "link": "https://objective-see.org/blog/blog_0x27.html",
+          "publishedOn": "2026-07-31T01:50:43.202Z",
+          "wordCount": 2031,
+          "title": "An Unpatched Kernel Bug",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x27/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x1F.html",
+          "author": null,
+          "description": "Analysis of OSX/Proton.B reveals some interesting tricks plus a command file that can be decrypted to reveal the malware's capabilities",
+          "link": "https://objective-see.org/blog/blog_0x1F.html",
+          "publishedOn": "2026-07-31T01:50:43.182Z",
+          "wordCount": 2956,
+          "title": "OSX/Proton.B; a brief analysis, 6 miles up",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x1D/blockblock.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x52.html",
+          "author": null,
+          "description": "A massively popular iOS application turns out to be a government spy tool! Here, we analyze the app; decrypting its binary and studying its network traffic.",
+          "link": "https://objective-see.org/blog/blog_0x52.html",
+          "publishedOn": "2026-07-31T01:50:43.168Z",
+          "wordCount": 3460,
+          "title": "Mass Surveillance, is an (un)Complicated Business",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x52/twitter.jpg"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x18.html",
+          "author": null,
+          "description": "Reverse-engineering a 'Russian' implant reveals HackingTeam's code!?",
+          "link": "https://objective-see.org/blog/blog_0x18.html",
+          "publishedOn": "2026-07-31T01:50:43.163Z",
+          "wordCount": 2859,
+          "title": "From Italy With Love?",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x18/taskManager.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x1A.html",
+          "author": null,
+          "description": "The macOS kernel had an (intentional?) off-by-one bug that could trigger a kernel panic.",
+          "link": "https://objective-see.org/blog/blog_0x1A.html",
+          "publishedOn": "2026-07-31T01:50:43.143Z",
+          "wordCount": 3851,
+          "title": "Two Bugs, One Func(), part one",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x1A/diagram.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x25.html",
+          "author": null,
+          "description": "Let's look at all the mac malware from 2017, for each - discussing their infection vector, persistence mechanism, features & goals.",
+          "link": "https://objective-see.org/blog/blog_0x25.html",
+          "publishedOn": "2026-07-31T01:50:43.134Z",
+          "wordCount": 11994,
+          "title": "Mac Malware of 2017",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x25/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x47.html",
+          "author": null,
+          "description": "Learn how to leverage Apple's new Endpoint Security Framework to create a comprehensive (user-mode) Process Monitor for macOS 10.15!",
+          "link": "https://objective-see.org/blog/blog_0x47.html",
+          "publishedOn": "2026-07-31T01:50:43.064Z",
+          "wordCount": 4162,
+          "title": "Writing a Process Monitor with Apple's Endpoint Security Framework",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x47/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x3C.html",
+          "author": null,
+          "description": "Our annual report on all the Mac malware of the year - including samples for download, infection vectors, persistence mechanisms, payloads and more!",
+          "link": "https://objective-see.org/blog/blog_0x3C.html",
+          "publishedOn": "2026-07-31T01:50:43.021Z",
+          "wordCount": 7836,
+          "title": "The Mac Malware of 2018",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x3C/lamepyreBB.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x0A.html",
+          "author": null,
+          "description": "Process monitoring via the KAuth Subsystem (and some limitations)",
+          "link": "https://objective-see.org/blog/blog_0x0A.html",
+          "publishedOn": "2026-07-31T01:50:41.982Z",
+          "wordCount": 1551,
+          "title": "Monitoring Process Creation via the Kernel (Part II)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x39.html",
+          "author": null,
+          "description": "The macOS sandbox is seeks to prevent malicious applications from surreptitiously spy on unsuspecting users. Turns out, it's trivial to sidestep some of these protections, resulting in significant privacy implications!",
+          "link": "https://objective-see.org/blog/blog_0x39.html",
+          "publishedOn": "2026-07-31T01:50:41.979Z",
+          "wordCount": 1988,
+          "title": "[0day] Mojave's Sandbox is Leaky",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x14.html",
+          "author": null,
+          "description": "Read how an attacker can bypass Apple's SIP, via the local OS upgrade process",
+          "link": "https://objective-see.org/blog/blog_0x14.html",
+          "publishedOn": "2026-07-31T01:50:41.976Z",
+          "wordCount": 3218,
+          "title": "[0day] Bypassing Apple's System Integrity Protection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x0E.html",
+          "author": null,
+          "description": "In Objective-See's first guest blog post, Amit Serper presents his detailed analysis of OSX/Pirrit",
+          "link": "https://objective-see.org/blog/blog_0x0E.html",
+          "publishedOn": "2026-07-31T01:50:41.968Z",
+          "wordCount": 2889,
+          "title": "Analysis of an Intrusive Cross-Platform Adware; OSX/Pirrit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x3A.html",
+          "author": null,
+          "description": "A malicious Word document targeting macOS users, was recently uncovered. Let's extract the embedded macros, decode an embedded downloader, and retrieve the 2nd-stage payload!",
+          "link": "https://objective-see.org/blog/blog_0x3A.html",
+          "publishedOn": "2026-07-31T01:50:41.943Z",
+          "wordCount": 1352,
+          "title": "Word to Your Mac",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x11.html",
+          "author": null,
+          "description": "Learn how a Finder Sync can 'extend' Finder.app and how this could be abused for persistence",
+          "link": "https://objective-see.org/blog/blog_0x11.html",
+          "publishedOn": "2026-07-31T01:50:41.934Z",
+          "wordCount": 1404,
+          "title": "Persisting via a Finder Sync",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x12.html",
+          "author": null,
+          "description": "The 'Mac File Opener' adware is fairly normal, except for it how it persists via registered document handlers",
+          "link": "https://objective-see.org/blog/blog_0x12.html",
+          "publishedOn": "2026-07-31T01:50:41.927Z",
+          "wordCount": 2653,
+          "title": "Click File, App Opens",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x24.html",
+          "author": null,
+          "description": "Yet another a massive security flaw affects the latest version of macOS (High Sierra), allowing anybody to log into the root account with a blank, or password, of their choosing!",
+          "link": "https://objective-see.org/blog/blog_0x24.html",
+          "publishedOn": "2026-07-31T01:50:41.915Z",
+          "wordCount": 2123,
+          "title": "Why _blank_ Gets You Root",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x24/preview.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x3D.html",
+          "author": null,
+          "description": "The APT group WindShift has been targeting Middle Eastern governments with Mac implants. Let's (continue to) analyze their 1st-stage macOS implant: OSX.WindTail!",
+          "link": "https://objective-see.org/blog/blog_0x3D.html",
+          "publishedOn": "2026-07-31T01:50:41.912Z",
+          "wordCount": 2371,
+          "title": "Middle East Cyber-Espionage (part two)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x3D/knockknock.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x2E.html",
+          "author": null,
+          "description": "Did you know on macOS, notifications are stored in a unencrypted database? Which means that even 'disappearing' messages from apps such as Signal - may not really disappear. Yikes!",
+          "link": "https://objective-see.org/blog/blog_0x2E.html",
+          "publishedOn": "2026-07-31T01:50:41.895Z",
+          "wordCount": 1338,
+          "title": "When Disappearing Messages Don't Disappear",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x2E/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x20.html",
+          "author": null,
+          "description": "Some undetected adware named \"Mughthesec\" is infecting Macs...let's check it out!",
+          "link": "https://objective-see.org/blog/blog_0x20.html",
+          "publishedOn": "2026-07-31T01:50:41.893Z",
+          "wordCount": 1482,
+          "title": "WTF is Mughthesec!? poking on a piece of undetected adware",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x20/lulu.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x41.html",
+          "author": null,
+          "description": "@CodeColorist continues writing about bugs, such as CVE-2019-8521 and CVE-2019-8565 that provide a mechanism to elevate privileges to root on macOS.",
+          "link": "https://objective-see.org/blog/blog_0x41.html",
+          "publishedOn": "2026-07-31T01:50:41.890Z",
+          "wordCount": 1220,
+          "title": "Rootpipe Reborn (Part II)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x41/traversal.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x10.html",
+          "author": null,
+          "description": "How to verify that an application came from the official Mac App Store, via receipt validation",
+          "link": "https://objective-see.org/blog/blog_0x10.html",
+          "publishedOn": "2026-07-31T01:50:41.886Z",
+          "wordCount": 2156,
+          "title": "Are you from the Mac App Store?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x1D.html",
+          "author": null,
+          "description": "The website of a popular application was hacked, and the application trojaned with a new variant of osx/proton.",
+          "link": "https://objective-see.org/blog/blog_0x1D.html",
+          "publishedOn": "2026-07-31T01:50:41.878Z",
+          "wordCount": 996,
+          "title": "HandBrake Hacked! OSX/Proton (re)Appears",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x1D/authPrompt.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x51.html",
+          "author": null,
+          "description": "The rather infamous APT group, \"Lazarus\", continues to evolve their macOS capabilities. Today, we tear apart their latest 1st-stage implant that supports remote download & in-memory execution of secondary payloads!",
+          "link": "https://objective-see.org/blog/blog_0x51.html",
+          "publishedOn": "2026-07-31T01:50:41.848Z",
+          "wordCount": 2553,
+          "title": "Lazarus Group Goes 'Fileless'",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x51/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x42.html",
+          "author": null,
+          "description": "After the success of #OBTS v1.0, we decided to go international and plan #OBTS v2.0 in Europe! In this blog post, we re-live the highlights (from Monaco!) of \"Objective by the Sea\" v2.0.",
+          "link": "https://objective-see.org/blog/blog_0x42.html",
+          "publishedOn": "2026-07-31T01:50:41.823Z",
+          "wordCount": 783,
+          "title": "\"Objective by the Sea\" v2.0",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x42/twitter.jpg"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x29.html",
+          "author": null,
+          "description": "Recently, the popular MacUpdate website was subverted to distribute a new macOS cryptominer; OSX/CreativeUpdater.",
+          "link": "https://objective-see.org/blog/blog_0x29.html",
+          "publishedOn": "2026-07-31T01:50:41.811Z",
+          "wordCount": 1636,
+          "title": "Analyzing OSX/CreativeUpdater",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x29/tiago.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x2B.html",
+          "author": null,
+          "description": "Turns out the innocuously named \"Calendar 2\" app, found on the official Mac App Store, was surreptitiously turning Mac into cryptocurrency miners!",
+          "link": "https://objective-see.org/blog/blog_0x2B.html",
+          "publishedOn": "2026-07-31T01:50:41.808Z",
+          "wordCount": 1302,
+          "title": "A Surreptitious Cryptocurrency Miner in the Mac App Store?",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x2B/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x31.html",
+          "author": null,
+          "description": "Apple recently updated the way login items are stored by the OS. In this post, we'll illustrate how to parse the (new) login item files to detect persistence",
+          "link": "https://objective-see.org/blog/blog_0x31.html",
+          "publishedOn": "2026-07-31T01:50:41.797Z",
+          "wordCount": 46,
+          "title": "Block Blocking Login Items",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x34/blockblock.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x26.html",
+          "author": null,
+          "description": "OSX/MaMi (the first Mac malware of 2018) hijacks infected users' DNS settings and installs a malicious certificate into the System keychain, in order to give remote attackers 'access' to all network traffic",
+          "link": "https://objective-see.org/blog/blog_0x26.html",
+          "publishedOn": "2026-07-31T01:50:41.788Z",
+          "wordCount": 2617,
+          "title": "Ay MaMi - Analyzing a New macOS DNS Hijacker",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x26/detected.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x45.html",
+          "author": null,
+          "description": "Recently, an attacker targeted (Mac) users via a Firefox 0day. In this third post, we analyze a second backdoor used in the attack, detailing its persistence, capabilities, and ultimate identify it a new variant of the cross-platform Mokes malware!",
+          "link": "https://objective-see.org/blog/blog_0x45.html",
+          "publishedOn": "2026-07-31T01:50:41.783Z",
+          "wordCount": 1876,
+          "title": "Burned by Fire(fox) (Part III)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x45/compare.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x2F.html",
+          "author": null,
+          "description": "In macOS Mojave apps, to have to obtain user permission before using the Mac camera & microphone. We'll illustrate how this is trivial to bypass (at least in the current beta).",
+          "link": "https://objective-see.org/blog/blog_0x2F.html",
+          "publishedOn": "2026-07-31T01:50:41.763Z",
+          "wordCount": 1116,
+          "title": "Breaking macOS Mojave (Beta)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x2F/oversight.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x19.html",
+          "author": null,
+          "description": "Today is our 2nd birthday! Let's look at our past, present, and future.",
+          "link": "https://objective-see.org/blog/blog_0x19.html",
+          "publishedOn": "2026-07-31T01:50:41.758Z",
+          "wordCount": 480,
+          "title": "Happy Birthday to Objective-See",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x19/taskManager.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x36.html",
+          "author": null,
+          "description": "If you can programmatically generate synthetic mouse clicks, you can break macOS! Approving kernel extensions, dismissing privacy alerts, and much more more...",
+          "link": "https://objective-see.org/blog/blog_0x36.html",
+          "publishedOn": "2026-07-31T01:50:41.753Z",
+          "wordCount": 2520,
+          "title": "[0day] Synthetic Reality",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x36/0day.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x2D.html",
+          "author": null,
+          "description": "Turns out that writing security tools is a great way to inadvertently uncover bugs in macOS. How about a crash in Apple's 'Security' framework ... that can't be good!?",
+          "link": "https://objective-see.org/blog/blog_0x2D.html",
+          "publishedOn": "2026-07-31T01:50:41.717Z",
+          "wordCount": 2220,
+          "title": "An Insecurity in Apple's Security Framework?",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x2D/xcode.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x0F.html",
+          "author": null,
+          "description": "By monitoring file I/O events and detecting the rapid creation of encrypted files by untrusted processes, can ransomware be generically detected?",
+          "link": "https://objective-see.org/blog/blog_0x0F.html",
+          "publishedOn": "2026-07-31T01:50:41.712Z",
+          "wordCount": 7728,
+          "title": "Towards Generic Ransomware Detection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x30.html",
+          "author": null,
+          "description": "Are full paths and preview thumbnails for files even on encrypted containers and removable usb devices really persistently stored? ...yes :( Apple's 'QuickLook' cache is to blame.",
+          "link": "https://objective-see.org/blog/blog_0x30.html",
+          "publishedOn": "2026-07-31T01:50:41.695Z",
+          "wordCount": 1993,
+          "title": "Cache Me Outside",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x30/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x0B.html",
+          "author": null,
+          "description": "Getting process creation notifcations from kernel-mode to user-mode, via the undocumented kev_msg_post function",
+          "link": "https://objective-see.org/blog/blog_0x0B.html",
+          "publishedOn": "2026-07-31T01:50:41.679Z",
+          "wordCount": 2266,
+          "title": "Monitoring Process Creation via the Kernel (Part III)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x15.html",
+          "author": null,
+          "description": "Apple's App Translocation broke several of my tools, but we can locally undo it to restore broken functionality!",
+          "link": "https://objective-see.org/blog/blog_0x15.html",
+          "publishedOn": "2026-07-31T01:50:41.672Z",
+          "wordCount": 3313,
+          "title": "'Untranslocating' an App",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x15/CVE_2015-3715_0x2.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x46.html",
+          "author": null,
+          "description": "In this guest blog post, \"Objective by the Sea\" speaker, Csaba Fitzl writes about an interesting way to get root via Apps from the official Mac App Store!",
+          "link": "https://objective-see.org/blog/blog_0x46.html",
+          "publishedOn": "2026-07-31T01:50:41.666Z",
+          "wordCount": 5088,
+          "title": "Getting Root with Benign AppStore Apps",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x46/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x32.html",
+          "author": null,
+          "description": "A new Mac malware targets the cryptocurrency community. In this post, we dive into the malware and illustrate how Objective-See's tools can generically thwart this new threat at every step of the way.",
+          "link": "https://objective-see.org/blog/blog_0x32.html",
+          "publishedOn": "2026-07-31T01:50:41.644Z",
+          "wordCount": 55,
+          "title": "OSX.Dummy",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x32/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x38.html",
+          "author": null,
+          "description": "The WINDSHIFT APT group is successfully infecting Macs with a novel infection mechanism. By abusing custom URL scheme handlers and minimal user interaction, Macs can be remotely compromised!",
+          "link": "https://objective-see.org/blog/blog_0x38.html",
+          "publishedOn": "2026-07-31T01:50:41.624Z",
+          "wordCount": 2518,
+          "title": "Remote Mac Exploitation Via Custom URL Schemes",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x38/diagram.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x43.html",
+          "author": null,
+          "description": "Recently, an attacker targeted (Mac) users via a Firefox 0day. In this first post, we triage and identify the malware (OSX.NetWire.A) utilized in this attack, identifying its methods of persistence, and more!",
+          "link": "https://objective-see.org/blog/blog_0x43.html",
+          "publishedOn": "2026-07-31T01:50:41.598Z",
+          "wordCount": 1702,
+          "title": "Burned by Fire(fox) (Part I)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x43/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x48.html",
+          "author": null,
+          "description": "Learn how to leverage Apple's new Endpoint Security Framework to create a comprehensive (user-mode) File Monitor for macOS 10.15!",
+          "link": "https://objective-see.org/blog/blog_0x48.html",
+          "publishedOn": "2026-07-31T01:50:41.576Z",
+          "wordCount": 2964,
+          "title": "Writing a File Monitor with Apple's Endpoint Security Framework",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x48/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x40.html",
+          "author": null,
+          "description": "In part one of a guest blog post, @CodeColorist writes about several neat macOS vulnerabilities.",
+          "link": "https://objective-see.org/blog/blog_0x40.html",
+          "publishedOn": "2026-07-31T01:50:41.551Z",
+          "wordCount": 1190,
+          "title": "Rootpipe Reborn (Part I)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x40/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x3B.html",
+          "author": null,
+          "description": "The APT group WindShift has been targeting Middle Eastern governments with Mac implants. Let's analyze their 1st-stage macOS implant: OSX.WindTail!",
+          "link": "https://objective-see.org/blog/blog_0x3B.html",
+          "publishedOn": "2026-07-31T01:50:41.550Z",
+          "wordCount": 2017,
+          "title": "Middle East Cyber-Espionage",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x3B/loginItems.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x56.html",
+          "author": null,
+          "description": "Today we uncover two (local) security flaws in Zoom's latest macOS client. First, a privilege escalation vulnerability, and second, a method to surreptitiously access a user's webcam and microphone (via Zoom).",
+          "link": "https://objective-see.org/blog/blog_0x56.html",
+          "publishedOn": "2026-07-31T01:50:41.545Z",
+          "wordCount": 3656,
+          "title": "The 'S' in Zoom, Stands for Security",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x56/root.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x1B.html",
+          "author": null,
+          "description": "Apple's 'fix' for a macOS kernel panic, fixes nothing and worse, introduces a new bug.",
+          "link": "https://objective-see.org/blog/blog_0x1B.html",
+          "publishedOn": "2026-07-31T01:50:41.516Z",
+          "wordCount": 3758,
+          "title": "Two Bugs, One Func(), part two",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x1B/strlcpy.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x50.html",
+          "author": null,
+          "description": "A 0day logic flaw in Microsoft Excel leads to 'remote' code execution on macOS, via malicious macros.",
+          "link": "https://objective-see.org/blog/blog_0x50.html",
+          "publishedOn": "2026-07-31T01:50:41.508Z",
+          "wordCount": 1731,
+          "title": "[0day] Abusing XLM Macros in SYLK Files",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x50/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x2A.html",
+          "author": null,
+          "description": "I uncovered a new cross-platform backdoor that provides remote attackers persistent access to infected systems",
+          "link": "https://objective-see.org/blog/blog_0x2A.html",
+          "publishedOn": "2026-07-31T01:50:41.505Z",
+          "wordCount": 3559,
+          "title": "Tearing Apart the Undetected (OSX)Coldroot RAT",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x2A/screencapt.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x44.html",
+          "author": null,
+          "description": "Recently, an attacker targeted (Mac) users via a Firefox 0day. In this second post, we fully reverse OSX.NetWire.A, revealing (for the first time!), its inner workings and complex capabilities.",
+          "link": "https://objective-see.org/blog/blog_0x44.html",
+          "publishedOn": "2026-07-31T01:50:41.476Z",
+          "wordCount": 3477,
+          "title": "Burned by Fire(fox) (Part II)",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x44/encrypted.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x54.html",
+          "author": null,
+          "description": "The Lazarus group's latest implant/loader supports in-memory loading of 2nd-stage payloads. In this post we describe exactly how to repurposing this 1st-stage loader to execute *our* custom 'fileless' payloads!",
+          "link": "https://objective-see.org/blog/blog_0x54.html",
+          "publishedOn": "2026-07-31T01:50:41.465Z",
+          "wordCount": 4227,
+          "title": "Weaponizing a Lazarus Group Implant",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x54/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x0C.html",
+          "author": null,
+          "description": "Dissecting string obfuscations, junk code insertions, and anti-debugging logic of InstallCore",
+          "link": "https://objective-see.org/blog/blog_0x0C.html",
+          "publishedOn": "2026-07-31T01:50:41.442Z",
+          "wordCount": 1385,
+          "title": "Analyzing the Anti-Analysis Logic of an Adware Installer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x1E.html",
+          "author": null,
+          "description": "Looks like somebody on the 'dark web' is offering 'Ransomware as a Service'...that's designed to infect Macs!",
+          "link": "https://objective-see.org/blog/blog_0x1E.html",
+          "publishedOn": "2026-07-31T01:50:41.413Z",
+          "wordCount": 1869,
+          "title": "OSX/MacRansom; analyzing the latest ransomware to target macs",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x1E/rwAlert.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x49.html",
+          "author": null,
+          "description": "A new macOS backdoor written by the infamous Lazarus APT group needs analyzing. Here, we examine it's infection vector, method of persistence, capabilities, and more!",
+          "link": "https://objective-see.org/blog/blog_0x49.html",
+          "publishedOn": "2026-07-31T01:50:41.411Z",
+          "wordCount": 3038,
+          "title": "Pass the AppleJeus",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x49/pkgContents.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x2C.html",
+          "author": null,
+          "description": "In this guest blog post my friend Mikhail Sosonkin reverses Apple's screencapture utility, discusses Mac malware that captures desktop images, and suggests methods for screen-capture detection!",
+          "link": "https://objective-see.org/blog/blog_0x2C.html",
+          "publishedOn": "2026-07-31T01:50:41.364Z",
+          "wordCount": 3275,
+          "title": "Who Moved My Pixels?!",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x2C/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x21.html",
+          "author": null,
+          "description": "A new 'security' feature in macOS 10.13, is trivial to bypass.",
+          "link": "https://objective-see.org/blog/blog_0x21.html",
+          "publishedOn": "2026-07-31T01:50:41.351Z",
+          "wordCount": 1610,
+          "title": "High Sierra's 'Secure Kernel Extension Loading' is Broken",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x21/unapproved.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x35.html",
+          "author": null,
+          "description": "Imagine you've gained remote code execution on a Mac via a malicious Word document. Turns out, you're still stuck in a sandbox. However, via a faulty regex, you can escape and persist!",
+          "link": "https://objective-see.org/blog/blog_0x35.html",
+          "publishedOn": "2026-07-31T01:50:41.248Z",
+          "wordCount": 1545,
+          "title": "Escaping the Microsoft Office Sandbox",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x35/office.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x34.html",
+          "author": null,
+          "description": "Apple wrote code to appease the Chinese government ...it was buggy. In certain configurations, iOS devices were vulnerable a \"emoji-related\" flaw that could be triggered remotely!",
+          "link": "https://objective-see.org/blog/blog_0x34.html",
+          "publishedOn": "2026-07-31T01:50:41.245Z",
+          "wordCount": 62,
+          "title": "A Remote iOS Bug",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x34/twitter.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x28.html",
+          "author": null,
+          "description": "The EFF/Lookout discovered a cross-platform implant, named CrossRat with ties to nationstate operators. Here, we tear it apart; analyzing its persistence mechanisms, features, and network communications.",
+          "link": "https://objective-see.org/blog/blog_0x28.html",
+          "publishedOn": "2026-07-31T01:50:41.216Z",
+          "wordCount": 4036,
+          "title": "Analyzing CrossRAT",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x28/blockblock.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x3F.html",
+          "author": null,
+          "description": "Let's tear apart a persistent piece of adware, decompiling, decoding, and decompressing it's code to uncover its methods and capabilities.",
+          "link": "https://objective-see.org/blog/blog_0x3F.html",
+          "publishedOn": "2026-07-31T01:50:41.128Z",
+          "wordCount": 2449,
+          "title": "Mac Adware, à la Python",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x3F/decompiled.png"
+        },
+        {
+          "id": "https://objective-see.org/blog/blog_0x33.html",
+          "author": null,
+          "description": "In this guest blog post @CodeColorist writes about a neat macOS vulnerability. Ironically, by abusing security mechanisms such as sandboxing, macOS can be coerced to load an untrusted library, into a SIP-entitled process!",
+          "link": "https://objective-see.org/blog/blog_0x33.html",
+          "publishedOn": "2026-07-31T01:50:40.809Z",
+          "wordCount": 73,
+          "title": "[0day] Bypassing SIP via Sandboxing",
+          "imageUrl": "https://objective-see.com/images/blog/blog_0x33/developerDir.png"
+        }
+      ]
     },
     {
       "title": "theevilbit blog",
@@ -19537,7 +20408,7 @@
       "articles": []
     },
     {
-      "title": "Publications | Outflank",
+      "title": "Outflank Blog | Outflank",
       "feedUrl": "https://www.outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
       "articles": []
@@ -19564,6 +20435,21 @@
       "feedUrl": "https://www.elastic.co/security-labs/rss/feed.xml",
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
+        {
+          "id": "ai-agent-attack-detection-hugging-face-breach",
+          "author": null,
+          "description": "Every stage of the Hugging Face breach maps to Elastic Defend and SIEM rules already shipping, from worker RCE and credential harvest to self-migrating C2 and GenAI detection.",
+          "link": "https://www.elastic.co/security-labs/ai-agent-attack-detection-hugging-face-breach",
+          "publishedOn": "2026-07-31T00:00:00.000Z",
+          "wordCount": 12115,
+          "title": "Exploring the Hugging Face Breach: mapping AI agent tactics to Elastic Defend",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/ai-agent-attack-detection-hugging-face-breach/ai-agent-attack-detection-hugging-face-breach.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/ai-agent-attack-detection-hugging-face-breach/ai-agent-attack-detection-hugging-face-breach.webp"
+        },
         {
           "id": "sentinel-detection-rules-migration",
           "author": null,
@@ -19707,6 +20593,36 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/samsung-kernel-protections-gpu-dma-bypass/",
+          "author": null,
+          "description": "Jamf Threat Labs analyzes Samsung kernel memory protections and bypass methods observed in the wild.",
+          "link": "https://www.jamf.com/blog/samsung-kernel-protections-gpu-dma-bypass/",
+          "publishedOn": "2026-07-29T15:00:00.000Z",
+          "wordCount": 4625,
+          "title": "From graphics driver to root shell: a tour of Samsung’s kernel protections",
+          "imageUrl": "https://media.jamf.com/images/news/2026/threat-labs-blog-mac.webp?h=500&q=80&w=800"
+        },
+        {
+          "id": "https://www.jamf.com/blog/eu-ai-act-2026-deadlines-it-compliance-guide/",
+          "author": null,
+          "description": "The EU AI Act's high-risk deadlines just moved. Here's what stayed, what changed and what to do now.",
+          "link": "https://www.jamf.com/blog/eu-ai-act-2026-deadlines-it-compliance-guide/",
+          "publishedOn": "2026-07-22T18:39:00.000Z",
+          "wordCount": 2155,
+          "title": "The EU AI Act: what it is, how to prepare and where to learn more",
+          "imageUrl": "https://media.jamf.com/images/news/2026/eu-ai-act-2026-deadlines-it-compliance-guide.webp?h=400&q=80&w=700"
+        },
+        {
+          "id": "https://www.jamf.com/blog/mdm-vs-endpoint-security-visibility-gap/",
+          "author": null,
+          "description": "Discover why \"managed\" doesn't mean \"secure.\" See where MDM-only environments leave blind spots and how integrating endpoint security closes them.",
+          "link": "https://www.jamf.com/blog/mdm-vs-endpoint-security-visibility-gap/",
+          "publishedOn": "2026-07-22T18:13:00.000Z",
+          "wordCount": 2012,
+          "title": "Managed doesn’t mean secure",
+          "imageUrl": "https://media.jamf.com/images/news/2026/mdm-vs-endpoint-security-visibility-gap.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/sms-spoofing-via-email-thread-injection/",
           "author": null,
           "description": "Discover how bad actors exploit the connection between email and messaging apps and why it matters to IT.",
@@ -19825,16 +20741,6 @@
           "wordCount": 4996,
           "title": "PamStealer: a Rust-based macOS infostealer that validates credentials through PAM",
           "imageUrl": "https://media.jamf.com/images/news/2026/threat-labs-blog-mac.webp?h=500&q=80&w=800"
-        },
-        {
-          "id": "https://www.jamf.com/blog/mobile-forensics-minutes-not-weeks/",
-          "author": null,
-          "description": "Jamf Mobile Forensics detects sophisticated mobile spyware in minutes — giving security teams a complete incident timeline without surrendering the device.",
-          "link": "https://www.jamf.com/blog/mobile-forensics-minutes-not-weeks/",
-          "publishedOn": "2026-06-29T20:15:00.000Z",
-          "wordCount": 2022,
-          "title": "Mobile forensics, minutes not weeks: from suspicion to timeline",
-          "imageUrl": "https://media.jamf.com/images/news/2026/mobile-forensics-minutes-not-weeks.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -19910,6 +20816,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/agentic-code-security",
+          "author": "Amir Lande Blau",
+          "description": "Enterprise AI AppSec requires more than powerful models. It requires a system that balances speed, depth, and cost across the software lifecycle.",
+          "link": "https://www.wiz.io/blog/agentic-code-security",
+          "publishedOn": "2026-07-30T16:47:57.000Z",
+          "wordCount": 18251,
+          "title": "Rethinking Scanning for the AI Era: Wiz’s Agentic Code Security System",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1785426369-atlas-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1785426369-atlas-2x.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+          "author": "Yuval Avrahami",
+          "description": "A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.",
+          "link": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+          "publishedOn": "2026-07-30T12:00:01.000Z",
+          "wordCount": 17496,
+          "title": "CosmosEscape: Taking Over Every Database in Azure Cosmos DB",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1785342613-cosmos-2x-1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1785342613-cosmos-2x-1.png"
+        },
         {
           "id": "https://www.wiz.io/blog/6-months-google",
           "author": "Assaf Rappaport",
@@ -20194,21 +21130,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1782933699-pqc-copy-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/ai-threat-readiness-with-wizos",
-          "author": "Allison Jackson",
-          "description": "As the time from vulnerability discovery to exploitation shrinks, building with minimal, secured components is more important than ever. Here is how WizOS helps.",
-          "link": "https://www.wiz.io/blog/ai-threat-readiness-with-wizos",
-          "publishedOn": "2026-06-30T17:50:35.000Z",
-          "wordCount": 17120,
-          "title": "Start Secure in the AI Era: Accelerating AI Threat Readiness with WizOS",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1782829436-opportunities-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1782829436-opportunities-2x.png"
         }
       ]
     },
@@ -20256,16 +21177,6 @@
           "wordCount": 4416,
           "title": "Malware and cryptography 45 - Shamir Secret Sharing. Simple C example.",
           "imageUrl": "https://cocomelonc.github.io/assets/images/214/2026-07-02_11-34.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/linux/2026/06/30/ddos-syn-flood-detection-1.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/linux/2026/06/30/ddos-syn-flood-detection-1.html",
-          "publishedOn": "2026-06-30T23:00:00.000Z",
-          "wordCount": 2681,
-          "title": "Anti-DDoS research part 3: SYN flood detection with handshake asymmetry. Simple C, Python examples.",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/213/2026-07-01_12-05.png"
         }
       ]
     }
