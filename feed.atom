@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-05T01:41:04.648Z</updated>
+    <updated>2026-08-05T01:50:59.239Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -278,6 +278,23 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Research Worth Reading - Week 31, 2026]]></title>
+        <id>https://pentesterlab.com/blog/research-worth-reading-week31-2026</id>
+        <link href="https://pentesterlab.com/blog/research-worth-reading-week31-2026"/>
+        <updated>2026-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reward hacking, shrinking harnesses, LLM-first SAST and agents that cheat.
+🤗 Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+👍 0
+  
+Last week, we discussed the OpenAI agent that escaped its sandbox and used an external code-execution environment to attack Hugging Face.
+Hugging Face has now published the technical timeline: roughly 17600 actions across Kubernetes, cloud infrastructure, internal networks and source control. The link is worth opening for the animation alone. After playing with it, you will never look at an incident report the same way again.
+The agent did not become evil. It simply found an easier way to complete its objective: steal the benchmark answers instead of solving the benchmark.
+If you ever needed a clear example of reward…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft releases Orchard for scalable AI agent development]]></title>
         <id>https://4sysops.com/archives/microsoft-releases-orchard-for-scalable-ai-agent-development/</id>
         <link href="https://4sysops.com/archives/microsoft-releases-orchard-for-scalable-ai-agent-development/"/>
@@ -549,6 +566,18 @@ Source]]></summary>
         <summary type="html"><![CDATA[Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything.]]></summary>
         <author>
             <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The AI Pentesting Winners May Not Be AI Startups]]></title>
+        <id>https://pentesterlab.com/blog/the-ai-pentesting-winners-may-not-be-ai-startups</id>
+        <link href="https://pentesterlab.com/blog/the-ai-pentesting-winners-may-not-be-ai-startups"/>
+        <updated>2026-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI startups need to solve the last mile of pentest automation.
+      
+Pentesting boutiques only need to make their humans more productive.]]></summary>
+        <author>
+            <name>PentesterLab</name>
         </author>
     </entry>
     <entry>
@@ -3101,6 +3130,21 @@ The post From Virtual Share to Physical Shell: Leveraging Windows’ Inconsisten
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Research Worth Reading - Week 30, 2026]]></title>
+        <id>https://pentesterlab.com/blog/research-worth-reading-week30-2026</id>
+        <link href="https://pentesterlab.com/blog/research-worth-reading-week30-2026"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The agents are playing Prison Break this week. We also have two very cool exploit chains and a question I keep coming back to: is AI going to make exploit chains more complex?
+🤖 OpenAI and Hugging Face partner to address security incident during model evaluation
+👍 1
+  
+Unless you live under a rock, you probably heard about this story already. This week, an OpenAI agent escaped its evaluation environment and compromised Hugging Face while trying to pass a benchmark. The strongest lesson is not that agents have suddenly become malicious, but that capable agents will explore every path available to them unless the environment, scope and stopping conditions are much stronger than the objective they have been given. A good reminder that reward hacking can have consequences. 
+OpenAI says the a…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft Entra sets passkey deadline as July updates add tenant recovery]]></title>
         <id>https://4sysops.com/archives/microsoft-entra-sets-passkey-deadline-as-july-updates-add-tenant-recovery/</id>
         <link href="https://4sysops.com/archives/microsoft-entra-sets-passkey-deadline-as-july-updates-add-tenant-recovery/"/>
@@ -4124,6 +4168,20 @@ Source]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bletchley Park and the Future of Open Source AppSec]]></title>
+        <id>https://pentesterlab.com/blog/bletchley-park-and-the-future-of-open-source-appsec</id>
+        <link href="https://pentesterlab.com/blog/bletchley-park-and-the-future-of-open-source-appsec"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[defenders finally have the edge. AI helps maintainers understand vulnerability reports, review code, write patches and deploy fixes much faster than before. Defenders can keep improving their codebase every week and regularly break exploit chains, while attackers still need to understand the vulnerability, develop an exploit and find targets that have not updated.
+      
+Fastjson RCE case, the researchers mentioned the vulnerability publicly before releasing the full technical details. That signal was enough for other people to begin investigating, and working exploits appeared before the complete write-up was available.
+      
+"Negative Days" describes the same problem from another angle. Once a patch lands in a public repository, the patch itself effectively becomes the advisory. Attacke…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Should the US ban Chinese open-source AI models?]]></title>
         <id>https://4sysops.com/archives/should-the-us-ban-chinese-open-source-ai-models/</id>
         <link href="https://4sysops.com/archives/should-the-us-ban-chinese-open-source-ai-models/"/>
@@ -4743,6 +4801,21 @@ Along similar lines, Sysdig recently published a blog on JADEPUFFER, which it as
 The Hugging Face disclosure highlights three important things: autonomous AI intrusion, defensive asymmetry, and missing IOCs.]]></summary>
         <author>
             <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research Worth Reading - Week 29, 2026]]></title>
+        <id>https://pentesterlab.com/blog/research-worth-reading-week29-2026</id>
+        <link href="https://pentesterlab.com/blog/research-worth-reading-week29-2026"/>
+        <updated>2026-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week’s research is mostly about how AI changes the economics of vulnerability research by taking on the grunt work, exploring more paths and making it cheaper to keep digging long after the first bug has been found.
+🤖 AI Assisted Vulnerability Research on Embedded Targets | QTNKSR
+👍 0
+  
+Quentin Kaiser documents an experiment using an AI agent to reverse engineer a Netgear cable modem, identify vulnerabilities and develop working exploits against a live embedded target. The agent handled a significant amount of analysis and exploration, but only after Quentin had prepared the environment with hardware access, Ghidra integration, debugging support and target-specific guidance.
+The cost of entry into embedded vulnerability research can feel particularly high. Before meaningful researc…]]></summary>
+        <author>
+            <name>PentesterLab</name>
         </author>
     </entry>
     <entry>
@@ -5568,6 +5641,21 @@ In short, this triggered a DNS request from the macOS Terminal app:]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Technical interviews in the age of AI]]></title>
+        <id>https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai</id>
+        <link href="https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai"/>
+        <updated>2026-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interview.
+      
+You learn a lot by watching someone work
+Hacking and code review
+See how your candidates actually work
+Explore Interview and see how your candidates actually work.]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OpenAI outperforms Anthropic in terms of intelligence-per-cost]]></title>
         <id>https://4sysops.com/archives/openai-outperforms-anthropic-in-terms-of-intelligence-per-cost/</id>
         <link href="https://4sysops.com/archives/openai-outperforms-anthropic-in-terms-of-intelligence-per-cost/"/>
@@ -6367,6 +6455,20 @@ Source]]></summary>
 Source]]></summary>
         <author>
             <name>IT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research Worth Reading - Week 28, 2026]]></title>
+        <id>https://pentesterlab.com/blog/research-worth-reading-week28-2026</id>
+        <link href="https://pentesterlab.com/blog/research-worth-reading-week28-2026"/>
+        <updated>2026-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week is less about whether AI can find vulnerabilities and more about what happens when you give it enough time, context and infrastructure to keep looking.  What I like about this week’s selection is that none of it relies on the usual “the model is getting smarter” story. The interesting shift is that security work that used to be limited by human time, cloud costs or specialist availability can now be repeated for hours or days. The systems are still imperfect, but they are becoming cheap and persistent enough to inspect everything, revisit weak signals and keep going long after a human would have moved on.
+🤖 The Bug Bounty Singularity: Our Hackbot
+👍 1
+  
+Joseph Thacker and JD spent five months building a hackbot that reportedly found 126 vulnerabilities, including 88 rated High …]]></summary>
+        <author>
+            <name>PentesterLab</name>
         </author>
     </entry>
     <entry>

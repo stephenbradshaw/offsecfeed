@@ -21612,6 +21612,83 @@
           "imageUrl": "https://cocomelonc.github.io/assets/images/215/2026-07-16_15-27.png"
         }
       ]
+    },
+    {
+      "title": "PentesterLab",
+      "feedUrl": "https://pentesterlab.com/blog/feed",
+      "siteUrl": "https://pentesterlab.com/blog",
+      "articles": [
+        {
+          "id": "https://pentesterlab.com/blog/research-worth-reading-week31-2026",
+          "author": null,
+          "description": "Reward hacking, shrinking harnesses, LLM-first SAST and agents that cheat.\n🤗 Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident\n👍 0\n  \nLast week, we discussed the OpenAI agent that escaped its sandbox and used an external code-execution environment to attack Hugging Face.\nHugging Face has now published the technical timeline: roughly 17600 actions across Kubernetes, cloud infrastructure, internal networks and source control. The link is worth opening for the animation alone. After playing with it, you will never look at an incident report the same way again.\nThe agent did not become evil. It simply found an easier way to complete its objective: steal the benchmark answers instead of solving the benchmark.\nIf you ever needed a clear example of reward…",
+          "link": "https://pentesterlab.com/blog/research-worth-reading-week31-2026",
+          "publishedOn": "2026-08-04T00:00:00.000Z",
+          "wordCount": 1885,
+          "title": "Research Worth Reading - Week 31, 2026",
+          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week31-2026/thumbnail"
+        },
+        {
+          "id": "https://pentesterlab.com/blog/the-ai-pentesting-winners-may-not-be-ai-startups",
+          "author": null,
+          "description": "AI startups need to solve the last mile of pentest automation.\n      \nPentesting boutiques only need to make their humans more productive.",
+          "link": "https://pentesterlab.com/blog/the-ai-pentesting-winners-may-not-be-ai-startups",
+          "publishedOn": "2026-08-03T00:00:00.000Z",
+          "wordCount": 1645,
+          "title": "The AI Pentesting Winners May Not Be AI Startups",
+          "imageUrl": "https://pentesterlab.com/blog/the-ai-pentesting-winners-may-not-be-ai-startups/thumbnail"
+        },
+        {
+          "id": "https://pentesterlab.com/blog/research-worth-reading-week30-2026",
+          "author": null,
+          "description": "The agents are playing Prison Break this week. We also have two very cool exploit chains and a question I keep coming back to: is AI going to make exploit chains more complex?\n🤖 OpenAI and Hugging Face partner to address security incident during model evaluation\n👍 1\n  \nUnless you live under a rock, you probably heard about this story already. This week, an OpenAI agent escaped its evaluation environment and compromised Hugging Face while trying to pass a benchmark. The strongest lesson is not that agents have suddenly become malicious, but that capable agents will explore every path available to them unless the environment, scope and stopping conditions are much stronger than the objective they have been given. A good reminder that reward hacking can have consequences. \nOpenAI says the a…",
+          "link": "https://pentesterlab.com/blog/research-worth-reading-week30-2026",
+          "publishedOn": "2026-07-27T00:00:00.000Z",
+          "wordCount": 2137,
+          "title": "Research Worth Reading - Week 30, 2026",
+          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week30-2026/thumbnail"
+        },
+        {
+          "id": "https://pentesterlab.com/blog/bletchley-park-and-the-future-of-open-source-appsec",
+          "author": null,
+          "description": "defenders finally have the edge. AI helps maintainers understand vulnerability reports, review code, write patches and deploy fixes much faster than before. Defenders can keep improving their codebase every week and regularly break exploit chains, while attackers still need to understand the vulnerability, develop an exploit and find targets that have not updated.\n      \nFastjson RCE case, the researchers mentioned the vulnerability publicly before releasing the full technical details. That signal was enough for other people to begin investigating, and working exploits appeared before the complete write-up was available.\n      \n\"Negative Days\" describes the same problem from another angle. Once a patch lands in a public repository, the patch itself effectively becomes the advisory. Attacke…",
+          "link": "https://pentesterlab.com/blog/bletchley-park-and-the-future-of-open-source-appsec",
+          "publishedOn": "2026-07-22T00:00:00.000Z",
+          "wordCount": 2009,
+          "title": "Bletchley Park and the Future of Open Source AppSec",
+          "imageUrl": "https://pentesterlab.com/blog/bletchley-park-and-the-future-of-open-source-appsec/thumbnail"
+        },
+        {
+          "id": "https://pentesterlab.com/blog/research-worth-reading-week29-2026",
+          "author": null,
+          "description": "This week’s research is mostly about how AI changes the economics of vulnerability research by taking on the grunt work, exploring more paths and making it cheaper to keep digging long after the first bug has been found.\n🤖 AI Assisted Vulnerability Research on Embedded Targets | QTNKSR\n👍 0\n  \nQuentin Kaiser documents an experiment using an AI agent to reverse engineer a Netgear cable modem, identify vulnerabilities and develop working exploits against a live embedded target. The agent handled a significant amount of analysis and exploration, but only after Quentin had prepared the environment with hardware access, Ghidra integration, debugging support and target-specific guidance.\nThe cost of entry into embedded vulnerability research can feel particularly high. Before meaningful researc…",
+          "link": "https://pentesterlab.com/blog/research-worth-reading-week29-2026",
+          "publishedOn": "2026-07-20T00:00:00.000Z",
+          "wordCount": 2340,
+          "title": "Research Worth Reading - Week 29, 2026",
+          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week29-2026/thumbnail"
+        },
+        {
+          "id": "https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai",
+          "author": null,
+          "description": "Interview.\n      \nYou learn a lot by watching someone work\nHacking and code review\nSee how your candidates actually work\nExplore Interview and see how your candidates actually work.",
+          "link": "https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai",
+          "publishedOn": "2026-07-16T00:00:00.000Z",
+          "wordCount": 1462,
+          "title": "Technical interviews in the age of AI",
+          "imageUrl": "https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai/thumbnail"
+        },
+        {
+          "id": "https://pentesterlab.com/blog/research-worth-reading-week28-2026",
+          "author": null,
+          "description": "This week is less about whether AI can find vulnerabilities and more about what happens when you give it enough time, context and infrastructure to keep looking.  What I like about this week’s selection is that none of it relies on the usual “the model is getting smarter” story. The interesting shift is that security work that used to be limited by human time, cloud costs or specialist availability can now be repeated for hours or days. The systems are still imperfect, but they are becoming cheap and persistent enough to inspect everything, revisit weak signals and keep going long after a human would have moved on.\n🤖 The Bug Bounty Singularity: Our Hackbot\n👍 1\n  \nJoseph Thacker and JD spent five months building a hackbot that reportedly found 126 vulnerabilities, including 88 rated High …",
+          "link": "https://pentesterlab.com/blog/research-worth-reading-week28-2026",
+          "publishedOn": "2026-07-13T00:00:00.000Z",
+          "wordCount": 2441,
+          "title": "Research Worth Reading - Week 28, 2026",
+          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week28-2026/thumbnail"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
