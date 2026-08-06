@@ -6,6 +6,46 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=28701",
+          "author": "Beyviel David",
+          "description": "TL;DR: This is part 1 of a 2 part blog series sharing what I have discovered in my Windows Service Update Service (WSUS) research. If the WSUS database is configured on a separate server from the upstream WSUS server, we can coerce the WSUS computer account to the WSUS database and establish a SQL session. […]\nThe post Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 1 appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/08/05/turning-enterprise-update-servers-into-backdoor-factories-part-1/",
+          "publishedOn": "2026-08-05T17:15:00.000Z",
+          "wordCount": 5617,
+          "title": "Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 1",
+          "imageUrl": null
+        },
+        {
+          "id": "https://specterops.io/?p=28725",
+          "author": "Beyviel David",
+          "description": "TL;DR: When WSUS downloads files for updates, it requires the server to leverage the BITS protocol. WSUS normally requires executables to be digitally signed, however this can be bypassed by appending the .esd or .txt file extensions. Introduction In Part 1 of this series, I walked through the necessary stored procedures used to create a […]\nThe post Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 2 appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/08/05/turning-enterprise-update-servers-into-backdoor-factories-part-2/",
+          "publishedOn": "2026-08-05T17:15:00.000Z",
+          "wordCount": 3810,
+          "title": "Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 2",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/07/beyvielblog2update.png"
+        },
+        {
+          "id": "https://specterops.io/?p=28748",
+          "author": "Beyviel David",
+          "description": "TL;DR: This blog walks you through setting up a WSUS lab using Ludus for testing. The associated GitHub repo is here. Introduction I have been researching the Windows Service Update Service (WSUS) and discovered a new way we could take over the WSUS infrastructure and deploy custom payloads for lateral movement. As part of this […]\nThe post Of Course We Built a WSUS Ludus Lab appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/08/05/built-a-wsus-ludus-lab/",
+          "publishedOn": "2026-08-05T17:15:00.000Z",
+          "wordCount": 3583,
+          "title": "Of Course We Built a WSUS Ludus Lab",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/07/ludusblog.png"
+        },
+        {
+          "id": "https://specterops.io/?p=28753",
+          "author": "Beyviel David",
+          "description": "TL;DR: NotWSUSpicious is a tool repo to aid in creating custom updates after gaining access to a WSUS database server. The Turning Enterprise Update Servers Into Backdoor Factories (0_o) series covers how the database takeover works. This blog strictly covers how to use the tooling. The series can be found here: Turning Enterprise Update Servers […]\nThe post Weaponizing Windows Updates with NotWSUSpicious appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/08/05/weaponizing-windows-updates-with-notwsuspicious/",
+          "publishedOn": "2026-08-05T17:15:00.000Z",
+          "wordCount": 4897,
+          "title": "Weaponizing Windows Updates with NotWSUSpicious",
+          "imageUrl": null
+        },
+        {
           "id": "https://specterops.io/?p=28895",
           "author": "Cody Thomas",
           "description": "TL;DR: Mythic 4 is now available on the Mythic-v4.0.0 branch and is entering a public beta for the next few months for the community to update their services. Mythic 4 has some breaking changes, new features, AI chat container support, and so much more. Mythic 4 is entering a public beta for the next few […]\nThe post Mythic 4 Public Beta: More Than a New Coat of Paint appeared first on SpecterOps.",
@@ -194,7 +234,28 @@
       "title": "PortSwigger Research",
       "feedUrl": "https://portswigger.net/research/rss",
       "siteUrl": "https://portswigger.net/research",
-      "articles": []
+      "articles": [
+        {
+          "id": "crlf-powered-desync-attacks",
+          "author": null,
+          "description": "Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power",
+          "link": "https://portswigger.net/research/crlf-powered-desync-attacks",
+          "publishedOn": "2026-08-05T23:30:00.000Z",
+          "wordCount": 6138,
+          "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
+          "imageUrl": "https://portswigger.net/cms/images/b1/c0/1c9f-twittercard-crlf-desync-slide-1920x1080.png"
+        },
+        {
+          "id": "http-terminator",
+          "author": null,
+          "description": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+          "link": "https://portswigger.net/research/http-terminator",
+          "publishedOn": "2026-08-05T19:30:00.000Z",
+          "wordCount": 7684,
+          "title": "Can AI do novel security research? Meet the HTTP Terminator",
+          "imageUrl": "https://portswigger.net/cms/images/65/c9/4abd-twittercard-http_terminator_x.png"
+        }
+      ]
     },
     {
       "title": "Project Zero",
@@ -13993,16 +14054,6 @@
           "wordCount": 5239,
           "title": "Bluetooth Low Energy Security Testing, Consolidated: Introducing Caeruleus",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/07/isometric-ble-devices-a-smartwatch-smart-lock-earbuds-and-tr-1.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=12912",
-          "author": "Praetorian",
-          "description": "Overview In the first installment of this series, I walked through how I leveraged large language models to assist in identifying several vulnerabilities in the FreeBSD kernel, including a stack-based buffer overflow assigned CVE-2026-3038. This raised a natural follow-up question. Can language models effectively write exploits for memory corruption vulnerabilities? This article explores that question. […]\nThe post FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 2 of 2) appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/llm-kernel-exploit-development/",
-          "publishedOn": "2026-07-06T20:42:27.000Z",
-          "wordCount": 6056,
-          "title": "FreeBSoD: Leveraging Language Models to Find and Exploit Kernel Bugs (Part 2 of 2)",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/07/part2-FreeBSod.png"
         }
       ]
     },
@@ -14059,6 +14110,16 @@
       "feedUrl": "https://blog.trailofbits.com/feed/",
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
+        {
+          "id": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
+          "author": null,
+          "description": "Nitro Enclaves and Key Management\nService (KMS) feel like a\nnatural fit: since the KMS can verify attestation documents generated by the enclaves, developers\ncan offload key management tasks from their applications to the AWS-managed service. But integrating\nan external service with your trusted enclaves comes with new threats, even if that service comes\nfrom the same provider.\nIn this blog post—the third in our series on Nitro Enclaves, following our posts on attack\nsurface and images and\nattestation—we catalog\npassive and active attack classes against the enclave-KMS communication channel, and cover the\noperational risks that persist even when the cryptography is correct.\nIntro to KMS\nThe KMS is an AWS service that provides a unified public API for creating and managing keys\nbacked by HS…",
+          "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
+          "publishedOn": "2026-08-05T11:00:00.000Z",
+          "wordCount": 3874,
+          "title": "A few notes on AWS Nitro Enclaves: KMS integration",
+          "imageUrl": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/nitroenclaveskms-socialbanner.png"
+        },
         {
           "id": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
           "author": null,
@@ -14135,21 +14196,6 @@
           "publishedOn": "2026-07-20T15:15:06.000Z",
           "wordCount": 2767,
           "title": "Dnsmasq DNS Remote Heap Buffer Overflow",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.exodusintel.com/?p=2542",
-          "author": "Exodus Intel VRT",
-          "description": "By Endri Domi Overview This blog post details a logic vulnerability discovered internally in the COM interface exposed from the msi.dll binary. The vulnerability allows a low-privileged user to cause the MSI service to delete an arbitrary folder that the user has access to, by scheduling its path in the TempPackages registry key. The service does not validate that the folder ... Read more Microsoft Windows Installer Folder Delete Privilege Escalation\nThe post Microsoft Windows Installer Folder Delete Privilege Escalation appeared first on Exodus Intelligence.",
-          "link": "https://blog.exodusintel.com/2026/07/06/microsoft-windows-installer-folder-delete-privilege-escalation/",
-          "publishedOn": "2026-07-06T15:32:55.000Z",
-          "wordCount": 5010,
-          "title": "Microsoft Windows Installer Folder Delete Privilege Escalation",
-          "enclosure": {
-            "url": "https://blog.exodusintel.com/wp-content/uploads/2026/06/lpefinal.mp4",
-            "length": "20156798",
-            "type": "video/mp4"
-          },
           "imageUrl": null
         }
       ]
@@ -14499,16 +14545,6 @@
           "wordCount": 4396,
           "title": "Intercepting Android WebView traffic under new certificate validity requirement by Chromium",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/07/Android-WebView-traffic.png"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=25110",
-          "author": "Christos Giampoulakis",
-          "description": "Firewall network traffic logs are the largest driver of Microsoft Sentinel ingestion costs. Yet they remain a critical source of information for threat detection, investigations & incident response. Explore how Sentinel Summary Rules can reduce the cost of ingesting firewall traffic events while retaining the visibility SecOp teams need to detect threats & investigate incidents.",
-          "link": "https://blog.nviso.eu/2026/07/07/reducing-microsoft-sentinel-costs-without-compromising-detection-part-2-the-firewall-quest/",
-          "publishedOn": "2026-07-07T09:00:41.000Z",
-          "wordCount": 5072,
-          "title": "Reducing Microsoft Sentinel Costs Without Compromising Detection – Part 2: The Firewall Quest",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/07/The-Firewall-quest-HR.png"
         }
       ]
     },
@@ -14756,7 +14792,18 @@
       "title": "dirkjanm.io",
       "feedUrl": "https://dirkjanm.io/feed.xml",
       "siteUrl": "https://dirkjanm.io/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://dirkjanm.io/borrowing-windows-hello-keys/",
+          "author": null,
+          "description": "Most research into Windows Hello focuses on the mechanics in use when authenticating to the local device. As an Entra ID researcher, I’ve always been more interested in how these keys are used to authenticate to the cloud. I’ve given several talks on Windows Hello for Business (WHFB for short) and about the many implementation flaws discovered in the process, most of which were fixed by Microsoft. For this blog I want to focus on a technique that was left as-is since it is more or less a consequence of how WHFB works: the ability to perform single-sign on with the backing cryptographic keys from a user session, without needing the PIN or other information/user presence. We will not just look at how we can utilize this to request Primary Refresh Tokens (PRTs), but also how we can use this to perform device registration by using the WHFB key as a FIDO key/passkey.",
+          "link": "https://dirkjanm.io/borrowing-windows-hello-keys/",
+          "publishedOn": "2026-08-05T12:00:57.000Z",
+          "wordCount": 2494,
+          "title": "Borrowing Windows Hello keys for authentication and persistence",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Sud0Ru",
@@ -15672,6 +15719,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "shai-hulud-chaindrop-npm-supply-chain",
+          "author": null,
+          "description": "Elastic Security Labs identified the return of Shai-Hulud. Attackers compromised the keyv maintainer and deployed CHAINDROP, a worm that uses stolen npm credentials to backdoor co-owned packages totaling over 1.3 billion monthly downloads.",
+          "link": "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
+          "publishedOn": "2026-08-06T00:00:00.000Z",
+          "wordCount": 4309,
+          "title": "Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/shai-hulud-chaindrop-npm-supply-chain/shai-hulud-chaindrop-npm-supply-chain.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/shai-hulud-chaindrop-npm-supply-chain/shai-hulud-chaindrop-npm-supply-chain.webp"
+        },
+        {
           "id": "ai-vulnerability-triage-bug-bounty-hackerone",
           "author": null,
           "description": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
@@ -15903,6 +15965,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security/",
+          "author": null,
+          "description": "AI use in your organization can be a silent threat multiplier. Here's how to ensure your organization's data remains secure. Part one of a three-part series.",
+          "link": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security/",
+          "publishedOn": "2026-08-05T15:56:00.000Z",
+          "wordCount": 2135,
+          "title": "AI governance: the missing link in Enterprise security",
+          "imageUrl": "https://media.jamf.com/images/news/2026/ai-governance-the-missing-link-in-enterprise-security.webp?h=500&q=80&w=800"
+        },
         {
           "id": "https://www.jamf.com/blog/fingerprinting-mobile-attacks-reconnaissance/",
           "author": null,
@@ -16421,21 +16493,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1783504391-auto_recon-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/is-wiz-a-runtime-security-tool",
-          "author": "Shashank Golla",
-          "description": "It's a common question we hear from prospects: \"Does Wiz actually do runtime, or is it just risk prevention?\" The short answer is yes, Wiz does runtime.",
-          "link": "https://www.wiz.io/blog/is-wiz-a-runtime-security-tool",
-          "publishedOn": "2026-07-06T20:23:50.000Z",
-          "wordCount": 19769,
-          "title": "FAQs from the Field: Is Wiz a Runtime Security Tool?",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1782269161-runtime-findings-copy-2x-100-1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1782269161-runtime-findings-copy-2x-100-1.jpg"
         }
       ]
     },
