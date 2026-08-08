@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-07T02:06:21.964Z</updated>
+    <updated>2026-08-08T00:52:58.078Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Living off the coding agent: Two tales of tunnels and LaunchAgents]]></title>
+        <id>coding-agent-launchagent-tunnel-detection</id>
+        <link href="https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection"/>
+        <updated>2026-08-07T23:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking the attack chain created by exposed cloud secrets]]></title>
+        <id>https://www.pentestpartners.com/?p=44476</id>
+        <link href="https://www.pentestpartners.com/security-blog/breaking-the-attack-chain-created-by-exposed-cloud-secrets/"/>
+        <updated>2026-08-07T11:38:33.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  A secret is only as safe as the route it takes  Secrets are supposed to let systems authenticate without leaving credentials sitting in plain view. However, a secret still has to be created, stored, retrieved by a workload, used and eventually replaced. Every stage creates another opportunity for it to appear somewhere it shouldn’t.  Cloud service providers offer dedicated tools such […]
+The post Breaking the attack chain created by exposed cloud secrets  appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The security signal log tailing can't see: tracking npm cooldown removals with Elastic Agent]]></title>
+        <id>npm-cooldown-removal-detection-elastic-agent</id>
+        <link href="https://www.elastic.co/security-labs/npm-cooldown-removal-detection-elastic-agent"/>
+        <updated>2026-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A 40-line CEL integration snapshots .npmrc files every 6 hours to catch cooldown removals. This post walks through the three ways we broke filestream before landing on snapshot semantics.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSS:the bomb inside your inbox]]></title>
         <id>css-the-bomb-inside-your-inbox</id>
@@ -2374,16 +2405,6 @@ The post Finding SOCKS with Proxywatch appeared first on SpecterOps.]]></summary
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Heading to Vegas? Meet PortSwigger at Black Hat, BSides, and DEF CON 34.]]></title>
-        <id>heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34</id>
-        <link href="https://portswigger.net/blog/heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34"/>
-        <updated>2026-07-09T09:20:06.000Z</updated>
-        <summary type="html"><![CDATA[First hand of the week: Find us at BSides Workshop: Burp But Yours, with Hannah and Tib3rius Center stage: Visit us at Black Hat USA - Booth 5342 Lightning talks at the booth Catch our researchers' br]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The 2026 State of Vulnerabilities: What the Data Misses, According to Our Red Team]]></title>
         <id>https://www.synack.com/?p=27700</id>
         <link href="https://www.synack.com/blog/state-of-vulnerabilities-2026-red-team/"/>
@@ -2392,27 +2413,6 @@ The post Finding SOCKS with Proxywatch appeared first on SpecterOps.]]></summary
 The post The 2026 State of Vulnerabilities: What the Data Misses, According to Our Red Team appeared first on Synack.]]></summary>
         <author>
             <name>Tim Nordvedt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 security gaps hiding in plain sight across your Apple fleet]]></title>
-        <id>https://www.jamf.com/blog/mac-security-gaps-apple-fleet/</id>
-        <link href="https://www.jamf.com/blog/mac-security-gaps-apple-fleet/"/>
-        <updated>2026-07-08T20:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Whether you’re starting from scratch or adding Apple devices to your existing tech stack, managing and securing your growing Apple fleet can be a challenge. Discover five common Mac security gaps before they turn into bigger problems.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Mental Model for Kubernetes Security Research]]></title>
-        <id>https://specterops.io/?p=27722</id>
-        <link href="https://specterops.io/blog/2026/07/08/building-a-mental-model-for-kubernetes-security-research/"/>
-        <updated>2026-07-08T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: How Codex helped me turn Kubernetes security research into a usable mental model and research framework During security engagements involving Kubernetes (sometimes abbreviated to k8s), one of the recurring challenges I keep running into is how difficult it is to understand and analyze the security posture of a cluster once it exists in production. […]
-The post Building a Mental Model for Kubernetes Security Research appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Katherine</name>
         </author>
     </entry>
     <entry>

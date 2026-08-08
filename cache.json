@@ -144,16 +144,6 @@
           "wordCount": 5701,
           "title": "Finding SOCKS with Proxywatch",
           "imageUrl": null
-        },
-        {
-          "id": "https://specterops.io/?p=27722",
-          "author": "Katherine",
-          "description": "TL;DR: How Codex helped me turn Kubernetes security research into a usable mental model and research framework During security engagements involving Kubernetes (sometimes abbreviated to k8s), one of the recurring challenges I keep running into is how difficult it is to understand and analyze the security posture of a cluster once it exists in production. […]\nThe post Building a Mental Model for Kubernetes Security Research appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/07/08/building-a-mental-model-for-kubernetes-security-research/",
-          "publishedOn": "2026-07-08T16:00:00.000Z",
-          "wordCount": 7874,
-          "title": "Building a Mental Model for Kubernetes Security Research",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/07/KubernetesMentalModel_2000x1020-1.jpg"
         }
       ]
     },
@@ -206,16 +196,6 @@
           "publishedOn": "2026-07-17T13:35:25.000Z",
           "wordCount": 1453,
           "title": "Burp's new Ambassadors: learn from the people who use Burp Suite everyday",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        },
-        {
-          "id": "heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34",
-          "author": null,
-          "description": "First hand of the week: Find us at BSides Workshop: Burp But Yours, with Hannah and Tib3rius Center stage: Visit us at Black Hat USA - Booth 5342 Lightning talks at the booth Catch our researchers' br",
-          "link": "https://portswigger.net/blog/heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34",
-          "publishedOn": "2026-07-09T09:20:06.000Z",
-          "wordCount": 2454,
-          "title": "Heading to Vegas? Meet PortSwigger at Black Hat, BSides, and DEF CON 34.",
           "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
@@ -14310,6 +14290,16 @@
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=44476",
+          "author": "Alex Wallace",
+          "description": "TL;DR  A secret is only as safe as the route it takes  Secrets are supposed to let systems authenticate without leaving credentials sitting in plain view. However, a secret still has to be created, stored, retrieved by a workload, used and eventually replaced. Every stage creates another opportunity for it to appear somewhere it shouldn’t.  Cloud service providers offer dedicated tools such […]\nThe post Breaking the attack chain created by exposed cloud secrets  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/breaking-the-attack-chain-created-by-exposed-cloud-secrets/",
+          "publishedOn": "2026-08-07T11:38:33.000Z",
+          "wordCount": 2237,
+          "title": "Breaking the attack chain created by exposed cloud secrets",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/08/Breaking-the-attack-chain-created-by-exposed-cloud-secretsv2_.png"
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=44418",
           "author": "Alex Wallace",
           "description": "TL;DR Why I built PenAI PenAI started as a project at a hackathon organised by Encode Club. It’s an AI agent that could work through Hack The Box-style lab machines on its own. Upload a VPN file, give it a target IP, pick a scope, set stealth mode and iteration limits, hit run, and let […]\nThe post If you’re going to vibe code it, why not vibe pen test it? appeared first on Pen Test Partners.",
@@ -15709,6 +15699,36 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "coding-agent-launchagent-tunnel-detection",
+          "author": null,
+          "description": "Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.",
+          "link": "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection",
+          "publishedOn": "2026-08-07T23:59:59.000Z",
+          "wordCount": 8213,
+          "title": "Living off the coding agent: Two tales of tunnels and LaunchAgents",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/coding-agent-launchagent-tunnel-detection/header.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/coding-agent-launchagent-tunnel-detection/header.png"
+        },
+        {
+          "id": "npm-cooldown-removal-detection-elastic-agent",
+          "author": null,
+          "description": "A 40-line CEL integration snapshots .npmrc files every 6 hours to catch cooldown removals. This post walks through the three ways we broke filestream before landing on snapshot semantics.",
+          "link": "https://www.elastic.co/security-labs/npm-cooldown-removal-detection-elastic-agent",
+          "publishedOn": "2026-08-07T00:00:00.000Z",
+          "wordCount": 12302,
+          "title": "The security signal log tailing can't see: tracking npm cooldown removals with Elastic Agent",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/npm-cooldown-removal-detection-elastic-agent/cover.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/npm-cooldown-removal-detection-elastic-agent/cover.png"
+        },
+        {
           "id": "shai-hulud-chaindrop-npm-supply-chain",
           "author": null,
           "description": "Elastic Security Labs identified the return of Shai-Hulud. Attackers compromised the keyv maintainer and deployed CHAINDROP, a worm that uses stolen npm credentials to backdoor co-owned packages totaling over 1.3 billion monthly downloads.",
@@ -16079,16 +16099,6 @@
           "wordCount": 7797,
           "title": "CrashStealer: C++ macOS infostealer posing as crash reporter",
           "imageUrl": "https://media.jamf.com/images/news/2026/jtl-mac-graph.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/mac-security-gaps-apple-fleet/",
-          "author": null,
-          "description": "Whether you’re starting from scratch or adding Apple devices to your existing tech stack, managing and securing your growing Apple fleet can be a challenge. Discover five common Mac security gaps before they turn into bigger problems.",
-          "link": "https://www.jamf.com/blog/mac-security-gaps-apple-fleet/",
-          "publishedOn": "2026-07-08T20:01:00.000Z",
-          "wordCount": 1840,
-          "title": "5 security gaps hiding in plain sight across your Apple fleet",
-          "imageUrl": "https://media.jamf.com/images/news/2026/mac-security-gaps-apple-fleet.webp?h=400&q=80&w=700"
         }
       ]
     },

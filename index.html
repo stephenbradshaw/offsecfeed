@@ -59,6 +59,109 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-07 datetime="2026-08-07T23:59:59.000Z">2026-08-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-07 datetime="2026-08-07T23:59:59.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Elastic Security Labs</button>
+                  <a class="source-heading__link" href="https://www.elastic.co/security-labs">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="coding-agent-launchagent-tunnel-detection"
+                        open
+                      >
+                        <summary class="article-expander__title">Living off the coding agent: Two tales of tunnels and LaunchAgents</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.elastic.co/security-labs/assets/images/coding-agent-launchagent-tunnel-detection/header.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="npm-cooldown-removal-detection-elastic-agent"
+                        open
+                      >
+                        <summary class="article-expander__title">The security signal log tailing can&#x27;t see: tracking npm cooldown removals with Elastic Agent</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.elastic.co/security-labs/npm-cooldown-removal-detection-elastic-agent">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.elastic.co/security-labs/assets/images/npm-cooldown-removal-detection-elastic-agent/cover.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A 40-line CEL integration snapshots .npmrc files every 6 hours to catch cooldown removals. This post walks through the three ways we broke filestream before landing on snapshot semantics.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;41
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Pen Test Partners</button>
+                  <a class="source-heading__link" href="https://www.pentestpartners.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.pentestpartners.com/?p&#x3D;44476"
+                        open
+                      >
+                        <summary class="article-expander__title">Breaking the attack chain created by exposed cloud secrets</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.pentestpartners.com/security-blog/breaking-the-attack-chain-created-by-exposed-cloud-secrets/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.pentestpartners.com/wp-content/uploads/2026/08/Breaking-the-attack-chain-created-by-exposed-cloud-secretsv2_.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>TL;DR  A secret is only as safe as the route it takes  Secrets are supposed to let systems authenticate without leaving credentials sitting in plain view. However, a secret still has to be created, stored, retrieved by a workload, used and eventually replaced. Every stage creates another opportunity for it to appear somewhere it shouldn’t.  Cloud service providers offer dedicated tools such […]
+The post Breaking the attack chain created by exposed cloud secrets  appeared first on Pen Test Partners.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2026-08-06 datetime="2026-08-06T22:00:00.000Z">2026-08-06</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2026-08-06 datetime="2026-08-06T22:00:00.000Z"></time>
           </button>
@@ -6566,40 +6669,6 @@ The post Finding SOCKS with Proxywatch appeared first on SpecterOps.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PortSwigger Blog</button>
-                  <a class="source-heading__link" href="https://portswigger.net/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34"
-                        open
-                      >
-                        <summary class="article-expander__title">Heading to Vegas? Meet PortSwigger at Black Hat, BSides, and DEF CON 34.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://portswigger.net/blog/heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>First hand of the week: Find us at BSides Workshop: Burp But Yours, with Hannah and Tib3rius Center stage: Visit us at Black Hat USA - Booth 5342 Lightning talks at the booth Catch our researchers&#x27; br</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -6640,75 +6709,6 @@ The post Finding SOCKS with Proxywatch appeared first on SpecterOps.</span>
                               <span>Our 2026 State of Vulnerabilities Report surfaces what Synack finds in tested customer environments. At a recent webinar, two of our most decorated researchers from the Synack Red Team describe the threat landscape they’re seeing beyond the report findings. Here&#x27;s what the data shows, what practitioners have experienced, and what your security program should do about the gap.
 The post The 2026 State of Vulnerabilities: What the Data Misses, According to Our Red Team appeared first on Synack.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Jamf Blog</button>
-                  <a class="source-heading__link" href="https://www.jamf.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.jamf.com/blog/mac-security-gaps-apple-fleet/"
-                        open
-                      >
-                        <summary class="article-expander__title">5 security gaps hiding in plain sight across your Apple fleet</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.jamf.com/blog/mac-security-gaps-apple-fleet/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://media.jamf.com/images/news/2026/mac-security-gaps-apple-fleet.webp?h&#x3D;400&amp;q&#x3D;80&amp;w&#x3D;700" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Whether you’re starting from scratch or adding Apple devices to your existing tech stack, managing and securing your growing Apple fleet can be a challenge. Discover five common Mac security gaps before they turn into bigger problems.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Blog Archives - SpecterOps</button>
-                  <a class="source-heading__link" href="">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://specterops.io/?p&#x3D;27722"
-                        open
-                      >
-                        <summary class="article-expander__title">Building a Mental Model for Kubernetes Security Research</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://specterops.io/blog/2026/07/08/building-a-mental-model-for-kubernetes-security-research/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://specterops.io/wp-content/uploads/sites/3/2026/07/KubernetesMentalModel_2000x1020-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>TL;DR: How Codex helped me turn Kubernetes security research into a usable mental model and research framework During security engagements involving Kubernetes (sometimes abbreviated to k8s), one of the recurring challenges I keep running into is how difficult it is to understand and analyze the security posture of a cluster once it exists in production. […]
-The post Building a Mental Model for Kubernetes Security Research appeared first on SpecterOps.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31248,8 +31248,8 @@ to Minimum Viable Product</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/31140106376">
-        <time id="build-timestamp" datetime="2026-08-07T02:06:21.899Z">2026-08-07T02:06:21.899Z</time>
+      <a class="footer-link" href="https://github.com/stephenbradshaw/offsecfeed/actions/runs/31231219982">
+        <time id="build-timestamp" datetime="2026-08-08T00:52:58.030Z">2026-08-08T00:52:58.030Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
