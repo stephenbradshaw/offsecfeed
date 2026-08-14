@@ -6,6 +6,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=29032",
+          "author": "Andrew Gomez",
+          "description": "TL;DR: Cookie protections have made traditional session theft harder, but they do not eliminate the value of an authenticated browser session to adversaries. This post explores enabling the Chrome DevTools Protocol (CDP) inside a running Chromium browser to perform post-ex activities such as browser enumeration, cookie theft, and browser takeover Intro In Dough No! Revisiting […]\nThe post Return of the Cookie Monster appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/08/13/chrome-devtools-protocol-cookie-theft/",
+          "publishedOn": "2026-08-13T16:00:00.000Z",
+          "wordCount": 4403,
+          "title": "Return of the Cookie Monster",
+          "imageUrl": null
+        },
+        {
+          "id": "https://specterops.io/?p=29042",
+          "author": "Andrew Gomez",
+          "description": "TL;DR: Browser extensions can turn Chromium into a persistent foothold. This post introduces a way to silently install extensions turning Chromium browsers into a command and control (C2) platform for persistent cookie theft. Intro This blog is a continuation of Dough No! Revisiting Cookie Theft. In the previous blog, we looked at how Chromium’s Application […]\nThe post Attack of The Extensions appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/08/13/chromium-extension-c2-persistence/",
+          "publishedOn": "2026-08-13T16:00:00.000Z",
+          "wordCount": 7768,
+          "title": "Attack of The Extensions",
+          "imageUrl": null
+        },
+        {
           "id": "https://specterops.io/?p=28939",
           "author": "Gavin Kramer",
           "description": "TL;DR: Blacklight is an open-source security research toolkit for discovering and analyzing AI agent artifacts that reside on endpoints. It helps authorized security teams assess exposure, guide next decisions, and develop detection and hardening guidance. This project used models made available through SpecterOps’ participation in OpenAI’s Trusted Access for Cyber program to support this security […]\nThe post Blacklight: Illuminating AI Agent Artifacts for Attackers and Defenders appeared first on SpecterOps.",
@@ -310,16 +330,6 @@
           "wordCount": 4912,
           "title": "Azure VM Command Execution using Third-Party Extensions – Chef",
           "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/07/07.21.26_TECH_Azure-VM-Part-1_Thomas-Byrne_1200x630.jpg"
-        },
-        {
-          "id": "https://www.netspi.com/?p=33746",
-          "author": "Jon O’Reilly",
-          "description": "ADPathFinder unifies SharpHound data with OpenGraph collectors like MSSQLHound and ConfigManBearPig. Discover how this tool maps complex, cross-dataset privilege escalation paths across AD, ADCS, MSSQL, and SCCM, and brings vital graph context to your password audits.\nThe post ADPathFinder: OpenGraph Attack Path Mapping in BloodHound CE appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/network-pentesting/adpathfinder-opengraph-attack-path-mapping-in-bloodhound-ce/",
-          "publishedOn": "2026-07-15T07:40:14.000Z",
-          "wordCount": 3939,
-          "title": "ADPathFinder: OpenGraph Attack Path Mapping in BloodHound CE",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/07/07.09.26_TECH_Pathfinder-Johnathan-OReilly_1200x630.png"
         }
       ]
     },
@@ -482,17 +492,6 @@
           "publishedOn": "2026-07-21T17:23:48.000Z",
           "wordCount": null,
           "title": "Pwn2Own Ireland 2026 – New Targets and Categories",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a566e273f0e622e4d3b466a",
-          "author": "Dustin Childs",
-          "description": "Well folks. Here we are. The bug apocalypse has fully descended upon us. I’ll do my best to sort this out in some way meaningful, but this month’s release shows us the nay-sayers were right, and I’ve got to hand it to the nay-sayers here. Excellent call. Take an extended break from your regularly scheduled activities as we let’s take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for July 2026\nAdobe has now moved to a bimonthly release schedule, which means they will be releasing patches on the second and fourth Tuesdays of the month. I’ll continue to cover the second Tuesday release here and update this blog should the fourth Tuesday release contain anything si…",
-          "link": "https://www.thezdi.com/blog/2026/7/14/the-july-2026-security-update-review",
-          "publishedOn": "2026-07-14T17:56:54.000Z",
-          "wordCount": null,
-          "title": "The July 2026 Security Update Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -14434,6 +14433,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=141616",
+          "author": "Gabriel Bernadett-Shapiro",
+          "description": "OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools didn't matter, and that changes the playbook for investigating intrusions.",
+          "link": "https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/",
+          "publishedOn": "2026-08-13T13:00:40.000Z",
+          "wordCount": 9390,
+          "title": "The Model Is the Malware | What Four Agentic Intrusions Tell Defenders",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/08/model_is_malware_ftr.jpg",
+            "length": "623779",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/08/model_is_malware_ftr.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=141376",
           "author": "Juan Andrés Guerrero-Saade &amp; Gabriel Bernadett-Shapiro",
           "description": "A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.",
@@ -15653,6 +15667,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "ai-coding-agent-audit-cursor-hooks",
+          "author": null,
+          "description": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
+          "link": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks",
+          "publishedOn": "2026-08-11T00:00:00.000Z",
+          "wordCount": 11412,
+          "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/ai-coding-agent-audit-cursor-hooks/image1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/ai-coding-agent-audit-cursor-hooks/image1.png"
+        },
+        {
           "id": "coding-agent-launchagent-tunnel-detection",
           "author": null,
           "description": "Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.",
@@ -15915,6 +15944,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
+          "author": null,
+          "description": "Jamf Threat Labs discovers and investigates AmnesiaStealer, a multi-stage Rust-based macOS infostealer spread through a counterfeit GitHub download page that captures the login password, reaches for macOS bypasses Apple has already patched, and can hand the operator live, hidden control of the victim's Chromium browser to steal authenticated sessions.",
+          "link": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
+          "publishedOn": "2026-08-11T13:14:00.000Z",
+          "wordCount": 8539,
+          "title": "AmnesiaStealer: a multi-stage Rust-based macOS infostealer that hijacks Chromium browsers",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jtl-mac-graph.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/black-hat-usa-2026/",
           "author": null,
           "description": "Black Hat USA 2026 highlighted how cybersecurity has fundamentally changed. Here's a peek into what the Jamf team was up to, what we learned, and what we showed at the conference.",
@@ -16023,16 +16062,6 @@
           "wordCount": 1635,
           "title": "AI in K-12: Practical use cases schools are already using",
           "imageUrl": "https://media.jamf.com/images/news/2026/ai-in-k12-practical-use-cases.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/ai-policy-acknowledgement-isnt-compliance/",
-          "author": null,
-          "description": "Getting employees to acknowledge an AI acceptable use policy sets expectations, but it doesn't prove compliance. Learn how to prove that your AI policies are secure.",
-          "link": "https://www.jamf.com/blog/ai-policy-acknowledgement-isnt-compliance/",
-          "publishedOn": "2026-07-14T18:08:00.000Z",
-          "wordCount": 2172,
-          "title": "Why AI policy acknowledgements aren’t evidence of compliance",
-          "imageUrl": "https://media.jamf.com/images/news/2026/ai-policy-acknowledgement-isnt-compliance.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16041,6 +16070,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=141616",
+          "author": "Gabriel Bernadett-Shapiro",
+          "description": "OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools didn't matter, and that changes the playbook for investigating intrusions.",
+          "link": "https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/",
+          "publishedOn": "2026-08-13T13:00:40.000Z",
+          "wordCount": 9390,
+          "title": "The Model Is the Malware | What Four Agentic Intrusions Tell Defenders",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/08/model_is_malware_ftr.jpg",
+            "length": "623779",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/08/model_is_malware_ftr.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=141376",
           "author": "Juan Andrés Guerrero-Saade &amp; Gabriel Bernadett-Shapiro",
@@ -16078,6 +16122,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/investigating-github-pat-compromise",
+          "author": "Eden Abergil",
+          "description": "A practical playbook for investigating GitHub token compromise, drawn from Wiz CIRT's response to a coordinated multi-organization campaign.",
+          "link": "https://www.wiz.io/blog/investigating-github-pat-compromise",
+          "publishedOn": "2026-08-13T15:04:28.000Z",
+          "wordCount": 19472,
+          "title": "How to Investigate GitHub PAT Compromise: Lessons From a Multi-Organization Campaign",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1786570602-github-pat-compromise-2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1786570602-github-pat-compromise-2.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/securing-personal-repositories",
+          "author": "Karin Sukonik",
+          "description": "Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.",
+          "link": "https://www.wiz.io/blog/securing-personal-repositories",
+          "publishedOn": "2026-08-13T13:48:56.000Z",
+          "wordCount": 17188,
+          "title": "Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1786626976-public-repos-secrets-scanning.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1786626976-public-repos-secrets-scanning.png"
+        },
         {
           "id": "https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild",
           "author": "Rami McCarthy",
@@ -16417,6 +16491,16 @@
       "feedUrl": "https://pentesterlab.com/blog/feed",
       "siteUrl": "https://pentesterlab.com/blog",
       "articles": [
+        {
+          "id": "https://pentesterlab.com/blog/research-worth-reading-week32-2026",
+          "author": null,
+          "description": "AI as a research partner, not a replacement.\n🧩 Can AI do novel security research?\n👍 0\n  \nThis is probably the most interesting look I have seen at what AI-assisted security research can actually become. James Kettle does not simply ask a model to find bugs: he breaks his own research process into ideation, evaluation, weaponization and cascading follow-up research, then looks carefully at which parts benefit from AI and which are better handled by deterministic code or a human researcher. One particularly interesting observation is that giving a model more context can actually make it less creative by anchoring it too strongly to known techniques. The resulting HTTP research is good, but the bigger lesson is the methodology for turning AI into a research partner rather than a vulnerabili…",
+          "link": "https://pentesterlab.com/blog/research-worth-reading-week32-2026",
+          "publishedOn": "2026-08-13T00:00:00.000Z",
+          "wordCount": 1950,
+          "title": "Research Worth Reading - Week 32, 2026",
+          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week32-2026/thumbnail"
+        },
         {
           "id": "https://pentesterlab.com/blog/saml-vulnerabilities-attacks-guide",
           "author": null,

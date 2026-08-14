@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-13T01:04:45.601Z</updated>
+    <updated>2026-08-14T01:04:11.965Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Return of the Cookie Monster]]></title>
+        <id>https://specterops.io/?p=29032</id>
+        <link href="https://specterops.io/blog/2026/08/13/chrome-devtools-protocol-cookie-theft/"/>
+        <updated>2026-08-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Cookie protections have made traditional session theft harder, but they do not eliminate the value of an authenticated browser session to adversaries. This post explores enabling the Chrome DevTools Protocol (CDP) inside a running Chromium browser to perform post-ex activities such as browser enumeration, cookie theft, and browser takeover Intro In Dough No! Revisiting […]
+The post Return of the Cookie Monster appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Andrew Gomez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Attack of The Extensions]]></title>
+        <id>https://specterops.io/?p=29042</id>
+        <link href="https://specterops.io/blog/2026/08/13/chromium-extension-c2-persistence/"/>
+        <updated>2026-08-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Browser extensions can turn Chromium into a persistent foothold. This post introduces a way to silently install extensions turning Chromium browsers into a command and control (C2) platform for persistent cookie theft. Intro This blog is a continuation of Dough No! Revisiting Cookie Theft. In the previous blog, we looked at how Chromium’s Application […]
+The post Attack of The Extensions appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Andrew Gomez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Investigate GitHub PAT Compromise: Lessons From a Multi-Organization Campaign]]></title>
+        <id>https://www.wiz.io/blog/investigating-github-pat-compromise</id>
+        <link href="https://www.wiz.io/blog/investigating-github-pat-compromise"/>
+        <updated>2026-08-13T15:04:28.000Z</updated>
+        <summary type="html"><![CDATA[A practical playbook for investigating GitHub token compromise, drawn from Wiz CIRT's response to a coordinated multi-organization campaign.]]></summary>
+        <author>
+            <name>Eden Abergil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain]]></title>
+        <id>https://www.wiz.io/blog/securing-personal-repositories</id>
+        <link href="https://www.wiz.io/blog/securing-personal-repositories"/>
+        <updated>2026-08-13T13:48:56.000Z</updated>
+        <summary type="html"><![CDATA[Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.]]></summary>
+        <author>
+            <name>Karin Sukonik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Model Is the Malware | What Four Agentic Intrusions Tell Defenders]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=141616</id>
+        <link href="https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/"/>
+        <updated>2026-08-13T13:00:40.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools didn't matter, and that changes the playbook for investigating intrusions.]]></summary>
+        <author>
+            <name>Gabriel Bernadett-Shapiro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Model Is the Malware | What Four Agentic Intrusions Tell Defenders]]></title>
+        <id>https://www.sentinelone.com/?post_type=labs&amp;p=141616</id>
+        <link href="https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/"/>
+        <updated>2026-08-13T13:00:40.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools didn't matter, and that changes the playbook for investigating intrusions.]]></summary>
+        <author>
+            <name>Gabriel Bernadett-Shapiro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research Worth Reading - Week 32, 2026]]></title>
+        <id>https://pentesterlab.com/blog/research-worth-reading-week32-2026</id>
+        <link href="https://pentesterlab.com/blog/research-worth-reading-week32-2026"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI as a research partner, not a replacement.
+🧩 Can AI do novel security research?
+👍 0
+  
+This is probably the most interesting look I have seen at what AI-assisted security research can actually become. James Kettle does not simply ask a model to find bugs: he breaks his own research process into ideation, evaluation, weaponization and cascading follow-up research, then looks carefully at which parts benefit from AI and which are better handled by deterministic code or a human researcher. One particularly interesting observation is that giving a model more context can actually make it less creative by anchoring it too strongly to known techniques. The resulting HTTP research is good, but the bigger lesson is the methodology for turning AI into a research partner rather than a vulnerabili…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blacklight: Illuminating AI Agent Artifacts for Attackers and Defenders]]></title>
         <id>https://specterops.io/?p=28939</id>
@@ -63,6 +139,16 @@ Until now, the only way to detect such malfeasance was to verify safety numbers 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[AmnesiaStealer: a multi-stage Rust-based macOS infostealer that hijacks Chromium browsers]]></title>
+        <id>https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/</id>
+        <link href="https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/"/>
+        <updated>2026-08-11T13:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Jamf Threat Labs discovers and investigates AmnesiaStealer, a multi-stage Rust-based macOS infostealer spread through a counterfeit GitHub download page that captures the login password, reaches for macOS bypasses Apple has already patched, and can hand the operator live, hidden control of the victim's Chromium browser to steal authenticated sessions.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Managed Bug Bounty: Why Provable Coverage Beats Blind Spend]]></title>
         <id>https://www.synack.com/?p=28374</id>
         <link href="https://www.synack.com/blog/managed-bug-bounty-provable-coverage/"/>
@@ -81,6 +167,16 @@ The post Managed Bug Bounty: Why Provable Coverage Beats Blind Spend appeared fi
         <summary type="html"><![CDATA[Immediate action is advised for all organizations running self-hosted Metabase. A critical, unauthenticated SQL injection vulnerability has been disclosed in Metabase's password reset functionality, and Metabase has confirmed active exploitation in the wild.]]></summary>
         <author>
             <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[13 million tool calls: auditing every AI coding agent action with Elastic Agent]]></title>
+        <id>ai-coding-agent-audit-cursor-hooks</id>
+        <link href="https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
         </author>
     </entry>
     <entry>
@@ -2258,39 +2354,6 @@ The post There and Back Again: An Operators Guide on NTLM Relaying Egress appear
         <summary type="html"><![CDATA[Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.]]></summary>
         <author>
             <name>Red Agent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ADPathFinder: OpenGraph Attack Path Mapping in BloodHound CE]]></title>
-        <id>https://www.netspi.com/?p=33746</id>
-        <link href="https://www.netspi.com/blog/technical-blog/network-pentesting/adpathfinder-opengraph-attack-path-mapping-in-bloodhound-ce/"/>
-        <updated>2026-07-15T07:40:14.000Z</updated>
-        <summary type="html"><![CDATA[ADPathFinder unifies SharpHound data with OpenGraph collectors like MSSQLHound and ConfigManBearPig. Discover how this tool maps complex, cross-dataset privilege escalation paths across AD, ADCS, MSSQL, and SCCM, and brings vital graph context to your password audits.
-The post ADPathFinder: OpenGraph Attack Path Mapping in BloodHound CE appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Jon O’Reilly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why AI policy acknowledgements aren’t evidence of compliance]]></title>
-        <id>https://www.jamf.com/blog/ai-policy-acknowledgement-isnt-compliance/</id>
-        <link href="https://www.jamf.com/blog/ai-policy-acknowledgement-isnt-compliance/"/>
-        <updated>2026-07-14T18:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Getting employees to acknowledge an AI acceptable use policy sets expectations, but it doesn't prove compliance. Learn how to prove that your AI policies are secure.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The July 2026 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a566e273f0e622e4d3b466a</id>
-        <link href="https://www.thezdi.com/blog/2026/7/14/the-july-2026-security-update-review"/>
-        <updated>2026-07-14T17:56:54.000Z</updated>
-        <summary type="html"><![CDATA[Well folks. Here we are. The bug apocalypse has fully descended upon us. I’ll do my best to sort this out in some way meaningful, but this month’s release shows us the nay-sayers were right, and I’ve got to hand it to the nay-sayers here. Excellent call. Take an extended break from your regularly scheduled activities as we let’s take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for July 2026
-Adobe has now moved to a bimonthly release schedule, which means they will be releasing patches on the second and fourth Tuesdays of the month. I’ll continue to cover the second Tuesday release here and update this blog should the fourth Tuesday release contain anything si…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
         </author>
     </entry>
     <entry>
