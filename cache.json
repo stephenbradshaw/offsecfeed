@@ -154,16 +154,6 @@
           "wordCount": 3256,
           "title": "Introducing the SpecterOps Tradecraft Academy",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/07/TradecraftAcademy_Icon_Color-2.png"
-        },
-        {
-          "id": "https://specterops.io/?p=28053",
-          "author": "Logan Goins",
-          "description": "TL;DR – What’s old is new again. Remember coercing SMB NTLM egress tradecraft to crack challenge response back in the day? We see a lot of situations in our assessments where relaying NTLM from coerced network egress is ideal when escalating locally over C2 is unattainable or firewall rules are in play preventing WebDav relays […]\nThe post There and Back Again: An Operators Guide on NTLM Relaying Egress appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/07/15/there-and-back-again-an-operators-guide-on-ntlm-relaying-egress/",
-          "publishedOn": "2026-07-15T16:00:00.000Z",
-          "wordCount": 5657,
-          "title": "There and Back Again: An Operators Guide on NTLM Relaying Egress",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/07/image_e9d1da.png"
         }
       ]
     },
@@ -311,6 +301,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=34052",
+          "author": "Daniil Vylegzhanin",
+          "description": "Discover how NetSPI uncovered and reported vulnerabilities in JFrog Artifactory that allowed unauthenticated attackers to bypass authentication and steal an arbitrary artifact.\nThe post Stealing the Artifact – JFrog Artifactory Vulnerability appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/red-teaming/stealing-the-artifact-jfrog-artifactory-vulnerability/",
+          "publishedOn": "2026-08-14T13:53:19.000Z",
+          "wordCount": 7949,
+          "title": "Stealing the Artifact – JFrog Artifactory Vulnerability",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2024/08/082724_TECH_CVE-2024-37888_Feature.webp"
+        },
         {
           "id": "https://www.netspi.com/?p=33938",
           "author": "Thomas Byrne",
@@ -14360,16 +14360,6 @@
           "wordCount": 913,
           "title": "Autonomous AI Intrusions Are Here: Lessons from the Hugging Face Compromise",
           "imageUrl": null
-        },
-        {
-          "id": "https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/",
-          "author": null,
-          "description": "This is a follow-up to my previous Terminal DiLLMa research, and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique.\n\nDNS Requests via ANSI Escape Codes\nDavid Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests.\nIn short, this triggered a DNS request from the macOS Terminal app:",
-          "link": "https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/",
-          "publishedOn": "2026-07-16T09:13:18.000Z",
-          "wordCount": 1005,
-          "title": "From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal",
-          "imageUrl": null
         }
       ]
     },
@@ -14728,7 +14718,18 @@
       "title": "watchTowr Labs",
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "6a7ebcc42c892a00015d8efe",
+          "author": "Sina Kheirkhah (@SinSinology)",
+          "description": "Suddenly, you’re in a room. You look around - oh, you’re surrounded by other new starters at your new job. Yes, it’s Monday, and you’re being onboarded.\nYou know the drill - it’s the typical enterprise “please don’t be",
+          "link": "https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/",
+          "publishedOn": "2026-08-14T07:08:20.000Z",
+          "wordCount": 4421,
+          "title": "You’re Back In The Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?))",
+          "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/08/Group-8730--5-.png"
+        }
+      ]
     },
     {
       "title": "c0rnbread blog",
@@ -14796,18 +14797,7 @@
       "title": "Wojciech Reguła",
       "feedUrl": "https://wojciechregula.blog/rss.xml",
       "siteUrl": "/",
-      "articles": [
-        {
-          "id": "/post/golden-gate-appdata-protection/",
-          "author": null,
-          "description": "Summary Looks like moving the user’s TCC db to /private/var/containers/Data/ProtectedSystem/[UUID]/Data/Library/Application Support/com.apple.TCC/ was not the only change in the whole privacy castle of macOS 27. (What btw was a great move as now attackers with full disk access permissions can’t modify your privacy settings)\nmacOS 27 quietly ships a new privacy mechanism I hadn’t seen documented anywhere: it extends the com.apple.macl protection that has always guarded sandboxed apps’ ~/Library/Containers/<bundle-id>/Data folders to a hand-picked set of non-sandboxed apps’ ~/Library/Application Support/<name> folders too.",
-          "link": "https://wojciechregula.blog/post/golden-gate-appdata-protection/",
-          "publishedOn": "2026-07-16T10:00:00.000Z",
-          "wordCount": 556,
-          "title": "Crossing the Golden Gate: macOS's New Application Support Protection",
-          "imageUrl": "/images/avatar.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Objective-See's Blog",
@@ -15920,21 +15910,6 @@
             "type": "image/webp"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/contagious-interview-malware-svg-steganography/contagious-interview-malware-svg-steganography.webp"
-        },
-        {
-          "id": "telepuz-maas-malware-clickfix",
-          "author": null,
-          "description": "TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.",
-          "link": "https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix",
-          "publishedOn": "2026-07-16T00:00:00.000Z",
-          "wordCount": 12750,
-          "title": "TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/telepuz-maas-malware-clickfix/telepuz-maas-malware-clickfix.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/telepuz-maas-malware-clickfix/telepuz-maas-malware-clickfix.webp"
         }
       ]
     },
@@ -15943,6 +15918,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/",
+          "author": null,
+          "description": "You spent the summer getting devices enrolled, updated and compliant. That's the baseline, not the finish line. Learn what it takes to make sure devices are optimized for learning.",
+          "link": "https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/",
+          "publishedOn": "2026-08-12T21:15:00.000Z",
+          "wordCount": 2041,
+          "title": "Back to school: Is your tech really ready for the classroom?",
+          "imageUrl": "https://media.jamf.com/images/news/2026/classroom-device-readiness-screen-time-to-screen-value.webp?h=400&q=80&w=700"
+        },
         {
           "id": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
           "author": null,
@@ -16052,16 +16037,6 @@
           "wordCount": 2115,
           "title": "AI deleted a production database. Prevent this with AI Governance.",
           "imageUrl": "https://media.jamf.com/images/news/2026/threat-labs-blog-mac.webp?h=500&q=80&w=800"
-        },
-        {
-          "id": "https://www.jamf.com/blog/ai-in-k12-practical-use-cases/",
-          "author": null,
-          "description": "Three real AI use cases K-12 schools are already using in classrooms, tutoring and operations — plus guardrails for responsible adoption.",
-          "link": "https://www.jamf.com/blog/ai-in-k12-practical-use-cases/",
-          "publishedOn": "2026-07-15T18:25:00.000Z",
-          "wordCount": 1635,
-          "title": "AI in K-12: Practical use cases schools are already using",
-          "imageUrl": "https://media.jamf.com/images/news/2026/ai-in-k12-practical-use-cases.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16122,6 +16097,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost",
+          "author": "Ron Tzrouya",
+          "description": "Powering cost investigation and optimization with deep cloud context",
+          "link": "https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost",
+          "publishedOn": "2026-08-14T14:14:50.000Z",
+          "wordCount": 17594,
+          "title": "Wiz on Wiz: How the Wiz FinOps Team Uses Wiz Cloud Cost",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1786715510-how-finops-uses-wiz.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1786715510-how-finops-uses-wiz.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/securing-data-in-the-ai-era",
+          "author": "Snegha Ramnarayanan",
+          "description": "AI is changing the context around data risk, making it critical to understand what’s connected, what’s exposed, and why.",
+          "link": "https://www.wiz.io/blog/securing-data-in-the-ai-era",
+          "publishedOn": "2026-08-14T12:19:18.000Z",
+          "wordCount": 18379,
+          "title": "Securing Data in the AI era",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1786653912-data-security-in-the-ai-era.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1786653912-data-security-in-the-ai-era.png"
+        },
         {
           "id": "https://www.wiz.io/blog/investigating-github-pat-compromise",
           "author": "Eden Abergil",
@@ -16421,21 +16426,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1784570339-wp2shell.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/red-agent-pov-business-logic",
-          "author": "Red Agent",
-          "description": "Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.",
-          "link": "https://www.wiz.io/blog/red-agent-pov-business-logic",
-          "publishedOn": "2026-07-15T13:33:42.000Z",
-          "wordCount": 17621,
-          "title": "The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1784050948-red-agent-02-2-copy-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1784050948-red-agent-02-2-copy-2x.png"
         }
       ]
     },
@@ -16473,16 +16463,6 @@
           "wordCount": 2117,
           "title": "Malware analysis: part 11. How to create your own mini-GPT for binary analysis.",
           "imageUrl": "https://cocomelonc.github.io/assets/images/216/2026-07-25_21-47.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/malware/2026/07/16/malware-tricks-60.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/malware/2026/07/16/malware-tricks-60.html",
-          "publishedOn": "2026-07-16T02:00:00.000Z",
-          "wordCount": 1389,
-          "title": "Malware development trick 60: Function stomping (remote process). Simple C example",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/215/2026-07-16_15-27.png"
         }
       ]
     },
@@ -16560,16 +16540,6 @@
           "wordCount": 2340,
           "title": "Research Worth Reading - Week 29, 2026",
           "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week29-2026/thumbnail"
-        },
-        {
-          "id": "https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai",
-          "author": null,
-          "description": "Interview.\n      \nYou learn a lot by watching someone work\nHacking and code review\nSee how your candidates actually work\nExplore Interview and see how your candidates actually work.",
-          "link": "https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai",
-          "publishedOn": "2026-07-16T00:00:00.000Z",
-          "wordCount": 1462,
-          "title": "Technical interviews in the age of AI",
-          "imageUrl": "https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai/thumbnail"
         }
       ]
     }

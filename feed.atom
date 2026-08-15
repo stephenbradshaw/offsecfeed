@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-14T01:04:11.965Z</updated>
+    <updated>2026-08-15T00:38:47.500Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Wiz on Wiz: How the Wiz FinOps Team Uses Wiz Cloud Cost]]></title>
+        <id>https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost</id>
+        <link href="https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost"/>
+        <updated>2026-08-14T14:14:50.000Z</updated>
+        <summary type="html"><![CDATA[Powering cost investigation and optimization with deep cloud context]]></summary>
+        <author>
+            <name>Ron Tzrouya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stealing the Artifact – JFrog Artifactory Vulnerability]]></title>
+        <id>https://www.netspi.com/?p=34052</id>
+        <link href="https://www.netspi.com/blog/technical-blog/red-teaming/stealing-the-artifact-jfrog-artifactory-vulnerability/"/>
+        <updated>2026-08-14T13:53:19.000Z</updated>
+        <summary type="html"><![CDATA[Discover how NetSPI uncovered and reported vulnerabilities in JFrog Artifactory that allowed unauthenticated attackers to bypass authentication and steal an arbitrary artifact.
+The post Stealing the Artifact – JFrog Artifactory Vulnerability appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Daniil Vylegzhanin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Securing Data in the AI era]]></title>
+        <id>https://www.wiz.io/blog/securing-data-in-the-ai-era</id>
+        <link href="https://www.wiz.io/blog/securing-data-in-the-ai-era"/>
+        <updated>2026-08-14T12:19:18.000Z</updated>
+        <summary type="html"><![CDATA[AI is changing the context around data risk, making it critical to understand what’s connected, what’s exposed, and why.]]></summary>
+        <author>
+            <name>Snegha Ramnarayanan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You’re Back In The Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?))]]></title>
+        <id>6a7ebcc42c892a00015d8efe</id>
+        <link href="https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/"/>
+        <updated>2026-08-14T07:08:20.000Z</updated>
+        <summary type="html"><![CDATA[Suddenly, you’re in a room. You look around - oh, you’re surrounded by other new starters at your new job. Yes, it’s Monday, and you’re being onboarded.
+You know the drill - it’s the typical enterprise “please don’t be]]></summary>
+        <author>
+            <name>Sina Kheirkhah (@SinSinology)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Return of the Cookie Monster]]></title>
         <id>https://specterops.io/?p=29032</id>
@@ -80,6 +122,16 @@ The post Attack of The Extensions appeared first on SpecterOps.]]></summary>
 This is probably the most interesting look I have seen at what AI-assisted security research can actually become. James Kettle does not simply ask a model to find bugs: he breaks his own research process into ideation, evaluation, weaponization and cascading follow-up research, then looks carefully at which parts benefit from AI and which are better handled by deterministic code or a human researcher. One particularly interesting observation is that giving a model more context can actually make it less creative by anchoring it too strongly to known techniques. The resulting HTTP research is good, but the bigger lesson is the methodology for turning AI into a research partner rather than a vulnerabili…]]></summary>
         <author>
             <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back to school: Is your tech really ready for the classroom?]]></title>
+        <id>https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/</id>
+        <link href="https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/"/>
+        <updated>2026-08-12T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[You spent the summer getting devices enrolled, updated and compliant. That's the baseline, not the finish line. Learn what it takes to make sure devices are optimized for learning.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2263,97 +2315,6 @@ The post The EU AI Act Is Not Just a Compliance Deadline; It’s a Security Vali
 The post The Hidden Costs of Building an AI Pentesting Solution appeared first on Synack.]]></summary>
         <author>
             <name>Matt Cappello</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crossing the Golden Gate: macOS's New Application Support Protection]]></title>
-        <id>/post/golden-gate-appdata-protection/</id>
-        <link href="https://wojciechregula.blog/post/golden-gate-appdata-protection/"/>
-        <updated>2026-07-16T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Summary Looks like moving the user’s TCC db to /private/var/containers/Data/ProtectedSystem/[UUID]/Data/Library/Application Support/com.apple.TCC/ was not the only change in the whole privacy castle of macOS 27. (What btw was a great move as now attackers with full disk access permissions can’t modify your privacy settings)
-macOS 27 quietly ships a new privacy mechanism I hadn’t seen documented anywhere: it extends the com.apple.macl protection that has always guarded sandboxed apps’ ~/Library/Containers/<bundle-id>/Data folders to a hand-picked set of non-sandboxed apps’ ~/Library/Application Support/<name> folders too.]]></summary>
-        <author>
-            <name>Wojciech Reguła</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal]]></title>
-        <id>https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/</id>
-        <link href="https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/"/>
-        <updated>2026-07-16T09:13:18.000Z</updated>
-        <summary type="html"><![CDATA[This is a follow-up to my previous Terminal DiLLMa research, and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique.
-
-DNS Requests via ANSI Escape Codes
-David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests.
-In short, this triggered a DNS request from the macOS Terminal app:]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malware development trick 60: Function stomping (remote process). Simple C example]]></title>
-        <id>https://cocomelonc.github.io/malware/2026/07/16/malware-tricks-60.html</id>
-        <link href="https://cocomelonc.github.io/malware/2026/07/16/malware-tricks-60.html"/>
-        <updated>2026-07-16T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[﷽]]></summary>
-        <author>
-            <name>cocomelonc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains]]></title>
-        <id>telepuz-maas-malware-clickfix</id>
-        <link href="https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix"/>
-        <updated>2026-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical interviews in the age of AI]]></title>
-        <id>https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai</id>
-        <link href="https://pentesterlab.com/blog/technical-interviews-in-the-age-of-ai"/>
-        <updated>2026-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Interview.
-      
-You learn a lot by watching someone work
-Hacking and code review
-See how your candidates actually work
-Explore Interview and see how your candidates actually work.]]></summary>
-        <author>
-            <name>PentesterLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI in K-12: Practical use cases schools are already using]]></title>
-        <id>https://www.jamf.com/blog/ai-in-k12-practical-use-cases/</id>
-        <link href="https://www.jamf.com/blog/ai-in-k12-practical-use-cases/"/>
-        <updated>2026-07-15T18:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Three real AI use cases K-12 schools are already using in classrooms, tutoring and operations — plus guardrails for responsible adoption.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There and Back Again: An Operators Guide on NTLM Relaying Egress]]></title>
-        <id>https://specterops.io/?p=28053</id>
-        <link href="https://specterops.io/blog/2026/07/15/there-and-back-again-an-operators-guide-on-ntlm-relaying-egress/"/>
-        <updated>2026-07-15T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR – What’s old is new again. Remember coercing SMB NTLM egress tradecraft to crack challenge response back in the day? We see a lot of situations in our assessments where relaying NTLM from coerced network egress is ideal when escalating locally over C2 is unattainable or firewall rules are in play preventing WebDav relays […]
-The post There and Back Again: An Operators Guide on NTLM Relaying Egress appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Logan Goins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System]]></title>
-        <id>https://www.wiz.io/blog/red-agent-pov-business-logic</id>
-        <link href="https://www.wiz.io/blog/red-agent-pov-business-logic"/>
-        <updated>2026-07-15T13:33:42.000Z</updated>
-        <summary type="html"><![CDATA[Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.]]></summary>
-        <author>
-            <name>Red Agent</name>
         </author>
     </entry>
     <entry>
