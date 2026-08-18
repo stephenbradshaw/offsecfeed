@@ -14301,6 +14301,16 @@
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
         {
+          "id": "https://embracethered.com/blog/posts/2026/recovering-encrypted-llm-thoughts/",
+          "author": null,
+          "description": "A few days ago, a paper named “Stealing Reasoning Traces from Proprietary LLM APIs” was published. It describes a simple, yet super elegant way to recover encrypted LLM reasoning traces.\n\nNaturally, I had to try it.\nBackground\nAI labs like OpenAI and Anthropic send reasoning traces back and forth as part of their messaging protocols. However, the actual reasoning text is hidden inside an encrypted, base64-encoded blob.",
+          "link": "https://embracethered.com/blog/posts/2026/recovering-encrypted-llm-thoughts/",
+          "publishedOn": "2026-08-17T03:06:29.000Z",
+          "wordCount": 1390,
+          "title": "Recovering Encrypted LLM Reasoning Traces",
+          "imageUrl": null
+        },
+        {
           "id": "https://embracethered.com/blog/posts/2026/hijacking-litellm-for-fun-and-profit/",
           "author": null,
           "description": "LiteLLM is a popular AI gateway. It provides a unified interface to LLMs and simplifies governance. It also has access to the backend LLM provider keys.\nAll of that makes it a high-value target. Not only for IP and data theft, but also for response modification and tool invocation.\n\nThis post walks through a set of TTPs that red teams can integrate into authorized operations to demonstrate rerouting, interception, and modification of LLM traffic. We also cover things defenders can look out for.",
@@ -15853,6 +15863,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/",
+          "author": null,
+          "description": "AI tools can accelerate data exposure, compromise software supply chains and trigger risky agentic behavior. Part two of a two-part series.",
+          "link": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/",
+          "publishedOn": "2026-08-13T20:56:00.000Z",
+          "wordCount": 2699,
+          "title": "AI moves faster than your controls. Here’s how to fix it.",
+          "imageUrl": "https://media.jamf.com/images/news/2026/ai-governance-the-missing-link-in-enterprise-security-part-2.webp?h=500&q=80&w=800"
+        },
+        {
           "id": "https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/",
           "author": null,
           "description": "You spent the summer getting devices enrolled, updated and compliant. That's the baseline, not the finish line. Learn what it takes to make sure devices are optimized for learning.",
@@ -16031,6 +16051,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "author": "Gal Nagli",
+          "description": "Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s AI review, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live.",
+          "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "publishedOn": "2026-08-17T14:00:00.000Z",
+          "wordCount": 16953,
+          "title": "Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1786964856-image.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1786964856-image.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/wiz-remediation-playbook",
+          "author": "Eyal Golombek",
+          "description": "Start your path to a self-healing cloud today, with Wiz Workflows now GA and Remediation and Response in public preview.",
+          "link": "https://www.wiz.io/blog/wiz-remediation-playbook",
+          "publishedOn": "2026-08-17T12:23:13.000Z",
+          "wordCount": 17312,
+          "title": "The Closed Loop Remediation Playbook with Wiz",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1786969282-remediation-with-wiz.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1786969282-remediation-with-wiz.png"
+        },
         {
           "id": "https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost",
           "author": "Ron Tzrouya",
@@ -16405,6 +16455,16 @@
       "feedUrl": "https://pentesterlab.com/blog/feed",
       "siteUrl": "https://pentesterlab.com/blog",
       "articles": [
+        {
+          "id": "https://pentesterlab.com/blog/research-worth-reading-week33-2026",
+          "author": null,
+          "description": "Ruby gadgets, an AI-found Artifactory hack, and the AI pipeline as both tool and target\n💎 Ruby 4.0 Universal RCE Deserialization Gadget Chain - elttam\n👍 0\n  \nLuke Jahnke published the first universal Ruby RCE deserialization gadget chain back in 2018, and it is great to see him still pushing this research forward.\nWhat I find most interesting is what happened after the previous chain was published. Maintainers patched enough gadgets to break that specific chain, but left other pieces untouched. Luke simply reused the surviving gadgets in a new chain.\nThis brings me back to KindaRails2Shell. The patch blocks the file-read stage that gave attackers access to Rails signing secrets, but the dangerous transformation surface used later in the chain was not fully removed.\nThe lesson is importan…",
+          "link": "https://pentesterlab.com/blog/research-worth-reading-week33-2026",
+          "publishedOn": "2026-08-17T00:00:00.000Z",
+          "wordCount": 1687,
+          "title": "Research Worth Reading - Week 33, 2026",
+          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week33-2026/thumbnail"
+        },
         {
           "id": "https://pentesterlab.com/blog/research-worth-reading-week32-2026",
           "author": null,

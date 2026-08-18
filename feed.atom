@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-17T00:38:31.614Z</updated>
+    <updated>2026-08-18T00:38:05.089Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR]]></title>
+        <id>https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</id>
+        <link href="https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"/>
+        <updated>2026-08-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s AI review, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live.]]></summary>
+        <author>
+            <name>Gal Nagli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Closed Loop Remediation Playbook with Wiz]]></title>
+        <id>https://www.wiz.io/blog/wiz-remediation-playbook</id>
+        <link href="https://www.wiz.io/blog/wiz-remediation-playbook"/>
+        <updated>2026-08-17T12:23:13.000Z</updated>
+        <summary type="html"><![CDATA[Start your path to a self-healing cloud today, with Wiz Workflows now GA and Remediation and Response in public preview.]]></summary>
+        <author>
+            <name>Eyal Golombek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recovering Encrypted LLM Reasoning Traces]]></title>
+        <id>https://embracethered.com/blog/posts/2026/recovering-encrypted-llm-thoughts/</id>
+        <link href="https://embracethered.com/blog/posts/2026/recovering-encrypted-llm-thoughts/"/>
+        <updated>2026-08-17T03:06:29.000Z</updated>
+        <summary type="html"><![CDATA[A few days ago, a paper named “Stealing Reasoning Traces from Proprietary LLM APIs” was published. It describes a simple, yet super elegant way to recover encrypted LLM reasoning traces.
+
+Naturally, I had to try it.
+Background
+AI labs like OpenAI and Anthropic send reasoning traces back and forth as part of their messaging protocols. However, the actual reasoning text is hidden inside an encrypted, base64-encoded blob.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research Worth Reading - Week 33, 2026]]></title>
+        <id>https://pentesterlab.com/blog/research-worth-reading-week33-2026</id>
+        <link href="https://pentesterlab.com/blog/research-worth-reading-week33-2026"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ruby gadgets, an AI-found Artifactory hack, and the AI pipeline as both tool and target
+💎 Ruby 4.0 Universal RCE Deserialization Gadget Chain - elttam
+👍 0
+  
+Luke Jahnke published the first universal Ruby RCE deserialization gadget chain back in 2018, and it is great to see him still pushing this research forward.
+What I find most interesting is what happened after the previous chain was published. Maintainers patched enough gadgets to break that specific chain, but left other pieces untouched. Luke simply reused the surviving gadgets in a new chain.
+This brings me back to KindaRails2Shell. The patch blocks the file-read stage that gave attackers access to Rails signing secrets, but the dangerous transformation surface used later in the chain was not fully removed.
+The lesson is importan…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wiz on Wiz: How the Wiz FinOps Team Uses Wiz Cloud Cost]]></title>
         <id>https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost</id>
@@ -46,6 +97,16 @@ The post Stealing the Artifact – JFrog Artifactory Vulnerability appeared firs
 You know the drill - it’s the typical enterprise “please don’t be]]></summary>
         <author>
             <name>Sina Kheirkhah (@SinSinology)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI moves faster than your controls. Here’s how to fix it.]]></title>
+        <id>https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/</id>
+        <link href="https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/"/>
+        <updated>2026-08-13T20:56:00.000Z</updated>
+        <summary type="html"><![CDATA[AI tools can accelerate data exposure, compromise software supply chains and trigger risky agentic behavior. Part two of a two-part series.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
