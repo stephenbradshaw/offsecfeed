@@ -226,6 +226,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "whats-in-a-tag-name-javascript-apparently",
+          "author": null,
+          "description": "I was on my laptop, as I often am when there's rubbish on telly, and found myself wondering what characters are allowed in a tag. I knew they had to begin with \"a-zA-Z\", but what about after that? I t",
+          "link": "https://portswigger.net/research/whats-in-a-tag-name-javascript-apparently",
+          "publishedOn": "2026-08-25T14:24:32.000Z",
+          "wordCount": 1357,
+          "title": "What's in a tag name? JavaScript, apparently",
+          "imageUrl": "https://portswigger.net/cms/images/68/30/92bf-twittercard-tag-name-js-twitter.png"
+        },
+        {
           "id": "css-the-bomb-inside-your-inbox",
           "author": null,
           "description": "Gareth Heyes - gareth.heyes@portswigger.net - @garethheyes It's quite common for webmail clients to render untrusted CSS in a trusted UI. They attempt to make this safe using CSS sanitization. In this",
@@ -14098,6 +14108,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
+          "author": null,
+          "description": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live financial assets on mainnet.\nWe found the bug, which affects versions before 1.28.0, in March 2026, and reported it to Provenance on April 1. It was mitigated in PR #2627 (commit c81fd65), which shipped in v1.28.0 on May 1, 2026, and fixed in PR #2734, which shipped in v1.29.0 on June 8, 2026.\nWhat is a marker?\nThe marker module is Provenance’s core primitive for fungible tokens. Chain participant…",
+          "link": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
+          "publishedOn": "2026-08-25T11:00:00.000Z",
+          "wordCount": 1521,
+          "title": "State divergence enables unauthorized access",
+          "imageUrl": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/state-divergence-social-banner.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
           "author": null,
           "description": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient.\nUntil now, the only way to detect such malfeasance was to verify safety numbers with your contact in person or over a trusted channel. Signal recently launched an alternative: Automatic Key Verification, a feature that helps validate that your chats are secure without requiring direct safety number comparison. Trail of Bits built and operates one of the three auditors that make this system trustworthy. Our auditor, which is an independent implementation writ…",
@@ -15586,6 +15606,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "alert-triage-agentic-soc-self-correcting-agents",
+          "author": null,
+          "description": "Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.",
+          "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents",
+          "publishedOn": "2026-08-25T00:00:00.000Z",
+          "wordCount": 8759,
+          "title": "Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy",
+          "enclosure": {
+            "url": "https://www.elastic.co/security-labs/assets/images/alert-triage-agentic-soc-self-correcting-agents/image2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.elastic.co/security-labs/assets/images/alert-triage-agentic-soc-self-correcting-agents/image2.png"
+        },
+        {
           "id": "entity-resolution-identity-scoring-elastic-security",
           "author": null,
           "description": "Inside Elastic Security, background jobs called maintainers each own one piece of every user, host and service record, from building entities out of raw logs to resolving identities and scoring risk.",
@@ -15779,21 +15814,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/sentinel-detection-rules-migration/image4.jpg"
-        },
-        {
-          "id": "ai-agent-optimization-production-scale",
-          "author": null,
-          "description": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
-          "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
-          "publishedOn": "2026-07-27T00:00:00.000Z",
-          "wordCount": 12254,
-          "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/ai-agent-optimization-production-scale/image1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/ai-agent-optimization-production-scale/image1.jpg"
         }
       ]
     },
@@ -15802,6 +15822,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/",
+          "author": null,
+          "description": "Ten years after DARPA's first all-machine hacking tournament, AI agents are solving live CTF challenges, competing with human teams and pushing cybersecurity toward an AI-vs.-AI future. Read on to discover how this future can affect your cybersecurity.",
+          "link": "https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/",
+          "publishedOn": "2026-08-24T20:52:00.000Z",
+          "wordCount": 7414,
+          "title": "From Mayhem to Atlantis: how AI is changing Capture the Flag and what this means for cybersecurity",
+          "imageUrl": "https://media.jamf.com/images/news/2026/from-mayhem-to-atlantis-ai-is-changing-Elad.webp?h=500&q=80&w=800"
+        },
         {
           "id": "https://www.jamf.com/blog/apple-threat-notification-mercenary-spyware-response/",
           "author": null,
@@ -15941,6 +15971,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/japan-business-leaders-survey-2026",
+          "author": "Tadashi Yamanaka",
+          "description": "",
+          "link": "https://www.wiz.io/blog/japan-business-leaders-survey-2026",
+          "publishedOn": "2026-08-25T06:00:00.000Z",
+          "wordCount": null,
+          "title": "Untitled",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1733763115-support-for-japan-tenants-1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1733763115-support-for-japan-tenants-1.png"
+        },
         {
           "id": "https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns",
           "author": "Rami McCarthy",
@@ -16404,16 +16449,6 @@
           "wordCount": 1645,
           "title": "The AI Pentesting Winners May Not Be AI Startups",
           "imageUrl": "https://pentesterlab.com/blog/the-ai-pentesting-winners-may-not-be-ai-startups/thumbnail"
-        },
-        {
-          "id": "https://pentesterlab.com/blog/research-worth-reading-week30-2026",
-          "author": null,
-          "description": "The agents are playing Prison Break this week. We also have two very cool exploit chains and a question I keep coming back to: is AI going to make exploit chains more complex?\n🤖 OpenAI and Hugging Face partner to address security incident during model evaluation\n👍 1\n  \nUnless you live under a rock, you probably heard about this story already. This week, an OpenAI agent escaped its evaluation environment and compromised Hugging Face while trying to pass a benchmark. The strongest lesson is not that agents have suddenly become malicious, but that capable agents will explore every path available to them unless the environment, scope and stopping conditions are much stronger than the objective they have been given. A good reminder that reward hacking can have consequences. \nOpenAI says the a…",
-          "link": "https://pentesterlab.com/blog/research-worth-reading-week30-2026",
-          "publishedOn": "2026-07-27T00:00:00.000Z",
-          "wordCount": 2137,
-          "title": "Research Worth Reading - Week 30, 2026",
-          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week30-2026/thumbnail"
         }
       ]
     }

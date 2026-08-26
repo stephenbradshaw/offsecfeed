@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-25T00:39:34.963Z</updated>
+    <updated>2026-08-26T00:40:44.964Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What's in a tag name? JavaScript, apparently]]></title>
+        <id>whats-in-a-tag-name-javascript-apparently</id>
+        <link href="https://portswigger.net/research/whats-in-a-tag-name-javascript-apparently"/>
+        <updated>2026-08-25T14:24:32.000Z</updated>
+        <summary type="html"><![CDATA[I was on my laptop, as I often am when there's rubbish on telly, and found myself wondering what characters are allowed in a tag. I knew they had to begin with "a-zA-Z", but what about after that? I t]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[State divergence enables unauthorized access]]></title>
+        <id>https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/</id>
+        <link href="https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/"/>
+        <updated>2026-08-25T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live financial assets on mainnet.
+We found the bug, which affects versions before 1.28.0, in March 2026, and reported it to Provenance on April 1. It was mitigated in PR #2627 (commit c81fd65), which shipped in v1.28.0 on May 1, 2026, and fixed in PR #2734, which shipped in v1.29.0 on June 8, 2026.
+What is a marker?
+The marker module is Provenance’s core primitive for fungible tokens. Chain participant…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://www.wiz.io/blog/japan-business-leaders-survey-2026</id>
+        <link href="https://www.wiz.io/blog/japan-business-leaders-survey-2026"/>
+        <updated>2026-08-25T06:00:00.000Z</updated>
+        <author>
+            <name>Tadashi Yamanaka</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy]]></title>
+        <id>alert-triage-agentic-soc-self-correcting-agents</id>
+        <link href="https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents"/>
+        <updated>2026-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.]]></summary>
+        <author>
+            <name>Elastic Security Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Mayhem to Atlantis: how AI is changing Capture the Flag and what this means for cybersecurity]]></title>
+        <id>https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/</id>
+        <link href="https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/"/>
+        <updated>2026-08-24T20:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Ten years after DARPA's first all-machine hacking tournament, AI agents are solving live CTF challenges, competing with human teams and pushing cybersecurity toward an AI-vs.-AI future. Read on to discover how this future can affect your cybersecurity.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Infrared: How External Researchers Bring Tools into OST]]></title>
         <id>https://www.outflank.nl/?p=6255</id>
@@ -2195,31 +2247,6 @@ The post From Virtual Share to Physical Shell: Leveraging Windows’ Inconsisten
         <summary type="html"><![CDATA[Burp AT brings agentic AI to human-led pentesting, with Burp Suite’s proven tools, your project context, and purpose-built skills. You decide how much work agents take on. Burp enforces the boundaries]]></summary>
         <author>
             <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%]]></title>
-        <id>ai-agent-optimization-production-scale</id>
-        <link href="https://www.elastic.co/security-labs/ai-agent-optimization-production-scale"/>
-        <updated>2026-07-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research Worth Reading - Week 30, 2026]]></title>
-        <id>https://pentesterlab.com/blog/research-worth-reading-week30-2026</id>
-        <link href="https://pentesterlab.com/blog/research-worth-reading-week30-2026"/>
-        <updated>2026-07-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The agents are playing Prison Break this week. We also have two very cool exploit chains and a question I keep coming back to: is AI going to make exploit chains more complex?
-🤖 OpenAI and Hugging Face partner to address security incident during model evaluation
-👍 1
-  
-Unless you live under a rock, you probably heard about this story already. This week, an OpenAI agent escaped its evaluation environment and compromised Hugging Face while trying to pass a benchmark. The strongest lesson is not that agents have suddenly become malicious, but that capable agents will explore every path available to them unless the environment, scope and stopping conditions are much stronger than the objective they have been given. A good reminder that reward hacking can have consequences. 
-OpenAI says the a…]]></summary>
-        <author>
-            <name>PentesterLab</name>
         </author>
     </entry>
     <entry>
