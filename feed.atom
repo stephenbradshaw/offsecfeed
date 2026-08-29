@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-08-28T07:53:06.909Z</updated>
+    <updated>2026-08-29T04:46:35.136Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -56,6 +56,18 @@ The post Cleartext Credential Recovery in ServiceNow appeared first on SpecterOp
         <summary type="html"><![CDATA[A practitioner’s guide to log visibility, incident readiness, and threat hunting across the major version control services.]]></summary>
         <author>
             <name>Shira Ayal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PCI DSS Penetration Testing Requirements: What Enterprises Actually Need for Compliance]]></title>
+        <id>https://www.synack.com/?p=28990</id>
+        <link href="https://www.synack.com/blog/pci-compliance-penetration-testing/"/>
+        <updated>2026-08-27T10:55:06.000Z</updated>
+        <summary type="html"><![CDATA[Getting PCI DSS Requirement 11.4 Right From the Start
+Introduction
+The post PCI DSS Penetration Testing Requirements: What Enterprises Actually Need for Compliance appeared first on Synack.]]></summary>
+        <author>
+            <name>Melissa Wooten</name>
         </author>
     </entry>
     <entry>
@@ -672,6 +684,16 @@ This is probably the most interesting look I have seen at what AI-assisted secur
         <link href="https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/"/>
         <updated>2026-08-12T21:15:00.000Z</updated>
         <summary type="html"><![CDATA[You spent the summer getting devices enrolled, updated and compliant. That's the baseline, not the finish line. Learn what it takes to make sure devices are optimized for learning.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bridging the gap: helping teachers adopt technology with confidence]]></title>
+        <id>https://www.jamf.com/blog/teacher-technology-adoption-k-12/</id>
+        <link href="https://www.jamf.com/blog/teacher-technology-adoption-k-12/"/>
+        <updated>2026-08-12T18:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Device deployment isn't the finish line. Here's what completes the chain from device-in-hand to technology in confident, everyday use.]]></summary>
         <author>
             <name>Jamf Blog</name>
         </author>
@@ -2188,105 +2210,6 @@ The post Guest Blog: The Annual Pentest Is No Longer Enough appeared first on Sy
         <summary type="html"><![CDATA[Enterprise AI AppSec requires more than powerful models. It requires a system that balances speed, depth, and cost across the software lifecycle.]]></summary>
         <author>
             <name>Amir Lande Blau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)]]></title>
-        <id>https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/</id>
-        <link href="https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/"/>
-        <updated>2026-07-30T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat.
-Claude Code was also excited finding this:
-
-Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From capable AI models to trusted security testing]]></title>
-        <id>from-capable-ai-models-to-trusted-security-testing</id>
-        <link href="https://portswigger.net/blog/from-capable-ai-models-to-trusted-security-testing"/>
-        <updated>2026-07-30T14:58:47.000Z</updated>
-        <summary type="html"><![CDATA[This week, we launched Burp AT in public beta for Burp Suite Professional users. Next week at Black Hat, PortSwigger Research will reveal more of the work that helped shape our direction. Burp AT is o]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The July 2026 Apple Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a6a7a6eb2ec3c7bbeb384d7</id>
-        <link href="https://www.thezdi.com/blog/2026/7/29/the-july-2026-apple-security-update-review"/>
-        <updated>2026-07-30T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to our monthly look at Apple security patches. This release shows that Apple is not immune to the bug apocalypse that is impacting other vendors. Last month, they released 37 unique CVEs compare to this month’s 210. Quite a jump.
-For July 2026, Apple released 210 unique CVEs across iOS/iPadOS 26.6, macOS Tahoe 26.6, macOS Sequoia 15.7.8, macOS Sonoma 14.8.8, tvOS 26.6, watchOS 26.6, visionOS 26.6, and Safari 26.6. Since Apple doesn’t provide CVSS scores or other severity information, we’re left to speculate on which of these bugs is the most severe. However, there are a couple that stand out.
-·      CVE-2026-43818 (ImageIO) – This bug could allow the “Processing [of] a maliciously crafted image may lead to arbitrary code execution." ImageIO is the classic zero-/one-click remote sur…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CosmosEscape: Taking Over Every Database in Azure Cosmos DB]]></title>
-        <id>https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db</id>
-        <link href="https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db"/>
-        <updated>2026-07-30T12:00:01.000Z</updated>
-        <summary type="html"><![CDATA[A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.]]></summary>
-        <author>
-            <name>Yuval Avrahami</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building secure Uniswap v4 hooks]]></title>
-        <id>https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/</id>
-        <link href="https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/"/>
-        <updated>2026-07-30T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code.
-The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks.
-After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, in…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MQTT and Friends -  Introducing BrokerLine]]></title>
-        <id>683ad27b779569e6bf8c2c69</id>
-        <link href="https://blog.zsec.uk/brokerline-pubsubpwn/"/>
-        <updated>2026-07-30T00:40:57.000Z</updated>
-        <summary type="html"><![CDATA[Using PubSub and MQTT for Azure C2]]></summary>
-        <author>
-            <name>Andy Gill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MQTT and Friends -  Introducing BrokerLine]]></title>
-        <id>683ad27b779569e6bf8c2c69</id>
-        <link href="https://blog.zsec.uk/brokerline-pubsubpwn/"/>
-        <updated>2026-07-30T00:40:57.000Z</updated>
-        <summary type="html"><![CDATA[Using PubSub and MQTT for Azure C2]]></summary>
-        <author>
-            <name>Andy Gill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe Is Regulating AI. America Is Accelerating AI. Both Need Offensive Security Validation.]]></title>
-        <id>https://www.synack.com/?p=28121</id>
-        <link href="https://www.synack.com/blog/prove-dont-assume-ai-security-validation/"/>
-        <updated>2026-07-29T18:52:46.000Z</updated>
-        <summary type="html"><![CDATA[Europe regulates AI through risk tiers and conformity checks. America accelerates AI through deregulation and infrastructure speed. Both models ask different questions but land on the same gap: neither tells you whether a live AI system actually holds up against real attacks. Enterprise AI security depends on evidence, not paperwork or policy. Continuous, human-validated offensive testing is the layer that both regulatory philosophies are missing and that every organization operating across borders actually needs.
-The post Europe Is Regulating AI. America Is Accelerating AI. Both Need Offensive Security Validation. appeared first on Synack.]]></summary>
-        <author>
-            <name>Angela Heindl-Schober</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BOD 26-04 Makes Exploitability the Priority Signal: Scanners Can’t Measure It]]></title>
-        <id>https://www.synack.com/?p=28139</id>
-        <link href="https://www.synack.com/blog/bod-26-04-exposure-validation/"/>
-        <updated>2026-07-29T16:04:09.000Z</updated>
-        <summary type="html"><![CDATA[CISA's Binding Operational Directive 26-04, issued June 10, 2026, replaces the KEV directive with a four-variable risk model: asset exposure, KEV status, exploit automation, and technical impact. CISA publishes three of the four answers generically per CVE. The two that decide whether prioritization is defensible (real exposure and real impact in your environment) can only be proven by testing the asset the way an adversary would. Continuous, human-validated pentesting is built to produce that evidence.
-The post BOD 26-04 Makes Exploitability the Priority Signal: Scanners Can’t Measure It appeared first on Synack.]]></summary>
-        <author>
-            <name>Scott Ormiston</name>
         </author>
     </entry>
     <entry>
