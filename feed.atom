@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-04T02:05:40.672Z</updated>
+    <updated>2026-09-05T01:58:57.859Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Data access: the hidden cost of security vendor lock-in]]></title>
+        <id>siem-data-export-comparison</id>
+        <link href="https://www.elastic.co/security-labs/blog/siem-data-export-comparison"/>
+        <updated>2026-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Getting data into a security platform is always easy; getting it back out is where vendors add cost, extra tooling, and latency, and it is the part of the evaluation most teams overlook.]]></summary>
+        <author>
+            <name>Mike Nichols,Jamie Hynds</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Modern Adventures in Azure Privilege Escalation]]></title>
         <id>https://www.netspi.com/?p=34276</id>
@@ -178,6 +188,16 @@ The post Penetration Testing for SOC 2 Compliance: What Auditors Expect appeared
         Imagine two consultancies bidding for a penetration test at a regional healthcare provider. The first employs elite researchers with impressive discoveries and conference credentials. The second is less prestigious, but its consultants understand healthcare environments, regulatory constraints, common authentication systems and which recommendations the cu…]]></summary>
         <author>
             <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Platform APIs and the Platform API Gateway]]></title>
+        <id>https://www.jamf.com/blog/platform-api-gateway/</id>
+        <link href="https://www.jamf.com/blog/platform-api-gateway/"/>
+        <updated>2026-08-31T21:17:00.000Z</updated>
+        <summary type="html"><![CDATA[Jamf Platform APIs and the Platform API Gateway are now generally available! Learn what you can build and automate across the Jamf platform.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -1934,110 +1954,6 @@ The post Breaking the attack chain created by exposed cloud secrets  appeared f
         <summary type="html"><![CDATA[Cloud and AI threat activity tracked by Wiz Research and CIRT, January through June 2026]]></summary>
         <author>
             <name>Wiz Threat Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wiz Brings Automated DISA STIG Assessment to Amazon Linux 2023 and Windows Server 2025]]></title>
-        <id>https://www.wiz.io/blog/wiz-brings-automated-disa-stig-assessment-to-amazon-linux-and-windows-server</id>
-        <link href="https://www.wiz.io/blog/wiz-brings-automated-disa-stig-assessment-to-amazon-linux-and-windows-server"/>
-        <updated>2026-08-06T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Automating DISA STIG Compliance for Amazon Linux 2023 and Windows Server 2025, giving defense and federal teams immediate and continuous hardening validation.]]></summary>
-        <author>
-            <name>Daniel Klein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages]]></title>
-        <id>shai-hulud-chaindrop-npm-supply-chain</id>
-        <link href="https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain"/>
-        <updated>2026-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Security Labs identified the return of Shai-Hulud. Attackers compromised the keyv maintainer and deployed CHAINDROP, a worm that uses stolen npm credentials to backdoor co-owned packages totaling over 1.3 billion monthly downloads.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CRLF-Powered Desync Attacks: Beheading HTTP Streams]]></title>
-        <id>crlf-powered-desync-attacks</id>
-        <link href="https://portswigger.net/research/crlf-powered-desync-attacks"/>
-        <updated>2026-08-05T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can AI do novel security research? Meet the HTTP Terminator]]></title>
-        <id>can-ai-do-novel-security-research</id>
-        <link href="https://portswigger.net/research/can-ai-do-novel-security-research"/>
-        <updated>2026-08-05T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can AI do novel security research? Meet the HTTP Terminator]]></title>
-        <id>http-terminator</id>
-        <link href="https://portswigger.net/research/http-terminator"/>
-        <updated>2026-08-05T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi]]></summary>
-        <author>
-            <name>PortSwigger Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 1]]></title>
-        <id>https://specterops.io/?p=28701</id>
-        <link href="https://specterops.io/blog/2026/08/05/turning-enterprise-update-servers-into-backdoor-factories-part-1/"/>
-        <updated>2026-08-05T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: This is part 1 of a 2 part blog series sharing what I have discovered in my Windows Service Update Service (WSUS) research. If the WSUS database is configured on a separate server from the upstream WSUS server, we can coerce the WSUS computer account to the WSUS database and establish a SQL session. […]
-The post Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 1 appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Beyviel David</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 2]]></title>
-        <id>https://specterops.io/?p=28725</id>
-        <link href="https://specterops.io/blog/2026/08/05/turning-enterprise-update-servers-into-backdoor-factories-part-2/"/>
-        <updated>2026-08-05T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: When WSUS downloads files for updates, it requires the server to leverage the BITS protocol. WSUS normally requires executables to be digitally signed, however this can be bypassed by appending the .esd or .txt file extensions. Introduction In Part 1 of this series, I walked through the necessary stored procedures used to create a […]
-The post Turning Enterprise Update Servers Into Backdoor Factories (0_o) – Part 2 appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Beyviel David</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Of Course We Built a WSUS Ludus Lab]]></title>
-        <id>https://specterops.io/?p=28748</id>
-        <link href="https://specterops.io/blog/2026/08/05/built-a-wsus-ludus-lab/"/>
-        <updated>2026-08-05T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: This blog walks you through setting up a WSUS lab using Ludus for testing. The associated GitHub repo is here. Introduction I have been researching the Windows Service Update Service (WSUS) and discovered a new way we could take over the WSUS infrastructure and deploy custom payloads for lateral movement. As part of this […]
-The post Of Course We Built a WSUS Ludus Lab appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Beyviel David</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weaponizing Windows Updates with NotWSUSpicious]]></title>
-        <id>https://specterops.io/?p=28753</id>
-        <link href="https://specterops.io/blog/2026/08/05/weaponizing-windows-updates-with-notwsuspicious/"/>
-        <updated>2026-08-05T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: NotWSUSpicious is a tool repo to aid in creating custom updates after gaining access to a WSUS database server. The Turning Enterprise Update Servers Into Backdoor Factories (0_o) series covers how the database takeover works. This blog strictly covers how to use the tooling. The series can be found here: Turning Enterprise Update Servers […]
-The post Weaponizing Windows Updates with NotWSUSpicious appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Beyviel David</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI governance: the missing link in Enterprise security]]></title>
-        <id>https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security/</id>
-        <link href="https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security/"/>
-        <updated>2026-08-05T15:56:00.000Z</updated>
-        <summary type="html"><![CDATA[AI use in your organization can be a silent threat multiplier. Here's how to ensure your organization's data remains secure. Part one of a three-part series.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
