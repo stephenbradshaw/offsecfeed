@@ -2,10 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-08T02:02:17.258Z</updated>
+    <updated>2026-09-09T02:07:18.438Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The September 2026 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6aa04fb937e9aa6acbcc1826</id>
+        <link href="https://www.thezdi.com/blog/2026/9/8/the-september-2026-security-update-review"/>
+        <updated>2026-09-08T18:32:13.000Z</updated>
+        <summary type="html"><![CDATA[Whelp, here we are. Deep into the new normal. With nearly 1,000 CVEs coming out from Microsoft and a healthy release from Adobe as well, there’s a phrase from my military days that comes to mind: embrace the suck. Take an extended break from your regularly scheduled activities as we take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for September 2026
+For the first part of the August release, Adobe released 10 bulletins addressing 172 unique CVEs in Adobe ColdFusion, Acrobat Reader, Commerce (two bulletins), Campaign Classic, Experience Manager, Photoshop, Illustrator, Animate, and Adobe Photoshop Mobile. A total of 22 of these were submitted through the ZDI pr…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Token Analysis and Tracking System (TATS)]]></title>
+        <id>https://specterops.io/?p=29558</id>
+        <link href="https://specterops.io/blog/2026/09/08/token-analysis-and-tracking-system-tats/"/>
+        <updated>2026-09-08T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Tracking OAuth tokens is hard, but Token Analysis and Tracking System (TATS) can help. TATS will collect, store, decode, analyze and provide visual tracking for OAuth token exchanges. It was built to account for known OAuth deviations in the Microsoft ecosystem and will work with any OAuth implementation. This blog explores functionality along with […]
+The post Token Analysis and Tracking System (TATS) appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Hope Walker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Findings to Fixes: Getting Value from Red Team Results]]></title>
+        <id>https://specterops.io/?p=29548</id>
+        <link href="https://specterops.io/blog/2026/09/08/from-findings-to-fixes-getting-value-from-red-team-results/"/>
+        <updated>2026-09-08T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: The value of a red team engagement doesn’t end when the report lands. This post covers how to read findings for root cause, prioritize remediation, and build the improvement habit that makes each engagement more valuable than the last.  The engagement is complete. The objectives were well-formed, the report has landed, and the outbrief is done. Now what?  Red team results […]
+The post From Findings to Fixes: Getting Value from Red Team Results appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Ric Nguyen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NetNTLMv1 Is Dead. Long Live NetNTLMv1.]]></title>
+        <id>https://www.outflank.nl/?p=6328</id>
+        <link href="https://www.outflank.nl/blog/2026/09/08/netntlmv1-is-dead-long-live-netntlmv1/"/>
+        <updated>2026-09-08T16:13:19.000Z</updated>
+        <summary type="html"><![CDATA[Fitting lossless rainbow tables on a 4 TB disk and cracking NetNTLMv1 with WebGPU and ntlmrain.
+Google’s release of the NetNTLMv1 rainbow tables made it much more practical to recover an NT hash from a NetNTLMv1 response captured with the fixed challenge 1122334455667788, further reducing the needed compute power.
+NetNTLMv1 cracking is a problem I’ve kept returning to over the past several years. The recent table release prompted me to explore whether the process could be made cheaper, faster and easier to run. This post describes the result: a compact indexed table format, a WebGPU browser client and a native command-line tool.
+
+Highlights
+This post explains a new ntlmrain rainbow table layout. We are publicly releasing a browser tool and command-line client together with the optimized tables.
+
+Read full post
+The post NetNTLMv1 Is Dead. Long Live NetNTLMv1. appeared first on Outflank.]]></summary>
+        <author>
+            <name>Cedric Van Bockhaven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HIPAA Penetration Testing Requirements for Healthcare Enterprises]]></title>
+        <id>https://www.synack.com/?p=29463</id>
+        <link href="https://www.synack.com/blog/hipaa-penetration-testing-requirements/"/>
+        <updated>2026-09-08T11:45:14.000Z</updated>
+        <summary type="html"><![CDATA[Many healthcare organizations have been told that HIPAA requires an annual penetration test. The current rule is more nuanced. Penetration testing for HIPAA compliance is not prescribed as one universal annual obligation, but regulated entities must conduct a comprehensive risk analysis, manage identified risks, and evaluate whether their safeguards remain effective. A well-scoped pentest can provide important evidence supporting those responsibilities. HHS has also proposed making annual penetration testing explicit, although that proposal is not yet binding.
+The post HIPAA Penetration Testing Requirements for Healthcare Enterprises appeared first on Synack.]]></summary>
+        <author>
+            <name>Paul Mote</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Testing race conditions with memory access tracing and stack-based delay injection]]></title>
+        <id>https://projectzero.google/2026/09/maccconc-race-condition.html</id>
+        <link href="https://projectzero.google/2026/09/maccconc-race-condition.html"/>
+        <updated>2026-09-08T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliably triggers the bug as part of a test suite. Automatic bug discovery, such as fuzzing: It is hard for a fuzzer to exercise all interesting interleavings of concurrent operations, or reach code paths that are only exercised when operations are racing.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JWT Security: How to Secure JWTs and Avoid Common Vulnerabilities]]></title>
+        <id>https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities</id>
+        <link href="https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities"/>
+        <updated>2026-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JSON Web Tokens (JWTs) are everywhere in modern authentication, and for good reason: they are compact, self-contained and easy to pass around between services. The catch is that a lot of their security depends on how you use them. If you rely on a well-maintained JWT library, the hardest cryptographic parts are handled for you, but a handful of practical decisions are still yours to get right.
+This post is aimed at developers who use a JWT library rather than write one. We will walk through the practical steps that make the difference between a token you can trust and one an attacker can bend, starting with the single most important one.
+1. Always pin the algorithm
+This is the one to get right before anything else. A JWT carries the algorithm it was signed with in its header, in the alg at…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Can Find Vulnerabilities. Building a System That Proves Risk Is the Hard Part.]]></title>
+        <id>https://www.synack.com/?p=29408</id>
+        <link href="https://www.synack.com/blog/ai-generated-findings-exploitable-risk/"/>
+        <updated>2026-09-07T14:52:13.000Z</updated>
+        <summary type="html"><![CDATA[The core components required to move from automated discovery to proven risk now exist: capable models, controlled execution, scalable orchestration, evidence capture and human judgement. The opportunity is to engineer them as one dependable system rather than treat each as a standalone feature.
+The post AI Can Find Vulnerabilities. Building a System That Proves Risk Is the Hard Part. appeared first on Synack.]]></summary>
+        <author>
+            <name>Phil Whitby</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anti-DDoS research part 4: an information-gain oracle. Practical Python example]]></title>
+        <id>https://cocomelonc.github.io/linux/2026/09/07/ddos-information-gain-oracle.html</id>
+        <link href="https://cocomelonc.github.io/linux/2026/09/07/ddos-information-gain-oracle.html"/>
+        <updated>2026-09-07T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Keeping Claude at Bay - Old Models are Still Useful]]></title>
         <id>6a9bab094cbc876206afa7ac</id>
@@ -70,6 +177,17 @@ One example starts with catalog_admin, which allows scripts in catalog access cr
 The post Modern Adventures in Azure Privilege Escalation appeared first on NetSPI.]]></summary>
         <author>
             <name>Thomas Elling</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Offensive Security Is Becoming a Program, Not a Purchase]]></title>
+        <id>https://www.synack.com/?p=29341</id>
+        <link href="https://www.synack.com/blog/offensive-security-program-not-purchase/"/>
+        <updated>2026-09-03T15:06:54.000Z</updated>
+        <summary type="html"><![CDATA[You know what you spent on penetration testing last year. But can you explain what that investment covered between engagements? For many organizations the honest answer is that it covered the weeks the testers were working against a scope agreed before they started. That was a reasonable arrangement when systems changed a few times a year. It is worth revisiting, now that many of them change weekly.
+The post Offensive Security Is Becoming a Program, Not a Purchase appeared first on Synack.]]></summary>
+        <author>
+            <name>Angela Heindl-Schober</name>
         </author>
     </entry>
     <entry>
@@ -1928,38 +2046,6 @@ The post Managed Bug Bounty: Why Provable Coverage Beats Blind Spend appeared fi
         <summary type="html"><![CDATA[Black Hat USA 2026 highlighted how cybersecurity has fundamentally changed. Here's a peek into what the Jamf team was up to, what we learned, and what we showed at the conference.]]></summary>
         <author>
             <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside the Metabase SQLi: Exploited in the Wild]]></title>
-        <id>https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild</id>
-        <link href="https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild"/>
-        <updated>2026-08-10T12:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Reverse engineering GHSA-vwf4-m7j8-wcjf with AI to accelerate defense.]]></summary>
-        <author>
-            <name>Rami McCarthy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From DARPA to Black Hat: An SRT Researcher’s Next Chapter]]></title>
-        <id>https://www.synack.com/?p=28345</id>
-        <link href="https://www.synack.com/blog/malcolm-stagg-black-hat-2026/"/>
-        <updated>2026-08-05T14:41:54.000Z</updated>
-        <summary type="html"><![CDATA[Synack Red Team researcher Malcolm Stagg takes the stage at Black Hat USA 2026 on August 6 to present three years of independent research on a new class of network infrastructure attacks. Here's who he is and why the talk belongs on your calendar.
-The post From DARPA to Black Hat: An SRT Researcher’s Next Chapter appeared first on Synack.]]></summary>
-        <author>
-            <name>Ryan Rutan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build vs. Buy AI Pentesting: Why Dow Chose to Partner With Synack]]></title>
-        <id>https://www.synack.com/?p=28327</id>
-        <link href="https://www.synack.com/blog/build-vs-buy-ai-pentesting-dow-synack/"/>
-        <updated>2026-08-05T13:45:46.000Z</updated>
-        <summary type="html"><![CDATA[To hear both sides of the build vs buy debate around AI pentesting solutions, we spoke with Dow's cyber engineering team lead Dan Lacher and Synack's CTO Mark Kuhr. From Dow's perspective, Synack served as a force multiplier for a small internal red team. Meanwhile, building the Synack Autonomous Red Agent (Sara) from scratch definitely had some trial and error.
-The post Build vs. Buy AI Pentesting: Why Dow Chose to Partner With Synack appeared first on Synack.]]></summary>
-        <author>
-            <name>Tim Nordvedt</name>
         </author>
     </entry>
     <entry>
