@@ -13957,6 +13957,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
+          "author": null,
+          "description": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown below, that suggests the proof may have fit the margin after all. The issue affects all stable versions of Lean up to 4.33.1, and the patch is incorporated in v4.34.0-rc1.\nA “checked” proof of Fermat’s Last Theorem using Lean 4.33.1\n \n\nThe blue checkmarks in the screenshot above would suggest that Lean considers this proof correct. This seems odd given the amount of work Sir Andrew Wiles put into this probl…",
+          "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
+          "publishedOn": "2026-09-09T11:00:00.000Z",
+          "wordCount": 685,
+          "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
+          "imageUrl": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/proof-fermat-social-banner.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
           "author": null,
           "description": "As part of Patch the Planet, we received preview access to GPT 5.6-Cyber with a simple task: evaluate its cyber capabilities. Recent events inspired me to give it a challenge to work through: escape the VM I’d normally use for sandboxing. The target was a QEMU/KVM VM on my Linux dev machine (Debian Linux 12, AMD Zen3). It escaped the VM three different times.\nFirst, it used recently disclosed bugs in my host kernel. When I fully updated, it used disclosed bugs that had not yet reached package maintainers or were not classified as security bugs. When I rebuilt QEMU and dependencies from the latest upstream source, it found several 0-days. It operated autonomously for hours, backtracked from approaches that didn’t work, pulled code and research papers, wrote oracles, made its own minimal exa…",
@@ -14088,6 +14098,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=44617",
+          "author": "Alex Wallace",
+          "description": "TL;DR Introduction Default printer configurations are common to find in internal infrastructure engagements. These configurations are usually insecure, exposing outdated protocols like SNMPv1 and web interfaces without requiring authentication. For an unauthenticated, internal attacker, this can be a treasure trove of information for later exploitation, sometimes including usernames, email addresses and file names: However, the […]\nThe post Passing the bucks $$$: Passback attacks explained appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/passing-the-bucks-passback-attacks-explained/",
+          "publishedOn": "2026-09-09T14:29:10.000Z",
+          "wordCount": 2273,
+          "title": "Passing the bucks $$$: Passback attacks explained",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/09/Morgan-Passback-attack-headline-imagev3-2-1024x576.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=44601",
           "author": "Alex Wallace",
@@ -14319,16 +14339,6 @@
           "publishedOn": "2026-08-20T13:00:00.000Z",
           "wordCount": 2849,
           "title": "CTEM 101: Moving From Spreadsheets to Continuous Risk Reduction",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
-        },
-        {
-          "id": "https://bishopfox.com/blog/critical-sql-injection-in-metabase-via-password-reset-cve-2026-72898",
-          "author": null,
-          "description": "Immediate action is advised for all organizations running self-hosted Metabase. A critical, unauthenticated SQL injection vulnerability has been disclosed in Metabase's password reset functionality, and Metabase has confirmed active exploitation in the wild.",
-          "link": "https://bishopfox.com/blog/critical-sql-injection-in-metabase-via-password-reset-cve-2026-72898",
-          "publishedOn": "2026-08-11T07:00:00.000Z",
-          "wordCount": 2077,
-          "title": "Critical SQL Injection in Metabase via Password Reset: CVE-2026-72898",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
         }
       ]
@@ -15494,6 +15504,66 @@
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt194a2b93239a98c3/6a9a90363481c2bd668af9b3/2189.png"
         },
         {
+          "id": "kubernetes-audit-logs-container-escape",
+          "author": "Isai Anthony",
+          "description": "Two fields join the Kubernetes API to what ran inside the pod, and one turns up a container escape your process events never recorded.",
+          "link": "https://www.elastic.co/security-labs/threat-command/kubernetes-audit-logs-container-escape",
+          "publishedOn": "2026-09-03T15:19:21.000Z",
+          "wordCount": 31419,
+          "title": "How to correlate Kubernetes audit logs with container runtime data",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a9b5a1d6a281f9b/6a9698cf6fe1454090b1c811/image9.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a9b5a1d6a281f9b/6a9698cf6fe1454090b1c811/image9.jpg"
+        },
+        {
+          "id": "revstealer-credential-harvesting-infostealer",
+          "author": "Daniel Stepanic,Salim Bitam,Jia Yu Chan",
+          "description": "Elastic Security Labs deep dives into REVSTEALER, an emerging infostealer targeting browsers, wallets, and gaming accounts.",
+          "link": "https://www.elastic.co/security-labs/threat-command/revstealer-credential-harvesting-infostealer",
+          "publishedOn": "2026-09-02T00:00:00.000Z",
+          "wordCount": 30297,
+          "title": "REVSTEALER ramps up: analysis of up-and-coming infostealer",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteae93f19003a3c38/6a97987727a53185fbdc9398/image4.webp",
+            "length": "0",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteae93f19003a3c38/6a97987727a53185fbdc9398/image4.webp"
+        },
+        {
+          "id": "memfd-create-linux-fileless-execution",
+          "author": "Ruben Groenewoud",
+          "description": "We reproduced five Linux fileless execution patterns with FENIX, including memfd_create staging, interpreter one-liners, deleted binaries, and in-memory kernel module loads, then mapped each to the Elastic Defend rules that catch it.",
+          "link": "https://www.elastic.co/security-labs/threat-command/memfd-create-linux-fileless-execution",
+          "publishedOn": "2026-09-01T14:26:37.000Z",
+          "wordCount": 33592,
+          "title": "Linux Detection Engineering - Fileless Execution",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2039145348c9e674/6a95824260f7954de4d76c21/image14.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2039145348c9e674/6a95824260f7954de4d76c21/image14.png"
+        },
+        {
+          "id": "dll-search-order-hijacking-elastic-defend",
+          "author": "Ian Garratt,Tamás Péter",
+          "description": "The ClickFix campaign that sideloads a malicious mscoree.dll also ships a driver to kill Elastic Endpoint. We rebuilt that DLL as a NativeAOT library, dropped it beside a signed Microsoft binary, and Elastic Defend 9.5.0 flagged the load.",
+          "link": "https://www.elastic.co/security-labs/threat-command/dll-search-order-hijacking-elastic-defend",
+          "publishedOn": "2026-08-28T00:00:00.000Z",
+          "wordCount": 31479,
+          "title": "From 88 lines to 1: Detecting DLL hijacking with Elastic Defend",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt51a8b7b0b31af675/6a9045aabed19de530afc2fd/image3.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt51a8b7b0b31af675/6a9045aabed19de530afc2fd/image3.png"
+        },
+        {
           "id": "alert-triage-agentic-soc-self-correcting-agents",
           "author": "Maggie Musquez",
           "description": "Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.",
@@ -15552,36 +15622,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.elastic.co/security-labs/assets/images/entity-resolution-identity-scoring-elastic-security/image1.png"
-        },
-        {
-          "id": "ai-coding-agent-audit-cursor-hooks",
-          "author": "Wieger van der Meulen",
-          "description": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
-          "link": "https://www.elastic.co/security-labs/blog/ai-coding-agent-audit-cursor-hooks",
-          "publishedOn": "2026-08-11T00:00:00.000Z",
-          "wordCount": null,
-          "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta8dba8aab4b14d99/6a85bb0443c0b72e8a2f0266/image1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta8dba8aab4b14d99/6a85bb0443c0b72e8a2f0266/image1.png"
-        },
-        {
-          "id": "ai-coding-agent-audit-cursor-hooks",
-          "author": null,
-          "description": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
-          "link": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks",
-          "publishedOn": "2026-08-11T00:00:00.000Z",
-          "wordCount": 11412,
-          "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/ai-coding-agent-audit-cursor-hooks/image1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/ai-coding-agent-audit-cursor-hooks/image1.png"
         }
       ]
     },
@@ -15590,6 +15630,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/jamf-infrastructure-as-code-terraform-endpoint-management/",
+          "author": null,
+          "description": "Jamf lets you extend infrastructure as code to Apple endpoint management. With Terraform providers across Jamf Pro, Jamf Protect, Jamf School, and Jamf Security Cloud and backed by a unified Platform API Gateway, you can declare your entire Jamf environment in code, ship peer-reviewed changes through a pipeline and roll back with a single Git command.",
+          "link": "https://www.jamf.com/blog/jamf-infrastructure-as-code-terraform-endpoint-management/",
+          "publishedOn": "2026-09-09T14:16:00.000Z",
+          "wordCount": 2312,
+          "title": "Manage your Apple fleet as code with Jamf and Terraform",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jamf-iac-terraform.webp?h=400&q=80&w=700"
+        },
         {
           "id": "https://www.jamf.com/blog/contagious-interview-trojanized-macos-installers/",
           "author": null,
@@ -15689,26 +15739,6 @@
           "wordCount": 2475,
           "title": "Bridging the gap: helping teachers adopt technology with confidence",
           "imageUrl": "https://media.jamf.com/images/news/2026/teacher-technology-adoption-k-12.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
-          "author": null,
-          "description": "Jamf Threat Labs discovers and investigates AmnesiaStealer, a multi-stage Rust-based macOS infostealer spread through a counterfeit GitHub download page that captures the login password, reaches for macOS bypasses Apple has already patched, and can hand the operator live, hidden control of the victim's Chromium browser to steal authenticated sessions.",
-          "link": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
-          "publishedOn": "2026-08-11T13:14:00.000Z",
-          "wordCount": 8539,
-          "title": "AmnesiaStealer: a multi-stage Rust-based macOS infostealer that hijacks Chromium browsers",
-          "imageUrl": "https://media.jamf.com/images/news/2026/jtl-mac-graph.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/black-hat-usa-2026/",
-          "author": null,
-          "description": "Black Hat USA 2026 highlighted how cybersecurity has fundamentally changed. Here's a peek into what the Jamf team was up to, what we learned, and what we showed at the conference.",
-          "link": "https://www.jamf.com/blog/black-hat-usa-2026/",
-          "publishedOn": "2026-08-10T17:24:00.000Z",
-          "wordCount": 3211,
-          "title": "Black Hat USA 2026",
-          "imageUrl": "https://media.jamf.com/images/news/2026/blackhat-2026.webp?h=500&q=80&w=800"
         }
       ]
     },
@@ -15739,6 +15769,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise",
+          "author": "Amitai Cohen",
+          "description": "How default keys, unauthenticated MCP sessions, and custom code guardrails expose cloud AI infrastructure to root-level remote code execution and IAM theft.",
+          "link": "https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise",
+          "publishedOn": "2026-09-09T16:06:00.000Z",
+          "wordCount": 22857,
+          "title": "Off Guard: Breaking LiteLLM from authentication bypass to cloud compromise",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1788901591-image-14.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1788901591-image-14.png"
+        },
         {
           "id": "https://www.wiz.io/blog/prevent-production-risk-at-code-stage",
           "author": "Mike McGuire",

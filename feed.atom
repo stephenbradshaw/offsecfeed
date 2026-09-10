@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-09T02:07:18.438Z</updated>
+    <updated>2026-09-10T02:04:38.978Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Off Guard: Breaking LiteLLM from authentication bypass to cloud compromise]]></title>
+        <id>https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise</id>
+        <link href="https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise"/>
+        <updated>2026-09-09T16:06:00.000Z</updated>
+        <summary type="html"><![CDATA[How default keys, unauthenticated MCP sessions, and custom code guardrails expose cloud AI infrastructure to root-level remote code execution and IAM theft.]]></summary>
+        <author>
+            <name>Amitai Cohen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Passing the bucks $$$: Passback attacks explained]]></title>
+        <id>https://www.pentestpartners.com/?p=44617</id>
+        <link href="https://www.pentestpartners.com/security-blog/passing-the-bucks-passback-attacks-explained/"/>
+        <updated>2026-09-09T14:29:10.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Introduction Default printer configurations are common to find in internal infrastructure engagements. These configurations are usually insecure, exposing outdated protocols like SNMPv1 and web interfaces without requiring authentication. For an unauthenticated, internal attacker, this can be a treasure trove of information for later exploitation, sometimes including usernames, email addresses and file names: However, the […]
+The post Passing the bucks $$$: Passback attacks explained appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manage your Apple fleet as code with Jamf and Terraform]]></title>
+        <id>https://www.jamf.com/blog/jamf-infrastructure-as-code-terraform-endpoint-management/</id>
+        <link href="https://www.jamf.com/blog/jamf-infrastructure-as-code-terraform-endpoint-management/"/>
+        <updated>2026-09-09T14:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Jamf lets you extend infrastructure as code to Apple endpoint management. With Terraform providers across Jamf Pro, Jamf Protect, Jamf School, and Jamf Security Cloud and backed by a unified Platform API Gateway, you can declare your entire Jamf environment in code, ship peer-reviewed changes through a pipeline and roll back with a single Git command.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A “proof” of Fermat’s Last Theorem that fits the margin]]></title>
+        <id>https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/</id>
+        <link href="https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/"/>
+        <updated>2026-09-09T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown below, that suggests the proof may have fit the margin after all. The issue affects all stable versions of Lean up to 4.33.1, and the patch is incorporated in v4.34.0-rc1.
+A “checked” proof of Fermat’s Last Theorem using Lean 4.33.1
+ 
+
+The blue checkmarks in the screenshot above would suggest that Lean considers this proof correct. This seems odd given the amount of work Sir Andrew Wiles put into this probl…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The September 2026 Security Update Review]]></title>
         <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6aa04fb937e9aa6acbcc1826</id>
@@ -180,6 +225,16 @@ The post Modern Adventures in Azure Privilege Escalation appeared first on NetSP
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How to correlate Kubernetes audit logs with container runtime data]]></title>
+        <id>kubernetes-audit-logs-container-escape</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/kubernetes-audit-logs-container-escape"/>
+        <updated>2026-09-03T15:19:21.000Z</updated>
+        <summary type="html"><![CDATA[Two fields join the Kubernetes API to what ran inside the pod, and one turns up a container escape your process events never recorded.]]></summary>
+        <author>
+            <name>Isai Anthony</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Offensive Security Is Becoming a Program, Not a Purchase]]></title>
         <id>https://www.synack.com/?p=29341</id>
         <link href="https://www.synack.com/blog/offensive-security-program-not-purchase/"/>
@@ -295,6 +350,16 @@ The post Red Team AI Skills appeared first on Outflank.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[REVSTEALER ramps up: analysis of up-and-coming infostealer]]></title>
+        <id>revstealer-credential-harvesting-infostealer</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/revstealer-credential-harvesting-infostealer"/>
+        <updated>2026-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Elastic Security Labs deep dives into REVSTEALER, an emerging infostealer targeting browsers, wallets, and gaming accounts.]]></summary>
+        <author>
+            <name>Daniel Stepanic,Salim Bitam,Jia Yu Chan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[When the AI sits inside the perimeter: from cyber capability to AI governance]]></title>
         <id>https://www.jamf.com/blog/ai-governance-cybersecurity-enterprise-agents/</id>
         <link href="https://www.jamf.com/blog/ai-governance-cybersecurity-enterprise-agents/"/>
@@ -302,6 +367,16 @@ The post Red Team AI Skills appeared first on Outflank.]]></summary>
         <summary type="html"><![CDATA[AI agents are powerful tools, but they introduce unique risks to your organization. Learn how AI platforms within your company cause trouble, from both attackers and legitimate use, and how AI governance helps defend against these threats.]]></summary>
         <author>
             <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Detection Engineering - Fileless Execution]]></title>
+        <id>memfd-create-linux-fileless-execution</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/memfd-create-linux-fileless-execution"/>
+        <updated>2026-09-01T14:26:37.000Z</updated>
+        <summary type="html"><![CDATA[We reproduced five Linux fileless execution patterns with FENIX, including memfd_create staging, interpreter one-liners, deleted binaries, and in-memory kernel module loads, then mapped each to the Elastic Defend rules that catch it.]]></summary>
+        <author>
+            <name>Ruben Groenewoud</name>
         </author>
     </entry>
     <entry>
@@ -1214,6 +1289,16 @@ Trail of Bit…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[From 88 lines to 1: Detecting DLL hijacking with Elastic Defend]]></title>
+        <id>dll-search-order-hijacking-elastic-defend</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/dll-search-order-hijacking-elastic-defend"/>
+        <updated>2026-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The ClickFix campaign that sideloads a malicious mscoree.dll also ships a driver to kill Elastic Endpoint. We rebuilt that DLL as a NativeAOT library, dropped it beside a signed Microsoft binary, and Elastic Defend 9.5.0 flagged the load.]]></summary>
+        <author>
+            <name>Ian Garratt,Tamás Péter</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why SpecterOps Signed OpenAI’s Call for Collective Cyber Defense]]></title>
         <id>https://specterops.io/?p=29383</id>
         <link href="https://specterops.io/blog/2026/08/27/specterops-openai-collective-cyber-defense/"/>
@@ -1988,16 +2073,6 @@ Until now, the only way to detect such malfeasance was to verify safety numbers 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AmnesiaStealer: a multi-stage Rust-based macOS infostealer that hijacks Chromium browsers]]></title>
-        <id>https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/</id>
-        <link href="https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/"/>
-        <updated>2026-08-11T13:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Jamf Threat Labs discovers and investigates AmnesiaStealer, a multi-stage Rust-based macOS infostealer spread through a counterfeit GitHub download page that captures the login password, reaches for macOS bypasses Apple has already patched, and can hand the operator live, hidden control of the victim's Chromium browser to steal authenticated sessions.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Managed Bug Bounty: Why Provable Coverage Beats Blind Spend]]></title>
         <id>https://www.synack.com/?p=28374</id>
         <link href="https://www.synack.com/blog/managed-bug-bounty-provable-coverage/"/>
@@ -2006,46 +2081,6 @@ Until now, the only way to detect such malfeasance was to verify safety numbers 
 The post Managed Bug Bounty: Why Provable Coverage Beats Blind Spend appeared first on Synack.]]></summary>
         <author>
             <name>Dave Henderson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical SQL Injection in Metabase via Password Reset: CVE-2026-72898]]></title>
-        <id>https://bishopfox.com/blog/critical-sql-injection-in-metabase-via-password-reset-cve-2026-72898</id>
-        <link href="https://bishopfox.com/blog/critical-sql-injection-in-metabase-via-password-reset-cve-2026-72898"/>
-        <updated>2026-08-11T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Immediate action is advised for all organizations running self-hosted Metabase. A critical, unauthenticated SQL injection vulnerability has been disclosed in Metabase's password reset functionality, and Metabase has confirmed active exploitation in the wild.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[13 million tool calls: auditing every AI coding agent action with Elastic Agent]]></title>
-        <id>ai-coding-agent-audit-cursor-hooks</id>
-        <link href="https://www.elastic.co/security-labs/blog/ai-coding-agent-audit-cursor-hooks"/>
-        <updated>2026-08-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></summary>
-        <author>
-            <name>Wieger van der Meulen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[13 million tool calls: auditing every AI coding agent action with Elastic Agent]]></title>
-        <id>ai-coding-agent-audit-cursor-hooks</id>
-        <link href="https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks"/>
-        <updated>2026-08-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></summary>
-        <author>
-            <name>Elastic Security Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Black Hat USA 2026]]></title>
-        <id>https://www.jamf.com/blog/black-hat-usa-2026/</id>
-        <link href="https://www.jamf.com/blog/black-hat-usa-2026/"/>
-        <updated>2026-08-10T17:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Black Hat USA 2026 highlighted how cybersecurity has fundamentally changed. Here's a peek into what the Jamf team was up to, what we learned, and what we showed at the conference.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
