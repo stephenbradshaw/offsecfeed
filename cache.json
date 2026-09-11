@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=29583",
+          "author": "Joshua Prager",
+          "description": "TL;DR: Executing applications instead of scripts via SCCM’s deploy application feature will generate different artifacts due to the fundamental differences in the execution flow. While existing detection tools can catch script-based execution, they often miss stealthier methods. This post covers how to detect the more evasive SCCM application execution. Introduction: During BlackHat 2025’s offering of […]\nThe post Unmasking SCCM Application Execution appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/09/10/unmasking-sccm-application-execution/",
+          "publishedOn": "2026-09-10T16:00:00.000Z",
+          "wordCount": 9215,
+          "title": "Unmasking SCCM Application Execution",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/sccmfeaturedimage3.png"
+        },
+        {
           "id": "https://specterops.io/?p=29558",
           "author": "Hope Walker",
           "description": "TL;DR: Tracking OAuth tokens is hard, but Token Analysis and Tracking System (TATS) can help. TATS will collect, store, decode, analyze and provide visual tracking for OAuth token exchanges. It was built to account for known OAuth deviations in the Microsoft ecosystem and will work with any OAuth implementation. This blog explores functionality along with […]\nThe post Token Analysis and Tracking System (TATS) appeared first on SpecterOps.",
@@ -107,18 +117,7 @@
       "title": "PortSwigger Blog",
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
-      "articles": [
-        {
-          "id": "can-ai-invent-new-attack-techniques-new-research-from-james-kettle-and-portswigger-research",
-          "author": null,
-          "description": "We already know AI can find vulnerabilities. James Kettle, PortSwigger's Director of Research, wanted to answer a harder question: can an autonomous system invent genuinely new attack techniques? To f",
-          "link": "https://portswigger.net/blog/can-ai-invent-new-attack-techniques-new-research-from-james-kettle-and-portswigger-research",
-          "publishedOn": "2026-08-12T09:04:45.000Z",
-          "wordCount": 1414,
-          "title": "Can AI invent new attack techniques? New research from James Kettle and PortSwigger Research",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "PortSwigger Research",
@@ -360,17 +359,6 @@
           "publishedOn": "2026-09-08T18:32:13.000Z",
           "wordCount": null,
           "title": "The September 2026 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a7b5dd12d1fef641e8ba58c",
-          "author": "Dustin Childs",
-          "description": "I’ve successfully survived Hacker Summer Camp, and I have returned with a new outlook on patch density. When even Linus Torvalds says that huge updates are the “new normal”, it’s time to readjust what we consider a true bug apocalypse. This month’s release is thankfully smaller than last months, but still huge by historical standards. Take a break from your regularly scheduled activities as we take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for August 2026\nFor the first part of the August release, Adobe released five bulletins addressing 51 unique CVEs in Adobe ColdFusion, Commerce, Lightroom Classic, Content Credentials SDK, and Adobe Campaign Classic.\nHere…",
-          "link": "https://www.thezdi.com/blog/2026/8/11/the-august-2026-security-update-review",
-          "publishedOn": "2026-08-11T17:56:34.000Z",
-          "wordCount": null,
-          "title": "The August 2026 Security Update Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -13925,7 +13913,18 @@
       "title": "Doyensec's Blog",
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.doyensec.com/2026/09/10/oneplus-session-takeover.html",
+          "author": null,
+          "description": "Change of Plan\n9+ months. One unresolved vulnerability. One disclosure published today.\nFollowing a last-minute request from the affected vendor, we’ve temporarily taken the technical details offline and agreed to provide one final, limited window for remediation.\nWe believe responsible disclosure goes both ways.\nThe clock is running again ⏰",
+          "link": "https://blog.doyensec.com/2026/09/10/oneplus-session-takeover.html",
+          "publishedOn": "2026-09-09T22:00:00.000Z",
+          "wordCount": 594,
+          "title": "Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Attack & Defense (Archive)",
@@ -13985,16 +13984,6 @@
           "wordCount": 1521,
           "title": "State divergence enables unauthorized access",
           "imageUrl": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/state-divergence-social-banner.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
-          "author": null,
-          "description": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient.\nUntil now, the only way to detect such malfeasance was to verify safety numbers with your contact in person or over a trusted channel. Signal recently launched an alternative: Automatic Key Verification, a feature that helps validate that your chats are secure without requiring direct safety number comparison. Trail of Bits built and operates one of the three auditors that make this system trustworthy. Our auditor, which is an independent implementation writ…",
-          "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
-          "publishedOn": "2026-08-11T17:30:00.000Z",
-          "wordCount": 940,
-          "title": "How Trail of Bits helps verify the integrity of your Signal chats",
-          "imageUrl": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/signal-social-banner.png"
         }
       ]
     },
@@ -14291,6 +14280,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490",
+          "author": null,
+          "description": "A single unauthenticated request bypasses authentication on NetScaler Gateway and AAA virtual servers. Whether that means a dead-end session, a proxy into the internal network, or root on the appliance depends entirely on configuration. Bishop Fox maps every branch and shares a safe detection tool.",
+          "link": "https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490",
+          "publishedOn": "2026-09-10T13:00:00.000Z",
+          "wordCount": 4409,
+          "title": "Mind the Config: Detecting and Weaponizing NetScaler CVE-2026-19490",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
+        },
         {
           "id": "https://bishopfox.com/blog/signature-optional-analysis-of-cve-2026-28323",
           "author": null,
@@ -15770,6 +15769,36 @@
       "siteUrl": "https://www.wiz.io",
       "articles": [
         {
+          "id": "https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201",
+          "author": "Shahar Dorfman",
+          "description": "Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control.",
+          "link": "https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201",
+          "publishedOn": "2026-09-10T19:04:00.000Z",
+          "wordCount": 20844,
+          "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1789064682-image-22.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1789064682-image-22.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/wiz-govramp-high",
+          "author": "Brad Bartholomew",
+          "description": "Delivering unified cloud security and accelerating secure modernization to protect citizen data and critical infrastructure.",
+          "link": "https://www.wiz.io/blog/wiz-govramp-high",
+          "publishedOn": "2026-09-10T11:00:00.000Z",
+          "wordCount": 18472,
+          "title": "Wiz achieves GovRAMP High Authorization",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1788991142-govramp-blog.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1788991142-govramp-blog.png"
+        },
+        {
           "id": "https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise",
           "author": "Amitai Cohen",
           "description": "How default keys, unauthenticated MCP sessions, and custom code guardrails expose cloud AI infrastructure to root-level remote code execution and IAM theft.",
@@ -16187,16 +16216,6 @@
           "wordCount": 1950,
           "title": "Research Worth Reading - Week 32, 2026",
           "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week32-2026/thumbnail"
-        },
-        {
-          "id": "https://pentesterlab.com/blog/saml-vulnerabilities-attacks-guide",
-          "author": null,
-          "description": "Security Assertion Markup Language (SAML) is a widely deployed standard for Single Sign-On (SSO) in the enterprise, and a recurring source of critical authentication vulnerabilities. If you have ever logged into Salesforce, Workday, an internal admin panel, or a third-party SaaS using your corporate identity, there is a good chance SAML was involved behind the scenes. It is the protocol that lets an Identity Provider (IdP) vouch for who you are, so that dozens of Service Providers (SPs) don't each have to manage passwords.\nBecause SAML sits directly on the authentication path, a single bug in how a Service Provider validates a SAMLResponse can mean full authentication bypass and account takeover, often as any user, including administrators. That makes SAML an attractive target for attacker…",
-          "link": "https://pentesterlab.com/blog/saml-vulnerabilities-attacks-guide",
-          "publishedOn": "2026-08-12T00:00:00.000Z",
-          "wordCount": 4326,
-          "title": "SAML Vulnerabilities and Attacks: A Practical Guide",
-          "imageUrl": "https://pentesterlab.com/blog/saml-vulnerabilities-attacks-guide/thumbnail"
         }
       ]
     }

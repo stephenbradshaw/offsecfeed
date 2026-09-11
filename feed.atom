@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-10T02:04:38.978Z</updated>
+    <updated>2026-09-11T02:01:50.784Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329]]></title>
+        <id>https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201</id>
+        <link href="https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201"/>
+        <updated>2026-09-10T19:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control.]]></summary>
+        <author>
+            <name>Shahar Dorfman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unmasking SCCM Application Execution]]></title>
+        <id>https://specterops.io/?p=29583</id>
+        <link href="https://specterops.io/blog/2026/09/10/unmasking-sccm-application-execution/"/>
+        <updated>2026-09-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Executing applications instead of scripts via SCCM’s deploy application feature will generate different artifacts due to the fundamental differences in the execution flow. While existing detection tools can catch script-based execution, they often miss stealthier methods. This post covers how to detect the more evasive SCCM application execution. Introduction: During BlackHat 2025’s offering of […]
+The post Unmasking SCCM Application Execution appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Joshua Prager</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mind the Config: Detecting and Weaponizing NetScaler CVE-2026-19490]]></title>
+        <id>https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490</id>
+        <link href="https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490"/>
+        <updated>2026-09-10T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A single unauthenticated request bypasses authentication on NetScaler Gateway and AAA virtual servers. Whether that means a dead-end session, a proxy into the internal network, or root on the appliance depends entirely on configuration. Bishop Fox maps every branch and shares a safe detection tool.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wiz achieves GovRAMP High Authorization]]></title>
+        <id>https://www.wiz.io/blog/wiz-govramp-high</id>
+        <link href="https://www.wiz.io/blog/wiz-govramp-high"/>
+        <updated>2026-09-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Delivering unified cloud security and accelerating secure modernization to protect citizen data and critical infrastructure.]]></summary>
+        <author>
+            <name>Brad Bartholomew</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability]]></title>
+        <id>https://blog.doyensec.com/2026/09/10/oneplus-session-takeover.html</id>
+        <link href="https://blog.doyensec.com/2026/09/10/oneplus-session-takeover.html"/>
+        <updated>2026-09-09T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Change of Plan
+9+ months. One unresolved vulnerability. One disclosure published today.
+Following a last-minute request from the affected vendor, we’ve temporarily taken the technical details offline and agreed to provide one final, limited window for remediation.
+We believe responsible disclosure goes both ways.
+The clock is running again ⏰]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Off Guard: Breaking LiteLLM from authentication bypass to cloud compromise]]></title>
         <id>https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise</id>
@@ -2025,51 +2080,6 @@ This is probably the most interesting look I have seen at what AI-assisted secur
 The post Blacklight: Illuminating AI Agent Artifacts for Attackers and Defenders appeared first on SpecterOps.]]></summary>
         <author>
             <name>Gavin Kramer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can AI invent new attack techniques? New research from James Kettle and PortSwigger Research]]></title>
-        <id>can-ai-invent-new-attack-techniques-new-research-from-james-kettle-and-portswigger-research</id>
-        <link href="https://portswigger.net/blog/can-ai-invent-new-attack-techniques-new-research-from-james-kettle-and-portswigger-research"/>
-        <updated>2026-08-12T09:04:45.000Z</updated>
-        <summary type="html"><![CDATA[We already know AI can find vulnerabilities. James Kettle, PortSwigger's Director of Research, wanted to answer a harder question: can an autonomous system invent genuinely new attack techniques? To f]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SAML Vulnerabilities and Attacks: A Practical Guide]]></title>
-        <id>https://pentesterlab.com/blog/saml-vulnerabilities-attacks-guide</id>
-        <link href="https://pentesterlab.com/blog/saml-vulnerabilities-attacks-guide"/>
-        <updated>2026-08-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Security Assertion Markup Language (SAML) is a widely deployed standard for Single Sign-On (SSO) in the enterprise, and a recurring source of critical authentication vulnerabilities. If you have ever logged into Salesforce, Workday, an internal admin panel, or a third-party SaaS using your corporate identity, there is a good chance SAML was involved behind the scenes. It is the protocol that lets an Identity Provider (IdP) vouch for who you are, so that dozens of Service Providers (SPs) don't each have to manage passwords.
-Because SAML sits directly on the authentication path, a single bug in how a Service Provider validates a SAMLResponse can mean full authentication bypass and account takeover, often as any user, including administrators. That makes SAML an attractive target for attacker…]]></summary>
-        <author>
-            <name>PentesterLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The August 2026 Security Update Review]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6a7b5dd12d1fef641e8ba58c</id>
-        <link href="https://www.thezdi.com/blog/2026/8/11/the-august-2026-security-update-review"/>
-        <updated>2026-08-11T17:56:34.000Z</updated>
-        <summary type="html"><![CDATA[I’ve successfully survived Hacker Summer Camp, and I have returned with a new outlook on patch density. When even Linus Torvalds says that huge updates are the “new normal”, it’s time to readjust what we consider a true bug apocalypse. This month’s release is thankfully smaller than last months, but still huge by historical standards. Take a break from your regularly scheduled activities as we take a look at the latest security patches from Adobe and Microsoft. If you’d rather watch the full video recap covering the entire release, you can check it out here:
-Adobe Patches for August 2026
-For the first part of the August release, Adobe released five bulletins addressing 51 unique CVEs in Adobe ColdFusion, Commerce, Lightroom Classic, Content Credentials SDK, and Adobe Campaign Classic.
-Here…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Trail of Bits helps verify the integrity of your Signal chats]]></title>
-        <id>https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/</id>
-        <link href="https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/"/>
-        <updated>2026-08-11T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient.
-Until now, the only way to detect such malfeasance was to verify safety numbers with your contact in person or over a trusted channel. Signal recently launched an alternative: Automatic Key Verification, a feature that helps validate that your chats are secure without requiring direct safety number comparison. Trail of Bits built and operates one of the three auditors that make this system trustworthy. Our auditor, which is an independent implementation writ…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
         </author>
     </entry>
     <entry>
