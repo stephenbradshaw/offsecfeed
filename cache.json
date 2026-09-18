@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=29968",
+          "author": "Andrew Luke",
+          "description": "TLDR: CiliumHound is a BloodHound OpenGraph extension for auditing Cilium network policies. It ingests a folder of JSON or YAML policies and creates a searchable, Kubernetes namespace-scoped graph. Introduction On some recent assessments, I’ve had to review large, complex Cilium network policies in a Kubernetes cluster, looking for ways in or out of isolated namespaces. […]\nThe post CiliumHound: Graphing Kubernetes Network Policies appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/09/17/ciliumhound-graphing-kubernetes-network-policies/",
+          "publishedOn": "2026-09-17T16:00:00.000Z",
+          "wordCount": 6374,
+          "title": "CiliumHound: Graphing Kubernetes Network Policies",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/image_f37c29.png"
+        },
+        {
           "id": "https://specterops.io/?p=29705",
           "author": "Katherine",
           "description": "TL;DR: The upcoming Ghostwriter v7.3.0 release brings a major UI refresh to nearly every part of the application. The new design is easier on the eyes, more accessible, and better organized, with a new engagement bar, customizable sidebar with pinned work, a completely redesigned dashboard, and a plethora of other changes. Introduction As it is […]\nThe post Ghostwriter v7.3.0: A Fresh New Look appeared first on SpecterOps.",
@@ -13929,6 +13939,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/09/17/ovs.html",
+          "author": null,
+          "description": "TLDR: Exploit. This is a deterministic local privilege escalation affecting the default install of the latest Arch, Fedora, Debian, Amazon Linux and RHEL distributions, having unprivileged user namespaces enabled, openvswitch auto-loading, and a stock kernel carrying the Fragnesia fix. The issue has been public since 08/13/2026 on netdev, and the fix landed in mainline and shipped in stable on 09/04/2026.\nIntroduction\nEarlier this year a small family of Linux kernel bugs appeared, starting with\nCopy Fail. Unlike standard memory corruption, their defining\nfeature was that an unprivileged user could overwrite read-only memory mappings\nsimply through legitimate operations, without any race condition or strict\ntiming. That made privilege escalation to root relatively trivial. Copy Fail\nwas fol…",
+          "link": "https://blog.doyensec.com/2026/09/17/ovs.html",
+          "publishedOn": "2026-09-16T22:00:00.000Z",
+          "wordCount": 4878,
+          "title": "The skb that wasn't freed - the Fragnesia primitive via Open vSwitch",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/09/10/oneplus-session-takeover.html",
           "author": null,
           "description": "Change of Plan\n9+ months. One unresolved vulnerability. One disclosure published today.\nFollowing a last-minute request from the affected vendor, we’ve temporarily taken the technical details offline and agreed to provide one final, limited window for remediation.\nWe believe responsible disclosure goes both ways.\nThe clock is running again ⏰",
@@ -14305,6 +14325,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain",
+          "author": null,
+          "description": "Attackers were exploiting MikroTik routers before fixes went public. Bishop Fox reproduced the full unauthenticated takeover chain, found persistence artifacts on real compromised devices, and breaks down what defenders need to investigate beyond patching to confirm they are actually clean.",
+          "link": "https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain",
+          "publishedOn": "2026-09-17T13:00:00.000Z",
+          "wordCount": 3438,
+          "title": "MikroTrick: Inside the RouterOS Takeover Chain",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
+        },
         {
           "id": "https://bishopfox.com/blog/cve-2026-82329-unauthenticated-administrative-access-in-jfrog-artifactory-via-an-empty-cluster-join-key",
           "author": null,
@@ -15719,6 +15749,26 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/ai-agents-jamf-automations-serval/",
+          "author": null,
+          "description": "A preview of Serval's sponsor session at JNUC 2026.",
+          "link": "https://www.jamf.com/blog/ai-agents-jamf-automations-serval/",
+          "publishedOn": "2026-09-17T21:13:00.000Z",
+          "wordCount": 1442,
+          "title": "Resolving help desk requests with enterprise-safe Jamf automations",
+          "imageUrl": "https://media.jamf.com/images/events/user-conferences/national-user-conferences/2026/jnuc-2026-lp-thumb.webp?h=400&q=80&w=600"
+        },
+        {
+          "id": "https://www.jamf.com/blog/beyond-model-guardrails-containing-ai-agents/",
+          "author": null,
+          "description": "AI agents have legitimate access to your systems and the ability to act on them. Learn how to keep your data protected with four AI controls.",
+          "link": "https://www.jamf.com/blog/beyond-model-guardrails-containing-ai-agents/",
+          "publishedOn": "2026-09-16T16:39:00.000Z",
+          "wordCount": 3531,
+          "title": "Beyond model guardrails, part 1: containing the agent",
+          "imageUrl": "https://media.jamf.com/images/news/2026/containing-the-agent.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/taming-ai-govern-ai-enterprise-scale-aws/",
           "author": null,
           "description": "Amazon's same-day delivery works because its AI is governed. This AWS session at JNUC 2026 shows how to bring that same control to enterprise AI on Amazon Bedrock.",
@@ -15867,6 +15917,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/exploring-the-new-aws-sign-up-experience",
+          "author": "Scott Piper",
+          "description": "This post will explore what this new concept does, how it works with the new Account Access capability, and why a strong security posture still requires upgrading out of the sandbox.",
+          "link": "https://www.wiz.io/blog/exploring-the-new-aws-sign-up-experience",
+          "publishedOn": "2026-09-17T14:25:30.000Z",
+          "wordCount": 20748,
+          "title": "Exploring the new AWS Sign Up experience",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1789596868-starter-home-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1789596868-starter-home-2x.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent",
+          "author": "Yali Gottlib",
+          "description": "Analyzing model input and output logs in an AI-native detection pipeline to understand and uncover malicious AI agent behavior",
+          "link": "https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent",
+          "publishedOn": "2026-09-17T14:04:47.000Z",
+          "wordCount": 21929,
+          "title": "Building an AI Detection Engine That Understands Agent Intent",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1789605331-cloudflare_aidr.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1789605331-cloudflare_aidr.png"
+        },
         {
           "id": "https://www.wiz.io/blog/wiz-defend-and-google-security-operations",
           "author": "Gil Nahari",
@@ -16076,21 +16156,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
-          "author": "Shahar Dorfman",
-          "description": "Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.",
-          "link": "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
-          "publishedOn": "2026-08-18T16:24:13.000Z",
-          "wordCount": 16811,
-          "title": "How to Spot and Stop Rogue Device Joins",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1787048534-design-for-device-registration.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1787048534-design-for-device-registration.png"
         }
       ]
     },
