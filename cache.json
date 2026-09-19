@@ -84,16 +84,6 @@
           "wordCount": 4535,
           "title": "Cleartext Credential Recovery in ServiceNow",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/08/image-50.png"
-        },
-        {
-          "id": "https://specterops.io/?p=29173",
-          "author": "Katherine",
-          "description": "Daniel Heinsen and I have spent a lot of my time trying to answer one question inside AWS environments, usually in a hurry: “Starting from the access I have right now, where can I actually end up?” That turns out to be a hard question to answer in AWS. iam:SimulatePrincipalPolicy will evaluate one action, against […]\nThe post AWSHound: An OpenSource AWS OpenGraph Collector appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/08/19/awshound-opensource-aws-opengraph-collector/",
-          "publishedOn": "2026-08-19T16:00:00.000Z",
-          "wordCount": 7973,
-          "title": "AWSHound: An OpenSource AWS OpenGraph Collector",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/08/logo-1-1.png"
         }
       ]
     },
@@ -190,16 +180,6 @@
           "wordCount": 6887,
           "title": "Introducing EchoBench: A Human Calibrated Benchmark for Autonomous Pentesting",
           "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/08/08.20.26_TECH_Echo-bench_1200x630.jpg"
-        },
-        {
-          "id": "https://www.netspi.com/?p=34091",
-          "author": "Ceri Coburn",
-          "description": "Discover how BOFScale leverages a modified Tailscale daemon compiled as a BOF-PE to seamlessly hide C2 traffic and DERP relays behind CDNs using standard WebSockets.\nThe post BOFScale: A CDN-Fronted Tailnet from a BOF-PE appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/red-teaming/bofscale-a-cdn-fronted-tailnet-from-a-bof-pe/",
-          "publishedOn": "2026-08-19T16:39:02.000Z",
-          "wordCount": 10363,
-          "title": "BOFScale: A CDN-Fronted Tailnet from a BOF-PE",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2025/03/03.20.25_TECH_The-Future-of-BOFs_Feature.webp"
         }
       ]
     },
@@ -13990,6 +13970,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
+          "author": null,
+          "description": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling and formal models that improve the quality and depth of our reviews.\nWe recently reviewed the Miden VM, a new zero-knowledge VM with its own custom assembly language and almost no developer tooling. To prepare, we spent six months having our agents build an LSP server, a decompiler, a static analysis engine, and a Lean model of the VM executor from scratch. These tools found real security issues,…",
+          "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
+          "publishedOn": "2026-09-18T11:00:00.000Z",
+          "wordCount": 2392,
+          "title": "Auditing in the age of (good enough) AI",
+          "imageUrl": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/auditing-ai-social-banner.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
           "author": null,
           "description": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches.\nThe report risks making defenders less effective by discouraging them from using technology that could help them fix more vulnerabilities. Teams that take its headline at face value may leave repairable vulnerabilities unaddressed.\nWe want our work to help defenders fix more vulnerabilities. This post shares real-world data on human and agent patch quality from our consulting projects and Patch the Planet. We’re also releasing two agent skills: p…",
@@ -14142,6 +14132,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=44642",
+          "author": "Alex Wallace",
+          "description": "Introduction Talkie Toaster is a character in the BBC sci-fi comedy Red Dwarf. He is an AI Toaster whose purpose in life is to be your cheerful breakfast companion and to provide you with all your toasting needs, only he is a little too obsessed with toasting. While only appearing in 4 episodes, he became […]\nThe post Is AI toast? Building an AI Talkie Toaster appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/is-ai-toast-building-an-ai-talkie-toaster/",
+          "publishedOn": "2026-09-18T11:29:50.000Z",
+          "wordCount": 5122,
+          "title": "Is AI toast? Building an AI Talkie Toaster",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/09/Talkie-Toaster-headline-imagev3-1024x576.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=44617",
           "author": "Alex Wallace",
@@ -14298,6 +14298,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=141824",
+          "author": "Albert Priego, Alex Delamotte &amp; Matej Havranek",
+          "description": "North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.",
+          "link": "https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/",
+          "publishedOn": "2026-09-18T17:00:16.000Z",
+          "wordCount": 10075,
+          "title": "Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/09/TraderTraitor_APIs_ftr.jpg",
+            "length": "838059",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/09/TraderTraitor_APIs_ftr.jpg"
+        },
+        {
           "id": "https://www.sentinelone.com/?post_type=labs&p=141798",
           "author": "Tom Hegel",
           "description": "Two Hugging Face accounts reveal that OpenAI's agents staged relay code, internal probes and ChatGPT account registration beyond the published timeline.",
@@ -14325,6 +14340,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/from-fork-to-framework-what-modifying-apollo-taught-us-about-agent-invasion",
+          "author": null,
+          "description": "Forking an existing C2 agent sounds faster than building from scratch. Bishop Fox learned otherwise. This post documents what happened when they forked Apollo, built a custom obfuscation pipeline to defeat EDR detection, and spent months fighting an architecture that was never designed for it.",
+          "link": "https://bishopfox.com/blog/from-fork-to-framework-what-modifying-apollo-taught-us-about-agent-invasion",
+          "publishedOn": "2026-09-18T13:00:00.000Z",
+          "wordCount": 4634,
+          "title": "From Fork to Framework: What Modifying Apollo Taught Us About Agent Invasion",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
+        },
         {
           "id": "https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain",
           "author": null,
@@ -14394,16 +14419,6 @@
           "wordCount": 4958,
           "title": "No Crash Required: Verifying the Citrix NetScaler SAML Patch for CVE-2026-8452",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
-        },
-        {
-          "id": "https://bishopfox.com/blog/ctem-101-moving-from-spreadsheets-to-continuous-risk-reduction",
-          "author": null,
-          "description": "Traditional vulnerability management was built for a smaller, slower problem than most teams face today. This post breaks down CTEM, why it exists, how its five stages work, and what it actually takes to move from a reactive pile of findings to a continuous, prioritized risk reduction program.",
-          "link": "https://bishopfox.com/blog/ctem-101-moving-from-spreadsheets-to-continuous-risk-reduction",
-          "publishedOn": "2026-08-20T13:00:00.000Z",
-          "wordCount": 2849,
-          "title": "CTEM 101: Moving From Spreadsheets to Continuous Risk Reduction",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
         }
       ]
     },
@@ -14412,6 +14427,26 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=29708",
+          "author": "Tim Nordvedt",
+          "description": "A penetration testing scope defines the assurance an enterprise needs, not just the assets a vendor will touch. Start with the business or compliance objective, then map the system boundary before counting assets. List applications, APIs, infrastructure, roles and integrations separately, specify authenticated and unauthenticated testing, and clarify whether production, staging or both will be […]\nThe post How to Scope an Enterprise Penetration Test: Free Scope-of-Work Template appeared first on Synack.",
+          "link": "https://www.synack.com/blog/penetration-testing-scope/",
+          "publishedOn": "2026-09-16T17:11:37.000Z",
+          "wordCount": 9611,
+          "title": "How to Scope an Enterprise Penetration Test: Free Scope-of-Work Template",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/11.-How-to-Scope-an-Enterprise-Penetration-Test-Free-Scope-of-Work-Template.webp"
+        },
+        {
+          "id": "https://www.synack.com/?p=29629",
+          "author": "Paul Mote",
+          "description": "Third-party penetration testing means two different things: testing your own organization through an independent provider, and testing or reviewing testing on a supplier, partner, or acquisition target. This guide focuses on the second use case. It works best as a governed risk process, not a document request, built on clear authorization, risk-based scope, defensible evidence, and contractual follow-up.\nThe post Third-Party Penetration Testing: What Security and Procurement Teams Need to Know appeared first on Synack.",
+          "link": "https://www.synack.com/blog/third-party-penetration-testing/",
+          "publishedOn": "2026-09-15T15:00:00.000Z",
+          "wordCount": 6861,
+          "title": "Third-Party Penetration Testing: What Security and Procurement Teams Need to Know",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/9.-Third-Party-Penetration-Testing_-What-Security-Procurement-Teams-Need-to-Know.webp"
+        },
         {
           "id": "https://www.synack.com/?p=29597",
           "author": "Simon Harper",
@@ -14521,26 +14556,6 @@
           "wordCount": 5184,
           "title": "How Continuous Pentesting Became Standard Practice at Dow",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/08/synack-continuous-validation-gap-blog.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=28773",
-          "author": "Paul Mote",
-          "description": "Most enterprises should treat annual penetration testing as a baseline, not a complete answer. PCI DSS is the one framework with an explicit annual and change-triggered mandate. SOC 2, the current HIPAA Security Rule, and ISO 27001 all expect testing to follow the organization's own risk assessment and control design, not one fixed calendar date. HHS has proposed an annual HIPAA pentesting requirement, but that rule has not been finalized. Enterprises that combine a formal annual assessment with change-triggered and continuous validation stay ahead of frameworks that were never designed around a single testing frequency.\nThe post How Often Should Enterprises Run a Penetration Test? appeared first on Synack.",
-          "link": "https://www.synack.com/blog/penetration-testing-frequency/",
-          "publishedOn": "2026-08-20T14:09:47.000Z",
-          "wordCount": 7381,
-          "title": "How Often Should Enterprises Run a Penetration Test?",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/08/pentesting-frequency-by-framework-paul-mote-synack.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=28659",
-          "author": "Chris Brown",
-          "description": "AI pentesting works, but building it in-house is the hard part. Synack VP Chris Brown breaks down the reliability, token economics, model dependency and validation costs that come with building versus buying an AI pentesting capability.\nThe post AI Pentesting Works. Building It Yourself Is the Hard Part. appeared first on Synack.",
-          "link": "https://www.synack.com/blog/build-vs-buy-ai-pentesting-economics/",
-          "publishedOn": "2026-08-19T15:46:03.000Z",
-          "wordCount": 5849,
-          "title": "AI Pentesting Works. Building It Yourself Is the Hard Part.",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/08/synack-ai-pentesting-in-house-economics-blog-og.png"
         }
       ]
     },
@@ -15562,6 +15577,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "centralized-alert-triage-cross-project-search",
+          "author": "Chuddy Park",
+          "description": "We linked one Elastic Security project to 100 others and ran the full prebuilt detection catalog from the origin, with all the ingest landing in the linked projects. It held up, and where it deliberately does not reach is the interesting part.",
+          "link": "https://www.elastic.co/security-labs/blog/centralized-alert-triage-cross-project-search",
+          "publishedOn": "2026-09-18T00:00:00.000Z",
+          "wordCount": 22145,
+          "title": "One SOC, 100 projects: running centralized alert triage on Elastic Security Serverless",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0cc05d514cc69660/6aac10632433e26e21d7ea5a/image2.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0cc05d514cc69660/6aac10632433e26e21d7ea5a/image2.jpg"
+        },
+        {
           "id": "malicious-browser-extension-kremlin-banking-malware",
           "author": "Cyril François,Andrew Pease",
           "description": "Elastic Security Labs tracked this malicious browser extension across seven campaigns and 15 months, through Brazilian bank lures and the Ethereum smart contracts that hold its C2 configuration.",
@@ -15749,6 +15779,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/what-scales-when-headcount-doubles/",
+          "author": null,
+          "description": "What breaks first when IT scales? Usually, whatever one person quietly held together from memory.",
+          "link": "https://www.jamf.com/blog/what-scales-when-headcount-doubles/",
+          "publishedOn": "2026-09-18T15:54:00.000Z",
+          "wordCount": 1567,
+          "title": "What scales when headcount doubles",
+          "imageUrl": "https://media.jamf.com/images/events/landing-page/JNUC-2026-logo-horizontal.png?h=300&q=80&w=500"
+        },
+        {
           "id": "https://www.jamf.com/blog/ai-agents-jamf-automations-serval/",
           "author": null,
           "description": "A preview of Serval's sponsor session at JNUC 2026.",
@@ -15877,16 +15917,6 @@
           "wordCount": 2167,
           "title": "Back to school: Your students are back. Is your security?",
           "imageUrl": "https://media.jamf.com/images/news/2026/back-to-school-device-security-checklist-for-it-admins.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/jamf-after-dark-jnuc-2026-preview/",
-          "author": null,
-          "description": "Kat Garbis and Josh Thornton sit down with Jeff Ovik and Kelsey Dahl to preview JNUC 2026 in Kansas City — new programs, sessions and the after-party.",
-          "link": "https://www.jamf.com/blog/jamf-after-dark-jnuc-2026-preview/",
-          "publishedOn": "2026-08-19T17:19:00.000Z",
-          "wordCount": 2252,
-          "title": "Jamf After Dark: JNUC",
-          "imageUrl": "https://media.jamf.com/images/news/2024/jamf-after-dark.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -15895,6 +15925,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "https://www.sentinelone.com/?post_type=labs&p=141824",
+          "author": "Albert Priego, Alex Delamotte &amp; Matej Havranek",
+          "description": "North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.",
+          "link": "https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/",
+          "publishedOn": "2026-09-18T17:00:16.000Z",
+          "wordCount": 10075,
+          "title": "Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+          "enclosure": {
+            "url": "https://www.sentinelone.com/wp-content/uploads/2026/09/TraderTraitor_APIs_ftr.jpg",
+            "length": "838059",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.sentinelone.com/wp-content/uploads/2026/09/TraderTraitor_APIs_ftr.jpg"
+        },
         {
           "id": "https://www.sentinelone.com/?post_type=labs&p=141798",
           "author": "Tom Hegel",
@@ -16141,21 +16186,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1787237870-threat-update-blue-wireframe_custom-1.jpeg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-pen-test-findings-is-now-ga",
-          "author": "Roi Kessler",
-          "description": "Transform point-in-time pen-tests into continuous exposure management with unified platform combining pen-test findings and real-time cloud context",
-          "link": "https://www.wiz.io/blog/wiz-pen-test-findings-is-now-ga",
-          "publishedOn": "2026-08-19T15:36:58.000Z",
-          "wordCount": 16689,
-          "title": "Wiz Penetration Test Findings is now GA",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1777972258-pen-2x-100.jpg"
         }
       ]
     },
