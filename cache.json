@@ -122,6 +122,16 @@
       "siteUrl": "https://projectzero.google/",
       "articles": [
         {
+          "id": "https://projectzero.google/2026/09/windows-dangling-com.html",
+          "author": null,
+          "description": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A COM registration typically needs two parts: a server executable, which for in-process components is a DLL and a CLSID entry under the HKEY_CLASSES_ROOT registry key which points to that DLL.",
+          "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
+          "publishedOn": "2026-09-21T07:00:00.000Z",
+          "wordCount": 1714,
+          "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+          "imageUrl": "https://projectzero.google/images/preview_image.png"
+        },
+        {
           "id": "https://projectzero.google/2026/09/maccconc-race-condition.html",
           "author": null,
           "description": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliably triggers the bug as part of a test suite. Automatic bug discovery, such as fuzzing: It is hard for a fuzzer to exercise all interesting interleavings of concurrent operations, or reach code paths that are only exercised when operations are racing.",
@@ -15483,16 +15493,6 @@
           "wordCount": 3076,
           "title": "Sniffing Authentication References on macOS",
           "imageUrl": "https://objective-see.com/images/blog/blog_0x55/twitter.png"
-        },
-        {
-          "id": "https://objective-see.org/blog/blog_0x89.html",
-          "author": null,
-          "description": "Attackers are increasingly turning to dylibs to host malicious code, gain stealth, and inherit the trust of legitimate processes. In this blog post, we explore how to statically enumerate dylib dependencies, inspect libraries loaded into running processes, and leverage Endpoint Security to detect, and even block, malicious dylibs at load time.",
-          "link": "https://objective-see.org/blog/blog_0x89.html",
-          "publishedOn": "2026-08-23T00:00:00.000Z",
-          "wordCount": 4289,
-          "title": "Detecting (Evil) Dylibs",
-          "imageUrl": "https://objective-see.org/images/blog/blog_0x89/preview.png"
         }
       ]
     },
@@ -15556,6 +15556,21 @@
       "feedUrl": "https://www.elastic.co/security-labs/rss/feed.xml",
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
+        {
+          "id": "cloud-threat-emulation-methodology",
+          "author": "Terrance DeJesus,Bryan Porras Blanch",
+          "description": "Cloud threat emulation is more than detonation. A plan-first methodology for cloud detection engineering: scope, victim model, telemetry, coverage, cleanup. Learn how to properly leverage AI to automate your emulations.",
+          "link": "https://www.elastic.co/security-labs/threat-command/cloud-threat-emulation-methodology",
+          "publishedOn": "2026-09-21T00:00:00.000Z",
+          "wordCount": 36828,
+          "title": "Cloud Threat Emulation on Autopilot: Context is Everything",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb8eac75a51a8811/6aad10776ea6414a8541fdc4/cloud-threat-emulation-lifecycle.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb8eac75a51a8811/6aad10776ea6414a8541fdc4/cloud-threat-emulation-lifecycle.png"
+        },
         {
           "id": "centralized-alert-triage-cross-project-search",
           "author": "Chuddy Park",
@@ -15758,6 +15773,26 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/",
+          "author": null,
+          "description": "Small tech interruptions like slow apps and device issues quietly compound into a real productivity and IT workload problem for growing organizations.",
+          "link": "https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/",
+          "publishedOn": "2026-09-21T14:28:00.000Z",
+          "wordCount": 2079,
+          "title": "The hidden productivity cost of everyday technology friction",
+          "imageUrl": "https://media.jamf.com/images/news/2026/hidden-productivity-cost-technology-friction-2.webp?h=400&q=80&w=700"
+        },
+        {
+          "id": "https://www.jamf.com/blog/ravenna-ai-service-desk-jamf-pro-slack/",
+          "author": null,
+          "description": "Ravenna's AI agents use Jamf Pro data and your team's runbooks to resolve Mac issues right in Slack.",
+          "link": "https://www.jamf.com/blog/ravenna-ai-service-desk-jamf-pro-slack/",
+          "publishedOn": "2026-09-18T16:00:00.000Z",
+          "wordCount": 1571,
+          "title": "Jamf + Ravenna: Give employees a simpler way to get Mac support",
+          "imageUrl": "https://media.jamf.com/images/events/landing-page/jnuc-2026-kansas-city-logo.png?h=300&q=80&w=500"
+        },
         {
           "id": "https://www.jamf.com/blog/what-scales-when-headcount-doubles/",
           "author": null,
@@ -16255,16 +16290,6 @@
           "wordCount": 1515,
           "title": "Research Worth Reading - Week 35, 2026",
           "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week35-2026/thumbnail"
-        },
-        {
-          "id": "https://pentesterlab.com/blog/research-worth-reading-week34-2026",
-          "author": null,
-          "description": "Another week in AI security news...\n🤖 Patterns and problems in multiagent systems \\ Anthropic\n👍 0\n  \nAnthropic gave 45 agents their own machines, a shared forum, and the same goal of finding vulnerabilities across 15 open-source projects, then measured what happened.\nThe coordinating swarm kept finding vulnerabilities at a roughly constant rate and found many issues that independently assigned agents missed. The interesting part is not just that a bigger budget found more bugs. Coordination changed the search strategy. The agents could decide where the interesting work was, specialise, share tooling, peer-review findings, and follow promising paths instead of staying inside a pre-assigned part of the codebase.\nThe two approaches found surprisingly little overlap, so they are complementar…",
-          "link": "https://pentesterlab.com/blog/research-worth-reading-week34-2026",
-          "publishedOn": "2026-08-23T00:00:00.000Z",
-          "wordCount": 1886,
-          "title": "Research Worth Reading - Week 34, 2026",
-          "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week34-2026/thumbnail"
         }
       ]
     }

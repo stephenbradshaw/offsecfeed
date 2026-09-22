@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-21T02:20:04.056Z</updated>
+    <updated>2026-09-22T02:23:50.845Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The hidden productivity cost of everyday technology friction]]></title>
+        <id>https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/</id>
+        <link href="https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/"/>
+        <updated>2026-09-21T14:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Small tech interruptions like slow apps and device issues quietly compound into a real productivity and IT workload problem for growing organizations.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Exploitation Techniques: Dangling COM Object Registrations]]></title>
+        <id>https://projectzero.google/2026/09/windows-dangling-com.html</id>
+        <link href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
+        <updated>2026-09-21T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A COM registration typically needs two parts: a server executable, which for in-process components is a DLL and a CLSID entry under the HKEY_CLASSES_ROOT registry key which points to that DLL.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Threat Emulation on Autopilot: Context is Everything]]></title>
+        <id>cloud-threat-emulation-methodology</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/cloud-threat-emulation-methodology"/>
+        <updated>2026-09-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloud threat emulation is more than detonation. A plan-first methodology for cloud detection engineering: scope, victim model, telemetry, coverage, cleanup. Learn how to properly leverage AI to automate your emulations.]]></summary>
+        <author>
+            <name>Terrance DeJesus,Bryan Porras Blanch</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Below the Waterline Stage 1 - Red Team Planning]]></title>
         <id>6a6ddf6b1f2854065d4481e5</id>
@@ -54,6 +84,16 @@
         <summary type="html"><![CDATA[North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.]]></summary>
         <author>
             <name>Albert Priego, Alex Delamotte &amp; Matej Havranek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jamf + Ravenna: Give employees a simpler way to get Mac support]]></title>
+        <id>https://www.jamf.com/blog/ravenna-ai-service-desk-jamf-pro-slack/</id>
+        <link href="https://www.jamf.com/blog/ravenna-ai-service-desk-jamf-pro-slack/"/>
+        <updated>2026-09-18T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ravenna's AI agents use Jamf Pro data and your team's runbooks to resolve Mac issues right in Slack.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2120,32 +2160,6 @@ The post One SSID To Rule Them All  appeared first on Pen Test Partners.]]></su
 On top of that, you want to do it all from a single executable, you drop just one binary and]]></summary>
         <author>
             <name>Sud0Ru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting (Evil) Dylibs]]></title>
-        <id>https://objective-see.org/blog/blog_0x89.html</id>
-        <link href="https://objective-see.org/blog/blog_0x89.html"/>
-        <updated>2026-08-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Attackers are increasingly turning to dylibs to host malicious code, gain stealth, and inherit the trust of legitimate processes. In this blog post, we explore how to statically enumerate dylib dependencies, inspect libraries loaded into running processes, and leverage Endpoint Security to detect, and even block, malicious dylibs at load time.]]></summary>
-        <author>
-            <name>Objective-See's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research Worth Reading - Week 34, 2026]]></title>
-        <id>https://pentesterlab.com/blog/research-worth-reading-week34-2026</id>
-        <link href="https://pentesterlab.com/blog/research-worth-reading-week34-2026"/>
-        <updated>2026-08-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Another week in AI security news...
-🤖 Patterns and problems in multiagent systems \ Anthropic
-👍 0
-  
-Anthropic gave 45 agents their own machines, a shared forum, and the same goal of finding vulnerabilities across 15 open-source projects, then measured what happened.
-The coordinating swarm kept finding vulnerabilities at a roughly constant rate and found many issues that independently assigned agents missed. The interesting part is not just that a bigger budget found more bugs. Coordination changed the search strategy. The agents could decide where the interesting work was, specialise, share tooling, peer-review findings, and follow promising paths instead of staying inside a pre-assigned part of the codebase.
-The two approaches found surprisingly little overlap, so they are complementar…]]></summary>
-        <author>
-            <name>PentesterLab</name>
         </author>
     </entry>
     <entry>
