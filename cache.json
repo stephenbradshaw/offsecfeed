@@ -115,6 +115,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "http3-in-burp-suite",
+          "author": null,
+          "description": "How many bugs have you missed because you didn’t send quite enough HTTP requests? Turbo Intruder now supports HTTP/3, can comfortably exceed 100,000 requests per second over Wi-Fi, and auto-tunes for",
+          "link": "https://portswigger.net/research/http3-in-burp-suite",
+          "publishedOn": "2026-09-23T14:00:00.000Z",
+          "wordCount": 1797,
+          "title": "HTTP/3 in Burp Suite - it’s time to find a bigger wordlist",
+          "imageUrl": "https://portswigger.net/cms/images/5c/00/1f41-twittercard-http3_in_burp_suite_twitter.png"
+        },
+        {
           "id": "whats-in-a-tag-name-javascript-apparently",
           "author": null,
           "description": "I was on my laptop, as I often am when there's rubbish on telly, and found myself wondering what characters are allowed in a tag. I knew they had to begin with \"a-zA-Z\", but what about after that? I t",
@@ -332,6 +342,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ab41a4fb17edf42f4b09e9e",
+          "author": "Connor Ford",
+          "description": "With Pwn2Own Ireland 2026 coming up, I wanted to share an unreleased blog post from my time as a Pwn2Own contestant. This post covers the discovery and exploitation of CVE-2024-0244, which is an unauthenticated heap-based buffer overflow leading to an arbitrary free() in the Canon MF753Cdw printer featured in Pwn2Own Toronto 2023. This blog post gives an overview of the vulnerability and the exploitation techniques used.\n\n      \n        \n          \n            \nFigure 1 - MF753Cdw printer\nFigure 1 - MF753Cdw printer\nPreviously, I had exploited the very similarly named MF743Cdw at Pwn2Own Toronto 2022 using a classic stack buffer overflow, so I had a solid baseline understanding of this family of printers and their quirks.\nStarting Point\nOver the years at Pwn2Own, the Canon family of printe…",
+          "link": "https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer",
+          "publishedOn": "2026-09-23T19:03:34.000Z",
+          "wordCount": null,
+          "title": "CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6aaaf3b780e2653e0f1cdcf6",
           "author": "Dustin Childs",
@@ -13883,6 +13904,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=12975",
+          "author": "Michelle Rhodes",
+          "description": "Autonomous penetration testing in the Praetorian Guard Platform has changed shape. Hannibal started as a hunt agent for external and cloud attack surfaces. Today, it’s something your security team can run entirely on its own terms. Web applications and LLM endpoints are now first-class attack surfaces. Hunts can authenticate into applications, test what a real […]\nThe post Hannibal Puts Autonomous Penetration Testing Under Your Control appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/autonomous-penetration-testing-hannibal/",
+          "publishedOn": "2026-09-23T16:02:14.000Z",
+          "wordCount": 3996,
+          "title": "Hannibal Puts Autonomous Penetration Testing Under Your Control",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/09/Hannibal-Pentests-Blog.webp"
+        },
+        {
           "id": "https://www.praetorian.com/?p=12963",
           "author": "Michelle Rhodes",
           "description": "How Brutus grew into an engine that finds your identities, tests them everywhere they’re accepted, and remembers what it confirms. An attacker rarely needs a novel exploit when a valid username and password pair is sitting in a breach dump, reused across a dozen internal services, or left at a vendor default nobody changed. Brutus […]\nThe post Credentials Are Still the Shortest Path In appeared first on Praetorian.",
@@ -14028,16 +14059,6 @@
           "wordCount": 1696,
           "title": "VMs won't contain cyber-capable agents",
           "imageUrl": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/vm-cyber-capable-agents-social-banner.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
-          "author": null,
-          "description": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live financial assets on mainnet.\nWe found the bug, which affects versions before 1.28.0, in March 2026, and reported it to Provenance on April 1. It was mitigated in PR #2627 (commit c81fd65), which shipped in v1.28.0 on May 1, 2026, and fixed in PR #2734, which shipped in v1.29.0 on June 8, 2026.\nWhat is a marker?\nThe marker module is Provenance’s core primitive for fungible tokens. Chain participant…",
-          "link": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/",
-          "publishedOn": "2026-08-25T11:00:00.000Z",
-          "wordCount": 1521,
-          "title": "State divergence enables unauthorized access",
-          "imageUrl": "https://blog.trailofbits.com/2026/08/25/state-divergence-enables-unauthorized-access/state-divergence-social-banner.png"
         }
       ]
     },
@@ -14107,6 +14128,16 @@
           "publishedOn": "2026-09-20T12:10:07.000Z",
           "wordCount": null,
           "title": "Below the Waterline Stage 1 - Red Team Planning",
+          "imageUrl": null
+        },
+        {
+          "id": "630601428180697158e6925b",
+          "author": "Andy Gill",
+          "description": "2026 Free CarPlay and Android Auto activation on Audi MMI. Covers compatibility across Audi models, firmware decoding. No dealer visit required.",
+          "link": "https://blog.zsec.uk/audi-carplay-2026/",
+          "publishedOn": "2026-09-18T22:05:00.000Z",
+          "wordCount": null,
+          "title": "Enabling Car Play and Android Auto for free on VW and Audi MMI 2026",
           "imageUrl": null
         },
         {
@@ -14429,6 +14460,26 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=29900",
+          "author": "Greg Copeland",
+          "description": "Security testing and exposure management have run on separate tracks for years, leaving a blind spot between what a scanner flags and what an attacker can exploit. Synack's new integration with Wiz closes that disconnect, feeding continuously validated pentest findings directly into Wiz's exposure management view.\nThe post Unifying Security Testing and Exposure Management: Introducing the Synack and Wiz Integration appeared first on Synack.",
+          "link": "https://www.synack.com/blog/synack-wiz-integration-ctem-exposure-management/",
+          "publishedOn": "2026-09-23T18:37:42.000Z",
+          "wordCount": 5064,
+          "title": "Unifying Security Testing and Exposure Management: Introducing the Synack and Wiz Integration",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/synack-wiz-integration-security-testing-og.png"
+        },
+        {
+          "id": "https://www.synack.com/?p=29906",
+          "author": "Tim Nordvedt",
+          "description": "Most penetration testing RFPs ask vendors to price \"one web application\" or \"an annual pentest\" and leave the rest open to interpretation. This guide gives you a complete penetration testing scope-of-work template, a standard vendor response format, a weighted scorecard, and a pass/fail checklist, so every proposal answers the same questions and gets measured against the same bar.\nThe post Penetration Testing RFP: What to Include and How to Evaluate Responses appeared first on Synack.",
+          "link": "https://www.synack.com/blog/penetration-testing-rfp/",
+          "publishedOn": "2026-09-23T16:35:24.000Z",
+          "wordCount": 7045,
+          "title": "Penetration Testing RFP: What to Include and How to Evaluate Responses",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/Penetration-Testing-RFP-What-to-Include-and-How-to-Evaluate-Responses.webp"
+        },
+        {
           "id": "https://www.synack.com/?p=29866",
           "author": "Paul Mote",
           "description": "Penetration testing for third-party risk works best as a deeper assurance layer for suppliers whose compromise would meaningfully affect the enterprise, not as a blanket requirement. Tier vendors by data access, system access, operational weight, and external exposure, then match testing depth and cadence to that tier. Combine vendor-supplied reports, enterprise-commissioned tests, and shared platforms depending on the relationship. Get written authorization first, scope the test to the product and integration that matter, and feed validated findings into remediation plans and risk scores.\nThe post Penetration Testing for Third-Party Risk Management Programs appeared first on Synack.",
@@ -14629,7 +14680,18 @@
       "title": "watchTowr Labs",
       "feedUrl": "https://labs.watchtowr.com/rss/",
       "siteUrl": "https://labs.watchtowr.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "6ab45411c597860001d5dbc8",
+          "author": "Sina Kheirkhah (@SinSinology)",
+          "description": "Well, well, well, well, well, well, well, well, well, well, well, well, well, well, well. We're back. Sorry.\n\nWe've been watching the onslaught of vulnerabilities flood the internet. Every man, dog, and their grandmas (apparently?) are now using LLMs to find and reproduce vulnerabilities - it’",
+          "link": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
+          "publishedOn": "2026-09-23T23:19:19.000Z",
+          "wordCount": 2513,
+          "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
+          "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/09/1.png"
+        }
+      ]
     },
     {
       "title": "c0rnbread blog",
@@ -14662,6 +14724,16 @@
           "publishedOn": "2026-09-20T12:10:07.000Z",
           "wordCount": null,
           "title": "Below the Waterline Stage 1 - Red Team Planning",
+          "imageUrl": null
+        },
+        {
+          "id": "630601428180697158e6925b",
+          "author": "Andy Gill",
+          "description": "2026 Free CarPlay and Android Auto activation on Audi MMI. Covers compatibility across Audi models, firmware decoding. No dealer visit required.",
+          "link": "https://blog.zsec.uk/audi-carplay-2026/",
+          "publishedOn": "2026-09-18T22:05:00.000Z",
+          "wordCount": null,
+          "title": "Enabling Car Play and Android Auto for free on VW and Audi MMI 2026",
           "imageUrl": null
         },
         {
@@ -15541,16 +15613,6 @@
           "wordCount": 1690,
           "title": "Red Team AI Skills",
           "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/03/Outflank-Security-1200x675-1.png"
-        },
-        {
-          "id": "https://www.outflank.nl/?p=6255",
-          "author": "Marc Smeets",
-          "description": "In this blog, we want to do more than point at a new capability inside OST. We want to show how external researchers can bring their own tools into the platform, using InfraRED as a practical example of what that process can look like from both sides. InfraRED was created by Dominic Penn-Newman, and in this post we cover how the collaboration started, what it takes to turn a promising tool into something OST customers can rely on, and how Dominic experienced the process as the developer. Let’s go.\nWhy Do We Integrate External Projects Into OST?\nOutflank Security Tooling (OST) is Outflank’s main product: a commercial offering designed to make life easier for red teams. OST brings together 30+ tools, a substantial knowledge base with 15k+ lines of documentation and 40+ hours of video content,\n\nRead full post\nThe post Infrared: How External Researchers Bring Tools into OST appeared first on Outflank.",
-          "link": "https://www.outflank.nl/blog/2026/08/24/infrared-how-external-researchers-bring-tools-into-ost/",
-          "publishedOn": "2026-08-24T15:25:56.000Z",
-          "wordCount": 3410,
-          "title": "Infrared: How External Researchers Bring Tools into OST",
-          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2026/08/image-1.gif"
         }
       ]
     },
@@ -15714,66 +15776,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt51a8b7b0b31af675/6a9045aabed19de530afc2fd/image3.png"
-        },
-        {
-          "id": "alert-triage-agentic-soc-self-correcting-agents",
-          "author": "Maggie Musquez",
-          "description": "Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.",
-          "link": "https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents",
-          "publishedOn": "2026-08-25T00:00:00.000Z",
-          "wordCount": 31496,
-          "title": "Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte42f05563385cc8c/6a8e92adf5fdbd3289835dd8/image2.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte42f05563385cc8c/6a8e92adf5fdbd3289835dd8/image2.png"
-        },
-        {
-          "id": "alert-triage-agentic-soc-self-correcting-agents",
-          "author": null,
-          "description": "Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.",
-          "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents",
-          "publishedOn": "2026-08-25T00:00:00.000Z",
-          "wordCount": 8759,
-          "title": "Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/alert-triage-agentic-soc-self-correcting-agents/image2.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/alert-triage-agentic-soc-self-correcting-agents/image2.png"
-        },
-        {
-          "id": "entity-resolution-identity-scoring-elastic-security",
-          "author": "Uri Weisman,Mike Paquette",
-          "description": "Inside Elastic Security, background jobs called maintainers each own one piece of every user, host and service record, from building entities out of raw logs to resolving identities and scoring risk.",
-          "link": "https://www.elastic.co/security-labs/blog/entity-resolution-identity-scoring-elastic-security",
-          "publishedOn": "2026-08-24T00:00:00.000Z",
-          "wordCount": null,
-          "title": "How a team of entity maintainers monitors, connects and scores entities in Elastic Security",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta456ecc712e7bbc6/6a8e952a1106e8de8d9c4b0d/image1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta456ecc712e7bbc6/6a8e952a1106e8de8d9c4b0d/image1.png"
-        },
-        {
-          "id": "entity-resolution-identity-scoring-elastic-security",
-          "author": null,
-          "description": "Inside Elastic Security, background jobs called maintainers each own one piece of every user, host and service record, from building entities out of raw logs to resolving identities and scoring risk.",
-          "link": "https://www.elastic.co/security-labs/entity-resolution-identity-scoring-elastic-security",
-          "publishedOn": "2026-08-24T00:00:00.000Z",
-          "wordCount": 10661,
-          "title": "How a team of entity maintainers monitors, connects and scores entities in Elastic Security",
-          "enclosure": {
-            "url": "https://www.elastic.co/security-labs/assets/images/entity-resolution-identity-scoring-elastic-security/image1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.elastic.co/security-labs/assets/images/entity-resolution-identity-scoring-elastic-security/image1.png"
         }
       ]
     },
@@ -15782,6 +15784,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/jamf-platform-state-of-the-union-jnuc2026/",
+          "author": null,
+          "description": "Learn about the new upcoming Jamf platform features announced at the JNUC 2026 Platform State of the Union.",
+          "link": "https://www.jamf.com/blog/jamf-platform-state-of-the-union-jnuc2026/",
+          "publishedOn": "2026-09-23T13:40:00.000Z",
+          "wordCount": 2688,
+          "title": "Platform State of the Union: JNUC 2026",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jnuc-2026-plt-sotu.webp?h=400&q=80&w=700"
+        },
         {
           "id": "https://www.jamf.com/blog/pamstealer-wavel-macos-infostealer/",
           "author": null,
@@ -15821,6 +15833,16 @@
           "wordCount": 1567,
           "title": "What scales when headcount doubles",
           "imageUrl": "https://media.jamf.com/images/events/landing-page/JNUC-2026-logo-horizontal.png?h=300&q=80&w=500"
+        },
+        {
+          "id": "https://www.jamf.com/blog/jnuc-2026-keynote/",
+          "author": null,
+          "description": "On September 23, 2026, Jamf Nation met in Kansas City, Mo., known for its legendary BBQ, live jazz and warm hospitality. Read on for a summary of the keynote featuring — for the first time — CEO Beth Tschida.",
+          "link": "https://www.jamf.com/blog/jnuc-2026-keynote/",
+          "publishedOn": "2026-09-17T21:13:00.000Z",
+          "wordCount": 5245,
+          "title": "JNUC 2026 keynote recap: Power Up!",
+          "imageUrl": "https://media.jamf.com/images/news/2026/2026-jnuc-keynote.webp?h=500&q=80&w=800"
         },
         {
           "id": "https://www.jamf.com/blog/ai-agents-jamf-automations-serval/",
@@ -15921,16 +15943,6 @@
           "wordCount": 2126,
           "title": "Introducing Platform APIs and the Platform API Gateway",
           "imageUrl": "https://media.jamf.com/images/news/2026/platform-api-gateway.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/",
-          "author": null,
-          "description": "Ten years after DARPA's first all-machine hacking tournament, AI agents are solving live CTF challenges, competing with human teams and pushing cybersecurity toward an AI-vs.-AI future. Read on to discover how this future can affect your cybersecurity.",
-          "link": "https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/",
-          "publishedOn": "2026-08-24T20:52:00.000Z",
-          "wordCount": 7414,
-          "title": "From Mayhem to Atlantis: how AI is changing Capture the Flag and what this means for cybersecurity",
-          "imageUrl": "https://media.jamf.com/images/news/2026/from-mayhem-to-atlantis-ai-is-changing-Elad.webp?h=500&q=80&w=800"
         }
       ]
     },
@@ -16185,21 +16197,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1787243044-1200x600-1.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/japan-business-leaders-survey-2026",
-          "author": "Tadashi Yamanaka",
-          "description": "",
-          "link": "https://www.wiz.io/blog/japan-business-leaders-survey-2026",
-          "publishedOn": "2026-08-25T06:00:00.000Z",
-          "wordCount": null,
-          "title": "Untitled",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1733763115-support-for-japan-tenants-1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1733763115-support-for-japan-tenants-1.png"
         }
       ]
     },
@@ -16247,16 +16244,6 @@
           "wordCount": 4294,
           "title": "Malware shellcode delivery via signal - part 5. Physics-guided AI demodulator. PyTorch example",
           "imageUrl": "https://cocomelonc.github.io/assets/images/221/2026-09-01_21-31.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/malware/2026/08/25/malware-tricks-64.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/malware/2026/08/25/malware-tricks-64.html",
-          "publishedOn": "2026-08-25T01:00:00.000Z",
-          "wordCount": 1600,
-          "title": "Malware development trick 64: PE file bloating and overlay data. Simple C example",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/220/2026-08-26_13-48.png"
         }
       ]
     },
