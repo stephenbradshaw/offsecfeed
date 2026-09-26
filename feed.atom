@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-25T02:29:07.498Z</updated>
+    <updated>2026-09-26T02:32:35.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JNUC 2026 Day 3 Recap]]></title>
+        <id>https://www.jamf.com/blog/jnuc-2026-day-3-recap/</id>
+        <link href="https://www.jamf.com/blog/jnuc-2026-day-3-recap/"/>
+        <updated>2026-09-25T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Catch up on JNUC 2026 Day 3: top session themes, the 10 best-attended breakouts, EDU SOTU highlights and more.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Master Key Included: Detecting SolarWinds ARM CVE-2026-28326]]></title>
+        <id>https://bishopfox.com/blog/detecting-solarwinds-arm-cve-2026-28326</id>
+        <link href="https://bishopfox.com/blog/detecting-solarwinds-arm-cve-2026-28326"/>
+        <updated>2026-09-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A hardcoded authentication secret ships with every SolarWinds Access Rights Manager install, and reaching TCP 55555 is enough to hit a .NET deserialization sink. Bishop Fox confirmed SYSTEM-level code execution, breaks down the root cause, and shares a safe detection tool for defenders.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't let TEEs break your MPC]]></title>
+        <id>https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/</id>
+        <link href="https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/"/>
+        <updated>2026-09-25T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share.
+So is this combination worth it? Pro…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JNUC 2026 Day 2 recap]]></title>
+        <id>https://www.jamf.com/blog/jnuc-2026-day-2-recap/</id>
+        <link href="https://www.jamf.com/blog/jnuc-2026-day-2-recap/"/>
+        <updated>2026-09-24T20:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Catch up on JNUC 2026 Day 2: top session themes, the 10 best-attended breakouts, EDU SOTU highlights and more.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wiz Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026]]></title>
         <id>https://www.wiz.io/blog/forrester-wave-for-proactive-security-2026</id>
@@ -162,6 +203,16 @@ The post Hannibal Puts Autonomous Penetration Testing Under Your Control appeare
         <summary type="html"><![CDATA[Learn about the new upcoming Jamf platform features announced at the JNUC 2026 Platform State of the Union.]]></summary>
         <author>
             <name>Jamf Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malware analysis: part 12. Section entropy from scratch in pure C: a tiny packed/encrypted detector.]]></title>
+        <id>https://cocomelonc.github.io/malware/2026/09/23/malware-analysis-12.html</id>
+        <link href="https://cocomelonc.github.io/malware/2026/09/23/malware-analysis-12.html"/>
+        <updated>2026-09-23T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
         </author>
     </entry>
     <entry>
@@ -2137,84 +2188,6 @@ The post Cleartext Credential Recovery in ServiceNow appeared first on SpecterOp
         <summary type="html"><![CDATA[Inside the multi-agent pipeline and feedback loops that turned a bucket scanner into a context engine.]]></summary>
         <author>
             <name>Daniel Lazarev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Version Control DFIR: a Cheatsheet to GitHub, GitLab, Bitbucket, and Azure DevOps]]></title>
-        <id>https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops</id>
-        <link href="https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops"/>
-        <updated>2026-08-27T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A practitioner’s guide to log visibility, incident readiness, and threat hunting across the major version control services.]]></summary>
-        <author>
-            <name>Shira Ayal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PCI DSS Penetration Testing Requirements: What Enterprises Actually Need for Compliance]]></title>
-        <id>https://www.synack.com/?p=28990</id>
-        <link href="https://www.synack.com/blog/pci-compliance-penetration-testing/"/>
-        <updated>2026-08-27T10:55:06.000Z</updated>
-        <summary type="html"><![CDATA[Getting PCI DSS Requirement 11.4 Right From the Start
-Introduction
-The post PCI DSS Penetration Testing Requirements: What Enterprises Actually Need for Compliance appeared first on Synack.]]></summary>
-        <author>
-            <name>Melissa Wooten</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking Claude Code Opus 5 Auto Mode]]></title>
-        <id>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/</id>
-        <link href="https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/"/>
-        <updated>2026-08-27T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we explore how a simple website summary request hijacks Claude Code Opus 5 in Auto Mode and achieves code execution with 60-80% attack success rate using a small sample size.
-
-This is interesting because a third-party evaluation commissioned by Anthropic showed a 0.00% prompt injection attack success rate for Opus 5 in Auto Mode.
-Auto Mode Is Now the Default in Claude Code
-Auto Mode replaces human approval prompts with a safety classifier. Since mid-August it is the default starting mode for Claude Code.]]></summary>
-        <author>
-            <name>Embrace The Red</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Democratizing FinOps with Wiz: Driving Cost Attribution with the Wiz Service Catalog]]></title>
-        <id>https://www.wiz.io/blog/cost-attribution-with-the-wiz-service-catalog</id>
-        <link href="https://www.wiz.io/blog/cost-attribution-with-the-wiz-service-catalog"/>
-        <updated>2026-08-26T16:15:18.000Z</updated>
-        <summary type="html"><![CDATA[How the Wiz Cloud Cost automates cost allocation to power developer-led cost optimization and connect cost to business value.]]></summary>
-        <author>
-            <name>Allison Jackson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The State of Cloud Risk 2026: Most Security Findings Aren’t Real Attacker Opportunities]]></title>
-        <id>https://www.wiz.io/blog/cloud-risk-report-2026</id>
-        <link href="https://www.wiz.io/blog/cloud-risk-report-2026"/>
-        <updated>2026-08-26T15:01:58.000Z</updated>
-        <summary type="html"><![CDATA[Wiz Research telemetry reveals why the majority of high-severity findings lack a path to compromise]]></summary>
-        <author>
-            <name>Wiz Threat Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Evaluate a Penetration Testing Vendor: An Enterprise Buyer’s Checklist]]></title>
-        <id>https://www.synack.com/?p=29034</id>
-        <link href="https://www.synack.com/blog/penetration-testing-vendor/"/>
-        <updated>2026-08-26T14:36:11.000Z</updated>
-        <summary type="html"><![CDATA[Penetration testing proposals are rarely easy to compare. One vendor prices by application, another by testing days, another by credits, and another by AI test runs. Choosing the right penetration testing vendor therefore requires more than comparing report length, brand recognition, or the initial quote. This guide provides an enterprise checklist and weighted scorecard for evaluating scope, methodology, tester quality, finding validation, reporting, remediation, governance, and total program cost.
-The post How to Evaluate a Penetration Testing Vendor: An Enterprise Buyer’s Checklist appeared first on Synack.]]></summary>
-        <author>
-            <name>Tim Nordvedt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Continuous Pentesting Became Standard Practice at Dow]]></title>
-        <id>https://www.synack.com/?p=28504</id>
-        <link href="https://www.synack.com/blog/how-continuous-pentesting-became-standard-practice-at-dow/"/>
-        <updated>2026-08-25T21:37:00.000Z</updated>
-        <summary type="html"><![CDATA[A few years ago, Dow's cyber engineering team made the switch from point-in-time pentesting to continuous coverage for their high-value assets. How'd they do it? By partnering with Synack. And keep in mind this was before the recent wave of AI-powered pentesting solutions. Dow was ahead of the curve.
-The post How Continuous Pentesting Became Standard Practice at Dow appeared first on Synack.]]></summary>
-        <author>
-            <name>Katy Nally</name>
         </author>
     </entry>
     <entry>
