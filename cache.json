@@ -84,26 +84,6 @@
           "wordCount": 4149,
           "title": "Demystifying Agent Tradecraft: Introducing SpecterOps Skills",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/08/WorkflowsforAI_2000x1020.jpg"
-        },
-        {
-          "id": "https://specterops.io/?p=29383",
-          "author": "Katherine",
-          "description": "Our response to OpenAI’s call for stronger, more widely shared cyber defense We are signing OpenAI’s call for collective action on cyber defense because we agree with the three principles at its center: the weaknesses already exist, advanced AI needs to reach more defenders, and the response must be collective and widespread. SpecterOps has operated […]\nThe post Why SpecterOps Signed OpenAI’s Call for Collective Cyber Defense appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/08/27/specterops-openai-collective-cyber-defense/",
-          "publishedOn": "2026-08-27T17:45:18.000Z",
-          "wordCount": 3638,
-          "title": "Why SpecterOps Signed OpenAI’s Call for Collective Cyber Defense",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/08/OpenAI_Header_2000x1020.jpg"
-        },
-        {
-          "id": "https://specterops.io/?p=29202",
-          "author": "Matt Creel",
-          "description": "TL;DR: This post explores using ServiceNow script includes to create a cleartext credential retrieval mechanism valid for any discovery credential type and LDAP credential records. Introduction ServiceNow is a cloud IT service management platform (ITSM) enabling enterprise scale asset tracking, workflow automation, and much more. I first leveraged ServiceNow on a red team assessment in […]\nThe post Cleartext Credential Recovery in ServiceNow appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/08/27/cleartext-credential-recovery-servicenow/",
-          "publishedOn": "2026-08-27T16:00:00.000Z",
-          "wordCount": 4535,
-          "title": "Cleartext Credential Recovery in ServiceNow",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/08/image-50.png"
         }
       ]
     },
@@ -14192,6 +14172,36 @@
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
         {
+          "id": "https://www.hexacorn.com/blog/?p=10401",
+          "author": "adam",
+          "description": "When you run (from admin account): rundll32 aidd.dll, AiddRunTask a lot of interesting things are happening. There are at least 2 files of interest being created: c:\\Windows\\appcompat\\AIDD\\AIDDProcessLoadedDllListDBdump.txtc:\\Windows\\appcompat\\AIDD\\ProcessLoadedDllList.db They include a textual and SQLite-based list of executables running and DLLs loaded. … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-aidd-dll/",
+          "publishedOn": "2026-09-26T23:39:13.000Z",
+          "wordCount": 690,
+          "title": "1 little known secret of aidd.dll",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10398",
+          "author": "adam",
+          "description": "The WinCsFlags.exe program accepts an undocumented command line argument “-w”. When you invoke it like this: WinCsFlags.exe -w it will go into a never-ending loop waiting for the debugger to be attached.",
+          "link": "https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-wincsflags-exe/",
+          "publishedOn": "2026-09-26T22:40:02.000Z",
+          "wordCount": 510,
+          "title": "1 little known secret of WinCsFlags.exe",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10396",
+          "author": "adam",
+          "description": "When you run UIEOrchestratorStub.exe it executes UIEOrchestrator.exe program located here: %SystemRoot%\\uus\\<architecture>\\UIEOrchestrator.exe So, changing the SystemRoot environment variable to point to your chosen path will lead to execution by proxy. On a 64-bit Windows 11 26H2, we can try this: set … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-uieorchestratorstub-exe/",
+          "publishedOn": "2026-09-26T22:28:46.000Z",
+          "wordCount": 524,
+          "title": "1 little known secret of UIEOrchestratorStub.exe",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hexacorn.com/blog/?p=10392",
           "author": "adam",
           "description": "In my older post I covered Procmon findings for Win11_24H2 build. The 26H2 introduces 2 additional phantom DLL libraries:",
@@ -15720,21 +15730,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt2039145348c9e674/6a95824260f7954de4d76c21/image14.png"
-        },
-        {
-          "id": "dll-search-order-hijacking-elastic-defend",
-          "author": "Ian Garratt,Tamás Péter",
-          "description": "The ClickFix campaign that sideloads a malicious mscoree.dll also ships a driver to kill Elastic Endpoint. We rebuilt that DLL as a NativeAOT library, dropped it beside a signed Microsoft binary, and Elastic Defend 9.5.0 flagged the load.",
-          "link": "https://www.elastic.co/security-labs/threat-command/dll-search-order-hijacking-elastic-defend",
-          "publishedOn": "2026-08-28T00:00:00.000Z",
-          "wordCount": 31479,
-          "title": "From 88 lines to 1: Detecting DLL hijacking with Elastic Defend",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt51a8b7b0b31af675/6a9045aabed19de530afc2fd/image3.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt51a8b7b0b31af675/6a9045aabed19de530afc2fd/image3.png"
         }
       ]
     },
@@ -16151,36 +16146,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1788259511-png-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/ai-infrastructure-honeypot",
-          "author": "Yaara Shriki",
-          "description": "Wiz honeypots uncover active campaigns targeting LiteLLM, MCP servers, and AI frameworks through RCE, blind prompt injection, and memory credential theft.",
-          "link": "https://www.wiz.io/blog/ai-infrastructure-honeypot",
-          "publishedOn": "2026-08-27T16:33:16.000Z",
-          "wordCount": 18128,
-          "title": "Inside 90 days of attacks on AI infrastructure",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1787593149-honeypots-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1787593149-honeypots-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/bucket-scanner-to-context-engine",
-          "author": "Daniel Lazarev",
-          "description": "Inside the multi-agent pipeline and feedback loops that turned a bucket scanner into a context engine.",
-          "link": "https://www.wiz.io/blog/bucket-scanner-to-context-engine",
-          "publishedOn": "2026-08-27T15:52:01.000Z",
-          "wordCount": 17735,
-          "title": "From Concept to Context Engine: How Wiz Built AI-Powered Data Discovery",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1787825352-discovery-for-cloud-storage-2x-1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1787825352-discovery-for-cloud-storage-2x-1.png"
         }
       ]
     },

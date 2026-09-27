@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-26T02:32:35.180Z</updated>
+    <updated>2026-09-27T02:29:29.098Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of aidd.dll]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10401</id>
+        <link href="https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-aidd-dll/"/>
+        <updated>2026-09-26T23:39:13.000Z</updated>
+        <summary type="html"><![CDATA[When you run (from admin account): rundll32 aidd.dll, AiddRunTask a lot of interesting things are happening. There are at least 2 files of interest being created: c:\Windows\appcompat\AIDD\AIDDProcessLoadedDllListDBdump.txtc:\Windows\appcompat\AIDD\ProcessLoadedDllList.db They include a textual and SQLite-based list of executables running and DLLs loaded. … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of WinCsFlags.exe]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10398</id>
+        <link href="https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-wincsflags-exe/"/>
+        <updated>2026-09-26T22:40:02.000Z</updated>
+        <summary type="html"><![CDATA[The WinCsFlags.exe program accepts an undocumented command line argument “-w”. When you invoke it like this: WinCsFlags.exe -w it will go into a never-ending loop waiting for the debugger to be attached.]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1 little known secret of UIEOrchestratorStub.exe]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10396</id>
+        <link href="https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-uieorchestratorstub-exe/"/>
+        <updated>2026-09-26T22:28:46.000Z</updated>
+        <summary type="html"><![CDATA[When you run UIEOrchestratorStub.exe it executes UIEOrchestrator.exe program located here: %SystemRoot%\uus\<architecture>\UIEOrchestrator.exe So, changing the SystemRoot environment variable to point to your chosen path will lead to execution by proxy. On a 64-bit Windows 11 26H2, we can try this: set … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JNUC 2026 Day 3 Recap]]></title>
         <id>https://www.jamf.com/blog/jnuc-2026-day-3-recap/</id>
@@ -2136,58 +2166,6 @@ Gadget hardening raises the cost of exploitation, but it cannot make untrusted M
 Trail of Bit…]]></summary>
         <author>
             <name>PentesterLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From 88 lines to 1: Detecting DLL hijacking with Elastic Defend]]></title>
-        <id>dll-search-order-hijacking-elastic-defend</id>
-        <link href="https://www.elastic.co/security-labs/threat-command/dll-search-order-hijacking-elastic-defend"/>
-        <updated>2026-08-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The ClickFix campaign that sideloads a malicious mscoree.dll also ships a driver to kill Elastic Endpoint. We rebuilt that DLL as a NativeAOT library, dropped it beside a signed Microsoft binary, and Elastic Defend 9.5.0 flagged the load.]]></summary>
-        <author>
-            <name>Ian Garratt,Tamás Péter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why SpecterOps Signed OpenAI’s Call for Collective Cyber Defense]]></title>
-        <id>https://specterops.io/?p=29383</id>
-        <link href="https://specterops.io/blog/2026/08/27/specterops-openai-collective-cyber-defense/"/>
-        <updated>2026-08-27T17:45:18.000Z</updated>
-        <summary type="html"><![CDATA[Our response to OpenAI’s call for stronger, more widely shared cyber defense We are signing OpenAI’s call for collective action on cyber defense because we agree with the three principles at its center: the weaknesses already exist, advanced AI needs to reach more defenders, and the response must be collective and widespread. SpecterOps has operated […]
-The post Why SpecterOps Signed OpenAI’s Call for Collective Cyber Defense appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Katherine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside 90 days of attacks on AI infrastructure]]></title>
-        <id>https://www.wiz.io/blog/ai-infrastructure-honeypot</id>
-        <link href="https://www.wiz.io/blog/ai-infrastructure-honeypot"/>
-        <updated>2026-08-27T16:33:16.000Z</updated>
-        <summary type="html"><![CDATA[Wiz honeypots uncover active campaigns targeting LiteLLM, MCP servers, and AI frameworks through RCE, blind prompt injection, and memory credential theft.]]></summary>
-        <author>
-            <name>Yaara Shriki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cleartext Credential Recovery in ServiceNow]]></title>
-        <id>https://specterops.io/?p=29202</id>
-        <link href="https://specterops.io/blog/2026/08/27/cleartext-credential-recovery-servicenow/"/>
-        <updated>2026-08-27T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: This post explores using ServiceNow script includes to create a cleartext credential retrieval mechanism valid for any discovery credential type and LDAP credential records. Introduction ServiceNow is a cloud IT service management platform (ITSM) enabling enterprise scale asset tracking, workflow automation, and much more. I first leveraged ServiceNow on a red team assessment in […]
-The post Cleartext Credential Recovery in ServiceNow appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Matt Creel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Concept to Context Engine: How Wiz Built AI-Powered Data Discovery]]></title>
-        <id>https://www.wiz.io/blog/bucket-scanner-to-context-engine</id>
-        <link href="https://www.wiz.io/blog/bucket-scanner-to-context-engine"/>
-        <updated>2026-08-27T15:52:01.000Z</updated>
-        <summary type="html"><![CDATA[Inside the multi-agent pipeline and feedback loops that turned a bucket scanner into a context engine.]]></summary>
-        <author>
-            <name>Daniel Lazarev</name>
         </author>
     </entry>
     <entry>
