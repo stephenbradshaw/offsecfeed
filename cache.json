@@ -221,6 +221,16 @@
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
         {
+          "id": "http://blog.didierstevens.com/?p=11206",
+          "author": "Didier Stevens",
+          "description": "Here is an overview of content I published in September: Blog posts: b’Update: search-for-compression.py Version 0.0.8′ SANS ISC Diary entries: YARA 4.5.0 Release TerminalFix: PNG Steganography Wireshark 4.6.9 Released",
+          "link": "https://blog.didierstevens.com/2026/10/01/overview-of-content-published-in-september-10/",
+          "publishedOn": "2026-10-01T18:45:21.000Z",
+          "wordCount": 3178,
+          "title": "Overview of Content Published in September",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
+        {
           "id": "http://blog.didierstevens.com/?p=11200",
           "author": "Didier Stevens",
           "description": "I’ve noticed when a zlib compressed chunk of data is followed by other data, search-for-compression.py will not always be able to detect the compressed chunk. This is caused by the fact that the other data generates a decompression error, and the complete chunk is disregarded. I’ve added a new option to try to solve this: […]",
@@ -14413,6 +14423,26 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/weaponizing-check-point-management-cve-2026-93616",
+          "author": null,
+          "description": "An unauthenticated attacker who can reach TCP 19009 on a Check Point management server can take it over completely. Bishop Fox reproduced the full root RCE chain on R81.10 and R82.10, breaks down all three vulnerabilities the patch actually closes, and shares a safe detection tool for defenders.",
+          "link": "https://bishopfox.com/blog/weaponizing-check-point-management-cve-2026-93616",
+          "publishedOn": "2026-10-01T13:00:00.000Z",
+          "wordCount": 4395,
+          "title": "One Port to Root: Weaponizing Check Point Management CVE-2026-93616",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Weaponizing-Check-Point-Management-CVE-2026-93616.png?mtime=1790890079"
+        },
+        {
+          "id": "https://bishopfox.com/blog/triaging-cves-in-age-of-ai-security-research",
+          "author": null,
+          "description": "AI-assisted research is flooding the CVE pipeline with bugs that score critical but depend on configurations almost nobody runs. Bishop Fox tested four high-profile Nginx CVEs in the lab, measured real-world prevalence, and explains how to separate actual risk from well-marketed noise.",
+          "link": "https://bishopfox.com/blog/triaging-cves-in-age-of-ai-security-research",
+          "publishedOn": "2026-09-30T13:00:00.000Z",
+          "wordCount": 4827,
+          "title": "Separating Signal from Slop: Triaging CVEs in the Age of AI Security Research",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Separating-Signal-from-Slop_SEO-Tile.png?mtime=1790869024"
+        },
+        {
           "id": "https://bishopfox.com/blog/zilliz-attu-2-6-5",
           "author": null,
           "description": "Two vulnerabilities in Zilliz Attu 2.6.5 chain into something serious. Missing authentication lets anyone proxy requests unauthenticated, and a regex bypass defeats the private IP block. Bishop Fox turned both into full Kubernetes namespace takeover in a cloud deployment. Update to 3.0.0 now.",
@@ -14499,6 +14529,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=30073",
+          "author": "Mark Kuhr",
+          "description": "Before you build an AI pentesting agent, run it through 5 tests for production readiness. Mark Kuhr breaks down what separates a prototype from a system.\nThe post Build or Buy AI Pentesting? 5 Tests to Judge Production Readiness appeared first on Synack.",
+          "link": "https://www.synack.com/blog/build-or-buy-ai-pentesting-five-tests/",
+          "publishedOn": "2026-10-01T17:46:47.000Z",
+          "wordCount": 4962,
+          "title": "Build or Buy AI Pentesting? 5 Tests to Judge Production Readiness",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/build-or-buy-ai-pentesting-five-tests-blog-og-1024x576.png"
+        },
         {
           "id": "https://www.synack.com/?p=30018",
           "author": "Paul Mote",
@@ -15811,21 +15851,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0a9b5a1d6a281f9b/6a9698cf6fe1454090b1c811/image9.jpg"
-        },
-        {
-          "id": "revstealer-credential-harvesting-infostealer",
-          "author": "Daniel Stepanic,Salim Bitam,Jia Yu Chan",
-          "description": "Elastic Security Labs deep dives into REVSTEALER, an emerging infostealer targeting browsers, wallets, and gaming accounts.",
-          "link": "https://www.elastic.co/security-labs/threat-command/revstealer-credential-harvesting-infostealer",
-          "publishedOn": "2026-09-02T00:00:00.000Z",
-          "wordCount": 30297,
-          "title": "REVSTEALER ramps up: analysis of up-and-coming infostealer",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteae93f19003a3c38/6a97987727a53185fbdc9398/image4.webp",
-            "length": "0",
-            "type": "image/webp"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blteae93f19003a3c38/6a97987727a53185fbdc9398/image4.webp"
         }
       ]
     },
@@ -16045,14 +16070,14 @@
           "imageUrl": "https://media.jamf.com/images/news/2026/gartner-customers-choice-2026-2.webp?h=400&q=80&w=700"
         },
         {
-          "id": "https://www.jamf.com/blog/contagious-interview-trojanized-macos-installers/",
+          "id": "https://www.jamf.com/blog/jamf-premium-support-technical-account-managers/",
           "author": null,
-          "description": "Jamf Threat Labs uncovers fake macOS installers tied to the same infrastructure behind past Git hook and VS Code task file attacks.",
-          "link": "https://www.jamf.com/blog/contagious-interview-trojanized-macos-installers/",
-          "publishedOn": "2026-09-02T14:31:00.000Z",
-          "wordCount": 4304,
-          "title": "Contagious Interview steps outside the developer workflow",
-          "imageUrl": "https://media.jamf.com/images/news/2026/contagious-interview-trojanized-macos-installers.webp?h=400&q=80&w=700"
+          "description": "Read on to learn more about recent updates to Jamf Premium Support, including the introduction of Technical Account Managers (TAM), Training Passes, and more support tiers.",
+          "link": "https://www.jamf.com/blog/jamf-premium-support-technical-account-managers/",
+          "publishedOn": "2026-09-04T20:10:00.000Z",
+          "wordCount": 2215,
+          "title": "Jamf announces Premium Support upgrades and Technical Account Manager services",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jamf-premium-support-technical-account-managers.webp?h=500&q=80&w=800"
         }
       ]
     },
