@@ -84,16 +84,6 @@
           "wordCount": 5249,
           "title": "From Findings to Fixes: Getting Value from Red Team Results",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/Blog_RTFM_2000x1020.jpg"
-        },
-        {
-          "id": "https://specterops.io/?p=29472",
-          "author": "Katherine",
-          "description": "A public repository for turning practitioner knowledge into reusable, reviewable workflows for AI-assisted security work. SpecterOps Skills is our public repository of reusable skills, plugins, and agent definitions for AI-assisted workflows. It is designed to capture how practitioners approach real work: what to inspect first, which references matter, what requires approval, and how to verify […]\nThe post Demystifying Agent Tradecraft: Introducing SpecterOps Skills appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/09/02/specterops-skills/",
-          "publishedOn": "2026-09-02T18:00:00.000Z",
-          "wordCount": 4149,
-          "title": "Demystifying Agent Tradecraft: Introducing SpecterOps Skills",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/08/WorkflowsforAI_2000x1020.jpg"
         }
       ]
     },
@@ -14021,6 +14011,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
+          "author": null,
+          "description": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes.\nAs part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP).\nSequenceHash and SequenceMAC behave similarly to NIST’s TupleHash, but have the advantage of not being tied to a …",
+          "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
+          "publishedOn": "2026-10-02T11:00:00.000Z",
+          "wordCount": 3217,
+          "title": "SequenceHash: multihashing for the rest of us",
+          "imageUrl": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/sequencehash-banner.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
           "author": null,
           "description": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share.\nSo is this combination worth it? Pro…",
@@ -14192,6 +14192,16 @@
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
         {
+          "id": "https://www.hexacorn.com/blog/?p=10407",
+          "author": "adam",
+          "description": "This is a relatively new API (EtwCheckCoverage) that may be of interest. It is being used by a couple of DLLs and executables in Windows 11 and here’s a list of known parameters it takes: comdlg32.dllShell_Picker_ShowShell_Picker_FinishShell_Picker_Cancel dafBth.dllBluetooth_Pairing_CancelledBluetooth_Pairing_SucceededBluetooth_Pairing_FailedBluetooth_Pairing_StartedBluetooth_Pairing_Deleted diagtrack.dllUTC_OsEvents_AbnormalShutdown dwmcore.dllDwm_EnergyReporter_DataDropped_QueuingDwm_EnergyReporter_DataDropped_MaxEntriesDwm_EnergyReporter_DataDropped_WorkerRunning Faultrep.dllWER_Report_AppCrash … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/10/02/etwcheckcoverage-api/",
+          "publishedOn": "2026-10-02T23:32:48.000Z",
+          "wordCount": 515,
+          "title": "EtwCheckCoverage API",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hexacorn.com/blog/?p=10401",
           "author": "adam",
           "description": "When you run (from admin account): rundll32 aidd.dll, AiddRunTask a lot of interesting things are happening. There are at least 2 files of interest being created: c:\\Windows\\appcompat\\AIDD\\AIDDProcessLoadedDllListDBdump.txtc:\\Windows\\appcompat\\AIDD\\ProcessLoadedDllList.db They include a textual and SQLite-based list of executables running and DLLs loaded. … Continue reading →",
@@ -14273,16 +14283,6 @@
           "wordCount": 2273,
           "title": "Passing the bucks $$$: Passback attacks explained",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/09/Morgan-Passback-attack-headline-imagev3-2-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44601",
-          "author": "Alex Wallace",
-          "description": "TL;DR  The coffee shop hacker  Public Wi-Fi has acquired a slightly theatrical reputation. Join the network in a coffee shop, we are told, and a hacker in the corner can immediately steal your passwords and empty your bank account.  It makes for good VPN advertising. It is not a particularly accurate picture of how the modern web works.  Most legitimate websites […]\nThe post Why your data is safer than you think on public Wi-Fi  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/why-your-data-is-safer-than-you-think-on-public-wi-fi/",
-          "publishedOn": "2026-09-03T12:43:48.000Z",
-          "wordCount": 2738,
-          "title": "Why your data is safer than you think on public Wi-Fi",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/09/Eime-wifi-headline-imagev2-1024x576.png"
         }
       ]
     },
@@ -14511,16 +14511,6 @@
           "wordCount": 4409,
           "title": "Mind the Config: Detecting and Weaponizing NetScaler CVE-2026-19490",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
-        },
-        {
-          "id": "https://bishopfox.com/blog/signature-optional-analysis-of-cve-2026-28323",
-          "author": null,
-          "description": "SolarWinds Web Help Desk treated SAML signature verification as optional and skipped every other validation the spec requires. Bishop Fox confirmed the full exploit end to end: one forged POST request, no credentials, full session takeover. Here is the root cause, the fix, and how to detect it.",
-          "link": "https://bishopfox.com/blog/signature-optional-analysis-of-cve-2026-28323",
-          "publishedOn": "2026-09-03T13:00:00.000Z",
-          "wordCount": 3502,
-          "title": "Signature Optional - Analysis of CVE-2026-28323",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
         }
       ]
     },
@@ -14529,6 +14519,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=30092",
+          "author": "Angela Heindl-Schober",
+          "description": "Synack was named a Leader in G2's Fall 2026 Grid® and Enterprise Grid® Reports for Penetration Testing. The reviews show what customers value in a pentesting partner: visibility into testing, access to experts, findings they can fix and verify, and a partner that acts on feedback.\nThe post What Customers Value in a Penetration Testing Partner: Insights from G2 Reviews appeared first on Synack.",
+          "link": "https://www.synack.com/blog/what-customers-value-g2-penetration-testing-partner/",
+          "publishedOn": "2026-10-02T06:01:00.000Z",
+          "wordCount": 5308,
+          "title": "What Customers Value in a Penetration Testing Partner: Insights from G2 Reviews",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/g2-insights-penetration-testing-partner-blog-og.png"
+        },
         {
           "id": "https://www.synack.com/?p=30073",
           "author": "Mark Kuhr",
@@ -14658,26 +14658,6 @@
           "wordCount": 6273,
           "title": "Offensive Security Is Becoming a Program, Not a Purchase",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/offensive-security-program-not-purchase-synack-og-1-1024x576.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=29186",
-          "author": "Mark Kuhr",
-          "description": "Expert judgment is the scarcest resource in offensive security. Making it accessible to more of the world, continuously, is an engineering problem.\nThe post Putting Experts on the Problems Only Experts Can Solve appeared first on Synack.",
-          "link": "https://www.synack.com/blog/routing-ai-and-expert-security-testing/",
-          "publishedOn": "2026-09-02T20:44:12.000Z",
-          "wordCount": 4863,
-          "title": "Putting Experts on the Problems Only Experts Can Solve",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/Putting-Experts-on-the-Problems-OG.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=29191",
-          "author": "Jay Kaplan",
-          "description": "Why we merged NetSPI and Synack to bet against the loudest idea in security.\nThe post Autonomy Was Never the Goal appeared first on Synack.",
-          "link": "https://www.synack.com/blog/autonomy-was-never-the-goal/",
-          "publishedOn": "2026-09-02T20:43:56.000Z",
-          "wordCount": 6512,
-          "title": "Autonomy Was Never the Goal",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/Autonomy-Was-Never-the-Goal-OG-Image-1.png"
         }
       ]
     },
@@ -15693,16 +15673,6 @@
           "wordCount": 4380,
           "title": "NetNTLMv1 Is Dead. Long Live NetNTLMv1.",
           "imageUrl": "https://www.outflank.nl/wp-content/uploads/2026/09/grtb-page-layout.png"
-        },
-        {
-          "id": "https://www.outflank.nl/?p=6296",
-          "author": "Kyle Avery",
-          "description": "Today, SpecterOps released a new open-source skills marketplace for offensive security research and red team operations. We are proud to have collaborated on this project over the last few weeks and hope more teams will join now that it’s public. The initial release includes plugins for Fortra’s Cobalt Strike and Outflank C2. Get started here: https://github.com/SpecterOps/skills\nBackground\nI recently reached out to a few red teams we’ve worked with before to discuss developing a public AI marketplace focused on offensive security. I was inspired by the Trail of Bits marketplace and wanted to see a similar project for offensive security. This task was too large to take on alone, so I contacted a few other researchers to discuss a joint effort. Imagine my surprise when SpecterOps told me they were nearly done implementing a similar project!\nTags: AI\nRead full post\nThe post Red Team AI Skills appeared first on Outflank.",
-          "link": "https://www.outflank.nl/blog/2026/09/02/red-team-ai-skills/",
-          "publishedOn": "2026-09-02T17:55:00.000Z",
-          "wordCount": 1690,
-          "title": "Red Team AI Skills",
-          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2024/03/Outflank-Security-1200x675-1.png"
         }
       ]
     },
@@ -16317,21 +16287,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1788901591-image-14.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/prevent-production-risk-at-code-stage",
-          "author": "Mike McGuire",
-          "description": "Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across every phase of your software pipeline.",
-          "link": "https://www.wiz.io/blog/prevent-production-risk-at-code-stage",
-          "publishedOn": "2026-09-03T00:31:46.000Z",
-          "wordCount": 19128,
-          "title": "How Developers Prevent Production Risk at the Source",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1788376875-image-2.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1788376875-image-2.png"
         }
       ]
     },
@@ -16340,6 +16295,16 @@
       "feedUrl": "https://cocomelonc.github.io/feed.xml",
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
+        {
+          "id": "https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html",
+          "publishedOn": "2026-09-30T02:00:00.000Z",
+          "wordCount": 2810,
+          "title": "Reversing embedded WebAssembly: part 1. Cracking the WAMR .aot container in pure C.",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/226/2026-10-01_16-49.png"
+        },
         {
           "id": "https://cocomelonc.github.io/malware/2026/09/23/malware-analysis-12.html",
           "author": null,
@@ -16387,6 +16352,16 @@
       "feedUrl": "https://pentesterlab.com/blog/feed",
       "siteUrl": "https://pentesterlab.com/blog",
       "articles": [
+        {
+          "id": "https://pentesterlab.com/blog/the-inner-circle",
+          "author": null,
+          "description": "A few years ago, a friend stayed at my place during Ruxcon and gave me a bottle of rum called Inner Circle as a thank-you. I liked the name. To be fair, at 75.9%, I am surprised I still remember it.\n      \n\n      \n        But over the years, security has started to feel a bit like that.\n      \n\n      \n        At Unprompted Australia two weeks ago, I ran into at least two people I had originally met in Prague. Different conference, different country, almost the other side of the world, and somehow the same people.\n      \n\n      \n        The year before, at an OWASP meetup in Krakow, I met people who were working with one of my former coworkers from Fitbit in San Francisco. Let's call him Spiderboy. #innerjoke. You travel halfway across the world, walk into a meetup in Poland, start talking …",
+          "link": "https://pentesterlab.com/blog/the-inner-circle",
+          "publishedOn": "2026-10-02T00:00:00.000Z",
+          "wordCount": 1290,
+          "title": "The Inner Circle",
+          "imageUrl": "https://pentesterlab.com/blog/the-inner-circle/thumbnail"
+        },
         {
           "id": "https://pentesterlab.com/blog/research-worth-reading-week37-2026",
           "author": null,

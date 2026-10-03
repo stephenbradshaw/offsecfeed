@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-02T03:07:00.976Z</updated>
+    <updated>2026-10-03T02:54:03.217Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[EtwCheckCoverage API]]></title>
+        <id>https://www.hexacorn.com/blog/?p=10407</id>
+        <link href="https://www.hexacorn.com/blog/2026/10/02/etwcheckcoverage-api/"/>
+        <updated>2026-10-02T23:32:48.000Z</updated>
+        <summary type="html"><![CDATA[This is a relatively new API (EtwCheckCoverage) that may be of interest. It is being used by a couple of DLLs and executables in Windows 11 and here’s a list of known parameters it takes: comdlg32.dllShell_Picker_ShowShell_Picker_FinishShell_Picker_Cancel dafBth.dllBluetooth_Pairing_CancelledBluetooth_Pairing_SucceededBluetooth_Pairing_FailedBluetooth_Pairing_StartedBluetooth_Pairing_Deleted diagtrack.dllUTC_OsEvents_AbnormalShutdown dwmcore.dllDwm_EnergyReporter_DataDropped_QueuingDwm_EnergyReporter_DataDropped_MaxEntriesDwm_EnergyReporter_DataDropped_WorkerRunning Faultrep.dllWER_Report_AppCrash … Continue reading →]]></summary>
+        <author>
+            <name>adam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SequenceHash: multihashing for the rest of us]]></title>
+        <id>https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/</id>
+        <link href="https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/"/>
+        <updated>2026-10-02T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes.
+As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP).
+SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash, but have the advantage of not being tied to a …]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Customers Value in a Penetration Testing Partner: Insights from G2 Reviews]]></title>
+        <id>https://www.synack.com/?p=30092</id>
+        <link href="https://www.synack.com/blog/what-customers-value-g2-penetration-testing-partner/"/>
+        <updated>2026-10-02T06:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Synack was named a Leader in G2's Fall 2026 Grid® and Enterprise Grid® Reports for Penetration Testing. The reviews show what customers value in a pentesting partner: visibility into testing, access to experts, findings they can fix and verify, and a partner that acts on feedback.
+The post What Customers Value in a Penetration Testing Partner: Insights from G2 Reviews appeared first on Synack.]]></summary>
+        <author>
+            <name>Angela Heindl-Schober</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Inner Circle]]></title>
+        <id>https://pentesterlab.com/blog/the-inner-circle</id>
+        <link href="https://pentesterlab.com/blog/the-inner-circle"/>
+        <updated>2026-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A few years ago, a friend stayed at my place during Ruxcon and gave me a bottle of rum called Inner Circle as a thank-you. I liked the name. To be fair, at 75.9%, I am surprised I still remember it.
+      
+
+      
+        But over the years, security has started to feel a bit like that.
+      
+
+      
+        At Unprompted Australia two weeks ago, I ran into at least two people I had originally met in Prague. Different conference, different country, almost the other side of the world, and somehow the same people.
+      
+
+      
+        The year before, at an OWASP meetup in Krakow, I met people who were working with one of my former coworkers from Fitbit in San Francisco. Let's call him Spiderboy. #innerjoke. You travel halfway across the world, walk into a meetup in Poland, start talking …]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overview of Content Published in September]]></title>
         <id>http://blog.didierstevens.com/?p=11206</id>
@@ -952,6 +1007,16 @@ The post Penetration Testing for Compliance Officers: A Non-Technical Buyer’s 
         <summary type="html"><![CDATA[I’ve noticed when a zlib compressed chunk of data is followed by other data, search-for-compression.py will not always be able to detect the compressed chunk. This is caused by the fact that the other data generates a decompression error, and the complete chunk is disregarded. I’ve added a new option to try to solve this: […]]]></summary>
         <author>
             <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reversing embedded WebAssembly: part 1. Cracking the WAMR .aot container in pure C.]]></title>
+        <id>https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html</id>
+        <link href="https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html"/>
+        <updated>2026-09-30T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
         </author>
     </entry>
     <entry>
@@ -2216,85 +2281,6 @@ The post Modern Adventures in Azure Privilege Escalation appeared first on NetSP
 The post Offensive Security Is Becoming a Program, Not a Purchase appeared first on Synack.]]></summary>
         <author>
             <name>Angela Heindl-Schober</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Signature Optional - Analysis of CVE-2026-28323]]></title>
-        <id>https://bishopfox.com/blog/signature-optional-analysis-of-cve-2026-28323</id>
-        <link href="https://bishopfox.com/blog/signature-optional-analysis-of-cve-2026-28323"/>
-        <updated>2026-09-03T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SolarWinds Web Help Desk treated SAML signature verification as optional and skipped every other validation the spec requires. Bishop Fox confirmed the full exploit end to end: one forged POST request, no credentials, full session takeover. Here is the root cause, the fix, and how to detect it.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why your data is safer than you think on public Wi-Fi]]></title>
-        <id>https://www.pentestpartners.com/?p=44601</id>
-        <link href="https://www.pentestpartners.com/security-blog/why-your-data-is-safer-than-you-think-on-public-wi-fi/"/>
-        <updated>2026-09-03T12:43:48.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  The coffee shop hacker  Public Wi-Fi has acquired a slightly theatrical reputation. Join the network in a coffee shop, we are told, and a hacker in the corner can immediately steal your passwords and empty your bank account.  It makes for good VPN advertising. It is not a particularly accurate picture of how the modern web works.  Most legitimate websites […]
-The post Why your data is safer than you think on public Wi-Fi  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Developers Prevent Production Risk at the Source]]></title>
-        <id>https://www.wiz.io/blog/prevent-production-risk-at-code-stage</id>
-        <link href="https://www.wiz.io/blog/prevent-production-risk-at-code-stage"/>
-        <updated>2026-09-03T00:31:46.000Z</updated>
-        <summary type="html"><![CDATA[Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across every phase of your software pipeline.]]></summary>
-        <author>
-            <name>Mike McGuire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putting Experts on the Problems Only Experts Can Solve]]></title>
-        <id>https://www.synack.com/?p=29186</id>
-        <link href="https://www.synack.com/blog/routing-ai-and-expert-security-testing/"/>
-        <updated>2026-09-02T20:44:12.000Z</updated>
-        <summary type="html"><![CDATA[Expert judgment is the scarcest resource in offensive security. Making it accessible to more of the world, continuously, is an engineering problem.
-The post Putting Experts on the Problems Only Experts Can Solve appeared first on Synack.]]></summary>
-        <author>
-            <name>Mark Kuhr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Autonomy Was Never the Goal]]></title>
-        <id>https://www.synack.com/?p=29191</id>
-        <link href="https://www.synack.com/blog/autonomy-was-never-the-goal/"/>
-        <updated>2026-09-02T20:43:56.000Z</updated>
-        <summary type="html"><![CDATA[Why we merged NetSPI and Synack to bet against the loudest idea in security.
-The post Autonomy Was Never the Goal appeared first on Synack.]]></summary>
-        <author>
-            <name>Jay Kaplan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Demystifying Agent Tradecraft: Introducing SpecterOps Skills]]></title>
-        <id>https://specterops.io/?p=29472</id>
-        <link href="https://specterops.io/blog/2026/09/02/specterops-skills/"/>
-        <updated>2026-09-02T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A public repository for turning practitioner knowledge into reusable, reviewable workflows for AI-assisted security work. SpecterOps Skills is our public repository of reusable skills, plugins, and agent definitions for AI-assisted workflows. It is designed to capture how practitioners approach real work: what to inspect first, which references matter, what requires approval, and how to verify […]
-The post Demystifying Agent Tradecraft: Introducing SpecterOps Skills appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Katherine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Team AI Skills]]></title>
-        <id>https://www.outflank.nl/?p=6296</id>
-        <link href="https://www.outflank.nl/blog/2026/09/02/red-team-ai-skills/"/>
-        <updated>2026-09-02T17:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, SpecterOps released a new open-source skills marketplace for offensive security research and red team operations. We are proud to have collaborated on this project over the last few weeks and hope more teams will join now that it’s public. The initial release includes plugins for Fortra’s Cobalt Strike and Outflank C2. Get started here: https://github.com/SpecterOps/skills
-Background
-I recently reached out to a few red teams we’ve worked with before to discuss developing a public AI marketplace focused on offensive security. I was inspired by the Trail of Bits marketplace and wanted to see a similar project for offensive security. This task was too large to take on alone, so I contacted a few other researchers to discuss a joint effort. Imagine my surprise when SpecterOps told me they were nearly done implementing a similar project!
-Tags: AI
-Read full post
-The post Red Team AI Skills appeared first on Outflank.]]></summary>
-        <author>
-            <name>Kyle Avery</name>
         </author>
     </entry>
     <entry>
