@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-06T03:49:43.789Z</updated>
+    <updated>2026-10-07T03:17:20.360Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The model isn't cooperating]]></title>
+        <id>the-model-isnt-cooperating</id>
+        <link href="https://portswigger.net/research/the-model-isnt-cooperating"/>
+        <updated>2026-10-06T17:14:53.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever felt like a model isn't actually trying to do what you asked? Did you just ask it wrong, or is there something else at play here? In this post, I'll briefly explore this phenomenon, the]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589)]]></title>
+        <id>6ac5278bee21a30001a9348c</id>
+        <link href="https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/"/>
+        <updated>2026-10-06T17:01:36.000Z</updated>
+        <summary type="html"><![CDATA[Welcome back to yet another episode of "security was taken seriously".
+Being who we are (and constantly being exposed to what we see…), we recognize we have been doomed to eternal damnation as we keep on watching security best practices crumble behind “secure by design”]]></summary>
+        <author>
+            <name>Piotr Bazydlo (@chudyPB)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Wiz AI SAST: Application Security that Understands Your Code and Your Infrastructure]]></title>
+        <id>https://www.wiz.io/blog/introducing-wiz-ai-sast</id>
+        <link href="https://www.wiz.io/blog/introducing-wiz-ai-sast"/>
+        <updated>2026-10-06T13:47:28.000Z</updated>
+        <summary type="html"><![CDATA[Find, validate, and fix complex business logic flaws with an AI code scanner backed by Wiz Research, operationalized within your existing security program.]]></summary>
+        <author>
+            <name>Salman Ladha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why the AI Attack Surface Extends Your Stack]]></title>
+        <id>https://bishopfox.com/blog/why-ai-attack-surface-extends-your-stack</id>
+        <link href="https://bishopfox.com/blog/why-ai-attack-surface-extends-your-stack"/>
+        <updated>2026-10-06T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Integrating AI into enterprise applications creates risk across every layer of the stack, not just the model. This post maps the full AI attack surface, shows how a prompt injection can chain into credential theft and cross-tenant data exposure, and explains why isolated scanners miss most of it.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Ireland 2026 - Day One Results]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac3b599cb40f12accca39af</id>
+        <link href="https://www.thezdi.com/blog/2026/10/6/pwn2own-ireland-2026-day-one-results"/>
+        <updated>2026-10-06T09:28:31.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Day One of Pwn2Own Ireland 2026! Today, 21 entries took the Pwn2Own stage to target multiple categories - including multiple Samsung attempts and our first Pixel entry.
+Follow the action live! We’ll be posting real-time updates and results throughout the competition on our blog and across social media. Stay up to date by following us on Twitter, Mastodon, LinkedIn, and Bluesky, and join the conversation using #Pwn2Own Ireland and #P2OIreland for continuous coverage. 
+Here are the results of Day One:
+FAILURE - Unfortunately, Ikotas Labs, Inc. (@ikotas00) could not get their exploit of the Brother MFC-L8970CDWworking within the time allotted. 
+Ikotas Labs, Inc. (@ikotas00) targeting the Brother printer
+SUCCESS - @_McCaulay combined an OOB Write and a format string(!) bug to exploi…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to fix a bug in a fix]]></title>
+        <id>https://projectzero.google/2026/10/emergency-patching.html</id>
+        <link href="https://projectzero.google/2026/10/emergency-patching.html"/>
+        <updated>2026-10-06T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned. This post provides an overview of systems in use by large vendors that allow them to remediate small volumes of vulnerabilities much faster than their typical update process. Our goal is to provide a reference for vendors seeking to implement or enhance the capabilities of such systems, and to encourage vendors to consider how they would fix an urgent vulnerability before they receive one.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[hacked by trenggalek6etar]]></title>
         <id>https://pentest.blog/cox-htm/</id>
@@ -53,6 +119,17 @@ Nguyen Thanh Dat (@rewhiles) of Viettel Cyber Security (@vcslab) targeting Samsu
         <summary type="html"><![CDATA[I'm delighted to introduce Alex, my fellow swigger who I've collaborated with in the past with tools like DOM Invader. He showed me that it's possible to exfiltrate larger tokens than demonstrated in]]></summary>
         <author>
             <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turn Scanner Findings into Validated Risk with Synack and Qualys]]></title>
+        <id>https://www.synack.com/?p=30142</id>
+        <link href="https://www.synack.com/blog/qualys-synack-integration-rocon-2026/"/>
+        <updated>2026-10-05T09:28:00.000Z</updated>
+        <summary type="html"><![CDATA[A year since launching Synack’s integration with Qualys, the partnership now includes broader platform support, more AI-led testing, and a shared presence at Qualys ROCon Americas 2026.
+The post Turn Scanner Findings into Validated Risk with Synack and Qualys appeared first on Synack.]]></summary>
+        <author>
+            <name>Greg Copeland</name>
         </author>
     </entry>
     <entry>
@@ -1086,6 +1163,16 @@ The post Penetration Testing for Compliance Officers: A Non-Technical Buyer’s 
         <summary type="html"><![CDATA[﷽]]></summary>
         <author>
             <name>cocomelonc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commercial spyware: the invisible threat in your pocket]]></title>
+        <id>https://www.jamf.com/blog/what-is-commercial-spyware/</id>
+        <link href="https://www.jamf.com/blog/what-is-commercial-spyware/"/>
+        <updated>2026-09-29T19:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Commercial spyware — from nation-state tools to consumer stalkerware — can silently compromise mobile devices and expose sensitive data without any visible sign of infection. Learn more.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2232,27 +2319,6 @@ This post is aimed at developers who use a JWT library rather than write one. We
 This is the one to get right before anything else. A JWT carries the algorithm it was signed with in its header, in the alg at…]]></summary>
         <author>
             <name>PentesterLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Can Find Vulnerabilities. Building a System That Proves Risk Is the Hard Part.]]></title>
-        <id>https://www.synack.com/?p=29408</id>
-        <link href="https://www.synack.com/blog/ai-generated-findings-exploitable-risk/"/>
-        <updated>2026-09-07T14:52:13.000Z</updated>
-        <summary type="html"><![CDATA[The core components required to move from automated discovery to proven risk now exist: capable models, controlled execution, scalable orchestration, evidence capture and human judgement. The opportunity is to engineer them as one dependable system rather than treat each as a standalone feature.
-The post AI Can Find Vulnerabilities. Building a System That Proves Risk Is the Hard Part. appeared first on Synack.]]></summary>
-        <author>
-            <name>Phil Whitby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anti-DDoS research part 4: an information-gain oracle. Practical Python example]]></title>
-        <id>https://cocomelonc.github.io/linux/2026/09/07/ddos-information-gain-oracle.html</id>
-        <link href="https://cocomelonc.github.io/linux/2026/09/07/ddos-information-gain-oracle.html"/>
-        <updated>2026-09-07T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[﷽]]></summary>
-        <author>
-            <name>cocomelonc</name>
         </author>
     </entry>
     <entry>
