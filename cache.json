@@ -160,16 +160,6 @@
           "wordCount": 1714,
           "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
           "imageUrl": "https://projectzero.google/images/preview_image.png"
-        },
-        {
-          "id": "https://projectzero.google/2026/09/maccconc-race-condition.html",
-          "author": null,
-          "description": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliably triggers the bug as part of a test suite. Automatic bug discovery, such as fuzzing: It is hard for a fuzzer to exercise all interesting interleavings of concurrent operations, or reach code paths that are only exercised when operations are racing.",
-          "link": "https://projectzero.google/2026/09/maccconc-race-condition.html",
-          "publishedOn": "2026-09-08T07:00:00.000Z",
-          "wordCount": 3694,
-          "title": "Testing race conditions with memory access tracing and stack-based delay injection",
-          "imageUrl": "https://projectzero.google/images/preview_image.png"
         }
       ]
     },
@@ -352,6 +342,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac60b8c33d3715e9344fe53",
+          "author": "Dustin Childs",
+          "description": "Day Two of Pwn2Own Ireland 2026 has 24 attempts on the docket, with roughly $780,000 up for grabs, running 9:30 AM to 7:30 PM IST.\nSamsung's Galaxy S26 will be attempted three separate times — by Valsamaras/Ken Gannon (using Djini.ai)/Valsamara at 1:00 PM, Kyeongmin Kim at 3:15 PM, and PetoWorks at 5:30 PM — worth watching since only the first successful demo claims the cash. Home Assistant Green is the day's most-attempted device, with five researchers scheduled to take a run at it. AI Infrastructure stays active with four attempts on tap (Dynamo, two at Chroma, two at Oracle's Autonomous AI Database), Wellness has just one attempt scheduled, and Printers see steady action with three separate attempts on the Lexmark CX532adwe.\nYesterday, we awarded $388,500 for 32 unique 0-days. Stay tune…",
+          "link": "https://www.thezdi.com/blog/2026/10/7/pwn2own-ireland-2026-day-two-results",
+          "publishedOn": "2026-10-07T09:12:37.000Z",
+          "wordCount": null,
+          "title": "Pwn2Own Ireland 2026 - Day Two Results",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac3b599cb40f12accca39af",
           "author": "Dustin Childs",
@@ -14583,6 +14584,16 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=30496",
+          "author": "Brandon Amundson",
+          "description": "AWS penetration testing is scoped by accounts, identities, and exposed workloads, not IP ranges. AWS lets customers test a defined list of services without prior approval, but it prohibits flooding, DNS attacks, and takeovers, and it requires approval for command-and-control and simulated events. Budget follows two drivers: account and IAM complexity for the cloud control plane, and the number of internet-facing applications for workload testing.\nThe post AWS Penetration Testing for Enterprises: What to Scope and How to Budget appeared first on Synack.",
+          "link": "https://www.synack.com/blog/aws-cloud-penetration-testing-scope-budget/",
+          "publishedOn": "2026-10-07T14:37:38.000Z",
+          "wordCount": 7039,
+          "title": "AWS Penetration Testing for Enterprises: What to Scope and How to Budget",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/AWS-Penetration-Testing-for-Enterprises.webp"
+        },
+        {
           "id": "https://www.synack.com/?p=30142",
           "author": "Greg Copeland",
           "description": "A year since launching Synack’s integration with Qualys, the partnership now includes broader platform support, more AI-led testing, and a shared presence at Qualys ROCon Americas 2026.\nThe post Turn Scanner Findings into Validated Risk with Synack and Qualys appeared first on Synack.",
@@ -14701,16 +14712,6 @@
           "wordCount": 7273,
           "title": "Questions to Ask a Penetration Testing Vendor Before You Sign",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/8.-Questions-to-Ask-a-Penetration-Testing-Vendor-Before-You-Sign.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=29463",
-          "author": "Paul Mote",
-          "description": "Many healthcare organizations have been told that HIPAA requires an annual penetration test. The current rule is more nuanced. Penetration testing for HIPAA compliance is not prescribed as one universal annual obligation, but regulated entities must conduct a comprehensive risk analysis, manage identified risks, and evaluate whether their safeguards remain effective. A well-scoped pentest can provide important evidence supporting those responsibilities. HHS has also proposed making annual penetration testing explicit, although that proposal is not yet binding.\nThe post HIPAA Penetration Testing Requirements for Healthcare Enterprises appeared first on Synack.",
-          "link": "https://www.synack.com/blog/hipaa-penetration-testing-requirements/",
-          "publishedOn": "2026-09-08T11:45:14.000Z",
-          "wordCount": 7780,
-          "title": "HIPAA Penetration Testing Requirements for Healthcare Enterprises",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/3.-HIPAA-Penetration-Testing-Requirements-for-Healthcare-Enterprises.webp"
         }
       ]
     },
@@ -16122,6 +16123,21 @@
       "siteUrl": "https://www.wiz.io",
       "articles": [
         {
+          "id": "https://www.wiz.io/blog/red-agent-financial-services-data-exposure",
+          "author": "Chad Knipschild",
+          "description": "Traditional DSPM and classification tools scan from the inside out. Thinking like an attacker, the Red Agent found a public page exposing sensitive data in minutes.",
+          "link": "https://www.wiz.io/blog/red-agent-financial-services-data-exposure",
+          "publishedOn": "2026-10-07T14:53:27.000Z",
+          "wordCount": 21984,
+          "title": "How the Wiz Red Agent caught a Fortune 500 firm’s data exposure (that other tools missed)",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1791380287-blog-wiz-red-agent-caught-a-data-exposure-of-a-fortune-500-financial-services-customer.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1791380287-blog-wiz-red-agent-caught-a-data-exposure-of-a-fortune-500-financial-services-customer.png"
+        },
+        {
           "id": "https://www.wiz.io/blog/introducing-wiz-ai-sast",
           "author": "Salman Ladha",
           "description": "Find, validate, and fix complex business logic flaws with an AI code scanner backed by Wiz Research, operationalized within your existing security program.",
@@ -16409,16 +16425,6 @@
           "wordCount": 1774,
           "title": "Research Worth Reading - Week 37, 2026",
           "imageUrl": "https://pentesterlab.com/blog/research-worth-reading-week37-2026/thumbnail"
-        },
-        {
-          "id": "https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities",
-          "author": null,
-          "description": "JSON Web Tokens (JWTs) are everywhere in modern authentication, and for good reason: they are compact, self-contained and easy to pass around between services. The catch is that a lot of their security depends on how you use them. If you rely on a well-maintained JWT library, the hardest cryptographic parts are handled for you, but a handful of practical decisions are still yours to get right.\nThis post is aimed at developers who use a JWT library rather than write one. We will walk through the practical steps that make the difference between a token you can trust and one an attacker can bend, starting with the single most important one.\n1. Always pin the algorithm\nThis is the one to get right before anything else. A JWT carries the algorithm it was signed with in its header, in the alg at…",
-          "link": "https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities",
-          "publishedOn": "2026-09-08T00:00:00.000Z",
-          "wordCount": 2134,
-          "title": "JWT Security: How to Secure JWTs and Avoid Common Vulnerabilities",
-          "imageUrl": "https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities/thumbnail"
         }
       ]
     },

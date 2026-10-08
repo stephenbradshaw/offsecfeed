@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-07T03:17:20.360Z</updated>
+    <updated>2026-10-08T03:33:29.383Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How the Wiz Red Agent caught a Fortune 500 firm’s data exposure (that other tools missed)]]></title>
+        <id>https://www.wiz.io/blog/red-agent-financial-services-data-exposure</id>
+        <link href="https://www.wiz.io/blog/red-agent-financial-services-data-exposure"/>
+        <updated>2026-10-07T14:53:27.000Z</updated>
+        <summary type="html"><![CDATA[Traditional DSPM and classification tools scan from the inside out. Thinking like an attacker, the Red Agent found a public page exposing sensitive data in minutes.]]></summary>
+        <author>
+            <name>Chad Knipschild</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Penetration Testing for Enterprises: What to Scope and How to Budget]]></title>
+        <id>https://www.synack.com/?p=30496</id>
+        <link href="https://www.synack.com/blog/aws-cloud-penetration-testing-scope-budget/"/>
+        <updated>2026-10-07T14:37:38.000Z</updated>
+        <summary type="html"><![CDATA[AWS penetration testing is scoped by accounts, identities, and exposed workloads, not IP ranges. AWS lets customers test a defined list of services without prior approval, but it prohibits flooding, DNS attacks, and takeovers, and it requires approval for command-and-control and simulated events. Budget follows two drivers: account and IAM complexity for the cloud control plane, and the number of internet-facing applications for workload testing.
+The post AWS Penetration Testing for Enterprises: What to Scope and How to Budget appeared first on Synack.]]></summary>
+        <author>
+            <name>Brandon Amundson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pwn2Own Ireland 2026 - Day Two Results]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac60b8c33d3715e9344fe53</id>
+        <link href="https://www.thezdi.com/blog/2026/10/7/pwn2own-ireland-2026-day-two-results"/>
+        <updated>2026-10-07T09:12:37.000Z</updated>
+        <summary type="html"><![CDATA[Day Two of Pwn2Own Ireland 2026 has 24 attempts on the docket, with roughly $780,000 up for grabs, running 9:30 AM to 7:30 PM IST.
+Samsung's Galaxy S26 will be attempted three separate times — by Valsamaras/Ken Gannon (using Djini.ai)/Valsamara at 1:00 PM, Kyeongmin Kim at 3:15 PM, and PetoWorks at 5:30 PM — worth watching since only the first successful demo claims the cash. Home Assistant Green is the day's most-attempted device, with five researchers scheduled to take a run at it. AI Infrastructure stays active with four attempts on tap (Dynamo, two at Chroma, two at Oracle's Autonomous AI Database), Wellness has just one attempt scheduled, and Printers see steady action with three separate attempts on the Lexmark CX532adwe.
+Yesterday, we awarded $388,500 for 32 unique 0-days. Stay tune…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The model isn't cooperating]]></title>
         <id>the-model-isnt-cooperating</id>
@@ -2285,40 +2318,6 @@ Read full post
 The post NetNTLMv1 Is Dead. Long Live NetNTLMv1. appeared first on Outflank.]]></summary>
         <author>
             <name>Cedric Van Bockhaven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HIPAA Penetration Testing Requirements for Healthcare Enterprises]]></title>
-        <id>https://www.synack.com/?p=29463</id>
-        <link href="https://www.synack.com/blog/hipaa-penetration-testing-requirements/"/>
-        <updated>2026-09-08T11:45:14.000Z</updated>
-        <summary type="html"><![CDATA[Many healthcare organizations have been told that HIPAA requires an annual penetration test. The current rule is more nuanced. Penetration testing for HIPAA compliance is not prescribed as one universal annual obligation, but regulated entities must conduct a comprehensive risk analysis, manage identified risks, and evaluate whether their safeguards remain effective. A well-scoped pentest can provide important evidence supporting those responsibilities. HHS has also proposed making annual penetration testing explicit, although that proposal is not yet binding.
-The post HIPAA Penetration Testing Requirements for Healthcare Enterprises appeared first on Synack.]]></summary>
-        <author>
-            <name>Paul Mote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Testing race conditions with memory access tracing and stack-based delay injection]]></title>
-        <id>https://projectzero.google/2026/09/maccconc-race-condition.html</id>
-        <link href="https://projectzero.google/2026/09/maccconc-race-condition.html"/>
-        <updated>2026-09-08T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliably triggers the bug as part of a test suite. Automatic bug discovery, such as fuzzing: It is hard for a fuzzer to exercise all interesting interleavings of concurrent operations, or reach code paths that are only exercised when operations are racing.]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JWT Security: How to Secure JWTs and Avoid Common Vulnerabilities]]></title>
-        <id>https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities</id>
-        <link href="https://pentesterlab.com/blog/how-to-secure-jwts-and-avoid-common-vulnerabilities"/>
-        <updated>2026-09-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JSON Web Tokens (JWTs) are everywhere in modern authentication, and for good reason: they are compact, self-contained and easy to pass around between services. The catch is that a lot of their security depends on how you use them. If you rely on a well-maintained JWT library, the hardest cryptographic parts are handled for you, but a handful of practical decisions are still yours to get right.
-This post is aimed at developers who use a JWT library rather than write one. We will walk through the practical steps that make the difference between a token you can trust and one an attacker can bend, starting with the single most important one.
-1. Always pin the algorithm
-This is the one to get right before anything else. A JWT carries the algorithm it was signed with in its header, in the alg at…]]></summary>
-        <author>
-            <name>PentesterLab</name>
         </author>
     </entry>
     <entry>
