@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-10T03:19:30.096Z</updated>
+    <updated>2026-10-11T02:52:51.516Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
@@ -2184,75 +2184,6 @@ And then the…]]></summary>
 The post Executive-Ready Reporting Is Here: What’s New in the Synack Platform appeared first on Synack.]]></summary>
         <author>
             <name>Simon Harper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2026-82329: Unauthenticated Administrative Access in JFrog Artifactory via an Empty Cluster Join Key]]></title>
-        <id>https://bishopfox.com/blog/cve-2026-82329-unauthenticated-administrative-access-in-jfrog-artifactory-via-an-empty-cluster-join-key</id>
-        <link href="https://bishopfox.com/blog/cve-2026-82329-unauthenticated-administrative-access-in-jfrog-artifactory-via-an-empty-cluster-join-key"/>
-        <updated>2026-09-11T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A misconfigured cluster join key in JFrog Artifactory's default install lets unauthenticated attackers mint a permanent admin token in one request. Bishop Fox reproduced the full chain, confirmed in-the-wild exploitation, and shares a non-invasive detection check and remediation guidance.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Detection Engineering - Local Privilege Escalation]]></title>
-        <id>linux-privilege-escalation-detection-framework</id>
-        <link href="https://www.elastic.co/security-labs/threat-command/linux-privilege-escalation-detection-framework"/>
-        <updated>2026-09-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Seven of the thirteen Linux privilege escalation CVEs we tracked in 2026 turned out to be the same copy-on-write bug pointed at different kernel interfaces. We ran the public proof-of-concept for eleven exploits and two misconfigurations, and noted which rules fired.]]></summary>
-        <author>
-            <name>Ruben Groenewoud</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The IT guide to supporting K-12 numeracy]]></title>
-        <id>https://www.jamf.com/blog/the-it-guide-to-supporting-k-12-numeracy/</id>
-        <link href="https://www.jamf.com/blog/the-it-guide-to-supporting-k-12-numeracy/"/>
-        <updated>2026-09-10T20:12:00.000Z</updated>
-        <summary type="html"><![CDATA[School IT teams don't write math curriculum, but the way they deploy, configure and secure devices shapes whether a numeracy program succeeds. Learn more.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329]]></title>
-        <id>https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201</id>
-        <link href="https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201"/>
-        <updated>2026-09-10T19:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control.]]></summary>
-        <author>
-            <name>Shahar Dorfman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unmasking SCCM Application Execution]]></title>
-        <id>https://specterops.io/?p=29583</id>
-        <link href="https://specterops.io/blog/2026/09/10/unmasking-sccm-application-execution/"/>
-        <updated>2026-09-10T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Executing applications instead of scripts via SCCM’s deploy application feature will generate different artifacts due to the fundamental differences in the execution flow. While existing detection tools can catch script-based execution, they often miss stealthier methods. This post covers how to detect the more evasive SCCM application execution. Introduction: During BlackHat 2025’s offering of […]
-The post Unmasking SCCM Application Execution appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Joshua Prager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NetNTLMv1 Is Dead. Long Live NetNTLMv1.]]></title>
-        <id>https://www.outflank.nl/?p=6328</id>
-        <link href="https://www.outflank.nl/blog/2026/09/08/netntlmv1-is-dead-long-live-netntlmv1/"/>
-        <updated>2026-09-08T16:13:19.000Z</updated>
-        <summary type="html"><![CDATA[Fitting lossless rainbow tables on a 4 TB disk and cracking NetNTLMv1 with WebGPU and ntlmrain.
-Google’s release of the NetNTLMv1 rainbow tables made it much more practical to recover an NT hash from a NetNTLMv1 response captured with the fixed challenge 1122334455667788, further reducing the needed compute power.
-NetNTLMv1 cracking is a problem I’ve kept returning to over the past several years. The recent table release prompted me to explore whether the process could be made cheaper, faster and easier to run. This post describes the result: a compact indexed table format, a WebGPU browser client and a native command-line tool.
-
-Highlights
-This post explains a new ntlmrain rainbow table layout. We are publicly releasing a browser tool and command-line client together with the optimized tables.
-
-Read full post
-The post NetNTLMv1 Is Dead. Long Live NetNTLMv1. appeared first on Outflank.]]></summary>
-        <author>
-            <name>Cedric Van Bockhaven</name>
         </author>
     </entry>
     <entry>
