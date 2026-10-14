@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-13T04:31:18.251Z</updated>
+    <updated>2026-10-14T02:40:27.491Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)]]></title>
+        <id>https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/</id>
+        <link href="https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/"/>
+        <updated>2026-10-13T22:00:40.000Z</updated>
+        <summary type="html"><![CDATA[A . is all you need!
+Today Microsoft shipped the patch for a vulnerability in Visual Studio Copilot that I reported in August. Microsoft classified it as Important severity Remote Code Execution vulnerability.
+
+At the root cause it allows Copilot in Visual Studio or SQL Server Management Studio to bypass a path validation check and write to its own settings and configuration files. This allows Copilot to escape containment restrictions and achieve arbitrary command execution.]]></summary>
+        <author>
+            <name>Embrace The Red</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Administrating the Administrator, An OCI Identity Domains Permission Bypass]]></title>
+        <id>https://www.netspi.com/?p=34611</id>
+        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/administrating-the-administrator-an-oci-identity-domains-permission-bypass/"/>
+        <updated>2026-10-13T20:35:55.000Z</updated>
+        <summary type="html"><![CDATA[Discover how a permission bypass in Oracle Cloud Infrastructure (OCI) identity domains allowed lower-level administrator roles to create API keys for Identity Domain Administrators, leading to an unauthenticated privilege escalation path.
+The post Administrating the Administrator, An OCI Identity Domains Permission Bypass appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Scott Weston</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The October 2026 Security Update Review]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ace77fa4c002b2f053c67b5</id>
+        <link href="https://www.thezdi.com/blog/2026/10/13/the-october-2026-security-update-review"/>
+        <updated>2026-10-13T19:34:30.000Z</updated>
+        <summary type="html"><![CDATA[Another month of patches equals another new record for Microsoft patches. It’s a good thing I survive Pwn2Own Ireland, because between these and the Adobe patches, there’s much to discuss. I’m also looking at different ways I can represent the bugs at this level of volume, so let me know if you have ideas. (Seriously – I’m out of ideas). If you’d rather watch the full video recap covering the entire release, you can check it out here:
+Adobe Patches for October 2026
+For the first part of the October release, Adobe released 11 bulletins addressing 174 unique CVEs in Adobe Dimension, Commerce, Substance 3D Sampler, ColdFusion, Photoshop, FrameMaker, Experience Manager, Substance 3D Stager, Content Credentials SDK, Bridge, and Substance 3D Designer.
+Here’s this month’s overview table:
+Adobe Pa…]]></summary>
+        <author>
+            <name>Dustin Childs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Playing It SFAPE: Code Execution in Isolated User Mode]]></title>
+        <id>https://blog.doyensec.com/2026/10/13/Sfape.html</id>
+        <link href="https://blog.doyensec.com/2026/10/13/Sfape.html"/>
+        <updated>2026-10-12T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It is tempting to think of Windows in terms of a simple model: user mode and kernel mode. If a bug lets a user-mode process gain control of the kernel, it’s game over.
+Well, for a long time it used to be like that. Protected processes, SMEP, PatchGuard and other mitigations surely raised the bar, but it was Virtualization-Based Security that added another dimension to that model and made the whole design a lot more complex. Some code does not merely cross from user mode to kernel mode. It crosses into another Virtual Trust Level (VTL), where the normal kernel is no longer the most trusted component in the system. From a VTL0 perspective, the call may look like it disappears into a region whose private memory cannot be inspected even with kernel privileges.
+VBS uses the Windows hypervisor t…]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Update: onedump.py Version 0.0.3]]></title>
         <id>http://blog.didierstevens.com/?p=11208</id>
@@ -215,6 +265,16 @@ Yesterday, we awarded $388,500 for 32 unique 0-days. Stay tune…]]></summary>
 Being who we are (and constantly being exposed to what we see…), we recognize we have been doomed to eternal damnation as we keep on watching security best practices crumble behind “secure by design”]]></summary>
         <author>
             <name>Piotr Bazydlo (@chudyPB)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity awareness month: a practitioner’s view]]></title>
+        <id>https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/</id>
+        <link href="https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/"/>
+        <updated>2026-10-06T15:50:00.000Z</updated>
+        <summary type="html"><![CDATA[October is Cybersecurity Awareness Month! How is your cybersecurity practice going?]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2233,26 +2293,6 @@ And then the…]]></summary>
         <summary type="html"><![CDATA[Apple's OS 27 release brings declarative management, new identity tools and real-time fleet visibility to IT admins.]]></summary>
         <author>
             <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR]]></title>
-        <id>https://blog.silentsignal.eu/2026/09/14/IBM-Db2-Mirror-for-i-pre-auth-RCE-and-the-road-to-QSECOFR/</id>
-        <link href="https://blog.silentsignal.eu/2026/09/14/IBM-Db2-Mirror-for-i-pre-auth-RCE-and-the-road-to-QSECOFR/"/>
-        <updated>2026-09-14T12:25:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a write-up of a bug chain in the IBM Db2 Mirror for i web interface. The chain starts without authentication, reaches arbitrary Java/JSP execution in the Liberty application server, and can then cross into QSECOFR on the local IBM i system.]]></summary>
-        <author>
-            <name>Silent Signal Techblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions]]></title>
-        <id>malicious-browser-extension-kremlin-banking-malware</id>
-        <link href="https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware"/>
-        <updated>2026-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elastic Security Labs tracked this malicious browser extension across seven campaigns and 15 months, through Brazilian bank lures and the Ethereum smart contracts that hold its C2 configuration.]]></summary>
-        <author>
-            <name>Cyril François,Andrew Pease</name>
         </author>
     </entry>
     <entry>

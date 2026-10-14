@@ -163,16 +163,6 @@
           "wordCount": 6275,
           "title": "512 bytes at a time: reconstructing IBM i save-file checksums",
           "imageUrl": "https://blog.silentsignal.eu/assets/img//img/gibson.jpg"
-        },
-        {
-          "id": "https://blog.silentsignal.eu/2026/09/14/IBM-Db2-Mirror-for-i-pre-auth-RCE-and-the-road-to-QSECOFR/",
-          "author": null,
-          "description": "This is a write-up of a bug chain in the IBM Db2 Mirror for i web interface. The chain starts without authentication, reaches arbitrary Java/JSP execution in the Liberty application server, and can then cross into QSECOFR on the local IBM i system.",
-          "link": "https://blog.silentsignal.eu/2026/09/14/IBM-Db2-Mirror-for-i-pre-auth-RCE-and-the-road-to-QSECOFR/",
-          "publishedOn": "2026-09-14T12:25:00.000Z",
-          "wordCount": 4160,
-          "title": "IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR",
-          "imageUrl": "https://blog.silentsignal.eu/assets/img//img/suits.gif"
         }
       ]
     },
@@ -181,6 +171,16 @@
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=34611",
+          "author": "Scott Weston",
+          "description": "Discover how a permission bypass in Oracle Cloud Infrastructure (OCI) identity domains allowed lower-level administrator roles to create API keys for Identity Domain Administrators, leading to an unauthenticated privilege escalation path.\nThe post Administrating the Administrator, An OCI Identity Domains Permission Bypass appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/administrating-the-administrator-an-oci-identity-domains-permission-bypass/",
+          "publishedOn": "2026-10-13T20:35:55.000Z",
+          "wordCount": 9295,
+          "title": "Administrating the Administrator, An OCI Identity Domains Permission Bypass",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/10/09.29.26_TECH_OCI-social.png"
+        },
         {
           "id": "https://www.netspi.com/?p=34365",
           "author": "Rob Reeves",
@@ -342,6 +342,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ace77fa4c002b2f053c67b5",
+          "author": "Dustin Childs",
+          "description": "Another month of patches equals another new record for Microsoft patches. It’s a good thing I survive Pwn2Own Ireland, because between these and the Adobe patches, there’s much to discuss. I’m also looking at different ways I can represent the bugs at this level of volume, so let me know if you have ideas. (Seriously – I’m out of ideas). If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for October 2026\nFor the first part of the October release, Adobe released 11 bulletins addressing 174 unique CVEs in Adobe Dimension, Commerce, Substance 3D Sampler, ColdFusion, Photoshop, FrameMaker, Experience Manager, Substance 3D Stager, Content Credentials SDK, Bridge, and Substance 3D Designer.\nHere’s this month’s overview table:\nAdobe Pa…",
+          "link": "https://www.thezdi.com/blog/2026/10/13/the-october-2026-security-update-review",
+          "publishedOn": "2026-10-13T19:34:30.000Z",
+          "wordCount": null,
+          "title": "The October 2026 Security Update Review",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac77289d821891d99ea6fa9",
           "author": "Dustin Childs",
@@ -14003,6 +14014,16 @@
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
         {
+          "id": "https://blog.doyensec.com/2026/10/13/Sfape.html",
+          "author": null,
+          "description": "It is tempting to think of Windows in terms of a simple model: user mode and kernel mode. If a bug lets a user-mode process gain control of the kernel, it’s game over.\nWell, for a long time it used to be like that. Protected processes, SMEP, PatchGuard and other mitigations surely raised the bar, but it was Virtualization-Based Security that added another dimension to that model and made the whole design a lot more complex. Some code does not merely cross from user mode to kernel mode. It crosses into another Virtual Trust Level (VTL), where the normal kernel is no longer the most trusted component in the system. From a VTL0 perspective, the call may look like it disappears into a region whose private memory cannot be inspected even with kernel privileges.\nVBS uses the Windows hypervisor t…",
+          "link": "https://blog.doyensec.com/2026/10/13/Sfape.html",
+          "publishedOn": "2026-10-12T22:00:00.000Z",
+          "wordCount": 4186,
+          "title": "Playing It SFAPE: Code Execution in Isolated User Mode",
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.doyensec.com/2026/09/24/chrome-ios-policy-bypass.html",
           "author": null,
           "description": "TL;DR\nWhile testing deep links in Chrome for iOS, we noticed a small but important difference. Opening a third-party app through a custom URL scheme normally produced a confirmation prompt. Shortcuts were an exception. As they’re handled by a native Apple app, Chrome allowed shortcuts:// and its legacy workflow:// alias to open without showing the same prompt.\nAt first, this looked like a minor inconsistency. It became more interesting once we looked at Shortcuts’ callback support. A webpage could send the user to Shortcuts and provide a second URL for Shortcuts to open afterwards. That second URL could be tel:. Although Chrome protected direct tel: navigations with user-interaction checks, it never saw the callback coming from Shortcuts. A single click on a webpage could therefore reach t…",
@@ -14371,6 +14392,16 @@
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
       "articles": [
+        {
+          "id": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+          "author": null,
+          "description": "A . is all you need!\nToday Microsoft shipped the patch for a vulnerability in Visual Studio Copilot that I reported in August. Microsoft classified it as Important severity Remote Code Execution vulnerability.\n\nAt the root cause it allows Copilot in Visual Studio or SQL Server Management Studio to bypass a path validation check and write to its own settings and configuration files. This allows Copilot to escape containment restrictions and achieve arbitrary command execution.",
+          "link": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+          "publishedOn": "2026-10-13T22:00:40.000Z",
+          "wordCount": 1559,
+          "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
+          "imageUrl": null
+        },
         {
           "id": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
           "author": null,
@@ -15835,21 +15866,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0cc05d514cc69660/6aac10632433e26e21d7ea5a/image2.jpg"
-        },
-        {
-          "id": "malicious-browser-extension-kremlin-banking-malware",
-          "author": "Cyril François,Andrew Pease",
-          "description": "Elastic Security Labs tracked this malicious browser extension across seven campaigns and 15 months, through Brazilian bank lures and the Ethereum smart contracts that hold its C2 configuration.",
-          "link": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "publishedOn": "2026-09-14T00:00:00.000Z",
-          "wordCount": 42353,
-          "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0e4e7acff205c2c/6aa28d5c8406d9f607ca9ccb/REF9334.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltc0e4e7acff205c2c/6aa28d5c8406d9f607ca9ccb/REF9334.png"
         }
       ]
     },
@@ -15858,6 +15874,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
+          "author": null,
+          "description": "October is Cybersecurity Awareness Month! How is your cybersecurity practice going?",
+          "link": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
+          "publishedOn": "2026-10-06T15:50:00.000Z",
+          "wordCount": 2251,
+          "title": "Cybersecurity awareness month: a practitioner’s view",
+          "imageUrl": "https://media.jamf.com/images/news/2026/cybersecurity-awareness-month-a-practitioners-view.webp?h=500&q=80&w=800"
+        },
         {
           "id": "https://www.jamf.com/blog/what-is-commercial-spyware/",
           "author": null,
