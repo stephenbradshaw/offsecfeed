@@ -64,16 +64,6 @@
           "wordCount": 6374,
           "title": "CiliumHound: Graphing Kubernetes Network Policies",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/image_f37c29.png"
-        },
-        {
-          "id": "https://specterops.io/?p=29705",
-          "author": "Katherine",
-          "description": "TL;DR: The upcoming Ghostwriter v7.3.0 release brings a major UI refresh to nearly every part of the application. The new design is easier on the eyes, more accessible, and better organized, with a new engagement bar, customizable sidebar with pinned work, a completely redesigned dashboard, and a plethora of other changes. Introduction As it is […]\nThe post Ghostwriter v7.3.0: A Fresh New Look appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/09/16/ghostwriter-v7-3-0/",
-          "publishedOn": "2026-09-16T16:00:00.000Z",
-          "wordCount": 4180,
-          "title": "Ghostwriter v7.3.0: A Fresh New Look",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/ghostwriter7.3-e1789152663698.png"
         }
       ]
     },
@@ -426,17 +416,6 @@
           "publishedOn": "2026-09-23T19:03:34.000Z",
           "wordCount": null,
           "title": "CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6aaaf3b780e2653e0f1cdcf6",
-          "author": "Dustin Childs",
-          "description": "Welcome back to our monthly look at Apple security patches. This release shows Apple is not immune to the new normal of AI-assisted vulnerability discovery as they release patches for 273 total CVEs.\nFor the September 2026 release, Apple released 273 unique CVEs across macOS 27 (Golden Gate), macOS Sequoia 15.8, macOS Tahoe 26.7, iOS / iPadOS 27, visionOS 27, watchOS 27, tvOS 27, iOS / iPadOS 26.7, Safari 27, and Xcode 27. This patch release actually happened a couple of days ago, but since Apple doesn’t provide CVSS scores or other severity information, it takes a couple of days to understand the full severity. Even with the additional time, there are many CVEs without a severity score. However, looking at the one that do have severity assigned by NVD or CISA-ADP, there are a few that tru…",
-          "link": "https://www.thezdi.com/blog/2026/9/16/the-apple-security-update-review-for-september-2026",
-          "publishedOn": "2026-09-16T19:58:14.000Z",
-          "wordCount": null,
-          "title": "The Apple Security Update Review for September 2026",
           "itunes": {},
           "imageUrl": null
         }
@@ -13987,16 +13966,6 @@
           "wordCount": 3996,
           "title": "Hannibal Puts Autonomous Penetration Testing Under Your Control",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/09/Hannibal-Pentests-Blog.webp"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=12963",
-          "author": "Michelle Rhodes",
-          "description": "How Brutus grew into an engine that finds your identities, tests them everywhere they’re accepted, and remembers what it confirms. An attacker rarely needs a novel exploit when a valid username and password pair is sitting in a breach dump, reused across a dozen internal services, or left at a vendor default nobody changed. Brutus […]\nThe post Credentials Are Still the Shortest Path In appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/credential-testing-brutus/",
-          "publishedOn": "2026-09-17T01:40:16.000Z",
-          "wordCount": 3076,
-          "title": "Credentials Are Still the Shortest Path In",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/09/Brutus-Creds-Blog.webp"
         }
       ]
     },
@@ -14041,16 +14010,6 @@
           "publishedOn": "2026-09-23T22:00:00.000Z",
           "wordCount": 1430,
           "title": "One Tap Too Far: Using Shortcuts to Bypass Chrome for iOS Call Prompts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/09/17/ovs.html",
-          "author": null,
-          "description": "TLDR: Exploit. This is a deterministic local privilege escalation affecting the default install of the latest Arch, Fedora, Debian, Amazon Linux and RHEL distributions, having unprivileged user namespaces enabled, openvswitch auto-loading, and a stock kernel carrying the Fragnesia fix. The issue has been public since 08/13/2026 on netdev, and the fix landed in mainline and shipped in stable on 09/04/2026.\nIntroduction\nEarlier this year a small family of Linux kernel bugs appeared, starting with\nCopy Fail. Unlike standard memory corruption, their defining\nfeature was that an unprivileged user could overwrite read-only memory mappings\nsimply through legitimate operations, without any race condition or strict\ntiming. That made privilege escalation to root relatively trivial. Copy Fail\nwas fol…",
-          "link": "https://blog.doyensec.com/2026/09/17/ovs.html",
-          "publishedOn": "2026-09-16T22:00:00.000Z",
-          "wordCount": 4878,
-          "title": "The skb that wasn't freed - the Fragnesia primitive via Open vSwitch",
           "imageUrl": null
         }
       ]
@@ -14525,7 +14484,18 @@
       "title": "NVISO Labs",
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=26746",
+          "author": "Kilian Neumair",
+          "description": "A Digispark may look like a harmless USB development board, but it can easily be turned into a keystroke injection device that behaves like a USB Rubber Ducky. In this article, we show how such a device can be set up, used, and forensically analyzed, from payload execution on a target system to firmware extraction from the ATtiny85 microcontroller.",
+          "link": "https://blog.nviso.eu/2026/10/16/keystrokes-in-disguise-forensic-analysis-of-a-digispark-hid-device/",
+          "publishedOn": "2026-10-16T19:50:34.000Z",
+          "wordCount": 6060,
+          "title": "Keystrokes in Disguise: Forensic Analysis of a Digispark HID Device",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/08/base-linkedin-blogpost-KeystrokesEN.png"
+        }
+      ]
     },
     {
       "title": "bishopfox.com",
@@ -14630,16 +14600,6 @@
           "publishedOn": "2026-09-18T13:00:00.000Z",
           "wordCount": 4634,
           "title": "From Fork to Framework: What Modifying Apollo Taught Us About Agent Invasion",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
-        },
-        {
-          "id": "https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain",
-          "author": null,
-          "description": "Attackers were exploiting MikroTik routers before fixes went public. Bishop Fox reproduced the full unauthenticated takeover chain, found persistence artifacts on real compromised devices, and breaks down what defenders need to investigate beyond patching to confirm they are actually clean.",
-          "link": "https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain",
-          "publishedOn": "2026-09-17T13:00:00.000Z",
-          "wordCount": 3438,
-          "title": "MikroTrick: Inside the RouterOS Takeover Chain",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
         }
       ]
@@ -15935,6 +15895,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
+          "author": null,
+          "description": "CVE-2026-20971 was a use-after-free bug in Samsung's Knox-related PROCA driver, showing how a flaw in a security feature can become an attack surface. Learn more about this already patched vulnerability and how to respond.",
+          "link": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
+          "publishedOn": "2026-10-14T14:18:00.000Z",
+          "wordCount": 2090,
+          "title": "When security logic becomes an attack surface: lessons from CVE-2026-20971",
+          "imageUrl": "https://media.jamf.com/images/news/2026/cve-2026-20971-samsung-knox-proca-vulnerability.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
           "author": null,
           "description": "October is Cybersecurity Awareness Month! How is your cybersecurity practice going?",
@@ -16103,16 +16073,6 @@
           "wordCount": 1442,
           "title": "Resolving help desk requests with enterprise-safe Jamf automations",
           "imageUrl": "https://media.jamf.com/images/events/user-conferences/national-user-conferences/2026/jnuc-2026-lp-thumb.webp?h=400&q=80&w=600"
-        },
-        {
-          "id": "https://www.jamf.com/blog/beyond-model-guardrails-containing-ai-agents/",
-          "author": null,
-          "description": "AI agents have legitimate access to your systems and the ability to act on them. Learn how to keep your data protected with four AI controls.",
-          "link": "https://www.jamf.com/blog/beyond-model-guardrails-containing-ai-agents/",
-          "publishedOn": "2026-09-16T16:39:00.000Z",
-          "wordCount": 3531,
-          "title": "Beyond model guardrails, part 1: containing the agent",
-          "imageUrl": "https://media.jamf.com/images/news/2026/containing-the-agent.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16337,21 +16297,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1789596868-starter-home-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent",
-          "author": "Yali Gottlib",
-          "description": "Analyzing model input and output logs in an AI-native detection pipeline to understand and uncover malicious AI agent behavior",
-          "link": "https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent",
-          "publishedOn": "2026-09-17T14:04:47.000Z",
-          "wordCount": 21929,
-          "title": "Building an AI Detection Engine That Understands Agent Intent",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1789605331-cloudflare_aidr.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1789605331-cloudflare_aidr.png"
         }
       ]
     },

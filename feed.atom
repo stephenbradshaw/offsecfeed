@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-16T02:12:52.741Z</updated>
+    <updated>2026-10-17T02:06:20.262Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Keystrokes in Disguise: Forensic Analysis of a Digispark HID Device]]></title>
+        <id>https://blog.nviso.eu/?p=26746</id>
+        <link href="https://blog.nviso.eu/2026/10/16/keystrokes-in-disguise-forensic-analysis-of-a-digispark-hid-device/"/>
+        <updated>2026-10-16T19:50:34.000Z</updated>
+        <summary type="html"><![CDATA[A Digispark may look like a harmless USB development board, but it can easily be turned into a keystroke injection device that behaves like a USB Rubber Ducky. In this article, we show how such a device can be set up, used, and forensically analyzed, from payload execution on a target system to firmware extraction from the ATtiny85 microcontroller.]]></summary>
+        <author>
+            <name>Kilian Neumair</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics]]></title>
         <id>https://www.synack.com/?p=30839</id>
@@ -56,6 +66,16 @@ The post Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exp
 The post Be the Architect: Intentional AI Engagement for Cybersecurity Engineering appeared first on SpecterOps.]]></summary>
         <author>
             <name>Katherine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When security logic becomes an attack surface: lessons from CVE-2026-20971]]></title>
+        <id>https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/</id>
+        <link href="https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/"/>
+        <updated>2026-10-14T14:18:00.000Z</updated>
+        <summary type="html"><![CDATA[CVE-2026-20971 was a use-after-free bug in Samsung's Knox-related PROCA driver, showing how a flaw in a security feature can become an attack surface. Learn more about this already patched vulnerability and how to respond.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2221,65 +2241,6 @@ The post CiliumHound: Graphing Kubernetes Network Policies appeared first on Spe
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building an AI Detection Engine That Understands Agent Intent]]></title>
-        <id>https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent</id>
-        <link href="https://www.wiz.io/blog/building-an-ai-detection-engine-for-agent-intent"/>
-        <updated>2026-09-17T14:04:47.000Z</updated>
-        <summary type="html"><![CDATA[Analyzing model input and output logs in an AI-native detection pipeline to understand and uncover malicious AI agent behavior]]></summary>
-        <author>
-            <name>Yali Gottlib</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MikroTrick: Inside the RouterOS Takeover Chain]]></title>
-        <id>https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain</id>
-        <link href="https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain"/>
-        <updated>2026-09-17T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Attackers were exploiting MikroTik routers before fixes went public. Bishop Fox reproduced the full unauthenticated takeover chain, found persistence artifacts on real compromised devices, and breaks down what defenders need to investigate beyond patching to confirm they are actually clean.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Credentials Are Still the Shortest Path In]]></title>
-        <id>https://www.praetorian.com/?p=12963</id>
-        <link href="https://www.praetorian.com/blog/credential-testing-brutus/"/>
-        <updated>2026-09-17T01:40:16.000Z</updated>
-        <summary type="html"><![CDATA[How Brutus grew into an engine that finds your identities, tests them everywhere they’re accepted, and remembers what it confirms. An attacker rarely needs a novel exploit when a valid username and password pair is sitting in a breach dump, reused across a dozen internal services, or left at a vendor default nobody changed. Brutus […]
-The post Credentials Are Still the Shortest Path In appeared first on Praetorian.]]></summary>
-        <author>
-            <name>Michelle Rhodes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The skb that wasn't freed - the Fragnesia primitive via Open vSwitch]]></title>
-        <id>https://blog.doyensec.com/2026/09/17/ovs.html</id>
-        <link href="https://blog.doyensec.com/2026/09/17/ovs.html"/>
-        <updated>2026-09-16T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TLDR: Exploit. This is a deterministic local privilege escalation affecting the default install of the latest Arch, Fedora, Debian, Amazon Linux and RHEL distributions, having unprivileged user namespaces enabled, openvswitch auto-loading, and a stock kernel carrying the Fragnesia fix. The issue has been public since 08/13/2026 on netdev, and the fix landed in mainline and shipped in stable on 09/04/2026.
-Introduction
-Earlier this year a small family of Linux kernel bugs appeared, starting with
-Copy Fail. Unlike standard memory corruption, their defining
-feature was that an unprivileged user could overwrite read-only memory mappings
-simply through legitimate operations, without any race condition or strict
-timing. That made privilege escalation to root relatively trivial. Copy Fail
-was fol…]]></summary>
-        <author>
-            <name>Doyensec's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Apple Security Update Review for September 2026]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6aaaf3b780e2653e0f1cdcf6</id>
-        <link href="https://www.thezdi.com/blog/2026/9/16/the-apple-security-update-review-for-september-2026"/>
-        <updated>2026-09-16T19:58:14.000Z</updated>
-        <summary type="html"><![CDATA[Welcome back to our monthly look at Apple security patches. This release shows Apple is not immune to the new normal of AI-assisted vulnerability discovery as they release patches for 273 total CVEs.
-For the September 2026 release, Apple released 273 unique CVEs across macOS 27 (Golden Gate), macOS Sequoia 15.8, macOS Tahoe 26.7, iOS / iPadOS 27, visionOS 27, watchOS 27, tvOS 27, iOS / iPadOS 26.7, Safari 27, and Xcode 27. This patch release actually happened a couple of days ago, but since Apple doesn’t provide CVSS scores or other severity information, it takes a couple of days to understand the full severity. Even with the additional time, there are many CVEs without a severity score. However, looking at the one that do have severity assigned by NVD or CISA-ADP, there are a few that tru…]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Scope an Enterprise Penetration Test: Free Scope-of-Work Template]]></title>
         <id>https://www.synack.com/?p=29708</id>
         <link href="https://www.synack.com/blog/penetration-testing-scope/"/>
@@ -2288,27 +2249,6 @@ For the September 2026 release, Apple released 273 unique CVEs across macOS 27 (
 The post How to Scope an Enterprise Penetration Test: Free Scope-of-Work Template appeared first on Synack.]]></summary>
         <author>
             <name>Tim Nordvedt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond model guardrails, part 1: containing the agent]]></title>
-        <id>https://www.jamf.com/blog/beyond-model-guardrails-containing-ai-agents/</id>
-        <link href="https://www.jamf.com/blog/beyond-model-guardrails-containing-ai-agents/"/>
-        <updated>2026-09-16T16:39:00.000Z</updated>
-        <summary type="html"><![CDATA[AI agents have legitimate access to your systems and the ability to act on them. Learn how to keep your data protected with four AI controls.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghostwriter v7.3.0: A Fresh New Look]]></title>
-        <id>https://specterops.io/?p=29705</id>
-        <link href="https://specterops.io/blog/2026/09/16/ghostwriter-v7-3-0/"/>
-        <updated>2026-09-16T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: The upcoming Ghostwriter v7.3.0 release brings a major UI refresh to nearly every part of the application. The new design is easier on the eyes, more accessible, and better organized, with a new engagement bar, customizable sidebar with pinned work, a completely redesigned dashboard, and a plethora of other changes. Introduction As it is […]
-The post Ghostwriter v7.3.0: A Fresh New Look appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Katherine</name>
         </author>
     </entry>
     <entry>
