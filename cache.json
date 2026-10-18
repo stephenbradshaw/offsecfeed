@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=30487",
+          "author": "rpepple",
+          "description": "Last updated October 17, 2026  An attacker used a compromised credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to sign in to customers’ Microsoft 365 tenants. The credential belongs to the application itself, so the attacker inherited the permissions granted to it. Here’s what’s known so far and what to check in your own tenant.  […]\nThe post ConnectWise SkyKick Breach: How to Check Your Microsoft 365 Tenant  appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/10/17/connectwise-skykick-breach-microsoft-365/",
+          "publishedOn": "2026-10-17T20:41:40.000Z",
+          "wordCount": 4768,
+          "title": "ConnectWise SkyKick Breach: How to Check Your Microsoft 365 Tenant",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/10/ConnectWise-Blog-image.png"
+        },
+        {
           "id": "https://specterops.io/?p=30340",
           "author": "Katherine",
           "description": "TL;DR: How SpecterOps combined deliberate human engagement, model routing, and specialized tools to overhaul Ghostwriter’s user interface for $815.50 in model spend. Disclosure: SpecterOps participates in OpenAI’s Trusted Access for Cyber and Daybreak programs. Codex is the primary example in this article because it fits our engineering workflow and because of that relationship. The operating […]\nThe post Be the Architect: Intentional AI Engagement for Cybersecurity Engineering appeared first on SpecterOps.",
@@ -54,16 +64,6 @@
           "wordCount": 4914,
           "title": "Introducing Ghostwriter Skills",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/Ghostwriter_Skills.png"
-        },
-        {
-          "id": "https://specterops.io/?p=29968",
-          "author": "Andrew Luke",
-          "description": "TLDR: CiliumHound is a BloodHound OpenGraph extension for auditing Cilium network policies. It ingests a folder of JSON or YAML policies and creates a searchable, Kubernetes namespace-scoped graph. Introduction On some recent assessments, I’ve had to review large, complex Cilium network policies in a Kubernetes cluster, looking for ways in or out of isolated namespaces. […]\nThe post CiliumHound: Graphing Kubernetes Network Policies appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/09/17/ciliumhound-graphing-kubernetes-network-policies/",
-          "publishedOn": "2026-09-17T16:00:00.000Z",
-          "wordCount": 6374,
-          "title": "CiliumHound: Graphing Kubernetes Network Policies",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/image_f37c29.png"
         }
       ]
     },
@@ -14082,16 +14082,6 @@
           "wordCount": 2678,
           "title": "SAML: A fractal of bad design",
           "imageUrl": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/saml-banner.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
-          "author": null,
-          "description": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling and formal models that improve the quality and depth of our reviews.\nWe recently reviewed the Miden VM, a new zero-knowledge VM with its own custom assembly language and almost no developer tooling. To prepare, we spent six months having our agents build an LSP server, a decompiler, a static analysis engine, and a Lean model of the VM executor from scratch. These tools found real security issues,…",
-          "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
-          "publishedOn": "2026-09-18T11:00:00.000Z",
-          "wordCount": 2392,
-          "title": "Auditing in the age of (good enough) AI",
-          "imageUrl": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/auditing-ai-social-banner.png"
         }
       ]
     },
@@ -14336,16 +14326,6 @@
           "wordCount": 3637,
           "title": "Safe, but sailing nowhere. Can you stop a fleet of ships?",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2021/09/Safe-but-sailing-nowhere.-Can-you-stop-a-fleet-of-ships-HEADLINE-IMAGE-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44642",
-          "author": "Alex Wallace",
-          "description": "Introduction Talkie Toaster is a character in the BBC sci-fi comedy Red Dwarf. He is an AI Toaster whose purpose in life is to be your cheerful breakfast companion and to provide you with all your toasting needs, only he is a little too obsessed with toasting. While only appearing in 4 episodes, he became […]\nThe post Is AI toast? Building an AI Talkie Toaster appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/is-ai-toast-building-an-ai-talkie-toaster/",
-          "publishedOn": "2026-09-18T11:29:50.000Z",
-          "wordCount": 5122,
-          "title": "Is AI toast? Building an AI Talkie Toaster",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/09/Talkie-Toaster-headline-imagev3-1024x576.png"
         }
       ]
     },
@@ -14591,16 +14571,6 @@
           "wordCount": 3478,
           "title": "Unified Code, Unified Risks: Uncovering Vulnerabilities in .NET MAUI Applications",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Unified-Code-Unified-Risks-Uncovering-Vulnerabilities-.NET-MAUI-Applications.png?mtime=1790287076"
-        },
-        {
-          "id": "https://bishopfox.com/blog/from-fork-to-framework-what-modifying-apollo-taught-us-about-agent-invasion",
-          "author": null,
-          "description": "Forking an existing C2 agent sounds faster than building from scratch. Bishop Fox learned otherwise. This post documents what happened when they forked Apollo, built a custom obfuscation pipeline to defeat EDR detection, and spent months fighting an architecture that was never designed for it.",
-          "link": "https://bishopfox.com/blog/from-fork-to-framework-what-modifying-apollo-taught-us-about-agent-invasion",
-          "publishedOn": "2026-09-18T13:00:00.000Z",
-          "wordCount": 4634,
-          "title": "From Fork to Framework: What Modifying Apollo Taught Us About Agent Invasion",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Images/og/_1200x630_crop_center-center_82_none/home-default.jpg?mtime=1748388507"
         }
       ]
     },
@@ -15871,21 +15841,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb8eac75a51a8811/6aad10776ea6414a8541fdc4/cloud-threat-emulation-lifecycle.png"
-        },
-        {
-          "id": "centralized-alert-triage-cross-project-search",
-          "author": "Chuddy Park",
-          "description": "We linked one Elastic Security project to 100 others and ran the full prebuilt detection catalog from the origin, with all the ingest landing in the linked projects. It held up, and where it deliberately does not reach is the interesting part.",
-          "link": "https://www.elastic.co/security-labs/blog/centralized-alert-triage-cross-project-search",
-          "publishedOn": "2026-09-18T00:00:00.000Z",
-          "wordCount": 22145,
-          "title": "One SOC, 100 projects: running centralized alert triage on Elastic Security Serverless",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0cc05d514cc69660/6aac10632433e26e21d7ea5a/image2.jpg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt0cc05d514cc69660/6aac10632433e26e21d7ea5a/image2.jpg"
         }
       ]
     },
@@ -16053,26 +16008,6 @@
           "wordCount": 1567,
           "title": "What scales when headcount doubles",
           "imageUrl": "https://media.jamf.com/images/events/landing-page/JNUC-2026-logo-horizontal.png?h=300&q=80&w=500"
-        },
-        {
-          "id": "https://www.jamf.com/blog/jnuc-2026-keynote/",
-          "author": null,
-          "description": "On September 23, 2026, Jamf Nation met in Kansas City, Mo., known for its legendary BBQ, live jazz and warm hospitality. Read on for a summary of the keynote featuring — for the first time — CEO Beth Tschida.",
-          "link": "https://www.jamf.com/blog/jnuc-2026-keynote/",
-          "publishedOn": "2026-09-17T21:13:00.000Z",
-          "wordCount": 5245,
-          "title": "JNUC 2026 keynote recap: Power Up!",
-          "imageUrl": "https://media.jamf.com/images/news/2026/2026-jnuc-keynote.webp?h=500&q=80&w=800"
-        },
-        {
-          "id": "https://www.jamf.com/blog/ai-agents-jamf-automations-serval/",
-          "author": null,
-          "description": "A preview of Serval's sponsor session at JNUC 2026.",
-          "link": "https://www.jamf.com/blog/ai-agents-jamf-automations-serval/",
-          "publishedOn": "2026-09-17T21:13:00.000Z",
-          "wordCount": 1442,
-          "title": "Resolving help desk requests with enterprise-safe Jamf automations",
-          "imageUrl": "https://media.jamf.com/images/events/user-conferences/national-user-conferences/2026/jnuc-2026-lp-thumb.webp?h=400&q=80&w=600"
         }
       ]
     },
@@ -16282,21 +16217,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1790098335-win-ai-blog3.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/exploring-the-new-aws-sign-up-experience",
-          "author": "Scott Piper",
-          "description": "This post will explore what this new concept does, how it works with the new Account Access capability, and why a strong security posture still requires upgrading out of the sandbox.",
-          "link": "https://www.wiz.io/blog/exploring-the-new-aws-sign-up-experience",
-          "publishedOn": "2026-09-17T14:25:30.000Z",
-          "wordCount": 20748,
-          "title": "Exploring the new AWS Sign Up experience",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1789596868-starter-home-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1789596868-starter-home-2x.png"
         }
       ]
     },
