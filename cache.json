@@ -141,16 +141,6 @@
           "wordCount": 2100,
           "title": "How to fix a bug in a fix",
           "imageUrl": "https://projectzero.google/images/preview_image.png"
-        },
-        {
-          "id": "https://projectzero.google/2026/09/windows-dangling-com.html",
-          "author": null,
-          "description": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A COM registration typically needs two parts: a server executable, which for in-process components is a DLL and a CLSID entry under the HKEY_CLASSES_ROOT registry key which points to that DLL.",
-          "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
-          "publishedOn": "2026-09-21T07:00:00.000Z",
-          "wordCount": 1714,
-          "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-          "imageUrl": "https://projectzero.google/images/preview_image.png"
         }
       ]
     },
@@ -14072,16 +14062,6 @@
           "wordCount": 2872,
           "title": "Don't let TEEs break your MPC",
           "imageUrl": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/tee-mpc-banner.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-          "author": null,
-          "description": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it’s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoning single sign-on (SSO) industry fulfilled this need. However, SAML is being crushed under the weight of its own complexity. It’s time to deprecate it and move on to modern alternatives like OpenID Connect (OIDC). In this post, I will explore the design-by-committee origin of SAML, its progression through the ranks in academic and corporate environments, its slow disintegration at the hands of the secur…",
-          "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-          "publishedOn": "2026-09-21T11:00:00.000Z",
-          "wordCount": 2678,
-          "title": "SAML: A fractal of bad design",
-          "imageUrl": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/saml-banner.png"
         }
       ]
     },
@@ -14409,6 +14389,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=26990",
+          "author": "Kilian Neumair",
+          "description": "Ein Digispark mag wie ein harmloses USB-Entwicklungsboard aussehen, lässt sich jedoch leicht in ein Gerät zur Tastenanschlag-Injektion verwandeln, das sich wie ein USB Rubber Ducky verhält. In diesem Artikel zeigen wir, wie ein solches Gerät eingerichtet, eingesetzt und forensisch analysiert werden kann, von der Ausführung der Payload auf einem Zielsystem bis hin zur Extraktion der Firmware aus dem ATtiny85-Mikrocontroller.",
+          "link": "https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/",
+          "publishedOn": "2026-10-20T07:55:56.000Z",
+          "wordCount": 5952,
+          "title": "Verborgene Tastenanschläge: Forensische Analyse eines Digispark HID-Geräts",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/08/base-linkedin-blogpost-KeystrokesGE.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=26746",
           "author": "Kilian Neumair",
@@ -15902,16 +15892,6 @@
           "wordCount": 6550,
           "title": "PamStealer adapts again: a move to Swift with a server-side decryption chain",
           "imageUrl": "https://media.jamf.com/images/news/2026/pamstealer-wavel-macos-infostealer.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/",
-          "author": null,
-          "description": "Small tech interruptions like slow apps and device issues quietly compound into a real productivity and IT workload problem for growing organizations.",
-          "link": "https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/",
-          "publishedOn": "2026-09-21T14:28:00.000Z",
-          "wordCount": 2079,
-          "title": "The hidden productivity cost of everyday technology friction",
-          "imageUrl": "https://media.jamf.com/images/news/2026/hidden-productivity-cost-technology-friction-2.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -15926,6 +15906,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
+          "author": "Shahar Yakov",
+          "description": "Enable native runtime protection for GKE in just one click. The Wiz Runtime Sensor add-on now automates deployment and credential management while delivering predictable, kernel-level eBPF threat detection for your GKE Kubernetes fleets.",
+          "link": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
+          "publishedOn": "2026-10-20T22:02:42.000Z",
+          "wordCount": 23328,
+          "title": "Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native.",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1792533747-wiz-1-click-gke-google-banner-1x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1792533747-wiz-1-click-gke-google-banner-1x.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
+          "author": "Shira Ayal",
+          "description": "How a single Google Search ad click leads to credential theft, hijacking of cloud billing account, and hundreds of thousands of dollars incurred in unauthorized AI API usage",
+          "link": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
+          "publishedOn": "2026-10-20T20:03:10.000Z",
+          "wordCount": 23426,
+          "title": "From Phishing to LLMjacking: Threat Actors Targeting Cloud Billing Accounts for LLM Usage",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1792511853-4-1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1792511853-4-1.png"
+        },
         {
           "id": "https://www.wiz.io/blog/detect-supply-chain-zero-days-at-publication",
           "author": "Alice Klimovitsky",

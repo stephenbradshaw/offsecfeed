@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-20T02:36:19.559Z</updated>
+    <updated>2026-10-21T02:30:11.685Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native.]]></title>
+        <id>https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native</id>
+        <link href="https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native"/>
+        <updated>2026-10-20T22:02:42.000Z</updated>
+        <summary type="html"><![CDATA[Enable native runtime protection for GKE in just one click. The Wiz Runtime Sensor add-on now automates deployment and credential management while delivering predictable, kernel-level eBPF threat detection for your GKE Kubernetes fleets.]]></summary>
+        <author>
+            <name>Shahar Yakov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Phishing to LLMjacking: Threat Actors Targeting Cloud Billing Accounts for LLM Usage]]></title>
+        <id>https://www.wiz.io/blog/from-phishing-to-llmjacking</id>
+        <link href="https://www.wiz.io/blog/from-phishing-to-llmjacking"/>
+        <updated>2026-10-20T20:03:10.000Z</updated>
+        <summary type="html"><![CDATA[How a single Google Search ad click leads to credential theft, hijacking of cloud billing account, and hundreds of thousands of dollars incurred in unauthorized AI API usage]]></summary>
+        <author>
+            <name>Shira Ayal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Verborgene Tastenanschläge: Forensische Analyse eines Digispark HID-Geräts]]></title>
+        <id>https://blog.nviso.eu/?p=26990</id>
+        <link href="https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/"/>
+        <updated>2026-10-20T07:55:56.000Z</updated>
+        <summary type="html"><![CDATA[Ein Digispark mag wie ein harmloses USB-Entwicklungsboard aussehen, lässt sich jedoch leicht in ein Gerät zur Tastenanschlag-Injektion verwandeln, das sich wie ein USB Rubber Ducky verhält. In diesem Artikel zeigen wir, wie ein solches Gerät eingerichtet, eingesetzt und forensisch analysiert werden kann, von der Ausführung der Payload auf einem Zielsystem bis hin zur Extraktion der Firmware aus dem ATtiny85-Mikrocontroller.]]></summary>
+        <author>
+            <name>Kilian Neumair</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Supply Chain Zero Days: Closing the Gap Between Publication and Detection]]></title>
         <id>https://www.wiz.io/blog/detect-supply-chain-zero-days-at-publication</id>
@@ -2056,36 +2086,6 @@ The post Penetration Testing for Third-Party Risk Management Programs appeared f
         <summary type="html"><![CDATA[Jamf Threat Labs investigates a newer variant of PamStealer, the third known variant of the family, distributed as a fake application installer that uses a purpose-built decryption utility to ensure the payload cannot be recovered without server cooperation.]]></summary>
         <author>
             <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The hidden productivity cost of everyday technology friction]]></title>
-        <id>https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/</id>
-        <link href="https://www.jamf.com/blog/hidden-productivity-cost-technology-friction/"/>
-        <updated>2026-09-21T14:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Small tech interruptions like slow apps and device issues quietly compound into a real productivity and IT workload problem for growing organizations.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SAML: A fractal of bad design]]></title>
-        <id>https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/</id>
-        <link href="https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/"/>
-        <updated>2026-09-21T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it’s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoning single sign-on (SSO) industry fulfilled this need. However, SAML is being crushed under the weight of its own complexity. It’s time to deprecate it and move on to modern alternatives like OpenID Connect (OIDC). In this post, I will explore the design-by-committee origin of SAML, its progression through the ranks in academic and corporate environments, its slow disintegration at the hands of the secur…]]></summary>
-        <author>
-            <name>The Trail of Bits Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows Exploitation Techniques: Dangling COM Object Registrations]]></title>
-        <id>https://projectzero.google/2026/09/windows-dangling-com.html</id>
-        <link href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
-        <updated>2026-09-21T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A COM registration typically needs two parts: a server executable, which for in-process components is a DLL and a CLSID entry under the HKEY_CLASSES_ROOT registry key which points to that DLL.]]></summary>
-        <author>
-            <name>Project Zero</name>
         </author>
     </entry>
     <entry>
