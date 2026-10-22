@@ -54,16 +54,6 @@
           "wordCount": 6811,
           "title": "AI for Offensive Security: What Works, What Does Not, and How to Adopt It",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/SPO_Zoom2_1920x1080.jpg"
-        },
-        {
-          "id": "https://specterops.io/?p=30009",
-          "author": "Katherine",
-          "description": "TL;DR: Ghostwriter Skills is a new collection of portable Agent Skills for common Ghostwriter workflows. The initial release includes skills for creating and reviewing report templates, checking whether a report is ready for final reporting steps, and drafting an executive summary from an existing Ghostwriter report. Introduction We recently introduced SpecterOps Skills, our public repository […]\nThe post Introducing Ghostwriter Skills appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/09/22/introducing-ghostwriter-skills/",
-          "publishedOn": "2026-09-22T16:08:57.000Z",
-          "wordCount": 4914,
-          "title": "Introducing Ghostwriter Skills",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/Ghostwriter_Skills.png"
         }
       ]
     },
@@ -181,16 +171,6 @@
           "wordCount": 9295,
           "title": "Administrating the Administrator, An OCI Identity Domains Permission Bypass",
           "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/10/09.29.26_TECH_OCI-social.png"
-        },
-        {
-          "id": "https://www.netspi.com/?p=34365",
-          "author": "Rob Reeves",
-          "description": "Discover how a single DNS request can chain a stored Cross-Site Scripting (XSS) vulnerability into Remote Code Execution (RCE) on pfSense firewalls. Read the full technical breakdown of CVE-2026-78902 affecting the popular pfBlockerNG package.\nThe post CVE-2026-78902: XSS to RCE in pfSense with one DNS request appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/web-application-pentesting/cve-2026-78902-xss-to-rce-in-pfsense-with-one-dns-request/",
-          "publishedOn": "2026-09-22T13:04:35.000Z",
-          "wordCount": 4353,
-          "title": "CVE-2026-78902: XSS to RCE in pfSense with one DNS request",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2024/12/010825_TECH_Hijacking-AML-Notebooks_Feature.webp"
         }
       ]
     },
@@ -14034,6 +14014,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+          "author": null,
+          "description": "Today we’re publishing patching-bugs and regression-hunt, two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and supported behavior. Engineers can direct the work and review their results; maintainers can supply their own security assumptions and patching requirements, so the agents work within the project’s rules.\nWe built patching-bugs and regression-hunt through Patch the Planet, our joint initiative with OpenAI, where we’ve co-authored hundreds of security patches for widely used open-source projects. Motivated by our major successes on projects like Scapy, our plugins draw on our analys…",
+          "link": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+          "publishedOn": "2026-10-21T15:00:00.000Z",
+          "wordCount": 1953,
+          "title": "Your AI agent fixed the bug, but what else did it change?",
+          "imageUrl": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_socialbanner3.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
           "author": null,
           "description": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.\nSupply-chain attacks caused by developer compromise are a common story, but imagine what happens if ongoing mitigation attempts, including work by Trail of Bits2, are successful. If developers of popular packages are no longer the easiest targets, attackers will shift their focus to the next weakest link in th…",
@@ -14237,6 +14227,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=44748",
+          "author": "Alex Wallace",
+          "description": "TL;DR  A bucketful of photos  There are many services that allow digital photos to be converted to prints. These include a plethora of other printing services so that customer photos may be converted to picture books, mugs, magnetic photo tiles, clothing or even a throw.  With the combination of destination, these services allow photos to […]\nThe post Printerpix and the not so private photo album  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/printerpix-and-the-not-so-private-photo-album/",
+          "publishedOn": "2026-10-21T13:42:24.000Z",
+          "wordCount": 2531,
+          "title": "Printerpix and the not so private photo album",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/10/Lambros-and-Dave-Printerpix-and-the-not-so-private-photo-album-headlineV2-1024x576.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=44728",
           "author": "Alex Wallace",
@@ -14514,6 +14514,16 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=31076",
+          "author": "Nikola RTM",
+          "description": "API penetration testing focuses on authorization, authentication, and business logic at the endpoint level rather than the page-based structure a web application test targets. Scope is defined by endpoints, roles, and protocols rather than pages, and the most common finding class across enterprise APIs is broken object-level authorization. A test that only covers documented endpoints leaves the least-tested part of most API estates untouched. Documentation is where every API test starts; pairing testing with attack surface discovery is how you find the APIs nobody documented.\nThe post API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered appeared first on Synack.",
+          "link": "https://www.synack.com/blog/api-penetration-testing-enterprise-methodology-scope/",
+          "publishedOn": "2026-10-20T11:59:46.000Z",
+          "wordCount": 5870,
+          "title": "API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/api_penetration_testing_for_enterprise_apis_og.webp"
+        },
+        {
           "id": "https://www.synack.com/?p=30839",
           "author": "Tim Nordvedt",
           "description": "Tim Nordvedt shares the top takeaways from his Dark Reading webinar with KeyCaliber’s Roselle Safran: AI has made finding vulnerabilities cheap, but fixing them still takes limited people, so the real advantage is knowing which exposures matter and showing leadership you’re reducing them.\nThe post Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics appeared first on Synack.",
@@ -14622,16 +14632,6 @@
           "wordCount": 7045,
           "title": "Penetration Testing RFP: What to Include and How to Evaluate Responses",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/Penetration-Testing-RFP-What-to-Include-and-How-to-Evaluate-Responses.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=29866",
-          "author": "Paul Mote",
-          "description": "Penetration testing for third-party risk works best as a deeper assurance layer for suppliers whose compromise would meaningfully affect the enterprise, not as a blanket requirement. Tier vendors by data access, system access, operational weight, and external exposure, then match testing depth and cadence to that tier. Combine vendor-supplied reports, enterprise-commissioned tests, and shared platforms depending on the relationship. Get written authorization first, scope the test to the product and integration that matter, and feed validated findings into remediation plans and risk scores.\nThe post Penetration Testing for Third-Party Risk Management Programs appeared first on Synack.",
-          "link": "https://www.synack.com/blog/penetration-testing-third-party-risk/",
-          "publishedOn": "2026-09-22T13:00:24.000Z",
-          "wordCount": 7197,
-          "title": "Penetration Testing for Third-Party Risk Management Programs",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/10.-Penetration-Testing-for-Third-Party-Risk-Management-Programs.webp"
         }
       ]
     },
@@ -15642,6 +15642,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "php2shell-php-rce-detection",
+          "author": "Ruben Groenewoud,Bryan Porras Blanch",
+          "description": "CVE-2026-109618 and CVE-2026-109619 are critical PHP core RCE flaws that leaked ahead of disclosure. We cover what is verified, why exploitation converges on a web server spawning a shell, and the Elastic detections developed to catch this behavior.",
+          "link": "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
+          "publishedOn": "2026-10-21T00:00:00.000Z",
+          "wordCount": 37095,
+          "title": "php2shell: Assessing Elastic detection coverage relevant to CVE-2026-109618 and CVE-2026-109619",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte46ab96342b9d9fc/6ad8b873b537019b6b7be681/php2shell.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte46ab96342b9d9fc/6ad8b873b537019b6b7be681/php2shell.jpg"
+        },
+        {
           "id": "apex-accelerator-malicious-npm-packages",
           "author": "Jia Yu Chan,Daniel Stepanic",
           "description": "REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.",
@@ -15730,21 +15745,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9368d8675e6dfae1/6aba1c1a99bf52db56db902b/image1.jpg"
-        },
-        {
-          "id": "cloud-threat-emulation-methodology",
-          "author": "Terrance DeJesus,Bryan Porras Blanch",
-          "description": "Cloud threat emulation is more than detonation. A plan-first methodology for cloud detection engineering: scope, victim model, telemetry, coverage, cleanup. Learn how to properly leverage AI to automate your emulations.",
-          "link": "https://www.elastic.co/security-labs/threat-command/cloud-threat-emulation-methodology",
-          "publishedOn": "2026-09-21T00:00:00.000Z",
-          "wordCount": 36828,
-          "title": "Cloud Threat Emulation on Autopilot: Context is Everything",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb8eac75a51a8811/6aad10776ea6414a8541fdc4/cloud-threat-emulation-lifecycle.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltbb8eac75a51a8811/6aad10776ea6414a8541fdc4/cloud-threat-emulation-lifecycle.png"
         }
       ]
     },
@@ -15753,6 +15753,16 @@
       "feedUrl": "https://www.jamf.com/blog/rss/",
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
+        {
+          "id": "https://www.jamf.com/blog/zero-touch-device-onboarding-workflow-with-jamf/",
+          "author": null,
+          "description": "Simplify your device onboarding with Jamf and Teqtivity.",
+          "link": "https://www.jamf.com/blog/zero-touch-device-onboarding-workflow-with-jamf/",
+          "publishedOn": "2026-10-15T20:18:00.000Z",
+          "wordCount": 2562,
+          "title": "How Jamf and Teqtivity work together for end-to-end zero-touch device onboarding",
+          "imageUrl": "https://media.jamf.com/images/news/2026/zero-touch-device-onboarding-workflow-with-jamf.webp?h=400&q=80&w=700"
+        },
         {
           "id": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
           "author": null,
@@ -15872,26 +15882,6 @@
           "wordCount": 3940,
           "title": "Beyond model guardrails, part 2: from credentials to consequences",
           "imageUrl": "https://media.jamf.com/images/news/2026/agentic-ai-security-identity-authorization-controls.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/device-visibility-digital-employee-experience/",
-          "author": null,
-          "description": "Support tickets are a late signal. Real device visibility helps IT spot friction and act before employees feel it.",
-          "link": "https://www.jamf.com/blog/device-visibility-digital-employee-experience/",
-          "publishedOn": "2026-09-22T17:56:00.000Z",
-          "wordCount": 2019,
-          "title": "Why Device Visibility Matters for Digital Employee Experiences",
-          "imageUrl": "https://media.jamf.com/images/news/2026/device-visibility-digital-employee-experience.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/pamstealer-wavel-macos-infostealer/",
-          "author": null,
-          "description": "Jamf Threat Labs investigates a newer variant of PamStealer, the third known variant of the family, distributed as a fake application installer that uses a purpose-built decryption utility to ensure the payload cannot be recovered without server cooperation.",
-          "link": "https://www.jamf.com/blog/pamstealer-wavel-macos-infostealer/",
-          "publishedOn": "2026-09-21T20:07:00.000Z",
-          "wordCount": 6550,
-          "title": "PamStealer adapts again: a move to Swift with a server-side decryption chain",
-          "imageUrl": "https://media.jamf.com/images/news/2026/pamstealer-wavel-macos-infostealer.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -15906,6 +15896,36 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/php2shell-php-rce",
+          "author": "Sagi Tzadik",
+          "description": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
+          "link": "https://www.wiz.io/blog/php2shell-php-rce",
+          "publishedOn": "2026-10-21T13:59:59.000Z",
+          "wordCount": 25645,
+          "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1792534907-img_7274.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1792534907-img_7274.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
+          "author": "Benjamin Read",
+          "description": "In a new incident, a malicious version (1.107.0)  of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.",
+          "link": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
+          "publishedOn": "2026-10-21T13:44:12.000Z",
+          "wordCount": 23114,
+          "title": "LiteLLM Compromised, Steals Credentials",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1792586935-3.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1792586935-3.png"
+        },
         {
           "id": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
           "author": "Shahar Yakov",
@@ -16130,21 +16150,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1790248837-scan-for-good-cover2.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-mcp-agent-integrations",
-          "author": "Hen Perez",
-          "description": "WINning AI with AI: How the Wiz MCP for WIN partners accelerates a connected ecosystem",
-          "link": "https://www.wiz.io/blog/wiz-mcp-agent-integrations",
-          "publishedOn": "2026-09-22T12:00:01.000Z",
-          "wordCount": 19463,
-          "title": "Growing the WIN AI Ecosystem with Agent Integrations",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1790098335-win-ai-blog3.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1790098335-win-ai-blog3.png"
         }
       ]
     },
@@ -16153,6 +16158,16 @@
       "feedUrl": "https://cocomelonc.github.io/feed.xml",
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
+        {
+          "id": "https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html",
+          "publishedOn": "2026-10-20T02:00:00.000Z",
+          "wordCount": 4565,
+          "title": "Reversing embedded WebAssembly: part 3. Recovering native cross-references from WAMR relocations in pure C.",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/229/2026-10-21_19-31.png"
+        },
         {
           "id": "https://cocomelonc.github.io/reverse/2026/10/12/wasm-aot-reversing-2.html",
           "author": null,

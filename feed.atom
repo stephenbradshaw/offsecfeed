@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-21T02:30:11.685Z</updated>
+    <updated>2026-10-22T08:31:17.387Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Your AI agent fixed the bug, but what else did it change?]]></title>
+        <id>https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/</id>
+        <link href="https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/"/>
+        <updated>2026-10-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re publishing patching-bugs and regression-hunt, two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and supported behavior. Engineers can direct the work and review their results; maintainers can supply their own security assumptions and patching requirements, so the agents work within the project’s rules.
+We built patching-bugs and regression-hunt through Patch the Planet, our joint initiative with OpenAI, where we’ve co-authored hundreds of security patches for widely used open-source projects. Motivated by our major successes on projects like Scapy, our plugins draw on our analys…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet]]></title>
+        <id>https://www.wiz.io/blog/php2shell-php-rce</id>
+        <link href="https://www.wiz.io/blog/php2shell-php-rce"/>
+        <updated>2026-10-21T13:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.]]></summary>
+        <author>
+            <name>Sagi Tzadik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LiteLLM Compromised, Steals Credentials]]></title>
+        <id>https://www.wiz.io/blog/litellm-compromised-steals-credentials</id>
+        <link href="https://www.wiz.io/blog/litellm-compromised-steals-credentials"/>
+        <updated>2026-10-21T13:44:12.000Z</updated>
+        <summary type="html"><![CDATA[In a new incident, a malicious version (1.107.0)  of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.]]></summary>
+        <author>
+            <name>Benjamin Read</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Printerpix and the not so private photo album]]></title>
+        <id>https://www.pentestpartners.com/?p=44748</id>
+        <link href="https://www.pentestpartners.com/security-blog/printerpix-and-the-not-so-private-photo-album/"/>
+        <updated>2026-10-21T13:42:24.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  A bucketful of photos  There are many services that allow digital photos to be converted to prints. These include a plethora of other printing services so that customer photos may be converted to picture books, mugs, magnetic photo tiles, clothing or even a throw.  With the combination of destination, these services allow photos to […]
+The post Printerpix and the not so private photo album  appeared first on Pen Test Partners.]]></summary>
+        <author>
+            <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[php2shell: Assessing Elastic detection coverage relevant to CVE-2026-109618 and CVE-2026-109619]]></title>
+        <id>php2shell-php-rce-detection</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection"/>
+        <updated>2026-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CVE-2026-109618 and CVE-2026-109619 are critical PHP core RCE flaws that leaked ahead of disclosure. We cover what is verified, why exploitation converges on a web server spawning a shell, and the Elastic detections developed to catch this behavior.]]></summary>
+        <author>
+            <name>Ruben Groenewoud,Bryan Porras Blanch</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native.]]></title>
         <id>https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native</id>
@@ -27,6 +79,17 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered]]></title>
+        <id>https://www.synack.com/?p=31076</id>
+        <link href="https://www.synack.com/blog/api-penetration-testing-enterprise-methodology-scope/"/>
+        <updated>2026-10-20T11:59:46.000Z</updated>
+        <summary type="html"><![CDATA[API penetration testing focuses on authorization, authentication, and business logic at the endpoint level rather than the page-based structure a web application test targets. Scope is defined by endpoints, roles, and protocols rather than pages, and the most common finding class across enterprise APIs is broken object-level authorization. A test that only covers documented endpoints leaves the least-tested part of most API estates untouched. Documentation is where every API test starts; pairing testing with attack surface discovery is how you find the APIs nobody documented.
+The post API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered appeared first on Synack.]]></summary>
+        <author>
+            <name>Nikola RTM</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Verborgene Tastenanschläge: Forensische Analyse eines Digispark HID-Geräts]]></title>
         <id>https://blog.nviso.eu/?p=26990</id>
         <link href="https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/"/>
@@ -34,6 +97,16 @@
         <summary type="html"><![CDATA[Ein Digispark mag wie ein harmloses USB-Entwicklungsboard aussehen, lässt sich jedoch leicht in ein Gerät zur Tastenanschlag-Injektion verwandeln, das sich wie ein USB Rubber Ducky verhält. In diesem Artikel zeigen wir, wie ein solches Gerät eingerichtet, eingesetzt und forensisch analysiert werden kann, von der Ausführung der Payload auf einem Zielsystem bis hin zur Extraktion der Firmware aus dem ATtiny85-Mikrocontroller.]]></summary>
         <author>
             <name>Kilian Neumair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reversing embedded WebAssembly: part 3. Recovering native cross-references from WAMR relocations in pure C.]]></title>
+        <id>https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html</id>
+        <link href="https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html"/>
+        <updated>2026-10-20T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
         </author>
     </entry>
     <entry>
@@ -85,6 +158,16 @@ The post ConnectWise SkyKick Breach: How to Check Your Microsoft 365 Tenant  ap
         <summary type="html"><![CDATA[A Digispark may look like a harmless USB development board, but it can easily be turned into a keystroke injection device that behaves like a USB Rubber Ducky. In this article, we show how such a device can be set up, used, and forensically analyzed, from payload execution on a target system to firmware extraction from the ATtiny85 microcontroller.]]></summary>
         <author>
             <name>Kilian Neumair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Jamf and Teqtivity work together for end-to-end zero-touch device onboarding]]></title>
+        <id>https://www.jamf.com/blog/zero-touch-device-onboarding-workflow-with-jamf/</id>
+        <link href="https://www.jamf.com/blog/zero-touch-device-onboarding-workflow-with-jamf/"/>
+        <updated>2026-10-15T20:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Simplify your device onboarding with Jamf and Teqtivity.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2023,79 +2106,6 @@ The post Hannibal Puts Autonomous Penetration Testing Under Your Control appeare
         <summary type="html"><![CDATA[Part 2 of Jamf's agentic security series moves from containing code execution to constraining enterprise authority. Learn about scoping agent identities and credentials, governing MCP servers and tools, and enforcing authorization outside the model.]]></summary>
         <author>
             <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Device Visibility Matters for Digital Employee Experiences]]></title>
-        <id>https://www.jamf.com/blog/device-visibility-digital-employee-experience/</id>
-        <link href="https://www.jamf.com/blog/device-visibility-digital-employee-experience/"/>
-        <updated>2026-09-22T17:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Support tickets are a late signal. Real device visibility helps IT spot friction and act before employees feel it.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Ghostwriter Skills]]></title>
-        <id>https://specterops.io/?p=30009</id>
-        <link href="https://specterops.io/blog/2026/09/22/introducing-ghostwriter-skills/"/>
-        <updated>2026-09-22T16:08:57.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Ghostwriter Skills is a new collection of portable Agent Skills for common Ghostwriter workflows. The initial release includes skills for creating and reviewing report templates, checking whether a report is ready for final reporting steps, and drafting an executive summary from an existing Ghostwriter report. Introduction We recently introduced SpecterOps Skills, our public repository […]
-The post Introducing Ghostwriter Skills appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Katherine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CVE-2026-78902: XSS to RCE in pfSense with one DNS request]]></title>
-        <id>https://www.netspi.com/?p=34365</id>
-        <link href="https://www.netspi.com/blog/technical-blog/web-application-pentesting/cve-2026-78902-xss-to-rce-in-pfsense-with-one-dns-request/"/>
-        <updated>2026-09-22T13:04:35.000Z</updated>
-        <summary type="html"><![CDATA[Discover how a single DNS request can chain a stored Cross-Site Scripting (XSS) vulnerability into Remote Code Execution (RCE) on pfSense firewalls. Read the full technical breakdown of CVE-2026-78902 affecting the popular pfBlockerNG package.
-The post CVE-2026-78902: XSS to RCE in pfSense with one DNS request appeared first on NetSPI.]]></summary>
-        <author>
-            <name>Rob Reeves</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Penetration Testing for Third-Party Risk Management Programs]]></title>
-        <id>https://www.synack.com/?p=29866</id>
-        <link href="https://www.synack.com/blog/penetration-testing-third-party-risk/"/>
-        <updated>2026-09-22T13:00:24.000Z</updated>
-        <summary type="html"><![CDATA[Penetration testing for third-party risk works best as a deeper assurance layer for suppliers whose compromise would meaningfully affect the enterprise, not as a blanket requirement. Tier vendors by data access, system access, operational weight, and external exposure, then match testing depth and cadence to that tier. Combine vendor-supplied reports, enterprise-commissioned tests, and shared platforms depending on the relationship. Get written authorization first, scope the test to the product and integration that matter, and feed validated findings into remediation plans and risk scores.
-The post Penetration Testing for Third-Party Risk Management Programs appeared first on Synack.]]></summary>
-        <author>
-            <name>Paul Mote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Growing the WIN AI Ecosystem with Agent Integrations]]></title>
-        <id>https://www.wiz.io/blog/wiz-mcp-agent-integrations</id>
-        <link href="https://www.wiz.io/blog/wiz-mcp-agent-integrations"/>
-        <updated>2026-09-22T12:00:01.000Z</updated>
-        <summary type="html"><![CDATA[WINning AI with AI: How the Wiz MCP for WIN partners accelerates a connected ecosystem]]></summary>
-        <author>
-            <name>Hen Perez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PamStealer adapts again: a move to Swift with a server-side decryption chain]]></title>
-        <id>https://www.jamf.com/blog/pamstealer-wavel-macos-infostealer/</id>
-        <link href="https://www.jamf.com/blog/pamstealer-wavel-macos-infostealer/"/>
-        <updated>2026-09-21T20:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Jamf Threat Labs investigates a newer variant of PamStealer, the third known variant of the family, distributed as a fake application installer that uses a purpose-built decryption utility to ensure the payload cannot be recovered without server cooperation.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Threat Emulation on Autopilot: Context is Everything]]></title>
-        <id>cloud-threat-emulation-methodology</id>
-        <link href="https://www.elastic.co/security-labs/threat-command/cloud-threat-emulation-methodology"/>
-        <updated>2026-09-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloud threat emulation is more than detonation. A plan-first methodology for cloud detection engineering: scope, victim model, telemetry, coverage, cleanup. Learn how to properly leverage AI to automate your emulations.]]></summary>
-        <author>
-            <name>Terrance DeJesus,Bryan Porras Blanch</name>
         </author>
     </entry>
     <entry>
