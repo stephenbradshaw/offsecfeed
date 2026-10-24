@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=30661",
+          "author": "Raj Patel",
+          "description": "For years, we thought LDAP and SMB signing protected us from NTLM relay attacks. However, we found that both protocols could be relay targets through re-authentication on a connection the attacker already owned. Signing was still enforced, just with the attacker known session key. Microsoft fixed SMB quietly in September 2026 and LDAP in October […]\nThe post Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/10/23/ldap-signing-bypass-ntlm-relay/",
+          "publishedOn": "2026-10-23T16:08:20.000Z",
+          "wordCount": 8287,
+          "title": "Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/10/NTLM.png"
+        },
+        {
           "id": "https://specterops.io/?p=30487",
           "author": "rpepple",
           "description": "Last updated October 17, 2026  An attacker used a compromised credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to sign in to customers’ Microsoft 365 tenants. The credential belongs to the application itself, so the attacker inherited the permissions granted to it. Here’s what’s known so far and what to check in your own tenant.  […]\nThe post ConnectWise SkyKick Breach: How to Check Your Microsoft 365 Tenant  appeared first on SpecterOps.",
@@ -68,6 +78,16 @@
       "feedUrl": "https://portswigger.net/blog/rss",
       "siteUrl": "https://portswigger.net/blog",
       "articles": [
+        {
+          "id": "php2shell-x-burp-suite-detection-in-your-hands-within-a-day-of-disclosure",
+          "author": null,
+          "description": "PHP2Shell (CVE-2026-109618 and CVE-2026-109619) became the latest vulnerability to grab headlines around the globe. By some estimates, up to 70% of websites run at least some PHP. So if you're respons",
+          "link": "https://portswigger.net/blog/php2shell-x-burp-suite-detection-in-your-hands-within-a-day-of-disclosure",
+          "publishedOn": "2026-10-23T13:50:51.000Z",
+          "wordCount": 1782,
+          "title": "PHP2Shell x Burp Suite: Detection in your hands within a day of disclosure",
+          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
+        },
         {
           "id": "burp-at-whats-new-since-black-hat",
           "author": null,
@@ -365,17 +385,6 @@
           "publishedOn": "2026-10-05T18:11:29.000Z",
           "wordCount": null,
           "title": "Pwn2Own Ireland 2026 - The Full Schedule",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ab41a4fb17edf42f4b09e9e",
-          "author": "Connor Ford",
-          "description": "With Pwn2Own Ireland 2026 coming up, I wanted to share an unreleased blog post from my time as a Pwn2Own contestant. This post covers the discovery and exploitation of CVE-2024-0244, which is an unauthenticated heap-based buffer overflow leading to an arbitrary free() in the Canon MF753Cdw printer featured in Pwn2Own Toronto 2023. This blog post gives an overview of the vulnerability and the exploitation techniques used.\n\n      \n        \n          \n            \nFigure 1 - MF753Cdw printer\nFigure 1 - MF753Cdw printer\nPreviously, I had exploited the very similarly named MF743Cdw at Pwn2Own Toronto 2022 using a classic stack buffer overflow, so I had a solid baseline understanding of this family of printers and their quirks.\nStarting Point\nOver the years at Pwn2Own, the Canon family of printe…",
-          "link": "https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer",
-          "publishedOn": "2026-09-23T19:03:34.000Z",
-          "wordCount": null,
-          "title": "CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer",
           "itunes": {},
           "imageUrl": null
         }
@@ -13916,16 +13925,6 @@
           "wordCount": 3222,
           "title": "Hunt, Triage, and Act on Guard Findings in Slack",
           "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/10/Blog-Hero-1.png"
-        },
-        {
-          "id": "https://www.praetorian.com/?p=12975",
-          "author": "Michelle Rhodes",
-          "description": "Autonomous penetration testing in the Praetorian Guard Platform has changed shape. Hannibal started as a hunt agent for external and cloud attack surfaces. Today, it’s something your security team can run entirely on its own terms. Web applications and LLM endpoints are now first-class attack surfaces. Hunts can authenticate into applications, test what a real […]\nThe post Hannibal Puts Autonomous Penetration Testing Under Your Control appeared first on Praetorian.",
-          "link": "https://www.praetorian.com/blog/autonomous-penetration-testing-hannibal/",
-          "publishedOn": "2026-09-23T16:02:14.000Z",
-          "wordCount": 3996,
-          "title": "Hannibal Puts Autonomous Penetration Testing Under Your Control",
-          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/09/Hannibal-Pentests-Blog.webp"
         }
       ]
     },
@@ -13960,16 +13959,6 @@
           "publishedOn": "2026-10-12T22:00:00.000Z",
           "wordCount": 4186,
           "title": "Playing It SFAPE: Code Execution in Isolated User Mode",
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/09/24/chrome-ios-policy-bypass.html",
-          "author": null,
-          "description": "TL;DR\nWhile testing deep links in Chrome for iOS, we noticed a small but important difference. Opening a third-party app through a custom URL scheme normally produced a confirmation prompt. Shortcuts were an exception. As they’re handled by a native Apple app, Chrome allowed shortcuts:// and its legacy workflow:// alias to open without showing the same prompt.\nAt first, this looked like a minor inconsistency. It became more interesting once we looked at Shortcuts’ callback support. A webpage could send the user to Shortcuts and provide a second URL for Shortcuts to open afterwards. That second URL could be tel:. Although Chrome protected direct tel: navigations with user-interaction checks, it never saw the callback coming from Shortcuts. A single click on a webpage could therefore reach t…",
-          "link": "https://blog.doyensec.com/2026/09/24/chrome-ios-policy-bypass.html",
-          "publishedOn": "2026-09-23T22:00:00.000Z",
-          "wordCount": 1430,
-          "title": "One Tap Too Far: Using Shortcuts to Bypass Chrome for iOS Call Prompts",
           "imageUrl": null
         }
       ]
@@ -14390,6 +14379,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=27830",
+          "author": "Patrick Lodder",
+          "description": "This public operational guidance for PHP2Shell is provided to customers and published for the benefit of the wider community.",
+          "link": "https://blog.nviso.eu/2026/10/23/php2shell-operational-guidance/",
+          "publishedOn": "2026-10-23T14:44:06.000Z",
+          "wordCount": 3966,
+          "title": "PHP2Shell Operational Guidance",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/10/PHP2SHELL-Blog.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=26990",
           "author": "Kilian Neumair",
           "description": "Ein Digispark mag wie ein harmloses USB-Entwicklungsboard aussehen, lässt sich jedoch leicht in ein Gerät zur Tastenanschlag-Injektion verwandeln, das sich wie ein USB Rubber Ducky verhält. In diesem Artikel zeigen wir, wie ein solches Gerät eingerichtet, eingesetzt und forensisch analysiert werden kann, von der Ausführung der Payload auf einem Zielsystem bis hin zur Extraktion der Firmware aus dem ATtiny85-Mikrocontroller.",
@@ -14505,16 +14504,6 @@
           "wordCount": 3979,
           "title": "Master Key Included: Detecting SolarWinds ARM CVE-2026-28326",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Master-Key-Included-Detecting-SolarWinds-ARM-CVE-2026-28326.png?mtime=1790350455"
-        },
-        {
-          "id": "https://bishopfox.com/blog/unified-code-unified-risks-uncovering-vulnerabilities-net-maui-applications",
-          "author": null,
-          "description": ".NET MAUI lets developers write once and ship to both platforms. From an attacker's perspective, that means reverse-engineer once and break everywhere. This post walks through extracting readable assemblies from MAUI apps and the high-impact vulnerability patterns that consistently appear.",
-          "link": "https://bishopfox.com/blog/unified-code-unified-risks-uncovering-vulnerabilities-net-maui-applications",
-          "publishedOn": "2026-09-24T13:00:00.000Z",
-          "wordCount": 3478,
-          "title": "Unified Code, Unified Risks: Uncovering Vulnerabilities in .NET MAUI Applications",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Unified-Code-Unified-Risks-Uncovering-Vulnerabilities-.NET-MAUI-Applications.png?mtime=1790287076"
         }
       ]
     },
@@ -14734,16 +14723,6 @@
           "wordCount": 2999,
           "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
           "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/09/ohlooooook.png"
-        },
-        {
-          "id": "6ab45411c597860001d5dbc8",
-          "author": "Sina Kheirkhah (@SinSinology)",
-          "description": "Well, well, well, well, well, well, well, well, well, well, well, well, well, well, well. We're back. Sorry.\n\nWe've been watching the onslaught of vulnerabilities flood the internet. Every man, dog, and their grandmas (apparently?) are now using LLMs to find and reproduce vulnerabilities - it’",
-          "link": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
-          "publishedOn": "2026-09-23T23:19:19.000Z",
-          "wordCount": 2513,
-          "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
-          "imageUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/09/1.png"
         }
       ]
     },
@@ -15662,6 +15641,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "command-injection-zimbra-cve-2026-73570",
+          "author": "Eric Forte",
+          "description": "We reproduced the Zimbra command injection vulnerability and found that several public PoCs write a payload Swatchdog never matches, so a failed test looks like a patched server.",
+          "link": "https://www.elastic.co/security-labs/threat-command/command-injection-zimbra-cve-2026-73570",
+          "publishedOn": "2026-10-23T00:00:00.000Z",
+          "wordCount": 31378,
+          "title": "How CVE-2026-73570 turns a Zimbra log file into remote code execution",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta090c473708b8f70/6ad9eed8fad7349193d092e1/image2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta090c473708b8f70/6ad9eed8fad7349193d092e1/image2.png"
+        },
+        {
           "id": "php2shell-php-rce-detection",
           "author": "Ruben Groenewoud,Bryan Porras Blanch",
           "description": "CVE-2026-109618 and CVE-2026-109619 are critical PHP core RCE flaws that leaked ahead of disclosure. We cover what is verified, why exploitation converges on a web server spawning a shell, and the Elastic detections developed to catch this behavior.",
@@ -15882,16 +15876,6 @@
           "wordCount": 2134,
           "title": "JNUC 2026 Day 1 recap: powering up in Kansas City",
           "imageUrl": "https://media.jamf.com/images/news/2026/jnuc-2026-day-1-recap.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/jamf-education-state-of-the-union-jnuc2026/",
-          "author": null,
-          "description": "The education landscape has changed quite a bit this year. At the 2026 JNUC State of the Union, attendees discovered what new features Jamf has to offer educators and admins to meet new challenges and how to use them to keep the focus on what matters: learning.",
-          "link": "https://www.jamf.com/blog/jamf-education-state-of-the-union-jnuc2026/",
-          "publishedOn": "2026-09-23T21:36:00.000Z",
-          "wordCount": 3848,
-          "title": "Education State of the Union: JNUC 2026",
-          "imageUrl": "https://media.jamf.com/images/news/2026/jamf-education-state-of-the-union-jnuc2026.webp?h=500&q=80&w=800"
         }
       ]
     },
@@ -16175,21 +16159,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1790266246-blog-banner-image.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/scan-for-good-critical-ai-exposures",
-          "author": "Ami Luttwak",
-          "description": "New initiative partners with under-resourced organizations to uncover, remediate exploitable risk at scale.",
-          "link": "https://www.wiz.io/blog/scan-for-good-critical-ai-exposures",
-          "publishedOn": "2026-09-24T13:00:03.000Z",
-          "wordCount": 23396,
-          "title": "Scan for Good: Using AI to discover and fix high-priority exposures across public services and critical infrastructure",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1790248837-scan-for-good-cover2.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1790248837-scan-for-good-cover2.png"
         }
       ]
     },
