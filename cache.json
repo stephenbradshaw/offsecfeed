@@ -54,16 +54,6 @@
           "wordCount": 4952,
           "title": "Introducing Adversary Intelligence: LLM Tradecraft",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/LLMTradecraft_2000x1000_A.jpg"
-        },
-        {
-          "id": "https://specterops.io/?p=30118",
-          "author": "Heather Simpson",
-          "description": "Companies frequently ask SpecterOps some version of the same question: How are you using AI in offensive security, and how can we begin using it too? They want practical guidance. Which parts of an assessment are improving now? Where does the technology still fail? What should a team learn or build first?  Demystifying adversary tradecraft is part of SpecterOps’s core purpose. Through GhostWorks, we apply that purpose to AI by testing […]\nThe post AI for Offensive Security: What Works, What Does Not, and How to Adopt It  appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/09/24/ai-for-offensive-security/",
-          "publishedOn": "2026-09-24T16:00:00.000Z",
-          "wordCount": 6811,
-          "title": "AI for Offensive Security: What Works, What Does Not, and How to Adopt It",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/SPO_Zoom2_1920x1080.jpg"
         }
       ]
     },
@@ -14021,16 +14011,6 @@
           "wordCount": 3217,
           "title": "SequenceHash: multihashing for the rest of us",
           "imageUrl": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/sequencehash-banner.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
-          "author": null,
-          "description": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share.\nSo is this combination worth it? Pro…",
-          "link": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
-          "publishedOn": "2026-09-25T11:00:00.000Z",
-          "wordCount": 2872,
-          "title": "Don't let TEEs break your MPC",
-          "imageUrl": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/tee-mpc-banner.png"
         }
       ]
     },
@@ -14133,6 +14113,26 @@
       "feedUrl": "http://www.hexacorn.com/blog/feed/",
       "siteUrl": "https://www.hexacorn.com/blog",
       "articles": [
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10433",
+          "author": "adam",
+          "description": "This is a lesser known feature of ripgrep that can be used to spawn your own executable via proxy. All you have to do is to run ripgrep with a ‘-z/–search-zip’ flag. Once you do it, any archive file that … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/10/25/ripgrep-as-a-lolbin/",
+          "publishedOn": "2026-10-25T01:11:26.000Z",
+          "wordCount": 617,
+          "title": "ripgrep as a lolbin",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.hexacorn.com/blog/?p=10429",
+          "author": "adam",
+          "description": "I remember that a few years ago, when I still used Twitter, I asked an open-ended question there: what are the most common passwords used for malware archives? This may sound silly, but there are a looooooot of the ‘default’ … Continue reading →",
+          "link": "https://www.hexacorn.com/blog/2026/10/24/solving-practical-problems-with-ai-part-2-the-most-popular-and-most-commonly-used-passwords-for-malicious-archives/",
+          "publishedOn": "2026-10-24T21:04:28.000Z",
+          "wordCount": 705,
+          "title": "Solving practical problems with AI – Part 2 – the most popular, and most commonly used passwords for malicious archives…",
+          "imageUrl": null
+        },
         {
           "id": "https://www.hexacorn.com/blog/?p=10415",
           "author": "adam",
@@ -14494,16 +14494,6 @@
           "wordCount": 5072,
           "title": "Zilliz / Attu | 2.6.5",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Advisory_Zilliz-Attu-2.6.5.png?mtime=1790712793"
-        },
-        {
-          "id": "https://bishopfox.com/blog/detecting-solarwinds-arm-cve-2026-28326",
-          "author": null,
-          "description": "A hardcoded authentication secret ships with every SolarWinds Access Rights Manager install, and reaching TCP 55555 is enough to hit a .NET deserialization sink. Bishop Fox confirmed SYSTEM-level code execution, breaks down the root cause, and shares a safe detection tool for defenders.",
-          "link": "https://bishopfox.com/blog/detecting-solarwinds-arm-cve-2026-28326",
-          "publishedOn": "2026-09-25T13:00:00.000Z",
-          "wordCount": 3979,
-          "title": "Master Key Included: Detecting SolarWinds ARM CVE-2026-28326",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Master-Key-Included-Detecting-SolarWinds-ARM-CVE-2026-28326.png?mtime=1790350455"
         }
       ]
     },
@@ -14512,6 +14502,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=31159",
+          "author": "Mark Kuhr",
+          "description": "PHP2Shell demands prompt patching and evidence that remediation worked. Mark Kuhr explains how exploitability validation and experts working with agentic AI help security teams understand exposure and act with confidence.\nThe post PHP2Shell and the Case for Exploitability Validation appeared first on Synack.",
+          "link": "https://www.synack.com/blog/exploitability-validation-php-flaws/",
+          "publishedOn": "2026-10-23T20:56:51.000Z",
+          "wordCount": 4982,
+          "title": "PHP2Shell and the Case for Exploitability Validation",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/php-flaws-mark-kuhr-synack-og.png"
+        },
         {
           "id": "https://www.synack.com/?p=31128",
           "author": "Tim Nordvedt",
@@ -14621,26 +14621,6 @@
           "wordCount": 7376,
           "title": "Penetration Testing Vendor Comparison: What Enterprises Should Compare",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/7.-Penetration-Testing-Vendor-Comparison_-What-Enterprises-Should-Actually-Compare.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=29900",
-          "author": "Greg Copeland",
-          "description": "Security testing and exposure management have run on separate tracks for years, leaving a blind spot between what a scanner flags and what an attacker can exploit. Synack's new integration with Wiz closes that disconnect, feeding continuously validated pentest findings directly into Wiz's exposure management view.\nThe post Unifying Security Testing and Exposure Management: Introducing the Synack and Wiz Integration appeared first on Synack.",
-          "link": "https://www.synack.com/blog/synack-wiz-integration-ctem-exposure-management/",
-          "publishedOn": "2026-09-23T18:37:42.000Z",
-          "wordCount": 5064,
-          "title": "Unifying Security Testing and Exposure Management: Introducing the Synack and Wiz Integration",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/synack-wiz-integration-security-testing-og.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=29906",
-          "author": "Tim Nordvedt",
-          "description": "Most penetration testing RFPs ask vendors to price \"one web application\" or \"an annual pentest\" and leave the rest open to interpretation. This guide gives you a complete penetration testing scope-of-work template, a standard vendor response format, a weighted scorecard, and a pass/fail checklist, so every proposal answers the same questions and gets measured against the same bar.\nThe post Penetration Testing RFP: What to Include and How to Evaluate Responses appeared first on Synack.",
-          "link": "https://www.synack.com/blog/penetration-testing-rfp/",
-          "publishedOn": "2026-09-23T16:35:24.000Z",
-          "wordCount": 7045,
-          "title": "Penetration Testing RFP: What to Include and How to Evaluate Responses",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/09/Penetration-Testing-RFP-What-to-Include-and-How-to-Evaluate-Responses.webp"
         }
       ]
     },
@@ -15856,26 +15836,6 @@
           "wordCount": 1929,
           "title": "JNUC 2026 Day 3 Recap",
           "imageUrl": "https://media.jamf.com/images/news/2026/jnuc-2026-day-3-recap.webp?h=400&q=80&w=600"
-        },
-        {
-          "id": "https://www.jamf.com/blog/jnuc-2026-day-2-recap/",
-          "author": null,
-          "description": "Catch up on JNUC 2026 Day 2: top session themes, the 10 best-attended breakouts, EDU SOTU highlights and more.",
-          "link": "https://www.jamf.com/blog/jnuc-2026-day-2-recap/",
-          "publishedOn": "2026-09-24T20:44:00.000Z",
-          "wordCount": 2114,
-          "title": "JNUC 2026 Day 2 recap",
-          "imageUrl": "https://media.jamf.com/images/news/2026/jnuc-2026-day-2-recap.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/jnuc-2026-day-1-recap/",
-          "author": null,
-          "description": "Catch up on JNUC 2026 Day 1: top session themes, the 10 best-attended breakouts, Keynote and SOTU highlights and more.",
-          "link": "https://www.jamf.com/blog/jnuc-2026-day-1-recap/",
-          "publishedOn": "2026-09-24T15:19:00.000Z",
-          "wordCount": 2134,
-          "title": "JNUC 2026 Day 1 recap: powering up in Kansas City",
-          "imageUrl": "https://media.jamf.com/images/news/2026/jnuc-2026-day-1-recap.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16144,21 +16104,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1790341214-1000201432.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/forrester-wave-for-proactive-security-2026",
-          "author": "Oron Noah",
-          "description": "Forrester’s Proactive Security Platforms evaluation rated Wiz with top scores across eight areas, reflecting our commitment to securing the AI era",
-          "link": "https://www.wiz.io/blog/forrester-wave-for-proactive-security-2026",
-          "publishedOn": "2026-09-24T16:12:36.000Z",
-          "wordCount": 22346,
-          "title": "Wiz Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1790266246-blog-banner-image.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1790266246-blog-banner-image.png"
         }
       ]
     },
