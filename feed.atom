@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-26T02:17:41.714Z</updated>
+    <updated>2026-10-27T02:53:12.192Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Authorization Differential Testing in Salesforce]]></title>
+        <id>https://www.netspi.com/?p=34702</id>
+        <link href="https://www.netspi.com/blog/technical-blog/cloud-pentesting/authorization-differential-testing-in-salesforce/"/>
+        <updated>2026-10-26T19:17:06.000Z</updated>
+        <summary type="html"><![CDATA[NetSPI Salesforce expert Aussan explores how holding identity steady across UI API, GraphQL, and custom @AuraEnabled Apex methods reveals hidden authorization gaps.
+The post Authorization Differential Testing in Salesforce appeared first on NetSPI.]]></summary>
+        <author>
+            <name>Aussan Saad-Ali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Pwn Request Reckoning: What Still Works Against GitHub Actions]]></title>
+        <id>https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning</id>
+        <link href="https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning"/>
+        <updated>2026-10-26T13:24:12.000Z</updated>
+        <summary type="html"><![CDATA[GitHub's 2026 Actions changes make pull_request_target attacks harder, but not impossible. Here's the residual attack surface and how to audit for it.]]></summary>
+        <author>
+            <name>Shay Berkovich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kernel eviction notice: What wesp.sys reveals about the Windows Endpoint Security Platform]]></title>
+        <id>windows-endpoint-security-platform-wesp</id>
+        <link href="https://www.elastic.co/security-labs/blog/windows-endpoint-security-platform-wesp"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft wants EDR out of the Windows kernel, and the preview binaries show wesp.sys telling a user-mode client that a process is starting, with nothing in its imports to let that client block it.]]></summary>
+        <author>
+            <name>Pavel Yosifovich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux hacking part 12: LD_PRELOAD function interposition. Simple C examples]]></title>
+        <id>https://cocomelonc.github.io/linux/2026/10/26/linux-hacking-12.html</id>
+        <link href="https://cocomelonc.github.io/linux/2026/10/26/linux-hacking-12.html"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles]]></title>
         <id>https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles</id>
@@ -1991,36 +2032,6 @@ Yes, that sound in your ears is screaming. The footgun has gone off again, shock
         <summary type="html"><![CDATA[The native Sublime Security integration sends email detections into Elastic Security, where phishing incident response can tie a quarantined email to what happens next on the endpoint and pull the threat from every mailbox it reached.]]></summary>
         <author>
             <name>Sandiya Ramamoorthy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1 little known secret of aidd.dll]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10401</id>
-        <link href="https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-aidd-dll/"/>
-        <updated>2026-09-26T23:39:13.000Z</updated>
-        <summary type="html"><![CDATA[When you run (from admin account): rundll32 aidd.dll, AiddRunTask a lot of interesting things are happening. There are at least 2 files of interest being created: c:\Windows\appcompat\AIDD\AIDDProcessLoadedDllListDBdump.txtc:\Windows\appcompat\AIDD\ProcessLoadedDllList.db They include a textual and SQLite-based list of executables running and DLLs loaded. … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1 little known secret of WinCsFlags.exe]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10398</id>
-        <link href="https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-wincsflags-exe/"/>
-        <updated>2026-09-26T22:40:02.000Z</updated>
-        <summary type="html"><![CDATA[The WinCsFlags.exe program accepts an undocumented command line argument “-w”. When you invoke it like this: WinCsFlags.exe -w it will go into a never-ending loop waiting for the debugger to be attached.]]></summary>
-        <author>
-            <name>adam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1 little known secret of UIEOrchestratorStub.exe]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10396</id>
-        <link href="https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-uieorchestratorstub-exe/"/>
-        <updated>2026-09-26T22:28:46.000Z</updated>
-        <summary type="html"><![CDATA[When you run UIEOrchestratorStub.exe it executes UIEOrchestrator.exe program located here: %SystemRoot%\uus\<architecture>\UIEOrchestrator.exe So, changing the SystemRoot environment variable to point to your chosen path will lead to execution by proxy. On a 64-bit Windows 11 26H2, we can try this: set … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>

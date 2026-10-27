@@ -163,6 +163,16 @@
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": [
         {
+          "id": "https://www.netspi.com/?p=34702",
+          "author": "Aussan Saad-Ali",
+          "description": "NetSPI Salesforce expert Aussan explores how holding identity steady across UI API, GraphQL, and custom @AuraEnabled Apex methods reveals hidden authorization gaps.\nThe post Authorization Differential Testing in Salesforce appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/authorization-differential-testing-in-salesforce/",
+          "publishedOn": "2026-10-26T19:17:06.000Z",
+          "wordCount": 5153,
+          "title": "Authorization Differential Testing in Salesforce",
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/10/10.24.26_TECH_Salesforce-Authorization-Differential-Testing_1200x630.jpg"
+        },
+        {
           "id": "https://www.netspi.com/?p=34611",
           "author": "Scott Weston",
           "description": "Discover how a permission bypass in Oracle Cloud Infrastructure (OCI) identity domains allowed lower-level administrator roles to create API keys for Identity Domain Administrators, leading to an unauthenticated privilege escalation path.\nThe post Administrating the Administrator, An OCI Identity Domains Permission Bypass appeared first on NetSPI.",
@@ -14162,36 +14172,6 @@
           "wordCount": 515,
           "title": "EtwCheckCoverage API",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10401",
-          "author": "adam",
-          "description": "When you run (from admin account): rundll32 aidd.dll, AiddRunTask a lot of interesting things are happening. There are at least 2 files of interest being created: c:\\Windows\\appcompat\\AIDD\\AIDDProcessLoadedDllListDBdump.txtc:\\Windows\\appcompat\\AIDD\\ProcessLoadedDllList.db They include a textual and SQLite-based list of executables running and DLLs loaded. … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-aidd-dll/",
-          "publishedOn": "2026-09-26T23:39:13.000Z",
-          "wordCount": 690,
-          "title": "1 little known secret of aidd.dll",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10398",
-          "author": "adam",
-          "description": "The WinCsFlags.exe program accepts an undocumented command line argument “-w”. When you invoke it like this: WinCsFlags.exe -w it will go into a never-ending loop waiting for the debugger to be attached.",
-          "link": "https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-wincsflags-exe/",
-          "publishedOn": "2026-09-26T22:40:02.000Z",
-          "wordCount": 510,
-          "title": "1 little known secret of WinCsFlags.exe",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.hexacorn.com/blog/?p=10396",
-          "author": "adam",
-          "description": "When you run UIEOrchestratorStub.exe it executes UIEOrchestrator.exe program located here: %SystemRoot%\\uus\\<architecture>\\UIEOrchestrator.exe So, changing the SystemRoot environment variable to point to your chosen path will lead to execution by proxy. On a 64-bit Windows 11 26H2, we can try this: set … Continue reading →",
-          "link": "https://www.hexacorn.com/blog/2026/09/26/1-little-known-secret-of-uieorchestratorstub-exe/",
-          "publishedOn": "2026-09-26T22:28:46.000Z",
-          "wordCount": 524,
-          "title": "1 little known secret of UIEOrchestratorStub.exe",
-          "imageUrl": null
         }
       ]
     },
@@ -15621,6 +15601,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "windows-endpoint-security-platform-wesp",
+          "author": "Pavel Yosifovich",
+          "description": "Microsoft wants EDR out of the Windows kernel, and the preview binaries show wesp.sys telling a user-mode client that a process is starting, with nothing in its imports to let that client block it.",
+          "link": "https://www.elastic.co/security-labs/blog/windows-endpoint-security-platform-wesp",
+          "publishedOn": "2026-10-26T00:00:00.000Z",
+          "wordCount": 25734,
+          "title": "Kernel eviction notice: What wesp.sys reveals about the Windows Endpoint Security Platform",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt28b3f8a172b9cb89/6adf78e3629a0812d6b2aad8/image3.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt28b3f8a172b9cb89/6adf78e3629a0812d6b2aad8/image3.png"
+        },
+        {
           "id": "command-injection-zimbra-cve-2026-73570",
           "author": "Eric Forte",
           "description": "We reproduced the Zimbra command injection vulnerability and found that several public PoCs write a payload Swatchdog never matches, so a failed test looks like a patched server.",
@@ -15830,6 +15825,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning",
+          "author": "Shay Berkovich",
+          "description": "GitHub's 2026 Actions changes make pull_request_target attacks harder, but not impossible. Here's the residual attack surface and how to audit for it.",
+          "link": "https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning",
+          "publishedOn": "2026-10-26T13:24:12.000Z",
+          "wordCount": 26178,
+          "title": "The Pwn Request Reckoning: What Still Works Against GitHub Actions",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1792497789-image.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1792497789-image.png"
+        },
         {
           "id": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
           "author": "Rami McCarthy",
@@ -16107,6 +16117,16 @@
       "feedUrl": "https://cocomelonc.github.io/feed.xml",
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
+        {
+          "id": "https://cocomelonc.github.io/linux/2026/10/26/linux-hacking-12.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/linux/2026/10/26/linux-hacking-12.html",
+          "publishedOn": "2026-10-26T00:00:00.000Z",
+          "wordCount": 2167,
+          "title": "Linux hacking part 12: LD_PRELOAD function interposition. Simple C examples",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/230/2026-10-27_01-21.png"
+        },
         {
           "id": "https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html",
           "author": null,
