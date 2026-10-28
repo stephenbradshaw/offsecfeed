@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-27T02:53:12.192Z</updated>
+    <updated>2026-10-28T03:00:49.197Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit]]></title>
+        <id>https://www.praetorian.com/?p=13327</id>
+        <link href="https://www.praetorian.com/blog/php2shell/"/>
+        <updated>2026-10-27T19:31:40.000Z</updated>
+        <summary type="html"><![CDATA[Cutting Through the php2shell Noise On October 20, details of php2shell, two pre-auth RCE vulnerabilities in the PHP core discovered by Calif (CVE-2026-109618 and CVE-2026-109619), leaked ahead of coordinated disclosure. Advisories listing affected versions followed quickly, along with a flood of PoCs, many AI-generated and non-functional. We waited until we had our own data. This […]
+The post php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit appeared first on Praetorian.]]></summary>
+        <author>
+            <name>Michelle Rhodes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft]]></title>
+        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ad793cedec4dc22329901f0</id>
+        <link href="https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft"/>
+        <updated>2026-10-27T16:39:07.000Z</updated>
+        <summary type="html"><![CDATA[On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue.
+In this blog post, we will walk through each of these vulnerabilities, starting with a Server-Side Request Forgery (SSRF) vulnerability. We will also review the validateClient method that Oracle introduced to allow PeopleSoft system administrators to restrict access to certain functiona…]]></summary>
+        <author>
+            <name>Bobby Gould</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scalable Vector Grief]]></title>
+        <id>scalable-vector-grief</id>
+        <link href="https://portswigger.net/research/scalable-vector-grief"/>
+        <updated>2026-10-27T14:29:26.000Z</updated>
+        <summary type="html"><![CDATA[I tested eight popular SVG sanitizers and bypassed six of them. In this post, I'll show you how a response header can run JavaScript in Firefox even when the response body is completely harmless XML.]]></summary>
+        <author>
+            <name>PortSwigger Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP2Shell: Exploitation Attempts and Remediation Trends]]></title>
+        <id>https://www.wiz.io/blog/php2shell-exploitation-so-far</id>
+        <link href="https://www.wiz.io/blog/php2shell-exploitation-so-far"/>
+        <updated>2026-10-27T13:21:45.000Z</updated>
+        <summary type="html"><![CDATA[Wiz research has been monitoring PHP2Shell exploitation attempts, but none have succeeded so far. We examine the techniques used, what prevented the attacks from completing and how observed exposure has changed since disclosure.]]></summary>
+        <author>
+            <name>Yaara Shriki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Responder Guidance for PHP2Shell (CVE-2026-109618 and CVE-2026-109619)]]></title>
+        <id>https://bishopfox.com/blog/responder-guidance-for-php2shell</id>
+        <link href="https://bishopfox.com/blog/responder-guidance-for-php2shell"/>
+        <updated>2026-10-27T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On October 21, 2026, the PHP project disclosed two critical memory-corruption vulnerabilities that can allow unauthenticated remote code execution. Both are fixed in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Every PHP install serving web requests is in scope,]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines]]></title>
+        <id>https://projectzero.google/2026/10/fuzzing-v-AI.html</id>
+        <link href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
+        <updated>2026-10-27T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number of vulnerabilities that get reported before they impact users.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ElectroNG is now open source!]]></title>
+        <id>https://blog.doyensec.com/2026/10/27/electrong-oss.html</id>
+        <link href="https://blog.doyensec.com/2026/10/27/electrong-oss.html"/>
+        <updated>2026-10-26T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ElectroNG is now free and open source! Today we are releasing both the desktop application and its core analysis engine under the Apache License 2.0, opening up years of Doyensec’s work on Electron application security to the community.
+
+  
+
+Why we are open-sourcing ElectroNG
+We launched ElectroNG in September 2022 as a commercial static application security testing (SAST) tool for Electron applications. It grew out of our experience auditing Electron apps and developing Electronegativity, with the goal of turning that research into a more capable scanner and an easier workflow for developers and security researchers.
+We are proud of what we built. However, despite our best efforts, we could not build a customer base large enough to sustain its development, and we stopped selling licenses …]]></summary>
+        <author>
+            <name>Doyensec's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Authorization Differential Testing in Salesforce]]></title>
         <id>https://www.netspi.com/?p=34702</id>
@@ -15,6 +93,16 @@
 The post Authorization Differential Testing in Salesforce appeared first on NetSPI.]]></summary>
         <author>
             <name>Aussan Saad-Ali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tech Partner Spotlight: Jamf + sync.blue®]]></title>
+        <id>https://www.jamf.com/blog/tech-partner-spotlight-jamf-syncblue/</id>
+        <link href="https://www.jamf.com/blog/tech-partner-spotlight-jamf-syncblue/"/>
+        <updated>2026-10-26T15:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Jamf and sync.blue® automatically sync corporate contacts to every managed iPhone device, delivering caller ID with zero IT effort.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -189,6 +277,16 @@ The post PHP2Shell and what the AI headlines are missing  appeared first on Pen
         <summary type="html"><![CDATA[Connecting AI to enterprise systems changes what organizations entrust software to do. An agent that can query internal databases or modify business records has operational authority, and the scope of that authority becomes a security decision.]]></summary>
         <author>
             <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why manual device setup is slowing down your entire school]]></title>
+        <id>https://www.jamf.com/blog/automate-school-device-deployment/</id>
+        <link href="https://www.jamf.com/blog/automate-school-device-deployment/"/>
+        <updated>2026-10-21T16:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Every manual touch in your device deployment is a chance for something to fail. Find the bottlenecks and automate them so IT can focus on more important tasks.]]></summary>
+        <author>
+            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
@@ -2001,37 +2099,6 @@ The post Penetration Testing Vendor Comparison: What Enterprises Should Compare 
         <summary type="html"><![CDATA[Elastic InfoSec runs Linux endpoint management through Elastic Defend with a scheduled workflow that gets Cursor and Codex config onto new laptops without piling up duplicate actions on offline hosts, and it works for other config too.]]></summary>
         <author>
             <name>Wieger van der Meulen,Spencer Niemi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing the Wiz Partner Alliance Managed Service Provider Program]]></title>
-        <id>https://www.wiz.io/blog/introducing-wiz-partner-alliance-managed-service-provider-program</id>
-        <link href="https://www.wiz.io/blog/introducing-wiz-partner-alliance-managed-service-provider-program"/>
-        <updated>2026-09-28T12:58:02.000Z</updated>
-        <summary type="html"><![CDATA[Empowering managed services partners to deliver world-class cloud and AI security at scale]]></summary>
-        <author>
-            <name>Andy Ritchie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)]]></title>
-        <id>6aba3d3b2e399c0001db9902</id>
-        <link href="https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/"/>
-        <updated>2026-09-28T10:55:54.000Z</updated>
-        <summary type="html"><![CDATA[God damn it, we're back in the room again. 
-Yes, that sound in your ears is screaming. The footgun has gone off again, shockingly, and we are yet again dealing with a situation where the entire world apparently knew about Citrix NetScaler CVEs before Citrix had woken up]]></summary>
-        <author>
-            <name>Sina Kheirkhah (@SinSinology)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quarantined isn't contained: Agentic phishing response with Elastic and Sublime]]></title>
-        <id>phishing-incident-response-sublime-security</id>
-        <link href="https://www.elastic.co/security-labs/blog/phishing-incident-response-sublime-security"/>
-        <updated>2026-09-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The native Sublime Security integration sends email detections into Elastic Security, where phishing incident response can tie a quarantined email to what happens next on the endpoint and pull the threat from every mailbox it reached.]]></summary>
-        <author>
-            <name>Sandiya Ramamoorthy</name>
         </author>
     </entry>
     <entry>
