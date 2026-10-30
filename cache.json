@@ -44,16 +44,6 @@
           "wordCount": 5420,
           "title": "What the 2026 Microsoft Digital Defense Report reveals about AI, identity, and the future of cybersecurity",
           "imageUrl": null
-        },
-        {
-          "id": "https://specterops.io/?p=30030",
-          "author": "Katherine",
-          "description": "TL;DR: Adversary Intelligence: LLM Tradecraft is a new on-demand course covering how modern LLMs and agentic systems work, how they can be exploited, and how to secure them in practice.  In July of this year, we released our first on-demand courses as part of the SpecterOps Tradecraft Academy. Today, we’re excited to introduce our new […]\nThe post Introducing Adversary Intelligence: LLM Tradecraft appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/09/30/introducing-adversary-intelligence-llm-tradecraft/",
-          "publishedOn": "2026-09-30T11:30:00.000Z",
-          "wordCount": 4952,
-          "title": "Introducing Adversary Intelligence: LLM Tradecraft",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/09/LLMTradecraft_2000x1000_A.jpg"
         }
       ]
     },
@@ -176,6 +166,16 @@
       "siteUrl": "https://blog.silentsignal.eu/",
       "articles": [
         {
+          "id": "https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/",
+          "author": null,
+          "description": "The Rijndael key builder in Part 1 worked for the first set of samples, but its split-buffer model was wrong. QSYS/QZLSRTPW builds one 32-byte value, 00×5 ‖ des_plaintext_16 ‖ format_byte ‖ username_cp037_10, and insertion-sorts all 32 bytes in ascending order. I tested the corrected decoder against almost 900 QSYRUPWD API output buffers, which IBM i calls receiver variables. The decoder decrypted the 192-byte QZLS ciphertext field in every receiver that contained it and reproduced its embedded username.",
+          "link": "https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/",
+          "publishedOn": "2026-10-29T14:00:00.000Z",
+          "wordCount": 2774,
+          "title": "QSYRUPWD, Part 2: Correcting the Rijndael Key Builder",
+          "imageUrl": "https://blog.silentsignal.eu/assets/img//img/part2.gif"
+        },
+        {
           "id": "https://blog.silentsignal.eu/2026/10/06/512-bytes-at-a-time-reconstructing-IBM-i-save-file-checksums/",
           "author": null,
           "description": "Intro",
@@ -259,16 +259,6 @@
           "publishedOn": "2026-10-01T18:45:21.000Z",
           "wordCount": 3178,
           "title": "Overview of Content Published in September",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11200",
-          "author": "Didier Stevens",
-          "description": "I’ve noticed when a zlib compressed chunk of data is followed by other data, search-for-compression.py will not always be able to detect the compressed chunk. This is caused by the fact that the other data generates a decompression error, and the complete chunk is disregarded. I’ve added a new option to try to solve this: […]",
-          "link": "https://blog.didierstevens.com/2026/09/30/update-search-for-compression-py-version-0-0-8/",
-          "publishedOn": "2026-09-30T07:33:32.000Z",
-          "wordCount": 3291,
-          "title": "Update: search-for-compression.py Version 0.0.8",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
@@ -14311,16 +14301,6 @@
           "wordCount": 3412,
           "title": "Your AI can access it. Can an attacker?",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/10/cory-top-ten-headlinev3.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44695",
-          "author": "Alex Wallace",
-          "description": "TL;DR What systems are needed for the safe operation of a vessel? Most people in shipping can answer that without pausing. The fire pumps, the steering gear, the main engine, the power management system, and many more. Everyone agrees on those. The rules are built around them, they are certified and surveyed, and crews drill […]\nThe post Safe, but sailing nowhere. Can you stop a fleet of ships? appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/safe-and-going-nowhere/",
-          "publishedOn": "2026-09-30T14:14:28.000Z",
-          "wordCount": 3637,
-          "title": "Safe, but sailing nowhere. Can you stop a fleet of ships?",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2021/09/Safe-but-sailing-nowhere.-Can-you-stop-a-fleet-of-ships-HEADLINE-IMAGE-1024x576.png"
         }
       ]
     },
@@ -14498,6 +14478,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/journey-into-claudes-sandbox",
+          "author": null,
+          "description": "What started as a question about Claude’s sandbox turned into a connected investigation of container internals, process memory, and authorization tokens. Bishop Fox researcher Chris Davis documents what Claude revealed, what it handed over, and what that means for defense in depth.",
+          "link": "https://bishopfox.com/blog/journey-into-claudes-sandbox",
+          "publishedOn": "2026-10-29T13:00:00.000Z",
+          "wordCount": 4062,
+          "title": "A Journey into Claude's Sandbox",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_Journey-Claudes-Sandbox.png?mtime=1793287613"
+        },
+        {
           "id": "https://bishopfox.com/blog/responder-guidance-for-php2shell",
           "author": null,
           "description": "On October 21, 2026, the PHP project disclosed two critical memory-corruption vulnerabilities that can allow unauthenticated remote code execution. Both are fixed in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Every PHP install serving web requests is in scope,",
@@ -14566,16 +14556,6 @@
           "wordCount": 4395,
           "title": "One Port to Root: Weaponizing Check Point Management CVE-2026-93616",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Weaponizing-Check-Point-Management-CVE-2026-93616.png?mtime=1790890079"
-        },
-        {
-          "id": "https://bishopfox.com/blog/triaging-cves-in-age-of-ai-security-research",
-          "author": null,
-          "description": "AI-assisted research is flooding the CVE pipeline with bugs that score critical but depend on configurations almost nobody runs. Bishop Fox tested four high-profile Nginx CVEs in the lab, measured real-world prevalence, and explains how to separate actual risk from well-marketed noise.",
-          "link": "https://bishopfox.com/blog/triaging-cves-in-age-of-ai-security-research",
-          "publishedOn": "2026-09-30T13:00:00.000Z",
-          "wordCount": 4827,
-          "title": "Separating Signal from Slop: Triaging CVEs in the Age of AI Security Research",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Separating-Signal-from-Slop_SEO-Tile.png?mtime=1790869024"
         }
       ]
     },
@@ -15873,16 +15853,6 @@
           "wordCount": 2156,
           "title": "What does a good digital employee experience actually look like on Mac?",
           "imageUrl": "https://media.jamf.com/images/news/2026/good-digital-employee-experience-mac.webp?h=500&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/what-is-commercial-spyware/",
-          "author": null,
-          "description": "Commercial spyware — from nation-state tools to consumer stalkerware — can silently compromise mobile devices and expose sensitive data without any visible sign of infection. Learn more.",
-          "link": "https://www.jamf.com/blog/what-is-commercial-spyware/",
-          "publishedOn": "2026-09-29T19:09:00.000Z",
-          "wordCount": 2865,
-          "title": "Commercial spyware: the invisible threat in your pocket",
-          "imageUrl": "https://media.jamf.com/images/news/2026/what-is-commercial-spyware.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -15913,6 +15883,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/the-rise-of-agentic-attacks",
+          "author": "Avigayil Mechtinger",
+          "description": "AI agents are changing how attackers operate. Explore real-world cases of agentic attacks, learn how to identify their fingerprints, and discover what they mean for the future of cybersecurity.",
+          "link": "https://www.wiz.io/blog/the-rise-of-agentic-attacks",
+          "publishedOn": "2026-10-29T14:26:22.000Z",
+          "wordCount": 31077,
+          "title": "The Rise of Agentic Attacks: What They Look Like, and Where They're Headed",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1793285930-the-rise-of-agentic-attacks2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1793285930-the-rise-of-agentic-attacks2.png"
+        },
         {
           "id": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
           "author": "Yaara Shriki",
@@ -16191,6 +16176,16 @@
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
         {
+          "id": "https://cocomelonc.github.io/malware/2026/10/27/malware-cryptography-46.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/malware/2026/10/27/malware-cryptography-46.html",
+          "publishedOn": "2026-10-27T23:00:00.000Z",
+          "wordCount": 6076,
+          "title": "Malware and cryptography 46 - a tiny neural distinguisher for Speck. C and PyTorch examples.",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/231/2026-10-29_13-05.png"
+        },
+        {
           "id": "https://cocomelonc.github.io/linux/2026/10/26/linux-hacking-12.html",
           "author": null,
           "description": "﷽",
@@ -16229,16 +16224,6 @@
           "wordCount": 3201,
           "title": "Malware development trick 67: Run shellcode via CreateThreadpoolWait. C and assembly examples",
           "imageUrl": "https://cocomelonc.github.io/assets/images/227/2026-10-08_07-49_1.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html",
-          "publishedOn": "2026-09-30T02:00:00.000Z",
-          "wordCount": 2810,
-          "title": "Reversing embedded WebAssembly: part 1. Cracking the WAMR .aot container in pure C.",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/226/2026-10-01_16-49.png"
         }
       ]
     },

@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-10-29T03:28:09.454Z</updated>
+    <updated>2026-10-30T03:29:45.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Rise of Agentic Attacks: What They Look Like, and Where They're Headed]]></title>
+        <id>https://www.wiz.io/blog/the-rise-of-agentic-attacks</id>
+        <link href="https://www.wiz.io/blog/the-rise-of-agentic-attacks"/>
+        <updated>2026-10-29T14:26:22.000Z</updated>
+        <summary type="html"><![CDATA[AI agents are changing how attackers operate. Explore real-world cases of agentic attacks, learn how to identify their fingerprints, and discover what they mean for the future of cybersecurity.]]></summary>
+        <author>
+            <name>Avigayil Mechtinger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QSYRUPWD, Part 2: Correcting the Rijndael Key Builder]]></title>
+        <id>https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/</id>
+        <link href="https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/"/>
+        <updated>2026-10-29T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rijndael key builder in Part 1 worked for the first set of samples, but its split-buffer model was wrong. QSYS/QZLSRTPW builds one 32-byte value, 00×5 ‖ des_plaintext_16 ‖ format_byte ‖ username_cp037_10, and insertion-sorts all 32 bytes in ascending order. I tested the corrected decoder against almost 900 QSYRUPWD API output buffers, which IBM i calls receiver variables. The decoder decrypted the 192-byte QZLS ciphertext field in every receiver that contained it and reproduced its embedded username.]]></summary>
+        <author>
+            <name>Silent Signal Techblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Journey into Claude's Sandbox]]></title>
+        <id>https://bishopfox.com/blog/journey-into-claudes-sandbox</id>
+        <link href="https://bishopfox.com/blog/journey-into-claudes-sandbox"/>
+        <updated>2026-10-29T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What started as a question about Claude’s sandbox turned into a connected investigation of container internals, process memory, and authorization tokens. Bishop Fox researcher Chris Davis documents what Claude revealed, what it handed over, and what that means for defense in depth.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quickpost: Uranium Glass]]></title>
         <id>http://blog.didierstevens.com/?p=11214</id>
@@ -55,6 +85,16 @@
 The post Automated warehouses: 8 third parties, one network and no owner  appeared first on Pen Test Partners.]]></summary>
         <author>
             <name>Alex Wallace</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malware and cryptography 46 - a tiny neural distinguisher for Speck. C and PyTorch examples.]]></title>
+        <id>https://cocomelonc.github.io/malware/2026/10/27/malware-cryptography-46.html</id>
+        <link href="https://cocomelonc.github.io/malware/2026/10/27/malware-cryptography-46.html"/>
+        <updated>2026-10-27T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
         </author>
     </entry>
     <entry>
@@ -2037,38 +2077,6 @@ The post MCP Beyond the Spec: Inside Codex and Claude Code appeared first on Out
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Safe, but sailing nowhere. Can you stop a fleet of ships?]]></title>
-        <id>https://www.pentestpartners.com/?p=44695</id>
-        <link href="https://www.pentestpartners.com/security-blog/safe-and-going-nowhere/"/>
-        <updated>2026-09-30T14:14:28.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR What systems are needed for the safe operation of a vessel? Most people in shipping can answer that without pausing. The fire pumps, the steering gear, the main engine, the power management system, and many more. Everyone agrees on those. The rules are built around them, they are certified and surveyed, and crews drill […]
-The post Safe, but sailing nowhere. Can you stop a fleet of ships? appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Separating Signal from Slop: Triaging CVEs in the Age of AI Security Research]]></title>
-        <id>https://bishopfox.com/blog/triaging-cves-in-age-of-ai-security-research</id>
-        <link href="https://bishopfox.com/blog/triaging-cves-in-age-of-ai-security-research"/>
-        <updated>2026-09-30T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AI-assisted research is flooding the CVE pipeline with bugs that score critical but depend on configurations almost nobody runs. Bishop Fox tested four high-profile Nginx CVEs in the lab, measured real-world prevalence, and explains how to separate actual risk from well-marketed noise.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Adversary Intelligence: LLM Tradecraft]]></title>
-        <id>https://specterops.io/?p=30030</id>
-        <link href="https://specterops.io/blog/2026/09/30/introducing-adversary-intelligence-llm-tradecraft/"/>
-        <updated>2026-09-30T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR: Adversary Intelligence: LLM Tradecraft is a new on-demand course covering how modern LLMs and agentic systems work, how they can be exploited, and how to secure them in practice.  In July of this year, we released our first on-demand courses as part of the SpecterOps Tradecraft Academy. Today, we’re excited to introduce our new […]
-The post Introducing Adversary Intelligence: LLM Tradecraft appeared first on SpecterOps.]]></summary>
-        <author>
-            <name>Katherine</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Penetration Testing for Compliance Officers: A Non-Technical Buyer’s Guide]]></title>
         <id>https://www.synack.com/?p=30018</id>
         <link href="https://www.synack.com/blog/penetration-testing-for-compliance-officers/"/>
@@ -2077,36 +2085,6 @@ The post Introducing Adversary Intelligence: LLM Tradecraft appeared first on Sp
 The post Penetration Testing for Compliance Officers: A Non-Technical Buyer’s Guide appeared first on Synack.]]></summary>
         <author>
             <name>Paul Mote</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: search-for-compression.py Version 0.0.8]]></title>
-        <id>http://blog.didierstevens.com/?p=11200</id>
-        <link href="https://blog.didierstevens.com/2026/09/30/update-search-for-compression-py-version-0-0-8/"/>
-        <updated>2026-09-30T07:33:32.000Z</updated>
-        <summary type="html"><![CDATA[I’ve noticed when a zlib compressed chunk of data is followed by other data, search-for-compression.py will not always be able to detect the compressed chunk. This is caused by the fact that the other data generates a decompression error, and the complete chunk is disregarded. I’ve added a new option to try to solve this: […]]]></summary>
-        <author>
-            <name>Didier Stevens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reversing embedded WebAssembly: part 1. Cracking the WAMR .aot container in pure C.]]></title>
-        <id>https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html</id>
-        <link href="https://cocomelonc.github.io/reverse/2026/09/30/wasm-aot-reversing-1.html"/>
-        <updated>2026-09-30T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[﷽]]></summary>
-        <author>
-            <name>cocomelonc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Commercial spyware: the invisible threat in your pocket]]></title>
-        <id>https://www.jamf.com/blog/what-is-commercial-spyware/</id>
-        <link href="https://www.jamf.com/blog/what-is-commercial-spyware/"/>
-        <updated>2026-09-29T19:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Commercial spyware — from nation-state tools to consumer stalkerware — can silently compromise mobile devices and expose sensitive data without any visible sign of infection. Learn more.]]></summary>
-        <author>
-            <name>Jamf Blog</name>
         </author>
     </entry>
     <entry>
