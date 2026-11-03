@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-02T03:21:56.278Z</updated>
+    <updated>2026-11-03T04:33:36.877Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quickpost: Banana Equivalent Dose]]></title>
+        <id>http://blog.didierstevens.com/?p=11302</id>
+        <link href="https://blog.didierstevens.com/2026/11/03/quickpost-banana-equivalent-dose/"/>
+        <updated>2026-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From the Banana equivalent dose article in Wikipedia: The major natural source of radioactivity in plant tissue is potassium: 0.0117% of the naturally occurring potassium is the unstable isotope potassium-40. This isotope decays with a half-life of about 1.25 billion years (4×1016 seconds), and therefore the radioactivity of natural potassium is about 31 becquerel/gram (Bq/g), […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quickpost: Rad Pro]]></title>
+        <id>http://blog.didierstevens.com/?p=11293</id>
+        <link href="https://blog.didierstevens.com/2026/11/02/quickpost-rad-pro/"/>
+        <updated>2026-11-02T21:10:28.000Z</updated>
+        <summary type="html"><![CDATA[While researching the inner workings of Geiger-Müller counters, I stumbled upon Rad Pro. It’s an open-source project developing firmware for cheap GM meters. You get yourself a GM meter and replace its firmware with Rad Pro. For some meters (like FNIRSI), it’s as simple as mounting the meter as a USB storage device and copying […]]]></summary>
+        <author>
+            <name>Didier Stevens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Reactive to Proactive: Empowering SOC Teams with the Wiz Red and Blue Agents]]></title>
+        <id>https://www.wiz.io/blog/soc-alerts-red-and-blue-agents</id>
+        <link href="https://www.wiz.io/blog/soc-alerts-red-and-blue-agents"/>
+        <updated>2026-11-02T13:13:46.000Z</updated>
+        <summary type="html"><![CDATA[Red Agent gives SOC teams validated pre-breach alerts, while Blue Agent investigates active threats at machine speed, helping teams stay ahead in the AI threat era.]]></summary>
+        <author>
+            <name>Tal Moriah</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backporting security fixes at scale with Codex]]></title>
+        <id>https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/</id>
+        <link href="https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/"/>
+        <updated>2026-11-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149 distinct CVEs into stable Linux kernel releases, and several fixes to Fedora and Ubuntu packages.
+Deploying fixes to older software requires multiple steps, including adapting fixes to older code, checking dependencies, and ensuring the fix did not introduce new bugs. A single task (like tracking down a bug in a bad commit) can take a week or more of effort that no one sees or appreciates.
+Our Co…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dangerous Device: Exploiting CVE-2026-31695 in the Linux Kernel via struct device]]></title>
+        <id>https://a13xp0p0v.tech/2026/11/02/CVE-2026-31695.html</id>
+        <link href="https://a13xp0p0v.tech/2026/11/02/CVE-2026-31695.html"/>
+        <updated>2026-11-02T10:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Several months ago, I discovered and fixed an interesting Linux kernel vulnerability CVE-2026-31695, which was caused by a logical bug in network device management. This vulnerability had been present in the kernel code for nearly 5 years. In this article, I will describe the exploit for this vulnerability providing local privilege escalation (LPE) on Fedora 44 Server for the x86_64 architecture. I will demonstrate how to bypass the security hardening mechanisms and gain full control over the operating system by spoofing a struct device. Moreover, I will explain how to make the attack absolutely stable, despite the elusive race condition during the exploitation of CVE-2026-31695. Let's go 🚀]]></summary>
+        <author>
+            <name>Alexander Popov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brace yourself]]></title>
+        <id>https://pentesterlab.com/blog/brace-yourself</id>
+        <link href="https://pentesterlab.com/blog/brace-yourself"/>
+        <updated>2026-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PHP, Brotli and the Linux kernel, I think we are going to have a lot of patching to do over the next few years. People are calling it the "vulnpocalypse", and if we keep getting weeks like this, many organisations are going to struggle to keep up.
+      
+Frequency Reduces Difficulty: "If it hurts, do it more often".
+      
+vulnerabilities are cattle, not pets, I would rather spend time making updates easier than repeatedly debating which bugs deserve fixing. Agents can prepare upgrades, review changes and investigate failures in isolated environments without production credentials. Use cooldowns for routine updates, with a faster route for urgent fixes. Verify that the fixed build and bundled dependencies are actually running, including any necessary restarts.
+          
+        
+        
+…]]></summary>
+        <author>
+            <name>PentesterLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Phoenix: RootPipe lives! ...even on OS X 10.10.3]]></title>
         <id>https://objective-see.org/blog.html#blogEntry3</id>
@@ -2025,16 +2095,6 @@ The post Turn Scanner Findings into Validated Risk with Synack and Qualys appear
         <summary type="html"><![CDATA[This article explains how Elastic SIEM uses a monthly automated telemetry pipeline to score prebuilt detection rules across noise, performance, threat, and profile dimensions, helping security teams decide which rules to enable first.]]></summary>
         <author>
             <name>Kseniia Ignatovych,Samir Bousseaden,Terrance DeJesus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The boring state of stalled timelines…]]></title>
-        <id>https://www.hexacorn.com/blog/?p=10409</id>
-        <link href="https://www.hexacorn.com/blog/2026/10/03/the-boring-state-of-stalled-timelines/"/>
-        <updated>2026-10-03T23:35:26.000Z</updated>
-        <summary type="html"><![CDATA[The subject of timelines & supertimelines used to dominate many discussions in the digital forensic world… 10-15 years ago. At that time the concept of temporal proximity was super hot and for a good reason – once you put events … Continue reading →]]></summary>
-        <author>
-            <name>adam</name>
         </author>
     </entry>
     <entry>
