@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=30463",
+          "author": "Garrett Foster",
+          "description": "TL;DR –  Enumerating the right connection strings lets you impersonate an iSCSI initiator and access whatever is stored on a shared virtual hard disk. Acknowledgments As always, I want to acknowledge the prior work done by peers:  Himanshu Dwivedi – Who gave a talk at BlackHat back in 2005 (!!) on iSCSI Andrew Tierney – […]\nThe post Mi Scusi, My SCSI: Abusing iSCSI Target Server appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/11/04/unauthenticated-iscsi-target-server/",
+          "publishedOn": "2026-11-04T17:00:00.000Z",
+          "wordCount": 5723,
+          "title": "Mi Scusi, My SCSI: Abusing iSCSI Target Server",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/11/unauthenticated-iscsi-target-server.png"
+        },
+        {
           "id": "https://specterops.io/?p=30661",
           "author": "Raj Patel",
           "description": "For years, we thought LDAP and SMB signing protected us from NTLM relay attacks. However, we found that both protocols could be relay targets through re-authentication on a connection the attacker already owned. Signing was still enforced, just with the attacker known session key. Microsoft fixed SMB quietly in September 2026 and LDAP in October […]\nThe post Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication appeared first on SpecterOps.",
@@ -96,6 +106,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "making-http-header-injection-critical-with-one-prompt",
+          "author": null,
+          "description": "You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for",
+          "link": "https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt",
+          "publishedOn": "2026-11-04T15:12:29.000Z",
+          "wordCount": 1714,
+          "title": "Making HTTP header injection critical with one prompt",
+          "imageUrl": "https://portswigger.net/cms/images/dc/fa/477a-twittercard-header-injection-social-2400x1260_1.png"
+        },
+        {
           "id": "scalable-vector-grief",
           "author": null,
           "description": "I tested eight popular SVG sanitizers and bypassed six of them. In this post, I'll show you how a response header can run JavaScript in Firefox even when the response body is completely harmless XML.",
@@ -130,16 +150,6 @@
           "publishedOn": "2026-10-27T07:00:00.000Z",
           "wordCount": 6595,
           "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-          "imageUrl": "https://projectzero.google/images/preview_image.png"
-        },
-        {
-          "id": "https://projectzero.google/2026/10/emergency-patching.html",
-          "author": null,
-          "description": "Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned. This post provides an overview of systems in use by large vendors that allow them to remediate small volumes of vulnerabilities much faster than their typical update process. Our goal is to provide a reference for vendors seeking to implement or enhance the capabilities of such systems, and to encourage vendors to consider how they would fix an urgent vulnerability before they receive one.",
-          "link": "https://projectzero.google/2026/10/emergency-patching.html",
-          "publishedOn": "2026-10-06T07:00:00.000Z",
-          "wordCount": 2100,
-          "title": "How to fix a bug in a fix",
           "imageUrl": "https://projectzero.google/images/preview_image.png"
         }
       ]
@@ -182,6 +192,21 @@
       "feedUrl": "https://www.netspi.com/blog/technical-blog/feed/",
       "siteUrl": "https://www.netspi.com/blog/technical-blog/",
       "articles": [
+        {
+          "id": "https://www.netspi.com/?p=34710",
+          "author": "Thomas Elling",
+          "description": "Discover how threat actors leverage Microsoft Graph API Change Notifications and Rich Notifications for stealthy post-exploitation data exfiltration of Outlook emails and Teams messages. \nThe post You’ve Got (Graph) Mail – Leveraging Microsoft Graph API Change Notifications for Data Exfiltration appeared first on NetSPI.",
+          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/leveraging-microsoft-graph-api-change-notifications-for-data-exfiltration/",
+          "publishedOn": "2026-11-04T16:22:43.000Z",
+          "wordCount": 7250,
+          "title": "You’ve Got (Graph) Mail – Leveraging Microsoft Graph API Change Notifications for Data Exfiltration",
+          "enclosure": {
+            "url": "https://www.netspi.com/wp-content/uploads/2026/11/graphwebhooks-demo.mov",
+            "length": "9613478",
+            "type": "video/quicktime"
+          },
+          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/11/graph-techblog.png"
+        },
         {
           "id": "https://www.netspi.com/?p=34702",
           "author": "Aussan Saad-Ali",
@@ -14110,6 +14135,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+          "author": null,
+          "description": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The short answer: security.\nThat may come as a surprise to some. After all, cryptography and other security advancements have enabled secure electronic systems for many applications. In fact, cryptography can be used to provide two essential safeguards in elections: keeping (1) individual votes secret while (2) making the final tally independently verifiable. This is exactly the approach of cryptographic …",
+          "link": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+          "publishedOn": "2026-11-03T12:00:00.000Z",
+          "wordCount": 3097,
+          "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
+          "imageUrl": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/electronicvoting_socialbanner_updated.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/",
           "author": null,
           "description": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149 distinct CVEs into stable Linux kernel releases, and several fixes to Fedora and Ubuntu packages.\nDeploying fixes to older software requires multiple steps, including adapting fixes to older code, checking dependencies, and ensuring the fix did not introduce new bugs. A single task (like tracking down a bug in a bad commit) can take a week or more of effort that no one sees or appreciates.\nOur Co…",
@@ -14158,6 +14193,16 @@
       "feedUrl": "https://markitzeroday.com/feed.xml",
       "siteUrl": "https://markitzeroday.com/",
       "articles": [
+        {
+          "id": "https://markitzeroday.com/2026/11/04/device-bound-session-credentials-dbsc-should-us-pe.html",
+          "author": null,
+          "description": "I have been tracking the rollout of Device Bound Session Credentials (DBSC) for a while now. It is the latest industry attempt to solve the perennial problem of session hijacking. If you are regularly testing authentication flows, you have likely come across documentation or headers related to this.",
+          "link": "https://markitzeroday.com/2026/11/04/device-bound-session-credentials-dbsc-should-us-pe.html",
+          "publishedOn": "2026-11-04T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Device Bound Session Credentials: Time To Report or Not?",
+          "imageUrl": null
+        },
         {
           "id": "https://markitzeroday.com/2026/10/08/cookie-prefixes.html",
           "author": null,
@@ -14284,6 +14329,16 @@
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=44800",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Why WPA2-PSK is a corporate liability  Walk into a small to medium-sized office and there’s a good chance everyone is using the same Wi-Fi password. Staff know it, contractors might know it and sometimes it’s even written on a sign in reception. Convenient, certainly. But there’s a problem with giving everyone the same password. […]\nThe post The problem with shared Wi-Fi passwords at work  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/the-problem-with-shared-wi-fi-passwords-at-work/",
+          "publishedOn": "2026-11-04T15:49:10.000Z",
+          "wordCount": 3500,
+          "title": "The problem with shared Wi-Fi passwords at work",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/11/Eime-The-problem-with-shared-Wi-Fi-passwords-at-work-headlinev2-1024x576.png"
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=44782",
           "author": "Alex Wallace",
           "description": "TL;DR  Introduction  We spend a lot of time in industrial environments. Power stations, water treatment works, gas distribution networks, ships. One type of environment that gets far less attention from a security perspective is the automated warehouse.  These are not simple buildings with shelves and forklifts. A modern automated fulfilment centre is a dense, tightly […]\nThe post Automated warehouses: 8 third parties, one network and no owner  appeared first on Pen Test Partners.",
@@ -14373,18 +14428,7 @@
       "title": "Pentest Blog",
       "feedUrl": "https://pentest.blog/feed/",
       "siteUrl": "https://pentest.blog",
-      "articles": [
-        {
-          "id": "https://pentest.blog/cox-htm/",
-          "author": "Mehmet Ince",
-          "description": "hacked by trenggalek6etar – JATIM4U – Jangene_Cakep – Panataran – 0x1999 – 0xIDiot – Unlucky – Mr.Optimuz_Root",
-          "link": "https://pentest.blog/cox-htm/",
-          "publishedOn": "2026-10-06T00:27:31.000Z",
-          "wordCount": 979,
-          "title": "hacked by trenggalek6etar",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "XPN InfoSec Blog",
@@ -14440,6 +14484,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "bltffd49ffaf3ad58ae",
+          "author": "Gabriel Bernadett-Shapiro",
+          "description": "LLM reverse engineering scales only if analysis stays inspectable. A new standard and its open-source IDA Pro implementation tie annotations to evidence.",
+          "link": "https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reusable/",
+          "publishedOn": "2026-11-04T14:00:03.000Z",
+          "wordCount": null,
+          "title": "VerifiedIDA | Making LLM-Driven Reverse Engineering Inspectable, Continuable and Reusable",
+          "enclosure": {
+            "url": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt4e4c2045bbed6ccc/6aea3c57ee4b673d923e9951/VerifiedIDA_ftr.jpg",
+            "length": "556628",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt4e4c2045bbed6ccc/6aea3c57ee4b673d923e9951/VerifiedIDA_ftr.jpg"
+        },
+        {
           "id": "bltf375f8221ebc389d",
           "author": "Tom Hegel",
           "description": "Store fridges and freezers warmed overnight in six countries on November 2-3. Russian-aligned groups are credible suspects, but attribution remains open.",
@@ -14476,6 +14535,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=27295",
+          "author": "Felix Hartmond",
+          "description": "Moving to Detection-as-Code starts with making existing detection data reliable and machine-readable. In Part 2, we explain how we validated documents, built deployment tooling, scripted the migration, and used dry runs to verify that generated artefacts matched the existing setup.",
+          "link": "https://blog.nviso.eu/2026/11/04/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-2-execution/",
+          "publishedOn": "2026-11-04T10:29:49.000Z",
+          "wordCount": 4518,
+          "title": "Detection Engineering: Implementing Detection-as-Code in an Existing Environment: Part 2 – Execution",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/10/blog-linkedin-detection-part2.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=27290",
           "author": "Felix Hartmond",
@@ -14592,16 +14661,6 @@
           "wordCount": 4428,
           "title": "Submit and Execute: Weaponizing Reflected XSS in Siemens Teamcenter's Login Redirect (CVE-2026-58113)",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/CVE-2026-58113-Siemens-Teamcenter.png?mtime=1792020138"
-        },
-        {
-          "id": "https://bishopfox.com/blog/why-ai-attack-surface-extends-your-stack",
-          "author": null,
-          "description": "Integrating AI into enterprise applications creates risk across every layer of the stack, not just the model. This post maps the full AI attack surface, shows how a prompt injection can chain into credential theft and cross-tenant data exposure, and explains why isolated scanners miss most of it.",
-          "link": "https://bishopfox.com/blog/why-ai-attack-surface-extends-your-stack",
-          "publishedOn": "2026-10-06T13:00:00.000Z",
-          "wordCount": 3149,
-          "title": "Why the AI Attack Surface Extends Your Stack",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Why-AI-Attack-Surface-Extends-Stack.png?mtime=1791308957"
         }
       ]
     },
@@ -15827,26 +15886,6 @@
           "wordCount": 3692,
           "title": "Beyond model guardrails, part 3: when prevention fails",
           "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
-        },
-        {
-          "id": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
-          "author": null,
-          "description": "October is Cybersecurity Awareness Month! How is your cybersecurity practice going?",
-          "link": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
-          "publishedOn": "2026-10-06T15:50:00.000Z",
-          "wordCount": 2251,
-          "title": "Cybersecurity awareness month: a practitioner’s view",
-          "imageUrl": "https://media.jamf.com/images/news/2026/cybersecurity-awareness-month-a-practitioners-view.webp?h=500&q=80&w=800"
-        },
-        {
-          "id": "https://www.jamf.com/blog/good-digital-employee-experience-mac/",
-          "author": null,
-          "description": "Good DEX means employees never notice device management — they experience Apple devices that just work, updates that don't intrude and support that's easy to reach.",
-          "link": "https://www.jamf.com/blog/good-digital-employee-experience-mac/",
-          "publishedOn": "2026-10-05T19:49:00.000Z",
-          "wordCount": 2156,
-          "title": "What does a good digital employee experience actually look like on Mac?",
-          "imageUrl": "https://media.jamf.com/images/news/2026/good-digital-employee-experience-mac.webp?h=500&q=80&w=700"
         }
       ]
     },
@@ -15855,6 +15894,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "bltffd49ffaf3ad58ae",
+          "author": "Gabriel Bernadett-Shapiro",
+          "description": "LLM reverse engineering scales only if analysis stays inspectable. A new standard and its open-source IDA Pro implementation tie annotations to evidence.",
+          "link": "https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reusable/",
+          "publishedOn": "2026-11-04T14:00:03.000Z",
+          "wordCount": null,
+          "title": "VerifiedIDA | Making LLM-Driven Reverse Engineering Inspectable, Continuable and Reusable",
+          "enclosure": {
+            "url": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt4e4c2045bbed6ccc/6aea3c57ee4b673d923e9951/VerifiedIDA_ftr.jpg",
+            "length": "556628",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt4e4c2045bbed6ccc/6aea3c57ee4b673d923e9951/VerifiedIDA_ftr.jpg"
+        },
         {
           "id": "bltf375f8221ebc389d",
           "author": "Tom Hegel",
@@ -16191,36 +16245,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1791380287-blog-wiz-red-agent-caught-a-data-exposure-of-a-fortune-500-financial-services-customer.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/introducing-wiz-ai-sast",
-          "author": "Salman Ladha",
-          "description": "Find, validate, and fix complex business logic flaws with an AI code scanner backed by Wiz Research, operationalized within your existing security program.",
-          "link": "https://www.wiz.io/blog/introducing-wiz-ai-sast",
-          "publishedOn": "2026-10-06T13:47:28.000Z",
-          "wordCount": 23690,
-          "title": "Introducing Wiz AI SAST: Application Security that Understands Your Code and Your Infrastructure",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1790945909-ai-sast-2x-1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1790945909-ai-sast-2x-1.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-service-catalog-updates",
-          "author": "Omer Mesika",
-          "description": "Build your Service Catalog faster, keep service context current, and give teams a clearer path from cloud risk to accountability",
-          "link": "https://www.wiz.io/blog/wiz-service-catalog-updates",
-          "publishedOn": "2026-10-05T16:00:00.000Z",
-          "wordCount": 22831,
-          "title": "What’s New in Wiz Service Catalog: Smarter Discovery, Governance, and Service-Level Context",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1790968777-service-catalog-updates-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1790968777-service-catalog-updates-2x.png"
         }
       ]
     },
