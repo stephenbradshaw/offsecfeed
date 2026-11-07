@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=30790",
+          "author": "Lee Robinson",
+          "description": "TL;DR: App registrations are an app’s blueprint and hold its credentials in one home tenant. Service principals (what you see under Enterprise applications) are the identities that hold permissions in every tenant that uses the app, which is why one stolen credential in the ConnectWise Cloud Backup incident reached 100+ tenants. What are we talking […]\nThe post Principal Problems: App Registrations, Service Principals, and the Hidden Risk of Multi-Tenant Apps appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/11/06/app-registrations-vs-service-principals/",
+          "publishedOn": "2026-11-06T17:00:00.000Z",
+          "wordCount": 10183,
+          "title": "Principal Problems: App Registrations, Service Principals, and the Hidden Risk of Multi-Tenant Apps",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/11/Purple-green-tenant-diagram-with-orange-chevron.png"
+        },
+        {
           "id": "https://specterops.io/?p=30463",
           "author": "Garrett Foster",
           "description": "TL;DR –  Enumerating the right connection strings lets you impersonate an iSCSI initiator and access whatever is stored on a shared virtual hard disk. Acknowledgments As always, I want to acknowledge the prior work done by peers:  Himanshu Dwivedi – Who gave a talk at BlackHat back in 2005 (!!) on iSCSI Andrew Tierney – […]\nThe post Mi Scusi, My SCSI: Abusing iSCSI Target Server appeared first on SpecterOps.",
@@ -437,17 +447,6 @@
           "publishedOn": "2026-10-13T19:34:30.000Z",
           "wordCount": null,
           "title": "The October 2026 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac77289d821891d99ea6fa9",
-          "author": "Dustin Childs",
-          "description": "Day Three of Pwn2Own Ireland 2026 wrapsup with 17 attempts scheduled, roughly $1.33 million on the board.\nThe headliner is the Google Pixel 10, which draws three separate attempts: Xint at 11:15 AM, Ikotas Labs at 2:00 PM, and the Valsamaras/Ken Gannon (Djini.ai)/Valsamara team closing things out at 6:30 PM — by far the single biggest payday in play all week. The Samsung Galaxy S26 gets one more run too, from BunkyoWesterns at 4:15 PM. Smart Home stays busy with three attempts on the Philips Hue Bridge Pro and two closing attempts on Home Assistant Green, while AI Infrastructure sees two more shots at Oracle's Autonomous AI Database plus a single run at Chroma. Printers round things out with steady, lower-stakes attempts on the Brother, Canon, and Lexmark targets — and with Team MAMMOTH's …",
-          "link": "https://www.thezdi.com/blog/2026/10/8/pwn2own-ireland-2026-day-three-results-amp-master-of-pwn",
-          "publishedOn": "2026-10-08T10:41:14.000Z",
-          "wordCount": null,
-          "title": "Pwn2Own Ireland 2026 - Day Three Results & Master of Pwn",
           "itunes": {},
           "imageUrl": null
         }
@@ -14092,6 +14091,16 @@
       "siteUrl": "https://blog.trailofbits.com/",
       "articles": [
         {
+          "id": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
+          "author": null,
+          "description": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move.\nBinance’s initial update about the incident suggested that a compromised DevOps laptop allowed an attacker to access a service container and submit unauthorized withdrawals. Its second update reported additional breaches but no evidence that wallet private keys had leaked. In its November 3 report, Binance described a broader attack involving social engineering, misuse of an internal AI tool, stolen credentials, and unauthorized access to its wallet-signing…",
+          "link": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
+          "publishedOn": "2026-11-06T12:00:00.000Z",
+          "wordCount": 1105,
+          "title": "After Binance, check what your signing systems can approve",
+          "imageUrl": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/binance-socialbanner.png"
+        },
+        {
           "id": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
           "author": null,
           "description": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The short answer: security.\nThat may come as a surprise to some. After all, cryptography and other security advancements have enabled secure electronic systems for many applications. In fact, cryptography can be used to provide two essential safeguards in elections: keeping (1) individual votes secret while (2) making the final tally independently verifiable. This is exactly the approach of cryptographic …",
@@ -14158,16 +14167,6 @@
           "publishedOn": "2026-11-04T00:00:00.000Z",
           "wordCount": null,
           "title": "Device Bound Session Credentials: Time To Report or Not?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://markitzeroday.com/2026/10/08/cookie-prefixes.html",
-          "author": null,
-          "description": "I have spent a disproportionate amount of time looking at session management implementations this year. It is a recurring theme at the moment for me. You would think by now we would have solved basic cookie security, yet here we are. Developers rely heavily on flags like Secure and HttpOnly, but these can be circumvented through clever injection.",
-          "link": "https://markitzeroday.com/2026/10/08/cookie-prefixes.html",
-          "publishedOn": "2026-10-07T23:00:00.000Z",
-          "wordCount": null,
-          "title": "Cookie Prefixes: Strengthening Session Security",
           "imageUrl": null
         }
       ]
@@ -14334,16 +14333,6 @@
           "wordCount": 2903,
           "title": "You don’t need a nation state to warm up a fridge",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/10/You-dont-need-a-nation-state-to-warm-up-a-fridge-headlinev2-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44712",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Read, reach and trust  Prompt injection has gone mainstream. We have all seen the screenshots: someone tells a chatbot to ignore its previous instructions, it says something daft, and the internet has a good laugh. That does not make prompt injection trivial. It just means the easy examples sometimes hide why it matters.  From […]\nThe post Your AI can access it. Can an attacker?  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/your-ai-can-access-it-can-an-attacker/",
-          "publishedOn": "2026-10-08T11:38:35.000Z",
-          "wordCount": 3412,
-          "title": "Your AI can access it. Can an attacker?",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/10/cory-top-ten-headlinev3.png"
         }
       ]
     },
@@ -14637,6 +14626,26 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=31376",
+          "author": "Scott Ormiston",
+          "description": "Cloud penetration testing focuses on identity, configuration, and service-layer attack paths within the customer's side of the shared responsibility model, rather than the network perimeter a traditional test targets. Each major cloud provider sets its own rules for what testing is permitted without prior approval. Scope should be defined by accounts, identities, and services rather than IP ranges, since that is how risk concentrates in a cloud environment. In US government cloud environments, the provider's rules are only the first gate. Testing must also fit the system's authorization boundary and the agency's own rules of engagement.\nThe post Cloud Penetration Testing Services for Enterprise AWS, Azure, and GCP Environments appeared first on Synack.",
+          "link": "https://www.synack.com/blog/cloud-penetration-testing-services-aws-azure-gcp/",
+          "publishedOn": "2026-11-05T13:43:41.000Z",
+          "wordCount": 6527,
+          "title": "Cloud Penetration Testing Services for Enterprise AWS, Azure, and GCP Environments",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/cloud-penetration-testing-services-aws-azure-gcp.webp"
+        },
+        {
+          "id": "https://www.synack.com/?p=31345",
+          "author": "Tim Nordvedt",
+          "description": "Continuous automated penetration and attack testing uses tooling to run real attack techniques against an environment on an ongoing schedule, rather than during one scheduled engagement. It trades the depth of a fully human-led test for broad, repeatable coverage that runs continuously. The category has a real ceiling: findings that depend on business logic or multi-step reasoning still need a human tester to catch. Treat it as one layer of a testing program, not a replacement for the whole thing.\nThe post What Is Continuous Automated Penetration and Attack Testing? appeared first on Synack.",
+          "link": "https://www.synack.com/blog/what-is-continuous-automated-penetration-and-attack-testing/",
+          "publishedOn": "2026-11-03T17:50:15.000Z",
+          "wordCount": 5340,
+          "title": "What Is Continuous Automated Penetration and Attack Testing?",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/what-is-continuous-automated-penetration-and-attack-testing-og.webp"
+        },
+        {
           "id": "https://www.synack.com/?p=31251",
           "author": "PJ Schlumbrecht",
           "description": "A complete API penetration test should cover discovery, authentication, authorization across every role and tenant, data exposure, injection, abuse and rate limiting, business logic, and configuration, backed by reproducible evidence and a defined retest. The checklist below is written as buyer requirements: statements a security team can check a vendor's proposal or final report against, not instructions for performing the test yourself.\nThe post API Penetration Testing Checklist: What Enterprise Security Teams Should Require appeared first on Synack.",
@@ -14715,26 +14724,6 @@
           "wordCount": 5603,
           "title": "Web Application Penetration Testing Companies: What Enterprise Buyers Should Compare",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/Web-Application-Penetration-Testing-Companies-OG.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=30496",
-          "author": "Brandon Amundson",
-          "description": "AWS penetration testing is scoped by accounts, identities, and exposed workloads, not IP ranges. AWS lets customers test a defined list of services without prior approval, but it prohibits flooding, DNS attacks, and takeovers, and it requires approval for command-and-control and simulated events. Budget follows two drivers: account and IAM complexity for the cloud control plane, and the number of internet-facing applications for workload testing.\nThe post AWS Penetration Testing for Enterprises: What to Scope and How to Budget appeared first on Synack.",
-          "link": "https://www.synack.com/blog/aws-cloud-penetration-testing-scope-budget/",
-          "publishedOn": "2026-10-07T14:37:38.000Z",
-          "wordCount": 7039,
-          "title": "AWS Penetration Testing for Enterprises: What to Scope and How to Budget",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/AWS-Penetration-Testing-for-Enterprises.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=30142",
-          "author": "Greg Copeland",
-          "description": "A year since launching Synack’s integration with Qualys, the partnership now includes broader platform support, more AI-led testing, and a shared presence at Qualys ROCon Americas 2026.\nThe post Turn Scanner Findings into Validated Risk with Synack and Qualys appeared first on Synack.",
-          "link": "https://www.synack.com/blog/qualys-synack-integration-rocon-2026/",
-          "publishedOn": "2026-10-05T09:28:00.000Z",
-          "wordCount": 4631,
-          "title": "Turn Scanner Findings into Validated Risk with Synack and Qualys",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/synack-qualys-integration-rocon-2026.png"
         }
       ]
     },
@@ -15781,21 +15770,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltf966eb742fc2053d/6acc88d16d19162285159a77/image16.jpg"
-        },
-        {
-          "id": "ai-soc-automation-alertzero",
-          "author": "James Spiteri",
-          "description": "AlertZero brings AI SOC automation to Elastic Security with four agents, one job each, so the queue stops setting your priorities. Nothing changes in your environment without your approval.",
-          "link": "https://www.elastic.co/security-labs/blog/ai-soc-automation-alertzero",
-          "publishedOn": "2026-10-08T00:00:00.000Z",
-          "wordCount": 26945,
-          "title": "Introducing AlertZero: Inbox zero for your alert queue",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltab9ecdd95a489c3b/6ac7aa6a1cd74640f717dc4a/v2-b-bare_header-1440x840.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltab9ecdd95a489c3b/6ac7aa6a1cd74640f717dc4a/v2-b-bare_header-1440x840.png"
         }
       ]
     },

@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-06T04:10:11.979Z</updated>
+    <updated>2026-11-07T03:43:53.690Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Principal Problems: App Registrations, Service Principals, and the Hidden Risk of Multi-Tenant Apps]]></title>
+        <id>https://specterops.io/?p=30790</id>
+        <link href="https://specterops.io/blog/2026/11/06/app-registrations-vs-service-principals/"/>
+        <updated>2026-11-06T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR: App registrations are an app’s blueprint and hold its credentials in one home tenant. Service principals (what you see under Enterprise applications) are the identities that hold permissions in every tenant that uses the app, which is why one stolen credential in the ConnectWise Cloud Backup incident reached 100+ tenants. What are we talking […]
+The post Principal Problems: App Registrations, Service Principals, and the Hidden Risk of Multi-Tenant Apps appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Lee Robinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[After Binance, check what your signing systems can approve]]></title>
+        <id>https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/</id>
+        <link href="https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/"/>
+        <updated>2026-11-06T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move.
+Binance’s initial update about the incident suggested that a compromised DevOps laptop allowed an attacker to access a service container and submit unauthorized withdrawals. Its second update reported additional breaches but no evidence that wallet private keys had leaked. In its November 3 report, Binance described a broader attack involving social engineering, misuse of an internal AI tool, stolen credentials, and unauthorized access to its wallet-signing…]]></summary>
+        <author>
+            <name>The Trail of Bits Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)]]></title>
         <id>6aecf0a432a3ef0001be06c2</id>
@@ -33,6 +55,17 @@ Barracuda’s Email Security Gateway solution (ESG) is no stranger to love, for]
         <summary type="html"><![CDATA[Two AI security tools can use the same model and produce very different results. The difference is the harness. This post explains what an agent harness is, how its execution loop works, and why design choices around context, verification, and scope matter for AI-powered penetration testing.]]></summary>
         <author>
             <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Penetration Testing Services for Enterprise AWS, Azure, and GCP Environments]]></title>
+        <id>https://www.synack.com/?p=31376</id>
+        <link href="https://www.synack.com/blog/cloud-penetration-testing-services-aws-azure-gcp/"/>
+        <updated>2026-11-05T13:43:41.000Z</updated>
+        <summary type="html"><![CDATA[Cloud penetration testing focuses on identity, configuration, and service-layer attack paths within the customer's side of the shared responsibility model, rather than the network perimeter a traditional test targets. Each major cloud provider sets its own rules for what testing is permitted without prior approval. Scope should be defined by accounts, identities, and services rather than IP ranges, since that is how risk concentrates in a cloud environment. In US government cloud environments, the provider's rules are only the first gate. Testing must also fit the system's authorization boundary and the agency's own rules of engagement.
+The post Cloud Penetration Testing Services for Enterprise AWS, Azure, and GCP Environments appeared first on Synack.]]></summary>
+        <author>
+            <name>Scott Ormiston</name>
         </author>
     </entry>
     <entry>
@@ -146,6 +179,17 @@ The post The problem with shared Wi-Fi passwords at work  appeared first on Pen
         <summary type="html"><![CDATA[The newest threats, etc report details how adversaries are weaponizing trust across the entire enterprise stack, abusing everything from AI assistants and npm supply chains to identity flows and legitimate management tools.]]></summary>
         <author>
             <name>Terrance DeJesus,Jason Pappalexis,Andrew Pease</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Is Continuous Automated Penetration and Attack Testing?]]></title>
+        <id>https://www.synack.com/?p=31345</id>
+        <link href="https://www.synack.com/blog/what-is-continuous-automated-penetration-and-attack-testing/"/>
+        <updated>2026-11-03T17:50:15.000Z</updated>
+        <summary type="html"><![CDATA[Continuous automated penetration and attack testing uses tooling to run real attack techniques against an environment on an ongoing schedule, rather than during one scheduled engagement. It trades the depth of a fully human-led test for broad, repeatable coverage that runs continuously. The category has a real ceiling: findings that depend on business logic or multi-step reasoning still need a human tester to catch. Treat it as one layer of a testing program, not a replacement for the whole thing.
+The post What Is Continuous Automated Penetration and Attack Testing? appeared first on Synack.]]></summary>
+        <author>
+            <name>Tim Nordvedt</name>
         </author>
     </entry>
     <entry>
@@ -2047,70 +2091,6 @@ The post What the 2026 Microsoft Digital Defense Report reveals about AI, identi
 The post Web Application Penetration Testing Companies: What Enterprise Buyers Should Compare appeared first on Synack.]]></summary>
         <author>
             <name>Katy Nally</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your AI can access it. Can an attacker?]]></title>
-        <id>https://www.pentestpartners.com/?p=44712</id>
-        <link href="https://www.pentestpartners.com/security-blog/your-ai-can-access-it-can-an-attacker/"/>
-        <updated>2026-10-08T11:38:35.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  Read, reach and trust  Prompt injection has gone mainstream. We have all seen the screenshots: someone tells a chatbot to ignore its previous instructions, it says something daft, and the internet has a good laugh. That does not make prompt injection trivial. It just means the easy examples sometimes hide why it matters.  From […]
-The post Your AI can access it. Can an attacker?  appeared first on Pen Test Partners.]]></summary>
-        <author>
-            <name>Alex Wallace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwn2Own Ireland 2026 - Day Three Results & Master of Pwn]]></title>
-        <id>5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ac77289d821891d99ea6fa9</id>
-        <link href="https://www.thezdi.com/blog/2026/10/8/pwn2own-ireland-2026-day-three-results-amp-master-of-pwn"/>
-        <updated>2026-10-08T10:41:14.000Z</updated>
-        <summary type="html"><![CDATA[Day Three of Pwn2Own Ireland 2026 wrapsup with 17 attempts scheduled, roughly $1.33 million on the board.
-The headliner is the Google Pixel 10, which draws three separate attempts: Xint at 11:15 AM, Ikotas Labs at 2:00 PM, and the Valsamaras/Ken Gannon (Djini.ai)/Valsamara team closing things out at 6:30 PM — by far the single biggest payday in play all week. The Samsung Galaxy S26 gets one more run too, from BunkyoWesterns at 4:15 PM. Smart Home stays busy with three attempts on the Philips Hue Bridge Pro and two closing attempts on Home Assistant Green, while AI Infrastructure sees two more shots at Oracle's Autonomous AI Database plus a single run at Chroma. Printers round things out with steady, lower-stakes attempts on the Brother, Canon, and Lexmark targets — and with Team MAMMOTH's …]]></summary>
-        <author>
-            <name>Dustin Childs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing AlertZero: Inbox zero for your alert queue]]></title>
-        <id>ai-soc-automation-alertzero</id>
-        <link href="https://www.elastic.co/security-labs/blog/ai-soc-automation-alertzero"/>
-        <updated>2026-10-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AlertZero brings AI SOC automation to Elastic Security with four agents, one job each, so the queue stops setting your priorities. Nothing changes in your environment without your approval.]]></summary>
-        <author>
-            <name>James Spiteri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cookie Prefixes: Strengthening Session Security]]></title>
-        <id>https://markitzeroday.com/2026/10/08/cookie-prefixes.html</id>
-        <link href="https://markitzeroday.com/2026/10/08/cookie-prefixes.html"/>
-        <updated>2026-10-07T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I have spent a disproportionate amount of time looking at session management implementations this year. It is a recurring theme at the moment for me. You would think by now we would have solved basic cookie security, yet here we are. Developers rely heavily on flags like Secure and HttpOnly, but these can be circumvented through clever injection.]]></summary>
-        <author>
-            <name>markitzeroday.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Penetration Testing for Enterprises: What to Scope and How to Budget]]></title>
-        <id>https://www.synack.com/?p=30496</id>
-        <link href="https://www.synack.com/blog/aws-cloud-penetration-testing-scope-budget/"/>
-        <updated>2026-10-07T14:37:38.000Z</updated>
-        <summary type="html"><![CDATA[AWS penetration testing is scoped by accounts, identities, and exposed workloads, not IP ranges. AWS lets customers test a defined list of services without prior approval, but it prohibits flooding, DNS attacks, and takeovers, and it requires approval for command-and-control and simulated events. Budget follows two drivers: account and IAM complexity for the cloud control plane, and the number of internet-facing applications for workload testing.
-The post AWS Penetration Testing for Enterprises: What to Scope and How to Budget appeared first on Synack.]]></summary>
-        <author>
-            <name>Brandon Amundson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turn Scanner Findings into Validated Risk with Synack and Qualys]]></title>
-        <id>https://www.synack.com/?p=30142</id>
-        <link href="https://www.synack.com/blog/qualys-synack-integration-rocon-2026/"/>
-        <updated>2026-10-05T09:28:00.000Z</updated>
-        <summary type="html"><![CDATA[A year since launching Synack’s integration with Qualys, the partnership now includes broader platform support, more AI-led testing, and a shared presence at Qualys ROCon Americas 2026.
-The post Turn Scanner Findings into Validated Risk with Synack and Qualys appeared first on Synack.]]></summary>
-        <author>
-            <name>Greg Copeland</name>
         </author>
     </entry>
     <entry>
