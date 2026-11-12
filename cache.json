@@ -116,6 +116,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "blind-trust-stealing-credentials-through-csp",
+          "author": null,
+          "description": "Content Security Policy is supposed to be the safety net that stops an HTML injection from turning into XSS. Usually it works. But sometimes it doesn't, because the policy allows-lists a domain that h",
+          "link": "https://portswigger.net/research/blind-trust-stealing-credentials-through-csp",
+          "publishedOn": "2026-11-11T14:26:01.000Z",
+          "wordCount": 1876,
+          "title": "Blind trust: stealing credentials through CSP",
+          "imageUrl": "https://portswigger.net/cms/images/33/a6/a35b-twittercard-bypassing-csp-twitter.png"
+        },
+        {
           "id": "making-http-header-injection-critical-with-one-prompt",
           "author": null,
           "description": "You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for",
@@ -315,16 +325,6 @@
           "wordCount": 3578,
           "title": "Quickpost: Uranium Glass",
           "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2026/10/image-2.png"
-        },
-        {
-          "id": "http://blog.didierstevens.com/?p=11208",
-          "author": "Didier Stevens",
-          "description": "I releasing a new version of my beta tool onedump.py to list files embedded inside OneNote files (.one). I had to extract all the embedded files out of a set of .one files. This update adds option –jsonoutput that helps with this problem. Running command “onedump.py –jsonoutput *.one” will create a JSON document containing all […]",
-          "link": "https://blog.didierstevens.com/2026/10/12/update-onedump-py-version-0-0-3/",
-          "publishedOn": "2026-10-12T15:48:42.000Z",
-          "wordCount": 2725,
-          "title": "Update: onedump.py Version 0.0.3",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
     },
@@ -14049,16 +14049,6 @@
           "wordCount": 2219,
           "title": "ElectroNG is now open source!",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/10/13/Sfape.html",
-          "author": null,
-          "description": "It is tempting to think of Windows in terms of a simple model: user mode and kernel mode. If a bug lets a user-mode process gain control of the kernel, it’s game over.\nWell, for a long time it used to be like that. Protected processes, SMEP, PatchGuard and other mitigations surely raised the bar, but it was Virtualization-Based Security that added another dimension to that model and made the whole design a lot more complex. Some code does not merely cross from user mode to kernel mode. It crosses into another Virtual Trust Level (VTL), where the normal kernel is no longer the most trusted component in the system. From a VTL0 perspective, the call may look like it disappears into a region whose private memory cannot be inspected even with kernel privileges.\nVBS uses the Windows hypervisor t…",
-          "link": "https://blog.doyensec.com/2026/10/13/Sfape.html",
-          "publishedOn": "2026-10-12T22:00:00.000Z",
-          "wordCount": 4186,
-          "title": "Playing It SFAPE: Code Execution in Isolated User Mode",
-          "imageUrl": null
         }
       ]
     },
@@ -14530,6 +14520,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/proofpoint-itm-4-4-3-148-5-0-1",
+          "author": null,
+          "description": "A standard user on a Mac running the Proofpoint ITM agent can gain root by creating a file with a crafted name in a OneDrive-managed folder. Bishop Fox breaks down how the File Activity Monitor builds shell commands from filenames, the additional attack paths, and what defenders should do.",
+          "link": "https://bishopfox.com/blog/proofpoint-itm-4-4-3-148-5-0-1",
+          "publishedOn": "2026-11-11T14:00:00.000Z",
+          "wordCount": 2756,
+          "title": "Proofpoint ITM | 4.4.3.148–5.0.1",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Advisory_Proofpoint-ITM-4.4.3.148–5.0.1.png?mtime=1794422617"
+        },
+        {
           "id": "https://bishopfox.com/blog/ai-security-assessment-six-step-full-stack-evaluation-standard",
           "author": null,
           "description": "Many AI security assessments are automated scans or checklist audits that miss where serious risk lives: where model outputs become database queries, API calls, and agent actions. This post lays out a six-step full-stack standard that proves exploit chains and delivers structural fixes.",
@@ -14608,16 +14608,6 @@
           "wordCount": 2946,
           "title": "Behind Closed Doors: How Physical Penetration Testing Secures Sensitive Conversations",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Physical-Penetration-Testing-Secures-Sensitive-Conversations.png?mtime=1792021187"
-        },
-        {
-          "id": "https://bishopfox.com/blog/xss-siemens-teamcenters-login-redirect-cve-2026-58113",
-          "author": null,
-          "description": "A crafted link, one page load, and no clicks required. Bishop Fox found a reflected XSS in Siemens Teamcenter’s login redirect that auto-submits its own form, turning attribute injection into zero-interaction code execution and a silent surrogate delegation change on the victim’s account.",
-          "link": "https://bishopfox.com/blog/xss-siemens-teamcenters-login-redirect-cve-2026-58113",
-          "publishedOn": "2026-10-13T13:00:00.000Z",
-          "wordCount": 4428,
-          "title": "Submit and Execute: Weaponizing Reflected XSS in Siemens Teamcenter's Login Redirect (CVE-2026-58113)",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/CVE-2026-58113-Siemens-Teamcenter.png?mtime=1792020138"
         }
       ]
     },
@@ -14626,6 +14616,26 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=31500",
+          "author": "Mark Kuhr",
+          "description": "Military job titles rarely map neatly to cybersecurity roles, but the work behind them often builds skills that matter in offensive security. Mark Kuhr explains how security leaders can evaluate veteran experience through specific questions, bounded exercises, and concrete mentorship. He also offers practical steps for veterans exploring a path into the field.\nThe post Honoring Veterans Means Opening Doors in Cybersecurity appeared first on Synack.",
+          "link": "https://www.synack.com/blog/veterans-in-cybersecurity/",
+          "publishedOn": "2026-11-11T08:53:00.000Z",
+          "wordCount": 4928,
+          "title": "Honoring Veterans Means Opening Doors in Cybersecurity",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/mark-veterans-cybersecurity-og.png"
+        },
+        {
+          "id": "https://www.synack.com/?p=31477",
+          "author": "Angela Heindl-Schober",
+          "description": "Ask an AI pentesting vendor to prove what was tested, what its findings demonstrate, where human experts contribute, how testing is controlled and what supports its performance claims. The answers should help you decide whether the testing will produce evidence your security team can use. As a CMO, I believe we have a responsibility to […]\nThe post AI Pentesting: What Buyers Should Ask Vendors to Prove appeared first on Synack.",
+          "link": "https://www.synack.com/blog/ai-pentesting-vendor-evaluation/",
+          "publishedOn": "2026-11-10T16:00:47.000Z",
+          "wordCount": 4970,
+          "title": "AI Pentesting: What Buyers Should Ask Vendors to Prove",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/ai-pentesting-buyers-vendors-synack-og.webp"
+        },
         {
           "id": "https://www.synack.com/?p=31376",
           "author": "Scott Ormiston",
@@ -14705,26 +14715,6 @@
           "wordCount": 5683,
           "title": "Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/discover-scaled-remediation-hasnt-tim-nordvedt-og.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=30717",
-          "author": "James Duggan",
-          "description": "Continuous penetration testing runs against your live attack surface on an ongoing basis. Annual penetration testing gives you a deep, point-in-time snapshot once a year. Neither model is universally correct. The right choice depends on release velocity, attack surface volatility, and which compliance framework is driving the requirement. Enterprises shipping code weekly typically outgrow annual testing alone.\nThe post Continuous Penetration Testing vs. Annual Pentests: What Enterprises Need to Know appeared first on Synack.",
-          "link": "https://www.synack.com/blog/continuous-penetration-testing-vs-annual-pen-tests/",
-          "publishedOn": "2026-10-13T16:49:01.000Z",
-          "wordCount": 5705,
-          "title": "Continuous Penetration Testing vs. Annual Pentests: What Enterprises Need to Know",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/continuous_penetration_testing_OG.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=30543",
-          "author": "Katy Nally",
-          "description": "The meaningful differences between web application penetration testing companies rarely show up on the homepage. They show up in who performs the testing, how the methodology is documented, what the retest policy covers, and how scope changes get priced once a contract is signed. Use the eight-criteria scorecard below to evaluate providers on substance rather than marketing language.\nThe post Web Application Penetration Testing Companies: What Enterprise Buyers Should Compare appeared first on Synack.",
-          "link": "https://www.synack.com/blog/web-application-penetration-testing-companies/",
-          "publishedOn": "2026-10-08T16:12:33.000Z",
-          "wordCount": 5603,
-          "title": "Web Application Penetration Testing Companies: What Enterprise Buyers Should Compare",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/Web-Application-Penetration-Testing-Companies-OG.webp"
         }
       ]
     },
@@ -15659,7 +15649,18 @@
       "title": "Outflank Blog | Outflank",
       "feedUrl": "https://www.outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.outflank.nl/?p=6568",
+          "author": "Marc Smeets",
+          "description": "Outflank turned ten this year and we’re celebrating by sharing our journey and giving away swag you can’t buy anywhere. \nOutflank started in 2016, when Cobalt Strike was still only a few years old, BOFs did not exist yet, EDRs were just AVs with a fancy name and the same easy bypasses, and generative AI was firmly science fiction.  \nAt the very beginning, we had no polished website, no elaborate launch campaign, and barely even a company name. What we did have was a four-headed team eager to kick ass, an email address, enough red-team work to keep us very busy and a temporary ‘coming soon’ website with nothing more than just a red hoodie stock photo. \nThat temporary page was intended to be there for ‘just a few weeks’. It stayed up for nearly a year as we were simply focused on client work.\n\nRead full post\nThe post A Decade of Evasion: Celebrating 10 Years of Outflank  appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2026/11/11/a-decade-of-evasion-celebrating-10-years-of-outflank/",
+          "publishedOn": "2026-11-11T17:38:46.000Z",
+          "wordCount": 4056,
+          "title": "A Decade of Evasion: Celebrating 10 Years of Outflank",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2026/11/image-2.png"
+        }
+      ]
     },
     {
       "title": "The Red Canary Blog: Information Security Insights",
@@ -15785,6 +15786,16 @@
           "imageUrl": "https://media.jamf.com/images/news/2026/social-engineering-in-k-12-in-the-age-of-ai.webp?h=400&q=80&w=700"
         },
         {
+          "id": "https://www.jamf.com/blog/how-lean-it-teams-improve-dex-without-adding-headcount/",
+          "author": null,
+          "description": "Lean IT teams can improve digital employee experience by automating repetitive tasks, enabling self-service, and improving visibility without adding headcount.",
+          "link": "https://www.jamf.com/blog/how-lean-it-teams-improve-dex-without-adding-headcount/",
+          "publishedOn": "2026-11-03T18:07:00.000Z",
+          "wordCount": 2206,
+          "title": "How Lean IT Teams Can Improve DEX Without Adding Headcount",
+          "imageUrl": "https://media.jamf.com/images/news/2026/how-lean-it-teams-improve-dex-without-adding-headcount.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/declarative-mac-app-deployment-alme/",
           "author": null,
           "description": "Jamf’s ALME engine uses Apple’s declarative device management to keep third-party Mac apps current, without repackaging or manual deployment.",
@@ -15853,16 +15864,6 @@
           "wordCount": 2090,
           "title": "When security logic becomes an attack surface: lessons from CVE-2026-20971",
           "imageUrl": "https://media.jamf.com/images/news/2026/cve-2026-20971-samsung-knox-proca-vulnerability.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/agentic-ai-security-input-trust-monitoring-recovery/",
-          "author": null,
-          "description": "Isolation and authorization limit the damage when an AI agent fails, but they can't stop it from misreading inputs. This final part covers how to treat retrieved content as untrusted, log agent activity independently and plan for recovery.",
-          "link": "https://www.jamf.com/blog/agentic-ai-security-input-trust-monitoring-recovery/",
-          "publishedOn": "2026-10-13T13:59:00.000Z",
-          "wordCount": 3692,
-          "title": "Beyond model guardrails, part 3: when prevention fails",
-          "imageUrl": "https://media.jamf.com/images/icons/jamf-og-image.jpg"
         }
       ]
     },
@@ -15923,6 +15924,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+          "author": "Merav Bar",
+          "description": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
+          "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+          "publishedOn": "2026-11-11T19:49:10.000Z",
+          "wordCount": 24596,
+          "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg"
+        },
         {
           "id": "https://www.wiz.io/blog/cyber-model-arena-ai-benchmark",
           "author": "Jay Tenenbaum",
