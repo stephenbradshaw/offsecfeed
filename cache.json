@@ -54,16 +54,6 @@
           "wordCount": 4768,
           "title": "ConnectWise SkyKick Breach: How to Check Your Microsoft 365 Tenant",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/10/ConnectWise-Blog-image.png"
-        },
-        {
-          "id": "https://specterops.io/?p=30340",
-          "author": "Katherine",
-          "description": "TL;DR: How SpecterOps combined deliberate human engagement, model routing, and specialized tools to overhaul Ghostwriter’s user interface for $815.50 in model spend. Disclosure: SpecterOps participates in OpenAI’s Trusted Access for Cyber and Daybreak programs. Codex is the primary example in this article because it fits our engineering workflow and because of that relationship. The operating […]\nThe post Be the Architect: Intentional AI Engagement for Cybersecurity Engineering appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/10/14/ai-engagement-for-cybersecurity-engineering/",
-          "publishedOn": "2026-10-14T16:00:00.000Z",
-          "wordCount": 7950,
-          "title": "Be the Architect: Intentional AI Engagement for Cybersecurity Engineering",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/10/BlogPost-.png"
         }
       ]
     },
@@ -226,16 +216,6 @@
           "wordCount": 5153,
           "title": "Authorization Differential Testing in Salesforce",
           "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/10/10.24.26_TECH_Salesforce-Authorization-Differential-Testing_1200x630.jpg"
-        },
-        {
-          "id": "https://www.netspi.com/?p=34611",
-          "author": "Scott Weston",
-          "description": "Discover how a permission bypass in Oracle Cloud Infrastructure (OCI) identity domains allowed lower-level administrator roles to create API keys for Identity Domain Administrators, leading to an unauthenticated privilege escalation path.\nThe post Administrating the Administrator, An OCI Identity Domains Permission Bypass appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/administrating-the-administrator-an-oci-identity-domains-permission-bypass/",
-          "publishedOn": "2026-10-13T20:35:55.000Z",
-          "wordCount": 9295,
-          "title": "Administrating the Administrator, An OCI Identity Domains Permission Bypass",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/10/09.29.26_TECH_OCI-social.png"
         }
       ]
     },
@@ -447,17 +427,6 @@
           "publishedOn": "2026-10-27T16:39:07.000Z",
           "wordCount": null,
           "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ace77fa4c002b2f053c67b5",
-          "author": "Dustin Childs",
-          "description": "Another month of patches equals another new record for Microsoft patches. It’s a good thing I survive Pwn2Own Ireland, because between these and the Adobe patches, there’s much to discuss. I’m also looking at different ways I can represent the bugs at this level of volume, so let me know if you have ideas. (Seriously – I’m out of ideas). If you’d rather watch the full video recap covering the entire release, you can check it out here:\nAdobe Patches for October 2026\nFor the first part of the October release, Adobe released 11 bulletins addressing 174 unique CVEs in Adobe Dimension, Commerce, Substance 3D Sampler, ColdFusion, Photoshop, FrameMaker, Experience Manager, Substance 3D Stager, Content Credentials SDK, Bridge, and Substance 3D Designer.\nHere’s this month’s overview table:\nAdobe Pa…",
-          "link": "https://www.thezdi.com/blog/2026/10/13/the-october-2026-security-update-review",
-          "publishedOn": "2026-10-13T19:34:30.000Z",
-          "wordCount": null,
-          "title": "The October 2026 Security Update Review",
           "itunes": {},
           "imageUrl": null
         }
@@ -14001,6 +13970,16 @@
       "siteUrl": "https://www.praetorian.com/blog/",
       "articles": [
         {
+          "id": "https://www.praetorian.com/?p=13380",
+          "author": "Michelle Rhodes",
+          "description": "Critical Apache HTTP Server Vulnerability: What Defenders Need to Know On November 11, 2026, the Apache Software Foundation disclosed CVE-2026-119618, a critical race condition in mod_http2, the module that provides HTTP/2 support in Apache HTTP Server. According to Apache’s advisory, the flaw can corrupt heap memory and may lead to remote code execution on the […]\nThe post CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition appeared first on Praetorian.",
+          "link": "https://www.praetorian.com/blog/cve-2026-119618/",
+          "publishedOn": "2026-11-12T14:16:26.000Z",
+          "wordCount": 3703,
+          "title": "CVE-2026-119618: What We Know About the Critical Apache mod_http2 Race Condition",
+          "imageUrl": "https://www.praetorian.com/wp-content/uploads/2026/11/http2-blog.png"
+        },
+        {
           "id": "https://www.praetorian.com/?p=13327",
           "author": "Michelle Rhodes",
           "description": "Cutting Through the php2shell Noise On October 20, details of php2shell, two pre-auth RCE vulnerabilities in the PHP core discovered by Calif (CVE-2026-109618 and CVE-2026-109619), leaked ahead of coordinated disclosure. Advisories listing affected versions followed quickly, along with a flood of PoCs, many AI-generated and non-functional. We waited until we had our own data. This […]\nThe post php2shell in Practice: Exploitable, Conditional, and Hard to Mass-Exploit appeared first on Praetorian.",
@@ -14040,6 +14019,16 @@
       "feedUrl": "https://blog.doyensec.com/atom.xml",
       "siteUrl": "https://blog.doyensec.com/atom.xml",
       "articles": [
+        {
+          "id": "https://blog.doyensec.com/2026/11/12/protospector.html",
+          "author": null,
+          "description": "Testing protocol buffers over HTTP can be a notoriously tedious process. Today, we’re excited to announce ProtoSpector, a Burp Suite extension designed to seamlessly decode and encode Protocol Buffer messages on the fly.\nBy eliminating the need to constantly switch to external tools or instrumented browser applications, ProtoSpector dramatically accelerates your testing workflow. Whether you want to import an existing Protobuf schema or reverse-engineer descriptors from scratch, this extension gives you the full capability to analyze, tamper with, and test gRPC traffic directly within Burp.\nFeatures\n🔄 Intelligent Message Decoding & Encoding\nThe extension automatically detects supported Protobuf content types and adds a ProtoSpector tab to the request view.\nTwo testing approaches are suppo…",
+          "link": "https://blog.doyensec.com/2026/11/12/protospector.html",
+          "publishedOn": "2026-11-11T23:00:00.000Z",
+          "wordCount": 1887,
+          "title": "Introducing ProtoSpector: A Burp Suite Extension for Analyzing, Tampering With, and Testing Protobuf and gRPC Traffic",
+          "imageUrl": null
+        },
         {
           "id": "https://blog.doyensec.com/2026/10/27/electrong-oss.html",
           "author": null,
@@ -14120,16 +14109,6 @@
           "wordCount": 1953,
           "title": "Your AI agent fixed the bug, but what else did it change?",
           "imageUrl": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_socialbanner3.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
-          "author": null,
-          "description": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.\nSupply-chain attacks caused by developer compromise are a common story, but imagine what happens if ongoing mitigation attempts, including work by Trail of Bits2, are successful. If developers of popular packages are no longer the easiest targets, attackers will shift their focus to the next weakest link in th…",
-          "link": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
-          "publishedOn": "2026-10-14T11:00:00.000Z",
-          "wordCount": 4896,
-          "title": "Package managers have an integrity problem",
-          "imageUrl": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/package-manager-integrity-banner.png"
         }
       ]
     },
@@ -14304,16 +14283,6 @@
           "wordCount": 2531,
           "title": "Printerpix and the not so private photo album",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/10/Lambros-and-Dave-Printerpix-and-the-not-so-private-photo-album-headlineV2-1024x576.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44728",
-          "author": "Alex Wallace",
-          "description": "TL;DR  Widespread food spoilage across Europe Over the night of the 11th of October 2026, the fridges and freezers in several hundred French supermarkets were made to warm up. Stock was spoiled across Intermarché, Netto, the U cooperative, Carrefour Market and Monoprix, with E.Leclerc also reported. The Paris prosecutor has reported fires. Losses run into […]\nThe post You don’t need a nation state to warm up a fridge  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/you-dont-need-a-nation-state-to-warm-up-a-fridge/",
-          "publishedOn": "2026-10-14T12:19:56.000Z",
-          "wordCount": 2903,
-          "title": "You don’t need a nation state to warm up a fridge",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/10/You-dont-need-a-nation-state-to-warm-up-a-fridge-headlinev2-1024x576.png"
         }
       ]
     },
@@ -14338,18 +14307,7 @@
       "title": "Embrace The Red",
       "feedUrl": "https://embracethered.com/blog/index.xml",
       "siteUrl": "https://embracethered.com/blog/",
-      "articles": [
-        {
-          "id": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
-          "author": null,
-          "description": "A . is all you need!\nToday Microsoft shipped the patch for a vulnerability in Visual Studio Copilot that I reported in August. Microsoft classified it as Important severity Remote Code Execution vulnerability.\n\nAt the root cause it allows Copilot in Visual Studio or SQL Server Management Studio to bypass a path validation check and write to its own settings and configuration files. This allows Copilot to escape containment restrictions and achieve arbitrary command execution.",
-          "link": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
-          "publishedOn": "2026-10-13T22:00:40.000Z",
-          "wordCount": 1559,
-          "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Pentest Blog",
@@ -14411,6 +14369,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "bltde65705bf43b6d96",
+          "author": "LABScon",
+          "description": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.",
+          "link": "https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/",
+          "publishedOn": "2026-11-12T14:00:02.000Z",
+          "wordCount": null,
+          "title": "LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI",
+          "enclosure": {
+            "url": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltc882b9af6329a5a4/6af43ef1ebc5745b33ac3aab/labscon26_dino_ftr.jpg",
+            "length": "516304",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltc882b9af6329a5a4/6af43ef1ebc5745b33ac3aab/labscon26_dino_ftr.jpg"
+        },
+        {
           "id": "bltffd49ffaf3ad58ae",
           "author": "Gabriel Bernadett-Shapiro",
           "description": "LLM reverse engineering scales only if analysis stays inspectable. A new standard and its open-source IDA Pro implementation tie annotations to evidence.",
@@ -14462,6 +14435,16 @@
       "feedUrl": "https://blog.nviso.eu/feed/",
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
+        {
+          "id": "https://blog.nviso.eu/?p=26728",
+          "author": "Tanguy Snoeck",
+          "description": "Semantic caching can reduce AI inference costs, but isolation failures can expose sensitive data and enable malicious responses or tool calls. NVISO explores these risks through proof-of-concept attacks and CVE-2026-89032, a cache isolation vulnerability discovered in LiteLLM.",
+          "link": "https://blog.nviso.eu/2026/11/12/breaking-the-semantic-cache-a-litellm-case-study-cve-2026-89032/",
+          "publishedOn": "2026-11-12T12:16:18.000Z",
+          "wordCount": 6392,
+          "title": "Breaking the Semantic Cache: A LiteLLM Case Study (CVE-2026-89032)",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/11/SemanticCache-linkedin-blogDEF.png"
+        },
         {
           "id": "https://blog.nviso.eu/?p=27295",
           "author": "Felix Hartmond",
@@ -14519,6 +14502,16 @@
       "feedUrl": "https://bishopfox.com/feeds/blog.rss",
       "siteUrl": "https://bishopfox.com/",
       "articles": [
+        {
+          "id": "https://bishopfox.com/blog/inside-cirro-enumeration-as-a-restricted-guest",
+          "author": null,
+          "description": "Entra ID’s most restrictive guest settings block directory listing, but guests can still read application properties by traversing known app IDs. Bishop Fox explains how this works, how Cirro v1.4.0 automates it, the reply URL hijacking risk, and what defenders should monitor.",
+          "link": "https://bishopfox.com/blog/inside-cirro-enumeration-as-a-restricted-guest",
+          "publishedOn": "2026-11-12T14:00:00.000Z",
+          "wordCount": 3733,
+          "title": "Inside Cirro: Enumeration as a Restricted Guest",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_Inside-Cirro-Enumeration-Restricted-Guest.png?mtime=1794527114"
+        },
         {
           "id": "https://bishopfox.com/blog/proofpoint-itm-4-4-3-148-5-0-1",
           "author": null,
@@ -14598,16 +14591,6 @@
           "wordCount": 2813,
           "title": "AI Security Scoping: Define What To Test In Your Deployment",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_AI-Security-Scoping-Define-Test-Deployment.png?mtime=1792101484"
-        },
-        {
-          "id": "https://bishopfox.com/blog/how-physical-penetration-testing-secures-sensitive-conversations",
-          "author": null,
-          "description": "Closing the door doesn’t make a room secure. Alethe Denis breaks down how physical penetration testing evaluates whether unauthorized people can reach sensitive spaces, interact with equipment, or leave something behind without anyone noticing or reporting it.",
-          "link": "https://bishopfox.com/blog/how-physical-penetration-testing-secures-sensitive-conversations",
-          "publishedOn": "2026-10-14T13:00:00.000Z",
-          "wordCount": 2946,
-          "title": "Behind Closed Doors: How Physical Penetration Testing Secures Sensitive Conversations",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Physical-Penetration-Testing-Secures-Sensitive-Conversations.png?mtime=1792021187"
         }
       ]
     },
@@ -14616,6 +14599,16 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=31534",
+          "author": "PJ Schlumbrecht",
+          "description": "SaaS penetration testing cost is driven mainly by tenant architecture, role and integration complexity, environment strategy, and compliance deadlines, not by customer count. The widest cost variable is whether cross-tenant isolation testing is properly in scope from the start, since adding it after a proposal is already priced tends to cost more than including it from the beginning.\nThe post SaaS Penetration Testing: What Enterprise Buyers Pay and Why appeared first on Synack.",
+          "link": "https://www.synack.com/blog/saas-penetration-testing-cost/",
+          "publishedOn": "2026-11-12T11:52:19.000Z",
+          "wordCount": 5119,
+          "title": "SaaS Penetration Testing: What Enterprise Buyers Pay and Why",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/synack_saas_penetration_testing_og.webp"
+        },
         {
           "id": "https://www.synack.com/?p=31500",
           "author": "Mark Kuhr",
@@ -15674,6 +15667,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "sansar-linux-cryptomining-malware",
+          "author": "Salim Bitam",
+          "description": "Elastic Security Labs analyzes SANSAR, a Linux cryptomining orchestrator that manages miners over Tor, alongside a kernel rootkit, GPU monitoring hooks and a backdoor that retrieves its C2 address from Ethereum.",
+          "link": "https://www.elastic.co/security-labs/threat-command/sansar-linux-cryptomining-malware",
+          "publishedOn": "2026-11-12T10:48:47.000Z",
+          "wordCount": 39831,
+          "title": "0% GPU utilization: How SANSAR hides Linux cryptomining",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltddb9abc04b8735ee/6af599b96166e406af197daa/image1.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/bltddb9abc04b8735ee/6af599b96166e406af197daa/image1.png"
+        },
+        {
           "id": "ai-agent-session-monitoring-embedding-models",
           "author": "Marcus Jeffes",
           "description": "I tested vector search on 7,454 turns of my own agent sessions. One in seven sessions needed review, the agent’s reasoning carried more signal than the prompt, and the stored vectors answer questions nobody thought to ask at ingest.",
@@ -15854,16 +15862,6 @@
           "wordCount": 2562,
           "title": "How Jamf and Teqtivity work together for end-to-end zero-touch device onboarding",
           "imageUrl": "https://media.jamf.com/images/news/2026/zero-touch-device-onboarding-workflow-with-jamf.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
-          "author": null,
-          "description": "CVE-2026-20971 was a use-after-free bug in Samsung's Knox-related PROCA driver, showing how a flaw in a security feature can become an attack surface. Learn more about this already patched vulnerability and how to respond.",
-          "link": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
-          "publishedOn": "2026-10-14T14:18:00.000Z",
-          "wordCount": 2090,
-          "title": "When security logic becomes an attack surface: lessons from CVE-2026-20971",
-          "imageUrl": "https://media.jamf.com/images/news/2026/cve-2026-20971-samsung-knox-proca-vulnerability.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -15872,6 +15870,21 @@
       "feedUrl": "https://www.sentinelone.com/labs/feed/",
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
+        {
+          "id": "bltde65705bf43b6d96",
+          "author": "LABScon",
+          "description": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.",
+          "link": "https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/",
+          "publishedOn": "2026-11-12T14:00:02.000Z",
+          "wordCount": null,
+          "title": "LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI",
+          "enclosure": {
+            "url": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltc882b9af6329a5a4/6af43ef1ebc5745b33ac3aab/labscon26_dino_ftr.jpg",
+            "length": "516304",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltc882b9af6329a5a4/6af43ef1ebc5745b33ac3aab/labscon26_dino_ftr.jpg"
+        },
         {
           "id": "bltffd49ffaf3ad58ae",
           "author": "Gabriel Bernadett-Shapiro",
@@ -15924,6 +15937,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed",
+          "author": "Salman Ladha",
+          "description": "Accelerate MTTR and eliminate remediation bottlenecks with simplified ownership mapping, code fixes, and automated workflows",
+          "link": "https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed",
+          "publishedOn": "2026-11-12T18:32:24.000Z",
+          "wordCount": 25774,
+          "title": "ASPM in the AI Era Part 3: Fixing Risk at the Speed of Code",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1794493013-aspm3-copy-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1794493013-aspm3-copy-2x.png"
+        },
         {
           "id": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
           "author": "Merav Bar",
@@ -16253,21 +16281,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1791904585-aspm-2x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-for-gov-agents-fedramp",
-          "author": "Mike Schimmel",
-          "description": "Wiz AI Agents elevate traditional CNAPP, empowering public sector security teams to accelerate security and innovation.",
-          "link": "https://www.wiz.io/blog/wiz-for-gov-agents-fedramp",
-          "publishedOn": "2026-10-14T11:00:02.000Z",
-          "wordCount": 22696,
-          "title": "Securing the Mission at Machine Speed: Wiz AI Agents Arrive in Wiz for Gov",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1791822162-w4g-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1791822162-w4g-2x.png"
         }
       ]
     },
