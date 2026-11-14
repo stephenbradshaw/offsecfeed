@@ -87,16 +87,6 @@
           "wordCount": 1782,
           "title": "PHP2Shell x Burp Suite: Detection in your hands within a day of disclosure",
           "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
-        },
-        {
-          "id": "burp-at-whats-new-since-black-hat",
-          "author": null,
-          "description": "Launch Burp AT now               Find out more about Burp AT Since we launched Burp AT at Black Hat USA, it's been great to s",
-          "link": "https://portswigger.net/blog/burp-at-whats-new-since-black-hat",
-          "publishedOn": "2026-10-15T10:09:41.000Z",
-          "wordCount": 1565,
-          "title": "Burp AT: What's new since Black Hat",
-          "imageUrl": "https://portswigger.net/content/images/logos/portswigger-twittercardlogo.png"
         }
       ]
     },
@@ -142,6 +132,16 @@
       "feedUrl": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "siteUrl": "https://projectzero.google/",
       "articles": [
+        {
+          "id": "https://projectzero.google/2026/11/disclosure-policy.html",
+          "author": null,
+          "description": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.",
+          "link": "https://projectzero.google/2026/11/disclosure-policy.html",
+          "publishedOn": "2026-11-13T08:00:00.000Z",
+          "wordCount": 1181,
+          "title": "Policy and Disclosure: 2026 Edition",
+          "imageUrl": "https://projectzero.google/images/preview_image.png"
+        },
         {
           "id": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
           "author": null,
@@ -14436,6 +14436,16 @@
       "siteUrl": "https://blog.nviso.eu",
       "articles": [
         {
+          "id": "https://blog.nviso.eu/?p=27298",
+          "author": "Felix Hartmond",
+          "description": "Consolidating detection data is only the first step. In Part 3 of our Detection-as-Code series, we explain how we validate schemas and shared fields, resolve inconsistencies, and integrate checks into GitHub CI pipelines. Tiered validation blocks invalid changes while allowing teams to fix non-urgent issues over time.",
+          "link": "https://blog.nviso.eu/2026/11/13/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-3-validation-and-future-possibilities/",
+          "publishedOn": "2026-11-13T08:27:57.000Z",
+          "wordCount": 4242,
+          "title": "Detection Engineering: Implementing Detection-as-Code in an Existing Environment: Part 3 – Validation and Future Possibilities",
+          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/10/blog-linkedin-detection-part3.png"
+        },
+        {
           "id": "https://blog.nviso.eu/?p=26728",
           "author": "Tanguy Snoeck",
           "description": "Semantic caching can reduce AI inference costs, but isolation failures can expose sensitive data and enable malicious responses or tool calls. NVISO explores these risks through proof-of-concept attacks and CVE-2026-89032, a cache isolation vulnerability discovered in LiteLLM.",
@@ -14581,16 +14591,6 @@
           "wordCount": 2872,
           "title": "The True Blast Radius of an AI Attack",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/Blog_True-Blast-Radius-AI-Attack.png"
-        },
-        {
-          "id": "https://bishopfox.com/blog/ai-security-scoping-define-what-to-test-in-your-deployment",
-          "author": null,
-          "description": "Testing AI security without clear scoping produces superficial coverage and unaddressed risk. This post breaks down how to define boundaries, select the right assessment type, and align AI penetration testing, red teaming, and architecture reviews to the decisions that actually matter.",
-          "link": "https://bishopfox.com/blog/ai-security-scoping-define-what-to-test-in-your-deployment",
-          "publishedOn": "2026-10-15T13:00:00.000Z",
-          "wordCount": 2813,
-          "title": "AI Security Scoping: Define What To Test In Your Deployment",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_AI-Security-Scoping-Define-Test-Deployment.png?mtime=1792101484"
         }
       ]
     },
@@ -14698,16 +14698,6 @@
           "wordCount": 5870,
           "title": "API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/api_penetration_testing_for_enterprise_apis_og.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=30839",
-          "author": "Tim Nordvedt",
-          "description": "Tim Nordvedt shares the top takeaways from his Dark Reading webinar with KeyCaliber’s Roselle Safran: AI has made finding vulnerabilities cheap, but fixing them still takes limited people, so the real advantage is knowing which exposures matter and showing leadership you’re reducing them.\nThe post Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics appeared first on Synack.",
-          "link": "https://www.synack.com/blog/threat-exposure-analytics-webinar-takeaways/",
-          "publishedOn": "2026-10-15T13:14:19.000Z",
-          "wordCount": 5683,
-          "title": "Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/discover-scaled-remediation-hasnt-tim-nordvedt-og.png"
         }
       ]
     },
@@ -14721,7 +14711,18 @@
       "title": "Outflank Blog | Outflank",
       "feedUrl": "https://outflank.nl/blog/feed/",
       "siteUrl": "https://www.outflank.nl/blog/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.outflank.nl/?p=6568",
+          "author": "Marc Smeets",
+          "description": "Outflank turned ten this year and we’re celebrating by sharing our journey and giving away swag you can’t buy anywhere. \nOutflank started in 2016, when Cobalt Strike was still only a few years old, BOFs did not exist yet, EDRs were just AVs with a fancy name and the same easy bypasses, and generative AI was firmly science fiction.  \nAt the very beginning, we had no polished website, no elaborate launch campaign, and barely even a company name. What we did have was a four-headed team eager to kick ass, an email address, enough red-team work to keep us very busy and a temporary ‘coming soon’ website with nothing more than just a red hoodie stock photo. \nThat temporary page was intended to be there for ‘just a few weeks’. It stayed up for nearly a year as we were simply focused on client work.\n\nRead full post\nThe post A Decade of Evasion: Celebrating 10 Years of Outflank  appeared first on Outflank.",
+          "link": "https://www.outflank.nl/blog/2026/11/11/a-decade-of-evasion-celebrating-10-years-of-outflank/",
+          "publishedOn": "2026-11-11T17:38:46.000Z",
+          "wordCount": 4056,
+          "title": "A Decade of Evasion: Celebrating 10 Years of Outflank",
+          "imageUrl": "https://www.outflank.nl/wp-content/uploads/2026/11/image-2.png"
+        }
+      ]
     },
     {
       "title": "IFCR - Medium",
@@ -15667,6 +15668,36 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "agentic-offensive-frameworks-detection-artex",
+          "author": "Mika Ayenson",
+          "description": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
+          "link": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
+          "publishedOn": "2026-11-13T16:00:00.000Z",
+          "wordCount": 31011,
+          "title": "Inside the loop: Five AI attack frameworks that never ask permission",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt65a3888c587a2e5a/6af6ddafd41eec3efa5ffb68/agentic-offensive-frameworks.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt65a3888c587a2e5a/6af6ddafd41eec3efa5ffb68/agentic-offensive-frameworks.png"
+        },
+        {
+          "id": "cyberstrikeai-aws-cloudtrail-intrusion",
+          "author": "Samir Bousseaden,Bryan Porras Blanch,Terrance DeJesus",
+          "description": "A CyberStrikeAI server spent 16 days in four AWS accounts using eight identities, and the CloudTrail record shows why six detection rules each caught only part of it.",
+          "link": "https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion",
+          "publishedOn": "2026-11-13T15:27:20.000Z",
+          "wordCount": 30192,
+          "title": "56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6563bd994d897304/6af5db091380e64ad87e1178/image2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6563bd994d897304/6af5db091380e64ad87e1178/image2.png"
+        },
+        {
           "id": "sansar-linux-cryptomining-malware",
           "author": "Salim Bitam",
           "description": "Elastic Security Labs analyzes SANSAR, a Linux cryptomining orchestrator that manages miners over Tor, alongside a kernel rootkit, GPU monitoring hooks and a backdoor that retrieves its C2 address from Ethereum.",
@@ -15937,6 +15968,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/inside-green-agent-investigation",
+          "author": "Green Agent",
+          "description": "See how the Green Agent balanced security urgency with business continuity to turn a toxic combination into an executable remediation plan and ready-to-merge pull requests.",
+          "link": "https://www.wiz.io/blog/inside-green-agent-investigation",
+          "publishedOn": "2026-11-13T17:05:02.000Z",
+          "wordCount": 26864,
+          "title": "The Green Agent POV: Formulating the Fix for an Exposed Container with Sensitive Data Access",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1794575501-green-pov-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1794575501-green-pov-2x.png"
+        },
         {
           "id": "https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed",
           "author": "Salman Ladha",
@@ -16266,21 +16312,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1792332491-17.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/aspm-ai-era-pt-1-centralize-appsec-scanners",
-          "author": "Salman Ladha",
-          "description": "Integrate your existing code scanners into Wiz for a unified view of application risk across your environment.",
-          "link": "https://www.wiz.io/blog/aspm-ai-era-pt-1-centralize-appsec-scanners",
-          "publishedOn": "2026-10-14T20:13:53.000Z",
-          "wordCount": 22955,
-          "title": "ASPM in the AI Era Part 1: Unified Visibility Across Your Stack",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1791904585-aspm-2x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1791904585-aspm-2x.png"
         }
       ]
     },

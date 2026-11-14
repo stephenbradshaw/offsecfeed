@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-13T04:03:33.978Z</updated>
+    <updated>2026-11-14T04:01:20.534Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Green Agent POV: Formulating the Fix for an Exposed Container with Sensitive Data Access]]></title>
+        <id>https://www.wiz.io/blog/inside-green-agent-investigation</id>
+        <link href="https://www.wiz.io/blog/inside-green-agent-investigation"/>
+        <updated>2026-11-13T17:05:02.000Z</updated>
+        <summary type="html"><![CDATA[See how the Green Agent balanced security urgency with business continuity to turn a toxic combination into an executable remediation plan and ready-to-merge pull requests.]]></summary>
+        <author>
+            <name>Green Agent</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside the loop: Five AI attack frameworks that never ask permission]]></title>
+        <id>agentic-offensive-frameworks-detection-artex</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex"/>
+        <updated>2026-11-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.]]></summary>
+        <author>
+            <name>Mika Ayenson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion]]></title>
+        <id>cyberstrikeai-aws-cloudtrail-intrusion</id>
+        <link href="https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion"/>
+        <updated>2026-11-13T15:27:20.000Z</updated>
+        <summary type="html"><![CDATA[A CyberStrikeAI server spent 16 days in four AWS accounts using eight identities, and the CloudTrail record shows why six detection rules each caught only part of it.]]></summary>
+        <author>
+            <name>Samir Bousseaden,Bryan Porras Blanch,Terrance DeJesus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detection Engineering: Implementing Detection-as-Code in an Existing Environment: Part 3 – Validation and Future Possibilities]]></title>
+        <id>https://blog.nviso.eu/?p=27298</id>
+        <link href="https://blog.nviso.eu/2026/11/13/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-3-validation-and-future-possibilities/"/>
+        <updated>2026-11-13T08:27:57.000Z</updated>
+        <summary type="html"><![CDATA[Consolidating detection data is only the first step. In Part 3 of our Detection-as-Code series, we explain how we validate schemas and shared fields, resolve inconsistencies, and integrate checks into GitHub CI pipelines. Tiered validation blocks invalid changes while allowing teams to fix non-urgent issues over time.]]></summary>
+        <author>
+            <name>Felix Hartmond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Policy and Disclosure: 2026 Edition]]></title>
+        <id>https://projectzero.google/2026/11/disclosure-policy.html</id>
+        <link href="https://projectzero.google/2026/11/disclosure-policy.html"/>
+        <updated>2026-11-13T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ASPM in the AI Era Part 3: Fixing Risk at the Speed of Code]]></title>
         <id>https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed</id>
@@ -111,6 +161,22 @@ Two testing approaches are suppo…]]></summary>
         <summary type="html"><![CDATA[Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.]]></summary>
         <author>
             <name>Merav Bar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Decade of Evasion: Celebrating 10 Years of Outflank]]></title>
+        <id>https://www.outflank.nl/?p=6568</id>
+        <link href="https://www.outflank.nl/blog/2026/11/11/a-decade-of-evasion-celebrating-10-years-of-outflank/"/>
+        <updated>2026-11-11T17:38:46.000Z</updated>
+        <summary type="html"><![CDATA[Outflank turned ten this year and we’re celebrating by sharing our journey and giving away swag you can’t buy anywhere. 
+Outflank started in 2016, when Cobalt Strike was still only a few years old, BOFs did not exist yet, EDRs were just AVs with a fancy name and the same easy bypasses, and generative AI was firmly science fiction.  
+At the very beginning, we had no polished website, no elaborate launch campaign, and barely even a company name. What we did have was a four-headed team eager to kick ass, an email address, enough red-team work to keep us very busy and a temporary ‘coming soon’ website with nothing more than just a red hoodie stock photo. 
+That temporary page was intended to be there for ‘just a few weeks’. It stayed up for nearly a year as we were simply focused on client work.
+
+Read full post
+The post A Decade of Evasion: Celebrating 10 Years of Outflank  appeared first on Outflank.]]></summary>
+        <author>
+            <name>Marc Smeets</name>
         </author>
     </entry>
     <entry>
@@ -2105,47 +2171,6 @@ The post ConnectWise SkyKick Breach: How to Check Your Microsoft 365 Tenant  ap
         <summary type="html"><![CDATA[Simplify your device onboarding with Jamf and Teqtivity.]]></summary>
         <author>
             <name>Jamf Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics]]></title>
-        <id>https://www.synack.com/?p=30839</id>
-        <link href="https://www.synack.com/blog/threat-exposure-analytics-webinar-takeaways/"/>
-        <updated>2026-10-15T13:14:19.000Z</updated>
-        <summary type="html"><![CDATA[Tim Nordvedt shares the top takeaways from his Dark Reading webinar with KeyCaliber’s Roselle Safran: AI has made finding vulnerabilities cheap, but fixing them still takes limited people, so the real advantage is knowing which exposures matter and showing leadership you’re reducing them.
-The post Discovery Has Scaled. Remediation Hasn’t: Top Takeaways on Threat Exposure Analytics appeared first on Synack.]]></summary>
-        <author>
-            <name>Tim Nordvedt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Security Scoping: Define What To Test In Your Deployment]]></title>
-        <id>https://bishopfox.com/blog/ai-security-scoping-define-what-to-test-in-your-deployment</id>
-        <link href="https://bishopfox.com/blog/ai-security-scoping-define-what-to-test-in-your-deployment"/>
-        <updated>2026-10-15T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Testing AI security without clear scoping produces superficial coverage and unaddressed risk. This post breaks down how to define boundaries, select the right assessment type, and align AI penetration testing, red teaming, and architecture reviews to the decisions that actually matter.]]></summary>
-        <author>
-            <name>bishopfox.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Burp AT: What's new since Black Hat]]></title>
-        <id>burp-at-whats-new-since-black-hat</id>
-        <link href="https://portswigger.net/blog/burp-at-whats-new-since-black-hat"/>
-        <updated>2026-10-15T10:09:41.000Z</updated>
-        <summary type="html"><![CDATA[Launch Burp AT now               Find out more about Burp AT Since we launched Burp AT at Black Hat USA, it's been great to s]]></summary>
-        <author>
-            <name>PortSwigger Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASPM in the AI Era Part 1: Unified Visibility Across Your Stack]]></title>
-        <id>https://www.wiz.io/blog/aspm-ai-era-pt-1-centralize-appsec-scanners</id>
-        <link href="https://www.wiz.io/blog/aspm-ai-era-pt-1-centralize-appsec-scanners"/>
-        <updated>2026-10-14T20:13:53.000Z</updated>
-        <summary type="html"><![CDATA[Integrate your existing code scanners into Wiz for a unified view of application risk across your environment.]]></summary>
-        <author>
-            <name>Salman Ladha</name>
         </author>
     </entry>
     <entry>
