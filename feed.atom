@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-17T05:41:58.018Z</updated>
+    <updated>2026-11-18T05:06:07.621Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-114938 RCE in OpenJDK: Everything You Need to Know]]></title>
+        <id>https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk</id>
+        <link href="https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk"/>
+        <updated>2026-11-17T22:29:57.000Z</updated>
+        <summary type="html"><![CDATA[Detect and mitigate Java4Shell (CVE-2026-114938), a critical 9.2 RCE vulnerability affecting OpenJDK and major Java-based applications.]]></summary>
+        <author>
+            <name>Tomer Schwartz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines]]></title>
+        <id>https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi</id>
+        <link href="https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi"/>
+        <updated>2026-11-17T22:03:37.000Z</updated>
+        <summary type="html"><![CDATA[On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer.  The package gets almost 200k downloads a month. The malicious versions have since been quarantined.]]></summary>
+        <author>
+            <name>Rami McCarthy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black October Made Attack Path Management a “Now” Problem]]></title>
+        <id>https://specterops.io/?p=31196</id>
+        <link href="https://specterops.io/blog/2026/11/17/attack-path-management-black-october/"/>
+        <updated>2026-11-17T21:13:56.000Z</updated>
+        <summary type="html"><![CDATA[On the November 10, 2026, Patch Tuesday, Microsoft released fixes for 1,093 vulnerabilities, its second Patch Tuesday in a row with a four-digit count. Sixty-three are rated critical. Attackers are already exploiting one of them. Dustin Childs of the Zero Day Initiative flagged 30 as potentially wormable. The same day, Gartner published a special report […]
+The post Black October Made Attack Path Management a “Now” Problem appeared first on SpecterOps.]]></summary>
+        <author>
+            <name>Justin Kohler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patch Me If You Can: Tracing CVEs to Deployed Code]]></title>
+        <id>https://bishopfox.com/blog/tracing-cves-to-deployed-code</id>
+        <link href="https://bishopfox.com/blog/tracing-cves-to-deployed-code"/>
+        <updated>2026-11-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version strings and package records don’t always reveal whether a CVE fix applies. Bishop Fox tested Node.js builds with identical Brotli versions, a PHP backport, and a separate libwebp copy to show why checking the code an application actually uses changes patch assessments.]]></summary>
+        <author>
+            <name>bishopfox.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reducing Microsoft Sentinel Costs Without Compromising Detection – Part 3: The DNS Quest]]></title>
+        <id>https://blog.nviso.eu/?p=26669</id>
+        <link href="https://blog.nviso.eu/2026/11/17/reducing-microsoft-sentinel-costs-without-compromising-detection-part-3-the-dns-quest/"/>
+        <updated>2026-11-17T13:25:03.000Z</updated>
+        <summary type="html"><![CDATA[DNS is one of the most critical log sources for effective security monitoring. In this part of our blog series, we explore how Sentinel Summary Rules can reduce the cost of ingesting DNS traffic events while maintaining detection capabilities & investigate incidents.]]></summary>
+        <author>
+            <name>Theodoros Polyzos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Enterprise Buyers Want From AI Pentesting, According to the Data]]></title>
+        <id>https://www.synack.com/?p=31648</id>
+        <link href="https://www.synack.com/blog/enterprise-ai-pentesting-buyer-research/"/>
+        <updated>2026-11-17T11:50:23.000Z</updated>
+        <summary type="html"><![CDATA[Enterprise buyers want AI pentesting that expands coverage and testing frequency while producing findings they can trust and act on. In Omdia’s research commissioned by Synack, 64% of respondents preferred agent-led testing with human oversight.
+The post What Enterprise Buyers Want From AI Pentesting, According to the Data appeared first on Synack.]]></summary>
+        <author>
+            <name>Angela Heindl-Schober</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing the Wiz AI Security Agent]]></title>
         <id>https://www.wiz.io/blog/introducing-wiz-ai-security-agent</id>
@@ -2150,26 +2212,6 @@ The post API Penetration Testing for Enterprise APIs: Methodology, Scope, and Wh
         <summary type="html"><![CDATA[﷽]]></summary>
         <author>
             <name>cocomelonc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supply Chain Zero Days: Closing the Gap Between Publication and Detection]]></title>
-        <id>https://www.wiz.io/blog/detect-supply-chain-zero-days-at-publication</id>
-        <link href="https://www.wiz.io/blog/detect-supply-chain-zero-days-at-publication"/>
-        <updated>2026-10-19T14:39:29.000Z</updated>
-        <summary type="html"><![CDATA[When trusted packages are compromised, malicious code can quickly spread throughout and beyond developer environments. See how Wiz’s supply chain pipeline identifies compromised packages at publication, helping teams detect zero-day supply chain compromises in Wiz Defend before a CVE is published]]></summary>
-        <author>
-            <name>Alice Klimovitsky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Loud, Fast, and Everywhere: Anatomy of a Real AI-Driven Cloud Attack]]></title>
-        <id>https://www.wiz.io/blog/anatomy-of-ai-driven-cloud-attacks</id>
-        <link href="https://www.wiz.io/blog/anatomy-of-ai-driven-cloud-attacks"/>
-        <updated>2026-10-19T11:26:53.000Z</updated>
-        <summary type="html"><![CDATA[Wiz CIRT responded to AI-driven attacks spanning cloud, Kubernetes, CI/CD, and identity. Learn how these attacks behave and how to detect them.]]></summary>
-        <author>
-            <name>Eden Abergil</name>
         </author>
     </entry>
     <entry>
