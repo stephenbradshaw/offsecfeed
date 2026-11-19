@@ -96,6 +96,16 @@
       "siteUrl": "https://portswigger.net/research",
       "articles": [
         {
+          "id": "achieving-the-impossible-xss-in-innerhtml-without-equals",
+          "author": null,
+          "description": "Introduction I'm delighted to introduce Masato Kinugawa as a guest web security researcher on the PortSwigger research channel. Masato is a well known web security expert who has found countless high",
+          "link": "https://portswigger.net/research/achieving-the-impossible-xss-in-innerhtml-without-equals",
+          "publishedOn": "2026-11-18T14:39:45.000Z",
+          "wordCount": 2275,
+          "title": "Achieving the impossible: XSS in innerHTML without equals",
+          "imageUrl": "https://portswigger.net/cms/images/34/15/5aee-twittercard-impossible-lab-twitter.png"
+        },
+        {
           "id": "blind-trust-stealing-credentials-through-csp",
           "author": null,
           "description": "Content Security Policy is supposed to be the safety net that stops an HTML injection from turning into XSS. Usually it works. But sometimes it doesn't, because the policy allows-lists a domain that h",
@@ -408,6 +418,17 @@
       "feedUrl": "https://www.zerodayinitiative.com/blog?format=rss",
       "siteUrl": "https://www.thezdi.com/blog/",
       "articles": [
+        {
+          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6afc8af3c5d2263869d154cd",
+          "author": "Nitesh Surana",
+          "description": "Local LLM inference is seeing adoption in default developer workflows, and the tooling that serves those models now ships inside products developers already trust. One of those is Docker Model Runner (DMR), the feature in Docker Desktop that pulls, runs, and serves models locally. In November 2025, we reported ZDI-26-150 / CVE-2026-28400, a denial-of-service (on macOS) stemming from an unauthenticated argument-injection vulnerability in DMR. A container created with the default set of privileges could overwrite and corrupt the Docker Desktop VM’s data disk. Further analysis, under non-default configurations, turned the same primitive into arbitrary code execution on the host, on both macOS and Windows.\nIn this post, we walk through the full chain: the argument-injection primitive, the host…",
+          "link": "https://www.thezdi.com/blog/2026/11/17/hostile-inference-exploiting-docker-model-runner-for-container-escapes",
+          "publishedOn": "2026-11-18T17:23:52.000Z",
+          "wordCount": null,
+          "title": "Hostile Inference: Exploiting Docker Model Runner for Container Escapes",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6af35bb88f20d72b231b118a",
           "author": "Dustin Childs",
@@ -14389,6 +14410,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "bltdf4d8210842e3e18",
+          "author": "LABScon",
+          "description": "ICRC’s Mauro Vignati argues AI guardrails can’t fix a deeper problem: a 70-year-old distribution model now applied to dual-use cognitive capabilities.",
+          "link": "https://www.sentinelone.com/labs/labscon26-replay-governing-just-in-time-intelligence-ai-dual-use-capabilities-and-the-limits-of-guardrails/",
+          "publishedOn": "2026-11-18T14:00:00.000Z",
+          "wordCount": null,
+          "title": "LABScon26 Replay | Governing Just-in-Time Intelligence: AI, Dual-Use Capabilities, and the Limits of Guardrails",
+          "enclosure": {
+            "url": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltf0d6eb4fdce2acfe/6afc8dac99559c1960e0acc8/labscon_mauro_ftr.jpg",
+            "length": "437951",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltf0d6eb4fdce2acfe/6afc8dac99559c1960e0acc8/labscon_mauro_ftr.jpg"
+        },
+        {
           "id": "bltde65705bf43b6d96",
           "author": "LABScon",
           "description": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.",
@@ -14514,16 +14550,6 @@
           "wordCount": 3966,
           "title": "PHP2Shell Operational Guidance",
           "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/10/PHP2SHELL-Blog.png"
-        },
-        {
-          "id": "https://blog.nviso.eu/?p=26990",
-          "author": "Kilian Neumair",
-          "description": "Ein Digispark mag wie ein harmloses USB-Entwicklungsboard aussehen, lässt sich jedoch leicht in ein Gerät zur Tastenanschlag-Injektion verwandeln, das sich wie ein USB Rubber Ducky verhält. In diesem Artikel zeigen wir, wie ein solches Gerät eingerichtet, eingesetzt und forensisch analysiert werden kann, von der Ausführung der Payload auf einem Zielsystem bis hin zur Extraktion der Firmware aus dem ATtiny85-Mikrocontroller.",
-          "link": "https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/",
-          "publishedOn": "2026-10-20T07:55:56.000Z",
-          "wordCount": 5952,
-          "title": "Verborgene Tastenanschläge: Forensische Analyse eines Digispark HID-Geräts",
-          "imageUrl": "https://blog.nviso.eu/wp-content/uploads/2026/08/base-linkedin-blogpost-KeystrokesGE.png"
         }
       ]
     },
@@ -15708,6 +15734,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+          "author": "Elastic Security Labs",
+          "description": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+          "link": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+          "publishedOn": "2026-11-18T00:00:00.000Z",
+          "wordCount": 35734,
+          "title": "We caught the agent-framework PyPI compromise six minutes after it published",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9f0c85b0fbfc8440/6afdfa0277abc4ce81d3ae97/image2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt9f0c85b0fbfc8440/6afdfa0277abc4ce81d3ae97/image2.png"
+        },
+        {
           "id": "agentic-offensive-frameworks-detection-artex",
           "author": "Mika Ayenson",
           "description": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
@@ -15835,6 +15876,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/music-app-race-conditions-tcc-bypass/",
+          "author": null,
+          "description": "Jamf Threat Labs investigates now-patched vulnerabilities that allowed attackers to bypass macOS privacy controls.",
+          "link": "https://www.jamf.com/blog/music-app-race-conditions-tcc-bypass/",
+          "publishedOn": "2026-11-17T16:38:00.000Z",
+          "wordCount": 2058,
+          "title": "What happens when TCC gets bypassed? A look at Music.app race conditions",
+          "imageUrl": "https://media.jamf.com/images/news/2026/music-app-race-conditions-tcc-bypass.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/okta-jamf-ai-agent-governance-identity-device/",
           "author": null,
           "description": "Okta and Jamf announced controls for AI agents: Okta governs identity and runtime access, and Jamf secures the device.",
@@ -15932,6 +15983,21 @@
       "siteUrl": "https://www.sentinelone.com/labs/",
       "articles": [
         {
+          "id": "bltdf4d8210842e3e18",
+          "author": "LABScon",
+          "description": "ICRC’s Mauro Vignati argues AI guardrails can’t fix a deeper problem: a 70-year-old distribution model now applied to dual-use cognitive capabilities.",
+          "link": "https://www.sentinelone.com/labs/labscon26-replay-governing-just-in-time-intelligence-ai-dual-use-capabilities-and-the-limits-of-guardrails/",
+          "publishedOn": "2026-11-18T14:00:00.000Z",
+          "wordCount": null,
+          "title": "LABScon26 Replay | Governing Just-in-Time Intelligence: AI, Dual-Use Capabilities, and the Limits of Guardrails",
+          "enclosure": {
+            "url": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltf0d6eb4fdce2acfe/6afc8dac99559c1960e0acc8/labscon_mauro_ftr.jpg",
+            "length": "437951",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltf0d6eb4fdce2acfe/6afc8dac99559c1960e0acc8/labscon_mauro_ftr.jpg"
+        },
+        {
           "id": "bltde65705bf43b6d96",
           "author": "LABScon",
           "description": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.",
@@ -15998,6 +16064,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "author": "Nir Ohfeld",
+          "description": "Two critical HTTP/2 flaws can allow attackers to compromise NGINX servers, putting the websites, APIs, and sensitive data they handle at risk.",
+          "link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "publishedOn": "2026-11-18T15:13:20.000Z",
+          "wordCount": 29507,
+          "title": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1794936719-img_7875.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1794936719-img_7875.png"
+        },
         {
           "id": "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
           "author": "Tomer Schwartz",
@@ -16366,6 +16447,16 @@
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
         {
+          "id": "https://cocomelonc.github.io/research/2026/11/14/physical-covert-channels-1.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/research/2026/11/14/physical-covert-channels-1.html",
+          "publishedOn": "2026-11-14T07:00:00.000Z",
+          "wordCount": 5331,
+          "title": "Optical payload delivery from Android to Linux - part 1. Manchester coding",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/235/photo_2026-11-15_21-37-00.jpg"
+        },
+        {
           "id": "https://cocomelonc.github.io/malware/2026/11/10/malware-tricks-70.html",
           "author": null,
           "description": "﷽",
@@ -16414,16 +16505,6 @@
           "wordCount": 2167,
           "title": "Linux hacking part 12: LD_PRELOAD function interposition. Simple C examples",
           "imageUrl": "https://cocomelonc.github.io/assets/images/230/2026-10-27_01-21.png"
-        },
-        {
-          "id": "https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html",
-          "author": null,
-          "description": "﷽",
-          "link": "https://cocomelonc.github.io/reverse/2026/10/20/wasm-aot-reversing-3.html",
-          "publishedOn": "2026-10-20T02:00:00.000Z",
-          "wordCount": 4565,
-          "title": "Reversing embedded WebAssembly: part 3. Recovering native cross-references from WAMR relocations in pure C.",
-          "imageUrl": "https://cocomelonc.github.io/assets/images/229/2026-10-21_19-31.png"
         }
       ]
     },
