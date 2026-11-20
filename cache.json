@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=31294",
+          "author": "Justin Kohler",
+          "description": "The FBI’s November 13 FLASH advisory on ARTEX describes attackers using an agentic penetration testing framework to automate reconnaissance, exploitation, privilege escalation, and other stages of an intrusion. Some attacks progressed from initial targeting to privileged access in under three hours.  That speed creates an urgent problem for defenders. It also makes an existing question […]\nThe post The FBI ARTEX Advisory and the Paths to Your Critical Systems  appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/11/19/blog-fbi-artex-warning-attack-paths/",
+          "publishedOn": "2026-11-19T15:19:36.000Z",
+          "wordCount": 5135,
+          "title": "The FBI ARTEX Advisory and the Paths to Your Critical Systems",
+          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/11/igor-omilaev-hibWw5mk1UY-unsplash-2.jpg"
+        },
+        {
           "id": "https://specterops.io/?p=31196",
           "author": "Justin Kohler",
           "description": "On the November 10, 2026, Patch Tuesday, Microsoft released fixes for 1,093 vulnerabilities, its second Patch Tuesday in a row with a four-digit count. Sixty-three are rated critical. Attackers are already exploiting one of them. Dustin Childs of the Zero Day Initiative flagged 30 as potentially wormable. The same day, Gartner published a special report […]\nThe post Black October Made Attack Path Management a “Now” Problem appeared first on SpecterOps.",
@@ -14120,16 +14130,6 @@
           "wordCount": 1478,
           "title": "Backporting security fixes at scale with Codex",
           "imageUrl": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/backporting_socialbanner.png"
-        },
-        {
-          "id": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
-          "author": null,
-          "description": "Today we’re publishing patching-bugs and regression-hunt, two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and supported behavior. Engineers can direct the work and review their results; maintainers can supply their own security assumptions and patching requirements, so the agents work within the project’s rules.\nWe built patching-bugs and regression-hunt through Patch the Planet, our joint initiative with OpenAI, where we’ve co-authored hundreds of security patches for widely used open-source projects. Motivated by our major successes on projects like Scapy, our plugins draw on our analys…",
-          "link": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
-          "publishedOn": "2026-10-21T15:00:00.000Z",
-          "wordCount": 1953,
-          "title": "Your AI agent fixed the bug, but what else did it change?",
-          "imageUrl": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_socialbanner3.png"
         }
       ]
     },
@@ -14286,6 +14286,16 @@
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
         {
+          "id": "https://www.pentestpartners.com/?p=44837",
+          "author": "Alex Wallace",
+          "description": "TL;DR  Introduction A significant vulnerability was found by Neil McCourt of Omega Solutions. Andrew Tierney of Pen Test Partners worked with Neil to validate his findings, discovering a number of additional vulnerabilities in the process.  Pen Test Partners, Omega Solutions, NCSC, RDM, the British Retail Consortium, DEFRA, the Food Standards Agency and others were involved […]\nThe post The fridge hack UK supermarkets narrowly avoided?  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/the-fridge-hack-uk-supermarkets-narrowly-avoided/",
+          "publishedOn": "2026-11-20T00:01:00.000Z",
+          "wordCount": 2576,
+          "title": "The fridge hack UK supermarkets narrowly avoided?",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2023/11/uk-fridge-headlinev2-1024x576.png"
+        },
+        {
           "id": "https://www.pentestpartners.com/?p=44800",
           "author": "Alex Wallace",
           "description": "TL;DR  Why WPA2-PSK is a corporate liability  Walk into a small to medium-sized office and there’s a good chance everyone is using the same Wi-Fi password. Staff know it, contractors might know it and sometimes it’s even written on a sign in reception. Convenient, certainly. But there’s a problem with giving everyone the same password. […]\nThe post The problem with shared Wi-Fi passwords at work  appeared first on Pen Test Partners.",
@@ -14314,16 +14324,6 @@
           "wordCount": 2640,
           "title": "PHP2Shell and what the AI headlines are missing",
           "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/10/PHP2SHELL-Headlinev2-1.png"
-        },
-        {
-          "id": "https://www.pentestpartners.com/?p=44748",
-          "author": "Alex Wallace",
-          "description": "TL;DR  A bucketful of photos  There are many services that allow digital photos to be converted to prints. These include a plethora of other printing services so that customer photos may be converted to picture books, mugs, magnetic photo tiles, clothing or even a throw.  With the combination of destination, these services allow photos to […]\nThe post Printerpix and the not so private photo album  appeared first on Pen Test Partners.",
-          "link": "https://www.pentestpartners.com/security-blog/printerpix-and-the-not-so-private-photo-album/",
-          "publishedOn": "2026-10-21T13:42:24.000Z",
-          "wordCount": 2531,
-          "title": "Printerpix and the not so private photo album",
-          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2026/10/Lambros-and-Dave-Printerpix-and-the-not-so-private-photo-album-headlineV2-1024x576.png"
         }
       ]
     },
@@ -15734,6 +15734,21 @@
       "siteUrl": "https://www.elastic.co/security-labs",
       "articles": [
         {
+          "id": "openshift-compliance-elastic-agent-builder",
+          "author": "Anand Vyas",
+          "description": "When an OpenShift compliance control fails, Elastic Agent Builder traces the root cause, from Compliance Operator scans centralized in Elasticsearch and CEL checks for the rules the scanner marks manual.",
+          "link": "https://www.elastic.co/security-labs/blog/openshift-compliance-elastic-agent-builder",
+          "publishedOn": "2026-11-19T15:30:00.000Z",
+          "wordCount": 32992,
+          "title": "From posture to root cause: Investigate OpenShift compliance with Elastic Agent Builder",
+          "enclosure": {
+            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80cbdbf2fbd4f976/6afd53c0706cd3af058d1884/image6.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt80cbdbf2fbd4f976/6afd53c0706cd3af058d1884/image6.png"
+        },
+        {
           "id": "we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
           "author": "Elastic Security Labs",
           "description": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
@@ -15852,21 +15867,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta090c473708b8f70/6ad9eed8fad7349193d092e1/image2.png"
-        },
-        {
-          "id": "php2shell-php-rce-detection",
-          "author": "Ruben Groenewoud,Bryan Porras Blanch",
-          "description": "CVE-2026-109618 and CVE-2026-109619 are critical PHP core RCE flaws that leaked ahead of disclosure. We cover what is verified, why exploitation converges on a web server spawning a shell, and the Elastic detections developed to catch this behavior.",
-          "link": "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
-          "publishedOn": "2026-10-21T00:00:00.000Z",
-          "wordCount": 37095,
-          "title": "php2shell: Assessing Elastic detection coverage relevant to CVE-2026-109618 and CVE-2026-109619",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte46ab96342b9d9fc/6ad8b873b537019b6b7be681/php2shell.jpg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte46ab96342b9d9fc/6ad8b873b537019b6b7be681/php2shell.jpg"
         }
       ]
     },
@@ -15954,26 +15954,6 @@
           "wordCount": 1754,
           "title": "Tech Partner Spotlight: Jamf + sync.blue®",
           "imageUrl": "https://media.jamf.com/images/news/2026/sync-corporate-contacts-iphone-jamf-syncblue.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/automate-school-device-deployment/",
-          "author": null,
-          "description": "Every manual touch in your device deployment is a chance for something to fail. Find the bottlenecks and automate them so IT can focus on more important tasks.",
-          "link": "https://www.jamf.com/blog/automate-school-device-deployment/",
-          "publishedOn": "2026-10-21T16:05:00.000Z",
-          "wordCount": 2365,
-          "title": "Why manual device setup is slowing down your entire school",
-          "imageUrl": "https://media.jamf.com/images/news/2026/automate-school-device-deployment.webp?h=400&q=80&w=700"
-        },
-        {
-          "id": "https://www.jamf.com/blog/identity-governance-administration-education/",
-          "author": null,
-          "description": "Identity governance and administration (IGA) controls who can access what, when and for how long across a school or district. This post explains why IGA matters and what to look for in an IGA solution.",
-          "link": "https://www.jamf.com/blog/identity-governance-administration-education/",
-          "publishedOn": "2026-10-20T17:27:00.000Z",
-          "wordCount": 2316,
-          "title": "What is identity governance and administration in education?",
-          "imageUrl": "https://media.jamf.com/images/news/2026/identity-governance-administration-education.webp?h=400&q=80&w=700"
         }
       ]
     },
@@ -16064,6 +16044,21 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/phpaftershell-critical-php-rce-vulnerabilities-cve-2026-126714",
+          "author": "Merav Bar",
+          "description": "Detect and mitigate phpAfterShell, and additional critical vulnerabilities from PHP's November release that may enable remote code execution.",
+          "link": "https://www.wiz.io/blog/phpaftershell-critical-php-rce-vulnerabilities-cve-2026-126714",
+          "publishedOn": "2026-11-19T21:46:23.000Z",
+          "wordCount": 26571,
+          "title": "phpAfterShell and Critical PHP RCE Vulnerabilities: Everything You Need To Know",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1795124139-threat_update-kics_alert_custom.gif",
+            "length": "0",
+            "type": "image/gif"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1795124139-threat_update-kics_alert_custom.gif"
+        },
         {
           "id": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
           "author": "Nir Ohfeld",
@@ -16378,66 +16373,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1792671028-threat-update-blue-wireframe_custom.jpeg"
-        },
-        {
-          "id": "https://www.wiz.io/blog/php2shell-php-rce",
-          "author": "Sagi Tzadik",
-          "description": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
-          "link": "https://www.wiz.io/blog/php2shell-php-rce",
-          "publishedOn": "2026-10-21T13:59:59.000Z",
-          "wordCount": 25645,
-          "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1792534907-img_7274.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1792534907-img_7274.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
-          "author": "Benjamin Read",
-          "description": "In a new incident, a malicious version (1.107.0)  of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.",
-          "link": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
-          "publishedOn": "2026-10-21T13:44:12.000Z",
-          "wordCount": 23114,
-          "title": "LiteLLM Compromised, Steals Credentials",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1792586935-3.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1792586935-3.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
-          "author": "Shahar Yakov",
-          "description": "Enable native runtime protection for GKE in just one click. The Wiz Runtime Sensor add-on now automates deployment and credential management while delivering predictable, kernel-level eBPF threat detection for your GKE Kubernetes fleets.",
-          "link": "https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native",
-          "publishedOn": "2026-10-20T22:02:42.000Z",
-          "wordCount": 23328,
-          "title": "Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native.",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1792533747-wiz-1-click-gke-google-banner-1x.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1792533747-wiz-1-click-gke-google-banner-1x.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
-          "author": "Shira Ayal",
-          "description": "How a single Google Search ad click leads to credential theft, hijacking of cloud billing account, and hundreds of thousands of dollars incurred in unauthorized AI API usage",
-          "link": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
-          "publishedOn": "2026-10-20T20:03:10.000Z",
-          "wordCount": 23426,
-          "title": "From Phishing to LLMjacking: Threat Actors Targeting Cloud Billing Accounts for LLM Usage",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1792511853-4-1.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1792511853-4-1.png"
         }
       ]
     },
