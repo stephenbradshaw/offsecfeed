@@ -54,16 +54,6 @@
           "wordCount": 5723,
           "title": "Mi Scusi, My SCSI: Abusing iSCSI Target Server",
           "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/11/unauthenticated-iscsi-target-server.png"
-        },
-        {
-          "id": "https://specterops.io/?p=30661",
-          "author": "Raj Patel",
-          "description": "For years, we thought LDAP and SMB signing protected us from NTLM relay attacks. However, we found that both protocols could be relay targets through re-authentication on a connection the attacker already owned. Signing was still enforced, just with the attacker known session key. Microsoft fixed SMB quietly in September 2026 and LDAP in October […]\nThe post Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication appeared first on SpecterOps.",
-          "link": "https://specterops.io/blog/2026/10/23/ldap-signing-bypass-ntlm-relay/",
-          "publishedOn": "2026-10-23T16:08:20.000Z",
-          "wordCount": 8287,
-          "title": "Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication",
-          "imageUrl": "https://specterops.io/wp-content/uploads/sites/3/2026/10/NTLM.png"
         }
       ]
     },
@@ -246,6 +236,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=11328",
+          "author": "Didier Stevens",
+          "description": "In blog post “Quickpost: Uranium Glass” I show some spectra made with the Radiacode app. I just discovered that this app also allows you to compare and subtract spectra. Here I subtracted the background spectrum from the uranium glass spectrum: It’s easier to see the uranium peaks in this spectrum.",
+          "link": "https://blog.didierstevens.com/2026/11/22/update-uranium-glass/",
+          "publishedOn": "2026-11-22T10:59:11.000Z",
+          "wordCount": 3053,
+          "title": "Update: Uranium Glass",
+          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2026/11/img_9423.png"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=11302",
           "author": "Didier Stevens",
@@ -14192,6 +14192,36 @@
       "siteUrl": "https://blog.zsec.uk/",
       "articles": [
         {
+          "id": "6aed5e240b3fee09ce07d09c",
+          "author": "Andy Gill",
+          "description": "Taking SSH off the internet: a clean sshd baseline (and the drop-in ordering trap that silently undoes it), SSH through Cloudflare Tunnel and Access, and closing port 22 without losing the provider's console.",
+          "link": "https://blog.zsec.uk/ssh-ghost-1/",
+          "publishedOn": "2026-11-22T16:02:18.000Z",
+          "wordCount": null,
+          "title": "Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt1",
+          "imageUrl": null
+        },
+        {
+          "id": "6b0267a43c6a96249240c6b3",
+          "author": "Andy Gill",
+          "description": "Locking the origin to your own Cloudflare zone with authenticated origin pulls, then detection and recovery (auditd, login alerts, off-site backups, patching), sandboxing Ghost and nginx, fail2ban that actually works behind Cloudflare, and hardening the analytics container.",
+          "link": "https://blog.zsec.uk/ssh-ghost-2/",
+          "publishedOn": "2026-11-22T15:57:48.000Z",
+          "wordCount": null,
+          "title": "Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt2",
+          "imageUrl": null
+        },
+        {
+          "id": "6b0267b23c6a96249240c6ba",
+          "author": "Andy Gill",
+          "description": "Going further: checking it all from the outside, short-lived SSH certificates and hardware keys, the mistakes that bit me, OS-level hardening and housekeeping, re-checking the lot against a critical nginx CVE before moving to nginx.org's packages, and a recap of the whole series.",
+          "link": "https://blog.zsec.uk/ssh-ghost-3/",
+          "publishedOn": "2026-11-22T15:55:58.000Z",
+          "wordCount": null,
+          "title": "Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt3",
+          "imageUrl": null
+        },
+        {
           "id": "6a6ddf611f2854065d4481dc",
           "author": "Andy Gill",
           "description": "How to write red team reports that get acted on: executive summaries, findings, severity ratings and turning technical work into business impact.",
@@ -14656,6 +14686,16 @@
       "siteUrl": "https://www.synack.com/",
       "articles": [
         {
+          "id": "https://www.synack.com/?p=31665",
+          "author": "Tim Nordvedt",
+          "description": "What External Network Penetration Testing Covers External network penetration testing evaluates an organization’s internet-facing infrastructure from the position of an attacker who holds no credentials and no internal access, working from publicly available information the same way a real adversary would. That starting position is what separates it from every other testing discipline, since the […]\nThe post External Network Penetration Testing: Enterprise Methodology and What’s Included appeared first on Synack.",
+          "link": "https://www.synack.com/blog/external-network-penetration-testing/",
+          "publishedOn": "2026-11-19T13:42:08.000Z",
+          "wordCount": 5387,
+          "title": "External Network Penetration Testing: Enterprise Methodology and What’s Included",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/synack-external-network-penetration-testing-og.webp"
+        },
+        {
           "id": "https://www.synack.com/?p=31648",
           "author": "Angela Heindl-Schober",
           "description": "Enterprise buyers want AI pentesting that expands coverage and testing frequency while producing findings they can trust and act on. In Omdia’s research commissioned by Synack, 64% of respondents preferred agent-led testing with human oversight.\nThe post What Enterprise Buyers Want From AI Pentesting, According to the Data appeared first on Synack.",
@@ -14734,36 +14774,6 @@
           "wordCount": 5688,
           "title": "Web Application Penetration Testing Services for Enterprises: Scope, Timeline, and Cost",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/synack-web-application-penetration-testing-services.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=31159",
-          "author": "Mark Kuhr",
-          "description": "PHP2Shell demands prompt patching and evidence that remediation worked. Mark Kuhr explains how exploitability validation and experts working with agentic AI help security teams understand exposure and act with confidence.\nThe post PHP2Shell and the Case for Exploitability Validation appeared first on Synack.",
-          "link": "https://www.synack.com/blog/exploitability-validation-php-flaws/",
-          "publishedOn": "2026-10-23T20:56:51.000Z",
-          "wordCount": 4982,
-          "title": "PHP2Shell and the Case for Exploitability Validation",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/php-flaws-mark-kuhr-synack-og.png"
-        },
-        {
-          "id": "https://www.synack.com/?p=31128",
-          "author": "Tim Nordvedt",
-          "description": "Continuous penetration testing is usually priced by subscription or credit model rather than per engagement. Cost depends on attack surface size, testing depth, and retest policy, not a simple asset count. Published price ranges vary widely across the market because providers define \"scope\" differently, so the pricing model is more useful to understand than any single published number.\nThe post Continuous Penetration Testing Services: What’s Included and How Pricing Works appeared first on Synack.",
-          "link": "https://www.synack.com/blog/continuous-penetration-testing-services-pricing/",
-          "publishedOn": "2026-10-22T21:55:58.000Z",
-          "wordCount": 5380,
-          "title": "Continuous Penetration Testing Services: What’s Included and How Pricing Works",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/synack_continuous_penetration_testing_services.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=31076",
-          "author": "Nikola RTM",
-          "description": "API penetration testing focuses on authorization, authentication, and business logic at the endpoint level rather than the page-based structure a web application test targets. Scope is defined by endpoints, roles, and protocols rather than pages, and the most common finding class across enterprise APIs is broken object-level authorization. A test that only covers documented endpoints leaves the least-tested part of most API estates untouched. Documentation is where every API test starts; pairing testing with attack surface discovery is how you find the APIs nobody documented.\nThe post API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered appeared first on Synack.",
-          "link": "https://www.synack.com/blog/api-penetration-testing-enterprise-methodology-scope/",
-          "publishedOn": "2026-10-20T11:59:46.000Z",
-          "wordCount": 5870,
-          "title": "API Penetration Testing for Enterprise APIs: Methodology, Scope, and What’s Covered",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/api_penetration_testing_for_enterprise_apis_og.webp"
         }
       ]
     },
@@ -14842,6 +14852,36 @@
       "feedUrl": "https://blog.zsec.uk/rss/",
       "siteUrl": "https://blog.zsec.uk/",
       "articles": [
+        {
+          "id": "6aed5e240b3fee09ce07d09c",
+          "author": "Andy Gill",
+          "description": "Taking SSH off the internet: a clean sshd baseline (and the drop-in ordering trap that silently undoes it), SSH through Cloudflare Tunnel and Access, and closing port 22 without losing the provider's console.",
+          "link": "https://blog.zsec.uk/ssh-ghost-1/",
+          "publishedOn": "2026-11-22T16:02:18.000Z",
+          "wordCount": null,
+          "title": "Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt1",
+          "imageUrl": null
+        },
+        {
+          "id": "6b0267a43c6a96249240c6b3",
+          "author": "Andy Gill",
+          "description": "Locking the origin to your own Cloudflare zone with authenticated origin pulls, then detection and recovery (auditd, login alerts, off-site backups, patching), sandboxing Ghost and nginx, fail2ban that actually works behind Cloudflare, and hardening the analytics container.",
+          "link": "https://blog.zsec.uk/ssh-ghost-2/",
+          "publishedOn": "2026-11-22T15:57:48.000Z",
+          "wordCount": null,
+          "title": "Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt2",
+          "imageUrl": null
+        },
+        {
+          "id": "6b0267b23c6a96249240c6ba",
+          "author": "Andy Gill",
+          "description": "Going further: checking it all from the outside, short-lived SSH certificates and hardware keys, the mistakes that bit me, OS-level hardening and housekeeping, re-checking the lot against a critical nginx CVE before moving to nginx.org's packages, and a recap of the whole series.",
+          "link": "https://blog.zsec.uk/ssh-ghost-3/",
+          "publishedOn": "2026-11-22T15:55:58.000Z",
+          "wordCount": null,
+          "title": "Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt3",
+          "imageUrl": null
+        },
         {
           "id": "6a6ddf611f2854065d4481dc",
           "author": "Andy Gill",
