@@ -2,10 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephenbradshaw.github.io/offsecfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-11-23T04:43:56.241Z</updated>
+    <updated>2026-11-24T07:34:31.682Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://stephenbradshaw.github.io/offsecfeed/index.html"/>
     <link rel="self" href="https://stephenbradshaw.github.io/offsecfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ARTEX leads to persistent ZQAgent backdoor]]></title>
+        <id>https://blog.nviso.eu/?p=28140</id>
+        <link href="https://blog.nviso.eu/2026/11/23/artex-fog0003-zqagent-backdoor/"/>
+        <updated>2026-11-23T15:43:13.000Z</updated>
+        <summary type="html"><![CDATA[NVISO observed ARTEX deploying ZQAgent, a new backdoor providing its operator with a long-lasting foothold within the target environment.]]></summary>
+        <author>
+            <name>Maxime Thiebaut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ARTEX führt zu einer dauerhaften ZQAgent-Backdoor]]></title>
+        <id>https://blog.nviso.eu/?p=28600</id>
+        <link href="https://blog.nviso.eu/2026/11/23/https-blog-nviso-eu-2026-11-20-artex-fog0003-zqagent-backdoor-de/"/>
+        <updated>2026-11-23T15:41:27.000Z</updated>
+        <summary type="html"><![CDATA[NVISO hat beobachtet, wie ARTEX die neue ZQAgent-Backdoor einsetzt, um sich dauerhaften Zugriff auf die Zielumgebung zu verschaffen.]]></summary>
+        <author>
+            <name>Maxime Thiebaut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agentic Attacks: In The Wild]]></title>
+        <id>https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks</id>
+        <link href="https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks"/>
+        <updated>2026-11-23T14:46:19.000Z</updated>
+        <summary type="html"><![CDATA[Agentic offensive frameworks like ARTEX are driving a surge in cloud intrusions. Wiz Research shares cases from the wild, including both sides of one attack via the operator's leaked logs, an update on Black October, and the detections that catch these noisy, machine-speed attacks.]]></summary>
+        <author>
+            <name>Rami McCarthy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Press play on Elastic Security 9.6, banger after banger]]></title>
+        <id>elastic-security-9-6-release-highlights</id>
+        <link href="https://www.elastic.co/security-labs/blog/elastic-security-9-6-release-highlights"/>
+        <updated>2026-11-23T12:34:52.000Z</updated>
+        <summary type="html"><![CDATA[AlertZero works your alert queue in the background and nothing consequential it proposes runs until you approve it. 9.6 also brings entity resolution, MITRE ATLAS mappings, 143 AI detection rules, and Linux ransomware protection.]]></summary>
+        <author>
+            <name>Mia LaVada</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AlertZero in Elastic Security: Every alert answered. Every decision yours]]></title>
+        <id>ai-soc-agents-alertzero-workers</id>
+        <link href="https://www.elastic.co/security-labs/blog/ai-soc-agents-alertzero-workers"/>
+        <updated>2026-11-23T11:12:50.000Z</updated>
+        <summary type="html"><![CDATA[Agents triage alerts, hunt threats, tune noisy rules and reconstruct what happened on a host. Each hands you a proposed action with the evidence behind it, and you set how far it goes alone and which model it uses.]]></summary>
+        <author>
+            <name>James Spiteri,David Elgut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elastic ships 143 detection rules for AI agents and LLM platforms]]></title>
+        <id>ai-security-detection-rules-coding-agents-mcp</id>
+        <link href="https://www.elastic.co/security-labs/blog/ai-security-detection-rules-coding-agents-mcp"/>
+        <updated>2026-11-23T10:50:41.000Z</updated>
+        <summary type="html"><![CDATA[A fake MCP server copied every outgoing email to an attacker and the new rules catch that, along with coding agents running attacker commands, secrets pasted into prompts, and stolen keys running models on your bill.]]></summary>
+        <author>
+            <name>Mika Ayenson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thinking fast about prompt injection: New System 1 models in Elastic]]></title>
+        <id>prompt-injection-detection-ai-agents</id>
+        <link href="https://www.elastic.co/security-labs/blog/prompt-injection-detection-ai-agents"/>
+        <updated>2026-11-23T08:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Four small classifiers score every GenAI prompt and response at ingest, inside your own cluster, catching prompt injection, encoded payloads, obfuscated words and refusals without an LLM reading every event.]]></summary>
+        <author>
+            <name>Mika Ayenson,Gus Carlock,Kirti Sodhi,Angelo Schranko de Oliveira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?]]></title>
+        <id>https://projectzero.google/2026/11/virtualbox-process-hardening.html</id>
+        <link href="https://projectzero.google/2026/11/virtualbox-process-hardening.html"/>
+        <updated>2026-11-23T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Back in 2017 I did some research into Oracle VirtualBox on Windows. Specifically I focussed on their mechanism to protect their VM processes from the user on the host. The protection was to gate who could open the kernel driver, which might allow for privilege escalation due to the way it was designed. At the time I found 3 ways of bypassing the protection, with an additional issue in COM’s runtime I reported in 2020. These issues were all written up in this post. Fast forward to 2026 and I decided to look at VirtualBox again to see if much had changed. This time I found 3 new bypasses for protected processes, with an additional bug which was a broken fix for the 2020 bypass breaking due to changes in Windows.]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Taking SSH Off the Internet With Cloudflare Tunnel and Access - Pt1]]></title>
         <id>6aed5e240b3fee09ce07d09c</id>
@@ -168,6 +248,16 @@ The post The FBI ARTEX Advisory and the Paths to Your Critical Systems  appeare
 The post External Network Penetration Testing: Enterprise Methodology and What’s Included appeared first on Synack.]]></summary>
         <author>
             <name>Tim Nordvedt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optical recon over light - part 2. Android Build metadata. Simple Kotlin and C example]]></title>
+        <id>https://cocomelonc.github.io/research/2026/11/18/physical-covert-channels-2.html</id>
+        <link href="https://cocomelonc.github.io/research/2026/11/18/physical-covert-channels-2.html"/>
+        <updated>2026-11-18T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[﷽]]></summary>
+        <author>
+            <name>cocomelonc</name>
         </author>
     </entry>
     <entry>
@@ -2201,26 +2291,6 @@ The post Authorization Differential Testing in Salesforce appeared first on NetS
         <summary type="html"><![CDATA[﷽]]></summary>
         <author>
             <name>cocomelonc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles]]></title>
-        <id>https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles</id>
-        <link href="https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles"/>
-        <updated>2026-10-25T17:55:33.000Z</updated>
-        <summary type="html"><![CDATA[An automated campaign is planting secret-dumping workflows in every repository that stolen GitHub tokens can reach. It uses no C2 server, is actively evolving, and has been significantly disrupted by recent GitHub security improvements.]]></summary>
-        <author>
-            <name>Rami McCarthy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability]]></title>
-        <id>https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js</id>
-        <link href="https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js"/>
-        <updated>2026-10-25T14:46:53.000Z</updated>
-        <summary type="html"><![CDATA[Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.]]></summary>
-        <author>
-            <name>Merav Bar</name>
         </author>
     </entry>
     <entry>
