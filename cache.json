@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://specterops.io/?p=31436",
+          "author": "Jared Atkinson",
+          "description": "How the compromise of a single employee can have consequences across an entire enterprise. How Could This Happen? In the aftermath of the 1Password security incident, I’ve seen a considerable amount of discussion questioning how the compromise of a single employee’s GitHub account could have such significant consequences, particularly at a company whose business revolves […]\nThe post Beyond Branch Protection: Understanding GitHub Attack Paths appeared first on SpecterOps.",
+          "link": "https://specterops.io/blog/2026/11/25/beyond-branch-protection-understanding-github-attack-paths/",
+          "publishedOn": "2026-11-25T23:26:21.000Z",
+          "wordCount": 7725,
+          "title": "Beyond Branch Protection: Understanding GitHub Attack Paths",
+          "imageUrl": null
+        },
+        {
           "id": "https://specterops.io/?p=31294",
           "author": "Justin Kohler",
           "description": "The FBI’s November 13 FLASH advisory on ARTEX describes attackers using an agentic penetration testing framework to automate reconnaissance, exploitation, privilege escalation, and other stages of an intrusion. Some attacks progressed from initial targeting to privileged access in under three hours.  That speed creates an urgent problem for defenders. It also makes an existing question […]\nThe post The FBI ARTEX Advisory and the Paths to Your Critical Systems  appeared first on SpecterOps.",
@@ -114,16 +124,6 @@
           "wordCount": 1714,
           "title": "Making HTTP header injection critical with one prompt",
           "imageUrl": "https://portswigger.net/cms/images/dc/fa/477a-twittercard-header-injection-social-2400x1260_1.png"
-        },
-        {
-          "id": "scalable-vector-grief",
-          "author": null,
-          "description": "I tested eight popular SVG sanitizers and bypassed six of them. In this post, I'll show you how a response header can run JavaScript in Firefox even when the response body is completely harmless XML.",
-          "link": "https://portswigger.net/research/scalable-vector-grief",
-          "publishedOn": "2026-10-27T14:29:26.000Z",
-          "wordCount": 1670,
-          "title": "Scalable Vector Grief",
-          "imageUrl": "https://portswigger.net/cms/images/bb/10/3134-twittercard-twitter.png"
         }
       ]
     },
@@ -150,16 +150,6 @@
           "publishedOn": "2026-11-13T08:00:00.000Z",
           "wordCount": 1181,
           "title": "Policy and Disclosure: 2026 Edition",
-          "imageUrl": "https://projectzero.google/images/preview_image.png"
-        },
-        {
-          "id": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-          "author": null,
-          "description": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number of vulnerabilities that get reported before they impact users.",
-          "link": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-          "publishedOn": "2026-10-27T07:00:00.000Z",
-          "wordCount": 6595,
-          "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
           "imageUrl": "https://projectzero.google/images/preview_image.png"
         }
       ]
@@ -216,16 +206,6 @@
             "type": "video/quicktime"
           },
           "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/11/graph-techblog.png"
-        },
-        {
-          "id": "https://www.netspi.com/?p=34702",
-          "author": "Aussan Saad-Ali",
-          "description": "NetSPI Salesforce expert Aussan explores how holding identity steady across UI API, GraphQL, and custom @AuraEnabled Apex methods reveals hidden authorization gaps.\nThe post Authorization Differential Testing in Salesforce appeared first on NetSPI.",
-          "link": "https://www.netspi.com/blog/technical-blog/cloud-pentesting/authorization-differential-testing-in-salesforce/",
-          "publishedOn": "2026-10-26T19:17:06.000Z",
-          "wordCount": 5153,
-          "title": "Authorization Differential Testing in Salesforce",
-          "imageUrl": "https://www.netspi.com/wp-content/uploads/2026/10/10.24.26_TECH_Salesforce-Authorization-Differential-Testing_1200x630.jpg"
         }
       ]
     },
@@ -447,17 +427,6 @@
           "publishedOn": "2026-11-10T19:02:41.000Z",
           "wordCount": null,
           "title": "The November 2026 Security Update Review",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "5894c269e4fcb5e65a1ed623:58a5b38cb3db2bd67b608658:6ad793cedec4dc22329901f0",
-          "author": "Bobby Gould",
-          "description": "On September 25, 2026, Mandiant released a report regarding continued mass exploitation of CVE-2026-35273 by the ShinyHunters group. TrendAI’s Zero Day Initiative first reported this CVE to Oracle on June 10, 2026, following an investigation I conducted with Minh Giang and Lucas Miller of TrendAI Research. Although Oracle issued a patch under a single CVE, we reported three distinct vulnerabilities across multiple PeopleSoft components. We are coordinating with Oracle to assign separate CVEs for each issue.\nIn this blog post, we will walk through each of these vulnerabilities, starting with a Server-Side Request Forgery (SSRF) vulnerability. We will also review the validateClient method that Oracle introduced to allow PeopleSoft system administrators to restrict access to certain functiona…",
-          "link": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
-          "publishedOn": "2026-10-27T16:39:07.000Z",
-          "wordCount": null,
-          "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
           "itunes": {},
           "imageUrl": null
         }
@@ -14079,16 +14048,6 @@
           "wordCount": 1887,
           "title": "Introducing ProtoSpector: A Burp Suite Extension for Analyzing, Tampering With, and Testing Protobuf and gRPC Traffic",
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.doyensec.com/2026/10/27/electrong-oss.html",
-          "author": null,
-          "description": "ElectroNG is now free and open source! Today we are releasing both the desktop application and its core analysis engine under the Apache License 2.0, opening up years of Doyensec’s work on Electron application security to the community.\n\n  \n\nWhy we are open-sourcing ElectroNG\nWe launched ElectroNG in September 2022 as a commercial static application security testing (SAST) tool for Electron applications. It grew out of our experience auditing Electron apps and developing Electronegativity, with the goal of turning that research into a more capable scanner and an easier workflow for developers and security researchers.\nWe are proud of what we built. However, despite our best efforts, we could not build a customer base large enough to sustain its development, and we stopped selling licenses …",
-          "link": "https://blog.doyensec.com/2026/10/27/electrong-oss.html",
-          "publishedOn": "2026-10-26T23:00:00.000Z",
-          "wordCount": 2219,
-          "title": "ElectroNG is now open source!",
-          "imageUrl": null
         }
       ]
     },
@@ -14335,6 +14294,16 @@
       "feedUrl": "https://www.pentestpartners.com/feed/",
       "siteUrl": "https://www.pentestpartners.com/",
       "articles": [
+        {
+          "id": "https://www.pentestpartners.com/?p=44855",
+          "author": "Alex Wallace",
+          "description": "TL;DR  “Do you need us to do anything with the WAF?”  It’s a common question during the kick-off call for a web app test. You’ve sorted the test accounts, shared the API documentation and agreed which hostnames are in scope. Then someone mentions the Web Application Firewall (WAF), and there’s a long pause. The answer […]\nThe post Allow-list the Web Application Firewall (WAF) for your web app test  appeared first on Pen Test Partners.",
+          "link": "https://www.pentestpartners.com/security-blog/allow-list-the-web-application-firewall-waf-for-your-web-app-test/",
+          "publishedOn": "2026-11-25T10:46:24.000Z",
+          "wordCount": 3525,
+          "title": "Allow-list the Web Application Firewall (WAF) for your web app test",
+          "imageUrl": "https://www.pentestpartners.com/wp-content/uploads/2024/11/chris-tam-waf-headline-2.png"
+        },
         {
           "id": "https://www.pentestpartners.com/?p=44837",
           "author": "Alex Wallace",
@@ -14619,6 +14588,16 @@
       "siteUrl": "https://bishopfox.com/",
       "articles": [
         {
+          "id": "https://bishopfox.com/blog/icsscanner-safe-vulnerability-scanning-ics-ot",
+          "author": null,
+          "description": "Most scanners avoid ICS and OT networks because one bad probe can crash a PLC. Bishop Fox built icsScanner to fingerprint before every probe, cap confidence at what the evidence supports, and isolate physical-actuation findings in a separate tier. Learn how the safety architecture works.",
+          "link": "https://bishopfox.com/blog/icsscanner-safe-vulnerability-scanning-ics-ot",
+          "publishedOn": "2026-11-25T14:00:00.000Z",
+          "wordCount": 4450,
+          "title": "icsScanner: Safe Active Vulnerability Scanning for ICS and OT Networks",
+          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_icsScanner-ICS-OT-Networks.png?mtime=1795646898"
+        },
+        {
           "id": "https://bishopfox.com/blog/tracing-cves-to-deployed-code",
           "author": null,
           "description": "Version strings and package records don’t always reveal whether a CVE fix applies. Bishop Fox tested Node.js builds with identical Brotli versions, a PHP backport, and a separate libwebp copy to show why checking the code an application actually uses changes patch assessments.",
@@ -14687,16 +14666,6 @@
           "wordCount": 4062,
           "title": "A Journey into Claude's Sandbox",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_Journey-Claudes-Sandbox.png?mtime=1793287613"
-        },
-        {
-          "id": "https://bishopfox.com/blog/responder-guidance-for-php2shell",
-          "author": null,
-          "description": "On October 21, 2026, the PHP project disclosed two critical memory-corruption vulnerabilities that can allow unauthenticated remote code execution. Both are fixed in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. Every PHP install serving web requests is in scope,",
-          "link": "https://bishopfox.com/blog/responder-guidance-for-php2shell",
-          "publishedOn": "2026-10-27T13:00:00.000Z",
-          "wordCount": 3022,
-          "title": "Responder Guidance for PHP2Shell (CVE-2026-109618 and CVE-2026-109619)",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/Blog_Responder-Guidance-PHP2Shell.png"
         }
       ]
     },
@@ -15972,21 +15941,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4c092f75c0b7ceea/6aeaf928f321be7ff38f7e67/threats-etc-report.jpg"
-        },
-        {
-          "id": "windows-endpoint-security-platform-wesp",
-          "author": "Pavel Yosifovich",
-          "description": "Microsoft wants EDR out of the Windows kernel, and the preview binaries show wesp.sys telling a user-mode client that a process is starting, with nothing in its imports to let that client block it.",
-          "link": "https://www.elastic.co/security-labs/blog/windows-endpoint-security-platform-wesp",
-          "publishedOn": "2026-10-26T00:00:00.000Z",
-          "wordCount": 25734,
-          "title": "Kernel eviction notice: What wesp.sys reveals about the Windows Endpoint Security Platform",
-          "enclosure": {
-            "url": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt28b3f8a172b9cb89/6adf78e3629a0812d6b2aad8/image3.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt28b3f8a172b9cb89/6adf78e3629a0812d6b2aad8/image3.png"
         }
       ]
     },
@@ -15996,6 +15950,16 @@
       "siteUrl": "https://www.jamf.com/blog/",
       "articles": [
         {
+          "id": "https://www.jamf.com/blog/jamf-nation-apple-admin-community/",
+          "author": null,
+          "description": "Jamf Nation forums offer Apple admins a place to find trusted information, advice and connection from fellow admins around the world.",
+          "link": "https://www.jamf.com/blog/jamf-nation-apple-admin-community/",
+          "publishedOn": "2026-11-25T13:57:00.000Z",
+          "wordCount": 1303,
+          "title": "Jamf Nation: Apple admin community and support",
+          "imageUrl": "https://media.jamf.com/images/news/2026/jamf-nation-apple-admin-community.webp?h=400&q=80&w=700"
+        },
+        {
           "id": "https://www.jamf.com/blog/ai-cant-clone-iam-vendor-moat/",
           "author": null,
           "description": "AI can clone software quickly. IAM buyers should judge vendors on staying power, audited controls and proven operations — not code alone.",
@@ -16004,6 +15968,16 @@
           "wordCount": 2398,
           "title": "In the age of AI, not all identity and access management solutions are the same",
           "imageUrl": "https://media.jamf.com/images/news/2026/ai-cant-clone-iam-vendor-moat.webp?h=400&q=80&w=700"
+        },
+        {
+          "id": "https://www.jamf.com/blog/sms-of-death-android-zero-click-vulnerability/",
+          "author": null,
+          "description": "A zero-click Android flaw lets one malformed SMS crash the telephony process, dropping calls and causing repeated disruption.",
+          "link": "https://www.jamf.com/blog/sms-of-death-android-zero-click-vulnerability/",
+          "publishedOn": "2026-11-18T18:07:00.000Z",
+          "wordCount": 3033,
+          "title": "SMS of Death: how an 8-byte payload can crash Android’s telephony stack",
+          "imageUrl": "https://media.jamf.com/images/news/2026/sms-of-death-android-zero-click-vulnerability.webp?h=400&q=80&w=700"
         },
         {
           "id": "https://www.jamf.com/blog/music-app-race-conditions-tcc-bypass/",
@@ -16164,6 +16138,51 @@
       "feedUrl": "https://www.wiz.io/feed/rss.xml",
       "siteUrl": "https://www.wiz.io",
       "articles": [
+        {
+          "id": "https://www.wiz.io/blog/introducing-wiz-adr",
+          "author": "Shashank Golla",
+          "description": "See which functions in your code triggered a runtime alert, use agentic investigation to cut false positives, and automate response down to the exact file and line to fix.",
+          "link": "https://www.wiz.io/blog/introducing-wiz-adr",
+          "publishedOn": "2026-11-26T02:26:16.000Z",
+          "wordCount": 26581,
+          "title": "Introducing Wiz ADR: Strengthening Cloud and AI Detection and Response with Application Context",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1795658668-application-detection-and-response-2-2x.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1795658668-application-detection-and-response-2-2x.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/what-wiz-agents-are-thankful-for",
+          "author": "Bandhna Bedi",
+          "description": "Grab a slice of Data Pie and pull up a chair. Here’s how Wiz’s Red, Green, and Blue Agents celebrate a quieter, smarter security season.",
+          "link": "https://www.wiz.io/blog/what-wiz-agents-are-thankful-for",
+          "publishedOn": "2026-11-26T02:10:58.000Z",
+          "wordCount": 27282,
+          "title": "A Feast for AI: What Wiz Agents are Thankful For",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1795659037-image-2.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1795659037-image-2.png"
+        },
+        {
+          "id": "https://www.wiz.io/blog/agentic-offensive-frameworks-intent-ids-artex-cairn",
+          "author": "Rami McCarthy",
+          "description": "Intent IDs (iNNNN) from agentic offensive frameworks like ARTEX and Cairn are leaking into victim logs. We break down how these counters work in code, how defenders can use them to pace and deconflict attacker activity, and where the signal breaks down.",
+          "link": "https://www.wiz.io/blog/agentic-offensive-frameworks-intent-ids-artex-cairn",
+          "publishedOn": "2026-11-25T14:27:03.000Z",
+          "wordCount": 27577,
+          "title": "Inside Agentic Offensive Frameworks: Intent IDs",
+          "enclosure": {
+            "url": "https://www.datocms-assets.com/75231/1795602437-agentic-attack_custom.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://www.datocms-assets.com/75231/1795602437-agentic-attack_custom.jpeg"
+        },
         {
           "id": "https://www.wiz.io/blog/fedramp-vdr-ver-event-key-takeaways",
           "author": "Bryan Rosensteel",
@@ -16448,21 +16467,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1793285930-the-rise-of-agentic-attacks2.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-          "author": "Yaara Shriki",
-          "description": "Wiz research has been monitoring PHP2Shell exploitation attempts, but none have succeeded so far. We examine the techniques used, what prevented the attacks from completing and how observed exposure has changed since disclosure.",
-          "link": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-          "publishedOn": "2026-10-27T13:21:45.000Z",
-          "wordCount": 25375,
-          "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1793110810-threat-update-pink-subtitle_custom-1.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1793110810-threat-update-pink-subtitle_custom-1.jpeg"
         }
       ]
     },
