@@ -163,16 +163,6 @@
           "wordCount": 3667,
           "title": "Beyond the compiler: Making IBM i run modified native code - Program Validation Value",
           "imageUrl": "https://blog.silentsignal.eu/assets/img//img/door.gif"
-        },
-        {
-          "id": "https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/",
-          "author": null,
-          "description": "The Rijndael key builder in Part 1 worked for the first set of samples, but its split-buffer model was wrong. QSYS/QZLSRTPW builds one 32-byte value, 00×5 ‖ des_plaintext_16 ‖ format_byte ‖ username_cp037_10, and insertion-sorts all 32 bytes in ascending order. I tested the corrected decoder against almost 900 QSYRUPWD API output buffers, which IBM i calls receiver variables. The decoder decrypted the 192-byte QZLS ciphertext field in every receiver that contained it and reproduced its embedded username.",
-          "link": "https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/",
-          "publishedOn": "2026-10-29T14:00:00.000Z",
-          "wordCount": 2774,
-          "title": "QSYRUPWD, Part 2: Correcting the Rijndael Key Builder",
-          "imageUrl": "https://blog.silentsignal.eu/assets/img//img/part2.gif"
         }
       ]
     },
@@ -215,6 +205,16 @@
       "feedUrl": "https://blog.didierstevens.com/feed/",
       "siteUrl": "https://blog.didierstevens.com",
       "articles": [
+        {
+          "id": "http://blog.didierstevens.com/?p=11334",
+          "author": "Didier Stevens",
+          "description": "Rad Pro, a custom firmware for Geiger counters/radiation meters, has a random number generator. It is a Hardware Random Number Generator, it generates random numbers from a physical process (radiation). From the main screen: You go into the settings menu to Random generator: And there you have many options: I select Alphanumeric, and this gives […]",
+          "link": "https://blog.didierstevens.com/2026/11/27/rad-pro-random-number-generator/",
+          "publishedOn": "2026-11-27T13:05:43.000Z",
+          "wordCount": 3150,
+          "title": "Rad Pro Random Number Generator",
+          "imageUrl": "https://blog.didierstevens.com/wp-content/uploads/2026/11/image-8.png"
+        },
         {
           "id": "http://blog.didierstevens.com/?p=11328",
           "author": "Didier Stevens",
@@ -14595,16 +14595,6 @@
           "wordCount": 2721,
           "title": "AI Findings are Cheap to Find & Costly to Trust",
           "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/Blog_AI-Findings-Cheap-Find-Costly-Trust.png"
-        },
-        {
-          "id": "https://bishopfox.com/blog/journey-into-claudes-sandbox",
-          "author": null,
-          "description": "What started as a question about Claude’s sandbox turned into a connected investigation of container internals, process memory, and authorization tokens. Bishop Fox researcher Chris Davis documents what Claude revealed, what it handed over, and what that means for defense in depth.",
-          "link": "https://bishopfox.com/blog/journey-into-claudes-sandbox",
-          "publishedOn": "2026-10-29T13:00:00.000Z",
-          "wordCount": 4062,
-          "title": "A Journey into Claude's Sandbox",
-          "imageUrl": "https://assets.bishopfox.com/prod-1437/Icons/_1200x630_crop_center-center_82_none/Blog_Journey-Claudes-Sandbox.png?mtime=1793287613"
         }
       ]
     },
@@ -14613,6 +14603,26 @@
       "feedUrl": "https://www.synack.com/blog/feed/",
       "siteUrl": "https://www.synack.com/",
       "articles": [
+        {
+          "id": "https://www.synack.com/?p=31688",
+          "author": "PJ Schlumbrecht",
+          "description": "Penetration testing a SaaS platform differs from testing a single-tenant application mainly in three ways: tenant isolation, production testing constraints, and customer-driven requirements. Tenant-scoped authorization testing is the largest scope difference, since a flaw that lets one customer reach another customer's data is a category of risk a single-tenant application simply does not have. Establishing correct scope matters more than testing depth alone.\nThe post Penetration Testing for Enterprise SaaS Platforms: What Changes at Scale appeared first on Synack.",
+          "link": "https://www.synack.com/blog/penetration-testing-enterprise-saas-platforms/",
+          "publishedOn": "2026-11-24T15:44:04.000Z",
+          "wordCount": 5554,
+          "title": "Penetration Testing for Enterprise SaaS Platforms: What Changes at Scale",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/synack-enterprise-saas-platforms-og.webp"
+        },
+        {
+          "id": "https://www.synack.com/?p=31681",
+          "author": "Angela Heindl-Schober",
+          "description": "Continuous security validation repeatedly tests security controls and exploitable risk as an environment changes, then verifies corrective action. In Synack’s State of Continuous Security Validation research, only 15% of surveyed teams described their validation as continuous.\nThe post Only 15% of Surveyed Teams Validate Continuously. What Should CISOs Change? appeared first on Synack.",
+          "link": "https://www.synack.com/blog/state-of-continuous-security-validation-findings/",
+          "publishedOn": "2026-11-23T15:25:45.000Z",
+          "wordCount": 5337,
+          "title": "Only 15% of Surveyed Teams Validate Continuously. What Should CISOs Change?",
+          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/synack-continuous-validation-og.webp"
+        },
         {
           "id": "https://www.synack.com/?p=31665",
           "author": "Tim Nordvedt",
@@ -14682,26 +14692,6 @@
           "wordCount": 5340,
           "title": "What Is Continuous Automated Penetration and Attack Testing?",
           "imageUrl": "https://www.synack.com/wp-content/uploads/2026/11/what-is-continuous-automated-penetration-and-attack-testing-og.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=31251",
-          "author": "PJ Schlumbrecht",
-          "description": "A complete API penetration test should cover discovery, authentication, authorization across every role and tenant, data exposure, injection, abuse and rate limiting, business logic, and configuration, backed by reproducible evidence and a defined retest. The checklist below is written as buyer requirements: statements a security team can check a vendor's proposal or final report against, not instructions for performing the test yourself.\nThe post API Penetration Testing Checklist: What Enterprise Security Teams Should Require appeared first on Synack.",
-          "link": "https://www.synack.com/blog/api-penetration-testing-checklist/",
-          "publishedOn": "2026-10-29T15:15:07.000Z",
-          "wordCount": 5641,
-          "title": "API Penetration Testing Checklist: What Enterprise Security Teams Should Require",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/api-penetration-testing-checklist.webp"
-        },
-        {
-          "id": "https://www.synack.com/?p=31189",
-          "author": "Nikola RTM",
-          "description": "Enterprise web application penetration testing typically runs on a multi-week cycle covering scoping, testing, reporting, and retest. Cost is driven mainly by application complexity and user role count, not page count or site size. The most common scoping mistake enterprises make is under-counting authenticated user roles, which quietly expands the actual testing effort well beyond what the initial scope assumed.\nThe post Web Application Penetration Testing Services for Enterprises: Scope, Timeline, and Cost appeared first on Synack.",
-          "link": "https://www.synack.com/blog/web-application-penetration-testing-services-enterprise/",
-          "publishedOn": "2026-10-27T12:14:39.000Z",
-          "wordCount": 5688,
-          "title": "Web Application Penetration Testing Services for Enterprises: Scope, Timeline, and Cost",
-          "imageUrl": "https://www.synack.com/wp-content/uploads/2026/10/synack-web-application-penetration-testing-services.webp"
         }
       ]
     },
@@ -16376,21 +16366,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.datocms-assets.com/75231/1793283687-1200x600-3.png"
-        },
-        {
-          "id": "https://www.wiz.io/blog/the-rise-of-agentic-attacks",
-          "author": "Avigayil Mechtinger",
-          "description": "AI agents are changing how attackers operate. Explore real-world cases of agentic attacks, learn how to identify their fingerprints, and discover what they mean for the future of cybersecurity.",
-          "link": "https://www.wiz.io/blog/the-rise-of-agentic-attacks",
-          "publishedOn": "2026-10-29T14:26:22.000Z",
-          "wordCount": 31077,
-          "title": "The Rise of Agentic Attacks: What They Look Like, and Where They're Headed",
-          "enclosure": {
-            "url": "https://www.datocms-assets.com/75231/1793285930-the-rise-of-agentic-attacks2.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.datocms-assets.com/75231/1793285930-the-rise-of-agentic-attacks2.png"
         }
       ]
     },
@@ -16399,6 +16374,16 @@
       "feedUrl": "https://cocomelonc.github.io/feed.xml",
       "siteUrl": "https://cocomelonc.github.io/",
       "articles": [
+        {
+          "id": "https://cocomelonc.github.io/malware/2026/11/26/malware-cryptography-47.html",
+          "author": null,
+          "description": "﷽",
+          "link": "https://cocomelonc.github.io/malware/2026/11/26/malware-cryptography-47.html",
+          "publishedOn": "2026-11-26T23:00:00.000Z",
+          "wordCount": 2002,
+          "title": "Malware and cryptography 47 - encrypt/decrypt payload via Trivium. Simple C example.",
+          "imageUrl": "https://cocomelonc.github.io/assets/images/237/2026-11-27_16-31.png"
+        },
         {
           "id": "https://cocomelonc.github.io/research/2026/11/18/physical-covert-channels-2.html",
           "author": null,
